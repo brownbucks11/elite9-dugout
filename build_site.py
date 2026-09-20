@@ -126,6 +126,13 @@ def build_roster(data_dir, page_id, roster_path):
             "goes_by": (cfg_p or {}).get("goes_by"),
             "hr": p["hr"], "perfect_games": p["perfect_games"], "no_hitters": p["no_hitters"], "shutouts": p["shutouts"],
         })
+    # optional photo of the player's button: docs/buttons/<number>.png|jpg|webp
+    photos = {}
+    for f in (HERE / "docs" / "buttons").glob("*"):
+        if f.stem.isdigit() and f.suffix.lower() in (".png", ".jpg", ".jpeg", ".webp"):
+            photos[int(f.stem)] = f"buttons/{f.name}"
+    for x in players:
+        x["photo"] = photos.get(x["number"])
     players.sort(key=lambda x: (x["number"] is None, x["number"] or 0, x["name"]))
     unmatched = [c["name"] for c in cfg.get("players", []) if norm(c["name"]) not in matched]
     dup = defaultdict(list)

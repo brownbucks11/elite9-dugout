@@ -7,7 +7,7 @@
 <meta name="description" content="Elite 9 (9U) Top Gun schedule, results, and standings for parents.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600&family=Graduate&family=Kaushan+Script&display=swap">
 <style>
   :root {
     color-scheme: light dark;
@@ -191,17 +191,20 @@
   .field a { font-size: 13px; font-weight: 600; }
 
   /* Roster */
-  .roster { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 10px; }
-  .player { display: flex; gap: 12px; align-items: center; background: var(--paper); border: 1px solid var(--line); border-radius: 6px; padding: 10px 12px; }
-  .player .num { flex: 0 0 52px; height: 52px; display: grid; place-items: center; background: var(--navy); color: var(--amber); border-radius: 6px; font-family: var(--display); font-size: 30px; font-weight: 700; font-variant-numeric: tabular-nums; }
-  .player.dup .num { box-shadow: inset 0 0 0 2px var(--loss); }
-  .pname { font-family: var(--display); font-size: 20px; font-weight: 600; line-height: 1.1; }
+  .roster { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 10px; }
+  .player { display: flex; gap: 14px; align-items: center; background: var(--paper); border: 1px solid var(--line); border-radius: 6px; padding: 10px 12px; }
+  .btn, .btn-img { flex: 0 0 84px; width: 84px; height: 84px; border-radius: 50%; filter: drop-shadow(0 2px 3px rgba(0,0,0,.35)); }
+  .btn-img { object-fit: cover; }
+  .player.dup .btn, .player.dup .btn-img { outline: 2px solid var(--loss); outline-offset: 2px; }
+  .pname { font-family: var(--display); font-size: 22px; font-weight: 600; line-height: 1.1; }
   .pbody { min-width: 0; flex: 1; }
-  .pstats { display: flex; gap: 10px; margin-top: 5px; font-size: 11px; letter-spacing: .5px; text-transform: uppercase; color: var(--ink-2); }
-  .pstats span { display: inline-flex; align-items: baseline; gap: 3px; }
-  .pstats b { font-family: var(--display); font-size: 16px; font-weight: 600; color: var(--ink-2); font-variant-numeric: tabular-nums; }
-  .pstats span.has b { color: var(--ink); }
-  .pstats span.has { color: var(--ink); }
+  .ach { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 7px; }
+  .ach-item { display: inline-flex; align-items: center; gap: 4px; padding: 3px 8px 3px 5px; border-radius: 999px; border: 1px solid var(--line); font-size: 11px; color: var(--ink-2); opacity: .55; }
+  .ach-item svg { width: 15px; height: 15px; color: var(--ink-2); }
+  .ach-item b { font-family: var(--display); font-size: 15px; font-weight: 700; font-variant-numeric: tabular-nums; }
+  .ach-item i { font-style: normal; }
+  .ach-item.earned { opacity: 1; border-color: var(--amber); background: var(--me-bg); color: var(--ink); }
+  .ach-item.earned svg { color: var(--amber); }
 
   /* Team sheet */
   .sheet-back { position: fixed; inset: 0; background: rgba(10, 14, 28, .55); display: flex; justify-content: flex-end; z-index: 10; }
@@ -636,15 +639,40 @@
       return;
     }
     const dups = r.duplicate_numbers || {};
-    const STATS = [["hr", "HR", "Home runs"], ["perfect_games", "PG", "Perfect games"], ["no_hitters", "NH", "No-hitters"], ["shutouts", "SHO", "Shutouts"]];
-    const statRow = (p) => `<div class="pstats">${STATS.map(([k, ab, title]) => `<span title="${title}" class="${p[k] ? "has" : ""}"><b>${p[k] || 0}</b>${ab}</span>`).join("")}</div>`;
+    // Achievement chips: icon + count, lit when earned. Icons are tiny inline SVGs (24x24 viewBox).
+    const ICON = {
+      hr: '<svg viewBox="0 0 24 24"><circle cx="14" cy="12" r="6.5" fill="currentColor"/><path d="M10.5 7.5c2 1.2 3 3 3 4.5s-1 3.3-3 4.5M17.5 7.5c-2 1.2-3 3-3 4.5s1 3.3 3 4.5" stroke="var(--paper)" stroke-width="1.2" fill="none"/><path d="M2 9h5M1 12h5M2 15h5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>',
+      perfect_games: '<svg viewBox="0 0 24 24"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4 6.1 20.5l1.2-6.5L2.5 9.4l6.6-.9z" fill="currentColor"/></svg>',
+      no_hitters: '<svg viewBox="0 0 24 24"><path d="M12 2l8 3v6c0 5-3.4 9.2-8 11-4.6-1.8-8-6-8-11V5z" fill="currentColor"/><path d="M8.5 12.5l2.5 2.5 4.5-5" stroke="var(--paper)" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+      shutouts: '<svg viewBox="0 0 24 24"><rect x="4" y="10" width="16" height="11" rx="2" fill="currentColor"/><path d="M8 10V7a4 4 0 018 0v3" stroke="currentColor" stroke-width="2.2" fill="none"/><circle cx="12" cy="15.5" r="1.6" fill="var(--paper)"/></svg>',
+    };
+    const ACH = [["hr", "Home run", "Home runs"], ["perfect_games", "Perfect game", "Perfect games"], ["no_hitters", "No-hitter", "No-hitters"], ["shutouts", "Shutout", "Shutouts"]];
+    const achRow = (p) => `<div class="ach">${ACH.map(([k, one, many]) => {
+      const n = p[k] || 0;
+      return `<span class="ach-item ${n ? "earned" : ""}" title="${many}">${ICON[k]}<b>${n}</b><i>${n === 1 ? one : many}</i></span>`;
+    }).join("")}</div>`;
+    // The team's pin-back buttons: navy disc, steel-blue varsity number with a white outline,
+    // first name in script up the left side. A real photo in docs/buttons/<number>.png wins when present.
+    const badge = (p) => {
+      if (p.photo) return `<img class="btn-img" src="${esc(p.photo)}" alt="#${p.number} button" loading="lazy">`;
+      const num = p.number != null ? String(p.number) : "";
+      const size = num.length > 1 ? 46 : 56;
+      const first = esc((p.name || "").split(" ")[0]);
+      return `<svg class="btn" viewBox="0 0 100 100" role="img" aria-label="#${num} ${first}">
+        <defs><radialGradient id="g${p.number}" cx="35%" cy="28%" r="70%"><stop offset="0" stop-color="#ffffff" stop-opacity=".22"/><stop offset=".55" stop-color="#ffffff" stop-opacity="0"/></radialGradient></defs>
+        <circle cx="50" cy="50" r="48" fill="#1a2440" stroke="#0b1020" stroke-width="1.5"/>
+        <text x="${num.length > 1 ? 58 : 56}" y="${num.length > 1 ? 67 : 70}" text-anchor="middle" font-family="Graduate, 'Arial Black', Impact, sans-serif" font-size="${size}" fill="#5f84bd" stroke="#ffffff" stroke-width="2.2" paint-order="stroke" letter-spacing="-2">${num || "–"}</text>
+        <text transform="translate(24 78) rotate(-90)" font-family="'Kaushan Script', 'Brush Script MT', cursive" font-size="13" fill="#ffffff" stroke="#5f84bd" stroke-width=".35" paint-order="stroke">${first}</text>
+        <circle cx="50" cy="50" r="48" fill="url(#g${p.number})"/>
+      </svg>`;
+    };
     $("#panel-roster").innerHTML = `
       <h2 class="section-title">Roster <span class="sub">${r.players.length} active players · Top Gun ${esc(r.season || "current season")}</span></h2>
       <ul class="roster">${r.players.map((p) => `<li class="player ${p.number != null && dups[p.number] ? "dup" : ""}">
-        <div class="num">${p.number != null ? p.number : "–"}</div>
-        <div class="pbody"><div class="pname">${esc(p.name)}</div>${statRow(p)}</div>
+        ${badge(p)}
+        <div class="pbody"><div class="pname">${esc(p.name)}</div>${achRow(p)}</div>
       </li>`).join("")}</ul>
-      <p class="when">HR home runs · PG perfect games · NH no-hitters · SHO shutouts, as recorded on Top Gun this season.</p>
+      <p class="when">Home runs, perfect games, no-hitters and shutouts as recorded on Top Gun this season — a chip lights up once it's been earned.</p>
       ${Object.keys(dups).length ? `<p class="when">Number ${Object.keys(dups).map((n) => `#${n} (${esc(dups[n].join(", "))})`).join(", ")} appears twice on the board — fix in roster.json.</p>` : ""}
       ${r.not_on_topgun && r.not_on_topgun.length ? `<p class="when">In roster.json but not an active Top Gun player: ${esc(r.not_on_topgun.join(", "))}.</p>` : ""}
       <p class="when">Players and season stats from ${D.team_url ? `<a href="${esc(D.team_url)}" target="_blank" rel="noopener">${esc(D.team)}'s Top Gun page</a>` : "Top Gun"} (active players only${r.inactive ? `, ${r.inactive} former players not shown` : ""}); jersey numbers from the team's board.</p>`;
