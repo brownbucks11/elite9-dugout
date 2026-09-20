@@ -1,6 +1,6 @@
 {
   "_comment": "Jersey numbers from the Elite9 Baseball Matrix board (8/10/2026). Players come from Top Gun's Players tab (Active only); matched by full name, then by last name. 'goes_by' (nickname + last name) is what the page shows; Top Gun's legal name is only used for matching. name_style: 'full' or 'initial' (first name + last initial).",
-  "name_style": "full",
+  "name_style": "initial",
   "players": [
     {"number": 23, "name": "William Simon",    "goes_by": "Lane Simon"},
     {"number": 4,  "name": "Keegan Hunter"},
