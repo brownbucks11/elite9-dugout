@@ -118,6 +118,8 @@
   .bracket-title { font-family: var(--display); font-size: 18px; font-weight: 600; text-transform: uppercase; letter-spacing: .5px; display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
   .champ { display: inline-flex; align-items: center; gap: 5px; font-family: var(--body); font-size: 13px; font-weight: 600; text-transform: none; letter-spacing: 0; color: var(--ink); background: var(--me-bg); border: 1px solid var(--amber); border-radius: 999px; padding: 2px 10px 2px 7px; }
   .champ svg { color: var(--amber); }
+  .champ.plain { background: var(--chalk); border-color: var(--line); color: var(--ink-2); }
+  .champ.plain button { color: var(--ink); }
   .champ button { background: none; border: 0; padding: 0; font: inherit; font-weight: 600; color: inherit; cursor: pointer; }
   .bracket-wrap { display: flex; gap: 20px; align-items: flex-start; flex-wrap: wrap; }
   .bracket-scroll { overflow-x: auto; padding-bottom: 6px; flex: 1 1 520px; min-width: 0; }
@@ -137,7 +139,7 @@
   .placings { list-style: none; margin: 0; padding: 8px 12px; border: 1px solid var(--line); border-radius: 6px; background: var(--chalk); display: grid; gap: 6px; flex: 0 0 auto; min-width: 200px; font-size: 14px; }
   .placings li { display: flex; align-items: center; gap: 10px; }
   .placings .phead { font-size: 11px; letter-spacing: 1.2px; text-transform: uppercase; color: var(--ink-2); }
-  .placings .place { font-family: var(--display); font-weight: 700; font-size: 16px; width: 34px; color: var(--ink-2); }
+  .placings .place { font-family: var(--display); font-weight: 600; font-size: 15px; min-width: 92px; color: var(--ink-2); white-space: nowrap; }
   .placings li:first-child .place { color: var(--amber); }
   .placings button { background: none; border: 0; padding: 0; font: inherit; color: var(--ink); cursor: pointer; }
   .placings li:first-child button { font-weight: 600; }
@@ -461,7 +463,9 @@
   // ---- Bracket play, drawn as a bracket ----------------------------------------
   const TROPHY = '<svg viewBox="0 0 24 24" width="16" height="16"><path d="M7 3h10v2h3v3c0 2.5-2 4.5-4.5 4.8A5 5 0 0113 15.9V18h3v2H8v-2h3v-2.1a5 5 0 01-2.5-3.1C6 12.5 4 10.5 4 8V5h3zm-1 4v1c0 1.3.9 2.4 2.1 2.8A7 7 0 018 9V7zm12 0h-2v2c0 .6-.1 1.2-.1 1.8C17.1 10.4 18 9.3 18 8z" fill="currentColor"/></svg>';
   const PH = /^(winner|loser|seed|tbd)/i;
-  function bracketHtml(section, games) {
+  function bracketHtml(section, games, index = 0) {
+    const bracketName = section.replace(/ bracket$/i, "");
+    const isTop = index === 0 || /gold|championship/i.test(section);   // only the top bracket has a Champion
     const byNum = new Map(games.map((g) => [g.game, g]));
     const roundOf = (g, depth = 0) => {
       const refs = [g.from_a, g.from_b].filter((r) => r && byNum.has(r.game));
@@ -477,7 +481,7 @@
     // Places are within the bracket, as Top Gun scores them: a two-game Silver is 1st/2nd then 3rd/4th (Silver).
     const referenced = new Set(games.flatMap((g) => [g.from_a, g.from_b].filter(Boolean).map((r) => r.game)));
     const tree = referenced.size > 0;
-    const placeLabel = (p) => p === 1 && (tree || games.length === 1) ? "Champion" : `${ordinal(p)} place`;
+    const placeLabel = (p) => p === 1 && isTop && (tree || games.length === 1) ? "Champion" : `${ordinal(p)} place · ${bracketName}`;
     // a team keeps its original seed on every line it advances to
     const seedOf = new Map();
     games.forEach((g) => ["a", "b"].forEach((side) => { const n = g["team_" + side], sd = g["seed_" + side]; if (sd && !PH.test(n)) seedOf.set(norm(n), sd); }));
@@ -558,14 +562,13 @@
       [...gamePos.entries()].sort((a, b) => a[1] - b[1]).forEach(([num, p]) => { const g = byNum.get(num); places.push([p, winnerOf(g)], [p + 1, loserOf(g)]); });
       champ = games.length === 1 ? winnerOf(games[0]) : null;   // two standalone games have no bracket champion
     }
-    const bracketName = section.replace(/ bracket$/i, "");
-    return `<div class="bracket-block"><div class="bracket-title">${esc(section)} ${champ ? `<span class="champ">${TROPHY} ${teamBtn(champ)}</span>` : ""}</div>
+    return `<div class="bracket-block"><div class="bracket-title">${esc(section)} ${champ ? `<span class="champ ${isTop ? "" : "plain"}">${isTop ? TROPHY : `1st ${esc(bracketName)} ·`} ${teamBtn(champ)}</span>` : ""}</div>
       <div class="bracket-wrap"><div class="bracket-scroll"><svg class="bracket-svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}">${out.join("")}</svg></div>
-      <ol class="placings"><li class="phead">${esc(bracketName)} placings</li>${places.map(([p, n]) => `<li><span class="place">${ordinal(p)}</span>${n ? teamBtn(n) : '<span class="from">TBD</span>'}</li>`).join("")}</ol></div></div>`;
+      <ol class="placings"><li class="phead">${esc(bracketName)} bracket</li>${places.map(([p, n]) => `<li><span class="place">${p === 1 && isTop && (tree || games.length === 1) ? "Champion" : `${ordinal(p)} ${esc(bracketName)}`}</span>${n ? teamBtn(n) : '<span class="from">TBD</span>'}</li>`).join("")}</ol></div></div>`;
   }
   function bracketsHtml(games) {
     const secs = [...new Set(games.filter((g) => !/^pool/i.test(g.section)).map((g) => g.section))];
-    return secs.length ? `<div class="brackets">${secs.map((s) => bracketHtml(s, games.filter((g) => g.section === s))).join("")}</div>` : "";
+    return secs.length ? `<div class="brackets">${secs.map((s, i) => bracketHtml(s, games.filter((g) => g.section === s), i)).join("")}</div>` : "";
   }
 
   // ---- Results ---------------------------------------------------------------
