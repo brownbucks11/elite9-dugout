@@ -2280,7 +2280,7 @@
           "seed": 3,
           "team": "USA Scout Carolinas",
           "location": "Charlotte, NC",
-          "won": 3,
+          "won": 4,
           "lost": 1,
           "runs_allowed": 7,
           "runs_scored": 12,
@@ -2291,7 +2291,7 @@
           "team": "CBC Knuckleheads Fox",
           "location": "Charlotte, NC",
           "won": 3,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 15,
           "runs_scored": 14,
           "team_page_id": 36042
@@ -2448,10 +2448,10 @@
             "field": "AHS:Field #1",
             "team_a": "Winner Game #3 CBC Knuckleheads Fox",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 1,
             "team_b": "Winner Game #4 USA Scout Carolinas",
             "seed_b": null,
-            "score_b": null
+            "score_b": 12
           }
         ]
       }
@@ -2756,5 +2756,5 @@
   },
   "site_last_updated": "09/17/2026 12:42 PM",
   "tournament_id": 12517,
-  "fetched_at": "2026-09-20T18:05"
+  "fetched_at": "2026-09-20T19:02"
 }
