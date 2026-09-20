@@ -12,7 +12,7 @@
           "seed": 1,
           "team": "GF Sandlot Braswell",
           "location": "GRANITE FALLS, NC",
-          "won": 1,
+          "won": 2,
           "lost": 1,
           "runs_allowed": 22,
           "runs_scored": 17,
@@ -32,7 +32,7 @@
           "seed": 3,
           "team": "Summerfield Stars",
           "location": "Summerfield, NC",
-          "won": 2,
+          "won": 3,
           "lost": 0,
           "runs_allowed": 2,
           "runs_scored": 32,
@@ -63,7 +63,7 @@
           "team": "YC Sluggers",
           "location": "Boonville, NC",
           "won": 1,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 13,
           "runs_scored": 13,
           "team_page_id": 31574
@@ -92,7 +92,7 @@
           "seed": 9,
           "team": "Camel City",
           "location": "Pfafftown, NC",
-          "won": 0,
+          "won": 1,
           "lost": 2,
           "runs_allowed": 12,
           "runs_scored": 6,
@@ -113,7 +113,7 @@
           "team": "Performance Baseball X2 Elite",
           "location": "Winston-Salem, NC",
           "won": 2,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 15,
           "runs_scored": 24,
           "team_page_id": 37252
@@ -123,7 +123,7 @@
           "team": "Flying Pigs Lexington 12U",
           "location": "LINWOOD, NC",
           "won": 0,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 42,
           "runs_scored": 2,
           "team_page_id": 38994
@@ -284,10 +284,10 @@
             "field": "DYC:Bird Co Field",
             "team_a": "Summerfield Stars",
             "seed_a": 1,
-            "score_a": null,
+            "score_a": 11,
             "team_b": "Performance Baseball X2 Elite",
             "seed_b": 4,
-            "score_b": null
+            "score_b": 2
           },
           {
             "game": 2,
@@ -306,7 +306,7 @@
             "day": "Sun",
             "time": "3:00 PM",
             "field": "DYC:Bird Co Field",
-            "team_a": "Winner Game #1",
+            "team_a": "Winner Game #1 Summerfield Stars",
             "seed_a": null,
             "score_a": null,
             "team_b": "Winner Game #2",
@@ -322,10 +322,10 @@
             "field": "DYC:K&W Service",
             "team_a": "YC Sluggers",
             "seed_a": 5,
-            "score_a": null,
+            "score_a": 0,
             "team_b": "GF Sandlot Braswell",
             "seed_b": 8,
-            "score_b": null
+            "score_b": 15
           },
           {
             "game": 2,
@@ -344,7 +344,7 @@
             "day": "Sun",
             "time": "3:00 PM",
             "field": "DYC:K&W Service",
-            "team_a": "Winner Game #1",
+            "team_a": "Winner Game #1 GF Sandlot Braswell",
             "seed_a": null,
             "score_a": null,
             "team_b": "Winner Game #2",
@@ -360,10 +360,10 @@
             "field": "DYC:Farm Bureau",
             "team_a": "Camel City",
             "seed_a": 9,
-            "score_a": null,
+            "score_a": 5,
             "team_b": "Flying Pigs Lexington 12U",
             "seed_b": 12,
-            "score_b": null
+            "score_b": 0
           },
           {
             "game": 2,
@@ -382,7 +382,7 @@
             "day": "Sun",
             "time": "3:00 PM",
             "field": "DYC:Farm Bureau",
-            "team_a": "Winner Game #1",
+            "team_a": "Winner Game #1 Camel City",
             "seed_a": null,
             "score_a": null,
             "team_b": "Winner Game #2",
@@ -402,7 +402,7 @@
           "team": "GF Sandlot 12U Church",
           "location": "Granite Falls, NC",
           "won": 0,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 29,
           "runs_scored": 4,
           "team_page_id": 30857
@@ -431,7 +431,7 @@
           "seed": 4,
           "team": "Dirtbags 13u- Harrington",
           "location": "Taylorsville, NC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
           "runs_allowed": 11,
           "runs_scored": 28,
@@ -441,7 +441,7 @@
           "seed": 5,
           "team": "NC Made 13U",
           "location": "Mocksville, NC",
-          "won": 1,
+          "won": 2,
           "lost": 1,
           "runs_allowed": 9,
           "runs_scored": 8,
@@ -452,7 +452,7 @@
           "team": "Payton Martin Performance 13U - 2026",
           "location": "Winston Salem, NC",
           "won": 0,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 15,
           "runs_scored": 8,
           "team_page_id": 37781
@@ -541,10 +541,10 @@
             "field": "DYC:Zach Wright",
             "team_a": "NC Made 13U",
             "seed_a": 4,
-            "score_a": null,
+            "score_a": 14,
             "team_b": "Payton Martin Performance 13U - 2026",
             "seed_b": 5,
-            "score_b": null
+            "score_b": 3
           },
           {
             "game": 2,
@@ -553,17 +553,17 @@
             "field": "DYC:Zach Wright",
             "team_a": "Dirtbags 13u- Harrington",
             "seed_a": 3,
-            "score_a": null,
+            "score_a": 9,
             "team_b": "GF Sandlot 12U Church",
             "seed_b": 6,
-            "score_b": null
+            "score_b": 1
           },
           {
             "game": 3,
             "day": "Sun",
             "time": "1:30 PM",
             "field": "DYC:Zach Wright",
-            "team_a": "Winner Game #1",
+            "team_a": "Winner Game #1 NC Made 13U",
             "seed_a": null,
             "score_a": null,
             "team_b": "EP Select 13u",
@@ -575,7 +575,7 @@
             "day": "Sun",
             "time": "3:30 PM",
             "field": "DYC:Zach Wright",
-            "team_a": "Winner Game #2",
+            "team_a": "Winner Game #2 Dirtbags 13u- Harrington",
             "seed_a": null,
             "score_a": null,
             "team_b": "Pfafftown Raiders Baseball 2032",
@@ -599,5 +599,6 @@
     }
   },
   "site_last_updated": "06/30/2026 3:56 PM",
-  "tournament_id": 13561
+  "tournament_id": 13561,
+  "fetched_at": "2026-09-20T13:16"
 }

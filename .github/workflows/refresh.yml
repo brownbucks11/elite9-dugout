@@ -7,7 +7,13 @@ on:
     - cron: "0 4-23 * * 4"       # Thursday, hourly (from midnight Eastern)
     - cron: "0 * * * 5,6,0"      # Friday, Saturday, Sunday, hourly
     - cron: "0 0-3 * * 1"        # Sunday 8-11 PM Eastern (Monday early UTC)
+    - cron: "30 12 * * 1,4"      # Mon + Thu 8:30 AM Eastern: also discover upcoming area events
   workflow_dispatch:             # "Run workflow" button in the Actions tab
+    inputs:
+      discover:
+        description: "Also sweep the tournament list for recent area events"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -36,7 +42,7 @@ jobs:
           python -m playwright install --with-deps chromium
 
       - name: Fetch pages and rebuild docs/
-        run: python refresh.py
+        run: python refresh.py ${{ (github.event.schedule == '30 12 * * 1,4' || inputs.discover) && '--discover' || '' }}
 
       - name: Commit if anything changed
         run: |

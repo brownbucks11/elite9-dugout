@@ -50,6 +50,11 @@ shown under Next Up - add a tournament ID + dates there when a new one is booked
 GitHub Actions runs `refresh.py` and commits the results, so the page updates itself:
 - three times a day (7 AM, 1 PM, 7 PM Eastern)
 - hourly Thursday through Sunday
+- Monday and Thursday 8:30 AM it also sweeps Top Gun's tournament list for upcoming Charlotte-area
+  events (`refresh.py --discover`) and adds them to `data/tracked.json`; tracked events are
+  re-fetched from a week before they start until 3 days after, so other 9U results land in
+  Standings without anyone typing IDs. The list page only shows current/upcoming events, which is
+  why it looks ahead rather than back.
 - or on demand: Actions tab -> "Refresh scores and rebuild site" -> Run workflow
 
 Cron times are in UTC in the file; they're set for EDT, so after Nov 1 they run an hour
