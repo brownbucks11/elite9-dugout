@@ -1,0 +1,122 @@
+{
+  "title": "Game Times & Scores | Top Gun",
+  "name": "TOP GUN-USA SPORTS--FRIDAY NIGHT LIGHTS",
+  "dates": "September 4 in Mocksville/Winston Salem/Clemm, NC",
+  "url": "https://playtopgunsports.com/GameTimesResults.aspx?trnid=13555",
+  "complexes": {},
+  "divisions": {
+    "10U": {
+      "notes": [],
+      "standings": [
+        {
+          "seed": 1,
+          "team": "Triad Cardinals 10U",
+          "location": "Kernersville, NC",
+          "won": 2,
+          "lost": 1,
+          "runs_allowed": 4,
+          "runs_scored": 15,
+          "team_page_id": 25996
+        },
+        {
+          "seed": 2,
+          "team": "Dirtbags National",
+          "location": "Lexington, NC",
+          "won": 0,
+          "lost": 1,
+          "runs_allowed": 15,
+          "runs_scored": 14,
+          "team_page_id": 32059
+        },
+        {
+          "seed": 3,
+          "team": "Canes Atlantic 10u Wagner",
+          "location": "Mooresville, NC",
+          "won": 2,
+          "lost": 0,
+          "runs_allowed": 10,
+          "runs_scored": 24,
+          "team_page_id": 38280
+        },
+        {
+          "seed": 4,
+          "team": "Richfield Rampage",
+          "location": "Richfield, NC",
+          "won": 0,
+          "lost": 2,
+          "runs_allowed": 24,
+          "runs_scored": 0,
+          "team_page_id": 36574
+        }
+      ],
+      "sections": {
+        "Pool Play": [
+          {
+            "game": 1,
+            "day": "Fri",
+            "time": "6:00 PM",
+            "field": "DYC:Bird Co Field",
+            "team_a": "Canes Atlantic 10u Wagner",
+            "seed_a": null,
+            "score_a": 10,
+            "team_b": "Dirtbags National",
+            "seed_b": null,
+            "score_b": 10
+          },
+          {
+            "game": 2,
+            "day": "Fri",
+            "time": "6:00 PM",
+            "field": "DYC:K&W Service",
+            "team_a": "Richfield Rampage",
+            "seed_a": null,
+            "score_a": 0,
+            "team_b": "Triad Cardinals 10U",
+            "seed_b": null,
+            "score_b": 10
+          },
+          {
+            "game": 3,
+            "day": "Fri",
+            "time": "7:30 PM",
+            "field": "DYC:Bird Co Field",
+            "team_a": "Canes Atlantic 10u Wagner",
+            "seed_a": null,
+            "score_a": 14,
+            "team_b": "Richfield Rampage",
+            "seed_b": null,
+            "score_b": 0
+          },
+          {
+            "game": 4,
+            "day": "Fri",
+            "time": "7:30 PM",
+            "field": "DYC:K&W Service",
+            "team_a": "Dirtbags National",
+            "seed_a": null,
+            "score_a": 4,
+            "team_b": "Triad Cardinals 10U",
+            "seed_b": null,
+            "score_b": 5
+          }
+        ],
+        "Gold Bracket": [
+          {
+            "game": 1,
+            "day": "Fri",
+            "time": "9:00 PM",
+            "field": "DYC:Bird Co Field",
+            "team_a": "",
+            "seed_a": 1,
+            "score_a": 1,
+            "team_b": "",
+            "seed_b": 2,
+            "score_b": 12
+          }
+        ]
+      }
+    }
+  },
+  "site_last_updated": "06/30/2026 4:44 PM",
+  "tournament_id": 13555
+}

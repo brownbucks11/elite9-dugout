@@ -1,0 +1,681 @@
+{
+  "title": "Game Times & Scores | Top Gun",
+  "name": "GHOST SUMMER MELT DOWN---- TOP GUN-USA SPORTS EVENT",
+  "dates": "August 8 - 9 in Greater Charlotte Area, NC",
+  "url": "https://playtopgunsports.com/GameTimesResults.aspx?trnid=12511",
+  "complexes": {
+    "CA": {
+      "name": "Combine Academy",
+      "address": "270 Car Farm Rd. Lincolnton, NC 28092"
+    },
+    "Charlotte": {
+      "name": "Greater Charlotte Area",
+      "address": "TBA Greater Charlotte Area, NC 28262"
+    },
+    "OHS": {
+      "name": "Olympic High School",
+      "address": "4301 Sandy porter road charlotte, NC 28092"
+    },
+    "POBAOT": {
+      "name": "Phillip O. Berry Academy of Technology",
+      "address": "1430 Alleghany Street Charlotte, NC 28208"
+    },
+    "SP": {
+      "name": "Stinger Park",
+      "address": "1320 North 12th St. Bessemer City, NC 28016"
+    }
+  },
+  "divisions": {
+    "11U": {
+      "notes": [],
+      "standings": [
+        {
+          "seed": 1,
+          "team": "Carolina Forge 11U",
+          "location": "Gastonia, NC",
+          "won": 0,
+          "lost": 3,
+          "runs_allowed": 45,
+          "runs_scored": 7,
+          "team_page_id": 34236
+        },
+        {
+          "seed": 2,
+          "team": "CC Cardinals 11U",
+          "location": "Shelby, NC",
+          "won": 3,
+          "lost": 0,
+          "runs_allowed": 7,
+          "runs_scored": 45,
+          "team_page_id": 38249
+        }
+      ],
+      "sections": {
+        "Pool Play": [
+          {
+            "game": 1,
+            "day": "Sat",
+            "time": "10:45 AM",
+            "field": "SP:Field #1",
+            "team_a": "CC Cardinals 11U",
+            "seed_a": null,
+            "score_a": 16,
+            "team_b": "Carolina Forge 11U",
+            "seed_b": null,
+            "score_b": 2
+          },
+          {
+            "game": 2,
+            "day": "Sat",
+            "time": "12:30 PM",
+            "field": "SP:Field #1",
+            "team_a": "Carolina Forge 11U",
+            "seed_a": null,
+            "score_a": 1,
+            "team_b": "CC Cardinals 11U",
+            "seed_b": null,
+            "score_b": 9
+          },
+          {
+            "game": 3,
+            "day": "Sat",
+            "time": "2:15 PM",
+            "field": "SP:Field #1",
+            "team_a": "Carolina Forge 11U",
+            "seed_a": null,
+            "score_a": 4,
+            "team_b": "CC Cardinals 11U",
+            "seed_b": null,
+            "score_b": 20
+          }
+        ]
+      }
+    },
+    "12U": {
+      "notes": [],
+      "standings": [
+        {
+          "seed": 1,
+          "team": "Armor Elite",
+          "location": "Denver, NC",
+          "won": 3,
+          "lost": 1,
+          "runs_allowed": 35,
+          "runs_scored": 52,
+          "team_page_id": 30535
+        },
+        {
+          "seed": 2,
+          "team": "Davidson Force",
+          "location": "Davidson, NC",
+          "won": 3,
+          "lost": 1,
+          "runs_allowed": 16,
+          "runs_scored": 49,
+          "team_page_id": 34032
+        },
+        {
+          "seed": 3,
+          "team": "KLSC Tomahawks",
+          "location": "Belmont, NC",
+          "won": 0,
+          "lost": 4,
+          "runs_allowed": 71,
+          "runs_scored": 21,
+          "team_page_id": 38199
+        }
+      ],
+      "sections": {
+        "Pool Play": [
+          {
+            "game": 1,
+            "day": "Sat",
+            "time": "10:45 AM",
+            "field": "SP:Field #3",
+            "team_a": "Armor Elite",
+            "seed_a": null,
+            "score_a": 13,
+            "team_b": "KLSC Tomahawks",
+            "seed_b": null,
+            "score_b": 10
+          },
+          {
+            "game": 2,
+            "day": "Sat",
+            "time": "12:30 PM",
+            "field": "SP:Field #3",
+            "team_a": "Armor Elite",
+            "seed_a": null,
+            "score_a": 4,
+            "team_b": "Davidson Force",
+            "seed_b": null,
+            "score_b": 13
+          },
+          {
+            "game": 3,
+            "day": "Sat",
+            "time": "2:15 PM",
+            "field": "SP:Field #3",
+            "team_a": "Davidson Force",
+            "seed_a": null,
+            "score_a": 13,
+            "team_b": "KLSC Tomahawks",
+            "seed_b": null,
+            "score_b": 1
+          },
+          {
+            "game": 4,
+            "day": "Sun",
+            "time": "11:00 AM",
+            "field": "SP:Field #3",
+            "team_a": "Armor Elite",
+            "seed_a": null,
+            "score_a": 27,
+            "team_b": "KLSC Tomahawks",
+            "seed_b": null,
+            "score_b": 7
+          },
+          {
+            "game": 5,
+            "day": "Sun",
+            "time": "12:45 PM",
+            "field": "SP:Field #3",
+            "team_a": "Davidson Force",
+            "seed_a": null,
+            "score_a": 18,
+            "team_b": "KLSC Tomahawks",
+            "seed_b": null,
+            "score_b": 3
+          },
+          {
+            "game": 6,
+            "day": "Sun",
+            "time": "2:30 PM",
+            "field": "SP:Field #3",
+            "team_a": "Davidson Force",
+            "seed_a": null,
+            "score_a": 5,
+            "team_b": "Armor Elite",
+            "seed_b": null,
+            "score_b": 8
+          }
+        ]
+      }
+    },
+    "14U": {
+      "notes": [],
+      "standings": [
+        {
+          "seed": 1,
+          "team": "Rawlings Tigers Chronister",
+          "location": "Harrisburg, NC",
+          "won": 0,
+          "lost": 2,
+          "runs_allowed": 24,
+          "runs_scored": 2,
+          "team_page_id": 33231
+        },
+        {
+          "seed": 2,
+          "team": "Sox Baseball",
+          "location": "Mocksville, NC",
+          "won": 1,
+          "lost": 1,
+          "runs_allowed": 16,
+          "runs_scored": 11,
+          "team_page_id": 22155
+        },
+        {
+          "seed": 3,
+          "team": "SBA Dallas",
+          "location": "Dallas, NC",
+          "won": 3,
+          "lost": 0,
+          "runs_allowed": 4,
+          "runs_scored": 22,
+          "team_page_id": 18670
+        },
+        {
+          "seed": 4,
+          "team": "KLSC Tomahawks",
+          "location": "Belmont, NC",
+          "won": 1,
+          "lost": 2,
+          "runs_allowed": 9,
+          "runs_scored": 18,
+          "team_page_id": 35170
+        }
+      ],
+      "sections": {
+        "Pool Play": [
+          {
+            "game": 1,
+            "day": "Sat",
+            "time": "10:45 AM",
+            "field": "SP:Field #2",
+            "team_a": "KLSC Tomahawks",
+            "seed_a": null,
+            "score_a": 11,
+            "team_b": "Rawlings Tigers Chronister",
+            "seed_b": null,
+            "score_b": 1
+          },
+          {
+            "game": 2,
+            "day": "Sat",
+            "time": "12:30 PM",
+            "field": "SP:Field #2",
+            "team_a": "KLSC Tomahawks",
+            "seed_a": null,
+            "score_a": 7,
+            "team_b": "Sox Baseball",
+            "seed_b": null,
+            "score_b": 8
+          },
+          {
+            "game": 3,
+            "day": "Sat",
+            "time": "2:15 PM",
+            "field": "SP:Field #2",
+            "team_a": "SBA Dallas",
+            "seed_a": null,
+            "score_a": 13,
+            "team_b": "Rawlings Tigers Chronister",
+            "seed_b": null,
+            "score_b": 1
+          },
+          {
+            "game": 4,
+            "day": "Sat",
+            "time": "4:00 PM",
+            "field": "SP:Field #2",
+            "team_a": "SBA Dallas",
+            "seed_a": null,
+            "score_a": 9,
+            "team_b": "Sox Baseball",
+            "seed_b": null,
+            "score_b": 3
+          }
+        ],
+        "Gold Bracket": [
+          {
+            "game": 1,
+            "day": "Sun",
+            "time": "11:00 AM",
+            "field": "SP:Field #2",
+            "team_a": "SBA Dallas",
+            "seed_a": 1,
+            "score_a": 11,
+            "team_b": "KLSC Tomahawks",
+            "seed_b": 2,
+            "score_b": 3
+          }
+        ]
+      }
+    },
+    "15U": {
+      "notes": [],
+      "standings": [
+        {
+          "seed": 1,
+          "team": "Union County Badboys",
+          "location": "Union, SC",
+          "won": 4,
+          "lost": 0,
+          "runs_allowed": 11,
+          "runs_scored": 48,
+          "team_page_id": 25475
+        },
+        {
+          "seed": 2,
+          "team": "South Carolina Cyclones",
+          "location": "Chester, SC",
+          "won": 1,
+          "lost": 2,
+          "runs_allowed": 32,
+          "runs_scored": 16,
+          "team_page_id": 30449
+        },
+        {
+          "seed": 3,
+          "team": "Kannapolis Railers",
+          "location": "Kannapolis, NC",
+          "won": 0,
+          "lost": 3,
+          "runs_allowed": 39,
+          "runs_scored": 18,
+          "team_page_id": 37942
+        }
+      ],
+      "sections": {
+        "Pool Play": [
+          {
+            "game": 1,
+            "day": "Sat",
+            "time": "9:00 AM",
+            "field": "OHS:Field 1",
+            "team_a": "Kannapolis Railers",
+            "seed_a": null,
+            "score_a": 3,
+            "team_b": "South Carolina Cyclones",
+            "seed_b": null,
+            "score_b": 4
+          },
+          {
+            "game": 2,
+            "day": "Sat",
+            "time": "10:45 AM",
+            "field": "OHS:Field 1",
+            "team_a": "Union County Badboys",
+            "seed_a": null,
+            "score_a": 15,
+            "team_b": "Kannapolis Railers",
+            "seed_b": null,
+            "score_b": 7
+          },
+          {
+            "game": 3,
+            "day": "Sat",
+            "time": "12:30 PM",
+            "field": "OHS:Field 1",
+            "team_a": "South Carolina Cyclones",
+            "seed_a": null,
+            "score_a": 1,
+            "team_b": "Union County Badboys",
+            "seed_b": null,
+            "score_b": 13
+          },
+          {
+            "game": 4,
+            "day": "Sun",
+            "time": "9:00 AM",
+            "field": "OHS:Field 1",
+            "team_a": "Kannapolis Railers",
+            "seed_a": null,
+            "score_a": 8,
+            "team_b": "South Carolina Cyclones",
+            "seed_b": null,
+            "score_b": 8
+          },
+          {
+            "game": 5,
+            "day": "Sun",
+            "time": "10:45 AM",
+            "field": "OHS:Field 1",
+            "team_a": "Union County Badboys",
+            "seed_a": null,
+            "score_a": 8,
+            "team_b": "South Carolina Cyclones",
+            "seed_b": null,
+            "score_b": 3
+          },
+          {
+            "game": 6,
+            "day": "Sun",
+            "time": "12:30 PM",
+            "field": "OHS:Field 1",
+            "team_a": "Union County Badboys",
+            "seed_a": null,
+            "score_a": 12,
+            "team_b": "Kannapolis Railers",
+            "seed_b": null,
+            "score_b": 0
+          }
+        ]
+      }
+    },
+    "16U": {
+      "notes": [],
+      "standings": [
+        {
+          "seed": 1,
+          "team": "Waxhaw Heat",
+          "location": "Waxhaw, NC",
+          "won": 1,
+          "lost": 3,
+          "runs_allowed": 23,
+          "runs_scored": 5,
+          "team_page_id": 15559
+        },
+        {
+          "seed": 2,
+          "team": "P413 16U Buchanan",
+          "location": "ADVANCE, NC",
+          "won": 1,
+          "lost": 2,
+          "runs_allowed": 15,
+          "runs_scored": 9,
+          "team_page_id": 24925
+        },
+        {
+          "seed": 3,
+          "team": "Startown Elite",
+          "location": "Newton, NC",
+          "won": 2,
+          "lost": 2,
+          "runs_allowed": 9,
+          "runs_scored": 14,
+          "team_page_id": 32321
+        },
+        {
+          "seed": 4,
+          "team": "Uwharrie Regulators",
+          "location": "Star, NC",
+          "won": 2,
+          "lost": 1,
+          "runs_allowed": 17,
+          "runs_scored": 11,
+          "team_page_id": 15571
+        },
+        {
+          "seed": 5,
+          "team": "VA Braves Gregory",
+          "location": "Spencer, VA",
+          "won": 4,
+          "lost": 0,
+          "runs_allowed": 5,
+          "runs_scored": 21,
+          "team_page_id": 32277
+        },
+        {
+          "seed": 6,
+          "team": "Banana Peppers Baseball",
+          "location": "Bessemer City, NC",
+          "won": 0,
+          "lost": 4,
+          "runs_allowed": 18,
+          "runs_scored": 3,
+          "team_page_id": 38138
+        },
+        {
+          "seed": 7,
+          "team": "Carolina Rebels",
+          "location": "Pageland, SC",
+          "won": 3,
+          "lost": 1,
+          "runs_allowed": 1,
+          "runs_scored": 25,
+          "team_page_id": 31687
+        }
+      ],
+      "sections": {
+        "Pool Play": [
+          {
+            "game": 1,
+            "day": "Sat",
+            "time": "9:00 AM",
+            "field": "CA:Field #1",
+            "team_a": "Startown Elite",
+            "seed_a": null,
+            "score_a": 8,
+            "team_b": "Banana Peppers Baseball",
+            "seed_b": null,
+            "score_b": 3
+          },
+          {
+            "game": 2,
+            "day": "Sat",
+            "time": "9:00 AM",
+            "field": "POBAOT:Field 1",
+            "team_a": "Waxhaw Heat",
+            "seed_a": null,
+            "score_a": 5,
+            "team_b": "P413 16U Buchanan",
+            "seed_b": null,
+            "score_b": 8
+          },
+          {
+            "game": 3,
+            "day": "Sat",
+            "time": "10:45 AM",
+            "field": "CA:Field #1",
+            "team_a": "Startown Elite",
+            "seed_a": null,
+            "score_a": 6,
+            "team_b": "Uwharrie Regulators",
+            "seed_b": null,
+            "score_b": 6
+          },
+          {
+            "game": 4,
+            "day": "Sat",
+            "time": "10:45 AM",
+            "field": "POBAOT:Field 1",
+            "team_a": "P413 16U Buchanan",
+            "seed_a": null,
+            "score_a": 1,
+            "team_b": "Carolina Rebels",
+            "seed_b": null,
+            "score_b": 10
+          },
+          {
+            "game": 5,
+            "day": "Sat",
+            "time": "12:30 PM",
+            "field": "CA:Field #1",
+            "team_a": "VA Braves Gregory",
+            "seed_a": null,
+            "score_a": 10,
+            "team_b": "Banana Peppers Baseball",
+            "seed_b": null,
+            "score_b": 0
+          },
+          {
+            "game": 6,
+            "day": "Sat",
+            "time": "12:30 PM",
+            "field": "POBAOT:Field 1",
+            "team_a": "Waxhaw Heat",
+            "seed_a": null,
+            "score_a": 0,
+            "team_b": "Carolina Rebels",
+            "seed_b": null,
+            "score_b": 15
+          },
+          {
+            "game": 7,
+            "day": "Sat",
+            "time": "2:15 PM",
+            "field": "CA:Field #1",
+            "team_a": "VA Braves Gregory",
+            "seed_a": null,
+            "score_a": 11,
+            "team_b": "Uwharrie Regulators",
+            "seed_b": null,
+            "score_b": 5
+          }
+        ],
+        "Gold Bracket": [
+          {
+            "game": 1,
+            "day": "Sun",
+            "time": "9:00 AM",
+            "field": "CA:Field #1",
+            "team_a": "VA Braves Gregory",
+            "seed_a": 2,
+            "score_a": 8,
+            "team_b": "Startown Elite",
+            "seed_b": 3,
+            "score_b": 7
+          },
+          {
+            "game": 2,
+            "day": "Sun",
+            "time": "11:00 AM",
+            "field": "CA:Field #1",
+            "team_a": "Carolina Rebels",
+            "seed_a": 1,
+            "score_a": 7,
+            "team_b": "P413 16U Buchanan",
+            "seed_b": 4,
+            "score_b": 3
+          },
+          {
+            "game": 3,
+            "day": "Sun",
+            "time": "3:00 PM",
+            "field": "CA:Field #1",
+            "team_a": "Loser Game #1 Startown Elite",
+            "seed_a": null,
+            "score_a": 3,
+            "team_b": "Loser Game #2 P413 16U Buchanan",
+            "seed_b": null,
+            "score_b": 3
+          },
+          {
+            "game": 4,
+            "day": "Sun",
+            "time": "1:00 PM",
+            "field": "CA:Field #1",
+            "team_a": "Winner Game #1 VA Braves Gregory",
+            "seed_a": null,
+            "score_a": 10,
+            "team_b": "Winner Game #2 Carolina Rebels",
+            "seed_b": null,
+            "score_b": 6
+          }
+        ],
+        "Silver Bracket": [
+          {
+            "game": 1,
+            "day": "Sun",
+            "time": "9:00 AM",
+            "field": "POBAOT:Field 1",
+            "team_a": "Banana Peppers Baseball",
+            "seed_a": 6,
+            "score_a": 4,
+            "team_b": "Waxhaw Heat",
+            "seed_b": 7,
+            "score_b": 10
+          },
+          {
+            "game": 2,
+            "day": "Sun",
+            "time": "11:00 AM",
+            "field": "POBAOT:Field 1",
+            "team_a": "Uwharrie Regulators",
+            "seed_a": 5,
+            "score_a": 5,
+            "team_b": "Waxhaw Heat",
+            "seed_b": 7,
+            "score_b": 3
+          },
+          {
+            "game": 3,
+            "day": "Sun",
+            "time": "1:00 PM",
+            "field": "POBAOT:Field 1",
+            "team_a": "Uwharrie Regulators",
+            "seed_a": 5,
+            "score_a": 14,
+            "team_b": "Banana Peppers Baseball",
+            "seed_b": 6,
+            "score_b": 1
+          }
+        ]
+      }
+    }
+  },
+  "site_last_updated": "08/06/2026 11:38 AM",
+  "tournament_id": 12511
+}

@@ -1,0 +1,469 @@
+{
+  "title": "Game Times & Scores | Top Gun",
+  "name": "SUMMER SHOWDOWN----BATTLE FOR THE WRISTBELTS CHAMPIONSHIPS",
+  "dates": "August 15 - 16 in Greater Charlotte Area, NC",
+  "url": "https://playtopgunsports.com/GameTimesResults.aspx?trnid=12512",
+  "complexes": {
+    "Charlotte": {
+      "name": "Greater Charlotte Area",
+      "address": "TBA Greater Charlotte Area, NC 28262"
+    },
+    "Sims": {
+      "name": "Sims Legion Park",
+      "address": "100 W. Sycamore Ave. Gastonia, NC 28054"
+    },
+    "SP": {
+      "name": "Stinger Park",
+      "address": "1320 North 12th St. Bessemer City, NC 28016"
+    }
+  },
+  "divisions": {
+    "13U 90": {
+      "notes": [
+        "No Steel Cleats on Turf Mounds"
+      ],
+      "standings": [
+        {
+          "seed": 1,
+          "team": "Lone Star Hippos",
+          "location": "Gastonia, NC",
+          "won": 3,
+          "lost": 1,
+          "runs_allowed": 20,
+          "runs_scored": 51,
+          "team_page_id": 28950
+        },
+        {
+          "seed": 2,
+          "team": "SC Tide - Daly",
+          "location": "Clover, SC",
+          "won": 3,
+          "lost": 1,
+          "runs_allowed": 26,
+          "runs_scored": 46,
+          "team_page_id": 28844
+        },
+        {
+          "seed": 3,
+          "team": "Carolina Outlaws",
+          "location": "Lawndale, NC",
+          "won": 0,
+          "lost": 4,
+          "runs_allowed": 58,
+          "runs_scored": 7,
+          "team_page_id": 37079
+        }
+      ],
+      "sections": {
+        "Pool Play": [
+          {
+            "game": 1,
+            "day": "Sat",
+            "time": "12:30 PM",
+            "field": "SP:Field #3",
+            "team_a": "Carolina Outlaws",
+            "seed_a": null,
+            "score_a": 4,
+            "team_b": "SC Tide - Daly",
+            "seed_b": null,
+            "score_b": 15
+          },
+          {
+            "game": 2,
+            "day": "Sat",
+            "time": "2:15 PM",
+            "field": "SP:Field #3",
+            "team_a": "Lone Star Hippos",
+            "seed_a": null,
+            "score_a": 8,
+            "team_b": "SC Tide - Daly",
+            "seed_b": null,
+            "score_b": 10
+          },
+          {
+            "game": 3,
+            "day": "Sat",
+            "time": "4:00 PM",
+            "field": "SP:Field #3",
+            "team_a": "Lone Star Hippos",
+            "seed_a": null,
+            "score_a": 16,
+            "team_b": "Carolina Outlaws",
+            "seed_b": null,
+            "score_b": 1
+          },
+          {
+            "game": 4,
+            "day": "Sun",
+            "time": "11:00 AM",
+            "field": "SP:Field #3",
+            "team_a": "Carolina Outlaws",
+            "seed_a": null,
+            "score_a": 1,
+            "team_b": "SC Tide - Daly",
+            "seed_b": null,
+            "score_b": 13
+          },
+          {
+            "game": 5,
+            "day": "Sun",
+            "time": "1:00 PM",
+            "field": "SP:Field #3",
+            "team_a": "Lone Star Hippos",
+            "seed_a": null,
+            "score_a": 14,
+            "team_b": "Carolina Outlaws",
+            "seed_b": null,
+            "score_b": 1
+          },
+          {
+            "game": 6,
+            "day": "Sun",
+            "time": "3:00 PM",
+            "field": "SP:Field #3",
+            "team_a": "SC Tide - Daly",
+            "seed_a": null,
+            "score_a": 8,
+            "team_b": "Lone Star Hippos",
+            "seed_b": null,
+            "score_b": 13
+          }
+        ]
+      }
+    },
+    "16U": {
+      "notes": [
+        "No Steel Cleats on Turf Mounds or in Sims Park"
+      ],
+      "standings": [
+        {
+          "seed": 1,
+          "team": "Waxhaw Heat",
+          "location": "Waxhaw, NC",
+          "won": 3,
+          "lost": 1,
+          "runs_allowed": 6,
+          "runs_scored": 12,
+          "team_page_id": 15559
+        },
+        {
+          "seed": 2,
+          "team": "OutKast",
+          "location": "North Wilkesboro, NC",
+          "won": 0,
+          "lost": 3,
+          "runs_allowed": 22,
+          "runs_scored": 5,
+          "team_page_id": 20400
+        },
+        {
+          "seed": 3,
+          "team": "Payton Martin Performance 15u",
+          "location": "LEXINGTON, NC",
+          "won": 0,
+          "lost": 3,
+          "runs_allowed": 15,
+          "runs_scored": 2,
+          "team_page_id": 38331
+        },
+        {
+          "seed": 4,
+          "team": "Five Star Mafia Boys",
+          "location": "Lenoir, NC",
+          "won": 4,
+          "lost": 0,
+          "runs_allowed": 1,
+          "runs_scored": 25,
+          "team_page_id": 38296
+        }
+      ],
+      "sections": {
+        "Pool Play": [
+          {
+            "game": 1,
+            "day": "Sat",
+            "time": "10:00 AM",
+            "field": "Sims:Legion Field",
+            "team_a": "Waxhaw Heat",
+            "seed_a": null,
+            "score_a": 6,
+            "team_b": "OutKast",
+            "seed_b": null,
+            "score_b": 5
+          },
+          {
+            "game": 2,
+            "day": "Sat",
+            "time": "11:45 AM",
+            "field": "Sims:Legion Field",
+            "team_a": "Waxhaw Heat",
+            "seed_a": null,
+            "score_a": 6,
+            "team_b": "Payton Martin Performance 15u",
+            "seed_b": null,
+            "score_b": 1
+          },
+          {
+            "game": 3,
+            "day": "Sat",
+            "time": "1:30 PM",
+            "field": "Sims:Legion Field",
+            "team_a": "OutKast",
+            "seed_a": null,
+            "score_a": 0,
+            "team_b": "Five Star Mafia Boys",
+            "seed_b": null,
+            "score_b": 16
+          },
+          {
+            "game": 4,
+            "day": "Sat",
+            "time": "3:15 PM",
+            "field": "Sims:Legion Field",
+            "team_a": "Payton Martin Performance 15u",
+            "seed_a": null,
+            "score_a": 1,
+            "team_b": "Five Star Mafia Boys",
+            "seed_b": null,
+            "score_b": 9
+          }
+        ],
+        "Gold Bracket": [
+          {
+            "game": 1,
+            "day": "Sun",
+            "time": "9:00 AM",
+            "field": "SP:Field #2",
+            "team_a": "Waxhaw Heat",
+            "seed_a": 2,
+            "score_a": 3,
+            "team_b": "Payton Martin Performance 15u",
+            "seed_b": 3,
+            "score_b": 2
+          },
+          {
+            "game": 2,
+            "day": "Sun",
+            "time": "11:00 AM",
+            "field": "SP:Field #2",
+            "team_a": "Five Star Mafia Boys",
+            "seed_a": 1,
+            "score_a": 5,
+            "team_b": "OutKast",
+            "seed_b": 4,
+            "score_b": 2
+          },
+          {
+            "game": 3,
+            "day": "Sun",
+            "time": "3:00 PM",
+            "field": "SP:Field #2",
+            "team_a": "Loser Game #1 Payton Martin Performance 15u",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Loser Game #2 OutKast",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 4,
+            "day": "Sun",
+            "time": "1:00 PM",
+            "field": "SP:Field #2",
+            "team_a": "Winner Game #1 Waxhaw Heat",
+            "seed_a": null,
+            "score_a": 0,
+            "team_b": "Winner Game #2 Five Star Mafia Boys",
+            "seed_b": null,
+            "score_b": 8
+          }
+        ]
+      }
+    },
+    "HSU": {
+      "notes": [
+        "No Steel Cleats on Turf Mounds or in Sims Park"
+      ],
+      "standings": [
+        {
+          "seed": 1,
+          "team": "KLSC Prime",
+          "location": "Belmont, NC",
+          "won": 1,
+          "lost": 2,
+          "runs_allowed": 5,
+          "runs_scored": 4,
+          "team_page_id": 28997
+        },
+        {
+          "seed": 2,
+          "team": "TBD Baseball",
+          "location": "Gastonia, NC",
+          "won": 0,
+          "lost": 3,
+          "runs_allowed": 13,
+          "runs_scored": 8,
+          "team_page_id": 24977
+        },
+        {
+          "seed": 3,
+          "team": "Durham Blacksox",
+          "location": "Durham, NC",
+          "won": 3,
+          "lost": 1,
+          "runs_allowed": 11,
+          "runs_scored": 11,
+          "team_page_id": 28098
+        },
+        {
+          "seed": 4,
+          "team": "Tribe Select",
+          "location": "Dallas, NC",
+          "won": 3,
+          "lost": 1,
+          "runs_allowed": 2,
+          "runs_scored": 7,
+          "team_page_id": 37078
+        },
+        {
+          "seed": 5,
+          "team": "WNC Phantom Elite",
+          "location": "Taylorsville, NC",
+          "won": 1,
+          "lost": 1,
+          "runs_allowed": 6,
+          "runs_scored": 7,
+          "team_page_id": 37259
+        }
+      ],
+      "sections": {
+        "Pool Play": [
+          {
+            "game": 1,
+            "day": "Sat",
+            "time": "9:00 AM",
+            "field": "SP:Field #2",
+            "team_a": "Tribe Select",
+            "seed_a": null,
+            "score_a": 5,
+            "team_b": "TBD Baseball",
+            "seed_b": null,
+            "score_b": 1
+          },
+          {
+            "game": 2,
+            "day": "Sat",
+            "time": "9:00 AM",
+            "field": "SP:Field #3",
+            "team_a": "KLSC Prime",
+            "seed_a": null,
+            "score_a": 3,
+            "team_b": "WNC Phantom Elite",
+            "seed_b": null,
+            "score_b": 3
+          },
+          {
+            "game": 3,
+            "day": "Sat",
+            "time": "10:45 AM",
+            "field": "SP:Field #2",
+            "team_a": "TBD Baseball",
+            "seed_a": null,
+            "score_a": 7,
+            "team_b": "Durham Blacksox",
+            "seed_b": null,
+            "score_b": 8
+          },
+          {
+            "game": 4,
+            "day": "Sat",
+            "time": "10:45 AM",
+            "field": "SP:Field #3",
+            "team_a": "Tribe Select",
+            "seed_a": null,
+            "score_a": 2,
+            "team_b": "KLSC Prime",
+            "seed_b": null,
+            "score_b": 1
+          },
+          {
+            "game": 5,
+            "day": "Sat",
+            "time": "12:30 PM",
+            "field": "SP:Field #2",
+            "team_a": "Durham Blacksox",
+            "seed_a": null,
+            "score_a": 3,
+            "team_b": "WNC Phantom Elite",
+            "seed_b": null,
+            "score_b": 4
+          }
+        ],
+        "Gold Bracket": [
+          {
+            "game": 1,
+            "day": "Sun",
+            "time": "9:00 AM",
+            "field": "Sims:Legion Field",
+            "team_a": "KLSC Prime",
+            "seed_a": 4,
+            "score_a": 4,
+            "team_b": "TBD Baseball",
+            "seed_b": 5,
+            "score_b": 2
+          },
+          {
+            "game": 2,
+            "day": "Sun",
+            "time": "11:00 AM",
+            "field": "Sims:Legion Field",
+            "team_a": "WNC Phantom Elite",
+            "seed_a": 2,
+            "score_a": 3,
+            "team_b": "Durham Blacksox",
+            "seed_b": 3,
+            "score_b": 4
+          },
+          {
+            "game": 3,
+            "day": "Sun",
+            "time": "1:00 PM",
+            "field": "Sims:Legion Field",
+            "team_a": "Winner Game #1 KLSC Prime",
+            "seed_a": null,
+            "score_a": 4,
+            "team_b": "Tribe Select",
+            "seed_b": 1,
+            "score_b": 6
+          },
+          {
+            "game": 4,
+            "day": "Sun",
+            "time": "5:00 PM",
+            "field": "Sims:Legion Field",
+            "team_a": "Loser Game #1 TBD Baseball",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Loser Game #2 WNC Phantom Elite",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 5,
+            "day": "Sun",
+            "time": "3:00 PM",
+            "field": "Sims:Legion Field",
+            "team_a": "Winner Game #3 Tribe Select",
+            "seed_a": null,
+            "score_a": 4,
+            "team_b": "Winner Game #2 Durham Blacksox",
+            "seed_b": null,
+            "score_b": 8
+          }
+        ]
+      }
+    }
+  },
+  "site_last_updated": "08/22/2026 7:14 AM",
+  "tournament_id": 12512
+}

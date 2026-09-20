@@ -1,0 +1,219 @@
+{
+  "title": "Game Times & Scores | Top Gun",
+  "name": "FRIDAY NIGHT LIGHTS---SPIDER MAN VS HULK----CHARACTER RINGS",
+  "dates": "September 11 in Mocksville/Winston Salem/Clemm, NC",
+  "url": "https://playtopgunsports.com/GameTimesResults.aspx?trnid=13558",
+  "complexes": {
+    "DHS": {
+      "name": "Davie High School",
+      "address": "180 War Eagle Drive Mocksville, NC 27028"
+    },
+    "DYC": {
+      "name": "Davie Youth Complex",
+      "address": "599 Farmington Rd Mocksville, NC 27028"
+    }
+  },
+  "divisions": {
+    "12U": {
+      "notes": [],
+      "standings": [
+        {
+          "seed": 1,
+          "team": "RoxStars",
+          "location": "Thomasville, NC",
+          "won": 0,
+          "lost": 2,
+          "runs_allowed": 7,
+          "runs_scored": 3,
+          "team_page_id": 28326
+        },
+        {
+          "seed": 2,
+          "team": "Triad Cardinals 12u",
+          "location": "Kernersville, NC",
+          "won": 3,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 12,
+          "team_page_id": 20670
+        },
+        {
+          "seed": 3,
+          "team": "North Iredell Nitro Baseball Harrelson",
+          "location": "Statesville, NC",
+          "won": 1,
+          "lost": 1,
+          "runs_allowed": 12,
+          "runs_scored": 3,
+          "team_page_id": 20607
+        },
+        {
+          "seed": 4,
+          "team": "Carolina Ghost 12u Scout",
+          "location": "High Point, NC",
+          "won": 2,
+          "lost": 1,
+          "runs_allowed": 1,
+          "runs_scored": 10,
+          "team_page_id": 30268
+        },
+        {
+          "seed": 5,
+          "team": "Venom Stars 2033",
+          "location": "Hickory, NC",
+          "won": 1,
+          "lost": 1,
+          "runs_allowed": 3,
+          "runs_scored": 7,
+          "team_page_id": 37572
+        },
+        {
+          "seed": 6,
+          "team": "Red Clay Athletics 12U Hodges",
+          "location": "Huntersville, NC",
+          "won": 1,
+          "lost": 1,
+          "runs_allowed": 10,
+          "runs_scored": 1,
+          "team_page_id": 33633
+        },
+        {
+          "seed": 7,
+          "team": "China Grove Raiders 12u",
+          "location": "Kannapolis, NC",
+          "won": 0,
+          "lost": 2,
+          "runs_allowed": 12,
+          "runs_scored": 0,
+          "team_page_id": 32172
+        },
+        {
+          "seed": 8,
+          "team": "Mount Ulla Baseball",
+          "location": "Mount Ulla, NC, NC",
+          "won": 1,
+          "lost": 1,
+          "runs_allowed": 3,
+          "runs_scored": 12,
+          "team_page_id": 28180
+        }
+      ],
+      "sections": {
+        "Pool Play": [
+          {
+            "game": 1,
+            "day": "Fri",
+            "time": "6:00 PM",
+            "field": "DYC:Bird Co Field",
+            "team_a": "Carolina Ghost 12u Scout",
+            "seed_a": null,
+            "score_a": 10,
+            "team_b": "Red Clay Athletics 12U Hodges",
+            "seed_b": null,
+            "score_b": 1
+          },
+          {
+            "game": 2,
+            "day": "Fri",
+            "time": "6:00 PM",
+            "field": "DYC:Farm Bureau",
+            "team_a": "RoxStars",
+            "seed_a": null,
+            "score_a": 3,
+            "team_b": "Venom Stars 2033",
+            "seed_b": null,
+            "score_b": 7
+          },
+          {
+            "game": 3,
+            "day": "Fri",
+            "time": "6:00 PM",
+            "field": "DYC:K&W Service",
+            "team_a": "Triad Cardinals 12u",
+            "seed_a": null,
+            "score_a": 12,
+            "team_b": "China Grove Raiders 12u",
+            "seed_b": null,
+            "score_b": 0
+          },
+          {
+            "game": 4,
+            "day": "Fri",
+            "time": "6:00 PM",
+            "field": "DYC:Zach Wright",
+            "team_a": "Mount Ulla Baseball",
+            "seed_a": null,
+            "score_a": 12,
+            "team_b": "North Iredell Nitro Baseball Harrelson",
+            "seed_b": null,
+            "score_b": 3
+          }
+        ],
+        "Gold Bracket": [
+          {
+            "game": 1,
+            "day": "Fri",
+            "time": "7:30 PM",
+            "field": "DYC:Bird Co Field",
+            "team_a": "Winner game 1",
+            "seed_a": null,
+            "score_a": 6,
+            "team_b": "Winner game 2",
+            "seed_b": null,
+            "score_b": 5
+          },
+          {
+            "game": 2,
+            "day": "Fri",
+            "time": "7:30 PM",
+            "field": "DYC:Farm Bureau",
+            "team_a": "Loser game 1",
+            "seed_a": null,
+            "score_a": 13,
+            "team_b": "Loser game 2",
+            "seed_b": null,
+            "score_b": 1
+          },
+          {
+            "game": 3,
+            "day": "Fri",
+            "time": "7:30 PM",
+            "field": "DYC:K&W Service",
+            "team_a": "Winner game 3",
+            "seed_a": null,
+            "score_a": 10,
+            "team_b": "Winner game 4",
+            "seed_b": null,
+            "score_b": 2
+          },
+          {
+            "game": 4,
+            "day": "Fri",
+            "time": "7:30 PM",
+            "field": "DYC:Zach Wright",
+            "team_a": "Loser game 3",
+            "seed_a": null,
+            "score_a": 7,
+            "team_b": "Loser game 4",
+            "seed_b": null,
+            "score_b": 9
+          },
+          {
+            "game": 5,
+            "day": "Fri",
+            "time": "9:00 PM",
+            "field": "DYC:K&W Service",
+            "team_a": "Winner of gold game 1",
+            "seed_a": null,
+            "score_a": 6,
+            "team_b": "Winne of Gold game 3",
+            "seed_b": null,
+            "score_b": 0
+          }
+        ]
+      }
+    }
+  },
+  "site_last_updated": "06/30/2026 4:45 PM",
+  "tournament_id": 13558
+}

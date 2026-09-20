@@ -1,0 +1,194 @@
+{
+  "title": "Game Times & Scores | Top Gun",
+  "name": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
+  "dates": "September 11 in Monroe, NC",
+  "url": "https://playtopgunsports.com/GameTimesResults.aspx?trnid=13600",
+  "complexes": {},
+  "divisions": {
+    "9U": {
+      "notes": [
+        "Modified Stealing"
+      ],
+      "standings": [
+        {
+          "seed": 1,
+          "team": "Carolina Trash Pandas",
+          "location": "Locust, NC",
+          "won": 2,
+          "lost": 1,
+          "runs_allowed": 4,
+          "runs_scored": 23,
+          "team_page_id": 32342
+        },
+        {
+          "seed": 2,
+          "team": "Carolina Clippers 9U",
+          "location": "RICHFIELD, NC",
+          "won": 3,
+          "lost": 0,
+          "runs_allowed": 9,
+          "runs_scored": 27,
+          "team_page_id": 33167
+        },
+        {
+          "seed": 3,
+          "team": "Elite 9",
+          "location": "Rock Hill, SC",
+          "won": 1,
+          "lost": 2,
+          "runs_allowed": 23,
+          "runs_scored": 9,
+          "team_page_id": 31407
+        },
+        {
+          "seed": 4,
+          "team": "LKN Kingdom",
+          "location": "Charlotte, NC",
+          "won": 0,
+          "lost": 3,
+          "runs_allowed": 27,
+          "runs_scored": 11,
+          "team_page_id": 37240
+        },
+        {
+          "seed": 5,
+          "team": "Carolina Icons",
+          "location": "Stanfield, NC",
+          "won": 1,
+          "lost": 2,
+          "runs_allowed": 17,
+          "runs_scored": 19,
+          "team_page_id": 35143
+        },
+        {
+          "seed": 6,
+          "team": "Mara Bulls",
+          "location": "matthews, NC",
+          "won": 2,
+          "lost": 1,
+          "runs_allowed": 21,
+          "runs_scored": 12,
+          "team_page_id": 38928
+        }
+      ],
+      "sections": {
+        "Pool Play": [
+          {
+            "game": 1,
+            "day": "Fri",
+            "time": "6:00 PM",
+            "field": "NWP:Field 6",
+            "team_a": "Carolina Trash Pandas",
+            "seed_a": null,
+            "score_a": 12,
+            "team_b": "Carolina Icons",
+            "seed_b": null,
+            "score_b": 2
+          },
+          {
+            "game": 2,
+            "day": "Fri",
+            "time": "6:00 PM",
+            "field": "NWP:Field 7",
+            "team_a": "Carolina Clippers 9U",
+            "seed_a": null,
+            "score_a": 12,
+            "team_b": "Elite 9",
+            "seed_b": null,
+            "score_b": 7
+          },
+          {
+            "game": 3,
+            "day": "Fri",
+            "time": "6:00 PM",
+            "field": "NWP:Field 8",
+            "team_a": "LKN Kingdom",
+            "seed_a": null,
+            "score_a": 6,
+            "team_b": "Mara Bulls",
+            "seed_b": null,
+            "score_b": 10
+          },
+          {
+            "game": 4,
+            "day": "Fri",
+            "time": "7:30 PM",
+            "field": "NWP:Field 6",
+            "team_a": "Carolina Trash Pandas",
+            "seed_a": null,
+            "score_a": 11,
+            "team_b": "Elite 9",
+            "seed_b": null,
+            "score_b": 2
+          },
+          {
+            "game": 5,
+            "day": "Fri",
+            "time": "7:30 PM",
+            "field": "NWP:Field 7",
+            "team_a": "Carolina Clippers 9U",
+            "seed_a": null,
+            "score_a": 15,
+            "team_b": "Mara Bulls",
+            "seed_b": null,
+            "score_b": 2
+          },
+          {
+            "game": 6,
+            "day": "Fri",
+            "time": "7:30 PM",
+            "field": "NWP:Field 8",
+            "team_a": "LKN Kingdom",
+            "seed_a": null,
+            "score_a": 5,
+            "team_b": "Carolina Icons",
+            "seed_b": null,
+            "score_b": 17
+          }
+        ],
+        "Gold Bracket": [
+          {
+            "game": 1,
+            "day": "Fri",
+            "time": "9:00 PM",
+            "field": "NWP:Field 7",
+            "team_a": "Carolina Trash Pandas",
+            "seed_a": 1,
+            "score_a": 2,
+            "team_b": "Carolina Clippers 9U",
+            "seed_b": 2,
+            "score_b": 3
+          }
+        ],
+        "Silver Bracket": [
+          {
+            "game": 1,
+            "day": "Fri",
+            "time": "9:00 PM",
+            "field": "NWP:Field 8",
+            "team_a": "Carolina Icons",
+            "seed_a": 3,
+            "score_a": 11,
+            "team_b": "Mara Bulls",
+            "seed_b": 4,
+            "score_b": 14
+          },
+          {
+            "game": 2,
+            "day": "Fri",
+            "time": "9:00 PM",
+            "field": "NWP:Field 6",
+            "team_a": "Elite 9",
+            "seed_a": 5,
+            "score_a": 12,
+            "team_b": "LKN Kingdom",
+            "seed_b": 6,
+            "score_b": 2
+          }
+        ]
+      }
+    }
+  },
+  "site_last_updated": "09/09/2026 4:11 PM",
+  "tournament_id": 13600
+}

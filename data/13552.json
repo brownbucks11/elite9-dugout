@@ -1,0 +1,210 @@
+{
+  "title": "Game Times & Scores | Top Gun",
+  "name": "TOP GUN-USA SPORTS--FNL--PRE LABOR DAY SPECIAL",
+  "dates": "August 28 in Mocksville/Winston Salem/Clemm, NC",
+  "url": "https://playtopgunsports.com/GameTimesResults.aspx?trnid=13552",
+  "complexes": {},
+  "divisions": {
+    "9U": {
+      "notes": [],
+      "standings": [
+        {
+          "seed": 1,
+          "team": "NC Made 9U Blue",
+          "location": "Mocksville, NC",
+          "won": 1,
+          "lost": 1,
+          "runs_allowed": 6,
+          "runs_scored": 2,
+          "team_page_id": 28938
+        },
+        {
+          "seed": 2,
+          "team": "Carolina Trash Pandas",
+          "location": "Locust, NC",
+          "won": 3,
+          "lost": 0,
+          "runs_allowed": 4,
+          "runs_scored": 12,
+          "team_page_id": 32342
+        },
+        {
+          "seed": 3,
+          "team": "NC Made 9U Green",
+          "location": "Mocksville, NC",
+          "won": 1,
+          "lost": 1,
+          "runs_allowed": 12,
+          "runs_scored": 4,
+          "team_page_id": 32802
+        },
+        {
+          "seed": 4,
+          "team": "Carolina Clippers 9U",
+          "location": "RICHFIELD, NC",
+          "won": 2,
+          "lost": 1,
+          "runs_allowed": 2,
+          "runs_scored": 6,
+          "team_page_id": 33167
+        },
+        {
+          "seed": 5,
+          "team": "Lightning Jacks Riddle",
+          "location": "kernersville, NC",
+          "won": 1,
+          "lost": 1,
+          "runs_allowed": 0,
+          "runs_scored": 9,
+          "team_page_id": 28921
+        },
+        {
+          "seed": 6,
+          "team": "LKN Kingdom",
+          "location": "Charlotte, NC",
+          "won": 0,
+          "lost": 2,
+          "runs_allowed": 9,
+          "runs_scored": 0,
+          "team_page_id": 37240
+        },
+        {
+          "seed": 7,
+          "team": "SOX Baseball - Snow",
+          "location": "Yadkinville, NC",
+          "won": 0,
+          "lost": 2,
+          "runs_allowed": 8,
+          "runs_scored": 5,
+          "team_page_id": 37349
+        },
+        {
+          "seed": 8,
+          "team": "Flying Pigs 9U",
+          "location": "Clemmons, NC",
+          "won": 1,
+          "lost": 1,
+          "runs_allowed": 5,
+          "runs_scored": 8,
+          "team_page_id": 37431
+        }
+      ],
+      "sections": {
+        "Pool Play": [
+          {
+            "game": 1,
+            "day": "Fri",
+            "time": "6:00 PM",
+            "field": "DYC:Bird Co Field",
+            "team_a": "NC Made 9U Green",
+            "seed_a": null,
+            "score_a": 4,
+            "team_b": "Carolina Trash Pandas",
+            "seed_b": null,
+            "score_b": 12
+          },
+          {
+            "game": 2,
+            "day": "Fri",
+            "time": "6:00 PM",
+            "field": "DYC:Farm Bureau",
+            "team_a": "LKN Kingdom",
+            "seed_a": null,
+            "score_a": 0,
+            "team_b": "Lightning Jacks Riddle",
+            "seed_b": null,
+            "score_b": 9
+          },
+          {
+            "game": 3,
+            "day": "Fri",
+            "time": "6:00 PM",
+            "field": "DYC:K&W Service",
+            "team_a": "SOX Baseball - Snow",
+            "seed_a": null,
+            "score_a": 5,
+            "team_b": "Flying Pigs 9U",
+            "seed_b": null,
+            "score_b": 8
+          },
+          {
+            "game": 4,
+            "day": "Fri",
+            "time": "6:00 PM",
+            "field": "DYC:Zach Wright",
+            "team_a": "Carolina Clippers 9U",
+            "seed_a": null,
+            "score_a": 6,
+            "team_b": "NC Made 9U Blue",
+            "seed_b": null,
+            "score_b": 2
+          }
+        ],
+        "Gold Bracket": [
+          {
+            "game": 1,
+            "day": "Fri",
+            "time": "7:30 PM",
+            "field": "DYC:Bird Co Field",
+            "team_a": "Winner of game 1",
+            "seed_a": null,
+            "score_a": 12,
+            "team_b": "Winner of game 2",
+            "seed_b": null,
+            "score_b": 4
+          },
+          {
+            "game": 2,
+            "day": "Fri",
+            "time": "7:30 PM",
+            "field": "DYC:Farm Bureau",
+            "team_a": "Loser of game 1",
+            "seed_a": null,
+            "score_a": 12,
+            "team_b": "Loser of Game 2",
+            "seed_b": null,
+            "score_b": 0
+          },
+          {
+            "game": 3,
+            "day": "Fri",
+            "time": "7:30 PM",
+            "field": "DYC:K&W Service",
+            "team_a": "Winner of Game 3",
+            "seed_a": null,
+            "score_a": 2,
+            "team_b": "Winner of Game 4",
+            "seed_b": null,
+            "score_b": 14
+          },
+          {
+            "game": 4,
+            "day": "Fri",
+            "time": "7:30 PM",
+            "field": "DYC:Zach Wright",
+            "team_a": "Loser game 3",
+            "seed_a": null,
+            "score_a": 4,
+            "team_b": "Loser of game 4",
+            "seed_b": null,
+            "score_b": 15
+          },
+          {
+            "game": 5,
+            "day": "Fri",
+            "time": "9:00 PM",
+            "field": "DYC:K&W Service",
+            "team_a": "Winner of gold game 1",
+            "seed_a": null,
+            "score_a": 8,
+            "team_b": "Winner of Gold game 3",
+            "seed_b": null,
+            "score_b": 4
+          }
+        ]
+      }
+    }
+  },
+  "site_last_updated": "08/28/2026 4:02 PM",
+  "tournament_id": 13552
+}

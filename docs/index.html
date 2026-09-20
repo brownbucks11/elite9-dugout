@@ -1,0 +1,471 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Elite 9 Dugout</title>
+<meta name="description" content="Elite 9 (9U) Top Gun schedule, results, and standings for parents.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600&display=swap">
+<style>
+  :root {
+    color-scheme: light dark;
+    --navy: #15223d;
+    --navy-2: #1f3057;
+    --amber: #e0a422;
+    --chalk: #f6f5f0;
+    --paper: #ffffff;
+    --ink: #1a1f2b;
+    --ink-2: #5a6172;
+    --line: #dcdad2;
+    --win: #2e7d4f;
+    --loss: #b8422f;
+    --tie: #6b7280;
+    --win-bg: #e3f1e8;
+    --loss-bg: #f8e4e0;
+    --tie-bg: #ececef;
+    --me-bg: #fbf1d8;
+    --link: #1d4f8c;
+    --display: "Barlow Condensed", "Arial Narrow", Impact, sans-serif;
+    --body: "Barlow", "Segoe UI", Helvetica, Arial, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --navy: #0c1426; --navy-2: #172445; --amber: #f0b62f;
+      --chalk: #12182a; --paper: #1b2237; --ink: #ecebe4; --ink-2: #a3a9b8; --line: #2c3650;
+      --win: #5fc98a; --loss: #f08a77; --tie: #a3a9b8;
+      --win-bg: #17311f; --loss-bg: #3d1e18; --tie-bg: #262b3a; --me-bg: #3a2f14; --link: #8fb8f0;
+    }
+  }
+  :root[data-theme="dark"] {
+    --navy: #0c1426; --navy-2: #172445; --amber: #f0b62f;
+    --chalk: #12182a; --paper: #1b2237; --ink: #ecebe4; --ink-2: #a3a9b8; --line: #2c3650;
+    --win: #5fc98a; --loss: #f08a77; --tie: #a3a9b8;
+    --win-bg: #17311f; --loss-bg: #3d1e18; --tie-bg: #262b3a; --me-bg: #3a2f14; --link: #8fb8f0;
+  }
+
+  * { box-sizing: border-box; }
+  html, body { margin: 0; }
+  body {
+    background: var(--chalk); color: var(--ink);
+    font-family: var(--body); font-size: 15px; line-height: 1.45;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: var(--link); }
+  h1, h2, h3 { font-family: var(--display); margin: 0; text-wrap: balance; line-height: 1.05; }
+  [hidden] { display: none !important; }
+  button { font: inherit; }
+  :focus-visible { outline: 3px solid var(--amber); outline-offset: 2px; }
+
+  /* Scoreboard header */
+  .board {
+    background: var(--navy); color: #fff;
+    padding: calc(14px + env(safe-area-inset-top, 0px)) 16px 0;
+  }
+  .board-inner { max-width: 960px; margin: 0 auto; }
+  .board-top { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 12px 24px; }
+  .team-name { font-size: 44px; font-weight: 700; letter-spacing: .5px; text-transform: uppercase; }
+  .team-name small { display: block; font-family: var(--body); font-size: 13px; font-weight: 500; letter-spacing: 1.5px; text-transform: uppercase; color: var(--amber); margin-bottom: 4px; }
+  .record { display: flex; gap: 20px; align-items: flex-end; }
+  .stat { text-align: right; }
+  .stat b { display: block; font-family: var(--display); font-size: 40px; font-weight: 700; line-height: 1; font-variant-numeric: tabular-nums; }
+  .stat span { font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase; opacity: .75; }
+  .stat.big b { color: var(--amber); font-size: 52px; }
+  .tabs { display: flex; gap: 4px; margin-top: 16px; overflow-x: auto; scrollbar-width: none; }
+  .tabs::-webkit-scrollbar { display: none; }
+  .tab {
+    background: none; border: 0; color: #fff; opacity: .7; cursor: pointer;
+    font-family: var(--display); font-size: 19px; font-weight: 600; letter-spacing: .5px; text-transform: uppercase;
+    padding: 10px 14px 12px; border-bottom: 3px solid transparent; white-space: nowrap;
+  }
+  .tab:hover { opacity: 1; }
+  .tab[aria-selected="true"] { opacity: 1; border-bottom-color: var(--amber); }
+
+  main { max-width: 960px; margin: 0 auto; padding: 20px 16px 48px; }
+  section[role="tabpanel"] { display: grid; gap: 18px; }
+  .section-title { font-size: 26px; font-weight: 700; text-transform: uppercase; letter-spacing: .5px; display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+  .section-title .sub { font-family: var(--body); font-size: 13px; font-weight: 500; color: var(--ink-2); text-transform: none; letter-spacing: 0; }
+
+  /* Event cards */
+  .event { background: var(--paper); border: 1px solid var(--line); border-radius: 6px; overflow: hidden; }
+  .event-head { display: flex; gap: 14px; padding: 14px 16px; align-items: center; border-bottom: 1px solid var(--line); }
+  .datebox { flex: 0 0 auto; width: 54px; text-align: center; background: var(--navy); color: #fff; border-radius: 4px; padding: 6px 0 5px; }
+  .datebox b { display: block; font-family: var(--display); font-size: 26px; line-height: 1; }
+  .datebox span { font-size: 10px; letter-spacing: 1.5px; text-transform: uppercase; opacity: .8; }
+  .event-head h3 { font-size: 22px; font-weight: 600; }
+  .event-meta { font-size: 13px; color: var(--ink-2); margin-top: 2px; }
+  .event-head .finish { margin-left: auto; text-align: right; flex: 0 0 auto; }
+  .finish b { display: block; font-family: var(--display); font-size: 24px; line-height: 1; font-variant-numeric: tabular-nums; }
+  .finish span { font-size: 11px; letter-spacing: 1px; text-transform: uppercase; color: var(--ink-2); }
+  .event-body { padding: 6px 16px 12px; }
+  .event-foot { padding: 8px 16px 12px; font-size: 13px; display: flex; gap: 16px; flex-wrap: wrap; }
+  .empty { padding: 14px 16px; color: var(--ink-2); font-size: 14px; }
+  .next-badge { display: inline-block; font-size: 11px; font-weight: 600; letter-spacing: 1.5px; text-transform: uppercase; color: var(--navy); background: var(--amber); padding: 2px 8px; border-radius: 3px; margin-left: 8px; vertical-align: middle; }
+
+  /* Game rows */
+  .games { list-style: none; margin: 0; padding: 0; }
+  .game { display: grid; grid-template-columns: 44px 1fr auto; gap: 4px 12px; align-items: center; padding: 10px 0; border-bottom: 1px solid var(--line); }
+  .game:last-child { border-bottom: 0; }
+  .pill { font-family: var(--display); font-weight: 700; font-size: 18px; text-align: center; border-radius: 4px; padding: 4px 0; line-height: 1; }
+  .pill.W { background: var(--win-bg); color: var(--win); }
+  .pill.L { background: var(--loss-bg); color: var(--loss); }
+  .pill.T { background: var(--tie-bg); color: var(--tie); }
+  .pill.time { background: var(--tie-bg); color: var(--ink); font-size: 15px; font-weight: 600; padding: 5px 2px; }
+  .opp { font-weight: 600; font-size: 16px; }
+  .opp button { background: none; border: 0; padding: 0; color: inherit; font-weight: 600; cursor: pointer; text-align: left; text-decoration: underline dotted; text-underline-offset: 3px; }
+  .opp button:hover { color: var(--link); }
+  .when { font-size: 13px; color: var(--ink-2); }
+  .when a { color: inherit; }
+  .score { font-family: var(--display); font-size: 26px; font-weight: 700; font-variant-numeric: tabular-nums; text-align: right; }
+  .score small { font-family: var(--body); font-size: 12px; font-weight: 500; color: var(--ink-2); display: block; text-align: right; }
+
+  /* Tables */
+  .table-wrap { overflow-x: auto; background: var(--paper); border: 1px solid var(--line); border-radius: 6px; }
+  table { border-collapse: collapse; width: 100%; font-variant-numeric: tabular-nums; }
+  th, td { padding: 8px 10px; text-align: left; white-space: nowrap; border-bottom: 1px solid var(--line); }
+  th { font-size: 11px; letter-spacing: 1.2px; text-transform: uppercase; color: var(--ink-2); font-weight: 600; background: var(--paper); position: sticky; top: 0; }
+  th.num, td.num { text-align: right; }
+  th.sortable { cursor: pointer; user-select: none; }
+  th.sortable:hover { color: var(--ink); }
+  th[aria-sort="descending"]::after { content: " ▾"; }
+  th[aria-sort="ascending"]::after { content: " ▴"; }
+  tr:last-child td { border-bottom: 0; }
+  tr.me td { background: var(--me-bg); font-weight: 600; }
+  td.team-cell button { background: none; border: 0; padding: 0; font: inherit; color: var(--link); cursor: pointer; text-align: left; }
+  td.team-cell button:hover { text-decoration: underline; }
+  td.from { color: var(--ink-2); font-size: 13px; }
+  .pos { color: var(--win); } .neg { color: var(--loss); }
+  .toolbar { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+  .toolbar input { flex: 1 1 200px; padding: 8px 10px; border: 1px solid var(--line); border-radius: 4px; background: var(--paper); color: var(--ink); font: inherit; }
+  details { background: var(--paper); border: 1px solid var(--line); border-radius: 6px; }
+  details summary { cursor: pointer; padding: 10px 16px; font-weight: 600; }
+  details .table-wrap { border: 0; border-top: 1px solid var(--line); border-radius: 0; }
+
+  /* Fields */
+  .fields { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 12px; }
+  .field { background: var(--paper); border: 1px solid var(--line); border-radius: 6px; padding: 12px 14px; }
+  .field h3 { font-size: 20px; font-weight: 600; }
+  .field .abbr { font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase; color: var(--ink-2); }
+  .field p { margin: 6px 0 8px; font-size: 14px; }
+  .field a { font-size: 13px; font-weight: 600; }
+
+  /* Team sheet */
+  .sheet-back { position: fixed; inset: 0; background: rgba(10, 14, 28, .55); display: flex; justify-content: flex-end; z-index: 10; }
+  .sheet { width: min(560px, 100%); height: 100%; overflow-y: auto; background: var(--chalk); color: var(--ink); padding: 0 0 40px; box-shadow: -8px 0 30px rgba(0,0,0,.3); }
+  .sheet-head { background: var(--navy); color: #fff; padding: calc(16px + env(safe-area-inset-top, 0px)) 16px 16px; position: sticky; top: 0; display: flex; gap: 12px; align-items: flex-start; }
+  .sheet-head h2 { font-size: 30px; font-weight: 700; }
+  .sheet-head .sub { font-size: 13px; opacity: .8; margin-top: 4px; }
+  .sheet-head .close { margin-left: auto; background: none; border: 1px solid rgba(255,255,255,.35); color: #fff; border-radius: 4px; width: 36px; height: 36px; font-size: 20px; cursor: pointer; flex: 0 0 auto; }
+  .sheet-body { padding: 16px; display: grid; gap: 16px; }
+  .sheet .record { justify-content: flex-start; }
+  .sheet .stat { text-align: left; }
+  .sheet .stat b { font-size: 34px; }
+  .sheet .stat.big b { color: var(--amber); }
+  .h2h { background: var(--paper); border: 1px solid var(--line); border-radius: 6px; padding: 10px 16px; }
+  .h2h h3 { font-size: 18px; font-weight: 600; margin-bottom: 4px; }
+
+  footer { max-width: 960px; margin: 0 auto; padding: 0 16px 32px; font-size: 12px; color: var(--ink-2); }
+
+  @media (max-width: 480px) {
+    .team-name { font-size: 36px; }
+    .stat b { font-size: 32px; } .stat.big b { font-size: 42px; }
+    .record { gap: 14px; }
+    .event-head { flex-wrap: wrap; }
+    .event-head .finish { margin-left: 68px; text-align: left; }
+    .game { grid-template-columns: 44px 1fr auto; }
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .sheet { animation: slide .18s ease-out; }
+    @keyframes slide { from { transform: translateX(30px); opacity: 0; } to { transform: none; opacity: 1; } }
+  }
+</style>
+</head>
+<body>
+
+<header class="board">
+  <div class="board-inner">
+    <div class="board-top">
+      <h1 class="team-name"><small id="hdr-sub">9U · Top Gun · Fall 2026</small><span id="hdr-team">Elite 9</span></h1>
+      <div class="record" id="hdr-record"></div>
+    </div>
+    <nav class="tabs" role="tablist" id="tabs">
+      <button class="tab" role="tab" data-tab="next" aria-selected="true">Next Up</button>
+      <button class="tab" role="tab" data-tab="results">Results</button>
+      <button class="tab" role="tab" data-tab="standings">Standings</button>
+      <button class="tab" role="tab" data-tab="fields">Fields</button>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section role="tabpanel" id="panel-next"></section>
+  <section role="tabpanel" id="panel-results" hidden></section>
+  <section role="tabpanel" id="panel-standings" hidden></section>
+  <section role="tabpanel" id="panel-fields" hidden></section>
+</main>
+
+<div id="sheet" hidden></div>
+
+<footer id="foot"></footer>
+
+<script src="data.js"></script>
+<script>
+(function () {
+  const D = window.SITE_DATA;
+  const $ = (s) => document.querySelector(s);
+  const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const norm = (s) => String(s || "").toLowerCase().replace(/[^a-z0-9]/g, "");
+  const ME = norm(D.team);
+  const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+  const today = new Date(); today.setHours(0, 0, 0, 0);
+  const iso = (d) => d ? new Date(d + "T00:00:00") : null;
+
+  if (!D) {
+    $("main").innerHTML = '<p class="empty">No data yet. Run <code>python build_site.py</code> to create docs/data.js.</p>';
+    return;
+  }
+
+  // Top Gun names are shouty: "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS" -> "Win Thousands of Dollars – Double Points"
+  const SMALL = new Set(["of", "the", "for", "and", "vs", "in", "a", "to", "by"]);
+  const CAPS = new Set(["nit", "toc", "usa", "nc", "sc", "tgs", "goat", "fnl", "lkn"]);
+  function tidy(name) {
+    return String(name || "").replace(/-{2,}/g, " – ").replace(/\s+/g, " ").trim().split(" ").map((w, i) => {
+      const l = w.toLowerCase();
+      if (/^\d+u$/.test(l) || CAPS.has(l.replace(/[^a-z]/g, ""))) return l.toUpperCase();
+      if (/^[a-z]\.?([a-z]\.?)+$/.test(l) && w.includes(".")) return w.toUpperCase();
+      if (i > 0 && SMALL.has(l)) return l;
+      return l.charAt(0).toUpperCase() + l.slice(1);
+    }).join(" ");
+  }
+  function fieldParts(f) {
+    const [abbr, ...rest] = String(f || "").split(":");
+    const c = D.fields[abbr.trim()];
+    const sub = rest.join(":").replace(/#\s*/, "").trim();
+    return { abbr: abbr.trim(), name: c ? c.name : abbr.trim(), sub, address: c ? c.address : "" };
+  }
+  const mapsUrl = (addr) => "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(addr);
+  function fieldHtml(f) {
+    const p = fieldParts(f);
+    if (!p.abbr) return "";
+    const label = esc(p.name) + (p.sub ? " · " + esc(p.sub) : "");
+    return p.address ? `<a href="${mapsUrl(p.address)}" target="_blank" rel="noopener" title="${esc(p.address)}">${label}</a>` : label;
+  }
+  const datebox = (d) => {
+    const x = iso(d);
+    return x ? `<div class="datebox"><span>${MONTHS[x.getMonth()]}</span><b>${x.getDate()}</b></div>` : `<div class="datebox"><span>TBA</span><b>–</b></div>`;
+  };
+  const teamBtn = (name) => norm(name) === ME ? esc(name) : `<button type="button" data-team="${esc(name)}">${esc(name)}</button>`;
+  const recordStr = (r) => `${r.w}-${r.l}` + (r.t ? `-${r.t}` : "");
+
+  // ---- header --------------------------------------------------------------
+  const R = D.record;
+  $("#hdr-team").textContent = D.team;
+  $("#hdr-sub").textContent = `${D.division} · Top Gun · ${D.location || ""}`.replace(/ · $/, "");
+  $("#hdr-record").innerHTML = `
+    <div class="stat big"><b>${recordStr(R)}</b><span>Season</span></div>
+    <div class="stat"><b>${R.rs}</b><span>Runs for</span></div>
+    <div class="stat"><b>${R.ra}</b><span>Against</span></div>`;
+  $("#foot").innerHTML = `Updated ${esc(D.built)}. Scores and schedules from <a href="https://playtopgunsports.com/" target="_blank" rel="noopener">playtopgunsports.com</a>; runs are only counted from games with a posted final.`
+    + (D.team_url ? ` <a href="${esc(D.team_url)}" target="_blank" rel="noopener">${esc(D.team)} on Top Gun</a>.` : "");
+
+  // ---- Next Up ---------------------------------------------------------------
+  function renderNext() {
+    const list = D.upcoming || [];
+    if (!list.length) {
+      $("#panel-next").innerHTML = `<h2 class="section-title">Next up</h2><div class="event"><p class="empty">No upcoming events on the list. Add tournament IDs to upcoming.json and rebuild.</p></div>`;
+      return;
+    }
+    const nextIdx = list.findIndex((e) => !e.date || iso(e.date) >= today);
+    $("#panel-next").innerHTML = `<h2 class="section-title">Next up <span class="sub">${list.length} event${list.length === 1 ? "" : "s"} on the calendar</span></h2>` +
+      list.map((e, i) => {
+        const mine = e.games.filter((g) => norm(g.team_a) === ME || norm(g.team_b) === ME);
+        let body;
+        if (!e.posted) {
+          body = `<p class="empty">Schedule not posted yet — check back closer to game day.</p>`;
+        } else if (!mine.length) {
+          body = `<p class="empty">Schedule is up, but ${esc(D.team)} isn't on it yet.</p>`;
+        } else {
+          body = `<div class="event-body"><ul class="games">` + mine.map((g) => {
+            const isA = norm(g.team_a) === ME;
+            const opp = isA ? g.team_b : g.team_a;
+            const rs = isA ? g.score_a : g.score_b, ra = isA ? g.score_b : g.score_a;
+            const done = rs != null && ra != null;
+            const res = done ? (rs > ra ? "W" : rs < ra ? "L" : "T") : null;
+            return `<li class="game">
+              <div class="pill ${done ? res : "time"}">${done ? res : esc(g.day)}</div>
+              <div><div class="opp">${/^(winner|loser|seed)/i.test(opp) ? esc(opp) : teamBtn(opp)}</div>
+                   <div class="when">${esc(g.day)} ${esc(g.time)} · ${fieldHtml(g.field)} · ${esc(g.section)} G${g.game}</div></div>
+              <div class="score">${done ? `${rs}–${ra}` : `<small>${esc(g.time)}</small>`}</div>
+            </li>`;
+          }).join("") + `</ul></div>`;
+        }
+        return `<article class="event">
+          <div class="event-head">${datebox(e.date)}
+            <div><h3>${esc(tidy(e.name))}${i === nextIdx ? '<span class="next-badge">Next</span>' : ""}</h3>
+                 <div class="event-meta">${esc(e.dates)}${e.standings.length ? ` · ${e.standings.length} teams` : ""}</div></div>
+          </div>
+          ${body}
+          <div class="event-foot"><a href="${esc(e.url)}" target="_blank" rel="noopener">Full schedule &amp; brackets on Top Gun ↗</a></div>
+        </article>`;
+      }).join("");
+  }
+
+  // ---- Results ---------------------------------------------------------------
+  function standingsTable(rows, opts = {}) {
+    return `<div class="table-wrap"><table>
+      <thead><tr><th>#</th><th>Team</th><th>From</th><th class="num">W-L</th><th class="num">RS</th><th class="num">RA</th></tr></thead>
+      <tbody>${rows.map((s) => `<tr class="${norm(s.team) === ME ? "me" : ""}">
+        <td class="num">${s.seed}</td><td class="team-cell">${teamBtn(s.team)}</td><td class="from">${esc(s.location || "")}</td>
+        <td class="num">${s.won}-${s.lost}</td><td class="num">${s.runs_scored}</td><td class="num">${s.runs_allowed}</td></tr>`).join("")}
+      </tbody></table></div>`;
+  }
+  function renderResults() {
+    const evs = (D.my_events || []).slice().sort((a, b) => (b.date || "").localeCompare(a.date || ""));
+    if (!evs.length) {
+      $("#panel-results").innerHTML = `<h2 class="section-title">Results</h2><div class="event"><p class="empty">No games played yet.</p></div>`;
+      return;
+    }
+    $("#panel-results").innerHTML = `<h2 class="section-title">Results <span class="sub">${recordStr(R)} across ${evs.length} event${evs.length === 1 ? "" : "s"}, newest first</span></h2>` +
+      evs.map((e) => {
+        const games = D.my_games.filter((g) => g.event_id === e.id);
+        const s = e.standing;
+        return `<article class="event">
+          <div class="event-head">${datebox(e.date)}
+            <div><h3>${esc(tidy(e.name))}</h3><div class="event-meta">${esc(e.dates)}${e.notes.length ? " · " + esc(e.notes.join(", ")) : ""}</div></div>
+            ${s ? `<div class="finish"><b>#${s.seed} of ${e.teams}</b><span>${s.won}-${s.lost} · RS ${s.rs} · RA ${s.ra}</span></div>` : ""}
+          </div>
+          <div class="event-body"><ul class="games">${games.map((g) => `<li class="game">
+              <div class="pill ${g.result || "time"}">${g.result || esc(g.day)}</div>
+              <div><div class="opp">${/^(winner|loser|seed)/i.test(g.opponent) ? esc(g.opponent) : teamBtn(g.opponent)}</div>
+                   <div class="when">${esc(g.section)} G${g.game} · ${esc(g.day)} ${esc(g.time)} · ${fieldHtml(g.field)}</div></div>
+              <div class="score">${g.result ? `${g.rs}–${g.ra}` : `<small>not played</small>`}</div>
+            </li>`).join("")}</ul></div>
+          <details><summary>Pool standings (${e.teams} teams)</summary>${standingsTable(e.standings)}</details>
+          <div class="event-foot"><a href="${esc(e.url)}" target="_blank" rel="noopener">Brackets &amp; all games on Top Gun ↗</a></div>
+        </article>`;
+      }).join("");
+  }
+
+  // ---- Standings (all teams) --------------------------------------------------
+  const COLS = [
+    { key: "team", label: "Team", num: false },
+    { key: "location", label: "From", num: false },
+    { key: "record", label: "W-L", num: true },
+    { key: "pct", label: "Pct", num: true },
+    { key: "rs", label: "RS", num: true },
+    { key: "ra", label: "RA", num: true },
+    { key: "diff", label: "Diff", num: true },
+    { key: "events", label: "Events", num: true },
+  ];
+  let sortKey = "pct", sortDir = -1, filter = "";
+  function sortedTeams() {
+    const q = norm(filter);
+    const rows = D.teams.filter((t) => !q || norm(t.team).includes(q) || norm(t.location).includes(q));
+    const val = (t) => sortKey === "record" ? t.w - t.l : sortKey === "pct" ? t.pct + t.diff / 1000 : t[sortKey];
+    return rows.sort((a, b) => {
+      const x = val(a), y = val(b);
+      const c = typeof x === "number" ? x - y : String(x || "").localeCompare(String(y || ""));
+      return c * sortDir || a.team.localeCompare(b.team);
+    });
+  }
+  function renderStandings() {
+    const rows = sortedTeams();
+    const nEvents = new Set(D.teams.flatMap((t) => t.log.map((g) => g.event_id))).size;
+    $("#panel-standings").innerHTML = `
+      <h2 class="section-title">${esc(D.division)} standings <span class="sub">${D.teams.length} teams · ${nEvents} events · tap a team for its game log</span></h2>
+      <div class="toolbar"><label for="team-filter" class="visually-hidden" hidden>Search</label>
+        <input id="team-filter" type="search" placeholder="Search team or town" value="${esc(filter)}" autocomplete="off"></div>
+      <div class="table-wrap"><table>
+        <thead><tr><th class="num">#</th>${COLS.map((c) => `<th class="sortable ${c.num ? "num" : ""}" data-key="${c.key}" aria-sort="${sortKey === c.key ? (sortDir < 0 ? "descending" : "ascending") : "none"}">${c.label}</th>`).join("")}</tr></thead>
+        <tbody>${rows.map((t, i) => `<tr class="${norm(t.team) === ME ? "me" : ""}">
+          <td class="num">${i + 1}</td>
+          <td class="team-cell">${teamBtn(t.team)}</td>
+          <td class="from">${esc(t.location || "")}</td>
+          <td class="num">${recordStr(t)}</td>
+          <td class="num">${t.pct.toFixed(3).replace(/^0/, "")}</td>
+          <td class="num">${t.rs}</td><td class="num">${t.ra}</td>
+          <td class="num ${t.diff > 0 ? "pos" : t.diff < 0 ? "neg" : ""}">${t.diff > 0 ? "+" : ""}${t.diff}</td>
+          <td class="num">${t.events}</td></tr>`).join("")}
+        ${rows.length ? "" : `<tr><td colspan="9" class="empty">No team matches “${esc(filter)}”.</td></tr>`}
+        </tbody></table></div>`;
+    const input = $("#team-filter");
+    input.addEventListener("input", () => { filter = input.value; const pos = input.selectionStart; renderStandings(); const el = $("#team-filter"); el.focus(); el.setSelectionRange(pos, pos); });
+    document.querySelectorAll("#panel-standings th.sortable").forEach((th) => th.addEventListener("click", () => {
+      const k = th.dataset.key;
+      if (sortKey === k) sortDir = -sortDir; else { sortKey = k; sortDir = COLS.find((c) => c.key === k).num ? -1 : 1; }
+      renderStandings();
+    }));
+  }
+
+  // ---- Fields ------------------------------------------------------------------
+  function renderFields() {
+    const used = new Set();
+    (D.my_games || []).forEach((g) => used.add(fieldParts(g.field).abbr));
+    (D.upcoming || []).forEach((e) => e.games.forEach((g) => { if (norm(g.team_a) === ME || norm(g.team_b) === ME) used.add(fieldParts(g.field).abbr); }));
+    const entries = Object.entries(D.fields).sort((a, b) => (used.has(b[0]) - used.has(a[0])) || a[1].name.localeCompare(b[1].name));
+    $("#panel-fields").innerHTML = `<h2 class="section-title">Fields <span class="sub">every complex Top Gun uses around Charlotte · ones ${esc(D.team)} has played listed first</span></h2>
+      <div class="fields">${entries.map(([abbr, f]) => `<div class="field">
+        <div class="abbr">${esc(abbr)}${used.has(abbr) ? " · played here" : ""}</div>
+        <h3>${esc(f.name)}</h3><p>${esc(f.address)}</p>
+        <a href="${mapsUrl(f.address)}" target="_blank" rel="noopener">Open in Maps ↗</a></div>`).join("")}</div>`;
+  }
+
+  // ---- Team sheet --------------------------------------------------------------
+  function openTeam(name) {
+    const t = D.teams.find((x) => norm(x.team) === norm(name));
+    if (!t) return;
+    const h2h = t.log.filter((g) => norm(g.opponent) === ME);
+    const sheet = $("#sheet");
+    sheet.innerHTML = `<div class="sheet-back"><div class="sheet" role="dialog" aria-modal="true" aria-label="${esc(t.team)}">
+      <div class="sheet-head"><div><h2>${esc(t.team)}</h2><div class="sub">${esc(t.location || "")}${t.url ? ` · <a style="color:inherit" href="${esc(t.url)}" target="_blank" rel="noopener">Top Gun page ↗</a>` : ""}</div></div>
+        <button type="button" class="close" aria-label="Close">×</button></div>
+      <div class="sheet-body">
+        <div class="record">
+          <div class="stat big"><b>${recordStr(t)}</b><span>${t.events} event${t.events === 1 ? "" : "s"}</span></div>
+          <div class="stat"><b>${t.rs}</b><span>Runs for</span></div>
+          <div class="stat"><b>${t.ra}</b><span>Against</span></div>
+          <div class="stat"><b class="${t.diff > 0 ? "pos" : t.diff < 0 ? "neg" : ""}">${t.diff > 0 ? "+" : ""}${t.diff}</b><span>Diff</span></div>
+        </div>
+        <div class="h2h"><h3>vs ${esc(D.team)}</h3>${h2h.length ? `<ul class="games">${h2h.map((g) => {
+          const mine = g.result === "W" ? "L" : g.result === "L" ? "W" : "T";
+          return `<li class="game"><div class="pill ${mine}">${mine}</div><div><div class="opp">${esc(D.team)} ${mine === "W" ? "won" : mine === "L" ? "lost" : "tied"}</div><div class="when">${esc(g.date)} · ${esc(tidy(g.event))} · ${esc(g.section)}</div></div><div class="score">${g.ra}–${g.rs}</div></li>`;
+        }).join("")}</ul>` : `<div class="when">Haven't met yet.</div>`}</div>
+        <div class="event"><div class="event-body"><ul class="games">${t.log.map((g) => `<li class="game">
+            <div class="pill ${g.result}">${g.result}</div>
+            <div><div class="opp">${teamBtn(g.opponent)}</div><div class="when">${esc(g.date)} · ${esc(g.section)} · ${esc(tidy(g.event))}</div></div>
+            <div class="score">${g.rs}–${g.ra}</div></li>`).join("")}</ul></div></div>
+      </div></div></div>`;
+    sheet.hidden = false;
+    document.body.style.overflow = "hidden";
+    sheet.querySelector(".close").focus();
+    sheet.querySelector(".sheet-back").addEventListener("click", (e) => { if (e.target === e.currentTarget) closeTeam(); });
+    sheet.querySelector(".close").addEventListener("click", closeTeam);
+  }
+  function closeTeam() { $("#sheet").hidden = true; $("#sheet").innerHTML = ""; document.body.style.overflow = ""; }
+  document.addEventListener("keydown", (e) => { if (e.key === "Escape" && !$("#sheet").hidden) closeTeam(); });
+  document.addEventListener("click", (e) => {
+    const b = e.target.closest("button[data-team]");
+    if (b) { closeTeam(); openTeam(b.dataset.team); }
+  });
+
+  // ---- Tabs ---------------------------------------------------------------------
+  const TABS = ["next", "results", "standings", "fields"];
+  function showTab(name, push) {
+    if (!TABS.includes(name)) name = "next";
+    document.querySelectorAll(".tab").forEach((t) => t.setAttribute("aria-selected", String(t.dataset.tab === name)));
+    TABS.forEach((t) => { $("#panel-" + t).hidden = t !== name; });
+    if (push && location.hash !== "#" + name) history.replaceState(null, "", "#" + name);
+    try { localStorage.setItem("elite9.tab", name); } catch (_) {}
+  }
+  $("#tabs").addEventListener("click", (e) => { const b = e.target.closest(".tab"); if (b) showTab(b.dataset.tab, true); });
+  window.addEventListener("hashchange", () => showTab(location.hash.slice(1), false));
+
+  renderNext(); renderResults(); renderStandings(); renderFields();
+  let start = location.hash.slice(1);
+  if (!start) { try { start = localStorage.getItem("elite9.tab") || ""; } catch (_) {} }
+  showTab(start || "next", false);
+})();
+</script>
+</body>
+</html>

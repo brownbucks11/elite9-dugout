@@ -1,0 +1,239 @@
+{
+  "title": "Game Times & Scores | Top Gun",
+  "name": "GHOST SUMMER BASH---CHAMPIONSHIP GHOST RINGS",
+  "dates": "August 1 - 2 in Greater Charlotte Area, NC",
+  "url": "https://playtopgunsports.com/GameTimesResults.aspx?trnid=12510",
+  "complexes": {
+    "Dallas": {
+      "name": "Dallas Park",
+      "address": "1303 Dallas-Cherryville Highwa Dallas, NC 28034"
+    },
+    "Charlotte": {
+      "name": "Greater Charlotte Area",
+      "address": "TBA Greater Charlotte Area, NC 28262"
+    }
+  },
+  "divisions": {
+    "14U": {
+      "notes": [
+        "No steel cleats on portable mounds"
+      ],
+      "standings": [
+        {
+          "seed": 1,
+          "team": "Carolina Clippers 13U",
+          "location": "Albemarle, NC",
+          "won": 1,
+          "lost": 3,
+          "runs_allowed": 10,
+          "runs_scored": 7,
+          "team_page_id": 19677
+        },
+        {
+          "seed": 2,
+          "team": "Dirtbags 13u Hagen",
+          "location": "Pineville, NC",
+          "won": 2,
+          "lost": 1,
+          "runs_allowed": 6,
+          "runs_scored": 8,
+          "team_page_id": 35115
+        },
+        {
+          "seed": 3,
+          "team": "Dirtbags 13u Continenza",
+          "location": "Pineville, NC",
+          "won": 3,
+          "lost": 0,
+          "runs_allowed": 8,
+          "runs_scored": 23,
+          "team_page_id": 36276
+        },
+        {
+          "seed": 4,
+          "team": "Copperheads Red",
+          "location": "Concord, NC",
+          "won": 0,
+          "lost": 4,
+          "runs_allowed": 19,
+          "runs_scored": 14,
+          "team_page_id": 36592
+        },
+        {
+          "seed": 5,
+          "team": "13U Red Clay Athletics Kelly",
+          "location": "Huntersville, NC",
+          "won": 3,
+          "lost": 1,
+          "runs_allowed": 30,
+          "runs_scored": 16,
+          "team_page_id": 37112
+        },
+        {
+          "seed": 6,
+          "team": "Northwest Patriots",
+          "location": "WINSTON SALEM, NC",
+          "won": 2,
+          "lost": 2,
+          "runs_allowed": 8,
+          "runs_scored": 13,
+          "team_page_id": 37959
+        }
+      ],
+      "sections": {
+        "Pool Play": [
+          {
+            "game": 1,
+            "day": "Sat",
+            "time": "9:00 AM",
+            "field": "Dallas:Field # 1",
+            "team_a": "Carolina Clippers 13U",
+            "seed_a": null,
+            "score_a": 1,
+            "team_b": "Dirtbags 13u Hagen",
+            "seed_b": null,
+            "score_b": 3
+          },
+          {
+            "game": 2,
+            "day": "Sat",
+            "time": "10:45 AM",
+            "field": "Dallas:Field # 1",
+            "team_a": "Carolina Clippers 13U",
+            "seed_a": null,
+            "score_a": 6,
+            "team_b": "Northwest Patriots",
+            "seed_b": null,
+            "score_b": 7
+          },
+          {
+            "game": 3,
+            "day": "Sat",
+            "time": "10:45 AM",
+            "field": "Dallas:Field # 2",
+            "team_a": "Dirtbags 13u Hagen",
+            "seed_a": null,
+            "score_a": 5,
+            "team_b": "Dirtbags 13u Continenza",
+            "seed_b": null,
+            "score_b": 5
+          },
+          {
+            "game": 4,
+            "day": "Sat",
+            "time": "12:30 PM",
+            "field": "Dallas:Field # 1",
+            "team_a": "Northwest Patriots",
+            "seed_a": null,
+            "score_a": 6,
+            "team_b": "Copperheads Red",
+            "seed_b": null,
+            "score_b": 2
+          },
+          {
+            "game": 5,
+            "day": "Sat",
+            "time": "12:30 PM",
+            "field": "Dallas:Field # 2",
+            "team_a": "Dirtbags 13u Continenza",
+            "seed_a": null,
+            "score_a": 18,
+            "team_b": "13U Red Clay Athletics Kelly",
+            "seed_b": null,
+            "score_b": 3
+          },
+          {
+            "game": 6,
+            "day": "Sat",
+            "time": "2:15 PM",
+            "field": "Dallas:Field # 1",
+            "team_a": "13U Red Clay Athletics Kelly",
+            "seed_a": null,
+            "score_a": 13,
+            "team_b": "Copperheads Red",
+            "seed_b": null,
+            "score_b": 12
+          }
+        ],
+        "Gold Bracket": [
+          {
+            "game": 1,
+            "day": "Sun",
+            "time": "9:00 AM",
+            "field": "Dallas:Field # 1",
+            "team_a": "Dirtbags 13u Hagen",
+            "seed_a": 2,
+            "score_a": 0,
+            "team_b": "Dirtbags 13u Continenza",
+            "seed_b": 3,
+            "score_b": 15
+          },
+          {
+            "game": 2,
+            "day": "Sun",
+            "time": "11:00 AM",
+            "field": "Dallas:Field # 1",
+            "team_a": "Northwest Patriots",
+            "seed_a": 1,
+            "score_a": 0,
+            "team_b": "Dirtbags 13u Continenza",
+            "seed_b": 3,
+            "score_b": 19
+          },
+          {
+            "game": 3,
+            "day": "Sun",
+            "time": "1:00 PM",
+            "field": "Dallas:Field # 1",
+            "team_a": "Northwest Patriots",
+            "seed_a": 1,
+            "score_a": 9,
+            "team_b": "Dirtbags 13u Hagen",
+            "seed_b": 2,
+            "score_b": 10
+          }
+        ],
+        "Silver Bracket": [
+          {
+            "game": 1,
+            "day": "Sun",
+            "time": "9:00 AM",
+            "field": "Dallas:Field # 2",
+            "team_a": "Carolina Clippers 13U",
+            "seed_a": 5,
+            "score_a": 8,
+            "team_b": "Copperheads Red",
+            "seed_b": 6,
+            "score_b": 1
+          },
+          {
+            "game": 2,
+            "day": "Sun",
+            "time": "11:00 AM",
+            "field": "Dallas:Field # 2",
+            "team_a": "13U Red Clay Athletics Kelly",
+            "seed_a": 4,
+            "score_a": 11,
+            "team_b": "Copperheads Red",
+            "seed_b": 6,
+            "score_b": 3
+          },
+          {
+            "game": 3,
+            "day": "Sun",
+            "time": "1:00 PM",
+            "field": "Dallas:Field # 2",
+            "team_a": "13U Red Clay Athletics Kelly",
+            "seed_a": 4,
+            "score_a": 7,
+            "team_b": "Carolina Clippers 13U",
+            "seed_b": 5,
+            "score_b": 6
+          }
+        ]
+      }
+    }
+  },
+  "site_last_updated": "08/02/2026 6:50 AM",
+  "tournament_id": 12510
+}

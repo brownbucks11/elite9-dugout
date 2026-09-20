@@ -1,0 +1,224 @@
+{
+  "title": "Game Times & Scores | Top Gun",
+  "name": "BATTLE FOR THE BASEBALL SHADES----TOP GUN-USA SPORTS-SUNDAY ONLY",
+  "dates": "July 5 in Greater Charlotte Area, NC",
+  "url": "https://playtopgunsports.com/GameTimesResults.aspx?trnid=12506",
+  "complexes": {
+    "Charlotte": {
+      "name": "Greater Charlotte Area",
+      "address": "TBA Greater Charlotte Area, NC 28262"
+    },
+    "Tuckasee": {
+      "name": "Tuckaseegee Dream Fields",
+      "address": "7531 Tuckaseegee Road Charlotte, NC 28214"
+    }
+  },
+  "divisions": {
+    "13U 90": {
+      "notes": [
+        "No steel cleats on portable mound"
+      ],
+      "standings": [
+        {
+          "seed": 1,
+          "team": "Carolina Bearcats",
+          "location": "Alexis, NC",
+          "won": 3,
+          "lost": 0,
+          "runs_allowed": 7,
+          "runs_scored": 42,
+          "team_page_id": 20524
+        },
+        {
+          "seed": 2,
+          "team": "Carolina Outlaws",
+          "location": "Lawndale, NC",
+          "won": 0,
+          "lost": 2,
+          "runs_allowed": 21,
+          "runs_scored": 1,
+          "team_page_id": 37079
+        },
+        {
+          "seed": 3,
+          "team": "13U Red Clay Athletics Kelly",
+          "location": "Huntersville, NC",
+          "won": 1,
+          "lost": 2,
+          "runs_allowed": 27,
+          "runs_scored": 12,
+          "team_page_id": 37112
+        }
+      ],
+      "sections": {
+        "Pool Play": [
+          {
+            "game": 1,
+            "day": "Sun",
+            "time": "8:30 AM",
+            "field": "Tuckasee:Tuckaseegee 3",
+            "team_a": "Carolina Bearcats",
+            "seed_a": null,
+            "score_a": 16,
+            "team_b": "Carolina Outlaws",
+            "seed_b": null,
+            "score_b": 0
+          },
+          {
+            "game": 2,
+            "day": "Sun",
+            "time": "10:15 AM",
+            "field": "Tuckasee:Tuckaseegee 3",
+            "team_a": "Carolina Bearcats",
+            "seed_a": null,
+            "score_a": 26,
+            "team_b": "13U Red Clay Athletics Kelly",
+            "seed_b": null,
+            "score_b": 7
+          },
+          {
+            "game": 3,
+            "day": "Sun",
+            "time": "12:00 PM",
+            "field": "Tuckasee:Tuckaseegee 3",
+            "team_a": "Carolina Outlaws",
+            "seed_a": null,
+            "score_a": 1,
+            "team_b": "13U Red Clay Athletics Kelly",
+            "seed_b": null,
+            "score_b": 5
+          }
+        ],
+        "Gold Bracket": [
+          {
+            "game": 1,
+            "day": "Sun",
+            "time": "1:45 PM",
+            "field": "Tuckasee:Tuckaseegee 3",
+            "team_a": "",
+            "seed_a": 1,
+            "score_a": 11,
+            "team_b": "",
+            "seed_b": 2,
+            "score_b": 0
+          }
+        ]
+      }
+    },
+    "HSU": {
+      "notes": [
+        "No steel cleats on the turf field"
+      ],
+      "standings": [
+        {
+          "seed": 1,
+          "team": "Carolina Elevate 15U",
+          "location": "Hudson, NC",
+          "won": 1,
+          "lost": 1,
+          "runs_allowed": 12,
+          "runs_scored": 8,
+          "team_page_id": 26169
+        },
+        {
+          "seed": 2,
+          "team": "Lonestar",
+          "location": "Gastonia, NC",
+          "won": 1,
+          "lost": 2,
+          "runs_allowed": 6,
+          "runs_scored": 10,
+          "team_page_id": 18642
+        },
+        {
+          "seed": 3,
+          "team": "Greensboro Bison Baseball",
+          "location": "Greensboro, NC",
+          "won": 0,
+          "lost": 2,
+          "runs_allowed": 12,
+          "runs_scored": 10,
+          "team_page_id": 37145
+        },
+        {
+          "seed": 4,
+          "team": "SC Tide FreeBirds",
+          "location": "Clover, SC",
+          "won": 3,
+          "lost": 0,
+          "runs_allowed": 8,
+          "runs_scored": 10,
+          "team_page_id": 37195
+        }
+      ],
+      "sections": {
+        "Pool Play": [
+          {
+            "game": 1,
+            "day": "Sun",
+            "time": "8:00 AM",
+            "field": "Tuckasee:Tuckaseegee 1",
+            "team_a": "SC Tide FreeBirds",
+            "seed_a": null,
+            "score_a": 5,
+            "team_b": "Lonestar",
+            "seed_b": null,
+            "score_b": 4
+          },
+          {
+            "game": 2,
+            "day": "Sun",
+            "time": "9:45 AM",
+            "field": "Tuckasee:Tuckaseegee 1",
+            "team_a": "Carolina Elevate 15U",
+            "seed_a": null,
+            "score_a": 1,
+            "team_b": "Lonestar",
+            "seed_b": null,
+            "score_b": 6
+          },
+          {
+            "game": 3,
+            "day": "Sun",
+            "time": "11:30 AM",
+            "field": "Tuckasee:Tuckaseegee 1",
+            "team_a": "Greensboro Bison Baseball",
+            "seed_a": null,
+            "score_a": 4,
+            "team_b": "SC Tide FreeBirds",
+            "seed_b": null,
+            "score_b": 5
+          },
+          {
+            "game": 4,
+            "day": "Sun",
+            "time": "1:15 PM",
+            "field": "Tuckasee:Tuckaseegee 1",
+            "team_a": "Greensboro Bison Baseball",
+            "seed_a": null,
+            "score_a": 6,
+            "team_b": "Carolina Elevate 15U",
+            "seed_b": null,
+            "score_b": 7
+          }
+        ],
+        "Gold Bracket": [
+          {
+            "game": 1,
+            "day": "Sun",
+            "time": "3:00 PM",
+            "field": "Tuckasee:Tuckaseegee 1",
+            "team_a": "SC Tide FreeBirds",
+            "seed_a": 1,
+            "score_a": 7,
+            "team_b": "Lonestar",
+            "seed_b": 2,
+            "score_b": 0
+          }
+        ]
+      }
+    }
+  },
+  "site_last_updated": "07/01/2026 2:02 PM",
+  "tournament_id": 12506
+}

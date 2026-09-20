@@ -1,0 +1,717 @@
+{
+  "title": "Game Times & Scores | Top Gun",
+  "name": "TOP GUN-USA SPORTS---SATURDAY ONLY",
+  "dates": "September 5 in Mocksville/Winston Salem/Clemm, NC",
+  "url": "https://playtopgunsports.com/GameTimesResults.aspx?trnid=13556",
+  "complexes": {
+    "DCCP": {
+      "name": "Davie County Community Park",
+      "address": "151 Southwood Drive Mocksville, NC 27028"
+    },
+    "DYC": {
+      "name": "Davie Youth Complex",
+      "address": "599 Farmington Rd Mocksville, NC 27028"
+    }
+  },
+  "divisions": {
+    "8U CP": {
+      "notes": [],
+      "standings": [
+        {
+          "seed": 1,
+          "team": "Carolina Firebirds-8u",
+          "location": "Winston Salem, NC",
+          "won": 1,
+          "lost": 1,
+          "runs_allowed": 20,
+          "runs_scored": 19,
+          "team_page_id": 38895
+        },
+        {
+          "seed": 2,
+          "team": "NWNC Elite 8u",
+          "location": "Wilkesboro, NC",
+          "won": 1,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 11,
+          "team_page_id": 36055
+        },
+        {
+          "seed": 3,
+          "team": "Flying Pigs",
+          "location": "Lexington, NC",
+          "won": 2,
+          "lost": 0,
+          "runs_allowed": 10,
+          "runs_scored": 15,
+          "team_page_id": 36100
+        },
+        {
+          "seed": 4,
+          "team": "Carolina Smoke 8u",
+          "location": "Concord, NC",
+          "won": 0,
+          "lost": 1,
+          "runs_allowed": 11,
+          "runs_scored": 0,
+          "team_page_id": 37944
+        },
+        {
+          "seed": 5,
+          "team": "Romans 10:9",
+          "location": "Taylorsville, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": 37257
+        },
+        {
+          "seed": 6,
+          "team": "NC Made 7U",
+          "location": "Mocksville, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": 37875
+        },
+        {
+          "seed": 7,
+          "team": "NC Made 8U Green",
+          "location": "Mocksville, NC",
+          "won": 0,
+          "lost": 2,
+          "runs_allowed": 17,
+          "runs_scored": 13,
+          "team_page_id": 37254
+        },
+        {
+          "seed": 8,
+          "team": "East Wilkes Havoc 8U",
+          "location": "Ronda, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": 38875
+        }
+      ],
+      "sections": {
+        "Pool Play": [
+          {
+            "game": 1,
+            "day": "Sat",
+            "time": "8:30 AM",
+            "field": "DYC:Farm Bureau",
+            "team_a": "Flying Pigs",
+            "seed_a": null,
+            "score_a": 10,
+            "team_b": "Carolina Firebirds-8u",
+            "seed_b": null,
+            "score_b": 7
+          },
+          {
+            "game": 2,
+            "day": "Sat",
+            "time": "9:45 AM",
+            "field": "DYC:Farm Bureau",
+            "team_a": "Flying Pigs",
+            "seed_a": null,
+            "score_a": 5,
+            "team_b": "NC Made 8U Green",
+            "seed_b": null,
+            "score_b": 3
+          },
+          {
+            "game": 3,
+            "day": "Sat",
+            "time": "11:00 AM",
+            "field": "DYC:Farm Bureau",
+            "team_a": "Carolina Firebirds-8u",
+            "seed_a": null,
+            "score_a": 12,
+            "team_b": "NC Made 8U Green",
+            "seed_b": null,
+            "score_b": 10
+          },
+          {
+            "game": 4,
+            "day": "Sat",
+            "time": "12:15 PM",
+            "field": "DYC:Farm Bureau",
+            "team_a": "NWNC Elite 8u",
+            "seed_a": null,
+            "score_a": 11,
+            "team_b": "Carolina Smoke 8u",
+            "seed_b": null,
+            "score_b": 0
+          },
+          {
+            "game": 5,
+            "day": "Sat",
+            "time": "1:30 PM",
+            "field": "DYC:Farm Bureau",
+            "team_a": "NWNC Elite 8u",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Romans 10:9",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 6,
+            "day": "Sat",
+            "time": "2:45 PM",
+            "field": "DYC:Farm Bureau",
+            "team_a": "Carolina Smoke 8u",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "East Wilkes Havoc 8U",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 7,
+            "day": "Sat",
+            "time": "4:00 PM",
+            "field": "DYC:Farm Bureau",
+            "team_a": "NC Made 7U",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Romans 10:9",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 8,
+            "day": "Sat",
+            "time": "5:15 PM",
+            "field": "DYC:Farm Bureau",
+            "team_a": "NC Made 7U",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "East Wilkes Havoc 8U",
+            "seed_b": null,
+            "score_b": null
+          }
+        ],
+        "Gold Bracket": [
+          {
+            "game": 1,
+            "day": "Sat",
+            "time": "6:30 PM",
+            "field": "DYC:Farm Bureau",
+            "team_a": "",
+            "seed_a": 1,
+            "score_a": null,
+            "team_b": "",
+            "seed_b": 2,
+            "score_b": null
+          }
+        ],
+        "Silver Bracket": [
+          {
+            "game": 1,
+            "day": "Sat",
+            "time": "6:30 PM",
+            "field": "DYC:K&W Service",
+            "team_a": "",
+            "seed_a": 3,
+            "score_a": null,
+            "team_b": "",
+            "seed_b": 4,
+            "score_b": null
+          }
+        ]
+      }
+    },
+    "9U": {
+      "notes": [],
+      "standings": [
+        {
+          "seed": 1,
+          "team": "NC Made 9U Green",
+          "location": "Mocksville, NC",
+          "won": 1,
+          "lost": 0,
+          "runs_allowed": 6,
+          "runs_scored": 13,
+          "team_page_id": 32802
+        },
+        {
+          "seed": 2,
+          "team": "Diamond Crushers",
+          "location": "Concord, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": 37381
+        },
+        {
+          "seed": 3,
+          "team": "Flying Pigs 9U",
+          "location": "Clemmons, NC",
+          "won": 0,
+          "lost": 1,
+          "runs_allowed": 13,
+          "runs_scored": 6,
+          "team_page_id": 37431
+        }
+      ],
+      "sections": {
+        "Pool Play": [
+          {
+            "game": 1,
+            "day": "Sat",
+            "time": "9:30 AM",
+            "field": "DCCP:Field 1",
+            "team_a": "Flying Pigs 9U",
+            "seed_a": null,
+            "score_a": 6,
+            "team_b": "NC Made 9U Green",
+            "seed_b": null,
+            "score_b": 13
+          },
+          {
+            "game": 2,
+            "day": "Sat",
+            "time": "11:15 AM",
+            "field": "DCCP:Field 1",
+            "team_a": "Diamond Crushers",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Flying Pigs 9U",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 3,
+            "day": "Sat",
+            "time": "1:00 PM",
+            "field": "DCCP:Field 1",
+            "team_a": "Diamond Crushers",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "NC Made 9U Green",
+            "seed_b": null,
+            "score_b": null
+          }
+        ],
+        "Gold Bracket": [
+          {
+            "game": 1,
+            "day": "Sat",
+            "time": "2:45 PM",
+            "field": "DCCP:Field 1",
+            "team_a": "",
+            "seed_a": 1,
+            "score_a": null,
+            "team_b": "",
+            "seed_b": 2,
+            "score_b": null
+          }
+        ]
+      }
+    },
+    "10U": {
+      "notes": [],
+      "standings": [
+        {
+          "seed": 1,
+          "team": "NC Made 10U Blue",
+          "location": "Mocksville, NC",
+          "won": 1,
+          "lost": 0,
+          "runs_allowed": 3,
+          "runs_scored": 13,
+          "team_page_id": 28939
+        },
+        {
+          "seed": 2,
+          "team": "M&M Baseball 10u Gold",
+          "location": "Browns Summit, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": 34950
+        },
+        {
+          "seed": 3,
+          "team": "Powerhouse Sports Gundawgs",
+          "location": "Reidsville, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": 26518
+        },
+        {
+          "seed": 4,
+          "team": "Carolina Scouts-Select",
+          "location": "Winston Salem, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": 38023
+        },
+        {
+          "seed": 5,
+          "team": "Dirtbags Camo",
+          "location": "Winston Salem, NC, NC",
+          "won": 0,
+          "lost": 2,
+          "runs_allowed": 21,
+          "runs_scored": 10,
+          "team_page_id": 35007
+        },
+        {
+          "seed": 6,
+          "team": "North Star Athletes",
+          "location": "Reidsville, NC",
+          "won": 1,
+          "lost": 0,
+          "runs_allowed": 7,
+          "runs_scored": 8,
+          "team_page_id": 36898
+        }
+      ],
+      "sections": {
+        "Pool Play": [
+          {
+            "game": 1,
+            "day": "Sat",
+            "time": "8:30 AM",
+            "field": "DYC:Bird Co Field",
+            "team_a": "NC Made 10U Blue",
+            "seed_a": null,
+            "score_a": 13,
+            "team_b": "Dirtbags Camo",
+            "seed_b": null,
+            "score_b": 3
+          },
+          {
+            "game": 2,
+            "day": "Sat",
+            "time": "10:15 AM",
+            "field": "DYC:Bird Co Field",
+            "team_a": "Dirtbags Camo",
+            "seed_a": null,
+            "score_a": 7,
+            "team_b": "North Star Athletes",
+            "seed_b": null,
+            "score_b": 8
+          },
+          {
+            "game": 3,
+            "day": "Sat",
+            "time": "12:00 PM",
+            "field": "DYC:Bird Co Field",
+            "team_a": "North Star Athletes",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "NC Made 10U Blue",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 4,
+            "day": "Sat",
+            "time": "1:45 PM",
+            "field": "DYC:Bird Co Field",
+            "team_a": "M&M Baseball 10u Gold",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Powerhouse Sports Gundawgs",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 5,
+            "day": "Sat",
+            "time": "3:30 PM",
+            "field": "DYC:Bird Co Field",
+            "team_a": "M&M Baseball 10u Gold",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Carolina Scouts-Select",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 6,
+            "day": "Sat",
+            "time": "5:15 PM",
+            "field": "DYC:Bird Co Field",
+            "team_a": "Powerhouse Sports Gundawgs",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Carolina Scouts-Select",
+            "seed_b": null,
+            "score_b": null
+          }
+        ],
+        "Gold Bracket": [
+          {
+            "game": 1,
+            "day": "Sat",
+            "time": "7:00 PM",
+            "field": "DYC:Bird Co Field",
+            "team_a": "",
+            "seed_a": 1,
+            "score_a": null,
+            "team_b": "",
+            "seed_b": 2,
+            "score_b": null
+          }
+        ]
+      }
+    },
+    "12U": {
+      "notes": [],
+      "standings": [
+        {
+          "seed": 1,
+          "team": "GunDawgs National",
+          "location": "Reidville, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": 27984
+        },
+        {
+          "seed": 2,
+          "team": "The Foundry Black",
+          "location": "Charlotte, NC",
+          "won": 0,
+          "lost": 1,
+          "runs_allowed": 6,
+          "runs_scored": 5,
+          "team_page_id": 38908
+        },
+        {
+          "seed": 3,
+          "team": "SBA Lake Norman Thunder",
+          "location": "Cornelius, NC",
+          "won": 0,
+          "lost": 1,
+          "runs_allowed": 11,
+          "runs_scored": 2,
+          "team_page_id": 38378
+        },
+        {
+          "seed": 4,
+          "team": "Performance Baseball Black",
+          "location": "Winston, NC",
+          "won": 2,
+          "lost": 0,
+          "runs_allowed": 7,
+          "runs_scored": 17,
+          "team_page_id": 36469
+        },
+        {
+          "seed": 1,
+          "team": "Eagles Elite Baseball",
+          "location": "Mebane, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": 26451
+        },
+        {
+          "seed": 2,
+          "team": "P413 11U Fleming",
+          "location": "ADVANCE, NC",
+          "won": 0,
+          "lost": 1,
+          "runs_allowed": 7,
+          "runs_scored": 0,
+          "team_page_id": 34836
+        },
+        {
+          "seed": 3,
+          "team": "North Star Athletes",
+          "location": "Reidsville, NC",
+          "won": 1,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 7,
+          "team_page_id": 36896
+        }
+      ],
+      "sections": {
+        "Pool Play": [
+          {
+            "game": 1,
+            "day": "Sat",
+            "time": "10:30 AM",
+            "field": "DYC:North Davie",
+            "team_a": "North Star Athletes",
+            "seed_a": null,
+            "score_a": 7,
+            "team_b": "P413 11U Fleming",
+            "seed_b": null,
+            "score_b": 0
+          },
+          {
+            "game": 2,
+            "day": "Sat",
+            "time": "12:15 PM",
+            "field": "DYC:North Davie",
+            "team_a": "Eagles Elite Baseball",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "North Star Athletes",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 3,
+            "day": "Sat",
+            "time": "2:00 PM",
+            "field": "DYC:North Davie",
+            "team_a": "Eagles Elite Baseball",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "P413 11U Fleming",
+            "seed_b": null,
+            "score_b": null
+          }
+        ],
+        "Gold Bracket": [
+          {
+            "game": 1,
+            "day": "Sat",
+            "time": "3:45 PM",
+            "field": "DYC:North Davie",
+            "team_a": "",
+            "seed_a": 1,
+            "score_a": null,
+            "team_b": "",
+            "seed_b": 2,
+            "score_b": null
+          }
+        ]
+      }
+    },
+    "13U 90": {
+      "notes": [],
+      "standings": [
+        {
+          "seed": 1,
+          "team": "NWNC Elite Gold 12u",
+          "location": "North Wilkesboro, NC",
+          "won": 1,
+          "lost": 0,
+          "runs_allowed": 1,
+          "runs_scored": 8,
+          "team_page_id": 29441
+        },
+        {
+          "seed": 2,
+          "team": "Rural Hall Bulldogs",
+          "location": "Stokes County, NC",
+          "won": 1,
+          "lost": 1,
+          "runs_allowed": 12,
+          "runs_scored": 15,
+          "team_page_id": 36607
+        },
+        {
+          "seed": 3,
+          "team": "NRV Tigers Reed",
+          "location": "Christiansburg, VA",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": 37953
+        },
+        {
+          "seed": 4,
+          "team": "Carolina Elevate",
+          "location": "Lenoir, NC",
+          "won": 0,
+          "lost": 1,
+          "runs_allowed": 14,
+          "runs_scored": 4,
+          "team_page_id": 37970
+        }
+      ],
+      "sections": {
+        "Pool Play": [
+          {
+            "game": 1,
+            "day": "Sat",
+            "time": "9:00 AM",
+            "field": "DYC:Zach Wright",
+            "team_a": "Rural Hall Bulldogs",
+            "seed_a": null,
+            "score_a": 14,
+            "team_b": "Carolina Elevate",
+            "seed_b": null,
+            "score_b": 4
+          },
+          {
+            "game": 2,
+            "day": "Sat",
+            "time": "10:45 AM",
+            "field": "DYC:Zach Wright",
+            "team_a": "NWNC Elite Gold 12u",
+            "seed_a": null,
+            "score_a": 8,
+            "team_b": "Rural Hall Bulldogs",
+            "seed_b": null,
+            "score_b": 1
+          },
+          {
+            "game": 3,
+            "day": "Sat",
+            "time": "12:30 PM",
+            "field": "DYC:Zach Wright",
+            "team_a": "Carolina Elevate",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "NRV Tigers Reed",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 4,
+            "day": "Sat",
+            "time": "2:15 PM",
+            "field": "DYC:Zach Wright",
+            "team_a": "NWNC Elite Gold 12u",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "NRV Tigers Reed",
+            "seed_b": null,
+            "score_b": null
+          }
+        ],
+        "Gold Bracket": [
+          {
+            "game": 1,
+            "day": "Sat",
+            "time": "4:00 PM",
+            "field": "DYC:Zach Wright",
+            "team_a": "",
+            "seed_a": 1,
+            "score_a": null,
+            "team_b": "",
+            "seed_b": 2,
+            "score_b": null
+          }
+        ]
+      }
+    }
+  },
+  "site_last_updated": "09/05/2026 2:28 PM",
+  "tournament_id": 13556
+}
