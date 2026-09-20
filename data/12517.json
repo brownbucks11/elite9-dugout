@@ -91,7 +91,7 @@
           "seed": 4,
           "team": "MARA Thunder",
           "location": "Matthews, NC",
-          "won": 2,
+          "won": 3,
           "lost": 0,
           "runs_allowed": 4,
           "runs_scored": 38,
@@ -102,7 +102,7 @@
           "team": "Fury Baseball 8u",
           "location": "Forest City, NC",
           "won": 1,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 37,
           "runs_scored": 4,
           "team_page_id": 39049
@@ -203,10 +203,10 @@
             "field": "Westmoreld:Field 4",
             "team_a": "Winner Game #1 Fury Baseball 8u",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 4,
             "team_b": "MARA Thunder",
             "seed_b": 1,
-            "score_b": null
+            "score_b": 20
           },
           {
             "game": 4,
@@ -225,7 +225,7 @@
             "day": "Sun",
             "time": "2:00 PM",
             "field": "Westmoreld:Field 4",
-            "team_a": "Winner Game #3",
+            "team_a": "Winner Game #3 MARA Thunder",
             "seed_a": null,
             "score_a": null,
             "team_b": "Winner Game #2 Carolina Rapid Fire \ud83d\udd25 8U",
@@ -237,7 +237,7 @@
             "day": "Sun",
             "time": "3:15 PM",
             "field": "Westmoreld:Field 4",
-            "team_a": "Winner Game #4 Pro-Fit Spartans 8u",
+            "team_a": "Winner Game #4",
             "seed_a": null,
             "score_a": null,
             "team_b": "Loser Game #3 (If Needed)",
@@ -2828,5 +2828,5 @@
   },
   "site_last_updated": "09/17/2026 12:42 PM",
   "tournament_id": 12517,
-  "fetched_at": "2026-09-20T13:41"
+  "fetched_at": "2026-09-20T13:49"
 }
