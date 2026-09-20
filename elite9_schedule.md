@@ -1,5 +1,5 @@
 # Elite 9 - Top Gun schedule
-_Updated Sun Sep 20, 2026 03:18 PM_
+_Updated Sun Sep 20, 2026 03:28 PM_
 
 ## WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND
 September 19 - 20 in Greater Charlotte Area, NC  
@@ -82,3 +82,7 @@ September 25 in Monroe, NC
 Tournament 13602 - [schedule page](https://playtopgunsports.com/GameTimesResults.aspx?trnid=13602)
 
 _Elite 9 not listed yet. Divisions posted: none posted yet_
+
+## Field addresses
+
+- **NWP** - Noel Williams Park, 3504 Zebulon Williams Road Monroe, NC 28110
