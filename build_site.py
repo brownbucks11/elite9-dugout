@@ -30,9 +30,14 @@ SCHEDULE_URL = "https://playtopgunsports.com/GameTimesResults.aspx?trnid={id}"
 TEAM_URL = "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2={id}"
 DAYS = {"Mon": 0, "Tue": 1, "Wed": 2, "Thu": 3, "Fri": 4, "Sat": 5, "Sun": 6}
 PLACEHOLDER = ("winner", "loser", "seed", "tbd")
-# Pool tiebreak after record. "ra" = fewest runs allowed, then most scored - this reproduces the
-# bracket seeds Top Gun prints. "diff" = run differential instead, if you prefer that view.
-TIEBREAK = "ra"
+
+
+def clock(t):
+    """'9:00 AM' -> minutes since midnight, for ordering games within a day."""
+    try:
+        return datetime.strptime((t or "").strip().upper(), "%I:%M %p").hour * 60 + datetime.strptime((t or "").strip().upper(), "%I:%M %p").minute
+    except ValueError:
+        return 0
 
 
 def game_date(start, day):
@@ -82,13 +87,17 @@ def is_placeholder(name):
 def rank_event(ev):
     """Pool finish for every team in the event.
 
-    Top Gun's standings table is in entry order, not rank order, so rank pool-play games by
-    win%, then fewest runs allowed, then most runs scored - checked against the bracket seeds
-    Top Gun printed and it matches. Bracket games (Gold/Silver/...) are reported separately.
-    Returns {norm(team): {rank, pool_w, pool_l, pool_t, pool_rs, pool_ra, seed, bracket, bracket_games}}.
+    Top Gun's standings table is in entry order, not rank order, so the pool finish is computed
+    here with Top Gun's own Random Pool Play tie-breaker (rules/2022 Tie Breaker Rules.pdf):
+        1. win-loss record            4. runs scored, all pool games
+        2. head-to-head (2 teams only) 5. run differential of the last game played
+        3. runs allowed, all pool games 6. coin flip (flagged; we can't know it)
+    Checked against the bracket seeds Top Gun printed and it matches. Bracket games
+    (Gold/Silver/...) are reported separately, not ranked.
+    Returns {norm(team): {rank, tiebreak, pool_w, pool_l, pool_t, pool_rs, pool_ra, seed, bracket, bracket_games}}.
     """
     info = defaultdict(lambda: {"pool_w": 0, "pool_l": 0, "pool_t": 0, "pool_rs": 0, "pool_ra": 0,
-                                "seed": None, "bracket": None, "bracket_games": []})
+                                "seed": None, "bracket": None, "bracket_games": [], "tiebreak": "record"})
     for s in ev["standings"]:
         info[norm(s["team"])]
     for g in ev["games"]:
@@ -111,15 +120,91 @@ def rank_event(ev):
                 r["bracket"] = r["bracket"] or g["section"]
                 r["bracket_games"].append({"section": g["section"], "opponent": t2, "rs": s1, "ra": s2, "result": res})
 
-    def key(k):
+    # Head-to-head results and each team's last pool game, for the tiebreak steps.
+    h2h = {}        # (a, b) -> "W" if a beat b in pool play (only if they met exactly once)
+    last_diff = {}  # team -> run differential in its last pool game
+    pool_games = [g for g in ev["games"] if g["section"].lower().startswith("pool")
+                  and g["score_a"] is not None and g["score_b"] is not None
+                  and not is_placeholder(g["team_a"]) and not is_placeholder(g["team_b"])]
+    pool_games.sort(key=lambda g: (g["date"] or "", clock(g["time"]), g["game"]))
+    for g in pool_games:
+        a, b = norm(g["team_a"]), norm(g["team_b"])
+        sa, sb = g["score_a"], g["score_b"]
+        if sa != sb:
+            w, l = (a, b) if sa > sb else (b, a)
+            h2h[(w, l)] = "W" if (w, l) not in h2h else None   # met twice -> no clear winner
+            h2h[(l, w)] = None
+        last_diff[a] = sa - sb
+        last_diff[b] = sb - sa
+
+    def pct(k):
         r = info[k]
         gp = r["pool_w"] + r["pool_l"] + r["pool_t"]
-        pct = (r["pool_w"] + 0.5 * r["pool_t"]) / gp if gp else -1
-        if TIEBREAK == "diff":
-            return (-pct, -(r["pool_rs"] - r["pool_ra"]), r["pool_ra"])
-        return (-pct, r["pool_ra"], -r["pool_rs"])
+        return (r["pool_w"] + 0.5 * r["pool_t"]) / gp if gp else -1
 
-    for i, k in enumerate(sorted(info, key=key), 1):
+    def split(group, value, reverse=False):
+        """Order a tied group by `value`, returning sub-groups that are still tied."""
+        buckets = defaultdict(list)
+        for k in group:
+            buckets[value(k)].append(k)
+        return [buckets[v] for v in sorted(buckets, reverse=reverse)]
+
+    def beat(a, b):
+        return h2h.get((a, b)) == "W"
+
+    def resolve(group, step):
+        """Apply the tiebreak steps from `step` on; returns teams in rank order and marks why."""
+        if len(group) == 1:
+            return group
+        if step == "h2h":  # step 2: only when exactly two teams are tied
+            if len(group) == 2:
+                a, b = group
+                if beat(a, b) or beat(b, a):
+                    order = [a, b] if beat(a, b) else [b, a]
+                    for k in order:
+                        info[k]["tiebreak"] = "head-to-head"
+                    return order
+            return resolve(group, "ra")
+        if step == "ra":  # step 3: runs allowed, all pool games
+            out = []
+            for sub in split(group, lambda k: info[k]["pool_ra"]):
+                if len(sub) > 1:
+                    for k in sub:
+                        info[k]["tiebreak"] = "runs allowed"
+                    # still tied on RA: two teams that met go back to head-to-head, otherwise runs scored
+                    if len(sub) == 2 and (beat(sub[0], sub[1]) or beat(sub[1], sub[0])):
+                        sub = resolve(sub, "h2h")
+                    else:
+                        sub = resolve(sub, "rs")
+                else:
+                    info[sub[0]]["tiebreak"] = "runs allowed"
+                out += sub
+            return out
+        if step == "rs":  # step 4: runs scored, all pool games
+            out = []
+            for sub in split(group, lambda k: info[k]["pool_rs"], reverse=True):
+                for k in sub:
+                    info[k]["tiebreak"] = "runs scored"
+                out += resolve(sub, "diff") if len(sub) > 1 else sub
+            return out
+        if step == "diff":  # step 5: run differential of the last game played
+            out = []
+            for sub in split(group, lambda k: last_diff.get(k, 0), reverse=True):
+                for k in sub:
+                    info[k]["tiebreak"] = "last-game run diff"
+                if len(sub) > 1:  # step 6: coin flip - we can't know it, so flag it
+                    for k in sub:
+                        info[k]["tiebreak"] = "coin flip (unresolved)"
+                    sub = sorted(sub)
+                out += sub
+            return out
+
+    order = []
+    for group in split(list(info), pct, reverse=True):
+        for k in group:
+            info[k]["tiebreak"] = "record"
+        order += resolve(group, "h2h")
+    for i, k in enumerate(order, 1):
         info[k]["rank"] = i
     return info
 
@@ -170,6 +255,7 @@ def build(events, team, upcoming, year):
             for s in ev["standings"]:
                 r = ranks[norm(s["team"])]
                 rows.append({"team": s["team"], "location": s.get("location", ""), "rank": r["rank"],
+                             "tiebreak": r["tiebreak"],
                              "pool_w": r["pool_w"], "pool_l": r["pool_l"], "pool_t": r["pool_t"],
                              "pool_rs": r["pool_rs"], "pool_ra": r["pool_ra"],
                              "seed": r["seed"], "bracket": r["bracket"],
