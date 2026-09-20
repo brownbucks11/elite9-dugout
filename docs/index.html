@@ -253,7 +253,7 @@
     <nav class="tabs" role="tablist" id="tabs">
       <button class="tab" role="tab" data-tab="next" aria-selected="true">Next Up</button>
       <button class="tab" role="tab" data-tab="results">Results</button>
-      <button class="tab" role="tab" data-tab="standings">Standings</button>
+      <button class="tab" role="tab" data-tab="teams">Teams</button>
       <button class="tab" role="tab" data-tab="fields">Fields</button>
       <button class="tab" role="tab" data-tab="roster">Roster</button>
     </nav>
@@ -263,7 +263,7 @@
 <main>
   <section role="tabpanel" id="panel-next"></section>
   <section role="tabpanel" id="panel-results" hidden></section>
-  <section role="tabpanel" id="panel-standings" hidden></section>
+  <section role="tabpanel" id="panel-teams" hidden></section>
   <section role="tabpanel" id="panel-fields" hidden></section>
   <section role="tabpanel" id="panel-roster" hidden></section>
 </main>
@@ -514,7 +514,7 @@
     { key: "finishes", label: "Finishes", num: false },
     { key: "vs", label: "vs " + D.team, num: false },
   ];
-  let sortKey = "pct", sortDir = -1, filter = "";
+  let sortKey = "team", sortDir = 1, filter = "";
   function sortedTeams() {
     const q = norm(filter);
     const rows = D.teams.filter((t) => !q || norm(t.team).includes(q) || norm(t.location).includes(q));
@@ -531,15 +531,14 @@
     const rows = sortedTeams();
     const nEvents = new Set(D.teams.flatMap((t) => t.log.map((g) => g.event_id))).size;
     const havePoints = D.teams.some((t) => t.finishes && t.finishes.length);
-    $("#panel-standings").innerHTML = `
-      <h2 class="section-title">${esc(D.division)} standings <span class="sub">${D.teams.length} teams · ${nEvents} events since Aug 1 · tap a team for its game log</span></h2>
+    $("#panel-teams").innerHTML = `
+      <h2 class="section-title">${esc(D.division)} teams <span class="sub">${D.teams.length} teams across ${nEvents} events since Aug 1 · not a ranking — teams have played different events · sort any column, tap a team for its game log</span></h2>
       <div class="toolbar"><label for="team-filter" class="visually-hidden" hidden>Search</label>
         <input id="team-filter" type="search" placeholder="Search team or town" value="${esc(filter)}" autocomplete="off">
         <span class="legend"><i class="swatch played"></i> played ${esc(D.team)}</span></div>
       <div class="table-wrap"><table>
-        <thead><tr><th class="num">#</th>${COLS.map((c) => `<th class="sortable ${c.num ? "num" : ""}" data-key="${c.key}" aria-sort="${sortKey === c.key ? (sortDir < 0 ? "descending" : "ascending") : "none"}">${c.label}</th>`).join("")}</tr></thead>
+        <thead><tr>${COLS.map((c) => `<th class="sortable ${c.num ? "num" : ""}" data-key="${c.key}" aria-sort="${sortKey === c.key ? (sortDir < 0 ? "descending" : "ascending") : "none"}">${c.label}</th>`).join("")}</tr></thead>
         <tbody>${rows.map((t, i) => { const v = vsUs(t); return `<tr class="${norm(t.team) === ME ? "me" : v.n ? "played" : ""}">
-          <td class="num">${i + 1}</td>
           <td class="team-cell">${teamBtn(t.team)}</td>
           <td class="from">${esc(t.location || "")}</td>
           <td class="num">${recordStr(t)}</td>
@@ -550,12 +549,12 @@
           <td class="num">${t.finishes && t.finishes.length ? t.points : `<span class="from">${havePoints ? "—" : ""}</span>`}</td>
           <td class="chips">${(t.finishes || []).map((f) => chip(f.standing)).join("")}</td>
           <td class="num">${norm(t.team) === ME ? "" : v.text}</td></tr>`; }).join("")}
-        ${rows.length ? "" : `<tr><td colspan="12" class="empty">No team matches “${esc(filter)}”.</td></tr>`}
+        ${rows.length ? "" : `<tr><td colspan="11" class="empty">No team matches “${esc(filter)}”.</td></tr>`}
         </tbody></table></div>
       ${havePoints ? `<p class="when">Points and finishes come from each team's Top Gun statistics page (season from Aug 1); a finish like "2nd Gold" is the team's placing in that event's bracket.</p>` : ""}`;
     const input = $("#team-filter");
     input.addEventListener("input", () => { filter = input.value; const pos = input.selectionStart; renderStandings(); const el = $("#team-filter"); el.focus(); el.setSelectionRange(pos, pos); });
-    document.querySelectorAll("#panel-standings th.sortable").forEach((th) => th.addEventListener("click", () => {
+    document.querySelectorAll("#panel-teams th.sortable").forEach((th) => th.addEventListener("click", () => {
       const k = th.dataset.key;
       if (sortKey === k) sortDir = -sortDir; else { sortKey = k; sortDir = COLS.find((c) => c.key === k).num ? -1 : 1; }
       renderStandings();
@@ -620,8 +619,10 @@
   });
 
   // ---- Tabs ---------------------------------------------------------------------
-  const TABS = ["next", "results", "standings", "fields", "roster"];
+  const TABS = ["next", "results", "teams", "fields", "roster"];
+  const TAB_ALIAS = { standings: "teams" };
   function showTab(name, push) {
+    name = TAB_ALIAS[name] || name;
     if (!TABS.includes(name)) name = "next";
     document.querySelectorAll(".tab").forEach((t) => t.setAttribute("aria-selected", String(t.dataset.tab === name)));
     TABS.forEach((t) => { $("#panel-" + t).hidden = t !== name; });
