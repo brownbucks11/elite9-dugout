@@ -2101,7 +2101,7 @@
           "seed": 3,
           "team": "Bethany Badgers",
           "location": "Clover, SC",
-          "won": 1,
+          "won": 2,
           "lost": 2,
           "runs_allowed": 18,
           "runs_scored": 9,
@@ -2142,7 +2142,7 @@
           "team": "Banana Peppers Baseball",
           "location": "Gastonia, NC",
           "won": 1,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 17,
           "runs_scored": 1,
           "team_page_id": 32516
@@ -2317,10 +2317,10 @@
             "field": "Core:Hinson Core Field",
             "team_a": "Banana Peppers Baseball",
             "seed_a": 5,
-            "score_a": null,
+            "score_a": 1,
             "team_b": "Bethany Badgers",
             "seed_b": 6,
-            "score_b": null
+            "score_b": 13
           }
         ]
       }
@@ -2828,5 +2828,5 @@
   },
   "site_last_updated": "09/17/2026 12:42 PM",
   "tournament_id": 12517,
-  "fetched_at": "2026-09-20T13:57"
+  "fetched_at": "2026-09-20T14:16"
 }
