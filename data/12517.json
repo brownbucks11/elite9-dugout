@@ -62,7 +62,7 @@
           "team": "Carolina Rapid Fire \ud83d\udd25 8U",
           "location": "Lincolnton, NC",
           "won": 3,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 6,
           "runs_scored": 27,
           "team_page_id": 30858
@@ -91,7 +91,7 @@
           "seed": 4,
           "team": "MARA Thunder",
           "location": "Matthews, NC",
-          "won": 3,
+          "won": 4,
           "lost": 0,
           "runs_allowed": 4,
           "runs_scored": 38,
@@ -227,10 +227,10 @@
             "field": "Westmoreld:Field 4",
             "team_a": "Winner Game #3 MARA Thunder",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 7,
             "team_b": "Winner Game #2 Carolina Rapid Fire \ud83d\udd25 8U",
             "seed_b": null,
-            "score_b": null
+            "score_b": 2
           },
           {
             "game": 6,
@@ -594,7 +594,7 @@
           "team": "FS Bulldogs 10u (Reece)",
           "location": "Mt Ulla, NC",
           "won": 1,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 15,
           "runs_scored": 13,
           "team_page_id": 32824
@@ -603,7 +603,7 @@
           "seed": 5,
           "team": "Canes Atlantic 10u Wagner",
           "location": "Mooresville, NC",
-          "won": 2,
+          "won": 3,
           "lost": 0,
           "runs_allowed": 10,
           "runs_scored": 15,
@@ -614,7 +614,7 @@
           "team": "Carolina Locos- 10U Blue",
           "location": "Waxhaw, NC",
           "won": 1,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 14,
           "runs_scored": 10,
           "team_page_id": 29864
@@ -624,7 +624,7 @@
           "team": "Carolina River Rats 10U",
           "location": "Lincolnton, NC",
           "won": 2,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 10,
           "runs_scored": 27,
           "team_page_id": 29359
@@ -653,7 +653,7 @@
           "seed": 5,
           "team": "PeeDee Mudcats",
           "location": "Wadesboro, NC",
-          "won": 1,
+          "won": 2,
           "lost": 1,
           "runs_allowed": 10,
           "runs_scored": 16,
@@ -673,7 +673,7 @@
           "seed": 7,
           "team": "Copperheads Red",
           "location": "Mooresville, NC",
-          "won": 2,
+          "won": 3,
           "lost": 1,
           "runs_allowed": 19,
           "runs_scored": 13,
@@ -693,7 +693,7 @@
           "seed": 9,
           "team": "Newport Bombers 10U Yerdon",
           "location": "Rock Hill, SC",
-          "won": 1,
+          "won": 2,
           "lost": 1,
           "runs_allowed": 17,
           "runs_scored": 26,
@@ -704,7 +704,7 @@
           "team": "Rutherford Baseball Academy Team Davis",
           "location": "Rutherfordton, NC",
           "won": 1,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 13,
           "runs_scored": 10,
           "team_page_id": 39012
@@ -841,10 +841,10 @@
             "field": "Bradford:Field # 3",
             "team_a": "PeeDee Mudcats",
             "seed_a": 4,
-            "score_a": null,
+            "score_a": 11,
             "team_b": "Carolina Locos- 10U Blue",
             "seed_b": 5,
-            "score_b": null
+            "score_b": 10
           },
           {
             "game": 2,
@@ -853,17 +853,17 @@
             "field": "Bradford:Field # 4",
             "team_a": "Carolina River Rats 10U",
             "seed_a": 3,
-            "score_a": null,
+            "score_a": 14,
             "team_b": "Newport Bombers 10U Yerdon",
             "seed_b": 6,
-            "score_b": null
+            "score_b": 16
           },
           {
             "game": 3,
             "day": "Sun",
             "time": "3:00 PM",
             "field": "Bradford:Field # 3",
-            "team_a": "Winner Game #1",
+            "team_a": "Winner Game #1 PeeDee Mudcats",
             "seed_a": null,
             "score_a": null,
             "team_b": "Stingers 10",
@@ -875,7 +875,7 @@
             "day": "Sun",
             "time": "3:00 PM",
             "field": "Bradford:Field # 4",
-            "team_a": "Winner Game #2",
+            "team_a": "Winner Game #2 Newport Bombers 10U Yerdon",
             "seed_a": null,
             "score_a": null,
             "team_b": "Copperheads Black",
@@ -887,10 +887,10 @@
             "day": "Sun",
             "time": "5:00 PM",
             "field": "Bradford:Field # 4",
-            "team_a": "Loser Game #1",
+            "team_a": "Loser Game #1 Carolina Locos- 10U Blue",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Loser Game #2",
+            "team_b": "Loser Game #2 Carolina River Rats 10U",
             "seed_b": null,
             "score_b": null
           },
@@ -951,10 +951,10 @@
             "field": "Tega Cay:Field 1",
             "team_a": "Winner Game #1 Rutherford Baseball Academy Team Davis",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 2,
             "team_b": "Winner Game #2 Copperheads Red",
             "seed_b": null,
-            "score_b": null
+            "score_b": 10
           }
         ]
       }
@@ -977,7 +977,7 @@
           "team": "SBA Lake Norman Thunder - White",
           "location": "Cornelius, NC",
           "won": 0,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 15,
           "runs_scored": 3,
           "team_page_id": 30820
@@ -986,7 +986,7 @@
           "seed": 3,
           "team": "Odell Chargers",
           "location": "Concord, NC",
-          "won": 0,
+          "won": 1,
           "lost": 2,
           "runs_allowed": 28,
           "runs_scored": 9,
@@ -996,7 +996,7 @@
           "seed": 4,
           "team": "Athletes Lab Navy 11u",
           "location": "Maiden, NC",
-          "won": 2,
+          "won": 3,
           "lost": 0,
           "runs_allowed": 7,
           "runs_scored": 24,
@@ -1007,7 +1007,7 @@
           "team": "Weddington Warriors",
           "location": "Weddington, NC",
           "won": 1,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 10,
           "runs_scored": 5,
           "team_page_id": 33089
@@ -1016,7 +1016,7 @@
           "seed": 1,
           "team": "Carolina Diamond Crushers",
           "location": "Kannapolis, NC",
-          "won": 1,
+          "won": 2,
           "lost": 1,
           "runs_allowed": 11,
           "runs_scored": 15,
@@ -1027,7 +1027,7 @@
           "team": "Destroyers Baseball",
           "location": "Denver, NC",
           "won": 0,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 15,
           "runs_scored": 7,
           "team_page_id": 30920
@@ -1036,7 +1036,7 @@
           "seed": 3,
           "team": "ELITE BASEBALL 11U EBC",
           "location": "Forest City, NC",
-          "won": 1,
+          "won": 2,
           "lost": 1,
           "runs_allowed": 12,
           "runs_scored": 10,
@@ -1047,7 +1047,7 @@
           "team": "LKN Bolts",
           "location": "Huntersville, NC",
           "won": 1,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 16,
           "runs_scored": 8,
           "team_page_id": 32536
@@ -1057,7 +1057,7 @@
           "team": "Newport Bombers 11U Janson",
           "location": "Rock Hill, SC",
           "won": 1,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 14,
           "runs_scored": 20,
           "team_page_id": 32379
@@ -1106,7 +1106,7 @@
           "seed": 10,
           "team": "Carolina Forge 11U",
           "location": "Gastonia, NC",
-          "won": 1,
+          "won": 2,
           "lost": 2,
           "runs_allowed": 20,
           "runs_scored": 8,
@@ -1338,10 +1338,10 @@
             "field": "Westmoreld:Field 2",
             "team_a": "ELITE BASEBALL 11U EBC",
             "seed_a": 6,
-            "score_a": null,
+            "score_a": 8,
             "team_b": "Newport Bombers 11U Janson",
             "seed_b": 7,
-            "score_b": null
+            "score_b": 7
           },
           {
             "game": 2,
@@ -1350,20 +1350,20 @@
             "field": "Westmoreld:Field 3",
             "team_a": "Carolina Diamond Crushers",
             "seed_a": 5,
-            "score_a": null,
+            "score_a": 11,
             "team_b": "Destroyers Baseball",
             "seed_b": 8,
-            "score_b": null
+            "score_b": 8
           },
           {
             "game": 3,
             "day": "Sun",
             "time": "3:00 PM",
             "field": "Westmoreld:Field 2",
-            "team_a": "Loser Game #1",
+            "team_a": "Loser Game #1 Newport Bombers 11U Janson",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Loser Game #2",
+            "team_b": "Loser Game #2 Destroyers Baseball",
             "seed_b": null,
             "score_b": null
           },
@@ -1372,10 +1372,10 @@
             "day": "Sun",
             "time": "3:00 PM",
             "field": "Westmoreld:Field 3",
-            "team_a": "Winner Game #1",
+            "team_a": "Winner Game #1 ELITE BASEBALL 11U EBC",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Winner Game #2",
+            "team_b": "Winner Game #2 Carolina Diamond Crushers",
             "seed_b": null,
             "score_b": null
           }
@@ -1424,10 +1424,10 @@
             "field": "Bradford:Field # 5",
             "team_a": "Winner Game #1 Carolina Forge 11U",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 10,
             "team_b": "Winner Game #2 LKN Bolts",
             "seed_b": null,
-            "score_b": null
+            "score_b": 5
           }
         ]
       }
@@ -1823,7 +1823,7 @@
           "team": "Carolina Clippers 13U",
           "location": "Albemarle, NC",
           "won": 3,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 7,
           "runs_scored": 19,
           "team_page_id": 19523
@@ -1842,7 +1842,7 @@
           "seed": 9,
           "team": "East Rowan 13U Earnhardt",
           "location": "Rockwell, NC",
-          "won": 2,
+          "won": 3,
           "lost": 0,
           "runs_allowed": 6,
           "runs_scored": 21,
@@ -1992,10 +1992,10 @@
             "field": "SP:Field #3",
             "team_a": "Winner Game #1 Carolina Clippers 13U",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 2,
             "team_b": "East Rowan 13U Earnhardt",
             "seed_b": 1,
-            "score_b": null
+            "score_b": 11
           },
           {
             "game": 4,
@@ -2014,7 +2014,7 @@
             "day": "Sun",
             "time": "3:00 PM",
             "field": "SP:Field #3",
-            "team_a": "Winner Game #3",
+            "team_a": "Winner Game #3 East Rowan 13U Earnhardt",
             "seed_a": null,
             "score_a": null,
             "team_b": "Winner Game #2 Carolina Rapid Fire",
@@ -2362,7 +2362,7 @@
           "seed": 4,
           "team": "CBC Knuckleheads Fox",
           "location": "Charlotte, NC",
-          "won": 2,
+          "won": 3,
           "lost": 1,
           "runs_allowed": 15,
           "runs_scored": 14,
@@ -2383,7 +2383,7 @@
           "team": "Banana Peppers Baseball",
           "location": "Bessemer City, NC",
           "won": 2,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 6,
           "runs_scored": 12,
           "team_page_id": 38138
@@ -2496,10 +2496,10 @@
             "field": "AHS:Field #1",
             "team_a": "Winner Game #1 CBC Knuckleheads Fox",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 12,
             "team_b": "Banana Peppers Baseball",
             "seed_b": 1,
-            "score_b": null
+            "score_b": 4
           },
           {
             "game": 4,
@@ -2518,7 +2518,7 @@
             "day": "Sun",
             "time": "5:00 PM",
             "field": "AHS:Field #1",
-            "team_a": "Winner Game #3",
+            "team_a": "Winner Game #3 CBC Knuckleheads Fox",
             "seed_a": null,
             "score_a": null,
             "team_b": "Winner Game #4",
@@ -2828,5 +2828,5 @@
   },
   "site_last_updated": "09/17/2026 12:42 PM",
   "tournament_id": 12517,
-  "fetched_at": "2026-09-20T14:33"
+  "fetched_at": "2026-09-20T15:03"
 }
