@@ -132,14 +132,8 @@
   .bracket-svg .tname.tbd { fill: var(--ink-2); font-style: italic; }
   .bracket-svg .tname.me { fill: var(--link); font-weight: 600; }
   .bracket-svg .seed { fill: var(--ink-2); font-size: 11px; }
-  .bracket-svg .vs { font-size: 10px; font-weight: 700; letter-spacing: .3px; }
-  .bracket-svg .vs.W { fill: var(--win); }
-  .bracket-svg .vs.L { fill: var(--loss); }
-  .bracket-svg .vs.T { fill: var(--tie); }
-  .vs-pill { font-size: 10px; font-weight: 700; padding: 1px 6px; border-radius: 999px; margin-left: 4px; white-space: nowrap; }
-  .vs-pill.W { background: var(--win-bg); color: var(--win); }
-  .vs-pill.L { background: var(--loss-bg); color: var(--loss); }
-  .vs-pill.T { background: var(--tie-bg); color: var(--tie); }
+  .bracket-svg .vs-mark image { cursor: help; }
+  .vs-icon { width: 18px; height: 13.5px; vertical-align: -2px; margin-left: 5px; cursor: help; }
   .bracket-svg .score { fill: var(--ink-2); font-family: var(--display); font-size: 15px; font-weight: 600; }
   .bracket-svg .score.win { fill: var(--win); }
   .bracket-svg .gnum { fill: var(--ink-2); font-size: 10px; }
@@ -506,9 +500,11 @@
     const nameText = (x, y, name, cls, anchor = "start") => {
       if (PH.test(name || "")) return `<text x="${x}" y="${y}" class="tname tbd" text-anchor="${anchor}">${esc(name)}</text>`;
       const v = vsInfo(name);
-      return `<text x="${x}" y="${y}" class="tname ${cls} ${norm(name) === ME ? "me" : ""}" text-anchor="${anchor}" data-team="${esc(name)}">${v ? `<title>${esc(v.tip)}</title>` : ""}${esc(short(name, v ? 14 : 24))}${v ? `<tspan class="vs ${v.cls}" dx="6">${esc(v.tag)}</tspan>` : ""}</text>`;
+      const text = `<text x="${x + (v ? 21 : 0)}" y="${y}" class="tname ${cls} ${norm(name) === ME ? "me" : ""}" text-anchor="${anchor}" data-team="${esc(name)}">${esc(short(name, v ? 21 : 24))}</text>`;
+      // our cap marks a team we played this event; hovering gives the score
+      return v ? `<g class="vs-mark"><title>${esc(v.tip)}</title><image href="logo.png" x="${x}" y="${y - 12}" width="18" height="13.5"/>${text}</g>` : text;
     };
-    const vsTag = (name) => { const v = vsInfo(name); return v ? `<span class="vs-pill ${v.cls}" title="${esc(v.tip)}">${esc(v.tag)}</span>` : ""; };
+    const vsTag = (name) => { const v = vsInfo(name); return v ? `<img class="vs-icon" src="logo.png" alt="played ${esc(D.team)}" title="${esc(v.tip)}">` : ""; };
 
     // Classic printed bracket: each team on a line, lines joined game to game, the winner's line runs right.
     const L = 200, GAP = 30, S = 34, GG = 22, LEFT = 6;
