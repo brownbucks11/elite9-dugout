@@ -126,17 +126,13 @@ def build_roster(data_dir, page_id, roster_path):
             "goes_by": (cfg_p or {}).get("goes_by"),
             "hr": p["hr"], "perfect_games": p["perfect_games"], "no_hitters": p["no_hitters"], "shutouts": p["shutouts"],
         })
-    # Player photos (docs/players/<number>.jpg, cropped from the team's roster sheet) and optional
-    # photos of the pin-back buttons (docs/buttons/<number>.png), both keyed by jersey number.
-    def by_number(folder):
-        found = {}
-        for f in (HERE / "docs" / folder).glob("*"):
-            if f.stem.isdigit() and f.suffix.lower() in (".png", ".jpg", ".jpeg", ".webp"):
-                found[int(f.stem)] = f"{folder}/{f.name}"
-        return found
-    photos, buttons = by_number("players"), by_number("buttons")
+    # Optional photos of the pin-back buttons (docs/buttons/<number>.png), keyed by jersey number.
+    # Player photos deliberately stay out of the public site (see local/ in .gitignore).
+    buttons = {}
+    for f in (HERE / "docs" / "buttons").glob("*"):
+        if f.stem.isdigit() and f.suffix.lower() in (".png", ".jpg", ".jpeg", ".webp"):
+            buttons[int(f.stem)] = f"buttons/{f.name}"
     for x in players:
-        x["photo"] = photos.get(x["number"])
         x["button_photo"] = buttons.get(x["number"])
     players.sort(key=lambda x: (x["number"] is None, x["number"] or 0, x["name"]))
     unmatched = [c["name"] for c in cfg.get("players", []) if norm(c["name"]) not in matched]

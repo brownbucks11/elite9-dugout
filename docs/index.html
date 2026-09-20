@@ -206,20 +206,14 @@
   .fgames b button { background: none; border: 0; padding: 0; font: inherit; font-weight: 600; color: var(--link); cursor: pointer; }
 
   /* Roster */
-  .roster { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 12px; }
-  .pcard { background: var(--paper); border: 1px solid var(--line); border-radius: 8px; overflow: hidden; display: flex; flex-direction: column; }
-  .photo { position: relative; aspect-ratio: 5 / 7; background: var(--navy-2); }
-  .photo img { width: 100%; height: 100%; object-fit: cover; display: block; }
-  .btn, .btn-img { width: 66px; height: 66px; border-radius: 50%; filter: drop-shadow(0 2px 3px rgba(0,0,0,.45)); }
+  .roster { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 10px; }
+  .player { display: flex; gap: 14px; align-items: center; background: var(--paper); border: 1px solid var(--line); border-radius: 6px; padding: 10px 12px; }
+  .btn, .btn-img { flex: 0 0 84px; width: 84px; height: 84px; border-radius: 50%; filter: drop-shadow(0 2px 3px rgba(0,0,0,.35)); }
   .btn-img { object-fit: cover; }
-  .photo .btn, .photo .btn-img { position: absolute; left: 8px; bottom: -20px; z-index: 1; }
-  .photo.none .btn, .photo.none .btn-img { position: absolute; left: 50%; top: 50%; bottom: auto; transform: translate(-50%, -50%); width: 110px; height: 110px; }
-  .pcard.dup .btn, .pcard.dup .btn-img { outline: 2px solid var(--loss); outline-offset: 2px; }
-  .pbar { background: var(--navy); color: #fff; border-top: 3px solid var(--red); min-height: 46px; display: flex; align-items: center; padding: 8px 10px 8px 82px; }
-  .pname { font-family: var(--display); font-size: 19px; font-weight: 600; line-height: 1.1; text-transform: uppercase; letter-spacing: .3px; }
-  .pfoot { padding: 8px 10px 10px; }
-  .ach { display: flex; flex-wrap: wrap; gap: 5px; }
-  @media (max-width: 480px) { .roster { grid-template-columns: repeat(2, 1fr); gap: 8px; } .pbar { padding-left: 10px; padding-top: 26px; } .photo .btn, .photo .btn-img { width: 56px; height: 56px; bottom: -14px; } .pname { font-size: 17px; } .ach-item i { display: none; } }
+  .player.dup .btn, .player.dup .btn-img { outline: 2px solid var(--loss); outline-offset: 2px; }
+  .pname { font-family: var(--display); font-size: 22px; font-weight: 600; line-height: 1.1; }
+  .pbody { min-width: 0; flex: 1; }
+  .ach { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 7px; }
   .ach-item { display: inline-flex; align-items: center; gap: 4px; padding: 3px 8px 3px 5px; border-radius: 999px; border: 1px solid var(--line); font-size: 11px; color: var(--ink-2); opacity: .55; }
   .ach-item svg { width: 15px; height: 15px; color: var(--ink-2); }
   .ach-item b { font-family: var(--display); font-size: 15px; font-weight: 700; font-variant-numeric: tabular-nums; }
@@ -713,10 +707,9 @@
     };
     $("#panel-roster").innerHTML = `
       <h2 class="section-title">Roster <span class="sub">${r.players.length} active players · Top Gun ${esc(r.season || "current season")}</span></h2>
-      <ul class="roster">${r.players.map((p) => `<li class="pcard ${p.number != null && dups[p.number] ? "dup" : ""}">
-        <div class="photo ${p.photo ? "" : "none"}">${p.photo ? `<img src="${esc(p.photo)}" alt="${esc(p.name)}" loading="lazy">` : ""}${badge(p)}</div>
-        <div class="pbar"><span class="pname">${esc(p.name)}</span></div>
-        <div class="pfoot">${achRow(p)}</div>
+      <ul class="roster">${r.players.map((p) => `<li class="player ${p.number != null && dups[p.number] ? "dup" : ""}">
+        ${badge(p)}
+        <div class="pbody"><div class="pname">${esc(p.name)}</div>${achRow(p)}</div>
       </li>`).join("")}</ul>
       <p class="when">Home runs, perfect games, no-hitters and shutouts as recorded on Top Gun this season — a chip lights up once it's been earned.</p>
       ${Object.keys(dups).length ? `<p class="when">Number ${Object.keys(dups).map((n) => `#${n} (${esc(dups[n].join(", "))})`).join(", ")} appears twice on the board — fix in roster.json.</p>` : ""}
