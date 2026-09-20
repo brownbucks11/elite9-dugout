@@ -119,16 +119,24 @@
   .champ { display: inline-flex; align-items: center; gap: 5px; font-family: var(--body); font-size: 13px; font-weight: 600; text-transform: none; letter-spacing: 0; color: var(--ink); background: var(--me-bg); border: 1px solid var(--amber); border-radius: 999px; padding: 2px 10px 2px 7px; }
   .champ svg { color: var(--amber); }
   .champ button { background: none; border: 0; padding: 0; font: inherit; font-weight: 600; color: inherit; cursor: pointer; }
-  .bracket { display: flex; gap: 18px; overflow-x: auto; padding-bottom: 4px; }
-  .round { display: flex; flex-direction: column; gap: 12px; justify-content: space-around; min-width: 230px; flex: 1 1 230px; }
-  .rlabel { font-size: 11px; letter-spacing: 1.2px; text-transform: uppercase; color: var(--ink-2); }
-  .match { border: 1px solid var(--line); border-radius: 6px; background: var(--paper); overflow: hidden; }
+  .bracket-scroll { overflow-x: auto; padding-bottom: 6px; }
+  .bracket-canvas { position: relative; }
+  .bracket-lines { position: absolute; left: 0; top: 0; pointer-events: none; }
+  .bracket-lines path { fill: none; stroke: var(--line); stroke-width: 2; }
+  .bracket-lines path.done { stroke: var(--ink-2); }
+  .bracket-lines path.winner.done { stroke: var(--win); }
+  .bracket-lines path.loser { stroke-dasharray: 4 3; }
+  .rlabel { position: absolute; top: 0; font-size: 11px; letter-spacing: 1.2px; text-transform: uppercase; color: var(--ink-2); }
+  .match { position: absolute; border: 1px solid var(--line); border-radius: 6px; background: var(--paper); overflow: hidden; box-sizing: border-box; }
+  .match .cap { height: 22px; box-sizing: border-box; }
+  .slot { height: 34px; box-sizing: border-box; }
   .match.pending { border-style: dashed; }
   .match .cap { display: flex; justify-content: space-between; gap: 8px; font-size: 11px; color: var(--ink-2); padding: 4px 8px; border-bottom: 1px solid var(--line); background: var(--chalk); }
   .slot { display: grid; grid-template-columns: 26px 1fr auto; gap: 6px; align-items: center; padding: 6px 8px; font-size: 14px; }
   .slot + .slot { border-top: 1px solid var(--line); }
   .slot .seed { font-size: 11px; color: var(--ink-2); }
-  .slot .tname button { background: none; border: 0; padding: 0; font: inherit; color: var(--ink); cursor: pointer; text-align: left; }
+  .slot .tname { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; }
+  .slot .tname button { background: none; border: 0; padding: 0; font: inherit; color: var(--ink); cursor: pointer; text-align: left; max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; vertical-align: bottom; }
   .slot .sc { font-family: var(--display); font-size: 18px; font-weight: 600; font-variant-numeric: tabular-nums; min-width: 22px; text-align: right; }
   .slot.win { font-weight: 600; box-shadow: inset 3px 0 0 var(--win); }
   .slot.win .sc { color: var(--win); }
@@ -468,6 +476,42 @@
     const referenced = new Set(games.flatMap((g) => [g.from_a, g.from_b].filter(Boolean).map((r) => r.game)));
     const played = (g) => g.score_a != null && g.score_b != null;
     const consolation = (g) => !!(g.from_a && g.from_a.type === "loser" && g.from_b && g.from_b.type === "loser");
+    const winnerSide = (g) => !played(g) || g.score_a === g.score_b ? null : g.score_a > g.score_b ? "a" : "b";
+
+    // Layout: columns per round; a game sits centered on the games that feed it, consolation games go below.
+    const colW = 224, hgap = 46, capH = 22, slotH = 34, boxH = capH + 2 * slotH, vgap = 14, top = 26;
+    const pos = new Map();
+    let H = 0;
+    for (let r = 1; r <= last; r++) {
+      const x = (r - 1) * (colW + hgap);
+      let bottom = top - vgap;
+      (rounds.get(r) || []).sort((a, b) => (consolation(a) - consolation(b)) || a.game - b.game).forEach((g) => {
+        const feeds = [g.from_a, g.from_b].filter((f) => f && pos.has(f.game)).map((f) => pos.get(f.game).y);
+        let y = feeds.length && !consolation(g) ? feeds.reduce((a, b) => a + b, 0) / feeds.length : bottom + vgap;
+        y = Math.max(y, bottom + vgap);
+        pos.set(g.game, { x, y, g });
+        bottom = y + boxH;
+        H = Math.max(H, bottom);
+      });
+    }
+    const W = last * colW + (last - 1) * hgap;
+
+    // Connectors: from the source game's winner (or loser) slot into the slot it fills.
+    const lines = [];
+    pos.forEach(({ x, y, g }) => {
+      ["a", "b"].forEach((side, i) => {
+        const f = g["from_" + side];
+        if (!f || !pos.has(f.game)) return;
+        const src = pos.get(f.game);
+        const ws = winnerSide(src.g);
+        const fromSide = ws ? (f.type === "winner" ? ws : ws === "a" ? "b" : "a") : null;
+        const sy = src.y + capH + (fromSide ? slotH * (fromSide === "a" ? 0.5 : 1.5) : slotH);
+        const sx = src.x + colW, tx = x, ty = y + capH + slotH * (i + 0.5);
+        const mid = sx + (f.type === "winner" ? hgap * 0.5 : hgap * 0.3);
+        lines.push(`<path class="${f.type} ${ws ? "done" : ""}" d="M${sx} ${sy} H${mid} V${ty} H${tx}"/>`);
+      });
+    });
+
     const slot = (g, side) => {
       const name = g["team_" + side], seed = g["seed_" + side], from = g["from_" + side];
       const sc = g["score_" + side], other = g["score_" + (side === "a" ? "b" : "a")];
@@ -487,13 +531,19 @@
     const rlabel = (r) => r === last ? (last === 1 ? "Games" : "Final") : last - r === 1 ? "Semifinals" : last - r === 2 ? "Quarterfinals" : `Round ${r}`;
     const finalGame = games.find((g) => roundOf(g) === last && !referenced.has(g.game) && !consolation(g));
     let champ = "";
-    if (finalGame && played(finalGame) && finalGame.score_a !== finalGame.score_b) {
-      const w = finalGame.score_a > finalGame.score_b ? finalGame.team_a : finalGame.team_b;
+    if (finalGame && winnerSide(finalGame)) {
+      const w = finalGame["team_" + winnerSide(finalGame)];
       if (!PH.test(w)) champ = `<span class="champ">${TROPHY} ${teamBtn(w)}</span>`;
     }
+    const boxes = [...pos.values()].map(({ x, y, g }) => {
+      const r = roundOf(g);
+      return `<div class="match ${played(g) ? "" : "pending"}" style="left:${x}px;top:${y}px;width:${colW}px">${cap(g, r)}${slot(g, "a")}${slot(g, "b")}</div>`;
+    }).join("");
+    const labels = [...Array(last)].map((_, i) => `<div class="rlabel" style="left:${i * (colW + hgap)}px">${rlabel(i + 1)}</div>`).join("");
     return `<div class="bracket-block"><div class="bracket-title">${esc(section)} ${champ}</div>
-      <div class="bracket">${[...rounds.keys()].sort((a, b) => a - b).map((r) => `<div class="round"><div class="rlabel">${rlabel(r)}</div>
-        ${rounds.get(r).sort((a, b) => (consolation(a) - consolation(b)) || a.game - b.game).map((g) => `<div class="match ${played(g) ? "" : "pending"}">${cap(g, r)}${slot(g, "a")}${slot(g, "b")}</div>`).join("")}</div>`).join("")}</div></div>`;
+      <div class="bracket-scroll"><div class="bracket-canvas" style="width:${W}px;height:${H + 4}px">
+        <svg class="bracket-lines" width="${W}" height="${H + 4}" aria-hidden="true">${lines.join("")}</svg>${labels}${boxes}
+      </div></div></div>`;
   }
   function bracketsHtml(games) {
     const secs = [...new Set(games.filter((g) => !/^pool/i.test(g.section)).map((g) => g.section))];
