@@ -97,7 +97,8 @@ def rank_event(ev):
     Returns {norm(team): {rank, tiebreak, pool_w, pool_l, pool_t, pool_rs, pool_ra, seed, bracket, bracket_games}}.
     """
     info = defaultdict(lambda: {"pool_w": 0, "pool_l": 0, "pool_t": 0, "pool_rs": 0, "pool_ra": 0,
-                                "seed": None, "bracket": None, "bracket_games": [], "tiebreak": "record"})
+                                "seed": None, "bracket": None, "bracket_games": [], "tiebreak": "record",
+                                "h2h": {}, "last": None})
     for s in ev["standings"]:
         info[norm(s["team"])]
     for g in ev["games"]:
@@ -136,6 +137,11 @@ def rank_event(ev):
             h2h[(l, w)] = None
         last_diff[a] = sa - sb
         last_diff[b] = sb - sa
+        # kept per team so the page can show the tie-break working
+        info[a]["h2h"][g["team_b"]] = "W" if sa > sb else "L" if sa < sb else "T"
+        info[b]["h2h"][g["team_a"]] = "W" if sb > sa else "L" if sb < sa else "T"
+        info[a]["last"] = {"opponent": g["team_b"], "rs": sa, "ra": sb}
+        info[b]["last"] = {"opponent": g["team_a"], "rs": sb, "ra": sa}
 
     def pct(k):
         r = info[k]
@@ -255,7 +261,7 @@ def build(events, team, upcoming, year):
             for s in ev["standings"]:
                 r = ranks[norm(s["team"])]
                 rows.append({"team": s["team"], "location": s.get("location", ""), "rank": r["rank"],
-                             "tiebreak": r["tiebreak"],
+                             "tiebreak": r["tiebreak"], "h2h": r["h2h"], "last": r["last"],
                              "pool_w": r["pool_w"], "pool_l": r["pool_l"], "pool_t": r["pool_t"],
                              "pool_rs": r["pool_rs"], "pool_ra": r["pool_ra"],
                              "seed": r["seed"], "bracket": r["bracket"],

@@ -97,6 +97,26 @@
   details.event[open] > summary { border-bottom: 1px solid var(--line); }
   details.event[open] > summary::after { transform: translateY(-30%) rotate(225deg); }
   details.inner { border-left: 0; border-right: 0; border-radius: 0; }
+
+  /* Tie-break ladder: one group per shared record */
+  .tb { padding: 12px 16px 4px; border-top: 1px solid var(--line); display: grid; gap: 14px; }
+  .tb h4 { font-family: var(--display); font-size: 18px; font-weight: 600; margin: 0; text-transform: uppercase; letter-spacing: .5px; }
+  .tb-group { display: grid; gap: 8px; }
+  .tb-title { font-size: 13px; color: var(--ink-2); }
+  .tb-title b { color: var(--ink); font-family: var(--display); font-size: 17px; }
+  .tb-steps { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 6px; }
+  .tb-step { display: grid; grid-template-columns: auto 1fr; grid-template-rows: auto auto; column-gap: 7px; align-items: center; padding: 5px 10px 5px 7px; border: 1px solid var(--line); border-radius: 6px; font-size: 12px; line-height: 1.2; color: var(--ink-2); background: var(--paper); position: relative; }
+  .tb-step b { grid-row: 1 / 3; font-family: var(--display); font-size: 18px; width: 22px; height: 22px; border-radius: 50%; display: grid; place-items: center; background: var(--tie-bg); color: var(--ink-2); }
+  .tb-step span { font-weight: 600; color: var(--ink); }
+  .tb-step small { font-size: 11px; }
+  .tb-step.used { border-color: var(--amber); background: var(--me-bg); }
+  .tb-step.used b { background: var(--amber); color: var(--navy); }
+  .tb-step.tied { border-style: dashed; }
+  .tb-step.skipped span { text-decoration: line-through; color: var(--ink-2); }
+  .tb-step.idle { opacity: .45; }
+  .tb-step:not(:last-child)::after { content: "→"; position: absolute; right: -9px; top: 50%; transform: translateY(-50%); color: var(--ink-2); font-size: 11px; z-index: 1; }
+  .tb .table-wrap { border: 1px solid var(--line); border-radius: 6px; }
+  td.decisive { background: var(--me-bg); font-weight: 600; box-shadow: inset 0 -2px 0 var(--amber); }
   .datebox { flex: 0 0 auto; width: 54px; text-align: center; background: var(--navy); color: #fff; border-radius: 4px; padding: 6px 0 5px; }
   .datebox b { display: block; font-family: var(--display); font-size: 26px; line-height: 1; }
   .datebox span { font-size: 10px; letter-spacing: 1.5px; text-transform: uppercase; opacity: .8; }
@@ -322,6 +342,57 @@
 
   // ---- Results ---------------------------------------------------------------
   const ordinal = (n) => n + (["th", "st", "nd", "rd"][((n % 100) - 20) % 10] || ["th", "st", "nd", "rd"][n % 100] || "th");
+
+  // Top Gun's Random Pool Play tie-breaker, in order. `key` is the value build_site stores in `tiebreak`.
+  const TB_STEPS = [
+    { key: "record", label: "Record" },
+    { key: "head-to-head", label: "Head-to-head" },
+    { key: "runs allowed", label: "Runs allowed" },
+    { key: "runs scored", label: "Runs scored" },
+    { key: "last-game run diff", label: "Last-game diff" },
+    { key: "coin flip (unresolved)", label: "Coin flip" },
+  ];
+  const signed = (n) => (n > 0 ? "+" : "") + n;
+  function tiebreakPanels(rows) {
+    const groups = new Map();
+    rows.forEach((s) => { const k = poolRecord(s); if (!groups.has(k)) groups.set(k, []); groups.get(k).push(s); });
+    const tied = [...groups.entries()].filter(([, g]) => g.length > 1);
+    if (!tied.length) return "";
+    return `<div class="tb"><h4>Tie-breakers</h4>` + tied.map(([rec, g]) => {
+      g.sort((a, b) => a.rank - b.rank);
+      const used = new Set(g.map((s) => s.tiebreak));
+      const lastUsed = Math.max(...TB_STEPS.map((st, i) => (used.has(st.key) ? i : 0)));
+      const two = g.length === 2;
+      const met = two && (g[0].h2h[g[1].team] !== undefined);
+      const steps = TB_STEPS.map((st, i) => {
+        let state, note = "";
+        if (i === 0) { state = "tied"; note = `all ${rec}`; }
+        else if (i > lastUsed) { state = "idle"; note = "not needed"; }
+        else if (used.has(st.key)) { state = "used"; note = "decided"; }
+        else if (st.key === "head-to-head") { state = "skipped"; note = two ? (met ? "tied game" : "didn't play") : `${g.length} tied`; }
+        else { state = "tied"; note = "still tied"; }
+        return `<li class="tb-step ${state}"><b>${i + 1}</b><span>${st.label}</span><small>${note}</small></li>`;
+      }).join("");
+      const cell = (s, key, html) => `<td class="${key === "head-to-head" ? "from" : "num"} ${s.tiebreak === key ? "decisive" : ""}">${html}</td>`;
+      const h2hText = (s) => {
+        if (!two) return "—";
+        const opp = g[0] === s ? g[1] : g[0];
+        const r = s.h2h[opp.team];
+        return r === undefined ? "didn't play" : r === "W" ? `beat ${esc(opp.team)}` : r === "L" ? `lost to ${esc(opp.team)}` : `tied ${esc(opp.team)}`;
+      };
+      const lastText = (s) => s.last ? `${signed(s.last.rs - s.last.ra)} <span class="from">vs ${esc(s.last.opponent)}</span>` : "—";
+      return `<div class="tb-group">
+        <div class="tb-title">Tied at <b>${rec}</b> · ${g.length} teams</div>
+        <ol class="tb-steps">${steps}</ol>
+        <div class="table-wrap"><table>
+          <thead><tr><th class="num">Pool</th><th>Team</th><th>Head-to-head</th><th class="num">RA</th><th class="num">RS</th><th class="num">Last game</th></tr></thead>
+          <tbody>${g.map((s) => `<tr class="${norm(s.team) === ME ? "me" : ""}">
+            <td class="num">${s.rank}</td><td class="team-cell">${teamBtn(s.team)}</td>
+            ${cell(s, "head-to-head", h2hText(s))}${cell(s, "runs allowed", s.pool_ra)}${cell(s, "runs scored", s.pool_rs)}${cell(s, "last-game run diff", lastText(s))}
+          </tr>`).join("")}</tbody></table></div>
+      </div>`;
+    }).join("") + `</div>`;
+  }
   function poolRecord(s) { return `${s.pool_w}-${s.pool_l}` + (s.pool_t ? `-${s.pool_t}` : ""); }
   function standingsTable(rows) {
     return `<div class="table-wrap"><table>
@@ -334,6 +405,7 @@
         <td class="num">${s.won}-${s.lost}</td>
         <td class="from">${s.tiebreak === "record" ? "" : esc(s.tiebreak)}</td></tr>`).join("")}
       </tbody></table></div>
+      ${tiebreakPanels(rows)}
       <p class="when" style="padding:8px 16px 10px;margin:0">Pool rank uses Top Gun's tie-breaker: record, then head-to-head (two-way ties), runs allowed, runs scored, last-game run differential, coin flip — pool games only. Overall includes bracket games. <a href="rules/tiebreakers.pdf" target="_blank" rel="noopener">Official rule (PDF)</a></p>`;
   }
   function renderResults() {
