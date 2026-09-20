@@ -400,6 +400,7 @@ def main():
     ap.add_argument("--since", default="2026-08-01", help="ignore events starting before this date (Top Gun's season starts Aug 1)")
     ap.add_argument("--all", action="store_true", help="no date cutoff")
     ap.add_argument("--year", type=int, default=2026)
+    ap.add_argument("--season", default="Fall 2026", help="season label shown in the page title and header")
     ap.add_argument("--data", default="data")
     ap.add_argument("--upcoming", default="upcoming.json")
     ap.add_argument("--out", default="docs")
@@ -412,6 +413,7 @@ def main():
     upcoming = json.loads(up_path.read_text(encoding="utf-8")) if up_path.exists() else []
     site = build(events, args.team, upcoming, args.year, load_team_stats(Path(args.data)))
     site["division"] = args.division
+    site["season_label"] = args.season
 
     out = Path(args.out)
     out.mkdir(parents=True, exist_ok=True)

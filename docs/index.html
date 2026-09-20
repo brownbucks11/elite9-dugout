@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Elite 9 Dugout</title>
+<title>Elite 9 Fall 2026</title>
 <meta name="description" content="Elite 9 (9U) Top Gun schedule, results, and standings for parents.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -68,6 +68,7 @@
   .board-top { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 12px 24px; }
   .team-name { font-size: 44px; font-weight: 700; letter-spacing: .5px; text-transform: uppercase; }
   .team-name small { display: block; font-family: var(--body); font-size: 13px; font-weight: 500; letter-spacing: 1.5px; text-transform: uppercase; color: var(--amber); margin-bottom: 4px; }
+  .season-tag { font-weight: 500; opacity: .85; white-space: nowrap; }
   .record { display: flex; gap: 20px; align-items: flex-end; }
   .stat { text-align: right; }
   .stat b { display: block; font-family: var(--display); font-size: 40px; font-weight: 700; line-height: 1; font-variant-numeric: tabular-nums; }
@@ -242,7 +243,7 @@
 <header class="board">
   <div class="board-inner">
     <div class="board-top">
-      <h1 class="team-name"><small id="hdr-sub">9U · Top Gun · Fall 2026</small><span id="hdr-team">Elite 9</span></h1>
+      <h1 class="team-name"><small id="hdr-sub">9U · Top Gun · Rock Hill, SC</small><span id="hdr-team">Elite 9</span> <span class="season-tag" id="hdr-season">Fall 2026</span></h1>
       <div class="record" id="hdr-record"></div>
     </div>
     <div class="hdr-link" id="hdr-link"></div>
@@ -332,7 +333,9 @@
   // ---- header --------------------------------------------------------------
   const R = D.record;
   $("#hdr-team").textContent = D.team;
+  $("#hdr-season").textContent = D.season_label || "";
   $("#hdr-sub").textContent = `${D.division} · Top Gun · ${D.location || ""}`.replace(/ · $/, "");
+  document.title = `${D.team} ${D.season_label || ""}`.trim();
   $("#hdr-record").innerHTML = `
     <div class="stat big"><b>${recordStr(R)}</b><span>Season</span></div>
     <div class="stat"><b>${R.rs}</b><span>Runs for</span></div>
