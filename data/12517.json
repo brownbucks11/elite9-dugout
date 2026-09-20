@@ -561,7 +561,7 @@
           "seed": 2,
           "team": "Athletes Lab 10u Navy",
           "location": "Maiden, NC",
-          "won": 2,
+          "won": 3,
           "lost": 0,
           "runs_allowed": 4,
           "runs_scored": 26,
@@ -572,7 +572,7 @@
           "team": "Union County Crush",
           "location": "Indian Trail, NC",
           "won": 1,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 23,
           "runs_scored": 12,
           "team_page_id": 31788
@@ -621,7 +621,7 @@
           "seed": 3,
           "team": "Copperheads Black",
           "location": "Mooresville, NC",
-          "won": 2,
+          "won": 3,
           "lost": 0,
           "runs_allowed": 6,
           "runs_scored": 16,
@@ -642,7 +642,7 @@
           "team": "PeeDee Mudcats",
           "location": "Wadesboro, NC",
           "won": 2,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 10,
           "runs_scored": 16,
           "team_page_id": 33808
@@ -651,7 +651,7 @@
           "seed": 6,
           "team": "Stingers 10",
           "location": "Matthews, NC",
-          "won": 2,
+          "won": 3,
           "lost": 0,
           "runs_allowed": 6,
           "runs_scored": 20,
@@ -682,7 +682,7 @@
           "team": "Newport Bombers 10U Yerdon",
           "location": "Rock Hill, SC",
           "won": 2,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 17,
           "runs_scored": 26,
           "team_page_id": 37787
@@ -853,10 +853,10 @@
             "field": "Bradford:Field # 3",
             "team_a": "Winner Game #1 PeeDee Mudcats",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 5,
             "team_b": "Stingers 10",
             "seed_b": 1,
-            "score_b": null
+            "score_b": 14
           },
           {
             "game": 4,
@@ -865,32 +865,20 @@
             "field": "Bradford:Field # 4",
             "team_a": "Winner Game #2 Newport Bombers 10U Yerdon",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 3,
             "team_b": "Copperheads Black",
             "seed_b": 2,
-            "score_b": null
+            "score_b": 8
           },
           {
             "game": 5,
             "day": "Sun",
             "time": "5:00 PM",
-            "field": "Bradford:Field # 4",
-            "team_a": "Loser Game #1 Carolina Locos- 10U Blue",
-            "seed_a": null,
-            "score_a": null,
-            "team_b": "Loser Game #2 Carolina River Rats 10U",
-            "seed_b": null,
-            "score_b": null
-          },
-          {
-            "game": 6,
-            "day": "Sun",
-            "time": "5:00 PM",
             "field": "Bradford:Field # 3",
-            "team_a": "Winner Game #3",
+            "team_a": "Winner Game #3 Stingers 10",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Winner Game #4",
+            "team_b": "Winner Game #4 Copperheads Black",
             "seed_b": null,
             "score_b": null
           }
@@ -1043,7 +1031,7 @@
           "team": "Richmond Rockies",
           "location": "Hamlet, NC",
           "won": 0,
-          "lost": 3,
+          "lost": 4,
           "runs_allowed": 33,
           "runs_scored": 3,
           "team_page_id": 31602
@@ -1072,7 +1060,7 @@
           "seed": 9,
           "team": "Banana Peppers Baseball 11u",
           "location": "Gastonia, NC",
-          "won": 0,
+          "won": 1,
           "lost": 3,
           "runs_allowed": 15,
           "runs_scored": 10,
@@ -1388,10 +1376,10 @@
             "field": "Bradford:Field # 5",
             "team_a": "Loser Game #1 Banana Peppers Baseball 11u",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 15,
             "team_b": "Loser Game #2 Richmond Rockies",
             "seed_b": null,
-            "score_b": null
+            "score_b": 2
           },
           {
             "game": 4,
@@ -1759,7 +1747,7 @@
           "team": "Carolina Rapid Fire",
           "location": "Lincolnton, NC",
           "won": 3,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 7,
           "runs_scored": 24,
           "team_page_id": 28425
@@ -1818,7 +1806,7 @@
           "seed": 9,
           "team": "East Rowan 13U Earnhardt",
           "location": "Rockwell, NC",
-          "won": 3,
+          "won": 4,
           "lost": 0,
           "runs_allowed": 6,
           "runs_scored": 21,
@@ -1980,10 +1968,10 @@
             "field": "SP:Field #3",
             "team_a": "Winner Game #3 East Rowan 13U Earnhardt",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 8,
             "team_b": "Winner Game #2 Carolina Rapid Fire",
             "seed_b": null,
-            "score_b": null
+            "score_b": 4
           }
         ],
         "Silver Bracket": [
@@ -2044,7 +2032,7 @@
           "team": "Carolina Bearcats",
           "location": "Alexis, NC",
           "won": 3,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 0,
           "runs_scored": 19,
           "team_page_id": 20524
@@ -2063,7 +2051,7 @@
           "seed": 4,
           "team": "North Lincoln Destroyers",
           "location": "Denver, NC",
-          "won": 3,
+          "won": 4,
           "lost": 0,
           "runs_allowed": 6,
           "runs_scored": 14,
@@ -2215,26 +2203,14 @@
           {
             "game": 3,
             "day": "Sun",
-            "time": "3:00 PM",
-            "field": "TOB:Field 1",
-            "team_a": "Loser Game #1 The Sandlot 14u",
-            "seed_a": null,
-            "score_a": null,
-            "team_b": "Loser Game #2 Concord Athletics 14U - Ratliff",
-            "seed_b": null,
-            "score_b": null
-          },
-          {
-            "game": 4,
-            "day": "Sun",
             "time": "1:00 PM",
             "field": "TOB:Field 1",
             "team_a": "Winner Game #1 North Lincoln Destroyers",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 15,
             "team_b": "Winner Game #2 Carolina Bearcats",
             "seed_b": null,
-            "score_b": null
+            "score_b": 4
           }
         ],
         "Silver Bracket": [
@@ -2304,7 +2280,7 @@
           "seed": 3,
           "team": "USA Scout Carolinas",
           "location": "Charlotte, NC",
-          "won": 2,
+          "won": 3,
           "lost": 1,
           "runs_allowed": 7,
           "runs_scored": 12,
@@ -2325,7 +2301,7 @@
           "team": "CBB Baseball",
           "location": "Waxhaw, NC",
           "won": 1,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 10,
           "runs_scored": 14,
           "team_page_id": 39059
@@ -2460,10 +2436,10 @@
             "field": "AHS:Field #1",
             "team_a": "Winner Game #2 USA Scout Carolinas",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 4,
             "team_b": "CBB Baseball",
             "seed_b": 2,
-            "score_b": null
+            "score_b": 2
           },
           {
             "game": 5,
@@ -2473,7 +2449,7 @@
             "team_a": "Winner Game #3 CBC Knuckleheads Fox",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Winner Game #4",
+            "team_b": "Winner Game #4 USA Scout Carolinas",
             "seed_b": null,
             "score_b": null
           }
@@ -2509,8 +2485,8 @@
           "seed": 3,
           "team": "MARA SELECT",
           "location": "Matthews, NC",
-          "won": 2,
-          "lost": 1,
+          "won": 3,
+          "lost": 2,
           "runs_allowed": 13,
           "runs_scored": 11,
           "team_page_id": 32343
@@ -2519,7 +2495,7 @@
           "seed": 4,
           "team": "Startown Elite",
           "location": "Newton, NC",
-          "won": 1,
+          "won": 2,
           "lost": 2,
           "runs_allowed": 15,
           "runs_scored": 9,
@@ -2530,7 +2506,7 @@
           "team": "KLSC Prime",
           "location": "Belmont, NC",
           "won": 2,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 2,
           "runs_scored": 19,
           "team_page_id": 28997
@@ -2550,7 +2526,7 @@
           "team": "Blacksburg Baseball 16u",
           "location": "Blacksburg, SC",
           "won": 1,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 19,
           "runs_scored": 4,
           "team_page_id": 32322
@@ -2569,7 +2545,7 @@
           "seed": 9,
           "team": "Venom Stars 2028",
           "location": "Hickory, NC",
-          "won": 3,
+          "won": 4,
           "lost": 0,
           "runs_allowed": 9,
           "runs_scored": 17,
@@ -2719,10 +2695,10 @@
             "field": "BFF:Field 1",
             "team_a": "Winner Game #1 MARA SELECT",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 7,
             "team_b": "KLSC Prime",
             "seed_b": 1,
-            "score_b": null
+            "score_b": 2
           },
           {
             "game": 4,
@@ -2731,10 +2707,10 @@
             "field": "BFF:Field 1",
             "team_a": "Winner Game #2 Venom Stars 2028",
             "seed_a": null,
-            "score_a": null,
-            "team_b": "Winner Game #3",
+            "score_a": 11,
+            "team_b": "Winner Game #3 MARA SELECT",
             "seed_b": null,
-            "score_b": null
+            "score_b": 3
           }
         ],
         "Silver Bracket": [
@@ -2769,10 +2745,10 @@
             "field": "SP:Field #2",
             "team_a": "Winner Game #1 Blacksburg Baseball 16u",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 1,
             "team_b": "Winner Game #2 Startown Elite",
             "seed_b": null,
-            "score_b": null
+            "score_b": 8
           }
         ]
       }
@@ -2780,5 +2756,5 @@
   },
   "site_last_updated": "09/17/2026 12:42 PM",
   "tournament_id": 12517,
-  "fetched_at": "2026-09-20T16:35"
+  "fetched_at": "2026-09-20T17:27"
 }
