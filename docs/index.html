@@ -394,7 +394,7 @@
     }).join("") + `</div>`;
   }
   function poolRecord(s) { return `${s.pool_w}-${s.pool_l}` + (s.pool_t ? `-${s.pool_t}` : ""); }
-  function standingsTable(rows) {
+  function standingsTable(rows, note = "") {
     return `<div class="table-wrap"><table>
       <thead><tr><th class="num">Pool</th><th>Team</th><th class="from">From</th><th class="num">W-L</th><th class="num">RA</th><th class="num">RS</th><th class="num">Diff</th><th>Bracket</th><th class="num">Overall</th><th>Decided by</th></tr></thead>
       <tbody>${rows.map((s) => `<tr class="${norm(s.team) === ME ? "me" : ""}">
@@ -406,7 +406,7 @@
         <td class="from">${s.tiebreak === "record" ? "" : esc(s.tiebreak)}</td></tr>`).join("")}
       </tbody></table></div>
       ${tiebreakPanels(rows)}
-      <p class="when" style="padding:8px 16px 10px;margin:0">Pool rank uses Top Gun's tie-breaker: record, then head-to-head (two-way ties), runs allowed, runs scored, last-game run differential, coin flip — pool games only. Overall includes bracket games. <a href="rules/tiebreakers.pdf" target="_blank" rel="noopener">Official rule (PDF)</a></p>`;
+      <p class="when" style="padding:8px 16px 10px;margin:0">Pool rank uses Top Gun's tie-breaker: record, then head-to-head (two-way ties), runs allowed, runs scored, last-game run differential, coin flip — pool games only. Overall includes bracket games.${note} <a href="rules/tiebreakers.pdf" target="_blank" rel="noopener">Official rule (PDF)</a></p>`;
   }
   function renderResults() {
     const evs = (D.my_events || []).slice().sort((a, b) => (b.date || "").localeCompare(a.date || ""));
@@ -421,11 +421,18 @@
         let finish = "";
         if (s) {
           const bg = s.bracket_games || [];
+          const hasSeeds = e.standings.some((r) => r.seed);
+          const myDays = new Set(games.map((g) => g.day)), evDays = new Set(e.games.map((g) => g.day));
+          const onlyDay = myDays.size === 1 && evDays.size > 1 ? [...myDays][0] : null;
           const bracketLine = bg.length
             ? bg.map((b) => `${esc(b.section.replace(/ bracket$/i, ""))} ${b.result} ${b.rs}–${b.ra}`).join(", ")
-            : (s.bracket ? esc(s.bracket) + (s.seed ? ` #${s.seed} seed` : "") : "no bracket game");
+            : s.bracket ? esc(s.bracket) + (s.seed ? ` #${s.seed} seed` : "")
+            : hasSeeds ? `not seeded for brackets${onlyDay ? ` · played ${esc(onlyDay)} only` : ""}`
+            : "no bracket game";
           finish = `<div class="finish"><b>${ordinal(s.rank)} of ${e.teams}</b><span>Pool ${poolRecord(s)} · ${bracketLine}</span></div>`;
         }
+        const unseeded = e.standings.some((r) => r.seed) && e.standings.some((r) => !r.seed && !r.bracket);
+        const seedNote = unseeded ? " Teams without a bracket seed weren't in the Sunday brackets (a Saturday-only entry, for example); Pool rank still places them by record, so official seed numbers can differ from Pool rank." : "";
         return `<details class="event" ${i === 0 ? "open" : ""}>
           <summary class="event-head">${datebox(e.date)}
             <div><h3>${esc(tidy(e.name))}</h3><div class="event-meta">${esc(e.dates)}${e.notes.length ? " · " + esc(e.notes.join(", ")) : ""}</div></div>
@@ -437,7 +444,7 @@
                    <div class="when">${esc(g.section)} G${g.game} · ${esc(g.day)} ${esc(g.time)} · ${fieldHtml(g.field)}</div></div>
               <div class="score">${g.result ? `${g.rs}–${g.ra}` : `<small>not played</small>`}</div>
             </li>`).join("")}</ul></div>
-          <details class="inner"><summary>Standings (${e.teams} teams)</summary>${standingsTable(e.standings)}</details>
+          <details class="inner"><summary>Standings (${e.teams} teams)</summary>${standingsTable(e.standings, seedNote)}</details>
           <div class="event-foot"><a href="${esc(e.url)}" target="_blank" rel="noopener">Brackets &amp; all games on Top Gun ↗</a></div>
         </details>`;
       }).join("");
