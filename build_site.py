@@ -18,6 +18,7 @@ Then open docs/index.html, or commit + push and GitHub Pages serves docs/.
 
 import argparse
 import json
+import re
 import sys
 from collections import defaultdict
 from datetime import date, datetime, timedelta
@@ -67,11 +68,15 @@ def load_events(data_dir, division, since, year):
         games = []
         for section, gl in div["sections"].items():
             for g in gl:
+                # Bracket slots read "Winner Game #1" before they're played and
+                # "Winner Game #1 Hooligans" after: keep the team, remember where it came from.
+                team_a, from_a = split_ref(g["team_a"])
+                team_b, from_b = split_ref(g["team_b"])
                 games.append({
                     "section": section, "game": g["game"], "day": g["day"], "time": g["time"],
                     "date": game_date(start, g["day"]), "field": g["field"],
-                    "team_a": g["team_a"], "seed_a": g["seed_a"], "score_a": g["score_a"],
-                    "team_b": g["team_b"], "seed_b": g["seed_b"], "score_b": g["score_b"],
+                    "team_a": team_a, "seed_a": g["seed_a"], "score_a": g["score_a"], "from_a": from_a,
+                    "team_b": team_b, "seed_b": g["seed_b"], "score_b": g["score_b"], "from_b": from_b,
                 })
         events[tid] = {
             "id": tid, "name": p.get("name", ""), "dates": p.get("dates", ""), "date": start,
@@ -84,6 +89,17 @@ def load_events(data_dir, division, since, year):
 
 def is_placeholder(name):
     return (name or "").lower().startswith(PLACEHOLDER)
+
+
+def split_ref(name):
+    """'Loser Game #2 Dirtbags Shook' -> ('Dirtbags Shook', {'type': 'loser', 'game': 2});
+    'Winner Game #1' (not played yet) -> ('Winner Game #1', {'type': 'winner', 'game': 1});
+    a plain team name -> (name, None)."""
+    m = re.match(r"^\s*(Winner|Loser)\s+Game\s*#?\s*(\d+)\s*(.*)$", name or "", re.I)
+    if not m:
+        return name, None
+    rest = m.group(3).strip()
+    return (rest or name.strip()), {"type": m.group(1).lower(), "game": int(m.group(2))}
 
 
 def load_team_stats(data_dir):
