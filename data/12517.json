@@ -307,7 +307,7 @@
           "team": "Hooligans",
           "location": "Mount Holly, NC",
           "won": 3,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 8,
           "runs_scored": 35,
           "team_page_id": 34014
@@ -336,7 +336,7 @@
           "seed": 9,
           "team": "NL Destroyers 2036",
           "location": "Denver, NC",
-          "won": 3,
+          "won": 4,
           "lost": 0,
           "runs_allowed": 7,
           "runs_scored": 24,
@@ -498,10 +498,10 @@
             "field": "Bradford:Field # 1",
             "team_a": "Winner Game #1 Hooligans",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 10,
             "team_b": "Winner Game #2 NL Destroyers 2036",
             "seed_b": null,
-            "score_b": null
+            "score_b": 11
           }
         ],
         "Silver Bracket": [
@@ -1509,7 +1509,7 @@
           "seed": 1,
           "team": "Athletes Lab Navy",
           "location": "Maiden, NC",
-          "won": 3,
+          "won": 4,
           "lost": 0,
           "runs_allowed": 13,
           "runs_scored": 23,
@@ -1560,7 +1560,7 @@
           "team": "Power Cross 2033",
           "location": "Statesville, NC",
           "won": 2,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 14,
           "runs_scored": 8,
           "team_page_id": 35284
@@ -1707,10 +1707,10 @@
             "field": "M. Rivers:Martha Rivers 2",
             "team_a": "Winner Game #1 Athletes Lab Navy",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 10,
             "team_b": "Winner Game #2 Power Cross 2033",
             "seed_b": null,
-            "score_b": null
+            "score_b": 2
           }
         ],
         "Silver Bracket": [
@@ -2828,5 +2828,5 @@
   },
   "site_last_updated": "09/17/2026 12:42 PM",
   "tournament_id": 12517,
-  "fetched_at": "2026-09-20T13:20"
+  "fetched_at": "2026-09-20T13:32"
 }

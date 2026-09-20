@@ -3,7 +3,7 @@
  "location": "Rock Hill, SC",
  "page_id": 31407,
  "team_url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=31407",
- "built": "Sun Sep 20, 2026 01:21 PM",
+ "built": "Sun Sep 20, 2026 01:32 PM",
  "record": {
   "w": 1,
   "l": 4,
@@ -365,7 +365,7 @@
      "team": "Hooligans",
      "location": "Mount Holly, NC",
      "won": 3,
-     "lost": 0,
+     "lost": 1,
      "runs_allowed": 8,
      "runs_scored": 35,
      "team_page_id": 34014
@@ -394,7 +394,7 @@
      "seed": 9,
      "team": "NL Destroyers 2036",
      "location": "Denver, NC",
-     "won": 3,
+     "won": 4,
      "lost": 0,
      "runs_allowed": 7,
      "runs_scored": 24,
@@ -579,10 +579,10 @@
      "field": "Bradford:Field # 1",
      "team_a": "Winner Game #1 Hooligans",
      "seed_a": null,
-     "score_a": null,
+     "score_a": 10,
      "team_b": "Winner Game #2 NL Destroyers 2036",
      "seed_b": null,
-     "score_b": null
+     "score_b": 11
     },
     {
      "section": "Silver Bracket",
@@ -644,16 +644,6 @@
   }
  ],
  "upcoming": [
-  {
-   "id": 13602,
-   "name": "Friday Night GOAT Series 9U",
-   "dates": "September 25 in Monroe, NC",
-   "date": "2026-09-25",
-   "url": "https://playtopgunsports.com/GameTimesResults.aspx?trnid=13602",
-   "posted": false,
-   "games": [],
-   "standings": []
-  },
   {
    "id": 12518,
    "name": "Spiderman vs Hulk ring weekend",
