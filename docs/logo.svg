@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" width="200" height="150" role="img" aria-label="Elite 9 cap">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&amp;display=swap');
+      .navy { fill: #2a3a66; }
+      .cream { fill: #f1ece0; }
+      .edge { fill: none; stroke: #dfe6f2; stroke-width: 1.8; stroke-linejoin: round; }
+      .seam { fill: none; stroke: #1a2440; stroke-width: 1.6; stroke-linecap: round; }
+      .mark { font-family: 'Kaushan Script', 'Brush Script MT', cursive; font-size: 46px; fill: #1a2440; stroke: #8fb8e8; stroke-width: 1.6; paint-order: stroke; }
+    </style>
+    <linearGradient id="shade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#000000" stop-opacity=".10"/>
+    </linearGradient>
+  </defs>
+  <!-- crown: side panels in a lighter navy so they read on the site's navy header -->
+  <path class="navy" d="M24 108 C24 48 66 24 100 24 C134 24 176 48 176 108 Z"/>
+  <path class="edge" d="M24 108 C24 48 66 24 100 24 C134 24 176 48 176 108"/>
+  <!-- crown: cream front panels -->
+  <path class="cream" d="M44 108 C44 52 76 30 100 30 C124 30 156 52 156 108 Z"/>
+  <path class="seam" d="M44 108 C44 52 76 30 100 30 C124 30 156 52 156 108"/>
+  <path class="seam" d="M100 30 L100 60"/>
+  <!-- eyelets and top button -->
+  <circle fill="#1a2440" cx="78" cy="52" r="2.6"/>
+  <circle fill="#1a2440" cx="122" cy="52" r="2.6"/>
+  <circle class="navy" cx="100" cy="25" r="4.5"/>
+  <circle class="edge" cx="100" cy="25" r="4.5"/>
+  <!-- brim: cream with thin navy piping on the outer edge -->
+  <path class="cream" d="M14 106 C40 100 160 100 186 106 C188 118 150 132 100 132 C50 132 12 118 14 106 Z"/>
+  <path fill="url(#shade)" d="M14 106 C40 100 160 100 186 106 C188 118 150 132 100 132 C50 132 12 118 14 106 Z"/>
+  <path d="M14 106 C40 100 160 100 186 106" fill="none" stroke="#1a2440" stroke-width="1.4"/>
+  <path d="M186 106 C188 118 150 132 100 132 C50 132 12 118 14 106" fill="none" stroke="#1a2440" stroke-width="3"/>
+  <path d="M186 106 C188 118 150 132 100 132 C50 132 12 118 14 106" fill="none" stroke="#dfe6f2" stroke-width="1" opacity=".7" transform="translate(0 1.6)"/>
+  <!-- E9 -->
+  <text class="mark" x="100" y="96" text-anchor="middle">E9</text>
+</svg>
