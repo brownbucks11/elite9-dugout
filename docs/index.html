@@ -136,6 +136,7 @@
   .bracket-svg .glabel { fill: var(--ink-2); font-size: 11px; letter-spacing: 1px; text-transform: uppercase; }
   .placings { list-style: none; margin: 0; padding: 8px 12px; border: 1px solid var(--line); border-radius: 6px; background: var(--chalk); display: grid; gap: 6px; flex: 0 0 auto; min-width: 200px; font-size: 14px; }
   .placings li { display: flex; align-items: center; gap: 10px; }
+  .placings .phead { font-size: 11px; letter-spacing: 1.2px; text-transform: uppercase; color: var(--ink-2); }
   .placings .place { font-family: var(--display); font-weight: 700; font-size: 16px; width: 34px; color: var(--ink-2); }
   .placings li:first-child .place { color: var(--amber); }
   .placings button { background: none; border: 0; padding: 0; font: inherit; color: var(--ink); cursor: pointer; }
@@ -472,6 +473,13 @@
     const winnerOf = (g) => winnerSide(g) ? g["team_" + winnerSide(g)] : null;
     const loserOf = (g) => winnerSide(g) ? g["team_" + (winnerSide(g) === "a" ? "b" : "a")] : null;
     const short = (n, max = 24) => n.length > max ? n.slice(0, max - 1) + "…" : n;
+    // Shape: a tree (games feed later games) vs standalone placing games (no game feeds another).
+    // Places are within the bracket, as Top Gun scores them: a two-game Silver is 1st/2nd then 3rd/4th (Silver).
+    const referenced = new Set(games.flatMap((g) => [g.from_a, g.from_b].filter(Boolean).map((r) => r.game)));
+    const tree = referenced.size > 0;
+    const placeLabel = (p) => p === 1 && (tree || games.length === 1) ? "Champion" : `${ordinal(p)} place`;
+    const gamePos = new Map();
+    if (!tree) games.slice().sort((a, b) => a.game - b.game).forEach((g, i) => gamePos.set(g.game, 2 * i + 1));
     const nameText = (x, y, name, cls, anchor = "start") => PH.test(name || "")
       ? `<text x="${x}" y="${y}" class="tname tbd" text-anchor="${anchor}">${esc(name)}</text>`
       : `<text x="${x}" y="${y}" class="tname ${cls} ${norm(name) === ME ? "me" : ""}" text-anchor="${anchor}" data-team="${esc(name)}">${esc(short(name))}</text>`;
@@ -509,7 +517,7 @@
           out.push(`<line x1="${x + L}" y1="${mid}" x2="${nx + nl}" y2="${mid}"/>`);
           const w = winnerOf(g);
           if (w) out.push(nameText(nx + 2, mid - 5, w, "win"));
-          if (isLast) out.push(`<text x="${nx + 2}" y="${mid + 14}" class="glabel">${esc(endLabel)}</text>`);
+          if (isLast) out.push(`<text x="${nx + 2}" y="${mid + 14}" class="glabel">${esc(endLabel(g))}</text>`);
           outY.set(g.game, mid);
           maxY = Math.max(maxY, ys[1], mid + 16);
         });
@@ -518,7 +526,7 @@
     };
 
     const winners = games.filter((g) => !consolation(g)), consols = games.filter(consolation);
-    const wb = drawBracket(winners, 26, (g, side) => g["team_" + side], "Champion");
+    const wb = drawBracket(winners, 26, (g, side) => g["team_" + side], (g) => placeLabel(tree ? 1 : gamePos.get(g.game)));
     let cb = { width: 0 };
     if (consols.length) {
       const top = maxY + 56;
@@ -527,19 +535,27 @@
         const f = g["from_" + side];
         const src = f && byNum.get(f.game);
         return (src && loserOf(src)) || g["team_" + side] || `Loser of G${f && f.game}`;
-      }, "3rd place");
+      }, () => placeLabel(3));
     }
     const W = Math.max(wb.width, cb.width) + 6, H = maxY + 8;
 
     // Placings, in order, as far as the results allow
-    const finalGame = winners.find((g) => roundOf(g) === Math.max(...winners.map(roundOf)));
-    const conGame = consols[0];
-    const places = [["1st", finalGame && winnerOf(finalGame)], ["2nd", finalGame && loserOf(finalGame)],
-      ["3rd", conGame && winnerOf(conGame)], ["4th", conGame && loserOf(conGame)]].filter((p, i) => i < 2 || conGame);
-    const champ = finalGame && winnerOf(finalGame);
+    let places, champ;
+    if (tree) {
+      const finalGame = winners.find((g) => roundOf(g) === Math.max(...winners.map(roundOf)) && !referenced.has(g.game));
+      const conGame = consols[0];
+      places = [[1, finalGame && winnerOf(finalGame)], [2, finalGame && loserOf(finalGame)],
+        [3, conGame && winnerOf(conGame)], [4, conGame && loserOf(conGame)]].filter((p, i) => i < 2 || conGame);
+      champ = finalGame && winnerOf(finalGame);
+    } else {
+      places = [];
+      [...gamePos.entries()].sort((a, b) => a[1] - b[1]).forEach(([num, p]) => { const g = byNum.get(num); places.push([p, winnerOf(g)], [p + 1, loserOf(g)]); });
+      champ = games.length === 1 ? winnerOf(games[0]) : null;   // two standalone games have no bracket champion
+    }
+    const bracketName = section.replace(/ bracket$/i, "");
     return `<div class="bracket-block"><div class="bracket-title">${esc(section)} ${champ ? `<span class="champ">${TROPHY} ${teamBtn(champ)}</span>` : ""}</div>
       <div class="bracket-wrap"><div class="bracket-scroll"><svg class="bracket-svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}">${out.join("")}</svg></div>
-      <ol class="placings">${places.map(([p, n]) => `<li><span class="place">${p}</span>${n ? teamBtn(n) : '<span class="from">TBD</span>'}</li>`).join("")}</ol></div></div>`;
+      <ol class="placings"><li class="phead">${esc(bracketName)} placings</li>${places.map(([p, n]) => `<li><span class="place">${ordinal(p)}</span>${n ? teamBtn(n) : '<span class="from">TBD</span>'}</li>`).join("")}</ol></div></div>`;
   }
   function bracketsHtml(games) {
     const secs = [...new Set(games.filter((g) => !/^pool/i.test(g.section)).map((g) => g.section))];
