@@ -33,6 +33,7 @@ Output shape
 import argparse
 import json
 import re
+from urllib.parse import unquote_plus
 import sys
 from html.parser import HTMLParser
 from pathlib import Path
@@ -95,7 +96,7 @@ class _Walker(HTMLParser):
         elif tag == "table" and self._tables:
             rows = self._tables.pop()
             self._table_depth -= 1
-            if rows and len(rows[0]) >= 3 and len(rows) >= 2:
+            if rows and len(rows[0]) >= 3:   # single-row tables too (a page with one complex)
                 self.events.append(("table", rows))
 
     def handle_data(self, data):
@@ -165,10 +166,23 @@ def parse_html(html, url=""):
         header = [c["text"].replace("\n", " ") for c in rows[0]]
 
         # Complex address table has no header; 3 cols: abbrev, name, address
+        def _address(r):
+            """Address text, or the one inside the row's directions link (maps.google.com/?daddr=...)."""
+            address = r[2]["text"].strip()
+            if re.search(r"\d", address):
+                return address
+            for href in (h for c in r for h in c.get("links", [])):
+                m = re.search(r"daddr=([^&]+)", href)
+                if m:
+                    return unquote_plus(m.group(1)).strip()
+            return ""
+
         if len(header) == 3 and not division and all(len(r) == 3 for r in rows):
-            for r in rows:
-                out["complexes"][r[0]["text"]] = {"name": r[1]["text"], "address": r[2]["text"]}
-            continue
+            addrs = [_address(r) for r in rows]
+            if all(addrs):
+                for r, address in zip(rows, addrs):
+                    out["complexes"][r[0]["text"]] = {"name": r[1]["text"], "address": address}
+                continue
 
         if not division:
             continue

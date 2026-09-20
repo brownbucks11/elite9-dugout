@@ -187,8 +187,18 @@
   .field { background: var(--paper); border: 1px solid var(--line); border-radius: 6px; padding: 12px 14px; }
   .field h3 { font-size: 20px; font-weight: 600; }
   .field .abbr { font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase; color: var(--ink-2); }
-  .field p { margin: 6px 0 8px; font-size: 14px; }
-  .field a { font-size: 13px; font-weight: 600; }
+  .field p { margin: 6px 0 8px; font-size: 13px; color: var(--ink-2); }
+  .field a { font-weight: 600; }
+  .field.has-up { border-color: var(--amber); box-shadow: inset 0 3px 0 var(--amber); }
+  .field.has-played { box-shadow: inset 0 3px 0 var(--link); }
+  .fhead { display: flex; justify-content: space-between; align-items: flex-start; gap: 8px; }
+  .ftag { flex: 0 0 auto; font-size: 10px; font-weight: 600; letter-spacing: 1.2px; text-transform: uppercase; padding: 3px 7px; border-radius: 3px; background: var(--played-bg); color: var(--link); }
+  .ftag.up { background: var(--amber); color: var(--navy); }
+  .fgames { list-style: none; margin: 4px 0 0; padding: 0; display: grid; gap: 6px; }
+  .fgames li { display: grid; grid-template-columns: 40px 1fr; gap: 10px; align-items: center; padding-top: 6px; border-top: 1px solid var(--line); font-size: 14px; }
+  .fgames .pill { font-size: 15px; padding: 4px 0; }
+  .fgames b { font-weight: 600; }
+  .fgames b button { background: none; border: 0; padding: 0; font: inherit; font-weight: 600; color: var(--link); cursor: pointer; }
 
   /* Roster */
   .roster { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 10px; }
@@ -254,8 +264,8 @@
       <button class="tab" role="tab" data-tab="next" aria-selected="true">Next Up</button>
       <button class="tab" role="tab" data-tab="results">Results</button>
       <button class="tab" role="tab" data-tab="teams">Teams</button>
-      <button class="tab" role="tab" data-tab="fields">Fields</button>
       <button class="tab" role="tab" data-tab="roster">Roster</button>
+      <button class="tab" role="tab" data-tab="fields">Fields</button>
     </nav>
   </div>
 </header>
@@ -563,16 +573,38 @@
 
   // ---- Fields ------------------------------------------------------------------
   function renderFields() {
-    const used = new Set();
-    (D.my_games || []).forEach((g) => used.add(fieldParts(g.field).abbr));
-    (D.upcoming || []).forEach((e) => e.games.forEach((g) => { if (norm(g.team_a) === ME || norm(g.team_b) === ME) used.add(fieldParts(g.field).abbr); }));
-    const entries = Object.entries(D.fields).sort((a, b) => (used.has(b[0]) - used.has(a[0])) || a[1].name.localeCompare(b[1].name));
-    $("#panel-fields").innerHTML = `<h2 class="section-title">Fields <span class="sub">every complex Top Gun uses around Charlotte · ones ${esc(D.team)} has played listed first</span></h2>
-      <div class="fields">${entries.map(([abbr, f]) => `<div class="field">
-        <div class="abbr">${esc(abbr)}${used.has(abbr) ? " · played here" : ""}</div>
-        <h3>${esc(f.name)}</h3><p>${esc(f.address)}</p>
-        <a href="${mapsUrl(f.address)}" target="_blank" rel="noopener">Open in Maps ↗</a></div>`).join("")}</div>`;
+    // Every game of ours per complex: played (from results) and upcoming (from posted schedules)
+    const played = {}, upcoming = {};
+    (D.my_games || []).forEach((g) => {
+      const f = fieldParts(g.field);
+      (g.result ? played : upcoming)[f.abbr] = ((g.result ? played : upcoming)[f.abbr] || []).concat([{ ...g, sub: f.sub, event: g.event }]);
+    });
+    (D.upcoming || []).forEach((e) => e.games.forEach((g) => {
+      const isA = norm(g.team_a) === ME;
+      if (!isA && norm(g.team_b) !== ME) return;
+      if (g.score_a != null && g.score_b != null) return;
+      const f = fieldParts(g.field);
+      upcoming[f.abbr] = (upcoming[f.abbr] || []).concat([{ date: g.date, day: g.day, time: g.time, opponent: isA ? g.team_b : g.team_a, section: g.section, game: g.game, sub: f.sub, event: e.name }]);
+    }));
+    const fmtDate = (d) => { const x = iso(d); return x ? `${MONTHS[x.getMonth()]} ${x.getDate()}` : ""; };
+    const tier = (abbr) => upcoming[abbr] ? 0 : played[abbr] ? 1 : 2;
+    const entries = Object.entries(D.fields).sort((a, b) => tier(a[0]) - tier(b[0]) || a[1].name.localeCompare(b[1].name));
+    const nUp = Object.keys(upcoming).length, nPl = Object.keys(played).length;
+    $("#panel-fields").innerHTML = `<h2 class="section-title">Fields <span class="sub">every complex Top Gun uses around Charlotte · ${nUp ? `${nUp} with upcoming games, ` : ""}${nPl} we've played at</span></h2>
+      <div class="fields">${entries.map(([abbr, f]) => {
+        const up = (upcoming[abbr] || []).slice().sort((a, b) => (a.date || "").localeCompare(b.date || "") || clock(a.time) - clock(b.time));
+        const pl = (played[abbr] || []).slice().sort((a, b) => (b.date || "").localeCompare(a.date || ""));
+        const tag = up.length ? '<span class="ftag up">Upcoming</span>' : pl.length ? '<span class="ftag">Played here</span>' : "";
+        return `<div class="field ${up.length ? "has-up" : pl.length ? "has-played" : ""}">
+          <div class="fhead"><div><div class="abbr">${esc(abbr)}</div><h3>${esc(f.name)}</h3></div>${tag}</div>
+          <p>${f.address ? `${esc(f.address)} · <a href="${mapsUrl(f.address)}" target="_blank" rel="noopener">Maps ↗</a>` : "Address not listed on Top Gun — add it in fields.json"}</p>
+          ${up.length ? `<ul class="fgames">${up.map((g) => `<li><span class="pill time">${esc(g.day)}</span><div><b>${esc(g.time)} vs ${/^(winner|loser|seed)/i.test(g.opponent) ? esc(g.opponent) : teamBtn(g.opponent)}</b><div class="when">${fmtDate(g.date)} · ${esc(g.sub || "")} · ${esc(tidy(g.event))}</div></div></li>`).join("")}</ul>` : ""}
+          ${pl.length ? `<ul class="fgames">${pl.map((g) => `<li><span class="pill ${g.result}">${g.result}</span><div><b>${g.rs}–${g.ra} vs ${teamBtn(g.opponent)}</b><div class="when">${fmtDate(g.date)} · ${esc(g.sub || "")} · ${esc(tidy(g.event))}</div></div></li>`).join("")}</ul>` : ""}
+          ${!up.length && !pl.length ? `<div class="when">No ${esc(D.team)} games here yet.</div>` : ""}
+        </div>`;
+      }).join("")}</div>`;
   }
+  const clock = (t) => { const m = /(\d+):(\d+)\s*(AM|PM)/i.exec(t || ""); if (!m) return 0; let h = +m[1] % 12; if (/pm/i.test(m[3])) h += 12; return h * 60 + +m[2]; };
 
   // ---- Team sheet --------------------------------------------------------------
   function openTeam(name) {

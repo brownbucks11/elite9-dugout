@@ -386,6 +386,18 @@ def build(events, team, upcoming, year, team_stats=None):
         })
     teams.sort(key=lambda t: (-t["pct"], -t["diff"], t["team"].lower()))
 
+    # Complexes we play at that no schedule page described (some pages have no address table),
+    # plus optional overrides from fields.json: {"NWP": {"name": "...", "address": "..."}}
+    for g in my_games:
+        abbr = (g["field"] or "").split(":")[0].strip()
+        if abbr and abbr not in fields:
+            fields[abbr] = {"name": abbr, "address": ""}
+    fx = HERE / "fields.json"
+    if fx.exists():
+        for abbr, info in json.loads(fx.read_text(encoding="utf-8")).items():
+            if not abbr.startswith("_"):
+                fields[abbr] = {**fields.get(abbr, {"name": abbr, "address": ""}), **info}
+
     mine = rec[me]
     return {
         "team": mine["team"] or team, "location": mine["location"], "page_id": mine["page_id"],
