@@ -25,12 +25,11 @@
   <circle fill="#1a2440" cx="122" cy="52" r="2.6"/>
   <circle class="navy" cx="100" cy="25" r="4.5"/>
   <circle class="edge" cx="100" cy="25" r="4.5"/>
-  <!-- brim: cream with thin navy piping on the outer edge -->
-  <path class="cream" d="M14 106 C40 100 160 100 186 106 C188 118 150 132 100 132 C50 132 12 118 14 106 Z"/>
+  <!-- brim: navy, with a light edge so it reads on the navy header -->
+  <path class="navy" d="M14 106 C40 100 160 100 186 106 C188 118 150 132 100 132 C50 132 12 118 14 106 Z"/>
   <path fill="url(#shade)" d="M14 106 C40 100 160 100 186 106 C188 118 150 132 100 132 C50 132 12 118 14 106 Z"/>
-  <path d="M14 106 C40 100 160 100 186 106" fill="none" stroke="#1a2440" stroke-width="1.4"/>
-  <path d="M186 106 C188 118 150 132 100 132 C50 132 12 118 14 106" fill="none" stroke="#1a2440" stroke-width="3"/>
-  <path d="M186 106 C188 118 150 132 100 132 C50 132 12 118 14 106" fill="none" stroke="#dfe6f2" stroke-width="1" opacity=".7" transform="translate(0 1.6)"/>
+  <path d="M14 106 C40 100 160 100 186 106" fill="none" stroke="#1a2440" stroke-width="1.6"/>
+  <path class="edge" d="M186 106 C188 118 150 132 100 132 C50 132 12 118 14 106"/>
   <!-- E9 -->
   <text class="mark" x="100" y="96" text-anchor="middle">E9</text>
 </svg>
