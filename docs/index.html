@@ -119,31 +119,27 @@
   .champ { display: inline-flex; align-items: center; gap: 5px; font-family: var(--body); font-size: 13px; font-weight: 600; text-transform: none; letter-spacing: 0; color: var(--ink); background: var(--me-bg); border: 1px solid var(--amber); border-radius: 999px; padding: 2px 10px 2px 7px; }
   .champ svg { color: var(--amber); }
   .champ button { background: none; border: 0; padding: 0; font: inherit; font-weight: 600; color: inherit; cursor: pointer; }
-  .bracket-scroll { overflow-x: auto; padding-bottom: 6px; }
-  .bracket-canvas { position: relative; }
-  .bracket-lines { position: absolute; left: 0; top: 0; pointer-events: none; }
-  .bracket-lines path { fill: none; stroke: var(--line); stroke-width: 2; }
-  .bracket-lines path.done { stroke: var(--ink-2); }
-  .bracket-lines path.winner.done { stroke: var(--win); }
-  .bracket-lines path.loser { stroke-dasharray: 4 3; }
-  .rlabel { position: absolute; top: 0; font-size: 11px; letter-spacing: 1.2px; text-transform: uppercase; color: var(--ink-2); }
-  .match { position: absolute; border: 1px solid var(--line); border-radius: 6px; background: var(--paper); overflow: hidden; box-sizing: border-box; }
-  .match .cap { height: 22px; box-sizing: border-box; }
-  .slot { height: 34px; box-sizing: border-box; }
-  .match.pending { border-style: dashed; }
-  .match .cap { display: flex; justify-content: space-between; gap: 8px; font-size: 11px; color: var(--ink-2); padding: 4px 8px; border-bottom: 1px solid var(--line); background: var(--chalk); }
-  .slot { display: grid; grid-template-columns: 26px 1fr auto; gap: 6px; align-items: center; padding: 6px 8px; font-size: 14px; }
-  .slot + .slot { border-top: 1px solid var(--line); }
-  .slot .seed { font-size: 11px; color: var(--ink-2); }
-  .slot .tname { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; }
-  .slot .tname button { background: none; border: 0; padding: 0; font: inherit; color: var(--ink); cursor: pointer; text-align: left; max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; vertical-align: bottom; }
-  .slot .sc { font-family: var(--display); font-size: 18px; font-weight: 600; font-variant-numeric: tabular-nums; min-width: 22px; text-align: right; }
-  .slot.win { font-weight: 600; box-shadow: inset 3px 0 0 var(--win); }
-  .slot.win .sc { color: var(--win); }
-  .slot.lose { color: var(--ink-2); }
-  .slot.lose .tname button { color: var(--ink-2); }
-  .slot.tbd .tname { font-style: italic; color: var(--ink-2); }
-  .slot.me { background: var(--me-bg); }
+  .bracket-wrap { display: flex; gap: 20px; align-items: flex-start; flex-wrap: wrap; }
+  .bracket-scroll { overflow-x: auto; padding-bottom: 6px; flex: 1 1 520px; min-width: 0; }
+  .bracket-svg { display: block; font-family: var(--body); font-size: 13px; }
+  .bracket-svg line { stroke: var(--ink-2); stroke-width: 1.5; }
+  .bracket-svg .tname { fill: var(--ink); }
+  .bracket-svg .tname[data-team] { cursor: pointer; }
+  .bracket-svg .tname.win { font-weight: 600; }
+  .bracket-svg .tname.lose { fill: var(--ink-2); }
+  .bracket-svg .tname.tbd { fill: var(--ink-2); font-style: italic; }
+  .bracket-svg .tname.me { fill: var(--link); font-weight: 600; }
+  .bracket-svg .seed { fill: var(--ink-2); font-size: 11px; }
+  .bracket-svg .score { fill: var(--ink-2); font-family: var(--display); font-size: 15px; font-weight: 600; }
+  .bracket-svg .score.win { fill: var(--win); }
+  .bracket-svg .gnum { fill: var(--ink-2); font-size: 10px; }
+  .bracket-svg .glabel { fill: var(--ink-2); font-size: 11px; letter-spacing: 1px; text-transform: uppercase; }
+  .placings { list-style: none; margin: 0; padding: 8px 12px; border: 1px solid var(--line); border-radius: 6px; background: var(--chalk); display: grid; gap: 6px; flex: 0 0 auto; min-width: 200px; font-size: 14px; }
+  .placings li { display: flex; align-items: center; gap: 10px; }
+  .placings .place { font-family: var(--display); font-weight: 700; font-size: 16px; width: 34px; color: var(--ink-2); }
+  .placings li:first-child .place { color: var(--amber); }
+  .placings button { background: none; border: 0; padding: 0; font: inherit; color: var(--ink); cursor: pointer; }
+  .placings li:first-child button { font-weight: 600; }
 
   /* Tie-break ladder: one group per shared record */
   .tb { padding: 12px 16px 4px; border-top: 1px solid var(--line); display: grid; gap: 14px; }
@@ -470,80 +466,80 @@
       const refs = [g.from_a, g.from_b].filter((r) => r && byNum.has(r.game));
       return refs.length && depth < 12 ? 1 + Math.max(...refs.map((r) => roundOf(byNum.get(r.game), depth + 1))) : 1;
     };
-    const rounds = new Map();
-    games.forEach((g) => { const r = roundOf(g); if (!rounds.has(r)) rounds.set(r, []); rounds.get(r).push(g); });
-    const last = Math.max(...rounds.keys());
-    const referenced = new Set(games.flatMap((g) => [g.from_a, g.from_b].filter(Boolean).map((r) => r.game)));
     const played = (g) => g.score_a != null && g.score_b != null;
     const consolation = (g) => !!(g.from_a && g.from_a.type === "loser" && g.from_b && g.from_b.type === "loser");
     const winnerSide = (g) => !played(g) || g.score_a === g.score_b ? null : g.score_a > g.score_b ? "a" : "b";
+    const winnerOf = (g) => winnerSide(g) ? g["team_" + winnerSide(g)] : null;
+    const loserOf = (g) => winnerSide(g) ? g["team_" + (winnerSide(g) === "a" ? "b" : "a")] : null;
+    const short = (n, max = 24) => n.length > max ? n.slice(0, max - 1) + "…" : n;
+    const nameText = (x, y, name, cls, anchor = "start") => PH.test(name || "")
+      ? `<text x="${x}" y="${y}" class="tname tbd" text-anchor="${anchor}">${esc(name)}</text>`
+      : `<text x="${x}" y="${y}" class="tname ${cls} ${norm(name) === ME ? "me" : ""}" text-anchor="${anchor}" data-team="${esc(name)}">${esc(short(name))}</text>`;
 
-    // Layout: columns per round; a game sits centered on the games that feed it, consolation games go below.
-    const colW = 224, hgap = 46, capH = 22, slotH = 34, boxH = capH + 2 * slotH, vgap = 14, top = 26;
-    const pos = new Map();
-    let H = 0;
-    for (let r = 1; r <= last; r++) {
-      const x = (r - 1) * (colW + hgap);
-      let bottom = top - vgap;
-      (rounds.get(r) || []).sort((a, b) => (consolation(a) - consolation(b)) || a.game - b.game).forEach((g) => {
-        const feeds = [g.from_a, g.from_b].filter((f) => f && pos.has(f.game)).map((f) => pos.get(f.game).y);
-        let y = feeds.length && !consolation(g) ? feeds.reduce((a, b) => a + b, 0) / feeds.length : bottom + vgap;
-        y = Math.max(y, bottom + vgap);
-        pos.set(g.game, { x, y, g });
-        bottom = y + boxH;
-        H = Math.max(H, bottom);
+    // Classic printed bracket: each team on a line, lines joined game to game, the winner's line runs right.
+    const L = 200, GAP = 30, S = 34, GG = 22, LEFT = 6;
+    const out = [];
+    let maxY = 0;
+    const drawBracket = (list, top, leafName, endLabel) => {
+      const rounds = new Map();
+      list.forEach((g) => { const r = roundOf(g); if (!rounds.has(r)) rounds.set(r, []); rounds.get(r).push(g); });
+      const rs = [...rounds.keys()].sort((a, b) => a - b);
+      const outY = new Map();
+      let leaf = 0;
+      rs.forEach((r, ri) => {
+        const x = LEFT + ri * (L + GAP);
+        rounds.get(r).sort((a, b) => a.game - b.game).forEach((g) => {
+          const ys = ["a", "b"].map((side) => {
+            const f = g["from_" + side];
+            if (f && outY.has(f.game)) return outY.get(f.game);
+            const y = top + leaf * S + Math.floor(leaf / 2) * GG; leaf++;
+            out.push(`<line x1="${x}" y1="${y}" x2="${x + L}" y2="${y}"/>`);
+            const nm = leafName(g, side);
+            const seed = g["seed_" + side];
+            out.push(nameText(x + 2 + (seed ? 22 : 0), y - 5, nm, winnerSide(g) === side ? "win" : played(g) ? "lose" : ""));
+            if (seed) out.push(`<text x="${x + 2}" y="${y - 5}" class="seed">#${seed}</text>`);
+            return y;
+          });
+          ["a", "b"].forEach((side, i) => { if (played(g)) out.push(`<text x="${x + L - 3}" y="${ys[i] - 5}" class="score ${winnerSide(g) === side ? "win" : ""}" text-anchor="end">${g["score_" + side]}</text>`); });
+          const mid = (ys[0] + ys[1]) / 2;
+          out.push(`<line x1="${x + L}" y1="${ys[0]}" x2="${x + L}" y2="${ys[1]}"/>`);
+          out.push(`<text x="${x + L + 4}" y="${mid + 4}" class="gnum">G${g.game}</text>`);
+          const isLast = ri === rs.length - 1;
+          const nx = x + L + GAP, nl = isLast ? L - 20 : L;
+          out.push(`<line x1="${x + L}" y1="${mid}" x2="${nx + nl}" y2="${mid}"/>`);
+          const w = winnerOf(g);
+          if (w) out.push(nameText(nx + 2, mid - 5, w, "win"));
+          if (isLast) out.push(`<text x="${nx + 2}" y="${mid + 14}" class="glabel">${esc(endLabel)}</text>`);
+          outY.set(g.game, mid);
+          maxY = Math.max(maxY, ys[1], mid + 16);
+        });
       });
-    }
-    const W = last * colW + (last - 1) * hgap;
+      return { width: LEFT + rs.length * (L + GAP) + L, rounds: rs.length };
+    };
 
-    // Connectors: from the source game's winner (or loser) slot into the slot it fills.
-    const lines = [];
-    pos.forEach(({ x, y, g }) => {
-      ["a", "b"].forEach((side, i) => {
+    const winners = games.filter((g) => !consolation(g)), consols = games.filter(consolation);
+    const wb = drawBracket(winners, 26, (g, side) => g["team_" + side], "Champion");
+    let cb = { width: 0 };
+    if (consols.length) {
+      const top = maxY + 56;
+      out.push(`<text x="${LEFT}" y="${top - 26}" class="glabel">Consolation</text>`);
+      cb = drawBracket(consols, top, (g, side) => {
         const f = g["from_" + side];
-        if (!f || !pos.has(f.game)) return;
-        const src = pos.get(f.game);
-        const ws = winnerSide(src.g);
-        const fromSide = ws ? (f.type === "winner" ? ws : ws === "a" ? "b" : "a") : null;
-        const sy = src.y + capH + (fromSide ? slotH * (fromSide === "a" ? 0.5 : 1.5) : slotH);
-        const sx = src.x + colW, tx = x, ty = y + capH + slotH * (i + 0.5);
-        const mid = sx + (f.type === "winner" ? hgap * 0.5 : hgap * 0.3);
-        lines.push(`<path class="${f.type} ${ws ? "done" : ""}" d="M${sx} ${sy} H${mid} V${ty} H${tx}"/>`);
-      });
-    });
-
-    const slot = (g, side) => {
-      const name = g["team_" + side], seed = g["seed_" + side], from = g["from_" + side];
-      const sc = g["score_" + side], other = g["score_" + (side === "a" ? "b" : "a")];
-      const tbd = PH.test(name);
-      const state = !played(g) ? "" : sc > other ? "win" : sc < other ? "lose" : "";
-      const label = tbd && from ? `${from.type === "winner" ? "Winner" : "Loser"} of G${from.game}` : name;
-      return `<div class="slot ${state} ${tbd ? "tbd" : ""} ${norm(name) === ME ? "me" : ""}">
-        <span class="seed">${seed ? "#" + seed : ""}</span>
-        <span class="tname">${tbd ? esc(label) : teamBtn(name)}</span>
-        <span class="sc">${played(g) ? sc : ""}</span></div>`;
-    };
-    const cap = (g, r) => {
-      const kind = r === last && !referenced.has(g.game) ? (consolation(g) ? "3rd place" : "Championship") : "";
-      const f = fieldParts(g.field);
-      return `<div class="cap"><span>G${g.game}${kind ? " · " + kind : ""}</span><span>${esc(g.day)} ${esc(g.time)}${f.abbr ? " · " + esc(f.sub || f.abbr) : ""}</span></div>`;
-    };
-    const rlabel = (r) => r === last ? (last === 1 ? "Games" : "Final") : last - r === 1 ? "Semifinals" : last - r === 2 ? "Quarterfinals" : `Round ${r}`;
-    const finalGame = games.find((g) => roundOf(g) === last && !referenced.has(g.game) && !consolation(g));
-    let champ = "";
-    if (finalGame && winnerSide(finalGame)) {
-      const w = finalGame["team_" + winnerSide(finalGame)];
-      if (!PH.test(w)) champ = `<span class="champ">${TROPHY} ${teamBtn(w)}</span>`;
+        const src = f && byNum.get(f.game);
+        return (src && loserOf(src)) || g["team_" + side] || `Loser of G${f && f.game}`;
+      }, "3rd place");
     }
-    const boxes = [...pos.values()].map(({ x, y, g }) => {
-      const r = roundOf(g);
-      return `<div class="match ${played(g) ? "" : "pending"}" style="left:${x}px;top:${y}px;width:${colW}px">${cap(g, r)}${slot(g, "a")}${slot(g, "b")}</div>`;
-    }).join("");
-    const labels = [...Array(last)].map((_, i) => `<div class="rlabel" style="left:${i * (colW + hgap)}px">${rlabel(i + 1)}</div>`).join("");
-    return `<div class="bracket-block"><div class="bracket-title">${esc(section)} ${champ}</div>
-      <div class="bracket-scroll"><div class="bracket-canvas" style="width:${W}px;height:${H + 4}px">
-        <svg class="bracket-lines" width="${W}" height="${H + 4}" aria-hidden="true">${lines.join("")}</svg>${labels}${boxes}
-      </div></div></div>`;
+    const W = Math.max(wb.width, cb.width) + 6, H = maxY + 8;
+
+    // Placings, in order, as far as the results allow
+    const finalGame = winners.find((g) => roundOf(g) === Math.max(...winners.map(roundOf)));
+    const conGame = consols[0];
+    const places = [["1st", finalGame && winnerOf(finalGame)], ["2nd", finalGame && loserOf(finalGame)],
+      ["3rd", conGame && winnerOf(conGame)], ["4th", conGame && loserOf(conGame)]].filter((p, i) => i < 2 || conGame);
+    const champ = finalGame && winnerOf(finalGame);
+    return `<div class="bracket-block"><div class="bracket-title">${esc(section)} ${champ ? `<span class="champ">${TROPHY} ${teamBtn(champ)}</span>` : ""}</div>
+      <div class="bracket-wrap"><div class="bracket-scroll"><svg class="bracket-svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}">${out.join("")}</svg></div>
+      <ol class="placings">${places.map(([p, n]) => `<li><span class="place">${p}</span>${n ? teamBtn(n) : '<span class="from">TBD</span>'}</li>`).join("")}</ol></div></div>`;
   }
   function bracketsHtml(games) {
     const secs = [...new Set(games.filter((g) => !/^pool/i.test(g.section)).map((g) => g.section))];
@@ -797,7 +793,7 @@
   function closeTeam() { $("#sheet").hidden = true; $("#sheet").innerHTML = ""; document.body.style.overflow = ""; }
   document.addEventListener("keydown", (e) => { if (e.key === "Escape" && !$("#sheet").hidden) closeTeam(); });
   document.addEventListener("click", (e) => {
-    const b = e.target.closest("button[data-team]");
+    const b = e.target.closest("[data-team]");
     if (b) { closeTeam(); openTeam(b.dataset.team); }
   });
 
