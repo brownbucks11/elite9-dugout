@@ -311,10 +311,10 @@
     </div>
     <div class="hdr-link" id="hdr-link"></div>
     <nav class="tabs" role="tablist" id="tabs">
-      <button class="tab" role="tab" data-tab="next" aria-selected="true">Next Up</button>
-      <button class="tab" role="tab" data-tab="results">Results</button>
-      <button class="tab" role="tab" data-tab="teams">Teams</button>
+      <button class="tab" role="tab" data-tab="results" aria-selected="true">Results</button>
+      <button class="tab" role="tab" data-tab="next">Next Up</button>
       <button class="tab" role="tab" data-tab="roster">Roster</button>
+      <button class="tab" role="tab" data-tab="teams">Teams</button>
       <button class="tab" role="tab" data-tab="fields">Fields</button>
     </nav>
   </div>
@@ -326,8 +326,8 @@
 </div></div>
 
 <main>
-  <section role="tabpanel" id="panel-next"></section>
-  <section role="tabpanel" id="panel-results" hidden></section>
+  <section role="tabpanel" id="panel-results"></section>
+  <section role="tabpanel" id="panel-next" hidden></section>
   <section role="tabpanel" id="panel-teams" hidden></section>
   <section role="tabpanel" id="panel-fields" hidden></section>
   <section role="tabpanel" id="panel-roster" hidden></section>
@@ -840,11 +840,11 @@
   });
 
   // ---- Tabs ---------------------------------------------------------------------
-  const TABS = ["next", "results", "teams", "fields", "roster"];
+  const TABS = ["results", "next", "roster", "teams", "fields"];
   const TAB_ALIAS = { standings: "teams" };
   function showTab(name, push) {
     name = TAB_ALIAS[name] || name;
-    if (!TABS.includes(name)) name = "next";
+    if (!TABS.includes(name)) name = "results";
     document.querySelectorAll(".tab").forEach((t) => t.setAttribute("aria-selected", String(t.dataset.tab === name)));
     TABS.forEach((t) => { $("#panel-" + t).hidden = t !== name; });
     if (push && location.hash !== "#" + name) history.replaceState(null, "", "#" + name);
@@ -903,7 +903,7 @@
   renderNext(); renderResults(); renderStandings(); renderFields(); renderRoster();
   let start = location.hash.slice(1);
   if (!start) { try { start = localStorage.getItem("elite9.tab") || ""; } catch (_) {} }
-  showTab(start || "next", false);
+  showTab(start || "results", false);
 })();
 </script>
 </body>
