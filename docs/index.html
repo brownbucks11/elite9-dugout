@@ -195,6 +195,12 @@
   .player .num { flex: 0 0 52px; height: 52px; display: grid; place-items: center; background: var(--navy); color: var(--amber); border-radius: 6px; font-family: var(--display); font-size: 30px; font-weight: 700; font-variant-numeric: tabular-nums; }
   .player.dup .num { box-shadow: inset 0 0 0 2px var(--loss); }
   .pname { font-family: var(--display); font-size: 20px; font-weight: 600; line-height: 1.1; }
+  .pbody { min-width: 0; flex: 1; }
+  .pstats { display: flex; gap: 10px; margin-top: 5px; font-size: 11px; letter-spacing: .5px; text-transform: uppercase; color: var(--ink-2); }
+  .pstats span { display: inline-flex; align-items: baseline; gap: 3px; }
+  .pstats b { font-family: var(--display); font-size: 16px; font-weight: 600; color: var(--ink-2); font-variant-numeric: tabular-nums; }
+  .pstats span.has b { color: var(--ink); }
+  .pstats span.has { color: var(--ink); }
 
   /* Team sheet */
   .sheet-back { position: fixed; inset: 0; background: rgba(10, 14, 28, .55); display: flex; justify-content: flex-end; z-index: 10; }
@@ -221,6 +227,8 @@
     .event-head .finish { margin-left: 68px; text-align: left; }
     details.event > summary::after { top: 30px; }
     details.inner .from { display: none; }
+    .tabs { gap: 0; justify-content: space-between; }
+    .tab { font-size: 15px; padding: 10px 6px 12px; }
     .game { grid-template-columns: 44px 1fr auto; }
   }
   @media (prefers-reduced-motion: no-preference) {
@@ -625,15 +633,15 @@
       return;
     }
     const dups = r.duplicate_numbers || {};
-    const statLine = (p) => [p.hr && `${p.hr} HR`, p.no_hitters && `${p.no_hitters} no-hitter${p.no_hitters > 1 ? "s" : ""}`,
-      p.perfect_games && `${p.perfect_games} perfect game${p.perfect_games > 1 ? "s" : ""}`, p.shutouts && `${p.shutouts} shutout${p.shutouts > 1 ? "s" : ""}`].filter(Boolean).join(" · ");
+    const STATS = [["hr", "HR", "Home runs"], ["perfect_games", "PG", "Perfect games"], ["no_hitters", "NH", "No-hitters"], ["shutouts", "SHO", "Shutouts"]];
+    const statRow = (p) => `<div class="pstats">${STATS.map(([k, ab, title]) => `<span title="${title}" class="${p[k] ? "has" : ""}"><b>${p[k] || 0}</b>${ab}</span>`).join("")}</div>`;
     $("#panel-roster").innerHTML = `
       <h2 class="section-title">Roster <span class="sub">${r.players.length} active players · Top Gun ${esc(r.season || "current season")}</span></h2>
       <ul class="roster">${r.players.map((p) => `<li class="player ${p.number != null && dups[p.number] ? "dup" : ""}">
         <div class="num">${p.number != null ? p.number : "–"}</div>
-        <div><div class="pname">${esc(p.name)}</div>
-          <div class="when">${p.goes_by ? `on Top Gun as ${esc(p.full_name)}` : ""}${p.goes_by && statLine(p) ? " · " : ""}${statLine(p)}</div></div>
+        <div class="pbody"><div class="pname">${esc(p.name)}</div>${statRow(p)}</div>
       </li>`).join("")}</ul>
+      <p class="when">HR home runs · PG perfect games · NH no-hitters · SHO shutouts, as recorded on Top Gun this season.</p>
       ${Object.keys(dups).length ? `<p class="when">Number ${Object.keys(dups).map((n) => `#${n} (${esc(dups[n].join(", "))})`).join(", ")} appears twice on the board — fix in roster.json.</p>` : ""}
       ${r.not_on_topgun && r.not_on_topgun.length ? `<p class="when">In roster.json but not an active Top Gun player: ${esc(r.not_on_topgun.join(", "))}.</p>` : ""}
       <p class="when">Players and season stats from ${D.team_url ? `<a href="${esc(D.team_url)}" target="_blank" rel="noopener">${esc(D.team)}'s Top Gun page</a>` : "Top Gun"} (active players only${r.inactive ? `, ${r.inactive} former players not shown` : ""}); jersey numbers from the team's board.</p>`;
