@@ -7,11 +7,12 @@ Elite 9 (9U, Fall 2026) - Top Gun tournament tracking.
 - playtopgunsports.com/GameTimesResults.aspx?trnid=<ID> ... the actual schedule, scores, standings, brackets
 - The <ID> is TournamentID from the list. Known fall 2026 Charlotte-area IDs:
     12518  Sep 26-27   Charlotte      Spiderman vs Hulk ring weekend
-    13602  Sep 25      Monroe         Friday Night GOAT Series 9U
     12521  Oct 17-18   Charlotte      Triple points Super Regional
     12522  Oct 24-25   Charlotte      Southeastern Winter World Series
     12524  Nov 7-8     Charlotte      Road Runner vs Coyote ring weekend
     12517  Sep 19-20   Charlotte      (done) Super NIT weekend
+    13600  Sep 11      Monroe         (done) Friday Night GOAT Series 9U
+  (per coach's Aug 16 post; upcoming.json is the live list)
 
 ## Files
 - topgun_fetch.py    - MAIN: fetch schedule pages by ID, parse, write elite9_schedule.md
