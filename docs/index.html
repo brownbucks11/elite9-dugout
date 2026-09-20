@@ -132,6 +132,14 @@
   .bracket-svg .tname.tbd { fill: var(--ink-2); font-style: italic; }
   .bracket-svg .tname.me { fill: var(--link); font-weight: 600; }
   .bracket-svg .seed { fill: var(--ink-2); font-size: 11px; }
+  .bracket-svg .vs { font-size: 10px; font-weight: 700; letter-spacing: .3px; }
+  .bracket-svg .vs.W { fill: var(--win); }
+  .bracket-svg .vs.L { fill: var(--loss); }
+  .bracket-svg .vs.T { fill: var(--tie); }
+  .vs-pill { font-size: 10px; font-weight: 700; padding: 1px 6px; border-radius: 999px; margin-left: 4px; white-space: nowrap; }
+  .vs-pill.W { background: var(--win-bg); color: var(--win); }
+  .vs-pill.L { background: var(--loss-bg); color: var(--loss); }
+  .vs-pill.T { background: var(--tie-bg); color: var(--tie); }
   .bracket-svg .score { fill: var(--ink-2); font-family: var(--display); font-size: 15px; font-weight: 600; }
   .bracket-svg .score.win { fill: var(--win); }
   .bracket-svg .gnum { fill: var(--ink-2); font-size: 10px; }
@@ -463,7 +471,15 @@
   // ---- Bracket play, drawn as a bracket ----------------------------------------
   const TROPHY = '<svg viewBox="0 0 24 24" width="16" height="16"><path d="M7 3h10v2h3v3c0 2.5-2 4.5-4.5 4.8A5 5 0 0113 15.9V18h3v2H8v-2h3v-2.1a5 5 0 01-2.5-3.1C6 12.5 4 10.5 4 8V5h3zm-1 4v1c0 1.3.9 2.4 2.1 2.8A7 7 0 018 9V7zm12 0h-2v2c0 .6-.1 1.2-.1 1.8C17.1 10.4 18 9.3 18 8z" fill="currentColor"/></svg>';
   const PH = /^(winner|loser|seed|tbd)/i;
-  function bracketHtml(section, games, index = 0) {
+  function bracketHtml(section, games, index = 0, mine = new Map()) {
+    // mine: norm(opponent) -> our games vs them this event, for the W/L tags
+    const vsInfo = (name) => {
+      const g = mine.get(norm(name));
+      if (!g || !g.length) return null;
+      const tag = g.map((x) => `${x.result} ${x.rs}–${x.ra}`).join(", ");
+      const tip = g.map((x) => `${D.team} ${x.result === "W" ? "beat" : x.result === "L" ? "lost to" : "tied"} ${name} ${x.rs}–${x.ra} (${x.section} G${x.game})`).join("; ");
+      return { tag, tip, cls: g.every((x) => x.result === "W") ? "W" : g.every((x) => x.result === "L") ? "L" : "T" };
+    };
     const bracketName = section.replace(/ bracket$/i, "");
     const isTop = index === 0 || /gold|championship/i.test(section);   // only the top bracket has a Champion
     const byNum = new Map(games.map((g) => [g.game, g]));
@@ -487,9 +503,12 @@
     games.forEach((g) => ["a", "b"].forEach((side) => { const n = g["team_" + side], sd = g["seed_" + side]; if (sd && !PH.test(n)) seedOf.set(norm(n), sd); }));
     const gamePos = new Map();
     if (!tree) games.slice().sort((a, b) => a.game - b.game).forEach((g, i) => gamePos.set(g.game, 2 * i + 1));
-    const nameText = (x, y, name, cls, anchor = "start") => PH.test(name || "")
-      ? `<text x="${x}" y="${y}" class="tname tbd" text-anchor="${anchor}">${esc(name)}</text>`
-      : `<text x="${x}" y="${y}" class="tname ${cls} ${norm(name) === ME ? "me" : ""}" text-anchor="${anchor}" data-team="${esc(name)}">${esc(short(name))}</text>`;
+    const nameText = (x, y, name, cls, anchor = "start") => {
+      if (PH.test(name || "")) return `<text x="${x}" y="${y}" class="tname tbd" text-anchor="${anchor}">${esc(name)}</text>`;
+      const v = vsInfo(name);
+      return `<text x="${x}" y="${y}" class="tname ${cls} ${norm(name) === ME ? "me" : ""}" text-anchor="${anchor}" data-team="${esc(name)}">${v ? `<title>${esc(v.tip)}</title>` : ""}${esc(short(name, v ? 14 : 24))}${v ? `<tspan class="vs ${v.cls}" dx="6">${esc(v.tag)}</tspan>` : ""}</text>`;
+    };
+    const vsTag = (name) => { const v = vsInfo(name); return v ? `<span class="vs-pill ${v.cls}" title="${esc(v.tip)}">${esc(v.tag)}</span>` : ""; };
 
     // Classic printed bracket: each team on a line, lines joined game to game, the winner's line runs right.
     const L = 200, GAP = 30, S = 34, GG = 22, LEFT = 6;
@@ -547,7 +566,7 @@
         return (src && loserOf(src)) || g["team_" + side] || `Loser of G${f && f.game}`;
       }, () => placeLabel(3));
     }
-    const W = Math.max(wb.width, cb.width) + 6, H = maxY + 8;
+    const W = Math.max(wb.width, cb.width) + 40, H = maxY + 8;
 
     // Placings, in order, as far as the results allow
     let places, champ;
@@ -564,11 +583,13 @@
     }
     return `<div class="bracket-block"><div class="bracket-title">${esc(section)} ${champ ? `<span class="champ ${isTop ? "" : "plain"}">${isTop ? TROPHY : `1st ${esc(bracketName)} ·`} ${teamBtn(champ)}</span>` : ""}</div>
       <div class="bracket-wrap"><div class="bracket-scroll"><svg class="bracket-svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}">${out.join("")}</svg></div>
-      <ol class="placings"><li class="phead">${esc(bracketName)} bracket</li>${places.map(([p, n]) => `<li><span class="place">${p === 1 && isTop && (tree || games.length === 1) ? "Champion" : `${ordinal(p)} ${esc(bracketName)}`}</span>${n ? teamBtn(n) : '<span class="from">TBD</span>'}</li>`).join("")}</ol></div></div>`;
+      <ol class="placings"><li class="phead">${esc(bracketName)} bracket</li>${places.map(([p, n]) => `<li><span class="place">${p === 1 && isTop && (tree || games.length === 1) ? "Champion" : `${ordinal(p)} ${esc(bracketName)}`}</span>${n ? teamBtn(n) + vsTag(n) : '<span class="from">TBD</span>'}</li>`).join("")}</ol></div></div>`;
   }
-  function bracketsHtml(games) {
+  function bracketsHtml(games, myGames = []) {
+    const mine = new Map();
+    myGames.filter((g) => g.result).forEach((g) => { const k = norm(g.opponent); if (!mine.has(k)) mine.set(k, []); mine.get(k).push(g); });
     const secs = [...new Set(games.filter((g) => !/^pool/i.test(g.section)).map((g) => g.section))];
-    return secs.length ? `<div class="brackets">${secs.map((s, i) => bracketHtml(s, games.filter((g) => g.section === s), i)).join("")}</div>` : "";
+    return secs.length ? `<div class="brackets">${secs.map((s, i) => bracketHtml(s, games.filter((g) => g.section === s), i, mine)).join("")}</div>` : "";
   }
 
   // ---- Results ---------------------------------------------------------------
@@ -675,7 +696,7 @@
                    <div class="when">${esc(g.section)} G${g.game} · ${esc(g.day)} ${esc(g.time)} · ${fieldHtml(g.field)}</div></div>
               <div class="score">${g.result ? `${g.rs}–${g.ra}` : `<small>not played</small>`}</div>
             </li>`).join("")}</ul></div>
-          ${bracketsHtml(e.games)}
+          ${bracketsHtml(e.games, games)}
           <details class="inner"><summary>Standings (${e.teams} teams)</summary>${standingsTable(e.standings, seedNote)}</details>
           <div class="event-foot"><a href="${esc(e.url)}" target="_blank" rel="noopener">Brackets &amp; all games on Top Gun ↗</a></div>
         </details>`;
