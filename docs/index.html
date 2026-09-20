@@ -210,15 +210,14 @@
   th[aria-sort="ascending"]::after { content: " ▴"; }
   tr:last-child td { border-bottom: 0; }
   tr.me td { background: var(--me-bg); font-weight: 600; }
-  tr.played td { background: var(--played-bg); }
-  tr.played td:first-child { box-shadow: inset 3px 0 0 var(--link); }
+  td.mark, th.mark { width: 34px; padding-left: 8px; padding-right: 0; text-align: center; }
+  .mark-icon { width: 28px; height: 21px; vertical-align: middle; cursor: help; }
+  .legend .mark-icon { width: 20px; height: 15px; }
   td.wrap { white-space: normal; min-width: 180px; }
   .chips { white-space: normal; min-width: 150px; }
   .chip { display: inline-block; font-size: 11px; font-weight: 600; letter-spacing: .3px; padding: 1px 7px; border-radius: 999px; border: 1px solid var(--line); color: var(--ink-2); margin: 1px 3px 1px 0; white-space: nowrap; }
   .chip.first { border-color: var(--amber); background: var(--me-bg); color: var(--ink); }
   .legend { font-size: 12px; color: var(--ink-2); display: inline-flex; align-items: center; gap: 6px; }
-  .swatch { width: 14px; height: 14px; border-radius: 3px; border: 1px solid var(--line); display: inline-block; }
-  .swatch.played { background: var(--played-bg); box-shadow: inset 3px 0 0 var(--link); }
   .hdr-link { margin-top: 10px; font-size: 13px; }
   .hdr-link a { color: var(--amber); }
   td.team-cell button { background: none; border: 0; padding: 0; font: inherit; color: var(--link); cursor: pointer; text-align: left; }
@@ -389,6 +388,13 @@
     const g = t.log.filter((x) => norm(x.opponent) === ME);
     const w = g.filter((x) => x.result === "W").length, l = g.filter((x) => x.result === "L").length, tt = g.length - w - l;
     return { n: g.length, text: g.length ? `${w}-${l}${tt ? `-${tt}` : ""}` : "" };
+  }
+  // Hover text for a team we've played: every meeting, from Elite 9's side
+  function vsTip(t) {
+    return t.log.filter((x) => norm(x.opponent) === ME).map((x) => {
+      const d = iso(x.date);
+      return `${D.team} ${x.result === "L" ? "beat" : x.result === "W" ? "lost to" : "tied"} ${t.team} ${x.ra}–${x.rs} · ${d ? MONTHS[d.getMonth()] + " " + d.getDate() : x.date} · ${x.section} · ${tidy(x.event)}`;
+    }).join("\n");
   }
   const chip = (standing) => {
     const s = String(standing || "").trim();
@@ -734,10 +740,11 @@
       <h2 class="section-title">${esc(D.division)} teams <span class="sub">${D.teams.length} teams across ${nEvents} events since Aug 1 · not a ranking — teams have played different events · sort any column, tap a team for its game log</span></h2>
       <div class="toolbar"><label for="team-filter" class="visually-hidden" hidden>Search</label>
         <input id="team-filter" type="search" placeholder="Search team or town" value="${esc(filter)}" autocomplete="off">
-        <span class="legend"><i class="swatch played"></i> played ${esc(D.team)}</span></div>
+        <span class="legend"><img class="mark-icon" src="logo.png" alt=""> played ${esc(D.team)} — hover the cap for the scores</span></div>
       <div class="table-wrap"><table>
-        <thead><tr>${COLS.map((c) => `<th class="sortable ${c.num ? "num" : ""}" data-key="${c.key}" aria-sort="${sortKey === c.key ? (sortDir < 0 ? "descending" : "ascending") : "none"}">${c.label}</th>`).join("")}</tr></thead>
-        <tbody>${rows.map((t, i) => { const v = vsUs(t); return `<tr class="${norm(t.team) === ME ? "me" : v.n ? "played" : ""}">
+        <thead><tr><th class="mark"></th>${COLS.map((c) => `<th class="sortable ${c.num ? "num" : ""}" data-key="${c.key}" aria-sort="${sortKey === c.key ? (sortDir < 0 ? "descending" : "ascending") : "none"}">${c.label}</th>`).join("")}</tr></thead>
+        <tbody>${rows.map((t, i) => { const v = vsUs(t); return `<tr class="${norm(t.team) === ME ? "me" : ""}">
+          <td class="mark">${v.n ? `<img class="mark-icon" src="logo.png" alt="played ${esc(D.team)}" title="${esc(vsTip(t))}">` : ""}</td>
           <td class="team-cell">${teamBtn(t.team)}</td>
           <td class="from">${esc(t.location || "")}</td>
           <td class="num">${recordStr(t)}</td>
@@ -748,7 +755,7 @@
           <td class="num">${t.finishes && t.finishes.length ? t.points : `<span class="from">${havePoints ? "—" : ""}</span>`}</td>
           <td class="chips">${(t.finishes || []).map((f) => chip(f.standing)).join("")}</td>
           <td class="num">${norm(t.team) === ME ? "" : v.text}</td></tr>`; }).join("")}
-        ${rows.length ? "" : `<tr><td colspan="11" class="empty">No team matches “${esc(filter)}”.</td></tr>`}
+        ${rows.length ? "" : `<tr><td colspan="12" class="empty">No team matches “${esc(filter)}”.</td></tr>`}
         </tbody></table></div>
       ${havePoints ? `<p class="when">Points and finishes come from each team's Top Gun statistics page (season from Aug 1); a finish like "2nd Gold" is the team's placing in that event's bracket.</p>` : ""}`;
     const input = $("#team-filter");
