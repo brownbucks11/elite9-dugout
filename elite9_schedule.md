@@ -1,8 +1,8 @@
 # Elite 9 - Top Gun schedule
-_Updated Sun Sep 20, 2026 01:20 PM_
+_Updated Sun Sep 20, 2026 01:10 PM_
 
-## Game Times & Scores | Top Gun
-  
+## WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND
+September 19 - 20 in Greater Charlotte Area, NC  
 Tournament 12517 - [schedule page](https://playtopgunsports.com/GameTimesResults.aspx?trnid=12517)
 
 ### 9U  Modified Stealing
@@ -19,45 +19,60 @@ Tournament 12517 - [schedule page](https://playtopgunsports.com/GameTimesResults
 
 | # | Team | From | W-L | RS | RA |
 |---|---|---|---|---|---|
-| 1 | Carolina Clippers 9U | RICHFIELD, NC | 1-1 | 24 | 15 |
-| 2 | Dirtbags Shook | Claremont, NC | 2-0 | 20 | 9 |
+| 1 | Carolina Clippers 9U | RICHFIELD, NC | 3-1 | 24 | 15 |
+| 2 | Dirtbags Shook | Claremont, NC | 3-1 | 20 | 9 |
 | 3 | Elite 9 **<--** | Rock Hill, SC | 0-2 | 4 | 19 |
-| 4 | Team 24 | York, SC | 2-0 | 28 | 8 |
-| 5 | Union County Legends | Waxhaw, NC | 0-2 | 9 | 29 |
-| 6 | Hooligans | Mount Holly, NC | 2-0 | 35 | 8 |
-| 7 | ELITE BASEBALL EBC 9U | FOREST CITY, NC | 0-2 | 12 | 25 |
-| 8 | Carolina Elevate | Lenoir, NC | 0-2 | 4 | 40 |
-| 9 | NL Destroyers 2036 | Denver, NC | 2-0 | 24 | 7 |
+| 4 | Team 24 | York, SC | 2-2 | 28 | 8 |
+| 5 | Union County Legends | Waxhaw, NC | 1-3 | 9 | 29 |
+| 6 | Hooligans | Mount Holly, NC | 3-0 | 35 | 8 |
+| 7 | ELITE BASEBALL EBC 9U | FOREST CITY, NC | 1-3 | 12 | 25 |
+| 8 | Carolina Elevate | Lenoir, NC | 0-4 | 4 | 40 |
+| 9 | NL Destroyers 2036 | Denver, NC | 3-0 | 24 | 7 |
 
 **Gold Bracket**
 
 | G | When | Field | Team A | Team B |
 |---|---|---|---|---|
-| 1 | Sun 9:00 AM | Bradford:Field # 2 | (#2) Hooligans | (#3) Team 24 |
-| 2 | Sun 9:00 AM | Bradford:Field # 1 | (#1) NL Destroyers 2036 | (#4) Dirtbags Shook |
-| 3 | Sun 11:00 AM | Bradford:Field # 2 | Loser Game #1 | Loser Game #2 |
-| 4 | Sun 11:00 AM | Bradford:Field # 1 | Winner Game #1 | Winner Game #2 |
+| 1 | Sun 9:00 AM | Bradford:Field # 2 | (#2) Hooligans 6 | (#3) Team 24 5 |
+| 2 | Sun 9:00 AM | Bradford:Field # 1 | (#1) NL Destroyers 2036 11 | (#4) Dirtbags Shook 10 |
+| 3 | Sun 11:00 AM | Bradford:Field # 2 | Loser Game #1 Team 24 8 | Loser Game #2 Dirtbags Shook 17 |
+| 4 | Sun 11:00 AM | Bradford:Field # 1 | Winner Game #1 Hooligans | Winner Game #2 NL Destroyers 2036 |
 
 **Silver Bracket**
 
 | G | When | Field | Team A | Team B |
 |---|---|---|---|---|
-| 1 | Sun 9:00 AM | Bradford:Field # 3 | (#6) ELITE BASEBALL EBC 9U | (#7) Union County Legends |
-| 2 | Sun 9:00 AM | Bradford:Field # 4 | (#5) Carolina Clippers 9U | (#8) Carolina Elevate |
-| 3 | Sun 11:00 AM | Bradford:Field # 3 | Loser Game #1 | Loser Game #2 |
-| 4 | Sun 11:00 AM | Bradford:Field # 4 | Winner Game #1 | Winner Game #2 |
+| 1 | Sun 9:00 AM | Bradford:Field # 3 | (#6) ELITE BASEBALL EBC 9U 8 | (#7) Union County Legends 15 |
+| 2 | Sun 9:00 AM | Bradford:Field # 4 | (#5) Carolina Clippers 9U 14 | (#8) Carolina Elevate 2 |
+| 3 | Sun 11:00 AM | Bradford:Field # 3 | Loser Game #1 ELITE BASEBALL EBC 9U 11 | Loser Game #2 Carolina Elevate 4 |
+| 4 | Sun 11:00 AM | Bradford:Field # 4 | Winner Game #1 Union County Legends 2 | Winner Game #2 Carolina Clippers 9U 11 |
 
-## Field addresses
+## SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND
+September 26 - 27 in Greater Charlotte Area, NC  
+Tournament 12518 - [schedule page](https://playtopgunsports.com/GameTimesResults.aspx?trnid=12518)
 
-- **AHS** - Ashbrook High School, 2222 South New Hope Road Gastonia, NC 28056
-- **Bradford** - Bradford Park, 17005 Davidson Concord Road Huntersville, NC 28078
-- **BFF** - Buck Fraley Field, 210 North Pink Street Cherryville, NC 28021
-- **Tega Cay** - Catawba Park, 2351 New Grey Rock Rd Tega Cay, SC 29708
-- **Ferguson** - Ferguson Park, 1401 Golf Course Drive Gastonia, NC 28054
-- **Charlotte** - Greater Charlotte Area, TBA Greater Charlotte Area, NC 28262
-- **Core** - Hinson-Core Athletics Field, 2300 Eva Drive Concord, NC 28027
-- **M. Rivers** - Martha Rivers Park, 1515 Neal Hawkins Rd Gastonia, NC 28054
-- **SP** - Stinger Park, 1320 North 12th St. Bessemer City, NC 28016
-- **TOB** - Tommy Oehler Ballfield, 11400 Mallard Creek Rd Charlotte, NC 28262
-- **Tuckasee** - Tuckaseegee Dream Fields, 7531 Tuckaseegee Road Charlotte, NC 28214
-- **Westmoreld** - Westmoreland Park, 8430 Westmoreland Rd. Cornelius, NC 28031
+_Elite 9 not listed yet. Divisions posted: none posted yet_
+
+## TRIPLE POINTS---SUPER REGIONAL--TOP GUN-USA SLIDING MITTS
+October 17 - 18 in Greater Charlotte Area, NC  
+Tournament 12521 - [schedule page](https://playtopgunsports.com/GameTimesResults.aspx?trnid=12521)
+
+_Elite 9 not listed yet. Divisions posted: none posted yet_
+
+## SOUTHEASTERN WINTER WORLD SERIES---TOP 40 QUALIFIER
+October 24 - 25 in Greater Charlotte Area, NC  
+Tournament 12522 - [schedule page](https://playtopgunsports.com/GameTimesResults.aspx?trnid=12522)
+
+_Elite 9 not listed yet. Divisions posted: none posted yet_
+
+## ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO
+November 7 - 8 in Greater Charlotte Area, NC  
+Tournament 12524 - [schedule page](https://playtopgunsports.com/GameTimesResults.aspx?trnid=12524)
+
+_Elite 9 not listed yet. Divisions posted: none posted yet_
+
+## FRIDAY NIGHT G.O.A.T. SERIES 9U
+September 25 in Monroe, NC  
+Tournament 13602 - [schedule page](https://playtopgunsports.com/GameTimesResults.aspx?trnid=13602)
+
+_Elite 9 not listed yet. Divisions posted: none posted yet_

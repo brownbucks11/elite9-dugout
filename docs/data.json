@@ -3,7 +3,7 @@
  "location": "Rock Hill, SC",
  "page_id": 31407,
  "team_url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=31407",
- "built": "Sun Sep 20, 2026 10:22 AM",
+ "built": "Sun Sep 20, 2026 01:10 PM",
  "record": {
   "w": 1,
   "l": 4,
@@ -314,7 +314,7 @@
      "seed": 1,
      "team": "Carolina Clippers 9U",
      "location": "RICHFIELD, NC",
-     "won": 1,
+     "won": 3,
      "lost": 1,
      "runs_allowed": 15,
      "runs_scored": 24,
@@ -324,8 +324,8 @@
      "seed": 2,
      "team": "Dirtbags Shook",
      "location": "Claremont, NC",
-     "won": 2,
-     "lost": 0,
+     "won": 3,
+     "lost": 1,
      "runs_allowed": 9,
      "runs_scored": 20,
      "team_page_id": 32555
@@ -345,7 +345,7 @@
      "team": "Team 24",
      "location": "York, SC",
      "won": 2,
-     "lost": 0,
+     "lost": 2,
      "runs_allowed": 8,
      "runs_scored": 28,
      "team_page_id": 33906
@@ -354,8 +354,8 @@
      "seed": 5,
      "team": "Union County Legends",
      "location": "Waxhaw, NC",
-     "won": 0,
-     "lost": 2,
+     "won": 1,
+     "lost": 3,
      "runs_allowed": 29,
      "runs_scored": 9,
      "team_page_id": 33026
@@ -364,7 +364,7 @@
      "seed": 6,
      "team": "Hooligans",
      "location": "Mount Holly, NC",
-     "won": 2,
+     "won": 3,
      "lost": 0,
      "runs_allowed": 8,
      "runs_scored": 35,
@@ -374,8 +374,8 @@
      "seed": 7,
      "team": "ELITE BASEBALL EBC 9U",
      "location": "FOREST CITY, NC",
-     "won": 0,
-     "lost": 2,
+     "won": 1,
+     "lost": 3,
      "runs_allowed": 25,
      "runs_scored": 12,
      "team_page_id": 38889
@@ -385,7 +385,7 @@
      "team": "Carolina Elevate",
      "location": "Lenoir, NC",
      "won": 0,
-     "lost": 2,
+     "lost": 4,
      "runs_allowed": 40,
      "runs_scored": 4,
      "team_page_id": 36317
@@ -394,7 +394,7 @@
      "seed": 9,
      "team": "NL Destroyers 2036",
      "location": "Denver, NC",
-     "won": 2,
+     "won": 3,
      "lost": 0,
      "runs_allowed": 7,
      "runs_scored": 24,
@@ -537,10 +537,10 @@
      "field": "Bradford:Field # 2",
      "team_a": "Hooligans",
      "seed_a": 2,
-     "score_a": null,
+     "score_a": 6,
      "team_b": "Team 24",
      "seed_b": 3,
-     "score_b": null
+     "score_b": 5
     },
     {
      "section": "Gold Bracket",
@@ -551,10 +551,10 @@
      "field": "Bradford:Field # 1",
      "team_a": "NL Destroyers 2036",
      "seed_a": 1,
-     "score_a": null,
+     "score_a": 11,
      "team_b": "Dirtbags Shook",
      "seed_b": 4,
-     "score_b": null
+     "score_b": 10
     },
     {
      "section": "Gold Bracket",
@@ -563,12 +563,12 @@
      "time": "11:00 AM",
      "date": "2026-09-20",
      "field": "Bradford:Field # 2",
-     "team_a": "Loser Game #1",
+     "team_a": "Loser Game #1 Team 24",
      "seed_a": null,
-     "score_a": null,
-     "team_b": "Loser Game #2",
+     "score_a": 8,
+     "team_b": "Loser Game #2 Dirtbags Shook",
      "seed_b": null,
-     "score_b": null
+     "score_b": 17
     },
     {
      "section": "Gold Bracket",
@@ -577,10 +577,10 @@
      "time": "11:00 AM",
      "date": "2026-09-20",
      "field": "Bradford:Field # 1",
-     "team_a": "Winner Game #1",
+     "team_a": "Winner Game #1 Hooligans",
      "seed_a": null,
      "score_a": null,
-     "team_b": "Winner Game #2",
+     "team_b": "Winner Game #2 NL Destroyers 2036",
      "seed_b": null,
      "score_b": null
     },
@@ -593,10 +593,10 @@
      "field": "Bradford:Field # 3",
      "team_a": "ELITE BASEBALL EBC 9U",
      "seed_a": 6,
-     "score_a": null,
+     "score_a": 8,
      "team_b": "Union County Legends",
      "seed_b": 7,
-     "score_b": null
+     "score_b": 15
     },
     {
      "section": "Silver Bracket",
@@ -607,10 +607,10 @@
      "field": "Bradford:Field # 4",
      "team_a": "Carolina Clippers 9U",
      "seed_a": 5,
-     "score_a": null,
+     "score_a": 14,
      "team_b": "Carolina Elevate",
      "seed_b": 8,
-     "score_b": null
+     "score_b": 2
     },
     {
      "section": "Silver Bracket",
@@ -619,12 +619,12 @@
      "time": "11:00 AM",
      "date": "2026-09-20",
      "field": "Bradford:Field # 3",
-     "team_a": "Loser Game #1",
+     "team_a": "Loser Game #1 ELITE BASEBALL EBC 9U",
      "seed_a": null,
-     "score_a": null,
-     "team_b": "Loser Game #2",
+     "score_a": 11,
+     "team_b": "Loser Game #2 Carolina Elevate",
      "seed_b": null,
-     "score_b": null
+     "score_b": 4
     },
     {
      "section": "Silver Bracket",
@@ -633,12 +633,12 @@
      "time": "11:00 AM",
      "date": "2026-09-20",
      "field": "Bradford:Field # 4",
-     "team_a": "Winner Game #1",
+     "team_a": "Winner Game #1 Union County Legends",
      "seed_a": null,
-     "score_a": null,
-     "team_b": "Winner Game #2",
+     "score_a": 2,
+     "team_b": "Winner Game #2 Carolina Clippers 9U",
      "seed_b": null,
-     "score_b": null
+     "score_b": 11
     }
    ]
   }
@@ -747,12 +747,12 @@
    "location": "Mount Holly, NC",
    "page_id": 34014,
    "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=34014",
-   "w": 3,
+   "w": 4,
    "l": 0,
    "t": 0,
-   "rs": 50,
-   "ra": 11,
-   "diff": 39,
+   "rs": 56,
+   "ra": 16,
+   "diff": 40,
    "pct": 1.0,
    "events": 2,
    "log": [
@@ -783,6 +783,16 @@
      "section": "Pool Play",
      "opponent": "Carolina Clippers 9U",
      "rs": 13,
+     "ra": 5,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-20",
+     "event_id": 12517,
+     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
+     "section": "Gold Bracket",
+     "opponent": "Team 24",
+     "rs": 6,
      "ra": 5,
      "result": "W"
     }
@@ -835,42 +845,6 @@
    ]
   },
   {
-   "team": "Team 24",
-   "location": "York, SC",
-   "page_id": 33906,
-   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=33906",
-   "w": 2,
-   "l": 0,
-   "t": 0,
-   "rs": 28,
-   "ra": 8,
-   "diff": 20,
-   "pct": 1.0,
-   "events": 1,
-   "log": [
-    {
-     "date": "2026-09-19",
-     "event_id": 12517,
-     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
-     "section": "Pool Play",
-     "opponent": "Carolina Elevate",
-     "rs": 18,
-     "ra": 1,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-19",
-     "event_id": 12517,
-     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
-     "section": "Pool Play",
-     "opponent": "Union County Legends",
-     "rs": 10,
-     "ra": 7,
-     "result": "W"
-    }
-   ]
-  },
-  {
    "team": "Dirtbags Baseball ESB",
    "location": "Lincolnton, NC",
    "page_id": 37877,
@@ -902,42 +876,6 @@
      "opponent": "Concord Athletics -9U",
      "rs": 14,
      "ra": 0,
-     "result": "W"
-    }
-   ]
-  },
-  {
-   "team": "Dirtbags Shook",
-   "location": "Claremont, NC",
-   "page_id": 32555,
-   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=32555",
-   "w": 2,
-   "l": 0,
-   "t": 0,
-   "rs": 20,
-   "ra": 9,
-   "diff": 11,
-   "pct": 1.0,
-   "events": 1,
-   "log": [
-    {
-     "date": "2026-09-19",
-     "event_id": 12517,
-     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
-     "section": "Pool Play",
-     "opponent": "Elite 9",
-     "rs": 10,
-     "ra": 0,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-19",
-     "event_id": 12517,
-     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
-     "section": "Pool Play",
-     "opponent": "ELITE BASEBALL EBC 9U",
-     "rs": 10,
-     "ra": 9,
      "result": "W"
     }
    ]
@@ -1025,13 +963,13 @@
    "location": "RICHFIELD, NC",
    "page_id": 33167,
    "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=33167",
-   "w": 4,
+   "w": 5,
    "l": 1,
    "t": 0,
-   "rs": 54,
-   "ra": 26,
-   "diff": 28,
-   "pct": 0.8,
+   "rs": 68,
+   "ra": 28,
+   "diff": 40,
+   "pct": 0.833,
    "events": 2,
    "log": [
     {
@@ -1083,6 +1021,16 @@
      "rs": 5,
      "ra": 13,
      "result": "L"
+    },
+    {
+     "date": "2026-09-20",
+     "event_id": 12517,
+     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
+     "section": "Silver Bracket",
+     "opponent": "Carolina Elevate",
+     "rs": 14,
+     "ra": 2,
+     "result": "W"
     }
    ]
   },
@@ -1199,6 +1147,82 @@
    ]
   },
   {
+   "team": "NL Destroyers 2036",
+   "location": "Denver, NC",
+   "page_id": 36883,
+   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=36883",
+   "w": 4,
+   "l": 2,
+   "t": 0,
+   "rs": 67,
+   "ra": 40,
+   "diff": 27,
+   "pct": 0.667,
+   "events": 2,
+   "log": [
+    {
+     "date": "2026-09-12",
+     "event_id": 12516,
+     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
+     "section": "Pool Play",
+     "opponent": "Dirtbags Baseball ESB",
+     "rs": 8,
+     "ra": 9,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-12",
+     "event_id": 12516,
+     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
+     "section": "Pool Play",
+     "opponent": "Carolina Forge 9U",
+     "rs": 19,
+     "ra": 8,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-13",
+     "event_id": 12516,
+     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
+     "section": "Gold Bracket",
+     "opponent": "KnuckleheadsCBC",
+     "rs": 5,
+     "ra": 6,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-19",
+     "event_id": 12517,
+     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
+     "section": "Pool Play",
+     "opponent": "ELITE BASEBALL EBC 9U",
+     "rs": 15,
+     "ra": 3,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-19",
+     "event_id": 12517,
+     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
+     "section": "Pool Play",
+     "opponent": "Elite 9",
+     "rs": 9,
+     "ra": 4,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-20",
+     "event_id": 12517,
+     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
+     "section": "Gold Bracket",
+     "opponent": "Dirtbags Shook",
+     "rs": 11,
+     "ra": 10,
+     "result": "W"
+    }
+   ]
+  },
+  {
    "team": "Copperheads",
    "location": "Mooresville, NC",
    "page_id": 33114,
@@ -1241,6 +1265,52 @@
      "rs": 11,
      "ra": 2,
      "result": "W"
+    }
+   ]
+  },
+  {
+   "team": "Team 24",
+   "location": "York, SC",
+   "page_id": 33906,
+   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=33906",
+   "w": 2,
+   "l": 1,
+   "t": 0,
+   "rs": 33,
+   "ra": 14,
+   "diff": 19,
+   "pct": 0.667,
+   "events": 1,
+   "log": [
+    {
+     "date": "2026-09-19",
+     "event_id": 12517,
+     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
+     "section": "Pool Play",
+     "opponent": "Carolina Elevate",
+     "rs": 18,
+     "ra": 1,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-19",
+     "event_id": 12517,
+     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
+     "section": "Pool Play",
+     "opponent": "Union County Legends",
+     "rs": 10,
+     "ra": 7,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-20",
+     "event_id": 12517,
+     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
+     "section": "Gold Bracket",
+     "opponent": "Hooligans",
+     "rs": 5,
+     "ra": 6,
+     "result": "L"
     }
    ]
   },
@@ -1333,6 +1403,52 @@
      "rs": 12,
      "ra": 2,
      "result": "W"
+    }
+   ]
+  },
+  {
+   "team": "Dirtbags Shook",
+   "location": "Claremont, NC",
+   "page_id": 32555,
+   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=32555",
+   "w": 2,
+   "l": 1,
+   "t": 0,
+   "rs": 30,
+   "ra": 20,
+   "diff": 10,
+   "pct": 0.667,
+   "events": 1,
+   "log": [
+    {
+     "date": "2026-09-19",
+     "event_id": 12517,
+     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
+     "section": "Pool Play",
+     "opponent": "Elite 9",
+     "rs": 10,
+     "ra": 0,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-19",
+     "event_id": 12517,
+     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
+     "section": "Pool Play",
+     "opponent": "ELITE BASEBALL EBC 9U",
+     "rs": 10,
+     "ra": 9,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-20",
+     "event_id": 12517,
+     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
+     "section": "Gold Bracket",
+     "opponent": "NL Destroyers 2036",
+     "rs": 10,
+     "ra": 11,
+     "result": "L"
     }
    ]
   },
@@ -1521,72 +1637,6 @@
    ]
   },
   {
-   "team": "NL Destroyers 2036",
-   "location": "Denver, NC",
-   "page_id": 36883,
-   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=36883",
-   "w": 3,
-   "l": 2,
-   "t": 0,
-   "rs": 56,
-   "ra": 30,
-   "diff": 26,
-   "pct": 0.6,
-   "events": 2,
-   "log": [
-    {
-     "date": "2026-09-12",
-     "event_id": 12516,
-     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
-     "section": "Pool Play",
-     "opponent": "Dirtbags Baseball ESB",
-     "rs": 8,
-     "ra": 9,
-     "result": "L"
-    },
-    {
-     "date": "2026-09-12",
-     "event_id": 12516,
-     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
-     "section": "Pool Play",
-     "opponent": "Carolina Forge 9U",
-     "rs": 19,
-     "ra": 8,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-13",
-     "event_id": 12516,
-     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
-     "section": "Gold Bracket",
-     "opponent": "KnuckleheadsCBC",
-     "rs": 5,
-     "ra": 6,
-     "result": "L"
-    },
-    {
-     "date": "2026-09-19",
-     "event_id": 12517,
-     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
-     "section": "Pool Play",
-     "opponent": "ELITE BASEBALL EBC 9U",
-     "rs": 15,
-     "ra": 3,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-19",
-     "event_id": 12517,
-     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
-     "section": "Pool Play",
-     "opponent": "Elite 9",
-     "rs": 9,
-     "ra": 4,
-     "result": "W"
-    }
-   ]
-  },
-  {
    "team": "Groundwork Sports",
    "location": "Summerfield, NC",
    "page_id": 33842,
@@ -1767,6 +1817,52 @@
      "rs": 2,
      "ra": 11,
      "result": "L"
+    }
+   ]
+  },
+  {
+   "team": "Union County Legends",
+   "location": "Waxhaw, NC",
+   "page_id": 33026,
+   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=33026",
+   "w": 1,
+   "l": 2,
+   "t": 0,
+   "rs": 24,
+   "ra": 37,
+   "diff": -13,
+   "pct": 0.333,
+   "events": 1,
+   "log": [
+    {
+     "date": "2026-09-19",
+     "event_id": 12517,
+     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
+     "section": "Pool Play",
+     "opponent": "Carolina Clippers 9U",
+     "rs": 2,
+     "ra": 19,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-19",
+     "event_id": 12517,
+     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
+     "section": "Pool Play",
+     "opponent": "Team 24",
+     "rs": 7,
+     "ra": 10,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-20",
+     "event_id": 12517,
+     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
+     "section": "Silver Bracket",
+     "opponent": "ELITE BASEBALL EBC 9U",
+     "rs": 15,
+     "ra": 8,
+     "result": "W"
     }
    ]
   },
@@ -2073,42 +2169,6 @@
    ]
   },
   {
-   "team": "Union County Legends",
-   "location": "Waxhaw, NC",
-   "page_id": 33026,
-   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=33026",
-   "w": 0,
-   "l": 2,
-   "t": 0,
-   "rs": 9,
-   "ra": 29,
-   "diff": -20,
-   "pct": 0.0,
-   "events": 1,
-   "log": [
-    {
-     "date": "2026-09-19",
-     "event_id": 12517,
-     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
-     "section": "Pool Play",
-     "opponent": "Carolina Clippers 9U",
-     "rs": 2,
-     "ra": 19,
-     "result": "L"
-    },
-    {
-     "date": "2026-09-19",
-     "event_id": 12517,
-     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
-     "section": "Pool Play",
-     "opponent": "Team 24",
-     "rs": 7,
-     "ra": 10,
-     "result": "L"
-    }
-   ]
-  },
-  {
    "team": "Carolina Forge 9U",
    "location": "Gastonia, NC",
    "page_id": 37235,
@@ -2191,42 +2251,6 @@
    ]
   },
   {
-   "team": "Carolina Elevate",
-   "location": "Lenoir, NC",
-   "page_id": 36317,
-   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=36317",
-   "w": 0,
-   "l": 2,
-   "t": 0,
-   "rs": 4,
-   "ra": 40,
-   "diff": -36,
-   "pct": 0.0,
-   "events": 1,
-   "log": [
-    {
-     "date": "2026-09-19",
-     "event_id": 12517,
-     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
-     "section": "Pool Play",
-     "opponent": "Hooligans",
-     "rs": 3,
-     "ra": 22,
-     "result": "L"
-    },
-    {
-     "date": "2026-09-19",
-     "event_id": 12517,
-     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
-     "section": "Pool Play",
-     "opponent": "Team 24",
-     "rs": 1,
-     "ra": 18,
-     "result": "L"
-    }
-   ]
-  },
-  {
    "team": "Concord Athletics -9U",
    "location": "Concord, NC",
    "page_id": 36758,
@@ -2273,16 +2297,62 @@
    ]
   },
   {
+   "team": "Carolina Elevate",
+   "location": "Lenoir, NC",
+   "page_id": 36317,
+   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=36317",
+   "w": 0,
+   "l": 3,
+   "t": 0,
+   "rs": 6,
+   "ra": 54,
+   "diff": -48,
+   "pct": 0.0,
+   "events": 1,
+   "log": [
+    {
+     "date": "2026-09-19",
+     "event_id": 12517,
+     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
+     "section": "Pool Play",
+     "opponent": "Hooligans",
+     "rs": 3,
+     "ra": 22,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-19",
+     "event_id": 12517,
+     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
+     "section": "Pool Play",
+     "opponent": "Team 24",
+     "rs": 1,
+     "ra": 18,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-20",
+     "event_id": 12517,
+     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
+     "section": "Silver Bracket",
+     "opponent": "Carolina Clippers 9U",
+     "rs": 2,
+     "ra": 14,
+     "result": "L"
+    }
+   ]
+  },
+  {
    "team": "ELITE BASEBALL EBC 9U",
    "location": "FOREST CITY, NC",
    "page_id": 38889,
    "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=38889",
    "w": 0,
-   "l": 6,
+   "l": 7,
    "t": 0,
-   "rs": 30,
-   "ra": 87,
-   "diff": -57,
+   "rs": 38,
+   "ra": 102,
+   "diff": -64,
    "pct": 0.0,
    "events": 2,
    "log": [
@@ -2344,6 +2414,16 @@
      "opponent": "Dirtbags Shook",
      "rs": 9,
      "ra": 10,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-20",
+     "event_id": 12517,
+     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
+     "section": "Silver Bracket",
+     "opponent": "Union County Legends",
+     "rs": 8,
+     "ra": 15,
      "result": "L"
     }
    ]
