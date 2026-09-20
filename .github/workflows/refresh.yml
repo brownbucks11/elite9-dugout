@@ -3,7 +3,8 @@ name: Refresh scores and rebuild site
 on:
   schedule:
     # Cron here is UTC. Charlotte is UTC-4 (EDT) until Nov 1, then UTC-5.
-    - cron: "0 11,17,23 * * *"   # every day: 7 AM, 1 PM, 7 PM Eastern
+    - cron: "0 11 * * *"         # every day 7 AM Eastern: also refresh team points/finishes
+    - cron: "0 17,23 * * *"      # every day 1 PM, 7 PM Eastern
     - cron: "0 4-23 * * 4"       # Thursday, hourly (from midnight Eastern)
     - cron: "0 * * * 5,6,0"      # Friday, Saturday, Sunday, hourly
     - cron: "0 0-3 * * 1"        # Sunday 8-11 PM Eastern (Monday early UTC)
@@ -12,6 +13,10 @@ on:
     inputs:
       discover:
         description: "Also sweep the tournament list for recent area events"
+        type: boolean
+        default: false
+      teams:
+        description: "Also refresh every team's statistics page (points, finishes)"
         type: boolean
         default: false
 
@@ -42,7 +47,20 @@ jobs:
           python -m playwright install --with-deps chromium
 
       - name: Fetch pages and rebuild docs/
-        run: python refresh.py ${{ (github.event.schedule == '30 12 * * 1,4' || inputs.discover) && '--discover' || '' }}
+        env:
+          SCHED: ${{ github.event.schedule }}
+          DISCOVER: ${{ inputs.discover }}
+          TEAMS: ${{ inputs.teams }}
+        run: |
+          FLAGS=""
+          case "$SCHED" in
+            "30 12 * * 1,4") FLAGS="--discover --teams" ;;
+            "0 11 * * *")    FLAGS="--teams" ;;
+          esac
+          if [ "$DISCOVER" = "true" ]; then FLAGS="$FLAGS --discover"; fi
+          if [ "$TEAMS" = "true" ]; then FLAGS="$FLAGS --teams"; fi
+          echo "refresh.py $FLAGS"
+          python refresh.py $FLAGS
 
       - name: Commit if anything changed
         run: |

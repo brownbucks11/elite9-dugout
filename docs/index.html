@@ -26,6 +26,7 @@
     --loss-bg: #f8e4e0;
     --tie-bg: #ececef;
     --me-bg: #fbf1d8;
+    --played-bg: #e9f0fa;
     --link: #1d4f8c;
     --display: "Barlow Condensed", "Arial Narrow", Impact, sans-serif;
     --body: "Barlow", "Segoe UI", Helvetica, Arial, sans-serif;
@@ -35,14 +36,14 @@
       --navy: #0c1426; --navy-2: #172445; --amber: #f0b62f;
       --chalk: #12182a; --paper: #1b2237; --ink: #ecebe4; --ink-2: #a3a9b8; --line: #2c3650;
       --win: #5fc98a; --loss: #f08a77; --tie: #a3a9b8;
-      --win-bg: #17311f; --loss-bg: #3d1e18; --tie-bg: #262b3a; --me-bg: #3a2f14; --link: #8fb8f0;
+      --win-bg: #17311f; --loss-bg: #3d1e18; --tie-bg: #262b3a; --me-bg: #3a2f14; --played-bg: #1a2742; --link: #8fb8f0;
     }
   }
   :root[data-theme="dark"] {
     --navy: #0c1426; --navy-2: #172445; --amber: #f0b62f;
     --chalk: #12182a; --paper: #1b2237; --ink: #ecebe4; --ink-2: #a3a9b8; --line: #2c3650;
     --win: #5fc98a; --loss: #f08a77; --tie: #a3a9b8;
-    --win-bg: #17311f; --loss-bg: #3d1e18; --tie-bg: #262b3a; --me-bg: #3a2f14; --link: #8fb8f0;
+    --win-bg: #17311f; --loss-bg: #3d1e18; --tie-bg: #262b3a; --me-bg: #3a2f14; --played-bg: #1a2742; --link: #8fb8f0;
   }
 
   * { box-sizing: border-box; }
@@ -159,6 +160,17 @@
   th[aria-sort="ascending"]::after { content: " ▴"; }
   tr:last-child td { border-bottom: 0; }
   tr.me td { background: var(--me-bg); font-weight: 600; }
+  tr.played td { background: var(--played-bg); }
+  tr.played td:first-child { box-shadow: inset 3px 0 0 var(--link); }
+  td.wrap { white-space: normal; min-width: 180px; }
+  .chips { white-space: normal; min-width: 150px; }
+  .chip { display: inline-block; font-size: 11px; font-weight: 600; letter-spacing: .3px; padding: 1px 7px; border-radius: 999px; border: 1px solid var(--line); color: var(--ink-2); margin: 1px 3px 1px 0; white-space: nowrap; }
+  .chip.first { border-color: var(--amber); background: var(--me-bg); color: var(--ink); }
+  .legend { font-size: 12px; color: var(--ink-2); display: inline-flex; align-items: center; gap: 6px; }
+  .swatch { width: 14px; height: 14px; border-radius: 3px; border: 1px solid var(--line); display: inline-block; }
+  .swatch.played { background: var(--played-bg); box-shadow: inset 3px 0 0 var(--link); }
+  .hdr-link { margin-top: 10px; font-size: 13px; }
+  .hdr-link a { color: var(--amber); }
   td.team-cell button { background: none; border: 0; padding: 0; font: inherit; color: var(--link); cursor: pointer; text-align: left; }
   td.team-cell button:hover { text-decoration: underline; }
   td.from { color: var(--ink-2); font-size: 13px; }
@@ -218,6 +230,7 @@
       <h1 class="team-name"><small id="hdr-sub">9U · Top Gun · Fall 2026</small><span id="hdr-team">Elite 9</span></h1>
       <div class="record" id="hdr-record"></div>
     </div>
+    <div class="hdr-link" id="hdr-link"></div>
     <nav class="tabs" role="tablist" id="tabs">
       <button class="tab" role="tab" data-tab="next" aria-selected="true">Next Up</button>
       <button class="tab" role="tab" data-tab="results">Results</button>
@@ -284,7 +297,19 @@
     const x = iso(d);
     return x ? `<div class="datebox"><span>${MONTHS[x.getMonth()]}</span><b>${x.getDate()}</b></div>` : `<div class="datebox"><span>TBA</span><b>–</b></div>`;
   };
-  const teamBtn = (name) => norm(name) === ME ? esc(name) : `<button type="button" data-team="${esc(name)}">${esc(name)}</button>`;
+  const teamBtn = (name) => `<button type="button" data-team="${esc(name)}">${esc(name)}</button>`;
+  // W/L record vs Elite 9 from a team's log, shown from Elite 9's side ("we went 1-0 against them")
+  function vsUs(t) {
+    const g = t.log.filter((x) => norm(x.opponent) === ME);
+    const w = g.filter((x) => x.result === "L").length, l = g.filter((x) => x.result === "W").length, tt = g.length - w - l;
+    return { n: g.length, text: g.length ? `${w}-${l}${tt ? `-${tt}` : ""}` : "" };
+  }
+  const chip = (standing) => {
+    const s = String(standing || "").trim();
+    if (!s) return "";
+    const place = s.match(/^(\d+)/);
+    return `<span class="chip ${place && place[1] === "1" ? "first" : ""}">${esc(s.replace(/[()]/g, ""))}</span>`;
+  };
   const recordStr = (r) => `${r.w}-${r.l}` + (r.t ? `-${r.t}` : "");
 
   // ---- header --------------------------------------------------------------
@@ -294,7 +319,9 @@
   $("#hdr-record").innerHTML = `
     <div class="stat big"><b>${recordStr(R)}</b><span>Season</span></div>
     <div class="stat"><b>${R.rs}</b><span>Runs for</span></div>
-    <div class="stat"><b>${R.ra}</b><span>Against</span></div>`;
+    <div class="stat"><b>${R.ra}</b><span>Against</span></div>
+    ${D.points != null && D.finishes && D.finishes.length ? `<div class="stat"><b>${D.points}</b><span>Points</span></div>` : ""}`;
+  if (D.team_url) $("#hdr-link").innerHTML = `<a href="${esc(D.team_url)}" target="_blank" rel="noopener">${esc(D.team)} on Top Gun ↗</a>`;
   $("#foot").innerHTML = `Updated ${esc(D.built)}. Scores and schedules from <a href="https://playtopgunsports.com/" target="_blank" rel="noopener">playtopgunsports.com</a>; runs are only counted from games with a posted final.`
     + (D.team_url ? ` <a href="${esc(D.team_url)}" target="_blank" rel="noopener">${esc(D.team)} on Top Gun</a>.` : "");
 
@@ -460,12 +487,17 @@
     { key: "ra", label: "RA", num: true },
     { key: "diff", label: "Diff", num: true },
     { key: "events", label: "Events", num: true },
+    { key: "points", label: "Points", num: true },
+    { key: "finishes", label: "Finishes", num: false },
+    { key: "vs", label: "vs " + D.team, num: false },
   ];
   let sortKey = "pct", sortDir = -1, filter = "";
   function sortedTeams() {
     const q = norm(filter);
     const rows = D.teams.filter((t) => !q || norm(t.team).includes(q) || norm(t.location).includes(q));
-    const val = (t) => sortKey === "record" ? t.w - t.l : sortKey === "pct" ? t.pct + t.diff / 1000 : t[sortKey];
+    const val = (t) => sortKey === "record" ? t.w - t.l : sortKey === "pct" ? t.pct + t.diff / 1000
+      : sortKey === "points" ? (t.points || 0) : sortKey === "finishes" ? (t.titles || 0) * 100 + (t.finishes || []).length
+      : sortKey === "vs" ? vsUs(t).n : t[sortKey];
     return rows.sort((a, b) => {
       const x = val(a), y = val(b);
       const c = typeof x === "number" ? x - y : String(x || "").localeCompare(String(y || ""));
@@ -475,13 +507,15 @@
   function renderStandings() {
     const rows = sortedTeams();
     const nEvents = new Set(D.teams.flatMap((t) => t.log.map((g) => g.event_id))).size;
+    const havePoints = D.teams.some((t) => t.finishes && t.finishes.length);
     $("#panel-standings").innerHTML = `
-      <h2 class="section-title">${esc(D.division)} standings <span class="sub">${D.teams.length} teams · ${nEvents} events · tap a team for its game log</span></h2>
+      <h2 class="section-title">${esc(D.division)} standings <span class="sub">${D.teams.length} teams · ${nEvents} events since Aug 1 · tap a team for its game log</span></h2>
       <div class="toolbar"><label for="team-filter" class="visually-hidden" hidden>Search</label>
-        <input id="team-filter" type="search" placeholder="Search team or town" value="${esc(filter)}" autocomplete="off"></div>
+        <input id="team-filter" type="search" placeholder="Search team or town" value="${esc(filter)}" autocomplete="off">
+        <span class="legend"><i class="swatch played"></i> played ${esc(D.team)}</span></div>
       <div class="table-wrap"><table>
         <thead><tr><th class="num">#</th>${COLS.map((c) => `<th class="sortable ${c.num ? "num" : ""}" data-key="${c.key}" aria-sort="${sortKey === c.key ? (sortDir < 0 ? "descending" : "ascending") : "none"}">${c.label}</th>`).join("")}</tr></thead>
-        <tbody>${rows.map((t, i) => `<tr class="${norm(t.team) === ME ? "me" : ""}">
+        <tbody>${rows.map((t, i) => { const v = vsUs(t); return `<tr class="${norm(t.team) === ME ? "me" : v.n ? "played" : ""}">
           <td class="num">${i + 1}</td>
           <td class="team-cell">${teamBtn(t.team)}</td>
           <td class="from">${esc(t.location || "")}</td>
@@ -489,9 +523,13 @@
           <td class="num">${t.pct.toFixed(3).replace(/^0/, "")}</td>
           <td class="num">${t.rs}</td><td class="num">${t.ra}</td>
           <td class="num ${t.diff > 0 ? "pos" : t.diff < 0 ? "neg" : ""}">${t.diff > 0 ? "+" : ""}${t.diff}</td>
-          <td class="num">${t.events}</td></tr>`).join("")}
-        ${rows.length ? "" : `<tr><td colspan="9" class="empty">No team matches “${esc(filter)}”.</td></tr>`}
-        </tbody></table></div>`;
+          <td class="num">${t.events}</td>
+          <td class="num">${t.finishes && t.finishes.length ? t.points : `<span class="from">${havePoints ? "—" : ""}</span>`}</td>
+          <td class="chips">${(t.finishes || []).map((f) => chip(f.standing)).join("")}</td>
+          <td class="num">${norm(t.team) === ME ? "" : v.text}</td></tr>`; }).join("")}
+        ${rows.length ? "" : `<tr><td colspan="12" class="empty">No team matches “${esc(filter)}”.</td></tr>`}
+        </tbody></table></div>
+      ${havePoints ? `<p class="when">Points and finishes come from each team's Top Gun statistics page (season from Aug 1); a finish like "2nd Gold" is the team's placing in that event's bracket.</p>` : ""}`;
     const input = $("#team-filter");
     input.addEventListener("input", () => { filter = input.value; const pos = input.selectionStart; renderStandings(); const el = $("#team-filter"); el.focus(); el.setSelectionRange(pos, pos); });
     document.querySelectorAll("#panel-standings th.sortable").forEach((th) => th.addEventListener("click", () => {
@@ -529,11 +567,17 @@
           <div class="stat"><b>${t.rs}</b><span>Runs for</span></div>
           <div class="stat"><b>${t.ra}</b><span>Against</span></div>
           <div class="stat"><b class="${t.diff > 0 ? "pos" : t.diff < 0 ? "neg" : ""}">${t.diff > 0 ? "+" : ""}${t.diff}</b><span>Diff</span></div>
+          ${t.finishes && t.finishes.length ? `<div class="stat"><b>${t.points}</b><span>Points</span></div>` : ""}
         </div>
-        <div class="h2h"><h3>vs ${esc(D.team)}</h3>${h2h.length ? `<ul class="games">${h2h.map((g) => {
+        ${norm(t.team) === ME ? "" : `<div class="h2h"><h3>vs ${esc(D.team)}</h3>${h2h.length ? `<ul class="games">${h2h.map((g) => {
           const mine = g.result === "W" ? "L" : g.result === "L" ? "W" : "T";
           return `<li class="game"><div class="pill ${mine}">${mine}</div><div><div class="opp">${esc(D.team)} ${mine === "W" ? "won" : mine === "L" ? "lost" : "tied"}</div><div class="when">${esc(g.date)} · ${esc(tidy(g.event))} · ${esc(g.section)}</div></div><div class="score">${g.ra}–${g.rs}</div></li>`;
-        }).join("")}</ul>` : `<div class="when">Haven't met yet.</div>`}</div>
+        }).join("")}</ul>` : `<div class="when">Haven't met yet.</div>`}</div>`}
+        ${t.finishes && t.finishes.length ? `<div class="h2h"><h3>Season on Top Gun <span class="when">${esc(t.season || "")}</span></h3>
+          <div class="table-wrap" style="border:0"><table>
+            <thead><tr><th>Date</th><th>Event</th><th class="num">W-L</th><th>Finish</th><th class="num">Points</th></tr></thead>
+            <tbody>${t.finishes.map((f) => `<tr><td>${esc(f.date)}</td><td class="wrap">${esc(tidy(f.name))}</td><td class="num">${f.won}-${f.lost}</td><td>${chip(f.standing) || '<span class="from">—</span>'}</td><td class="num">${f.points || ""}</td></tr>`).join("")}</tbody>
+          </table></div></div>` : ""}
         <div class="event"><div class="event-body"><ul class="games">${t.log.map((g) => `<li class="game">
             <div class="pill ${g.result}">${g.result}</div>
             <div><div class="opp">${teamBtn(g.opponent)}</div><div class="when">${esc(g.date)} · ${esc(g.section)} · ${esc(tidy(g.event))}</div></div>

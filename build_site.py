@@ -84,6 +84,29 @@ def is_placeholder(name):
     return (name or "").lower().startswith(PLACEHOLDER)
 
 
+def load_team_stats(data_dir):
+    """{team_page_id: stats} from data/teams/<id>.json written by topgun_teams.py."""
+    stats = {}
+    for jp in (data_dir / "teams").glob("*.json"):
+        if jp.stem.isdigit():
+            stats[int(jp.stem)] = json.loads(jp.read_text(encoding="utf-8"))
+    return stats
+
+
+def season_summary(st):
+    """Points and finishes from a team's statistics page (empty if we don't have the page)."""
+    tours = (st or {}).get("tournaments", [])
+    finishes = [{"date": t["date"], "name": t["name"], "won": t["won"], "lost": t["lost"],
+                 "standing": t["standing"], "points": t["points"]} for t in tours]
+    return {
+        "points": sum(t["points"] for t in tours),
+        "titles": sum(1 for t in tours if t["standing"].lower().startswith("1st")),
+        "finishes": sorted(finishes, key=lambda f: f["date"]),
+        "season": (st or {}).get("season", ""),
+        "stats_fetched": (st or {}).get("fetched_at"),
+    }
+
+
 def rank_event(ev):
     """Pool finish for every team in the event.
 
@@ -215,7 +238,8 @@ def rank_event(ev):
     return info
 
 
-def build(events, team, upcoming, year):
+def build(events, team, upcoming, year, team_stats=None):
+    team_stats = team_stats or {}
     me = norm(team)
     rec = defaultdict(lambda: {"team": "", "location": "", "page_id": None,
                                "w": 0, "l": 0, "t": 0, "rs": 0, "ra": 0, "events": set(), "log": []})
@@ -304,6 +328,7 @@ def build(events, team, upcoming, year):
             "w": r["w"], "l": r["l"], "t": r["t"], "rs": r["rs"], "ra": r["ra"],
             "diff": r["rs"] - r["ra"], "pct": round((r["w"] + 0.5 * r["t"]) / gp, 3),
             "events": len(r["events"]), "log": sorted(r["log"], key=lambda x: (x["date"], x["event_id"])),
+            **season_summary(team_stats.get(r["page_id"])),
         })
     teams.sort(key=lambda t: (-t["pct"], -t["diff"], t["team"].lower()))
 
@@ -316,6 +341,7 @@ def build(events, team, upcoming, year):
         "my_games": sorted(my_games, key=lambda g: (g["date"], g["event_id"], g["section"], g["game"])),
         "my_events": my_events, "upcoming": upcoming_out, "teams": teams,
         "fields": dict(sorted(fields.items())),
+        **season_summary(team_stats.get(mine["page_id"])),
     }
 
 
@@ -323,7 +349,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--team", default="Elite 9")
     ap.add_argument("--division", default="9U")
-    ap.add_argument("--since", default="2026-09-01", help="ignore events starting before this date")
+    ap.add_argument("--since", default="2026-08-01", help="ignore events starting before this date (Top Gun's season starts Aug 1)")
     ap.add_argument("--all", action="store_true", help="no date cutoff")
     ap.add_argument("--year", type=int, default=2026)
     ap.add_argument("--data", default="data")
@@ -334,7 +360,7 @@ def main():
     events = load_events(Path(args.data), args.division, None if args.all else args.since, args.year)
     up_path = Path(args.upcoming)
     upcoming = json.loads(up_path.read_text(encoding="utf-8")) if up_path.exists() else []
-    site = build(events, args.team, upcoming, args.year)
+    site = build(events, args.team, upcoming, args.year, load_team_stats(Path(args.data)))
     site["division"] = args.division
 
     out = Path(args.out)

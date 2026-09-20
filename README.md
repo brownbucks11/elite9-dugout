@@ -18,6 +18,7 @@ Elite 9 (9U, Fall 2026) - Top Gun tournament tracking.
 - topgun_fetch.py    - MAIN: fetch schedule pages by ID, parse, write elite9_schedule.md
 - topgun_parse.py    - parser (stdlib only); also usable alone on a saved .html
 - topgun_snapshot.py - manual browse-and-save tool (first version; still handy for team pages)
+- topgun_teams.py    - each team's Top Gun statistics page -> data/teams/<id>.json (points, finishes)
 - data/              - <ID>.html + <ID>.json per tournament, overwritten each run
 - elite9_schedule.md - the summary Claude reads
 - topgun_out/        - output from the manual snapshot tool
@@ -36,8 +37,9 @@ Add --visible to watch the browser. Team defaults to "Elite 9" (--team to change
 tap one for its game log), Fields (with map links). It reads `docs/data.js`, which is built
 from the saved pages in `data/`:
 
-    python build_site.py            # rebuild docs/data.js from data/
+    python build_site.py            # rebuild docs/data.js from data/ (events since Aug 1, Top Gun's season)
     python refresh.py               # re-fetch upcoming + in-progress events, then rebuild
+    python refresh.py --teams       # also refresh every team's statistics page (points, finishes)
 
 Double-click `docs/index.html` to preview locally. `upcoming.json` is the list of events
 shown under Next Up - add a tournament ID + dates there when a new one is booked.
@@ -49,7 +51,8 @@ shown under Next Up - add a tournament ID + dates there when a new one is booked
 
 ## Automatic refresh (.github/workflows/refresh.yml)
 GitHub Actions runs `refresh.py` and commits the results, so the page updates itself:
-- three times a day (7 AM, 1 PM, 7 PM Eastern)
+- three times a day (7 AM, 1 PM, 7 PM Eastern); the 7 AM run also refreshes every team's
+  statistics page for the Standings points/finishes columns
 - hourly Thursday through Sunday
 - Monday and Thursday 8:30 AM it also sweeps Top Gun's tournament list for upcoming Charlotte-area
   events (`refresh.py --discover`) and adds them to `data/tracked.json`; tracked events are

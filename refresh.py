@@ -134,6 +134,7 @@ def main():
     ap.add_argument("--discover", action="store_true", help="sweep the tournament list for upcoming area events first")
     ap.add_argument("--discover-days", type=int, default=21, help="how far ahead discovery looks")
     ap.add_argument("--city", action="append", default=[], help="discovery city filter (default: Charlotte area)")
+    ap.add_argument("--teams", action="store_true", help="also refresh every team's statistics page (points, finishes)")
     args = ap.parse_args()
 
     sys.stdout.reconfigure(line_buffering=True)
@@ -148,6 +149,10 @@ def main():
             if r.returncode:
                 print("fetch had errors; rebuilding from whatever was saved")
             record_divisions(ids, args.division)
+    if args.teams and not args.no_fetch:
+        r = subprocess.run([py, str(HERE / "topgun_teams.py"), "--division", args.division], cwd=HERE)
+        if r.returncode:
+            print("team stats had errors; continuing")
     r = subprocess.run([py, str(HERE / "build_site.py"), "--team", args.team, "--division", args.division], cwd=HERE)
     return r.returncode
 
