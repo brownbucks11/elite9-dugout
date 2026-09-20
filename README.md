@@ -59,6 +59,12 @@ GitHub Actions runs `refresh.py` and commits the results, so the page updates it
   the 9U division is ever built into the site.
 - or on demand: Actions tab -> "Refresh scores and rebuild site" -> Run workflow
 
+The bot owns the snapshot files (`data/`, `docs/data.js`, `docs/data.json`, `elite9_schedule.md`).
+Running `refresh.py` locally is fine for previewing, but don't commit those files by hand - two
+fetches of the same page never match byte-for-byte, so you'll hit merge conflicts. Commit only
+code/config changes (`git add *.py docs/index.html upcoming.json`), `git pull --rebase`, push, and
+let the next scheduled run (or the Run workflow button) refresh the data.
+
 Cron times are in UTC in the file; they're set for EDT, so after Nov 1 they run an hour
 earlier than listed. If Top Gun ever blocks the GitHub runner, run `python refresh.py`
 locally instead (or schedule it with Windows Task Scheduler) and push.
