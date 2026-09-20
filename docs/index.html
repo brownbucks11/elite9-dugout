@@ -90,6 +90,11 @@
   .tab[aria-selected="true"] { opacity: 1; border-bottom-color: var(--amber); }
 
   main { max-width: 960px; margin: 0 auto; padding: 20px 16px 48px; }
+  .notice-wrap { max-width: 960px; margin: 16px auto 0; padding: 0 16px; }
+  .notice { display: flex; gap: 12px; align-items: flex-start; background: var(--me-bg); border: 1px solid var(--amber); border-left-width: 5px; border-radius: 6px; padding: 10px 8px 10px 14px; font-size: 14px; line-height: 1.4; }
+  .notice-close { flex: 0 0 auto; background: none; border: 0; color: var(--ink-2); font-size: 22px; line-height: 1; cursor: pointer; padding: 0 6px; margin-top: -2px; }
+  .notice-close:hover { color: var(--ink); }
+  .notice-wrap + main { padding-top: 16px; }
   section[role="tabpanel"] { display: grid; gap: 18px; }
   .section-title { font-size: 26px; font-weight: 700; text-transform: uppercase; letter-spacing: .5px; display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
   .section-title .sub { font-family: var(--body); font-size: 13px; font-weight: 500; color: var(--ink-2); text-transform: none; letter-spacing: 0; }
@@ -276,6 +281,11 @@
   </div>
 </header>
 
+<div class="notice-wrap"><div class="notice" id="notice" role="note">
+  <div><b>Not the official schedule.</b> Game times, field changes and rain-outs come from the coach in the <b>TeamReach</b> app — always check there first. This page is pulled from Top Gun's public site and can lag or miss a change.</div>
+  <button type="button" class="notice-close" id="notice-close" aria-label="Hide this notice">×</button>
+</div></div>
+
 <main>
   <section role="tabpanel" id="panel-next"></section>
   <section role="tabpanel" id="panel-results" hidden></section>
@@ -362,7 +372,14 @@
     ${D.points != null && D.finishes && D.finishes.length ? `<div class="stat"><b>${D.points}</b><span>Points</span></div>` : ""}`;
   if (D.team_url) $("#hdr-link").innerHTML = `<a href="${esc(D.team_url)}" target="_blank" rel="noopener">${esc(D.team)} on Top Gun ↗</a>`;
   $("#foot").innerHTML = `Updated ${esc(D.built)}. Scores and schedules from <a href="https://playtopgunsports.com/" target="_blank" rel="noopener">playtopgunsports.com</a>; runs are only counted from games with a posted final.`
-    + (D.team_url ? ` <a href="${esc(D.team_url)}" target="_blank" rel="noopener">${esc(D.team)} on Top Gun</a>.` : "");
+    + (D.team_url ? ` <a href="${esc(D.team_url)}" target="_blank" rel="noopener">${esc(D.team)} on Top Gun</a>.` : "")
+    + ` Not the official schedule — the TeamReach app is. <a href="#" id="notice-show">Show notice</a>`;
+
+  // Schedule notice: hide on X, remembered per browser; the footer link brings it back.
+  const noticeWrap = $(".notice-wrap");
+  try { if (localStorage.getItem("elite9.notice") === "hidden") noticeWrap.hidden = true; } catch (_) {}
+  $("#notice-close").addEventListener("click", () => { noticeWrap.hidden = true; try { localStorage.setItem("elite9.notice", "hidden"); } catch (_) {} });
+  $("#notice-show").addEventListener("click", (e) => { e.preventDefault(); noticeWrap.hidden = false; try { localStorage.removeItem("elite9.notice"); } catch (_) {} window.scrollTo({ top: 0, behavior: "smooth" }); });
 
   // ---- Next Up ---------------------------------------------------------------
   function renderNext() {
