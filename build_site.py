@@ -30,6 +30,9 @@ SCHEDULE_URL = "https://playtopgunsports.com/GameTimesResults.aspx?trnid={id}"
 TEAM_URL = "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2={id}"
 DAYS = {"Mon": 0, "Tue": 1, "Wed": 2, "Thu": 3, "Fri": 4, "Sat": 5, "Sun": 6}
 PLACEHOLDER = ("winner", "loser", "seed", "tbd")
+# Pool tiebreak after record. "ra" = fewest runs allowed, then most scored - this reproduces the
+# bracket seeds Top Gun prints. "diff" = run differential instead, if you prefer that view.
+TIEBREAK = "ra"
 
 
 def game_date(start, day):
@@ -76,6 +79,51 @@ def is_placeholder(name):
     return (name or "").lower().startswith(PLACEHOLDER)
 
 
+def rank_event(ev):
+    """Pool finish for every team in the event.
+
+    Top Gun's standings table is in entry order, not rank order, so rank pool-play games by
+    win%, then fewest runs allowed, then most runs scored - checked against the bracket seeds
+    Top Gun printed and it matches. Bracket games (Gold/Silver/...) are reported separately.
+    Returns {norm(team): {rank, pool_w, pool_l, pool_t, pool_rs, pool_ra, seed, bracket, bracket_games}}.
+    """
+    info = defaultdict(lambda: {"pool_w": 0, "pool_l": 0, "pool_t": 0, "pool_rs": 0, "pool_ra": 0,
+                                "seed": None, "bracket": None, "bracket_games": []})
+    for s in ev["standings"]:
+        info[norm(s["team"])]
+    for g in ev["games"]:
+        a, b = g["team_a"], g["team_b"]
+        for t, seed in ((a, g["seed_a"]), (b, g["seed_b"])):
+            if seed and not is_placeholder(t):
+                info[norm(t)]["seed"] = seed
+                info[norm(t)]["bracket"] = g["section"]
+        if g["score_a"] is None or g["score_b"] is None or is_placeholder(a) or is_placeholder(b):
+            continue
+        pool = g["section"].lower().startswith("pool")
+        for t1, t2, s1, s2 in ((a, b, g["score_a"], g["score_b"]), (b, a, g["score_b"], g["score_a"])):
+            r = info[norm(t1)]
+            res = "W" if s1 > s2 else "L" if s1 < s2 else "T"
+            if pool:
+                r["pool_" + res.lower()] += 1
+                r["pool_rs"] += s1
+                r["pool_ra"] += s2
+            else:
+                r["bracket"] = r["bracket"] or g["section"]
+                r["bracket_games"].append({"section": g["section"], "opponent": t2, "rs": s1, "ra": s2, "result": res})
+
+    def key(k):
+        r = info[k]
+        gp = r["pool_w"] + r["pool_l"] + r["pool_t"]
+        pct = (r["pool_w"] + 0.5 * r["pool_t"]) / gp if gp else -1
+        if TIEBREAK == "diff":
+            return (-pct, -(r["pool_rs"] - r["pool_ra"]), r["pool_ra"])
+        return (-pct, r["pool_ra"], -r["pool_rs"])
+
+    for i, k in enumerate(sorted(info, key=key), 1):
+        info[k]["rank"] = i
+    return info
+
+
 def build(events, team, upcoming, year):
     me = norm(team)
     rec = defaultdict(lambda: {"team": "", "location": "", "page_id": None,
@@ -117,13 +165,23 @@ def build(events, team, upcoming, year):
                                  "section": g["section"], "opponent": t2, "rs": s1, "ra": s2, "result": res})
 
         if played_here:
-            mine = next((s for s in ev["standings"] if norm(s["team"]) == me), None)
+            ranks = rank_event(ev)
+            rows = []
+            for s in ev["standings"]:
+                r = ranks[norm(s["team"])]
+                rows.append({"team": s["team"], "location": s.get("location", ""), "rank": r["rank"],
+                             "pool_w": r["pool_w"], "pool_l": r["pool_l"], "pool_t": r["pool_t"],
+                             "pool_rs": r["pool_rs"], "pool_ra": r["pool_ra"],
+                             "seed": r["seed"], "bracket": r["bracket"],
+                             "won": s["won"], "lost": s["lost"], "rs": s["runs_scored"], "ra": s["runs_allowed"]})
+            rows.sort(key=lambda x: x["rank"])
+            mine = next((x for x in rows if norm(x["team"]) == me), None)
+            if mine:
+                mine = dict(mine, bracket_games=ranks[me]["bracket_games"])
             my_events.append({
                 "id": tid, "name": ev["name"], "dates": ev["dates"], "date": ev["date"], "url": ev["url"],
-                "notes": ev["notes"], "teams": len(ev["standings"]),
-                "standing": mine and {"seed": mine["seed"], "won": mine["won"], "lost": mine["lost"],
-                                      "rs": mine["runs_scored"], "ra": mine["runs_allowed"]},
-                "standings": ev["standings"], "games": ev["games"],
+                "notes": ev["notes"], "teams": len(rows),
+                "standing": mine, "standings": rows, "games": ev["games"],
             })
 
     played_ids = {e["id"] for e in my_events}

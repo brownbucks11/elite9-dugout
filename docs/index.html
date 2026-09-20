@@ -90,6 +90,13 @@
   /* Event cards */
   .event { background: var(--paper); border: 1px solid var(--line); border-radius: 6px; overflow: hidden; }
   .event-head { display: flex; gap: 14px; padding: 14px 16px; align-items: center; border-bottom: 1px solid var(--line); }
+  details.event { border-radius: 6px; }
+  details.event > summary { list-style: none; cursor: pointer; border-bottom: 0; position: relative; padding-right: 40px; }
+  details.event > summary::-webkit-details-marker { display: none; }
+  details.event > summary::after { content: ""; position: absolute; right: 18px; top: 50%; width: 9px; height: 9px; border-right: 2px solid var(--ink-2); border-bottom: 2px solid var(--ink-2); transform: translateY(-70%) rotate(45deg); }
+  details.event[open] > summary { border-bottom: 1px solid var(--line); }
+  details.event[open] > summary::after { transform: translateY(-30%) rotate(225deg); }
+  details.inner { border-left: 0; border-right: 0; border-radius: 0; }
   .datebox { flex: 0 0 auto; width: 54px; text-align: center; background: var(--navy); color: #fff; border-radius: 4px; padding: 6px 0 5px; }
   .datebox b { display: block; font-family: var(--display); font-size: 26px; line-height: 1; }
   .datebox span { font-size: 10px; letter-spacing: 1.5px; text-transform: uppercase; opacity: .8; }
@@ -139,8 +146,8 @@
   .toolbar { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
   .toolbar input { flex: 1 1 200px; padding: 8px 10px; border: 1px solid var(--line); border-radius: 4px; background: var(--paper); color: var(--ink); font: inherit; }
   details { background: var(--paper); border: 1px solid var(--line); border-radius: 6px; }
-  details summary { cursor: pointer; padding: 10px 16px; font-weight: 600; }
-  details .table-wrap { border: 0; border-top: 1px solid var(--line); border-radius: 0; }
+  details.inner summary { cursor: pointer; padding: 10px 16px; font-weight: 600; }
+  details.inner .table-wrap { border: 0; border-top: 1px solid var(--line); border-radius: 0; }
 
   /* Fields */
   .fields { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 12px; }
@@ -173,6 +180,8 @@
     .record { gap: 14px; }
     .event-head { flex-wrap: wrap; }
     .event-head .finish { margin-left: 68px; text-align: left; }
+    details.event > summary::after { top: 30px; }
+    details.inner .from { display: none; }
     .game { grid-template-columns: 44px 1fr auto; }
   }
   @media (prefers-reduced-motion: no-preference) {
@@ -312,13 +321,19 @@
   }
 
   // ---- Results ---------------------------------------------------------------
-  function standingsTable(rows, opts = {}) {
+  const ordinal = (n) => n + (["th", "st", "nd", "rd"][((n % 100) - 20) % 10] || ["th", "st", "nd", "rd"][n % 100] || "th");
+  function poolRecord(s) { return `${s.pool_w}-${s.pool_l}` + (s.pool_t ? `-${s.pool_t}` : ""); }
+  function standingsTable(rows) {
     return `<div class="table-wrap"><table>
-      <thead><tr><th>#</th><th>Team</th><th>From</th><th class="num">W-L</th><th class="num">RS</th><th class="num">RA</th></tr></thead>
+      <thead><tr><th class="num">Pool</th><th>Team</th><th class="from">From</th><th class="num">W-L</th><th class="num">RA</th><th class="num">RS</th><th class="num">Diff</th><th>Bracket</th><th class="num">Overall</th></tr></thead>
       <tbody>${rows.map((s) => `<tr class="${norm(s.team) === ME ? "me" : ""}">
-        <td class="num">${s.seed}</td><td class="team-cell">${teamBtn(s.team)}</td><td class="from">${esc(s.location || "")}</td>
-        <td class="num">${s.won}-${s.lost}</td><td class="num">${s.runs_scored}</td><td class="num">${s.runs_allowed}</td></tr>`).join("")}
-      </tbody></table></div>`;
+        <td class="num">${s.rank}</td><td class="team-cell">${teamBtn(s.team)}</td><td class="from">${esc(s.location || "")}</td>
+        <td class="num">${poolRecord(s)}</td><td class="num">${s.pool_ra}</td><td class="num">${s.pool_rs}</td>
+        <td class="num ${s.pool_rs - s.pool_ra > 0 ? "pos" : s.pool_rs - s.pool_ra < 0 ? "neg" : ""}">${s.pool_rs - s.pool_ra > 0 ? "+" : ""}${s.pool_rs - s.pool_ra}</td>
+        <td class="from">${s.bracket ? esc(s.bracket.replace(/ bracket$/i, "")) + (s.seed ? ` #${s.seed}` : "") : "—"}</td>
+        <td class="num">${s.won}-${s.lost}</td></tr>`).join("")}
+      </tbody></table></div>
+      <p class="when" style="padding:8px 16px 10px;margin:0">Pool rank: win %, then fewest runs allowed, then most runs scored (pool games only). Overall includes bracket games.</p>`;
   }
   function renderResults() {
     const evs = (D.my_events || []).slice().sort((a, b) => (b.date || "").localeCompare(a.date || ""));
@@ -327,23 +342,31 @@
       return;
     }
     $("#panel-results").innerHTML = `<h2 class="section-title">Results <span class="sub">${recordStr(R)} across ${evs.length} event${evs.length === 1 ? "" : "s"}, newest first</span></h2>` +
-      evs.map((e) => {
+      evs.map((e, i) => {
         const games = D.my_games.filter((g) => g.event_id === e.id);
         const s = e.standing;
-        return `<article class="event">
-          <div class="event-head">${datebox(e.date)}
+        let finish = "";
+        if (s) {
+          const bg = s.bracket_games || [];
+          const bracketLine = bg.length
+            ? bg.map((b) => `${esc(b.section.replace(/ bracket$/i, ""))} ${b.result} ${b.rs}–${b.ra}`).join(", ")
+            : (s.bracket ? esc(s.bracket) + (s.seed ? ` #${s.seed} seed` : "") : "no bracket game");
+          finish = `<div class="finish"><b>${ordinal(s.rank)} of ${e.teams}</b><span>Pool ${poolRecord(s)} · ${bracketLine}</span></div>`;
+        }
+        return `<details class="event" ${i === 0 ? "open" : ""}>
+          <summary class="event-head">${datebox(e.date)}
             <div><h3>${esc(tidy(e.name))}</h3><div class="event-meta">${esc(e.dates)}${e.notes.length ? " · " + esc(e.notes.join(", ")) : ""}</div></div>
-            ${s ? `<div class="finish"><b>#${s.seed} of ${e.teams}</b><span>${s.won}-${s.lost} · RS ${s.rs} · RA ${s.ra}</span></div>` : ""}
-          </div>
+            ${finish}
+          </summary>
           <div class="event-body"><ul class="games">${games.map((g) => `<li class="game">
               <div class="pill ${g.result || "time"}">${g.result || esc(g.day)}</div>
               <div><div class="opp">${/^(winner|loser|seed)/i.test(g.opponent) ? esc(g.opponent) : teamBtn(g.opponent)}</div>
                    <div class="when">${esc(g.section)} G${g.game} · ${esc(g.day)} ${esc(g.time)} · ${fieldHtml(g.field)}</div></div>
               <div class="score">${g.result ? `${g.rs}–${g.ra}` : `<small>not played</small>`}</div>
             </li>`).join("")}</ul></div>
-          <details><summary>Pool standings (${e.teams} teams)</summary>${standingsTable(e.standings)}</details>
+          <details class="inner"><summary>Standings (${e.teams} teams)</summary>${standingsTable(e.standings)}</details>
           <div class="event-foot"><a href="${esc(e.url)}" target="_blank" rel="noopener">Brackets &amp; all games on Top Gun ↗</a></div>
-        </article>`;
+        </details>`;
       }).join("");
   }
 
