@@ -1440,7 +1440,7 @@
           "team": "Carolina Wombats- 12U",
           "location": "Waxhaw, NC",
           "won": 3,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 8,
           "runs_scored": 14,
           "team_page_id": 25158
@@ -1469,7 +1469,7 @@
           "seed": 4,
           "team": "Carolina Bearcats 12U",
           "location": "Alexis, NC",
-          "won": 3,
+          "won": 4,
           "lost": 0,
           "runs_allowed": 6,
           "runs_scored": 19,
@@ -1490,7 +1490,7 @@
           "team": "NL Destroyers - 2033",
           "location": "Denver, NC",
           "won": 0,
-          "lost": 3,
+          "lost": 4,
           "runs_allowed": 13,
           "runs_scored": 8,
           "team_page_id": 24000
@@ -1499,7 +1499,7 @@
           "seed": 7,
           "team": "West Stanly Wolfpack",
           "location": "Stanfield, NC",
-          "won": 1,
+          "won": 2,
           "lost": 2,
           "runs_allowed": 21,
           "runs_scored": 10,
@@ -1793,7 +1793,7 @@
           "team": "Fury Baseball",
           "location": "Forest City, NC",
           "won": 1,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 18,
           "runs_scored": 9,
           "team_page_id": 21919
@@ -1812,7 +1812,7 @@
           "seed": 6,
           "team": "FS Bulldogs 13u (Cockrell)",
           "location": "Mount Ulla, NC",
-          "won": 1,
+          "won": 2,
           "lost": 2,
           "runs_allowed": 11,
           "runs_scored": 4,
@@ -2066,10 +2066,10 @@
             "field": "Tega Cay:Field 4",
             "team_a": "Winner Game #1 Fury Baseball",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 2,
             "team_b": "Winner Game #2 FS Bulldogs 13u (Cockrell)",
             "seed_b": null,
-            "score_b": null
+            "score_b": 6
           }
         ]
       }
@@ -2828,5 +2828,5 @@
   },
   "site_last_updated": "09/17/2026 12:42 PM",
   "tournament_id": 12517,
-  "fetched_at": "2026-09-20T15:03"
+  "fetched_at": "2026-09-20T15:10"
 }
