@@ -54,7 +54,9 @@ GitHub Actions runs `refresh.py` and commits the results, so the page updates it
   events (`refresh.py --discover`) and adds them to `data/tracked.json`; tracked events are
   re-fetched from a week before they start until 3 days after, so other 9U results land in
   Standings without anyone typing IDs. The list page only shows current/upcoming events, which is
-  why it looks ahead rather than back.
+  why it looks ahead rather than back. A schedule page covers every age group, so after the first
+  fetch an event with no 9U bracket is marked `skip` in tracked.json and never fetched again; only
+  the 9U division is ever built into the site.
 - or on demand: Actions tab -> "Refresh scores and rebuild site" -> Run workflow
 
 Cron times are in UTC in the file; they're set for EDT, so after Nov 1 they run an hour

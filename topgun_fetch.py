@@ -151,6 +151,7 @@ def main():
     ap.add_argument("--data", default="data", help="output folder (default: data)")
     ap.add_argument("--visible", action="store_true", help="show the browser window")
     ap.add_argument("--show", action="store_true", help="print the summary when done")
+    ap.add_argument("--list-only", action="store_true", help="discover: write data/tournaments.json and stop")
     args = ap.parse_args()
 
     data_dir = Path(args.data)
@@ -169,6 +170,9 @@ def main():
                 if t["TournamentID"] not in ids:
                     ids.append(t["TournamentID"])
             (data_dir / "tournaments.json").write_text(json.dumps(found, indent=2), encoding="utf-8")
+            if args.list_only:
+                browser.close()
+                return 0
         if not ids:
             print("No tournament IDs given or found. Use --ids or --from/--to/--city.")
             browser.close()
