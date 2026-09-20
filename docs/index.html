@@ -478,6 +478,9 @@
     const referenced = new Set(games.flatMap((g) => [g.from_a, g.from_b].filter(Boolean).map((r) => r.game)));
     const tree = referenced.size > 0;
     const placeLabel = (p) => p === 1 && (tree || games.length === 1) ? "Champion" : `${ordinal(p)} place`;
+    // a team keeps its original seed on every line it advances to
+    const seedOf = new Map();
+    games.forEach((g) => ["a", "b"].forEach((side) => { const n = g["team_" + side], sd = g["seed_" + side]; if (sd && !PH.test(n)) seedOf.set(norm(n), sd); }));
     const gamePos = new Map();
     if (!tree) games.slice().sort((a, b) => a.game - b.game).forEach((g, i) => gamePos.set(g.game, 2 * i + 1));
     const nameText = (x, y, name, cls, anchor = "start") => PH.test(name || "")
@@ -503,7 +506,7 @@
             const y = top + leaf * S + Math.floor(leaf / 2) * GG; leaf++;
             out.push(`<line x1="${x}" y1="${y}" x2="${x + L}" y2="${y}"/>`);
             const nm = leafName(g, side);
-            const seed = g["seed_" + side];
+            const seed = g["seed_" + side] || seedOf.get(norm(nm));
             out.push(nameText(x + 2 + (seed ? 22 : 0), y - 5, nm, winnerSide(g) === side ? "win" : played(g) ? "lose" : ""));
             if (seed) out.push(`<text x="${x + 2}" y="${y - 5}" class="seed">#${seed}</text>`);
             return y;
@@ -511,12 +514,15 @@
           ["a", "b"].forEach((side, i) => { if (played(g)) out.push(`<text x="${x + L - 3}" y="${ys[i] - 5}" class="score ${winnerSide(g) === side ? "win" : ""}" text-anchor="end">${g["score_" + side]}</text>`); });
           const mid = (ys[0] + ys[1]) / 2;
           out.push(`<line x1="${x + L}" y1="${ys[0]}" x2="${x + L}" y2="${ys[1]}"/>`);
-          out.push(`<text x="${x + L + 4}" y="${mid + 4}" class="gnum">G${g.game}</text>`);
           const isLast = ri === rs.length - 1;
           const nx = x + L + GAP, nl = isLast ? L - 20 : L;
           out.push(`<line x1="${x + L}" y1="${mid}" x2="${nx + nl}" y2="${mid}"/>`);
           const w = winnerOf(g);
-          if (w) out.push(nameText(nx + 2, mid - 5, w, "win"));
+          if (w) {
+            const sd = seedOf.get(norm(w));
+            out.push(nameText(nx + 2 + (sd ? 22 : 0), mid - 5, w, "win"));
+            if (sd) out.push(`<text x="${nx + 2}" y="${mid - 5}" class="seed">#${sd}</text>`);
+          }
           if (isLast) out.push(`<text x="${nx + 2}" y="${mid + 14}" class="glabel">${esc(endLabel(g))}</text>`);
           outY.set(g.game, mid);
           maxY = Math.max(maxY, ys[1], mid + 16);
