@@ -67,7 +67,7 @@
     background: var(--navy); color: #fff;
     padding: calc(14px + env(safe-area-inset-top, 0px)) 16px 0;
   }
-  .board-inner { max-width: 960px; margin: 0 auto; }
+  .board-inner { max-width: 1140px; margin: 0 auto; }
   .board-top { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 12px 24px; }
   .team-name { font-size: 44px; font-weight: 700; letter-spacing: .5px; text-transform: uppercase; }
   .team-name small { display: block; font-family: var(--body); font-size: 13px; font-weight: 500; letter-spacing: 1.5px; text-transform: uppercase; color: var(--amber); margin-bottom: 4px; }
@@ -89,8 +89,11 @@
   .tab:hover { opacity: 1; }
   .tab[aria-selected="true"] { opacity: 1; border-bottom-color: var(--amber); }
 
-  main { max-width: 960px; margin: 0 auto; padding: 20px 16px 48px; }
-  .notice-wrap { max-width: 960px; margin: 16px auto 0; padding: 0 16px; }
+  main { max-width: 1140px; margin: 0 auto; padding: 20px 16px 48px; }
+  .notice-wrap { max-width: 1140px; margin: 16px auto 0; padding: 0 16px; }
+  #panel-teams th, #panel-teams td { padding: 7px 8px; font-size: 14px; }
+  #panel-teams .chips { min-width: 120px; }
+  #panel-teams .chip { font-size: 10px; padding: 1px 5px; }
   .notice { display: flex; gap: 12px; align-items: flex-start; background: var(--me-bg); border: 1px solid var(--amber); border-left-width: 5px; border-radius: 6px; padding: 10px 8px 10px 14px; font-size: 14px; line-height: 1.4; }
   .notice-close { flex: 0 0 auto; background: none; border: 0; color: var(--ink-2); font-size: 22px; line-height: 1; cursor: pointer; padding: 0 6px; margin-top: -2px; }
   .notice-close:hover { color: var(--ink); }
@@ -145,6 +148,9 @@
   /* Game rows */
   .games { list-style: none; margin: 0; padding: 0; }
   .game { display: grid; grid-template-columns: 44px 1fr auto; gap: 4px 12px; align-items: center; padding: 10px 0; border-bottom: 1px solid var(--line); }
+  .game.won { background: linear-gradient(90deg, var(--win-bg), transparent 70%); margin: 0 -16px; padding-left: 12px; padding-right: 16px; border-left: 4px solid var(--win); }
+  .game.won .score { color: var(--win); }
+  .game.won .pill.W { background: var(--win); color: #fff; }
   .game:last-child { border-bottom: 0; }
   .pill { font-family: var(--display); font-weight: 700; font-size: 18px; text-align: center; border-radius: 4px; padding: 4px 0; line-height: 1; }
   .pill.W { background: var(--win-bg); color: var(--win); }
@@ -241,7 +247,7 @@
   .h2h { background: var(--paper); border: 1px solid var(--line); border-radius: 6px; padding: 10px 16px; }
   .h2h h3 { font-size: 18px; font-weight: 600; margin-bottom: 4px; }
 
-  footer { max-width: 960px; margin: 0 auto; padding: 0 16px 32px; font-size: 12px; color: var(--ink-2); }
+  footer { max-width: 1140px; margin: 0 auto; padding: 0 16px 32px; font-size: 12px; color: var(--ink-2); }
 
   @media (max-width: 480px) {
     .team-name { font-size: 36px; }
@@ -345,10 +351,10 @@
     return x ? `<div class="datebox"><span>${MONTHS[x.getMonth()]}</span><b>${x.getDate()}</b></div>` : `<div class="datebox"><span>TBA</span><b>–</b></div>`;
   };
   const teamBtn = (name) => `<button type="button" data-team="${esc(name)}">${esc(name)}</button>`;
-  // W/L record vs Elite 9 from a team's log, shown from Elite 9's side ("we went 1-0 against them")
+  // That team's W-L record against Elite 9 ("they went 1-0 against us")
   function vsUs(t) {
     const g = t.log.filter((x) => norm(x.opponent) === ME);
-    const w = g.filter((x) => x.result === "L").length, l = g.filter((x) => x.result === "W").length, tt = g.length - w - l;
+    const w = g.filter((x) => x.result === "W").length, l = g.filter((x) => x.result === "L").length, tt = g.length - w - l;
     return { n: g.length, text: g.length ? `${w}-${l}${tt ? `-${tt}` : ""}` : "" };
   }
   const chip = (standing) => {
@@ -404,7 +410,7 @@
             const rs = isA ? g.score_a : g.score_b, ra = isA ? g.score_b : g.score_a;
             const done = rs != null && ra != null;
             const res = done ? (rs > ra ? "W" : rs < ra ? "L" : "T") : null;
-            return `<li class="game">
+            return `<li class="game ${res === "W" ? "won" : ""}">
               <div class="pill ${done ? res : "time"}">${done ? res : esc(g.day)}</div>
               <div><div class="opp">${/^(winner|loser|seed)/i.test(opp) ? esc(opp) : teamBtn(opp)}</div>
                    <div class="when">${esc(g.day)} ${esc(g.time)} · ${fieldHtml(g.field)} · ${esc(g.section)} G${g.game}</div></div>
@@ -521,7 +527,7 @@
             <div><h3>${esc(tidy(e.name))}</h3><div class="event-meta">${esc(e.dates)}${e.notes.length ? " · " + esc(e.notes.join(", ")) : ""}</div></div>
             ${finish}
           </summary>
-          <div class="event-body"><ul class="games">${games.map((g) => `<li class="game">
+          <div class="event-body"><ul class="games">${games.map((g) => `<li class="game ${g.result === "W" ? "won" : ""}">
               <div class="pill ${g.result || "time"}">${g.result || esc(g.day)}</div>
               <div><div class="opp">${/^(winner|loser|seed)/i.test(g.opponent) ? esc(g.opponent) : teamBtn(g.opponent)}</div>
                    <div class="when">${esc(g.section)} G${g.game} · ${esc(g.day)} ${esc(g.time)} · ${fieldHtml(g.field)}</div></div>
