@@ -189,6 +189,13 @@
   .field p { margin: 6px 0 8px; font-size: 14px; }
   .field a { font-size: 13px; font-weight: 600; }
 
+  /* Roster */
+  .roster { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 10px; }
+  .player { display: flex; gap: 12px; align-items: center; background: var(--paper); border: 1px solid var(--line); border-radius: 6px; padding: 10px 12px; }
+  .player .num { flex: 0 0 52px; height: 52px; display: grid; place-items: center; background: var(--navy); color: var(--amber); border-radius: 6px; font-family: var(--display); font-size: 30px; font-weight: 700; font-variant-numeric: tabular-nums; }
+  .player.dup .num { box-shadow: inset 0 0 0 2px var(--loss); }
+  .pname { font-family: var(--display); font-size: 20px; font-weight: 600; line-height: 1.1; }
+
   /* Team sheet */
   .sheet-back { position: fixed; inset: 0; background: rgba(10, 14, 28, .55); display: flex; justify-content: flex-end; z-index: 10; }
   .sheet { width: min(560px, 100%); height: 100%; overflow-y: auto; background: var(--chalk); color: var(--ink); padding: 0 0 40px; box-shadow: -8px 0 30px rgba(0,0,0,.3); }
@@ -236,6 +243,7 @@
       <button class="tab" role="tab" data-tab="results">Results</button>
       <button class="tab" role="tab" data-tab="standings">Standings</button>
       <button class="tab" role="tab" data-tab="fields">Fields</button>
+      <button class="tab" role="tab" data-tab="roster">Roster</button>
     </nav>
   </div>
 </header>
@@ -245,6 +253,7 @@
   <section role="tabpanel" id="panel-results" hidden></section>
   <section role="tabpanel" id="panel-standings" hidden></section>
   <section role="tabpanel" id="panel-fields" hidden></section>
+  <section role="tabpanel" id="panel-roster" hidden></section>
 </main>
 
 <div id="sheet" hidden></div>
@@ -597,7 +606,7 @@
   });
 
   // ---- Tabs ---------------------------------------------------------------------
-  const TABS = ["next", "results", "standings", "fields"];
+  const TABS = ["next", "results", "standings", "fields", "roster"];
   function showTab(name, push) {
     if (!TABS.includes(name)) name = "next";
     document.querySelectorAll(".tab").forEach((t) => t.setAttribute("aria-selected", String(t.dataset.tab === name)));
@@ -608,7 +617,29 @@
   $("#tabs").addEventListener("click", (e) => { const b = e.target.closest(".tab"); if (b) showTab(b.dataset.tab, true); });
   window.addEventListener("hashchange", () => showTab(location.hash.slice(1), false));
 
-  renderNext(); renderResults(); renderStandings(); renderFields();
+  // ---- Roster ------------------------------------------------------------------
+  function renderRoster() {
+    const r = D.roster || { players: [] };
+    if (!r.players.length) {
+      $("#panel-roster").innerHTML = `<h2 class="section-title">Roster</h2><div class="event"><p class="empty">No roster yet — run <code>python topgun_roster.py</code>.</p></div>`;
+      return;
+    }
+    const dups = r.duplicate_numbers || {};
+    const statLine = (p) => [p.hr && `${p.hr} HR`, p.no_hitters && `${p.no_hitters} no-hitter${p.no_hitters > 1 ? "s" : ""}`,
+      p.perfect_games && `${p.perfect_games} perfect game${p.perfect_games > 1 ? "s" : ""}`, p.shutouts && `${p.shutouts} shutout${p.shutouts > 1 ? "s" : ""}`].filter(Boolean).join(" · ");
+    $("#panel-roster").innerHTML = `
+      <h2 class="section-title">Roster <span class="sub">${r.players.length} active players · Top Gun ${esc(r.season || "current season")}</span></h2>
+      <ul class="roster">${r.players.map((p) => `<li class="player ${p.number != null && dups[p.number] ? "dup" : ""}">
+        <div class="num">${p.number != null ? p.number : "–"}</div>
+        <div><div class="pname">${esc(p.name)}</div>
+          <div class="when">${p.goes_by ? `on Top Gun as ${esc(p.full_name)}` : ""}${p.goes_by && statLine(p) ? " · " : ""}${statLine(p)}</div></div>
+      </li>`).join("")}</ul>
+      ${Object.keys(dups).length ? `<p class="when">Number ${Object.keys(dups).map((n) => `#${n} (${esc(dups[n].join(", "))})`).join(", ")} appears twice on the board — fix in roster.json.</p>` : ""}
+      ${r.not_on_topgun && r.not_on_topgun.length ? `<p class="when">In roster.json but not an active Top Gun player: ${esc(r.not_on_topgun.join(", "))}.</p>` : ""}
+      <p class="when">Players and season stats from ${D.team_url ? `<a href="${esc(D.team_url)}" target="_blank" rel="noopener">${esc(D.team)}'s Top Gun page</a>` : "Top Gun"} (active players only${r.inactive ? `, ${r.inactive} former players not shown` : ""}); jersey numbers from the team's board.</p>`;
+  }
+
+  renderNext(); renderResults(); renderStandings(); renderFields(); renderRoster();
   let start = location.hash.slice(1);
   if (!start) { try { start = localStorage.getItem("elite9.tab") || ""; } catch (_) {} }
   showTab(start || "next", false);

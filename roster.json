@@ -1,0 +1,20 @@
+{
+  "_comment": "Jersey numbers from the Elite9 Baseball Matrix board (8/10/2026). Players come from Top Gun's Players tab (Active only); matched by full name, then by last name. 'goes_by' is the name shown on the page when it differs from Top Gun's. name_style: 'full' or 'initial' (first name + last initial).",
+  "name_style": "full",
+  "players": [
+    {"number": 23, "name": "William Simon",    "goes_by": "Lane Simon"},
+    {"number": 4,  "name": "Keegan Hunter"},
+    {"number": 12, "name": "Waylon Goins",     "goes_by": "Remi Goins"},
+    {"number": 22, "name": "Austin Little"},
+    {"number": 7,  "name": "Beau Crisp"},
+    {"number": 10, "name": "Evan Hannan"},
+    {"number": 2,  "name": "Graham Terry"},
+    {"number": 5,  "name": "Grayden Wallace",  "goes_by": "Tate Wallace"},
+    {"number": 3,  "name": "Khale Varnadore"},
+    {"number": 18, "name": "Wesley Stevens"},
+    {"number": 99, "name": "Noah Tulacz"},
+    {"number": 11, "name": "Caiden Poore"},
+    {"number": 8,  "name": "Cayden Alford"},
+    {"number": 16, "name": "Damarion Wilson",  "goes_by": "Tejay Wilson"}
+  ]
+}

@@ -26,6 +26,8 @@ from pathlib import Path
 import topgun_parse
 from topgun_records import norm, start_date
 
+HERE = Path(__file__).parent
+DATA_DIR = HERE / "data"
 SCHEDULE_URL = "https://playtopgunsports.com/GameTimesResults.aspx?trnid={id}"
 TEAM_URL = "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2={id}"
 DAYS = {"Mon": 0, "Tue": 1, "Wed": 2, "Thu": 3, "Fri": 4, "Sat": 5, "Sun": 6}
@@ -91,6 +93,51 @@ def load_team_stats(data_dir):
         if jp.stem.isdigit():
             stats[int(jp.stem)] = json.loads(jp.read_text(encoding="utf-8"))
     return stats
+
+
+def build_roster(data_dir, page_id, roster_path):
+    """Active players from Top Gun's Players page + jersey numbers/nicknames from roster.json."""
+    pj = data_dir / "teams" / f"{page_id}_players.json" if page_id else None
+    tg = json.loads(pj.read_text(encoding="utf-8")) if pj and pj.exists() else {"players": []}
+    cfg = json.loads(roster_path.read_text(encoding="utf-8")) if roster_path.exists() else {"players": []}
+    style = cfg.get("name_style", "full")
+    by_full = {norm(p["name"]): p for p in cfg.get("players", [])}
+    by_last = defaultdict(list)
+    for p in cfg.get("players", []):
+        by_last[norm(p["name"].split()[-1])].append(p)
+
+    def display(name):
+        parts = name.split()
+        return f"{parts[0]} {parts[-1][0]}." if style == "initial" and len(parts) > 1 else name
+
+    players, matched = [], set()
+    for p in tg["players"]:
+        if not p.get("active"):
+            continue
+        cfg_p = by_full.get(norm(p["name"]))
+        if not cfg_p:
+            cands = [c for c in by_last.get(norm(p["name"].split()[-1]), []) if norm(c["name"]) not in matched]
+            cfg_p = cands[0] if len(cands) == 1 else None
+        if cfg_p:
+            matched.add(norm(cfg_p["name"]))
+        shown = (cfg_p or {}).get("goes_by") or p["name"]
+        players.append({
+            "number": (cfg_p or {}).get("number"), "name": display(shown), "full_name": p["name"],
+            "goes_by": (cfg_p or {}).get("goes_by"),
+            "hr": p["hr"], "perfect_games": p["perfect_games"], "no_hitters": p["no_hitters"], "shutouts": p["shutouts"],
+        })
+    players.sort(key=lambda x: (x["number"] is None, x["number"] or 0, x["name"]))
+    unmatched = [c["name"] for c in cfg.get("players", []) if norm(c["name"]) not in matched]
+    dup = defaultdict(list)
+    for x in players:
+        if x["number"] is not None:
+            dup[x["number"]].append(x["name"])
+    return {
+        "players": players, "season": tg.get("season", ""), "fetched_at": tg.get("fetched_at"),
+        "inactive": sum(1 for p in tg["players"] if not p.get("active")),
+        "not_on_topgun": unmatched,                      # in roster.json but not an active Top Gun player
+        "duplicate_numbers": {str(n): v for n, v in dup.items() if len(v) > 1},
+    }
 
 
 def season_summary(st):
@@ -341,6 +388,7 @@ def build(events, team, upcoming, year, team_stats=None):
         "my_games": sorted(my_games, key=lambda g: (g["date"], g["event_id"], g["section"], g["game"])),
         "my_events": my_events, "upcoming": upcoming_out, "teams": teams,
         "fields": dict(sorted(fields.items())),
+        "roster": build_roster(DATA_DIR, mine["page_id"], HERE / "roster.json"),
         **season_summary(team_stats.get(mine["page_id"])),
     }
 
@@ -357,6 +405,8 @@ def main():
     ap.add_argument("--out", default="docs")
     args = ap.parse_args()
 
+    global DATA_DIR
+    DATA_DIR = Path(args.data)
     events = load_events(Path(args.data), args.division, None if args.all else args.since, args.year)
     up_path = Path(args.upcoming)
     upcoming = json.loads(up_path.read_text(encoding="utf-8")) if up_path.exists() else []

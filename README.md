@@ -19,6 +19,8 @@ Elite 9 (9U, Fall 2026) - Top Gun tournament tracking.
 - topgun_parse.py    - parser (stdlib only); also usable alone on a saved .html
 - topgun_snapshot.py - manual browse-and-save tool (first version; still handy for team pages)
 - topgun_teams.py    - each team's Top Gun statistics page -> data/teams/<id>.json (points, finishes)
+- topgun_roster.py   - our Players page -> data/teams/<id>_players.json (active players, season stats)
+- roster.json        - jersey numbers + nicknames (hand-maintained); name_style: full | initial
 - data/              - <ID>.html + <ID>.json per tournament, overwritten each run
 - elite9_schedule.md - the summary Claude reads
 - topgun_out/        - output from the manual snapshot tool

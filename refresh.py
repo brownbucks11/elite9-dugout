@@ -153,6 +153,9 @@ def main():
         r = subprocess.run([py, str(HERE / "topgun_teams.py"), "--division", args.division], cwd=HERE)
         if r.returncode:
             print("team stats had errors; continuing")
+        r = subprocess.run([py, str(HERE / "topgun_roster.py")], cwd=HERE)
+        if r.returncode:
+            print("roster fetch had errors; continuing")
     r = subprocess.run([py, str(HERE / "build_site.py"), "--team", args.team, "--division", args.division], cwd=HERE)
     return r.returncode
 
