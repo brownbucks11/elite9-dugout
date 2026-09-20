@@ -967,7 +967,7 @@
           "team": "SC Tide - Scanlin",
           "location": "Clover, SC",
           "won": 2,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 5,
           "runs_scored": 24,
           "team_page_id": 28839
@@ -986,7 +986,7 @@
           "seed": 3,
           "team": "Odell Chargers",
           "location": "Concord, NC",
-          "won": 1,
+          "won": 2,
           "lost": 2,
           "runs_allowed": 28,
           "runs_scored": 9,
@@ -1026,7 +1026,7 @@
           "seed": 2,
           "team": "Destroyers Baseball",
           "location": "Denver, NC",
-          "won": 0,
+          "won": 1,
           "lost": 2,
           "runs_allowed": 15,
           "runs_scored": 7,
@@ -1057,7 +1057,7 @@
           "team": "Newport Bombers 11U Janson",
           "location": "Rock Hill, SC",
           "won": 1,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 14,
           "runs_scored": 20,
           "team_page_id": 32379
@@ -1362,10 +1362,10 @@
             "field": "Westmoreld:Field 2",
             "team_a": "Loser Game #1 Newport Bombers 11U Janson",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 6,
             "team_b": "Loser Game #2 Destroyers Baseball",
             "seed_b": null,
-            "score_b": null
+            "score_b": 13
           },
           {
             "game": 4,
@@ -2828,5 +2828,5 @@
   },
   "site_last_updated": "09/17/2026 12:42 PM",
   "tournament_id": 12517,
-  "fetched_at": "2026-09-20T16:19"
+  "fetched_at": "2026-09-20T16:27"
 }
