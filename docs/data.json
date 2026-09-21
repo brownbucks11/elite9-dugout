@@ -3,7 +3,7 @@
  "location": "Rock Hill, SC",
  "page_id": 31407,
  "team_url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=31407",
- "built": "Sun Sep 20, 2026 10:00 PM",
+ "built": "Mon Sep 21, 2026 03:29 AM",
  "record": {
   "w": 1,
   "l": 4,
@@ -447,9 +447,9 @@
     "Modified Stealing"
    ],
    "teams": 9,
-   "state": "live",
+   "state": "final",
    "next_game": null,
-   "ics": "ics/12517.ics",
+   "ics": null,
    "standing": {
     "team": "Elite 9",
     "location": "Rock Hill, SC",
@@ -1302,7 +1302,7 @@
   },
   {
    "id": 12517,
-   "state": "live",
+   "state": "final",
    "official": false,
    "summary": {
     "rank": 6,
@@ -1740,11 +1740,11 @@
     }
    ],
    "next_game": null,
-   "schedule_versions": 1,
-   "schedule_first": "2026-09-20T21:15",
-   "schedule_updated": "2026-09-20T21:15",
+   "schedule_versions": 0,
+   "schedule_first": null,
+   "schedule_updated": null,
    "changes": [],
-   "ics": "ics/12517.ics"
+   "ics": null
   },
   {
    "id": 12518,
@@ -5857,6 +5857,6 @@
  "season": "08/01/2026 - 09/20/2026",
  "stats_fetched": "2026-09-20T14:08",
  "division": "9U",
- "today": "2026-09-20",
+ "today": "2026-09-21",
  "season_label": "Fall 2026"
 }
