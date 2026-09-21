@@ -121,8 +121,12 @@
   .champ.plain { background: var(--chalk); border-color: var(--line); color: var(--ink-2); }
   .champ.plain button { color: var(--ink); }
   .champ button { background: none; border: 0; padding: 0; font: inherit; font-weight: 600; color: inherit; cursor: pointer; }
+  /* grid/flex items default to min-width:auto and grow to the SVG; pin them so the scroller can scroll */
+  .brackets, .bracket-block, .bracket-wrap, .tb, .tb-group, .table-wrap { min-width: 0; max-width: 100%; }
   .bracket-wrap { display: flex; gap: 20px; align-items: flex-start; flex-wrap: wrap; }
-  .bracket-scroll { overflow-x: auto; padding-bottom: 6px; flex: 1 1 520px; min-width: 0; }
+  .bracket-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; padding-bottom: 6px; flex: 1 1 520px; min-width: 0; max-width: 100%; }
+  .swipe-hint { display: none; font-size: 11px; letter-spacing: 1px; text-transform: uppercase; color: var(--ink-2); margin: -2px 0 6px; }
+  @media (max-width: 760px) { .swipe-hint { display: block; } }
   .bracket-svg { display: block; font-family: var(--body); font-size: 13px; }
   .bracket-svg line { stroke: var(--ink-2); stroke-width: 1.5; }
   .bracket-svg .tname { fill: var(--ink); }
@@ -634,7 +638,7 @@
       champ = games.length === 1 ? winnerOf(games[0]) : null;   // two standalone games have no bracket champion
     }
     return `<div class="bracket-block"><div class="bracket-title">${esc(section)} ${champ ? `<span class="champ ${isTop ? "" : "plain"}">${isTop ? TROPHY : `1st ${esc(bracketName)} ·`} ${teamBtn(champ)}</span>` : ""}</div>
-      <div class="bracket-wrap"><div class="bracket-scroll"><svg class="bracket-svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}">${out.join("")}</svg></div>
+      <div class="bracket-wrap"><div class="bracket-scroll"><svg class="bracket-svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}">${out.join("")}</svg></div><div class="swipe-hint">Swipe sideways to see the whole bracket →</div>
       <ol class="placings"><li class="phead">${esc(bracketName)} bracket</li>${places.map(([p, n]) => `<li><span class="place">${p === 1 && isTop && (tree || games.length === 1) ? "Champion" : `${ordinal(p)} ${esc(bracketName)}`}</span>${n ? teamBtn(n) + vsTag(n) : '<span class="from">TBD</span>'}</li>`).join("")}</ol></div></div>`;
   }
   function bracketsHtml(games, myGames = []) {
