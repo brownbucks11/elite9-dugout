@@ -138,8 +138,8 @@
   .bracket-svg .tname.tbd { fill: var(--ink-2); font-style: italic; }
   .bracket-svg .tname.me { fill: var(--link); font-weight: 600; }
   .bracket-svg .seed { fill: var(--ink-2); font-size: 11px; }
-  .bracket-svg .vs-mark image { cursor: help; }
-  .vs-icon { width: 18px; height: 13.5px; vertical-align: -2px; margin-left: 5px; cursor: help; }
+  .bracket-svg .vs-mark image { cursor: pointer; }
+  .vs-icon { width: 18px; height: 13.5px; vertical-align: -2px; margin-left: 5px; cursor: pointer; }
   .bracket-svg .score { fill: var(--ink-2); font-family: var(--display); font-size: 15px; font-weight: 600; }
   .bracket-svg .score.win { fill: var(--win); }
   .bracket-svg .gnum { fill: var(--ink-2); font-size: 10px; }
@@ -239,7 +239,10 @@
   #panel-teams th:nth-child(2), #panel-teams td.team-cell { position: sticky; left: 42px; z-index: 2; background: var(--paper); box-shadow: 4px 0 6px -4px rgba(0,0,0,.25); }
   #panel-teams tr.me td.mark, #panel-teams tr.me td.team-cell { background: var(--me-bg); }
   #panel-teams th.mark, #panel-teams th:nth-child(2) { z-index: 3; }
-  .mark-icon { width: 28px; height: 21px; vertical-align: middle; cursor: help; }
+  .mark-icon { width: 28px; height: 21px; vertical-align: middle; cursor: pointer; }
+  .tip { position: fixed; z-index: 30; max-width: 300px; background: var(--navy); color: #fff; font-size: 13px; line-height: 1.4; padding: 8px 11px; border-radius: 6px; box-shadow: 0 4px 14px rgba(0,0,0,.3); white-space: pre-line; pointer-events: none; }
+  .tip::before { content: ""; position: absolute; left: 50%; top: -6px; margin-left: -6px; border: 6px solid transparent; border-top: 0; border-bottom-color: var(--navy); }
+  .tip.above::before { top: auto; bottom: -6px; border-bottom: 0; border-top: 6px solid var(--navy); }
   .legend .mark-icon { width: 20px; height: 15px; }
   td.wrap { white-space: normal; min-width: 180px; }
   .chips { white-space: normal; min-width: 150px; }
@@ -388,6 +391,7 @@
 </main>
 
 <div id="sheet" hidden></div>
+<div id="tip" class="tip" role="tooltip" hidden></div>
 
 <footer id="foot"></footer>
 
@@ -934,6 +938,33 @@
   }
   function closeTeam() { $("#sheet").hidden = true; $("#sheet").innerHTML = ""; document.body.style.overflow = ""; }
   document.addEventListener("keydown", (e) => { if (e.key === "Escape" && !$("#sheet").hidden) closeTeam(); });
+
+  // Tap-to-show details for the cap icons (phones have no hover); tap anywhere else to close.
+  const tip = $("#tip");
+  function showTip(el, text) {
+    tip.textContent = text;
+    tip.hidden = false;
+    const r = el.getBoundingClientRect(), pad = 8;
+    tip.style.left = "0px"; tip.style.top = "0px";
+    const w = Math.min(tip.offsetWidth, window.innerWidth - 2 * pad);
+    let left = Math.min(Math.max(pad, r.left + r.width / 2 - w / 2), window.innerWidth - w - pad);
+    let top = r.bottom + 8;
+    if (top + tip.offsetHeight > window.innerHeight - pad) top = r.top - tip.offsetHeight - 8;
+    tip.style.left = left + "px"; tip.style.top = Math.max(pad, top) + "px";
+    tip.classList.toggle("above", top < r.top);
+  }
+  const hideTip = () => { if (!tip.hidden) { tip.hidden = true; tip.classList.remove("above"); } };
+  document.addEventListener("click", (e) => {
+    const mark = e.target.closest(".mark-icon, .vs-icon, .vs-mark image");
+    if (mark) {
+      const g = mark.closest(".vs-mark");
+      const text = g ? (g.querySelector("title") || {}).textContent : mark.getAttribute("title");
+      if (text) { e.preventDefault(); e.stopPropagation(); showTip(mark, text); return; }
+    }
+    hideTip();
+  }, true);
+  window.addEventListener("scroll", hideTip, { passive: true });
+  document.addEventListener("keydown", (e) => { if (e.key === "Escape") hideTip(); });
   document.addEventListener("click", (e) => {
     const go = e.target.closest("[data-goto]");
     if (go) {
