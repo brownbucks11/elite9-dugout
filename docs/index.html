@@ -460,7 +460,7 @@
   // 1st and 2nd places only, grouped per bracket: [["1st (Gold)", 2], ["2nd (Silver)", 1]]
   function topFinishes(t) {
     const counts = new Map();
-    (t.finishes || []).forEach((f) => { const m = /^(1st|2nd)/.exec(f.standing || ""); if (m) counts.set(f.standing, (counts.get(f.standing) || 0) + 1); });
+    (t.finishes || []).forEach((f) => { const m = /^(1st|2nd)\b/.exec(f.standing || ""); if (m) counts.set(f.standing, (counts.get(f.standing) || 0) + 1); });
     const rank = (st) => (/^1st/.test(st) ? 0 : 10) + (/gold/i.test(st) ? 0 : /silver/i.test(st) ? 1 : 2);
     return [...counts.entries()].sort((a, b) => rank(a[0]) - rank(b[0]));
   }
