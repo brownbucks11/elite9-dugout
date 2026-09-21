@@ -245,6 +245,7 @@
   .chips { white-space: normal; min-width: 150px; }
   .chip { display: inline-block; font-size: 11px; font-weight: 600; letter-spacing: .3px; padding: 1px 7px; border-radius: 999px; border: 1px solid var(--line); color: var(--ink-2); margin: 1px 3px 1px 0; white-space: nowrap; }
   .chip.first { border-color: var(--amber); background: var(--me-bg); color: var(--ink); }
+  .chip b { font-weight: 700; }
   .legend { font-size: 12px; color: var(--ink-2); display: inline-flex; align-items: center; gap: 6px; }
   .hdr-link { margin-top: 10px; font-size: 13px; }
   .hdr-link a { color: var(--amber); }
@@ -450,12 +451,20 @@
       return `${D.team} ${x.result === "L" ? "beat" : x.result === "W" ? "lost to" : "tied"} ${t.team} ${x.ra}–${x.rs} · ${d ? MONTHS[d.getMonth()] + " " + d.getDate() : x.date} · ${x.section} · ${tidy(x.event)}`;
     }).join("\n");
   }
-  const chip = (standing) => {
+  const chip = (standing, count = 1) => {
     const s = String(standing || "").trim();
     if (!s) return "";
     const place = s.match(/^(\d+)/);
-    return `<span class="chip ${place && place[1] === "1" ? "first" : ""}">${esc(s.replace(/[()]/g, ""))}</span>`;
+    return `<span class="chip ${place && place[1] === "1" ? "first" : ""}">${esc(s.replace(/[()]/g, ""))}${count > 1 ? ` <b>×${count}</b>` : ""}</span>`;
   };
+  // 1st and 2nd places only, grouped per bracket: [["1st (Gold)", 2], ["2nd (Silver)", 1]]
+  function topFinishes(t) {
+    const counts = new Map();
+    (t.finishes || []).forEach((f) => { const m = /^(1st|2nd)/.exec(f.standing || ""); if (m) counts.set(f.standing, (counts.get(f.standing) || 0) + 1); });
+    const rank = (st) => (/^1st/.test(st) ? 0 : 10) + (/gold/i.test(st) ? 0 : /silver/i.test(st) ? 1 : 2);
+    return [...counts.entries()].sort((a, b) => rank(a[0]) - rank(b[0]));
+  }
+  const finishScore = (t) => topFinishes(t).reduce((acc, [st, n]) => acc + n * (/^1st/.test(st) ? 10 : 3) * (/gold/i.test(st) ? 3 : /silver/i.test(st) ? 2 : 1), 0);
   const recordStr = (r) => `${r.w}-${r.l}` + (r.t ? `-${r.t}` : "");
 
   // ---- header --------------------------------------------------------------
@@ -804,15 +813,13 @@
     { key: "events", label: "Events", num: true },
     { key: "points", label: "Points", num: true },
     { key: "finishes", label: "Finishes", num: false },
-    { key: "vs", label: "vs " + D.team, num: false },
   ];
-  let sortKey = "team", sortDir = 1, filter = "";
+  let sortKey = "pct", sortDir = -1, filter = "";
   function sortedTeams() {
     const q = norm(filter);
     const rows = D.teams.filter((t) => !q || norm(t.team).includes(q) || norm(t.location).includes(q));
     const val = (t) => sortKey === "record" ? t.w - t.l : sortKey === "pct" ? t.pct + t.diff / 1000
-      : sortKey === "points" ? (t.points || 0) : sortKey === "finishes" ? (t.titles || 0) * 100 + (t.finishes || []).length
-      : sortKey === "vs" ? vsUs(t).n : t[sortKey];
+      : sortKey === "points" ? (t.points || 0) : sortKey === "finishes" ? finishScore(t) : t[sortKey];
     return rows.sort((a, b) => {
       const x = val(a), y = val(b);
       const c = typeof x === "number" ? x - y : String(x || "").localeCompare(String(y || ""));
@@ -840,11 +847,10 @@
           <td class="num ${t.diff > 0 ? "pos" : t.diff < 0 ? "neg" : ""}">${t.diff > 0 ? "+" : ""}${t.diff}</td>
           <td class="num">${t.events}</td>
           <td class="num">${t.finishes && t.finishes.length ? t.points : `<span class="from">${havePoints ? "—" : ""}</span>`}</td>
-          <td class="chips">${(t.finishes || []).map((f) => chip(f.standing)).join("")}</td>
-          <td class="num">${norm(t.team) === ME ? "" : v.text}</td></tr>`; }).join("")}
-        ${rows.length ? "" : `<tr><td colspan="12" class="empty">No team matches “${esc(filter)}”.</td></tr>`}
+          <td class="chips">${topFinishes(t).map(([standing, n]) => chip(standing, n)).join("")}</td></tr>`; }).join("")}
+        ${rows.length ? "" : `<tr><td colspan="11" class="empty">No team matches “${esc(filter)}”.</td></tr>`}
         </tbody></table></div>
-      ${havePoints ? `<p class="when">Points and finishes come from each team's Top Gun statistics page (season from Aug 1); a finish like "2nd Gold" is the team's placing in that event's bracket.</p>` : ""}`;
+      ${havePoints ? `<p class="when">Points and finishes come from each team's Top Gun statistics page (season from Aug 1). Finishes show 1st and 2nd places by bracket, with a count when it happened more than once.</p>` : ""}`;
     const input = $("#team-filter");
     input.addEventListener("input", () => { filter = input.value; const pos = input.selectionStart; renderStandings(); const el = $("#team-filter"); el.focus(); el.setSelectionRange(pos, pos); });
     document.querySelectorAll("#panel-teams th.sortable").forEach((th) => th.addEventListener("click", () => {
