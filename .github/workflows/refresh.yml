@@ -9,6 +9,8 @@ on:
     - cron: "0 * * * 5,6,0"      # Friday, Saturday, Sunday, hourly
     - cron: "0 0-3 * * 1"        # Sunday 8-11 PM Eastern (Monday early UTC)
     - cron: "30 12 * * 1,4"      # Mon + Thu 8:30 AM Eastern: also discover upcoming area events
+    - cron: "*/10 * * * 5,6,0"   # game day: every 10 min Fri-Sun (UTC) - only fetches when a tournament is live
+    - cron: "*/10 0-4 * * 1"     # ...and Sunday evening Eastern (Monday early UTC)
   workflow_dispatch:             # "Run workflow" button in the Actions tab
     inputs:
       discover:
@@ -41,12 +43,32 @@ jobs:
           python-version: "3.12"
           cache: pip
 
+      - name: Game day? (10-minute ticks only fetch while a tournament is live)
+        id: gate
+        env:
+          SCHED: ${{ github.event.schedule }}
+        run: |
+          FAST=false
+          case "$SCHED" in "*/10 * * * 5,6,0"|"*/10 0-4 * * 1") FAST=true ;; esac
+          GAMEDAY=$(python gameday.py)
+          echo "fast tick: $FAST, game day: $GAMEDAY"
+          if [ "$FAST" = true ] && [ "$GAMEDAY" != yes ]; then echo "run=false" >> "$GITHUB_OUTPUT"; else echo "run=true" >> "$GITHUB_OUTPUT"; fi
+
+      - name: Cache Playwright browser
+        if: steps.gate.outputs.run == 'true'
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ runner.os }}-${{ hashFiles('requirements.txt') }}
+
       - name: Install Playwright
+        if: steps.gate.outputs.run == 'true'
         run: |
           pip install -r requirements.txt
           python -m playwright install --with-deps chromium
 
       - name: Fetch pages and rebuild docs/
+        if: steps.gate.outputs.run == 'true'
         env:
           SCHED: ${{ github.event.schedule }}
           DISCOVER: ${{ inputs.discover }}
@@ -63,12 +85,16 @@ jobs:
           python refresh.py $FLAGS
 
       - name: Commit if anything changed
+        if: steps.gate.outputs.run == 'true'
         run: |
           git config user.name "score-bot"
           git config user.email "actions@users.noreply.github.com"
           git add data docs elite9_schedule.md
-          if git diff --cached --quiet; then
+          # ignore a change to nothing but the "built" timestamp, so quiet ticks make no commits
+          REAL=$(git diff --cached -U0 -- . ':!docs/data.js' | grep -E '^[+-][^+-]' | grep -v '"built":' | wc -l)
+          if [ "$REAL" = "0" ]; then
             echo "no changes"
+            git reset -q
           else
             git commit -m "Refresh scores $(date '+%a %b %d %I:%M %p %Z')"
             git push

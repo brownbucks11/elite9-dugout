@@ -66,6 +66,10 @@ GitHub Actions runs `refresh.py` and commits the results, so the page updates it
 - three times a day (7 AM, 1 PM, 7 PM Eastern); the 7 AM run also refreshes every team's
   statistics page for the Standings points/finishes columns
 - hourly Thursday through Sunday
+- every 10 minutes on game day (a 10-minute cron runs Fri-Sun; `gameday.py` checks the committed
+  data first and the run exits in seconds unless one of our tournaments is live that day). Quiet
+  ticks that change nothing make no commit. GitHub can start scheduled runs a few minutes late,
+  so expect a new score within 10-15 minutes of Top Gun posting it.
 - Monday and Thursday 8:30 AM it also sweeps Top Gun's tournament list for upcoming Charlotte-area
   events (`refresh.py --discover`) and adds them to `data/tracked.json`; tracked events are
   re-fetched from a week before they start until 3 days after, so other 9U results land in
