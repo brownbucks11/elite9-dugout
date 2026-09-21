@@ -1,5 +1,5 @@
 # Elite 9 - Top Gun schedule
-_Updated Mon Sep 21, 2026 03:29 AM_
+_Updated Mon Sep 21, 2026 07:41 AM_
 
 ## WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND
 September 19 - 20 in Greater Charlotte Area, NC  
