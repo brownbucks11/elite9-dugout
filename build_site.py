@@ -484,9 +484,10 @@ def build(events, team, upcoming, year, team_stats=None, today=None, out_dir=Non
                 "standing": mine, "standings": rows, "games": ev["games"],
             })
 
-    # Next Up: everything from upcoming.json plus any event we're scheduled in that isn't final yet
+    # Tournaments: everything from upcoming.json plus every event we're in, finished ones included
     listed = {int(u["id"]): u for u in upcoming}
-    ids = set(listed) | {e["id"] for e in my_events if e["state"] == "live"} | \
+    by_id = {e["id"]: e for e in my_events}
+    ids = set(listed) | set(by_id) | \
           {tid for tid, ev in events.items() if any(me in (norm(g["team_a"]), norm(g["team_b"])) for g in ev["games"])}
     upcoming_out = []
     for tid in ids:
@@ -494,11 +495,18 @@ def build(events, team, upcoming, year, team_stats=None, today=None, out_dir=Non
         ev = events.get(tid)
         mine_games = [g for g in my_games if g["event_id"] == tid]
         state = event_state(ev, mine_games, today)
-        if state == "final" or (state == "posted" and tid not in listed):
+        if state == "posted" and tid not in listed:
             continue
-        hist = update_schedule_history(DATA_DIR, tid, mine_games, state, now) if mine_games else {"versions": []}
+        done = by_id.get(tid)
+        summary = None
+        if done and done.get("standing"):
+            st = done["standing"]
+            summary = {"rank": st["rank"], "teams": done["teams"], "pool": f"{st['pool_w']}-{st['pool_l']}" + (f"-{st['pool_t']}" if st.get("pool_t") else ""),
+                       "bracket": st.get("bracket"), "seed": st.get("seed"), "bracket_games": st.get("bracket_games", []),
+                       "w": sum(1 for g in mine_games if g["result"] == "W"), "l": sum(1 for g in mine_games if g["result"] == "L")}
+        hist = update_schedule_history(DATA_DIR, tid, mine_games, state, now) if mine_games and state != "final" else {"versions": []}
         upcoming_out.append({
-            "id": tid, "state": state, "official": bool(u.get("official")),
+            "id": tid, "state": state, "official": bool(u.get("official")), "summary": summary,
             "name": (ev and ev["name"]) or u.get("name") or f"Tournament {tid}",
             "dates": (ev and ev["dates"]) or u.get("dates", ""),
             "date": (ev and ev["date"]) or start_date(u.get("dates", ""), year),
@@ -510,7 +518,7 @@ def build(events, team, upcoming, year, team_stats=None, today=None, out_dir=Non
             "schedule_first": hist["versions"][0]["seen"] if hist["versions"] else None,
             "schedule_updated": hist["versions"][-1]["seen"] if hist["versions"] else None,
             "changes": schedule_changes(hist),
-            "ics": write_ics(out_dir, tid, (ev and ev["name"]) or u.get("name", ""), team, mine_games, fields, not u.get("official")) if out_dir and mine_games else None,
+            "ics": write_ics(out_dir, tid, (ev and ev["name"]) or u.get("name", ""), team, mine_games, fields, not u.get("official")) if out_dir and mine_games and state != "final" else None,
         })
     upcoming_out.sort(key=lambda e: e["date"] or "9999")
 
@@ -548,7 +556,7 @@ def build(events, team, upcoming, year, team_stats=None, today=None, out_dir=Non
         "built": datetime.now().strftime("%a %b %d, %Y %I:%M %p"),
         "record": {"w": mine["w"], "l": mine["l"], "t": mine["t"], "rs": mine["rs"], "ra": mine["ra"]},
         "my_games": sorted(my_games, key=lambda g: (g["date"], g["event_id"], g["section"], g["game"])),
-        "my_events": my_events, "upcoming": upcoming_out, "teams": teams,
+        "my_events": my_events, "tournaments": upcoming_out, "teams": teams,
         "fields": dict(sorted(fields.items())),
         "roster": build_roster(DATA_DIR, mine["page_id"], HERE / "roster.json"),
         **season_summary(team_stats.get(mine["page_id"])),
@@ -587,7 +595,7 @@ def main():
 
     r = site["record"]
     print(f"{site['team']}: {r['w']}-{r['l']}-{r['t']} over {len(site['my_games'])} games, "
-          f"{len(site['my_events'])} events played, {len(site['upcoming'])} upcoming, "
+          f"{len(site['my_events'])} events played, {len(site['tournaments'])} tournaments listed, "
           f"{len(site['teams'])} teams in {len(events)} {args.division} events")
     print(f"wrote {out / 'data.js'}")
     return 0

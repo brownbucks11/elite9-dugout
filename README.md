@@ -35,8 +35,9 @@ Elite 9 (9U, Fall 2026) - Top Gun tournament tracking.
 Add --visible to watch the browser. Team defaults to "Elite 9" (--team to change).
 
 ## Web page (docs/)
-`docs/index.html` is a static page for parents: Next Up, Results, Standings (all 9U teams,
-tap one for its game log), Fields (with map links). It reads `docs/data.js`, which is built
+`docs/index.html` is a static page for parents: Tournaments (the whole season, each event in
+its current state), Results, Roster, Teams (all 9U teams, tap one for its game log), Fields (with
+map links). It reads `docs/data.js`, which is built
 from the saved pages in `data/`:
 
     python build_site.py            # rebuild docs/data.js from data/ (events since Aug 1, Top Gun's season)
@@ -44,13 +45,14 @@ from the saved pages in `data/`:
     python refresh.py --teams       # also refresh every team's statistics page (points, finishes)
 
 Double-click `docs/index.html` to preview locally. `upcoming.json` is the list of events
-shown under Next Up - add a tournament ID + dates there when a new one is booked. Add
+shown under Tournaments - add a tournament ID + dates there when a new one is booked. Add
 `"official": true` to an event once the coach posts the final schedule and its card flips from
 "Tentative" to "Official (per coach)".
 
-Each event moves through four states: announced (no schedule yet) -> scheduled (Next Up;
+Each event moves through four states: announced (no schedule yet) -> scheduled (Tournaments;
 tentative, with every change Top Gun makes recorded in `data/schedules/<id>.json` and shown on
-the card) -> live (game day: Results, tagged LIVE, next game highlighted) -> final (Results).
+the card) -> live (game day: Results, tagged LIVE, next game highlighted) -> final (stays on Tournaments
+with its finish, linking to Results).
 A `.ics` calendar file of our games is written to `docs/ics/<id>.ics` for scheduled and live
 events. `python build_site.py --today 2026-09-26` previews the page as of another date.
 

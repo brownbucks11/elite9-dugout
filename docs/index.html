@@ -180,6 +180,9 @@
   .stag.live { background: var(--loss); color: #fff; }
   .stag.tentative { border: 1px solid var(--amber); color: var(--ink); background: var(--me-bg); }
   .stag.official { background: var(--win); color: #fff; }
+  .stag.final { background: var(--tie-bg); color: var(--ink-2); }
+  article.event.final .event-head { border-bottom: 0; }
+  article.event.final .datebox { opacity: .75; }
   .chg { color: var(--loss); }
   .chg-pill { display: inline-block; font-size: 10px; font-weight: 700; letter-spacing: .5px; text-transform: uppercase; padding: 1px 6px; border-radius: 999px; background: var(--amber); color: var(--navy); margin-left: 6px; vertical-align: middle; }
   .chg-pill.next { background: var(--win); color: #fff; }
@@ -325,8 +328,8 @@
     </div>
     <div class="hdr-link" id="hdr-link"></div>
     <nav class="tabs" role="tablist" id="tabs">
-      <button class="tab" role="tab" data-tab="results" aria-selected="true">Results</button>
-      <button class="tab" role="tab" data-tab="next">Next Up</button>
+      <button class="tab" role="tab" data-tab="tournaments" aria-selected="true">Tournaments</button>
+      <button class="tab" role="tab" data-tab="results">Results</button>
       <button class="tab" role="tab" data-tab="roster">Roster</button>
       <button class="tab" role="tab" data-tab="teams">Teams</button>
       <button class="tab" role="tab" data-tab="fields">Fields</button>
@@ -340,8 +343,8 @@
 </div></div>
 
 <main>
-  <section role="tabpanel" id="panel-results"></section>
-  <section role="tabpanel" id="panel-next" hidden></section>
+  <section role="tabpanel" id="panel-tournaments"></section>
+  <section role="tabpanel" id="panel-results" hidden></section>
   <section role="tabpanel" id="panel-teams" hidden></section>
   <section role="tabpanel" id="panel-fields" hidden></section>
   <section role="tabpanel" id="panel-roster" hidden></section>
@@ -454,16 +457,27 @@
   const stag = (kind) => `<span class="stag ${kind}">${STAG[kind]}</span>`;
 
   function renderNext() {
-    const list = D.upcoming || [];
+    const list = (D.tournaments || []).slice().sort((a, b) => (a.date || "9999").localeCompare(b.date || "9999"));
     if (!list.length) {
-      $("#panel-next").innerHTML = `<h2 class="section-title">Next up</h2><div class="event"><p class="empty">No upcoming events on the list. Add tournament IDs to upcoming.json and rebuild.</p></div>`;
+      $("#panel-tournaments").innerHTML = `<h2 class="section-title">Tournaments</h2><div class="event"><p class="empty">No tournaments on the list. Add tournament IDs to upcoming.json and rebuild.</p></div>`;
       return;
     }
-    const nextIdx = list.findIndex((e) => e.state !== "live" && (!e.date || iso(e.date) >= today));
-    $("#panel-next").innerHTML = `<h2 class="section-title">Next up <span class="sub">${list.length} event${list.length === 1 ? "" : "s"} on the calendar · Top Gun schedules move around during the week — the coach's TeamReach post is final</span></h2>` +
+    const nextIdx = list.findIndex((e) => e.state !== "live" && e.state !== "final" && (!e.date || iso(e.date) >= today));
+    const nDone = list.filter((e) => e.state === "final").length;
+    $("#panel-tournaments").innerHTML = `<h2 class="section-title">Tournaments <span class="sub">${list.length} this season · ${nDone} played · Top Gun schedules move around during the week — the coach's TeamReach post is final</span></h2>` +
       list.map((e, i) => {
         let body = "", tag = "", meta = esc(e.dates);
-        if (e.state === "live") {
+        if (e.state === "final") {
+          const s = e.summary;
+          tag = '<span class="stag final">Final</span>';
+          if (s) {
+            const bg = s.bracket_games || [];
+            const br = bg.length ? bg.map((b) => `${esc(b.section.replace(/ bracket$/i, ""))} ${b.result} ${b.rs}–${b.ra}`).join(", ") : (s.bracket ? esc(s.bracket) : "no bracket game");
+            body = `<div class="event-body"><p class="pointer"><b>${ordinal(s.rank)} of ${s.teams}</b> · went ${s.w}-${s.l} · pool ${esc(s.pool)} · ${br} &nbsp; <button type="button" class="linkish" data-goto="results" data-event="${e.id}">See results →</button></p></div>`;
+          } else {
+            body = `<div class="event-body"><p class="pointer"><button type="button" class="linkish" data-goto="results" data-event="${e.id}">See results →</button></p></div>`;
+          }
+        } else if (e.state === "live") {
           tag = stag("live");
           const n = e.next_game;
           body = `<div class="event-body"><p class="pointer">Game day — scores and the bracket are on <button type="button" class="linkish" data-goto="results">Results</button>.
@@ -493,13 +507,13 @@
             </li>`;
           }).join("") + rem.map((c) => `<li class="game removed"><div class="pill time">${esc(c.was.day)}</div><div><div class="opp">${esc(c.was.opponent)}<span class="chg-pill">removed</span></div><div class="when">${esc(c.was.day)} ${esc(c.was.time)} · ${fieldHtml(c.was.field)}</div></div><div class="score"></div></li>`).join("") + `</ul></div>`;
         }
-        return `<article class="event ${e.state}">
+        return `<article class="event ${e.state}" id="tournament-${e.id}">
           <div class="event-head">${datebox(e.date)}
             <div><h3>${esc(tidy(e.name))}${i === nextIdx ? '<span class="next-badge">Next</span>' : ""} ${tag}</h3>
                  <div class="event-meta">${meta}${e.standings.length ? ` · ${e.standings.length} teams` : ""}</div></div>
           </div>
           ${body}
-          <div class="event-foot">${e.ics ? `<a href="${esc(e.ics)}" download>Add our games to your calendar</a>` : ""}<a href="${esc(e.url)}" target="_blank" rel="noopener">Full schedule &amp; brackets on Top Gun ↗</a></div>
+          ${e.state === "final" ? "" : `<div class="event-foot">${e.ics ? `<a href="${esc(e.ics)}" download>Add our games to your calendar</a>` : ""}<a href="${esc(e.url)}" target="_blank" rel="noopener">Full schedule &amp; brackets on Top Gun ↗</a></div>`}
         </article>`;
       }).join("");
   }
@@ -724,7 +738,7 @@
         const unseeded = e.standings.some((r) => r.seed) && e.standings.some((r) => !r.seed && !r.bracket);
         const seedNote = unseeded ? " Teams without a bracket seed weren't in the Sunday brackets (a Saturday-only entry, for example); Pool rank still places them by record, so official seed numbers can differ from Pool rank." : "";
         const nextKey = e.next_game ? gameKey(e.next_game) : null;
-        return `<details class="event ${e.state}" ${i === 0 || e.state === "live" ? "open" : ""}>
+        return `<details class="event ${e.state}" id="event-${e.id}" ${i === 0 || e.state === "live" ? "open" : ""}>
           <summary class="event-head">${datebox(e.date)}
             <div><h3>${esc(tidy(e.name))} ${e.state === "live" ? '<span class="stag live">Live</span>' : ""}</h3><div class="event-meta">${esc(e.dates)}${e.notes.length ? " · " + esc(e.notes.join(", ")) : ""}${e.state === "live" ? ` · refreshed ${esc(D.built)}` : ""}</div></div>
             ${finish}
@@ -812,7 +826,7 @@
       const f = fieldParts(g.field);
       (g.result ? played : upcoming)[f.abbr] = ((g.result ? played : upcoming)[f.abbr] || []).concat([{ ...g, sub: f.sub, event: g.event }]);
     });
-    (D.upcoming || []).forEach((e) => e.games.forEach((g) => {
+    (D.tournaments || []).filter((e) => e.state !== "final").forEach((e) => e.games.forEach((g) => {
       const isA = norm(g.team_a) === ME;
       if (!isA && norm(g.team_b) !== ME) return;
       if (g.score_a != null && g.score_b != null) return;
@@ -880,17 +894,22 @@
   document.addEventListener("keydown", (e) => { if (e.key === "Escape" && !$("#sheet").hidden) closeTeam(); });
   document.addEventListener("click", (e) => {
     const go = e.target.closest("[data-goto]");
-    if (go) { showTab(go.dataset.goto, true); window.scrollTo({ top: 0, behavior: "smooth" }); return; }
+    if (go) {
+      showTab(go.dataset.goto, true);
+      const target = go.dataset.event && document.getElementById("event-" + go.dataset.event);
+      if (target) { target.open = true; target.scrollIntoView({ behavior: "smooth", block: "start" }); } else window.scrollTo({ top: 0, behavior: "smooth" });
+      return;
+    }
     const b = e.target.closest("[data-team]");
     if (b) { closeTeam(); openTeam(b.dataset.team); }
   });
 
   // ---- Tabs ---------------------------------------------------------------------
-  const TABS = ["results", "next", "roster", "teams", "fields"];
-  const TAB_ALIAS = { standings: "teams" };
+  const TABS = ["tournaments", "results", "roster", "teams", "fields"];
+  const TAB_ALIAS = { standings: "teams", next: "tournaments" };
   function showTab(name, push) {
     name = TAB_ALIAS[name] || name;
-    if (!TABS.includes(name)) name = "results";
+    if (!TABS.includes(name)) name = "tournaments";
     document.querySelectorAll(".tab").forEach((t) => t.setAttribute("aria-selected", String(t.dataset.tab === name)));
     TABS.forEach((t) => { $("#panel-" + t).hidden = t !== name; });
     if (push && location.hash !== "#" + name) history.replaceState(null, "", "#" + name);
@@ -949,7 +968,7 @@
   renderNext(); renderResults(); renderStandings(); renderFields(); renderRoster();
   let start = location.hash.slice(1);
   if (!start) { try { start = localStorage.getItem("elite9.tab") || ""; } catch (_) {} }
-  showTab(start || "results", false);
+  showTab(start || "tournaments", false);
 })();
 </script>
 </body>
