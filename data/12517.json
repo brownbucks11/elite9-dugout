@@ -561,7 +561,7 @@
           "seed": 2,
           "team": "Athletes Lab 10u Navy",
           "location": "Maiden, NC",
-          "won": 3,
+          "won": 4,
           "lost": 0,
           "runs_allowed": 4,
           "runs_scored": 26,
@@ -592,7 +592,7 @@
           "team": "Canes Atlantic 10u Wagner",
           "location": "Mooresville, NC",
           "won": 3,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 10,
           "runs_scored": 15,
           "team_page_id": 38280
@@ -622,7 +622,7 @@
           "team": "Copperheads Black",
           "location": "Mooresville, NC",
           "won": 3,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 6,
           "runs_scored": 16,
           "team_page_id": 31605
@@ -651,7 +651,7 @@
           "seed": 6,
           "team": "Stingers 10",
           "location": "Matthews, NC",
-          "won": 3,
+          "won": 4,
           "lost": 0,
           "runs_allowed": 6,
           "runs_scored": 20,
@@ -877,10 +877,10 @@
             "field": "Bradford:Field # 3",
             "team_a": "Winner Game #3 Stingers 10",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 11,
             "team_b": "Winner Game #4 Copperheads Black",
             "seed_b": null,
-            "score_b": null
+            "score_b": 9
           }
         ],
         "Silver Bracket": [
@@ -980,7 +980,7 @@
           "seed": 1,
           "team": "Carolina Diamond Crushers",
           "location": "Kannapolis, NC",
-          "won": 2,
+          "won": 3,
           "lost": 1,
           "runs_allowed": 11,
           "runs_scored": 15,
@@ -1001,7 +1001,7 @@
           "team": "ELITE BASEBALL 11U EBC",
           "location": "Forest City, NC",
           "won": 2,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 12,
           "runs_scored": 10,
           "team_page_id": 28235
@@ -1338,10 +1338,10 @@
             "field": "Westmoreld:Field 3",
             "team_a": "Winner Game #1 ELITE BASEBALL 11U EBC",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 9,
             "team_b": "Winner Game #2 Carolina Diamond Crushers",
             "seed_b": null,
-            "score_b": null
+            "score_b": 10
           }
         ],
         "Bronze Bracket": [
@@ -2756,5 +2756,5 @@
   },
   "site_last_updated": "09/17/2026 12:42 PM",
   "tournament_id": 12517,
-  "fetched_at": "2026-09-20T19:02"
+  "fetched_at": "2026-09-20T20:35"
 }
