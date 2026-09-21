@@ -1,5 +1,5 @@
 # Elite 9 - Top Gun schedule
-_Updated Mon Sep 21, 2026 12:49 PM_
+_Updated Mon Sep 21, 2026 02:18 PM_
 
 ## WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND
 September 19 - 20 in Greater Charlotte Area, NC  
@@ -68,6 +68,12 @@ _Elite 9 not listed yet. Divisions posted: none posted yet_
 ## ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO
 November 7 - 8 in Greater Charlotte Area, NC  
 Tournament 12524 - [schedule page](https://playtopgunsports.com/GameTimesResults.aspx?trnid=12524)
+
+_Elite 9 not listed yet. Divisions posted: none posted yet_
+
+## SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND
+September 26 - 27 in Statesville, NC  
+Tournament 13562 - [schedule page](https://playtopgunsports.com/GameTimesResults.aspx?trnid=13562)
 
 _Elite 9 not listed yet. Divisions posted: none posted yet_
 
