@@ -176,6 +176,21 @@
   .event-body { padding: 6px 16px 12px; }
   .event-foot { padding: 8px 16px 12px; font-size: 13px; display: flex; gap: 16px; flex-wrap: wrap; }
   .empty { padding: 14px 16px; color: var(--ink-2); font-size: 14px; }
+  .stag { display: inline-block; font-family: var(--body); font-size: 11px; font-weight: 600; letter-spacing: 1.2px; text-transform: uppercase; padding: 2px 8px; border-radius: 3px; margin-left: 6px; vertical-align: middle; }
+  .stag.live { background: var(--loss); color: #fff; }
+  .stag.tentative { border: 1px solid var(--amber); color: var(--ink); background: var(--me-bg); }
+  .stag.official { background: var(--win); color: #fff; }
+  .chg { color: var(--loss); }
+  .chg-pill { display: inline-block; font-size: 10px; font-weight: 700; letter-spacing: .5px; text-transform: uppercase; padding: 1px 6px; border-radius: 999px; background: var(--amber); color: var(--navy); margin-left: 6px; vertical-align: middle; }
+  .chg-pill.next { background: var(--win); color: #fff; }
+  .game.moved { background: linear-gradient(90deg, var(--me-bg), transparent 70%); margin: 0 -16px; padding-left: 12px; padding-right: 16px; border-left: 4px solid var(--amber); }
+  .game.removed { opacity: .6; }
+  .game.removed .opp { text-decoration: line-through; }
+  .game.next { background: linear-gradient(90deg, var(--win-bg), transparent 70%); margin: 0 -16px; padding-left: 12px; padding-right: 16px; border-left: 4px solid var(--win); }
+  .was { font-size: 12px; color: var(--loss); text-decoration: line-through; }
+  .scout { font-style: italic; }
+  .pointer { margin: 0; padding: 12px 0; font-size: 15px; }
+  .linkish { background: none; border: 0; padding: 0; font: inherit; color: var(--link); text-decoration: underline; cursor: pointer; }
   .next-badge { display: inline-block; font-size: 11px; font-weight: 600; letter-spacing: 1.5px; text-transform: uppercase; color: var(--navy); background: var(--amber); padding: 2px 8px; border-radius: 3px; margin-left: 8px; vertical-align: middle; }
 
   /* Game rows */
@@ -427,43 +442,64 @@
   $("#notice-show").addEventListener("click", (e) => { e.preventDefault(); noticeWrap.hidden = false; try { localStorage.removeItem("elite9.notice"); } catch (_) {} window.scrollTo({ top: 0, behavior: "smooth" }); });
 
   // ---- Next Up ---------------------------------------------------------------
+  const fmtSeen = (iso) => { const d = iso ? new Date(iso) : null; return d && !isNaN(d) ? d.toLocaleDateString(undefined, { weekday: "short", month: "short", day: "numeric" }) + " " + d.toLocaleTimeString(undefined, { hour: "numeric", minute: "2-digit" }) : ""; };
+  const oppInfo = (name) => {
+    const t = D.teams.find((x) => norm(x.team) === norm(name));
+    if (!t) return "";
+    const v = vsUs(t);
+    return `${recordStr(t)} this season · ${v.n ? `they're ${v.text} vs us` : "first meeting"}`;
+  };
+  const gameKey = (g) => `${g.section}#${g.game}`;
+  const STAG = { live: "In progress", tentative: "Tentative", official: "Official (per coach)" };
+  const stag = (kind) => `<span class="stag ${kind}">${STAG[kind]}</span>`;
+
   function renderNext() {
     const list = D.upcoming || [];
     if (!list.length) {
       $("#panel-next").innerHTML = `<h2 class="section-title">Next up</h2><div class="event"><p class="empty">No upcoming events on the list. Add tournament IDs to upcoming.json and rebuild.</p></div>`;
       return;
     }
-    const nextIdx = list.findIndex((e) => !e.date || iso(e.date) >= today);
-    $("#panel-next").innerHTML = `<h2 class="section-title">Next up <span class="sub">${list.length} event${list.length === 1 ? "" : "s"} on the calendar</span></h2>` +
+    const nextIdx = list.findIndex((e) => e.state !== "live" && (!e.date || iso(e.date) >= today));
+    $("#panel-next").innerHTML = `<h2 class="section-title">Next up <span class="sub">${list.length} event${list.length === 1 ? "" : "s"} on the calendar · Top Gun schedules move around during the week — the coach's TeamReach post is final</span></h2>` +
       list.map((e, i) => {
-        const mine = e.games.filter((g) => norm(g.team_a) === ME || norm(g.team_b) === ME);
-        let body;
-        if (!e.posted) {
-          body = `<p class="empty">Schedule not posted yet — check back closer to game day.</p>`;
-        } else if (!mine.length) {
+        let body = "", tag = "", meta = esc(e.dates);
+        if (e.state === "live") {
+          tag = stag("live");
+          const n = e.next_game;
+          body = `<div class="event-body"><p class="pointer">Game day — scores and the bracket are on <button type="button" class="linkish" data-goto="results">Results</button>.
+            ${n ? `<br>Next: <b>vs ${PH.test(n.opponent) ? esc(n.opponent) : teamBtn(n.opponent)}</b> · ${esc(n.day)} ${esc(n.time)} · ${fieldHtml(n.field)}` : ""}</p></div>`;
+        } else if (!e.posted) {
+          body = `<p class="empty">Schedule not posted yet — Top Gun usually posts during the week, then changes it a few times before game day.</p>`;
+        } else if (!e.mine.length) {
           body = `<p class="empty">Schedule is up, but ${esc(D.team)} isn't on it yet.</p>`;
         } else {
-          body = `<div class="event-body"><ul class="games">` + mine.map((g) => {
-            const isA = norm(g.team_a) === ME;
-            const opp = isA ? g.team_b : g.team_a;
-            const rs = isA ? g.score_a : g.score_b, ra = isA ? g.score_b : g.score_a;
-            const done = rs != null && ra != null;
-            const res = done ? (rs > ra ? "W" : rs < ra ? "L" : "T") : null;
-            return `<li class="game ${res === "W" ? "won" : ""}">
-              <div class="pill ${done ? res : "time"}">${done ? res : esc(g.day)}</div>
-              <div><div class="opp">${/^(winner|loser|seed)/i.test(opp) ? esc(opp) : teamBtn(opp)}</div>
-                   <div class="when">${esc(g.day)} ${esc(g.time)} · ${fieldHtml(g.field)} · ${esc(g.section)} G${g.game}</div></div>
-              <div class="score">${done ? `${rs}–${ra}` : `<small>${esc(g.time)}</small>`}</div>
+          tag = stag(e.official ? "official" : "tentative");
+          const changes = e.changes || [];
+          const chg = changes.filter((c) => c.kind === "changed").length, add = changes.filter((c) => c.kind === "added").length, rem = changes.filter((c) => c.kind === "removed");
+          meta += ` · schedule v${e.schedule_versions}${e.schedule_updated ? ` · updated ${esc(fmtSeen(e.schedule_updated))}` : ""}` +
+            (chg || add || rem.length ? ` · <b class="chg">${[chg && `${chg} game${chg > 1 ? "s" : ""} moved`, add && `${add} added`, rem.length && `${rem.length} removed`].filter(Boolean).join(", ")}</b>` : "");
+          const games = e.mine.slice().sort((a, b) => (a.date || "").localeCompare(b.date || "") || clock(a.time) - clock(b.time) || a.game - b.game);
+          body = `<div class="event-body"><ul class="games">` + games.map((g) => {
+            const c = changes.find((x) => x.key === gameKey(g));
+            const was = c && c.kind === "changed" ? Object.entries(c.was).map(([k, v]) => k === "field" ? fieldParts(v).name + (fieldParts(v).sub ? " · " + fieldParts(v).sub : "") : v).join(" · ") : "";
+            const opp = g.opponent, tbd = PH.test(opp);
+            return `<li class="game ${c ? "moved" : ""}">
+              <div class="pill time">${esc(g.day)}</div>
+              <div><div class="opp">${tbd ? esc(opp) : teamBtn(opp)}${c ? `<span class="chg-pill">${c.kind === "added" ? "new" : "changed"}</span>` : ""}</div>
+                   <div class="when">${esc(g.day)} ${esc(g.time)} · ${fieldHtml(g.field)} · ${esc(g.section)} G${g.game}</div>
+                   ${was ? `<div class="was">was ${esc(was)}</div>` : ""}
+                   ${!tbd && oppInfo(opp) ? `<div class="when scout">${esc(oppInfo(opp))}</div>` : ""}</div>
+              <div class="score"><small>${esc(g.time)}</small></div>
             </li>`;
-          }).join("") + `</ul></div>`;
+          }).join("") + rem.map((c) => `<li class="game removed"><div class="pill time">${esc(c.was.day)}</div><div><div class="opp">${esc(c.was.opponent)}<span class="chg-pill">removed</span></div><div class="when">${esc(c.was.day)} ${esc(c.was.time)} · ${fieldHtml(c.was.field)}</div></div><div class="score"></div></li>`).join("") + `</ul></div>`;
         }
-        return `<article class="event">
+        return `<article class="event ${e.state}">
           <div class="event-head">${datebox(e.date)}
-            <div><h3>${esc(tidy(e.name))}${i === nextIdx ? '<span class="next-badge">Next</span>' : ""}</h3>
-                 <div class="event-meta">${esc(e.dates)}${e.standings.length ? ` · ${e.standings.length} teams` : ""}</div></div>
+            <div><h3>${esc(tidy(e.name))}${i === nextIdx ? '<span class="next-badge">Next</span>' : ""} ${tag}</h3>
+                 <div class="event-meta">${meta}${e.standings.length ? ` · ${e.standings.length} teams` : ""}</div></div>
           </div>
           ${body}
-          <div class="event-foot"><a href="${esc(e.url)}" target="_blank" rel="noopener">Full schedule &amp; brackets on Top Gun ↗</a></div>
+          <div class="event-foot">${e.ics ? `<a href="${esc(e.ics)}" download>Add our games to your calendar</a>` : ""}<a href="${esc(e.url)}" target="_blank" rel="noopener">Full schedule &amp; brackets on Top Gun ↗</a></div>
         </article>`;
       }).join("");
   }
@@ -663,7 +699,7 @@
       <p class="when" style="padding:8px 16px 10px;margin:0">Pool rank uses Top Gun's tie-breaker: record, then head-to-head (two-way ties), runs allowed, runs scored, last-game run differential, coin flip — pool games only. Overall includes bracket games.${note} <a href="rules/tiebreakers.pdf" target="_blank" rel="noopener">Official rule (PDF)</a></p>`;
   }
   function renderResults() {
-    const evs = (D.my_events || []).slice().sort((a, b) => (b.date || "").localeCompare(a.date || ""));
+    const evs = (D.my_events || []).slice().sort((a, b) => ((b.state === "live") - (a.state === "live")) || (b.date || "").localeCompare(a.date || ""));
     if (!evs.length) {
       $("#panel-results").innerHTML = `<h2 class="section-title">Results</h2><div class="event"><p class="empty">No games played yet.</p></div>`;
       return;
@@ -683,24 +719,25 @@
             : s.bracket ? esc(s.bracket) + (s.seed ? ` #${s.seed} seed` : "")
             : hasSeeds ? `not seeded for brackets${onlyDay ? ` · played ${esc(onlyDay)} only` : ""}`
             : "no bracket game";
-          finish = `<div class="finish"><b>${ordinal(s.rank)} of ${e.teams}</b><span>Pool ${poolRecord(s)} · ${bracketLine}</span></div>`;
+          finish = `<div class="finish"><b>${ordinal(s.rank)} of ${e.teams}${e.state === "live" ? " so far" : ""}</b><span>Pool ${poolRecord(s)} · ${bracketLine}</span></div>`;
         }
         const unseeded = e.standings.some((r) => r.seed) && e.standings.some((r) => !r.seed && !r.bracket);
         const seedNote = unseeded ? " Teams without a bracket seed weren't in the Sunday brackets (a Saturday-only entry, for example); Pool rank still places them by record, so official seed numbers can differ from Pool rank." : "";
-        return `<details class="event" ${i === 0 ? "open" : ""}>
+        const nextKey = e.next_game ? gameKey(e.next_game) : null;
+        return `<details class="event ${e.state}" ${i === 0 || e.state === "live" ? "open" : ""}>
           <summary class="event-head">${datebox(e.date)}
-            <div><h3>${esc(tidy(e.name))}</h3><div class="event-meta">${esc(e.dates)}${e.notes.length ? " · " + esc(e.notes.join(", ")) : ""}</div></div>
+            <div><h3>${esc(tidy(e.name))} ${e.state === "live" ? '<span class="stag live">Live</span>' : ""}</h3><div class="event-meta">${esc(e.dates)}${e.notes.length ? " · " + esc(e.notes.join(", ")) : ""}${e.state === "live" ? ` · refreshed ${esc(D.built)}` : ""}</div></div>
             ${finish}
           </summary>
-          <div class="event-body"><ul class="games">${games.map((g) => `<li class="game ${g.result === "W" ? "won" : ""}">
+          <div class="event-body"><ul class="games">${games.map((g) => `<li class="game ${g.result === "W" ? "won" : ""} ${nextKey && gameKey(g) === nextKey ? "next" : ""}">
               <div class="pill ${g.result || "time"}">${g.result || esc(g.day)}</div>
-              <div><div class="opp">${/^(winner|loser|seed)/i.test(g.opponent) ? esc(g.opponent) : teamBtn(g.opponent)}</div>
+              <div><div class="opp">${/^(winner|loser|seed)/i.test(g.opponent) ? esc(g.opponent) : teamBtn(g.opponent)}${nextKey && gameKey(g) === nextKey ? '<span class="chg-pill next">next</span>' : ""}</div>
                    <div class="when">${esc(g.section)} G${g.game} · ${esc(g.day)} ${esc(g.time)} · ${fieldHtml(g.field)}</div></div>
-              <div class="score">${g.result ? `${g.rs}–${g.ra}` : `<small>not played</small>`}</div>
+              <div class="score">${g.result ? `${g.rs}–${g.ra}` : `<small>${esc(g.time)}</small>`}</div>
             </li>`).join("")}</ul></div>
           ${bracketsHtml(e.games, games)}
           <details class="inner"><summary>Standings (${e.teams} teams)</summary>${standingsTable(e.standings, seedNote)}</details>
-          <div class="event-foot"><a href="${esc(e.url)}" target="_blank" rel="noopener">Brackets &amp; all games on Top Gun ↗</a></div>
+          <div class="event-foot">${e.ics ? `<a href="${esc(e.ics)}" download>Add our games to your calendar</a>` : ""}<a href="${esc(e.url)}" target="_blank" rel="noopener">Brackets &amp; all games on Top Gun ↗</a></div>
         </details>`;
       }).join("");
   }
@@ -842,6 +879,8 @@
   function closeTeam() { $("#sheet").hidden = true; $("#sheet").innerHTML = ""; document.body.style.overflow = ""; }
   document.addEventListener("keydown", (e) => { if (e.key === "Escape" && !$("#sheet").hidden) closeTeam(); });
   document.addEventListener("click", (e) => {
+    const go = e.target.closest("[data-goto]");
+    if (go) { showTab(go.dataset.goto, true); window.scrollTo({ top: 0, behavior: "smooth" }); return; }
     const b = e.target.closest("[data-team]");
     if (b) { closeTeam(); openTeam(b.dataset.team); }
   });

@@ -21,7 +21,7 @@ import json
 import re
 import sys
 from collections import defaultdict
-from datetime import date, datetime, timedelta
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 import topgun_parse
@@ -162,6 +162,109 @@ def build_roster(data_dir, page_id, roster_path):
         "not_on_topgun": unmatched,                      # in roster.json but not an active Top Gun player
         "duplicate_numbers": {str(n): v for n, v in dup.items() if len(v) > 1},
     }
+
+
+def event_state(ev, mine, today):
+    """announced -> scheduled -> live -> final, from the calendar and what has been played."""
+    if not ev or not ev["games"]:
+        return "announced"
+    if not mine:
+        return "posted"                      # schedule is up but our team is not on it
+    start = ev["date"] or ""
+    end = max([g["date"] for g in ev["games"] if g["date"]] or [start])
+    if today < start:
+        return "scheduled"
+    if today <= end:
+        return "live"
+    return "final"
+
+
+SCHED_FIELDS = ("day", "time", "field", "opponent")
+
+
+def update_schedule_history(data_dir, tid, mine, state, now):
+    """Keep every version of our schedule for an event in data/schedules/<id>.json.
+    Top Gun moves times and fields around during the week; a new version is stored whenever
+    day/time/field (or a real opponent) changes. Returns the history."""
+    path = data_dir / "schedules" / f"{tid}.json"
+    hist = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {"event_id": tid, "versions": []}
+    cur = [{"key": f"{g['section']}#{g['game']}", "date": g["date"], "day": g["day"], "time": g["time"],
+            "field": g["field"], "opponent": g["opponent"]} for g in mine]
+    if not cur or state == "final":
+        return hist
+    last = hist["versions"][-1]["games"] if hist["versions"] else None
+
+    def sig(games):
+        # bracket slots resolving from "Winner Game #1" to a team is not a schedule change
+        return [(g["key"], g["day"], g["time"], g["field"], None if is_placeholder(g["opponent"]) else g["opponent"]) for g in games]
+    if last is None or sig(last) != sig(cur):
+        # a slot turning from placeholder into a team name only: update in place, no new version
+        if last is not None and [(k, d, t, f) for k, d, t, f, _ in sig(last)] == [(k, d, t, f) for k, d, t, f, _ in sig(cur)] \
+                and all(is_placeholder(a["opponent"]) or a["opponent"] == b["opponent"] for a, b in zip(last, cur)):
+            hist["versions"][-1]["games"] = cur
+        else:
+            hist["versions"].append({"seen": now.isoformat(timespec="minutes"), "games": cur})
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(json.dumps(hist, indent=1), encoding="utf-8")
+    return hist
+
+
+def schedule_changes(hist):
+    """What moved between the last two versions: [{key, kind, was}]"""
+    vs = hist.get("versions", [])
+    if len(vs) < 2:
+        return []
+    prev = {g["key"]: g for g in vs[-2]["games"]}
+    cur = {g["key"]: g for g in vs[-1]["games"]}
+    out = []
+    for k, g in cur.items():
+        p = prev.get(k)
+        if not p:
+            out.append({"key": k, "kind": "added"})
+            continue
+        was = {f: p[f] for f in SCHED_FIELDS if p[f] != g[f] and not (f == "opponent" and (is_placeholder(p[f]) or is_placeholder(g[f])))}
+        if was:
+            out.append({"key": k, "kind": "changed", "was": was})
+    for k, p in prev.items():
+        if k not in cur:
+            out.append({"key": k, "kind": "removed", "was": p})
+    return out
+
+
+def ics_escape(t):
+    return str(t or "").replace("\\", "\\\\").replace(";", "\\;").replace(",", "\\,").replace("\n", "\\n")
+
+
+def write_ics(out_dir, tid, ev_name, team, mine, fields, tentative):
+    """docs/ics/<id>.ics with our games, so a parent can add the weekend to their phone calendar."""
+    games = [g for g in mine if g["date"] and g["time"]]
+    if not games:
+        return None
+    lines = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//Elite 9 Dugout//EN", "CALSCALE:GREGORIAN", "METHOD:PUBLISH",
+             f"X-WR-CALNAME:{ics_escape(team)} - {ics_escape(ev_name[:40])}", "X-WR-TIMEZONE:America/New_York"]
+    stamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
+    for g in games:
+        try:
+            start = datetime.strptime(f"{g['date']} {g['time'].strip().upper()}", "%Y-%m-%d %I:%M %p")
+        except ValueError:
+            continue
+        end = start + timedelta(minutes=105)
+        abbr = (g["field"] or "").split(":")[0].strip()
+        sub = (g["field"] or "").split(":")[1].strip() if ":" in (g["field"] or "") else ""
+        cx = fields.get(abbr, {})
+        loc = ", ".join(x for x in (f"{cx.get('name', abbr)} {sub}".strip(), cx.get("address", "")) if x)
+        opp = g["opponent"] if not is_placeholder(g["opponent"]) else "TBD"
+        desc = f"{ev_name}. {g['section']} game {g['game']}." + (" Tentative: Top Gun schedules change during the week - the coach's TeamReach post is official." if tentative else "")
+        lines += ["BEGIN:VEVENT", f"UID:e9-{tid}-{re.sub(r'[^a-z0-9]', '', g['section'].lower())}-{g['game']}@elite9dugout",
+                  f"DTSTAMP:{stamp}", f"DTSTART;TZID=America/New_York:{start.strftime('%Y%m%dT%H%M%S')}",
+                  f"DTEND;TZID=America/New_York:{end.strftime('%Y%m%dT%H%M%S')}",
+                  f"SUMMARY:{ics_escape(team)} vs {ics_escape(opp)}", f"LOCATION:{ics_escape(loc)}",
+                  f"DESCRIPTION:{ics_escape(desc)}", "END:VEVENT"]
+    lines.append("END:VCALENDAR")
+    ics_dir = out_dir / "ics"
+    ics_dir.mkdir(parents=True, exist_ok=True)
+    (ics_dir / f"{tid}.ics").write_text("\r\n".join(lines) + "\r\n", encoding="utf-8")
+    return f"ics/{tid}.ics"
 
 
 def season_summary(st):
@@ -309,8 +412,10 @@ def rank_event(ev):
     return info
 
 
-def build(events, team, upcoming, year, team_stats=None):
+def build(events, team, upcoming, year, team_stats=None, today=None, out_dir=None):
     team_stats = team_stats or {}
+    today = today or date.today().isoformat()
+    now = datetime.now()
     me = norm(team)
     rec = defaultdict(lambda: {"team": "", "location": "", "page_id": None,
                                "w": 0, "l": 0, "t": 0, "rs": 0, "ra": 0, "events": set(), "log": []})
@@ -351,6 +456,11 @@ def build(events, team, upcoming, year, team_stats=None):
                                  "section": g["section"], "opponent": t2, "rs": s1, "ra": s2, "result": res})
 
         if played_here:
+            mine_games = [g for g in my_games if g["event_id"] == tid]
+            state = event_state(ev, mine_games, today)
+            hist = update_schedule_history(DATA_DIR, tid, mine_games, state, now)
+            if state not in ("live", "final"):
+                continue                       # scheduled-only events live under Next Up
             ranks = rank_event(ev)
             rows = []
             for s in ev["standings"]:
@@ -365,26 +475,42 @@ def build(events, team, upcoming, year, team_stats=None):
             mine = next((x for x in rows if norm(x["team"]) == me), None)
             if mine:
                 mine = dict(mine, bracket_games=ranks[me]["bracket_games"])
+            unplayed = sorted([g for g in mine_games if g["result"] is None], key=lambda g: (g["date"] or "", clock(g["time"]), g["game"]))
             my_events.append({
                 "id": tid, "name": ev["name"], "dates": ev["dates"], "date": ev["date"], "url": ev["url"],
-                "notes": ev["notes"], "teams": len(rows),
+                "notes": ev["notes"], "teams": len(rows), "state": state,
+                "next_game": unplayed[0] if unplayed else None,
+                "ics": write_ics(out_dir, tid, ev["name"], team, mine_games, fields, state != "final") if out_dir and state == "live" else None,
                 "standing": mine, "standings": rows, "games": ev["games"],
             })
 
-    played_ids = {e["id"] for e in my_events}
+    # Next Up: everything from upcoming.json plus any event we're scheduled in that isn't final yet
+    listed = {int(u["id"]): u for u in upcoming}
+    ids = set(listed) | {e["id"] for e in my_events if e["state"] == "live"} | \
+          {tid for tid, ev in events.items() if any(me in (norm(g["team_a"]), norm(g["team_b"])) for g in ev["games"])}
     upcoming_out = []
-    for u in upcoming:
-        tid = int(u["id"])
+    for tid in ids:
+        u = listed.get(tid, {})
         ev = events.get(tid)
-        if tid in played_ids and all(g["result"] for g in my_games if g["event_id"] == tid):
-            continue  # fully played, it lives under results now
+        mine_games = [g for g in my_games if g["event_id"] == tid]
+        state = event_state(ev, mine_games, today)
+        if state == "final" or (state == "posted" and tid not in listed):
+            continue
+        hist = update_schedule_history(DATA_DIR, tid, mine_games, state, now) if mine_games else {"versions": []}
         upcoming_out.append({
-            "id": tid,
+            "id": tid, "state": state, "official": bool(u.get("official")),
             "name": (ev and ev["name"]) or u.get("name") or f"Tournament {tid}",
             "dates": (ev and ev["dates"]) or u.get("dates", ""),
             "date": (ev and ev["date"]) or start_date(u.get("dates", ""), year),
-            "url": SCHEDULE_URL.format(id=tid), "posted": bool(ev),
+            "url": SCHEDULE_URL.format(id=tid), "posted": bool(ev and ev["games"]),
             "games": ev["games"] if ev else [], "standings": ev["standings"] if ev else [],
+            "mine": mine_games,
+            "next_game": next((g for g in sorted(mine_games, key=lambda g: (g["date"] or "", clock(g["time"]), g["game"])) if g["result"] is None), None),
+            "schedule_versions": len(hist["versions"]),
+            "schedule_first": hist["versions"][0]["seen"] if hist["versions"] else None,
+            "schedule_updated": hist["versions"][-1]["seen"] if hist["versions"] else None,
+            "changes": schedule_changes(hist),
+            "ics": write_ics(out_dir, tid, (ev and ev["name"]) or u.get("name", ""), team, mine_games, fields, not u.get("official")) if out_dir and mine_games else None,
         })
     upcoming_out.sort(key=lambda e: e["date"] or "9999")
 
@@ -440,6 +566,7 @@ def main():
     ap.add_argument("--data", default="data")
     ap.add_argument("--upcoming", default="upcoming.json")
     ap.add_argument("--out", default="docs")
+    ap.add_argument("--today", default=None, help="YYYY-MM-DD, to preview how the page looks on another day")
     args = ap.parse_args()
 
     global DATA_DIR
@@ -447,12 +574,13 @@ def main():
     events = load_events(Path(args.data), args.division, None if args.all else args.since, args.year)
     up_path = Path(args.upcoming)
     upcoming = json.loads(up_path.read_text(encoding="utf-8")) if up_path.exists() else []
-    site = build(events, args.team, upcoming, args.year, load_team_stats(Path(args.data)))
-    site["division"] = args.division
-    site["season_label"] = args.season
-
     out = Path(args.out)
     out.mkdir(parents=True, exist_ok=True)
+    site = build(events, args.team, upcoming, args.year, load_team_stats(Path(args.data)), args.today, out)
+    site["division"] = args.division
+    site["today"] = args.today or date.today().isoformat()
+    site["season_label"] = args.season
+
     (out / "data.json").write_text(json.dumps(site, indent=1), encoding="utf-8")
     # data.js lets index.html work from a plain double-click (file://) as well as on GitHub Pages
     (out / "data.js").write_text("window.SITE_DATA = " + json.dumps(site) + ";\n", encoding="utf-8")
