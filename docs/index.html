@@ -79,7 +79,9 @@
   .stat b { display: block; font-family: var(--display); font-size: 40px; font-weight: 700; line-height: 1; font-variant-numeric: tabular-nums; }
   .stat span { font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase; opacity: .75; }
   .stat.big b { color: var(--amber); font-size: 52px; }
-  .tabs { display: flex; gap: 4px; margin-top: 16px; overflow-x: auto; scrollbar-width: none; }
+  .board { padding-bottom: 12px; }
+  .tabs-bar { position: sticky; top: 0; z-index: 5; background: var(--navy); padding: 0 16px; box-shadow: 0 2px 6px rgba(0,0,0,.25); }
+  .tabs { display: flex; gap: 4px; overflow-x: auto; scrollbar-width: none; }
   .tabs::-webkit-scrollbar { display: none; }
   .tab {
     background: none; border: 0; color: #fff; opacity: .7; cursor: pointer;
@@ -233,6 +235,10 @@
   tr:last-child td { border-bottom: 0; }
   tr.me td { background: var(--me-bg); font-weight: 600; }
   td.mark, th.mark { width: 34px; padding-left: 8px; padding-right: 0; text-align: center; }
+  #panel-teams th.mark, #panel-teams td.mark { position: sticky; left: 0; z-index: 2; background: var(--paper); }
+  #panel-teams th:nth-child(2), #panel-teams td.team-cell { position: sticky; left: 42px; z-index: 2; background: var(--paper); box-shadow: 4px 0 6px -4px rgba(0,0,0,.25); }
+  #panel-teams tr.me td.mark, #panel-teams tr.me td.team-cell { background: var(--me-bg); }
+  #panel-teams th.mark, #panel-teams th:nth-child(2) { z-index: 3; }
   .mark-icon { width: 28px; height: 21px; vertical-align: middle; cursor: help; }
   .legend .mark-icon { width: 20px; height: 15px; }
   td.wrap { white-space: normal; min-width: 180px; }
@@ -311,6 +317,28 @@
     .event-head .finish { margin-left: 68px; text-align: left; }
     details.event > summary::after { top: 30px; }
     details.inner .from { display: none; }
+    /* event cards: two-line header, finish line under the title, tighter body */
+    .event-head { gap: 10px 12px; padding: 12px 12px; }
+    .event-head h3 { font-size: 19px; }
+    .event-meta { font-size: 12px; }
+    .refreshed { display: block; }
+    .event-head .finish { flex-basis: 100%; margin-left: 0; display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; }
+    .finish b { font-size: 20px; }
+    .finish span { font-size: 10px; }
+    details.event > summary { padding-right: 36px; }
+    .event-body, .brackets, .tb { padding-left: 12px; padding-right: 12px; }
+    .game.won, .game.next, .game.moved { margin: 0 -12px; padding-right: 12px; padding-left: 8px; }
+    .datebox { width: 48px; }
+    .datebox b { font-size: 22px; }
+    .section-title { font-size: 22px; }
+    .board-top { gap: 8px 16px; }
+    .logo { width: 56px; }
+    .team-name { font-size: 32px; }
+    .stat b { font-size: 28px; } .stat.big b { font-size: 36px; }
+    .bracket-title { font-size: 16px; }
+    .placings { min-width: 0; width: 100%; }
+    .field { padding: 10px 12px; }
+    #panel-teams td.team-cell { max-width: 150px; white-space: normal; }
     .tabs { gap: 0; justify-content: space-between; }
     .tab { font-size: 15px; padding: 10px 6px 12px; }
     .game { grid-template-columns: 44px 1fr auto; }
@@ -331,6 +359,10 @@
       <div class="record" id="hdr-record"></div>
     </div>
     <div class="hdr-link" id="hdr-link"></div>
+  </div>
+</header>
+<div class="tabs-bar">
+  <div class="board-inner">
     <nav class="tabs" role="tablist" id="tabs">
       <button class="tab" role="tab" data-tab="tournaments" aria-selected="true">Tournaments</button>
       <button class="tab" role="tab" data-tab="results">Results</button>
@@ -339,7 +371,7 @@
       <button class="tab" role="tab" data-tab="fields">Fields</button>
     </nav>
   </div>
-</header>
+</div>
 
 <div class="notice-wrap"><div class="notice" id="notice" role="note">
   <div><b>Not the official schedule.</b> Game times, field changes and rain-outs come from the coach in the <b>TeamReach</b> app — always check there first. This page is pulled from Top Gun's public site and can lag or miss a change.</div>
@@ -744,7 +776,7 @@
         const nextKey = e.next_game ? gameKey(e.next_game) : null;
         return `<details class="event ${e.state}" id="event-${e.id}" ${i === 0 || e.state === "live" ? "open" : ""}>
           <summary class="event-head">${datebox(e.date)}
-            <div><h3>${esc(tidy(e.name))} ${e.state === "live" ? '<span class="stag live">Live</span>' : ""}</h3><div class="event-meta">${esc(e.dates)}${e.notes.length ? " · " + esc(e.notes.join(", ")) : ""}${e.state === "live" ? ` · refreshed ${esc(D.built)}` : ""}</div></div>
+            <div><h3>${esc(tidy(e.name))} ${e.state === "live" ? '<span class="stag live">Live</span>' : ""}</h3><div class="event-meta">${esc(e.dates)}${e.notes.length ? " · " + esc(e.notes.join(", ")) : ""}${e.state === "live" ? ` · <span class="refreshed">refreshed ${esc(D.built)}</span>` : ""}</div></div>
             ${finish}
           </summary>
           <div class="event-body"><ul class="games">${games.map((g) => `<li class="game ${g.result === "W" ? "won" : ""} ${nextKey && gameKey(g) === nextKey ? "next" : ""}">
