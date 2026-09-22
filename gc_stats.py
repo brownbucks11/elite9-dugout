@@ -152,6 +152,38 @@ def read_grids_merged(page, settle_ms=500):
     return merged
 
 
+class ApiCapture:
+    """Record JSON responses from GameChanger's API while the browser loads pages.
+    The app fetches everything it shows as JSON, which is far more reliable than reading the grid."""
+
+    def __init__(self, page):
+        self.items = []
+        page.on("response", self._on_response)
+
+    def _on_response(self, resp):
+        try:
+            url = resp.url
+            if "gc.com" not in url or "/api" not in url and "api." not in url:
+                return
+            ctype = resp.headers.get("content-type", "")
+            if "json" not in ctype:
+                return
+            body = resp.json()
+        except Exception:
+            return
+        path = re.sub(r"^https?://[^/]+", "", url)
+        self.items.append({"url": url, "path": path, "status": resp.status, "json": body})
+
+    def take(self):
+        items, self.items = self.items, []
+        return items
+
+    @staticmethod
+    def save(items, folder, stem):
+        folder.mkdir(parents=True, exist_ok=True)
+        (folder / f"{stem}.json").write_text(json.dumps(items, indent=1), encoding="utf-8")
+
+
 def dismiss_popups(page):
     """GameChanger throws up 'Don't miss out! Follow team' style dialogs; close them so clicks land."""
     for _ in range(3):
@@ -239,7 +271,9 @@ def on_team_page(page):
         return False
 
 
-def season_stats(page, base, result):
+def season_stats(page, base, result, cap=None):
+    if cap:
+        cap.take()
     page.goto(base + "/season-stats", wait_until="domcontentloaded", timeout=60000)
     page.wait_for_timeout(3000)
     (DUMP / "season-stats.html").write_text(page.content(), encoding="utf-8")
@@ -260,13 +294,22 @@ def season_stats(page, base, result):
             best = max(grids, key=lambda g: len(g["players"]))
             result[cat.lower()][view.lower()] = best
             print(f"  season {cat}/{view}: {len(best['players'])} players, {len(best['columns'])} columns")
+    if cap:
+        items = cap.take()
+        ApiCapture.save(items, DUMP / "api", "season")
+        result["_api"] = [{"path": i["path"], "status": i["status"]} for i in items]
+        print(f"  season: captured {len(items)} API responses")
 
 
-def games(page, base, known, refresh):
+def games(page, base, known, refresh, cap=None):
     """Schedule -> each game page -> every grid/table on it (box score, batting, pitching, line score)."""
+    if cap:
+        cap.take()
     page.goto(base + "/schedule", wait_until="domcontentloaded", timeout=60000)
     page.wait_for_timeout(3000)
     (DUMP / "schedule.html").write_text(page.content(), encoding="utf-8")
+    if cap:
+        ApiCapture.save(cap.take(), DUMP / "api", "schedule")
     links = page.evaluate(GAME_LINKS)
     print(f"  schedule: {len(links)} game links")
     (DUMP / "games").mkdir(parents=True, exist_ok=True)
@@ -278,6 +321,8 @@ def games(page, base, known, refresh):
         print(f"  [{i}/{len(links)}] game {gid} ...", end=" ", flush=True)
         try:
             box_url = re.sub(r"/(box-score|recap|plays|videos|info)/?$", "", link["href"].rstrip("/")) + "/box-score"
+            if cap:
+                cap.take()
             page.goto(box_url, wait_until="domcontentloaded", timeout=60000)
             page.wait_for_timeout(3000)
             dismiss_popups(page)
@@ -290,11 +335,15 @@ def games(page, base, known, refresh):
                 print("looks logged out - run with --login")
                 break
             box = parse_box_score(text, grids, tables)
+            api = cap.take() if cap else []
+            if api:
+                ApiCapture.save(api, DUMP / "api" / "games", gid)
             out[gid] = {"id": gid, "url": box_url, "schedule_text": link["text"], "box": box,
+                        "api": {i["path"]: i["json"] for i in api if i["status"] == 200},
                         "fetched_at": datetime.now().isoformat(timespec="minutes")}
             names = " vs ".join((t["name"] or "?") for t in box["teams"])
             score = "-".join(str(t.get("R")) for t in box["teams"])
-            print(f"{box['status']} {names} {score} | {len(grids)} grids")
+            print(f"{box['status']} {names} {score} | {len(grids)} grids, {len(api)} API responses")
         except Exception as exc:
             print(f"FAILED: {exc}")
         time.sleep(1.5)
@@ -331,6 +380,7 @@ def main():
         ctx = pw.chromium.launch_persistent_context(str(PROFILE), headless=not (args.visible or args.login),
                                                     viewport={"width": 1600, "height": 1000})
         page = ctx.pages[0] if ctx.pages else ctx.new_page()
+        cap = ApiCapture(page)
         try:
             page.goto(base, wait_until="domcontentloaded", timeout=60000)
             page.wait_for_timeout(3000)
@@ -344,9 +394,9 @@ def main():
                 page.goto(base, wait_until="domcontentloaded", timeout=60000)
                 page.wait_for_timeout(3000)
             if not args.games_only:
-                season_stats(page, base, season["stats"])
+                season_stats(page, base, season["stats"], cap)
             if not args.season_only:
-                all_games = games(page, base, all_games, args.refresh)
+                all_games = games(page, base, all_games, args.refresh, cap)
         except Exception as exc:
             print(f"stopped early: {exc}")
         finally:
