@@ -368,10 +368,20 @@ def gc_summary(g):
         return None
     box = g.get("box") or {}
     return {
-        "url": g.get("url") or "", "home_away": g.get("home_away"), "status": g.get("status"), "time": g.get("local_time"),
+        "id": g.get("id"), "url": g.get("url") or "", "home_away": g.get("home_away"), "status": g.get("status"),
+        "date": g.get("local_date"), "time": g.get("local_time"), "opponent": g.get("opponent"), "score": g.get("score"),
         "line_score": g.get("line_score"), "opponent_box": g.get("opponent_box"),
         "lineup": box.get("lineup"), "pitching": box.get("pitching"),
     }
+
+
+def load_gc_season(data_dir):
+    path = data_dir / "gc" / "stats.json"
+    if not path.exists():
+        return None
+    d = json.loads(path.read_text(encoding="utf-8"))
+    stats = {k: v for k, v in d.get("stats", {}).items() if not k.startswith("_")}
+    return {"fetched_at": d.get("fetched_at"), "stats": stats}
 
 
 def season_summary(st, derived=()):
@@ -601,9 +611,20 @@ def build(events, team, upcoming, year, team_stats=None, today=None, out_dir=Non
                 "standing": mine, "standings": rows, "games": ev["games"],
             })
 
+    # GameChanger: match each box score to our Top Gun game (for the event/round label); the box
+    # scores themselves only appear on the unlisted stats page, not under Results
+    gc_by_id = {}
     for g in my_games:
-        g["gc"] = gc_summary(match_gc(g, gc_games))
-    gc_matched = sum(1 for g in my_games if g["gc"])
+        hit = match_gc(g, gc_games)
+        g["gc_id"] = hit["id"] if hit else None
+        if hit:
+            gc_by_id[hit["id"]] = {"event": g["event"], "event_id": g["event_id"], "section": g["section"], "game": g["game"]}
+    gc_matched = sum(1 for g in my_games if g["gc_id"])
+    gc_list = []
+    for g in sorted(gc_games, key=lambda x: x.get("start") or ""):
+        item = gc_summary(g)
+        item["topgun"] = gc_by_id.get(g["id"])
+        gc_list.append(item)
 
     # Tournaments: everything from upcoming.json plus every event we're in, finished ones included
     listed = {int(u["id"]): u for u in upcoming}
@@ -693,7 +714,7 @@ def build(events, team, upcoming, year, team_stats=None, today=None, out_dir=Non
         "my_events": my_events, "tournaments": upcoming_out, "teams": teams,
         "fields": dict(sorted(fields.items())),
         "roster": build_roster(DATA_DIR, mine["page_id"], HERE / "roster.json"),
-        "gc": {"games": len(gc_games), "matched": gc_matched},
+        "gc": {"games": gc_list, "matched": gc_matched, "season": load_gc_season(DATA_DIR)},
         **season_summary(team_stats.get(mine["page_id"]), derived_for(me, mine)),
     }
 

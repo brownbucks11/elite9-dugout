@@ -129,6 +129,17 @@
   table.box .jersey { display: inline-block; min-width: 22px; margin-right: 6px; font-family: var(--display); font-weight: 700; color: var(--ink-2); text-align: right; }
   table.box tr.tot td { border-top: 2px solid var(--line); }
 
+  /* Stats page */
+  .statbar { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; padding: 8px 0 10px; }
+  .statbar .gap { flex: 1; }
+  .tab-pill { font: inherit; font-size: 13px; font-weight: 600; padding: 5px 12px; border-radius: 999px; border: 1px solid var(--line); background: var(--paper); color: var(--ink-2); cursor: pointer; }
+  .tab-pill.on { background: var(--navy); color: #fff; border-color: var(--navy); }
+  table.season th:first-child, table.season td:first-child, table.recon th:first-child, table.recon td:first-child { position: sticky; left: 0; background: var(--paper); z-index: 1; }
+  table.recon .vs { color: var(--ink-2); font-weight: 400; }
+  table.recon td.bad { background: var(--loss-bg); font-weight: 600; }
+  table.recon td.soft { color: var(--ink-2); }
+  h4.minor { font-family: var(--display); font-size: 17px; font-weight: 600; margin: 10px 0 6px; text-transform: uppercase; letter-spacing: .5px; }
+
   /* Brackets */
   .brackets { display: grid; gap: 14px; padding: 12px 16px 14px; border-top: 1px solid var(--line); }
   .bracket-title { font-family: var(--display); font-size: 18px; font-weight: 600; text-transform: uppercase; letter-spacing: .5px; display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
@@ -403,6 +414,7 @@
   <section role="tabpanel" id="panel-teams" hidden></section>
   <section role="tabpanel" id="panel-fields" hidden></section>
   <section role="tabpanel" id="panel-roster" hidden></section>
+  <section role="tabpanel" id="panel-stats" hidden></section>
 </main>
 
 <div id="sheet" hidden></div>
@@ -591,8 +603,8 @@
   const ip = (v) => { if (v == null) return ""; const w = Math.floor(v), t = Math.round((v - w) * 3); return t ? `${w}.${t}` : `${w}.0`; };
   const BAT_EXTRA = ["2B", "3B", "HR", "SB", "HBP", "SF", "E"];
   const PIT_EXTRA = ["#P", "TS", "BF", "WP", "HBP"];
-  function boxScoreHtml(g) {
-    const b = g.gc;
+  function boxScoreHtml(b) {
+    const g = { opponent: b.opponent || "Opponent" };
     if (!b || !b.line_score) return "";
     const ls = b.line_score, us = ls.team || {}, them = ls.opponent || {};
     const n = Math.max((us.scores || []).length, (them.scores || []).length);
@@ -844,7 +856,6 @@
               <div><div class="opp">${/^(winner|loser|seed)/i.test(g.opponent) ? esc(g.opponent) : teamBtn(g.opponent)}${nextKey && gameKey(g) === nextKey ? '<span class="chg-pill next">next</span>' : ""}</div>
                    <div class="when">${esc(g.section)} G${g.game} · ${esc(g.day)} ${esc(g.time)} · ${fieldHtml(g.field)}</div></div>
               <div class="score">${g.result ? `${g.rs}–${g.ra}` : `<small>${esc(g.time)}</small>`}</div>
-              ${g.gc ? `<div class="boxwrap">${boxScoreHtml(g)}</div>` : ""}
             </li>`).join("")}</ul></div>
           ${bracketsHtml(e.games, games)}
           <details class="inner"><summary>Standings (${e.teams} teams)</summary>${standingsTable(e.standings, seedNote)}</details>
@@ -1028,13 +1039,14 @@
   // ---- Tabs ---------------------------------------------------------------------
   const TABS = ["tournaments", "results", "roster", "teams", "fields"];
   const TAB_ALIAS = { standings: "teams", next: "tournaments" };
+  const HIDDEN_TABS = ["stats"];   // reachable by direct link only, never listed
   function showTab(name, push) {
     name = TAB_ALIAS[name] || name;
-    if (!TABS.includes(name)) name = "tournaments";
+    if (!TABS.includes(name) && !HIDDEN_TABS.includes(name)) name = "tournaments";
     document.querySelectorAll(".tab").forEach((t) => t.setAttribute("aria-selected", String(t.dataset.tab === name)));
-    TABS.forEach((t) => { $("#panel-" + t).hidden = t !== name; });
+    [...TABS, ...HIDDEN_TABS].forEach((t) => { $("#panel-" + t).hidden = t !== name; });
     if (push && location.hash !== "#" + name) history.replaceState(null, "", "#" + name);
-    try { localStorage.setItem("elite9.tab", name); } catch (_) {}
+    if (!HIDDEN_TABS.includes(name)) { try { localStorage.setItem("elite9.tab", name); } catch (_) {} }
   }
   $("#tabs").addEventListener("click", (e) => { const b = e.target.closest(".tab"); if (b) showTab(b.dataset.tab, true); });
   window.addEventListener("hashchange", () => showTab(location.hash.slice(1), false));
@@ -1086,7 +1098,82 @@
       <p class="when">Players and season stats from ${D.team_url ? `<a href="${esc(D.team_url)}" target="_blank" rel="noopener">${esc(D.team)}'s Top Gun page</a>` : "Top Gun"} (active players only${r.inactive ? `, ${r.inactive} former players not shown` : ""}); jersey numbers from the team's board.</p>`;
   }
 
-  renderNext(); renderResults(); renderStandings(); renderFields(); renderRoster();
+  // ---- Stats (unlisted page: #stats) ---------------------------------------------
+  const nkey = (n) => norm(String(n || "").replace(/\./g, ""));
+  const ipThirds = (v) => { if (v == null || v === "") return 0; const n = +v; if (isNaN(n)) return 0; if (Number.isInteger(n * 3) || Math.abs(n * 3 - Math.round(n * 3)) < 0.01) return Math.round(n * 3); const w = Math.floor(n), d = Math.round((n - w) * 10); return w * 3 + d; };
+  const ipText = (thirds) => `${Math.floor(thirds / 3)}.${thirds % 3}`;
+  function seasonTable(t) {
+    if (!t) return '<p class="empty">Not captured.</p>';
+    return `<div class="table-wrap"><table class="box season"><thead><tr><th>Player</th>${t.columns.map((c) => `<th class="num">${esc(c)}</th>`).join("")}</tr></thead>
+      <tbody>${t.players.map((p) => `<tr><td class="pl"><span class="jersey">${p.number != null ? p.number : ""}</span>${esc(p.player)}</td>${t.columns.map((c) => `<td class="num">${p[c] != null ? esc(String(p[c])) : ""}</td>`).join("")}</tr>`).join("")}
+      ${t.totals && t.columns.some((c) => t.totals[c] != null) ? `<tr class="tot"><td>Team</td>${t.columns.map((c) => `<td class="num">${t.totals[c] != null ? esc(String(t.totals[c])) : ""}</td>`).join("")}</tr>` : ""}</tbody></table></div>`;
+  }
+  function reconcile(games, season) {
+    // sum every box score per player and compare with GameChanger's season totals
+    const bat = {}, pit = {};
+    // players are keyed by jersey number when they have one (GameChanger sometimes shows a full
+    // name in the season table and an initial in the box score); GP counts games with a plate appearance
+    const pkey = (p) => p.number != null ? "#" + p.number : nkey(p.name || p.player);
+    games.forEach((g) => {
+      (g.lineup ? g.lineup.players : []).forEach((p) => { const k = pkey(p); const r = bat[k] = bat[k] || { name: p.name, number: p.number, GP: 0, AB: 0, R: 0, H: 0, RBI: 0, BB: 0, SO: 0 }; const ex = p.extra || {}; if ((p.AB || 0) + (p.BB || 0) + (ex.HBP || 0) + (ex.SF || 0) + (ex.SAC || 0) > 0) r.GP++; ["AB", "R", "H", "RBI", "BB", "SO"].forEach((c) => { r[c] += p[c] || 0; }); });
+      (g.pitching ? g.pitching.players : []).forEach((p) => { const k = pkey(p); const r = pit[k] = pit[k] || { name: p.name, number: p.number, GP: 0, IP3: 0, H: 0, R: 0, ER: 0, BB: 0, SO: 0 }; r.GP++; r.IP3 += ipThirds(p.IP); ["H", "R", "ER", "BB", "SO"].forEach((c) => { r[c] += p[c] || 0; }); });
+    });
+    const sb = (season && season.batting && season.batting.standard) || { players: [] };
+    const sp = (season && season.pitching && season.pitching.standard) || { players: [] };
+    const cmp = (boxRows, seasonRows, cols, fmt) => {
+      const names = new Map();
+      Object.entries(boxRows).forEach(([k, r]) => names.set(k, { box: r }));
+      seasonRows.players.forEach((r) => { const k = pkey(r); (names.get(k) || names.set(k, {}).get(k)).season = r; });
+      let issues = 0;
+      const rows = [...names.values()].sort((a, b) => ((a.box || a.season).number || 99) - ((b.box || b.season).number || 99)).map(({ box, season }) => {
+        const name = box ? box.name : season.player, number = box ? box.number : season.number;
+        const cells = cols.map((c) => {
+          const bv = box ? (c === "IP" ? box.IP3 : box[c]) : null;
+          const sv = season ? (c === "IP" ? ipThirds(season[c]) : season[c]) : null;
+          const ok = bv === sv || (bv == null && !sv) || (sv == null && !bv);
+          const soft = c === "GP";   // GameChanger counts GP its own way (subs, courtesy runners); show, don't flag
+          if (!ok && !soft) issues++;
+          return `<td class="num ${ok ? "" : soft ? "soft" : "neg bad"}">${fmt(c, bv)}<span class="vs">/${fmt(c, sv)}</span></td>`;
+        }).join("");
+        return `<tr><td class="pl"><span class="jersey">${number != null ? number : ""}</span>${esc(name)}</td>${cells}</tr>`;
+      }).join("");
+      return { rows, issues };
+    };
+    const fmtB = (c, v) => v == null ? "–" : v;
+    const fmtP = (c, v) => v == null ? "–" : c === "IP" ? ipText(v) : v;
+    const b = cmp(bat, sb, ["GP", "AB", "R", "H", "RBI", "BB", "SO"], fmtB);
+    const pr = cmp(pit, sp, ["GP", "IP", "H", "R", "ER", "BB", "SO"], fmtP);
+    const table = (cols, rows) => `<div class="table-wrap"><table class="box recon"><thead><tr><th>Player</th>${cols.map((c) => `<th class="num">${c}</th>`).join("")}</tr></thead><tbody>${rows}</tbody></table></div>`;
+    return { batting: table(["GP", "AB", "R", "H", "RBI", "BB", "SO"], b.rows), pitching: table(["GP", "IP", "H", "R", "ER", "BB", "SO"], pr.rows), issues: b.issues + pr.issues };
+  }
+  function renderStats() {
+    const gc = D.gc || {}; const games = gc.games || []; const season = gc.season && gc.season.stats;
+    if (!games.length && !season) { $("#panel-stats").innerHTML = `<h2 class="section-title">Stats</h2><div class="event"><p class="empty">No GameChanger data yet — run gc_stats.py and commit data/gc.</p></div>`; return; }
+    const cats = ["batting", "pitching", "fielding"], views = ["standard", "advanced"];
+    let cat = "batting", view = "standard";
+    const rec = reconcile(games, season);
+    const draw = () => {
+      $("#panel-stats").innerHTML = `
+        <h2 class="section-title">Stats <span class="sub">from GameChanger · ${games.length} box scores${gc.season && gc.season.fetched_at ? ` · season tables as of ${esc(fmtSeen(gc.season.fetched_at))}` : ""} · unlisted page</span></h2>
+        ${season ? `<div class="event"><div class="event-body">
+          <div class="statbar">${cats.map((c) => `<button type="button" class="tab-pill ${c === cat ? "on" : ""}" data-cat="${c}">${c[0].toUpperCase() + c.slice(1)}</button>`).join("")}<span class="gap"></span>${views.map((v) => `<button type="button" class="tab-pill ${v === view ? "on" : ""}" data-view="${v}">${v[0].toUpperCase() + v.slice(1)}</button>`).join("")}</div>
+          ${seasonTable(season[cat] && season[cat][view])}</div></div>` : ""}
+        <h2 class="section-title">Box scores <span class="sub">every game, newest first</span></h2>
+        ${games.slice().reverse().map((g) => `<div class="event"><div class="event-body">
+          <div class="opp">${g.score ? `<span class="pill ${g.score.team > g.score.opponent_team ? "W" : g.score.team < g.score.opponent_team ? "L" : "T"}" style="display:inline-block;width:36px;margin-right:8px">${g.score.team > g.score.opponent_team ? "W" : g.score.team < g.score.opponent_team ? "L" : "T"}</span>` : ""}${esc(D.team)} ${g.score ? `${g.score.team}–${g.score.opponent_team}` : ""} ${g.home_away === "away" ? "at" : "vs"} ${esc(g.opponent || "")}</div>
+          <div class="when">${esc(fmtDate(g.date))}${g.time ? " · " + esc(g.time) : ""}${g.topgun ? ` · ${esc(g.topgun.section)} G${g.topgun.game} · ${esc(tidy(g.topgun.event))}` : " · not matched to a Top Gun game"}</div>
+          ${boxScoreHtml(g)}</div></div>`).join("")}
+        <h2 class="section-title">Check <span class="sub">box scores added up / GameChanger season totals${rec.issues ? ` · <b class="neg">${rec.issues} difference${rec.issues > 1 ? "s" : ""}</b>` : " · everything matches"}</span></h2>
+        <div class="event"><div class="event-body"><h4 class="minor">Batting</h4>${rec.batting}<h4 class="minor">Pitching</h4>${rec.pitching}
+          <p class="when">Each cell is the sum of the box scores / the season table. A red cell means GameChanger's season total differs from the games captured here — usually a game missing from one side, or a stat corrected after the box score was saved. Re-run gc_stats.py with --refresh to pick up corrections.</p></div></div>`;
+      $("#panel-stats").querySelectorAll("[data-cat]").forEach((b) => b.addEventListener("click", () => { cat = b.dataset.cat; draw(); }));
+      $("#panel-stats").querySelectorAll("[data-view]").forEach((b) => b.addEventListener("click", () => { view = b.dataset.view; draw(); }));
+    };
+    draw();
+  }
+  const fmtDate = (d) => { const x = iso(d); return x ? `${["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"][x.getDay()]} ${MONTHS[x.getMonth()]} ${x.getDate()}` : (d || ""); };
+
+  renderNext(); renderResults(); renderStandings(); renderFields(); renderRoster(); renderStats();
   let start = location.hash.slice(1);
   if (!start) { try { start = localStorage.getItem("elite9.tab") || ""; } catch (_) {} }
   showTab(start || "tournaments", false);
