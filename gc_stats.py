@@ -5,18 +5,18 @@ Runs on YOUR computer only, logged in as you. The login is kept in a browser pro
 local/gc-profile/ (gitignored) - no password is stored anywhere in the project, and the
 GitHub bot never touches GameChanger.
 
-First time
-    python gc_stats.py --login --team-url "https://web.gc.com/teams/<id>/<slug>"
-        A browser window opens on web.gc.com. Log in (2FA and all), then come back to this
-        window and press Enter. LEAVE THE BROWSER WINDOW OPEN - the script drives it from here
-        and closes it itself. The team URL is remembered in local/gc.json.
+Recommended: attach to a real Chrome window (GameChanger's sign-in refuses automated browsers)
+    1. Double-click start_gc_chrome.cmd  - opens a separate Chrome window (profile in local/chrome-gc)
+    2. Sign in to web.gc.com in that window (once; it stays signed in)
+    3. python gc_stats.py --cdp --team-url "https://web.gc.com/teams/<id>/<slug>"   (URL remembered)
+Then after each weekend: start_gc_chrome.cmd (if not open), python gc_stats.py --cdp
 
-After that (after each weekend)
-    python gc_stats.py                 # schedule + every game's box score -> data/gc/games.json,
-                                       # season tables -> data/gc/stats.json
-    python gc_stats.py --games-only    # skip the season tables
-    python gc_stats.py --visible       # watch it work
-    git add data/gc && git commit -m "GC stats" && git push
+Fallback: the script's own browser
+    python gc_stats.py --login         # opens a Playwright browser to sign in (may spin on GC's login page)
+    python gc_stats.py                 # later runs, headless
+
+Outputs: data/gc/games.json (every game's box score), data/gc/stats.json (season tables), and
+local/gc/ (page HTML + every API response, gitignored). --games-only / --season-only / --refresh.
 
 Every page it reads is also saved under local/gc/ (gitignored) so the parser can be adjusted
 when GameChanger changes their site. Games already saved are re-read only with --refresh.
@@ -369,6 +369,8 @@ def main():
     ap.add_argument("--games-only", action="store_true")
     ap.add_argument("--season-only", action="store_true")
     ap.add_argument("--refresh", action="store_true", help="re-read games already saved")
+    ap.add_argument("--cdp", nargs="?", const=9222, type=int, metavar="PORT",
+                    help="attach to a Chrome started by start_gc_chrome.cmd (default port 9222) instead of launching a browser")
     args = ap.parse_args()
 
     LOCAL.mkdir(exist_ok=True)
@@ -388,9 +390,21 @@ def main():
     gpath = OUT_DIR / "games.json"
     all_games = json.loads(gpath.read_text(encoding="utf-8")) if gpath.exists() else {}
     with sync_playwright() as pw:
-        ctx = pw.chromium.launch_persistent_context(str(PROFILE), headless=not (args.visible or args.login),
-                                                    viewport={"width": 1600, "height": 1000})
-        page = ctx.pages[0] if ctx.pages else ctx.new_page()
+        browser = None
+        if args.cdp:
+            try:
+                browser = pw.chromium.connect_over_cdp(f"http://localhost:{args.cdp}")
+            except Exception as exc:
+                print(f"Could not attach to Chrome on port {args.cdp}: {exc}\nStart it with start_gc_chrome.cmd first.")
+                return 1
+            ctx = browser.contexts[0] if browser.contexts else browser.new_context()
+            page = ctx.new_page()
+            page.set_viewport_size({"width": 1600, "height": 1000})
+            args.visible = True     # it's the user's own window; prompts are allowed
+        else:
+            ctx = pw.chromium.launch_persistent_context(str(PROFILE), headless=not (args.visible or args.login),
+                                                        viewport={"width": 1600, "height": 1000})
+            page = ctx.pages[0] if ctx.pages else ctx.new_page()
         cap = ApiCapture(page)
         try:
             page.goto(base, wait_until="domcontentloaded", timeout=60000)
@@ -424,7 +438,10 @@ def main():
                 gpath.write_text(json.dumps(all_games, indent=1), encoding="utf-8")
                 print(f"wrote {gpath} ({len(all_games)} games)")
             try:
-                ctx.close()
+                if browser:
+                    page.close()          # leave the user's Chrome running
+                else:
+                    ctx.close()
             except Exception:
                 pass
     return 0
