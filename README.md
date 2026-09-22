@@ -21,6 +21,8 @@ Elite 9 (9U, Fall 2026) - Top Gun tournament tracking.
 - topgun_teams.py    - each team's Top Gun statistics page -> data/teams/<id>.json (points, finishes)
 - topgun_roster.py   - our Players page -> data/teams/<id>_players.json (active players, season stats)
 - roster.json        - jersey numbers + nicknames (hand-maintained); name_style: full | initial
+- gc_stats.py        - LOCAL ONLY: reads our GameChanger season stats (web.gc.com, logged in as you)
+                       into data/gc/stats.json; login kept in local/gc-profile/, never on the bot
 - data/              - <ID>.html + <ID>.json per tournament, overwritten each run
 - elite9_schedule.md - the summary Claude reads
 - topgun_out/        - output from the manual snapshot tool
