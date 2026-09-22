@@ -271,6 +271,17 @@ def on_team_page(page):
         return False
 
 
+def logged_in(page, cap):
+    """The team page is public; only the API's /me/... calls tell us whether we're signed in."""
+    me = [i for i in cap.items if "/me/" in i["path"]]
+    if me:
+        return any(i["status"] == 200 for i in me)
+    try:
+        return page.get_by_role("link", name=re.compile(r"^sign in$", re.I)).count() == 0
+    except Exception:
+        return False
+
+
 def season_stats(page, base, result, cap=None):
     if cap:
         cap.take()
@@ -384,15 +395,21 @@ def main():
         try:
             page.goto(base, wait_until="domcontentloaded", timeout=60000)
             page.wait_for_timeout(3000)
-            if args.login or not on_team_page(page):
+            if args.login or not on_team_page(page) or not logged_in(page, cap):
                 if not (args.visible or args.login):
-                    print("Not logged in (or the team page didn't load). Run once with --login.")
+                    print("Not signed in to GameChanger. Run once with --login (a browser window will open).")
                     return 1
-                print("Log in to GameChanger in the browser window until the team page shows, then press Enter here.")
-                print("Leave the browser window open - the script closes it when done.")
-                input()
-                page.goto(base, wait_until="domcontentloaded", timeout=60000)
-                page.wait_for_timeout(3000)
+                while True:
+                    print("\nSign in to GameChanger in the browser window (the page will show your email at the top right),")
+                    print("then press Enter here. Do NOT close the browser window - the script closes it when done.")
+                    input()
+                    cap.take()
+                    page.goto(base, wait_until="domcontentloaded", timeout=60000)
+                    page.wait_for_timeout(4000)
+                    if logged_in(page, cap):
+                        print("Signed in.")
+                        break
+                    print("Still not signed in - the page's own /me calls are being refused. Try again.")
             if not args.games_only:
                 season_stats(page, base, season["stats"], cap)
             if not args.season_only:
