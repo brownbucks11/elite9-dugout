@@ -89,10 +89,9 @@ GAME_LINKS = """
   const clean = (t) => (t || "").replace(/\\s+/g, " ").trim();
   const seen = new Map();
   document.querySelectorAll("a[href]").forEach((a) => {
-    const href = a.href;
+    const href = a.href.replace(new RegExp("/(box-score|recap|plays|videos|info)/?$"), "");
     if (!/\\/(games?|schedule)\\/[A-Za-z0-9_-]{6,}/.test(href) || seen.has(href)) return;
-    let row = a; for (let i = 0; i < 4 && row.parentElement && clean(row.textContent).length < 40; i++) row = row.parentElement;
-    seen.set(href, clean(row.textContent).slice(0, 300));
+    seen.set(href, clean(a.innerText || a.textContent).slice(0, 160));
   });
   return [...seen.entries()].map(([href, text]) => ({ href, text }));
 }
@@ -153,7 +152,75 @@ def read_grids_merged(page, settle_ms=500):
     return merged
 
 
+def dismiss_popups(page):
+    """GameChanger throws up 'Don't miss out! Follow team' style dialogs; close them so clicks land."""
+    for _ in range(3):
+        dialog = page.locator('[role="dialog"]')
+        try:
+            if not dialog.count() or not dialog.first.is_visible():
+                return
+        except Exception:
+            return
+        closed = False
+        for label in ("Maybe later", "Not now", "No thanks", "Close", "Dismiss", "Got it", "×"):
+            btn = dialog.first.get_by_role("button", name=re.compile(f"^{re.escape(label)}$", re.I))
+            try:
+                if btn.count():
+                    btn.first.click(timeout=2000)
+                    closed = True
+                    break
+            except Exception:
+                continue
+        if not closed:
+            try:
+                page.keyboard.press("Escape")
+            except Exception:
+                pass
+        page.wait_for_timeout(500)
+
+
+def parse_box_score(text, grids, tables):
+    """Structure a box-score page: line score, teams, and the lineup/pitching grids per team.
+    Grids arrive in page order: away lineup, away pitching, home lineup, home pitching."""
+    lines = [l.strip() for l in text.split("\n") if l.strip()]
+    box = {"date": None, "status": None, "teams": [], "notes": {}}
+    for l in lines:
+        if re.match(r"^(Mon|Tue|Wed|Thu|Fri|Sat|Sun) [A-Z][a-z]{2} \d{1,2}, ", l):
+            box["date"] = l
+        elif l in ("Final", "In Progress", "Scheduled", "Postponed", "Canceled", "Cancelled") and not box["status"]:
+            box["status"] = l
+    # full team names sit just above the Recap/Box score tabs
+    names = []
+    if "Recap" in lines:
+        i = lines.index("Recap")
+        names = [l for l in lines[max(0, i - 2):i]]
+    innings = next((t["rows"] for t in tables if t["rows"] and all(re.fullmatch(r"\d+", c) for c in t["rows"][0])), None)
+    rhe = next((t["rows"] for t in tables if t["rows"] and t["rows"][0][:3] == ["R", "H", "E"]), None)
+    for side in (0, 1):
+        team = {"name": names[side] if len(names) == 2 else None, "home": side == 1}
+        if innings and len(innings) > side + 1:
+            team["innings"] = [None if c.upper() == "X" else num(c) for c in innings[side + 1]]
+        if rhe and len(rhe) > side + 1:
+            team["R"], team["H"], team["E"] = (num(c) for c in rhe[side + 1][:3])
+        team["batting"] = grids[side * 2] if len(grids) > side * 2 else None
+        team["pitching"] = grids[side * 2 + 1] if len(grids) > side * 2 + 1 else None
+        for key in ("batting", "pitching"):
+            g = team[key]
+            if g:
+                for p in g["players"]:
+                    m = re.match(r"^(.*?)\s*#(\d+)\s*(?:\((.*?)\))?$", p["player"])
+                    if m:
+                        p["player"], p["number"], p["positions"] = m.group(1).strip(), int(m.group(2)), (m.group(3) or "").strip() or None
+        box["teams"].append(team)
+    for l in lines:
+        m = re.match(r"^([A-Z0-9]{1,4}):\s*(.+)$", l)   # "HR: H Clare", "TB: H Clare 4, ..."
+        if m and m.group(1) not in ("R", "H", "E"):
+            box["notes"].setdefault(m.group(1), m.group(2))
+    return box
+
+
 def click_tab(page, label):
+    dismiss_popups(page)
     for loc in (page.get_by_role("tab", name=label, exact=True), page.get_by_role("button", name=label, exact=True),
                 page.get_by_role("link", name=label, exact=True), page.get_by_text(label, exact=True)):
         try:
@@ -210,20 +277,24 @@ def games(page, base, known, refresh):
             continue
         print(f"  [{i}/{len(links)}] game {gid} ...", end=" ", flush=True)
         try:
-            page.goto(link["href"], wait_until="domcontentloaded", timeout=60000)
+            box_url = re.sub(r"/(box-score|recap|plays|videos|info)/?$", "", link["href"].rstrip("/")) + "/box-score"
+            page.goto(box_url, wait_until="domcontentloaded", timeout=60000)
             page.wait_for_timeout(3000)
-            for label in ("Box Score", "Box score", "Stats"):
-                if click_tab(page, label):
-                    page.wait_for_timeout(1500)
-                    break
+            dismiss_popups(page)
             grids = read_grids_merged(page)
             tables = page.evaluate(READ_TABLES)
+            text = page.evaluate("document.body.innerText")
             html = page.content()
             (DUMP / "games" / f"{gid}.html").write_text(html, encoding="utf-8")
-            heads = [re.sub(r"\s+", " ", h).strip() for h in page.locator("h1, h2, h3").all_text_contents()][:12]
-            out[gid] = {"id": gid, "url": link["href"], "schedule_text": link["text"], "title": re.sub(r"\s+", " ", page.title() or "").strip(),
-                        "headings": heads, "grids": grids, "tables": tables, "fetched_at": datetime.now().isoformat(timespec="minutes")}
-            print(f"{len(grids)} grids, {len(tables)} tables | {link['text'][:60]}")
+            if "/login" in page.url or ("Sign In" in text and not grids):
+                print("looks logged out - run with --login")
+                break
+            box = parse_box_score(text, grids, tables)
+            out[gid] = {"id": gid, "url": box_url, "schedule_text": link["text"], "box": box,
+                        "fetched_at": datetime.now().isoformat(timespec="minutes")}
+            names = " vs ".join((t["name"] or "?") for t in box["teams"])
+            score = "-".join(str(t.get("R")) for t in box["teams"])
+            print(f"{box['status']} {names} {score} | {len(grids)} grids")
         except Exception as exc:
             print(f"FAILED: {exc}")
         time.sleep(1.5)
