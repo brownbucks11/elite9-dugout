@@ -9,8 +9,164 @@
       "address": "599 Farmington Rd Mocksville, NC 27028"
     }
   },
-  "divisions": {},
+  "divisions": {
+    "10U": {
+      "notes": [],
+      "standings": [
+        {
+          "seed": 1,
+          "team": "Triad Cardinals 10U",
+          "location": "Kernersville, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 2,
+          "team": "NWNC Elite 2034",
+          "location": "NORTH WILKESBORO, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 3,
+          "team": "NC Made 10U Blue",
+          "location": "Mocksville, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 4,
+          "team": "Carolina Wood Ducks",
+          "location": "Dobson, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 5,
+          "team": "FS Bulldogs 10u (Red)",
+          "location": "Mount Ulla, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 6,
+          "team": "Carolina Ghost 10u",
+          "location": "High Point, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        }
+      ],
+      "sections": {
+        "Pool Play": [
+          {
+            "game": 1,
+            "day": "Fri",
+            "time": "6:00 PM",
+            "field": "DYC:Bird Co Field",
+            "team_a": "Carolina Ghost 10u",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Triad Cardinals 10U",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 2,
+            "day": "Fri",
+            "time": "6:00 PM",
+            "field": "DYC:Farm Bureau",
+            "team_a": "FS Bulldogs 10u (Red)",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Carolina Wood Ducks",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 3,
+            "day": "Fri",
+            "time": "6:00 PM",
+            "field": "DYC:K&W Service",
+            "team_a": "NC Made 10U Blue",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "NWNC Elite 2034",
+            "seed_b": null,
+            "score_b": null
+          }
+        ],
+        "Gold Bracket": [
+          {
+            "game": 1,
+            "day": "Fri",
+            "time": "7:30 PM",
+            "field": "DYC:Bird Co Field",
+            "team_a": "#1 Seed",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "#4 Seed",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 2,
+            "day": "Fri",
+            "time": "7:30 PM",
+            "field": "DYC:K&W Service",
+            "team_a": "#2 Seed",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "#3 Seed",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 3,
+            "day": "Fri",
+            "time": "7:30 PM",
+            "field": "DYC:Farm Bureau",
+            "team_a": "#5 Seed",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "#6 Seed",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 4,
+            "day": "Fri",
+            "time": "9:00 PM",
+            "field": "DYC:Bird Co Field",
+            "team_a": "Winner Gold Game 1",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Winner Gold Game 2",
+            "seed_b": null,
+            "score_b": null
+          }
+        ]
+      }
+    }
+  },
   "site_last_updated": "06/30/2026 4:45 PM",
   "tournament_id": 13563,
-  "fetched_at": "2026-09-22T11:27"
+  "fetched_at": "2026-09-22T15:56"
 }

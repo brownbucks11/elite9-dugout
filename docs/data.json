@@ -3,7 +3,7 @@
  "location": "Rock Hill, SC",
  "page_id": 31407,
  "team_url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=31407",
- "built": "Tue Sep 22, 2026 11:35 AM",
+ "built": "Tue Sep 22, 2026 03:56 PM",
  "record": {
   "w": 1,
   "l": 4,
@@ -1634,7 +1634,7 @@
      "lost": 1,
      "runs_allowed": 15,
      "runs_scored": 24,
-     "team_page_id": 33167
+     "team_page_id": null
     },
     {
      "seed": 2,
@@ -1644,7 +1644,7 @@
      "lost": 1,
      "runs_allowed": 9,
      "runs_scored": 20,
-     "team_page_id": 32555
+     "team_page_id": null
     },
     {
      "seed": 3,
@@ -1654,7 +1654,7 @@
      "lost": 2,
      "runs_allowed": 19,
      "runs_scored": 4,
-     "team_page_id": 31407
+     "team_page_id": null
     },
     {
      "seed": 4,
@@ -1664,7 +1664,7 @@
      "lost": 2,
      "runs_allowed": 8,
      "runs_scored": 28,
-     "team_page_id": 33906
+     "team_page_id": null
     },
     {
      "seed": 5,
@@ -1674,7 +1674,7 @@
      "lost": 3,
      "runs_allowed": 29,
      "runs_scored": 9,
-     "team_page_id": 33026
+     "team_page_id": null
     },
     {
      "seed": 6,
@@ -1684,7 +1684,7 @@
      "lost": 1,
      "runs_allowed": 8,
      "runs_scored": 35,
-     "team_page_id": 34014
+     "team_page_id": null
     },
     {
      "seed": 7,
@@ -1694,7 +1694,7 @@
      "lost": 3,
      "runs_allowed": 25,
      "runs_scored": 12,
-     "team_page_id": 38889
+     "team_page_id": null
     },
     {
      "seed": 8,
@@ -1704,7 +1704,7 @@
      "lost": 4,
      "runs_allowed": 40,
      "runs_scored": 4,
-     "team_page_id": 36317
+     "team_page_id": null
     },
     {
      "seed": 9,
@@ -1714,7 +1714,7 @@
      "lost": 0,
      "runs_allowed": 7,
      "runs_scored": 24,
-     "team_page_id": 36883
+     "team_page_id": null
     }
    ],
    "mine": [
@@ -2701,8 +2701,8 @@
   {
    "team": "Dirtbags Shook",
    "location": "Claremont, NC",
-   "page_id": 32555,
-   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=32555",
+   "page_id": null,
+   "url": null,
    "w": 3,
    "l": 1,
    "t": 0,
@@ -2753,7 +2753,7 @@
      "result": "W"
     }
    ],
-   "points": 750,
+   "points": 0,
    "titles": 0,
    "finishes": [
     {
@@ -2762,11 +2762,12 @@
      "won": 3,
      "lost": 1,
      "standing": "3rd (Gold)",
-     "points": 750
+     "points": 0,
+     "derived": true
     }
    ],
-   "season": "08/01/2026 - 09/22/2026",
-   "stats_fetched": "2026-09-22T11:28"
+   "season": "",
+   "stats_fetched": null
   },
   {
    "team": "Weddington Wreckers",
@@ -3489,8 +3490,8 @@
   {
    "team": "Team 24",
    "location": "York, SC",
-   "page_id": 33906,
-   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=33906",
+   "page_id": null,
+   "url": null,
    "w": 2,
    "l": 2,
    "t": 0,
@@ -3541,7 +3542,7 @@
      "result": "L"
     }
    ],
-   "points": 725,
+   "points": 0,
    "titles": 0,
    "finishes": [
     {
@@ -3550,11 +3551,12 @@
      "won": 2,
      "lost": 2,
      "standing": "4th (Gold)",
-     "points": 725
+     "points": 0,
+     "derived": true
     }
    ],
-   "season": "08/01/2026 - 09/22/2026",
-   "stats_fetched": "2026-09-22T11:30"
+   "season": "",
+   "stats_fetched": null
   },
   {
    "team": "Mission 9u Scout",
@@ -4931,8 +4933,8 @@
   {
    "team": "Union County Legends",
    "location": "Waxhaw, NC",
-   "page_id": 33026,
-   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=33026",
+   "page_id": null,
+   "url": null,
    "w": 1,
    "l": 3,
    "t": 0,
@@ -4983,7 +4985,7 @@
      "result": "L"
     }
    ],
-   "points": 675,
+   "points": 0,
    "titles": 0,
    "finishes": [
     {
@@ -4992,11 +4994,12 @@
      "won": 1,
      "lost": 3,
      "standing": "2nd (Silver)",
-     "points": 675
+     "points": 0,
+     "derived": true
     }
    ],
-   "season": "08/01/2026 - 09/22/2026",
-   "stats_fetched": "2026-09-22T11:29"
+   "season": "",
+   "stats_fetched": null
   },
   {
    "team": "Elite 9",
@@ -5415,8 +5418,8 @@
   {
    "team": "Carolina Elevate",
    "location": "Lenoir, NC",
-   "page_id": 36317,
-   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=36317",
+   "page_id": null,
+   "url": null,
    "w": 0,
    "l": 4,
    "t": 0,
@@ -5467,7 +5470,7 @@
      "result": "L"
     }
    ],
-   "points": 625,
+   "points": 0,
    "titles": 0,
    "finishes": [
     {
@@ -5476,11 +5479,12 @@
      "won": 0,
      "lost": 4,
      "standing": "4th (Silver)",
-     "points": 625
+     "points": 0,
+     "derived": true
     }
    ],
-   "season": "08/01/2026 - 09/22/2026",
-   "stats_fetched": "2026-09-22T11:31"
+   "season": "",
+   "stats_fetched": null
   },
   {
    "team": "Carolina Forge 9U",

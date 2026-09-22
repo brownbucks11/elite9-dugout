@@ -41,8 +41,10 @@
   "city": "Statesville, NC"
  },
  "13563": {
-  "divisions": [],
-  "skip": false,
+  "divisions": [
+   "10U"
+  ],
+  "skip": true,
   "name": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
   "start": "2026-09-25",
   "city": "Mocksville/Winston Salem/Clemm, NC"
