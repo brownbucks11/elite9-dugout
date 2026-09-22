@@ -8,7 +8,8 @@ GitHub bot never touches GameChanger.
 First time
     python gc_stats.py --login --team-url "https://web.gc.com/teams/<id>/<slug>"
         A browser window opens on web.gc.com. Log in (2FA and all), then come back to this
-        window and press Enter. The team URL is remembered in local/gc.json.
+        window and press Enter. LEAVE THE BROWSER WINDOW OPEN - the script drives it from here
+        and closes it itself. The team URL is remembered in local/gc.json.
 
 After that (after each weekend)
     python gc_stats.py                 # schedule + every game's box score -> data/gc/games.json,
@@ -18,7 +19,7 @@ After that (after each weekend)
     git add data/gc && git commit -m "GC stats" && git push
 
 Every page it reads is also saved under local/gc/ (gitignored) so the parser can be adjusted
-when GameChanger changes their site. Games already saved are re-read only if --refresh.
+when GameChanger changes their site. Games already saved are re-read only with --refresh.
 """
 
 import argparse
@@ -39,37 +40,49 @@ OUT_DIR = HERE / "data" / "gc"
 CATEGORIES = ["Batting", "Pitching", "Fielding"]
 VIEWS = ["Standard", "Advanced"]
 
-# Every table-like thing on the page: real <table>s, then ARIA grids. Each comes back as
-# {"heading": nearest heading text above it, "rows": [[cell, ...], ...]}.
-EXTRACT_TABLES = """
+# GameChanger's stats are AG Grid: a pinned "player" column in one container and the numbers
+# in another, rows tied together by aria-rowindex, cells carrying col-id. Columns virtualize,
+# so the grid is read at several horizontal scroll positions and merged.
+READ_GRIDS = """
 () => {
   const clean = (t) => (t || "").replace(/\\s+/g, " ").trim();
-  const headingFor = (el) => {
-    let n = el;
-    for (let i = 0; i < 6 && n; i++) {
-      let p = n.previousElementSibling;
-      while (p) { if (/^H[1-6]$/.test(p.tagName) || p.querySelector("h1,h2,h3,h4,h5,h6")) { const h = /^H[1-6]$/.test(p.tagName) ? p : p.querySelector("h1,h2,h3,h4,h5,h6"); return clean(h.textContent); } p = p.previousElementSibling; }
-      n = n.parentElement;
-    }
-    return "";
-  };
+  return [...document.querySelectorAll('[role="grid"]')].map((grid) => {
+    const headers = {};
+    grid.querySelectorAll('[role="columnheader"][col-id]').forEach((h) => {
+      const label = h.querySelector('[data-ref="eText"]');
+      headers[h.getAttribute("col-id")] = clean(label ? label.textContent : h.textContent);
+    });
+    const rows = {};
+    grid.querySelectorAll('[role="row"][aria-rowindex]').forEach((r) => {
+      const idx = +r.getAttribute("aria-rowindex");
+      r.querySelectorAll('[role="gridcell"][col-id]').forEach((c) => {
+        (rows[idx] = rows[idx] || {})[c.getAttribute("col-id")] = clean(c.textContent);
+      });
+    });
+    const vp = grid.querySelector(".ag-body-viewport, .ag-center-cols-viewport");
+    return { headers, rows, colcount: +grid.getAttribute("aria-colcount") || 0, rowcount: +grid.getAttribute("aria-rowcount") || 0,
+             scrollWidth: vp ? vp.scrollWidth : 0, clientWidth: vp ? vp.clientWidth : 0 };
+  });
+}
+"""
+SCROLL_GRIDS = """
+(x) => { document.querySelectorAll('[role="grid"] .ag-center-cols-viewport, [role="grid"] .ag-body-viewport, .ag-body-horizontal-scroll-viewport')
+           .forEach((v) => { v.scrollLeft = x; }); }
+"""
+
+# Anything table-like on a game page (box scores may not be AG Grid): real tables, then ARIA grids.
+READ_TABLES = """
+() => {
+  const clean = (t) => (t || "").replace(/\\s+/g, " ").trim();
   const out = [];
   document.querySelectorAll("table").forEach((tb) => {
     const rows = [...tb.querySelectorAll("tr")].map((tr) => [...tr.querySelectorAll("th,td")].map((c) => clean(c.textContent)));
-    if (rows.length > 1 && rows[0].length > 1) out.push({ heading: headingFor(tb), rows });
+    if (rows.length > 1 && rows[0].length > 1) out.push({ kind: "table", rows });
   });
-  if (!out.length) {
-    document.querySelectorAll('[role="table"], [role="grid"]').forEach((tb) => {
-      const rows = [...tb.querySelectorAll('[role="row"]')].map((r) => [...r.querySelectorAll('[role="cell"],[role="columnheader"],[role="gridcell"],[role="rowheader"]')].map((c) => clean(c.textContent)));
-      if (rows.length > 1 && rows[0].length > 1) out.push({ heading: headingFor(tb), rows });
-    });
-  }
   return out;
 }
 """
-
-# Links on the schedule page that look like games, with the text of the row they sit in.
-EXTRACT_GAME_LINKS = """
+GAME_LINKS = """
 () => {
   const clean = (t) => (t || "").replace(/\\s+/g, " ").trim();
   const seen = new Map();
@@ -95,30 +108,51 @@ def num(s):
 
 
 def parse_player(cell):
-    m = re.match(r"^(.*?)(?:,\s*#?(\d+))?$", cell.strip())
+    m = re.match(r"^(.*?)(?:,\s*#?(\d+))?$", (cell or "").strip())
     return (m.group(1).strip(), int(m.group(2)) if m and m.group(2) else None) if m else (cell.strip(), None)
 
 
-def table_to_records(rows):
-    header = rows[0]
-    recs, totals = [], None
-    for r in rows[1:]:
-        if len(r) < len(header) - 1 or not r[0]:
-            continue
-        name, number = parse_player(r[0])
-        rec = {"player": name, "number": number}
-        for h, v in zip(header[1:], r[1:]):
-            if h:
-                rec[h] = num(v)
-        if re.match(r"^(team|totals?)\b", name, re.I):
-            totals = rec
-        else:
-            recs.append(rec)
-    return {"columns": header[1:], "players": recs, "totals": totals}
+def read_grids_merged(page, settle_ms=500):
+    """Read every AG Grid on the page at several horizontal scroll positions and merge."""
+    merged = []
+    first = page.evaluate(READ_GRIDS)
+    if not first:
+        return []
+    width = max((g["scrollWidth"] for g in first), default=0)
+    step = max(300, min((g["clientWidth"] for g in first if g["clientWidth"]), default=600) - 100)
+    positions = [0] + list(range(step, width + step, step))
+    grids = [{"headers": {}, "rows": {}} for _ in first]
+    for x in positions:
+        page.evaluate(SCROLL_GRIDS, x)
+        page.wait_for_timeout(settle_ms)
+        for i, g in enumerate(page.evaluate(READ_GRIDS)):
+            if i >= len(grids):
+                break
+            grids[i]["headers"].update(g["headers"])
+            for idx, cells in g["rows"].items():
+                grids[i]["rows"].setdefault(idx, {}).update(cells)
+    page.evaluate(SCROLL_GRIDS, 0)
+    for g in grids:
+        cols = [c for c in g["headers"] if c != "player"]
+        players, totals = [], None
+        for idx in sorted(g["rows"], key=int):
+            cells = g["rows"][idx]
+            name, number = parse_player(cells.get("player", ""))
+            if not name:
+                continue
+            rec = {"player": name, "number": number}
+            for c in cols:
+                rec[g["headers"][c] or c] = num(cells.get(c))
+            if re.match(r"^(team|totals?)\b", name, re.I):
+                totals = rec
+            else:
+                players.append(rec)
+        merged.append({"columns": [g["headers"][c] or c for c in cols], "players": players, "totals": totals})
+    return merged
 
 
 def click_tab(page, label):
-    for loc in (page.get_by_role("button", name=label, exact=True), page.get_by_role("tab", name=label, exact=True),
+    for loc in (page.get_by_role("tab", name=label, exact=True), page.get_by_role("button", name=label, exact=True),
                 page.get_by_role("link", name=label, exact=True), page.get_by_text(label, exact=True)):
         try:
             if loc.count():
@@ -129,49 +163,42 @@ def click_tab(page, label):
     return False
 
 
-def wait_for_tables(page, timeout=15000):
-    end = time.time() + timeout / 1000
-    while time.time() < end:
-        tables = page.evaluate(EXTRACT_TABLES)
-        if tables:
-            return tables
-        page.wait_for_timeout(400)
-    return []
-
-
-def logged_out(page):
-    return "login" in page.url.lower() or page.get_by_role("button", name=re.compile("log in|sign in", re.I)).count() > 0
+def on_team_page(page):
+    try:
+        return page.get_by_role("tab", name="Stats", exact=True).count() > 0 and "login" not in page.url.lower()
+    except Exception:
+        return False
 
 
 def season_stats(page, base, result):
     page.goto(base + "/season-stats", wait_until="domcontentloaded", timeout=60000)
-    page.wait_for_timeout(2500)
+    page.wait_for_timeout(3000)
     (DUMP / "season-stats.html").write_text(page.content(), encoding="utf-8")
     for cat in CATEGORIES:
         if not click_tab(page, cat):
             print(f"  season {cat}: tab not found")
             continue
-        page.wait_for_timeout(800)
+        page.wait_for_timeout(1000)
         result[cat.lower()] = {}
         for view in VIEWS:
             click_tab(page, view)
-            page.wait_for_timeout(800)
-            tables = wait_for_tables(page)
+            page.wait_for_timeout(1200)
+            grids = read_grids_merged(page)
             (DUMP / f"season-{cat.lower()}-{view.lower()}.html").write_text(page.content(), encoding="utf-8")
-            if not tables:
-                print(f"  season {cat}/{view}: no table found")
+            if not grids or not grids[0]["players"]:
+                print(f"  season {cat}/{view}: no grid found")
                 continue
-            parsed = table_to_records(max(tables, key=lambda t: len(t["rows"]))["rows"])
-            result[cat.lower()][view.lower()] = parsed
-            print(f"  season {cat}/{view}: {len(parsed['players'])} players, {len(parsed['columns'])} columns")
+            best = max(grids, key=lambda g: len(g["players"]))
+            result[cat.lower()][view.lower()] = best
+            print(f"  season {cat}/{view}: {len(best['players'])} players, {len(best['columns'])} columns")
 
 
 def games(page, base, known, refresh):
-    """Schedule -> each game page -> every table on it (box score, batting, pitching, line score)."""
+    """Schedule -> each game page -> every grid/table on it (box score, batting, pitching, line score)."""
     page.goto(base + "/schedule", wait_until="domcontentloaded", timeout=60000)
     page.wait_for_timeout(3000)
     (DUMP / "schedule.html").write_text(page.content(), encoding="utf-8")
-    links = page.evaluate(EXTRACT_GAME_LINKS)
+    links = page.evaluate(GAME_LINKS)
     print(f"  schedule: {len(links)} game links")
     (DUMP / "games").mkdir(parents=True, exist_ok=True)
     out = dict(known)
@@ -182,20 +209,19 @@ def games(page, base, known, refresh):
         print(f"  [{i}/{len(links)}] game {gid} ...", end=" ", flush=True)
         try:
             page.goto(link["href"], wait_until="domcontentloaded", timeout=60000)
-            page.wait_for_timeout(2500)
-            # a game page may have its own sub-tabs; try to surface the box score
+            page.wait_for_timeout(3000)
             for label in ("Box Score", "Box score", "Stats"):
                 if click_tab(page, label):
-                    page.wait_for_timeout(1200)
+                    page.wait_for_timeout(1500)
                     break
-            tables = wait_for_tables(page, timeout=8000)
+            grids = read_grids_merged(page)
+            tables = page.evaluate(READ_TABLES)
             html = page.content()
             (DUMP / "games" / f"{gid}.html").write_text(html, encoding="utf-8")
-            title = re.sub(r"\s+", " ", page.title() or "").strip()
-            heads = [re.sub(r"\s+", " ", h).strip() for h in page.locator("h1, h2").all_text_contents()][:6]
-            out[gid] = {"id": gid, "url": link["href"], "schedule_text": link["text"], "title": title, "headings": heads,
-                        "tables": tables, "fetched_at": datetime.now().isoformat(timespec="minutes")}
-            print(f"{len(tables)} tables | {link['text'][:60]}")
+            heads = [re.sub(r"\s+", " ", h).strip() for h in page.locator("h1, h2, h3").all_text_contents()][:12]
+            out[gid] = {"id": gid, "url": link["href"], "schedule_text": link["text"], "title": re.sub(r"\s+", " ", page.title() or "").strip(),
+                        "headings": heads, "grids": grids, "tables": tables, "fetched_at": datetime.now().isoformat(timespec="minutes")}
+            print(f"{len(grids)} grids, {len(tables)} tables | {link['text'][:60]}")
         except Exception as exc:
             print(f"FAILED: {exc}")
         time.sleep(1.5)
@@ -225,34 +251,42 @@ def main():
         return 1
 
     from playwright.sync_api import sync_playwright
+    season = {"team_url": base, "fetched_at": datetime.now().isoformat(timespec="minutes"), "stats": {}}
+    gpath = OUT_DIR / "games.json"
+    all_games = json.loads(gpath.read_text(encoding="utf-8")) if gpath.exists() else {}
     with sync_playwright() as pw:
         ctx = pw.chromium.launch_persistent_context(str(PROFILE), headless=not (args.visible or args.login),
-                                                    viewport={"width": 1400, "height": 1000})
+                                                    viewport={"width": 1600, "height": 1000})
         page = ctx.pages[0] if ctx.pages else ctx.new_page()
-        page.goto(base, wait_until="domcontentloaded", timeout=60000)
-        page.wait_for_timeout(2500)
-        if args.login or logged_out(page):
-            if not (args.visible or args.login):
-                ctx.close()
-                print("Not logged in. Run once with --login (a browser window will open).")
-                return 1
-            print("Log in to GameChanger in the browser window until you see the team page, then press Enter here.")
-            input()
+        try:
             page.goto(base, wait_until="domcontentloaded", timeout=60000)
-            page.wait_for_timeout(2500)
-
-        if not args.games_only:
-            season = {"team_url": base, "fetched_at": datetime.now().isoformat(timespec="minutes"), "stats": {}}
-            season_stats(page, base, season["stats"])
-            (OUT_DIR / "stats.json").write_text(json.dumps(season, indent=1), encoding="utf-8")
-            print(f"wrote {OUT_DIR / 'stats.json'}")
-        if not args.season_only:
-            gpath = OUT_DIR / "games.json"
-            known = json.loads(gpath.read_text(encoding="utf-8")) if gpath.exists() else {}
-            all_games = games(page, base, known, args.refresh)
-            gpath.write_text(json.dumps(all_games, indent=1), encoding="utf-8")
-            print(f"wrote {gpath} ({len(all_games)} games)")
-        ctx.close()
+            page.wait_for_timeout(3000)
+            if args.login or not on_team_page(page):
+                if not (args.visible or args.login):
+                    print("Not logged in (or the team page didn't load). Run once with --login.")
+                    return 1
+                print("Log in to GameChanger in the browser window until the team page shows, then press Enter here.")
+                print("Leave the browser window open - the script closes it when done.")
+                input()
+                page.goto(base, wait_until="domcontentloaded", timeout=60000)
+                page.wait_for_timeout(3000)
+            if not args.games_only:
+                season_stats(page, base, season["stats"])
+            if not args.season_only:
+                all_games = games(page, base, all_games, args.refresh)
+        except Exception as exc:
+            print(f"stopped early: {exc}")
+        finally:
+            if season["stats"]:
+                (OUT_DIR / "stats.json").write_text(json.dumps(season, indent=1), encoding="utf-8")
+                print(f"wrote {OUT_DIR / 'stats.json'}")
+            if all_games:
+                gpath.write_text(json.dumps(all_games, indent=1), encoding="utf-8")
+                print(f"wrote {gpath} ({len(all_games)} games)")
+            try:
+                ctx.close()
+            except Exception:
+                pass
     return 0
 
 
