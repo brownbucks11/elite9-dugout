@@ -323,6 +323,57 @@ def bracket_placings(ev):
     return out
 
 
+def load_gc_games(data_dir):
+    """data/gc/games.json from gc_stats.py -> list of games with a local date and a normalized opponent."""
+    path = data_dir / "gc" / "games.json"
+    if not path.exists():
+        return []
+    out = []
+    for g in json.loads(path.read_text(encoding="utf-8")).values():
+        if not g.get("start"):
+            continue
+        try:
+            from zoneinfo import ZoneInfo
+            dt = datetime.fromisoformat(g["start"].replace("Z", "+00:00")).astimezone(ZoneInfo(g.get("timezone") or "America/New_York"))
+        except Exception:
+            dt = datetime.fromisoformat(g["start"].replace("Z", "+00:00"))
+        g["local_date"] = dt.date().isoformat()
+        g["local_time"] = dt.strftime("%I:%M %p").lstrip("0")
+        g["opp_norm"] = norm(re.sub(r"\b(fall|spring|summer)?\s*20\d\d\b|\b\d{1,2}u\b", "", g.get("opponent") or "", flags=re.I))
+        out.append(g)
+    return out
+
+
+def match_gc(my_game, gc_games):
+    """The GameChanger game for one of our Top Gun games: same day, same score, similar opponent."""
+    cands = [g for g in gc_games if g["local_date"] == my_game["date"]]
+    if not cands:
+        return None
+    opp = norm(my_game["opponent"])
+    def name_ok(g):
+        return g["opp_norm"] and (g["opp_norm"] in opp or opp in g["opp_norm"] or g["opp_norm"][:8] == opp[:8])
+    def score_ok(g):
+        sc = g.get("score") or {}
+        return my_game["rs"] is not None and sc.get("team") == my_game["rs"] and sc.get("opponent_team") == my_game["ra"]
+    for test in (lambda g: name_ok(g) and score_ok(g), score_ok, name_ok):
+        hit = [g for g in cands if test(g)]
+        if len(hit) == 1:
+            return hit[0]
+    return None
+
+
+def gc_summary(g):
+    """What the page needs for one game's box score (our side named, theirs as totals)."""
+    if not g:
+        return None
+    box = g.get("box") or {}
+    return {
+        "url": g.get("url") or "", "home_away": g.get("home_away"), "status": g.get("status"), "time": g.get("local_time"),
+        "line_score": g.get("line_score"), "opponent_box": g.get("opponent_box"),
+        "lineup": box.get("lineup"), "pitching": box.get("pitching"),
+    }
+
+
 def season_summary(st, derived=()):
     """Points and finishes from a team's statistics page, with finishes Top Gun hasn't posted yet
     filled in from our bracket results (`derived`: [{date, name, standing, won, lost}])."""
@@ -482,6 +533,7 @@ def build(events, team, upcoming, year, team_stats=None, today=None, out_dir=Non
     today = today or date.today().isoformat()
     now = datetime.now()
     me = norm(team)
+    gc_games = load_gc_games(DATA_DIR)
     rec = defaultdict(lambda: {"team": "", "location": "", "page_id": None,
                                "w": 0, "l": 0, "t": 0, "rs": 0, "ra": 0, "events": set(), "log": []})
     my_games, my_events, fields = [], [], {}
@@ -548,6 +600,10 @@ def build(events, team, upcoming, year, team_stats=None, today=None, out_dir=Non
                 "ics": write_ics(out_dir, tid, ev["name"], team, mine_games, fields, state != "final") if out_dir and state == "live" else None,
                 "standing": mine, "standings": rows, "games": ev["games"],
             })
+
+    for g in my_games:
+        g["gc"] = gc_summary(match_gc(g, gc_games))
+    gc_matched = sum(1 for g in my_games if g["gc"])
 
     # Tournaments: everything from upcoming.json plus every event we're in, finished ones included
     listed = {int(u["id"]): u for u in upcoming}
@@ -637,6 +693,7 @@ def build(events, team, upcoming, year, team_stats=None, today=None, out_dir=Non
         "my_events": my_events, "tournaments": upcoming_out, "teams": teams,
         "fields": dict(sorted(fields.items())),
         "roster": build_roster(DATA_DIR, mine["page_id"], HERE / "roster.json"),
+        "gc": {"games": len(gc_games), "matched": gc_matched},
         **season_summary(team_stats.get(mine["page_id"]), derived_for(me, mine)),
     }
 

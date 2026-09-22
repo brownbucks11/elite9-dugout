@@ -257,7 +257,7 @@ def structure_game(gid, details, boxscore, team_id, url=""):
     return game
 
 
-def rebuild_from_captures(team_id):
+def rebuild_from_captures(team_id, base=""):
     """Build data/gc/games.json from the raw API captures in local/gc/api/games/ (no fetching)."""
     out = {}
     for f in sorted((DUMP / "api" / "games").glob("*.json")):
@@ -265,7 +265,7 @@ def rebuild_from_captures(team_id):
         details = next((i["json"] for i in items if "/game-stream-processing/" in i["path"] and "/details" in i["path"] and i["status"] == 200), None)
         box = next((i["json"] for i in items if i["path"].endswith("/boxscore") and i["status"] == 200), None)
         if details or box:
-            out[f.stem] = structure_game(f.stem, details, box, team_id)
+            out[f.stem] = structure_game(f.stem, details, box, team_id, f"{base}/schedule/{f.stem}/box-score" if base else "")
     return out
 
 
@@ -451,7 +451,7 @@ def main():
 
     if args.rebuild:
         team_id = re.search(r"/teams/([A-Za-z0-9_-]+)", base).group(1)
-        games_out = rebuild_from_captures(team_id)
+        games_out = rebuild_from_captures(team_id, base)
         (OUT_DIR / "games.json").write_text(json.dumps(games_out, indent=1), encoding="utf-8")
         print(f"rebuilt {OUT_DIR / 'games.json'} from captures: {len(games_out)} games")
         return 0

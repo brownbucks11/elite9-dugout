@@ -115,6 +115,20 @@
   details.event[open] > summary::after { transform: translateY(-30%) rotate(225deg); }
   details.inner { border-left: 0; border-right: 0; border-radius: 0; }
 
+  /* GameChanger box scores */
+  .boxwrap { grid-column: 1 / -1; }
+  details.boxscore { border: 0; background: none; border-radius: 0; }
+  details.boxscore > summary { font-size: 12px; font-weight: 600; letter-spacing: .8px; text-transform: uppercase; color: var(--link); padding: 2px 0 0; cursor: pointer; }
+  .boxbody { display: grid; gap: 8px; padding: 8px 0 4px; }
+  .boxbody .table-wrap { border: 1px solid var(--line); border-radius: 6px; }
+  table.line td, table.line th, table.box td, table.box th { padding: 5px 8px; font-size: 13px; }
+  table.line th:first-child, table.line td:first-child { min-width: 120px; }
+  table.line .tot, table.box tr.tot td { font-weight: 600; }
+  table.line th.tot, table.line td.tot { border-left: 1px solid var(--line); }
+  table.box td.pl { white-space: nowrap; }
+  table.box .jersey { display: inline-block; min-width: 22px; margin-right: 6px; font-family: var(--display); font-weight: 700; color: var(--ink-2); text-align: right; }
+  table.box tr.tot td { border-top: 2px solid var(--line); }
+
   /* Brackets */
   .brackets { display: grid; gap: 14px; padding: 12px 16px 14px; border-top: 1px solid var(--line); }
   .bracket-title { font-family: var(--display); font-size: 18px; font-weight: 600; text-transform: uppercase; letter-spacing: .5px; display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
@@ -573,6 +587,33 @@
       }).join("");
   }
 
+  // ---- GameChanger box score for one of our games -------------------------------
+  const ip = (v) => { if (v == null) return ""; const w = Math.floor(v), t = Math.round((v - w) * 3); return t ? `${w}.${t}` : `${w}.0`; };
+  const BAT_EXTRA = ["2B", "3B", "HR", "SB", "HBP", "SF", "E"];
+  const PIT_EXTRA = ["#P", "TS", "BF", "WP", "HBP"];
+  function boxScoreHtml(g) {
+    const b = g.gc;
+    if (!b || !b.line_score) return "";
+    const ls = b.line_score, us = ls.team || {}, them = ls.opponent || {};
+    const n = Math.max((us.scores || []).length, (them.scores || []).length);
+    const inn = [...Array(n)].map((_, i) => i + 1);
+    const cellRow = (label, side) => `<tr class="${label === D.team ? "me" : ""}"><td>${esc(label)}</td>${inn.map((i) => `<td class="num">${side.scores && side.scores[i - 1] != null ? side.scores[i - 1] : (i - 1 < n && side === them && b.home_away === "away" && i === n ? "X" : "")}</td>`).join("")}${(side.totals || []).map((t) => `<td class="num tot">${t}</td>`).join("")}</tr>`;
+    const order = b.home_away === "away" ? [[D.team, us], [g.opponent, them]] : [[g.opponent, them], [D.team, us]];
+    const line = `<div class="table-wrap"><table class="line"><thead><tr><th></th>${inn.map((i) => `<th class="num">${i}</th>`).join("")}<th class="num tot">R</th><th class="num tot">H</th><th class="num tot">E</th></tr></thead>
+      <tbody>${order.map(([label, side]) => cellRow(label, side)).join("")}</tbody></table></div>`;
+    const lineup = b.lineup, pitching = b.pitching;
+    const bx = lineup ? BAT_EXTRA.filter((k) => lineup.players.some((p) => p.extra && p.extra[k])) : [];
+    const px = pitching ? PIT_EXTRA.filter((k) => pitching.players.some((p) => p.extra && p.extra[k])) : [];
+    const bat = lineup ? `<div class="table-wrap"><table class="box"><thead><tr><th>Batting</th><th></th><th class="num">AB</th><th class="num">R</th><th class="num">H</th><th class="num">RBI</th><th class="num">BB</th><th class="num">SO</th>${bx.map((k) => `<th class="num">${k}</th>`).join("")}</tr></thead>
+      <tbody>${lineup.players.map((p) => `<tr><td class="pl"><span class="jersey">${p.number != null ? p.number : ""}</span>${esc(p.name)}</td><td class="from">${esc(p.positions || "")}</td>${["AB", "R", "H", "RBI", "BB", "SO"].map((k) => `<td class="num ${k === "H" && p.H ? "pos" : ""}">${p[k] != null ? p[k] : ""}</td>`).join("")}${bx.map((k) => `<td class="num ${p.extra && p.extra[k] ? "pos" : ""}">${p.extra && p.extra[k] ? p.extra[k] : ""}</td>`).join("")}</tr>`).join("")}
+      ${lineup.team ? `<tr class="tot"><td>Team</td><td></td>${["AB", "R", "H", "RBI", "BB", "SO"].map((k) => `<td class="num">${lineup.team[k] != null ? lineup.team[k] : ""}</td>`).join("")}${bx.map(() => "<td></td>").join("")}</tr>` : ""}</tbody></table></div>` : "";
+    const pit = pitching ? `<div class="table-wrap"><table class="box"><thead><tr><th>Pitching</th><th class="num">IP</th><th class="num">H</th><th class="num">R</th><th class="num">ER</th><th class="num">BB</th><th class="num">SO</th>${px.map((k) => `<th class="num">${k === "#P" ? "Pitches" : k === "TS" ? "Strikes" : k}</th>`).join("")}</tr></thead>
+      <tbody>${pitching.players.map((p) => `<tr><td class="pl"><span class="jersey">${p.number != null ? p.number : ""}</span>${esc(p.name)}</td><td class="num">${ip(p.IP)}</td>${["H", "R", "ER", "BB", "SO"].map((k) => `<td class="num ${k === "SO" && p.SO ? "pos" : ""}">${p[k] != null ? p[k] : ""}</td>`).join("")}${px.map((k) => `<td class="num">${p.extra && p.extra[k] != null ? p.extra[k] : ""}</td>`).join("")}</tr>`).join("")}</tbody></table></div>` : "";
+    const ob = b.opponent_box || {};
+    const oppLine = ob.lineup ? `<p class="when">${esc(g.opponent)}: ${ob.lineup.H} hits, ${ob.lineup.BB} walks, ${ob.lineup.SO} strikeouts${ob.pitching ? ` · their pitching struck out ${ob.pitching.SO} and walked ${ob.pitching.BB}` : ""}.</p>` : "";
+    return `<details class="boxscore"><summary>Box score${b.time ? ` · ${esc(b.time)}` : ""}</summary><div class="boxbody">${line}${bat}${pit}${oppLine}<p class="when">From GameChanger${b.url ? ` · <a href="${esc(b.url)}" target="_blank" rel="noopener">open ↗</a>` : ""}</p></div></details>`;
+  }
+
   // ---- Bracket play, drawn as a bracket ----------------------------------------
   const TROPHY = '<svg viewBox="0 0 24 24" width="16" height="16"><path d="M7 3h10v2h3v3c0 2.5-2 4.5-4.5 4.8A5 5 0 0113 15.9V18h3v2H8v-2h3v-2.1a5 5 0 01-2.5-3.1C6 12.5 4 10.5 4 8V5h3zm-1 4v1c0 1.3.9 2.4 2.1 2.8A7 7 0 018 9V7zm12 0h-2v2c0 .6-.1 1.2-.1 1.8C17.1 10.4 18 9.3 18 8z" fill="currentColor"/></svg>';
   const PH = /^(winner|loser|seed|tbd)/i;
@@ -803,6 +844,7 @@
               <div><div class="opp">${/^(winner|loser|seed)/i.test(g.opponent) ? esc(g.opponent) : teamBtn(g.opponent)}${nextKey && gameKey(g) === nextKey ? '<span class="chg-pill next">next</span>' : ""}</div>
                    <div class="when">${esc(g.section)} G${g.game} · ${esc(g.day)} ${esc(g.time)} · ${fieldHtml(g.field)}</div></div>
               <div class="score">${g.result ? `${g.rs}–${g.ra}` : `<small>${esc(g.time)}</small>`}</div>
+              ${g.gc ? `<div class="boxwrap">${boxScoreHtml(g)}</div>` : ""}
             </li>`).join("")}</ul></div>
           ${bracketsHtml(e.games, games)}
           <details class="inner"><summary>Standings (${e.teams} teams)</summary>${standingsTable(e.standings, seedNote)}</details>
