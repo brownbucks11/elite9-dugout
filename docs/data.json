@@ -3,7 +3,7 @@
  "location": "Rock Hill, SC",
  "page_id": 31407,
  "team_url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=31407",
- "built": "Mon Sep 21, 2026 09:18 PM",
+ "built": "Mon Sep 21, 2026 09:36 PM",
  "record": {
   "w": 1,
   "l": 4,
@@ -2095,8 +2095,9 @@
      "name": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
      "won": 3,
      "lost": 1,
-     "standing": "",
-     "points": 0
+     "standing": "1st (Silver)",
+     "points": 0,
+     "derived": true
     }
    ],
    "season": "08/01/2026 - 09/21/2026",
@@ -2241,8 +2242,9 @@
      "name": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
      "won": 3,
      "lost": 1,
-     "standing": "",
-     "points": 0
+     "standing": "2nd (Gold)",
+     "points": 0,
+     "derived": true
     }
    ],
    "season": "08/01/2026 - 09/21/2026",
@@ -2751,8 +2753,9 @@
      "name": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
      "won": 3,
      "lost": 1,
-     "standing": "",
-     "points": 0
+     "standing": "3rd (Gold)",
+     "points": 0,
+     "derived": true
     }
    ],
    "season": "08/01/2026 - 09/21/2026",
@@ -3101,8 +3104,8 @@
      "result": "W"
     }
    ],
-   "points": 1150,
-   "titles": 1,
+   "points": 1950,
+   "titles": 2,
    "finishes": [
     {
      "date": "2026-08-22",
@@ -3133,12 +3136,12 @@
      "name": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
      "won": 4,
      "lost": 0,
-     "standing": "",
-     "points": 0
+     "standing": "1st (Gold)",
+     "points": 800
     }
    ],
    "season": "08/01/2026 - 09/21/2026",
-   "stats_fetched": "2026-09-21T12:54"
+   "stats_fetched": "2026-09-21T21:34"
   },
   {
    "team": "Mara Bulls",
@@ -3539,8 +3542,9 @@
      "name": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
      "won": 2,
      "lost": 2,
-     "standing": "",
-     "points": 0
+     "standing": "4th (Gold)",
+     "points": 0,
+     "derived": true
     }
    ],
    "season": "08/01/2026 - 09/21/2026",
@@ -4981,8 +4985,9 @@
      "name": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
      "won": 1,
      "lost": 3,
-     "standing": "",
-     "points": 0
+     "standing": "2nd (Silver)",
+     "points": 0,
+     "derived": true
     }
    ],
    "season": "08/01/2026 - 09/21/2026",
@@ -5187,8 +5192,9 @@
      "name": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
      "won": 1,
      "lost": 3,
-     "standing": "",
-     "points": 0
+     "standing": "3rd (Silver)",
+     "points": 0,
+     "derived": true
     }
    ],
    "season": "08/01/2026 - 09/21/2026",
@@ -5465,8 +5471,9 @@
      "name": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
      "won": 0,
      "lost": 4,
-     "standing": "",
-     "points": 0
+     "standing": "4th (Silver)",
+     "points": 0,
+     "derived": true
     }
    ],
    "season": "08/01/2026 - 09/21/2026",
@@ -5829,7 +5836,7 @@
    }
   ],
   "season": "08/01/2026 - 09/21/2026",
-  "fetched_at": "2026-09-21T14:18",
+  "fetched_at": "2026-09-21T21:36",
   "inactive": 22,
   "not_on_topgun": [],
   "duplicate_numbers": {}
