@@ -267,11 +267,76 @@ def write_ics(out_dir, tid, ev_name, team, mine, fields, tentative):
     return f"ics/{tid}.ics"
 
 
-def season_summary(st):
-    """Points and finishes from a team's statistics page (empty if we don't have the page)."""
+def ordinal(n):
+    return f"{n}{'th' if 10 <= n % 100 <= 20 else {1: 'st', 2: 'nd', 3: 'rd'}.get(n % 10, 'th')}"
+
+
+def bracket_placings(ev):
+    """{norm(team): '1st (Gold)'} for every decided place in an event's brackets, from the games
+    themselves - the same shape rules the page draws with (a tree has a final and a consolation
+    game; standalone games place 1st/2nd, then 3rd/4th, ...). Used to fill in finishes before
+    Top Gun posts them on the team pages."""
+    out = {}
+    sections = [sec for sec in dict.fromkeys(g["section"] for g in ev["games"]) if not sec.lower().startswith("pool")]
+    for sec in sections:
+        games = [g for g in ev["games"] if g["section"] == sec]
+        name = re.sub(r"\s*bracket$", "", sec, flags=re.I)
+        by_num = {g["game"]: g for g in games}
+        referenced = {r["game"] for g in games for r in (g["from_a"], g["from_b"]) if r}
+
+        def played(g):
+            return g["score_a"] is not None and g["score_b"] is not None
+
+        def winner(g):
+            if not played(g) or g["score_a"] == g["score_b"]:
+                return None
+            return g["team_a"] if g["score_a"] > g["score_b"] else g["team_b"]
+
+        def loser(g):
+            if not played(g) or g["score_a"] == g["score_b"]:
+                return None
+            return g["team_b"] if g["score_a"] > g["score_b"] else g["team_a"]
+
+        def consol(g):
+            return bool(g["from_a"] and g["from_a"]["type"] == "loser" and g["from_b"] and g["from_b"]["type"] == "loser")
+
+        def round_of(g, depth=0):
+            refs = [r for r in (g["from_a"], g["from_b"]) if r and r["game"] in by_num]
+            return 1 + max(round_of(by_num[r["game"]], depth + 1) for r in refs) if refs and depth < 12 else 1
+
+        places = []
+        if referenced:
+            winners = [g for g in games if not consol(g)]
+            last = max(round_of(g) for g in winners) if winners else 0
+            final = next((g for g in winners if round_of(g) == last and g["game"] not in referenced), None)
+            if final:
+                places += [(1, winner(final)), (2, loser(final))]
+            con = next((g for g in games if consol(g)), None)
+            if con:
+                places += [(3, winner(con)), (4, loser(con))]
+        else:
+            for i, g in enumerate(sorted(games, key=lambda g: g["game"])):
+                places += [(2 * i + 1, winner(g)), (2 * i + 2, loser(g))]
+        for place, team in places:
+            if team and not is_placeholder(team):
+                out[norm(team)] = f"{ordinal(place)} ({name})"
+    return out
+
+
+def season_summary(st, derived=()):
+    """Points and finishes from a team's statistics page, with finishes Top Gun hasn't posted yet
+    filled in from our bracket results (`derived`: [{date, name, standing, won, lost}])."""
     tours = (st or {}).get("tournaments", [])
     finishes = [{"date": t["date"], "name": t["name"], "won": t["won"], "lost": t["lost"],
                  "standing": t["standing"], "points": t["points"]} for t in tours]
+    for d in derived:
+        row = next((f for f in finishes if f["date"] == d["date"]), None)
+        if row is None:
+            finishes.append({"date": d["date"], "name": d["name"], "won": d["won"], "lost": d["lost"],
+                             "standing": d["standing"], "points": 0, "derived": True})
+        elif not row["standing"]:
+            row["standing"] = d["standing"]
+            row["derived"] = True
     return {
         "points": sum(t["points"] for t in tours),
         "titles": sum(1 for t in tours if t["standing"].lower().startswith("1st")),
@@ -522,8 +587,21 @@ def build(events, team, upcoming, year, team_stats=None, today=None, out_dir=Non
         })
     upcoming_out.sort(key=lambda e: e["date"] or "9999")
 
+    placings = {tid: bracket_placings(ev) for tid, ev in events.items()}
+
+    def derived_for(k, r):
+        out = []
+        for tid in r["events"]:
+            st = placings.get(tid, {}).get(k)
+            if st:
+                ev = events[tid]
+                mine_here = [x for x in r["log"] if x["event_id"] == tid]
+                out.append({"date": ev["date"], "name": ev["name"], "standing": st,
+                            "won": sum(1 for x in mine_here if x["result"] == "W"), "lost": sum(1 for x in mine_here if x["result"] == "L")})
+        return out
+
     teams = []
-    for r in rec.values():
+    for k, r in rec.items():
         gp = r["w"] + r["l"] + r["t"]
         if gp == 0:
             continue
@@ -533,7 +611,7 @@ def build(events, team, upcoming, year, team_stats=None, today=None, out_dir=Non
             "w": r["w"], "l": r["l"], "t": r["t"], "rs": r["rs"], "ra": r["ra"],
             "diff": r["rs"] - r["ra"], "pct": round((r["w"] + 0.5 * r["t"]) / gp, 3),
             "events": len(r["events"]), "log": sorted(r["log"], key=lambda x: (x["date"], x["event_id"])),
-            **season_summary(team_stats.get(r["page_id"])),
+            **season_summary(team_stats.get(r["page_id"]), derived_for(k, r)),
         })
     teams.sort(key=lambda t: (-t["pct"], -t["diff"], t["team"].lower()))
 
@@ -559,7 +637,7 @@ def build(events, team, upcoming, year, team_stats=None, today=None, out_dir=Non
         "my_events": my_events, "tournaments": upcoming_out, "teams": teams,
         "fields": dict(sorted(fields.items())),
         "roster": build_roster(DATA_DIR, mine["page_id"], HERE / "roster.json"),
-        **season_summary(team_stats.get(mine["page_id"])),
+        **season_summary(team_stats.get(mine["page_id"]), derived_for(me, mine)),
     }
 
 

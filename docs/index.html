@@ -249,6 +249,7 @@
   .chip { display: inline-block; font-size: 11px; font-weight: 600; letter-spacing: .3px; padding: 1px 7px; border-radius: 999px; border: 1px solid var(--line); color: var(--ink-2); margin: 1px 3px 1px 0; white-space: nowrap; }
   .chip.first { border-color: var(--amber); background: var(--me-bg); color: var(--ink); }
   .chip b { font-weight: 700; }
+  .chip.derived { border-style: dashed; }
   .legend { font-size: 12px; color: var(--ink-2); display: inline-flex; align-items: center; gap: 6px; }
   .hdr-link { margin-top: 10px; font-size: 13px; }
   .hdr-link a { color: var(--amber); }
@@ -455,18 +456,23 @@
       return `${D.team} ${x.result === "L" ? "beat" : x.result === "W" ? "lost to" : "tied"} ${t.team} ${x.ra}–${x.rs} · ${d ? MONTHS[d.getMonth()] + " " + d.getDate() : x.date} · ${x.section} · ${tidy(x.event)}`;
     }).join("\n");
   }
-  const chip = (standing, count = 1) => {
+  const chip = (standing, count = 1, derived = false) => {
     const s = String(standing || "").trim();
     if (!s) return "";
     const place = s.match(/^(\d+)/);
-    return `<span class="chip ${place && place[1] === "1" ? "first" : ""}">${esc(s.replace(/[()]/g, ""))}${count > 1 ? ` <b>×${count}</b>` : ""}</span>`;
+    return `<span class="chip ${place && place[1] === "1" ? "first" : ""} ${derived ? "derived" : ""}" ${derived ? 'title="From the bracket results; Top Gun has not posted this finish yet"' : ""}>${esc(s.replace(/[()]/g, ""))}${count > 1 ? ` <b>×${count}</b>` : ""}</span>`;
   };
-  // 1st and 2nd places only, grouped per bracket: [["1st (Gold)", 2], ["2nd (Silver)", 1]]
+  // 1st and 2nd places only, grouped per bracket: [["1st (Gold)", 2, derived?], ["2nd (Silver)", 1, false]]
   function topFinishes(t) {
     const counts = new Map();
-    (t.finishes || []).forEach((f) => { const m = /^(1st|2nd)\b/.exec(f.standing || ""); if (m) counts.set(f.standing, (counts.get(f.standing) || 0) + 1); });
+    (t.finishes || []).forEach((f) => {
+      const m = /^(1st|2nd)\b/.exec(f.standing || "");
+      if (!m) return;
+      const cur = counts.get(f.standing) || [0, true];
+      counts.set(f.standing, [cur[0] + 1, cur[1] && !!f.derived]);
+    });
     const rank = (st) => (/^1st/.test(st) ? 0 : 10) + (/gold/i.test(st) ? 0 : /silver/i.test(st) ? 1 : 2);
-    return [...counts.entries()].sort((a, b) => rank(a[0]) - rank(b[0]));
+    return [...counts.entries()].sort((a, b) => rank(a[0]) - rank(b[0])).map(([st, [n, d]]) => [st, n, d]);
   }
   const finishScore = (t) => topFinishes(t).reduce((acc, [st, n]) => acc + n * (/^1st/.test(st) ? 10 : 3) * (/gold/i.test(st) ? 3 : /silver/i.test(st) ? 2 : 1), 0);
   const recordStr = (r) => `${r.w}-${r.l}` + (r.t ? `-${r.t}` : "");
@@ -851,10 +857,10 @@
           <td class="num ${t.diff > 0 ? "pos" : t.diff < 0 ? "neg" : ""}">${t.diff > 0 ? "+" : ""}${t.diff}</td>
           <td class="num">${t.events}</td>
           <td class="num">${t.finishes && t.finishes.length ? t.points : `<span class="from">${havePoints ? "—" : ""}</span>`}</td>
-          <td class="chips">${topFinishes(t).map(([standing, n]) => chip(standing, n)).join("")}</td></tr>`; }).join("")}
+          <td class="chips">${topFinishes(t).map(([standing, n, d]) => chip(standing, n, d)).join("")}</td></tr>`; }).join("")}
         ${rows.length ? "" : `<tr><td colspan="11" class="empty">No team matches “${esc(filter)}”.</td></tr>`}
         </tbody></table></div>
-      ${havePoints ? `<p class="when">Points and finishes come from each team's Top Gun statistics page (season from Aug 1). Finishes show 1st and 2nd places by bracket, with a count when it happened more than once.</p>` : ""}`;
+      ${havePoints ? `<p class="when">Points and finishes come from each team's Top Gun statistics page (season from Aug 1). Finishes show 1st and 2nd places by bracket, with a count when it happened more than once; a dashed chip is a finish taken from the bracket results because Top Gun hasn't posted it yet.</p>` : ""}`;
     const input = $("#team-filter");
     input.addEventListener("input", () => { filter = input.value; const pos = input.selectionStart; renderStandings(); const el = $("#team-filter"); el.focus(); el.setSelectionRange(pos, pos); });
     document.querySelectorAll("#panel-teams th.sortable").forEach((th) => th.addEventListener("click", () => {
@@ -923,7 +929,7 @@
         ${t.finishes && t.finishes.length ? `<div class="h2h"><h3>Season on Top Gun <span class="when">${esc(t.season || "")}</span></h3>
           <div class="table-wrap" style="border:0"><table>
             <thead><tr><th>Date</th><th>Event</th><th class="num">W-L</th><th>Finish</th><th class="num">Points</th></tr></thead>
-            <tbody>${t.finishes.map((f) => `<tr><td>${esc(f.date)}</td><td class="wrap">${esc(tidy(f.name))}</td><td class="num">${f.won}-${f.lost}</td><td>${chip(f.standing) || '<span class="from">—</span>'}</td><td class="num">${f.points || ""}</td></tr>`).join("")}</tbody>
+            <tbody>${t.finishes.map((f) => `<tr><td>${esc(f.date)}</td><td class="wrap">${esc(tidy(f.name))}</td><td class="num">${f.won}-${f.lost}</td><td>${chip(f.standing, 1, !!f.derived) || '<span class="from">—</span>'}</td><td class="num">${f.derived ? '<span class="from">not posted</span>' : (f.points || "")}</td></tr>`).join("")}</tbody>
           </table></div></div>` : ""}
         <div class="event"><div class="event-body"><ul class="games">${t.log.map((g) => `<li class="game">
             <div class="pill ${g.result}">${g.result}</div>
