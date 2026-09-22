@@ -1,5 +1,5 @@
 # Elite 9 - Top Gun schedule
-_Updated Mon Sep 21, 2026 04:41 PM_
+_Updated Mon Sep 21, 2026 09:18 PM_
 
 ## WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND
 September 19 - 20 in Greater Charlotte Area, NC  
@@ -83,7 +83,7 @@ Tournament 13563 - [schedule page](https://playtopgunsports.com/GameTimesResults
 
 _Elite 9 not listed yet. Divisions posted: none posted yet_
 
-## FRIDAY NIGHT G.O.A.T. SERIES 9U
+## Canceled---FRIDAY NIGHT G.O.A.T. SERIES 9U
 September 25 in Monroe, NC  
 Tournament 13602 - [schedule page](https://playtopgunsports.com/GameTimesResults.aspx?trnid=13602)
 
