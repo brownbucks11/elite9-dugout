@@ -211,6 +211,64 @@ def dismiss_popups(page):
         page.wait_for_timeout(500)
 
 
+def short_name(first, last):
+    return f"{first} {last[0]}." if first and last else (first or last or "")
+
+
+def structure_game(gid, details, boxscore, team_id, url=""):
+    """One game from GameChanger's JSON: schedule/score details plus our box score.
+    Opponent players are not kept - only their team totals."""
+    game = {"id": gid, "url": url, "source": "gamechanger"}
+    if details:
+        opp = (details.get("opponent_team") or {}).get("name")
+        game.update({
+            "opponent": opp, "home_away": details.get("home_away"), "status": details.get("game_status"),
+            "start": details.get("start_ts"), "end": details.get("end_ts"), "timezone": details.get("timezone"),
+            "score": details.get("score"),
+        })
+        ls = details.get("line_score") or {}
+        game["line_score"] = {
+            "team": ls.get("team"), "opponent": ls.get("opponent_team"),
+        }
+    if boxscore and isinstance(boxscore, dict):
+        ours = boxscore.get(team_id)
+        opp_side = next((v for k, v in boxscore.items() if k != team_id), None)
+        if ours:
+            names = {pl["id"]: {"name": short_name(pl.get("first_name"), pl.get("last_name")),
+                                "number": int(pl["number"]) if str(pl.get("number") or "").isdigit() else None} for pl in ours.get("players", [])}
+            game["players"] = names
+            game["box"] = {}
+            for grp in ours.get("groups", []):
+                extras = {}
+                for e in grp.get("extra", []):
+                    for st in e.get("stats", []):
+                        extras.setdefault(st["player_id"], {})[e["stat_name"]] = st["value"]
+                rows = []
+                for st in grp.get("stats", []):
+                    pid = st["player_id"]
+                    row = {"player_id": pid, **names.get(pid, {"name": "?", "number": None}),
+                           "positions": (st.get("player_text") or "").strip("() "), "primary": st.get("is_primary"),
+                           **(st.get("stats") or {}), "extra": extras.get(pid, {})}
+                    rows.append(row)
+                game["box"][grp["category"]] = {"team": grp.get("team_stats"), "players": rows,
+                                                "extra_names": [e["stat_name"] for e in grp.get("extra", [])]}
+        if opp_side:
+            game["opponent_box"] = {grp["category"]: grp.get("team_stats") for grp in opp_side.get("groups", [])}
+    return game
+
+
+def rebuild_from_captures(team_id):
+    """Build data/gc/games.json from the raw API captures in local/gc/api/games/ (no fetching)."""
+    out = {}
+    for f in sorted((DUMP / "api" / "games").glob("*.json")):
+        items = json.loads(f.read_text(encoding="utf-8"))
+        details = next((i["json"] for i in items if "/game-stream-processing/" in i["path"] and "/details" in i["path"] and i["status"] == 200), None)
+        box = next((i["json"] for i in items if i["path"].endswith("/boxscore") and i["status"] == 200), None)
+        if details or box:
+            out[f.stem] = structure_game(f.stem, details, box, team_id)
+    return out
+
+
 def parse_box_score(text, grids, tables):
     """Structure a box-score page: line score, teams, and the lineup/pitching grids per team.
     Grids arrive in page order: away lineup, away pitching, home lineup, home pitching."""
@@ -345,16 +403,21 @@ def games(page, base, known, refresh, cap=None):
             if "/login" in page.url or ("Sign In" in text and not grids):
                 print("looks logged out - run with --login")
                 break
-            box = parse_box_score(text, grids, tables)
             api = cap.take() if cap else []
             if api:
                 ApiCapture.save(api, DUMP / "api" / "games", gid)
-            out[gid] = {"id": gid, "url": box_url, "schedule_text": link["text"], "box": box,
-                        "api": {i["path"]: i["json"] for i in api if i["status"] == 200},
-                        "fetched_at": datetime.now().isoformat(timespec="minutes")}
-            names = " vs ".join((t["name"] or "?") for t in box["teams"])
-            score = "-".join(str(t.get("R")) for t in box["teams"])
-            print(f"{box['status']} {names} {score} | {len(grids)} grids, {len(api)} API responses")
+            details = next((i["json"] for i in api if "/game-stream-processing/" in i["path"] and "/details" in i["path"] and i["status"] == 200), None)
+            boxj = next((i["json"] for i in api if i["path"].endswith("/boxscore") and i["status"] == 200), None)
+            team_id = re.search(r"/teams/([A-Za-z0-9_-]+)", base).group(1)
+            if details or boxj:
+                rec = structure_game(gid, details, boxj, team_id, box_url)
+            else:   # fall back to what the page shows
+                box = parse_box_score(text, grids, tables)
+                rec = {"id": gid, "url": box_url, "source": "page", "status": box["status"], "page_box": box}
+            rec["fetched_at"] = datetime.now().isoformat(timespec="minutes")
+            out[gid] = rec
+            sc = rec.get("score") or {}
+            print(f"{rec.get('status')} vs {rec.get('opponent')} {sc.get('team')}-{sc.get('opponent_team')} | box: {'yes' if rec.get('box') else 'no'}")
         except Exception as exc:
             print(f"FAILED: {exc}")
         time.sleep(1.5)
@@ -369,6 +432,7 @@ def main():
     ap.add_argument("--games-only", action="store_true")
     ap.add_argument("--season-only", action="store_true")
     ap.add_argument("--refresh", action="store_true", help="re-read games already saved")
+    ap.add_argument("--rebuild", action="store_true", help="rebuild data/gc/games.json from local/gc/api captures, no fetching")
     ap.add_argument("--cdp", nargs="?", const=9222, type=int, metavar="PORT",
                     help="attach to a Chrome started by start_gc_chrome.cmd (default port 9222) instead of launching a browser")
     args = ap.parse_args()
@@ -384,6 +448,13 @@ def main():
     if not base:
         print("Need the team URL once:  python gc_stats.py --login --team-url https://web.gc.com/teams/<id>/<slug>")
         return 1
+
+    if args.rebuild:
+        team_id = re.search(r"/teams/([A-Za-z0-9_-]+)", base).group(1)
+        games_out = rebuild_from_captures(team_id)
+        (OUT_DIR / "games.json").write_text(json.dumps(games_out, indent=1), encoding="utf-8")
+        print(f"rebuilt {OUT_DIR / 'games.json'} from captures: {len(games_out)} games")
+        return 0
 
     from playwright.sync_api import sync_playwright
     season = {"team_url": base, "fetched_at": datetime.now().isoformat(timespec="minutes"), "stats": {}}
