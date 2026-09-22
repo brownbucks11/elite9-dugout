@@ -54,7 +54,9 @@ READ_GRIDS = """
     });
     const rows = {};
     grid.querySelectorAll('[role="row"][aria-rowindex]').forEach((r) => {
-      const idx = +r.getAttribute("aria-rowindex");
+      // pinned rows (the Team totals) restart their index at 1, so keep them apart from body rows
+      const pinned = r.closest(".ag-floating-bottom, .ag-floating-top") ? "p" : "";
+      const idx = pinned + r.getAttribute("aria-rowindex");
       r.querySelectorAll('[role="gridcell"][col-id]').forEach((c) => {
         (rows[idx] = rows[idx] || {})[c.getAttribute("col-id")] = clean(c.textContent);
       });
@@ -135,7 +137,7 @@ def read_grids_merged(page, settle_ms=500):
     for g in grids:
         cols = [c for c in g["headers"] if c != "player"]
         players, totals = [], None
-        for idx in sorted(g["rows"], key=int):
+        for idx in sorted(g["rows"], key=lambda k: (k.startswith("p"), int(k.lstrip("p")))):
             cells = g["rows"][idx]
             name, number = parse_player(cells.get("player", ""))
             if not name:
