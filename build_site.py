@@ -384,6 +384,29 @@ def load_gc_season(data_dir):
     return {"fetched_at": d.get("fetched_at"), "stats": stats}
 
 
+def load_entries(data_dir, tid, division):
+    """Who's Playing (topgunstats.com): teams entered in our division for an event. Team names are
+    only passed through when the director shows them on Top Gun's own page."""
+    path = data_dir / "entries" / f"{tid}.json"
+    if not path.exists():
+        return None
+    d = json.loads(path.read_text(encoding="utf-8"))
+    grp = next((a for a in d.get("AgeGroups", []) if norm(a.get("AgeGroupText", "").split()[0] if a.get("AgeGroupText") else "") == norm(division)), None)
+    if not grp:
+        return {"count": 0, "confirmed": 0, "hidden": bool(d.get("IsHiddenWhosPlaying")), "teams": [], "total": sum(len(a.get("Teams", [])) for a in d.get("AgeGroups", []))}
+    teams = grp.get("Teams", [])
+    hidden = bool(d.get("IsHiddenWhosPlaying")) and not SHOW_HIDDEN_ENTRIES
+    return {
+        "count": len(teams), "confirmed": sum(1 for t in teams if t.get("IsEntryConfirmed")), "hidden": hidden,
+        "we_are_entered": any(norm(t["TeamName"]) == norm(TEAM_NAME_HOLDER[0]) for t in teams),
+        "waitlist": sum(1 for t in teams if t.get("IsOnWaitingList")),
+        "total": sum(len(a.get("Teams", [])) for a in d.get("AgeGroups", [])),
+        "teams": [] if hidden else [{"name": t["TeamName"], "city": t.get("CityState", ""), "level": t.get("DivisionAbbr", ""),
+                                     "confirmed": bool(t.get("IsEntryConfirmed")), "waitlist": bool(t.get("IsOnWaitingList"))}
+                                    for t in sorted(teams, key=lambda t: t.get("DateTimeEntered") or "")],
+    }
+
+
 def season_summary(st, derived=()):
     """Points and finishes from a team's statistics page, with finishes Top Gun hasn't posted yet
     filled in from our bracket results (`derived`: [{date, name, standing, won, lost}])."""
@@ -538,6 +561,11 @@ def rank_event(ev):
     return info
 
 
+args_division_holder = ["9U"]
+TEAM_NAME_HOLDER = ["Elite 9"]
+SHOW_HIDDEN_ENTRIES = False   # --show-hidden-entries: list entered teams even when the director hides them on Top Gun
+
+
 def build(events, team, upcoming, year, team_stats=None, today=None, out_dir=None):
     team_stats = team_stats or {}
     today = today or date.today().isoformat()
@@ -649,6 +677,7 @@ def build(events, team, upcoming, year, team_stats=None, today=None, out_dir=Non
         hist = update_schedule_history(DATA_DIR, tid, mine_games, state, now) if mine_games and state != "final" else {"versions": []}
         upcoming_out.append({
             "id": tid, "state": state, "official": bool(u.get("official")), "summary": summary,
+            "entries": load_entries(DATA_DIR, tid, args_division_holder[0]) if state in ("announced", "scheduled") else None,
             "name": (ev and ev["name"]) or u.get("name") or f"Tournament {tid}",
             "dates": (ev and ev["dates"]) or u.get("dates", ""),
             "date": (ev and ev["date"]) or start_date(u.get("dates", ""), year),
@@ -731,10 +760,15 @@ def main():
     ap.add_argument("--upcoming", default="upcoming.json")
     ap.add_argument("--out", default="docs")
     ap.add_argument("--today", default=None, help="YYYY-MM-DD, to preview how the page looks on another day")
+    ap.add_argument("--show-hidden-entries", action="store_true", help="list entered teams even when Top Gun's director hides the Who's Playing list")
     args = ap.parse_args()
 
     global DATA_DIR
     DATA_DIR = Path(args.data)
+    args_division_holder[0] = args.division
+    TEAM_NAME_HOLDER[0] = args.team
+    global SHOW_HIDDEN_ENTRIES
+    SHOW_HIDDEN_ENTRIES = args.show_hidden_entries
     events = load_events(Path(args.data), args.division, None if args.all else args.since, args.year)
     up_path = Path(args.upcoming)
     upcoming = json.loads(up_path.read_text(encoding="utf-8")) if up_path.exists() else []

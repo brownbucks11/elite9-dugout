@@ -4,6 +4,8 @@ Elite 9 (9U, Fall 2026) - Top Gun tournament tracking.
 
 ## How the sites fit together
 - topgunstats.com/tournaments?sport=1 ......... tournament list (loads JSON from /api/queries/tournaments/tournament-data)
+- topgunstats.com/whos-playing/<ID> ........... entries per division, live (JSON: /api/public/tournaments/<ID>/whos-playing?api_key=secret);
+                                                 saved by refresh.py to data/entries/<ID>.json. No schedules/scores on this site.
 - playtopgunsports.com/GameTimesResults.aspx?trnid=<ID> ... the actual schedule, scores, standings, brackets
 - The <ID> is TournamentID from the list. Known fall 2026 Charlotte-area IDs:
     12518  Sep 26-27   Charlotte      Spiderman vs Hulk ring weekend

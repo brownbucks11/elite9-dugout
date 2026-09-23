@@ -123,6 +123,28 @@ def ids_to_refresh(extra, team, division, lookback_days, ahead_days):
     return sorted(ids)
 
 
+ENTRIES_URL = "https://topgunstats.com/api/public/tournaments/{id}/whos-playing?api_key=secret"
+
+
+def fetch_entries(ids):
+    """topgunstats.com's 'Who's Playing' feed: teams entered per division, live, no browser needed."""
+    import urllib.request
+    out_dir = HERE / "data" / "entries"
+    out_dir.mkdir(parents=True, exist_ok=True)
+    got = 0
+    for tid in ids:
+        try:
+            with urllib.request.urlopen(urllib.request.Request(ENTRIES_URL.format(id=tid), headers={"User-Agent": "Mozilla/5.0"}), timeout=30) as r:
+                body = r.read()
+            data = json.loads(body)
+            if data.get("AgeGroups") is not None:
+                (out_dir / f"{tid}.json").write_bytes(body)
+                got += 1
+        except Exception as exc:
+            print(f"  entries {tid}: {exc}")
+    print(f"entries: {got}/{len(ids)} events")
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--ids", nargs="*", type=int, default=[])
@@ -143,6 +165,8 @@ def main():
         discover(py, args.team, args.division, args.discover_days, args.city or DISCOVER_CITIES)
     if not args.no_fetch:
         ids = ids_to_refresh(args.ids, args.team, args.division, args.lookback, args.ahead)
+        up = HERE / "upcoming.json"
+        fetch_entries(sorted({int(u["id"]) for u in json.loads(up.read_text(encoding="utf-8"))} | set(ids)) if up.exists() else ids)
         print("refreshing:", " ".join(map(str, ids)) or "(nothing)")
         if ids:
             r = subprocess.run([py, str(HERE / "topgun_fetch.py"), "--team", args.team, "--ids", *map(str, ids)], cwd=HERE)

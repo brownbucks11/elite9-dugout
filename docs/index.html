@@ -129,6 +129,15 @@
   table.box .jersey { display: inline-block; min-width: 22px; margin-right: 6px; font-family: var(--display); font-weight: 700; color: var(--ink-2); text-align: right; }
   table.box tr.tot td { border-top: 2px solid var(--line); }
 
+  /* Entries (Who's Playing) */
+  .entries-wrap { border-top: 1px solid var(--line); }
+  .entries-head { padding: 10px 0 4px; font-size: 14px; }
+  .entries { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 2px 16px; }
+  .entries li { padding: 4px 0; font-size: 14px; display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+  .entries li button { background: none; border: 0; padding: 0; font: inherit; color: var(--link); cursor: pointer; }
+  .entries .from { font-size: 12px; }
+  .mark-icon.sm { width: 20px; height: 15px; }
+
   /* Stats page */
   .statbar { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; padding: 8px 0 10px; }
   .statbar .gap { flex: 1; }
@@ -537,6 +546,18 @@
   const STAG = { live: "In progress", tentative: "Tentative", official: "Official (per coach)" };
   const stag = (kind) => `<span class="stag ${kind}">${STAG[kind]}</span>`;
 
+  // Who's Playing (topgunstats.com): entries per division, live before the schedule exists
+  function entriesHtml(e) {
+    const en = e.entries;
+    if (!en || !en.count) return "";
+    const teamInfo = (name) => D.teams.find((x) => norm(x.team) === norm(name) || norm(x.team).startsWith(norm(name).slice(0, 10)));
+    const list = en.teams.length ? `<ul class="entries">${en.teams.map((t) => {
+      const ti = teamInfo(t.name), v = ti && vsUs(ti);
+      return `<li>${v && v.n ? `<img class="mark-icon sm" src="logo.png" alt="" title="${esc(vsTip(ti))}">` : ""}${ti ? teamBtn(t.name) : esc(t.name)}<span class="from">${esc(t.city)}${t.level ? " · " + esc(t.level) : ""}${ti ? " · " + recordStr(ti) : ""}${t.waitlist ? " · waitlist" : ""}</span></li>`;
+    }).join("")}</ul>` : `<p class="when">The tournament director keeps the team list off Top Gun's page for this event, so only the count is shown here.</p>`;
+    return `<div class="event-body entries-wrap"><div class="entries-head"><b>${en.count} team${en.count === 1 ? "" : "s"} entered in ${esc(D.division)}</b>${en.we_are_entered ? ` · <span class="pos">${esc(D.team)} is entered ✓</span>` : ` · <span class="neg">${esc(D.team)} not on the list yet</span>`}${en.total ? ` · ${en.total} across all ages` : ""}${en.waitlist ? ` · ${en.waitlist} waitlisted` : ""} <span class="from">· Who's Playing on topgunstats.com</span></div>${list}</div>`;
+  }
+
   function renderNext() {
     const list = (D.tournaments || []).slice().sort((a, b) => (a.date || "9999").localeCompare(b.date || "9999"));
     if (!list.length) {
@@ -564,7 +585,7 @@
           body = `<div class="event-body"><p class="pointer">Game day — scores and the bracket are on <button type="button" class="linkish" data-goto="results">Results</button>.
             ${n ? `<br>Next: <b>vs ${PH.test(n.opponent) ? esc(n.opponent) : teamBtn(n.opponent)}</b> · ${esc(n.day)} ${esc(n.time)} · ${fieldHtml(n.field)}` : ""}</p></div>`;
         } else if (!e.posted) {
-          body = `<p class="empty">Schedule not posted yet — Top Gun usually posts during the week, then changes it a few times before game day.</p>`;
+          body = `<p class="empty">Schedule not posted yet — Top Gun usually posts during the week, then changes it a few times before game day.</p>${entriesHtml(e)}`;
         } else if (!e.mine.length) {
           body = `<p class="empty">Schedule is up, but ${esc(D.team)} isn't on it yet.</p>`;
         } else {
@@ -588,6 +609,7 @@
             </li>`;
           }).join("") + rem.map((c) => `<li class="game removed"><div class="pill time">${esc(c.was.day)}</div><div><div class="opp">${esc(c.was.opponent)}<span class="chg-pill">removed</span></div><div class="when">${esc(c.was.day)} ${esc(c.was.time)} · ${fieldHtml(c.was.field)}</div></div><div class="score"></div></li>`).join("") + `</ul></div>`;
         }
+        if (e.state === "scheduled") body += entriesHtml(e);
         return `<article class="event ${e.state}" id="tournament-${e.id}">
           <div class="event-head">${datebox(e.date)}
             <div><h3>${esc(tidy(e.name))}${i === nextIdx ? '<span class="next-badge">Next</span>' : ""} ${tag}</h3>
