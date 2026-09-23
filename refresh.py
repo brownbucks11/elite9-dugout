@@ -157,6 +157,7 @@ def main():
     ap.add_argument("--discover-days", type=int, default=21, help="how far ahead discovery looks")
     ap.add_argument("--city", action="append", default=[], help="discovery city filter (default: Charlotte area)")
     ap.add_argument("--teams", action="store_true", help="also refresh every team's statistics page (points, finishes)")
+    ap.add_argument("--entries", action="store_true", help="also save topgunstats.com Who's Playing entries to data/entries/ (parked; page ignores them unless re-enabled)")
     args = ap.parse_args()
 
     sys.stdout.reconfigure(line_buffering=True)
@@ -165,8 +166,9 @@ def main():
         discover(py, args.team, args.division, args.discover_days, args.city or DISCOVER_CITIES)
     if not args.no_fetch:
         ids = ids_to_refresh(args.ids, args.team, args.division, args.lookback, args.ahead)
-        up = HERE / "upcoming.json"
-        fetch_entries(sorted({int(u["id"]) for u in json.loads(up.read_text(encoding="utf-8"))} | set(ids)) if up.exists() else ids)
+        if args.entries:   # topgunstats.com "Who's Playing" entries; off by default (parked for now)
+            up = HERE / "upcoming.json"
+            fetch_entries(sorted({int(u["id"]) for u in json.loads(up.read_text(encoding="utf-8"))} | set(ids)) if up.exists() else ids)
         print("refreshing:", " ".join(map(str, ids)) or "(nothing)")
         if ids:
             r = subprocess.run([py, str(HERE / "topgun_fetch.py"), "--team", args.team, "--ids", *map(str, ids)], cwd=HERE)

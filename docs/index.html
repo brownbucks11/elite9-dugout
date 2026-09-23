@@ -585,7 +585,7 @@
           body = `<div class="event-body"><p class="pointer">Game day — scores and the bracket are on <button type="button" class="linkish" data-goto="results">Results</button>.
             ${n ? `<br>Next: <b>vs ${PH.test(n.opponent) ? esc(n.opponent) : teamBtn(n.opponent)}</b> · ${esc(n.day)} ${esc(n.time)} · ${fieldHtml(n.field)}` : ""}</p></div>`;
         } else if (!e.posted) {
-          body = `<p class="empty">Schedule not posted yet — Top Gun usually posts during the week, then changes it a few times before game day.</p>${entriesHtml(e)}`;
+          body = `<p class="empty">Schedule not posted yet — Top Gun usually posts during the week, then changes it a few times before game day.</p>`;
         } else if (!e.mine.length) {
           body = `<p class="empty">Schedule is up, but ${esc(D.team)} isn't on it yet.</p>`;
         } else {
@@ -609,7 +609,6 @@
             </li>`;
           }).join("") + rem.map((c) => `<li class="game removed"><div class="pill time">${esc(c.was.day)}</div><div><div class="opp">${esc(c.was.opponent)}<span class="chg-pill">removed</span></div><div class="when">${esc(c.was.day)} ${esc(c.was.time)} · ${fieldHtml(c.was.field)}</div></div><div class="score"></div></li>`).join("") + `</ul></div>`;
         }
-        if (e.state === "scheduled") body += entriesHtml(e);
         return `<article class="event ${e.state}" id="tournament-${e.id}">
           <div class="event-head">${datebox(e.date)}
             <div><h3>${esc(tidy(e.name))}${i === nextIdx ? '<span class="next-badge">Next</span>' : ""} ${tag}</h3>
