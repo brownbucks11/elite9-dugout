@@ -231,6 +231,7 @@
   .stag.tentative { border: 1px solid var(--amber); color: var(--ink); background: var(--me-bg); }
   .stag.official { background: var(--win); color: #fff; }
   .stag.final { background: var(--tie-bg); color: var(--ink-2); }
+  .stag.reg { background: var(--win-bg); color: var(--win); border: 1px solid var(--win); }
   article.event.final .event-head { border-bottom: 0; }
   article.event.final .datebox { opacity: .75; }
   .chg { color: var(--loss); }
@@ -566,16 +567,19 @@
   }
   const tgsLink = (t, id) => `<a href="${esc((t && t.url) || ("https://topgunstats.com/whos-playing/" + id))}" target="_blank" rel="noopener">Top Gun Stats ↗</a>`;
 
-  // Who's Playing (topgunstats.com): entries per division, live before the schedule exists
-  function entriesHtml(e) {
+  // Who's Playing (topgunstats.com): is Elite 9 on the entry list? (counts only, no other team names)
+  function regTag(e) {
     const en = e.entries;
-    if (!en || !en.count) return "";
-    const teamInfo = (name) => D.teams.find((x) => norm(x.team) === norm(name) || norm(x.team).startsWith(norm(name).slice(0, 10)));
-    const list = en.teams.length ? `<ul class="entries">${en.teams.map((t) => {
-      const ti = teamInfo(t.name), v = ti && vsUs(ti);
-      return `<li>${v && v.n ? `<img class="mark-icon sm" src="logo.png" alt="" title="${esc(vsTip(ti))}">` : ""}${ti ? teamBtn(t.name) : esc(t.name)}<span class="from">${esc(t.city)}${t.level ? " · " + esc(t.level) : ""}${ti ? " · " + recordStr(ti) : ""}${t.waitlist ? " · waitlist" : ""}</span></li>`;
-    }).join("")}</ul>` : `<p class="when">The tournament director keeps the team list off Top Gun's page for this event, so only the count is shown here.</p>`;
-    return `<div class="event-body entries-wrap"><div class="entries-head"><b>${en.count} team${en.count === 1 ? "" : "s"} entered in ${esc(D.division)}</b>${en.we_are_entered ? ` · <span class="pos">${esc(D.team)} is entered ✓</span>` : ` · <span class="neg">${esc(D.team)} not on the list yet</span>`}${en.total ? ` · ${en.total} across all ages` : ""}${en.waitlist ? ` · ${en.waitlist} waitlisted` : ""} <span class="from">· Who's Playing on topgunstats.com</span></div>${list}</div>`;
+    if (!en) return "";
+    const t = en.team || {};
+    if (t.entered) return `<span class="stag reg" title="On Top Gun's entry list for ${esc(t.division || D.division)}${t.entered_at ? " since " + esc(fmtSeen(t.entered_at)) : ""}">${t.waitlist ? "Waitlisted" : t.confirmed ? "Registered · confirmed ✓" : "Registered ✓"}</span>`;
+    return "";
+  }
+  function regMeta(e) {
+    const en = e.entries;
+    if (!en) return "";
+    const t = en.team || {};
+    return ` · ${en.count} team${en.count === 1 ? "" : "s"} entered in ${esc(D.division)}${t.entered ? "" : ` · <span class="neg">${esc(D.team)} not on the entry list yet</span>`}`;
   }
 
   function renderNext() {
@@ -631,8 +635,8 @@
         }
         return `<article class="event ${e.state}" id="tournament-${e.id}">
           <div class="event-head">${datebox(e.date)}
-            <div><h3>${esc(tidy(e.name))}${i === nextIdx ? '<span class="next-badge">Next</span>' : ""} ${tag}</h3>
-                 <div class="event-meta">${meta}${e.standings.length ? ` · ${e.standings.length} teams` : ""}</div></div>
+            <div><h3>${esc(tidy(e.name))}${i === nextIdx ? '<span class="next-badge">Next</span>' : ""} ${tag}${e.state === "final" ? "" : regTag(e)}</h3>
+                 <div class="event-meta">${meta}${e.standings.length ? ` · ${e.standings.length} teams` : ""}${e.state === "final" ? "" : regMeta(e)}</div></div>
           </div>
           ${e.state === "final" ? "" : noticesHtml(e.tgs)}
           ${body}

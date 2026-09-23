@@ -426,26 +426,17 @@ def load_tgs(data_dir, tid):
 
 
 def load_entries(data_dir, tid, division):
-    """Who's Playing (topgunstats.com): teams entered in our division for an event. Team names are
-    only passed through when the director shows them on Top Gun's own page."""
+    """Who's Playing (topgunstats.com), trimmed by refresh.py: per-division counts + our entry status."""
     path = data_dir / "entries" / f"{tid}.json"
     if not path.exists():
         return None
     d = json.loads(path.read_text(encoding="utf-8"))
-    grp = next((a for a in d.get("AgeGroups", []) if norm(a.get("AgeGroupText", "").split()[0] if a.get("AgeGroupText") else "") == norm(division)), None)
-    if not grp:
-        return {"count": 0, "confirmed": 0, "hidden": bool(d.get("IsHiddenWhosPlaying")), "teams": [], "total": sum(len(a.get("Teams", [])) for a in d.get("AgeGroups", []))}
-    teams = grp.get("Teams", [])
-    hidden = bool(d.get("IsHiddenWhosPlaying")) and not SHOW_HIDDEN_ENTRIES
-    return {
-        "count": len(teams), "confirmed": sum(1 for t in teams if t.get("IsEntryConfirmed")), "hidden": hidden,
-        "we_are_entered": any(norm(t["TeamName"]) == norm(TEAM_NAME_HOLDER[0]) for t in teams),
-        "waitlist": sum(1 for t in teams if t.get("IsOnWaitingList")),
-        "total": sum(len(a.get("Teams", [])) for a in d.get("AgeGroups", [])),
-        "teams": [] if hidden else [{"name": t["TeamName"], "city": t.get("CityState", ""), "level": t.get("DivisionAbbr", ""),
-                                     "confirmed": bool(t.get("IsEntryConfirmed")), "waitlist": bool(t.get("IsOnWaitingList"))}
-                                    for t in sorted(teams, key=lambda t: t.get("DateTimeEntered") or "")],
-    }
+    if "divisions" not in d:      # older full-format file; ignore
+        return None
+    div = next((v for k, v in d["divisions"].items() if norm(k.split()[0] if k else "") == norm(division)), None)
+    return {"count": (div or {}).get("count", 0), "confirmed": (div or {}).get("confirmed", 0), "waitlist": (div or {}).get("waitlist", 0),
+            "total": sum(v.get("count", 0) for v in d["divisions"].values()),
+            "team": d.get("team") or {"entered": False}, "fetched_at": d.get("fetched_at")}
 
 
 def season_summary(st, derived=()):
@@ -604,7 +595,6 @@ def rank_event(ev):
 
 args_division_holder = ["9U"]
 TEAM_NAME_HOLDER = ["Elite 9"]
-SHOW_HIDDEN_ENTRIES = False   # --show-hidden-entries: list entered teams even when the director hides them on Top Gun
 
 
 def build(events, team, upcoming, year, team_stats=None, today=None, out_dir=None):
@@ -718,7 +708,7 @@ def build(events, team, upcoming, year, team_stats=None, today=None, out_dir=Non
         hist = update_schedule_history(DATA_DIR, tid, mine_games, state, now) if mine_games and state != "final" else {"versions": []}
         upcoming_out.append({
             "id": tid, "state": state, "official": bool(u.get("official")), "summary": summary,
-            "entries": load_entries(DATA_DIR, tid, args_division_holder[0]) if state in ("announced", "scheduled") else None,
+            "entries": load_entries(DATA_DIR, tid, args_division_holder[0]) if state != "final" else None,
             "tgs": load_tgs(DATA_DIR, tid),
             "name": (ev and ev["name"]) or u.get("name") or f"Tournament {tid}",
             "dates": (ev and ev["dates"]) or u.get("dates", ""),
@@ -803,15 +793,12 @@ def main():
     ap.add_argument("--upcoming", default="upcoming.json")
     ap.add_argument("--out", default="docs")
     ap.add_argument("--today", default=None, help="YYYY-MM-DD, to preview how the page looks on another day")
-    ap.add_argument("--show-hidden-entries", action="store_true", help="list entered teams even when Top Gun's director hides the Who's Playing list")
     args = ap.parse_args()
 
     global DATA_DIR
     DATA_DIR = Path(args.data)
     args_division_holder[0] = args.division
     TEAM_NAME_HOLDER[0] = args.team
-    global SHOW_HIDDEN_ENTRIES
-    SHOW_HIDDEN_ENTRIES = args.show_hidden_entries
     events = load_events(Path(args.data), args.division, None if args.all else args.since, args.year)
     up_path = Path(args.upcoming)
     upcoming = json.loads(up_path.read_text(encoding="utf-8")) if up_path.exists() else []

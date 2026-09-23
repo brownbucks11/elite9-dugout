@@ -159,23 +159,38 @@ def fetch_tgs(ids):
     print(f"tgs: {found}/{len(want)} events found on topgunstats.com")
 
 
-def fetch_entries(ids):
-    """topgunstats.com's 'Who's Playing' feed: teams entered per division, live, no browser needed."""
+def fetch_entries(ids, team="Elite 9"):
+    """topgunstats.com 'Who's Playing': keep only per-division counts and OUR entry status
+    (entered / confirmed / waitlist). Other teams' names are not stored - directors hide that list."""
     import urllib.request
     out_dir = HERE / "data" / "entries"
     out_dir.mkdir(parents=True, exist_ok=True)
-    got = 0
+    got, ours = 0, []
     for tid in ids:
         try:
             with urllib.request.urlopen(urllib.request.Request(ENTRIES_URL.format(id=tid), headers={"User-Agent": "Mozilla/5.0"}), timeout=30) as r:
-                body = r.read()
-            data = json.loads(body)
-            if data.get("AgeGroups") is not None:
-                (out_dir / f"{tid}.json").write_bytes(body)
-                got += 1
+                data = json.loads(r.read())
         except Exception as exc:
             print(f"  entries {tid}: {exc}")
-    print(f"entries: {got}/{len(ids)} events")
+            continue
+        if data.get("AgeGroups") is None:
+            continue
+        rec = {"tournament": data.get("TournamentName"), "start": data.get("StartDate"), "hidden": bool(data.get("IsHiddenWhosPlaying")),
+               "divisions": {}, "team": {"entered": False}, "fetched_at": datetime.now().isoformat(timespec="minutes")}
+        for grp in data["AgeGroups"]:
+            label = (grp.get("AgeGroupText") or "").strip()
+            teams = grp.get("Teams", [])
+            rec["divisions"][label] = {"count": len(teams), "confirmed": sum(1 for t in teams if t.get("IsEntryConfirmed")),
+                                       "waitlist": sum(1 for t in teams if t.get("IsOnWaitingList"))}
+            for t in teams:
+                if norm(t.get("TeamName")) == norm(team):
+                    rec["team"] = {"entered": True, "division": label, "confirmed": bool(t.get("IsEntryConfirmed")),
+                                   "waitlist": bool(t.get("IsOnWaitingList")), "entered_at": t.get("DateTimeEntered"), "level": t.get("DivisionAbbr")}
+        (out_dir / f"{tid}.json").write_text(json.dumps(rec, indent=1), encoding="utf-8")
+        got += 1
+        if rec["team"]["entered"]:
+            ours.append(str(tid))
+    print(f"entries: {got}/{len(ids)} events; {team} registered in: {', '.join(ours) or 'none'}")
 
 
 def main():
@@ -190,7 +205,6 @@ def main():
     ap.add_argument("--discover-days", type=int, default=21, help="how far ahead discovery looks")
     ap.add_argument("--city", action="append", default=[], help="discovery city filter (default: Charlotte area)")
     ap.add_argument("--teams", action="store_true", help="also refresh every team's statistics page (points, finishes)")
-    ap.add_argument("--entries", action="store_true", help="also save topgunstats.com Who's Playing entries to data/entries/ (parked; page ignores them unless re-enabled)")
     args = ap.parse_args()
 
     sys.stdout.reconfigure(line_buffering=True)
@@ -201,9 +215,7 @@ def main():
         ids = ids_to_refresh(args.ids, args.team, args.division, args.lookback, args.ahead)
         up_ids = {int(u["id"]) for u in json.loads((HERE / "upcoming.json").read_text(encoding="utf-8"))} if (HERE / "upcoming.json").exists() else set()
         fetch_tgs(sorted(up_ids | set(ids)))
-        if args.entries:   # topgunstats.com "Who's Playing" entries; off by default (parked for now)
-            up = HERE / "upcoming.json"
-            fetch_entries(sorted({int(u["id"]) for u in json.loads(up.read_text(encoding="utf-8"))} | set(ids)) if up.exists() else ids)
+        fetch_entries(sorted(up_ids | set(ids)), args.team)
         print("refreshing:", " ".join(map(str, ids)) or "(nothing)")
         if ids:
             r = subprocess.run([py, str(HERE / "topgun_fetch.py"), "--team", args.team, "--ids", *map(str, ids)], cwd=HERE)

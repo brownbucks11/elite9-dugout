@@ -1,0 +1,76 @@
+{
+ "tournament": "SOUTHEASTERN WINTER WORLD SERIES---TOP 40 QUALIFIER ",
+ "start": "2026-10-24T00:00:00.000Z",
+ "hidden": true,
+ "divisions": {
+  "8U CP": {
+   "count": 12,
+   "confirmed": 2,
+   "waitlist": 0
+  },
+  "9U": {
+   "count": 60,
+   "confirmed": 9,
+   "waitlist": 0
+  },
+  "10U": {
+   "count": 86,
+   "confirmed": 14,
+   "waitlist": 0
+  },
+  "11U": {
+   "count": 120,
+   "confirmed": 20,
+   "waitlist": 0
+  },
+  "12U": {
+   "count": 125,
+   "confirmed": 12,
+   "waitlist": 0
+  },
+  "13U 80": {
+   "count": 98,
+   "confirmed": 2,
+   "waitlist": 0
+  },
+  "13U 90": {
+   "count": 8,
+   "confirmed": 2,
+   "waitlist": 0
+  },
+  "14U": {
+   "count": 70,
+   "confirmed": 4,
+   "waitlist": 0
+  },
+  "15U": {
+   "count": 44,
+   "confirmed": 5,
+   "waitlist": 0
+  },
+  "16U": {
+   "count": 9,
+   "confirmed": 2,
+   "waitlist": 0
+  },
+  "17U": {
+   "count": 10,
+   "confirmed": 2,
+   "waitlist": 0
+  },
+  "HSU": {
+   "count": 6,
+   "confirmed": 3,
+   "waitlist": 0
+  }
+ },
+ "team": {
+  "entered": true,
+  "division": "10U",
+  "confirmed": false,
+  "waitlist": false,
+  "entered_at": "2026-06-08T12:01:08.307Z",
+  "level": "AA"
+ },
+ "fetched_at": "2026-09-22T20:58"
+}
