@@ -1,5 +1,5 @@
 # Elite 9 - Top Gun schedule
-_Updated Wed Sep 23, 2026 11:20 AM_
+_Updated Wed Sep 23, 2026 03:54 PM_
 
 ## SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND
 September 26 - 27 in Greater Charlotte Area, NC  
@@ -29,7 +29,7 @@ _Elite 9 not listed yet. Divisions posted: none posted yet_
 September 26 - 27 in Statesville, NC  
 Tournament 13562 - [schedule page](https://playtopgunsports.com/GameTimesResults.aspx?trnid=13562)
 
-_Elite 9 not listed yet. Divisions posted: none posted yet_
+_Elite 9 not listed yet. Divisions posted: 11U, 12U_
 
 ## Canceled---FRIDAY NIGHT G.O.A.T. SERIES 9U
 September 25 in Monroe, NC  
