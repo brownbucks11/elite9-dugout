@@ -23,7 +23,7 @@ import json
 import re
 import subprocess
 import sys
-from datetime import date, timedelta
+from datetime import date, datetime, timedelta
 from pathlib import Path
 
 HERE = Path(__file__).parent
@@ -126,6 +126,39 @@ def ids_to_refresh(extra, team, division, lookback_days, ahead_days):
 ENTRIES_URL = "https://topgunstats.com/api/public/tournaments/{id}/whos-playing?api_key=secret"
 
 
+LIST_URL = "https://topgunstats.com/api/queries/tournaments/tournament-data?sportId=1&page={page}&limit=50&api_key=secret"
+TGS_FIELDS = ("TournamentID", "TournamentName", "StartDate", "EndDate", "CityState", "GameGuarantee", "TotalConfirmed",
+              "ShowGamesScheduled", "ShowWeatherMessage", "WeatherMessage", "WeatherMessageDateTime",
+              "ShowGeneralMessage", "GeneralMessage", "GeneralMessageDateTime", "TComplexArr", "TFeeObj",
+              "FullName", "CellPhone", "Email", "ShowGameTimesResults")
+
+
+def fetch_tgs(ids):
+    """topgunstats.com tournament list: the director's weather/general messages, complexes and fees
+    for our events. Plain JSON, a few pages, no browser. Past events drop off the list, which is fine."""
+    import urllib.request
+    want = set(ids)
+    out_dir = HERE / "data" / "tgs"
+    out_dir.mkdir(parents=True, exist_ok=True)
+    found = 0
+    for page in range(1, 12):
+        try:
+            with urllib.request.urlopen(urllib.request.Request(LIST_URL.format(page=page), headers={"User-Agent": "Mozilla/5.0"}), timeout=30) as r:
+                d = json.loads(r.read())
+        except Exception as exc:
+            print(f"  tgs page {page}: {exc}")
+            break
+        for t in d.get("tournaments", []):
+            if t.get("TournamentID") in want:
+                rec = {k: t.get(k) for k in TGS_FIELDS}
+                rec["fetched_at"] = datetime.now().isoformat(timespec="minutes")
+                (out_dir / f"{t['TournamentID']}.json").write_text(json.dumps(rec, indent=1), encoding="utf-8")
+                found += 1
+        if page >= int(d.get("totalPages") or 1):
+            break
+    print(f"tgs: {found}/{len(want)} events found on topgunstats.com")
+
+
 def fetch_entries(ids):
     """topgunstats.com's 'Who's Playing' feed: teams entered per division, live, no browser needed."""
     import urllib.request
@@ -166,6 +199,8 @@ def main():
         discover(py, args.team, args.division, args.discover_days, args.city or DISCOVER_CITIES)
     if not args.no_fetch:
         ids = ids_to_refresh(args.ids, args.team, args.division, args.lookback, args.ahead)
+        up_ids = {int(u["id"]) for u in json.loads((HERE / "upcoming.json").read_text(encoding="utf-8"))} if (HERE / "upcoming.json").exists() else set()
+        fetch_tgs(sorted(up_ids | set(ids)))
         if args.entries:   # topgunstats.com "Who's Playing" entries; off by default (parked for now)
             up = HERE / "upcoming.json"
             fetch_entries(sorted({int(u["id"]) for u in json.loads(up.read_text(encoding="utf-8"))} | set(ids)) if up.exists() else ids)

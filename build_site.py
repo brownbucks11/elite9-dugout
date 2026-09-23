@@ -384,6 +384,47 @@ def load_gc_season(data_dir):
     return {"fetched_at": d.get("fetched_at"), "stats": stats}
 
 
+TGS_MAIN_URL = "https://topgunstats.com/tournaments?sport=1"
+TGS_EVENT_URL = "https://topgunstats.com/whos-playing/{id}"
+
+
+def html_text(h):
+    """Director messages are pasted HTML; keep the words and line breaks."""
+    if not h:
+        return ""
+    t = re.sub(r"(?i)<br\s*/?>|</(p|div|li|h\d)>", "\n", h)
+    t = re.sub(r"<[^>]+>", " ", t)
+    t = t.replace("&nbsp;", " ").replace("&amp;", "&").replace("&quot;", '"').replace("&#39;", "'").replace("&lt;", "<").replace("&gt;", ">")
+    t = re.sub(r"[ \t]+", " ", t)
+    t = re.sub(r"\n\s*\n+", "\n", t)
+    return t.strip()
+
+
+def load_tgs(data_dir, tid):
+    """Our event's record from topgunstats.com's list: weather/general notices, complexes, fees."""
+    path = data_dir / "tgs" / f"{tid}.json"
+    if not path.exists():
+        return None
+    d = json.loads(path.read_text(encoding="utf-8"))
+    weather = html_text(d.get("WeatherMessage")) if d.get("ShowWeatherMessage") else ""
+    general = html_text(d.get("GeneralMessage")) if d.get("ShowGeneralMessage") else ""
+    try:
+        complexes = json.loads(d.get("TComplexArr") or "[]")
+    except ValueError:
+        complexes = []
+    try:
+        fees = json.loads(d.get("TFeeObj") or "[]")
+    except ValueError:
+        fees = []
+    return {
+        "weather": {"text": weather, "when": d.get("WeatherMessageDateTime")} if weather else None,
+        "general": {"text": general, "when": d.get("GeneralMessageDateTime")} if general else None,
+        "teams_registered": d.get("TotalConfirmed"), "games_scheduled": bool(d.get("ShowGamesScheduled")),
+        "complexes": complexes, "fees": fees, "director": d.get("FullName"),
+        "fetched_at": d.get("fetched_at"), "url": TGS_EVENT_URL.format(id=tid),
+    }
+
+
 def load_entries(data_dir, tid, division):
     """Who's Playing (topgunstats.com): teams entered in our division for an event. Team names are
     only passed through when the director shows them on Top Gun's own page."""
@@ -633,7 +674,7 @@ def build(events, team, upcoming, year, team_stats=None, today=None, out_dir=Non
             unplayed = sorted([g for g in mine_games if g["result"] is None], key=lambda g: (g["date"] or "", clock(g["time"]), g["game"]))
             my_events.append({
                 "id": tid, "name": ev["name"], "dates": ev["dates"], "date": ev["date"], "url": ev["url"],
-                "notes": ev["notes"], "teams": len(rows), "state": state,
+                "notes": ev["notes"], "teams": len(rows), "state": state, "tgs": load_tgs(DATA_DIR, tid),
                 "next_game": unplayed[0] if unplayed else None,
                 "ics": write_ics(out_dir, tid, ev["name"], team, mine_games, fields, state != "final") if out_dir and state == "live" else None,
                 "standing": mine, "standings": rows, "games": ev["games"],
@@ -678,6 +719,7 @@ def build(events, team, upcoming, year, team_stats=None, today=None, out_dir=Non
         upcoming_out.append({
             "id": tid, "state": state, "official": bool(u.get("official")), "summary": summary,
             "entries": load_entries(DATA_DIR, tid, args_division_holder[0]) if state in ("announced", "scheduled") else None,
+            "tgs": load_tgs(DATA_DIR, tid),
             "name": (ev and ev["name"]) or u.get("name") or f"Tournament {tid}",
             "dates": (ev and ev["dates"]) or u.get("dates", ""),
             "date": (ev and ev["date"]) or start_date(u.get("dates", ""), year),
@@ -744,6 +786,7 @@ def build(events, team, upcoming, year, team_stats=None, today=None, out_dir=Non
         "fields": dict(sorted(fields.items())),
         "roster": build_roster(DATA_DIR, mine["page_id"], HERE / "roster.json"),
         "gc": {"games": gc_list, "matched": gc_matched, "season": load_gc_season(DATA_DIR)},
+        "tgs_url": TGS_MAIN_URL,
         **season_summary(team_stats.get(mine["page_id"]), derived_for(me, mine)),
     }
 

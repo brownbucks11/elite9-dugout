@@ -129,6 +129,16 @@
   table.box .jersey { display: inline-block; min-width: 22px; margin-right: 6px; font-family: var(--display); font-weight: 700; color: var(--ink-2); text-align: right; }
   table.box tr.tot td { border-top: 2px solid var(--line); }
 
+  /* Director notices */
+  .notices { display: grid; gap: 8px; padding: 10px 16px 4px; }
+  .notice-w { background: var(--loss-bg); border-left: 4px solid var(--loss); border-radius: 4px; padding: 8px 12px; font-size: 14px; }
+  .notice-w b { color: var(--loss); }
+  .ntext { white-space: pre-line; margin-top: 4px; line-height: 1.4; }
+  details.notice-g { border: 1px solid var(--line); border-radius: 4px; background: var(--chalk); }
+  details.notice-g summary { padding: 6px 12px; font-size: 13px; font-weight: 600; cursor: pointer; }
+  details.notice-g .ntext { padding: 0 12px 10px; font-size: 13px; }
+  .hdr-link a + a { margin-left: 0; }
+
   /* Entries (Who's Playing) */
   .entries-wrap { border-top: 1px solid var(--line); }
   .entries-head { padding: 10px 0 4px; font-size: 14px; }
@@ -523,7 +533,8 @@
     <div class="stat"><b>${R.rs}</b><span>Runs for</span></div>
     <div class="stat"><b>${R.ra}</b><span>Against</span></div>
     ${D.points != null && D.finishes && D.finishes.length ? `<div class="stat"><b>${D.points}</b><span>Points</span></div>` : ""}`;
-  if (D.team_url) $("#hdr-link").innerHTML = `<a href="${esc(D.team_url)}" target="_blank" rel="noopener">${esc(D.team)} on Top Gun ↗</a>`;
+  $("#hdr-link").innerHTML = [D.team_url ? `<a href="${esc(D.team_url)}" target="_blank" rel="noopener">${esc(D.team)} on Top Gun ↗</a>` : "",
+    D.tgs_url ? `<a href="${esc(D.tgs_url)}" target="_blank" rel="noopener">Top Gun tournaments ↗</a>` : ""].filter(Boolean).join(" · ");
   $("#foot").innerHTML = `Updated ${esc(D.built)}. Scores and schedules from <a href="https://playtopgunsports.com/" target="_blank" rel="noopener">playtopgunsports.com</a>; runs are only counted from games with a posted final.`
     + (D.team_url ? ` <a href="${esc(D.team_url)}" target="_blank" rel="noopener">${esc(D.team)} on Top Gun</a>.` : "")
     + ` Not the official schedule — the TeamReach app is. <a href="#" id="notice-show">Show notice</a>`;
@@ -545,6 +556,15 @@
   const gameKey = (g) => `${g.section}#${g.game}`;
   const STAG = { live: "In progress", tentative: "Tentative", official: "Official (per coach)" };
   const stag = (kind) => `<span class="stag ${kind}">${STAG[kind]}</span>`;
+
+  // Director notices from topgunstats.com: weather (always shown) and general notes (collapsible)
+  function noticesHtml(t) {
+    if (!t) return "";
+    const w = t.weather ? `<div class="notice-w"><b>Weather / field notice</b>${t.weather.when ? `<span class="from"> · posted ${esc(fmtSeen(t.weather.when))}</span>` : ""}<div class="ntext">${esc(t.weather.text)}</div></div>` : "";
+    const g = t.general ? `<details class="notice-g"><summary>Director's notes${t.general.when ? `<span class="from"> · ${esc(fmtSeen(t.general.when))}</span>` : ""}</summary><div class="ntext">${esc(t.general.text)}</div></details>` : "";
+    return w || g ? `<div class="notices">${w}${g}</div>` : "";
+  }
+  const tgsLink = (t, id) => `<a href="${esc((t && t.url) || ("https://topgunstats.com/whos-playing/" + id))}" target="_blank" rel="noopener">Top Gun Stats ↗</a>`;
 
   // Who's Playing (topgunstats.com): entries per division, live before the schedule exists
   function entriesHtml(e) {
@@ -614,8 +634,9 @@
             <div><h3>${esc(tidy(e.name))}${i === nextIdx ? '<span class="next-badge">Next</span>' : ""} ${tag}</h3>
                  <div class="event-meta">${meta}${e.standings.length ? ` · ${e.standings.length} teams` : ""}</div></div>
           </div>
+          ${e.state === "final" ? "" : noticesHtml(e.tgs)}
           ${body}
-          ${e.state === "final" ? "" : `<div class="event-foot">${e.ics ? `<a href="${esc(e.ics)}" download>Add our games to your calendar</a>` : ""}<a href="${esc(e.url)}" target="_blank" rel="noopener">Full schedule &amp; brackets on Top Gun ↗</a></div>`}
+          ${e.state === "final" ? "" : `<div class="event-foot">${e.ics ? `<a href="${esc(e.ics)}" download>Add our games to your calendar</a>` : ""}<a href="${esc(e.url)}" target="_blank" rel="noopener">Full schedule &amp; brackets on Top Gun ↗</a>${tgsLink(e.tgs, e.id)}</div>`}
         </article>`;
       }).join("");
   }
@@ -872,6 +893,7 @@
             <div><h3>${esc(tidy(e.name))} ${e.state === "live" ? '<span class="stag live">Live</span>' : ""}</h3><div class="event-meta">${esc(e.dates)}${e.notes.length ? " · " + esc(e.notes.join(", ")) : ""}${e.state === "live" ? ` · <span class="refreshed">refreshed ${esc(D.built)}</span>` : ""}</div></div>
             ${finish}
           </summary>
+          ${e.state === "live" ? noticesHtml(e.tgs) : ""}
           <div class="event-body"><ul class="games">${games.map((g) => `<li class="game ${g.result === "W" ? "won" : ""} ${nextKey && gameKey(g) === nextKey ? "next" : ""}">
               <div class="pill ${g.result || "time"}">${g.result || esc(g.day)}</div>
               <div><div class="opp">${/^(winner|loser|seed)/i.test(g.opponent) ? esc(g.opponent) : teamBtn(g.opponent)}${nextKey && gameKey(g) === nextKey ? '<span class="chg-pill next">next</span>' : ""}</div>
@@ -880,7 +902,7 @@
             </li>`).join("")}</ul></div>
           ${bracketsHtml(e.games, games)}
           <details class="inner"><summary>Standings (${e.teams} teams)</summary>${standingsTable(e.standings, seedNote)}</details>
-          <div class="event-foot">${e.ics ? `<a href="${esc(e.ics)}" download>Add our games to your calendar</a>` : ""}<a href="${esc(e.url)}" target="_blank" rel="noopener">Brackets &amp; all games on Top Gun ↗</a></div>
+          <div class="event-foot">${e.ics ? `<a href="${esc(e.ics)}" download>Add our games to your calendar</a>` : ""}<a href="${esc(e.url)}" target="_blank" rel="noopener">Brackets &amp; all games on Top Gun ↗</a>${tgsLink(e.tgs, e.id)}</div>
         </details>`;
       }).join("");
   }
