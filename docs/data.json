@@ -3,7 +3,7 @@
  "location": "Rock Hill, SC",
  "page_id": 31407,
  "team_url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=31407",
- "built": "Tue Sep 22, 2026 08:58 PM",
+ "built": "Tue Sep 22, 2026 08:59 PM",
  "record": {
   "w": 1,
   "l": 4,
@@ -1767,7 +1767,21 @@
    "state": "announced",
    "official": false,
    "summary": null,
-   "entries": null,
+   "entries": {
+    "count": 19,
+    "confirmed": 0,
+    "waitlist": 0,
+    "total": 105,
+    "team": {
+     "entered": true,
+     "division": "9U",
+     "confirmed": false,
+     "waitlist": false,
+     "entered_at": "2026-09-17T10:03:30.533Z",
+     "level": "AA"
+    },
+    "fetched_at": "2026-09-22T20:59"
+   },
    "tgs": {
     "weather": null,
     "general": null,
@@ -1844,7 +1858,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-09-22T20:57",
+    "fetched_at": "2026-09-22T20:59",
     "url": "https://topgunstats.com/whos-playing/12518"
    },
    "name": "Spiderman vs Hulk ring weekend",
@@ -1867,7 +1881,16 @@
    "state": "announced",
    "official": false,
    "summary": null,
-   "entries": null,
+   "entries": {
+    "count": 7,
+    "confirmed": 0,
+    "waitlist": 0,
+    "total": 44,
+    "team": {
+     "entered": false
+    },
+    "fetched_at": "2026-09-22T20:59"
+   },
    "tgs": {
     "weather": null,
     "general": null,
@@ -1944,7 +1967,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-09-22T20:57",
+    "fetched_at": "2026-09-22T20:59",
     "url": "https://topgunstats.com/whos-playing/12521"
    },
    "name": "Triple points Super Regional",
@@ -1967,7 +1990,21 @@
    "state": "announced",
    "official": false,
    "summary": null,
-   "entries": null,
+   "entries": {
+    "count": 60,
+    "confirmed": 9,
+    "waitlist": 0,
+    "total": 648,
+    "team": {
+     "entered": true,
+     "division": "10U",
+     "confirmed": false,
+     "waitlist": false,
+     "entered_at": "2026-06-08T12:01:08.307Z",
+     "level": "AA"
+    },
+    "fetched_at": "2026-09-22T20:59"
+   },
    "tgs": {
     "weather": null,
     "general": null,
@@ -2048,7 +2085,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-09-22T20:57",
+    "fetched_at": "2026-09-22T20:59",
     "url": "https://topgunstats.com/whos-playing/12522"
    },
    "name": "Southeastern Winter World Series",
@@ -2071,7 +2108,16 @@
    "state": "announced",
    "official": false,
    "summary": null,
-   "entries": null,
+   "entries": {
+    "count": 8,
+    "confirmed": 0,
+    "waitlist": 0,
+    "total": 32,
+    "team": {
+     "entered": false
+    },
+    "fetched_at": "2026-09-22T20:59"
+   },
    "tgs": {
     "weather": null,
     "general": null,
@@ -2123,7 +2169,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-09-22T20:57",
+    "fetched_at": "2026-09-22T20:59",
     "url": "https://topgunstats.com/whos-playing/12524"
    },
    "name": "Road Runner vs Coyote ring weekend",

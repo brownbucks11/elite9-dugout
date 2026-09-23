@@ -1,50 +1,50 @@
 {
- "tournament": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
- "start": "2026-11-07T00:00:00.000Z",
+ "tournament": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND ",
+ "start": "2026-09-19T00:00:00.000Z",
  "hidden": true,
  "divisions": {
   "8U CP": {
-   "count": 1,
+   "count": 5,
    "confirmed": 0,
    "waitlist": 0
   },
   "9U": {
-   "count": 8,
+   "count": 9,
    "confirmed": 0,
    "waitlist": 0
   },
   "10U": {
-   "count": 5,
+   "count": 15,
    "confirmed": 0,
    "waitlist": 0
   },
   "11U": {
-   "count": 7,
+   "count": 17,
    "confirmed": 0,
    "waitlist": 0
   },
   "12U": {
-   "count": 5,
+   "count": 14,
    "confirmed": 0,
    "waitlist": 0
   },
   "13U 80": {
-   "count": 2,
+   "count": 0,
    "confirmed": 0,
    "waitlist": 0
   },
   "13U 90": {
-   "count": 1,
+   "count": 9,
    "confirmed": 0,
    "waitlist": 0
   },
   "14U": {
-   "count": 1,
+   "count": 7,
    "confirmed": 0,
    "waitlist": 0
   },
   "15U": {
-   "count": 1,
+   "count": 6,
    "confirmed": 0,
    "waitlist": 0
   },
@@ -54,18 +54,23 @@
    "waitlist": 0
   },
   "17U": {
-   "count": 0,
+   "count": 9,
    "confirmed": 0,
    "waitlist": 0
   },
   "HSU": {
-   "count": 1,
+   "count": 0,
    "confirmed": 0,
    "waitlist": 0
   }
  },
  "team": {
-  "entered": false
+  "entered": true,
+  "division": "9U",
+  "confirmed": false,
+  "waitlist": false,
+  "entered_at": "2026-09-15T11:09:11.717Z",
+  "level": "AA"
  },
  "fetched_at": "2026-09-22T20:59"
 }
