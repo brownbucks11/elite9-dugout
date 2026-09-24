@@ -3,7 +3,7 @@
  "location": "Rock Hill, SC",
  "page_id": 31407,
  "team_url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=31407",
- "built": "Thu Sep 24, 2026 05:02 AM",
+ "built": "Thu Sep 24, 2026 10:40 AM",
  "record": {
   "w": 1,
   "l": 4,
@@ -1771,7 +1771,7 @@
     "count": 19,
     "confirmed": 0,
     "waitlist": 0,
-    "total": 107,
+    "total": 106,
     "team": {
      "entered": true,
      "division": "9U",
@@ -1780,17 +1780,61 @@
      "entered_at": "2026-09-17T10:03:30.533Z",
      "level": "AA"
     },
-    "fetched_at": "2026-09-24T05:02"
+    "fetched_at": "2026-09-24T10:40"
    },
    "tgs": {
     "weather": null,
     "general": null,
-    "teams_registered": 107,
+    "teams_registered": 106,
     "games_scheduled": false,
     "complexes": [
      {
+      "name": "Westmoreland Park",
+      "location": "8430 Westmoreland Rd. Cornelius, NC 28031"
+     },
+     {
+      "name": "Bradford Park",
+      "location": "17005 Davidson Concord Road Huntersville, NC 28078"
+     },
+     {
+      "name": "George Poston Park",
+      "location": "1101 Lowell-Spencer Mtn Rd Gastonia, NC 28056"
+     },
+     {
       "name": "Greater Charlotte Area",
       "location": "TBA  Greater Charlotte Area, NC 28262"
+     },
+     {
+      "name": "Shelby City Park",
+      "location": "850 W. Sumter St. Shelby, NC 28150"
+     },
+     {
+      "name": "Martha Rivers Park",
+      "location": "1515 Neal Hawkins Rd Gastonia, NC 28054"
+     },
+     {
+      "name": "Tuckaseegee Dream Fields",
+      "location": "7531 Tuckaseegee Road Charlotte, NC 28214"
+     },
+     {
+      "name": "Field Day Park",
+      "location": "1101 Field Day Lane Clover, SC 29710"
+     },
+     {
+      "name": "Catawba Park",
+      "location": "2351 New Grey Rock Rd Tega Cay, SC 29708"
+     },
+     {
+      "name": "Stinger Park",
+      "location": "1320 North 12th St. Bessemer City, NC 28016"
+     },
+     {
+      "name": "Buck Fraley Field",
+      "location": "210 North Pink Street Cherryville, NC 28021"
+     },
+     {
+      "name": "Combine Academy",
+      "location": "270 Car Farm Rd. Lincolnton, NC 28092"
      }
     ],
     "fees": [
@@ -1858,7 +1902,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-09-24T05:02",
+    "fetched_at": "2026-09-24T10:40",
     "url": "https://topgunstats.com/whos-playing/12518"
    },
    "name": "Spiderman vs Hulk ring weekend",
@@ -1889,7 +1933,7 @@
     "team": {
      "entered": false
     },
-    "fetched_at": "2026-09-24T05:02"
+    "fetched_at": "2026-09-24T10:40"
    },
    "tgs": {
     "weather": null,
@@ -1967,7 +2011,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-09-24T05:02",
+    "fetched_at": "2026-09-24T10:40",
     "url": "https://topgunstats.com/whos-playing/12521"
    },
    "name": "Triple points Super Regional",
@@ -2003,7 +2047,7 @@
      "entered_at": "2026-06-08T12:01:08.307Z",
      "level": "AA"
     },
-    "fetched_at": "2026-09-24T05:02"
+    "fetched_at": "2026-09-24T10:40"
    },
    "tgs": {
     "weather": null,
@@ -2085,7 +2129,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-09-24T05:02",
+    "fetched_at": "2026-09-24T10:40",
     "url": "https://topgunstats.com/whos-playing/12522"
    },
    "name": "Southeastern Winter World Series",
@@ -2116,7 +2160,7 @@
     "team": {
      "entered": false
     },
-    "fetched_at": "2026-09-24T05:02"
+    "fetched_at": "2026-09-24T10:40"
    },
    "tgs": {
     "weather": null,
@@ -2169,7 +2213,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-09-24T05:02",
+    "fetched_at": "2026-09-24T10:40",
     "url": "https://topgunstats.com/whos-playing/12524"
    },
    "name": "Road Runner vs Coyote ring weekend",
