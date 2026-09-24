@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Elite 9 Dugout//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Elite 9 - SPIDERMAN VS HULK-----RING IT UP CHARACT
+X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+UID:e9-12518-poolplay-1@elite9dugout
+DTSTAMP:20260924T185137Z
+DTSTART;TZID=America/New_York:20260926T090000
+DTEND;TZID=America/New_York:20260926T104500
+SUMMARY:Elite 9 vs LKN Bolts
+LOCATION:George Poston Park Field # 1\, 1101 Lowell-Spencer Mtn Rd Gastonia\, NC 28056
+DESCRIPTION:SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND. Pool Play game 1. Tentative: Top Gun schedules change during the week - the coach's TeamReach post is official.
+END:VEVENT
+BEGIN:VEVENT
+UID:e9-12518-poolplay-6@elite9dugout
+DTSTAMP:20260924T185137Z
+DTSTART;TZID=America/New_York:20260926T104500
+DTEND;TZID=America/New_York:20260926T123000
+SUMMARY:Elite 9 vs LKN Kingdom
+LOCATION:George Poston Park Field # 2\, 1101 Lowell-Spencer Mtn Rd Gastonia\, NC 28056
+DESCRIPTION:SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND. Pool Play game 6. Tentative: Top Gun schedules change during the week - the coach's TeamReach post is official.
+END:VEVENT
+END:VCALENDAR

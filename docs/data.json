@@ -3,7 +3,7 @@
  "location": "Rock Hill, SC",
  "page_id": 31407,
  "team_url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=31407",
- "built": "Thu Sep 24, 2026 01:29 PM",
+ "built": "Thu Sep 24, 2026 02:51 PM",
  "record": {
   "w": 1,
   "l": 4,
@@ -86,6 +86,36 @@
    "ra": 9,
    "result": "L",
    "gc_id": "64601212-44ef-4948-a4f8-5be2caf1ebc1"
+  },
+  {
+   "event_id": 12518,
+   "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+   "date": "2026-09-26",
+   "day": "Sat",
+   "time": "9:00 AM",
+   "field": "Poston:Field # 1",
+   "section": "Pool Play",
+   "game": 1,
+   "opponent": "LKN Bolts",
+   "rs": null,
+   "ra": null,
+   "result": null,
+   "gc_id": null
+  },
+  {
+   "event_id": 12518,
+   "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+   "date": "2026-09-26",
+   "day": "Sat",
+   "time": "10:45 AM",
+   "field": "Poston:Field # 2",
+   "section": "Pool Play",
+   "game": 6,
+   "opponent": "LKN Kingdom",
+   "rs": null,
+   "ra": null,
+   "result": null,
+   "gc_id": null
   }
  ],
  "my_events": [
@@ -1764,14 +1794,14 @@
   },
   {
    "id": 12518,
-   "state": "announced",
+   "state": "scheduled",
    "official": false,
    "summary": null,
    "entries": {
     "count": 19,
     "confirmed": 0,
     "waitlist": 0,
-    "total": 106,
+    "total": 108,
     "team": {
      "entered": true,
      "division": "9U",
@@ -1780,12 +1810,15 @@
      "entered_at": "2026-09-17T10:03:30.533Z",
      "level": "AA"
     },
-    "fetched_at": "2026-09-24T13:28"
+    "fetched_at": "2026-09-24T14:51"
    },
    "tgs": {
     "weather": null,
-    "general": null,
-    "teams_registered": 106,
+    "general": {
+     "text": "No Seeds, No Gum, Steel Cleats @ Tuskaseegee Dream Fields, Buck Fraley, Field Day Park, Combine Academy, & all Turf mounds \n Greater Charlotte Gate Fees Kindergarten & Under $0.00 \n 1st - 8th grades $10.00 \n 9th Grade Up\u00a0 $12.00 \n We accept Cash, Debit, Credit Cards & Apple Pay at the gates. You will be charged a convenience fee when using these methods of payment with the exception of cash.",
+     "when": "2026-09-24T13:31:00.000Z"
+    },
+    "teams_registered": 108,
     "games_scheduled": false,
     "complexes": [
      {
@@ -1902,23 +1935,916 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-09-24T13:28",
+    "fetched_at": "2026-09-24T14:51",
     "url": "https://topgunstats.com/whos-playing/12518"
    },
-   "name": "Spiderman vs Hulk ring weekend",
+   "name": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
    "dates": "September 26 - 27 in Greater Charlotte Area, NC",
    "date": "2026-09-26",
    "url": "https://playtopgunsports.com/GameTimesResults.aspx?trnid=12518",
-   "posted": false,
-   "games": [],
-   "standings": [],
-   "mine": [],
-   "next_game": null,
-   "schedule_versions": 0,
-   "schedule_first": null,
-   "schedule_updated": null,
+   "posted": true,
+   "games": [
+    {
+     "section": "Pool Play",
+     "game": 1,
+     "day": "Sat",
+     "time": "9:00 AM",
+     "date": "2026-09-26",
+     "field": "Poston:Field # 1",
+     "team_a": "Elite 9",
+     "seed_a": null,
+     "score_a": null,
+     "from_a": null,
+     "team_b": "LKN Bolts",
+     "seed_b": null,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Pool Play",
+     "game": 2,
+     "day": "Sat",
+     "time": "9:00 AM",
+     "date": "2026-09-26",
+     "field": "Poston:Field # 2",
+     "team_a": "LKN Kingdom",
+     "seed_a": null,
+     "score_a": null,
+     "from_a": null,
+     "team_b": "Carolina Royals 9Uw",
+     "seed_b": null,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Pool Play",
+     "game": 3,
+     "day": "Sat",
+     "time": "9:00 AM",
+     "date": "2026-09-26",
+     "field": "Poston:Field # 4",
+     "team_a": "Red Clay Athletics 9U Darcangelo",
+     "seed_a": null,
+     "score_a": null,
+     "from_a": null,
+     "team_b": "Carolina Forge 9U",
+     "seed_b": null,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Pool Play",
+     "game": 4,
+     "day": "Sat",
+     "time": "9:00 AM",
+     "date": "2026-09-26",
+     "field": "Shelby:Field # 1",
+     "team_a": "ROCO Dirtbagz",
+     "seed_a": null,
+     "score_a": null,
+     "from_a": null,
+     "team_b": "Dirtbags Baseball ESB",
+     "seed_b": null,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Pool Play",
+     "game": 5,
+     "day": "Sat",
+     "time": "10:45 AM",
+     "date": "2026-09-26",
+     "field": "Poston:Field # 1",
+     "team_a": "LKN Bolts",
+     "seed_a": null,
+     "score_a": null,
+     "from_a": null,
+     "team_b": "Carolina Royals 9Uw",
+     "seed_b": null,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Pool Play",
+     "game": 6,
+     "day": "Sat",
+     "time": "10:45 AM",
+     "date": "2026-09-26",
+     "field": "Poston:Field # 2",
+     "team_a": "LKN Kingdom",
+     "seed_a": null,
+     "score_a": null,
+     "from_a": null,
+     "team_b": "Elite 9",
+     "seed_b": null,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Pool Play",
+     "game": 7,
+     "day": "Sat",
+     "time": "10:45 AM",
+     "date": "2026-09-26",
+     "field": "Poston:Field # 4",
+     "team_a": "Red Clay Athletics 9U Darcangelo",
+     "seed_a": null,
+     "score_a": null,
+     "from_a": null,
+     "team_b": "Lake Wylie Venom",
+     "seed_b": null,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Pool Play",
+     "game": 8,
+     "day": "Sat",
+     "time": "10:45 AM",
+     "date": "2026-09-26",
+     "field": "Shelby:Field # 1",
+     "team_a": "ROCO Dirtbagz",
+     "seed_a": null,
+     "score_a": null,
+     "from_a": null,
+     "team_b": "LumberJacks",
+     "seed_b": null,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Pool Play",
+     "game": 9,
+     "day": "Sat",
+     "time": "12:30 PM",
+     "date": "2026-09-26",
+     "field": "Poston:Field # 1",
+     "team_a": "PeeDee Mudcats",
+     "seed_a": null,
+     "score_a": null,
+     "from_a": null,
+     "team_b": "South Park Red Raiders",
+     "seed_b": null,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Pool Play",
+     "game": 10,
+     "day": "Sat",
+     "time": "12:30 PM",
+     "date": "2026-09-26",
+     "field": "Poston:Field # 2",
+     "team_a": "Legacy Baseball 9U - WHITE",
+     "seed_a": null,
+     "score_a": null,
+     "from_a": null,
+     "team_b": "Carolina Firebirds-Red",
+     "seed_b": null,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Pool Play",
+     "game": 11,
+     "day": "Sat",
+     "time": "12:30 PM",
+     "date": "2026-09-26",
+     "field": "Poston:Field # 4",
+     "team_a": "Carolina Trash Pandas",
+     "seed_a": null,
+     "score_a": null,
+     "from_a": null,
+     "team_b": "Carolina Forge 9U",
+     "seed_b": null,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Pool Play",
+     "game": 12,
+     "day": "Sat",
+     "time": "12:30 PM",
+     "date": "2026-09-26",
+     "field": "Shelby:Field # 1",
+     "team_a": "Dirtbags Baseball ESB",
+     "seed_a": null,
+     "score_a": null,
+     "from_a": null,
+     "team_b": "Rock Hill 9U Baseball",
+     "seed_b": null,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Pool Play",
+     "game": 13,
+     "day": "Sat",
+     "time": "2:15 PM",
+     "date": "2026-09-26",
+     "field": "Poston:Field # 1",
+     "team_a": "PeeDee Mudcats",
+     "seed_a": null,
+     "score_a": null,
+     "from_a": null,
+     "team_b": "SC Tide - Lucariello",
+     "seed_b": null,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Pool Play",
+     "game": 14,
+     "day": "Sat",
+     "time": "2:15 PM",
+     "date": "2026-09-26",
+     "field": "Poston:Field # 2",
+     "team_a": "Legacy Baseball 9U - WHITE",
+     "seed_a": null,
+     "score_a": null,
+     "from_a": null,
+     "team_b": "Team 24",
+     "seed_b": null,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Pool Play",
+     "game": 15,
+     "day": "Sat",
+     "time": "2:15 PM",
+     "date": "2026-09-26",
+     "field": "Poston:Field # 4",
+     "team_a": "Carolina Trash Pandas",
+     "seed_a": null,
+     "score_a": null,
+     "from_a": null,
+     "team_b": "Lake Wylie Venom",
+     "seed_b": null,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Pool Play",
+     "game": 16,
+     "day": "Sat",
+     "time": "2:15 PM",
+     "date": "2026-09-26",
+     "field": "Shelby:Field # 1",
+     "team_a": "LumberJacks",
+     "seed_a": null,
+     "score_a": null,
+     "from_a": null,
+     "team_b": "BOILING SPRINGS BULLDOGS BASEBALL 8u",
+     "seed_b": null,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Pool Play",
+     "game": 17,
+     "day": "Sat",
+     "time": "4:00 PM",
+     "date": "2026-09-26",
+     "field": "Poston:Field # 1",
+     "team_a": "SC Tide - Lucariello",
+     "seed_a": null,
+     "score_a": null,
+     "from_a": null,
+     "team_b": "South Park Red Raiders",
+     "seed_b": null,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Pool Play",
+     "game": 18,
+     "day": "Sat",
+     "time": "4:00 PM",
+     "date": "2026-09-26",
+     "field": "Poston:Field # 2",
+     "team_a": "Carolina Firebirds-Red",
+     "seed_a": null,
+     "score_a": null,
+     "from_a": null,
+     "team_b": "Team 24",
+     "seed_b": null,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Pool Play",
+     "game": 19,
+     "day": "Sat",
+     "time": "4:00 PM",
+     "date": "2026-09-26",
+     "field": "Shelby:Field # 1",
+     "team_a": "Rock Hill 9U Baseball",
+     "seed_a": null,
+     "score_a": null,
+     "from_a": null,
+     "team_b": "BOILING SPRINGS BULLDOGS BASEBALL 8u",
+     "seed_b": null,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Gold Bracket",
+     "game": 1,
+     "day": "Sun",
+     "time": "9:00 AM",
+     "date": "2026-09-27",
+     "field": "Bradford:Field # 2",
+     "team_a": "",
+     "seed_a": 2,
+     "score_a": null,
+     "from_a": null,
+     "team_b": "",
+     "seed_b": 3,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Gold Bracket",
+     "game": 2,
+     "day": "Sun",
+     "time": "9:00 AM",
+     "date": "2026-09-27",
+     "field": "Bradford:Field # 1",
+     "team_a": "",
+     "seed_a": 1,
+     "score_a": null,
+     "from_a": null,
+     "team_b": "",
+     "seed_b": 4,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Gold Bracket",
+     "game": 3,
+     "day": "Sun",
+     "time": "11:00 AM",
+     "date": "2026-09-27",
+     "field": "Bradford:Field # 2",
+     "team_a": "Loser Game #1",
+     "seed_a": null,
+     "score_a": null,
+     "from_a": {
+      "type": "loser",
+      "game": 1
+     },
+     "team_b": "Loser Game #2",
+     "seed_b": null,
+     "score_b": null,
+     "from_b": {
+      "type": "loser",
+      "game": 2
+     }
+    },
+    {
+     "section": "Gold Bracket",
+     "game": 4,
+     "day": "Sun",
+     "time": "11:00 AM",
+     "date": "2026-09-27",
+     "field": "Bradford:Field # 1",
+     "team_a": "Winner Game #1",
+     "seed_a": null,
+     "score_a": null,
+     "from_a": {
+      "type": "winner",
+      "game": 1
+     },
+     "team_b": "Winner Game #2",
+     "seed_b": null,
+     "score_b": null,
+     "from_b": {
+      "type": "winner",
+      "game": 2
+     }
+    },
+    {
+     "section": "Silver Bracket",
+     "game": 1,
+     "day": "Sun",
+     "time": "9:00 AM",
+     "date": "2026-09-27",
+     "field": "Bradford:Field # 4",
+     "team_a": "",
+     "seed_a": 6,
+     "score_a": null,
+     "from_a": null,
+     "team_b": "",
+     "seed_b": 7,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Silver Bracket",
+     "game": 2,
+     "day": "Sun",
+     "time": "9:00 AM",
+     "date": "2026-09-27",
+     "field": "Bradford:Field # 3",
+     "team_a": "",
+     "seed_a": 5,
+     "score_a": null,
+     "from_a": null,
+     "team_b": "",
+     "seed_b": 8,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Silver Bracket",
+     "game": 3,
+     "day": "Sun",
+     "time": "11:00 AM",
+     "date": "2026-09-27",
+     "field": "Bradford:Field # 4",
+     "team_a": "Loser Game #1",
+     "seed_a": null,
+     "score_a": null,
+     "from_a": {
+      "type": "loser",
+      "game": 1
+     },
+     "team_b": "Loser Game #2",
+     "seed_b": null,
+     "score_b": null,
+     "from_b": {
+      "type": "loser",
+      "game": 2
+     }
+    },
+    {
+     "section": "Silver Bracket",
+     "game": 4,
+     "day": "Sun",
+     "time": "11:00 AM",
+     "date": "2026-09-27",
+     "field": "Bradford:Field # 3",
+     "team_a": "Winner Game #1",
+     "seed_a": null,
+     "score_a": null,
+     "from_a": {
+      "type": "winner",
+      "game": 1
+     },
+     "team_b": "Winner Game #2",
+     "seed_b": null,
+     "score_b": null,
+     "from_b": {
+      "type": "winner",
+      "game": 2
+     }
+    },
+    {
+     "section": "Bronze Bracket",
+     "game": 1,
+     "day": "Sun",
+     "time": "1:00 PM",
+     "date": "2026-09-27",
+     "field": "Bradford:Field # 4",
+     "team_a": "",
+     "seed_a": 10,
+     "score_a": null,
+     "from_a": null,
+     "team_b": "",
+     "seed_b": 11,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Bronze Bracket",
+     "game": 2,
+     "day": "Sun",
+     "time": "1:00 PM",
+     "date": "2026-09-27",
+     "field": "Bradford:Field # 3",
+     "team_a": "",
+     "seed_a": 9,
+     "score_a": null,
+     "from_a": null,
+     "team_b": "",
+     "seed_b": 12,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Bronze Bracket",
+     "game": 3,
+     "day": "Sun",
+     "time": "3:00 PM",
+     "date": "2026-09-27",
+     "field": "Bradford:Field # 4",
+     "team_a": "Loser Game #1",
+     "seed_a": null,
+     "score_a": null,
+     "from_a": {
+      "type": "loser",
+      "game": 1
+     },
+     "team_b": "Loser Game #2",
+     "seed_b": null,
+     "score_b": null,
+     "from_b": {
+      "type": "loser",
+      "game": 2
+     }
+    },
+    {
+     "section": "Bronze Bracket",
+     "game": 4,
+     "day": "Sun",
+     "time": "3:00 PM",
+     "date": "2026-09-27",
+     "field": "Bradford:Field # 3",
+     "team_a": "Winner Game #1",
+     "seed_a": null,
+     "score_a": null,
+     "from_a": {
+      "type": "winner",
+      "game": 1
+     },
+     "team_b": "Winner Game #2",
+     "seed_b": null,
+     "score_b": null,
+     "from_b": {
+      "type": "winner",
+      "game": 2
+     }
+    },
+    {
+     "section": "Copper Bracket",
+     "game": 1,
+     "day": "Sun",
+     "time": "1:00 PM",
+     "date": "2026-09-27",
+     "field": "Bradford:Field # 2",
+     "team_a": "",
+     "seed_a": 14,
+     "score_a": null,
+     "from_a": null,
+     "team_b": "",
+     "seed_b": 15,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Copper Bracket",
+     "game": 2,
+     "day": "Sun",
+     "time": "1:00 PM",
+     "date": "2026-09-27",
+     "field": "Bradford:Field # 1",
+     "team_a": "",
+     "seed_a": 13,
+     "score_a": null,
+     "from_a": null,
+     "team_b": "",
+     "seed_b": 16,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Copper Bracket",
+     "game": 3,
+     "day": "Sun",
+     "time": "3:00 PM",
+     "date": "2026-09-27",
+     "field": "Bradford:Field # 2",
+     "team_a": "Loser Game #1",
+     "seed_a": null,
+     "score_a": null,
+     "from_a": {
+      "type": "loser",
+      "game": 1
+     },
+     "team_b": "Loser Game #2",
+     "seed_b": null,
+     "score_b": null,
+     "from_b": {
+      "type": "loser",
+      "game": 2
+     }
+    },
+    {
+     "section": "Copper Bracket",
+     "game": 4,
+     "day": "Sun",
+     "time": "3:00 PM",
+     "date": "2026-09-27",
+     "field": "Bradford:Field # 1",
+     "team_a": "Winner Game #1",
+     "seed_a": null,
+     "score_a": null,
+     "from_a": {
+      "type": "winner",
+      "game": 1
+     },
+     "team_b": "Winner Game #2",
+     "seed_b": null,
+     "score_b": null,
+     "from_b": {
+      "type": "winner",
+      "game": 2
+     }
+    },
+    {
+     "section": "Select Bracket",
+     "game": 1,
+     "day": "Sun",
+     "time": "9:00 AM",
+     "date": "2026-09-27",
+     "field": "SP:Field #3",
+     "team_a": "",
+     "seed_a": 18,
+     "score_a": null,
+     "from_a": null,
+     "team_b": "",
+     "seed_b": 19,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Select Bracket",
+     "game": 2,
+     "day": "Sun",
+     "time": "11:00 AM",
+     "date": "2026-09-27",
+     "field": "SP:Field #3",
+     "team_a": "",
+     "seed_a": 17,
+     "score_a": null,
+     "from_a": null,
+     "team_b": "",
+     "seed_b": 19,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Select Bracket",
+     "game": 3,
+     "day": "Sun",
+     "time": "1:00 PM",
+     "date": "2026-09-27",
+     "field": "SP:Field #3",
+     "team_a": "",
+     "seed_a": 17,
+     "score_a": null,
+     "from_a": null,
+     "team_b": "",
+     "seed_b": 18,
+     "score_b": null,
+     "from_b": null
+    }
+   ],
+   "standings": [
+    {
+     "seed": 1,
+     "team": "ROCO Dirtbagz",
+     "location": "Forest City, NC",
+     "won": 0,
+     "lost": 0,
+     "runs_allowed": 0,
+     "runs_scored": 0,
+     "team_page_id": null
+    },
+    {
+     "seed": 2,
+     "team": "Carolina Trash Pandas",
+     "location": "Locust, NC",
+     "won": 0,
+     "lost": 0,
+     "runs_allowed": 0,
+     "runs_scored": 0,
+     "team_page_id": null
+    },
+    {
+     "seed": 3,
+     "team": "Carolina Firebirds-Red",
+     "location": "Winston Salem, NC",
+     "won": 0,
+     "lost": 0,
+     "runs_allowed": 0,
+     "runs_scored": 0,
+     "team_page_id": null
+    },
+    {
+     "seed": 4,
+     "team": "LKN Bolts",
+     "location": "Huntersville, NC",
+     "won": 0,
+     "lost": 0,
+     "runs_allowed": 0,
+     "runs_scored": 0,
+     "team_page_id": null
+    },
+    {
+     "seed": 5,
+     "team": "Elite 9",
+     "location": "Rock Hill, SC",
+     "won": 0,
+     "lost": 0,
+     "runs_allowed": 0,
+     "runs_scored": 0,
+     "team_page_id": null
+    },
+    {
+     "seed": 6,
+     "team": "Team 24",
+     "location": "York, SC",
+     "won": 0,
+     "lost": 0,
+     "runs_allowed": 0,
+     "runs_scored": 0,
+     "team_page_id": null
+    },
+    {
+     "seed": 7,
+     "team": "Lake Wylie Venom",
+     "location": "Lake Wylie, SC",
+     "won": 0,
+     "lost": 0,
+     "runs_allowed": 0,
+     "runs_scored": 0,
+     "team_page_id": null
+    },
+    {
+     "seed": 8,
+     "team": "SC Tide - Lucariello",
+     "location": "Clover, SC",
+     "won": 0,
+     "lost": 0,
+     "runs_allowed": 0,
+     "runs_scored": 0,
+     "team_page_id": null
+    },
+    {
+     "seed": 9,
+     "team": "LumberJacks",
+     "location": "Gaston County, NC",
+     "won": 0,
+     "lost": 0,
+     "runs_allowed": 0,
+     "runs_scored": 0,
+     "team_page_id": null
+    },
+    {
+     "seed": 10,
+     "team": "Rock Hill 9U Baseball",
+     "location": "Rock Hill, SC",
+     "won": 0,
+     "lost": 0,
+     "runs_allowed": 0,
+     "runs_scored": 0,
+     "team_page_id": null
+    },
+    {
+     "seed": 11,
+     "team": "PeeDee Mudcats",
+     "location": "Wadesboro, NC",
+     "won": 0,
+     "lost": 0,
+     "runs_allowed": 0,
+     "runs_scored": 0,
+     "team_page_id": null
+    },
+    {
+     "seed": 12,
+     "team": "South Park Red Raiders",
+     "location": "Charlotte, NC",
+     "won": 0,
+     "lost": 0,
+     "runs_allowed": 0,
+     "runs_scored": 0,
+     "team_page_id": null
+    },
+    {
+     "seed": 13,
+     "team": "Legacy Baseball 9U - WHITE",
+     "location": "Fort Mill, SC",
+     "won": 0,
+     "lost": 0,
+     "runs_allowed": 0,
+     "runs_scored": 0,
+     "team_page_id": null
+    },
+    {
+     "seed": 14,
+     "team": "Red Clay Athletics 9U Darcangelo",
+     "location": "Charlotte, NC",
+     "won": 0,
+     "lost": 0,
+     "runs_allowed": 0,
+     "runs_scored": 0,
+     "team_page_id": null
+    },
+    {
+     "seed": 15,
+     "team": "Dirtbags Baseball ESB",
+     "location": "Lincolnton, NC",
+     "won": 0,
+     "lost": 0,
+     "runs_allowed": 0,
+     "runs_scored": 0,
+     "team_page_id": null
+    },
+    {
+     "seed": 16,
+     "team": "BOILING SPRINGS BULLDOGS BASEBALL 8u",
+     "location": "Boiling Springs, NC",
+     "won": 0,
+     "lost": 0,
+     "runs_allowed": 0,
+     "runs_scored": 0,
+     "team_page_id": null
+    },
+    {
+     "seed": 17,
+     "team": "LKN Kingdom",
+     "location": "Charlotte, NC",
+     "won": 0,
+     "lost": 0,
+     "runs_allowed": 0,
+     "runs_scored": 0,
+     "team_page_id": null
+    },
+    {
+     "seed": 18,
+     "team": "Carolina Royals 9Uw",
+     "location": "Gastonia, NC",
+     "won": 0,
+     "lost": 0,
+     "runs_allowed": 0,
+     "runs_scored": 0,
+     "team_page_id": null
+    },
+    {
+     "seed": 19,
+     "team": "Carolina Forge 9U",
+     "location": "Gastonia, NC",
+     "won": 0,
+     "lost": 0,
+     "runs_allowed": 0,
+     "runs_scored": 0,
+     "team_page_id": null
+    }
+   ],
+   "mine": [
+    {
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "date": "2026-09-26",
+     "day": "Sat",
+     "time": "9:00 AM",
+     "field": "Poston:Field # 1",
+     "section": "Pool Play",
+     "game": 1,
+     "opponent": "LKN Bolts",
+     "rs": null,
+     "ra": null,
+     "result": null,
+     "gc_id": null
+    },
+    {
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "date": "2026-09-26",
+     "day": "Sat",
+     "time": "10:45 AM",
+     "field": "Poston:Field # 2",
+     "section": "Pool Play",
+     "game": 6,
+     "opponent": "LKN Kingdom",
+     "rs": null,
+     "ra": null,
+     "result": null,
+     "gc_id": null
+    }
+   ],
+   "next_game": {
+    "event_id": 12518,
+    "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+    "date": "2026-09-26",
+    "day": "Sat",
+    "time": "9:00 AM",
+    "field": "Poston:Field # 1",
+    "section": "Pool Play",
+    "game": 1,
+    "opponent": "LKN Bolts",
+    "rs": null,
+    "ra": null,
+    "result": null,
+    "gc_id": null
+   },
+   "schedule_versions": 1,
+   "schedule_first": "2026-09-24T14:51",
+   "schedule_updated": "2026-09-24T14:51",
    "changes": [],
-   "ics": null
+   "ics": "ics/12518.ics"
   },
   {
    "id": 12521,
@@ -1933,7 +2859,7 @@
     "team": {
      "entered": false
     },
-    "fetched_at": "2026-09-24T13:28"
+    "fetched_at": "2026-09-24T14:51"
    },
    "tgs": {
     "weather": null,
@@ -2011,7 +2937,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-09-24T13:28",
+    "fetched_at": "2026-09-24T14:51",
     "url": "https://topgunstats.com/whos-playing/12521"
    },
    "name": "Triple points Super Regional",
@@ -2038,7 +2964,7 @@
     "count": 58,
     "confirmed": 10,
     "waitlist": 0,
-    "total": 640,
+    "total": 639,
     "team": {
      "entered": true,
      "division": "10U",
@@ -2047,12 +2973,12 @@
      "entered_at": "2026-06-08T12:01:08.307Z",
      "level": "AA"
     },
-    "fetched_at": "2026-09-24T13:28"
+    "fetched_at": "2026-09-24T14:51"
    },
    "tgs": {
     "weather": null,
     "general": null,
-    "teams_registered": 640,
+    "teams_registered": 639,
     "games_scheduled": false,
     "complexes": [
      {
@@ -2129,7 +3055,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-09-24T13:28",
+    "fetched_at": "2026-09-24T14:51",
     "url": "https://topgunstats.com/whos-playing/12522"
    },
    "name": "Southeastern Winter World Series",
@@ -2160,7 +3086,7 @@
     "team": {
      "entered": false
     },
-    "fetched_at": "2026-09-24T13:28"
+    "fetched_at": "2026-09-24T14:51"
    },
    "tgs": {
     "weather": null,
@@ -2213,7 +3139,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-09-24T13:28",
+    "fetched_at": "2026-09-24T14:51",
     "url": "https://topgunstats.com/whos-playing/12524"
    },
    "name": "Road Runner vs Coyote ring weekend",
@@ -6026,6 +6952,10 @@
   "Doby": {
    "name": "Doby Bridge Park",
    "address": "1905 N Dobys Bridge Road Fort Mill, SC 29715"
+  },
+  "FDP": {
+   "name": "Field Day Park",
+   "address": "1101 Field Day Lane Clover, SC 29710"
   },
   "Ferguson": {
    "name": "Ferguson Park",
