@@ -219,8 +219,8 @@
           {
             "game": 1,
             "day": "Sun",
-            "time": "10:00 AM",
-            "field": "Westmoreld:Field 1",
+            "time": "12:45 PM",
+            "field": "Westmoreld:Field 4",
             "team_a": "",
             "seed_a": 2,
             "score_a": null,
@@ -231,7 +231,7 @@
           {
             "game": 2,
             "day": "Sun",
-            "time": "10:00 AM",
+            "time": "2:00 PM",
             "field": "Westmoreld:Field 4",
             "team_a": "",
             "seed_a": 1,
@@ -243,8 +243,8 @@
           {
             "game": 3,
             "day": "Sun",
-            "time": "11:15 AM",
-            "field": "Westmoreld:Field 1",
+            "time": "4:30 PM",
+            "field": "Westmoreld:Field 4",
             "team_a": "Loser Game #1",
             "seed_a": null,
             "score_a": null,
@@ -255,7 +255,7 @@
           {
             "game": 4,
             "day": "Sun",
-            "time": "11:15 AM",
+            "time": "3:15 PM",
             "field": "Westmoreld:Field 4",
             "team_a": "Winner Game #1",
             "seed_a": null,
@@ -269,19 +269,7 @@
           {
             "game": 1,
             "day": "Sun",
-            "time": "12:45 PM",
-            "field": "Westmoreld:Field 1",
-            "team_a": "",
-            "seed_a": 5,
-            "score_a": null,
-            "team_b": "",
-            "seed_b": 6,
-            "score_b": null
-          },
-          {
-            "game": 2,
-            "day": "Sun",
-            "time": "12:45 PM",
+            "time": "9:00 AM",
             "field": "Westmoreld:Field 4",
             "team_a": "",
             "seed_a": 6,
@@ -291,15 +279,27 @@
             "score_b": null
           },
           {
-            "game": 3,
+            "game": 2,
             "day": "Sun",
-            "time": "2:00 PM",
-            "field": "Westmoreld:Field 1",
+            "time": "10:15 AM",
+            "field": "Westmoreld:Field 4",
             "team_a": "",
             "seed_a": 5,
             "score_a": null,
             "team_b": "",
             "seed_b": 7,
+            "score_b": null
+          },
+          {
+            "game": 3,
+            "day": "Sun",
+            "time": "11:30 AM",
+            "field": "Westmoreld:Field 4",
+            "team_a": "",
+            "seed_a": 5,
+            "score_a": null,
+            "team_b": "",
+            "seed_b": 6,
             "score_b": null
           }
         ]
@@ -1892,7 +1892,7 @@
             "day": "Sat",
             "time": "10:45 AM",
             "field": "Shelby:Field # 3",
-            "team_a": "Fury Baseball",
+            "team_a": "CBC Showcase",
             "seed_a": null,
             "score_a": null,
             "team_b": "Banana Peppers Baseball 11u",
@@ -1928,7 +1928,7 @@
             "day": "Sat",
             "time": "12:30 PM",
             "field": "Shelby:Field # 3",
-            "team_a": "CBC Showcase",
+            "team_a": "Fury Baseball",
             "seed_a": null,
             "score_a": null,
             "team_b": "Banana Peppers Baseball 11u",
@@ -2600,7 +2600,7 @@
           {
             "game": 1,
             "day": "Sat",
-            "time": "9:00 AM",
+            "time": "8:30 AM",
             "field": "FDP:Field #1",
             "team_a": "Elite9 Knights",
             "seed_a": null,
@@ -2612,7 +2612,7 @@
           {
             "game": 2,
             "day": "Sat",
-            "time": "10:45 AM",
+            "time": "10:15 AM",
             "field": "FDP:Field #1",
             "team_a": "Elite9 Knights",
             "seed_a": null,
@@ -2624,7 +2624,7 @@
           {
             "game": 3,
             "day": "Sat",
-            "time": "12:30 PM",
+            "time": "12:00 PM",
             "field": "FDP:Field #1",
             "team_a": "SC Tide - Daly",
             "seed_a": null,
@@ -2636,9 +2636,21 @@
           {
             "game": 4,
             "day": "Sat",
-            "time": "2:15 PM",
+            "time": "1:45 PM",
             "field": "FDP:Field #1",
-            "team_a": "Davidson Force",
+            "team_a": "South Carolina Cyclones",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "River Rats",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 5,
+            "day": "Sat",
+            "time": "3:30 PM",
+            "field": "FDP:Field #1",
+            "team_a": "Lone Star Hippos",
             "seed_a": null,
             "score_a": null,
             "team_b": "South Carolina Cyclones",
@@ -2646,26 +2658,26 @@
             "score_b": null
           },
           {
-            "game": 5,
+            "game": 6,
             "day": "Sat",
-            "time": "4:00 PM",
+            "time": "5:15 PM",
             "field": "FDP:Field #1",
-            "team_a": "Davidson Force",
+            "team_a": "River Rats",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Lone Star Hippos",
+            "team_b": "Davidson Force",
             "seed_b": null,
             "score_b": null
           },
           {
-            "game": 6,
+            "game": 7,
             "day": "Sat",
-            "time": "5:45 PM",
+            "time": "7:00 PM",
             "field": "FDP:Field #1",
-            "team_a": "South Carolina Cyclones",
+            "team_a": "Lone Star Hippos",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Lone Star Hippos",
+            "team_b": "Davidson Force",
             "seed_b": null,
             "score_b": null
           }
@@ -2675,55 +2687,31 @@
             "game": 1,
             "day": "Sun",
             "time": "1:00 PM",
-            "field": "FDP:Field #1",
+            "field": "FDP:Field #2",
             "team_a": "",
-            "seed_a": 4,
+            "seed_a": 2,
             "score_a": null,
             "team_b": "",
-            "seed_b": 5,
+            "seed_b": 3,
             "score_b": null
           },
           {
             "game": 2,
             "day": "Sun",
-            "time": "1:00 PM",
+            "time": "3:00 PM",
             "field": "FDP:Field #2",
             "team_a": "",
-            "seed_a": 3,
+            "seed_a": 1,
             "score_a": null,
             "team_b": "",
-            "seed_b": 6,
+            "seed_b": 4,
             "score_b": null
           },
           {
             "game": 3,
             "day": "Sun",
-            "time": "3:00 PM",
-            "field": "FDP:Field #1",
-            "team_a": "Winner Game #1",
-            "seed_a": null,
-            "score_a": null,
-            "team_b": "",
-            "seed_b": 1,
-            "score_b": null
-          },
-          {
-            "game": 4,
-            "day": "Sun",
-            "time": "3:00 PM",
-            "field": "FDP:Field #2",
-            "team_a": "Winner Game #2",
-            "seed_a": null,
-            "score_a": null,
-            "team_b": "",
-            "seed_b": 2,
-            "score_b": null
-          },
-          {
-            "game": 5,
-            "day": "Sun",
             "time": "5:00 PM",
-            "field": "FDP:Field #2",
+            "field": "FDP:Field #3",
             "team_a": "Loser Game #1",
             "seed_a": null,
             "score_a": null,
@@ -2732,27 +2720,53 @@
             "score_b": null
           },
           {
-            "game": 6,
+            "game": 4,
             "day": "Sun",
             "time": "5:00 PM",
-            "field": "FDP:Field #1",
-            "team_a": "Winner Game #3",
+            "field": "FDP:Field #2",
+            "team_a": "Winner Game #1",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Winner Game #4",
+            "team_b": "Winner Game #2",
             "seed_b": null,
+            "score_b": null
+          }
+        ],
+        "Silver Bracket": [
+          {
+            "game": 1,
+            "day": "Sun",
+            "time": "1:00 PM",
+            "field": "FDP:Field #1",
+            "team_a": "",
+            "seed_a": 6,
+            "score_a": null,
+            "team_b": "",
+            "seed_b": 7,
             "score_b": null
           },
           {
-            "game": 7,
+            "game": 2,
+            "day": "Sun",
+            "time": "3:00 PM",
+            "field": "FDP:Field #1",
+            "team_a": "",
+            "seed_a": 5,
+            "score_a": null,
+            "team_b": "",
+            "seed_b": 7,
+            "score_b": null
+          },
+          {
+            "game": 3,
             "day": "Sun",
             "time": "5:00 PM",
-            "field": "FDP:Field #3",
-            "team_a": "Loser Game #3",
-            "seed_a": null,
+            "field": "FDP:Field #1",
+            "team_a": "",
+            "seed_a": 5,
             "score_a": null,
-            "team_b": "Loser Game #4 (If Needed)",
-            "seed_b": null,
+            "team_b": "",
+            "seed_b": 6,
             "score_b": null
           }
         ]
@@ -2997,7 +3011,7 @@
             "day": "Sat",
             "time": "2:15 PM",
             "field": "SP:Field #2",
-            "team_a": "SC Tide Abbott",
+            "team_a": "Crowns Baseball",
             "seed_a": null,
             "score_a": null,
             "team_b": "Regulators",
@@ -3039,6 +3053,18 @@
             "team_b": "Bethany Badgers",
             "seed_b": null,
             "score_b": null
+          },
+          {
+            "game": 13,
+            "day": "Sat",
+            "time": "5:45 PM",
+            "field": "SP:Field #2",
+            "team_a": "CBC Knuckleheads",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Regulators",
+            "seed_b": null,
+            "score_b": null
           }
         ],
         "Gold Bracket": [
@@ -3048,10 +3074,10 @@
             "time": "9:00 AM",
             "field": "CA:Field #1",
             "team_a": "",
-            "seed_a": 2,
+            "seed_a": 4,
             "score_a": null,
             "team_b": "",
-            "seed_b": 3,
+            "seed_b": 5,
             "score_b": null
           },
           {
@@ -3060,16 +3086,28 @@
             "time": "11:00 AM",
             "field": "CA:Field #1",
             "team_a": "",
-            "seed_a": 1,
+            "seed_a": 2,
             "score_a": null,
             "team_b": "",
-            "seed_b": 4,
+            "seed_b": 3,
             "score_b": null
           },
           {
             "game": 3,
             "day": "Sun",
-            "time": "3:00 PM",
+            "time": "1:00 PM",
+            "field": "CA:Field #1",
+            "team_a": "Winner Game #1",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "",
+            "seed_b": 1,
+            "score_b": null
+          },
+          {
+            "game": 4,
+            "day": "Sun",
+            "time": "5:00 PM",
             "field": "CA:Field #1",
             "team_a": "Loser Game #1",
             "seed_a": null,
@@ -3079,11 +3117,11 @@
             "score_b": null
           },
           {
-            "game": 4,
+            "game": 5,
             "day": "Sun",
-            "time": "1:00 PM",
+            "time": "3:00 PM",
             "field": "CA:Field #1",
-            "team_a": "Winner Game #1",
+            "team_a": "Winner Game #3",
             "seed_a": null,
             "score_a": null,
             "team_b": "Winner Game #2",
@@ -3098,10 +3136,10 @@
             "time": "9:00 AM",
             "field": "FDP:Field #1",
             "team_a": "",
-            "seed_a": 6,
+            "seed_a": 7,
             "score_a": null,
             "team_b": "",
-            "seed_b": 7,
+            "seed_b": 8,
             "score_b": null
           },
           {
@@ -3110,10 +3148,10 @@
             "time": "9:00 AM",
             "field": "FDP:Field #2",
             "team_a": "",
-            "seed_a": 5,
+            "seed_a": 6,
             "score_a": null,
             "team_b": "",
-            "seed_b": 8,
+            "seed_b": 9,
             "score_b": null
           },
           {
@@ -3148,10 +3186,10 @@
             "time": "9:00 AM",
             "field": "FDP:Field #3",
             "team_a": "",
-            "seed_a": 10,
+            "seed_a": 11,
             "score_a": null,
             "team_b": "",
-            "seed_b": 11,
+            "seed_b": 12,
             "score_b": null
           },
           {
@@ -3160,10 +3198,10 @@
             "time": "11:00 AM",
             "field": "FDP:Field #3",
             "team_a": "",
-            "seed_a": 9,
+            "seed_a": 10,
             "score_a": null,
             "team_b": "",
-            "seed_b": 12,
+            "seed_b": 13,
             "score_b": null
           },
           {
@@ -3720,5 +3758,5 @@
   },
   "site_last_updated": "09/24/2026 1:31 PM",
   "tournament_id": 12518,
-  "fetched_at": "2026-09-24T14:51"
+  "fetched_at": "2026-09-24T16:12"
 }
