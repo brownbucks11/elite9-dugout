@@ -3,7 +3,7 @@
  "location": "Rock Hill, SC",
  "page_id": 31407,
  "team_url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=31407",
- "built": "Sat Sep 26, 2026 05:53 PM",
+ "built": "Sat Sep 26, 2026 06:55 PM",
  "record": {
   "w": 2,
   "l": 5,
@@ -116,6 +116,21 @@
    "ra": 7,
    "result": "W",
    "gc_id": "aa2786f3-bb2f-497f-bf19-a4aa137a7b01"
+  },
+  {
+   "event_id": 12518,
+   "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+   "date": "2026-09-27",
+   "day": "Sun",
+   "time": "9:00 AM",
+   "field": "Bradford:Field # 3",
+   "section": "Silver Bracket",
+   "game": 2,
+   "opponent": "Lake Wylie Venom",
+   "rs": null,
+   "ra": null,
+   "result": null,
+   "gc_id": null
   }
  ],
  "my_events": [
@@ -1181,15 +1196,29 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-09-26T17:53",
+    "fetched_at": "2026-09-26T18:55",
     "url": "https://topgunstats.com/whos-playing/12518"
    },
-   "next_game": null,
+   "next_game": {
+    "event_id": 12518,
+    "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+    "date": "2026-09-27",
+    "day": "Sun",
+    "time": "9:00 AM",
+    "field": "Bradford:Field # 3",
+    "section": "Silver Bracket",
+    "game": 2,
+    "opponent": "Lake Wylie Venom",
+    "rs": null,
+    "ra": null,
+    "result": null,
+    "gc_id": null
+   },
    "ics": "ics/12518.ics",
    "standing": {
     "team": "Elite 9",
     "location": "Rock Hill, SC",
-    "rank": 9,
+    "rank": 8,
     "tiebreak": "runs scored",
     "h2h": {
      "LKN Bolts": "L",
@@ -1205,8 +1234,8 @@
     "pool_t": 0,
     "pool_rs": 15,
     "pool_ra": 15,
-    "seed": null,
-    "bracket": null,
+    "seed": 8,
+    "bracket": "Silver Bracket",
     "won": 1,
     "lost": 1,
     "rs": 15,
@@ -1233,8 +1262,8 @@
      "pool_t": 0,
      "pool_rs": 32,
      "pool_ra": 0,
-     "seed": null,
-     "bracket": null,
+     "seed": 1,
+     "bracket": "Gold Bracket",
      "won": 2,
      "lost": 0,
      "rs": 32,
@@ -1246,55 +1275,31 @@
      "rank": 2,
      "tiebreak": "runs allowed",
      "h2h": {
-      "Legacy Baseball 9U - WHITE": "W"
+      "Legacy Baseball 9U - WHITE": "W",
+      "Team 24": "W"
      },
      "last": {
-      "opponent": "Legacy Baseball 9U - WHITE",
-      "rs": 16,
+      "opponent": "Team 24",
+      "rs": 17,
       "ra": 3
      },
-     "pool_w": 1,
+     "pool_w": 2,
      "pool_l": 0,
      "pool_t": 0,
-     "pool_rs": 16,
-     "pool_ra": 3,
-     "seed": null,
-     "bracket": null,
-     "won": 1,
-     "lost": 0,
-     "rs": 16,
-     "ra": 3
-    },
-    {
-     "team": "Team 24",
-     "location": "York, SC",
-     "rank": 3,
-     "tiebreak": "runs allowed",
-     "h2h": {
-      "Legacy Baseball 9U - WHITE": "W"
-     },
-     "last": {
-      "opponent": "Legacy Baseball 9U - WHITE",
-      "rs": 18,
-      "ra": 6
-     },
-     "pool_w": 1,
-     "pool_l": 0,
-     "pool_t": 0,
-     "pool_rs": 18,
+     "pool_rs": 33,
      "pool_ra": 6,
-     "seed": null,
-     "bracket": null,
-     "won": 1,
+     "seed": 2,
+     "bracket": "Gold Bracket",
+     "won": 2,
      "lost": 0,
-     "rs": 18,
+     "rs": 33,
      "ra": 6
     },
     {
      "team": "LKN Bolts",
      "location": "Huntersville, NC",
-     "rank": 4,
-     "tiebreak": "runs scored",
+     "rank": 3,
+     "tiebreak": "runs allowed",
      "h2h": {
       "Elite 9": "W",
       "Carolina Royals 9Uw": "W"
@@ -1309,42 +1314,17 @@
      "pool_t": 0,
      "pool_rs": 24,
      "pool_ra": 7,
-     "seed": null,
-     "bracket": null,
+     "seed": 3,
+     "bracket": "Gold Bracket",
      "won": 2,
      "lost": 0,
      "rs": 24,
      "ra": 7
     },
     {
-     "team": "BOILING SPRINGS BULLDOGS BASEBALL 8u",
-     "location": "Boiling Springs, NC",
-     "rank": 5,
-     "tiebreak": "runs scored",
-     "h2h": {
-      "LumberJacks": "W"
-     },
-     "last": {
-      "opponent": "LumberJacks",
-      "rs": 12,
-      "ra": 7
-     },
-     "pool_w": 1,
-     "pool_l": 0,
-     "pool_t": 0,
-     "pool_rs": 12,
-     "pool_ra": 7,
-     "seed": null,
-     "bracket": null,
-     "won": 1,
-     "lost": 0,
-     "rs": 12,
-     "ra": 7
-    },
-    {
      "team": "ROCO Dirtbagz",
      "location": "Forest City, NC",
-     "rank": 6,
+     "rank": 4,
      "tiebreak": "runs allowed",
      "h2h": {
       "Dirtbags Baseball ESB": "W",
@@ -1360,8 +1340,8 @@
      "pool_t": 0,
      "pool_rs": 26,
      "pool_ra": 8,
-     "seed": null,
-     "bracket": null,
+     "seed": 4,
+     "bracket": "Gold Bracket",
      "won": 2,
      "lost": 0,
      "rs": 26,
@@ -1370,7 +1350,7 @@
     {
      "team": "Lake Wylie Venom",
      "location": "Lake Wylie, SC",
-     "rank": 7,
+     "rank": 5,
      "tiebreak": "runs allowed",
      "h2h": {
       "Red Clay Athletics 9U Darcangelo": "W",
@@ -1386,8 +1366,8 @@
      "pool_t": 0,
      "pool_rs": 26,
      "pool_ra": 14,
-     "seed": null,
-     "bracket": null,
+     "seed": 5,
+     "bracket": "Silver Bracket",
      "won": 2,
      "lost": 0,
      "rs": 26,
@@ -1396,7 +1376,7 @@
     {
      "team": "Red Clay Athletics 9U Darcangelo",
      "location": "Charlotte, NC",
-     "rank": 8,
+     "rank": 6,
      "tiebreak": "runs allowed",
      "h2h": {
       "Carolina Forge 9U": "W",
@@ -1412,17 +1392,43 @@
      "pool_t": 0,
      "pool_rs": 29,
      "pool_ra": 13,
-     "seed": null,
-     "bracket": null,
+     "seed": 6,
+     "bracket": "Silver Bracket",
      "won": 1,
      "lost": 1,
      "rs": 29,
      "ra": 13
     },
     {
+     "team": "Rock Hill 9U Baseball",
+     "location": "Rock Hill, SC",
+     "rank": 7,
+     "tiebreak": "runs scored",
+     "h2h": {
+      "Dirtbags Baseball ESB": "L",
+      "BOILING SPRINGS BULLDOGS BASEBALL 8u": "W"
+     },
+     "last": {
+      "opponent": "BOILING SPRINGS BULLDOGS BASEBALL 8u",
+      "rs": 16,
+      "ra": 2
+     },
+     "pool_w": 1,
+     "pool_l": 1,
+     "pool_t": 0,
+     "pool_rs": 18,
+     "pool_ra": 15,
+     "seed": 7,
+     "bracket": "Silver Bracket",
+     "won": 1,
+     "lost": 1,
+     "rs": 18,
+     "ra": 15
+    },
+    {
      "team": "Elite 9",
      "location": "Rock Hill, SC",
-     "rank": 9,
+     "rank": 8,
      "tiebreak": "runs scored",
      "h2h": {
       "LKN Bolts": "L",
@@ -1438,8 +1444,8 @@
      "pool_t": 0,
      "pool_rs": 15,
      "pool_ra": 15,
-     "seed": null,
-     "bracket": null,
+     "seed": 8,
+     "bracket": "Silver Bracket",
      "won": 1,
      "lost": 1,
      "rs": 15,
@@ -1448,7 +1454,7 @@
     {
      "team": "Dirtbags Baseball ESB",
      "location": "Lincolnton, NC",
-     "rank": 10,
+     "rank": 9,
      "tiebreak": "runs scored",
      "h2h": {
       "ROCO Dirtbagz": "L",
@@ -1464,8 +1470,8 @@
      "pool_t": 0,
      "pool_rs": 14,
      "pool_ra": 15,
-     "seed": null,
-     "bracket": null,
+     "seed": 9,
+     "bracket": "Bronze Bracket",
      "won": 1,
      "lost": 1,
      "rs": 14,
@@ -1474,7 +1480,7 @@
     {
      "team": "PeeDee Mudcats",
      "location": "Wadesboro, NC",
-     "rank": 11,
+     "rank": 10,
      "tiebreak": "runs allowed",
      "h2h": {
       "South Park Red Raiders": "L",
@@ -1490,8 +1496,8 @@
      "pool_t": 0,
      "pool_rs": 13,
      "pool_ra": 18,
-     "seed": null,
-     "bracket": null,
+     "seed": 10,
+     "bracket": "Bronze Bracket",
      "won": 1,
      "lost": 1,
      "rs": 13,
@@ -1500,7 +1506,7 @@
     {
      "team": "Carolina Trash Pandas",
      "location": "Locust, NC",
-     "rank": 12,
+     "rank": 11,
      "tiebreak": "runs allowed",
      "h2h": {
       "Carolina Forge 9U": "W",
@@ -1516,17 +1522,69 @@
      "pool_t": 0,
      "pool_rs": 11,
      "pool_ra": 21,
-     "seed": null,
-     "bracket": null,
+     "seed": 11,
+     "bracket": "Bronze Bracket",
      "won": 1,
      "lost": 1,
      "rs": 11,
      "ra": 21
     },
     {
+     "team": "Team 24",
+     "location": "York, SC",
+     "rank": 12,
+     "tiebreak": "runs scored",
+     "h2h": {
+      "Legacy Baseball 9U - WHITE": "W",
+      "Carolina Firebirds-Red": "L"
+     },
+     "last": {
+      "opponent": "Carolina Firebirds-Red",
+      "rs": 3,
+      "ra": 17
+     },
+     "pool_w": 1,
+     "pool_l": 1,
+     "pool_t": 0,
+     "pool_rs": 21,
+     "pool_ra": 23,
+     "seed": 12,
+     "bracket": "Bronze Bracket",
+     "won": 1,
+     "lost": 1,
+     "rs": 21,
+     "ra": 23
+    },
+    {
+     "team": "BOILING SPRINGS BULLDOGS BASEBALL 8u",
+     "location": "Boiling Springs, NC",
+     "rank": 13,
+     "tiebreak": "runs scored",
+     "h2h": {
+      "LumberJacks": "W",
+      "Rock Hill 9U Baseball": "L"
+     },
+     "last": {
+      "opponent": "Rock Hill 9U Baseball",
+      "rs": 2,
+      "ra": 16
+     },
+     "pool_w": 1,
+     "pool_l": 1,
+     "pool_t": 0,
+     "pool_rs": 14,
+     "pool_ra": 23,
+     "seed": 13,
+     "bracket": "Copper Bracket",
+     "won": 1,
+     "lost": 1,
+     "rs": 14,
+     "ra": 23
+    },
+    {
      "team": "Carolina Royals 9Uw",
      "location": "Gastonia, NC",
-     "rank": 13,
+     "rank": 14,
      "tiebreak": "runs allowed",
      "h2h": {
       "LKN Kingdom": "W",
@@ -1542,37 +1600,12 @@
      "pool_t": 0,
      "pool_rs": 18,
      "pool_ra": 24,
-     "seed": null,
-     "bracket": null,
+     "seed": 14,
+     "bracket": "Copper Bracket",
      "won": 1,
      "lost": 1,
      "rs": 18,
      "ra": 24
-    },
-    {
-     "team": "Rock Hill 9U Baseball",
-     "location": "Rock Hill, SC",
-     "rank": 14,
-     "tiebreak": "runs allowed",
-     "h2h": {
-      "Dirtbags Baseball ESB": "L"
-     },
-     "last": {
-      "opponent": "Dirtbags Baseball ESB",
-      "rs": 2,
-      "ra": 13
-     },
-     "pool_w": 0,
-     "pool_l": 1,
-     "pool_t": 0,
-     "pool_rs": 2,
-     "pool_ra": 13,
-     "seed": null,
-     "bracket": null,
-     "won": 0,
-     "lost": 1,
-     "rs": 2,
-     "ra": 13
     },
     {
      "team": "LumberJacks",
@@ -1593,8 +1626,8 @@
      "pool_t": 0,
      "pool_rs": 14,
      "pool_ra": 25,
-     "seed": null,
-     "bracket": null,
+     "seed": 15,
+     "bracket": "Copper Bracket",
      "won": 0,
      "lost": 2,
      "rs": 14,
@@ -1619,8 +1652,8 @@
      "pool_t": 0,
      "pool_rs": 15,
      "pool_ra": 26,
-     "seed": null,
-     "bracket": null,
+     "seed": 16,
+     "bracket": "Copper Bracket",
      "won": 0,
      "lost": 2,
      "rs": 15,
@@ -1645,8 +1678,8 @@
      "pool_t": 0,
      "pool_rs": 8,
      "pool_ra": 26,
-     "seed": null,
-     "bracket": null,
+     "seed": 17,
+     "bracket": "Select Bracket",
      "won": 0,
      "lost": 2,
      "rs": 8,
@@ -1671,8 +1704,8 @@
      "pool_t": 0,
      "pool_rs": 5,
      "pool_ra": 32,
-     "seed": null,
-     "bracket": null,
+     "seed": 18,
+     "bracket": "Select Bracket",
      "won": 0,
      "lost": 2,
      "rs": 5,
@@ -1697,8 +1730,8 @@
      "pool_t": 0,
      "pool_rs": 9,
      "pool_ra": 34,
-     "seed": null,
-     "bracket": null,
+     "seed": 19,
+     "bracket": "Select Bracket",
      "won": 0,
      "lost": 2,
      "rs": 9,
@@ -1987,11 +2020,11 @@
      "field": "Poston:Field # 2",
      "team_a": "Carolina Firebirds-Red",
      "seed_a": null,
-     "score_a": null,
+     "score_a": 17,
      "from_a": null,
      "team_b": "Team 24",
      "seed_b": null,
-     "score_b": null,
+     "score_b": 3,
      "from_b": null
     },
     {
@@ -2003,11 +2036,11 @@
      "field": "Shelby:Field # 1",
      "team_a": "Rock Hill 9U Baseball",
      "seed_a": null,
-     "score_a": null,
+     "score_a": 16,
      "from_a": null,
      "team_b": "BOILING SPRINGS BULLDOGS BASEBALL 8u",
      "seed_b": null,
-     "score_b": null,
+     "score_b": 2,
      "from_b": null
     },
     {
@@ -2017,11 +2050,11 @@
      "time": "9:00 AM",
      "date": "2026-09-27",
      "field": "Bradford:Field # 2",
-     "team_a": "",
+     "team_a": "Carolina Firebirds-Red",
      "seed_a": 2,
      "score_a": null,
      "from_a": null,
-     "team_b": "",
+     "team_b": "LKN Bolts",
      "seed_b": 3,
      "score_b": null,
      "from_b": null
@@ -2033,11 +2066,11 @@
      "time": "9:00 AM",
      "date": "2026-09-27",
      "field": "Bradford:Field # 1",
-     "team_a": "",
+     "team_a": "South Park Red Raiders",
      "seed_a": 1,
      "score_a": null,
      "from_a": null,
-     "team_b": "",
+     "team_b": "ROCO Dirtbagz",
      "seed_b": 4,
      "score_b": null,
      "from_b": null
@@ -2093,11 +2126,11 @@
      "time": "9:00 AM",
      "date": "2026-09-27",
      "field": "Bradford:Field # 4",
-     "team_a": "",
+     "team_a": "Red Clay Athletics 9U Darcangelo",
      "seed_a": 6,
      "score_a": null,
      "from_a": null,
-     "team_b": "",
+     "team_b": "Rock Hill 9U Baseball",
      "seed_b": 7,
      "score_b": null,
      "from_b": null
@@ -2109,11 +2142,11 @@
      "time": "9:00 AM",
      "date": "2026-09-27",
      "field": "Bradford:Field # 3",
-     "team_a": "",
+     "team_a": "Lake Wylie Venom",
      "seed_a": 5,
      "score_a": null,
      "from_a": null,
-     "team_b": "",
+     "team_b": "Elite 9",
      "seed_b": 8,
      "score_b": null,
      "from_b": null
@@ -2169,11 +2202,11 @@
      "time": "1:00 PM",
      "date": "2026-09-27",
      "field": "Bradford:Field # 4",
-     "team_a": "",
+     "team_a": "PeeDee Mudcats",
      "seed_a": 10,
      "score_a": null,
      "from_a": null,
-     "team_b": "",
+     "team_b": "Carolina Trash Pandas",
      "seed_b": 11,
      "score_b": null,
      "from_b": null
@@ -2185,11 +2218,11 @@
      "time": "1:00 PM",
      "date": "2026-09-27",
      "field": "Bradford:Field # 3",
-     "team_a": "",
+     "team_a": "Dirtbags Baseball ESB",
      "seed_a": 9,
      "score_a": null,
      "from_a": null,
-     "team_b": "",
+     "team_b": "Team 24",
      "seed_b": 12,
      "score_b": null,
      "from_b": null
@@ -2245,11 +2278,11 @@
      "time": "1:00 PM",
      "date": "2026-09-27",
      "field": "Bradford:Field # 2",
-     "team_a": "",
+     "team_a": "Carolina Royals 9Uw",
      "seed_a": 14,
      "score_a": null,
      "from_a": null,
-     "team_b": "",
+     "team_b": "LumberJacks",
      "seed_b": 15,
      "score_b": null,
      "from_b": null
@@ -2261,11 +2294,11 @@
      "time": "1:00 PM",
      "date": "2026-09-27",
      "field": "Bradford:Field # 1",
-     "team_a": "",
+     "team_a": "BOILING SPRINGS BULLDOGS BASEBALL 8u",
      "seed_a": 13,
      "score_a": null,
      "from_a": null,
-     "team_b": "",
+     "team_b": "LKN Kingdom",
      "seed_b": 16,
      "score_b": null,
      "from_b": null
@@ -2321,11 +2354,11 @@
      "time": "9:00 AM",
      "date": "2026-09-27",
      "field": "SP:Field #3",
-     "team_a": "",
+     "team_a": "SC Tide - Lucariello",
      "seed_a": 18,
      "score_a": null,
      "from_a": null,
-     "team_b": "",
+     "team_b": "Legacy Baseball 9U - WHITE",
      "seed_b": 19,
      "score_b": null,
      "from_b": null
@@ -2337,11 +2370,11 @@
      "time": "11:00 AM",
      "date": "2026-09-27",
      "field": "SP:Field #3",
-     "team_a": "",
+     "team_a": "Carolina Forge 9U",
      "seed_a": 17,
      "score_a": null,
      "from_a": null,
-     "team_b": "",
+     "team_b": "Legacy Baseball 9U - WHITE",
      "seed_b": 19,
      "score_b": null,
      "from_b": null
@@ -2353,11 +2386,11 @@
      "time": "1:00 PM",
      "date": "2026-09-27",
      "field": "SP:Field #3",
-     "team_a": "",
+     "team_a": "Carolina Forge 9U",
      "seed_a": 17,
      "score_a": null,
      "from_a": null,
-     "team_b": "",
+     "team_b": "SC Tide - Lucariello",
      "seed_b": 18,
      "score_b": null,
      "from_b": null
@@ -3115,11 +3148,11 @@
    "official": false,
    "confirmed": false,
    "summary": {
-    "rank": 9,
+    "rank": 8,
     "teams": 19,
     "pool": "1-1",
-    "bracket": null,
-    "seed": null,
+    "bracket": "Silver Bracket",
+    "seed": 8,
     "bracket_games": [],
     "w": 1,
     "l": 1
@@ -3137,7 +3170,7 @@
      "entered_at": "2026-09-17T10:03:30.533Z",
      "level": "AA"
     },
-    "fetched_at": "2026-09-26T17:53"
+    "fetched_at": "2026-09-26T18:55"
    },
    "tgs": {
     "weather": null,
@@ -3262,7 +3295,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-09-26T17:53",
+    "fetched_at": "2026-09-26T18:55",
     "url": "https://topgunstats.com/whos-playing/12518"
    },
    "name": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
@@ -3552,11 +3585,11 @@
      "field": "Poston:Field # 2",
      "team_a": "Carolina Firebirds-Red",
      "seed_a": null,
-     "score_a": null,
+     "score_a": 17,
      "from_a": null,
      "team_b": "Team 24",
      "seed_b": null,
-     "score_b": null,
+     "score_b": 3,
      "from_b": null
     },
     {
@@ -3568,11 +3601,11 @@
      "field": "Shelby:Field # 1",
      "team_a": "Rock Hill 9U Baseball",
      "seed_a": null,
-     "score_a": null,
+     "score_a": 16,
      "from_a": null,
      "team_b": "BOILING SPRINGS BULLDOGS BASEBALL 8u",
      "seed_b": null,
-     "score_b": null,
+     "score_b": 2,
      "from_b": null
     },
     {
@@ -3582,11 +3615,11 @@
      "time": "9:00 AM",
      "date": "2026-09-27",
      "field": "Bradford:Field # 2",
-     "team_a": "",
+     "team_a": "Carolina Firebirds-Red",
      "seed_a": 2,
      "score_a": null,
      "from_a": null,
-     "team_b": "",
+     "team_b": "LKN Bolts",
      "seed_b": 3,
      "score_b": null,
      "from_b": null
@@ -3598,11 +3631,11 @@
      "time": "9:00 AM",
      "date": "2026-09-27",
      "field": "Bradford:Field # 1",
-     "team_a": "",
+     "team_a": "South Park Red Raiders",
      "seed_a": 1,
      "score_a": null,
      "from_a": null,
-     "team_b": "",
+     "team_b": "ROCO Dirtbagz",
      "seed_b": 4,
      "score_b": null,
      "from_b": null
@@ -3658,11 +3691,11 @@
      "time": "9:00 AM",
      "date": "2026-09-27",
      "field": "Bradford:Field # 4",
-     "team_a": "",
+     "team_a": "Red Clay Athletics 9U Darcangelo",
      "seed_a": 6,
      "score_a": null,
      "from_a": null,
-     "team_b": "",
+     "team_b": "Rock Hill 9U Baseball",
      "seed_b": 7,
      "score_b": null,
      "from_b": null
@@ -3674,11 +3707,11 @@
      "time": "9:00 AM",
      "date": "2026-09-27",
      "field": "Bradford:Field # 3",
-     "team_a": "",
+     "team_a": "Lake Wylie Venom",
      "seed_a": 5,
      "score_a": null,
      "from_a": null,
-     "team_b": "",
+     "team_b": "Elite 9",
      "seed_b": 8,
      "score_b": null,
      "from_b": null
@@ -3734,11 +3767,11 @@
      "time": "1:00 PM",
      "date": "2026-09-27",
      "field": "Bradford:Field # 4",
-     "team_a": "",
+     "team_a": "PeeDee Mudcats",
      "seed_a": 10,
      "score_a": null,
      "from_a": null,
-     "team_b": "",
+     "team_b": "Carolina Trash Pandas",
      "seed_b": 11,
      "score_b": null,
      "from_b": null
@@ -3750,11 +3783,11 @@
      "time": "1:00 PM",
      "date": "2026-09-27",
      "field": "Bradford:Field # 3",
-     "team_a": "",
+     "team_a": "Dirtbags Baseball ESB",
      "seed_a": 9,
      "score_a": null,
      "from_a": null,
-     "team_b": "",
+     "team_b": "Team 24",
      "seed_b": 12,
      "score_b": null,
      "from_b": null
@@ -3810,11 +3843,11 @@
      "time": "1:00 PM",
      "date": "2026-09-27",
      "field": "Bradford:Field # 2",
-     "team_a": "",
+     "team_a": "Carolina Royals 9Uw",
      "seed_a": 14,
      "score_a": null,
      "from_a": null,
-     "team_b": "",
+     "team_b": "LumberJacks",
      "seed_b": 15,
      "score_b": null,
      "from_b": null
@@ -3826,11 +3859,11 @@
      "time": "1:00 PM",
      "date": "2026-09-27",
      "field": "Bradford:Field # 1",
-     "team_a": "",
+     "team_a": "BOILING SPRINGS BULLDOGS BASEBALL 8u",
      "seed_a": 13,
      "score_a": null,
      "from_a": null,
-     "team_b": "",
+     "team_b": "LKN Kingdom",
      "seed_b": 16,
      "score_b": null,
      "from_b": null
@@ -3886,11 +3919,11 @@
      "time": "9:00 AM",
      "date": "2026-09-27",
      "field": "SP:Field #3",
-     "team_a": "",
+     "team_a": "SC Tide - Lucariello",
      "seed_a": 18,
      "score_a": null,
      "from_a": null,
-     "team_b": "",
+     "team_b": "Legacy Baseball 9U - WHITE",
      "seed_b": 19,
      "score_b": null,
      "from_b": null
@@ -3902,11 +3935,11 @@
      "time": "11:00 AM",
      "date": "2026-09-27",
      "field": "SP:Field #3",
-     "team_a": "",
+     "team_a": "Carolina Forge 9U",
      "seed_a": 17,
      "score_a": null,
      "from_a": null,
-     "team_b": "",
+     "team_b": "Legacy Baseball 9U - WHITE",
      "seed_b": 19,
      "score_b": null,
      "from_b": null
@@ -3918,11 +3951,11 @@
      "time": "1:00 PM",
      "date": "2026-09-27",
      "field": "SP:Field #3",
-     "team_a": "",
+     "team_a": "Carolina Forge 9U",
      "seed_a": 17,
      "score_a": null,
      "from_a": null,
-     "team_b": "",
+     "team_b": "SC Tide - Lucariello",
      "seed_b": 18,
      "score_b": null,
      "from_b": null
@@ -3953,10 +3986,10 @@
      "seed": 3,
      "team": "Carolina Firebirds-Red",
      "location": "Winston Salem, NC",
-     "won": 1,
+     "won": 2,
      "lost": 0,
-     "runs_allowed": 3,
-     "runs_scored": 16,
+     "runs_allowed": 6,
+     "runs_scored": 33,
      "team_page_id": null
     },
     {
@@ -3984,9 +4017,9 @@
      "team": "Team 24",
      "location": "York, SC",
      "won": 1,
-     "lost": 0,
-     "runs_allowed": 6,
-     "runs_scored": 18,
+     "lost": 1,
+     "runs_allowed": 23,
+     "runs_scored": 21,
      "team_page_id": null
     },
     {
@@ -4023,10 +4056,10 @@
      "seed": 10,
      "team": "Rock Hill 9U Baseball",
      "location": "Rock Hill, SC",
-     "won": 0,
+     "won": 1,
      "lost": 1,
-     "runs_allowed": 13,
-     "runs_scored": 2,
+     "runs_allowed": 15,
+     "runs_scored": 18,
      "team_page_id": null
     },
     {
@@ -4084,9 +4117,9 @@
      "team": "BOILING SPRINGS BULLDOGS BASEBALL 8u",
      "location": "Boiling Springs, NC",
      "won": 1,
-     "lost": 0,
-     "runs_allowed": 7,
-     "runs_scored": 12,
+     "lost": 1,
+     "runs_allowed": 23,
+     "runs_scored": 14,
      "team_page_id": null
     },
     {
@@ -4150,13 +4183,47 @@
      "ra": 7,
      "result": "W",
      "gc_id": "aa2786f3-bb2f-497f-bf19-a4aa137a7b01"
+    },
+    {
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "date": "2026-09-27",
+     "day": "Sun",
+     "time": "9:00 AM",
+     "field": "Bradford:Field # 3",
+     "section": "Silver Bracket",
+     "game": 2,
+     "opponent": "Lake Wylie Venom",
+     "rs": null,
+     "ra": null,
+     "result": null,
+     "gc_id": null
     }
    ],
-   "next_game": null,
-   "schedule_versions": 1,
+   "next_game": {
+    "event_id": 12518,
+    "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+    "date": "2026-09-27",
+    "day": "Sun",
+    "time": "9:00 AM",
+    "field": "Bradford:Field # 3",
+    "section": "Silver Bracket",
+    "game": 2,
+    "opponent": "Lake Wylie Venom",
+    "rs": null,
+    "ra": null,
+    "result": null,
+    "gc_id": null
+   },
+   "schedule_versions": 2,
    "schedule_first": "2026-09-24T14:51",
-   "schedule_updated": "2026-09-24T14:51",
-   "changes": [],
+   "schedule_updated": "2026-09-26T18:55",
+   "changes": [
+    {
+     "key": "Silver Bracket#2",
+     "kind": "added"
+    }
+   ],
    "ics": "ics/12518.ics"
   },
   {
@@ -4173,7 +4240,7 @@
     "team": {
      "entered": false
     },
-    "fetched_at": "2026-09-26T17:53"
+    "fetched_at": "2026-09-26T18:55"
    },
    "tgs": {
     "weather": null,
@@ -4251,7 +4318,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-09-26T17:53",
+    "fetched_at": "2026-09-26T18:55",
     "url": "https://topgunstats.com/whos-playing/12521"
    },
    "name": "Triple points Super Regional",
@@ -4288,7 +4355,7 @@
      "entered_at": "2026-06-08T12:01:08.307Z",
      "level": "AA"
     },
-    "fetched_at": "2026-09-26T17:53"
+    "fetched_at": "2026-09-26T18:55"
    },
    "tgs": {
     "weather": null,
@@ -4370,7 +4437,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-09-26T17:53",
+    "fetched_at": "2026-09-26T18:55",
     "url": "https://topgunstats.com/whos-playing/12522"
    },
    "name": "Southeastern Winter World Series",
@@ -4402,7 +4469,7 @@
     "team": {
      "entered": false
     },
-    "fetched_at": "2026-09-26T17:53"
+    "fetched_at": "2026-09-26T18:55"
    },
    "tgs": {
     "weather": null,
@@ -4455,7 +4522,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-09-26T17:53",
+    "fetched_at": "2026-09-26T18:55",
     "url": "https://topgunstats.com/whos-playing/12524"
    },
    "name": "Road Runner vs Coyote ring weekend",
@@ -4669,12 +4736,12 @@
    "location": "Winston Salem, NC",
    "page_id": null,
    "url": null,
-   "w": 1,
+   "w": 2,
    "l": 0,
    "t": 0,
-   "rs": 16,
-   "ra": 3,
-   "diff": 13,
+   "rs": 33,
+   "ra": 6,
+   "diff": 27,
    "pct": 1.0,
    "events": 1,
    "log": [
@@ -4687,36 +4754,15 @@
      "rs": 16,
      "ra": 3,
      "result": "W"
-    }
-   ],
-   "points": 0,
-   "titles": 0,
-   "finishes": [],
-   "season": "",
-   "stats_fetched": null
-  },
-  {
-   "team": "BOILING SPRINGS BULLDOGS BASEBALL 8u",
-   "location": "Boiling Springs, NC",
-   "page_id": null,
-   "url": null,
-   "w": 1,
-   "l": 0,
-   "t": 0,
-   "rs": 12,
-   "ra": 7,
-   "diff": 5,
-   "pct": 1.0,
-   "events": 1,
-   "log": [
+    },
     {
      "date": "2026-09-26",
      "event_id": 12518,
      "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
      "section": "Pool Play",
-     "opponent": "LumberJacks",
-     "rs": 12,
-     "ra": 7,
+     "opponent": "Team 24",
+     "rs": 17,
+     "ra": 3,
      "result": "W"
     }
    ],
@@ -6106,87 +6152,6 @@
    "stats_fetched": "2026-09-26T11:01"
   },
   {
-   "team": "Team 24",
-   "location": "York, SC",
-   "page_id": null,
-   "url": null,
-   "w": 3,
-   "l": 2,
-   "t": 0,
-   "rs": 59,
-   "ra": 37,
-   "diff": 22,
-   "pct": 0.6,
-   "events": 2,
-   "log": [
-    {
-     "date": "2026-09-19",
-     "event_id": 12517,
-     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
-     "section": "Pool Play",
-     "opponent": "Carolina Elevate",
-     "rs": 18,
-     "ra": 1,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-19",
-     "event_id": 12517,
-     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
-     "section": "Pool Play",
-     "opponent": "Union County Legends",
-     "rs": 10,
-     "ra": 7,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-20",
-     "event_id": 12517,
-     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
-     "section": "Gold Bracket",
-     "opponent": "Hooligans",
-     "rs": 5,
-     "ra": 6,
-     "result": "L"
-    },
-    {
-     "date": "2026-09-20",
-     "event_id": 12517,
-     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
-     "section": "Gold Bracket",
-     "opponent": "Dirtbags Shook",
-     "rs": 8,
-     "ra": 17,
-     "result": "L"
-    },
-    {
-     "date": "2026-09-26",
-     "event_id": 12518,
-     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "section": "Pool Play",
-     "opponent": "Legacy Baseball 9U - WHITE",
-     "rs": 18,
-     "ra": 6,
-     "result": "W"
-    }
-   ],
-   "points": 0,
-   "titles": 0,
-   "finishes": [
-    {
-     "date": "2026-09-19",
-     "name": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
-     "won": 2,
-     "lost": 2,
-     "standing": "4th (Gold)",
-     "points": 0,
-     "derived": true
-    }
-   ],
-   "season": "",
-   "stats_fetched": null
-  },
-  {
    "team": "NC Made 9U Blue",
    "location": "Mocksville, NC",
    "page_id": 28938,
@@ -6533,6 +6498,97 @@
    "stats_fetched": "2026-09-26T11:00"
   },
   {
+   "team": "Team 24",
+   "location": "York, SC",
+   "page_id": null,
+   "url": null,
+   "w": 3,
+   "l": 3,
+   "t": 0,
+   "rs": 62,
+   "ra": 54,
+   "diff": 8,
+   "pct": 0.5,
+   "events": 2,
+   "log": [
+    {
+     "date": "2026-09-19",
+     "event_id": 12517,
+     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
+     "section": "Pool Play",
+     "opponent": "Carolina Elevate",
+     "rs": 18,
+     "ra": 1,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-19",
+     "event_id": 12517,
+     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
+     "section": "Pool Play",
+     "opponent": "Union County Legends",
+     "rs": 10,
+     "ra": 7,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-20",
+     "event_id": 12517,
+     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
+     "section": "Gold Bracket",
+     "opponent": "Hooligans",
+     "rs": 5,
+     "ra": 6,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-20",
+     "event_id": 12517,
+     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
+     "section": "Gold Bracket",
+     "opponent": "Dirtbags Shook",
+     "rs": 8,
+     "ra": 17,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-26",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Pool Play",
+     "opponent": "Legacy Baseball 9U - WHITE",
+     "rs": 18,
+     "ra": 6,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-26",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Pool Play",
+     "opponent": "Carolina Firebirds-Red",
+     "rs": 3,
+     "ra": 17,
+     "result": "L"
+    }
+   ],
+   "points": 0,
+   "titles": 0,
+   "finishes": [
+    {
+     "date": "2026-09-19",
+     "name": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
+     "won": 2,
+     "lost": 2,
+     "standing": "4th (Gold)",
+     "points": 0,
+     "derived": true
+    }
+   ],
+   "season": "",
+   "stats_fetched": null
+  },
+  {
    "team": "Groundwork Sports",
    "location": "Summerfield, NC",
    "page_id": 33842,
@@ -6609,6 +6665,47 @@
    ],
    "season": "08/01/2026 - 09/26/2026",
    "stats_fetched": "2026-09-26T10:56"
+  },
+  {
+   "team": "Rock Hill 9U Baseball",
+   "location": "Rock Hill, SC",
+   "page_id": null,
+   "url": null,
+   "w": 1,
+   "l": 1,
+   "t": 0,
+   "rs": 18,
+   "ra": 15,
+   "diff": 3,
+   "pct": 0.5,
+   "events": 1,
+   "log": [
+    {
+     "date": "2026-09-26",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Pool Play",
+     "opponent": "Dirtbags Baseball ESB",
+     "rs": 2,
+     "ra": 13,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-26",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Pool Play",
+     "opponent": "BOILING SPRINGS BULLDOGS BASEBALL 8u",
+     "rs": 16,
+     "ra": 2,
+     "result": "W"
+    }
+   ],
+   "points": 0,
+   "titles": 0,
+   "finishes": [],
+   "season": "",
+   "stats_fetched": null
   },
   {
    "team": "Legacy Baseball 9U RED",
@@ -6982,6 +7079,47 @@
      "section": "Pool Play",
      "opponent": "LKN Bolts",
      "rs": 4,
+     "ra": 16,
+     "result": "L"
+    }
+   ],
+   "points": 0,
+   "titles": 0,
+   "finishes": [],
+   "season": "",
+   "stats_fetched": null
+  },
+  {
+   "team": "BOILING SPRINGS BULLDOGS BASEBALL 8u",
+   "location": "Boiling Springs, NC",
+   "page_id": null,
+   "url": null,
+   "w": 1,
+   "l": 1,
+   "t": 0,
+   "rs": 14,
+   "ra": 23,
+   "diff": -9,
+   "pct": 0.5,
+   "events": 1,
+   "log": [
+    {
+     "date": "2026-09-26",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Pool Play",
+     "opponent": "LumberJacks",
+     "rs": 12,
+     "ra": 7,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-26",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Pool Play",
+     "opponent": "Rock Hill 9U Baseball",
+     "rs": 2,
      "ra": 16,
      "result": "L"
     }
@@ -8318,37 +8456,6 @@
    ],
    "season": "08/01/2026 - 09/26/2026",
    "stats_fetched": "2026-09-26T11:00"
-  },
-  {
-   "team": "Rock Hill 9U Baseball",
-   "location": "Rock Hill, SC",
-   "page_id": null,
-   "url": null,
-   "w": 0,
-   "l": 1,
-   "t": 0,
-   "rs": 2,
-   "ra": 13,
-   "diff": -11,
-   "pct": 0.0,
-   "events": 1,
-   "log": [
-    {
-     "date": "2026-09-26",
-     "event_id": 12518,
-     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "section": "Pool Play",
-     "opponent": "Dirtbags Baseball ESB",
-     "rs": 2,
-     "ra": 13,
-     "result": "L"
-    }
-   ],
-   "points": 0,
-   "titles": 0,
-   "finishes": [],
-   "season": "",
-   "stats_fetched": null
   },
   {
    "team": "High Point Hurricanes",
