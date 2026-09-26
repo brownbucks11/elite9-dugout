@@ -582,6 +582,36 @@
     return ` · ${en.count} team${en.count === 1 ? "" : "s"} entered in ${esc(D.division)}${t.entered ? "" : ` · <span class="neg">${esc(D.team)} not on the entry list yet</span>`}`;
   }
 
+  // One of our games on a Tournaments card: result or time, opponent scouting, schedule changes,
+  // and for a bracket slot that isn't decided yet, the teams it could be.
+  function ourGameRow(e, g, changes, nextKey) {
+    const c = (changes || []).find((x) => x.key === gameKey(g));
+    const was = c && c.kind === "changed" ? Object.entries(c.was).map(([k, v]) => k === "field" ? fieldParts(v).name + (fieldParts(v).sub ? " · " + fieldParts(v).sub : "") : v).join(" · ") : "";
+    const opp = g.opponent, tbd = PH.test(opp);
+    let possible = "";
+    if (tbd) {
+      const div = (e.games || []).find((x) => x.section === g.section && x.game === g.game);
+      const side = div && (norm(div.team_a) === ME ? "b" : norm(div.team_b) === ME ? "a" : (PH.test(div.team_a) ? "a" : "b"));
+      const ref = div && div["from_" + side];
+      const src = ref && (e.games || []).find((x) => x.section === g.section && x.game === ref.game);
+      if (src) {
+        const cands = [src.team_a, src.team_b].filter((n) => n && !PH.test(n));
+        if (cands.length) possible = `<div class="when scout">${ref.type === "winner" ? "Winner" : "Loser"} of G${ref.game}: ${cands.map((n) => `${teamBtn(n)}${oppInfo(n) ? ` (${esc(oppInfo(n))})` : ""}`).join(" or ")}</div>`;
+      }
+    }
+    const isNext = nextKey && gameKey(g) === nextKey;
+    const pill = g.result ? `<div class="pill ${g.result}">${g.result}</div>` : `<div class="pill time">${esc(g.day)}</div>`;
+    return `<li class="game ${g.result === "W" ? "won" : ""} ${isNext ? "next" : ""} ${c ? "moved" : ""}">
+      ${pill}
+      <div><div class="opp">${tbd ? esc(opp) : teamBtn(opp)}${isNext ? '<span class="chg-pill next">next</span>' : ""}${c ? `<span class="chg-pill">${c.kind === "added" ? "new" : "changed"}</span>` : ""}</div>
+           <div class="when">${esc(g.day)} ${esc(g.time)} · ${fieldHtml(g.field)} · ${esc(g.section)} G${g.game}</div>
+           ${was ? `<div class="was">was ${esc(was)}</div>` : ""}
+           ${!tbd && oppInfo(opp) ? `<div class="when scout">${esc(oppInfo(opp))}</div>` : ""}${possible}</div>
+      <div class="score">${g.result ? `${g.rs}–${g.ra}` : `<small>${esc(g.time)}</small>`}</div>
+    </li>`;
+  }
+  const sortGames = (list) => list.slice().sort((a, b) => (a.date || "").localeCompare(b.date || "") || clock(a.time) - clock(b.time) || a.game - b.game);
+
   function renderNext() {
     const list = (D.tournaments || []).slice().sort((a, b) => (a.date || "9999").localeCompare(b.date || "9999"));
     if (!list.length) {
@@ -605,9 +635,10 @@
           }
         } else if (e.state === "live") {
           tag = stag("live");
-          const n = e.next_game;
-          body = `<div class="event-body"><p class="pointer">Game day — scores and the bracket are on <button type="button" class="linkish" data-goto="results">Results</button>.
-            ${n ? `<br>Next: <b>vs ${PH.test(n.opponent) ? esc(n.opponent) : teamBtn(n.opponent)}</b> · ${esc(n.day)} ${esc(n.time)} · ${fieldHtml(n.field)}` : ""}</p></div>`;
+          const nextKey = e.next_game ? gameKey(e.next_game) : null;
+          const games = sortGames(e.mine || []);
+          body = `<div class="event-body"><p class="pointer">Game day — brackets, standings and box scores are on <button type="button" class="linkish" data-goto="results" data-event="${e.id}">Results</button>. Our games so far:</p>
+            <ul class="games">${games.map((g) => ourGameRow(e, g, e.changes, nextKey)).join("")}</ul></div>`;
         } else if (!e.posted) {
           body = `<p class="empty">Schedule not posted yet — Top Gun usually posts during the week, then changes it a few times before game day.</p>`;
         } else if (!e.mine.length) {
@@ -618,20 +649,8 @@
           const chg = changes.filter((c) => c.kind === "changed").length, add = changes.filter((c) => c.kind === "added").length, rem = changes.filter((c) => c.kind === "removed");
           meta += ` · schedule v${e.schedule_versions}${e.schedule_updated ? ` · updated ${esc(fmtSeen(e.schedule_updated))}` : ""}` +
             (chg || add || rem.length ? ` · <b class="chg">${[chg && `${chg} game${chg > 1 ? "s" : ""} moved`, add && `${add} added`, rem.length && `${rem.length} removed`].filter(Boolean).join(", ")}</b>` : "");
-          const games = e.mine.slice().sort((a, b) => (a.date || "").localeCompare(b.date || "") || clock(a.time) - clock(b.time) || a.game - b.game);
-          body = `<div class="event-body"><ul class="games">` + games.map((g) => {
-            const c = changes.find((x) => x.key === gameKey(g));
-            const was = c && c.kind === "changed" ? Object.entries(c.was).map(([k, v]) => k === "field" ? fieldParts(v).name + (fieldParts(v).sub ? " · " + fieldParts(v).sub : "") : v).join(" · ") : "";
-            const opp = g.opponent, tbd = PH.test(opp);
-            return `<li class="game ${c ? "moved" : ""}">
-              <div class="pill time">${esc(g.day)}</div>
-              <div><div class="opp">${tbd ? esc(opp) : teamBtn(opp)}${c ? `<span class="chg-pill">${c.kind === "added" ? "new" : "changed"}</span>` : ""}</div>
-                   <div class="when">${esc(g.day)} ${esc(g.time)} · ${fieldHtml(g.field)} · ${esc(g.section)} G${g.game}</div>
-                   ${was ? `<div class="was">was ${esc(was)}</div>` : ""}
-                   ${!tbd && oppInfo(opp) ? `<div class="when scout">${esc(oppInfo(opp))}</div>` : ""}</div>
-              <div class="score"><small>${esc(g.time)}</small></div>
-            </li>`;
-          }).join("") + rem.map((c) => `<li class="game removed"><div class="pill time">${esc(c.was.day)}</div><div><div class="opp">${esc(c.was.opponent)}<span class="chg-pill">removed</span></div><div class="when">${esc(c.was.day)} ${esc(c.was.time)} · ${fieldHtml(c.was.field)}</div></div><div class="score"></div></li>`).join("") + `</ul></div>`;
+          const games = sortGames(e.mine);
+          body = `<div class="event-body"><ul class="games">` + games.map((g) => ourGameRow(e, g, changes, null)).join("") + rem.map((c) => `<li class="game removed"><div class="pill time">${esc(c.was.day)}</div><div><div class="opp">${esc(c.was.opponent)}<span class="chg-pill">removed</span></div><div class="when">${esc(c.was.day)} ${esc(c.was.time)} · ${fieldHtml(c.was.field)}</div></div><div class="score"></div></li>`).join("") + `</ul></div>`;
         }
         return `<article class="event ${e.state}" id="tournament-${e.id}">
           <div class="event-head">${datebox(e.date)}
