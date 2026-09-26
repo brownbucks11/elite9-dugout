@@ -322,20 +322,20 @@
           "seed": 2,
           "team": "Carolina Trash Pandas",
           "location": "Locust, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 7,
+          "runs_scored": 8,
           "team_page_id": null
         },
         {
           "seed": 3,
           "team": "Carolina Firebirds-Red",
           "location": "Winston Salem, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 3,
+          "runs_scored": 16,
           "team_page_id": null
         },
         {
@@ -413,8 +413,8 @@
           "team": "PeeDee Mudcats",
           "location": "Wadesboro, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
+          "lost": 1,
+          "runs_allowed": 13,
           "runs_scored": 0,
           "team_page_id": null
         },
@@ -422,10 +422,10 @@
           "seed": 12,
           "team": "South Park Red Raiders",
           "location": "Charlotte, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
           "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_scored": 13,
           "team_page_id": null
         },
         {
@@ -433,9 +433,9 @@
           "team": "Legacy Baseball 9U - WHITE",
           "location": "Fort Mill, SC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 16,
+          "runs_scored": 3,
           "team_page_id": null
         },
         {
@@ -493,9 +493,9 @@
           "team": "Carolina Forge 9U",
           "location": "Gastonia, NC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 18,
-          "runs_scored": 1,
+          "lost": 2,
+          "runs_allowed": 26,
+          "runs_scored": 8,
           "team_page_id": null
         }
       ],
@@ -604,10 +604,10 @@
             "field": "Poston:Field # 1",
             "team_a": "PeeDee Mudcats",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 0,
             "team_b": "South Park Red Raiders",
             "seed_b": null,
-            "score_b": null
+            "score_b": 13
           },
           {
             "game": 10,
@@ -616,10 +616,10 @@
             "field": "Poston:Field # 2",
             "team_a": "Legacy Baseball 9U - WHITE",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 3,
             "team_b": "Carolina Firebirds-Red",
             "seed_b": null,
-            "score_b": null
+            "score_b": 16
           },
           {
             "game": 11,
@@ -628,10 +628,10 @@
             "field": "Poston:Field # 4",
             "team_a": "Carolina Trash Pandas",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 8,
             "team_b": "Carolina Forge 9U",
             "seed_b": null,
-            "score_b": null
+            "score_b": 7
           },
           {
             "game": 12,
@@ -1017,10 +1017,10 @@
           "seed": 5,
           "team": "RBA 10U-Pruett",
           "location": "Rutherfordton, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 8,
+          "runs_scored": 10,
           "team_page_id": null
         },
         {
@@ -1068,9 +1068,9 @@
           "team": "LKN Kingdom",
           "location": "Charlotte, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 10,
+          "runs_scored": 8,
           "team_page_id": null
         },
         {
@@ -1289,10 +1289,10 @@
             "field": "SP:Field #1",
             "team_a": "RBA 10U-Pruett",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 10,
             "team_b": "LKN Kingdom",
             "seed_b": null,
-            "score_b": null
+            "score_b": 8
           },
           {
             "game": 10,
@@ -1754,8 +1754,8 @@
           "location": "Matthews, NC",
           "won": 0,
           "lost": 1,
-          "runs_allowed": 9,
-          "runs_scored": 6,
+          "runs_allowed": 17,
+          "runs_scored": 14,
           "team_page_id": null
         },
         {
@@ -1814,8 +1814,8 @@
           "location": "Pineville, NC",
           "won": 0,
           "lost": 1,
-          "runs_allowed": 6,
-          "runs_scored": 1,
+          "runs_allowed": 14,
+          "runs_scored": 9,
           "team_page_id": null
         },
         {
@@ -1954,10 +1954,10 @@
             "field": "Westmoreld:Field 3",
             "team_a": "Dirtbags 11u Hagen",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 8,
             "team_b": "Mara Select",
             "seed_b": null,
-            "score_b": null
+            "score_b": 8
           },
           {
             "game": 10,
@@ -2781,10 +2781,10 @@
           "seed": 1,
           "team": "SC Tide Abbott",
           "location": "Clover, SC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
-          "runs_allowed": 1,
-          "runs_scored": 5,
+          "runs_allowed": 4,
+          "runs_scored": 10,
           "team_page_id": null
         },
         {
@@ -2892,9 +2892,9 @@
           "team": "KLSC Tomahawks",
           "location": "Belmont, NC",
           "won": 1,
-          "lost": 0,
-          "runs_allowed": 2,
-          "runs_scored": 14,
+          "lost": 1,
+          "runs_allowed": 7,
+          "runs_scored": 17,
           "team_page_id": null
         },
         {
@@ -2977,10 +2977,10 @@
             "field": "SP:Field #2",
             "team_a": "KLSC Tomahawks",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 3,
             "team_b": "SC Tide Abbott",
             "seed_b": null,
-            "score_b": null
+            "score_b": 5
           },
           {
             "game": 7,
@@ -3560,8 +3560,8 @@
           "team": "Carolina Rebels",
           "location": "Pageland, SC",
           "won": 1,
-          "lost": 0,
-          "runs_allowed": 3,
+          "lost": 1,
+          "runs_allowed": 20,
           "runs_scored": 4,
           "team_page_id": null
         },
@@ -3609,10 +3609,10 @@
           "seed": 6,
           "team": "WNC Phantom Elite",
           "location": "Taylorsville, NC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
           "runs_allowed": 2,
-          "runs_scored": 3,
+          "runs_scored": 20,
           "team_page_id": null
         }
       ],
@@ -3649,10 +3649,10 @@
             "field": "FDP:Field #2",
             "team_a": "WNC Phantom Elite",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 17,
             "team_b": "Carolina Rebels",
             "seed_b": null,
-            "score_b": null
+            "score_b": 0
           },
           {
             "game": 4,
@@ -3758,5 +3758,5 @@
   },
   "site_last_updated": "09/24/2026 1:31 PM",
   "tournament_id": 12518,
-  "fetched_at": "2026-09-26T13:44"
+  "fetched_at": "2026-09-26T14:23"
 }
