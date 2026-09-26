@@ -1,5 +1,5 @@
 # Elite 9 - Top Gun schedule
-_Updated Sat Sep 26, 2026 02:24 PM_
+_Updated Sat Sep 26, 2026 02:58 PM_
 
 ## SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND
 September 26 - 27 in Greater Charlotte Area, NC  
@@ -28,12 +28,12 @@ Tournament 12518 - [schedule page](https://playtopgunsports.com/GameTimesResults
 | 7 | Lake Wylie Venom | Lake Wylie, SC | 1-0 | 12 | 11 |
 | 8 | SC Tide - Lucariello | Clover, SC | 0-0 | 0 | 0 |
 | 9 | LumberJacks | Gaston County, NC | 0-1 | 7 | 13 |
-| 10 | Rock Hill 9U Baseball | Rock Hill, SC | 0-0 | 0 | 0 |
+| 10 | Rock Hill 9U Baseball | Rock Hill, SC | 0-1 | 2 | 13 |
 | 11 | PeeDee Mudcats | Wadesboro, NC | 0-1 | 0 | 13 |
 | 12 | South Park Red Raiders | Charlotte, NC | 1-0 | 13 | 0 |
 | 13 | Legacy Baseball 9U - WHITE | Fort Mill, SC | 0-1 | 3 | 16 |
 | 14 | Red Clay Athletics 9U Darcangelo | Charlotte, NC | 1-1 | 29 | 13 |
-| 15 | Dirtbags Baseball ESB | Lincolnton, NC | 0-1 | 1 | 13 |
+| 15 | Dirtbags Baseball ESB | Lincolnton, NC | 1-1 | 14 | 15 |
 | 16 | BOILING SPRINGS BULLDOGS BASEBALL 8u | Boiling Springs, NC | 0-0 | 0 | 0 |
 | 17 | LKN Kingdom | Charlotte, NC | 0-2 | 15 | 26 |
 | 18 | Carolina Royals 9Uw | Gastonia, NC | 1-1 | 18 | 24 |

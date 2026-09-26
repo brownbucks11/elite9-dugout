@@ -62,9 +62,9 @@
           "team": "NC Made 8U Blue",
           "location": "Mocksville, NC",
           "won": 1,
-          "lost": 0,
-          "runs_allowed": 15,
-          "runs_scored": 19,
+          "lost": 1,
+          "runs_allowed": 30,
+          "runs_scored": 25,
           "team_page_id": null
         },
         {
@@ -82,8 +82,8 @@
           "team": "Carolina Regulators/New Balance",
           "location": "Stanley, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
+          "lost": 1,
+          "runs_allowed": 12,
           "runs_scored": 0,
           "team_page_id": null
         },
@@ -111,20 +111,20 @@
           "seed": 6,
           "team": "Waxhaw Militia",
           "location": "Waxhaw, NC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
-          "runs_allowed": 6,
-          "runs_scored": 20,
+          "runs_allowed": 12,
+          "runs_scored": 35,
           "team_page_id": null
         },
         {
           "seed": 7,
           "team": "South Park Redbirds",
           "location": "Charlotte, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
           "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_scored": 12,
           "team_page_id": null
         }
       ],
@@ -173,10 +173,10 @@
             "field": "Westmoreld:Field 4",
             "team_a": "NC Made 8U Blue",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 6,
             "team_b": "Waxhaw Militia",
             "seed_b": null,
-            "score_b": null
+            "score_b": 15
           },
           {
             "game": 5,
@@ -185,10 +185,10 @@
             "field": "M. Rivers:Martha Rivers 4",
             "team_a": "South Park Redbirds",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 12,
             "team_b": "Carolina Regulators/New Balance",
             "seed_b": null,
-            "score_b": null
+            "score_b": 0
           },
           {
             "game": 6,
@@ -403,9 +403,9 @@
           "team": "Rock Hill 9U Baseball",
           "location": "Rock Hill, SC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 13,
+          "runs_scored": 2,
           "team_page_id": null
         },
         {
@@ -452,10 +452,10 @@
           "seed": 15,
           "team": "Dirtbags Baseball ESB",
           "location": "Lincolnton, NC",
-          "won": 0,
+          "won": 1,
           "lost": 1,
-          "runs_allowed": 13,
-          "runs_scored": 1,
+          "runs_allowed": 15,
+          "runs_scored": 14,
           "team_page_id": null
         },
         {
@@ -640,10 +640,10 @@
             "field": "Shelby:Field # 1",
             "team_a": "Dirtbags Baseball ESB",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 13,
             "team_b": "Rock Hill 9U Baseball",
             "seed_b": null,
-            "score_b": null
+            "score_b": 2
           },
           {
             "game": 13,
@@ -1037,10 +1037,10 @@
           "seed": 7,
           "team": "Mill Town 9u Trosky",
           "location": "Fort Mill, SC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 1,
+          "runs_scored": 15,
           "team_page_id": null
         },
         {
@@ -1048,9 +1048,9 @@
           "team": "Rowan Titans",
           "location": "China Grove, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 15,
+          "runs_scored": 1,
           "team_page_id": null
         },
         {
@@ -1117,10 +1117,10 @@
           "seed": 15,
           "team": "Carolina Hit Stix",
           "location": "Richburg, SC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 3,
+          "runs_scored": 4,
           "team_page_id": null
         },
         {
@@ -1128,9 +1128,9 @@
           "team": "ITAA Spartans 10U",
           "location": "Indian Trail, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 4,
+          "runs_scored": 3,
           "team_page_id": null
         },
         {
@@ -1313,10 +1313,10 @@
             "field": "Tuckasee:Tuckaseegee 2",
             "team_a": "Mill Town 9u Trosky",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 15,
             "team_b": "Rowan Titans",
             "seed_b": null,
-            "score_b": null
+            "score_b": 1
           },
           {
             "game": 12,
@@ -1325,10 +1325,10 @@
             "field": "Tuckasee:Tuckaseegee 3",
             "team_a": "Carolina Hit Stix",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 4,
             "team_b": "ITAA Spartans 10U",
             "seed_b": null,
-            "score_b": null
+            "score_b": 3
           },
           {
             "game": 13,
@@ -1733,19 +1733,19 @@
           "team": "Pro-Fit Spartans (Almond)",
           "location": "Oakboro, NC",
           "won": 1,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 17,
+          "lost": 1,
+          "runs_allowed": 12,
+          "runs_scored": 26,
           "team_page_id": null
         },
         {
           "seed": 3,
           "team": "Fury Baseball",
           "location": "Forest City, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 10,
-          "runs_scored": 10,
+          "runs_allowed": 18,
+          "runs_scored": 20,
           "team_page_id": null
         },
         {
@@ -1782,10 +1782,10 @@
           "seed": 7,
           "team": "11u Mission Baseball",
           "location": "Waxhaw, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 7,
-          "runs_scored": 7,
+          "runs_allowed": 16,
+          "runs_scored": 19,
           "team_page_id": null
         },
         {
@@ -1803,9 +1803,9 @@
           "team": "Banana Peppers Baseball 11u",
           "location": "Gastonia, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 11,
-          "runs_scored": 11,
+          "lost": 1,
+          "runs_allowed": 21,
+          "runs_scored": 19,
           "team_page_id": null
         },
         {
@@ -1930,10 +1930,10 @@
             "field": "Shelby:Field # 3",
             "team_a": "Fury Baseball",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 10,
             "team_b": "Banana Peppers Baseball 11u",
             "seed_b": null,
-            "score_b": null
+            "score_b": 8
           },
           {
             "game": 8,
@@ -1942,10 +1942,10 @@
             "field": "Westmoreld:Field 2",
             "team_a": "11u Mission Baseball",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 12,
             "team_b": "Pro-Fit Spartans (Almond)",
             "seed_b": null,
-            "score_b": null
+            "score_b": 9
           },
           {
             "game": 9,
@@ -2192,19 +2192,19 @@
           "team": "Carolina Wombats- 12U",
           "location": "Waxhaw, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 18,
+          "runs_scored": 4,
           "team_page_id": null
         },
         {
           "seed": 2,
           "team": "Fury Baseball",
           "location": "Forest City, NC",
-          "won": 0,
+          "won": 1,
           "lost": 1,
-          "runs_allowed": 11,
-          "runs_scored": 8,
+          "runs_allowed": 15,
+          "runs_scored": 26,
           "team_page_id": null
         },
         {
@@ -2252,9 +2252,9 @@
           "team": "Carolina Locos-Black",
           "location": "Waxhaw, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 11,
+          "runs_scored": 3,
           "team_page_id": null
         },
         {
@@ -2292,29 +2292,29 @@
           "team": "BS BULLDOGS BlACK 12u",
           "location": "BOILING SPRINGS, NC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 5,
-          "runs_scored": 4,
+          "lost": 2,
+          "runs_allowed": 15,
+          "runs_scored": 11,
           "team_page_id": null
         },
         {
           "seed": 7,
           "team": "Athletes Lab White 11U",
           "location": "Maiden, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 7,
+          "runs_scored": 10,
           "team_page_id": null
         },
         {
           "seed": 8,
           "team": "CBB Baseball Blue",
           "location": "Waxhaw, NC",
-          "won": 0,
+          "won": 1,
           "lost": 1,
-          "runs_allowed": 15,
-          "runs_scored": 3,
+          "runs_allowed": 18,
+          "runs_scored": 14,
           "team_page_id": null
         }
       ],
@@ -2375,10 +2375,10 @@
             "field": "M. Rivers:Martha Rivers 2",
             "team_a": "CBB Baseball Blue",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 11,
             "team_b": "Carolina Locos-Black",
             "seed_b": null,
-            "score_b": null
+            "score_b": 3
           },
           {
             "game": 6,
@@ -2387,10 +2387,10 @@
             "field": "Shelby:Field # 2",
             "team_a": "BS BULLDOGS BlACK 12u",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 7,
             "team_b": "Athletes Lab White 11U",
             "seed_b": null,
-            "score_b": null
+            "score_b": 10
           },
           {
             "game": 7,
@@ -2841,10 +2841,10 @@
           "seed": 7,
           "team": "P413 2031",
           "location": "Mocksville, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 3,
+          "runs_scored": 6,
           "team_page_id": null
         },
         {
@@ -2882,9 +2882,9 @@
           "team": "Toxic NC",
           "location": "Startown, NC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 13,
-          "runs_scored": 2,
+          "lost": 2,
+          "runs_allowed": 19,
+          "runs_scored": 5,
           "team_page_id": null
         },
         {
@@ -2965,10 +2965,10 @@
             "field": "CA:Field #1",
             "team_a": "Toxic NC",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 3,
             "team_b": "P413 2031",
             "seed_b": null,
-            "score_b": null
+            "score_b": 6
           },
           {
             "game": 6,
@@ -3758,5 +3758,5 @@
   },
   "site_last_updated": "09/24/2026 1:31 PM",
   "tournament_id": 12518,
-  "fetched_at": "2026-09-26T14:23"
+  "fetched_at": "2026-09-26T14:57"
 }
