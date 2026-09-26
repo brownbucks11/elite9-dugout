@@ -1,5 +1,5 @@
 # Elite 9 - Top Gun schedule
-_Updated Sat Sep 26, 2026 04:11 PM_
+_Updated Sat Sep 26, 2026 05:53 PM_
 
 ## SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND
 September 26 - 27 in Greater Charlotte Area, NC  
@@ -24,17 +24,17 @@ Tournament 12518 - [schedule page](https://playtopgunsports.com/GameTimesResults
 | 3 | Carolina Firebirds-Red | Winston Salem, NC | 1-0 | 16 | 3 |
 | 4 | LKN Bolts | Huntersville, NC | 2-0 | 24 | 7 |
 | 5 | Elite 9 **<--** | Rock Hill, SC | 1-1 | 15 | 15 |
-| 6 | Team 24 | York, SC | 0-0 | 0 | 0 |
+| 6 | Team 24 | York, SC | 1-0 | 18 | 6 |
 | 7 | Lake Wylie Venom | Lake Wylie, SC | 2-0 | 26 | 14 |
-| 8 | SC Tide - Lucariello | Clover, SC | 0-1 | 5 | 13 |
-| 9 | LumberJacks | Gaston County, NC | 0-1 | 7 | 13 |
+| 8 | SC Tide - Lucariello | Clover, SC | 0-2 | 5 | 32 |
+| 9 | LumberJacks | Gaston County, NC | 0-2 | 14 | 25 |
 | 10 | Rock Hill 9U Baseball | Rock Hill, SC | 0-1 | 2 | 13 |
 | 11 | PeeDee Mudcats | Wadesboro, NC | 1-1 | 13 | 18 |
-| 12 | South Park Red Raiders | Charlotte, NC | 1-0 | 13 | 0 |
-| 13 | Legacy Baseball 9U - WHITE | Fort Mill, SC | 0-1 | 3 | 16 |
+| 12 | South Park Red Raiders | Charlotte, NC | 2-0 | 32 | 0 |
+| 13 | Legacy Baseball 9U - WHITE | Fort Mill, SC | 0-2 | 9 | 34 |
 | 14 | Red Clay Athletics 9U Darcangelo | Charlotte, NC | 1-1 | 29 | 13 |
 | 15 | Dirtbags Baseball ESB | Lincolnton, NC | 1-1 | 14 | 15 |
-| 16 | BOILING SPRINGS BULLDOGS BASEBALL 8u | Boiling Springs, NC | 0-0 | 0 | 0 |
+| 16 | BOILING SPRINGS BULLDOGS BASEBALL 8u | Boiling Springs, NC | 1-0 | 12 | 7 |
 | 17 | LKN Kingdom | Charlotte, NC | 0-2 | 15 | 26 |
 | 18 | Carolina Royals 9Uw | Gastonia, NC | 1-1 | 18 | 24 |
 | 19 | Carolina Forge 9U | Gastonia, NC | 0-2 | 8 | 26 |
