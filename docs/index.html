@@ -129,6 +129,8 @@
   table.box .jersey { display: inline-block; min-width: 22px; margin-right: 6px; font-family: var(--display); font-weight: 700; color: var(--ink-2); text-align: right; }
   table.box tr.tot td { border-top: 2px solid var(--line); }
 
+  .group-label { font-family: var(--body); font-size: 11px; font-weight: 600; letter-spacing: 1.5px; text-transform: uppercase; color: var(--ink-2); margin: 6px 0 -8px; }
+
   /* Director notices */
   .notices { display: grid; gap: 8px; padding: 10px 16px 4px; }
   .notice-w { background: var(--loss-bg); border-left: 4px solid var(--loss); border-radius: 4px; padding: 8px 12px; font-size: 14px; }
@@ -628,8 +630,15 @@
     }
     const nextIdx = list.findIndex((e) => e.state !== "live" && e.state !== "final" && (!e.date || iso(e.date) >= today));
     const nDone = list.filter((e) => e.state === "final").length;
+    // order: the live event (or the next one) on top, then previous events newest first, then the rest coming up
+    const featured = list.find((e) => e.state === "live") || (nextIdx >= 0 ? list[nextIdx] : null);
+    const previous = list.filter((e) => e !== featured && e.state === "final").reverse();
+    const coming = list.filter((e) => e !== featured && e.state !== "final");
+    const groups = [["", featured ? [featured] : []], ["Previous", previous], ["Coming up", coming]];
+    const ordered = groups.flatMap(([label, items]) => items.map((e, j) => [e, j === 0 ? label : ""]));
     $("#panel-tournaments").innerHTML = `<h2 class="section-title">Tournaments <span class="sub">${list.length} this season · ${nDone} played · schedules are subject to change until game day — the coach's TeamReach post is final</span></h2>` +
-      list.map((e, i) => {
+      ordered.map(([e, label]) => {
+        const i = list.indexOf(e);
         let body = "", tag = "", meta = esc(e.dates);
         if (e.state === "final") {
           const s = e.summary;
@@ -660,7 +669,7 @@
           const games = sortGames(e.mine);
           body = `<div class="event-body"><ul class="games">` + games.map((g) => ourGameRow(e, g, changes, null)).join("") + rem.map((c) => `<li class="game removed"><div class="pill time">${esc(c.was.day)}</div><div><div class="opp">${esc(c.was.opponent)}<span class="chg-pill">removed</span></div><div class="when">${esc(c.was.day)} ${esc(c.was.time)} · ${fieldHtml(c.was.field)}</div></div><div class="score"></div></li>`).join("") + `</ul></div>`;
         }
-        return `<article class="event ${e.state}" id="tournament-${e.id}">
+        return `${label ? `<h3 class="group-label">${label}</h3>` : ""}<article class="event ${e.state}" id="tournament-${e.id}">
           <div class="event-head">${datebox(e.date)}
             <div><h3>${esc(tidy(e.name))}${i === nextIdx ? '<span class="next-badge">Next</span>' : ""} ${tag}${e.state === "final" ? "" : regTag(e)}</h3>
                  <div class="event-meta">${meta}${e.standings.length ? ` · ${e.standings.length} teams` : ""}${e.state === "final" ? "" : regMeta(e)}</div></div>
