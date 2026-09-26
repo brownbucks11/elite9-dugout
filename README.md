@@ -1,112 +1,137 @@
-# Baseball workspace
+# Elite 9 Dugout
 
-Elite 9 (9U, Fall 2026) - Top Gun tournament tracking.
+Elite 9 (9U, Fall 2026, Rock Hill SC) — a parent-facing site for the Top Gun season.
+
+- **Live site:** https://brownbucks11.github.io/elite9-dugout/
+- **Repo:** https://github.com/brownbucks11/elite9-dugout (GitHub Pages serves `docs/`)
+- Tabs: Tournaments · Results · Roster · Teams · Fields. Unlisted stats page: `…/#stats`.
+
+Scores, schedules and brackets come from Top Gun's public sites; a GitHub Actions bot refreshes
+them on a schedule. Box scores and player stats come from GameChanger and are pulled by you from
+your own PC (see below).
+
+---
+
+## Routines
+
+### Nothing to do most of the time
+The bot (`.github/workflows/refresh.yml`) refreshes scores and rebuilds the site by itself:
+- 7 AM, 1 PM, 7 PM Eastern every day (7 AM also refreshes every team's Top Gun points/finishes)
+- hourly Thursday–Sunday
+- **every 10 minutes on game day** (only while one of our tournaments is live)
+- Monday and Thursday 8:30 AM it also discovers new Charlotte-area events for the Teams table
+- on demand: GitHub → Actions → "Refresh scores and rebuild site" → Run workflow
+
+### After a weekend: GameChanger stats (one click)
+Double-click **`update_gc.cmd`**. It opens the GameChanger Chrome window if it isn't running,
+reads new box scores and the season tables, and commits + pushes only if something changed.
+The first time, sign in to web.gc.com in that Chrome window when it appears (it stays signed in).
+
+Same thing by hand:
+```
+start_gc_chrome.cmd
+python gc_stats.py --cdp
+git add data/gc
+git commit -m "GC stats"
+git push
+```
+
+### A new tournament is booked
+Add it to `upcoming.json` (Top Gun ID + dates + a short name), then:
+```
+git add upcoming.json
+git commit -m "Add Oct 31 tournament"
+git push
+```
+When the coach posts the final schedule, add `"official": true` to that event and push again —
+the card flips from "Tentative" to "Official (per coach)".
+
+### Roster change
+Numbers and nicknames live in `roster.json`; players and their status come from Top Gun's Players
+page automatically (7 AM run). `name_style` is `"initial"` (Lane S.) or `"full"`.
+```
+git add roster.json
+git commit -m "Roster update"
+git push
+```
+
+### Preview a change locally
+```
+python build_site.py                    # rebuild docs/data.js from data/
+python build_site.py --today 2026-09-26 # see the page as of another date (live/scheduled states)
+```
+Then open `docs/index.html`. **Don't commit the generated files** (`docs/data.*`, `data/`,
+`docs/ics/`, `elite9_schedule.md`) — the bot owns them and two fetches never match byte for byte.
+Restore them before committing code:
+```
+git checkout -- docs/data.js docs/data.json data/schedules docs/ics
+git add *.py docs/index.html upcoming.json roster.json
+git commit -m "..."
+git pull --rebase
+git push
+```
+
+---
+
+## First-time setup (Windows)
+```
+pip install -r requirements.txt
+python -m playwright install chromium
+```
+Google Chrome must be installed for the GameChanger reader (`start_gc_chrome.cmd`).
+
+---
+
+## Scripts
+
+| Script | What it does |
+|---|---|
+| `refresh.py` | The bot's job: fetch the pages that can still change, then rebuild. `--teams` also refreshes team points/finishes; `--discover` sweeps Top Gun's list for area events; `--no-fetch` just rebuilds. |
+| `build_site.py` | Turns everything in `data/` into `docs/data.js` for the page. `--today YYYY-MM-DD` previews another date. |
+| `gc_stats.py` | GameChanger reader (local only). `--cdp` attaches to the Chrome from `start_gc_chrome.cmd`; `--refresh` re-reads saved games; `--games-only` / `--season-only`; `--rebuild` rebuilds `data/gc/games.json` from the raw captures without fetching. |
+| `update_gc.cmd` | One-click: Chrome window → `gc_stats.py --cdp` → commit + push if changed. |
+| `start_gc_chrome.cmd` | Opens the separate Chrome window (profile in `local\chrome-gc`, gitignored) that the reader attaches to. |
+| `gameday.py` | Prints `yes`/`no`: is one of our tournaments live today? Gates the 10-minute cron. |
+| `topgun_fetch.py` | Fetches Top Gun schedule pages by ID into `data/` (`--ids 12518`, or `--from/--to/--city` to discover). |
+| `topgun_teams.py` | Each team's Top Gun statistics page → `data/teams/<id>.json` (points, finishes). |
+| `topgun_roster.py` | Our Top Gun Players page → `data/teams/<id>_players.json`. |
+| `topgun_parse.py` | Parser for saved Top Gun schedule pages (stdlib only). |
+| `topgun_records.py`, `topgun_opponents.py`, `topgun_snapshot.py` | Earlier command-line tools; still work, not used by the site. |
+
+## Data files
+
+| File / folder | Owner | Notes |
+|---|---|---|
+| `upcoming.json` | you | the season's tournaments (ID, dates, name, optional `"official": true`) |
+| `roster.json` | you | jersey numbers, nicknames, `name_style` |
+| `fields.json` (optional) | you | address overrides for a complex Top Gun leaves blank |
+| `data/*.html`, `data/*.json` | bot | saved Top Gun schedule pages, re-parsed on every build |
+| `data/teams/` | bot | team stats pages (JSON committed; HTML ignored) |
+| `data/schedules/` | bot | every version of our schedule per event (change tracking) |
+| `data/tracked.json` | bot | events found by discovery; `skip: true` = no 9U bracket |
+| `data/tgs/`, `data/entries/` | bot | topgunstats.com: director notices; entry counts + our registration |
+| `data/gc/` | you (via `update_gc.cmd`) | GameChanger games and season tables |
+| `docs/` | bot (site) | `index.html` is the page (yours); `data.js`, `ics/` are generated |
+| `local/` | you, gitignored | Chrome profiles, raw GameChanger captures, anything private |
+| `rules/` | reference | Top Gun rules PDFs (the tie-breaker rule drives pool rankings) |
 
 ## How the sites fit together
-- topgunstats.com/tournaments?sport=1 ......... tournament list (loads JSON from /api/queries/tournaments/tournament-data)
-- topgunstats.com/whos-playing/<ID> ........... entries per division, live (JSON: /api/public/tournaments/<ID>/whos-playing?api_key=secret);
-                                                 refresh.py --entries saves them to data/entries/ (parked: not shown on the page). No schedules/scores on this site.
-- playtopgunsports.com/GameTimesResults.aspx?trnid=<ID> ... the actual schedule, scores, standings, brackets
-- The <ID> is TournamentID from the list. Known fall 2026 Charlotte-area IDs:
-    12518  Sep 26-27   Charlotte      Spiderman vs Hulk ring weekend
-    12521  Oct 17-18   Charlotte      Triple points Super Regional
-    12522  Oct 24-25   Charlotte      Southeastern Winter World Series
-    12524  Nov 7-8     Charlotte      Road Runner vs Coyote ring weekend
-    12517  Sep 19-20   Charlotte      (done) Super NIT weekend
-    13600  Sep 11      Monroe         (done) Friday Night GOAT Series 9U
-  (per coach's Aug 16 post; upcoming.json is the live list)
+- `topgunstats.com/tournaments?sport=1` — tournament list, director weather/general notices, "Who's Playing" entry counts (JSON API)
+- `playtopgunsports.com/GameTimesResults.aspx?trnid=<ID>` — schedules, scores, standings, brackets (HTML, scraped)
+- `playtopgunsports.com/TeamPage/…` — each team's points and finishes; our roster
+- `web.gc.com` — GameChanger box scores and season stats (signed-in Chrome, JSON captured)
 
-## Files
-- topgun_fetch.py    - MAIN: fetch schedule pages by ID, parse, write elite9_schedule.md
-- topgun_parse.py    - parser (stdlib only); also usable alone on a saved .html
-- topgun_snapshot.py - manual browse-and-save tool (first version; still handy for team pages)
-- topgun_teams.py    - each team's Top Gun statistics page -> data/teams/<id>.json (points, finishes)
-- topgun_roster.py   - our Players page -> data/teams/<id>_players.json (active players, season stats)
-- roster.json        - jersey numbers + nicknames (hand-maintained); name_style: full | initial
-- gc_stats.py        - LOCAL ONLY: reads our GameChanger season stats (web.gc.com, logged in as you)
-                       into data/gc/stats.json; login kept in local/gc-profile/, never on the bot
-- data/              - <ID>.html + <ID>.json per tournament, overwritten each run
-- elite9_schedule.md - the summary Claude reads
-- topgun_out/        - output from the manual snapshot tool
+Top Gun's standings table is in entry order, not rank order; the page ranks pool play with Top
+Gun's own tie-breaker (record → head-to-head for two-way ties → runs allowed → runs scored →
+last-game run differential → coin flip), verified against the bracket seeds Top Gun prints.
 
-## First-time setup (Windows, in this folder)
-    pip install -r requirements.txt
-    python -m playwright install chromium
+## Event states
+announced (no schedule yet) → scheduled (tentative; every change Top Gun makes is recorded and
+shown on the card) → live (game day: Results, tagged LIVE, next game highlighted) → final (stays on
+Tournaments with its finish, linking to Results). A `.ics` calendar of our games is written for
+scheduled and live events.
 
-## Weekly run
-    python topgun_fetch.py --ids 12518
-    python topgun_fetch.py --ids 12518 12521 12522 12524 --show
-Add --visible to watch the browser. Team defaults to "Elite 9" (--team to change).
-
-## Web page (docs/)
-`docs/index.html` is a static page for parents: Tournaments (the whole season, each event in
-its current state), Results, Roster, Teams (all 9U teams, tap one for its game log), Fields (with
-map links). It reads `docs/data.js`, which is built
-from the saved pages in `data/`:
-
-    python build_site.py            # rebuild docs/data.js from data/ (events since Aug 1, Top Gun's season)
-    python refresh.py               # re-fetch upcoming + in-progress events, then rebuild
-    python refresh.py --teams       # also refresh every team's statistics page (points, finishes)
-
-Double-click `docs/index.html` to preview locally. `upcoming.json` is the list of events
-shown under Tournaments - add a tournament ID + dates there when a new one is booked. Add
-`"official": true` to an event once the coach posts the final schedule and its card flips from
-"Tentative" to "Official (per coach)".
-
-Each event moves through four states: announced (no schedule yet) -> scheduled (Tournaments;
-tentative, with every change Top Gun makes recorded in `data/schedules/<id>.json` and shown on
-the card) -> live (game day: Results, tagged LIVE, next game highlighted) -> final (stays on Tournaments
-with its finish, linking to Results).
-A `.ics` calendar file of our games is written to `docs/ics/<id>.ics` for scheduled and live
-events. `python build_site.py --today 2026-09-26` previews the page as of another date.
-
-## GameChanger stats (unlisted #stats page)
-GameChanger's sign-in refuses automated browsers, so the reader attaches to a real Chrome window
-that you sign into yourself. Nothing here runs on the GitHub bot; your login never leaves your PC.
-
-After each weekend:
-    1. Double-click start_gc_chrome.cmd   (opens a separate Chrome window; sign in to web.gc.com
-       the first time - it stays signed in; profile lives in local\chrome-gc, gitignored)
-    2. python gc_stats.py --cdp            (reads the schedule + every new box score and the season
-       tables into data/gc/; add --refresh to re-read games GameChanger may have corrected)
-    3. git add data/gc && git commit -m "GC stats" && git push
-
-The site rebuilds and the data shows on https://brownbucks11.github.io/elite9-dugout/#stats -
-season tables, every box score (our players as first name + last initial, opponents as totals),
-and a check of box-score sums against GameChanger's season totals. That page is not linked from
-the tabs. Useful flags: --games-only, --season-only, --rebuild (rebuild data/gc/games.json from the
-raw captures in local/gc/ without fetching). If it says it cannot attach on port 9222, the Chrome
-window from the shortcut is not running.
-
-## Hosting on GitHub Pages
-1. Push this folder to a GitHub repo (public is simplest; Actions minutes are free there).
-2. Repo Settings -> Pages -> Source: "Deploy from a branch", branch `main`, folder `/docs`.
-3. The page is live at `https://<user>.github.io/<repo>/` within a minute or two.
-
-## Automatic refresh (.github/workflows/refresh.yml)
-GitHub Actions runs `refresh.py` and commits the results, so the page updates itself:
-- three times a day (7 AM, 1 PM, 7 PM Eastern); the 7 AM run also refreshes every team's
-  statistics page for the Standings points/finishes columns
-- hourly Thursday through Sunday
-- every 10 minutes on game day (a 10-minute cron runs Fri-Sun; `gameday.py` checks the committed
-  data first and the run exits in seconds unless one of our tournaments is live that day). Quiet
-  ticks that change nothing make no commit. GitHub can start scheduled runs a few minutes late,
-  so expect a new score within 10-15 minutes of Top Gun posting it.
-- Monday and Thursday 8:30 AM it also sweeps Top Gun's tournament list for upcoming Charlotte-area
-  events (`refresh.py --discover`) and adds them to `data/tracked.json`; tracked events are
-  re-fetched from a week before they start until 3 days after, so other 9U results land in
-  Standings without anyone typing IDs. The list page only shows current/upcoming events, which is
-  why it looks ahead rather than back. A schedule page covers every age group, so after the first
-  fetch an event with no 9U bracket is marked `skip` in tracked.json and never fetched again; only
-  the 9U division is ever built into the site.
-- or on demand: Actions tab -> "Refresh scores and rebuild site" -> Run workflow
-
-The bot owns the snapshot files (`data/`, `docs/data.js`, `docs/data.json`, `elite9_schedule.md`).
-Running `refresh.py` locally is fine for previewing, but don't commit those files by hand - two
-fetches of the same page never match byte-for-byte, so you'll hit merge conflicts. Commit only
-code/config changes (`git add *.py docs/index.html upcoming.json`), `git pull --rebase`, push, and
-let the next scheduled run (or the Run workflow button) refresh the data.
-
-Cron times are in UTC in the file; they're set for EDT, so after Nov 1 they run an hour
-earlier than listed. If Top Gun ever blocks the GitHub runner, run `python refresh.py`
-locally instead (or schedule it with Windows Task Scheduler) and push.
+## Hosting
+GitHub Pages, branch `main`, folder `/docs`. Cron times in the workflow are UTC and set for EDT;
+after Nov 1 the runs land an hour earlier than listed. If Top Gun ever blocks the GitHub runner,
+`python refresh.py` locally and push.
