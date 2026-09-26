@@ -264,7 +264,7 @@ def write_ics(out_dir, tid, ev_name, team, mine, fields, tentative):
         opp = g["opponent"] if not is_placeholder(g["opponent"]) else "TBD"
         gt = start.strftime("%I:%M %p").lstrip("0")
         be_there = f" - be at the field by {arrive.strftime('%I:%M %p').lstrip('0')}" if first_of_day else ""
-        desc = f"Game time {gt}{be_there}. {ev_name}. {g['section']} game {g['game']}." + (" Tentative: Top Gun schedules change during the week - the coach's TeamReach post is official." if tentative else "")
+        desc = f"Game time {gt}{be_there}. {ev_name}. {g['section']} game {g['game']}." + (" Subject to change until game day - the coach's TeamReach post is official." if tentative else "")
         lines += ["BEGIN:VEVENT", f"UID:e9-{tid}-{re.sub(r'[^a-z0-9]', '', g['section'].lower())}-{g['game']}@elite9dugout",
                   f"DTSTAMP:{stamp}", f"DTSTART;TZID=America/New_York:{arrive.strftime('%Y%m%dT%H%M%S')}",
                   f"DTEND;TZID=America/New_York:{end.strftime('%Y%m%dT%H%M%S')}",

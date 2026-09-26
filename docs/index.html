@@ -559,7 +559,7 @@
     return `${recordStr(t)} this season · ${v.n ? `they're ${v.text} vs us` : "first meeting"}`;
   };
   const gameKey = (g) => `${g.section}#${g.game}`;
-  const STAG = { live: "In progress", tentative: "Tentative", official: "Official (per coach)" };
+  const STAG = { live: "In progress", tentative: "Subject to change", official: "Official (per coach)" };
   const stag = (kind) => `<span class="stag ${kind}">${STAG[kind]}</span>`;
 
   // Director notices from topgunstats.com: weather (always shown) and general notes (collapsible)
@@ -583,7 +583,7 @@
     const en = e.entries;
     if (!en) return "";
     const t = en.team || {};
-    return ` · ${en.count} team${en.count === 1 ? "" : "s"} entered in ${esc(D.division)}${t.entered ? "" : ` · <span class="neg">${esc(D.team)} not on the entry list yet</span>`}`;
+    return ` · ${en.count} team${en.count === 1 ? "" : "s"} entered in ${esc(D.division)}`;
   }
 
   // One of our games on a Tournaments card: result or time, opponent scouting, schedule changes,
@@ -624,7 +624,7 @@
     }
     const nextIdx = list.findIndex((e) => e.state !== "live" && e.state !== "final" && (!e.date || iso(e.date) >= today));
     const nDone = list.filter((e) => e.state === "final").length;
-    $("#panel-tournaments").innerHTML = `<h2 class="section-title">Tournaments <span class="sub">${list.length} this season · ${nDone} played · Top Gun schedules move around during the week — the coach's TeamReach post is final</span></h2>` +
+    $("#panel-tournaments").innerHTML = `<h2 class="section-title">Tournaments <span class="sub">${list.length} this season · ${nDone} played · schedules are subject to change until game day — the coach's TeamReach post is final</span></h2>` +
       list.map((e, i) => {
         let body = "", tag = "", meta = esc(e.dates);
         if (e.state === "final") {

@@ -128,8 +128,8 @@ Gun's own tie-breaker (record → head-to-head for two-way ties → runs allowed
 last-game run differential → coin flip), verified against the bracket seeds Top Gun prints.
 
 ## Event states
-announced (no schedule yet) → scheduled (tentative; every change Top Gun makes is recorded and
-shown on the card) → live (game day: Results, tagged LIVE, next game highlighted) → final (stays on
+announced (no schedule yet) → scheduled (subject to change; every change Top Gun makes is recorded
+and shown on the card) → live (game day: Results, tagged LIVE, next game highlighted) → final (stays on
 Tournaments with its finish, linking to Results). A `.ics` calendar of our games is written for
 scheduled and live events.
 
