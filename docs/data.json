@@ -3,13 +3,13 @@
  "location": "Rock Hill, SC",
  "page_id": 31407,
  "team_url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=31407",
- "built": "Sat Sep 26, 2026 10:11 AM",
+ "built": "Sat Sep 26, 2026 11:01 AM",
  "record": {
   "w": 1,
-  "l": 4,
+  "l": 5,
   "t": 0,
-  "rs": 25,
-  "ra": 44
+  "rs": 28,
+  "ra": 52
  },
  "my_games": [
   {
@@ -97,9 +97,9 @@
    "section": "Pool Play",
    "game": 1,
    "opponent": "LKN Bolts",
-   "rs": null,
-   "ra": null,
-   "result": null,
+   "rs": 3,
+   "ra": 8,
+   "result": "L",
    "gc_id": null
   },
   {
@@ -1181,7 +1181,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-09-26T10:11",
+    "fetched_at": "2026-09-26T10:53",
     "url": "https://topgunstats.com/whos-playing/12518"
    },
    "next_game": {
@@ -1189,11 +1189,11 @@
     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
     "date": "2026-09-26",
     "day": "Sat",
-    "time": "9:00 AM",
-    "field": "Poston:Field # 1",
+    "time": "10:45 AM",
+    "field": "Poston:Field # 2",
     "section": "Pool Play",
-    "game": 1,
-    "opponent": "LKN Bolts",
+    "game": 6,
+    "opponent": "LKN Kingdom",
     "rs": null,
     "ra": null,
     "result": null,
@@ -1203,28 +1203,134 @@
    "standing": {
     "team": "Elite 9",
     "location": "Rock Hill, SC",
-    "rank": 8,
-    "tiebreak": "coin flip (unresolved)",
-    "h2h": {},
-    "last": null,
+    "rank": 3,
+    "tiebreak": "runs allowed",
+    "h2h": {
+     "LKN Bolts": "L"
+    },
+    "last": {
+     "opponent": "LKN Bolts",
+     "rs": 3,
+     "ra": 8
+    },
     "pool_w": 0,
-    "pool_l": 0,
+    "pool_l": 1,
     "pool_t": 0,
-    "pool_rs": 0,
-    "pool_ra": 0,
+    "pool_rs": 3,
+    "pool_ra": 8,
     "seed": null,
     "bracket": null,
     "won": 0,
-    "lost": 0,
-    "rs": 0,
-    "ra": 0,
+    "lost": 1,
+    "rs": 3,
+    "ra": 8,
     "bracket_games": []
    },
    "standings": [
     {
+     "team": "LKN Bolts",
+     "location": "Huntersville, NC",
+     "rank": 1,
+     "tiebreak": "runs allowed",
+     "h2h": {
+      "Elite 9": "W"
+     },
+     "last": {
+      "opponent": "Elite 9",
+      "rs": 8,
+      "ra": 3
+     },
+     "pool_w": 1,
+     "pool_l": 0,
+     "pool_t": 0,
+     "pool_rs": 8,
+     "pool_ra": 3,
+     "seed": null,
+     "bracket": null,
+     "won": 1,
+     "lost": 0,
+     "rs": 8,
+     "ra": 3
+    },
+    {
+     "team": "Carolina Royals 9Uw",
+     "location": "Gastonia, NC",
+     "rank": 2,
+     "tiebreak": "runs allowed",
+     "h2h": {
+      "LKN Kingdom": "W"
+     },
+     "last": {
+      "opponent": "LKN Kingdom",
+      "rs": 14,
+      "ra": 8
+     },
+     "pool_w": 1,
+     "pool_l": 0,
+     "pool_t": 0,
+     "pool_rs": 14,
+     "pool_ra": 8,
+     "seed": null,
+     "bracket": null,
+     "won": 1,
+     "lost": 0,
+     "rs": 14,
+     "ra": 8
+    },
+    {
+     "team": "Elite 9",
+     "location": "Rock Hill, SC",
+     "rank": 3,
+     "tiebreak": "runs allowed",
+     "h2h": {
+      "LKN Bolts": "L"
+     },
+     "last": {
+      "opponent": "LKN Bolts",
+      "rs": 3,
+      "ra": 8
+     },
+     "pool_w": 0,
+     "pool_l": 1,
+     "pool_t": 0,
+     "pool_rs": 3,
+     "pool_ra": 8,
+     "seed": null,
+     "bracket": null,
+     "won": 0,
+     "lost": 1,
+     "rs": 3,
+     "ra": 8
+    },
+    {
+     "team": "LKN Kingdom",
+     "location": "Charlotte, NC",
+     "rank": 4,
+     "tiebreak": "runs allowed",
+     "h2h": {
+      "Carolina Royals 9Uw": "L"
+     },
+     "last": {
+      "opponent": "Carolina Royals 9Uw",
+      "rs": 8,
+      "ra": 14
+     },
+     "pool_w": 0,
+     "pool_l": 1,
+     "pool_t": 0,
+     "pool_rs": 8,
+     "pool_ra": 14,
+     "seed": null,
+     "bracket": null,
+     "won": 0,
+     "lost": 1,
+     "rs": 8,
+     "ra": 14
+    },
+    {
      "team": "BOILING SPRINGS BULLDOGS BASEBALL 8u",
      "location": "Boiling Springs, NC",
-     "rank": 2,
+     "rank": 6,
      "tiebreak": "coin flip (unresolved)",
      "h2h": {},
      "last": null,
@@ -1243,7 +1349,7 @@
     {
      "team": "Carolina Firebirds-Red",
      "location": "Winston Salem, NC",
-     "rank": 3,
+     "rank": 7,
      "tiebreak": "coin flip (unresolved)",
      "h2h": {},
      "last": null,
@@ -1262,26 +1368,7 @@
     {
      "team": "Carolina Forge 9U",
      "location": "Gastonia, NC",
-     "rank": 4,
-     "tiebreak": "coin flip (unresolved)",
-     "h2h": {},
-     "last": null,
-     "pool_w": 0,
-     "pool_l": 0,
-     "pool_t": 0,
-     "pool_rs": 0,
-     "pool_ra": 0,
-     "seed": null,
-     "bracket": null,
-     "won": 0,
-     "lost": 0,
-     "rs": 0,
-     "ra": 0
-    },
-    {
-     "team": "Carolina Royals 9Uw",
-     "location": "Gastonia, NC",
-     "rank": 5,
+     "rank": 8,
      "tiebreak": "coin flip (unresolved)",
      "h2h": {},
      "last": null,
@@ -1300,7 +1387,7 @@
     {
      "team": "Carolina Trash Pandas",
      "location": "Locust, NC",
-     "rank": 6,
+     "rank": 9,
      "tiebreak": "coin flip (unresolved)",
      "h2h": {},
      "last": null,
@@ -1319,26 +1406,7 @@
     {
      "team": "Dirtbags Baseball ESB",
      "location": "Lincolnton, NC",
-     "rank": 7,
-     "tiebreak": "coin flip (unresolved)",
-     "h2h": {},
-     "last": null,
-     "pool_w": 0,
-     "pool_l": 0,
-     "pool_t": 0,
-     "pool_rs": 0,
-     "pool_ra": 0,
-     "seed": null,
-     "bracket": null,
-     "won": 0,
-     "lost": 0,
-     "rs": 0,
-     "ra": 0
-    },
-    {
-     "team": "Elite 9",
-     "location": "Rock Hill, SC",
-     "rank": 8,
+     "rank": 10,
      "tiebreak": "coin flip (unresolved)",
      "h2h": {},
      "last": null,
@@ -1357,7 +1425,7 @@
     {
      "team": "Lake Wylie Venom",
      "location": "Lake Wylie, SC",
-     "rank": 9,
+     "rank": 11,
      "tiebreak": "coin flip (unresolved)",
      "h2h": {},
      "last": null,
@@ -1376,44 +1444,6 @@
     {
      "team": "Legacy Baseball 9U - WHITE",
      "location": "Fort Mill, SC",
-     "rank": 10,
-     "tiebreak": "coin flip (unresolved)",
-     "h2h": {},
-     "last": null,
-     "pool_w": 0,
-     "pool_l": 0,
-     "pool_t": 0,
-     "pool_rs": 0,
-     "pool_ra": 0,
-     "seed": null,
-     "bracket": null,
-     "won": 0,
-     "lost": 0,
-     "rs": 0,
-     "ra": 0
-    },
-    {
-     "team": "LKN Bolts",
-     "location": "Huntersville, NC",
-     "rank": 11,
-     "tiebreak": "coin flip (unresolved)",
-     "h2h": {},
-     "last": null,
-     "pool_w": 0,
-     "pool_l": 0,
-     "pool_t": 0,
-     "pool_rs": 0,
-     "pool_ra": 0,
-     "seed": null,
-     "bracket": null,
-     "won": 0,
-     "lost": 0,
-     "rs": 0,
-     "ra": 0
-    },
-    {
-     "team": "LKN Kingdom",
-     "location": "Charlotte, NC",
      "rank": 12,
      "tiebreak": "coin flip (unresolved)",
      "h2h": {},
@@ -1593,11 +1623,11 @@
      "field": "Poston:Field # 1",
      "team_a": "Elite 9",
      "seed_a": null,
-     "score_a": null,
+     "score_a": 3,
      "from_a": null,
      "team_b": "LKN Bolts",
      "seed_b": null,
-     "score_b": null,
+     "score_b": 8,
      "from_b": null
     },
     {
@@ -1609,11 +1639,11 @@
      "field": "Poston:Field # 2",
      "team_a": "LKN Kingdom",
      "seed_a": null,
-     "score_a": null,
+     "score_a": 8,
      "from_a": null,
      "team_b": "Carolina Royals 9Uw",
      "seed_b": null,
-     "score_b": null,
+     "score_b": 14,
      "from_b": null
     },
     {
@@ -2990,14 +3020,14 @@
    "state": "live",
    "official": false,
    "summary": {
-    "rank": 8,
+    "rank": 3,
     "teams": 19,
-    "pool": "0-0",
+    "pool": "0-1",
     "bracket": null,
     "seed": null,
     "bracket_games": [],
     "w": 0,
-    "l": 0
+    "l": 1
    },
    "entries": {
     "count": 19,
@@ -3012,7 +3042,7 @@
      "entered_at": "2026-09-17T10:03:30.533Z",
      "level": "AA"
     },
-    "fetched_at": "2026-09-26T10:11"
+    "fetched_at": "2026-09-26T10:53"
    },
    "tgs": {
     "weather": null,
@@ -3137,7 +3167,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-09-26T10:11",
+    "fetched_at": "2026-09-26T10:53",
     "url": "https://topgunstats.com/whos-playing/12518"
    },
    "name": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
@@ -3155,11 +3185,11 @@
      "field": "Poston:Field # 1",
      "team_a": "Elite 9",
      "seed_a": null,
-     "score_a": null,
+     "score_a": 3,
      "from_a": null,
      "team_b": "LKN Bolts",
      "seed_b": null,
-     "score_b": null,
+     "score_b": 8,
      "from_b": null
     },
     {
@@ -3171,11 +3201,11 @@
      "field": "Poston:Field # 2",
      "team_a": "LKN Kingdom",
      "seed_a": null,
-     "score_a": null,
+     "score_a": 8,
      "from_a": null,
      "team_b": "Carolina Royals 9Uw",
      "seed_b": null,
-     "score_b": null,
+     "score_b": 14,
      "from_b": null
     },
     {
@@ -3838,10 +3868,10 @@
      "seed": 4,
      "team": "LKN Bolts",
      "location": "Huntersville, NC",
-     "won": 0,
+     "won": 1,
      "lost": 0,
-     "runs_allowed": 0,
-     "runs_scored": 0,
+     "runs_allowed": 3,
+     "runs_scored": 8,
      "team_page_id": null
     },
     {
@@ -3849,9 +3879,9 @@
      "team": "Elite 9",
      "location": "Rock Hill, SC",
      "won": 0,
-     "lost": 0,
-     "runs_allowed": 0,
-     "runs_scored": 0,
+     "lost": 1,
+     "runs_allowed": 8,
+     "runs_scored": 3,
      "team_page_id": null
     },
     {
@@ -3969,19 +3999,19 @@
      "team": "LKN Kingdom",
      "location": "Charlotte, NC",
      "won": 0,
-     "lost": 0,
-     "runs_allowed": 0,
-     "runs_scored": 0,
+     "lost": 1,
+     "runs_allowed": 14,
+     "runs_scored": 8,
      "team_page_id": null
     },
     {
      "seed": 18,
      "team": "Carolina Royals 9Uw",
      "location": "Gastonia, NC",
-     "won": 0,
+     "won": 1,
      "lost": 0,
-     "runs_allowed": 0,
-     "runs_scored": 0,
+     "runs_allowed": 8,
+     "runs_scored": 14,
      "team_page_id": null
     },
     {
@@ -4006,9 +4036,9 @@
      "section": "Pool Play",
      "game": 1,
      "opponent": "LKN Bolts",
-     "rs": null,
-     "ra": null,
-     "result": null,
+     "rs": 3,
+     "ra": 8,
+     "result": "L",
      "gc_id": null
     },
     {
@@ -4032,11 +4062,11 @@
     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
     "date": "2026-09-26",
     "day": "Sat",
-    "time": "9:00 AM",
-    "field": "Poston:Field # 1",
+    "time": "10:45 AM",
+    "field": "Poston:Field # 2",
     "section": "Pool Play",
-    "game": 1,
-    "opponent": "LKN Bolts",
+    "game": 6,
+    "opponent": "LKN Kingdom",
     "rs": null,
     "ra": null,
     "result": null,
@@ -4061,7 +4091,7 @@
     "team": {
      "entered": false
     },
-    "fetched_at": "2026-09-26T10:11"
+    "fetched_at": "2026-09-26T10:53"
    },
    "tgs": {
     "weather": null,
@@ -4139,7 +4169,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-09-26T10:11",
+    "fetched_at": "2026-09-26T10:53",
     "url": "https://topgunstats.com/whos-playing/12521"
    },
    "name": "Triple points Super Regional",
@@ -4175,7 +4205,7 @@
      "entered_at": "2026-06-08T12:01:08.307Z",
      "level": "AA"
     },
-    "fetched_at": "2026-09-26T10:11"
+    "fetched_at": "2026-09-26T10:53"
    },
    "tgs": {
     "weather": null,
@@ -4257,7 +4287,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-09-26T10:11",
+    "fetched_at": "2026-09-26T10:53",
     "url": "https://topgunstats.com/whos-playing/12522"
    },
    "name": "Southeastern Winter World Series",
@@ -4288,7 +4318,7 @@
     "team": {
      "entered": false
     },
-    "fetched_at": "2026-09-26T10:11"
+    "fetched_at": "2026-09-26T10:53"
    },
    "tgs": {
     "weather": null,
@@ -4341,7 +4371,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-09-26T10:11",
+    "fetched_at": "2026-09-26T10:53",
     "url": "https://topgunstats.com/whos-playing/12524"
    },
    "name": "Road Runner vs Coyote ring weekend",
@@ -4436,8 +4466,8 @@
      "points": 0
     }
    ],
-   "season": "08/01/2026 - 09/25/2026",
-   "stats_fetched": "2026-09-25T11:46"
+   "season": "08/01/2026 - 09/26/2026",
+   "stats_fetched": "2026-09-26T10:55"
   },
   {
    "team": "Canes Atlantic 9u Sulovski",
@@ -4506,8 +4536,39 @@
      "points": 400
     }
    ],
-   "season": "08/01/2026 - 09/25/2026",
-   "stats_fetched": "2026-09-25T11:51"
+   "season": "08/01/2026 - 09/26/2026",
+   "stats_fetched": "2026-09-26T11:00"
+  },
+  {
+   "team": "Carolina Royals 9Uw",
+   "location": "Gastonia, NC",
+   "page_id": null,
+   "url": null,
+   "w": 1,
+   "l": 0,
+   "t": 0,
+   "rs": 14,
+   "ra": 8,
+   "diff": 6,
+   "pct": 1.0,
+   "events": 1,
+   "log": [
+    {
+     "date": "2026-09-26",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Pool Play",
+     "opponent": "LKN Kingdom",
+     "rs": 14,
+     "ra": 8,
+     "result": "W"
+    }
+   ],
+   "points": 0,
+   "titles": 0,
+   "finishes": [],
+   "season": "",
+   "stats_fetched": null
   },
   {
    "team": "Carolina Clippers 9U",
@@ -4632,8 +4693,8 @@
      "points": 1400
     }
    ],
-   "season": "08/01/2026 - 09/25/2026",
-   "stats_fetched": "2026-09-25T11:46"
+   "season": "08/01/2026 - 09/26/2026",
+   "stats_fetched": "2026-09-26T10:56"
   },
   {
    "team": "Hooligans",
@@ -4778,8 +4839,8 @@
      "points": 1550
     }
    ],
-   "season": "08/01/2026 - 09/25/2026",
-   "stats_fetched": "2026-09-25T11:48"
+   "season": "08/01/2026 - 09/26/2026",
+   "stats_fetched": "2026-09-26T10:57"
   },
   {
    "team": "Lightning Jacks Riddle",
@@ -4866,8 +4927,8 @@
      "points": 375
     }
    ],
-   "season": "08/01/2026 - 09/25/2026",
-   "stats_fetched": "2026-09-25T11:45"
+   "season": "08/01/2026 - 09/26/2026",
+   "stats_fetched": "2026-09-26T10:54"
   },
   {
    "team": "Carolina Trash Pandas",
@@ -4942,10 +5003,18 @@
      "lost": 1,
      "standing": "2nd (Gold)",
      "points": 375
+    },
+    {
+     "date": "2026-09-26",
+     "name": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "won": 0,
+     "lost": 0,
+     "standing": "",
+     "points": 0
     }
    ],
-   "season": "08/01/2026 - 09/25/2026",
-   "stats_fetched": "2026-09-25T11:46"
+   "season": "08/01/2026 - 09/26/2026",
+   "stats_fetched": "2026-09-26T10:55"
   },
   {
    "team": "SC Tide - Lucariello",
@@ -5028,10 +5097,18 @@
      "lost": 3,
      "standing": "4th (Gold)",
      "points": 325
+    },
+    {
+     "date": "2026-09-26",
+     "name": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "won": 0,
+     "lost": 0,
+     "standing": "",
+     "points": 0
     }
    ],
-   "season": "08/01/2026 - 09/25/2026",
-   "stats_fetched": "2026-09-25T11:47"
+   "season": "08/01/2026 - 09/26/2026",
+   "stats_fetched": "2026-09-26T10:56"
   },
   {
    "team": "Dirtbags Baseball ESB",
@@ -5146,10 +5223,18 @@
      "lost": 0,
      "standing": "1st (Gold)",
      "points": 700
+    },
+    {
+     "date": "2026-09-26",
+     "name": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "won": 0,
+     "lost": 0,
+     "standing": "",
+     "points": 0
     }
    ],
-   "season": "08/01/2026 - 09/25/2026",
-   "stats_fetched": "2026-09-25T11:51"
+   "season": "08/01/2026 - 09/26/2026",
+   "stats_fetched": "2026-09-26T11:00"
   },
   {
    "team": "South Charlotte Revolution 9U",
@@ -5218,8 +5303,8 @@
      "points": 350
     }
    ],
-   "season": "08/01/2026 - 09/25/2026",
-   "stats_fetched": "2026-09-25T11:50"
+   "season": "08/01/2026 - 09/26/2026",
+   "stats_fetched": "2026-09-26T11:00"
   },
   {
    "team": "Dirtbags Shook",
@@ -5359,22 +5444,22 @@
      "points": 600
     }
    ],
-   "season": "08/01/2026 - 09/25/2026",
-   "stats_fetched": "2026-09-25T11:50"
+   "season": "08/01/2026 - 09/26/2026",
+   "stats_fetched": "2026-09-26T10:59"
   },
   {
    "team": "LKN Bolts",
    "location": "Huntersville, NC",
    "page_id": 32916,
    "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=32916",
-   "w": 5,
+   "w": 6,
    "l": 2,
    "t": 0,
-   "rs": 73,
-   "ra": 63,
-   "diff": 10,
-   "pct": 0.714,
-   "events": 2,
+   "rs": 81,
+   "ra": 66,
+   "diff": 15,
+   "pct": 0.75,
+   "events": 3,
    "log": [
     {
      "date": "2026-08-29",
@@ -5445,6 +5530,16 @@
      "rs": 5,
      "ra": 13,
      "result": "L"
+    },
+    {
+     "date": "2026-09-26",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Pool Play",
+     "opponent": "Elite 9",
+     "rs": 8,
+     "ra": 3,
+     "result": "W"
     }
    ],
    "points": 975,
@@ -5465,10 +5560,18 @@
      "lost": 1,
      "standing": "2nd (Gold)",
      "points": 675
+    },
+    {
+     "date": "2026-09-26",
+     "name": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "won": 1,
+     "lost": 0,
+     "standing": "",
+     "points": 0
     }
    ],
-   "season": "08/01/2026 - 09/25/2026",
-   "stats_fetched": "2026-09-25T11:46"
+   "season": "08/01/2026 - 09/26/2026",
+   "stats_fetched": "2026-09-26T10:55"
   },
   {
    "team": "NL Destroyers 2036",
@@ -5671,8 +5774,8 @@
      "points": 1600
     }
    ],
-   "season": "08/01/2026 - 09/25/2026",
-   "stats_fetched": "2026-09-25T11:49"
+   "season": "08/01/2026 - 09/26/2026",
+   "stats_fetched": "2026-09-26T10:58"
   },
   {
    "team": "Mara Bulls",
@@ -5731,8 +5834,8 @@
      "points": 300
     }
    ],
-   "season": "08/01/2026 - 09/25/2026",
-   "stats_fetched": "2026-09-25T11:51"
+   "season": "08/01/2026 - 09/26/2026",
+   "stats_fetched": "2026-09-26T11:01"
   },
   {
    "team": "NC Made 9U Blue",
@@ -5819,8 +5922,8 @@
      "points": 300
     }
    ],
-   "season": "08/01/2026 - 09/25/2026",
-   "stats_fetched": "2026-09-25T11:45"
+   "season": "08/01/2026 - 09/26/2026",
+   "stats_fetched": "2026-09-26T10:54"
   },
   {
    "team": "Copperheads",
@@ -5889,8 +5992,8 @@
      "points": 650
     }
    ],
-   "season": "08/01/2026 - 09/25/2026",
-   "stats_fetched": "2026-09-25T11:46"
+   "season": "08/01/2026 - 09/26/2026",
+   "stats_fetched": "2026-09-26T10:55"
   },
   {
    "team": "Carolina Royals 9Ublu",
@@ -6007,8 +6110,8 @@
      "points": 600
     }
    ],
-   "season": "08/01/2026 - 09/25/2026",
-   "stats_fetched": "2026-09-25T11:50"
+   "season": "08/01/2026 - 09/26/2026",
+   "stats_fetched": "2026-09-26T10:59"
   },
   {
    "team": "Team 24",
@@ -6148,8 +6251,8 @@
      "points": 375
     }
    ],
-   "season": "08/01/2026 - 09/25/2026",
-   "stats_fetched": "2026-09-25T11:51"
+   "season": "08/01/2026 - 09/26/2026",
+   "stats_fetched": "2026-09-26T11:00"
   },
   {
    "team": "Groundwork Sports",
@@ -6226,8 +6329,8 @@
      "points": 0
     }
    ],
-   "season": "08/01/2026 - 09/25/2026",
-   "stats_fetched": "2026-09-25T11:47"
+   "season": "08/01/2026 - 09/26/2026",
+   "stats_fetched": "2026-09-26T10:56"
   },
   {
    "team": "Lake Wylie Venom",
@@ -6274,10 +6377,18 @@
      "lost": 1,
      "standing": "3rd (Bronze)",
      "points": 450
+    },
+    {
+     "date": "2026-09-26",
+     "name": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "won": 0,
+     "lost": 0,
+     "standing": "",
+     "points": 0
     }
    ],
-   "season": "08/01/2026 - 09/25/2026",
-   "stats_fetched": "2026-09-25T11:48"
+   "season": "08/01/2026 - 09/26/2026",
+   "stats_fetched": "2026-09-26T10:57"
   },
   {
    "team": "ROCO Dirtbagz",
@@ -6324,10 +6435,18 @@
      "lost": 1,
      "standing": "2nd (Bronze)",
      "points": 475
+    },
+    {
+     "date": "2026-09-26",
+     "name": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "won": 0,
+     "lost": 0,
+     "standing": "",
+     "points": 0
     }
    ],
-   "season": "08/01/2026 - 09/25/2026",
-   "stats_fetched": "2026-09-25T11:45"
+   "season": "08/01/2026 - 09/26/2026",
+   "stats_fetched": "2026-09-26T10:54"
   },
   {
    "team": "Legacy Baseball 9U RED",
@@ -6396,8 +6515,8 @@
      "points": 275
     }
    ],
-   "season": "08/01/2026 - 09/25/2026",
-   "stats_fetched": "2026-09-25T11:47"
+   "season": "08/01/2026 - 09/26/2026",
+   "stats_fetched": "2026-09-26T10:56"
   },
   {
    "team": "NC Made 9U Green",
@@ -6454,8 +6573,8 @@
      "points": 0
     }
    ],
-   "season": "08/01/2026 - 09/25/2026",
-   "stats_fetched": "2026-09-25T11:46"
+   "season": "08/01/2026 - 09/26/2026",
+   "stats_fetched": "2026-09-26T10:55"
   },
   {
    "team": "Flying Pigs 9U",
@@ -6512,8 +6631,8 @@
      "points": 0
     }
    ],
-   "season": "08/01/2026 - 09/25/2026",
-   "stats_fetched": "2026-09-25T11:50"
+   "season": "08/01/2026 - 09/26/2026",
+   "stats_fetched": "2026-09-26T10:59"
   },
   {
    "team": "Legacy Baseball 9U - WHITE",
@@ -6628,10 +6747,18 @@
      "lost": 2,
      "standing": "2nd (Silver)",
      "points": 575
+    },
+    {
+     "date": "2026-09-26",
+     "name": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "won": 0,
+     "lost": 0,
+     "standing": "",
+     "points": 0
     }
    ],
-   "season": "08/01/2026 - 09/25/2026",
-   "stats_fetched": "2026-09-25T11:48"
+   "season": "08/01/2026 - 09/26/2026",
+   "stats_fetched": "2026-09-26T10:58"
   },
   {
    "team": "SOX Baseball - Snow",
@@ -6718,8 +6845,8 @@
      "points": 275
     }
    ],
-   "season": "08/01/2026 - 09/25/2026",
-   "stats_fetched": "2026-09-25T11:49"
+   "season": "08/01/2026 - 09/26/2026",
+   "stats_fetched": "2026-09-26T10:59"
   },
   {
    "team": "Waxhaw Militia 9U",
@@ -6836,8 +6963,8 @@
      "points": 550
     }
    ],
-   "season": "08/01/2026 - 09/25/2026",
-   "stats_fetched": "2026-09-25T11:47"
+   "season": "08/01/2026 - 09/26/2026",
+   "stats_fetched": "2026-09-26T10:56"
   },
   {
    "team": "KnuckleheadsCBC",
@@ -6954,8 +7081,8 @@
      "points": 625
     }
    ],
-   "season": "08/01/2026 - 09/25/2026",
-   "stats_fetched": "2026-09-25T11:47"
+   "season": "08/01/2026 - 09/26/2026",
+   "stats_fetched": "2026-09-26T10:56"
   },
   {
    "team": "LumberJacks",
@@ -7070,10 +7197,18 @@
      "lost": 2,
      "standing": "3rd (Silver)",
      "points": 250
+    },
+    {
+     "date": "2026-09-26",
+     "name": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "won": 0,
+     "lost": 0,
+     "standing": "",
+     "points": 0
     }
    ],
-   "season": "08/01/2026 - 09/25/2026",
-   "stats_fetched": "2026-09-25T11:48"
+   "season": "08/01/2026 - 09/26/2026",
+   "stats_fetched": "2026-09-26T10:57"
   },
   {
    "team": "Carolina Icons",
@@ -7132,8 +7267,8 @@
      "points": 275
     }
    ],
-   "season": "08/01/2026 - 09/25/2026",
-   "stats_fetched": "2026-09-25T11:48"
+   "season": "08/01/2026 - 09/26/2026",
+   "stats_fetched": "2026-09-26T10:57"
   },
   {
    "team": "Carolina Crushers 9U-Franklin",
@@ -7192,8 +7327,8 @@
      "points": 325
     }
    ],
-   "season": "08/01/2026 - 09/25/2026",
-   "stats_fetched": "2026-09-25T11:48"
+   "season": "08/01/2026 - 09/26/2026",
+   "stats_fetched": "2026-09-26T10:57"
   },
   {
    "team": "Carolina Regulators 9u",
@@ -7260,8 +7395,8 @@
      "points": 400
     }
    ],
-   "season": "08/01/2026 - 09/25/2026",
-   "stats_fetched": "2026-09-25T11:52"
+   "season": "08/01/2026 - 09/26/2026",
+   "stats_fetched": "2026-09-26T11:01"
   },
   {
    "team": "Camel City",
@@ -7320,8 +7455,8 @@
      "points": 250
     }
    ],
-   "season": "08/01/2026 - 09/25/2026",
-   "stats_fetched": "2026-09-25T11:51"
+   "season": "08/01/2026 - 09/26/2026",
+   "stats_fetched": "2026-09-26T11:00"
   },
   {
    "team": "Cage 2 Stage 9u",
@@ -7380,8 +7515,8 @@
      "points": 350
     }
    ],
-   "season": "08/01/2026 - 09/25/2026",
-   "stats_fetched": "2026-09-25T11:52"
+   "season": "08/01/2026 - 09/26/2026",
+   "stats_fetched": "2026-09-26T11:01"
   },
   {
    "team": "Red Clay Athletics 9U Darcangelo",
@@ -7448,10 +7583,18 @@
      "lost": 3,
      "standing": "4th (Gold)",
      "points": 325
+    },
+    {
+     "date": "2026-09-26",
+     "name": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "won": 0,
+     "lost": 0,
+     "standing": "",
+     "points": 0
     }
    ],
-   "season": "08/01/2026 - 09/25/2026",
-   "stats_fetched": "2026-09-25T11:49"
+   "season": "08/01/2026 - 09/26/2026",
+   "stats_fetched": "2026-09-26T10:58"
   },
   {
    "team": "Union County Legends",
@@ -7530,13 +7673,13 @@
    "page_id": 31407,
    "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=31407",
    "w": 1,
-   "l": 4,
+   "l": 5,
    "t": 0,
-   "rs": 25,
-   "ra": 44,
-   "diff": -19,
-   "pct": 0.2,
-   "events": 2,
+   "rs": 28,
+   "ra": 52,
+   "diff": -24,
+   "pct": 0.167,
+   "events": 3,
    "log": [
     {
      "date": "2026-09-11",
@@ -7587,6 +7730,16 @@
      "rs": 4,
      "ra": 9,
      "result": "L"
+    },
+    {
+     "date": "2026-09-26",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Pool Play",
+     "opponent": "LKN Bolts",
+     "rs": 3,
+     "ra": 8,
+     "result": "L"
     }
    ],
    "points": 250,
@@ -7607,10 +7760,18 @@
      "lost": 2,
      "standing": "5th (Silver)",
      "points": 0
+    },
+    {
+     "date": "2026-09-26",
+     "name": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "won": 0,
+     "lost": 1,
+     "standing": "",
+     "points": 0
     }
    ],
-   "season": "08/01/2026 - 09/25/2026",
-   "stats_fetched": "2026-09-25T11:45"
+   "season": "08/01/2026 - 09/26/2026",
+   "stats_fetched": "2026-09-26T10:54"
   },
   {
    "team": "ELITE BASEBALL EBC 9U",
@@ -7727,8 +7888,8 @@
      "points": 1300
     }
    ],
-   "season": "08/01/2026 - 09/25/2026",
-   "stats_fetched": "2026-09-25T11:51"
+   "season": "08/01/2026 - 09/26/2026",
+   "stats_fetched": "2026-09-26T11:00"
   },
   {
    "team": "High Point Hurricanes",
@@ -7787,8 +7948,8 @@
      "points": 225
     }
    ],
-   "season": "08/01/2026 - 09/25/2026",
-   "stats_fetched": "2026-09-25T11:52"
+   "season": "08/01/2026 - 09/26/2026",
+   "stats_fetched": "2026-09-26T11:01"
   },
   {
    "team": "LKN Kingdom",
@@ -7796,13 +7957,13 @@
    "page_id": 37240,
    "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=37240",
    "w": 0,
-   "l": 4,
+   "l": 5,
    "t": 0,
-   "rs": 13,
-   "ra": 48,
-   "diff": -35,
+   "rs": 21,
+   "ra": 62,
+   "diff": -41,
    "pct": 0.0,
-   "events": 2,
+   "events": 3,
    "log": [
     {
      "date": "2026-08-28",
@@ -7843,6 +8004,16 @@
      "rs": 2,
      "ra": 12,
      "result": "L"
+    },
+    {
+     "date": "2026-09-26",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Pool Play",
+     "opponent": "Carolina Royals 9Uw",
+     "rs": 8,
+     "ra": 14,
+     "result": "L"
     }
    ],
    "points": 525,
@@ -7863,10 +8034,18 @@
      "lost": 3,
      "standing": "4th (Silver)",
      "points": 225
+    },
+    {
+     "date": "2026-09-26",
+     "name": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "won": 0,
+     "lost": 1,
+     "standing": "",
+     "points": 0
     }
    ],
-   "season": "08/01/2026 - 09/25/2026",
-   "stats_fetched": "2026-09-25T11:49"
+   "season": "08/01/2026 - 09/26/2026",
+   "stats_fetched": "2026-09-26T10:58"
   },
   {
    "team": "Concord Athletics -9U",
@@ -7935,8 +8114,8 @@
      "points": 425
     }
    ],
-   "season": "08/01/2026 - 09/25/2026",
-   "stats_fetched": "2026-09-25T11:49"
+   "season": "08/01/2026 - 09/26/2026",
+   "stats_fetched": "2026-09-26T10:58"
   },
   {
    "team": "Carolina Elevate",
@@ -8112,10 +8291,18 @@
      "lost": 3,
      "standing": "4th (Silver)",
      "points": 525
+    },
+    {
+     "date": "2026-09-26",
+     "name": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "won": 0,
+     "lost": 0,
+     "standing": "",
+     "points": 0
     }
    ],
-   "season": "08/01/2026 - 09/25/2026",
-   "stats_fetched": "2026-09-25T11:49"
+   "season": "08/01/2026 - 09/26/2026",
+   "stats_fetched": "2026-09-26T10:58"
   }
  ],
  "fields": {
@@ -8369,8 +8556,8 @@
     "button_photo": null
    }
   ],
-  "season": "08/01/2026 - 09/25/2026",
-  "fetched_at": "2026-09-25T11:52",
+  "season": "08/01/2026 - 09/26/2026",
+  "fetched_at": "2026-09-26T11:01",
   "inactive": 22,
   "not_on_topgun": [],
   "duplicate_numbers": {}
@@ -12323,10 +12510,18 @@
    "lost": 2,
    "standing": "5th (Silver)",
    "points": 0
+  },
+  {
+   "date": "2026-09-26",
+   "name": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+   "won": 0,
+   "lost": 1,
+   "standing": "",
+   "points": 0
   }
  ],
- "season": "08/01/2026 - 09/25/2026",
- "stats_fetched": "2026-09-25T11:45",
+ "season": "08/01/2026 - 09/26/2026",
+ "stats_fetched": "2026-09-26T10:54",
  "division": "9U",
  "today": "2026-09-26",
  "season_label": "Fall 2026"

@@ -342,10 +342,10 @@
           "seed": 4,
           "team": "LKN Bolts",
           "location": "Huntersville, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 3,
+          "runs_scored": 8,
           "team_page_id": null
         },
         {
@@ -353,9 +353,9 @@
           "team": "Elite 9",
           "location": "Rock Hill, SC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 8,
+          "runs_scored": 3,
           "team_page_id": null
         },
         {
@@ -473,19 +473,19 @@
           "team": "LKN Kingdom",
           "location": "Charlotte, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 14,
+          "runs_scored": 8,
           "team_page_id": null
         },
         {
           "seed": 18,
           "team": "Carolina Royals 9Uw",
           "location": "Gastonia, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 8,
+          "runs_scored": 14,
           "team_page_id": null
         },
         {
@@ -508,10 +508,10 @@
             "field": "Poston:Field # 1",
             "team_a": "Elite 9",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 3,
             "team_b": "LKN Bolts",
             "seed_b": null,
-            "score_b": null
+            "score_b": 8
           },
           {
             "game": 2,
@@ -520,10 +520,10 @@
             "field": "Poston:Field # 2",
             "team_a": "LKN Kingdom",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 8,
             "team_b": "Carolina Royals 9Uw",
             "seed_b": null,
-            "score_b": null
+            "score_b": 14
           },
           {
             "game": 3,
@@ -978,19 +978,19 @@
           "team": "Carolina Locos- 10U Blue",
           "location": "Waxhaw, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 4,
+          "runs_scored": 3,
           "team_page_id": null
         },
         {
           "seed": 2,
           "team": "LKN Bolts",
           "location": "Huntersville, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 3,
+          "runs_scored": 4,
           "team_page_id": null
         },
         {
@@ -1007,10 +1007,10 @@
           "seed": 4,
           "team": "Red Clay Athletics 10U Latimer",
           "location": "Huntersville, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 9,
+          "runs_scored": 16,
           "team_page_id": null
         },
         {
@@ -1057,10 +1057,10 @@
           "seed": 9,
           "team": "ELITE BASEBALL EBC 10U",
           "location": "FOREST CITY, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 5,
+          "runs_scored": 9,
           "team_page_id": null
         },
         {
@@ -1077,10 +1077,10 @@
           "seed": 11,
           "team": "North Lincoln Futures 35",
           "location": "Denver, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 6,
+          "runs_scored": 8,
           "team_page_id": null
         },
         {
@@ -1138,9 +1138,9 @@
           "team": "SBA Lake Norman Thunder - White",
           "location": "Cornelius, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 16,
+          "runs_scored": 9,
           "team_page_id": null
         },
         {
@@ -1168,9 +1168,9 @@
           "team": "Carolina Forge 10U",
           "location": "Gastonia, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 8,
+          "runs_scored": 6,
           "team_page_id": null
         },
         {
@@ -1178,9 +1178,9 @@
           "team": "Carolina Royals 10U",
           "location": "Cramerton, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 9,
+          "runs_scored": 5,
           "team_page_id": null
         }
       ],
@@ -1193,10 +1193,10 @@
             "field": "SP:Field #1",
             "team_a": "ELITE BASEBALL EBC 10U",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 9,
             "team_b": "Carolina Royals 10U",
             "seed_b": null,
-            "score_b": null
+            "score_b": 5
           },
           {
             "game": 2,
@@ -1205,10 +1205,10 @@
             "field": "SP:Field #3",
             "team_a": "North Lincoln Futures 35",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 8,
             "team_b": "Carolina Forge 10U",
             "seed_b": null,
-            "score_b": null
+            "score_b": 6
           },
           {
             "game": 3,
@@ -1217,10 +1217,10 @@
             "field": "Tuckasee:Tuckaseegee 2",
             "team_a": "Carolina Locos- 10U Blue",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 3,
             "team_b": "LKN Bolts",
             "seed_b": null,
-            "score_b": null
+            "score_b": 4
           },
           {
             "game": 4,
@@ -1229,10 +1229,10 @@
             "field": "Tuckasee:Tuckaseegee 3",
             "team_a": "Red Clay Athletics 10U Latimer",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 16,
             "team_b": "SBA Lake Norman Thunder - White",
             "seed_b": null,
-            "score_b": null
+            "score_b": 9
           },
           {
             "game": 5,
@@ -1722,10 +1722,10 @@
           "seed": 1,
           "team": "Tega Cay Titans",
           "location": "Tega Cay, SC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 1,
+          "runs_scored": 6,
           "team_page_id": null
         },
         {
@@ -1784,8 +1784,8 @@
           "location": "Waxhaw, NC",
           "won": 0,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 7,
+          "runs_scored": 7,
           "team_page_id": null
         },
         {
@@ -1794,8 +1794,8 @@
           "location": "Charlotte, NC",
           "won": 0,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 7,
+          "runs_scored": 7,
           "team_page_id": null
         },
         {
@@ -1813,9 +1813,9 @@
           "team": "Dirtbags 11u Hagen",
           "location": "Pineville, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 6,
+          "runs_scored": 1,
           "team_page_id": null
         },
         {
@@ -1870,10 +1870,10 @@
             "field": "Westmoreld:Field 2",
             "team_a": "11u On Deck O's",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 7,
             "team_b": "11u Mission Baseball",
             "seed_b": null,
-            "score_b": null
+            "score_b": 7
           },
           {
             "game": 3,
@@ -1882,10 +1882,10 @@
             "field": "Westmoreld:Field 3",
             "team_a": "Tega Cay Titans",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 6,
             "team_b": "Dirtbags 11u Hagen",
             "seed_b": null,
-            "score_b": null
+            "score_b": 1
           },
           {
             "game": 4,
@@ -2241,10 +2241,10 @@
           "seed": 1,
           "team": "Lincoln County Warriors",
           "location": "Lincolnton, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 3,
+          "runs_scored": 15,
           "team_page_id": null
         },
         {
@@ -2312,9 +2312,9 @@
           "team": "CBB Baseball Blue",
           "location": "Waxhaw, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 15,
+          "runs_scored": 3,
           "team_page_id": null
         }
       ],
@@ -2327,10 +2327,10 @@
             "field": "M. Rivers:Martha Rivers 2",
             "team_a": "Lincoln County Warriors",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 15,
             "team_b": "CBB Baseball Blue",
             "seed_b": null,
-            "score_b": null
+            "score_b": 3
           },
           {
             "game": 2,
@@ -2802,9 +2802,9 @@
           "team": "ELITE BASEBALL 13/14u EBC",
           "location": "Forest City, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 14,
+          "runs_scored": 2,
           "team_page_id": null
         },
         {
@@ -2891,10 +2891,10 @@
           "seed": 12,
           "team": "KLSC Tomahawks",
           "location": "Belmont, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 2,
+          "runs_scored": 14,
           "team_page_id": null
         },
         {
@@ -2929,10 +2929,10 @@
             "field": "SP:Field #2",
             "team_a": "KLSC Tomahawks",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 14,
             "team_b": "ELITE BASEBALL 13/14u EBC",
             "seed_b": null,
-            "score_b": null
+            "score_b": 2
           },
           {
             "game": 3,
@@ -3238,20 +3238,20 @@
           "seed": 1,
           "team": "Dry Pond 14U",
           "location": "Denver, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
           "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_scored": 12,
           "team_page_id": null
         },
         {
           "seed": 2,
           "team": "Waxhaw Heat",
           "location": "Waxhaw, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 2,
+          "runs_scored": 11,
           "team_page_id": null
         },
         {
@@ -3299,9 +3299,9 @@
           "team": "CBC Knuckleheads Fox",
           "location": "Charlotte, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 11,
+          "runs_scored": 2,
           "team_page_id": null
         },
         {
@@ -3309,8 +3309,8 @@
           "team": "CBC Prospects Blue 15u",
           "location": "CHERRYVILLE, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
+          "lost": 1,
+          "runs_allowed": 12,
           "runs_scored": 0,
           "team_page_id": null
         },
@@ -3334,10 +3334,10 @@
             "field": "BFF:Field 1",
             "team_a": "CBC Prospects Blue 15u",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 0,
             "team_b": "Dry Pond 14U",
             "seed_b": null,
-            "score_b": null
+            "score_b": 12
           },
           {
             "game": 2,
@@ -3346,10 +3346,10 @@
             "field": "FDP:Field #3",
             "team_a": "Waxhaw Heat",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 11,
             "team_b": "CBC Knuckleheads Fox",
             "seed_b": null,
-            "score_b": null
+            "score_b": 2
           },
           {
             "game": 3,
@@ -3590,9 +3590,9 @@
           "team": "KLSC Prime",
           "location": "Belmont, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 3,
+          "runs_scored": 2,
           "team_page_id": null
         },
         {
@@ -3609,10 +3609,10 @@
           "seed": 6,
           "team": "WNC Phantom Elite",
           "location": "Taylorsville, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 2,
+          "runs_scored": 3,
           "team_page_id": null
         }
       ],
@@ -3625,10 +3625,10 @@
             "field": "FDP:Field #2",
             "team_a": "KLSC Prime",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 2,
             "team_b": "WNC Phantom Elite",
             "seed_b": null,
-            "score_b": null
+            "score_b": 3
           },
           {
             "game": 2,
@@ -3758,5 +3758,5 @@
   },
   "site_last_updated": "09/24/2026 1:31 PM",
   "tournament_id": 12518,
-  "fetched_at": "2026-09-26T10:11"
+  "fetched_at": "2026-09-26T10:53"
 }
