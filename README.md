@@ -4,7 +4,7 @@ Elite 9 (9U, Fall 2026, Rock Hill SC) — a parent-facing site for the Top Gun s
 
 - **Live site:** https://brownbucks11.github.io/elite9-dugout/
 - **Repo:** https://github.com/brownbucks11/elite9-dugout (GitHub Pages serves `docs/`)
-- Tabs: Tournaments · Results · Roster · Teams · Fields. Unlisted stats page: `…/#stats`.
+- Tabs: Tournaments · Results · Roster · Stats · Teams · Fields.
 
 Scores, schedules and brackets come from Top Gun's public sites; a GitHub Actions bot refreshes
 them on a schedule. Box scores and player stats come from GameChanger and are pulled by you from

@@ -390,7 +390,7 @@
     .field { padding: 10px 12px; }
     #panel-teams td.team-cell { max-width: 150px; white-space: normal; }
     .tabs { gap: 0; justify-content: space-between; }
-    .tab { font-size: 15px; padding: 10px 6px 12px; }
+    .tab { font-size: 14px; letter-spacing: .2px; padding: 10px 4px 12px; }
     .game { grid-template-columns: 44px 1fr auto; }
   }
   @media (prefers-reduced-motion: no-preference) {
@@ -417,6 +417,7 @@
       <button class="tab" role="tab" data-tab="tournaments" aria-selected="true">Tournaments</button>
       <button class="tab" role="tab" data-tab="results">Results</button>
       <button class="tab" role="tab" data-tab="roster">Roster</button>
+      <button class="tab" role="tab" data-tab="stats">Stats</button>
       <button class="tab" role="tab" data-tab="teams">Teams</button>
       <button class="tab" role="tab" data-tab="fields">Fields</button>
     </nav>
@@ -1103,9 +1104,9 @@
   });
 
   // ---- Tabs ---------------------------------------------------------------------
-  const TABS = ["tournaments", "results", "roster", "teams", "fields"];
+  const TABS = ["tournaments", "results", "roster", "stats", "teams", "fields"];
   const TAB_ALIAS = { standings: "teams", next: "tournaments" };
-  const HIDDEN_TABS = ["stats"];   // reachable by direct link only, never listed
+  const HIDDEN_TABS = [];
   function showTab(name, push) {
     name = TAB_ALIAS[name] || name;
     if (!TABS.includes(name) && !HIDDEN_TABS.includes(name)) name = "tournaments";
@@ -1220,7 +1221,7 @@
     const rec = reconcile(games, season);
     const draw = () => {
       $("#panel-stats").innerHTML = `
-        <h2 class="section-title">Stats <span class="sub">from GameChanger · ${games.length} box scores${gc.season && gc.season.fetched_at ? ` · season tables as of ${esc(fmtSeen(gc.season.fetched_at))}` : ""} · unlisted page</span></h2>
+        <h2 class="section-title">Stats <span class="sub">from GameChanger · ${games.length} box scores${gc.season && gc.season.fetched_at ? ` · season tables as of ${esc(fmtSeen(gc.season.fetched_at))}` : ""}</span></h2>
         ${season ? `<div class="event"><div class="event-body">
           <div class="statbar">${cats.map((c) => `<button type="button" class="tab-pill ${c === cat ? "on" : ""}" data-cat="${c}">${c[0].toUpperCase() + c.slice(1)}</button>`).join("")}<span class="gap"></span>${views.map((v) => `<button type="button" class="tab-pill ${v === view ? "on" : ""}" data-view="${v}">${v[0].toUpperCase() + v.slice(1)}</button>`).join("")}</div>
           ${seasonTable(season[cat] && season[cat][view])}</div></div>` : ""}
