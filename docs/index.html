@@ -262,6 +262,8 @@
   .pill.L { background: var(--loss-bg); color: var(--loss); }
   .pill.T { background: var(--tie-bg); color: var(--tie); }
   .pill.time { background: var(--tie-bg); color: var(--ink); font-size: 15px; font-weight: 600; padding: 5px 2px; }
+  button.pill-link { border: 0; width: 100%; cursor: pointer; font: inherit; font-family: var(--display); font-weight: 700; font-size: 18px; }
+  button.pill-link:hover { filter: brightness(.92); }
   .opp { font-weight: 600; font-size: 16px; }
   .opp button { background: none; border: 0; padding: 0; color: inherit; font-weight: 600; cursor: pointer; text-align: left; text-decoration: underline dotted; text-underline-offset: 3px; }
   .opp button:hover { color: var(--link); }
@@ -604,14 +606,16 @@
       }
     }
     const isNext = nextKey && gameKey(g) === nextKey;
-    const pill = g.result ? `<div class="pill ${g.result}">${g.result}</div>` : `<div class="pill time">${esc(g.day)}</div>`;
-    return `<li class="game ${g.result === "W" ? "won" : ""} ${isNext ? "next" : ""} ${c ? "moved" : ""}">
+    const pill = g.result
+      ? `<button type="button" class="pill ${g.result} pill-link" data-goto="results" data-event="${e.id}" title="${g.result === "W" ? "Won" : g.result === "L" ? "Lost" : "Tied"} ${g.rs}–${g.ra} — see Results">${g.result}</button>`
+      : `<div class="pill time">${esc(g.day)}</div>`;
+    return `<li class="game ${isNext ? "next" : ""} ${c ? "moved" : ""}">
       ${pill}
       <div><div class="opp">${tbd ? esc(opp) : teamBtn(opp)}${isNext ? '<span class="chg-pill next">next</span>' : ""}${c ? `<span class="chg-pill">${c.kind === "added" ? "new" : "changed"}</span>` : ""}</div>
            <div class="when">${esc(g.day)} ${esc(g.time)} · ${fieldHtml(g.field)} · ${esc(g.section)} G${g.game}</div>
            ${was ? `<div class="was">was ${esc(was)}</div>` : ""}
            ${!tbd && oppInfo(opp) ? `<div class="when scout">${esc(oppInfo(opp))}</div>` : ""}${possible}</div>
-      <div class="score">${g.result ? `${g.rs}–${g.ra}` : `<small>${esc(g.time)}</small>`}</div>
+      <div class="score">${g.result ? "" : `<small>${esc(g.time)}</small>`}</div>
     </li>`;
   }
   const sortGames = (list) => list.slice().sort((a, b) => (a.date || "").localeCompare(b.date || "") || clock(a.time) - clock(b.time) || a.game - b.game);
