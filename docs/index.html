@@ -245,6 +245,8 @@
   .scout { font-style: italic; }
   .pointer { margin: 0; padding: 12px 0; font-size: 15px; }
   .linkish { background: none; border: 0; padding: 0; font: inherit; color: var(--link); text-decoration: underline; cursor: pointer; }
+  .box-btn { margin-top: 5px; font: inherit; font-size: 12px; font-weight: 600; letter-spacing: .5px; text-transform: uppercase; padding: 3px 10px; border-radius: 999px; border: 1px solid var(--link); background: var(--paper); color: var(--link); cursor: pointer; }
+  .box-btn:hover { background: var(--played-bg); }
   .next-badge { display: inline-block; font-size: 11px; font-weight: 600; letter-spacing: 1.5px; text-transform: uppercase; color: var(--navy); background: var(--amber); padding: 2px 8px; border-radius: 3px; margin-left: 8px; vertical-align: middle; }
 
   /* Game rows */
@@ -921,7 +923,8 @@
           <div class="event-body"><ul class="games">${games.map((g) => `<li class="game ${g.result === "W" ? "won" : ""} ${nextKey && gameKey(g) === nextKey ? "next" : ""}">
               <div class="pill ${g.result || "time"}">${g.result || esc(g.day)}</div>
               <div><div class="opp">${/^(winner|loser|seed)/i.test(g.opponent) ? esc(g.opponent) : teamBtn(g.opponent)}${nextKey && gameKey(g) === nextKey ? '<span class="chg-pill next">next</span>' : ""}</div>
-                   <div class="when">${esc(g.section)} G${g.game} · ${esc(g.day)} ${esc(g.time)} · ${fieldHtml(g.field)}</div></div>
+                   <div class="when">${esc(g.section)} G${g.game} · ${esc(g.day)} ${esc(g.time)} · ${fieldHtml(g.field)}</div>
+                   ${g.gc_id ? `<div><button type="button" class="box-btn" data-goto="stats" data-box="${esc(g.gc_id)}">Box score →</button></div>` : ""}</div>
               <div class="score">${g.result ? `${g.rs}–${g.ra}` : `<small>${esc(g.time)}</small>`}</div>
             </li>`).join("")}</ul></div>
           ${bracketsHtml(e.games, games)}
@@ -1095,8 +1098,12 @@
     const go = e.target.closest("[data-goto]");
     if (go) {
       showTab(go.dataset.goto, true);
-      const target = go.dataset.event && document.getElementById("event-" + go.dataset.event);
-      if (target) { target.open = true; target.scrollIntoView({ behavior: "smooth", block: "start" }); } else window.scrollTo({ top: 0, behavior: "smooth" });
+      const target = go.dataset.event ? document.getElementById("event-" + go.dataset.event) : go.dataset.box ? document.getElementById("box-" + go.dataset.box) : null;
+      if (target) {
+        if (target.tagName === "DETAILS") target.open = true;
+        target.querySelectorAll("details.boxscore").forEach((d) => { d.open = true; });
+        target.scrollIntoView({ behavior: "smooth", block: "start" });
+      } else window.scrollTo({ top: 0, behavior: "smooth" });
       return;
     }
     const b = e.target.closest("[data-team]");
@@ -1226,7 +1233,7 @@
           <div class="statbar">${cats.map((c) => `<button type="button" class="tab-pill ${c === cat ? "on" : ""}" data-cat="${c}">${c[0].toUpperCase() + c.slice(1)}</button>`).join("")}<span class="gap"></span>${views.map((v) => `<button type="button" class="tab-pill ${v === view ? "on" : ""}" data-view="${v}">${v[0].toUpperCase() + v.slice(1)}</button>`).join("")}</div>
           ${seasonTable(season[cat] && season[cat][view])}</div></div>` : ""}
         <h2 class="section-title">Box scores <span class="sub">every game, newest first</span></h2>
-        ${games.slice().reverse().map((g) => `<div class="event"><div class="event-body">
+        ${games.slice().reverse().map((g) => `<div class="event" id="box-${esc(g.id)}"><div class="event-body">
           <div class="opp">${g.score ? `<span class="pill ${g.score.team > g.score.opponent_team ? "W" : g.score.team < g.score.opponent_team ? "L" : "T"}" style="display:inline-block;width:36px;margin-right:8px">${g.score.team > g.score.opponent_team ? "W" : g.score.team < g.score.opponent_team ? "L" : "T"}</span>` : ""}${esc(D.team)} ${g.score ? `${g.score.team}–${g.score.opponent_team}` : ""} ${g.home_away === "away" ? "at" : "vs"} ${esc(g.opponent || "")}</div>
           <div class="when">${esc(fmtDate(g.date))}${g.time ? " · " + esc(g.time) : ""}${g.topgun ? ` · ${esc(g.topgun.section)} G${g.topgun.game} · ${esc(tidy(g.topgun.event))}` : " · not matched to a Top Gun game"}</div>
           ${boxScoreHtml(g)}</div></div>`).join("")}
