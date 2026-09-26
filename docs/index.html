@@ -303,8 +303,10 @@
   .chip b { font-weight: 700; }
   .chip.derived { border-style: dashed; }
   .legend { font-size: 12px; color: var(--ink-2); display: inline-flex; align-items: center; gap: 6px; }
-  .hdr-link { margin-top: 10px; font-size: 13px; }
-  .hdr-link a { color: var(--amber); }
+  .hdr-link { margin-top: 12px; display: flex; flex-wrap: wrap; gap: 8px; }
+  .hdr-chip { display: inline-flex; align-items: center; gap: 6px; padding: 6px 12px 6px 9px; border: 1px solid rgba(255,255,255,.35); border-radius: 999px; background: rgba(255,255,255,.08); color: #fff; font-size: 13px; font-weight: 600; text-decoration: none; }
+  .hdr-chip svg { width: 15px; height: 15px; color: var(--amber); flex: 0 0 auto; }
+  .hdr-chip:hover { background: rgba(255,255,255,.16); border-color: rgba(255,255,255,.6); }
   td.team-cell button { background: none; border: 0; padding: 0; font: inherit; color: var(--link); cursor: pointer; text-align: left; }
   td.team-cell button:hover { text-decoration: underline; }
   td.from { color: var(--ink-2); font-size: 13px; }
@@ -542,8 +544,11 @@
     <div class="stat"><b>${R.rs}</b><span>Runs for</span></div>
     <div class="stat"><b>${R.ra}</b><span>Against</span></div>
     ${D.points != null && D.finishes && D.finishes.length ? `<div class="stat"><b>${D.points}</b><span>Points</span></div>` : ""}`;
-  $("#hdr-link").innerHTML = [D.team_url ? `<a href="${esc(D.team_url)}" target="_blank" rel="noopener">${esc(D.team)} on Top Gun ↗</a>` : "",
-    D.tgs_url ? `<a href="${esc(D.tgs_url)}" target="_blank" rel="noopener">Top Gun tournaments ↗</a>` : ""].filter(Boolean).join(" · ");
+  const LINK_ICON = { team: '<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M7 8c3 2 3 6 0 8M17 8c-3 2-3 6 0 8" stroke="currentColor" stroke-width="1.6" fill="none"/></svg>',
+    list: '<svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="17" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M3 9h18M8 2v4M16 2v4" stroke="currentColor" stroke-width="2"/></svg>',
+    gc: '<svg viewBox="0 0 24 24"><path d="M4 17l5-5 4 4 7-8" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><path d="M15 8h5v5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>' };
+  const chipLink = (url, label, icon) => url ? `<a class="hdr-chip" href="${esc(url)}" target="_blank" rel="noopener">${LINK_ICON[icon]}<span>${esc(label)}</span></a>` : "";
+  $("#hdr-link").innerHTML = [chipLink(D.team_url, `${D.team} on Top Gun`, "team"), chipLink(D.tgs_url, "Top Gun tournaments", "list"), chipLink(D.gc_url, "GameChanger", "gc")].join("");
   $("#foot").innerHTML = `Updated ${esc(D.built)}. Scores and schedules from <a href="https://playtopgunsports.com/" target="_blank" rel="noopener">playtopgunsports.com</a>; runs are only counted from games with a posted final.`
     + (D.team_url ? ` <a href="${esc(D.team_url)}" target="_blank" rel="noopener">${esc(D.team)} on Top Gun</a>.` : "")
     + ` Not the official schedule — the TeamReach app is. <a href="#" id="notice-show">Show notice</a>`;

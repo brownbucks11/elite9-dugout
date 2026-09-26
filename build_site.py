@@ -385,6 +385,20 @@ def gc_summary(g):
     }
 
 
+GC_TEAM_URL = "https://web.gc.com/teams/ewJYbRqmr5t1/2026-fall-elite9-9u"
+
+
+def gc_team_url(data_dir):
+    """Our GameChanger team page: from data/gc/stats.json when it's there, else the known URL."""
+    path = data_dir / "gc" / "stats.json"
+    if path.exists():
+        try:
+            return json.loads(path.read_text(encoding="utf-8")).get("team_url") or GC_TEAM_URL
+        except ValueError:
+            pass
+    return GC_TEAM_URL
+
+
 def load_gc_season(data_dir):
     path = data_dir / "gc" / "stats.json"
     if not path.exists():
@@ -787,6 +801,7 @@ def build(events, team, upcoming, year, team_stats=None, today=None, out_dir=Non
         "roster": build_roster(DATA_DIR, mine["page_id"], HERE / "roster.json"),
         "gc": {"games": gc_list, "matched": gc_matched, "season": load_gc_season(DATA_DIR)},
         "tgs_url": TGS_MAIN_URL,
+        "gc_url": ((load_gc_season(DATA_DIR) or {}).get("team_url") if False else None) or gc_team_url(DATA_DIR),
         **season_summary(team_stats.get(mine["page_id"]), derived_for(me, mine)),
     }
 
