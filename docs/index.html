@@ -232,6 +232,7 @@
   .stag.official { background: var(--win); color: #fff; }
   .stag.final { background: var(--tie-bg); color: var(--ink-2); }
   .stag.reg { background: var(--win-bg); color: var(--win); border: 1px solid var(--win); }
+  .stag.confirmed { background: var(--win); color: #fff; }
   article.event.final .event-head { border-bottom: 0; }
   article.event.final .datebox { opacity: .75; }
   .chg { color: var(--loss); }
@@ -572,10 +573,10 @@
 
   // Who's Playing (topgunstats.com): is Elite 9 on the entry list? (counts only, no other team names)
   function regTag(e) {
-    const en = e.entries;
-    if (!en) return "";
-    const t = en.team || {};
-    if (t.entered) return `<span class="stag reg" title="On Top Gun's entry list for ${esc(t.division || D.division)}${t.entered_at ? " since " + esc(fmtSeen(t.entered_at)) : ""}">${t.waitlist ? "Waitlisted" : t.confirmed ? "Registered · confirmed ✓" : "Registered ✓"}</span>`;
+    const en = e.entries, t = (en && en.team) || {};
+    const onList = t.entered ? `On Top Gun's entry list for ${esc(t.division || D.division)}${t.entered_at ? " since " + esc(fmtSeen(t.entered_at)) : ""}` : "";
+    if (e.confirmed) return `<span class="stag confirmed" title="Coach confirmed we're playing${onList ? " · " + onList : ""}">Confirmed ✓</span>`;
+    if (t.entered) return `<span class="stag reg" title="${onList}">${t.waitlist ? "Waitlisted" : t.confirmed ? "Registered · confirmed ✓" : "Registered ✓"}</span>`;
     return "";
   }
   function regMeta(e) {
@@ -662,7 +663,7 @@
           </div>
           ${e.state === "final" ? "" : noticesHtml(e.tgs)}
           ${body}
-          ${e.state === "final" ? "" : `<div class="event-foot">${e.ics ? `<a href="${esc(e.ics)}" download>Add our games to your calendar</a>` : ""}<a href="${esc(e.url)}" target="_blank" rel="noopener">Full schedule &amp; brackets on Top Gun ↗</a>${tgsLink(e.tgs, e.id)}</div>`}
+          ${e.state === "final" ? "" : `<div class="event-foot">${e.ics ? `<a href="${esc(e.ics)}" download title="Events start 45 minutes before first pitch (arrival time)">Add our games to your calendar</a>` : ""}<a href="${esc(e.url)}" target="_blank" rel="noopener">Full schedule &amp; brackets on Top Gun ↗</a>${tgsLink(e.tgs, e.id)}</div>`}
         </article>`;
       }).join("");
   }
@@ -929,7 +930,7 @@
             </li>`).join("")}</ul></div>
           ${bracketsHtml(e.games, games)}
           <details class="inner"><summary>Standings (${e.teams} teams)</summary>${standingsTable(e.standings, seedNote)}</details>
-          <div class="event-foot">${e.ics ? `<a href="${esc(e.ics)}" download>Add our games to your calendar</a>` : ""}<a href="${esc(e.url)}" target="_blank" rel="noopener">Brackets &amp; all games on Top Gun ↗</a>${tgsLink(e.tgs, e.id)}</div>
+          <div class="event-foot">${e.ics ? `<a href="${esc(e.ics)}" download title="Events start 45 minutes before first pitch (arrival time)">Add our games to your calendar</a>` : ""}<a href="${esc(e.url)}" target="_blank" rel="noopener">Brackets &amp; all games on Top Gun ↗</a>${tgsLink(e.tgs, e.id)}</div>
         </details>`;
       }).join("");
   }

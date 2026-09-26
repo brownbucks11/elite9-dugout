@@ -36,15 +36,17 @@ git commit -m "GC stats"
 git push
 ```
 
-### A new tournament is booked
-Add it to `upcoming.json` (Top Gun ID + dates + a short name), then:
+### A tournament is booked / confirmed / the schedule is final
+`tournament.py` edits `upcoming.json` and pushes it for you (the site rebuilds in a couple of minutes):
 ```
-git add upcoming.json
-git commit -m "Add Oct 31 tournament"
-git push
+python tournament.py --list
+python tournament.py --add 12530 "October 31 - November 1 in Greater Charlotte Area, NC" "Halloween Havoc"
+python tournament.py 12521 --confirmed      # coach confirmed we're playing  -> green "Confirmed" tag
+python tournament.py 12521 --official       # coach posted the final schedule -> "Official (per coach)"
+python tournament.py 12521 --not-confirmed  # undo (also --not-official, --remove ID)
 ```
-When the coach posts the final schedule, add `"official": true` to that event and push again —
-the card flips from "Tentative" to "Official (per coach)".
+"Registered" (from Top Gun's entry list) is automatic; "Confirmed" is yours. Calendar events
+start 45 minutes before first pitch (arrival time) with the game time in the title.
 
 ### Roster change
 Numbers and nicknames live in `roster.json`; players and their status come from Top Gun's Players

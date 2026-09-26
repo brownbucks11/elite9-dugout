@@ -235,6 +235,9 @@ def ics_escape(t):
     return str(t or "").replace("\\", "\\\\").replace(";", "\\;").replace(",", "\\,").replace("\n", "\\n")
 
 
+ARRIVE_MINUTES = 45   # be at the field this long before first pitch; calendar events start then
+
+
 def write_ics(out_dir, tid, ev_name, team, mine, fields, tentative):
     """docs/ics/<id>.ics with our games, so a parent can add the weekend to their phone calendar."""
     games = [g for g in mine if g["date"] and g["time"]]
@@ -248,17 +251,19 @@ def write_ics(out_dir, tid, ev_name, team, mine, fields, tentative):
             start = datetime.strptime(f"{g['date']} {g['time'].strip().upper()}", "%Y-%m-%d %I:%M %p")
         except ValueError:
             continue
+        arrive = start - timedelta(minutes=ARRIVE_MINUTES)
         end = start + timedelta(minutes=105)
         abbr = (g["field"] or "").split(":")[0].strip()
         sub = (g["field"] or "").split(":")[1].strip() if ":" in (g["field"] or "") else ""
         cx = fields.get(abbr, {})
         loc = ", ".join(x for x in (f"{cx.get('name', abbr)} {sub}".strip(), cx.get("address", "")) if x)
         opp = g["opponent"] if not is_placeholder(g["opponent"]) else "TBD"
-        desc = f"{ev_name}. {g['section']} game {g['game']}." + (" Tentative: Top Gun schedules change during the week - the coach's TeamReach post is official." if tentative else "")
+        gt = start.strftime("%I:%M %p").lstrip("0")
+        desc = f"Game time {gt} - be at the field by {arrive.strftime('%I:%M %p').lstrip('0')}. {ev_name}. {g['section']} game {g['game']}." + (" Tentative: Top Gun schedules change during the week - the coach's TeamReach post is official." if tentative else "")
         lines += ["BEGIN:VEVENT", f"UID:e9-{tid}-{re.sub(r'[^a-z0-9]', '', g['section'].lower())}-{g['game']}@elite9dugout",
-                  f"DTSTAMP:{stamp}", f"DTSTART;TZID=America/New_York:{start.strftime('%Y%m%dT%H%M%S')}",
+                  f"DTSTAMP:{stamp}", f"DTSTART;TZID=America/New_York:{arrive.strftime('%Y%m%dT%H%M%S')}",
                   f"DTEND;TZID=America/New_York:{end.strftime('%Y%m%dT%H%M%S')}",
-                  f"SUMMARY:{ics_escape(team)} vs {ics_escape(opp)}", f"LOCATION:{ics_escape(loc)}",
+                  f"SUMMARY:{ics_escape(team)} vs {ics_escape(opp)} - game {gt} (be there {arrive.strftime('%I:%M %p').lstrip('0')})", f"LOCATION:{ics_escape(loc)}",
                   f"DESCRIPTION:{ics_escape(desc)}", "END:VEVENT"]
     lines.append("END:VCALENDAR")
     ics_dir = out_dir / "ics"
@@ -707,7 +712,7 @@ def build(events, team, upcoming, year, team_stats=None, today=None, out_dir=Non
                        "w": sum(1 for g in mine_games if g["result"] == "W"), "l": sum(1 for g in mine_games if g["result"] == "L")}
         hist = update_schedule_history(DATA_DIR, tid, mine_games, state, now) if mine_games and state != "final" else {"versions": []}
         upcoming_out.append({
-            "id": tid, "state": state, "official": bool(u.get("official")), "summary": summary,
+            "id": tid, "state": state, "official": bool(u.get("official")), "confirmed": bool(u.get("confirmed")), "summary": summary,
             "entries": load_entries(DATA_DIR, tid, args_division_holder[0]) if state != "final" else None,
             "tgs": load_tgs(DATA_DIR, tid),
             "name": (ev and ev["name"]) or u.get("name") or f"Tournament {tid}",
