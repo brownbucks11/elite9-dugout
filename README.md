@@ -60,6 +60,24 @@ with its finish, linking to Results).
 A `.ics` calendar file of our games is written to `docs/ics/<id>.ics` for scheduled and live
 events. `python build_site.py --today 2026-09-26` previews the page as of another date.
 
+## GameChanger stats (unlisted #stats page)
+GameChanger's sign-in refuses automated browsers, so the reader attaches to a real Chrome window
+that you sign into yourself. Nothing here runs on the GitHub bot; your login never leaves your PC.
+
+After each weekend:
+    1. Double-click start_gc_chrome.cmd   (opens a separate Chrome window; sign in to web.gc.com
+       the first time - it stays signed in; profile lives in local\chrome-gc, gitignored)
+    2. python gc_stats.py --cdp            (reads the schedule + every new box score and the season
+       tables into data/gc/; add --refresh to re-read games GameChanger may have corrected)
+    3. git add data/gc && git commit -m "GC stats" && git push
+
+The site rebuilds and the data shows on https://brownbucks11.github.io/elite9-dugout/#stats -
+season tables, every box score (our players as first name + last initial, opponents as totals),
+and a check of box-score sums against GameChanger's season totals. That page is not linked from
+the tabs. Useful flags: --games-only, --season-only, --rebuild (rebuild data/gc/games.json from the
+raw captures in local/gc/ without fetching). If it says it cannot attach on port 9222, the Chrome
+window from the shortcut is not running.
+
 ## Hosting on GitHub Pages
 1. Push this folder to a GitHub repo (public is simplest; Actions minutes are free there).
 2. Repo Settings -> Pages -> Source: "Deploy from a branch", branch `main`, folder `/docs`.
