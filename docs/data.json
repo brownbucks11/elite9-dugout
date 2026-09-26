@@ -3,13 +3,13 @@
  "location": "Rock Hill, SC",
  "page_id": 31407,
  "team_url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=31407",
- "built": "Sat Sep 26, 2026 11:01 AM",
+ "built": "Sat Sep 26, 2026 01:44 PM",
  "record": {
-  "w": 1,
+  "w": 2,
   "l": 5,
   "t": 0,
-  "rs": 28,
-  "ra": 52
+  "rs": 40,
+  "ra": 59
  },
  "my_games": [
   {
@@ -112,9 +112,9 @@
    "section": "Pool Play",
    "game": 6,
    "opponent": "LKN Kingdom",
-   "rs": null,
-   "ra": null,
-   "result": null,
+   "rs": 12,
+   "ra": 7,
+   "result": "W",
    "gc_id": null
   }
  ],
@@ -1181,49 +1181,36 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-09-26T10:53",
+    "fetched_at": "2026-09-26T13:44",
     "url": "https://topgunstats.com/whos-playing/12518"
    },
-   "next_game": {
-    "event_id": 12518,
-    "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-    "date": "2026-09-26",
-    "day": "Sat",
-    "time": "10:45 AM",
-    "field": "Poston:Field # 2",
-    "section": "Pool Play",
-    "game": 6,
-    "opponent": "LKN Kingdom",
-    "rs": null,
-    "ra": null,
-    "result": null,
-    "gc_id": null
-   },
+   "next_game": null,
    "ics": "ics/12518.ics",
    "standing": {
     "team": "Elite 9",
     "location": "Rock Hill, SC",
-    "rank": 3,
+    "rank": 5,
     "tiebreak": "runs allowed",
     "h2h": {
-     "LKN Bolts": "L"
+     "LKN Bolts": "L",
+     "LKN Kingdom": "W"
     },
     "last": {
-     "opponent": "LKN Bolts",
-     "rs": 3,
-     "ra": 8
+     "opponent": "LKN Kingdom",
+     "rs": 12,
+     "ra": 7
     },
-    "pool_w": 0,
+    "pool_w": 1,
     "pool_l": 1,
     "pool_t": 0,
-    "pool_rs": 3,
-    "pool_ra": 8,
+    "pool_rs": 15,
+    "pool_ra": 15,
     "seed": null,
     "bracket": null,
-    "won": 0,
+    "won": 1,
     "lost": 1,
-    "rs": 3,
-    "ra": 8,
+    "rs": 15,
+    "ra": 15,
     "bracket_games": []
    },
    "standings": [
@@ -1233,104 +1220,260 @@
      "rank": 1,
      "tiebreak": "runs allowed",
      "h2h": {
-      "Elite 9": "W"
+      "Elite 9": "W",
+      "Carolina Royals 9Uw": "W"
      },
      "last": {
-      "opponent": "Elite 9",
-      "rs": 8,
-      "ra": 3
+      "opponent": "Carolina Royals 9Uw",
+      "rs": 16,
+      "ra": 4
      },
-     "pool_w": 1,
+     "pool_w": 2,
      "pool_l": 0,
      "pool_t": 0,
-     "pool_rs": 8,
-     "pool_ra": 3,
+     "pool_rs": 24,
+     "pool_ra": 7,
      "seed": null,
      "bracket": null,
-     "won": 1,
+     "won": 2,
      "lost": 0,
-     "rs": 8,
-     "ra": 3
+     "rs": 24,
+     "ra": 7
     },
     {
-     "team": "Carolina Royals 9Uw",
-     "location": "Gastonia, NC",
+     "team": "ROCO Dirtbagz",
+     "location": "Forest City, NC",
      "rank": 2,
      "tiebreak": "runs allowed",
      "h2h": {
-      "LKN Kingdom": "W"
+      "Dirtbags Baseball ESB": "W",
+      "LumberJacks": "W"
      },
      "last": {
-      "opponent": "LKN Kingdom",
-      "rs": 14,
-      "ra": 8
+      "opponent": "LumberJacks",
+      "rs": 13,
+      "ra": 7
+     },
+     "pool_w": 2,
+     "pool_l": 0,
+     "pool_t": 0,
+     "pool_rs": 26,
+     "pool_ra": 8,
+     "seed": null,
+     "bracket": null,
+     "won": 2,
+     "lost": 0,
+     "rs": 26,
+     "ra": 8
+    },
+    {
+     "team": "Lake Wylie Venom",
+     "location": "Lake Wylie, SC",
+     "rank": 3,
+     "tiebreak": "runs allowed",
+     "h2h": {
+      "Red Clay Athletics 9U Darcangelo": "W"
+     },
+     "last": {
+      "opponent": "Red Clay Athletics 9U Darcangelo",
+      "rs": 12,
+      "ra": 11
      },
      "pool_w": 1,
      "pool_l": 0,
      "pool_t": 0,
-     "pool_rs": 14,
-     "pool_ra": 8,
+     "pool_rs": 12,
+     "pool_ra": 11,
      "seed": null,
      "bracket": null,
      "won": 1,
      "lost": 0,
-     "rs": 14,
-     "ra": 8
+     "rs": 12,
+     "ra": 11
     },
     {
-     "team": "Elite 9",
-     "location": "Rock Hill, SC",
-     "rank": 3,
-     "tiebreak": "runs allowed",
-     "h2h": {
-      "LKN Bolts": "L"
-     },
-     "last": {
-      "opponent": "LKN Bolts",
-      "rs": 3,
-      "ra": 8
-     },
-     "pool_w": 0,
-     "pool_l": 1,
-     "pool_t": 0,
-     "pool_rs": 3,
-     "pool_ra": 8,
-     "seed": null,
-     "bracket": null,
-     "won": 0,
-     "lost": 1,
-     "rs": 3,
-     "ra": 8
-    },
-    {
-     "team": "LKN Kingdom",
+     "team": "Red Clay Athletics 9U Darcangelo",
      "location": "Charlotte, NC",
      "rank": 4,
      "tiebreak": "runs allowed",
      "h2h": {
-      "Carolina Royals 9Uw": "L"
+      "Carolina Forge 9U": "W",
+      "Lake Wylie Venom": "L"
      },
      "last": {
-      "opponent": "Carolina Royals 9Uw",
-      "rs": 8,
-      "ra": 14
+      "opponent": "Lake Wylie Venom",
+      "rs": 11,
+      "ra": 12
+     },
+     "pool_w": 1,
+     "pool_l": 1,
+     "pool_t": 0,
+     "pool_rs": 29,
+     "pool_ra": 13,
+     "seed": null,
+     "bracket": null,
+     "won": 1,
+     "lost": 1,
+     "rs": 29,
+     "ra": 13
+    },
+    {
+     "team": "Elite 9",
+     "location": "Rock Hill, SC",
+     "rank": 5,
+     "tiebreak": "runs allowed",
+     "h2h": {
+      "LKN Bolts": "L",
+      "LKN Kingdom": "W"
+     },
+     "last": {
+      "opponent": "LKN Kingdom",
+      "rs": 12,
+      "ra": 7
+     },
+     "pool_w": 1,
+     "pool_l": 1,
+     "pool_t": 0,
+     "pool_rs": 15,
+     "pool_ra": 15,
+     "seed": null,
+     "bracket": null,
+     "won": 1,
+     "lost": 1,
+     "rs": 15,
+     "ra": 15
+    },
+    {
+     "team": "Carolina Royals 9Uw",
+     "location": "Gastonia, NC",
+     "rank": 6,
+     "tiebreak": "runs allowed",
+     "h2h": {
+      "LKN Kingdom": "W",
+      "LKN Bolts": "L"
+     },
+     "last": {
+      "opponent": "LKN Bolts",
+      "rs": 4,
+      "ra": 16
+     },
+     "pool_w": 1,
+     "pool_l": 1,
+     "pool_t": 0,
+     "pool_rs": 18,
+     "pool_ra": 24,
+     "seed": null,
+     "bracket": null,
+     "won": 1,
+     "lost": 1,
+     "rs": 18,
+     "ra": 24
+    },
+    {
+     "team": "LumberJacks",
+     "location": "Gaston County, NC",
+     "rank": 7,
+     "tiebreak": "runs scored",
+     "h2h": {
+      "ROCO Dirtbagz": "L"
+     },
+     "last": {
+      "opponent": "ROCO Dirtbagz",
+      "rs": 7,
+      "ra": 13
      },
      "pool_w": 0,
      "pool_l": 1,
      "pool_t": 0,
-     "pool_rs": 8,
-     "pool_ra": 14,
+     "pool_rs": 7,
+     "pool_ra": 13,
      "seed": null,
      "bracket": null,
      "won": 0,
      "lost": 1,
-     "rs": 8,
-     "ra": 14
+     "rs": 7,
+     "ra": 13
+    },
+    {
+     "team": "Dirtbags Baseball ESB",
+     "location": "Lincolnton, NC",
+     "rank": 8,
+     "tiebreak": "runs scored",
+     "h2h": {
+      "ROCO Dirtbagz": "L"
+     },
+     "last": {
+      "opponent": "ROCO Dirtbagz",
+      "rs": 1,
+      "ra": 13
+     },
+     "pool_w": 0,
+     "pool_l": 1,
+     "pool_t": 0,
+     "pool_rs": 1,
+     "pool_ra": 13,
+     "seed": null,
+     "bracket": null,
+     "won": 0,
+     "lost": 1,
+     "rs": 1,
+     "ra": 13
+    },
+    {
+     "team": "Carolina Forge 9U",
+     "location": "Gastonia, NC",
+     "rank": 9,
+     "tiebreak": "runs allowed",
+     "h2h": {
+      "Red Clay Athletics 9U Darcangelo": "L"
+     },
+     "last": {
+      "opponent": "Red Clay Athletics 9U Darcangelo",
+      "rs": 1,
+      "ra": 18
+     },
+     "pool_w": 0,
+     "pool_l": 1,
+     "pool_t": 0,
+     "pool_rs": 1,
+     "pool_ra": 18,
+     "seed": null,
+     "bracket": null,
+     "won": 0,
+     "lost": 1,
+     "rs": 1,
+     "ra": 18
+    },
+    {
+     "team": "LKN Kingdom",
+     "location": "Charlotte, NC",
+     "rank": 10,
+     "tiebreak": "runs allowed",
+     "h2h": {
+      "Carolina Royals 9Uw": "L",
+      "Elite 9": "L"
+     },
+     "last": {
+      "opponent": "Elite 9",
+      "rs": 7,
+      "ra": 12
+     },
+     "pool_w": 0,
+     "pool_l": 2,
+     "pool_t": 0,
+     "pool_rs": 15,
+     "pool_ra": 26,
+     "seed": null,
+     "bracket": null,
+     "won": 0,
+     "lost": 2,
+     "rs": 15,
+     "ra": 26
     },
     {
      "team": "BOILING SPRINGS BULLDOGS BASEBALL 8u",
      "location": "Boiling Springs, NC",
-     "rank": 6,
+     "rank": 12,
      "tiebreak": "coin flip (unresolved)",
      "h2h": {},
      "last": null,
@@ -1349,26 +1492,7 @@
     {
      "team": "Carolina Firebirds-Red",
      "location": "Winston Salem, NC",
-     "rank": 7,
-     "tiebreak": "coin flip (unresolved)",
-     "h2h": {},
-     "last": null,
-     "pool_w": 0,
-     "pool_l": 0,
-     "pool_t": 0,
-     "pool_rs": 0,
-     "pool_ra": 0,
-     "seed": null,
-     "bracket": null,
-     "won": 0,
-     "lost": 0,
-     "rs": 0,
-     "ra": 0
-    },
-    {
-     "team": "Carolina Forge 9U",
-     "location": "Gastonia, NC",
-     "rank": 8,
+     "rank": 13,
      "tiebreak": "coin flip (unresolved)",
      "h2h": {},
      "last": null,
@@ -1387,45 +1511,7 @@
     {
      "team": "Carolina Trash Pandas",
      "location": "Locust, NC",
-     "rank": 9,
-     "tiebreak": "coin flip (unresolved)",
-     "h2h": {},
-     "last": null,
-     "pool_w": 0,
-     "pool_l": 0,
-     "pool_t": 0,
-     "pool_rs": 0,
-     "pool_ra": 0,
-     "seed": null,
-     "bracket": null,
-     "won": 0,
-     "lost": 0,
-     "rs": 0,
-     "ra": 0
-    },
-    {
-     "team": "Dirtbags Baseball ESB",
-     "location": "Lincolnton, NC",
-     "rank": 10,
-     "tiebreak": "coin flip (unresolved)",
-     "h2h": {},
-     "last": null,
-     "pool_w": 0,
-     "pool_l": 0,
-     "pool_t": 0,
-     "pool_rs": 0,
-     "pool_ra": 0,
-     "seed": null,
-     "bracket": null,
-     "won": 0,
-     "lost": 0,
-     "rs": 0,
-     "ra": 0
-    },
-    {
-     "team": "Lake Wylie Venom",
-     "location": "Lake Wylie, SC",
-     "rank": 11,
+     "rank": 14,
      "tiebreak": "coin flip (unresolved)",
      "h2h": {},
      "last": null,
@@ -1444,26 +1530,7 @@
     {
      "team": "Legacy Baseball 9U - WHITE",
      "location": "Fort Mill, SC",
-     "rank": 12,
-     "tiebreak": "coin flip (unresolved)",
-     "h2h": {},
-     "last": null,
-     "pool_w": 0,
-     "pool_l": 0,
-     "pool_t": 0,
-     "pool_rs": 0,
-     "pool_ra": 0,
-     "seed": null,
-     "bracket": null,
-     "won": 0,
-     "lost": 0,
-     "rs": 0,
-     "ra": 0
-    },
-    {
-     "team": "LumberJacks",
-     "location": "Gaston County, NC",
-     "rank": 13,
+     "rank": 15,
      "tiebreak": "coin flip (unresolved)",
      "h2h": {},
      "last": null,
@@ -1482,26 +1549,7 @@
     {
      "team": "PeeDee Mudcats",
      "location": "Wadesboro, NC",
-     "rank": 14,
-     "tiebreak": "coin flip (unresolved)",
-     "h2h": {},
-     "last": null,
-     "pool_w": 0,
-     "pool_l": 0,
-     "pool_t": 0,
-     "pool_rs": 0,
-     "pool_ra": 0,
-     "seed": null,
-     "bracket": null,
-     "won": 0,
-     "lost": 0,
-     "rs": 0,
-     "ra": 0
-    },
-    {
-     "team": "Red Clay Athletics 9U Darcangelo",
-     "location": "Charlotte, NC",
-     "rank": 15,
+     "rank": 16,
      "tiebreak": "coin flip (unresolved)",
      "h2h": {},
      "last": null,
@@ -1520,25 +1568,6 @@
     {
      "team": "Rock Hill 9U Baseball",
      "location": "Rock Hill, SC",
-     "rank": 16,
-     "tiebreak": "coin flip (unresolved)",
-     "h2h": {},
-     "last": null,
-     "pool_w": 0,
-     "pool_l": 0,
-     "pool_t": 0,
-     "pool_rs": 0,
-     "pool_ra": 0,
-     "seed": null,
-     "bracket": null,
-     "won": 0,
-     "lost": 0,
-     "rs": 0,
-     "ra": 0
-    },
-    {
-     "team": "ROCO Dirtbagz",
-     "location": "Forest City, NC",
      "rank": 17,
      "tiebreak": "coin flip (unresolved)",
      "h2h": {},
@@ -1655,11 +1684,11 @@
      "field": "Poston:Field # 4",
      "team_a": "Red Clay Athletics 9U Darcangelo",
      "seed_a": null,
-     "score_a": null,
+     "score_a": 18,
      "from_a": null,
      "team_b": "Carolina Forge 9U",
      "seed_b": null,
-     "score_b": null,
+     "score_b": 1,
      "from_b": null
     },
     {
@@ -1671,11 +1700,11 @@
      "field": "Shelby:Field # 1",
      "team_a": "ROCO Dirtbagz",
      "seed_a": null,
-     "score_a": null,
+     "score_a": 13,
      "from_a": null,
      "team_b": "Dirtbags Baseball ESB",
      "seed_b": null,
-     "score_b": null,
+     "score_b": 1,
      "from_b": null
     },
     {
@@ -1687,11 +1716,11 @@
      "field": "Poston:Field # 1",
      "team_a": "LKN Bolts",
      "seed_a": null,
-     "score_a": null,
+     "score_a": 16,
      "from_a": null,
      "team_b": "Carolina Royals 9Uw",
      "seed_b": null,
-     "score_b": null,
+     "score_b": 4,
      "from_b": null
     },
     {
@@ -1703,11 +1732,11 @@
      "field": "Poston:Field # 2",
      "team_a": "LKN Kingdom",
      "seed_a": null,
-     "score_a": null,
+     "score_a": 7,
      "from_a": null,
      "team_b": "Elite 9",
      "seed_b": null,
-     "score_b": null,
+     "score_b": 12,
      "from_b": null
     },
     {
@@ -1719,11 +1748,11 @@
      "field": "Poston:Field # 4",
      "team_a": "Red Clay Athletics 9U Darcangelo",
      "seed_a": null,
-     "score_a": null,
+     "score_a": 11,
      "from_a": null,
      "team_b": "Lake Wylie Venom",
      "seed_b": null,
-     "score_b": null,
+     "score_b": 12,
      "from_b": null
     },
     {
@@ -1735,11 +1764,11 @@
      "field": "Shelby:Field # 1",
      "team_a": "ROCO Dirtbagz",
      "seed_a": null,
-     "score_a": null,
+     "score_a": 13,
      "from_a": null,
      "team_b": "LumberJacks",
      "seed_b": null,
-     "score_b": null,
+     "score_b": 7,
      "from_b": null
     },
     {
@@ -3020,13 +3049,13 @@
    "state": "live",
    "official": false,
    "summary": {
-    "rank": 3,
+    "rank": 5,
     "teams": 19,
-    "pool": "0-1",
+    "pool": "1-1",
     "bracket": null,
     "seed": null,
     "bracket_games": [],
-    "w": 0,
+    "w": 1,
     "l": 1
    },
    "entries": {
@@ -3042,7 +3071,7 @@
      "entered_at": "2026-09-17T10:03:30.533Z",
      "level": "AA"
     },
-    "fetched_at": "2026-09-26T10:53"
+    "fetched_at": "2026-09-26T13:44"
    },
    "tgs": {
     "weather": null,
@@ -3167,7 +3196,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-09-26T10:53",
+    "fetched_at": "2026-09-26T13:44",
     "url": "https://topgunstats.com/whos-playing/12518"
    },
    "name": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
@@ -3217,11 +3246,11 @@
      "field": "Poston:Field # 4",
      "team_a": "Red Clay Athletics 9U Darcangelo",
      "seed_a": null,
-     "score_a": null,
+     "score_a": 18,
      "from_a": null,
      "team_b": "Carolina Forge 9U",
      "seed_b": null,
-     "score_b": null,
+     "score_b": 1,
      "from_b": null
     },
     {
@@ -3233,11 +3262,11 @@
      "field": "Shelby:Field # 1",
      "team_a": "ROCO Dirtbagz",
      "seed_a": null,
-     "score_a": null,
+     "score_a": 13,
      "from_a": null,
      "team_b": "Dirtbags Baseball ESB",
      "seed_b": null,
-     "score_b": null,
+     "score_b": 1,
      "from_b": null
     },
     {
@@ -3249,11 +3278,11 @@
      "field": "Poston:Field # 1",
      "team_a": "LKN Bolts",
      "seed_a": null,
-     "score_a": null,
+     "score_a": 16,
      "from_a": null,
      "team_b": "Carolina Royals 9Uw",
      "seed_b": null,
-     "score_b": null,
+     "score_b": 4,
      "from_b": null
     },
     {
@@ -3265,11 +3294,11 @@
      "field": "Poston:Field # 2",
      "team_a": "LKN Kingdom",
      "seed_a": null,
-     "score_a": null,
+     "score_a": 7,
      "from_a": null,
      "team_b": "Elite 9",
      "seed_b": null,
-     "score_b": null,
+     "score_b": 12,
      "from_b": null
     },
     {
@@ -3281,11 +3310,11 @@
      "field": "Poston:Field # 4",
      "team_a": "Red Clay Athletics 9U Darcangelo",
      "seed_a": null,
-     "score_a": null,
+     "score_a": 11,
      "from_a": null,
      "team_b": "Lake Wylie Venom",
      "seed_b": null,
-     "score_b": null,
+     "score_b": 12,
      "from_b": null
     },
     {
@@ -3297,11 +3326,11 @@
      "field": "Shelby:Field # 1",
      "team_a": "ROCO Dirtbagz",
      "seed_a": null,
-     "score_a": null,
+     "score_a": 13,
      "from_a": null,
      "team_b": "LumberJacks",
      "seed_b": null,
-     "score_b": null,
+     "score_b": 7,
      "from_b": null
     },
     {
@@ -3838,10 +3867,10 @@
      "seed": 1,
      "team": "ROCO Dirtbagz",
      "location": "Forest City, NC",
-     "won": 0,
+     "won": 2,
      "lost": 0,
-     "runs_allowed": 0,
-     "runs_scored": 0,
+     "runs_allowed": 8,
+     "runs_scored": 26,
      "team_page_id": null
     },
     {
@@ -3868,20 +3897,20 @@
      "seed": 4,
      "team": "LKN Bolts",
      "location": "Huntersville, NC",
-     "won": 1,
+     "won": 2,
      "lost": 0,
-     "runs_allowed": 3,
-     "runs_scored": 8,
+     "runs_allowed": 7,
+     "runs_scored": 24,
      "team_page_id": null
     },
     {
      "seed": 5,
      "team": "Elite 9",
      "location": "Rock Hill, SC",
-     "won": 0,
+     "won": 1,
      "lost": 1,
-     "runs_allowed": 8,
-     "runs_scored": 3,
+     "runs_allowed": 15,
+     "runs_scored": 15,
      "team_page_id": null
     },
     {
@@ -3898,10 +3927,10 @@
      "seed": 7,
      "team": "Lake Wylie Venom",
      "location": "Lake Wylie, SC",
-     "won": 0,
+     "won": 1,
      "lost": 0,
-     "runs_allowed": 0,
-     "runs_scored": 0,
+     "runs_allowed": 11,
+     "runs_scored": 12,
      "team_page_id": null
     },
     {
@@ -3919,9 +3948,9 @@
      "team": "LumberJacks",
      "location": "Gaston County, NC",
      "won": 0,
-     "lost": 0,
-     "runs_allowed": 0,
-     "runs_scored": 0,
+     "lost": 1,
+     "runs_allowed": 13,
+     "runs_scored": 7,
      "team_page_id": null
     },
     {
@@ -3968,10 +3997,10 @@
      "seed": 14,
      "team": "Red Clay Athletics 9U Darcangelo",
      "location": "Charlotte, NC",
-     "won": 0,
-     "lost": 0,
-     "runs_allowed": 0,
-     "runs_scored": 0,
+     "won": 1,
+     "lost": 1,
+     "runs_allowed": 13,
+     "runs_scored": 29,
      "team_page_id": null
     },
     {
@@ -3979,9 +4008,9 @@
      "team": "Dirtbags Baseball ESB",
      "location": "Lincolnton, NC",
      "won": 0,
-     "lost": 0,
-     "runs_allowed": 0,
-     "runs_scored": 0,
+     "lost": 1,
+     "runs_allowed": 13,
+     "runs_scored": 1,
      "team_page_id": null
     },
     {
@@ -3999,9 +4028,9 @@
      "team": "LKN Kingdom",
      "location": "Charlotte, NC",
      "won": 0,
-     "lost": 1,
-     "runs_allowed": 14,
-     "runs_scored": 8,
+     "lost": 2,
+     "runs_allowed": 26,
+     "runs_scored": 15,
      "team_page_id": null
     },
     {
@@ -4009,9 +4038,9 @@
      "team": "Carolina Royals 9Uw",
      "location": "Gastonia, NC",
      "won": 1,
-     "lost": 0,
-     "runs_allowed": 8,
-     "runs_scored": 14,
+     "lost": 1,
+     "runs_allowed": 24,
+     "runs_scored": 18,
      "team_page_id": null
     },
     {
@@ -4019,9 +4048,9 @@
      "team": "Carolina Forge 9U",
      "location": "Gastonia, NC",
      "won": 0,
-     "lost": 0,
-     "runs_allowed": 0,
-     "runs_scored": 0,
+     "lost": 1,
+     "runs_allowed": 18,
+     "runs_scored": 1,
      "team_page_id": null
     }
    ],
@@ -4051,27 +4080,13 @@
      "section": "Pool Play",
      "game": 6,
      "opponent": "LKN Kingdom",
-     "rs": null,
-     "ra": null,
-     "result": null,
+     "rs": 12,
+     "ra": 7,
+     "result": "W",
      "gc_id": null
     }
    ],
-   "next_game": {
-    "event_id": 12518,
-    "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-    "date": "2026-09-26",
-    "day": "Sat",
-    "time": "10:45 AM",
-    "field": "Poston:Field # 2",
-    "section": "Pool Play",
-    "game": 6,
-    "opponent": "LKN Kingdom",
-    "rs": null,
-    "ra": null,
-    "result": null,
-    "gc_id": null
-   },
+   "next_game": null,
    "schedule_versions": 1,
    "schedule_first": "2026-09-24T14:51",
    "schedule_updated": "2026-09-24T14:51",
@@ -4091,7 +4106,7 @@
     "team": {
      "entered": false
     },
-    "fetched_at": "2026-09-26T10:53"
+    "fetched_at": "2026-09-26T13:44"
    },
    "tgs": {
     "weather": null,
@@ -4169,7 +4184,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-09-26T10:53",
+    "fetched_at": "2026-09-26T13:44",
     "url": "https://topgunstats.com/whos-playing/12521"
    },
    "name": "Triple points Super Regional",
@@ -4205,7 +4220,7 @@
      "entered_at": "2026-06-08T12:01:08.307Z",
      "level": "AA"
     },
-    "fetched_at": "2026-09-26T10:53"
+    "fetched_at": "2026-09-26T13:44"
    },
    "tgs": {
     "weather": null,
@@ -4287,7 +4302,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-09-26T10:53",
+    "fetched_at": "2026-09-26T13:44",
     "url": "https://topgunstats.com/whos-playing/12522"
    },
    "name": "Southeastern Winter World Series",
@@ -4318,7 +4333,7 @@
     "team": {
      "entered": false
     },
-    "fetched_at": "2026-09-26T10:53"
+    "fetched_at": "2026-09-26T13:44"
    },
    "tgs": {
     "weather": null,
@@ -4371,7 +4386,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-09-26T10:53",
+    "fetched_at": "2026-09-26T13:44",
     "url": "https://topgunstats.com/whos-playing/12524"
    },
    "name": "Road Runner vs Coyote ring weekend",
@@ -4538,37 +4553,6 @@
    ],
    "season": "08/01/2026 - 09/26/2026",
    "stats_fetched": "2026-09-26T11:00"
-  },
-  {
-   "team": "Carolina Royals 9Uw",
-   "location": "Gastonia, NC",
-   "page_id": null,
-   "url": null,
-   "w": 1,
-   "l": 0,
-   "t": 0,
-   "rs": 14,
-   "ra": 8,
-   "diff": 6,
-   "pct": 1.0,
-   "events": 1,
-   "log": [
-    {
-     "date": "2026-09-26",
-     "event_id": 12518,
-     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "section": "Pool Play",
-     "opponent": "LKN Kingdom",
-     "rs": 14,
-     "ra": 8,
-     "result": "W"
-    }
-   ],
-   "points": 0,
-   "titles": 0,
-   "finishes": [],
-   "season": "",
-   "stats_fetched": null
   },
   {
    "team": "Carolina Clippers 9U",
@@ -4931,6 +4915,142 @@
    "stats_fetched": "2026-09-26T10:54"
   },
   {
+   "team": "LKN Bolts",
+   "location": "Huntersville, NC",
+   "page_id": 32916,
+   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=32916",
+   "w": 7,
+   "l": 2,
+   "t": 0,
+   "rs": 97,
+   "ra": 70,
+   "diff": 27,
+   "pct": 0.778,
+   "events": 3,
+   "log": [
+    {
+     "date": "2026-08-29",
+     "event_id": 12514,
+     "event": "FENCE BUDDIES CHAMPIONSHIPS----- TOP GUN-USA SPORTS EVENT",
+     "section": "Pool Play",
+     "opponent": "South Charlotte Revolution 9U",
+     "rs": 5,
+     "ra": 25,
+     "result": "L"
+    },
+    {
+     "date": "2026-08-29",
+     "event_id": 12514,
+     "event": "FENCE BUDDIES CHAMPIONSHIPS----- TOP GUN-USA SPORTS EVENT",
+     "section": "Pool Play",
+     "opponent": "NL Destroyers 2036",
+     "rs": 17,
+     "ra": 10,
+     "result": "W"
+    },
+    {
+     "date": "2026-08-30",
+     "event_id": 12514,
+     "event": "FENCE BUDDIES CHAMPIONSHIPS----- TOP GUN-USA SPORTS EVENT",
+     "section": "Silver Bracket",
+     "opponent": "KnuckleheadsCBC",
+     "rs": 13,
+     "ra": 5,
+     "result": "W"
+    },
+    {
+     "date": "2026-08-30",
+     "event_id": 12514,
+     "event": "FENCE BUDDIES CHAMPIONSHIPS----- TOP GUN-USA SPORTS EVENT",
+     "section": "Silver Bracket",
+     "opponent": "Legacy Baseball 9U RED",
+     "rs": 9,
+     "ra": 5,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-12",
+     "event_id": 12516,
+     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
+     "section": "Pool Play",
+     "opponent": "Concord Athletics -9U",
+     "rs": 15,
+     "ra": 4,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-13",
+     "event_id": 12516,
+     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
+     "section": "Gold Bracket",
+     "opponent": "Copperheads",
+     "rs": 9,
+     "ra": 1,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-13",
+     "event_id": 12516,
+     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
+     "section": "Gold Bracket",
+     "opponent": "Dirtbags Baseball ESB",
+     "rs": 5,
+     "ra": 13,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-26",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Pool Play",
+     "opponent": "Elite 9",
+     "rs": 8,
+     "ra": 3,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-26",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Pool Play",
+     "opponent": "Carolina Royals 9Uw",
+     "rs": 16,
+     "ra": 4,
+     "result": "W"
+    }
+   ],
+   "points": 975,
+   "titles": 1,
+   "finishes": [
+    {
+     "date": "2026-08-29",
+     "name": "FENCE BUDDIES CHAMPIONSHIPS----- TOP GUN-USA SPORTS EVENT",
+     "won": 3,
+     "lost": 1,
+     "standing": "1st (Silver)",
+     "points": 300
+    },
+    {
+     "date": "2026-09-12",
+     "name": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
+     "won": 2,
+     "lost": 1,
+     "standing": "2nd (Gold)",
+     "points": 675
+    },
+    {
+     "date": "2026-09-26",
+     "name": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "won": 1,
+     "lost": 0,
+     "standing": "",
+     "points": 0
+    }
+   ],
+   "season": "08/01/2026 - 09/26/2026",
+   "stats_fetched": "2026-09-26T10:55"
+  },
+  {
    "team": "Carolina Trash Pandas",
    "location": "Locust, NC",
    "page_id": 32342,
@@ -5111,132 +5231,6 @@
    "stats_fetched": "2026-09-26T10:56"
   },
   {
-   "team": "Dirtbags Baseball ESB",
-   "location": "Lincolnton, NC",
-   "page_id": 37877,
-   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=37877",
-   "w": 6,
-   "l": 2,
-   "t": 0,
-   "rs": 81,
-   "ra": 57,
-   "diff": 24,
-   "pct": 0.75,
-   "events": 2,
-   "log": [
-    {
-     "date": "2026-08-22",
-     "event_id": 12513,
-     "event": "SUMMER MELT DOWN--TRUCKER HAT CLASSIC--OVER 20,000 HAT HAVE BE AWARDED",
-     "section": "Pool Play",
-     "opponent": "Carolina Royals 9Ublu",
-     "rs": 8,
-     "ra": 7,
-     "result": "W"
-    },
-    {
-     "date": "2026-08-22",
-     "event_id": 12513,
-     "event": "SUMMER MELT DOWN--TRUCKER HAT CLASSIC--OVER 20,000 HAT HAVE BE AWARDED",
-     "section": "Pool Play",
-     "opponent": "Mission 9u Scout",
-     "rs": 10,
-     "ra": 4,
-     "result": "W"
-    },
-    {
-     "date": "2026-08-23",
-     "event_id": 12513,
-     "event": "SUMMER MELT DOWN--TRUCKER HAT CLASSIC--OVER 20,000 HAT HAVE BE AWARDED",
-     "section": "Gold Bracket",
-     "opponent": "NC Made 9U Blue",
-     "rs": 5,
-     "ra": 17,
-     "result": "L"
-    },
-    {
-     "date": "2026-08-23",
-     "event_id": 12513,
-     "event": "SUMMER MELT DOWN--TRUCKER HAT CLASSIC--OVER 20,000 HAT HAVE BE AWARDED",
-     "section": "Gold Bracket",
-     "opponent": "NL Destroyers 2036",
-     "rs": 13,
-     "ra": 14,
-     "result": "L"
-    },
-    {
-     "date": "2026-09-12",
-     "event_id": 12516,
-     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
-     "section": "Pool Play",
-     "opponent": "NL Destroyers 2036",
-     "rs": 9,
-     "ra": 8,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-12",
-     "event_id": 12516,
-     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
-     "section": "Pool Play",
-     "opponent": "Concord Athletics -9U",
-     "rs": 14,
-     "ra": 0,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-13",
-     "event_id": 12516,
-     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
-     "section": "Gold Bracket",
-     "opponent": "KnuckleheadsCBC",
-     "rs": 9,
-     "ra": 2,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-13",
-     "event_id": 12516,
-     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
-     "section": "Gold Bracket",
-     "opponent": "LKN Bolts",
-     "rs": 13,
-     "ra": 5,
-     "result": "W"
-    }
-   ],
-   "points": 1025,
-   "titles": 1,
-   "finishes": [
-    {
-     "date": "2026-08-22",
-     "name": "SUMMER MELT DOWN--TRUCKER HAT CLASSIC--OVER 20,000 HAT HAVE BE AWARDED",
-     "won": 2,
-     "lost": 2,
-     "standing": "4th (Gold)",
-     "points": 325
-    },
-    {
-     "date": "2026-09-12",
-     "name": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
-     "won": 4,
-     "lost": 0,
-     "standing": "1st (Gold)",
-     "points": 700
-    },
-    {
-     "date": "2026-09-26",
-     "name": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "won": 0,
-     "lost": 0,
-     "standing": "",
-     "points": 0
-    }
-   ],
-   "season": "08/01/2026 - 09/26/2026",
-   "stats_fetched": "2026-09-26T11:00"
-  },
-  {
    "team": "South Charlotte Revolution 9U",
    "location": "Charlotte, NC",
    "page_id": 37707,
@@ -5378,6 +5372,84 @@
    "stats_fetched": null
   },
   {
+   "team": "ROCO Dirtbagz",
+   "location": "Forest City, NC",
+   "page_id": 30375,
+   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=30375",
+   "w": 3,
+   "l": 1,
+   "t": 0,
+   "rs": 41,
+   "ra": 22,
+   "diff": 19,
+   "pct": 0.75,
+   "events": 2,
+   "log": [
+    {
+     "date": "2026-09-13",
+     "event_id": 12516,
+     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
+     "section": "Bronze Bracket",
+     "opponent": "Lake Wylie Venom",
+     "rs": 13,
+     "ra": 5,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-13",
+     "event_id": 12516,
+     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
+     "section": "Bronze Bracket",
+     "opponent": "Hooligans",
+     "rs": 2,
+     "ra": 9,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-26",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Pool Play",
+     "opponent": "Dirtbags Baseball ESB",
+     "rs": 13,
+     "ra": 1,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-26",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Pool Play",
+     "opponent": "LumberJacks",
+     "rs": 13,
+     "ra": 7,
+     "result": "W"
+    }
+   ],
+   "points": 475,
+   "titles": 0,
+   "finishes": [
+    {
+     "date": "2026-09-12",
+     "name": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
+     "won": 1,
+     "lost": 1,
+     "standing": "2nd (Bronze)",
+     "points": 475
+    },
+    {
+     "date": "2026-09-26",
+     "name": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "won": 0,
+     "lost": 0,
+     "standing": "",
+     "points": 0
+    }
+   ],
+   "season": "08/01/2026 - 09/26/2026",
+   "stats_fetched": "2026-09-26T10:54"
+  },
+  {
    "team": "Weddington Wreckers",
    "location": "Weddington, NC",
    "page_id": 37604,
@@ -5446,132 +5518,6 @@
    ],
    "season": "08/01/2026 - 09/26/2026",
    "stats_fetched": "2026-09-26T10:59"
-  },
-  {
-   "team": "LKN Bolts",
-   "location": "Huntersville, NC",
-   "page_id": 32916,
-   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=32916",
-   "w": 6,
-   "l": 2,
-   "t": 0,
-   "rs": 81,
-   "ra": 66,
-   "diff": 15,
-   "pct": 0.75,
-   "events": 3,
-   "log": [
-    {
-     "date": "2026-08-29",
-     "event_id": 12514,
-     "event": "FENCE BUDDIES CHAMPIONSHIPS----- TOP GUN-USA SPORTS EVENT",
-     "section": "Pool Play",
-     "opponent": "South Charlotte Revolution 9U",
-     "rs": 5,
-     "ra": 25,
-     "result": "L"
-    },
-    {
-     "date": "2026-08-29",
-     "event_id": 12514,
-     "event": "FENCE BUDDIES CHAMPIONSHIPS----- TOP GUN-USA SPORTS EVENT",
-     "section": "Pool Play",
-     "opponent": "NL Destroyers 2036",
-     "rs": 17,
-     "ra": 10,
-     "result": "W"
-    },
-    {
-     "date": "2026-08-30",
-     "event_id": 12514,
-     "event": "FENCE BUDDIES CHAMPIONSHIPS----- TOP GUN-USA SPORTS EVENT",
-     "section": "Silver Bracket",
-     "opponent": "KnuckleheadsCBC",
-     "rs": 13,
-     "ra": 5,
-     "result": "W"
-    },
-    {
-     "date": "2026-08-30",
-     "event_id": 12514,
-     "event": "FENCE BUDDIES CHAMPIONSHIPS----- TOP GUN-USA SPORTS EVENT",
-     "section": "Silver Bracket",
-     "opponent": "Legacy Baseball 9U RED",
-     "rs": 9,
-     "ra": 5,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-12",
-     "event_id": 12516,
-     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
-     "section": "Pool Play",
-     "opponent": "Concord Athletics -9U",
-     "rs": 15,
-     "ra": 4,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-13",
-     "event_id": 12516,
-     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
-     "section": "Gold Bracket",
-     "opponent": "Copperheads",
-     "rs": 9,
-     "ra": 1,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-13",
-     "event_id": 12516,
-     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
-     "section": "Gold Bracket",
-     "opponent": "Dirtbags Baseball ESB",
-     "rs": 5,
-     "ra": 13,
-     "result": "L"
-    },
-    {
-     "date": "2026-09-26",
-     "event_id": 12518,
-     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "section": "Pool Play",
-     "opponent": "Elite 9",
-     "rs": 8,
-     "ra": 3,
-     "result": "W"
-    }
-   ],
-   "points": 975,
-   "titles": 1,
-   "finishes": [
-    {
-     "date": "2026-08-29",
-     "name": "FENCE BUDDIES CHAMPIONSHIPS----- TOP GUN-USA SPORTS EVENT",
-     "won": 3,
-     "lost": 1,
-     "standing": "1st (Silver)",
-     "points": 300
-    },
-    {
-     "date": "2026-09-12",
-     "name": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
-     "won": 2,
-     "lost": 1,
-     "standing": "2nd (Gold)",
-     "points": 675
-    },
-    {
-     "date": "2026-09-26",
-     "name": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "won": 1,
-     "lost": 0,
-     "standing": "",
-     "points": 0
-    }
-   ],
-   "season": "08/01/2026 - 09/26/2026",
-   "stats_fetched": "2026-09-26T10:55"
   },
   {
    "team": "NL Destroyers 2036",
@@ -5776,6 +5722,210 @@
    ],
    "season": "08/01/2026 - 09/26/2026",
    "stats_fetched": "2026-09-26T10:58"
+  },
+  {
+   "team": "Dirtbags Baseball ESB",
+   "location": "Lincolnton, NC",
+   "page_id": 37877,
+   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=37877",
+   "w": 6,
+   "l": 3,
+   "t": 0,
+   "rs": 82,
+   "ra": 70,
+   "diff": 12,
+   "pct": 0.667,
+   "events": 3,
+   "log": [
+    {
+     "date": "2026-08-22",
+     "event_id": 12513,
+     "event": "SUMMER MELT DOWN--TRUCKER HAT CLASSIC--OVER 20,000 HAT HAVE BE AWARDED",
+     "section": "Pool Play",
+     "opponent": "Carolina Royals 9Ublu",
+     "rs": 8,
+     "ra": 7,
+     "result": "W"
+    },
+    {
+     "date": "2026-08-22",
+     "event_id": 12513,
+     "event": "SUMMER MELT DOWN--TRUCKER HAT CLASSIC--OVER 20,000 HAT HAVE BE AWARDED",
+     "section": "Pool Play",
+     "opponent": "Mission 9u Scout",
+     "rs": 10,
+     "ra": 4,
+     "result": "W"
+    },
+    {
+     "date": "2026-08-23",
+     "event_id": 12513,
+     "event": "SUMMER MELT DOWN--TRUCKER HAT CLASSIC--OVER 20,000 HAT HAVE BE AWARDED",
+     "section": "Gold Bracket",
+     "opponent": "NC Made 9U Blue",
+     "rs": 5,
+     "ra": 17,
+     "result": "L"
+    },
+    {
+     "date": "2026-08-23",
+     "event_id": 12513,
+     "event": "SUMMER MELT DOWN--TRUCKER HAT CLASSIC--OVER 20,000 HAT HAVE BE AWARDED",
+     "section": "Gold Bracket",
+     "opponent": "NL Destroyers 2036",
+     "rs": 13,
+     "ra": 14,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-12",
+     "event_id": 12516,
+     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
+     "section": "Pool Play",
+     "opponent": "NL Destroyers 2036",
+     "rs": 9,
+     "ra": 8,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-12",
+     "event_id": 12516,
+     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
+     "section": "Pool Play",
+     "opponent": "Concord Athletics -9U",
+     "rs": 14,
+     "ra": 0,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-13",
+     "event_id": 12516,
+     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
+     "section": "Gold Bracket",
+     "opponent": "KnuckleheadsCBC",
+     "rs": 9,
+     "ra": 2,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-13",
+     "event_id": 12516,
+     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
+     "section": "Gold Bracket",
+     "opponent": "LKN Bolts",
+     "rs": 13,
+     "ra": 5,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-26",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Pool Play",
+     "opponent": "ROCO Dirtbagz",
+     "rs": 1,
+     "ra": 13,
+     "result": "L"
+    }
+   ],
+   "points": 1025,
+   "titles": 1,
+   "finishes": [
+    {
+     "date": "2026-08-22",
+     "name": "SUMMER MELT DOWN--TRUCKER HAT CLASSIC--OVER 20,000 HAT HAVE BE AWARDED",
+     "won": 2,
+     "lost": 2,
+     "standing": "4th (Gold)",
+     "points": 325
+    },
+    {
+     "date": "2026-09-12",
+     "name": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
+     "won": 4,
+     "lost": 0,
+     "standing": "1st (Gold)",
+     "points": 700
+    },
+    {
+     "date": "2026-09-26",
+     "name": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "won": 0,
+     "lost": 0,
+     "standing": "",
+     "points": 0
+    }
+   ],
+   "season": "08/01/2026 - 09/26/2026",
+   "stats_fetched": "2026-09-26T11:00"
+  },
+  {
+   "team": "Lake Wylie Venom",
+   "location": "Lake Wylie, SC",
+   "page_id": 33973,
+   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=33973",
+   "w": 2,
+   "l": 1,
+   "t": 0,
+   "rs": 31,
+   "ra": 24,
+   "diff": 7,
+   "pct": 0.667,
+   "events": 2,
+   "log": [
+    {
+     "date": "2026-09-13",
+     "event_id": 12516,
+     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
+     "section": "Bronze Bracket",
+     "opponent": "ROCO Dirtbagz",
+     "rs": 5,
+     "ra": 13,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-13",
+     "event_id": 12516,
+     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
+     "section": "Bronze Bracket",
+     "opponent": "Concord Athletics -9U",
+     "rs": 14,
+     "ra": 0,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-26",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Pool Play",
+     "opponent": "Red Clay Athletics 9U Darcangelo",
+     "rs": 12,
+     "ra": 11,
+     "result": "W"
+    }
+   ],
+   "points": 450,
+   "titles": 0,
+   "finishes": [
+    {
+     "date": "2026-09-12",
+     "name": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
+     "won": 1,
+     "lost": 1,
+     "standing": "3rd (Bronze)",
+     "points": 450
+    },
+    {
+     "date": "2026-09-26",
+     "name": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "won": 0,
+     "lost": 0,
+     "standing": "",
+     "points": 0
+    }
+   ],
+   "season": "08/01/2026 - 09/26/2026",
+   "stats_fetched": "2026-09-26T10:57"
   },
   {
    "team": "Mara Bulls",
@@ -6333,122 +6483,6 @@
    "stats_fetched": "2026-09-26T10:56"
   },
   {
-   "team": "Lake Wylie Venom",
-   "location": "Lake Wylie, SC",
-   "page_id": 33973,
-   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=33973",
-   "w": 1,
-   "l": 1,
-   "t": 0,
-   "rs": 19,
-   "ra": 13,
-   "diff": 6,
-   "pct": 0.5,
-   "events": 1,
-   "log": [
-    {
-     "date": "2026-09-13",
-     "event_id": 12516,
-     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
-     "section": "Bronze Bracket",
-     "opponent": "ROCO Dirtbagz",
-     "rs": 5,
-     "ra": 13,
-     "result": "L"
-    },
-    {
-     "date": "2026-09-13",
-     "event_id": 12516,
-     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
-     "section": "Bronze Bracket",
-     "opponent": "Concord Athletics -9U",
-     "rs": 14,
-     "ra": 0,
-     "result": "W"
-    }
-   ],
-   "points": 450,
-   "titles": 0,
-   "finishes": [
-    {
-     "date": "2026-09-12",
-     "name": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
-     "won": 1,
-     "lost": 1,
-     "standing": "3rd (Bronze)",
-     "points": 450
-    },
-    {
-     "date": "2026-09-26",
-     "name": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "won": 0,
-     "lost": 0,
-     "standing": "",
-     "points": 0
-    }
-   ],
-   "season": "08/01/2026 - 09/26/2026",
-   "stats_fetched": "2026-09-26T10:57"
-  },
-  {
-   "team": "ROCO Dirtbagz",
-   "location": "Forest City, NC",
-   "page_id": 30375,
-   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=30375",
-   "w": 1,
-   "l": 1,
-   "t": 0,
-   "rs": 15,
-   "ra": 14,
-   "diff": 1,
-   "pct": 0.5,
-   "events": 1,
-   "log": [
-    {
-     "date": "2026-09-13",
-     "event_id": 12516,
-     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
-     "section": "Bronze Bracket",
-     "opponent": "Lake Wylie Venom",
-     "rs": 13,
-     "ra": 5,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-13",
-     "event_id": 12516,
-     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
-     "section": "Bronze Bracket",
-     "opponent": "Hooligans",
-     "rs": 2,
-     "ra": 9,
-     "result": "L"
-    }
-   ],
-   "points": 475,
-   "titles": 0,
-   "finishes": [
-    {
-     "date": "2026-09-12",
-     "name": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
-     "won": 1,
-     "lost": 1,
-     "standing": "2nd (Bronze)",
-     "points": 475
-    },
-    {
-     "date": "2026-09-26",
-     "name": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "won": 0,
-     "lost": 0,
-     "standing": "",
-     "points": 0
-    }
-   ],
-   "season": "08/01/2026 - 09/26/2026",
-   "stats_fetched": "2026-09-26T10:54"
-  },
-  {
    "team": "Legacy Baseball 9U RED",
    "location": "Fort Mill, SC",
    "page_id": 33172,
@@ -6633,6 +6667,47 @@
    ],
    "season": "08/01/2026 - 09/26/2026",
    "stats_fetched": "2026-09-26T10:59"
+  },
+  {
+   "team": "Carolina Royals 9Uw",
+   "location": "Gastonia, NC",
+   "page_id": null,
+   "url": null,
+   "w": 1,
+   "l": 1,
+   "t": 0,
+   "rs": 18,
+   "ra": 24,
+   "diff": -6,
+   "pct": 0.5,
+   "events": 1,
+   "log": [
+    {
+     "date": "2026-09-26",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Pool Play",
+     "opponent": "LKN Kingdom",
+     "rs": 14,
+     "ra": 8,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-26",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Pool Play",
+     "opponent": "LKN Bolts",
+     "rs": 4,
+     "ra": 16,
+     "result": "L"
+    }
+   ],
+   "points": 0,
+   "titles": 0,
+   "finishes": [],
+   "season": "",
+   "stats_fetched": null
   },
   {
    "team": "Legacy Baseball 9U - WHITE",
@@ -7085,57 +7160,27 @@
    "stats_fetched": "2026-09-26T10:56"
   },
   {
-   "team": "LumberJacks",
-   "location": "Gaston County, NC",
-   "page_id": 34401,
-   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=34401",
-   "w": 3,
-   "l": 5,
+   "team": "Red Clay Athletics 9U Darcangelo",
+   "location": "Charlotte, NC",
+   "page_id": 37076,
+   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=37076",
+   "w": 2,
+   "l": 4,
    "t": 0,
-   "rs": 65,
-   "ra": 93,
-   "diff": -28,
-   "pct": 0.375,
+   "rs": 54,
+   "ra": 45,
+   "diff": 9,
+   "pct": 0.333,
    "events": 2,
    "log": [
     {
-     "date": "2026-08-22",
-     "event_id": 12513,
-     "event": "SUMMER MELT DOWN--TRUCKER HAT CLASSIC--OVER 20,000 HAT HAVE BE AWARDED",
+     "date": "2026-08-29",
+     "event_id": 12514,
+     "event": "FENCE BUDDIES CHAMPIONSHIPS----- TOP GUN-USA SPORTS EVENT",
      "section": "Pool Play",
-     "opponent": "NL Destroyers 2036",
-     "rs": 3,
-     "ra": 19,
-     "result": "L"
-    },
-    {
-     "date": "2026-08-22",
-     "event_id": 12513,
-     "event": "SUMMER MELT DOWN--TRUCKER HAT CLASSIC--OVER 20,000 HAT HAVE BE AWARDED",
-     "section": "Pool Play",
-     "opponent": "Legacy Baseball 9U - WHITE",
-     "rs": 1,
-     "ra": 14,
-     "result": "L"
-    },
-    {
-     "date": "2026-08-23",
-     "event_id": 12513,
-     "event": "SUMMER MELT DOWN--TRUCKER HAT CLASSIC--OVER 20,000 HAT HAVE BE AWARDED",
-     "section": "Silver Bracket",
-     "opponent": "Carolina Royals 9Ublu",
-     "rs": 16,
-     "ra": 17,
-     "result": "L"
-    },
-    {
-     "date": "2026-08-23",
-     "event_id": 12513,
-     "event": "SUMMER MELT DOWN--TRUCKER HAT CLASSIC--OVER 20,000 HAT HAVE BE AWARDED",
-     "section": "Silver Bracket",
-     "opponent": "Legacy Baseball 9U - WHITE",
-     "rs": 11,
-     "ra": 2,
+     "opponent": "Waxhaw Militia 9U",
+     "rs": 12,
+     "ra": 7,
      "result": "W"
     },
     {
@@ -7143,60 +7188,62 @@
      "event_id": 12514,
      "event": "FENCE BUDDIES CHAMPIONSHIPS----- TOP GUN-USA SPORTS EVENT",
      "section": "Pool Play",
-     "opponent": "KnuckleheadsCBC",
-     "rs": 11,
-     "ra": 6,
-     "result": "W"
-    },
-    {
-     "date": "2026-08-29",
-     "event_id": 12514,
-     "event": "FENCE BUDDIES CHAMPIONSHIPS----- TOP GUN-USA SPORTS EVENT",
-     "section": "Pool Play",
-     "opponent": "Hooligans",
-     "rs": 4,
-     "ra": 16,
-     "result": "L"
-    },
-    {
-     "date": "2026-08-30",
-     "event_id": 12514,
-     "event": "FENCE BUDDIES CHAMPIONSHIPS----- TOP GUN-USA SPORTS EVENT",
-     "section": "Silver Bracket",
      "opponent": "Legacy Baseball 9U RED",
      "rs": 7,
-     "ra": 15,
+     "ra": 8,
      "result": "L"
     },
     {
      "date": "2026-08-30",
      "event_id": 12514,
      "event": "FENCE BUDDIES CHAMPIONSHIPS----- TOP GUN-USA SPORTS EVENT",
-     "section": "Silver Bracket",
-     "opponent": "KnuckleheadsCBC",
-     "rs": 12,
-     "ra": 4,
+     "section": "Gold Bracket",
+     "opponent": "Hooligans",
+     "rs": 1,
+     "ra": 9,
+     "result": "L"
+    },
+    {
+     "date": "2026-08-30",
+     "event_id": 12514,
+     "event": "FENCE BUDDIES CHAMPIONSHIPS----- TOP GUN-USA SPORTS EVENT",
+     "section": "Gold Bracket",
+     "opponent": "South Charlotte Revolution 9U",
+     "rs": 5,
+     "ra": 8,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-26",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Pool Play",
+     "opponent": "Carolina Forge 9U",
+     "rs": 18,
+     "ra": 1,
      "result": "W"
+    },
+    {
+     "date": "2026-09-26",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Pool Play",
+     "opponent": "Lake Wylie Venom",
+     "rs": 11,
+     "ra": 12,
+     "result": "L"
     }
    ],
-   "points": 550,
-   "titles": 1,
+   "points": 325,
+   "titles": 0,
    "finishes": [
-    {
-     "date": "2026-08-22",
-     "name": "SUMMER MELT DOWN--TRUCKER HAT CLASSIC--OVER 20,000 HAT HAVE BE AWARDED",
-     "won": 1,
-     "lost": 3,
-     "standing": "1st (Silver)",
-     "points": 300
-    },
     {
      "date": "2026-08-29",
      "name": "FENCE BUDDIES CHAMPIONSHIPS----- TOP GUN-USA SPORTS EVENT",
-     "won": 2,
-     "lost": 2,
-     "standing": "3rd (Silver)",
-     "points": 250
+     "won": 1,
+     "lost": 3,
+     "standing": "4th (Gold)",
+     "points": 325
     },
     {
      "date": "2026-09-26",
@@ -7208,7 +7255,7 @@
     }
    ],
    "season": "08/01/2026 - 09/26/2026",
-   "stats_fetched": "2026-09-26T10:57"
+   "stats_fetched": "2026-09-26T10:58"
   },
   {
    "team": "Carolina Icons",
@@ -7519,27 +7566,57 @@
    "stats_fetched": "2026-09-26T11:01"
   },
   {
-   "team": "Red Clay Athletics 9U Darcangelo",
-   "location": "Charlotte, NC",
-   "page_id": 37076,
-   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=37076",
-   "w": 1,
-   "l": 3,
+   "team": "LumberJacks",
+   "location": "Gaston County, NC",
+   "page_id": 34401,
+   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=34401",
+   "w": 3,
+   "l": 6,
    "t": 0,
-   "rs": 25,
-   "ra": 32,
-   "diff": -7,
-   "pct": 0.25,
-   "events": 1,
+   "rs": 72,
+   "ra": 106,
+   "diff": -34,
+   "pct": 0.333,
+   "events": 3,
    "log": [
     {
-     "date": "2026-08-29",
-     "event_id": 12514,
-     "event": "FENCE BUDDIES CHAMPIONSHIPS----- TOP GUN-USA SPORTS EVENT",
+     "date": "2026-08-22",
+     "event_id": 12513,
+     "event": "SUMMER MELT DOWN--TRUCKER HAT CLASSIC--OVER 20,000 HAT HAVE BE AWARDED",
      "section": "Pool Play",
-     "opponent": "Waxhaw Militia 9U",
-     "rs": 12,
-     "ra": 7,
+     "opponent": "NL Destroyers 2036",
+     "rs": 3,
+     "ra": 19,
+     "result": "L"
+    },
+    {
+     "date": "2026-08-22",
+     "event_id": 12513,
+     "event": "SUMMER MELT DOWN--TRUCKER HAT CLASSIC--OVER 20,000 HAT HAVE BE AWARDED",
+     "section": "Pool Play",
+     "opponent": "Legacy Baseball 9U - WHITE",
+     "rs": 1,
+     "ra": 14,
+     "result": "L"
+    },
+    {
+     "date": "2026-08-23",
+     "event_id": 12513,
+     "event": "SUMMER MELT DOWN--TRUCKER HAT CLASSIC--OVER 20,000 HAT HAVE BE AWARDED",
+     "section": "Silver Bracket",
+     "opponent": "Carolina Royals 9Ublu",
+     "rs": 16,
+     "ra": 17,
+     "result": "L"
+    },
+    {
+     "date": "2026-08-23",
+     "event_id": 12513,
+     "event": "SUMMER MELT DOWN--TRUCKER HAT CLASSIC--OVER 20,000 HAT HAVE BE AWARDED",
+     "section": "Silver Bracket",
+     "opponent": "Legacy Baseball 9U - WHITE",
+     "rs": 11,
+     "ra": 2,
      "result": "W"
     },
     {
@@ -7547,42 +7624,70 @@
      "event_id": 12514,
      "event": "FENCE BUDDIES CHAMPIONSHIPS----- TOP GUN-USA SPORTS EVENT",
      "section": "Pool Play",
+     "opponent": "KnuckleheadsCBC",
+     "rs": 11,
+     "ra": 6,
+     "result": "W"
+    },
+    {
+     "date": "2026-08-29",
+     "event_id": 12514,
+     "event": "FENCE BUDDIES CHAMPIONSHIPS----- TOP GUN-USA SPORTS EVENT",
+     "section": "Pool Play",
+     "opponent": "Hooligans",
+     "rs": 4,
+     "ra": 16,
+     "result": "L"
+    },
+    {
+     "date": "2026-08-30",
+     "event_id": 12514,
+     "event": "FENCE BUDDIES CHAMPIONSHIPS----- TOP GUN-USA SPORTS EVENT",
+     "section": "Silver Bracket",
      "opponent": "Legacy Baseball 9U RED",
      "rs": 7,
-     "ra": 8,
+     "ra": 15,
      "result": "L"
     },
     {
      "date": "2026-08-30",
      "event_id": 12514,
      "event": "FENCE BUDDIES CHAMPIONSHIPS----- TOP GUN-USA SPORTS EVENT",
-     "section": "Gold Bracket",
-     "opponent": "Hooligans",
-     "rs": 1,
-     "ra": 9,
-     "result": "L"
+     "section": "Silver Bracket",
+     "opponent": "KnuckleheadsCBC",
+     "rs": 12,
+     "ra": 4,
+     "result": "W"
     },
     {
-     "date": "2026-08-30",
-     "event_id": 12514,
-     "event": "FENCE BUDDIES CHAMPIONSHIPS----- TOP GUN-USA SPORTS EVENT",
-     "section": "Gold Bracket",
-     "opponent": "South Charlotte Revolution 9U",
-     "rs": 5,
-     "ra": 8,
+     "date": "2026-09-26",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Pool Play",
+     "opponent": "ROCO Dirtbagz",
+     "rs": 7,
+     "ra": 13,
      "result": "L"
     }
    ],
-   "points": 325,
-   "titles": 0,
+   "points": 550,
+   "titles": 1,
    "finishes": [
+    {
+     "date": "2026-08-22",
+     "name": "SUMMER MELT DOWN--TRUCKER HAT CLASSIC--OVER 20,000 HAT HAVE BE AWARDED",
+     "won": 1,
+     "lost": 3,
+     "standing": "1st (Silver)",
+     "points": 300
+    },
     {
      "date": "2026-08-29",
      "name": "FENCE BUDDIES CHAMPIONSHIPS----- TOP GUN-USA SPORTS EVENT",
-     "won": 1,
-     "lost": 3,
-     "standing": "4th (Gold)",
-     "points": 325
+     "won": 2,
+     "lost": 2,
+     "standing": "3rd (Silver)",
+     "points": 250
     },
     {
      "date": "2026-09-26",
@@ -7594,7 +7699,123 @@
     }
    ],
    "season": "08/01/2026 - 09/26/2026",
-   "stats_fetched": "2026-09-26T10:58"
+   "stats_fetched": "2026-09-26T10:57"
+  },
+  {
+   "team": "Elite 9",
+   "location": "Rock Hill, SC",
+   "page_id": 31407,
+   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=31407",
+   "w": 2,
+   "l": 5,
+   "t": 0,
+   "rs": 40,
+   "ra": 59,
+   "diff": -19,
+   "pct": 0.286,
+   "events": 3,
+   "log": [
+    {
+     "date": "2026-09-11",
+     "event_id": 13600,
+     "event": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
+     "section": "Pool Play",
+     "opponent": "Carolina Clippers 9U",
+     "rs": 7,
+     "ra": 12,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-11",
+     "event_id": 13600,
+     "event": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
+     "section": "Pool Play",
+     "opponent": "Carolina Trash Pandas",
+     "rs": 2,
+     "ra": 11,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-11",
+     "event_id": 13600,
+     "event": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
+     "section": "Silver Bracket",
+     "opponent": "LKN Kingdom",
+     "rs": 12,
+     "ra": 2,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-19",
+     "event_id": 12517,
+     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
+     "section": "Pool Play",
+     "opponent": "Dirtbags Shook",
+     "rs": 0,
+     "ra": 10,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-19",
+     "event_id": 12517,
+     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
+     "section": "Pool Play",
+     "opponent": "NL Destroyers 2036",
+     "rs": 4,
+     "ra": 9,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-26",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Pool Play",
+     "opponent": "LKN Bolts",
+     "rs": 3,
+     "ra": 8,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-26",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Pool Play",
+     "opponent": "LKN Kingdom",
+     "rs": 12,
+     "ra": 7,
+     "result": "W"
+    }
+   ],
+   "points": 250,
+   "titles": 0,
+   "finishes": [
+    {
+     "date": "2026-09-11",
+     "name": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
+     "won": 1,
+     "lost": 2,
+     "standing": "3rd (Silver)",
+     "points": 250
+    },
+    {
+     "date": "2026-09-19",
+     "name": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
+     "won": 0,
+     "lost": 2,
+     "standing": "5th (Silver)",
+     "points": 0
+    },
+    {
+     "date": "2026-09-26",
+     "name": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "won": 0,
+     "lost": 1,
+     "standing": "",
+     "points": 0
+    }
+   ],
+   "season": "08/01/2026 - 09/26/2026",
+   "stats_fetched": "2026-09-26T10:54"
   },
   {
    "team": "Union County Legends",
@@ -7666,112 +7887,6 @@
    ],
    "season": "",
    "stats_fetched": null
-  },
-  {
-   "team": "Elite 9",
-   "location": "Rock Hill, SC",
-   "page_id": 31407,
-   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=31407",
-   "w": 1,
-   "l": 5,
-   "t": 0,
-   "rs": 28,
-   "ra": 52,
-   "diff": -24,
-   "pct": 0.167,
-   "events": 3,
-   "log": [
-    {
-     "date": "2026-09-11",
-     "event_id": 13600,
-     "event": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
-     "section": "Pool Play",
-     "opponent": "Carolina Clippers 9U",
-     "rs": 7,
-     "ra": 12,
-     "result": "L"
-    },
-    {
-     "date": "2026-09-11",
-     "event_id": 13600,
-     "event": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
-     "section": "Pool Play",
-     "opponent": "Carolina Trash Pandas",
-     "rs": 2,
-     "ra": 11,
-     "result": "L"
-    },
-    {
-     "date": "2026-09-11",
-     "event_id": 13600,
-     "event": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
-     "section": "Silver Bracket",
-     "opponent": "LKN Kingdom",
-     "rs": 12,
-     "ra": 2,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-19",
-     "event_id": 12517,
-     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
-     "section": "Pool Play",
-     "opponent": "Dirtbags Shook",
-     "rs": 0,
-     "ra": 10,
-     "result": "L"
-    },
-    {
-     "date": "2026-09-19",
-     "event_id": 12517,
-     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
-     "section": "Pool Play",
-     "opponent": "NL Destroyers 2036",
-     "rs": 4,
-     "ra": 9,
-     "result": "L"
-    },
-    {
-     "date": "2026-09-26",
-     "event_id": 12518,
-     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "section": "Pool Play",
-     "opponent": "LKN Bolts",
-     "rs": 3,
-     "ra": 8,
-     "result": "L"
-    }
-   ],
-   "points": 250,
-   "titles": 0,
-   "finishes": [
-    {
-     "date": "2026-09-11",
-     "name": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
-     "won": 1,
-     "lost": 2,
-     "standing": "3rd (Silver)",
-     "points": 250
-    },
-    {
-     "date": "2026-09-19",
-     "name": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
-     "won": 0,
-     "lost": 2,
-     "standing": "5th (Silver)",
-     "points": 0
-    },
-    {
-     "date": "2026-09-26",
-     "name": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "won": 0,
-     "lost": 1,
-     "standing": "",
-     "points": 0
-    }
-   ],
-   "season": "08/01/2026 - 09/26/2026",
-   "stats_fetched": "2026-09-26T10:54"
   },
   {
    "team": "ELITE BASEBALL EBC 9U",
@@ -7957,11 +8072,11 @@
    "page_id": 37240,
    "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=37240",
    "w": 0,
-   "l": 5,
+   "l": 6,
    "t": 0,
-   "rs": 21,
-   "ra": 62,
-   "diff": -41,
+   "rs": 28,
+   "ra": 74,
+   "diff": -46,
    "pct": 0.0,
    "events": 3,
    "log": [
@@ -8013,6 +8128,16 @@
      "opponent": "Carolina Royals 9Uw",
      "rs": 8,
      "ra": 14,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-26",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Pool Play",
+     "opponent": "Elite 9",
+     "rs": 7,
+     "ra": 12,
      "result": "L"
     }
    ],
@@ -8194,13 +8319,13 @@
    "page_id": 37235,
    "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=37235",
    "w": 0,
-   "l": 7,
+   "l": 8,
    "t": 0,
-   "rs": 28,
-   "ra": 101,
-   "diff": -73,
+   "rs": 29,
+   "ra": 119,
+   "diff": -90,
    "pct": 0.0,
-   "events": 2,
+   "events": 3,
    "log": [
     {
      "date": "2026-08-29",
@@ -8270,6 +8395,16 @@
      "opponent": "Waxhaw Militia 9U",
      "rs": 3,
      "ra": 21,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-26",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Pool Play",
+     "opponent": "Red Clay Athletics 9U Darcangelo",
+     "rs": 1,
+     "ra": 18,
      "result": "L"
     }
    ],

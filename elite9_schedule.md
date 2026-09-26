@@ -1,43 +1,43 @@
 # Elite 9 - Top Gun schedule
-_Updated Sat Sep 26, 2026 10:54 AM_
+_Updated Sat Sep 26, 2026 01:44 PM_
 
 ## SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND
 September 26 - 27 in Greater Charlotte Area, NC  
 Tournament 12518 - [schedule page](https://playtopgunsports.com/GameTimesResults.aspx?trnid=12518)
 
 ### 9U  
-**Standing:** #5 of 19  -  0-1, RS 3, RA 8
+**Standing:** #5 of 19  -  1-1, RS 15, RA 15
 
 **Elite 9 games**
 
 | G | When | Field | Team A | Team B |
 |---|---|---|---|---|
 | Pool 1 | Sat 9:00 AM | Poston:Field # 1 | Elite 9 3 | LKN Bolts 8 |
-| Pool 6 | Sat 10:45 AM | Poston:Field # 2 | LKN Kingdom | Elite 9 |
+| Pool 6 | Sat 10:45 AM | Poston:Field # 2 | LKN Kingdom 7 | Elite 9 12 |
 
 **9U standings**
 
 | # | Team | From | W-L | RS | RA |
 |---|---|---|---|---|---|
-| 1 | ROCO Dirtbagz | Forest City, NC | 0-0 | 0 | 0 |
+| 1 | ROCO Dirtbagz | Forest City, NC | 2-0 | 26 | 8 |
 | 2 | Carolina Trash Pandas | Locust, NC | 0-0 | 0 | 0 |
 | 3 | Carolina Firebirds-Red | Winston Salem, NC | 0-0 | 0 | 0 |
-| 4 | LKN Bolts | Huntersville, NC | 1-0 | 8 | 3 |
-| 5 | Elite 9 **<--** | Rock Hill, SC | 0-1 | 3 | 8 |
+| 4 | LKN Bolts | Huntersville, NC | 2-0 | 24 | 7 |
+| 5 | Elite 9 **<--** | Rock Hill, SC | 1-1 | 15 | 15 |
 | 6 | Team 24 | York, SC | 0-0 | 0 | 0 |
-| 7 | Lake Wylie Venom | Lake Wylie, SC | 0-0 | 0 | 0 |
+| 7 | Lake Wylie Venom | Lake Wylie, SC | 1-0 | 12 | 11 |
 | 8 | SC Tide - Lucariello | Clover, SC | 0-0 | 0 | 0 |
-| 9 | LumberJacks | Gaston County, NC | 0-0 | 0 | 0 |
+| 9 | LumberJacks | Gaston County, NC | 0-1 | 7 | 13 |
 | 10 | Rock Hill 9U Baseball | Rock Hill, SC | 0-0 | 0 | 0 |
 | 11 | PeeDee Mudcats | Wadesboro, NC | 0-0 | 0 | 0 |
 | 12 | South Park Red Raiders | Charlotte, NC | 0-0 | 0 | 0 |
 | 13 | Legacy Baseball 9U - WHITE | Fort Mill, SC | 0-0 | 0 | 0 |
-| 14 | Red Clay Athletics 9U Darcangelo | Charlotte, NC | 0-0 | 0 | 0 |
-| 15 | Dirtbags Baseball ESB | Lincolnton, NC | 0-0 | 0 | 0 |
+| 14 | Red Clay Athletics 9U Darcangelo | Charlotte, NC | 1-1 | 29 | 13 |
+| 15 | Dirtbags Baseball ESB | Lincolnton, NC | 0-1 | 1 | 13 |
 | 16 | BOILING SPRINGS BULLDOGS BASEBALL 8u | Boiling Springs, NC | 0-0 | 0 | 0 |
-| 17 | LKN Kingdom | Charlotte, NC | 0-1 | 8 | 14 |
-| 18 | Carolina Royals 9Uw | Gastonia, NC | 1-0 | 14 | 8 |
-| 19 | Carolina Forge 9U | Gastonia, NC | 0-0 | 0 | 0 |
+| 17 | LKN Kingdom | Charlotte, NC | 0-2 | 15 | 26 |
+| 18 | Carolina Royals 9Uw | Gastonia, NC | 1-1 | 18 | 24 |
+| 19 | Carolina Forge 9U | Gastonia, NC | 0-1 | 1 | 18 |
 
 **Gold Bracket**
 
