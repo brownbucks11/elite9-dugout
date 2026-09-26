@@ -30,7 +30,7 @@ The first time, sign in to web.gc.com in that Chrome window when it appears (it 
 Same thing by hand:
 ```
 start_gc_chrome.cmd
-python gc_stats.py --cdp
+python gc_stats.py
 git add data/gc
 git commit -m "GC stats"
 git push
@@ -90,7 +90,7 @@ Google Chrome must be installed for the GameChanger reader (`start_gc_chrome.cmd
 |---|---|
 | `refresh.py` | The bot's job: fetch the pages that can still change, then rebuild. `--teams` also refreshes team points/finishes; `--discover` sweeps Top Gun's list for area events; `--no-fetch` just rebuilds. |
 | `build_site.py` | Turns everything in `data/` into `docs/data.js` for the page. `--today YYYY-MM-DD` previews another date. |
-| `gc_stats.py` | GameChanger reader (local only). `--cdp` attaches to the Chrome from `start_gc_chrome.cmd`; `--refresh` re-reads saved games; `--games-only` / `--season-only`; `--rebuild` rebuilds `data/gc/games.json` from the raw captures without fetching. |
+| `gc_stats.py` | GameChanger reader (local only). Attaches to the Chrome from `start_gc_chrome.cmd` automatically when it's running; `--refresh` re-reads saved games; `--games-only` / `--season-only`; `--rebuild` rebuilds `data/gc/games.json` from the raw captures without fetching. |
 | `update_gc.cmd` | One-click: Chrome window → `gc_stats.py --cdp` → commit + push if changed. |
 | `start_gc_chrome.cmd` | Opens the separate Chrome window (profile in `local\chrome-gc`, gitignored) that the reader attaches to. |
 | `gameday.py` | Prints `yes`/`no`: is one of our tournaments live today? Gates the 10-minute cron. |

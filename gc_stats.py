@@ -8,8 +8,9 @@ GitHub bot never touches GameChanger.
 Recommended: attach to a real Chrome window (GameChanger's sign-in refuses automated browsers)
     1. Double-click start_gc_chrome.cmd  - opens a separate Chrome window (profile in local/chrome-gc)
     2. Sign in to web.gc.com in that window (once; it stays signed in)
-    3. python gc_stats.py --cdp --team-url "https://web.gc.com/teams/<id>/<slug>"   (URL remembered)
-Then after each weekend: start_gc_chrome.cmd (if not open), python gc_stats.py --cdp
+    3. python gc_stats.py --team-url "https://web.gc.com/teams/<id>/<slug>"   (URL remembered)
+Then after each weekend: update_gc.cmd (or: start_gc_chrome.cmd if not open, python gc_stats.py).
+The script attaches to that Chrome window automatically when it is running (--cdp forces it).
 
 Fallback: the script's own browser
     python gc_stats.py --login         # opens a Playwright browser to sign in (may spin on GC's login page)
@@ -462,17 +463,28 @@ def main():
     all_games = json.loads(gpath.read_text(encoding="utf-8")) if gpath.exists() else {}
     with sync_playwright() as pw:
         browser = None
-        if args.cdp:
+        port = args.cdp or 9222
+        if not args.cdp and not args.login:
+            # attach to the start_gc_chrome.cmd window automatically when it's running
             try:
-                browser = pw.chromium.connect_over_cdp(f"http://localhost:{args.cdp}")
+                browser = pw.chromium.connect_over_cdp(f"http://localhost:{port}", timeout=3000)
+                args.cdp = port
+                print("Attached to the GameChanger Chrome window.")
+            except Exception:
+                browser = None
+        if args.cdp and browser is None:
+            try:
+                browser = pw.chromium.connect_over_cdp(f"http://localhost:{port}")
             except Exception as exc:
-                print(f"Could not attach to Chrome on port {args.cdp}: {exc}\nStart it with start_gc_chrome.cmd first.")
+                print(f"Could not attach to Chrome on port {port}: {exc}\nStart it with start_gc_chrome.cmd first.")
                 return 1
+        if args.cdp:
             ctx = browser.contexts[0] if browser.contexts else browser.new_context()
             page = ctx.new_page()
             page.set_viewport_size({"width": 1600, "height": 1000})
             args.visible = True     # it's the user's own window; prompts are allowed
         else:
+            print("No GameChanger Chrome window found on port 9222 (start_gc_chrome.cmd) - using the script's own browser.")
             ctx = pw.chromium.launch_persistent_context(str(PROFILE), headless=not (args.visible or args.login),
                                                         viewport={"width": 1600, "height": 1000})
             page = ctx.pages[0] if ctx.pages else ctx.new_page()
@@ -482,7 +494,7 @@ def main():
             page.wait_for_timeout(3000)
             if args.login or not on_team_page(page) or not logged_in(page, cap):
                 if not (args.visible or args.login):
-                    print("Not signed in to GameChanger. Run once with --login (a browser window will open).")
+                    print("Not signed in to GameChanger. Open start_gc_chrome.cmd, sign in there, then run this again.")
                     return 1
                 while True:
                     print("\nSign in to GameChanger in the browser window (the page will show your email at the top right),")
