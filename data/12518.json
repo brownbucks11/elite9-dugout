@@ -92,9 +92,9 @@
           "team": "Carolina Royals 8U",
           "location": "Gastonia, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 20,
+          "runs_scored": 5,
           "team_page_id": null
         },
         {
@@ -121,10 +121,10 @@
           "seed": 7,
           "team": "South Park Redbirds",
           "location": "Charlotte, NC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 12,
+          "runs_allowed": 5,
+          "runs_scored": 32,
           "team_page_id": null
         }
       ],
@@ -197,10 +197,10 @@
             "field": "M. Rivers:Martha Rivers 4",
             "team_a": "Carolina Royals 8U",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 5,
             "team_b": "South Park Redbirds",
             "seed_b": null,
-            "score_b": null
+            "score_b": 20
           },
           {
             "game": 7,
@@ -323,9 +323,9 @@
           "team": "Carolina Trash Pandas",
           "location": "Locust, NC",
           "won": 1,
-          "lost": 0,
-          "runs_allowed": 7,
-          "runs_scored": 8,
+          "lost": 1,
+          "runs_allowed": 21,
+          "runs_scored": 11,
           "team_page_id": null
         },
         {
@@ -372,10 +372,10 @@
           "seed": 7,
           "team": "Lake Wylie Venom",
           "location": "Lake Wylie, SC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
-          "runs_allowed": 11,
-          "runs_scored": 12,
+          "runs_allowed": 14,
+          "runs_scored": 26,
           "team_page_id": null
         },
         {
@@ -384,7 +384,7 @@
           "location": "Clover, SC",
           "won": 0,
           "lost": 1,
-          "runs_allowed": 16,
+          "runs_allowed": 13,
           "runs_scored": 5,
           "team_page_id": null
         },
@@ -415,7 +415,7 @@
           "won": 1,
           "lost": 1,
           "runs_allowed": 18,
-          "runs_scored": 16,
+          "runs_scored": 13,
           "team_page_id": null
         },
         {
@@ -652,7 +652,7 @@
             "field": "Poston:Field # 1",
             "team_a": "PeeDee Mudcats",
             "seed_a": null,
-            "score_a": 16,
+            "score_a": 13,
             "team_b": "SC Tide - Lucariello",
             "seed_b": null,
             "score_b": 5
@@ -676,10 +676,10 @@
             "field": "Poston:Field # 4",
             "team_a": "Carolina Trash Pandas",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 3,
             "team_b": "Lake Wylie Venom",
             "seed_b": null,
-            "score_b": null
+            "score_b": 14
           },
           {
             "game": 16,
@@ -2211,10 +2211,10 @@
           "seed": 3,
           "team": "Carolina Bearcats 12U",
           "location": "Alexis, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 7,
+          "runs_scored": 13,
           "team_page_id": null
         },
         {
@@ -2222,9 +2222,9 @@
           "team": "RBA HEELS",
           "location": "Rutherfordton, NC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 15,
-          "runs_scored": 3,
+          "lost": 2,
+          "runs_allowed": 28,
+          "runs_scored": 10,
           "team_page_id": null
         },
         {
@@ -2252,9 +2252,9 @@
           "team": "Carolina Locos-Black",
           "location": "Waxhaw, NC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 11,
-          "runs_scored": 3,
+          "lost": 2,
+          "runs_allowed": 24,
+          "runs_scored": 13,
           "team_page_id": null
         },
         {
@@ -2271,10 +2271,10 @@
           "seed": 4,
           "team": "LKN Kingdom",
           "location": "Charlotte, NC",
-          "won": 0,
+          "won": 1,
           "lost": 1,
-          "runs_allowed": 9,
-          "runs_scored": 2,
+          "runs_allowed": 19,
+          "runs_scored": 15,
           "team_page_id": null
         },
         {
@@ -2399,10 +2399,10 @@
             "field": "M. Rivers:Martha Rivers 2",
             "team_a": "LKN Kingdom",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 13,
             "team_b": "Carolina Locos-Black",
             "seed_b": null,
-            "score_b": null
+            "score_b": 10
           },
           {
             "game": 8,
@@ -2791,10 +2791,10 @@
           "seed": 2,
           "team": "Bethany Badgers",
           "location": "Clover, SC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 1,
+          "runs_scored": 10,
           "team_page_id": null
         },
         {
@@ -2821,10 +2821,10 @@
           "seed": 5,
           "team": "Crowns Baseball",
           "location": "Indian Trail, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
           "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_scored": 9,
           "team_page_id": null
         },
         {
@@ -2872,9 +2872,9 @@
           "team": "Red Clay Athletics 14U Kelly",
           "location": "Huntersville, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 10,
+          "runs_scored": 1,
           "team_page_id": null
         },
         {
@@ -2902,8 +2902,8 @@
           "team": "Regulators",
           "location": "Indian Trail, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
+          "lost": 1,
+          "runs_allowed": 9,
           "runs_scored": 0,
           "team_page_id": null
         }
@@ -2989,10 +2989,10 @@
             "field": "BFF:Field 1",
             "team_a": "Bethany Badgers",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 10,
             "team_b": "Red Clay Athletics 14U Kelly",
             "seed_b": null,
-            "score_b": null
+            "score_b": 1
           },
           {
             "game": 8,
@@ -3013,10 +3013,10 @@
             "field": "SP:Field #2",
             "team_a": "Crowns Baseball",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 9,
             "team_b": "Regulators",
             "seed_b": null,
-            "score_b": null
+            "score_b": 0
           },
           {
             "game": 10,
@@ -3570,8 +3570,8 @@
           "team": "P413 Buchanan",
           "location": "ADVANCE, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
+          "lost": 1,
+          "runs_allowed": 4,
           "runs_scored": 0,
           "team_page_id": null
         },
@@ -3599,10 +3599,10 @@
           "seed": 5,
           "team": "Triad Warriors",
           "location": "Walkertown, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
           "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_scored": 4,
           "team_page_id": null
         },
         {
@@ -3661,10 +3661,10 @@
             "field": "FDP:Field #2",
             "team_a": "Triad Warriors",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 4,
             "team_b": "P413 Buchanan",
             "seed_b": null,
-            "score_b": null
+            "score_b": 0
           },
           {
             "game": 5,
@@ -3758,5 +3758,5 @@
   },
   "site_last_updated": "09/24/2026 1:31 PM",
   "tournament_id": 12518,
-  "fetched_at": "2026-09-26T15:45"
+  "fetched_at": "2026-09-26T16:11"
 }
