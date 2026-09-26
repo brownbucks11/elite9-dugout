@@ -491,7 +491,10 @@ def main():
         cap = ApiCapture(page)
         try:
             page.goto(base, wait_until="domcontentloaded", timeout=60000)
-            page.wait_for_timeout(3000)
+            for _ in range(12):   # give the app up to ~12 s to render the tabs and answer its /me calls
+                page.wait_for_timeout(1000)
+                if on_team_page(page) and logged_in(page, cap):
+                    break
             if args.login or not on_team_page(page) or not logged_in(page, cap):
                 if not (args.visible or args.login):
                     print("Not signed in to GameChanger. Open start_gc_chrome.cmd, sign in there, then run this again.")
