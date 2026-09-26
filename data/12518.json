@@ -383,9 +383,9 @@
           "team": "SC Tide - Lucariello",
           "location": "Clover, SC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 16,
+          "runs_scored": 5,
           "team_page_id": null
         },
         {
@@ -412,10 +412,10 @@
           "seed": 11,
           "team": "PeeDee Mudcats",
           "location": "Wadesboro, NC",
-          "won": 0,
+          "won": 1,
           "lost": 1,
-          "runs_allowed": 13,
-          "runs_scored": 0,
+          "runs_allowed": 18,
+          "runs_scored": 16,
           "team_page_id": null
         },
         {
@@ -652,10 +652,10 @@
             "field": "Poston:Field # 1",
             "team_a": "PeeDee Mudcats",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 16,
             "team_b": "SC Tide - Lucariello",
             "seed_b": null,
-            "score_b": null
+            "score_b": 5
           },
           {
             "game": 14,
@@ -2579,19 +2579,19 @@
           "team": "South Carolina Cyclones",
           "location": "Chester, SC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 5,
+          "runs_scored": 3,
           "team_page_id": null
         },
         {
           "seed": 7,
           "team": "River Rats",
           "location": "Lincolnton, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 3,
+          "runs_scored": 5,
           "team_page_id": null
         }
       ],
@@ -2640,10 +2640,10 @@
             "field": "FDP:Field #1",
             "team_a": "South Carolina Cyclones",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 3,
             "team_b": "River Rats",
             "seed_b": null,
-            "score_b": null
+            "score_b": 5
           },
           {
             "game": 5,
@@ -3758,5 +3758,5 @@
   },
   "site_last_updated": "09/24/2026 1:31 PM",
   "tournament_id": 12518,
-  "fetched_at": "2026-09-26T15:29"
+  "fetched_at": "2026-09-26T15:45"
 }
