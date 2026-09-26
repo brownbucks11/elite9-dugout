@@ -265,6 +265,8 @@
   .pill.T { background: var(--tie-bg); color: var(--tie); }
   .pill.time { background: var(--tie-bg); color: var(--ink); font-size: 15px; font-weight: 600; padding: 5px 2px; }
   button.pill-link { border: 0; width: 100%; cursor: pointer; font: inherit; font-family: var(--display); font-weight: 700; font-size: 18px; }
+  button.score-link { background: none; border: 0; padding: 0; cursor: pointer; font-family: var(--display); font-size: 26px; font-weight: 700; font-variant-numeric: tabular-nums; color: inherit; text-decoration: underline dotted; text-underline-offset: 4px; }
+  .game.won button.score-link { color: var(--win); }
   button.pill-link:hover { filter: brightness(.92); }
   .opp { font-weight: 600; font-size: 16px; }
   .opp button { background: none; border: 0; padding: 0; color: inherit; font-weight: 600; cursor: pointer; text-align: left; text-decoration: underline dotted; text-underline-offset: 3px; }
@@ -940,11 +942,11 @@
           </summary>
           ${e.state === "live" ? noticesHtml(e.tgs) : ""}
           <div class="event-body"><ul class="games">${games.map((g) => `<li class="game ${g.result === "W" ? "won" : ""} ${nextKey && gameKey(g) === nextKey ? "next" : ""}">
-              <div class="pill ${g.result || "time"}">${g.result || esc(g.day)}</div>
+              ${g.result && g.gc_id ? `<button type="button" class="pill ${g.result} pill-link" data-goto="stats" data-box="${esc(g.gc_id)}" title="Box score">${g.result}</button>` : `<div class="pill ${g.result || "time"}">${g.result || esc(g.day)}</div>`}
               <div><div class="opp">${/^(winner|loser|seed)/i.test(g.opponent) ? esc(g.opponent) : teamBtn(g.opponent)}${nextKey && gameKey(g) === nextKey ? '<span class="chg-pill next">next</span>' : ""}</div>
                    <div class="when">${esc(g.section)} G${g.game} · ${esc(g.day)} ${esc(g.time)} · ${fieldHtml(g.field)}</div>
                    ${g.gc_id ? `<div><button type="button" class="box-btn" data-goto="stats" data-box="${esc(g.gc_id)}">Box score →</button></div>` : ""}</div>
-              <div class="score">${g.result ? `${g.rs}–${g.ra}` : `<small>${esc(g.time)}</small>`}</div>
+              ${g.result && g.gc_id ? `<button type="button" class="score score-link" data-goto="stats" data-box="${esc(g.gc_id)}" title="Box score">${g.rs}–${g.ra}</button>` : `<div class="score">${g.result ? `${g.rs}–${g.ra}` : `<small>${esc(g.time)}</small>`}</div>`}
             </li>`).join("")}</ul></div>
           ${bracketsHtml(e.games, games)}
           <details class="inner"><summary>Standings (${e.teams} teams)</summary>${standingsTable(e.standings, seedNote)}</details>
@@ -1138,7 +1140,7 @@
     if (!TABS.includes(name) && !HIDDEN_TABS.includes(name)) name = "tournaments";
     document.querySelectorAll(".tab").forEach((t) => t.setAttribute("aria-selected", String(t.dataset.tab === name)));
     [...TABS, ...HIDDEN_TABS].forEach((t) => { $("#panel-" + t).hidden = t !== name; });
-    if (push && location.hash !== "#" + name) history.replaceState(null, "", "#" + name);
+    if (push && location.hash !== "#" + name) history.pushState(null, "", "#" + name);
     if (!HIDDEN_TABS.includes(name)) { try { localStorage.setItem("elite9.tab", name); } catch (_) {} }
   }
   $("#tabs").addEventListener("click", (e) => { const b = e.target.closest(".tab"); if (b) showTab(b.dataset.tab, true); });
