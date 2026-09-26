@@ -246,12 +246,16 @@ def write_ics(out_dir, tid, ev_name, team, mine, fields, tentative):
     lines = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//Elite 9 Dugout//EN", "CALSCALE:GREGORIAN", "METHOD:PUBLISH",
              f"X-WR-CALNAME:{ics_escape(team)} - {ics_escape(ev_name[:40])}", "X-WR-TIMEZONE:America/New_York"]
     stamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
+    games.sort(key=lambda g: (g["date"], clock(g["time"]), g["game"]))
+    seen_days = set()
     for g in games:
         try:
             start = datetime.strptime(f"{g['date']} {g['time'].strip().upper()}", "%Y-%m-%d %I:%M %p")
         except ValueError:
             continue
-        arrive = start - timedelta(minutes=ARRIVE_MINUTES)
+        first_of_day = g["date"] not in seen_days      # only the day's first game needs the early arrival
+        seen_days.add(g["date"])
+        arrive = start - timedelta(minutes=ARRIVE_MINUTES) if first_of_day else start
         end = start + timedelta(minutes=105)
         abbr = (g["field"] or "").split(":")[0].strip()
         sub = (g["field"] or "").split(":")[1].strip() if ":" in (g["field"] or "") else ""
@@ -259,11 +263,12 @@ def write_ics(out_dir, tid, ev_name, team, mine, fields, tentative):
         loc = ", ".join(x for x in (f"{cx.get('name', abbr)} {sub}".strip(), cx.get("address", "")) if x)
         opp = g["opponent"] if not is_placeholder(g["opponent"]) else "TBD"
         gt = start.strftime("%I:%M %p").lstrip("0")
-        desc = f"Game time {gt} - be at the field by {arrive.strftime('%I:%M %p').lstrip('0')}. {ev_name}. {g['section']} game {g['game']}." + (" Tentative: Top Gun schedules change during the week - the coach's TeamReach post is official." if tentative else "")
+        be_there = f" - be at the field by {arrive.strftime('%I:%M %p').lstrip('0')}" if first_of_day else ""
+        desc = f"Game time {gt}{be_there}. {ev_name}. {g['section']} game {g['game']}." + (" Tentative: Top Gun schedules change during the week - the coach's TeamReach post is official." if tentative else "")
         lines += ["BEGIN:VEVENT", f"UID:e9-{tid}-{re.sub(r'[^a-z0-9]', '', g['section'].lower())}-{g['game']}@elite9dugout",
                   f"DTSTAMP:{stamp}", f"DTSTART;TZID=America/New_York:{arrive.strftime('%Y%m%dT%H%M%S')}",
                   f"DTEND;TZID=America/New_York:{end.strftime('%Y%m%dT%H%M%S')}",
-                  f"SUMMARY:{ics_escape(team)} vs {ics_escape(opp)} - game {gt} (be there {arrive.strftime('%I:%M %p').lstrip('0')})", f"LOCATION:{ics_escape(loc)}",
+                  f"SUMMARY:{ics_escape(team)} vs {ics_escape(opp)} - game {gt}" + (f" (be there {arrive.strftime('%I:%M %p').lstrip('0')})" if first_of_day else ""), f"LOCATION:{ics_escape(loc)}",
                   f"DESCRIPTION:{ics_escape(desc)}", "END:VEVENT"]
     lines.append("END:VCALENDAR")
     ics_dir = out_dir / "ics"

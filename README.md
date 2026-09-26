@@ -45,8 +45,8 @@ python tournament.py 12521 --confirmed      # coach confirmed we're playing  -> 
 python tournament.py 12521 --official       # coach posted the final schedule -> "Official (per coach)"
 python tournament.py 12521 --not-confirmed  # undo (also --not-official, --remove ID)
 ```
-"Registered" (from Top Gun's entry list) is automatic; "Confirmed" is yours. Calendar events
-start 45 minutes before first pitch (arrival time) with the game time in the title.
+"Registered" (from Top Gun's entry list) is automatic; "Confirmed" is yours. In the calendar file, the
+first game of each day starts 45 minutes early (arrival time); later games start at game time.
 
 ### Roster change
 Numbers and nicknames live in `roster.json`; players and their status come from Top Gun's Players
