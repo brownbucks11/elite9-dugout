@@ -1108,7 +1108,7 @@
           "team": "Yellow Jackets",
           "location": "Bessemer City, NC",
           "won": 0,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 31,
           "runs_scored": 18,
           "team_page_id": null
@@ -1137,7 +1137,7 @@
           "seed": 17,
           "team": "SBA Lake Norman Thunder - White",
           "location": "Cornelius, NC",
-          "won": 0,
+          "won": 1,
           "lost": 2,
           "runs_allowed": 26,
           "runs_scored": 16,
@@ -1683,10 +1683,10 @@
             "field": "Tega Cay:Field 1",
             "team_a": "SBA Lake Norman Thunder - White",
             "seed_a": 18,
-            "score_a": null,
+            "score_a": 6,
             "team_b": "Yellow Jackets",
             "seed_b": 21,
-            "score_b": null
+            "score_b": 4
           },
           {
             "game": 3,
@@ -1696,7 +1696,7 @@
             "team_a": "Loser Game #1 Rowan Titans",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Loser Game #2",
+            "team_b": "Loser Game #2 Yellow Jackets",
             "seed_b": null,
             "score_b": null
           },
@@ -1708,7 +1708,7 @@
             "team_a": "Winner Game #1 Carolina Royals 10U",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Winner Game #2",
+            "team_b": "Winner Game #2 SBA Lake Norman Thunder - White",
             "seed_b": null,
             "score_b": null
           }
@@ -3746,5 +3746,5 @@
   },
   "site_last_updated": "09/24/2026 1:31 PM",
   "tournament_id": 12518,
-  "fetched_at": "2026-09-27T15:53"
+  "fetched_at": "2026-09-27T16:04"
 }
