@@ -1027,10 +1027,10 @@
           "seed": 6,
           "team": "MP Bombers 10U",
           "location": "Mount Pleasant, NC",
-          "won": 0,
+          "won": 1,
           "lost": 1,
-          "runs_allowed": 16,
-          "runs_scored": 9,
+          "runs_allowed": 21,
+          "runs_scored": 25,
           "team_page_id": null
         },
         {
@@ -1108,9 +1108,9 @@
           "team": "Yellow Jackets",
           "location": "Bessemer City, NC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 15,
-          "runs_scored": 13,
+          "lost": 2,
+          "runs_allowed": 31,
+          "runs_scored": 18,
           "team_page_id": null
         },
         {
@@ -1433,10 +1433,10 @@
             "field": "SP:Field #3",
             "team_a": "MP Bombers 10U",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 16,
             "team_b": "Yellow Jackets",
             "seed_b": null,
-            "score_b": null
+            "score_b": 5
           }
         ],
         "Gold Bracket": [
@@ -1445,10 +1445,10 @@
             "day": "Sun",
             "time": "1:00 PM",
             "field": "Tuckasee:Tuckaseegee 2",
-            "team_a": "",
+            "team_a": "LKN Bolts",
             "seed_a": 4,
             "score_a": null,
-            "team_b": "",
+            "team_b": "North Lincoln Futures 35",
             "seed_b": 5,
             "score_b": null
           },
@@ -1457,10 +1457,10 @@
             "day": "Sun",
             "time": "1:00 PM",
             "field": "Tuckasee:Tuckaseegee 3",
-            "team_a": "",
+            "team_a": "Hooligans 10U",
             "seed_a": 2,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Legacy Baseball 10U - White",
             "seed_b": 3,
             "score_b": null
           },
@@ -1472,7 +1472,7 @@
             "team_a": "Winner Game #1",
             "seed_a": null,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Union County Crush",
             "seed_b": 1,
             "score_b": null
           },
@@ -1519,10 +1519,10 @@
             "day": "Sun",
             "time": "9:00 AM",
             "field": "Tega Cay:Field 2",
-            "team_a": "",
+            "team_a": "Red Clay Athletics 10U Latimer",
             "seed_a": 7,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Mill Town 9u Trosky",
             "seed_b": 8,
             "score_b": null
           },
@@ -1531,10 +1531,10 @@
             "day": "Sun",
             "time": "9:00 AM",
             "field": "Tega Cay:Field 1",
-            "team_a": "",
+            "team_a": "RBA 10U-Pruett",
             "seed_a": 6,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Carolina Forge 10U",
             "seed_b": 9,
             "score_b": null
           },
@@ -1569,10 +1569,10 @@
             "day": "Sun",
             "time": "9:00 AM",
             "field": "SP:Field #1",
-            "team_a": "",
+            "team_a": "MP Bombers 10U",
             "seed_a": 11,
             "score_a": null,
-            "team_b": "",
+            "team_b": "ELITE BASEBALL EBC 10U",
             "seed_b": 12,
             "score_b": null
           },
@@ -1581,10 +1581,10 @@
             "day": "Sun",
             "time": "11:00 AM",
             "field": "SP:Field #1",
-            "team_a": "",
+            "team_a": "Carolina Hit Stix",
             "seed_a": 10,
             "score_a": null,
-            "team_b": "",
+            "team_b": "LKN Kingdom",
             "seed_b": 13,
             "score_b": null
           },
@@ -1619,10 +1619,10 @@
             "day": "Sun",
             "time": "9:00 AM",
             "field": "Tuckasee:Tuckaseegee 3",
-            "team_a": "",
+            "team_a": "Carolina Locos- 10U Blue",
             "seed_a": 15,
             "score_a": null,
-            "team_b": "",
+            "team_b": "ITAA Spartans 10U",
             "seed_b": 16,
             "score_b": null
           },
@@ -1631,10 +1631,10 @@
             "day": "Sun",
             "time": "9:00 AM",
             "field": "Tuckasee:Tuckaseegee 2",
-            "team_a": "",
+            "team_a": "Elite9 10u",
             "seed_a": 14,
             "score_a": null,
-            "team_b": "",
+            "team_b": "SBA Lake Norman Thunder - Blue",
             "seed_b": 17,
             "score_b": null
           },
@@ -1669,10 +1669,10 @@
             "day": "Sun",
             "time": "1:00 PM",
             "field": "Tega Cay:Field 2",
-            "team_a": "",
+            "team_a": "Carolina Royals 10U",
             "seed_a": 19,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Rowan Titans",
             "seed_b": 20,
             "score_b": null
           },
@@ -1681,10 +1681,10 @@
             "day": "Sun",
             "time": "1:00 PM",
             "field": "Tega Cay:Field 1",
-            "team_a": "",
+            "team_a": "SBA Lake Norman Thunder - White",
             "seed_a": 18,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Yellow Jackets",
             "seed_b": 21,
             "score_b": null
           },
@@ -2559,9 +2559,9 @@
           "team": "Davidson Force",
           "location": "Davidson, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 13,
+          "runs_scored": 1,
           "team_page_id": null
         },
         {
@@ -2588,10 +2588,10 @@
           "seed": 7,
           "team": "River Rats",
           "location": "Lincolnton, NC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
-          "runs_allowed": 3,
-          "runs_scored": 5,
+          "runs_allowed": 4,
+          "runs_scored": 18,
           "team_page_id": null
         }
       ],
@@ -2664,10 +2664,10 @@
             "field": "FDP:Field #1",
             "team_a": "River Rats",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 13,
             "team_b": "Davidson Force",
             "seed_b": null,
-            "score_b": null
+            "score_b": 1
           },
           {
             "game": 7,
@@ -2791,10 +2791,10 @@
           "seed": 2,
           "team": "Bethany Badgers",
           "location": "Clover, SC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
-          "runs_allowed": 1,
-          "runs_scored": 10,
+          "runs_allowed": 3,
+          "runs_scored": 13,
           "team_page_id": null
         },
         {
@@ -2832,9 +2832,9 @@
           "team": "McDowell Militia Baseball 14U",
           "location": "Marion, NC",
           "won": 1,
-          "lost": 0,
-          "runs_allowed": 1,
-          "runs_scored": 5,
+          "lost": 1,
+          "runs_allowed": 4,
+          "runs_scored": 7,
           "team_page_id": null
         },
         {
@@ -2861,10 +2861,10 @@
           "seed": 9,
           "team": "CBC Knuckleheads",
           "location": "Pinehurst, NC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
-          "runs_allowed": 5,
-          "runs_scored": 6,
+          "runs_allowed": 12,
+          "runs_scored": 18,
           "team_page_id": null
         },
         {
@@ -2902,9 +2902,9 @@
           "team": "Regulators",
           "location": "Indian Trail, NC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 9,
-          "runs_scored": 0,
+          "lost": 2,
+          "runs_allowed": 21,
+          "runs_scored": 7,
           "team_page_id": null
         }
       ],
@@ -3049,10 +3049,10 @@
             "field": "BFF:Field 1",
             "team_a": "McDowell Militia Baseball 14U",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 2,
             "team_b": "Bethany Badgers",
             "seed_b": null,
-            "score_b": null
+            "score_b": 3
           },
           {
             "game": 13,
@@ -3061,10 +3061,10 @@
             "field": "SP:Field #2",
             "team_a": "CBC Knuckleheads",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 12,
             "team_b": "Regulators",
             "seed_b": null,
-            "score_b": null
+            "score_b": 7
           }
         ],
         "Gold Bracket": [
@@ -3073,10 +3073,10 @@
             "day": "Sun",
             "time": "9:00 AM",
             "field": "CA:Field #1",
-            "team_a": "",
+            "team_a": "CBC Knuckleheads",
             "seed_a": 4,
             "score_a": null,
-            "team_b": "",
+            "team_b": "McDowell Militia Baseball 14U",
             "seed_b": 5,
             "score_b": null
           },
@@ -3085,10 +3085,10 @@
             "day": "Sun",
             "time": "11:00 AM",
             "field": "CA:Field #1",
-            "team_a": "",
+            "team_a": "P413 2031",
             "seed_a": 2,
             "score_a": null,
-            "team_b": "",
+            "team_b": "SC Tide Abbott",
             "seed_b": 3,
             "score_b": null
           },
@@ -3100,7 +3100,7 @@
             "team_a": "Winner Game #1",
             "seed_a": null,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Bethany Badgers",
             "seed_b": 1,
             "score_b": null
           },
@@ -3135,10 +3135,10 @@
             "day": "Sun",
             "time": "9:00 AM",
             "field": "FDP:Field #1",
-            "team_a": "",
+            "team_a": "KLSC Tomahawks",
             "seed_a": 7,
             "score_a": null,
-            "team_b": "",
+            "team_b": "FS Bulldogs 14u (Helton)",
             "seed_b": 8,
             "score_b": null
           },
@@ -3147,10 +3147,10 @@
             "day": "Sun",
             "time": "9:00 AM",
             "field": "FDP:Field #2",
-            "team_a": "",
+            "team_a": "Crowns Baseball",
             "seed_a": 6,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Foothills Elite",
             "seed_b": 9,
             "score_b": null
           },
@@ -3185,10 +3185,10 @@
             "day": "Sun",
             "time": "9:00 AM",
             "field": "FDP:Field #3",
-            "team_a": "",
+            "team_a": "Toxic NC",
             "seed_a": 11,
             "score_a": null,
-            "team_b": "",
+            "team_b": "ELITE BASEBALL 13/14u EBC",
             "seed_b": 12,
             "score_b": null
           },
@@ -3197,10 +3197,10 @@
             "day": "Sun",
             "time": "11:00 AM",
             "field": "FDP:Field #3",
-            "team_a": "",
+            "team_a": "Red Clay Athletics 14U Kelly",
             "seed_a": 10,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Regulators",
             "seed_b": 13,
             "score_b": null
           },
@@ -3570,19 +3570,19 @@
           "team": "P413 Buchanan",
           "location": "ADVANCE, NC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 4,
-          "runs_scored": 0,
+          "lost": 2,
+          "runs_allowed": 10,
+          "runs_scored": 2,
           "team_page_id": null
         },
         {
           "seed": 3,
           "team": "NCP National",
           "location": "Thomasville, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 5,
-          "runs_scored": 5,
+          "runs_allowed": 7,
+          "runs_scored": 11,
           "team_page_id": null
         },
         {
@@ -3685,10 +3685,10 @@
             "field": "FDP:Field #2",
             "team_a": "P413 Buchanan",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 2,
             "team_b": "NCP National",
             "seed_b": null,
-            "score_b": null
+            "score_b": 6
           }
         ],
         "Gold Bracket": [
@@ -3697,10 +3697,10 @@
             "day": "Sun",
             "time": "9:00 AM",
             "field": "Tuckasee:Tuckaseegee 1",
-            "team_a": "",
+            "team_a": "Carolina Rebels",
             "seed_a": 4,
             "score_a": null,
-            "team_b": "",
+            "team_b": "KLSC Prime",
             "seed_b": 5,
             "score_b": null
           },
@@ -3709,10 +3709,10 @@
             "day": "Sun",
             "time": "11:00 AM",
             "field": "Tuckasee:Tuckaseegee 1",
-            "team_a": "",
+            "team_a": "NCP National",
             "seed_a": 3,
             "score_a": null,
-            "team_b": "",
+            "team_b": "P413 Buchanan",
             "seed_b": 6,
             "score_b": null
           },
@@ -3724,7 +3724,7 @@
             "team_a": "Winner Game #1",
             "seed_a": null,
             "score_a": null,
-            "team_b": "",
+            "team_b": "WNC Phantom Elite",
             "seed_b": 1,
             "score_b": null
           },
@@ -3736,7 +3736,7 @@
             "team_a": "Winner Game #2",
             "seed_a": null,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Triad Warriors",
             "seed_b": 2,
             "score_b": null
           },
@@ -3758,5 +3758,5 @@
   },
   "site_last_updated": "09/24/2026 1:31 PM",
   "tournament_id": 12518,
-  "fetched_at": "2026-09-26T18:55"
+  "fetched_at": "2026-09-26T20:18"
 }
