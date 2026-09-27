@@ -392,7 +392,7 @@
           "seed": 9,
           "team": "LumberJacks",
           "location": "Gaston County, NC",
-          "won": 0,
+          "won": 1,
           "lost": 2,
           "runs_allowed": 25,
           "runs_scored": 14,
@@ -462,7 +462,7 @@
           "seed": 16,
           "team": "BOILING SPRINGS BULLDOGS BASEBALL 8u",
           "location": "Boiling Springs, NC",
-          "won": 1,
+          "won": 2,
           "lost": 1,
           "runs_allowed": 23,
           "runs_scored": 14,
@@ -473,7 +473,7 @@
           "team": "LKN Kingdom",
           "location": "Charlotte, NC",
           "won": 0,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 26,
           "runs_scored": 15,
           "team_page_id": null
@@ -483,7 +483,7 @@
           "team": "Carolina Royals 9Uw",
           "location": "Gastonia, NC",
           "won": 1,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 24,
           "runs_scored": 18,
           "team_page_id": null
@@ -888,10 +888,10 @@
             "field": "Bradford:Field # 2",
             "team_a": "Carolina Royals 9Uw",
             "seed_a": 14,
-            "score_a": null,
+            "score_a": 1,
             "team_b": "LumberJacks",
             "seed_b": 15,
-            "score_b": null
+            "score_b": 28
           },
           {
             "game": 2,
@@ -900,20 +900,20 @@
             "field": "Bradford:Field # 1",
             "team_a": "BOILING SPRINGS BULLDOGS BASEBALL 8u",
             "seed_a": 13,
-            "score_a": null,
+            "score_a": 13,
             "team_b": "LKN Kingdom",
             "seed_b": 16,
-            "score_b": null
+            "score_b": 6
           },
           {
             "game": 3,
             "day": "Sun",
             "time": "3:00 PM",
             "field": "Bradford:Field # 2",
-            "team_a": "Loser Game #1",
+            "team_a": "Loser Game #1 Carolina Royals 9Uw",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Loser Game #2",
+            "team_b": "Loser Game #2 LKN Kingdom",
             "seed_b": null,
             "score_b": null
           },
@@ -922,10 +922,10 @@
             "day": "Sun",
             "time": "3:00 PM",
             "field": "Bradford:Field # 1",
-            "team_a": "Winner Game #1",
+            "team_a": "Winner Game #1 LumberJacks",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Winner Game #2",
+            "team_b": "Winner Game #2 BOILING SPRINGS BULLDOGS BASEBALL 8u",
             "seed_b": null,
             "score_b": null
           }
@@ -1028,7 +1028,7 @@
           "team": "MP Bombers 10U",
           "location": "Mount Pleasant, NC",
           "won": 2,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 21,
           "runs_scored": 25,
           "team_page_id": null
@@ -1067,7 +1067,7 @@
           "seed": 10,
           "team": "LKN Kingdom",
           "location": "Charlotte, NC",
-          "won": 2,
+          "won": 3,
           "lost": 1,
           "runs_allowed": 22,
           "runs_scored": 22,
@@ -1607,10 +1607,10 @@
             "field": "SP:Field #1",
             "team_a": "Winner Game #1 MP Bombers 10U",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 3,
             "team_b": "Winner Game #2 LKN Kingdom",
             "seed_b": null,
-            "score_b": null
+            "score_b": 18
           }
         ],
         "Copper Bracket": [
@@ -3746,5 +3746,5 @@
   },
   "site_last_updated": "09/24/2026 1:31 PM",
   "tournament_id": 12518,
-  "fetched_at": "2026-09-27T14:19"
+  "fetched_at": "2026-09-27T14:29"
 }

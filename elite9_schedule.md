@@ -1,5 +1,5 @@
 # Elite 9 - Top Gun schedule
-_Updated Sun Sep 27, 2026 02:19 PM_
+_Updated Sun Sep 27, 2026 02:30 PM_
 
 ## SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND
 September 26 - 27 in Greater Charlotte Area, NC  
@@ -28,16 +28,16 @@ Tournament 12518 - [schedule page](https://playtopgunsports.com/GameTimesResults
 | 6 | Team 24 | York, SC | 1-2 | 21 | 23 |
 | 7 | Lake Wylie Venom | Lake Wylie, SC | 4-0 | 26 | 14 |
 | 8 | SC Tide - Lucariello | Clover, SC | 0-3 | 5 | 32 |
-| 9 | LumberJacks | Gaston County, NC | 0-2 | 14 | 25 |
+| 9 | LumberJacks | Gaston County, NC | 1-2 | 14 | 25 |
 | 10 | Rock Hill 9U Baseball | Rock Hill, SC | 2-2 | 18 | 15 |
 | 11 | PeeDee Mudcats | Wadesboro, NC | 1-1 | 13 | 18 |
 | 12 | South Park Red Raiders | Charlotte, NC | 4-0 | 32 | 0 |
 | 13 | Legacy Baseball 9U - WHITE | Fort Mill, SC | 2-2 | 9 | 34 |
 | 14 | Red Clay Athletics 9U Darcangelo | Charlotte, NC | 2-2 | 29 | 13 |
 | 15 | Dirtbags Baseball ESB | Lincolnton, NC | 2-1 | 14 | 15 |
-| 16 | BOILING SPRINGS BULLDOGS BASEBALL 8u | Boiling Springs, NC | 1-1 | 14 | 23 |
-| 17 | LKN Kingdom | Charlotte, NC | 0-2 | 15 | 26 |
-| 18 | Carolina Royals 9Uw | Gastonia, NC | 1-1 | 18 | 24 |
+| 16 | BOILING SPRINGS BULLDOGS BASEBALL 8u | Boiling Springs, NC | 2-1 | 14 | 23 |
+| 17 | LKN Kingdom | Charlotte, NC | 0-3 | 15 | 26 |
+| 18 | Carolina Royals 9Uw | Gastonia, NC | 1-2 | 18 | 24 |
 | 19 | Carolina Forge 9U | Gastonia, NC | 0-3 | 8 | 26 |
 
 **Gold Bracket**
@@ -71,10 +71,10 @@ Tournament 12518 - [schedule page](https://playtopgunsports.com/GameTimesResults
 
 | G | When | Field | Team A | Team B |
 |---|---|---|---|---|
-| 1 | Sun 1:00 PM | Bradford:Field # 2 | (#14) Carolina Royals 9Uw | (#15) LumberJacks |
-| 2 | Sun 1:00 PM | Bradford:Field # 1 | (#13) BOILING SPRINGS BULLDOGS BASEBALL 8u | (#16) LKN Kingdom |
-| 3 | Sun 3:00 PM | Bradford:Field # 2 | Loser Game #1 | Loser Game #2 |
-| 4 | Sun 3:00 PM | Bradford:Field # 1 | Winner Game #1 | Winner Game #2 |
+| 1 | Sun 1:00 PM | Bradford:Field # 2 | (#14) Carolina Royals 9Uw 1 | (#15) LumberJacks 28 |
+| 2 | Sun 1:00 PM | Bradford:Field # 1 | (#13) BOILING SPRINGS BULLDOGS BASEBALL 8u 13 | (#16) LKN Kingdom 6 |
+| 3 | Sun 3:00 PM | Bradford:Field # 2 | Loser Game #1 Carolina Royals 9Uw | Loser Game #2 LKN Kingdom |
+| 4 | Sun 3:00 PM | Bradford:Field # 1 | Winner Game #1 LumberJacks | Winner Game #2 BOILING SPRINGS BULLDOGS BASEBALL 8u |
 
 **Select Bracket**
 
