@@ -1097,7 +1097,7 @@
           "seed": 13,
           "team": "Hooligans 10U",
           "location": "Belmont, NC",
-          "won": 2,
+          "won": 3,
           "lost": 0,
           "runs_allowed": 9,
           "runs_scored": 28,
@@ -1148,7 +1148,7 @@
           "team": "Legacy Baseball 10U - White",
           "location": "Fort Mill, SC",
           "won": 2,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 9,
           "runs_scored": 25,
           "team_page_id": null
@@ -1459,10 +1459,10 @@
             "field": "Tuckasee:Tuckaseegee 3",
             "team_a": "Hooligans 10U",
             "seed_a": 2,
-            "score_a": null,
+            "score_a": 8,
             "team_b": "Legacy Baseball 10U - White",
             "seed_b": 3,
-            "score_b": null
+            "score_b": 5
           },
           {
             "game": 3,
@@ -1484,7 +1484,7 @@
             "team_a": "Loser Game #1",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Loser Game #2",
+            "team_b": "Loser Game #2 Legacy Baseball 10U - White",
             "seed_b": null,
             "score_b": null
           },
@@ -1496,7 +1496,7 @@
             "team_a": "Winner Game #3",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Winner Game #2",
+            "team_b": "Winner Game #2 Hooligans 10U",
             "seed_b": null,
             "score_b": null
           },
@@ -3746,5 +3746,5 @@
   },
   "site_last_updated": "09/24/2026 1:31 PM",
   "tournament_id": 12518,
-  "fetched_at": "2026-09-27T14:29"
+  "fetched_at": "2026-09-27T14:40"
 }
