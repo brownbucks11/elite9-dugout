@@ -392,7 +392,7 @@
           "seed": 9,
           "team": "LumberJacks",
           "location": "Gaston County, NC",
-          "won": 1,
+          "won": 2,
           "lost": 2,
           "runs_allowed": 25,
           "runs_scored": 14,
@@ -463,7 +463,7 @@
           "team": "BOILING SPRINGS BULLDOGS BASEBALL 8u",
           "location": "Boiling Springs, NC",
           "won": 2,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 23,
           "runs_scored": 14,
           "team_page_id": null
@@ -924,10 +924,10 @@
             "field": "Bradford:Field # 1",
             "team_a": "Winner Game #1 LumberJacks",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 11,
             "team_b": "Winner Game #2 BOILING SPRINGS BULLDOGS BASEBALL 8u",
             "seed_b": null,
-            "score_b": null
+            "score_b": 7
           }
         ],
         "Select Bracket": [
@@ -988,7 +988,7 @@
           "team": "LKN Bolts",
           "location": "Huntersville, NC",
           "won": 3,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 10,
           "runs_scored": 14,
           "team_page_id": null
@@ -997,7 +997,7 @@
           "seed": 3,
           "team": "Union County Crush",
           "location": "Indian Trail, NC",
-          "won": 2,
+          "won": 3,
           "lost": 0,
           "runs_allowed": 5,
           "runs_scored": 21,
@@ -1078,7 +1078,7 @@
           "team": "North Lincoln Futures 35",
           "location": "Denver, NC",
           "won": 2,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 14,
           "runs_scored": 24,
           "team_page_id": null
@@ -1147,7 +1147,7 @@
           "seed": 18,
           "team": "Legacy Baseball 10U - White",
           "location": "Fort Mill, SC",
-          "won": 2,
+          "won": 3,
           "lost": 1,
           "runs_allowed": 9,
           "runs_scored": 25,
@@ -1471,10 +1471,10 @@
             "field": "Tuckasee:Tuckaseegee 2",
             "team_a": "Winner Game #1 LKN Bolts",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 6,
             "team_b": "Union County Crush",
             "seed_b": 1,
-            "score_b": null
+            "score_b": 16
           },
           {
             "game": 4,
@@ -1483,17 +1483,17 @@
             "field": "Tuckasee:Tuckaseegee 3",
             "team_a": "Loser Game #1 North Lincoln Futures 35",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 3,
             "team_b": "Loser Game #2 Legacy Baseball 10U - White",
             "seed_b": null,
-            "score_b": null
+            "score_b": 15
           },
           {
             "game": 5,
             "day": "Sun",
             "time": "5:00 PM",
             "field": "Tuckasee:Tuckaseegee 2",
-            "team_a": "Winner Game #3",
+            "team_a": "Winner Game #3 Union County Crush",
             "seed_a": null,
             "score_a": null,
             "team_b": "Winner Game #2 Hooligans 10U",
@@ -3746,5 +3746,5 @@
   },
   "site_last_updated": "09/24/2026 1:31 PM",
   "tournament_id": 12518,
-  "fetched_at": "2026-09-27T16:25"
+  "fetched_at": "2026-09-27T16:35"
 }
