@@ -3,7 +3,7 @@
  "location": "Rock Hill, SC",
  "page_id": 31407,
  "team_url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=31407",
- "built": "Sun Sep 27, 2026 04:15 PM",
+ "built": "Sun Sep 27, 2026 04:25 PM",
  "record": {
   "w": 2,
   "l": 7,
@@ -1211,7 +1211,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-09-27T16:14",
+    "fetched_at": "2026-09-27T16:25",
     "url": "https://topgunstats.com/whos-playing/12518"
    },
    "next_game": null,
@@ -2328,14 +2328,14 @@
      "field": "Bradford:Field # 2",
      "team_a": "Carolina Royals 9Uw",
      "seed_a": null,
-     "score_a": null,
+     "score_a": 5,
      "from_a": {
       "type": "loser",
       "game": 1
      },
      "team_b": "LKN Kingdom",
      "seed_b": null,
-     "score_b": null,
+     "score_b": 5,
      "from_b": {
       "type": "loser",
       "game": 2
@@ -3201,7 +3201,7 @@
      "entered_at": "2026-09-17T10:03:30.533Z",
      "level": "AA"
     },
-    "fetched_at": "2026-09-27T16:14"
+    "fetched_at": "2026-09-27T16:25"
    },
    "tgs": {
     "weather": null,
@@ -3326,7 +3326,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-09-27T16:14",
+    "fetched_at": "2026-09-27T16:25",
     "url": "https://topgunstats.com/whos-playing/12518"
    },
    "name": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
@@ -3908,14 +3908,14 @@
      "field": "Bradford:Field # 2",
      "team_a": "Carolina Royals 9Uw",
      "seed_a": null,
-     "score_a": null,
+     "score_a": 5,
      "from_a": {
       "type": "loser",
       "game": 1
      },
      "team_b": "LKN Kingdom",
      "seed_b": null,
-     "score_b": null,
+     "score_b": 5,
      "from_b": {
       "type": "loser",
       "game": 2
@@ -4272,7 +4272,7 @@
     "team": {
      "entered": false
     },
-    "fetched_at": "2026-09-27T16:14"
+    "fetched_at": "2026-09-27T16:25"
    },
    "tgs": {
     "weather": null,
@@ -4350,7 +4350,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-09-27T16:14",
+    "fetched_at": "2026-09-27T16:25",
     "url": "https://topgunstats.com/whos-playing/12521"
    },
    "name": "Triple points Super Regional",
@@ -4387,7 +4387,7 @@
      "entered_at": "2026-06-08T12:01:08.307Z",
      "level": "AA"
     },
-    "fetched_at": "2026-09-27T16:14"
+    "fetched_at": "2026-09-27T16:25"
    },
    "tgs": {
     "weather": null,
@@ -4469,7 +4469,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-09-27T16:14",
+    "fetched_at": "2026-09-27T16:25",
     "url": "https://topgunstats.com/whos-playing/12522"
    },
    "name": "Southeastern Winter World Series",
@@ -4501,7 +4501,7 @@
     "team": {
      "entered": false
     },
-    "fetched_at": "2026-09-27T16:14"
+    "fetched_at": "2026-09-27T16:25"
    },
    "tgs": {
     "weather": null,
@@ -4554,7 +4554,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-09-27T16:14",
+    "fetched_at": "2026-09-27T16:25",
     "url": "https://topgunstats.com/whos-playing/12524"
    },
    "name": "Road Runner vs Coyote ring weekend",
@@ -7905,6 +7905,67 @@
    "stats_fetched": "2026-09-27T11:35"
   },
   {
+   "team": "Carolina Royals 9Uw",
+   "location": "Gastonia, NC",
+   "page_id": null,
+   "url": null,
+   "w": 1,
+   "l": 2,
+   "t": 1,
+   "rs": 24,
+   "ra": 57,
+   "diff": -33,
+   "pct": 0.375,
+   "events": 1,
+   "log": [
+    {
+     "date": "2026-09-26",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Pool Play",
+     "opponent": "LKN Kingdom",
+     "rs": 14,
+     "ra": 8,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-26",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Pool Play",
+     "opponent": "LKN Bolts",
+     "rs": 4,
+     "ra": 16,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-27",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Copper Bracket",
+     "opponent": "LumberJacks",
+     "rs": 1,
+     "ra": 28,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-27",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Copper Bracket",
+     "opponent": "LKN Kingdom",
+     "rs": 5,
+     "ra": 5,
+     "result": "T"
+    }
+   ],
+   "points": 0,
+   "titles": 0,
+   "finishes": [],
+   "season": "",
+   "stats_fetched": null
+  },
+  {
    "team": "LumberJacks",
    "location": "Gaston County, NC",
    "page_id": 34401,
@@ -8420,57 +8481,6 @@
    "stats_fetched": "2026-09-27T11:40"
   },
   {
-   "team": "Carolina Royals 9Uw",
-   "location": "Gastonia, NC",
-   "page_id": null,
-   "url": null,
-   "w": 1,
-   "l": 2,
-   "t": 0,
-   "rs": 19,
-   "ra": 52,
-   "diff": -33,
-   "pct": 0.333,
-   "events": 1,
-   "log": [
-    {
-     "date": "2026-09-26",
-     "event_id": 12518,
-     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "section": "Pool Play",
-     "opponent": "LKN Kingdom",
-     "rs": 14,
-     "ra": 8,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-26",
-     "event_id": 12518,
-     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "section": "Pool Play",
-     "opponent": "LKN Bolts",
-     "rs": 4,
-     "ra": 16,
-     "result": "L"
-    },
-    {
-     "date": "2026-09-27",
-     "event_id": 12518,
-     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "section": "Copper Bracket",
-     "opponent": "LumberJacks",
-     "rs": 1,
-     "ra": 28,
-     "result": "L"
-    }
-   ],
-   "points": 0,
-   "titles": 0,
-   "finishes": [],
-   "season": "",
-   "stats_fetched": null
-  },
-  {
    "team": "Union County Legends",
    "location": "Waxhaw, NC",
    "page_id": null,
@@ -8797,6 +8807,132 @@
    "stats_fetched": "2026-09-27T11:40"
   },
   {
+   "team": "LKN Kingdom",
+   "location": "Charlotte, NC",
+   "page_id": 37240,
+   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=37240",
+   "w": 0,
+   "l": 7,
+   "t": 1,
+   "rs": 39,
+   "ra": 92,
+   "diff": -53,
+   "pct": 0.062,
+   "events": 3,
+   "log": [
+    {
+     "date": "2026-08-28",
+     "event_id": 13552,
+     "event": "TOP GUN-USA SPORTS--FNL--PRE LABOR DAY SPECIAL",
+     "section": "Pool Play",
+     "opponent": "Lightning Jacks Riddle",
+     "rs": 0,
+     "ra": 9,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-11",
+     "event_id": 13600,
+     "event": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
+     "section": "Pool Play",
+     "opponent": "Mara Bulls",
+     "rs": 6,
+     "ra": 10,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-11",
+     "event_id": 13600,
+     "event": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
+     "section": "Pool Play",
+     "opponent": "Carolina Icons",
+     "rs": 5,
+     "ra": 17,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-11",
+     "event_id": 13600,
+     "event": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
+     "section": "Silver Bracket",
+     "opponent": "Elite 9",
+     "rs": 2,
+     "ra": 12,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-26",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Pool Play",
+     "opponent": "Carolina Royals 9Uw",
+     "rs": 8,
+     "ra": 14,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-26",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Pool Play",
+     "opponent": "Elite 9",
+     "rs": 7,
+     "ra": 12,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-27",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Copper Bracket",
+     "opponent": "BOILING SPRINGS BULLDOGS BASEBALL 8u",
+     "rs": 6,
+     "ra": 13,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-27",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Copper Bracket",
+     "opponent": "Carolina Royals 9Uw",
+     "rs": 5,
+     "ra": 5,
+     "result": "T"
+    }
+   ],
+   "points": 525,
+   "titles": 0,
+   "finishes": [
+    {
+     "date": "2026-08-28",
+     "name": "TOP GUN-USA SPORTS--FNL--PRE LABOR DAY SPECIAL",
+     "won": 0,
+     "lost": 2,
+     "standing": "7th (Gold)",
+     "points": 300
+    },
+    {
+     "date": "2026-09-11",
+     "name": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
+     "won": 0,
+     "lost": 3,
+     "standing": "4th (Silver)",
+     "points": 225
+    },
+    {
+     "date": "2026-09-26",
+     "name": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "won": 0,
+     "lost": 2,
+     "standing": "",
+     "points": 0
+    }
+   ],
+   "season": "08/01/2026 - 09/27/2026",
+   "stats_fetched": "2026-09-27T11:38"
+  },
+  {
    "team": "High Point Hurricanes",
    "location": "High Point, NC",
    "page_id": 38939,
@@ -8925,122 +9061,6 @@
    ],
    "season": "08/01/2026 - 09/27/2026",
    "stats_fetched": "2026-09-27T11:37"
-  },
-  {
-   "team": "LKN Kingdom",
-   "location": "Charlotte, NC",
-   "page_id": 37240,
-   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=37240",
-   "w": 0,
-   "l": 7,
-   "t": 0,
-   "rs": 34,
-   "ra": 87,
-   "diff": -53,
-   "pct": 0.0,
-   "events": 3,
-   "log": [
-    {
-     "date": "2026-08-28",
-     "event_id": 13552,
-     "event": "TOP GUN-USA SPORTS--FNL--PRE LABOR DAY SPECIAL",
-     "section": "Pool Play",
-     "opponent": "Lightning Jacks Riddle",
-     "rs": 0,
-     "ra": 9,
-     "result": "L"
-    },
-    {
-     "date": "2026-09-11",
-     "event_id": 13600,
-     "event": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
-     "section": "Pool Play",
-     "opponent": "Mara Bulls",
-     "rs": 6,
-     "ra": 10,
-     "result": "L"
-    },
-    {
-     "date": "2026-09-11",
-     "event_id": 13600,
-     "event": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
-     "section": "Pool Play",
-     "opponent": "Carolina Icons",
-     "rs": 5,
-     "ra": 17,
-     "result": "L"
-    },
-    {
-     "date": "2026-09-11",
-     "event_id": 13600,
-     "event": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
-     "section": "Silver Bracket",
-     "opponent": "Elite 9",
-     "rs": 2,
-     "ra": 12,
-     "result": "L"
-    },
-    {
-     "date": "2026-09-26",
-     "event_id": 12518,
-     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "section": "Pool Play",
-     "opponent": "Carolina Royals 9Uw",
-     "rs": 8,
-     "ra": 14,
-     "result": "L"
-    },
-    {
-     "date": "2026-09-26",
-     "event_id": 12518,
-     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "section": "Pool Play",
-     "opponent": "Elite 9",
-     "rs": 7,
-     "ra": 12,
-     "result": "L"
-    },
-    {
-     "date": "2026-09-27",
-     "event_id": 12518,
-     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "section": "Copper Bracket",
-     "opponent": "BOILING SPRINGS BULLDOGS BASEBALL 8u",
-     "rs": 6,
-     "ra": 13,
-     "result": "L"
-    }
-   ],
-   "points": 525,
-   "titles": 0,
-   "finishes": [
-    {
-     "date": "2026-08-28",
-     "name": "TOP GUN-USA SPORTS--FNL--PRE LABOR DAY SPECIAL",
-     "won": 0,
-     "lost": 2,
-     "standing": "7th (Gold)",
-     "points": 300
-    },
-    {
-     "date": "2026-09-11",
-     "name": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
-     "won": 0,
-     "lost": 3,
-     "standing": "4th (Silver)",
-     "points": 225
-    },
-    {
-     "date": "2026-09-26",
-     "name": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "won": 0,
-     "lost": 2,
-     "standing": "",
-     "points": 0
-    }
-   ],
-   "season": "08/01/2026 - 09/27/2026",
-   "stats_fetched": "2026-09-27T11:38"
   },
   {
    "team": "Carolina Elevate",

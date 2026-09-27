@@ -1,5 +1,5 @@
 # Elite 9 - Top Gun schedule
-_Updated Sun Sep 27, 2026 04:15 PM_
+_Updated Sun Sep 27, 2026 04:25 PM_
 
 ## SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND
 September 26 - 27 in Greater Charlotte Area, NC  
@@ -73,7 +73,7 @@ Tournament 12518 - [schedule page](https://playtopgunsports.com/GameTimesResults
 |---|---|---|---|---|
 | 1 | Sun 1:00 PM | Bradford:Field # 2 | (#14) Carolina Royals 9Uw 1 | (#15) LumberJacks 28 |
 | 2 | Sun 1:00 PM | Bradford:Field # 1 | (#13) BOILING SPRINGS BULLDOGS BASEBALL 8u 13 | (#16) LKN Kingdom 6 |
-| 3 | Sun 3:00 PM | Bradford:Field # 2 | Loser Game #1 Carolina Royals 9Uw | Loser Game #2 LKN Kingdom |
+| 3 | Sun 3:00 PM | Bradford:Field # 2 | Loser Game #1 Carolina Royals 9Uw 5 | Loser Game #2 LKN Kingdom 5 |
 | 4 | Sun 3:00 PM | Bradford:Field # 1 | Winner Game #1 LumberJacks | Winner Game #2 BOILING SPRINGS BULLDOGS BASEBALL 8u |
 
 **Select Bracket**
