@@ -1,12 +1,12 @@
 # Elite 9 - Top Gun schedule
-_Updated Sun Sep 27, 2026 08:50 AM_
+_Updated Sun Sep 27, 2026 11:33 AM_
 
 ## SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND
 September 26 - 27 in Greater Charlotte Area, NC  
 Tournament 12518 - [schedule page](https://playtopgunsports.com/GameTimesResults.aspx?trnid=12518)
 
 ### 9U  
-**Standing:** #5 of 19  -  1-1, RS 15, RA 15
+**Standing:** #5 of 19  -  1-2, RS 15, RA 15
 
 **Elite 9 games**
 
@@ -14,26 +14,26 @@ Tournament 12518 - [schedule page](https://playtopgunsports.com/GameTimesResults
 |---|---|---|---|---|
 | Pool 1 | Sat 9:00 AM | Poston:Field # 1 | Elite 9 3 | LKN Bolts 8 |
 | Pool 6 | Sat 10:45 AM | Poston:Field # 2 | LKN Kingdom 7 | Elite 9 12 |
-| Silv 2 | Sun 9:00 AM | Bradford:Field # 3 | (#5) Lake Wylie Venom | (#8) Elite 9 |
+| Silv 2 | Sun 9:00 AM | Bradford:Field # 3 | (#5) Lake Wylie Venom 17 | (#8) Elite 9 4 |
 
 **9U standings**
 
 | # | Team | From | W-L | RS | RA |
 |---|---|---|---|---|---|
-| 1 | ROCO Dirtbagz | Forest City, NC | 2-0 | 26 | 8 |
+| 1 | ROCO Dirtbagz | Forest City, NC | 2-1 | 26 | 8 |
 | 2 | Carolina Trash Pandas | Locust, NC | 1-1 | 11 | 21 |
-| 3 | Carolina Firebirds-Red | Winston Salem, NC | 2-0 | 33 | 6 |
-| 4 | LKN Bolts | Huntersville, NC | 2-0 | 24 | 7 |
-| 5 | Elite 9 **<--** | Rock Hill, SC | 1-1 | 15 | 15 |
+| 3 | Carolina Firebirds-Red | Winston Salem, NC | 3-0 | 33 | 6 |
+| 4 | LKN Bolts | Huntersville, NC | 2-1 | 24 | 7 |
+| 5 | Elite 9 **<--** | Rock Hill, SC | 1-2 | 15 | 15 |
 | 6 | Team 24 | York, SC | 1-1 | 21 | 23 |
-| 7 | Lake Wylie Venom | Lake Wylie, SC | 2-0 | 26 | 14 |
-| 8 | SC Tide - Lucariello | Clover, SC | 0-2 | 5 | 32 |
+| 7 | Lake Wylie Venom | Lake Wylie, SC | 3-0 | 26 | 14 |
+| 8 | SC Tide - Lucariello | Clover, SC | 0-3 | 5 | 32 |
 | 9 | LumberJacks | Gaston County, NC | 0-2 | 14 | 25 |
-| 10 | Rock Hill 9U Baseball | Rock Hill, SC | 1-1 | 18 | 15 |
+| 10 | Rock Hill 9U Baseball | Rock Hill, SC | 1-2 | 18 | 15 |
 | 11 | PeeDee Mudcats | Wadesboro, NC | 1-1 | 13 | 18 |
-| 12 | South Park Red Raiders | Charlotte, NC | 2-0 | 32 | 0 |
-| 13 | Legacy Baseball 9U - WHITE | Fort Mill, SC | 0-2 | 9 | 34 |
-| 14 | Red Clay Athletics 9U Darcangelo | Charlotte, NC | 1-1 | 29 | 13 |
+| 12 | South Park Red Raiders | Charlotte, NC | 3-0 | 32 | 0 |
+| 13 | Legacy Baseball 9U - WHITE | Fort Mill, SC | 1-2 | 9 | 34 |
+| 14 | Red Clay Athletics 9U Darcangelo | Charlotte, NC | 2-1 | 29 | 13 |
 | 15 | Dirtbags Baseball ESB | Lincolnton, NC | 1-1 | 14 | 15 |
 | 16 | BOILING SPRINGS BULLDOGS BASEBALL 8u | Boiling Springs, NC | 1-1 | 14 | 23 |
 | 17 | LKN Kingdom | Charlotte, NC | 0-2 | 15 | 26 |
@@ -44,19 +44,19 @@ Tournament 12518 - [schedule page](https://playtopgunsports.com/GameTimesResults
 
 | G | When | Field | Team A | Team B |
 |---|---|---|---|---|
-| 1 | Sun 9:00 AM | Bradford:Field # 2 | (#2) Carolina Firebirds-Red | (#3) LKN Bolts |
-| 2 | Sun 9:00 AM | Bradford:Field # 1 | (#1) South Park Red Raiders | (#4) ROCO Dirtbagz |
-| 3 | Sun 11:00 AM | Bradford:Field # 2 | Loser Game #1 | Loser Game #2 |
-| 4 | Sun 11:00 AM | Bradford:Field # 1 | Winner Game #1 | Winner Game #2 |
+| 1 | Sun 9:00 AM | Bradford:Field # 2 | (#2) Carolina Firebirds-Red 11 | (#3) LKN Bolts 3 |
+| 2 | Sun 9:00 AM | Bradford:Field # 1 | (#1) South Park Red Raiders 14 | (#4) ROCO Dirtbagz 2 |
+| 3 | Sun 11:00 AM | Bradford:Field # 2 | Loser Game #1 LKN Bolts | Loser Game #2 ROCO Dirtbagz |
+| 4 | Sun 11:00 AM | Bradford:Field # 1 | Winner Game #1 Carolina Firebirds-Red | Winner Game #2 South Park Red Raiders |
 
 **Silver Bracket**
 
 | G | When | Field | Team A | Team B |
 |---|---|---|---|---|
-| 1 | Sun 9:00 AM | Bradford:Field # 4 | (#6) Red Clay Athletics 9U Darcangelo | (#7) Rock Hill 9U Baseball |
-| 2 | Sun 9:00 AM | Bradford:Field # 3 | (#5) Lake Wylie Venom | (#8) Elite 9 |
-| 3 | Sun 11:00 AM | Bradford:Field # 4 | Loser Game #1 | Loser Game #2 |
-| 4 | Sun 11:00 AM | Bradford:Field # 3 | Winner Game #1 | Winner Game #2 |
+| 1 | Sun 9:00 AM | Bradford:Field # 4 | (#6) Red Clay Athletics 9U Darcangelo 11 | (#7) Rock Hill 9U Baseball 3 |
+| 2 | Sun 9:00 AM | Bradford:Field # 3 | (#5) Lake Wylie Venom 17 | (#8) Elite 9 4 |
+| 3 | Sun 11:00 AM | Bradford:Field # 4 | Loser Game #1 Rock Hill 9U Baseball | Loser Game #2 Elite 9 |
+| 4 | Sun 11:00 AM | Bradford:Field # 3 | Winner Game #1 Red Clay Athletics 9U Darcangelo | Winner Game #2 Lake Wylie Venom |
 
 **Bronze Bracket**
 
@@ -80,7 +80,7 @@ Tournament 12518 - [schedule page](https://playtopgunsports.com/GameTimesResults
 
 | G | When | Field | Team A | Team B |
 |---|---|---|---|---|
-| 1 | Sun 9:00 AM | SP:Field #3 | (#18) SC Tide - Lucariello | (#19) Legacy Baseball 9U - WHITE |
+| 1 | Sun 9:00 AM | SP:Field #3 | (#18) SC Tide - Lucariello 7 | (#19) Legacy Baseball 9U - WHITE 12 |
 | 2 | Sun 11:00 AM | SP:Field #3 | (#17) Carolina Forge 9U | (#19) Legacy Baseball 9U - WHITE |
 | 3 | Sun 1:00 PM | SP:Field #3 | (#17) Carolina Forge 9U | (#18) SC Tide - Lucariello |
 
