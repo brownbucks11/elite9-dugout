@@ -432,7 +432,7 @@
           "seed": 13,
           "team": "Legacy Baseball 9U - WHITE",
           "location": "Fort Mill, SC",
-          "won": 1,
+          "won": 2,
           "lost": 2,
           "runs_allowed": 34,
           "runs_scored": 9,
@@ -493,7 +493,7 @@
           "team": "Carolina Forge 9U",
           "location": "Gastonia, NC",
           "won": 0,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 26,
           "runs_scored": 8,
           "team_page_id": null
@@ -950,10 +950,10 @@
             "field": "SP:Field #3",
             "team_a": "Carolina Forge 9U",
             "seed_a": 17,
-            "score_a": null,
+            "score_a": 10,
             "team_b": "Legacy Baseball 9U - WHITE",
             "seed_b": 19,
-            "score_b": null
+            "score_b": 15
           },
           {
             "game": 3,
@@ -977,7 +977,7 @@
           "seed": 1,
           "team": "Carolina Locos- 10U Blue",
           "location": "Waxhaw, NC",
-          "won": 1,
+          "won": 2,
           "lost": 2,
           "runs_allowed": 14,
           "runs_scored": 12,
@@ -1158,7 +1158,7 @@
           "team": "SBA Lake Norman Thunder - Blue",
           "location": "Cornelius, NC",
           "won": 1,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 25,
           "runs_scored": 21,
           "team_page_id": null
@@ -1657,10 +1657,10 @@
             "field": "Tuckasee:Tuckaseegee 2",
             "team_a": "Winner Game #1 Carolina Locos- 10U Blue",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 15,
             "team_b": "Winner Game #2 SBA Lake Norman Thunder - Blue",
             "seed_b": null,
-            "score_b": null
+            "score_b": 9
           }
         ],
         "Select Bracket": [
@@ -3239,7 +3239,7 @@
           "team": "Dry Pond 14U",
           "location": "Denver, NC",
           "won": 1,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 2,
           "runs_scored": 14,
           "team_page_id": null
@@ -3258,7 +3258,7 @@
           "seed": 3,
           "team": "MARA Machine",
           "location": "Matthews, NC",
-          "won": 1,
+          "won": 2,
           "lost": 1,
           "runs_allowed": 5,
           "runs_scored": 4,
@@ -3456,10 +3456,10 @@
             "field": "BFF:Field 1",
             "team_a": "Dry Pond 14U",
             "seed_a": 2,
-            "score_a": null,
+            "score_a": 3,
             "team_b": "MARA Machine",
             "seed_b": 3,
-            "score_b": null
+            "score_b": 5
           },
           {
             "game": 3,
@@ -3481,7 +3481,7 @@
             "team_a": "Winner Game #3",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Winner Game #2",
+            "team_b": "Winner Game #2 MARA Machine",
             "seed_b": null,
             "score_b": null
           }
@@ -3557,7 +3557,7 @@
           "seed": 2,
           "team": "P413 Buchanan",
           "location": "ADVANCE, NC",
-          "won": 0,
+          "won": 1,
           "lost": 2,
           "runs_allowed": 10,
           "runs_scored": 2,
@@ -3568,7 +3568,7 @@
           "team": "NCP National",
           "location": "Thomasville, NC",
           "won": 1,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 7,
           "runs_scored": 11,
           "team_page_id": null
@@ -3699,10 +3699,10 @@
             "field": "Tuckasee:Tuckaseegee 1",
             "team_a": "NCP National",
             "seed_a": 3,
-            "score_a": null,
+            "score_a": 4,
             "team_b": "P413 Buchanan",
             "seed_b": 6,
-            "score_b": null
+            "score_b": 12
           },
           {
             "game": 3,
@@ -3721,7 +3721,7 @@
             "day": "Sun",
             "time": "3:00 PM",
             "field": "Tuckasee:Tuckaseegee 1",
-            "team_a": "Winner Game #2",
+            "team_a": "Winner Game #2 P413 Buchanan",
             "seed_a": null,
             "score_a": null,
             "team_b": "Triad Warriors",
@@ -3746,5 +3746,5 @@
   },
   "site_last_updated": "09/24/2026 1:31 PM",
   "tournament_id": 12518,
-  "fetched_at": "2026-09-27T13:07"
+  "fetched_at": "2026-09-27T13:33"
 }

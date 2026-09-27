@@ -3,7 +3,7 @@
  "location": "Rock Hill, SC",
  "page_id": 31407,
  "team_url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=31407",
- "built": "Sun Sep 27, 2026 01:08 PM",
+ "built": "Sun Sep 27, 2026 01:34 PM",
  "record": {
   "w": 2,
   "l": 7,
@@ -1211,7 +1211,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-09-27T13:07",
+    "fetched_at": "2026-09-27T13:33",
     "url": "https://topgunstats.com/whos-playing/12518"
    },
    "next_game": null,
@@ -1697,7 +1697,7 @@
      "seed": 17,
      "bracket": "Select Bracket",
      "won": 0,
-     "lost": 2,
+     "lost": 3,
      "rs": 8,
      "ra": 26
     },
@@ -1748,7 +1748,7 @@
      "pool_ra": 34,
      "seed": 19,
      "bracket": "Select Bracket",
-     "won": 1,
+     "won": 2,
      "lost": 2,
      "rs": 9,
      "ra": 34
@@ -2388,11 +2388,11 @@
      "field": "SP:Field #3",
      "team_a": "Carolina Forge 9U",
      "seed_a": 17,
-     "score_a": null,
+     "score_a": 10,
      "from_a": null,
      "team_b": "Legacy Baseball 9U - WHITE",
      "seed_b": 19,
-     "score_b": null,
+     "score_b": 15,
      "from_b": null
     },
     {
@@ -3201,7 +3201,7 @@
      "entered_at": "2026-09-17T10:03:30.533Z",
      "level": "AA"
     },
-    "fetched_at": "2026-09-27T13:07"
+    "fetched_at": "2026-09-27T13:33"
    },
    "tgs": {
     "weather": null,
@@ -3326,7 +3326,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-09-27T13:07",
+    "fetched_at": "2026-09-27T13:33",
     "url": "https://topgunstats.com/whos-playing/12518"
    },
    "name": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
@@ -3968,11 +3968,11 @@
      "field": "SP:Field #3",
      "team_a": "Carolina Forge 9U",
      "seed_a": 17,
-     "score_a": null,
+     "score_a": 10,
      "from_a": null,
      "team_b": "Legacy Baseball 9U - WHITE",
      "seed_b": 19,
-     "score_b": null,
+     "score_b": 15,
      "from_b": null
     },
     {
@@ -4117,7 +4117,7 @@
      "seed": 13,
      "team": "Legacy Baseball 9U - WHITE",
      "location": "Fort Mill, SC",
-     "won": 1,
+     "won": 2,
      "lost": 2,
      "runs_allowed": 34,
      "runs_scored": 9,
@@ -4178,7 +4178,7 @@
      "team": "Carolina Forge 9U",
      "location": "Gastonia, NC",
      "won": 0,
-     "lost": 2,
+     "lost": 3,
      "runs_allowed": 26,
      "runs_scored": 8,
      "team_page_id": null
@@ -4272,7 +4272,7 @@
     "team": {
      "entered": false
     },
-    "fetched_at": "2026-09-27T13:07"
+    "fetched_at": "2026-09-27T13:33"
    },
    "tgs": {
     "weather": null,
@@ -4350,7 +4350,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-09-27T13:07",
+    "fetched_at": "2026-09-27T13:33",
     "url": "https://topgunstats.com/whos-playing/12521"
    },
    "name": "Triple points Super Regional",
@@ -4387,7 +4387,7 @@
      "entered_at": "2026-06-08T12:01:08.307Z",
      "level": "AA"
     },
-    "fetched_at": "2026-09-27T13:07"
+    "fetched_at": "2026-09-27T13:33"
    },
    "tgs": {
     "weather": null,
@@ -4469,7 +4469,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-09-27T13:07",
+    "fetched_at": "2026-09-27T13:33",
     "url": "https://topgunstats.com/whos-playing/12522"
    },
    "name": "Southeastern Winter World Series",
@@ -4501,7 +4501,7 @@
     "team": {
      "entered": false
     },
-    "fetched_at": "2026-09-27T13:07"
+    "fetched_at": "2026-09-27T13:33"
    },
    "tgs": {
     "weather": null,
@@ -4554,7 +4554,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-09-27T13:07",
+    "fetched_at": "2026-09-27T13:33",
     "url": "https://topgunstats.com/whos-playing/12524"
    },
    "name": "Road Runner vs Coyote ring weekend",
@@ -7206,13 +7206,13 @@
    "location": "Fort Mill, SC",
    "page_id": 35761,
    "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=35761",
-   "w": 5,
+   "w": 6,
    "l": 6,
    "t": 0,
-   "rs": 92,
-   "ra": 118,
-   "diff": -26,
-   "pct": 0.455,
+   "rs": 107,
+   "ra": 128,
+   "diff": -21,
+   "pct": 0.5,
    "events": 3,
    "log": [
     {
@@ -7324,6 +7324,16 @@
      "rs": 12,
      "ra": 7,
      "result": "W"
+    },
+    {
+     "date": "2026-09-27",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Select Bracket",
+     "opponent": "Carolina Forge 9U",
+     "rs": 15,
+     "ra": 10,
+     "result": "W"
     }
    ],
    "points": 850,
@@ -7350,7 +7360,7 @@
      "name": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
      "won": 1,
      "lost": 2,
-     "standing": "1st (Select)",
+     "standing": "3rd (Select)",
      "points": 0,
      "derived": true
     }
@@ -9019,11 +9029,11 @@
    "page_id": 37235,
    "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=37235",
    "w": 0,
-   "l": 9,
+   "l": 10,
    "t": 0,
-   "rs": 36,
-   "ra": 127,
-   "diff": -91,
+   "rs": 46,
+   "ra": 142,
+   "diff": -96,
    "pct": 0.0,
    "events": 3,
    "log": [
@@ -9116,6 +9126,16 @@
      "rs": 7,
      "ra": 8,
      "result": "L"
+    },
+    {
+     "date": "2026-09-27",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Select Bracket",
+     "opponent": "Legacy Baseball 9U - WHITE",
+     "rs": 10,
+     "ra": 15,
+     "result": "L"
     }
    ],
    "points": 675,
@@ -9142,8 +9162,9 @@
      "name": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
      "won": 0,
      "lost": 2,
-     "standing": "",
-     "points": 0
+     "standing": "4th (Select)",
+     "points": 0,
+     "derived": true
     }
    ],
    "season": "08/01/2026 - 09/27/2026",
