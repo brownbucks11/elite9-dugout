@@ -1763,7 +1763,7 @@
           "team": "Pro-Fit Spartans (Benton)",
           "location": "Oakboro, NC",
           "won": 3,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 19,
           "runs_scored": 21,
           "team_page_id": null
@@ -1772,7 +1772,7 @@
           "seed": 6,
           "team": "Weddington Warriors",
           "location": "Weddington, NC",
-          "won": 3,
+          "won": 4,
           "lost": 1,
           "runs_allowed": 11,
           "runs_scored": 22,
@@ -2064,10 +2064,10 @@
             "field": "Westmoreld:Field 3",
             "team_a": "Winner Game #3 Weddington Warriors",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 19,
             "team_b": "Winner Game #2 Pro-Fit Spartans (Benton)",
             "seed_b": null,
-            "score_b": null
+            "score_b": 9
           },
           {
             "game": 6,
@@ -2211,7 +2211,7 @@
           "seed": 3,
           "team": "Carolina Bearcats 12U",
           "location": "Alexis, NC",
-          "won": 2,
+          "won": 3,
           "lost": 0,
           "runs_allowed": 17,
           "runs_scored": 23,
@@ -2222,7 +2222,7 @@
           "team": "RBA HEELS",
           "location": "Rutherfordton, NC",
           "won": 2,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 28,
           "runs_scored": 10,
           "team_page_id": null
@@ -3746,5 +3746,5 @@
   },
   "site_last_updated": "09/24/2026 1:31 PM",
   "tournament_id": 12518,
-  "fetched_at": "2026-09-27T19:13"
+  "fetched_at": "2026-09-27T19:23"
 }
