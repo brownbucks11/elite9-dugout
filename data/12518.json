@@ -2569,7 +2569,7 @@
           "team": "Elite9 Knights",
           "location": "Rock Hill, SC",
           "won": 1,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 14,
           "runs_scored": 11,
           "team_page_id": null
@@ -2578,7 +2578,7 @@
           "seed": 6,
           "team": "South Carolina Cyclones",
           "location": "Chester, SC",
-          "won": 1,
+          "won": 2,
           "lost": 2,
           "runs_allowed": 5,
           "runs_scored": 7,
@@ -2714,10 +2714,10 @@
             "field": "FDP:Field #3",
             "team_a": "Loser Game #1 South Carolina Cyclones",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 5,
             "team_b": "Loser Game #2 Elite9 Knights",
             "seed_b": null,
-            "score_b": null
+            "score_b": 1
           },
           {
             "game": 4,
@@ -3746,5 +3746,5 @@
   },
   "site_last_updated": "09/24/2026 1:31 PM",
   "tournament_id": 12518,
-  "fetched_at": "2026-09-27T19:02"
+  "fetched_at": "2026-09-27T19:13"
 }
