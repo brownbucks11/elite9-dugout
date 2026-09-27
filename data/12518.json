@@ -62,7 +62,7 @@
           "team": "NC Made 8U Blue",
           "location": "Mocksville, NC",
           "won": 1,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 30,
           "runs_scored": 25,
           "team_page_id": null
@@ -121,7 +121,7 @@
           "seed": 7,
           "team": "South Park Redbirds",
           "location": "Charlotte, NC",
-          "won": 2,
+          "won": 3,
           "lost": 0,
           "runs_allowed": 5,
           "runs_scored": 32,
@@ -235,10 +235,10 @@
             "field": "Westmoreld:Field 4",
             "team_a": "South Park Redbirds",
             "seed_a": 1,
-            "score_a": null,
+            "score_a": 15,
             "team_b": "NC Made 8U Blue",
             "seed_b": 4,
-            "score_b": null
+            "score_b": 0
           },
           {
             "game": 3,
@@ -248,7 +248,7 @@
             "team_a": "Loser Game #1 Carolina Regulators/New Balance",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Loser Game #2",
+            "team_b": "Loser Game #2 NC Made 8U Blue",
             "seed_b": null,
             "score_b": null
           },
@@ -260,7 +260,7 @@
             "team_a": "Winner Game #1 Waxhaw Militia",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Winner Game #2",
+            "team_b": "Winner Game #2 South Park Redbirds",
             "seed_b": null,
             "score_b": null
           }
@@ -1048,7 +1048,7 @@
           "team": "Rowan Titans",
           "location": "China Grove, NC",
           "won": 0,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 29,
           "runs_scored": 3,
           "team_page_id": null
@@ -1177,7 +1177,7 @@
           "seed": 21,
           "team": "Carolina Royals 10U",
           "location": "Cramerton, NC",
-          "won": 0,
+          "won": 1,
           "lost": 2,
           "runs_allowed": 27,
           "runs_scored": 6,
@@ -1671,10 +1671,10 @@
             "field": "Tega Cay:Field 2",
             "team_a": "Carolina Royals 10U",
             "seed_a": 19,
-            "score_a": null,
+            "score_a": 11,
             "team_b": "Rowan Titans",
             "seed_b": 20,
-            "score_b": null
+            "score_b": 3
           },
           {
             "game": 2,
@@ -1693,7 +1693,7 @@
             "day": "Sun",
             "time": "3:00 PM",
             "field": "Tega Cay:Field 2",
-            "team_a": "Loser Game #1",
+            "team_a": "Loser Game #1 Rowan Titans",
             "seed_a": null,
             "score_a": null,
             "team_b": "Loser Game #2",
@@ -1705,7 +1705,7 @@
             "day": "Sun",
             "time": "3:00 PM",
             "field": "Tega Cay:Field 1",
-            "team_a": "Winner Game #1",
+            "team_a": "Winner Game #1 Carolina Royals 10U",
             "seed_a": null,
             "score_a": null,
             "team_b": "Winner Game #2",
@@ -2192,7 +2192,7 @@
           "team": "Carolina Wombats- 12U",
           "location": "Waxhaw, NC",
           "won": 0,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 28,
           "runs_scored": 14,
           "team_page_id": null
@@ -2221,7 +2221,7 @@
           "seed": 4,
           "team": "RBA HEELS",
           "location": "Rutherfordton, NC",
-          "won": 0,
+          "won": 1,
           "lost": 2,
           "runs_allowed": 28,
           "runs_scored": 10,
@@ -2242,7 +2242,7 @@
           "team": "Lincoln County Warriors",
           "location": "Lincolnton, NC",
           "won": 3,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 5,
           "runs_scored": 24,
           "team_page_id": null
@@ -2281,7 +2281,7 @@
           "seed": 5,
           "team": "Rock Hill Select Baseball Club",
           "location": "Rock Hill, SC",
-          "won": 3,
+          "won": 4,
           "lost": 0,
           "runs_allowed": 5,
           "runs_scored": 15,
@@ -2461,10 +2461,10 @@
             "field": "Tega Cay:Field 3",
             "team_a": "Winner Game #1 Rock Hill Select Baseball Club",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 10,
             "team_b": "Winner Game #2 Lincoln County Warriors",
             "seed_b": null,
-            "score_b": null
+            "score_b": 3
           }
         ],
         "Silver Bracket": [
@@ -3746,5 +3746,5 @@
   },
   "site_last_updated": "09/24/2026 1:31 PM",
   "tournament_id": 12518,
-  "fetched_at": "2026-09-27T15:11"
+  "fetched_at": "2026-09-27T15:22"
 }
