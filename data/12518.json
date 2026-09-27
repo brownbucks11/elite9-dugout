@@ -2221,7 +2221,7 @@
           "seed": 4,
           "team": "RBA HEELS",
           "location": "Rutherfordton, NC",
-          "won": 1,
+          "won": 2,
           "lost": 2,
           "runs_allowed": 28,
           "runs_scored": 10,
@@ -2232,7 +2232,7 @@
           "team": "The Battery Training Academy LLC.",
           "location": "Gastonia, NC",
           "won": 2,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 11,
           "runs_scored": 26,
           "team_page_id": null
@@ -2781,7 +2781,7 @@
           "seed": 1,
           "team": "SC Tide Abbott",
           "location": "Clover, SC",
-          "won": 3,
+          "won": 4,
           "lost": 0,
           "runs_allowed": 4,
           "runs_scored": 10,
@@ -2792,7 +2792,7 @@
           "team": "Bethany Badgers",
           "location": "Clover, SC",
           "won": 3,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 3,
           "runs_scored": 13,
           "team_page_id": null
@@ -3123,10 +3123,10 @@
             "field": "CA:Field #1",
             "team_a": "Winner Game #3 Bethany Badgers",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 4,
             "team_b": "Winner Game #2 SC Tide Abbott",
             "seed_b": null,
-            "score_b": null
+            "score_b": 16
           }
         ],
         "Silver Bracket": [
@@ -3558,7 +3558,7 @@
           "team": "P413 Buchanan",
           "location": "ADVANCE, NC",
           "won": 1,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 10,
           "runs_scored": 2,
           "team_page_id": null
@@ -3587,7 +3587,7 @@
           "seed": 5,
           "team": "Triad Warriors",
           "location": "Walkertown, NC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
           "runs_allowed": 5,
           "runs_scored": 9,
@@ -3723,10 +3723,10 @@
             "field": "Tuckasee:Tuckaseegee 1",
             "team_a": "Winner Game #2 P413 Buchanan",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 1,
             "team_b": "Triad Warriors",
             "seed_b": 2,
-            "score_b": null
+            "score_b": 2
           },
           {
             "game": 5,
@@ -3736,7 +3736,7 @@
             "team_a": "Winner Game #3 Carolina Rebels",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Winner Game #4",
+            "team_b": "Winner Game #4 Triad Warriors",
             "seed_b": null,
             "score_b": null
           }
@@ -3746,5 +3746,5 @@
   },
   "site_last_updated": "09/24/2026 1:31 PM",
   "tournament_id": 12518,
-  "fetched_at": "2026-09-27T17:17"
+  "fetched_at": "2026-09-27T17:28"
 }
