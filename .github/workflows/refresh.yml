@@ -32,7 +32,7 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 360
     env:
       TZ: America/New_York
     steps:
@@ -67,7 +67,7 @@ jobs:
           pip install -r requirements.txt
           python -m playwright install --with-deps chromium
 
-      - name: Fetch pages and rebuild docs/
+      - name: Fetch, rebuild, commit (keeps looping every 10 minutes on a game day)
         if: steps.gate.outputs.run == 'true'
         env:
           SCHED: ${{ github.event.schedule }}
@@ -81,21 +81,39 @@ jobs:
           esac
           if [ "$DISCOVER" = "true" ]; then FLAGS="$FLAGS --discover"; fi
           if [ "$TEAMS" = "true" ]; then FLAGS="$FLAGS --teams"; fi
-          echo "refresh.py $FLAGS"
-          python refresh.py $FLAGS
-
-      - name: Commit if anything changed
-        if: steps.gate.outputs.run == 'true'
-        run: |
           git config user.name "score-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data docs elite9_schedule.md
-          # ignore a change to nothing but the "built" timestamp, so quiet ticks make no commits
-          REAL=$(git diff --cached -U0 -- . ':!docs/data.js' | grep -E '^[+-][^+-]' | grep -v '"built":' | wc -l)
-          if [ "$REAL" = "0" ]; then
-            echo "no changes"
-            git reset -q
-          else
-            git commit -m "Refresh scores $(date '+%a %b %d %I:%M %p %Z')"
-            git push
+
+          commit_if_changed() {
+            git add data docs elite9_schedule.md
+            # ignore a change to nothing but the "built" timestamp, so quiet ticks make no commits
+            REAL=$(git diff --cached -U0 -- . ':!docs/data.js' | grep -E '^[+-][^+-]' | grep -v '"built":' | wc -l)
+            if [ "$REAL" = "0" ]; then
+              echo "no changes"; git reset -q
+            else
+              git commit -q -m "Refresh scores $(date '+%a %b %d %I:%M %p %Z')"
+              git pull --rebase -q || { git rebase --abort; git pull -q; }
+              git push -q && echo "pushed" || echo "push failed (will retry next tick)"
+            fi
+          }
+
+          # On a game day this job keeps going: fetch every 10 minutes until the tournament's last
+          # day is over, 10:30 PM Eastern, or ~5h40m of runtime (a job may run 6h). Later scheduled
+          # runs queue behind it (concurrency group) and take over when it ends.
+          STARTED=$(date +%s)
+          TICK=0
+          while true; do
+            TICK=$((TICK+1))
+            echo "=== tick $TICK $(date '+%a %I:%M %p %Z')"
+            python refresh.py $FLAGS || echo "refresh.py returned an error; continuing"
+            commit_if_changed
+            FLAGS=""     # discovery / team pages only on the first pass
+            GAMEDAY=$(python gameday.py)
+            HOUR=$(date +%H)
+            ELAPSED=$(( $(date +%s) - STARTED ))
+            if [ "$GAMEDAY" != "yes" ] || [ "$HOUR" -ge 22 ] || [ "$HOUR" -lt 7 ] || [ "$ELAPSED" -gt 20400 ]; then
+              echo "done: gameday=$GAMEDAY hour=$HOUR elapsed=${ELAPSED}s"; break
+            fi
+            sleep 600
+          done
           fi
