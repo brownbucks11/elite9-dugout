@@ -1047,7 +1047,7 @@
           "seed": 8,
           "team": "Rowan Titans",
           "location": "China Grove, NC",
-          "won": 0,
+          "won": 1,
           "lost": 3,
           "runs_allowed": 29,
           "runs_scored": 3,
@@ -1108,7 +1108,7 @@
           "team": "Yellow Jackets",
           "location": "Bessemer City, NC",
           "won": 0,
-          "lost": 3,
+          "lost": 4,
           "runs_allowed": 31,
           "runs_scored": 18,
           "team_page_id": null
@@ -1695,10 +1695,10 @@
             "field": "Tega Cay:Field 2",
             "team_a": "Loser Game #1 Rowan Titans",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 13,
             "team_b": "Loser Game #2 Yellow Jackets",
             "seed_b": null,
-            "score_b": null
+            "score_b": 9
           },
           {
             "game": 4,
@@ -3746,5 +3746,5 @@
   },
   "site_last_updated": "09/24/2026 1:31 PM",
   "tournament_id": 12518,
-  "fetched_at": "2026-09-27T16:56"
+  "fetched_at": "2026-09-27T17:07"
 }
