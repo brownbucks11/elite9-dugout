@@ -72,7 +72,7 @@
           "team": "Carolina Smoke 8u",
           "location": "Concord, NC",
           "won": 1,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 39,
           "runs_scored": 29,
           "team_page_id": null
@@ -101,7 +101,7 @@
           "seed": 5,
           "team": "Canes Atlantic 8u Fareri",
           "location": "Denver, NC",
-          "won": 2,
+          "won": 3,
           "lost": 1,
           "runs_allowed": 34,
           "runs_scored": 26,
@@ -297,10 +297,10 @@
             "field": "Westmoreld:Field 4",
             "team_a": "Canes Atlantic 8u Fareri",
             "seed_a": 5,
-            "score_a": null,
+            "score_a": 10,
             "team_b": "Carolina Smoke 8u",
             "seed_b": 6,
-            "score_b": null
+            "score_b": 1
           }
         ]
       }
@@ -313,7 +313,7 @@
           "team": "ROCO Dirtbagz",
           "location": "Forest City, NC",
           "won": 2,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 8,
           "runs_scored": 26,
           "team_page_id": null
@@ -333,7 +333,7 @@
           "team": "Carolina Firebirds-Red",
           "location": "Winston Salem, NC",
           "won": 3,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 6,
           "runs_scored": 33,
           "team_page_id": null
@@ -342,7 +342,7 @@
           "seed": 4,
           "team": "LKN Bolts",
           "location": "Huntersville, NC",
-          "won": 2,
+          "won": 3,
           "lost": 1,
           "runs_allowed": 7,
           "runs_scored": 24,
@@ -353,7 +353,7 @@
           "team": "Elite 9",
           "location": "Rock Hill, SC",
           "won": 1,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 15,
           "runs_scored": 15,
           "team_page_id": null
@@ -372,7 +372,7 @@
           "seed": 7,
           "team": "Lake Wylie Venom",
           "location": "Lake Wylie, SC",
-          "won": 3,
+          "won": 4,
           "lost": 0,
           "runs_allowed": 14,
           "runs_scored": 26,
@@ -402,7 +402,7 @@
           "seed": 10,
           "team": "Rock Hill 9U Baseball",
           "location": "Rock Hill, SC",
-          "won": 1,
+          "won": 2,
           "lost": 2,
           "runs_allowed": 15,
           "runs_scored": 18,
@@ -422,7 +422,7 @@
           "seed": 12,
           "team": "South Park Red Raiders",
           "location": "Charlotte, NC",
-          "won": 3,
+          "won": 4,
           "lost": 0,
           "runs_allowed": 0,
           "runs_scored": 32,
@@ -443,7 +443,7 @@
           "team": "Red Clay Athletics 9U Darcangelo",
           "location": "Charlotte, NC",
           "won": 2,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 13,
           "runs_scored": 29,
           "team_page_id": null
@@ -762,10 +762,10 @@
             "field": "Bradford:Field # 2",
             "team_a": "Loser Game #1 LKN Bolts",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 17,
             "team_b": "Loser Game #2 ROCO Dirtbagz",
             "seed_b": null,
-            "score_b": null
+            "score_b": 5
           },
           {
             "game": 4,
@@ -774,10 +774,10 @@
             "field": "Bradford:Field # 1",
             "team_a": "Winner Game #1 Carolina Firebirds-Red",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 3,
             "team_b": "Winner Game #2 South Park Red Raiders",
             "seed_b": null,
-            "score_b": null
+            "score_b": 4
           }
         ],
         "Silver Bracket": [
@@ -812,10 +812,10 @@
             "field": "Bradford:Field # 4",
             "team_a": "Loser Game #1 Rock Hill 9U Baseball",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 14,
             "team_b": "Loser Game #2 Elite 9",
             "seed_b": null,
-            "score_b": null
+            "score_b": 2
           },
           {
             "game": 4,
@@ -824,10 +824,10 @@
             "field": "Bradford:Field # 3",
             "team_a": "Winner Game #1 Red Clay Athletics 9U Darcangelo",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 5,
             "team_b": "Winner Game #2 Lake Wylie Venom",
             "seed_b": null,
-            "score_b": null
+            "score_b": 17
           }
         ],
         "Bronze Bracket": [
@@ -1007,7 +1007,7 @@
           "seed": 4,
           "team": "Red Clay Athletics 10U Latimer",
           "location": "Huntersville, NC",
-          "won": 3,
+          "won": 4,
           "lost": 0,
           "runs_allowed": 18,
           "runs_scored": 26,
@@ -1018,7 +1018,7 @@
           "team": "RBA 10U-Pruett",
           "location": "Rutherfordton, NC",
           "won": 3,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 17,
           "runs_scored": 21,
           "team_page_id": null
@@ -1037,7 +1037,7 @@
           "seed": 7,
           "team": "Mill Town 9u Trosky",
           "location": "Fort Mill, SC",
-          "won": 1,
+          "won": 2,
           "lost": 2,
           "runs_allowed": 8,
           "runs_scored": 18,
@@ -1067,7 +1067,7 @@
           "seed": 10,
           "team": "LKN Kingdom",
           "location": "Charlotte, NC",
-          "won": 1,
+          "won": 2,
           "lost": 1,
           "runs_allowed": 22,
           "runs_scored": 22,
@@ -1088,7 +1088,7 @@
           "team": "Elite9 10u",
           "location": "Rock hill, SC",
           "won": 1,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 25,
           "runs_scored": 15,
           "team_page_id": null
@@ -1118,7 +1118,7 @@
           "team": "Carolina Hit Stix",
           "location": "Richburg, SC",
           "won": 1,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 14,
           "runs_scored": 7,
           "team_page_id": null
@@ -1127,7 +1127,7 @@
           "seed": 16,
           "team": "ITAA Spartans 10U",
           "location": "Indian Trail, NC",
-          "won": 0,
+          "won": 1,
           "lost": 3,
           "runs_allowed": 18,
           "runs_scored": 9,
@@ -1168,7 +1168,7 @@
           "team": "Carolina Forge 10U",
           "location": "Gastonia, NC",
           "won": 1,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 9,
           "runs_scored": 24,
           "team_page_id": null
@@ -1545,10 +1545,10 @@
             "field": "Tega Cay:Field 2",
             "team_a": "Loser Game #1 Mill Town 9u Trosky",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 14,
             "team_b": "Loser Game #2 Carolina Forge 10U",
             "seed_b": null,
-            "score_b": null
+            "score_b": 2
           },
           {
             "game": 4,
@@ -1557,10 +1557,10 @@
             "field": "Tega Cay:Field 1",
             "team_a": "Winner Game #1 Red Clay Athletics 10U Latimer",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 13,
             "team_b": "Winner Game #2 RBA 10U-Pruett",
             "seed_b": null,
-            "score_b": null
+            "score_b": 3
           }
         ],
         "Bronze Bracket": [
@@ -1583,10 +1583,10 @@
             "field": "SP:Field #1",
             "team_a": "Carolina Hit Stix",
             "seed_a": 10,
-            "score_a": null,
+            "score_a": 1,
             "team_b": "LKN Kingdom",
             "seed_b": 13,
-            "score_b": null
+            "score_b": 11
           },
           {
             "game": 3,
@@ -1596,7 +1596,7 @@
             "team_a": "Loser Game #1 ELITE BASEBALL EBC 10U",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Loser Game #2",
+            "team_b": "Loser Game #2 Carolina Hit Stix",
             "seed_b": null,
             "score_b": null
           },
@@ -1608,7 +1608,7 @@
             "team_a": "Winner Game #1 MP Bombers 10U",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Winner Game #2",
+            "team_b": "Winner Game #2 LKN Kingdom",
             "seed_b": null,
             "score_b": null
           }
@@ -1645,10 +1645,10 @@
             "field": "Tuckasee:Tuckaseegee 3",
             "team_a": "Loser Game #1 ITAA Spartans 10U",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 16,
             "team_b": "Loser Game #2 Elite9 10u",
             "seed_b": null,
-            "score_b": null
+            "score_b": 2
           },
           {
             "game": 4,
@@ -1732,7 +1732,7 @@
           "seed": 2,
           "team": "Pro-Fit Spartans (Almond)",
           "location": "Oakboro, NC",
-          "won": 1,
+          "won": 2,
           "lost": 1,
           "runs_allowed": 12,
           "runs_scored": 26,
@@ -1752,7 +1752,7 @@
           "seed": 4,
           "team": "Mara Select",
           "location": "Matthews, NC",
-          "won": 1,
+          "won": 2,
           "lost": 1,
           "runs_allowed": 17,
           "runs_scored": 14,
@@ -1792,8 +1792,8 @@
           "seed": 8,
           "team": "11u On Deck O's",
           "location": "Charlotte, NC",
-          "won": 0,
-          "lost": 2,
+          "won": 1,
+          "lost": 3,
           "runs_allowed": 24,
           "runs_scored": 7,
           "team_page_id": null
@@ -1803,7 +1803,7 @@
           "team": "Banana Peppers Baseball 11u",
           "location": "Gastonia, NC",
           "won": 1,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 21,
           "runs_scored": 19,
           "team_page_id": null
@@ -1813,7 +1813,7 @@
           "team": "Dirtbags 11u Hagen",
           "location": "Pineville, NC",
           "won": 0,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 14,
           "runs_scored": 9,
           "team_page_id": null
@@ -2102,10 +2102,10 @@
             "field": "M. Rivers:Martha Rivers 1",
             "team_a": "Pro-Fit Spartans (Almond)",
             "seed_a": 6,
-            "score_a": null,
+            "score_a": 13,
             "team_b": "Dirtbags 11u Hagen",
             "seed_b": 9,
-            "score_b": null
+            "score_b": 1
           },
           {
             "game": 3,
@@ -2115,7 +2115,7 @@
             "team_a": "Loser Game #1 CBC Showcase",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Loser Game #2",
+            "team_b": "Loser Game #2 Dirtbags 11u Hagen",
             "seed_b": null,
             "score_b": null
           },
@@ -2127,7 +2127,7 @@
             "team_a": "Winner Game #1 CC Cardinals 11U",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Winner Game #2",
+            "team_b": "Winner Game #2 Pro-Fit Spartans (Almond)",
             "seed_b": null,
             "score_b": null
           }
@@ -2164,10 +2164,10 @@
             "field": "Westmoreld:Field 2",
             "team_a": "Loser Game #1 11u On Deck O's",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 6,
             "team_b": "Loser Game #2 Carolina Lightning",
             "seed_b": null,
-            "score_b": null
+            "score_b": 6
           },
           {
             "game": 4,
@@ -2176,10 +2176,10 @@
             "field": "Westmoreld:Field 3",
             "team_a": "Winner Game #1 Banana Peppers Baseball 11u",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 2,
             "team_b": "Winner Game #2 Mara Select",
             "seed_b": null,
-            "score_b": null
+            "score_b": 16
           }
         ]
       }
@@ -2241,7 +2241,7 @@
           "seed": 1,
           "team": "Lincoln County Warriors",
           "location": "Lincolnton, NC",
-          "won": 2,
+          "won": 3,
           "lost": 0,
           "runs_allowed": 5,
           "runs_scored": 24,
@@ -2251,7 +2251,7 @@
           "seed": 2,
           "team": "Carolina Locos-Black",
           "location": "Waxhaw, NC",
-          "won": 0,
+          "won": 1,
           "lost": 3,
           "runs_allowed": 24,
           "runs_scored": 13,
@@ -2262,7 +2262,7 @@
           "team": "Banana Peppers Baseball",
           "location": "Gastonia, NC",
           "won": 0,
-          "lost": 3,
+          "lost": 4,
           "runs_allowed": 25,
           "runs_scored": 3,
           "team_page_id": null
@@ -2272,7 +2272,7 @@
           "team": "LKN Kingdom",
           "location": "Charlotte, NC",
           "won": 2,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 19,
           "runs_scored": 15,
           "team_page_id": null
@@ -2291,7 +2291,7 @@
           "seed": 6,
           "team": "BS BULLDOGS BlACK 12u",
           "location": "BOILING SPRINGS, NC",
-          "won": 1,
+          "won": 2,
           "lost": 2,
           "runs_allowed": 15,
           "runs_scored": 11,
@@ -2312,7 +2312,7 @@
           "team": "CBB Baseball Blue",
           "location": "Waxhaw, NC",
           "won": 1,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 18,
           "runs_scored": 14,
           "team_page_id": null
@@ -2437,10 +2437,10 @@
             "field": "Tega Cay:Field 3",
             "team_a": "Lincoln County Warriors",
             "seed_a": 1,
-            "score_a": null,
+            "score_a": 10,
             "team_b": "CBB Baseball Blue",
             "seed_b": 4,
-            "score_b": null
+            "score_b": 2
           },
           {
             "game": 3,
@@ -2450,7 +2450,7 @@
             "team_a": "Loser Game #1 Athletes Lab White 11U",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Loser Game #2",
+            "team_b": "Loser Game #2 CBB Baseball Blue",
             "seed_b": null,
             "score_b": null
           },
@@ -2462,7 +2462,7 @@
             "team_a": "Winner Game #1 Rock Hill Select Baseball Club",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Winner Game #2",
+            "team_b": "Winner Game #2 Lincoln County Warriors",
             "seed_b": null,
             "score_b": null
           }
@@ -2499,10 +2499,10 @@
             "field": "M. Rivers:Martha Rivers 2",
             "team_a": "Loser Game #1 Carolina Locos-Black",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 7,
             "team_b": "Loser Game #2 Banana Peppers Baseball",
             "seed_b": null,
-            "score_b": null
+            "score_b": 6
           },
           {
             "game": 4,
@@ -2511,10 +2511,10 @@
             "field": "M. Rivers:Martha Rivers 3",
             "team_a": "Winner Game #1 BS BULLDOGS BlACK 12u",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 16,
             "team_b": "Winner Game #2 LKN Kingdom",
             "seed_b": null,
-            "score_b": null
+            "score_b": 2
           }
         ]
       }
@@ -2781,7 +2781,7 @@
           "seed": 1,
           "team": "SC Tide Abbott",
           "location": "Clover, SC",
-          "won": 2,
+          "won": 3,
           "lost": 0,
           "runs_allowed": 4,
           "runs_scored": 10,
@@ -2811,7 +2811,7 @@
           "seed": 4,
           "team": "FS Bulldogs 14u (Helton)",
           "location": "MT. ULLA, NC",
-          "won": 2,
+          "won": 3,
           "lost": 1,
           "runs_allowed": 10,
           "runs_scored": 13,
@@ -2822,7 +2822,7 @@
           "team": "Crowns Baseball",
           "location": "Indian Trail, NC",
           "won": 2,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 6,
           "runs_scored": 14,
           "team_page_id": null
@@ -2842,7 +2842,7 @@
           "team": "P413 2031",
           "location": "Mocksville, NC",
           "won": 2,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 3,
           "runs_scored": 10,
           "team_page_id": null
@@ -2851,7 +2851,7 @@
           "seed": 8,
           "team": "Foothills Elite",
           "location": "Hickory, NC",
-          "won": 1,
+          "won": 2,
           "lost": 2,
           "runs_allowed": 15,
           "runs_scored": 19,
@@ -2871,7 +2871,7 @@
           "seed": 10,
           "team": "Red Clay Athletics 14U Kelly",
           "location": "Huntersville, NC",
-          "won": 0,
+          "won": 1,
           "lost": 2,
           "runs_allowed": 15,
           "runs_scored": 2,
@@ -2892,7 +2892,7 @@
           "team": "KLSC Tomahawks",
           "location": "Belmont, NC",
           "won": 1,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 7,
           "runs_scored": 17,
           "team_page_id": null
@@ -2902,7 +2902,7 @@
           "team": "Regulators",
           "location": "Indian Trail, NC",
           "won": 0,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 21,
           "runs_scored": 7,
           "team_page_id": null
@@ -3087,10 +3087,10 @@
             "field": "CA:Field #1",
             "team_a": "P413 2031",
             "seed_a": 2,
-            "score_a": null,
+            "score_a": 1,
             "team_b": "SC Tide Abbott",
             "seed_b": 3,
-            "score_b": null
+            "score_b": 7
           },
           {
             "game": 3,
@@ -3112,7 +3112,7 @@
             "team_a": "Loser Game #1 McDowell Militia Baseball 14U",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Loser Game #2",
+            "team_b": "Loser Game #2 P413 2031",
             "seed_b": null,
             "score_b": null
           },
@@ -3124,7 +3124,7 @@
             "team_a": "Winner Game #3",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Winner Game #2",
+            "team_b": "Winner Game #2 SC Tide Abbott",
             "seed_b": null,
             "score_b": null
           }
@@ -3161,10 +3161,10 @@
             "field": "FDP:Field #1",
             "team_a": "Loser Game #1 KLSC Tomahawks",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 3,
             "team_b": "Loser Game #2 Foothills Elite",
             "seed_b": null,
-            "score_b": null
+            "score_b": 8
           },
           {
             "game": 4,
@@ -3173,10 +3173,10 @@
             "field": "FDP:Field #2",
             "team_a": "Winner Game #1 FS Bulldogs 14u (Helton)",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 4,
             "team_b": "Winner Game #2 Crowns Baseball",
             "seed_b": null,
-            "score_b": null
+            "score_b": 2
           }
         ],
         "Bronze Bracket": [
@@ -3199,10 +3199,10 @@
             "field": "FDP:Field #3",
             "team_a": "Red Clay Athletics 14U Kelly",
             "seed_a": 10,
-            "score_a": null,
+            "score_a": 5,
             "team_b": "Regulators",
             "seed_b": 13,
-            "score_b": null
+            "score_b": 4
           },
           {
             "game": 3,
@@ -3212,7 +3212,7 @@
             "team_a": "Loser Game #1 Toxic NC",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Loser Game #2",
+            "team_b": "Loser Game #2 Regulators",
             "seed_b": null,
             "score_b": null
           },
@@ -3224,7 +3224,7 @@
             "team_a": "Winner Game #1 ELITE BASEBALL 13/14u EBC",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Winner Game #2",
+            "team_b": "Winner Game #2 Red Clay Athletics 14U Kelly",
             "seed_b": null,
             "score_b": null
           }
@@ -3289,7 +3289,7 @@
           "team": "Couloak Diesel",
           "location": "Charlotte, NC",
           "won": 1,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 8,
           "runs_scored": 7,
           "team_page_id": null
@@ -3308,7 +3308,7 @@
           "seed": 8,
           "team": "CBC Prospects Blue 15u",
           "location": "CHERRYVILLE, NC",
-          "won": 0,
+          "won": 1,
           "lost": 2,
           "runs_allowed": 25,
           "runs_scored": 0,
@@ -3506,10 +3506,10 @@
             "field": "SP:Field #2",
             "team_a": "Couloak Diesel",
             "seed_a": 6,
-            "score_a": null,
+            "score_a": 4,
             "team_b": "CBC Prospects Blue 15u",
             "seed_b": 9,
-            "score_b": null
+            "score_b": 8
           },
           {
             "game": 3,
@@ -3519,7 +3519,7 @@
             "team_a": "Loser Game #1 CBC Knuckleheads Fox",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Loser Game #2",
+            "team_b": "Loser Game #2 Couloak Diesel",
             "seed_b": null,
             "score_b": null
           },
@@ -3531,7 +3531,7 @@
             "team_a": "Winner Game #1 Waxhaw Heat",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Winner Game #2",
+            "team_b": "Winner Game #2 CBC Prospects Blue 15u",
             "seed_b": null,
             "score_b": null
           }
@@ -3746,5 +3746,5 @@
   },
   "site_last_updated": "09/24/2026 1:31 PM",
   "tournament_id": 12518,
-  "fetched_at": "2026-09-27T11:33"
+  "fetched_at": "2026-09-27T13:07"
 }
