@@ -3,7 +3,7 @@
  "location": "Rock Hill, SC",
  "page_id": 31407,
  "team_url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=31407",
- "built": "Sun Sep 27, 2026 02:51 PM",
+ "built": "Sun Sep 27, 2026 03:01 PM",
  "record": {
   "w": 2,
   "l": 7,
@@ -1211,7 +1211,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-09-27T14:50",
+    "fetched_at": "2026-09-27T15:01",
     "url": "https://topgunstats.com/whos-playing/12518"
    },
    "next_game": null,
@@ -1515,7 +1515,7 @@
      "seed": 10,
      "bracket": "Bronze Bracket",
      "won": 1,
-     "lost": 1,
+     "lost": 2,
      "rs": 13,
      "ra": 18
     },
@@ -1540,7 +1540,7 @@
      "pool_ra": 21,
      "seed": 11,
      "bracket": "Bronze Bracket",
-     "won": 1,
+     "won": 2,
      "lost": 1,
      "rs": 11,
      "ra": 21
@@ -2220,11 +2220,11 @@
      "field": "Bradford:Field # 4",
      "team_a": "PeeDee Mudcats",
      "seed_a": 10,
-     "score_a": null,
+     "score_a": 6,
      "from_a": null,
      "team_b": "Carolina Trash Pandas",
      "seed_b": 11,
-     "score_b": null,
+     "score_b": 20,
      "from_b": null
     },
     {
@@ -2250,7 +2250,7 @@
      "time": "3:00 PM",
      "date": "2026-09-27",
      "field": "Bradford:Field # 4",
-     "team_a": "Loser Game #1",
+     "team_a": "PeeDee Mudcats",
      "seed_a": null,
      "score_a": null,
      "from_a": {
@@ -2272,7 +2272,7 @@
      "time": "3:00 PM",
      "date": "2026-09-27",
      "field": "Bradford:Field # 3",
-     "team_a": "Winner Game #1",
+     "team_a": "Carolina Trash Pandas",
      "seed_a": null,
      "score_a": null,
      "from_a": {
@@ -3201,7 +3201,7 @@
      "entered_at": "2026-09-17T10:03:30.533Z",
      "level": "AA"
     },
-    "fetched_at": "2026-09-27T14:50"
+    "fetched_at": "2026-09-27T15:01"
    },
    "tgs": {
     "weather": null,
@@ -3326,7 +3326,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-09-27T14:50",
+    "fetched_at": "2026-09-27T15:01",
     "url": "https://topgunstats.com/whos-playing/12518"
    },
    "name": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
@@ -3800,11 +3800,11 @@
      "field": "Bradford:Field # 4",
      "team_a": "PeeDee Mudcats",
      "seed_a": 10,
-     "score_a": null,
+     "score_a": 6,
      "from_a": null,
      "team_b": "Carolina Trash Pandas",
      "seed_b": 11,
-     "score_b": null,
+     "score_b": 20,
      "from_b": null
     },
     {
@@ -3830,7 +3830,7 @@
      "time": "3:00 PM",
      "date": "2026-09-27",
      "field": "Bradford:Field # 4",
-     "team_a": "Loser Game #1",
+     "team_a": "PeeDee Mudcats",
      "seed_a": null,
      "score_a": null,
      "from_a": {
@@ -3852,7 +3852,7 @@
      "time": "3:00 PM",
      "date": "2026-09-27",
      "field": "Bradford:Field # 3",
-     "team_a": "Winner Game #1",
+     "team_a": "Carolina Trash Pandas",
      "seed_a": null,
      "score_a": null,
      "from_a": {
@@ -4007,7 +4007,7 @@
      "seed": 2,
      "team": "Carolina Trash Pandas",
      "location": "Locust, NC",
-     "won": 1,
+     "won": 2,
      "lost": 1,
      "runs_allowed": 21,
      "runs_scored": 11,
@@ -4098,7 +4098,7 @@
      "team": "PeeDee Mudcats",
      "location": "Wadesboro, NC",
      "won": 1,
-     "lost": 1,
+     "lost": 2,
      "runs_allowed": 18,
      "runs_scored": 13,
      "team_page_id": null
@@ -4272,7 +4272,7 @@
     "team": {
      "entered": false
     },
-    "fetched_at": "2026-09-27T14:50"
+    "fetched_at": "2026-09-27T15:01"
    },
    "tgs": {
     "weather": null,
@@ -4350,7 +4350,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-09-27T14:50",
+    "fetched_at": "2026-09-27T15:01",
     "url": "https://topgunstats.com/whos-playing/12521"
    },
    "name": "Triple points Super Regional",
@@ -4387,7 +4387,7 @@
      "entered_at": "2026-06-08T12:01:08.307Z",
      "level": "AA"
     },
-    "fetched_at": "2026-09-27T14:50"
+    "fetched_at": "2026-09-27T15:01"
    },
    "tgs": {
     "weather": null,
@@ -4469,7 +4469,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-09-27T14:50",
+    "fetched_at": "2026-09-27T15:01",
     "url": "https://topgunstats.com/whos-playing/12522"
    },
    "name": "Southeastern Winter World Series",
@@ -4501,7 +4501,7 @@
     "team": {
      "entered": false
     },
-    "fetched_at": "2026-09-27T14:50"
+    "fetched_at": "2026-09-27T15:01"
    },
    "tgs": {
     "weather": null,
@@ -4554,7 +4554,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-09-27T14:50",
+    "fetched_at": "2026-09-27T15:01",
     "url": "https://topgunstats.com/whos-playing/12524"
    },
    "name": "Road Runner vs Coyote ring weekend",
@@ -5848,6 +5848,122 @@
    "stats_fetched": "2026-09-27T11:34"
   },
   {
+   "team": "Carolina Trash Pandas",
+   "location": "Locust, NC",
+   "page_id": 32342,
+   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=32342",
+   "w": 5,
+   "l": 2,
+   "t": 0,
+   "rs": 68,
+   "ra": 38,
+   "diff": 30,
+   "pct": 0.714,
+   "events": 3,
+   "log": [
+    {
+     "date": "2026-08-28",
+     "event_id": 13552,
+     "event": "TOP GUN-USA SPORTS--FNL--PRE LABOR DAY SPECIAL",
+     "section": "Pool Play",
+     "opponent": "NC Made 9U Green",
+     "rs": 12,
+     "ra": 4,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-11",
+     "event_id": 13600,
+     "event": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
+     "section": "Pool Play",
+     "opponent": "Carolina Icons",
+     "rs": 12,
+     "ra": 2,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-11",
+     "event_id": 13600,
+     "event": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
+     "section": "Pool Play",
+     "opponent": "Elite 9",
+     "rs": 11,
+     "ra": 2,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-11",
+     "event_id": 13600,
+     "event": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
+     "section": "Gold Bracket",
+     "opponent": "Carolina Clippers 9U",
+     "rs": 2,
+     "ra": 3,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-26",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Pool Play",
+     "opponent": "Carolina Forge 9U",
+     "rs": 8,
+     "ra": 7,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-26",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Pool Play",
+     "opponent": "Lake Wylie Venom",
+     "rs": 3,
+     "ra": 14,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-27",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Bronze Bracket",
+     "opponent": "PeeDee Mudcats",
+     "rs": 20,
+     "ra": 6,
+     "result": "W"
+    }
+   ],
+   "points": 775,
+   "titles": 1,
+   "finishes": [
+    {
+     "date": "2026-08-28",
+     "name": "TOP GUN-USA SPORTS--FNL--PRE LABOR DAY SPECIAL",
+     "won": 3,
+     "lost": 0,
+     "standing": "1st (Gold)",
+     "points": 400
+    },
+    {
+     "date": "2026-09-11",
+     "name": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
+     "won": 2,
+     "lost": 1,
+     "standing": "2nd (Gold)",
+     "points": 375
+    },
+    {
+     "date": "2026-09-26",
+     "name": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "won": 1,
+     "lost": 1,
+     "standing": "",
+     "points": 0
+    }
+   ],
+   "season": "08/01/2026 - 09/27/2026",
+   "stats_fetched": "2026-09-27T11:34"
+  },
+  {
    "team": "NL Destroyers 2036",
    "location": "Denver, NC",
    "page_id": 36883,
@@ -6050,112 +6166,6 @@
    ],
    "season": "08/01/2026 - 09/27/2026",
    "stats_fetched": "2026-09-27T11:37"
-  },
-  {
-   "team": "Carolina Trash Pandas",
-   "location": "Locust, NC",
-   "page_id": 32342,
-   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=32342",
-   "w": 4,
-   "l": 2,
-   "t": 0,
-   "rs": 48,
-   "ra": 32,
-   "diff": 16,
-   "pct": 0.667,
-   "events": 3,
-   "log": [
-    {
-     "date": "2026-08-28",
-     "event_id": 13552,
-     "event": "TOP GUN-USA SPORTS--FNL--PRE LABOR DAY SPECIAL",
-     "section": "Pool Play",
-     "opponent": "NC Made 9U Green",
-     "rs": 12,
-     "ra": 4,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-11",
-     "event_id": 13600,
-     "event": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
-     "section": "Pool Play",
-     "opponent": "Carolina Icons",
-     "rs": 12,
-     "ra": 2,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-11",
-     "event_id": 13600,
-     "event": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
-     "section": "Pool Play",
-     "opponent": "Elite 9",
-     "rs": 11,
-     "ra": 2,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-11",
-     "event_id": 13600,
-     "event": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
-     "section": "Gold Bracket",
-     "opponent": "Carolina Clippers 9U",
-     "rs": 2,
-     "ra": 3,
-     "result": "L"
-    },
-    {
-     "date": "2026-09-26",
-     "event_id": 12518,
-     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "section": "Pool Play",
-     "opponent": "Carolina Forge 9U",
-     "rs": 8,
-     "ra": 7,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-26",
-     "event_id": 12518,
-     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "section": "Pool Play",
-     "opponent": "Lake Wylie Venom",
-     "rs": 3,
-     "ra": 14,
-     "result": "L"
-    }
-   ],
-   "points": 775,
-   "titles": 1,
-   "finishes": [
-    {
-     "date": "2026-08-28",
-     "name": "TOP GUN-USA SPORTS--FNL--PRE LABOR DAY SPECIAL",
-     "won": 3,
-     "lost": 0,
-     "standing": "1st (Gold)",
-     "points": 400
-    },
-    {
-     "date": "2026-09-11",
-     "name": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
-     "won": 2,
-     "lost": 1,
-     "standing": "2nd (Gold)",
-     "points": 375
-    },
-    {
-     "date": "2026-09-26",
-     "name": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "won": 1,
-     "lost": 1,
-     "standing": "",
-     "points": 0
-    }
-   ],
-   "season": "08/01/2026 - 09/27/2026",
-   "stats_fetched": "2026-09-27T11:34"
   },
   {
    "team": "BOILING SPRINGS BULLDOGS BASEBALL 8u",
@@ -6948,47 +6958,6 @@
    ],
    "season": "08/01/2026 - 09/27/2026",
    "stats_fetched": "2026-09-27T11:38"
-  },
-  {
-   "team": "PeeDee Mudcats",
-   "location": "Wadesboro, NC",
-   "page_id": null,
-   "url": null,
-   "w": 1,
-   "l": 1,
-   "t": 0,
-   "rs": 13,
-   "ra": 18,
-   "diff": -5,
-   "pct": 0.5,
-   "events": 1,
-   "log": [
-    {
-     "date": "2026-09-26",
-     "event_id": 12518,
-     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "section": "Pool Play",
-     "opponent": "South Park Red Raiders",
-     "rs": 0,
-     "ra": 13,
-     "result": "L"
-    },
-    {
-     "date": "2026-09-26",
-     "event_id": 12518,
-     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "section": "Pool Play",
-     "opponent": "SC Tide - Lucariello",
-     "rs": 13,
-     "ra": 5,
-     "result": "W"
-    }
-   ],
-   "points": 0,
-   "titles": 0,
-   "finishes": [],
-   "season": "",
-   "stats_fetched": null
   },
   {
    "team": "ROCO Dirtbagz",
@@ -8328,6 +8297,57 @@
    ],
    "season": "08/01/2026 - 09/27/2026",
    "stats_fetched": "2026-09-27T11:39"
+  },
+  {
+   "team": "PeeDee Mudcats",
+   "location": "Wadesboro, NC",
+   "page_id": null,
+   "url": null,
+   "w": 1,
+   "l": 2,
+   "t": 0,
+   "rs": 19,
+   "ra": 38,
+   "diff": -19,
+   "pct": 0.333,
+   "events": 1,
+   "log": [
+    {
+     "date": "2026-09-26",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Pool Play",
+     "opponent": "South Park Red Raiders",
+     "rs": 0,
+     "ra": 13,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-26",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Pool Play",
+     "opponent": "SC Tide - Lucariello",
+     "rs": 13,
+     "ra": 5,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-27",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Bronze Bracket",
+     "opponent": "Carolina Trash Pandas",
+     "rs": 6,
+     "ra": 20,
+     "result": "L"
+    }
+   ],
+   "points": 0,
+   "titles": 0,
+   "finishes": [],
+   "season": "",
+   "stats_fetched": null
   },
   {
    "team": "Cage 2 Stage 9u",
