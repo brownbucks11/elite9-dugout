@@ -323,7 +323,7 @@
           "team": "Carolina Trash Pandas",
           "location": "Locust, NC",
           "won": 2,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 21,
           "runs_scored": 11,
           "team_page_id": null
@@ -362,7 +362,7 @@
           "seed": 6,
           "team": "Team 24",
           "location": "York, SC",
-          "won": 1,
+          "won": 2,
           "lost": 2,
           "runs_allowed": 23,
           "runs_scored": 21,
@@ -413,7 +413,7 @@
           "team": "PeeDee Mudcats",
           "location": "Wadesboro, NC",
           "won": 1,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 18,
           "runs_scored": 13,
           "team_page_id": null
@@ -452,7 +452,7 @@
           "seed": 15,
           "team": "Dirtbags Baseball ESB",
           "location": "Lincolnton, NC",
-          "won": 2,
+          "won": 3,
           "lost": 1,
           "runs_allowed": 15,
           "runs_scored": 14,
@@ -862,10 +862,10 @@
             "field": "Bradford:Field # 4",
             "team_a": "Loser Game #1 PeeDee Mudcats",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 5,
             "team_b": "Loser Game #2 Team 24",
             "seed_b": null,
-            "score_b": null
+            "score_b": 20
           },
           {
             "game": 4,
@@ -874,10 +874,10 @@
             "field": "Bradford:Field # 3",
             "team_a": "Winner Game #1 Carolina Trash Pandas",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 7,
             "team_b": "Winner Game #2 Dirtbags Baseball ESB",
             "seed_b": null,
-            "score_b": null
+            "score_b": 8
           }
         ],
         "Copper Bracket": [
@@ -1137,7 +1137,7 @@
           "seed": 17,
           "team": "SBA Lake Norman Thunder - White",
           "location": "Cornelius, NC",
-          "won": 1,
+          "won": 2,
           "lost": 2,
           "runs_allowed": 26,
           "runs_scored": 16,
@@ -1178,7 +1178,7 @@
           "team": "Carolina Royals 10U",
           "location": "Cramerton, NC",
           "won": 1,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 27,
           "runs_scored": 6,
           "team_page_id": null
@@ -1707,10 +1707,10 @@
             "field": "Tega Cay:Field 1",
             "team_a": "Winner Game #1 Carolina Royals 10U",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 1,
             "team_b": "Winner Game #2 SBA Lake Norman Thunder - White",
             "seed_b": null,
-            "score_b": null
+            "score_b": 13
           }
         ]
       }
@@ -1742,7 +1742,7 @@
           "seed": 3,
           "team": "Fury Baseball",
           "location": "Forest City, NC",
-          "won": 1,
+          "won": 2,
           "lost": 1,
           "runs_allowed": 18,
           "runs_scored": 20,
@@ -1783,7 +1783,7 @@
           "team": "11u Mission Baseball",
           "location": "Waxhaw, NC",
           "won": 1,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 16,
           "runs_scored": 19,
           "team_page_id": null
@@ -2052,10 +2052,10 @@
             "field": "Westmoreld:Field 2",
             "team_a": "Loser Game #1 Fury Baseball",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 14,
             "team_b": "Loser Game #2 11u Mission Baseball",
             "seed_b": null,
-            "score_b": null
+            "score_b": 5
           },
           {
             "game": 5,
@@ -2074,7 +2074,7 @@
             "day": "Sun",
             "time": "5:00 PM",
             "field": "Westmoreld:Field 2",
-            "team_a": "Winner Game #4",
+            "team_a": "Winner Game #4 Fury Baseball",
             "seed_a": null,
             "score_a": null,
             "team_b": "Loser Game #3 (If Needed) Tega Cay Titans",
@@ -3746,5 +3746,5 @@
   },
   "site_last_updated": "09/24/2026 1:31 PM",
   "tournament_id": 12518,
-  "fetched_at": "2026-09-27T16:46"
+  "fetched_at": "2026-09-27T16:56"
 }
