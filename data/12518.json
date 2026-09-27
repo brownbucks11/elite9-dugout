@@ -82,7 +82,7 @@
           "team": "Carolina Regulators/New Balance",
           "location": "Stanley, NC",
           "won": 1,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 15,
           "runs_scored": 21,
           "team_page_id": null
@@ -111,7 +111,7 @@
           "seed": 6,
           "team": "Waxhaw Militia",
           "location": "Waxhaw, NC",
-          "won": 2,
+          "won": 3,
           "lost": 0,
           "runs_allowed": 12,
           "runs_scored": 35,
@@ -223,10 +223,10 @@
             "field": "Westmoreld:Field 4",
             "team_a": "Waxhaw Militia",
             "seed_a": 2,
-            "score_a": null,
+            "score_a": 14,
             "team_b": "Carolina Regulators/New Balance",
             "seed_b": 3,
-            "score_b": null
+            "score_b": 12
           },
           {
             "game": 2,
@@ -245,7 +245,7 @@
             "day": "Sun",
             "time": "4:30 PM",
             "field": "Westmoreld:Field 4",
-            "team_a": "Loser Game #1",
+            "team_a": "Loser Game #1 Carolina Regulators/New Balance",
             "seed_a": null,
             "score_a": null,
             "team_b": "Loser Game #2",
@@ -257,7 +257,7 @@
             "day": "Sun",
             "time": "3:15 PM",
             "field": "Westmoreld:Field 4",
-            "team_a": "Winner Game #1",
+            "team_a": "Winner Game #1 Waxhaw Militia",
             "seed_a": null,
             "score_a": null,
             "team_b": "Winner Game #2",
@@ -363,7 +363,7 @@
           "team": "Team 24",
           "location": "York, SC",
           "won": 1,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 23,
           "runs_scored": 21,
           "team_page_id": null
@@ -452,7 +452,7 @@
           "seed": 15,
           "team": "Dirtbags Baseball ESB",
           "location": "Lincolnton, NC",
-          "won": 1,
+          "won": 2,
           "lost": 1,
           "runs_allowed": 15,
           "runs_scored": 14,
@@ -850,10 +850,10 @@
             "field": "Bradford:Field # 3",
             "team_a": "Dirtbags Baseball ESB",
             "seed_a": 9,
-            "score_a": null,
+            "score_a": 15,
             "team_b": "Team 24",
             "seed_b": 12,
-            "score_b": null
+            "score_b": 2
           },
           {
             "game": 3,
@@ -863,7 +863,7 @@
             "team_a": "Loser Game #1",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Loser Game #2",
+            "team_b": "Loser Game #2 Team 24",
             "seed_b": null,
             "score_b": null
           },
@@ -875,7 +875,7 @@
             "team_a": "Winner Game #1",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Winner Game #2",
+            "team_b": "Winner Game #2 Dirtbags Baseball ESB",
             "seed_b": null,
             "score_b": null
           }
@@ -1733,7 +1733,7 @@
           "team": "Pro-Fit Spartans (Almond)",
           "location": "Oakboro, NC",
           "won": 2,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 12,
           "runs_scored": 26,
           "team_page_id": null
@@ -1743,7 +1743,7 @@
           "team": "Fury Baseball",
           "location": "Forest City, NC",
           "won": 1,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 18,
           "runs_scored": 20,
           "team_page_id": null
@@ -1772,7 +1772,7 @@
           "seed": 6,
           "team": "Weddington Warriors",
           "location": "Weddington, NC",
-          "won": 1,
+          "won": 2,
           "lost": 1,
           "runs_allowed": 11,
           "runs_scored": 22,
@@ -1842,7 +1842,7 @@
           "seed": 13,
           "team": "CC Cardinals 11U",
           "location": "Shelby, NC",
-          "won": 2,
+          "won": 3,
           "lost": 1,
           "runs_allowed": 14,
           "runs_scored": 22,
@@ -2016,10 +2016,10 @@
             "field": "Westmoreld:Field 3",
             "team_a": "Fury Baseball",
             "seed_a": 4,
-            "score_a": null,
+            "score_a": 4,
             "team_b": "Weddington Warriors",
             "seed_b": 5,
-            "score_b": null
+            "score_b": 16
           },
           {
             "game": 2,
@@ -2038,7 +2038,7 @@
             "day": "Sun",
             "time": "3:00 PM",
             "field": "Westmoreld:Field 3",
-            "team_a": "Winner Game #1",
+            "team_a": "Winner Game #1 Weddington Warriors",
             "seed_a": null,
             "score_a": null,
             "team_b": "Tega Cay Titans",
@@ -2050,7 +2050,7 @@
             "day": "Sun",
             "time": "3:00 PM",
             "field": "Westmoreld:Field 2",
-            "team_a": "Loser Game #1",
+            "team_a": "Loser Game #1 Fury Baseball",
             "seed_a": null,
             "score_a": null,
             "team_b": "Loser Game #2",
@@ -2126,10 +2126,10 @@
             "field": "M. Rivers:Martha Rivers 1",
             "team_a": "Winner Game #1 CC Cardinals 11U",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 7,
             "team_b": "Winner Game #2 Pro-Fit Spartans (Almond)",
             "seed_b": null,
-            "score_b": null
+            "score_b": 6
           }
         ],
         "Bronze Bracket": [
@@ -3746,5 +3746,5 @@
   },
   "site_last_updated": "09/24/2026 1:31 PM",
   "tournament_id": 12518,
-  "fetched_at": "2026-09-27T13:33"
+  "fetched_at": "2026-09-27T14:19"
 }
