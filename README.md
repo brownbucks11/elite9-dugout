@@ -18,7 +18,9 @@ your own PC (see below).
 The bot (`.github/workflows/refresh.yml`) refreshes scores and rebuilds the site by itself:
 - 7 AM, 1 PM, 7 PM Eastern every day (7 AM also refreshes every team's Top Gun points/finishes)
 - hourly Thursday–Sunday
-- **every 10 minutes on game day** (only while one of our tournaments is live)
+- **every 10 minutes on game day**: the first run of a live day keeps going — fetch, commit, sleep 10
+  minutes — until the event's last day is over or 10 PM Eastern (GitHub drops most high-frequency
+  cron ticks, so a long-running loop is the only reliable way to get that cadence)
 - Monday and Thursday 8:30 AM it also discovers new Charlotte-area events for the Teams table
 - on demand: GitHub → Actions → "Refresh scores and rebuild site" → Run workflow
 
