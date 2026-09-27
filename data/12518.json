@@ -382,7 +382,7 @@
           "seed": 8,
           "team": "SC Tide - Lucariello",
           "location": "Clover, SC",
-          "won": 0,
+          "won": 1,
           "lost": 3,
           "runs_allowed": 32,
           "runs_scored": 5,
@@ -493,7 +493,7 @@
           "team": "Carolina Forge 9U",
           "location": "Gastonia, NC",
           "won": 0,
-          "lost": 3,
+          "lost": 4,
           "runs_allowed": 26,
           "runs_scored": 8,
           "team_page_id": null
@@ -962,10 +962,10 @@
             "field": "SP:Field #3",
             "team_a": "Carolina Forge 9U",
             "seed_a": 17,
-            "score_a": null,
+            "score_a": 7,
             "team_b": "SC Tide - Lucariello",
             "seed_b": 18,
-            "score_b": null
+            "score_b": 9
           }
         ]
       }
@@ -2548,7 +2548,7 @@
           "seed": 3,
           "team": "Stanly County Braves",
           "location": "Stanfield, NC",
-          "won": 2,
+          "won": 3,
           "lost": 0,
           "runs_allowed": 4,
           "runs_scored": 13,
@@ -2579,7 +2579,7 @@
           "team": "South Carolina Cyclones",
           "location": "Chester, SC",
           "won": 1,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 5,
           "runs_scored": 7,
           "team_page_id": null
@@ -2690,10 +2690,10 @@
             "field": "FDP:Field #2",
             "team_a": "Stanly County Braves",
             "seed_a": 2,
-            "score_a": null,
+            "score_a": 7,
             "team_b": "South Carolina Cyclones",
             "seed_b": 3,
-            "score_b": null
+            "score_b": 3
           },
           {
             "game": 2,
@@ -2712,7 +2712,7 @@
             "day": "Sun",
             "time": "5:00 PM",
             "field": "FDP:Field #3",
-            "team_a": "Loser Game #1",
+            "team_a": "Loser Game #1 South Carolina Cyclones",
             "seed_a": null,
             "score_a": null,
             "team_b": "Loser Game #2",
@@ -2724,7 +2724,7 @@
             "day": "Sun",
             "time": "5:00 PM",
             "field": "FDP:Field #2",
-            "team_a": "Winner Game #1",
+            "team_a": "Winner Game #1 Stanly County Braves",
             "seed_a": null,
             "score_a": null,
             "team_b": "Winner Game #2",
@@ -3746,5 +3746,5 @@
   },
   "site_last_updated": "09/24/2026 1:31 PM",
   "tournament_id": 12518,
-  "fetched_at": "2026-09-27T15:01"
+  "fetched_at": "2026-09-27T15:11"
 }
