@@ -2528,7 +2528,7 @@
           "seed": 1,
           "team": "Lone Star Hippos",
           "location": "Gastonia, NC",
-          "won": 1,
+          "won": 2,
           "lost": 2,
           "runs_allowed": 13,
           "runs_scored": 6,
@@ -2549,7 +2549,7 @@
           "team": "Stanly County Braves",
           "location": "Stanfield, NC",
           "won": 3,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 4,
           "runs_scored": 13,
           "team_page_id": null
@@ -2559,7 +2559,7 @@
           "team": "Davidson Force",
           "location": "Davidson, NC",
           "won": 2,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 19,
           "runs_scored": 10,
           "team_page_id": null
@@ -2588,7 +2588,7 @@
           "seed": 7,
           "team": "River Rats",
           "location": "Lincolnton, NC",
-          "won": 3,
+          "won": 4,
           "lost": 0,
           "runs_allowed": 4,
           "runs_scored": 18,
@@ -2726,10 +2726,10 @@
             "field": "FDP:Field #2",
             "team_a": "Winner Game #1 Stanly County Braves",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 0,
             "team_b": "Winner Game #2 River Rats",
             "seed_b": null,
-            "score_b": null
+            "score_b": 6
           }
         ],
         "Silver Bracket": [
@@ -2764,10 +2764,10 @@
             "field": "FDP:Field #1",
             "team_a": "Davidson Force",
             "seed_a": 5,
-            "score_a": null,
+            "score_a": 2,
             "team_b": "Lone Star Hippos",
             "seed_b": 6,
-            "score_b": null
+            "score_b": 16
           }
         ]
       }
@@ -3746,5 +3746,5 @@
   },
   "site_last_updated": "09/24/2026 1:31 PM",
   "tournament_id": 12518,
-  "fetched_at": "2026-09-27T18:52"
+  "fetched_at": "2026-09-27T19:02"
 }
