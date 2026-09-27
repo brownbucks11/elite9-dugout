@@ -2202,7 +2202,7 @@
           "team": "Fury Baseball",
           "location": "Forest City, NC",
           "won": 1,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 15,
           "runs_scored": 26,
           "team_page_id": null
@@ -2211,7 +2211,7 @@
           "seed": 3,
           "team": "Carolina Bearcats 12U",
           "location": "Alexis, NC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
           "runs_allowed": 17,
           "runs_scored": 23,
@@ -2791,7 +2791,7 @@
           "seed": 2,
           "team": "Bethany Badgers",
           "location": "Clover, SC",
-          "won": 2,
+          "won": 3,
           "lost": 0,
           "runs_allowed": 3,
           "runs_scored": 13,
@@ -2862,7 +2862,7 @@
           "team": "CBC Knuckleheads",
           "location": "Pinehurst, NC",
           "won": 3,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 12,
           "runs_scored": 18,
           "team_page_id": null
@@ -3099,10 +3099,10 @@
             "field": "CA:Field #1",
             "team_a": "Winner Game #1 CBC Knuckleheads",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 9,
             "team_b": "Bethany Badgers",
             "seed_b": 1,
-            "score_b": null
+            "score_b": 10
           },
           {
             "game": 4,
@@ -3121,7 +3121,7 @@
             "day": "Sun",
             "time": "3:00 PM",
             "field": "CA:Field #1",
-            "team_a": "Winner Game #3",
+            "team_a": "Winner Game #3 Bethany Badgers",
             "seed_a": null,
             "score_a": null,
             "team_b": "Winner Game #2 SC Tide Abbott",
@@ -3547,7 +3547,7 @@
           "seed": 1,
           "team": "Carolina Rebels",
           "location": "Pageland, SC",
-          "won": 2,
+          "won": 3,
           "lost": 1,
           "runs_allowed": 20,
           "runs_scored": 4,
@@ -3598,7 +3598,7 @@
           "team": "WNC Phantom Elite",
           "location": "Taylorsville, NC",
           "won": 2,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 2,
           "runs_scored": 20,
           "team_page_id": null
@@ -3711,10 +3711,10 @@
             "field": "Tuckasee:Tuckaseegee 1",
             "team_a": "Winner Game #1 Carolina Rebels",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 8,
             "team_b": "WNC Phantom Elite",
             "seed_b": 1,
-            "score_b": null
+            "score_b": 5
           },
           {
             "game": 4,
@@ -3733,7 +3733,7 @@
             "day": "Sun",
             "time": "5:00 PM",
             "field": "Tuckasee:Tuckaseegee 1",
-            "team_a": "Winner Game #3",
+            "team_a": "Winner Game #3 Carolina Rebels",
             "seed_a": null,
             "score_a": null,
             "team_b": "Winner Game #4",
@@ -3746,5 +3746,5 @@
   },
   "site_last_updated": "09/24/2026 1:31 PM",
   "tournament_id": 12518,
-  "fetched_at": "2026-09-27T15:22"
+  "fetched_at": "2026-09-27T15:32"
 }
