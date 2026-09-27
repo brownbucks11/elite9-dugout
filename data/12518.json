@@ -112,7 +112,7 @@
           "team": "Waxhaw Militia",
           "location": "Waxhaw, NC",
           "won": 3,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 12,
           "runs_scored": 35,
           "team_page_id": null
@@ -121,7 +121,7 @@
           "seed": 7,
           "team": "South Park Redbirds",
           "location": "Charlotte, NC",
-          "won": 3,
+          "won": 4,
           "lost": 0,
           "runs_allowed": 5,
           "runs_scored": 32,
@@ -259,10 +259,10 @@
             "field": "Westmoreld:Field 4",
             "team_a": "Winner Game #1 Waxhaw Militia",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 15,
             "team_b": "Winner Game #2 South Park Redbirds",
             "seed_b": null,
-            "score_b": null
+            "score_b": 16
           }
         ],
         "Silver Bracket": [
@@ -1723,7 +1723,7 @@
           "team": "Tega Cay Titans",
           "location": "Tega Cay, SC",
           "won": 2,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 7,
           "runs_scored": 15,
           "team_page_id": null
@@ -1772,7 +1772,7 @@
           "seed": 6,
           "team": "Weddington Warriors",
           "location": "Weddington, NC",
-          "won": 2,
+          "won": 3,
           "lost": 1,
           "runs_allowed": 11,
           "runs_scored": 22,
@@ -2040,10 +2040,10 @@
             "field": "Westmoreld:Field 3",
             "team_a": "Winner Game #1 Weddington Warriors",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 9,
             "team_b": "Tega Cay Titans",
             "seed_b": 1,
-            "score_b": null
+            "score_b": 3
           },
           {
             "game": 4,
@@ -2062,7 +2062,7 @@
             "day": "Sun",
             "time": "5:00 PM",
             "field": "Westmoreld:Field 3",
-            "team_a": "Winner Game #3",
+            "team_a": "Winner Game #3 Weddington Warriors",
             "seed_a": null,
             "score_a": null,
             "team_b": "Winner Game #2 Pro-Fit Spartans (Benton)",
@@ -2077,7 +2077,7 @@
             "team_a": "Winner Game #4",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Loser Game #3 (If Needed)",
+            "team_b": "Loser Game #3 (If Needed) Tega Cay Titans",
             "seed_b": null,
             "score_b": null
           }
@@ -2539,7 +2539,7 @@
           "team": "SC Tide - Daly",
           "location": "Clover, SC",
           "won": 0,
-          "lost": 3,
+          "lost": 4,
           "runs_allowed": 15,
           "runs_scored": 9,
           "team_page_id": null
@@ -2558,7 +2558,7 @@
           "seed": 4,
           "team": "Davidson Force",
           "location": "Davidson, NC",
-          "won": 1,
+          "won": 2,
           "lost": 1,
           "runs_allowed": 19,
           "runs_scored": 10,
@@ -2752,10 +2752,10 @@
             "field": "FDP:Field #1",
             "team_a": "Davidson Force",
             "seed_a": 5,
-            "score_a": null,
+            "score_a": 13,
             "team_b": "SC Tide - Daly",
             "seed_b": 7,
-            "score_b": null
+            "score_b": 3
           },
           {
             "game": 3,
@@ -3746,5 +3746,5 @@
   },
   "site_last_updated": "09/24/2026 1:31 PM",
   "tournament_id": 12518,
-  "fetched_at": "2026-09-27T16:35"
+  "fetched_at": "2026-09-27T16:46"
 }
