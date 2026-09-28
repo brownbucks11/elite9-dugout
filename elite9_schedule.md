@@ -1,5 +1,5 @@
 # Elite 9 - Top Gun schedule
-_Updated Mon Sep 28, 2026 02:31 PM_
+_Updated Mon Sep 28, 2026 03:49 PM_
 
 ## SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND
 September 26 - 27 in Greater Charlotte Area, NC  
@@ -84,6 +84,12 @@ Tournament 12518 - [schedule page](https://playtopgunsports.com/GameTimesResults
 | 2 | Sun 11:00 AM | SP:Field #3 | (#17) Carolina Forge 9U 10 | (#19) Legacy Baseball 9U - WHITE 15 |
 | 3 | Sun 1:00 PM | SP:Field #3 | (#17) Carolina Forge 9U 7 | (#18) SC Tide - Lucariello 9 |
 
+## DOUBLE POINTS PINK ZONE QUALIFIER---ACTIVATE WINTER FREE PAID BERTHS
+October 3 - 4 in Greater Charlotte Area, NC  
+Tournament 12519 - [schedule page](https://playtopgunsports.com/GameTimesResults.aspx?trnid=12519)
+
+_Elite 9 not listed yet. Divisions posted: none posted yet_
+
 ## TRIPLE POINTS---SUPER REGIONAL--TOP GUN-USA SLIDING MITTS
 October 17 - 18 in Greater Charlotte Area, NC  
 Tournament 12521 - [schedule page](https://playtopgunsports.com/GameTimesResults.aspx?trnid=12521)
@@ -99,6 +105,24 @@ _Elite 9 not listed yet. Divisions posted: none posted yet_
 ## ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO
 November 7 - 8 in Greater Charlotte Area, NC  
 Tournament 12524 - [schedule page](https://playtopgunsports.com/GameTimesResults.aspx?trnid=12524)
+
+_Elite 9 not listed yet. Divisions posted: none posted yet_
+
+## DOUBLE POINTS PINK ZONE QUALIFIER---ACTIVATE WINTER FREE PAID BERTHS
+October 3 - 4 in Tega Cay, SC  
+Tournament 13126 - [schedule page](https://playtopgunsports.com/GameTimesResults.aspx?trnid=13126)
+
+_Elite 9 not listed yet. Divisions posted: none posted yet_
+
+## TOP GUN-USA SPORTS--FRIDAY NIGHT LIGHTS
+October 2 in Statesville, NC  
+Tournament 13565 - [schedule page](https://playtopgunsports.com/GameTimesResults.aspx?trnid=13565)
+
+_Elite 9 not listed yet. Divisions posted: none posted yet_
+
+## TOP GUN-USA SPORTS--FRIDAY NIGHT LIGHTS
+October 2 in Mocksville/Winston Salem/Clemm, NC  
+Tournament 13567 - [schedule page](https://playtopgunsports.com/GameTimesResults.aspx?trnid=13567)
 
 _Elite 9 not listed yet. Divisions posted: none posted yet_
 
