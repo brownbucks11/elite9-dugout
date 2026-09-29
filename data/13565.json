@@ -9,8 +9,208 @@
       "address": "141 Deitz Rd Statesville, NC 28625"
     }
   },
-  "divisions": {},
+  "divisions": {
+    "12U": {
+      "notes": [],
+      "standings": [
+        {
+          "seed": 1,
+          "team": "Triad Cardinals 12u",
+          "location": "Kernersville, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 2,
+          "team": "NWNC Elite Navy",
+          "location": "Wilkesboro, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 3,
+          "team": "NWNC Elite Gold 12u",
+          "location": "North Wilkesboro, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 4,
+          "team": "North Iredell Nitro Baseball Harrelson",
+          "location": "Statesville, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 5,
+          "team": "YC Mudcats",
+          "location": "East Bend, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 6,
+          "team": "NL Destroyers - 2033",
+          "location": "Denver, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 7,
+          "team": "LKN Kingdom",
+          "location": "Charlotte, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 8,
+          "team": "Mount Ulla Baseball",
+          "location": "Mount Ulla, NC, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        }
+      ],
+      "sections": {
+        "Pool Play": [
+          {
+            "game": 1,
+            "day": "Fri",
+            "time": "6:00 PM",
+            "field": "Jennings:Jennings #1",
+            "team_a": "North Iredell Nitro Baseball Harrelson",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "NWNC Elite Navy",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 2,
+            "day": "Fri",
+            "time": "6:00 PM",
+            "field": "Jennings:Jennings #2",
+            "team_a": "NL Destroyers - 2033",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Triad Cardinals 12u",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 3,
+            "day": "Fri",
+            "time": "6:00 PM",
+            "field": "Jennings:Jennings #3",
+            "team_a": "YC Mudcats",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "LKN Kingdom",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 4,
+            "day": "Fri",
+            "time": "6:00 PM",
+            "field": "Jennings:Jennings #4",
+            "team_a": "Mount Ulla Baseball",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "NWNC Elite Gold 12u",
+            "seed_b": null,
+            "score_b": null
+          }
+        ],
+        "Gold Bracket": [
+          {
+            "game": 1,
+            "day": "Fri",
+            "time": "7:30 PM",
+            "field": "Jennings:Jennings #1",
+            "team_a": "Loser Game 1",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Loser Game 2",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 2,
+            "day": "Fri",
+            "time": "7:30 PM",
+            "field": "Jennings:Jennings #2",
+            "team_a": "Winner Game 1",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Winner Game 2",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 3,
+            "day": "Fri",
+            "time": "7:30 PM",
+            "field": "Jennings:Jennings #3",
+            "team_a": "Loser Game 3",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Loser Game 4",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 4,
+            "day": "Fri",
+            "time": "7:30 PM",
+            "field": "Jennings:Jennings #4",
+            "team_a": "Winner Game 3",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Winner Game 4",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 5,
+            "day": "Fri",
+            "time": "9:00 PM",
+            "field": "Jennings:Jennings #4",
+            "team_a": "Winner Gold 2",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Winner Gold 4",
+            "seed_b": null,
+            "score_b": null
+          }
+        ]
+      }
+    }
+  },
   "site_last_updated": "06/30/2026 4:46 PM",
   "tournament_id": 13565,
-  "fetched_at": "2026-09-28T22:22"
+  "fetched_at": "2026-09-29T12:49"
 }

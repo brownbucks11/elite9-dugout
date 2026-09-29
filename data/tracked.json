@@ -77,8 +77,10 @@
   "city": "Mocksville/Winston Salem/Clemm, NC"
  },
  "13565": {
-  "divisions": [],
-  "skip": false,
+  "divisions": [
+   "12U"
+  ],
+  "skip": true,
   "name": "TOP GUN-USA SPORTS--FRIDAY NIGHT LIGHTS",
   "start": "2026-10-02",
   "city": "Statesville, NC"
