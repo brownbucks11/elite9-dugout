@@ -9,8 +9,208 @@
       "address": "599 Farmington Rd Mocksville, NC 27028"
     }
   },
-  "divisions": {},
+  "divisions": {
+    "9U": {
+      "notes": [],
+      "standings": [
+        {
+          "seed": 1,
+          "team": "NC Made 9U Green",
+          "location": "Mocksville, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 2,
+          "team": "M&M Baseball 9u",
+          "location": "Browns Summit, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 3,
+          "team": "LKN Kingdom",
+          "location": "Charlotte, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 4,
+          "team": "Carolina Elevate",
+          "location": "Lenoir, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 5,
+          "team": "SOX Baseball - Snow",
+          "location": "Yadkinville, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 6,
+          "team": "Flying Pigs 9U",
+          "location": "Clemmons, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 7,
+          "team": "Dirtbags Baseball ESB",
+          "location": "Lincolnton, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 8,
+          "team": "DYBA Force 9U",
+          "location": "Davidson, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        }
+      ],
+      "sections": {
+        "Pool Play": [
+          {
+            "game": 1,
+            "day": "Fri",
+            "time": "6:00 PM",
+            "field": "DYC:Bird Co Field",
+            "team_a": "LKN Kingdom",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Carolina Elevate",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 2,
+            "day": "Fri",
+            "time": "6:00 PM",
+            "field": "DYC:Farm Bureau",
+            "team_a": "Dirtbags Baseball ESB",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "M&M Baseball 9u",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 3,
+            "day": "Fri",
+            "time": "6:00 PM",
+            "field": "DYC:K&W Service",
+            "team_a": "Flying Pigs 9U",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "SOX Baseball - Snow",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 4,
+            "day": "Fri",
+            "time": "6:00 PM",
+            "field": "DYC:Zach Wright",
+            "team_a": "NC Made 9U Green",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "DYBA Force 9U",
+            "seed_b": null,
+            "score_b": null
+          }
+        ],
+        "Gold Bracket": [
+          {
+            "game": 1,
+            "day": "Fri",
+            "time": "7:30 PM",
+            "field": "DYC:Bird Co Field",
+            "team_a": "Winner Game 1",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Winner Game 2",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 2,
+            "day": "Fri",
+            "time": "7:30 PM",
+            "field": "DYC:Farm Bureau",
+            "team_a": "Loser Game 1",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Loser Game 2",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 3,
+            "day": "Fri",
+            "time": "7:30 PM",
+            "field": "DYC:K&W Service",
+            "team_a": "Winner Game 3",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Winner Game 4",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 4,
+            "day": "Fri",
+            "time": "7:30 PM",
+            "field": "DYC:Zach Wright",
+            "team_a": "Loser Game 3",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Loser Game 4",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 5,
+            "day": "Fri",
+            "time": "9:00 PM",
+            "field": "DYC:K&W Service",
+            "team_a": "Winner Gold Game 1",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Winner Gold Game 3",
+            "seed_b": null,
+            "score_b": null
+          }
+        ]
+      }
+    }
+  },
   "site_last_updated": "06/30/2026 4:46 PM",
   "tournament_id": 13567,
-  "fetched_at": "2026-09-30T12:42"
+  "fetched_at": "2026-09-30T17:04"
 }
