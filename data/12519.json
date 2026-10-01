@@ -242,16 +242,6 @@
       "standings": [
         {
           "seed": 1,
-          "team": "Team 24",
-          "location": "York, SC",
-          "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
-          "team_page_id": null
-        },
-        {
-          "seed": 2,
           "team": "LumberJacks",
           "location": "Gaston County, NC",
           "won": 0,
@@ -261,7 +251,7 @@
           "team_page_id": null
         },
         {
-          "seed": 3,
+          "seed": 2,
           "team": "Carolina Rapid Fire - Ford",
           "location": "Lincolnton, NC",
           "won": 0,
@@ -271,7 +261,7 @@
           "team_page_id": null
         },
         {
-          "seed": 4,
+          "seed": 3,
           "team": "Carolina Regulators 9u",
           "location": "Stanley, NC",
           "won": 0,
@@ -281,7 +271,7 @@
           "team_page_id": null
         },
         {
-          "seed": 5,
+          "seed": 4,
           "team": "Carolina Royals 9Ublu",
           "location": "Cramerton, NC",
           "won": 0,
@@ -334,22 +324,10 @@
             "day": "Sat",
             "time": "10:45 AM",
             "field": "Westmoreld:Field 2",
-            "team_a": "Team 24",
+            "team_a": "Carolina Regulators 9u",
             "seed_a": null,
             "score_a": null,
             "team_b": "Carolina Royals 9Ublu",
-            "seed_b": null,
-            "score_b": null
-          },
-          {
-            "game": 5,
-            "day": "Sat",
-            "time": "12:30 PM",
-            "field": "Westmoreld:Field 2",
-            "team_a": "Team 24",
-            "seed_a": null,
-            "score_a": null,
-            "team_b": "Carolina Regulators 9u",
             "seed_b": null,
             "score_b": null
           }
@@ -361,10 +339,10 @@
             "time": "9:00 AM",
             "field": "Westmoreld:Field 2",
             "team_a": "",
-            "seed_a": 4,
+            "seed_a": 2,
             "score_a": null,
             "team_b": "",
-            "seed_b": 5,
+            "seed_b": 3,
             "score_b": null
           },
           {
@@ -373,28 +351,16 @@
             "time": "11:00 AM",
             "field": "Westmoreld:Field 2",
             "team_a": "",
-            "seed_a": 2,
+            "seed_a": 1,
             "score_a": null,
             "team_b": "",
-            "seed_b": 3,
+            "seed_b": 4,
             "score_b": null
           },
           {
             "game": 3,
             "day": "Sun",
-            "time": "1:00 PM",
-            "field": "Westmoreld:Field 2",
-            "team_a": "Winner Game #1",
-            "seed_a": null,
-            "score_a": null,
-            "team_b": "",
-            "seed_b": 1,
-            "score_b": null
-          },
-          {
-            "game": 4,
-            "day": "Sun",
-            "time": "5:00 PM",
+            "time": "3:00 PM",
             "field": "Westmoreld:Field 2",
             "team_a": "Loser Game #1",
             "seed_a": null,
@@ -404,11 +370,11 @@
             "score_b": null
           },
           {
-            "game": 5,
+            "game": 4,
             "day": "Sun",
-            "time": "3:00 PM",
+            "time": "1:00 PM",
             "field": "Westmoreld:Field 2",
-            "team_a": "Winner Game #3",
+            "team_a": "Winner Game #1",
             "seed_a": null,
             "score_a": null,
             "team_b": "Winner Game #2",
@@ -552,7 +518,7 @@
             "team_a": "Athletes Lab 10u Navy",
             "seed_a": null,
             "score_a": null,
-            "team_b": "MARA Outlaws",
+            "team_b": "ITAA Spartans 10U",
             "seed_b": null,
             "score_b": null
           },
@@ -597,7 +563,7 @@
             "day": "Sat",
             "time": "12:30 PM",
             "field": "M. Rivers:Martha Rivers 1",
-            "team_a": "MARA Outlaws",
+            "team_a": "ITAA Spartans 10U",
             "seed_a": null,
             "score_a": null,
             "team_b": "Sandlot Baseball",
@@ -636,7 +602,7 @@
             "team_a": "Canes Atlantic 9u Heidenreich",
             "seed_a": null,
             "score_a": null,
-            "team_b": "ITAA Spartans 10U",
+            "team_b": "MARA Outlaws",
             "seed_b": null,
             "score_b": null
           },
@@ -672,7 +638,7 @@
             "team_a": "Sandlot Baseball",
             "seed_a": null,
             "score_a": null,
-            "team_b": "ITAA Spartans 10U",
+            "team_b": "MARA Outlaws",
             "seed_b": null,
             "score_b": null
           },
@@ -2630,5 +2596,5 @@
   },
   "site_last_updated": "10/01/2026 1:30 PM",
   "tournament_id": 12519,
-  "fetched_at": "2026-10-01T14:32"
+  "fetched_at": "2026-10-01T17:26"
 }
