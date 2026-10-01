@@ -9,7 +9,190 @@
       "address": "2351 New Grey Rock Rd Tega Cay, SC 29708"
     }
   },
-  "divisions": {},
+  "divisions": {
+    "10U": {
+      "notes": [],
+      "standings": [
+        {
+          "seed": 1,
+          "team": "South Charlotte Revolution 10U",
+          "location": "Charlotte, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 2,
+          "team": "Legacy Baseball 10U - RED",
+          "location": "Fort Mill, SC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 3,
+          "team": "Mill Town 10u Blue Powered By Trosky",
+          "location": "Fort Mill, SC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 4,
+          "team": "Gator Elite Baseball",
+          "location": "gaston, SC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 5,
+          "team": "Stingers 10",
+          "location": "Matthews, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        }
+      ],
+      "sections": {
+        "Pool Play": [
+          {
+            "game": 1,
+            "day": "Sat",
+            "time": "9:00 AM",
+            "field": "Tega Cay:Field 1",
+            "team_a": "South Charlotte Revolution 10U",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Legacy Baseball 10U - RED",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 2,
+            "day": "Sat",
+            "time": "10:45 AM",
+            "field": "Tega Cay:Field 1",
+            "team_a": "South Charlotte Revolution 10U",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Mill Town 10u Blue Powered By Trosky",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 3,
+            "day": "Sat",
+            "time": "12:30 PM",
+            "field": "Tega Cay:Field 1",
+            "team_a": "Legacy Baseball 10U - RED",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Gator Elite Baseball",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 4,
+            "day": "Sat",
+            "time": "2:15 PM",
+            "field": "Tega Cay:Field 1",
+            "team_a": "Mill Town 10u Blue Powered By Trosky",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Stingers 10",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 5,
+            "day": "Sat",
+            "time": "4:00 PM",
+            "field": "Tega Cay:Field 1",
+            "team_a": "Gator Elite Baseball",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Stingers 10",
+            "seed_b": null,
+            "score_b": null
+          }
+        ],
+        "Gold Bracket": [
+          {
+            "game": 1,
+            "day": "Sun",
+            "time": "9:00 AM",
+            "field": "Tega Cay:Field 1",
+            "team_a": "",
+            "seed_a": 4,
+            "score_a": null,
+            "team_b": "",
+            "seed_b": 5,
+            "score_b": null
+          },
+          {
+            "game": 2,
+            "day": "Sun",
+            "time": "11:00 AM",
+            "field": "Tega Cay:Field 1",
+            "team_a": "",
+            "seed_a": 2,
+            "score_a": null,
+            "team_b": "",
+            "seed_b": 3,
+            "score_b": null
+          },
+          {
+            "game": 3,
+            "day": "Sun",
+            "time": "1:00 PM",
+            "field": "Tega Cay:Field 1",
+            "team_a": "Winner Game #1",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "",
+            "seed_b": 1,
+            "score_b": null
+          },
+          {
+            "game": 4,
+            "day": "Sun",
+            "time": "5:00 PM",
+            "field": "Tega Cay:Field 1",
+            "team_a": "Loser Game #1",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Loser Game #2",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 5,
+            "day": "Sun",
+            "time": "3:00 PM",
+            "field": "Tega Cay:Field 1",
+            "team_a": "Winner Game #3",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Winner Game #2",
+            "seed_b": null,
+            "score_b": null
+          }
+        ]
+      }
+    }
+  },
+  "site_last_updated": "10/01/2026 1:29 PM",
   "tournament_id": 13126,
-  "fetched_at": "2026-10-01T13:18"
+  "fetched_at": "2026-10-01T14:33"
 }

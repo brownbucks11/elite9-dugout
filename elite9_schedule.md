@@ -1,5 +1,5 @@
 # Elite 9 - Top Gun schedule
-_Updated Thu Oct 01, 2026 01:18 PM_
+_Updated Thu Oct 01, 2026 02:33 PM_
 
 ## SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND
 September 26 - 27 in Greater Charlotte Area, NC  
@@ -88,7 +88,7 @@ Tournament 12518 - [schedule page](https://playtopgunsports.com/GameTimesResults
 October 3 - 4 in Greater Charlotte Area, NC  
 Tournament 12519 - [schedule page](https://playtopgunsports.com/GameTimesResults.aspx?trnid=12519)
 
-_Elite 9 not listed yet. Divisions posted: none posted yet_
+_Elite 9 not listed yet. Divisions posted: 8U CP, 9U, 10U, 11U, 12U, 13U 90, 14U, 15U, 17U_
 
 ## NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS
 October 17 - 18 in Greater Charlotte Area, NC  
@@ -112,7 +112,7 @@ _Elite 9 not listed yet. Divisions posted: none posted yet_
 October 3 - 4 in Tega Cay, SC  
 Tournament 13126 - [schedule page](https://playtopgunsports.com/GameTimesResults.aspx?trnid=13126)
 
-_Elite 9 not listed yet. Divisions posted: none posted yet_
+_Elite 9 not listed yet. Divisions posted: 10U_
 
 ## TOP GUN-USA SPORTS--FRIDAY NIGHT LIGHTS
 October 2 in Mocksville/Winston Salem/Clemm, NC  
