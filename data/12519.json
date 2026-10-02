@@ -1821,16 +1821,6 @@
         },
         {
           "seed": 9,
-          "team": "Toxic NC",
-          "location": "Startown, NC",
-          "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
-          "team_page_id": null
-        },
-        {
-          "seed": 10,
           "team": "NWNC elite navy",
           "location": "Wilkesboro, NC",
           "won": 0,
@@ -1840,7 +1830,7 @@
           "team_page_id": null
         },
         {
-          "seed": 11,
+          "seed": 10,
           "team": "14U Team Steele Creek Select",
           "location": "Charlotte, NC",
           "won": 0,
@@ -1850,7 +1840,7 @@
           "team_page_id": null
         },
         {
-          "seed": 12,
+          "seed": 11,
           "team": "Carolina Wolfpack - Red",
           "location": "Lexington, NC",
           "won": 0,
@@ -1860,7 +1850,7 @@
           "team_page_id": null
         },
         {
-          "seed": 13,
+          "seed": 12,
           "team": "Regulators",
           "location": "Indian Trail, NC",
           "won": 0,
@@ -1964,7 +1954,7 @@
             "team_a": "Regulators",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Toxic NC",
+            "team_b": "Bethany Badgers",
             "seed_b": null,
             "score_b": null
           },
@@ -2013,18 +2003,6 @@
             "seed_a": null,
             "score_a": null,
             "team_b": "NWNC elite navy",
-            "seed_b": null,
-            "score_b": null
-          },
-          {
-            "game": 13,
-            "day": "Sat",
-            "time": "4:00 PM",
-            "field": "Tega Cay:Field 4",
-            "team_a": "Toxic NC",
-            "seed_a": null,
-            "score_a": null,
-            "team_b": "Bethany Badgers",
             "seed_b": null,
             "score_b": null
           }
@@ -2121,10 +2099,10 @@
             "day": "Sun",
             "time": "2:30 PM",
             "field": "Core:Hinson Core Field",
-            "team_a": "Loser Game #7",
+            "team_a": "Loser Game #1",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Loser Game #8",
+            "team_b": "Loser Game #2",
             "seed_b": null,
             "score_b": null
           },
@@ -2133,10 +2111,10 @@
             "day": "Sun",
             "time": "12:30 PM",
             "field": "Core:Hinson Core Field",
-            "team_a": "Winner Game #7",
+            "team_a": "Winner Game #1",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Winner Game #8",
+            "team_b": "Winner Game #2",
             "seed_b": null,
             "score_b": null
           }
@@ -2163,31 +2141,19 @@
             "seed_a": 10,
             "score_a": null,
             "team_b": "",
-            "seed_b": 13,
+            "seed_b": 12,
             "score_b": null
           },
           {
             "game": 3,
             "day": "Sun",
-            "time": "3:00 PM",
-            "field": "TOB:Field 1",
-            "team_a": "Loser Game #11",
-            "seed_a": null,
-            "score_a": null,
-            "team_b": "Loser Game #12",
-            "seed_b": null,
-            "score_b": null
-          },
-          {
-            "game": 4,
-            "day": "Sun",
             "time": "1:00 PM",
             "field": "TOB:Field 1",
-            "team_a": "Winner Game #11",
-            "seed_a": null,
+            "team_a": "",
+            "seed_a": 10,
             "score_a": null,
-            "team_b": "Winner Game #12",
-            "seed_b": null,
+            "team_b": "",
+            "seed_b": 11,
             "score_b": null
           }
         ]
@@ -2528,5 +2494,5 @@
   },
   "site_last_updated": "10/01/2026 1:30 PM",
   "tournament_id": 12519,
-  "fetched_at": "2026-10-02T12:31"
+  "fetched_at": "2026-10-02T17:04"
 }
