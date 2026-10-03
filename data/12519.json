@@ -59,10 +59,10 @@
           "seed": 2,
           "team": "MARA Thunder",
           "location": "Matthews, NC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
-          "runs_allowed": 9,
-          "runs_scored": 10,
+          "runs_allowed": 29,
+          "runs_scored": 31,
           "team_page_id": null
         },
         {
@@ -70,9 +70,9 @@
           "team": "Red Clay Athletics 8U Beeker",
           "location": "Huntersville, NC",
           "won": 1,
-          "lost": 0,
-          "runs_allowed": 9,
-          "runs_scored": 12,
+          "lost": 1,
+          "runs_allowed": 30,
+          "runs_scored": 32,
           "team_page_id": null
         },
         {
@@ -80,19 +80,19 @@
           "team": "LKN Bolts",
           "location": "Huntersville, NC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 17,
-          "runs_scored": 2,
+          "lost": 2,
+          "runs_allowed": 37,
+          "runs_scored": 5,
           "team_page_id": null
         },
         {
           "seed": 5,
           "team": "Mill Town 8u Blue Powered by Trosky",
           "location": "Fort Mill, SC",
-          "won": 0,
+          "won": 1,
           "lost": 1,
-          "runs_allowed": 10,
-          "runs_scored": 9,
+          "runs_allowed": 13,
+          "runs_scored": 29,
           "team_page_id": null
         }
       ],
@@ -141,10 +141,10 @@
             "field": "Westmoreld:Field 1",
             "team_a": "LKN Bolts",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 3,
             "team_b": "Mill Town 8u Blue Powered by Trosky",
             "seed_b": null,
-            "score_b": null
+            "score_b": 20
           },
           {
             "game": 5,
@@ -153,10 +153,10 @@
             "field": "Westmoreld:Field 4",
             "team_a": "Red Clay Athletics 8U Beeker",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 20,
             "team_b": "MARA Thunder",
             "seed_b": null,
-            "score_b": null
+            "score_b": 21
           }
         ],
         "Gold Bracket": [
@@ -165,10 +165,10 @@
             "day": "Sun",
             "time": "9:00 AM",
             "field": "Westmoreld:Field 4",
-            "team_a": "",
+            "team_a": "Red Clay Athletics 8U Beeker",
             "seed_a": 4,
             "score_a": null,
-            "team_b": "",
+            "team_b": "LKN Bolts",
             "seed_b": 5,
             "score_b": null
           },
@@ -177,10 +177,10 @@
             "day": "Sun",
             "time": "10:15 AM",
             "field": "Westmoreld:Field 4",
-            "team_a": "",
+            "team_a": "Mill Town 8u Blue Powered by Trosky",
             "seed_a": 2,
             "score_a": null,
-            "team_b": "",
+            "team_b": "BP3 Ruff Ryderz NC 8U",
             "seed_b": 3,
             "score_b": null
           },
@@ -192,7 +192,7 @@
             "team_a": "Winner Game #1",
             "seed_a": null,
             "score_a": null,
-            "team_b": "",
+            "team_b": "MARA Thunder",
             "seed_b": 1,
             "score_b": null
           },
@@ -402,9 +402,9 @@
           "team": "Carolina River Rats 10U",
           "location": "Lincolnton, NC",
           "won": 1,
-          "lost": 0,
-          "runs_allowed": 6,
-          "runs_scored": 13,
+          "lost": 1,
+          "runs_allowed": 14,
+          "runs_scored": 19,
           "team_page_id": null
         },
         {
@@ -491,10 +491,10 @@
           "seed": 11,
           "team": "Drypond 10U",
           "location": "Denver, NC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
-          "runs_allowed": 1,
-          "runs_scored": 24,
+          "runs_allowed": 7,
+          "runs_scored": 32,
           "team_page_id": null
         },
         {
@@ -649,10 +649,10 @@
             "field": "Tuckasee:Tuckaseegee 2",
             "team_a": "Drypond 10U",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 8,
             "team_b": "Carolina River Rats 10U",
             "seed_b": null,
-            "score_b": null
+            "score_b": 6
           }
         ],
         "Gold Bracket": [
@@ -661,10 +661,10 @@
             "day": "Sun",
             "time": "9:00 AM",
             "field": "Tuckasee:Tuckaseegee 3",
-            "team_a": "",
+            "team_a": "Drypond 10U",
             "seed_a": 2,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Canes Atlantic 9u Sulovski",
             "seed_b": 3,
             "score_b": null
           },
@@ -673,10 +673,10 @@
             "day": "Sun",
             "time": "9:00 AM",
             "field": "Tuckasee:Tuckaseegee 2",
-            "team_a": "",
+            "team_a": "Athletes Lab 10u Navy",
             "seed_a": 1,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Copperheads Red",
             "seed_b": 4,
             "score_b": null
           },
@@ -711,10 +711,10 @@
             "day": "Sun",
             "time": "1:00 PM",
             "field": "Tuckasee:Tuckaseegee 3",
-            "team_a": "",
+            "team_a": "Carolina River Rats 10U",
             "seed_a": 6,
             "score_a": null,
-            "team_b": "",
+            "team_b": "ITAA Spartans 10U",
             "seed_b": 7,
             "score_b": null
           },
@@ -723,10 +723,10 @@
             "day": "Sun",
             "time": "1:00 PM",
             "field": "Tuckasee:Tuckaseegee 2",
-            "team_a": "",
+            "team_a": "SBA Lake Norman Thunder - White",
             "seed_a": 5,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Canes Atlantic 9u Heidenreich",
             "seed_b": 8,
             "score_b": null
           },
@@ -761,10 +761,10 @@
             "day": "Sun",
             "time": "9:00 AM",
             "field": "Westmoreld:Field 1",
-            "team_a": "",
+            "team_a": "Aces",
             "seed_a": 10,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Sandlot Baseball",
             "seed_b": 11,
             "score_b": null
           },
@@ -773,10 +773,10 @@
             "day": "Sun",
             "time": "11:00 AM",
             "field": "Westmoreld:Field 1",
-            "team_a": "",
+            "team_a": "Elite9 10u",
             "seed_a": 9,
             "score_a": null,
-            "team_b": "",
+            "team_b": "MARA Outlaws",
             "seed_b": 12,
             "score_b": null
           },
@@ -825,9 +825,9 @@
           "team": "LKN Kingdom",
           "location": "Charlotte, NC",
           "won": 1,
-          "lost": 0,
-          "runs_allowed": 7,
-          "runs_scored": 14,
+          "lost": 1,
+          "runs_allowed": 19,
+          "runs_scored": 17,
           "team_page_id": null
         },
         {
@@ -844,10 +844,10 @@
           "seed": 4,
           "team": "Athletes Lab Navy 11u",
           "location": "Maiden, NC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 16,
+          "runs_allowed": 3,
+          "runs_scored": 28,
           "team_page_id": null
         },
         {
@@ -865,19 +865,19 @@
           "team": "PeeDee Mudcats",
           "location": "Wadesboro, NC",
           "won": 1,
-          "lost": 0,
-          "runs_allowed": 3,
-          "runs_scored": 7,
+          "lost": 1,
+          "runs_allowed": 18,
+          "runs_scored": 8,
           "team_page_id": null
         },
         {
           "seed": 7,
           "team": "11u Mission Baseball",
           "location": "Waxhaw, NC",
-          "won": 0,
+          "won": 1,
           "lost": 1,
-          "runs_allowed": 6,
-          "runs_scored": 5,
+          "runs_allowed": 7,
+          "runs_scored": 20,
           "team_page_id": null
         },
         {
@@ -1038,10 +1038,10 @@
             "field": "Tega Cay:Field 2",
             "team_a": "11u Mission Baseball",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 15,
             "team_b": "PeeDee Mudcats",
             "seed_b": null,
-            "score_b": null
+            "score_b": 1
           },
           {
             "game": 11,
@@ -1050,10 +1050,10 @@
             "field": "Westmoreld:Field 3",
             "team_a": "Athletes Lab Navy 11u",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 12,
             "team_b": "LKN Kingdom",
             "seed_b": null,
-            "score_b": null
+            "score_b": 3
           }
         ],
         "Gold Bracket": [
@@ -1062,10 +1062,10 @@
             "day": "Sun",
             "time": "9:00 AM",
             "field": "M. Rivers:Martha Rivers 2",
-            "team_a": "",
+            "team_a": "Destroyers Baseball",
             "seed_a": 2,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Carolina Hit Stix",
             "seed_b": 3,
             "score_b": null
           },
@@ -1074,10 +1074,10 @@
             "day": "Sun",
             "time": "9:00 AM",
             "field": "M. Rivers:Martha Rivers 3",
-            "team_a": "",
+            "team_a": "Athletes Lab Navy 11u",
             "seed_a": 1,
             "score_a": null,
-            "team_b": "",
+            "team_b": "11u Mission Baseball",
             "seed_b": 4,
             "score_b": null
           },
@@ -1112,10 +1112,10 @@
             "day": "Sun",
             "time": "1:00 PM",
             "field": "M. Rivers:Martha Rivers 2",
-            "team_a": "",
+            "team_a": "PeeDee Mudcats",
             "seed_a": 6,
             "score_a": null,
-            "team_b": "",
+            "team_b": "LKN Kingdom",
             "seed_b": 7,
             "score_b": null
           },
@@ -1124,10 +1124,10 @@
             "day": "Sun",
             "time": "1:00 PM",
             "field": "M. Rivers:Martha Rivers 3",
-            "team_a": "",
+            "team_a": "Carolina Mayhem",
             "seed_a": 5,
             "score_a": null,
-            "team_b": "",
+            "team_b": "KM Aces",
             "seed_b": 8,
             "score_b": null
           },
@@ -1162,10 +1162,10 @@
             "day": "Sun",
             "time": "9:00 AM",
             "field": "Westmoreld:Field 3",
-            "team_a": "",
+            "team_a": "Dirtbags 11u Hagen",
             "seed_a": 10,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Mount Holly Hawks",
             "seed_b": 11,
             "score_b": null
           },
@@ -1174,10 +1174,10 @@
             "day": "Sun",
             "time": "11:00 AM",
             "field": "Westmoreld:Field 3",
-            "team_a": "",
+            "team_a": "Blue Sox",
             "seed_a": 9,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Mount Holly Hawks",
             "seed_b": 11,
             "score_b": null
           },
@@ -1186,10 +1186,10 @@
             "day": "Sun",
             "time": "1:00 PM",
             "field": "Westmoreld:Field 3",
-            "team_a": "",
+            "team_a": "Blue Sox",
             "seed_a": 9,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Dirtbags 11u Hagen",
             "seed_b": 10,
             "score_b": null
           }
@@ -2130,10 +2130,10 @@
           "seed": 4,
           "team": "Carolina Elevate 16u Wilkes",
           "location": "North Wilkesboro, NC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
-          "runs_allowed": 2,
-          "runs_scored": 5,
+          "runs_allowed": 7,
+          "runs_scored": 11,
           "team_page_id": null
         },
         {
@@ -2141,9 +2141,9 @@
           "team": "CBB Baseball",
           "location": "Waxhaw, NC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 6,
-          "runs_scored": 3,
+          "lost": 2,
+          "runs_allowed": 12,
+          "runs_scored": 8,
           "team_page_id": null
         }
       ],
@@ -2204,10 +2204,10 @@
             "field": "BFF:Field 1",
             "team_a": "Carolina Elevate 16u Wilkes",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 6,
             "team_b": "CBB Baseball",
             "seed_b": null,
-            "score_b": null
+            "score_b": 5
           }
         ],
         "Gold Bracket": [
@@ -2216,10 +2216,10 @@
             "day": "Sun",
             "time": "9:00 AM",
             "field": "Tuckasee:Tuckaseegee 1",
-            "team_a": "",
+            "team_a": "CBB Baseball",
             "seed_a": 4,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Carolina Blue Bloods",
             "seed_b": 5,
             "score_b": null
           },
@@ -2228,10 +2228,10 @@
             "day": "Sun",
             "time": "11:00 AM",
             "field": "Tuckasee:Tuckaseegee 1",
-            "team_a": "",
+            "team_a": "Carolina Elevate 16u Wilkes",
             "seed_a": 2,
             "score_a": null,
-            "team_b": "",
+            "team_b": "The Sandlot 14u",
             "seed_b": 3,
             "score_b": null
           },
@@ -2243,7 +2243,7 @@
             "team_a": "Winner Game #1",
             "seed_a": null,
             "score_a": null,
-            "team_b": "",
+            "team_b": "North Lincoln Destroyers",
             "seed_b": 1,
             "score_b": null
           },
@@ -2426,5 +2426,5 @@
   },
   "site_last_updated": "10/01/2026 1:30 PM",
   "tournament_id": 12519,
-  "fetched_at": "2026-10-03T16:41"
+  "fetched_at": "2026-10-03T19:33"
 }
