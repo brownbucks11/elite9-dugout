@@ -3,7 +3,7 @@
  "location": "Rock Hill, SC",
  "page_id": 31407,
  "team_url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=31407",
- "built": "Sat Oct 03, 2026 08:16 AM",
+ "built": "Sat Oct 03, 2026 11:12 AM",
  "record": {
   "w": 2,
   "l": 7,
@@ -4253,7 +4253,7 @@
     "team": {
      "entered": false
     },
-    "fetched_at": "2026-10-03T08:16"
+    "fetched_at": "2026-10-03T11:03"
    },
    "tgs": {
     "weather": null,
@@ -4331,7 +4331,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-03T08:16",
+    "fetched_at": "2026-10-03T11:03",
     "url": "https://topgunstats.com/whos-playing/12521"
    },
    "name": "Triple points Super Regional",
@@ -4368,7 +4368,7 @@
      "entered_at": "2026-06-08T12:01:08.307Z",
      "level": "AA"
     },
-    "fetched_at": "2026-10-03T08:16"
+    "fetched_at": "2026-10-03T11:03"
    },
    "tgs": {
     "weather": null,
@@ -4450,7 +4450,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-03T08:16",
+    "fetched_at": "2026-10-03T11:03",
     "url": "https://topgunstats.com/whos-playing/12522"
    },
    "name": "Southeastern Winter World Series",
@@ -4482,7 +4482,7 @@
     "team": {
      "entered": false
     },
-    "fetched_at": "2026-10-03T08:16"
+    "fetched_at": "2026-10-03T11:03"
    },
    "tgs": {
     "weather": null,
@@ -4535,7 +4535,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-03T08:16",
+    "fetched_at": "2026-10-03T11:03",
     "url": "https://topgunstats.com/whos-playing/12524"
    },
    "name": "Road Runner vs Coyote ring weekend",
@@ -4628,10 +4628,18 @@
      "lost": 0,
      "standing": "",
      "points": 0
+    },
+    {
+     "date": "2026-10-03",
+     "name": "DOUBLE POINTS PINK ZONE QUALIFIER---ACTIVATE WINTER FREE PAID BERTHS",
+     "won": 0,
+     "lost": 0,
+     "standing": "",
+     "points": 0
     }
    ],
-   "season": "08/01/2026 - 10/02/2026",
-   "stats_fetched": "2026-10-02T12:32"
+   "season": "08/01/2026 - 10/03/2026",
+   "stats_fetched": "2026-10-03T11:05"
   },
   {
    "team": "South Park Red Raiders",
@@ -4769,10 +4777,18 @@
      "lost": 0,
      "standing": "1st (Gold)",
      "points": 400
+    },
+    {
+     "date": "2026-10-03",
+     "name": "DOUBLE POINTS PINK ZONE QUALIFIER---ACTIVATE WINTER FREE PAID BERTHS",
+     "won": 1,
+     "lost": 0,
+     "standing": "",
+     "points": 0
     }
    ],
-   "season": "08/01/2026 - 10/02/2026",
-   "stats_fetched": "2026-10-02T12:38"
+   "season": "08/01/2026 - 10/03/2026",
+   "stats_fetched": "2026-10-03T11:11"
   },
   {
    "team": "M&M Baseball 9u",
@@ -4806,6 +4822,37 @@
      "opponent": "Carolina Elevate",
      "rs": 12,
      "ra": 6,
+     "result": "W"
+    }
+   ],
+   "points": 0,
+   "titles": 0,
+   "finishes": [],
+   "season": "",
+   "stats_fetched": null
+  },
+  {
+   "team": "Carolina Rapid Fire - Ford",
+   "location": "Lincolnton, NC",
+   "page_id": null,
+   "url": null,
+   "w": 1,
+   "l": 0,
+   "t": 0,
+   "rs": 11,
+   "ra": 3,
+   "diff": 8,
+   "pct": 1.0,
+   "events": 1,
+   "log": [
+    {
+     "date": "2026-10-03",
+     "event_id": 12519,
+     "event": "DOUBLE POINTS PINK ZONE QUALIFIER---ACTIVATE WINTER FREE PAID BERTHS",
+     "section": "Pool Play",
+     "opponent": "Carolina Regulators 9u",
+     "rs": 11,
+     "ra": 3,
      "result": "W"
     }
    ],
@@ -4979,8 +5026,8 @@
      "points": 1400
     }
    ],
-   "season": "08/01/2026 - 10/02/2026",
-   "stats_fetched": "2026-10-02T12:33"
+   "season": "08/01/2026 - 10/03/2026",
+   "stats_fetched": "2026-10-03T11:06"
   },
   {
    "team": "Lake Wylie Venom",
@@ -5077,8 +5124,8 @@
      "points": 700
     }
    ],
-   "season": "08/01/2026 - 10/02/2026",
-   "stats_fetched": "2026-10-02T12:35"
+   "season": "08/01/2026 - 10/03/2026",
+   "stats_fetched": "2026-10-03T11:07"
   },
   {
    "team": "Hooligans",
@@ -5221,10 +5268,18 @@
      "lost": 1,
      "standing": "2nd (Gold)",
      "points": 1550
+    },
+    {
+     "date": "2026-10-03",
+     "name": "DOUBLE POINTS PINK ZONE QUALIFIER---ACTIVATE WINTER FREE PAID BERTHS",
+     "won": 0,
+     "lost": 0,
+     "standing": "",
+     "points": 0
     }
    ],
-   "season": "08/01/2026 - 10/02/2026",
-   "stats_fetched": "2026-10-02T12:35"
+   "season": "08/01/2026 - 10/03/2026",
+   "stats_fetched": "2026-10-03T11:07"
   },
   {
    "team": "Lightning Jacks Riddle",
@@ -5311,8 +5366,8 @@
      "points": 375
     }
    ],
-   "season": "08/01/2026 - 10/02/2026",
-   "stats_fetched": "2026-10-02T12:32"
+   "season": "08/01/2026 - 10/03/2026",
+   "stats_fetched": "2026-10-03T11:04"
   },
   {
    "team": "Carolina Firebirds-Red",
@@ -5452,8 +5507,8 @@
      "points": 350
     }
    ],
-   "season": "08/01/2026 - 10/02/2026",
-   "stats_fetched": "2026-10-02T12:37"
+   "season": "08/01/2026 - 10/03/2026",
+   "stats_fetched": "2026-10-03T11:10"
   },
   {
    "team": "Dirtbags Shook",
@@ -5593,8 +5648,8 @@
      "points": 600
     }
    ],
-   "season": "08/01/2026 - 10/02/2026",
-   "stats_fetched": "2026-10-02T12:37"
+   "season": "08/01/2026 - 10/03/2026",
+   "stats_fetched": "2026-10-03T11:10"
   },
   {
    "team": "LKN Bolts",
@@ -5749,8 +5804,8 @@
      "points": 750
     }
    ],
-   "season": "08/01/2026 - 10/02/2026",
-   "stats_fetched": "2026-10-02T12:33"
+   "season": "08/01/2026 - 10/03/2026",
+   "stats_fetched": "2026-10-03T11:06"
   },
   {
    "team": "Dirtbags Baseball ESB",
@@ -5937,15 +5992,15 @@
     {
      "date": "2026-10-02",
      "name": "TOP GUN-USA SPORTS--FRIDAY NIGHT LIGHTS",
-     "won": 0,
-     "lost": 0,
+     "won": 1,
+     "lost": 1,
      "standing": "3rd (Gold)",
      "points": 0,
      "derived": true
     }
    ],
-   "season": "08/01/2026 - 10/02/2026",
-   "stats_fetched": "2026-10-02T12:38"
+   "season": "08/01/2026 - 10/03/2026",
+   "stats_fetched": "2026-10-03T11:10"
   },
   {
    "team": "NL Destroyers 2036",
@@ -6146,10 +6201,18 @@
      "lost": 0,
      "standing": "1st (Gold)",
      "points": 1600
+    },
+    {
+     "date": "2026-10-03",
+     "name": "DOUBLE POINTS PINK ZONE QUALIFIER---ACTIVATE WINTER FREE PAID BERTHS",
+     "won": 0,
+     "lost": 0,
+     "standing": "",
+     "points": 0
     }
    ],
-   "season": "08/01/2026 - 10/02/2026",
-   "stats_fetched": "2026-10-02T12:36"
+   "season": "08/01/2026 - 10/03/2026",
+   "stats_fetched": "2026-10-03T11:08"
   },
   {
    "team": "Mara Bulls",
@@ -6208,8 +6271,8 @@
      "points": 300
     }
    ],
-   "season": "08/01/2026 - 10/02/2026",
-   "stats_fetched": "2026-10-02T12:39"
+   "season": "08/01/2026 - 10/03/2026",
+   "stats_fetched": "2026-10-03T11:11"
   },
   {
    "team": "Carolina Trash Pandas",
@@ -6332,10 +6395,18 @@
      "lost": 2,
      "standing": "2nd (Bronze)",
      "points": 575
+    },
+    {
+     "date": "2026-10-03",
+     "name": "DOUBLE POINTS PINK ZONE QUALIFIER---ACTIVATE WINTER FREE PAID BERTHS",
+     "won": 1,
+     "lost": 0,
+     "standing": "",
+     "points": 0
     }
    ],
-   "season": "08/01/2026 - 10/02/2026",
-   "stats_fetched": "2026-10-02T12:33"
+   "season": "08/01/2026 - 10/03/2026",
+   "stats_fetched": "2026-10-03T11:05"
   },
   {
    "team": "NC Made 9U Blue",
@@ -6420,94 +6491,32 @@
      "lost": 1,
      "standing": "8th (Gold)",
      "points": 300
-    }
-   ],
-   "season": "08/01/2026 - 10/02/2026",
-   "stats_fetched": "2026-10-02T12:32"
-  },
-  {
-   "team": "Copperheads",
-   "location": "Mooresville, NC",
-   "page_id": 33114,
-   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=33114",
-   "w": 2,
-   "l": 2,
-   "t": 0,
-   "rs": 35,
-   "ra": 23,
-   "diff": 12,
-   "pct": 0.5,
-   "events": 1,
-   "log": [
-    {
-     "date": "2026-09-12",
-     "event_id": 12516,
-     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
-     "section": "Pool Play",
-     "opponent": "Waxhaw Militia 9U",
-     "rs": 13,
-     "ra": 1,
-     "result": "W"
     },
     {
-     "date": "2026-09-12",
-     "event_id": 12516,
-     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
-     "section": "Pool Play",
-     "opponent": "Carolina Regulators 9u",
-     "rs": 10,
-     "ra": 11,
-     "result": "L"
-    },
-    {
-     "date": "2026-09-13",
-     "event_id": 12516,
-     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
-     "section": "Gold Bracket",
-     "opponent": "Carolina Regulators 9u",
-     "rs": 11,
-     "ra": 2,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-13",
-     "event_id": 12516,
-     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
-     "section": "Gold Bracket",
-     "opponent": "LKN Bolts",
-     "rs": 1,
-     "ra": 9,
-     "result": "L"
+     "date": "2026-10-03",
+     "name": "DOUBLE POINTS PINK ZONE QUALIFIER---ACTIVATE WINTER FREE PAID BERTHS",
+     "won": 0,
+     "lost": 0,
+     "standing": "",
+     "points": 0
     }
    ],
-   "points": 650,
-   "titles": 0,
-   "finishes": [
-    {
-     "date": "2026-09-12",
-     "name": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
-     "won": 2,
-     "lost": 2,
-     "standing": "3rd (Gold)",
-     "points": 650
-    }
-   ],
-   "season": "08/01/2026 - 10/02/2026",
-   "stats_fetched": "2026-10-02T12:33"
+   "season": "08/01/2026 - 10/03/2026",
+   "stats_fetched": "2026-10-03T11:04"
   },
   {
    "team": "Carolina Royals 9Ublu",
    "location": "Cramerton, NC",
    "page_id": 37581,
    "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=37581",
-   "w": 4,
+   "w": 5,
    "l": 4,
    "t": 0,
-   "rs": 79,
-   "ra": 69,
-   "diff": 10,
-   "pct": 0.5,
-   "events": 2,
+   "rs": 95,
+   "ra": 76,
+   "diff": 19,
+   "pct": 0.556,
+   "events": 3,
    "log": [
     {
      "date": "2026-08-22",
@@ -6588,6 +6597,16 @@
      "rs": 15,
      "ra": 3,
      "result": "W"
+    },
+    {
+     "date": "2026-10-03",
+     "event_id": 12519,
+     "event": "DOUBLE POINTS PINK ZONE QUALIFIER---ACTIVATE WINTER FREE PAID BERTHS",
+     "section": "Pool Play",
+     "opponent": "LumberJacks",
+     "rs": 16,
+     "ra": 7,
+     "result": "W"
     }
    ],
    "points": 850,
@@ -6608,10 +6627,96 @@
      "lost": 1,
      "standing": "1st (Gold)",
      "points": 600
+    },
+    {
+     "date": "2026-10-03",
+     "name": "DOUBLE POINTS PINK ZONE QUALIFIER---ACTIVATE WINTER FREE PAID BERTHS",
+     "won": 1,
+     "lost": 0,
+     "standing": "",
+     "points": 0
     }
    ],
-   "season": "08/01/2026 - 10/02/2026",
-   "stats_fetched": "2026-10-02T12:37"
+   "season": "08/01/2026 - 10/03/2026",
+   "stats_fetched": "2026-10-03T11:10"
+  },
+  {
+   "team": "Copperheads",
+   "location": "Mooresville, NC",
+   "page_id": 33114,
+   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=33114",
+   "w": 2,
+   "l": 2,
+   "t": 0,
+   "rs": 35,
+   "ra": 23,
+   "diff": 12,
+   "pct": 0.5,
+   "events": 1,
+   "log": [
+    {
+     "date": "2026-09-12",
+     "event_id": 12516,
+     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
+     "section": "Pool Play",
+     "opponent": "Waxhaw Militia 9U",
+     "rs": 13,
+     "ra": 1,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-12",
+     "event_id": 12516,
+     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
+     "section": "Pool Play",
+     "opponent": "Carolina Regulators 9u",
+     "rs": 10,
+     "ra": 11,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-13",
+     "event_id": 12516,
+     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
+     "section": "Gold Bracket",
+     "opponent": "Carolina Regulators 9u",
+     "rs": 11,
+     "ra": 2,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-13",
+     "event_id": 12516,
+     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
+     "section": "Gold Bracket",
+     "opponent": "LKN Bolts",
+     "rs": 1,
+     "ra": 9,
+     "result": "L"
+    }
+   ],
+   "points": 650,
+   "titles": 0,
+   "finishes": [
+    {
+     "date": "2026-09-12",
+     "name": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
+     "won": 2,
+     "lost": 2,
+     "standing": "3rd (Gold)",
+     "points": 650
+    },
+    {
+     "date": "2026-10-03",
+     "name": "DOUBLE POINTS PINK ZONE QUALIFIER---ACTIVATE WINTER FREE PAID BERTHS",
+     "won": 0,
+     "lost": 0,
+     "standing": "",
+     "points": 0
+    }
+   ],
+   "season": "08/01/2026 - 10/03/2026",
+   "stats_fetched": "2026-10-03T11:06"
   },
   {
    "team": "Team 24",
@@ -6798,10 +6903,18 @@
      "lost": 2,
      "standing": "2nd (Gold)",
      "points": 375
+    },
+    {
+     "date": "2026-10-03",
+     "name": "DOUBLE POINTS PINK ZONE QUALIFIER---ACTIVATE WINTER FREE PAID BERTHS",
+     "won": 0,
+     "lost": 0,
+     "standing": "",
+     "points": 0
     }
    ],
-   "season": "08/01/2026 - 10/02/2026",
-   "stats_fetched": "2026-10-02T12:38"
+   "season": "08/01/2026 - 10/03/2026",
+   "stats_fetched": "2026-10-03T11:11"
   },
   {
    "team": "NC Made 9U Green",
@@ -6880,14 +6993,14 @@
     {
      "date": "2026-10-02",
      "name": "TOP GUN-USA SPORTS--FRIDAY NIGHT LIGHTS",
-     "won": 0,
-     "lost": 0,
+     "won": 1,
+     "lost": 1,
      "standing": "",
      "points": 0
     }
    ],
-   "season": "08/01/2026 - 10/02/2026",
-   "stats_fetched": "2026-10-02T12:33"
+   "season": "08/01/2026 - 10/03/2026",
+   "stats_fetched": "2026-10-03T11:05"
   },
   {
    "team": "Groundwork Sports",
@@ -6964,8 +7077,8 @@
      "points": 0
     }
    ],
-   "season": "08/01/2026 - 10/02/2026",
-   "stats_fetched": "2026-10-02T12:34"
+   "season": "08/01/2026 - 10/03/2026",
+   "stats_fetched": "2026-10-03T11:07"
   },
   {
    "team": "Rock Hill 9U Baseball",
@@ -7105,8 +7218,8 @@
      "points": 275
     }
    ],
-   "season": "08/01/2026 - 10/02/2026",
-   "stats_fetched": "2026-10-02T12:34"
+   "season": "08/01/2026 - 10/03/2026",
+   "stats_fetched": "2026-10-03T11:06"
   },
   {
    "team": "Flying Pigs 9U",
@@ -7185,14 +7298,14 @@
     {
      "date": "2026-10-02",
      "name": "TOP GUN-USA SPORTS--FRIDAY NIGHT LIGHTS",
-     "won": 0,
-     "lost": 0,
+     "won": 1,
+     "lost": 1,
      "standing": "",
      "points": 0
     }
    ],
-   "season": "08/01/2026 - 10/02/2026",
-   "stats_fetched": "2026-10-02T12:37"
+   "season": "08/01/2026 - 10/03/2026",
+   "stats_fetched": "2026-10-03T11:10"
   },
   {
    "team": "ROCO Dirtbagz",
@@ -7289,8 +7402,8 @@
      "points": 725
     }
    ],
-   "season": "08/01/2026 - 10/02/2026",
-   "stats_fetched": "2026-10-02T12:32"
+   "season": "08/01/2026 - 10/03/2026",
+   "stats_fetched": "2026-10-03T11:05"
   },
   {
    "team": "SC Tide - Lucariello",
@@ -7423,8 +7536,8 @@
      "points": 0
     }
    ],
-   "season": "08/01/2026 - 10/02/2026",
-   "stats_fetched": "2026-10-02T12:34"
+   "season": "08/01/2026 - 10/03/2026",
+   "stats_fetched": "2026-10-03T11:07"
   },
   {
    "team": "BOILING SPRINGS BULLDOGS BASEBALL 8u",
@@ -7660,8 +7773,8 @@
      "points": 0
     }
    ],
-   "season": "08/01/2026 - 10/02/2026",
-   "stats_fetched": "2026-10-02T12:35"
+   "season": "08/01/2026 - 10/03/2026",
+   "stats_fetched": "2026-10-03T11:08"
   },
   {
    "team": "LumberJacks",
@@ -7669,13 +7782,13 @@
    "page_id": 34401,
    "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=34401",
    "w": 5,
-   "l": 7,
+   "l": 8,
    "t": 0,
-   "rs": 118,
-   "ra": 126,
-   "diff": -8,
-   "pct": 0.417,
-   "events": 3,
+   "rs": 125,
+   "ra": 142,
+   "diff": -17,
+   "pct": 0.385,
+   "events": 4,
    "log": [
     {
      "date": "2026-08-22",
@@ -7796,6 +7909,16 @@
      "rs": 11,
      "ra": 7,
      "result": "W"
+    },
+    {
+     "date": "2026-10-03",
+     "event_id": 12519,
+     "event": "DOUBLE POINTS PINK ZONE QUALIFIER---ACTIVATE WINTER FREE PAID BERTHS",
+     "section": "Pool Play",
+     "opponent": "Carolina Royals 9Ublu",
+     "rs": 7,
+     "ra": 16,
+     "result": "L"
     }
    ],
    "points": 1150,
@@ -7824,10 +7947,18 @@
      "lost": 2,
      "standing": "1st (Copper)",
      "points": 600
+    },
+    {
+     "date": "2026-10-03",
+     "name": "DOUBLE POINTS PINK ZONE QUALIFIER---ACTIVATE WINTER FREE PAID BERTHS",
+     "won": 0,
+     "lost": 1,
+     "standing": "",
+     "points": 0
     }
    ],
-   "season": "08/01/2026 - 10/02/2026",
-   "stats_fetched": "2026-10-02T12:35"
+   "season": "08/01/2026 - 10/03/2026",
+   "stats_fetched": "2026-10-03T11:07"
   },
   {
    "team": "Red Clay Athletics 9U Darcangelo",
@@ -7944,8 +8075,8 @@
      "points": 675
     }
    ],
-   "season": "08/01/2026 - 10/02/2026",
-   "stats_fetched": "2026-10-02T12:36"
+   "season": "08/01/2026 - 10/03/2026",
+   "stats_fetched": "2026-10-03T11:09"
   },
   {
    "team": "Waxhaw Militia 9U",
@@ -8062,8 +8193,8 @@
      "points": 550
     }
    ],
-   "season": "08/01/2026 - 10/02/2026",
-   "stats_fetched": "2026-10-02T12:34"
+   "season": "08/01/2026 - 10/03/2026",
+   "stats_fetched": "2026-10-03T11:07"
   },
   {
    "team": "KnuckleheadsCBC",
@@ -8180,8 +8311,8 @@
      "points": 625
     }
    ],
-   "season": "08/01/2026 - 10/02/2026",
-   "stats_fetched": "2026-10-02T12:34"
+   "season": "08/01/2026 - 10/03/2026",
+   "stats_fetched": "2026-10-03T11:06"
   },
   {
    "team": "Carolina Royals 9Uw",
@@ -8301,8 +8432,8 @@
      "points": 275
     }
    ],
-   "season": "08/01/2026 - 10/02/2026",
-   "stats_fetched": "2026-10-02T12:35"
+   "season": "08/01/2026 - 10/03/2026",
+   "stats_fetched": "2026-10-03T11:08"
   },
   {
    "team": "Carolina Crushers 9U-Franklin",
@@ -8361,76 +8492,8 @@
      "points": 325
     }
    ],
-   "season": "08/01/2026 - 10/02/2026",
-   "stats_fetched": "2026-10-02T12:35"
-  },
-  {
-   "team": "Carolina Regulators 9u",
-   "location": "Stanley, NC",
-   "page_id": 38929,
-   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=38929",
-   "w": 1,
-   "l": 2,
-   "t": 0,
-   "rs": 20,
-   "ra": 29,
-   "diff": -9,
-   "pct": 0.333,
-   "events": 1,
-   "log": [
-    {
-     "date": "2026-09-12",
-     "event_id": 12516,
-     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
-     "section": "Pool Play",
-     "opponent": "Waxhaw Militia 9U",
-     "rs": 7,
-     "ra": 8,
-     "result": "L"
-    },
-    {
-     "date": "2026-09-12",
-     "event_id": 12516,
-     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
-     "section": "Pool Play",
-     "opponent": "Copperheads",
-     "rs": 11,
-     "ra": 10,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-13",
-     "event_id": 12516,
-     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
-     "section": "Gold Bracket",
-     "opponent": "Copperheads",
-     "rs": 2,
-     "ra": 11,
-     "result": "L"
-    }
-   ],
-   "points": 1000,
-   "titles": 1,
-   "finishes": [
-    {
-     "date": "2026-09-12",
-     "name": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
-     "won": 1,
-     "lost": 2,
-     "standing": "6th (Gold)",
-     "points": 600
-    },
-    {
-     "date": "2026-09-18",
-     "name": "FRIDAY NIGHT G.O.A.T. SERIES 9U, 11U, & 13U 60/90",
-     "won": 2,
-     "lost": 1,
-     "standing": "1st (Gold)",
-     "points": 400
-    }
-   ],
-   "season": "08/01/2026 - 10/02/2026",
-   "stats_fetched": "2026-10-02T12:39"
+   "season": "08/01/2026 - 10/03/2026",
+   "stats_fetched": "2026-10-03T11:08"
   },
   {
    "team": "Camel City",
@@ -8487,10 +8550,18 @@
      "lost": 2,
      "standing": "3rd (Silver)",
      "points": 250
+    },
+    {
+     "date": "2026-10-03",
+     "name": "DOUBLE POINTS PINK ZONE QUALIFIER---ACTIVATE WINTER FREE PAID BERTHS",
+     "won": 1,
+     "lost": 0,
+     "standing": "",
+     "points": 0
     }
    ],
-   "season": "08/01/2026 - 10/02/2026",
-   "stats_fetched": "2026-10-02T12:38"
+   "season": "08/01/2026 - 10/03/2026",
+   "stats_fetched": "2026-10-03T11:10"
   },
   {
    "team": "Cage 2 Stage 9u",
@@ -8549,8 +8620,8 @@
      "points": 350
     }
    ],
-   "season": "08/01/2026 - 10/02/2026",
-   "stats_fetched": "2026-10-02T12:39"
+   "season": "08/01/2026 - 10/03/2026",
+   "stats_fetched": "2026-10-03T11:12"
   },
   {
    "team": "SOX Baseball - Snow",
@@ -8660,13 +8731,99 @@
      "date": "2026-10-02",
      "name": "TOP GUN-USA SPORTS--FRIDAY NIGHT LIGHTS",
      "won": 0,
-     "lost": 0,
+     "lost": 2,
      "standing": "",
      "points": 0
     }
    ],
-   "season": "08/01/2026 - 10/02/2026",
-   "stats_fetched": "2026-10-02T12:37"
+   "season": "08/01/2026 - 10/03/2026",
+   "stats_fetched": "2026-10-03T11:09"
+  },
+  {
+   "team": "Carolina Regulators 9u",
+   "location": "Stanley, NC",
+   "page_id": 38929,
+   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=38929",
+   "w": 1,
+   "l": 3,
+   "t": 0,
+   "rs": 23,
+   "ra": 40,
+   "diff": -17,
+   "pct": 0.25,
+   "events": 2,
+   "log": [
+    {
+     "date": "2026-09-12",
+     "event_id": 12516,
+     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
+     "section": "Pool Play",
+     "opponent": "Waxhaw Militia 9U",
+     "rs": 7,
+     "ra": 8,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-12",
+     "event_id": 12516,
+     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
+     "section": "Pool Play",
+     "opponent": "Copperheads",
+     "rs": 11,
+     "ra": 10,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-13",
+     "event_id": 12516,
+     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
+     "section": "Gold Bracket",
+     "opponent": "Copperheads",
+     "rs": 2,
+     "ra": 11,
+     "result": "L"
+    },
+    {
+     "date": "2026-10-03",
+     "event_id": 12519,
+     "event": "DOUBLE POINTS PINK ZONE QUALIFIER---ACTIVATE WINTER FREE PAID BERTHS",
+     "section": "Pool Play",
+     "opponent": "Carolina Rapid Fire - Ford",
+     "rs": 3,
+     "ra": 11,
+     "result": "L"
+    }
+   ],
+   "points": 1000,
+   "titles": 1,
+   "finishes": [
+    {
+     "date": "2026-09-12",
+     "name": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
+     "won": 1,
+     "lost": 2,
+     "standing": "6th (Gold)",
+     "points": 600
+    },
+    {
+     "date": "2026-09-18",
+     "name": "FRIDAY NIGHT G.O.A.T. SERIES 9U, 11U, & 13U 60/90",
+     "won": 2,
+     "lost": 1,
+     "standing": "1st (Gold)",
+     "points": 400
+    },
+    {
+     "date": "2026-10-03",
+     "name": "DOUBLE POINTS PINK ZONE QUALIFIER---ACTIVATE WINTER FREE PAID BERTHS",
+     "won": 0,
+     "lost": 1,
+     "standing": "",
+     "points": 0
+    }
+   ],
+   "season": "08/01/2026 - 10/03/2026",
+   "stats_fetched": "2026-10-03T11:11"
   },
   {
    "team": "Union County Legends",
@@ -8943,8 +9100,8 @@
      "points": 625
     }
    ],
-   "season": "08/01/2026 - 10/02/2026",
-   "stats_fetched": "2026-10-02T12:32"
+   "season": "08/01/2026 - 10/03/2026",
+   "stats_fetched": "2026-10-03T11:05"
   },
   {
    "team": "Carolina Elevate",
@@ -9150,10 +9307,18 @@
      "lost": 3,
      "standing": "3rd (Silver)",
      "points": 1300
+    },
+    {
+     "date": "2026-10-03",
+     "name": "DOUBLE POINTS PINK ZONE QUALIFIER---ACTIVATE WINTER FREE PAID BERTHS",
+     "won": 0,
+     "lost": 1,
+     "standing": "",
+     "points": 0
     }
    ],
-   "season": "08/01/2026 - 10/02/2026",
-   "stats_fetched": "2026-10-02T12:38"
+   "season": "08/01/2026 - 10/03/2026",
+   "stats_fetched": "2026-10-03T11:11"
   },
   {
    "team": "LKN Kingdom",
@@ -9301,14 +9466,14 @@
      "date": "2026-10-02",
      "name": "TOP GUN-USA SPORTS--FRIDAY NIGHT LIGHTS",
      "won": 0,
-     "lost": 0,
+     "lost": 2,
      "standing": "4th (Gold)",
      "points": 0,
      "derived": true
     }
    ],
-   "season": "08/01/2026 - 10/02/2026",
-   "stats_fetched": "2026-10-02T12:36"
+   "season": "08/01/2026 - 10/03/2026",
+   "stats_fetched": "2026-10-03T11:09"
   },
   {
    "team": "High Point Hurricanes",
@@ -9367,8 +9532,8 @@
      "points": 225
     }
    ],
-   "season": "08/01/2026 - 10/02/2026",
-   "stats_fetched": "2026-10-02T12:39"
+   "season": "08/01/2026 - 10/03/2026",
+   "stats_fetched": "2026-10-03T11:12"
   },
   {
    "team": "Concord Athletics -9U",
@@ -9437,8 +9602,8 @@
      "points": 425
     }
    ],
-   "season": "08/01/2026 - 10/02/2026",
-   "stats_fetched": "2026-10-02T12:36"
+   "season": "08/01/2026 - 10/03/2026",
+   "stats_fetched": "2026-10-03T11:08"
   },
   {
    "team": "Carolina Forge 9U",
@@ -9593,8 +9758,8 @@
      "points": 0
     }
    ],
-   "season": "08/01/2026 - 10/02/2026",
-   "stats_fetched": "2026-10-02T12:36"
+   "season": "08/01/2026 - 10/03/2026",
+   "stats_fetched": "2026-10-03T11:09"
   }
  ],
  "fields": {
@@ -9848,8 +10013,8 @@
     "button_photo": null
    }
   ],
-  "season": "08/01/2026 - 10/02/2026",
-  "fetched_at": "2026-10-02T12:39",
+  "season": "08/01/2026 - 10/03/2026",
+  "fetched_at": "2026-10-03T11:12",
   "inactive": 22,
   "not_on_topgun": [],
   "duplicate_numbers": {}
@@ -15216,8 +15381,8 @@
    "points": 625
   }
  ],
- "season": "08/01/2026 - 10/02/2026",
- "stats_fetched": "2026-10-02T12:32",
+ "season": "08/01/2026 - 10/03/2026",
+ "stats_fetched": "2026-10-03T11:05",
  "division": "9U",
  "today": "2026-10-03",
  "season_label": "Fall 2026"
