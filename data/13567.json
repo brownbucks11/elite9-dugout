@@ -18,19 +18,19 @@
           "team": "NC Made 9U Green",
           "location": "Mocksville, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 9,
+          "runs_scored": 8,
           "team_page_id": null
         },
         {
           "seed": 2,
           "team": "M&M Baseball 9u",
           "location": "Browns Summit, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 5,
+          "runs_scored": 10,
           "team_page_id": null
         },
         {
@@ -38,19 +38,19 @@
           "team": "LKN Kingdom",
           "location": "Charlotte, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 12,
+          "runs_scored": 4,
           "team_page_id": null
         },
         {
           "seed": 4,
           "team": "Carolina Elevate",
           "location": "Lenoir, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 4,
+          "runs_scored": 12,
           "team_page_id": null
         },
         {
@@ -58,19 +58,19 @@
           "team": "SOX Baseball - Snow",
           "location": "Yadkinville, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 7,
+          "runs_scored": 5,
           "team_page_id": null
         },
         {
           "seed": 6,
           "team": "Flying Pigs 9U",
           "location": "Clemmons, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 5,
+          "runs_scored": 7,
           "team_page_id": null
         },
         {
@@ -78,19 +78,19 @@
           "team": "Dirtbags Baseball ESB",
           "location": "Lincolnton, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 10,
+          "runs_scored": 5,
           "team_page_id": null
         },
         {
           "seed": 8,
           "team": "DYBA Force 9U",
           "location": "Davidson, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 8,
+          "runs_scored": 9,
           "team_page_id": null
         }
       ],
@@ -103,10 +103,10 @@
             "field": "DYC:Bird Co Field",
             "team_a": "LKN Kingdom",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 4,
             "team_b": "Carolina Elevate",
             "seed_b": null,
-            "score_b": null
+            "score_b": 12
           },
           {
             "game": 2,
@@ -115,10 +115,10 @@
             "field": "DYC:Farm Bureau",
             "team_a": "Dirtbags Baseball ESB",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 5,
             "team_b": "M&M Baseball 9u",
             "seed_b": null,
-            "score_b": null
+            "score_b": 10
           },
           {
             "game": 3,
@@ -127,10 +127,10 @@
             "field": "DYC:K&W Service",
             "team_a": "Flying Pigs 9U",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 7,
             "team_b": "SOX Baseball - Snow",
             "seed_b": null,
-            "score_b": null
+            "score_b": 5
           },
           {
             "game": 4,
@@ -139,10 +139,10 @@
             "field": "DYC:Zach Wright",
             "team_a": "NC Made 9U Green",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 8,
             "team_b": "DYBA Force 9U",
             "seed_b": null,
-            "score_b": null
+            "score_b": 9
           }
         ],
         "Gold Bracket": [
@@ -212,5 +212,5 @@
   },
   "site_last_updated": "06/30/2026 4:46 PM",
   "tournament_id": 13567,
-  "fetched_at": "2026-10-02T17:12"
+  "fetched_at": "2026-10-02T20:58"
 }
