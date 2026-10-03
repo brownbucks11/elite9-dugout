@@ -17,7 +17,7 @@
           "seed": 1,
           "team": "NC Made 9U Green",
           "location": "Mocksville, NC",
-          "won": 0,
+          "won": 1,
           "lost": 1,
           "runs_allowed": 9,
           "runs_scored": 8,
@@ -27,7 +27,7 @@
           "seed": 2,
           "team": "M&M Baseball 9u",
           "location": "Browns Summit, NC",
-          "won": 1,
+          "won": 3,
           "lost": 0,
           "runs_allowed": 5,
           "runs_scored": 10,
@@ -38,7 +38,7 @@
           "team": "LKN Kingdom",
           "location": "Charlotte, NC",
           "won": 0,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 12,
           "runs_scored": 4,
           "team_page_id": null
@@ -48,7 +48,7 @@
           "team": "Carolina Elevate",
           "location": "Lenoir, NC",
           "won": 1,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 4,
           "runs_scored": 12,
           "team_page_id": null
@@ -58,7 +58,7 @@
           "team": "SOX Baseball - Snow",
           "location": "Yadkinville, NC",
           "won": 0,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 7,
           "runs_scored": 5,
           "team_page_id": null
@@ -68,7 +68,7 @@
           "team": "Flying Pigs 9U",
           "location": "Clemmons, NC",
           "won": 1,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 5,
           "runs_scored": 7,
           "team_page_id": null
@@ -77,7 +77,7 @@
           "seed": 7,
           "team": "Dirtbags Baseball ESB",
           "location": "Lincolnton, NC",
-          "won": 0,
+          "won": 1,
           "lost": 1,
           "runs_allowed": 10,
           "runs_scored": 5,
@@ -87,8 +87,8 @@
           "seed": 8,
           "team": "DYBA Force 9U",
           "location": "Davidson, NC",
-          "won": 1,
-          "lost": 0,
+          "won": 2,
+          "lost": 1,
           "runs_allowed": 8,
           "runs_scored": 9,
           "team_page_id": null
@@ -151,60 +151,60 @@
             "day": "Fri",
             "time": "7:30 PM",
             "field": "DYC:Bird Co Field",
-            "team_a": "Winner Game 1",
+            "team_a": "Winner Game 1 Carolina Elevate",
             "seed_a": null,
-            "score_a": null,
-            "team_b": "Winner Game 2",
+            "score_a": 6,
+            "team_b": "Winner Game 2 M&M Baseball 9u",
             "seed_b": null,
-            "score_b": null
+            "score_b": 12
           },
           {
             "game": 2,
             "day": "Fri",
             "time": "7:30 PM",
             "field": "DYC:Farm Bureau",
-            "team_a": "Loser Game 1",
+            "team_a": "Loser Game 1 LKN Kingdom",
             "seed_a": null,
-            "score_a": null,
-            "team_b": "Loser Game 2",
+            "score_a": 2,
+            "team_b": "Loser Game 2 Dirtbags Baseball ESB",
             "seed_b": null,
-            "score_b": null
+            "score_b": 14
           },
           {
             "game": 3,
             "day": "Fri",
             "time": "7:30 PM",
             "field": "DYC:K&W Service",
-            "team_a": "Winner Game 3",
+            "team_a": "Winner Game 3 Flying Pigs 9U",
             "seed_a": null,
-            "score_a": null,
-            "team_b": "Winner Game 4",
+            "score_a": 9,
+            "team_b": "Winner Game 4 DYBA Force 9U",
             "seed_b": null,
-            "score_b": null
+            "score_b": 12
           },
           {
             "game": 4,
             "day": "Fri",
             "time": "7:30 PM",
             "field": "DYC:Zach Wright",
-            "team_a": "Loser Game 3",
+            "team_a": "Loser Game 3 SOX Baseball - Snow",
             "seed_a": null,
-            "score_a": null,
-            "team_b": "Loser Game 4",
+            "score_a": 5,
+            "team_b": "Loser Game 4 NC Made 9U Green",
             "seed_b": null,
-            "score_b": null
+            "score_b": 16
           },
           {
             "game": 5,
             "day": "Fri",
             "time": "9:00 PM",
             "field": "DYC:K&W Service",
-            "team_a": "Winner Gold Game 1",
+            "team_a": "Winner Gold Game 1 M&M Baseball 9u",
             "seed_a": null,
-            "score_a": null,
-            "team_b": "Winner Gold Game 3",
+            "score_a": 16,
+            "team_b": "Winner Gold Game 3 DYBA Force 9U",
             "seed_b": null,
-            "score_b": null
+            "score_b": 6
           }
         ]
       }
@@ -212,5 +212,5 @@
   },
   "site_last_updated": "06/30/2026 4:46 PM",
   "tournament_id": 13567,
-  "fetched_at": "2026-10-02T21:30"
+  "fetched_at": "2026-10-03T02:21"
 }

@@ -3,7 +3,7 @@
  "location": "Rock Hill, SC",
  "page_id": 31407,
  "team_url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=31407",
- "built": "Fri Oct 02, 2026 09:30 PM",
+ "built": "Sat Oct 03, 2026 02:21 AM",
  "record": {
   "w": 2,
   "l": 7,
@@ -4253,7 +4253,7 @@
     "team": {
      "entered": false
     },
-    "fetched_at": "2026-10-02T21:30"
+    "fetched_at": "2026-10-03T02:20"
    },
    "tgs": {
     "weather": null,
@@ -4331,7 +4331,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-02T21:30",
+    "fetched_at": "2026-10-03T02:20",
     "url": "https://topgunstats.com/whos-playing/12521"
    },
    "name": "Triple points Super Regional",
@@ -4368,7 +4368,7 @@
      "entered_at": "2026-06-08T12:01:08.307Z",
      "level": "AA"
     },
-    "fetched_at": "2026-10-02T21:30"
+    "fetched_at": "2026-10-03T02:20"
    },
    "tgs": {
     "weather": null,
@@ -4450,7 +4450,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-02T21:30",
+    "fetched_at": "2026-10-03T02:20",
     "url": "https://topgunstats.com/whos-playing/12522"
    },
    "name": "Southeastern Winter World Series",
@@ -4482,7 +4482,7 @@
     "team": {
      "entered": false
     },
-    "fetched_at": "2026-10-02T21:30"
+    "fetched_at": "2026-10-03T02:20"
    },
    "tgs": {
     "weather": null,
@@ -4535,7 +4535,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-02T21:30",
+    "fetched_at": "2026-10-03T02:20",
     "url": "https://topgunstats.com/whos-playing/12524"
    },
    "name": "Road Runner vs Coyote ring weekend",
@@ -4779,12 +4779,12 @@
    "location": "Browns Summit, NC",
    "page_id": null,
    "url": null,
-   "w": 1,
+   "w": 2,
    "l": 0,
    "t": 0,
-   "rs": 10,
-   "ra": 5,
-   "diff": 5,
+   "rs": 22,
+   "ra": 11,
+   "diff": 11,
    "pct": 1.0,
    "events": 1,
    "log": [
@@ -4796,6 +4796,16 @@
      "opponent": "Dirtbags Baseball ESB",
      "rs": 10,
      "ra": 5,
+     "result": "W"
+    },
+    {
+     "date": "2026-10-02",
+     "event_id": 13567,
+     "event": "TOP GUN-USA SPORTS--FRIDAY NIGHT LIGHTS",
+     "section": "Gold Bracket",
+     "opponent": "Carolina Elevate",
+     "rs": 12,
+     "ra": 6,
      "result": "W"
     }
    ],
@@ -4810,12 +4820,12 @@
    "location": "Davidson, NC",
    "page_id": null,
    "url": null,
-   "w": 1,
+   "w": 2,
    "l": 0,
    "t": 0,
-   "rs": 9,
-   "ra": 8,
-   "diff": 1,
+   "rs": 21,
+   "ra": 17,
+   "diff": 4,
    "pct": 1.0,
    "events": 1,
    "log": [
@@ -4827,6 +4837,16 @@
      "opponent": "NC Made 9U Green",
      "rs": 9,
      "ra": 8,
+     "result": "W"
+    },
+    {
+     "date": "2026-10-02",
+     "event_id": 13567,
+     "event": "TOP GUN-USA SPORTS--FRIDAY NIGHT LIGHTS",
+     "section": "Gold Bracket",
+     "opponent": "Flying Pigs 9U",
+     "rs": 12,
+     "ra": 9,
      "result": "W"
     }
    ],
@@ -5737,13 +5757,13 @@
    "location": "Lincolnton, NC",
    "page_id": 37877,
    "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=37877",
-   "w": 9,
+   "w": 10,
    "l": 4,
    "t": 0,
-   "rs": 123,
-   "ra": 91,
-   "diff": 32,
-   "pct": 0.692,
+   "rs": 137,
+   "ra": 93,
+   "diff": 44,
+   "pct": 0.714,
    "events": 4,
    "log": [
     {
@@ -5875,6 +5895,16 @@
      "rs": 5,
      "ra": 10,
      "result": "L"
+    },
+    {
+     "date": "2026-10-02",
+     "event_id": 13567,
+     "event": "TOP GUN-USA SPORTS--FRIDAY NIGHT LIGHTS",
+     "section": "Gold Bracket",
+     "opponent": "LKN Kingdom",
+     "rs": 14,
+     "ra": 2,
+     "result": "W"
     }
    ],
    "points": 1625,
@@ -5909,8 +5939,9 @@
      "name": "TOP GUN-USA SPORTS--FRIDAY NIGHT LIGHTS",
      "won": 0,
      "lost": 0,
-     "standing": "",
-     "points": 0
+     "standing": "3rd (Gold)",
+     "points": 0,
+     "derived": true
     }
    ],
    "season": "08/01/2026 - 10/02/2026",
@@ -6119,82 +6150,6 @@
    ],
    "season": "08/01/2026 - 10/02/2026",
    "stats_fetched": "2026-10-02T12:36"
-  },
-  {
-   "team": "Flying Pigs 9U",
-   "location": "Clemmons, NC",
-   "page_id": 37431,
-   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=37431",
-   "w": 2,
-   "l": 1,
-   "t": 0,
-   "rs": 21,
-   "ra": 23,
-   "diff": -2,
-   "pct": 0.667,
-   "events": 3,
-   "log": [
-    {
-     "date": "2026-08-28",
-     "event_id": 13552,
-     "event": "TOP GUN-USA SPORTS--FNL--PRE LABOR DAY SPECIAL",
-     "section": "Pool Play",
-     "opponent": "SOX Baseball - Snow",
-     "rs": 8,
-     "ra": 5,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-05",
-     "event_id": 13556,
-     "event": "TOP GUN-USA SPORTS---SATURDAY ONLY",
-     "section": "Pool Play",
-     "opponent": "NC Made 9U Green",
-     "rs": 6,
-     "ra": 13,
-     "result": "L"
-    },
-    {
-     "date": "2026-10-02",
-     "event_id": 13567,
-     "event": "TOP GUN-USA SPORTS--FRIDAY NIGHT LIGHTS",
-     "section": "Pool Play",
-     "opponent": "SOX Baseball - Snow",
-     "rs": 7,
-     "ra": 5,
-     "result": "W"
-    }
-   ],
-   "points": 300,
-   "titles": 0,
-   "finishes": [
-    {
-     "date": "2026-08-28",
-     "name": "TOP GUN-USA SPORTS--FNL--PRE LABOR DAY SPECIAL",
-     "won": 1,
-     "lost": 1,
-     "standing": "5th (Gold)",
-     "points": 300
-    },
-    {
-     "date": "2026-09-05",
-     "name": "TOP GUN-USA SPORTS---SATURDAY ONLY",
-     "won": 0,
-     "lost": 1,
-     "standing": "",
-     "points": 0
-    },
-    {
-     "date": "2026-10-02",
-     "name": "TOP GUN-USA SPORTS--FRIDAY NIGHT LIGHTS",
-     "won": 0,
-     "lost": 0,
-     "standing": "",
-     "points": 0
-    }
-   ],
-   "season": "08/01/2026 - 10/02/2026",
-   "stats_fetched": "2026-10-02T12:37"
   },
   {
    "team": "Mara Bulls",
@@ -6849,6 +6804,92 @@
    "stats_fetched": "2026-10-02T12:38"
   },
   {
+   "team": "NC Made 9U Green",
+   "location": "Mocksville, NC",
+   "page_id": 32802,
+   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=32802",
+   "w": 2,
+   "l": 2,
+   "t": 0,
+   "rs": 41,
+   "ra": 32,
+   "diff": 9,
+   "pct": 0.5,
+   "events": 3,
+   "log": [
+    {
+     "date": "2026-08-28",
+     "event_id": 13552,
+     "event": "TOP GUN-USA SPORTS--FNL--PRE LABOR DAY SPECIAL",
+     "section": "Pool Play",
+     "opponent": "Carolina Trash Pandas",
+     "rs": 4,
+     "ra": 12,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-05",
+     "event_id": 13556,
+     "event": "TOP GUN-USA SPORTS---SATURDAY ONLY",
+     "section": "Pool Play",
+     "opponent": "Flying Pigs 9U",
+     "rs": 13,
+     "ra": 6,
+     "result": "W"
+    },
+    {
+     "date": "2026-10-02",
+     "event_id": 13567,
+     "event": "TOP GUN-USA SPORTS--FRIDAY NIGHT LIGHTS",
+     "section": "Pool Play",
+     "opponent": "DYBA Force 9U",
+     "rs": 8,
+     "ra": 9,
+     "result": "L"
+    },
+    {
+     "date": "2026-10-02",
+     "event_id": 13567,
+     "event": "TOP GUN-USA SPORTS--FRIDAY NIGHT LIGHTS",
+     "section": "Gold Bracket",
+     "opponent": "SOX Baseball - Snow",
+     "rs": 16,
+     "ra": 5,
+     "result": "W"
+    }
+   ],
+   "points": 300,
+   "titles": 0,
+   "finishes": [
+    {
+     "date": "2026-08-28",
+     "name": "TOP GUN-USA SPORTS--FNL--PRE LABOR DAY SPECIAL",
+     "won": 1,
+     "lost": 1,
+     "standing": "6th (Gold)",
+     "points": 300
+    },
+    {
+     "date": "2026-09-05",
+     "name": "TOP GUN-USA SPORTS---SATURDAY ONLY",
+     "won": 1,
+     "lost": 0,
+     "standing": "",
+     "points": 0
+    },
+    {
+     "date": "2026-10-02",
+     "name": "TOP GUN-USA SPORTS--FRIDAY NIGHT LIGHTS",
+     "won": 0,
+     "lost": 0,
+     "standing": "",
+     "points": 0
+    }
+   ],
+   "season": "08/01/2026 - 10/02/2026",
+   "stats_fetched": "2026-10-02T12:33"
+  },
+  {
    "team": "Groundwork Sports",
    "location": "Summerfield, NC",
    "page_id": 33842,
@@ -7066,6 +7107,92 @@
    ],
    "season": "08/01/2026 - 10/02/2026",
    "stats_fetched": "2026-10-02T12:34"
+  },
+  {
+   "team": "Flying Pigs 9U",
+   "location": "Clemmons, NC",
+   "page_id": 37431,
+   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=37431",
+   "w": 2,
+   "l": 2,
+   "t": 0,
+   "rs": 30,
+   "ra": 35,
+   "diff": -5,
+   "pct": 0.5,
+   "events": 3,
+   "log": [
+    {
+     "date": "2026-08-28",
+     "event_id": 13552,
+     "event": "TOP GUN-USA SPORTS--FNL--PRE LABOR DAY SPECIAL",
+     "section": "Pool Play",
+     "opponent": "SOX Baseball - Snow",
+     "rs": 8,
+     "ra": 5,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-05",
+     "event_id": 13556,
+     "event": "TOP GUN-USA SPORTS---SATURDAY ONLY",
+     "section": "Pool Play",
+     "opponent": "NC Made 9U Green",
+     "rs": 6,
+     "ra": 13,
+     "result": "L"
+    },
+    {
+     "date": "2026-10-02",
+     "event_id": 13567,
+     "event": "TOP GUN-USA SPORTS--FRIDAY NIGHT LIGHTS",
+     "section": "Pool Play",
+     "opponent": "SOX Baseball - Snow",
+     "rs": 7,
+     "ra": 5,
+     "result": "W"
+    },
+    {
+     "date": "2026-10-02",
+     "event_id": 13567,
+     "event": "TOP GUN-USA SPORTS--FRIDAY NIGHT LIGHTS",
+     "section": "Gold Bracket",
+     "opponent": "DYBA Force 9U",
+     "rs": 9,
+     "ra": 12,
+     "result": "L"
+    }
+   ],
+   "points": 300,
+   "titles": 0,
+   "finishes": [
+    {
+     "date": "2026-08-28",
+     "name": "TOP GUN-USA SPORTS--FNL--PRE LABOR DAY SPECIAL",
+     "won": 1,
+     "lost": 1,
+     "standing": "5th (Gold)",
+     "points": 300
+    },
+    {
+     "date": "2026-09-05",
+     "name": "TOP GUN-USA SPORTS---SATURDAY ONLY",
+     "won": 0,
+     "lost": 1,
+     "standing": "",
+     "points": 0
+    },
+    {
+     "date": "2026-10-02",
+     "name": "TOP GUN-USA SPORTS--FRIDAY NIGHT LIGHTS",
+     "won": 0,
+     "lost": 0,
+     "standing": "",
+     "points": 0
+    }
+   ],
+   "season": "08/01/2026 - 10/02/2026",
+   "stats_fetched": "2026-10-02T12:37"
   },
   {
    "team": "ROCO Dirtbagz",
@@ -8178,82 +8305,6 @@
    "stats_fetched": "2026-10-02T12:35"
   },
   {
-   "team": "NC Made 9U Green",
-   "location": "Mocksville, NC",
-   "page_id": 32802,
-   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=32802",
-   "w": 1,
-   "l": 2,
-   "t": 0,
-   "rs": 25,
-   "ra": 27,
-   "diff": -2,
-   "pct": 0.333,
-   "events": 3,
-   "log": [
-    {
-     "date": "2026-08-28",
-     "event_id": 13552,
-     "event": "TOP GUN-USA SPORTS--FNL--PRE LABOR DAY SPECIAL",
-     "section": "Pool Play",
-     "opponent": "Carolina Trash Pandas",
-     "rs": 4,
-     "ra": 12,
-     "result": "L"
-    },
-    {
-     "date": "2026-09-05",
-     "event_id": 13556,
-     "event": "TOP GUN-USA SPORTS---SATURDAY ONLY",
-     "section": "Pool Play",
-     "opponent": "Flying Pigs 9U",
-     "rs": 13,
-     "ra": 6,
-     "result": "W"
-    },
-    {
-     "date": "2026-10-02",
-     "event_id": 13567,
-     "event": "TOP GUN-USA SPORTS--FRIDAY NIGHT LIGHTS",
-     "section": "Pool Play",
-     "opponent": "DYBA Force 9U",
-     "rs": 8,
-     "ra": 9,
-     "result": "L"
-    }
-   ],
-   "points": 300,
-   "titles": 0,
-   "finishes": [
-    {
-     "date": "2026-08-28",
-     "name": "TOP GUN-USA SPORTS--FNL--PRE LABOR DAY SPECIAL",
-     "won": 1,
-     "lost": 1,
-     "standing": "6th (Gold)",
-     "points": 300
-    },
-    {
-     "date": "2026-09-05",
-     "name": "TOP GUN-USA SPORTS---SATURDAY ONLY",
-     "won": 1,
-     "lost": 0,
-     "standing": "",
-     "points": 0
-    },
-    {
-     "date": "2026-10-02",
-     "name": "TOP GUN-USA SPORTS--FRIDAY NIGHT LIGHTS",
-     "won": 0,
-     "lost": 0,
-     "standing": "",
-     "points": 0
-    }
-   ],
-   "season": "08/01/2026 - 10/02/2026",
-   "stats_fetched": "2026-10-02T12:33"
-  },
-  {
    "team": "Carolina Crushers 9U-Franklin",
    "location": "Reidsville, NC",
    "page_id": 35506,
@@ -8442,17 +8493,77 @@
    "stats_fetched": "2026-10-02T12:38"
   },
   {
+   "team": "Cage 2 Stage 9u",
+   "location": "Lexington, NC",
+   "page_id": 38988,
+   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=38988",
+   "w": 1,
+   "l": 2,
+   "t": 0,
+   "rs": 10,
+   "ra": 35,
+   "diff": -25,
+   "pct": 0.333,
+   "events": 1,
+   "log": [
+    {
+     "date": "2026-09-12",
+     "event_id": 13559,
+     "event": "BATMAN VS SUPERMAN----RING THEM UP",
+     "section": "Pool Play",
+     "opponent": "NWNC ELITE 9U Gambill",
+     "rs": 1,
+     "ra": 15,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-12",
+     "event_id": 13559,
+     "event": "BATMAN VS SUPERMAN----RING THEM UP",
+     "section": "Pool Play",
+     "opponent": "High Point Hurricanes",
+     "rs": 7,
+     "ra": 4,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-13",
+     "event_id": 13559,
+     "event": "BATMAN VS SUPERMAN----RING THEM UP",
+     "section": "Gold Bracket",
+     "opponent": "Lightning Jacks Riddle",
+     "rs": 2,
+     "ra": 16,
+     "result": "L"
+    }
+   ],
+   "points": 350,
+   "titles": 0,
+   "finishes": [
+    {
+     "date": "2026-09-12",
+     "name": "BATMAN VS SUPERMAN----RING THEM UP",
+     "won": 1,
+     "lost": 2,
+     "standing": "3rd (Gold)",
+     "points": 350
+    }
+   ],
+   "season": "08/01/2026 - 10/02/2026",
+   "stats_fetched": "2026-10-02T12:39"
+  },
+  {
    "team": "SOX Baseball - Snow",
    "location": "Yadkinville, NC",
    "page_id": 37349,
    "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=37349",
    "w": 2,
-   "l": 4,
+   "l": 5,
    "t": 0,
-   "rs": 40,
-   "ra": 58,
-   "diff": -18,
-   "pct": 0.333,
+   "rs": 45,
+   "ra": 74,
+   "diff": -29,
+   "pct": 0.286,
    "events": 3,
    "log": [
     {
@@ -8514,6 +8625,16 @@
      "rs": 5,
      "ra": 7,
      "result": "L"
+    },
+    {
+     "date": "2026-10-02",
+     "event_id": 13567,
+     "event": "TOP GUN-USA SPORTS--FRIDAY NIGHT LIGHTS",
+     "section": "Gold Bracket",
+     "opponent": "NC Made 9U Green",
+     "rs": 5,
+     "ra": 16,
+     "result": "L"
     }
    ],
    "points": 625,
@@ -8546,66 +8667,6 @@
    ],
    "season": "08/01/2026 - 10/02/2026",
    "stats_fetched": "2026-10-02T12:37"
-  },
-  {
-   "team": "Cage 2 Stage 9u",
-   "location": "Lexington, NC",
-   "page_id": 38988,
-   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=38988",
-   "w": 1,
-   "l": 2,
-   "t": 0,
-   "rs": 10,
-   "ra": 35,
-   "diff": -25,
-   "pct": 0.333,
-   "events": 1,
-   "log": [
-    {
-     "date": "2026-09-12",
-     "event_id": 13559,
-     "event": "BATMAN VS SUPERMAN----RING THEM UP",
-     "section": "Pool Play",
-     "opponent": "NWNC ELITE 9U Gambill",
-     "rs": 1,
-     "ra": 15,
-     "result": "L"
-    },
-    {
-     "date": "2026-09-12",
-     "event_id": 13559,
-     "event": "BATMAN VS SUPERMAN----RING THEM UP",
-     "section": "Pool Play",
-     "opponent": "High Point Hurricanes",
-     "rs": 7,
-     "ra": 4,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-13",
-     "event_id": 13559,
-     "event": "BATMAN VS SUPERMAN----RING THEM UP",
-     "section": "Gold Bracket",
-     "opponent": "Lightning Jacks Riddle",
-     "rs": 2,
-     "ra": 16,
-     "result": "L"
-    }
-   ],
-   "points": 350,
-   "titles": 0,
-   "finishes": [
-    {
-     "date": "2026-09-12",
-     "name": "BATMAN VS SUPERMAN----RING THEM UP",
-     "won": 1,
-     "lost": 2,
-     "standing": "3rd (Gold)",
-     "points": 350
-    }
-   ],
-   "season": "08/01/2026 - 10/02/2026",
-   "stats_fetched": "2026-10-02T12:39"
   },
   {
    "team": "Union County Legends",
@@ -8891,12 +8952,12 @@
    "page_id": null,
    "url": null,
    "w": 1,
-   "l": 4,
+   "l": 5,
    "t": 0,
-   "rs": 22,
-   "ra": 69,
-   "diff": -47,
-   "pct": 0.2,
+   "rs": 28,
+   "ra": 81,
+   "diff": -53,
+   "pct": 0.167,
    "events": 2,
    "log": [
     {
@@ -8948,6 +9009,16 @@
      "rs": 12,
      "ra": 4,
      "result": "W"
+    },
+    {
+     "date": "2026-10-02",
+     "event_id": 13567,
+     "event": "TOP GUN-USA SPORTS--FRIDAY NIGHT LIGHTS",
+     "section": "Gold Bracket",
+     "opponent": "M&M Baseball 9u",
+     "rs": 6,
+     "ra": 12,
+     "result": "L"
     }
    ],
    "points": 0,
@@ -9090,12 +9161,12 @@
    "page_id": 37240,
    "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=37240",
    "w": 0,
-   "l": 8,
+   "l": 9,
    "t": 1,
-   "rs": 43,
-   "ra": 104,
-   "diff": -61,
-   "pct": 0.056,
+   "rs": 45,
+   "ra": 118,
+   "diff": -73,
+   "pct": 0.05,
    "events": 4,
    "log": [
     {
@@ -9187,6 +9258,16 @@
      "rs": 4,
      "ra": 12,
      "result": "L"
+    },
+    {
+     "date": "2026-10-02",
+     "event_id": 13567,
+     "event": "TOP GUN-USA SPORTS--FRIDAY NIGHT LIGHTS",
+     "section": "Gold Bracket",
+     "opponent": "Dirtbags Baseball ESB",
+     "rs": 2,
+     "ra": 14,
+     "result": "L"
     }
    ],
    "points": 1025,
@@ -9221,8 +9302,9 @@
      "name": "TOP GUN-USA SPORTS--FRIDAY NIGHT LIGHTS",
      "won": 0,
      "lost": 0,
-     "standing": "",
-     "points": 0
+     "standing": "4th (Gold)",
+     "points": 0,
+     "derived": true
     }
    ],
    "season": "08/01/2026 - 10/02/2026",
@@ -15137,6 +15219,6 @@
  "season": "08/01/2026 - 10/02/2026",
  "stats_fetched": "2026-10-02T12:32",
  "division": "9U",
- "today": "2026-10-02",
+ "today": "2026-10-03",
  "season_label": "Fall 2026"
 }
