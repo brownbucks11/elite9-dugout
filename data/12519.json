@@ -1213,7 +1213,7 @@
           "seed": 2,
           "team": "North Lincoln 33",
           "location": "Denver, NC",
-          "won": 0,
+          "won": 1,
           "lost": 1,
           "runs_allowed": 6,
           "runs_scored": 4,
@@ -1244,7 +1244,7 @@
           "team": "Couloak Diesel",
           "location": "Charlotte, NC",
           "won": 1,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 16,
           "runs_scored": 18,
           "team_page_id": null
@@ -1503,10 +1503,10 @@
             "field": "Tega Cay:Field 2",
             "team_a": "Couloak Diesel",
             "seed_a": 6,
-            "score_a": null,
+            "score_a": 5,
             "team_b": "North Lincoln 33",
             "seed_b": 7,
-            "score_b": null
+            "score_b": 11
           },
           {
             "game": 2,
@@ -1525,7 +1525,7 @@
             "day": "Sun",
             "time": "3:30 PM",
             "field": "Tega Cay:Field 2",
-            "team_a": "Loser Game #1",
+            "team_a": "Loser Game #1 Couloak Diesel",
             "seed_a": null,
             "score_a": null,
             "team_b": "Loser Game #2 KLSC Tomahawks",
@@ -1537,7 +1537,7 @@
             "day": "Sun",
             "time": "3:30 PM",
             "field": "Tega Cay:Field 3",
-            "team_a": "Winner Game #1",
+            "team_a": "Winner Game #1 North Lincoln 33",
             "seed_a": null,
             "score_a": null,
             "team_b": "Winner Game #2 Carolina Hit Stix",
@@ -2378,5 +2378,5 @@
   },
   "site_last_updated": "10/04/2026 7:20 AM",
   "tournament_id": 12519,
-  "fetched_at": "2026-10-04T15:16"
+  "fetched_at": "2026-10-04T15:51"
 }
