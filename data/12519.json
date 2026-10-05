@@ -219,18 +219,6 @@
             "team_b": "Winner Game #2 Mill Town 8u Blue Powered by Trosky",
             "seed_b": null,
             "score_b": 14
-          },
-          {
-            "game": 6,
-            "day": "Sun",
-            "time": "3:15 PM",
-            "field": "Westmoreld:Field 4",
-            "team_a": "Winner Game #4",
-            "seed_a": null,
-            "score_a": null,
-            "team_b": "Loser Game #3 (If Needed)",
-            "seed_b": null,
-            "score_b": null
           }
         ]
       }
@@ -359,18 +347,6 @@
           },
           {
             "game": 3,
-            "day": "Sun",
-            "time": "3:00 PM",
-            "field": "Westmoreld:Field 2",
-            "team_a": "Loser Game #1 Carolina Royals 9Ublu",
-            "seed_a": null,
-            "score_a": null,
-            "team_b": "Loser Game #2 LumberJacks",
-            "seed_b": null,
-            "score_b": null
-          },
-          {
-            "game": 4,
             "day": "Sun",
             "time": "1:00 PM",
             "field": "Westmoreld:Field 2",
@@ -782,18 +758,6 @@
           },
           {
             "game": 3,
-            "day": "Sun",
-            "time": "3:00 PM",
-            "field": "Westmoreld:Field 1",
-            "team_a": "Loser Game #1 Aces",
-            "seed_a": null,
-            "score_a": null,
-            "team_b": "Loser Game #2 Elite9 10u",
-            "seed_b": null,
-            "score_b": null
-          },
-          {
-            "game": 4,
             "day": "Sun",
             "time": "1:00 PM",
             "field": "Westmoreld:Field 1",
@@ -1524,18 +1488,6 @@
             "game": 3,
             "day": "Sun",
             "time": "3:30 PM",
-            "field": "Tega Cay:Field 2",
-            "team_a": "Loser Game #1 Couloak Diesel",
-            "seed_a": null,
-            "score_a": null,
-            "team_b": "Loser Game #2 KLSC Tomahawks",
-            "seed_b": null,
-            "score_b": null
-          },
-          {
-            "game": 4,
-            "day": "Sun",
-            "time": "3:30 PM",
             "field": "Tega Cay:Field 3",
             "team_a": "Winner Game #1 North Lincoln 33",
             "seed_a": null,
@@ -1698,18 +1650,6 @@
           {
             "game": 3,
             "day": "Sun",
-            "time": "3:30 PM",
-            "field": "Tega Cay:Field 4",
-            "team_a": "Loser Game #1 Elite9 Knights",
-            "seed_a": null,
-            "score_a": null,
-            "team_b": "Loser Game #2 SC Tide - Daly",
-            "seed_b": null,
-            "score_b": null
-          },
-          {
-            "game": 4,
-            "day": "Sun",
             "time": "1:30 PM",
             "field": "Tega Cay:Field 4",
             "team_a": "Winner Game #1 Athletes lab Reynolds",
@@ -1742,7 +1682,7 @@
           "team": "Harrisburg Horns",
           "location": "Harrisburg, NC",
           "won": 0,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 11,
           "runs_scored": 3,
           "team_page_id": null
@@ -1771,7 +1711,7 @@
           "seed": 5,
           "team": "Concord Athletics 14U - Ratliff",
           "location": "Concord, NC",
-          "won": 1,
+          "won": 2,
           "lost": 2,
           "runs_allowed": 19,
           "runs_scored": 6,
@@ -2047,10 +1987,10 @@
             "field": "BFF:Field 1",
             "team_a": "Harrisburg Horns",
             "seed_a": 8,
-            "score_a": null,
-            "team_b": "Winner of Game #1",
+            "score_a": 5,
+            "team_b": "Winner of Game #1 Concord Athletics 14U - Ratliff",
             "seed_b": null,
-            "score_b": null
+            "score_b": 10
           }
         ]
       }
@@ -2214,18 +2154,6 @@
           {
             "game": 4,
             "day": "Sun",
-            "time": "5:00 PM",
-            "field": "Tuckasee:Tuckaseegee 1",
-            "team_a": "Loser Game #1 Carolina Blue Bloods",
-            "seed_a": null,
-            "score_a": null,
-            "team_b": "Loser Game #2 The Sandlot 14u",
-            "seed_b": null,
-            "score_b": null
-          },
-          {
-            "game": 5,
-            "day": "Sun",
             "time": "3:00 PM",
             "field": "Tuckasee:Tuckaseegee 1",
             "team_a": "Winner Game #3 North Lincoln Destroyers",
@@ -2378,5 +2306,5 @@
   },
   "site_last_updated": "10/04/2026 7:20 AM",
   "tournament_id": 12519,
-  "fetched_at": "2026-10-04T21:40"
+  "fetched_at": "2026-10-04T22:38"
 }
