@@ -1751,7 +1751,7 @@
           "seed": 3,
           "team": "Vipers Baseball",
           "location": "Lexington, NC",
-          "won": 3,
+          "won": 4,
           "lost": 0,
           "runs_allowed": 4,
           "runs_scored": 8,
@@ -1812,7 +1812,7 @@
           "team": "Carolina Wolfpack - Red",
           "location": "Lexington, NC",
           "won": 3,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 5,
           "runs_scored": 22,
           "team_page_id": null
@@ -1983,10 +1983,10 @@
             "field": "BFF:Field 1",
             "team_a": "Winner Game #1 Vipers Baseball",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 7,
             "team_b": "Winner Game #2 Carolina Wolfpack - Red",
             "seed_b": null,
-            "score_b": null
+            "score_b": 4
           }
         ],
         "Silver Bracket": [
@@ -2035,10 +2035,10 @@
             "field": "BFF:Field 1",
             "team_a": "14U Team Steele Creek Select",
             "seed_a": 9,
-            "score_a": null,
+            "score_a": 0,
             "team_b": "Concord Athletics 14U - Ratliff",
             "seed_b": 10,
-            "score_b": null
+            "score_b": 8
           },
           {
             "game": 2,
@@ -2378,5 +2378,5 @@
   },
   "site_last_updated": "10/04/2026 7:20 AM",
   "tournament_id": 12519,
-  "fetched_at": "2026-10-04T18:49"
+  "fetched_at": "2026-10-04T21:20"
 }
