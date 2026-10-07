@@ -1,5 +1,5 @@
 # Elite 9 - Top Gun schedule
-_Updated Tue Oct 06, 2026 09:52 PM_
+_Updated Wed Oct 07, 2026 01:41 PM_
 
 ## SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND
 September 26 - 27 in Greater Charlotte Area, NC  
@@ -85,13 +85,7 @@ Tournament 12518 - [schedule page](https://playtopgunsports.com/GameTimesResults
 | 3 | Sun 1:00 PM | SP:Field #3 | (#17) Carolina Forge 9U 7 | (#18) SC Tide - Lucariello 9 |
 
 ## DOUBLE POINTS PINK ZONE QUALIFIER---ACTIVATE WINTER FREE PAID BERTHS
-October 3 - 4 in Greater Charlotte Area, NC  
-Tournament 12519 - [schedule page](https://playtopgunsports.com/GameTimesResults.aspx?trnid=12519)
-
-_Elite 9 not listed yet. Divisions posted: 8U CP, 9U, 10U, 11U, 12U, 13U 90, 14U, 15U, 17U_
-
-## DOUBLE POINTS PINK ZONE QUALIFIER---ACTIVATE WINTER FREE PAID BERTHS
-October 10 - 11 in Greater Charlotte Area, NC  
+October 10 in Greater Charlotte Area, NC  
 Tournament 12520 - [schedule page](https://playtopgunsports.com/GameTimesResults.aspx?trnid=12520)
 
 _Elite 9 not listed yet. Divisions posted: none posted yet_
