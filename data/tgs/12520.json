@@ -7,9 +7,9 @@
  "GameGuarantee": 2,
  "TotalConfirmed": 78,
  "ShowGamesScheduled": false,
- "ShowWeatherMessage": false,
- "WeatherMessage": "",
- "WeatherMessageDateTime": null,
+ "ShowWeatherMessage": true,
+ "WeatherMessage": "<div style=\"text-align: center;\"><div style=\"text-align: center;\"><span style=\"text-align: left; background-color: #ffff00;\"><font size=\"4\"><b>Attention due to upcoming weather forecast with Hurricane Isaias\u00a0 remnants coming thru late Saturday night thru Sunday with heavy rain forecast possible isolated tornadoes on Sunday.</b></font></span></div><div style=\"text-align: center;\"><font size=\"4\" style=\"background-color: #ffff00;\"><b>We are going to run a 1 day Saturday only tournament.</b></font></div><div style=\"text-align: center;\"><font size=\"4\" style=\"background-color: #ffff00;\"><b>We will be running a 1 day Saturday only this weekend!</b></font></div></div>",
+ "WeatherMessageDateTime": "2026-10-07T13:44:00.000Z",
  "ShowGeneralMessage": false,
  "GeneralMessage": "",
  "GeneralMessageDateTime": null,
@@ -19,5 +19,5 @@
  "CellPhone": "828-302-2433",
  "Email": "don.mason81@gmail.com",
  "ShowGameTimesResults": false,
- "fetched_at": "2026-10-07T13:41"
+ "fetched_at": "2026-10-07T17:39"
 }
