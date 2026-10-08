@@ -1,5 +1,5 @@
 # Elite 9 - Top Gun schedule
-_Updated Wed Oct 07, 2026 10:19 PM_
+_Updated Thu Oct 08, 2026 07:10 AM_
 
 ## SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND
 September 26 - 27 in Greater Charlotte Area, NC  
