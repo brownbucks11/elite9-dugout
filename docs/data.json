@@ -3,7 +3,7 @@
  "location": "Rock Hill, SC",
  "page_id": 31407,
  "team_url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=31407",
- "built": "Thu Oct 08, 2026 02:59 PM",
+ "built": "Thu Oct 08, 2026 05:36 PM",
  "record": {
   "w": 2,
   "l": 7,
@@ -4246,19 +4246,24 @@
    "confirmed": false,
    "summary": null,
    "entries": {
-    "count": 9,
+    "count": 10,
     "confirmed": 0,
     "waitlist": 0,
-    "total": 54,
+    "total": 64,
     "team": {
-     "entered": false
+     "entered": true,
+     "division": "9U",
+     "confirmed": false,
+     "waitlist": false,
+     "entered_at": "2026-10-08T16:26:44.913Z",
+     "level": "AA"
     },
-    "fetched_at": "2026-10-08T14:58"
+    "fetched_at": "2026-10-08T17:35"
    },
    "tgs": {
     "weather": null,
     "general": null,
-    "teams_registered": 54,
+    "teams_registered": 64,
     "games_scheduled": false,
     "complexes": [
      {
@@ -4331,7 +4336,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-08T14:58",
+    "fetched_at": "2026-10-08T17:35",
     "url": "https://topgunstats.com/whos-playing/12521"
    },
    "name": "Triple points Super Regional",
@@ -4368,7 +4373,7 @@
      "entered_at": "2026-06-08T12:01:08.307Z",
      "level": "AA"
     },
-    "fetched_at": "2026-10-08T14:58"
+    "fetched_at": "2026-10-08T17:35"
    },
    "tgs": {
     "weather": null,
@@ -4450,7 +4455,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-08T14:58",
+    "fetched_at": "2026-10-08T17:35",
     "url": "https://topgunstats.com/whos-playing/12522"
    },
    "name": "Southeastern Winter World Series",
@@ -4482,7 +4487,7 @@
     "team": {
      "entered": false
     },
-    "fetched_at": "2026-10-08T14:58"
+    "fetched_at": "2026-10-08T17:35"
    },
    "tgs": {
     "weather": null,
@@ -4535,7 +4540,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-08T14:58",
+    "fetched_at": "2026-10-08T17:35",
     "url": "https://topgunstats.com/whos-playing/12524"
    },
    "name": "Road Runner vs Coyote ring weekend",

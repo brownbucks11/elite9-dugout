@@ -4,12 +4,12 @@
  "hidden": true,
  "divisions": {
   "8U CP": {
-   "count": 3,
+   "count": 5,
    "confirmed": 0,
    "waitlist": 0
   },
   "9U": {
-   "count": 9,
+   "count": 10,
    "confirmed": 0,
    "waitlist": 0
   },
@@ -34,7 +34,7 @@
    "waitlist": 0
   },
   "13U 90": {
-   "count": 4,
+   "count": 6,
    "confirmed": 0,
    "waitlist": 0
   },
@@ -44,7 +44,7 @@
    "waitlist": 0
   },
   "15U": {
-   "count": 2,
+   "count": 4,
    "confirmed": 0,
    "waitlist": 0
   },
@@ -54,7 +54,7 @@
    "waitlist": 0
   },
   "17U": {
-   "count": 0,
+   "count": 3,
    "confirmed": 0,
    "waitlist": 0
   },
@@ -65,7 +65,12 @@
   }
  },
  "team": {
-  "entered": false
+  "entered": true,
+  "division": "9U",
+  "confirmed": false,
+  "waitlist": false,
+  "entered_at": "2026-10-08T16:26:44.913Z",
+  "level": "AA"
  },
- "fetched_at": "2026-10-08T14:58"
+ "fetched_at": "2026-10-08T17:35"
 }
