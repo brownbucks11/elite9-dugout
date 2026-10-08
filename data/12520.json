@@ -4,13 +4,1828 @@
   "dates": "October 10 in Greater Charlotte Area, NC",
   "url": "https://playtopgunsports.com/GameTimesResults.aspx?trnid=12520",
   "complexes": {
+    "BFF": {
+      "name": "Buck Fraley Field",
+      "address": "210 North Pink Street Cherryville, NC 28021"
+    },
+    "CA": {
+      "name": "Combine Academy",
+      "address": "270 Car Farm Rd. Lincolnton, NC 28092"
+    },
+    "Ferguson": {
+      "name": "Ferguson Park",
+      "address": "1401 Golf Course Drive Gastonia, NC 28054"
+    },
     "Charlotte": {
       "name": "Greater Charlotte Area",
       "address": "TBA Greater Charlotte Area, NC 28262"
+    },
+    "Core": {
+      "name": "Hinson-Core Athletics Field",
+      "address": "2300 Eva Drive Concord, NC 28027"
+    },
+    "M. Rivers": {
+      "name": "Martha Rivers Park",
+      "address": "1515 Neal Hawkins Rd Gastonia, NC 28054"
+    },
+    "Mazeppa": {
+      "name": "Mazeppa Road Park",
+      "address": "645 Mazeppa Rd. Mooresville, NC 28115"
+    },
+    "Moss": {
+      "name": "Moss Field",
+      "address": "604 N. Pink Street Cherryville, NC 28021"
+    },
+    "TOB": {
+      "name": "Tommy Oehler Ballfield",
+      "address": "11400 Mallard Creek Rd Charlotte, NC 28262"
+    },
+    "Tuckasee": {
+      "name": "Tuckaseegee Dream Fields",
+      "address": "7531 Tuckaseegee Road Charlotte, NC 28214"
+    },
+    "Westmoreld": {
+      "name": "Westmoreland Park",
+      "address": "8430 Westmoreland Rd. Cornelius, NC 28031"
     }
   },
-  "divisions": {},
-  "site_last_updated": "10/07/2026 1:44 PM",
+  "divisions": {
+    "8U CP": {
+      "notes": [],
+      "standings": [
+        {
+          "seed": 1,
+          "team": "Carolina Rapid Fire 7u '38",
+          "location": "Denver, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 2,
+          "team": "Tega Cay Titans 8u",
+          "location": "Fort Mill, SC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 3,
+          "team": "Fury Baseball 8u",
+          "location": "Forest City, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 4,
+          "team": "Carolina Smoke 8u",
+          "location": "Concord, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 5,
+          "team": "Athletes Lab 8U Navy",
+          "location": "Maiden, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        }
+      ],
+      "sections": {
+        "Pool Play": [
+          {
+            "game": 1,
+            "day": "Sat",
+            "time": "9:00 AM",
+            "field": "M. Rivers:Martha Rivers 4",
+            "team_a": "Fury Baseball 8u",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Tega Cay Titans 8u",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 2,
+            "day": "Sat",
+            "time": "10:15 AM",
+            "field": "M. Rivers:Martha Rivers 4",
+            "team_a": "Fury Baseball 8u",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Athletes Lab 8U Navy",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 3,
+            "day": "Sat",
+            "time": "11:30 AM",
+            "field": "M. Rivers:Martha Rivers 4",
+            "team_a": "Tega Cay Titans 8u",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Carolina Smoke 8u",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 4,
+            "day": "Sat",
+            "time": "12:45 PM",
+            "field": "M. Rivers:Martha Rivers 4",
+            "team_a": "Athletes Lab 8U Navy",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Carolina Rapid Fire 7u '38",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 5,
+            "day": "Sat",
+            "time": "2:00 PM",
+            "field": "M. Rivers:Martha Rivers 4",
+            "team_a": "Carolina Smoke 8u",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Carolina Rapid Fire 7u '38",
+            "seed_b": null,
+            "score_b": null
+          }
+        ],
+        "Gold Bracket": [
+          {
+            "game": 1,
+            "day": "Sat",
+            "time": "3:15 PM",
+            "field": "M. Rivers:Martha Rivers 4",
+            "team_a": "",
+            "seed_a": 1,
+            "score_a": null,
+            "team_b": "",
+            "seed_b": 2,
+            "score_b": null
+          }
+        ]
+      }
+    },
+    "9U": {
+      "notes": [],
+      "standings": [
+        {
+          "seed": 1,
+          "team": "Lake Wylie Venom",
+          "location": "Lake Wylie, SC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 2,
+          "team": "Athletes Lab 9U Navy- Stewart",
+          "location": "Maiden, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 3,
+          "team": "Concord Athletics -9U",
+          "location": "Concord, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 4,
+          "team": "Carolina Forge 9U",
+          "location": "Gastonia, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 5,
+          "team": "Weddington Wreckers",
+          "location": "Weddington, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 6,
+          "team": "Pineville Blue Sox - 9U",
+          "location": "Charlotte, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 1,
+          "team": "Union County Aces 9u",
+          "location": "Monroe, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 2,
+          "team": "Waxhaw Militia 9U",
+          "location": "Waxhaw, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 3,
+          "team": "Mill Town 9u White Powered By Trosky",
+          "location": "Fort Mill, SC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        }
+      ],
+      "sections": {
+        "Pool Play": [
+          {
+            "game": 1,
+            "day": "Sat",
+            "time": "12:30 PM",
+            "field": "Tuckasee:Tuckaseegee 2",
+            "team_a": "Union County Aces 9u",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Waxhaw Militia 9U",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 2,
+            "day": "Sat",
+            "time": "2:15 PM",
+            "field": "Tuckasee:Tuckaseegee 2",
+            "team_a": "Union County Aces 9u",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Mill Town 9u White Powered By Trosky",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 3,
+            "day": "Sat",
+            "time": "4:00 PM",
+            "field": "Tuckasee:Tuckaseegee 2",
+            "team_a": "Waxhaw Militia 9U",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Mill Town 9u White Powered By Trosky",
+            "seed_b": null,
+            "score_b": null
+          }
+        ],
+        "Gold Bracket": [
+          {
+            "game": 1,
+            "day": "Sat",
+            "time": "5:45 PM",
+            "field": "Tuckasee:Tuckaseegee 2",
+            "team_a": "",
+            "seed_a": 1,
+            "score_a": null,
+            "team_b": "",
+            "seed_b": 2,
+            "score_b": null
+          }
+        ],
+        "Silver Bracket": [
+          {
+            "game": 1,
+            "day": "Sat",
+            "time": "5:45 PM",
+            "field": "Tuckasee:Tuckaseegee 3",
+            "team_a": "",
+            "seed_a": 3,
+            "score_a": null,
+            "team_b": "",
+            "seed_b": 4,
+            "score_b": null
+          }
+        ]
+      }
+    },
+    "10U": {
+      "notes": [],
+      "standings": [
+        {
+          "seed": 1,
+          "team": "Copperheads Black",
+          "location": "Mooresville, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 2,
+          "team": "FS Bulldogs 10u (Reece)",
+          "location": "Mt Ulla, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 3,
+          "team": "MP Bombers 10U",
+          "location": "Mount Pleasant, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 4,
+          "team": "Pineville Blue Sox",
+          "location": "Pineville, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 5,
+          "team": "SBA Lake Norman Thunder - White",
+          "location": "Cornelius, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 6,
+          "team": "SBA Lake Norman Thunder - Blue",
+          "location": "Cornelius, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 7,
+          "team": "Charlotte Colts Janney",
+          "location": "Charlotte, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 8,
+          "team": "Red Clay Athletics 10U Latimer",
+          "location": "Huntersville, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 9,
+          "team": "Carolina Locos- 10U Black",
+          "location": "Waxhaw, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 10,
+          "team": "LKN Bolts",
+          "location": "Huntersville, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 1,
+          "team": "Mill Town 9u Trosky",
+          "location": "Fort Mill, SC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 2,
+          "team": "ELITE BASEBALL EBC 10U",
+          "location": "FOREST CITY, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 3,
+          "team": "Lincoln County Warriors",
+          "location": "Lincolnton, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 4,
+          "team": "Yellow Jackets",
+          "location": "Bessemer City, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 5,
+          "team": "Carolina Forge 10U",
+          "location": "Gastonia, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 6,
+          "team": "Shelby Storm 10u",
+          "location": "Shelby, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 7,
+          "team": "Rutherford Baseball Academy Team Davis",
+          "location": "Rutherfordton, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        }
+      ],
+      "sections": {
+        "Pool Play": [
+          {
+            "game": 1,
+            "day": "Sat",
+            "time": "9:00 AM",
+            "field": "Ferguson:Field # 4",
+            "team_a": "ELITE BASEBALL EBC 10U",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Carolina Forge 10U",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 2,
+            "day": "Sat",
+            "time": "10:45 AM",
+            "field": "Ferguson:Field # 3",
+            "team_a": "Yellow Jackets",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Lincoln County Warriors",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 3,
+            "day": "Sat",
+            "time": "10:45 AM",
+            "field": "Ferguson:Field # 4",
+            "team_a": "ELITE BASEBALL EBC 10U",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Mill Town 9u Trosky",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 4,
+            "day": "Sat",
+            "time": "12:30 PM",
+            "field": "Ferguson:Field # 3",
+            "team_a": "Lincoln County Warriors",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Rutherford Baseball Academy Team Davis",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 5,
+            "day": "Sat",
+            "time": "12:30 PM",
+            "field": "Ferguson:Field # 4",
+            "team_a": "Carolina Forge 10U",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Shelby Storm 10u",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 6,
+            "day": "Sat",
+            "time": "2:15 PM",
+            "field": "Ferguson:Field # 3",
+            "team_a": "Yellow Jackets",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Rutherford Baseball Academy Team Davis",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 7,
+            "day": "Sat",
+            "time": "2:15 PM",
+            "field": "Ferguson:Field # 4",
+            "team_a": "Mill Town 9u Trosky",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Shelby Storm 10u",
+            "seed_b": null,
+            "score_b": null
+          }
+        ],
+        "Gold Bracket": [
+          {
+            "game": 1,
+            "day": "Sat",
+            "time": "4:00 PM",
+            "field": "Ferguson:Field # 4",
+            "team_a": "",
+            "seed_a": 1,
+            "score_a": null,
+            "team_b": "",
+            "seed_b": 2,
+            "score_b": null
+          }
+        ],
+        "Silver Bracket": [
+          {
+            "game": 1,
+            "day": "Sat",
+            "time": "4:00 PM",
+            "field": "Ferguson:Field # 3",
+            "team_a": "",
+            "seed_a": 3,
+            "score_a": null,
+            "team_b": "",
+            "seed_b": 4,
+            "score_b": null
+          }
+        ]
+      }
+    },
+    "11U": {
+      "notes": [],
+      "standings": [
+        {
+          "seed": 1,
+          "team": "Tega Cay Titans",
+          "location": "Tega Cay, SC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 2,
+          "team": "Weddington Warriors",
+          "location": "Weddington, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 3,
+          "team": "Fury Baseball",
+          "location": "Forest City, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 4,
+          "team": "LKN Bolts",
+          "location": "Huntersville, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 5,
+          "team": "Mill Town 11u Trosky",
+          "location": "Fort Mill, SC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 6,
+          "team": "Pro-Fit Spartans (Benton)",
+          "location": "Oakboro, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 7,
+          "team": "11u On Deck O's",
+          "location": "Charlotte, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 8,
+          "team": "Carolina Forge 11U",
+          "location": "Gastonia, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 9,
+          "team": "South Charlotte Revolution 11U",
+          "location": "Charlotte, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 10,
+          "team": "Banana Peppers Baseball 11u",
+          "location": "Gastonia, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        }
+      ],
+      "sections": {
+        "Pool Play": [
+          {
+            "game": 1,
+            "day": "Sat",
+            "time": "9:00 AM",
+            "field": "Mazeppa:Field # 1",
+            "team_a": "11u On Deck O's",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Banana Peppers Baseball 11u",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 2,
+            "day": "Sat",
+            "time": "9:00 AM",
+            "field": "Mazeppa:Field # 2",
+            "team_a": "Pro-Fit Spartans (Benton)",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "LKN Bolts",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 3,
+            "day": "Sat",
+            "time": "10:45 AM",
+            "field": "Mazeppa:Field # 1",
+            "team_a": "11u On Deck O's",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Carolina Forge 11U",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 4,
+            "day": "Sat",
+            "time": "10:45 AM",
+            "field": "Mazeppa:Field # 2",
+            "team_a": "Pro-Fit Spartans (Benton)",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Tega Cay Titans",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 5,
+            "day": "Sat",
+            "time": "12:30 PM",
+            "field": "Mazeppa:Field # 1",
+            "team_a": "Banana Peppers Baseball 11u",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Mill Town 11u Trosky",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 6,
+            "day": "Sat",
+            "time": "12:30 PM",
+            "field": "Mazeppa:Field # 2",
+            "team_a": "Fury Baseball",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "LKN Bolts",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 7,
+            "day": "Sat",
+            "time": "2:15 PM",
+            "field": "Mazeppa:Field # 1",
+            "team_a": "Weddington Warriors",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Carolina Forge 11U",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 8,
+            "day": "Sat",
+            "time": "2:15 PM",
+            "field": "Mazeppa:Field # 2",
+            "team_a": "South Charlotte Revolution 11U",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Tega Cay Titans",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 9,
+            "day": "Sat",
+            "time": "4:00 PM",
+            "field": "Mazeppa:Field # 1",
+            "team_a": "Weddington Warriors",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Mill Town 11u Trosky",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 10,
+            "day": "Sat",
+            "time": "4:00 PM",
+            "field": "Mazeppa:Field # 2",
+            "team_a": "South Charlotte Revolution 11U",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Fury Baseball",
+            "seed_b": null,
+            "score_b": null
+          }
+        ],
+        "Gold Bracket": [
+          {
+            "game": 1,
+            "day": "Sat",
+            "time": "5:45 PM",
+            "field": "Mazeppa:Field # 2",
+            "team_a": "",
+            "seed_a": 1,
+            "score_a": null,
+            "team_b": "",
+            "seed_b": 2,
+            "score_b": null
+          }
+        ],
+        "Silver Bracket": [
+          {
+            "game": 1,
+            "day": "Sat",
+            "time": "5:45 PM",
+            "field": "Mazeppa:Field # 1",
+            "team_a": "",
+            "seed_a": 3,
+            "score_a": null,
+            "team_b": "",
+            "seed_b": 4,
+            "score_b": null
+          }
+        ]
+      }
+    },
+    "12U": {
+      "notes": [],
+      "standings": [
+        {
+          "seed": 1,
+          "team": "Carolina Misfits",
+          "location": "Tega Cay, SC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 2,
+          "team": "The Battery Training Academy LLC.",
+          "location": "Gastonia, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 3,
+          "team": "Cleveland County Warriors",
+          "location": "Shelby, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 1,
+          "team": "Carolina Locos-Black",
+          "location": "Waxhaw, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 2,
+          "team": "BS BULLDOGS BlACK 12u",
+          "location": "BOILING SPRINGS, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 3,
+          "team": "KLSC Tomahawks",
+          "location": "Belmont, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 4,
+          "team": "Waxhaw Militia",
+          "location": "Waxhaw, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 5,
+          "team": "Carolina Reign Baseball 12U",
+          "location": "Lincolnton, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 6,
+          "team": "South Charlotte Revolution - Keller",
+          "location": "Charlotte, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        }
+      ],
+      "sections": {
+        "Pool Play": [
+          {
+            "game": 1,
+            "day": "Sat",
+            "time": "9:00 AM",
+            "field": "M. Rivers:Martha Rivers 1",
+            "team_a": "South Charlotte Revolution - Keller",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Waxhaw Militia",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 2,
+            "day": "Sat",
+            "time": "9:00 AM",
+            "field": "M. Rivers:Martha Rivers 2",
+            "team_a": "BS BULLDOGS BlACK 12u",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "KLSC Tomahawks",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 3,
+            "day": "Sat",
+            "time": "10:45 AM",
+            "field": "M. Rivers:Martha Rivers 1",
+            "team_a": "South Charlotte Revolution - Keller",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Carolina Reign Baseball 12U",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 4,
+            "day": "Sat",
+            "time": "10:45 AM",
+            "field": "M. Rivers:Martha Rivers 2",
+            "team_a": "BS BULLDOGS BlACK 12u",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Carolina Locos-Black",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 5,
+            "day": "Sat",
+            "time": "12:30 PM",
+            "field": "M. Rivers:Martha Rivers 1",
+            "team_a": "Waxhaw Militia",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Carolina Reign Baseball 12U",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 6,
+            "day": "Sat",
+            "time": "12:30 PM",
+            "field": "M. Rivers:Martha Rivers 2",
+            "team_a": "KLSC Tomahawks",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Carolina Locos-Black",
+            "seed_b": null,
+            "score_b": null
+          }
+        ],
+        "Gold Bracket": [
+          {
+            "game": 1,
+            "day": "Sat",
+            "time": "2:15 PM",
+            "field": "M. Rivers:Martha Rivers 1",
+            "team_a": "",
+            "seed_a": 1,
+            "score_a": null,
+            "team_b": "",
+            "seed_b": 2,
+            "score_b": null
+          }
+        ],
+        "Silver Bracket": [
+          {
+            "game": 1,
+            "day": "Sat",
+            "time": "4:00 PM",
+            "field": "M. Rivers:Martha Rivers 1",
+            "team_a": "",
+            "seed_a": 3,
+            "score_a": null,
+            "team_b": "",
+            "seed_b": 4,
+            "score_b": null
+          }
+        ]
+      }
+    },
+    "13U 90": {
+      "notes": [],
+      "standings": [
+        {
+          "seed": 1,
+          "team": "Lone Star Hippos",
+          "location": "Gastonia, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 2,
+          "team": "Armor Elite",
+          "location": "Denver, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 3,
+          "team": "RBA HEELS",
+          "location": "Rutherfordton, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 4,
+          "team": "East Rowan 13U Earnhardt",
+          "location": "Rockwell, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        }
+      ],
+      "sections": {
+        "Pool Play": [
+          {
+            "game": 1,
+            "day": "Sat",
+            "time": "9:00 AM",
+            "field": "CA:Field #1",
+            "team_a": "East Rowan 13U Earnhardt",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Armor Elite",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 2,
+            "day": "Sat",
+            "time": "10:45 AM",
+            "field": "CA:Field #1",
+            "team_a": "East Rowan 13U Earnhardt",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "RBA HEELS",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 3,
+            "day": "Sat",
+            "time": "12:30 PM",
+            "field": "CA:Field #1",
+            "team_a": "Lone Star Hippos",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Armor Elite",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 4,
+            "day": "Sat",
+            "time": "2:15 PM",
+            "field": "CA:Field #1",
+            "team_a": "Lone Star Hippos",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "RBA HEELS",
+            "seed_b": null,
+            "score_b": null
+          }
+        ],
+        "Gold Bracket": [
+          {
+            "game": 1,
+            "day": "Sat",
+            "time": "4:00 PM",
+            "field": "CA:Field #1",
+            "team_a": "",
+            "seed_a": 1,
+            "score_a": null,
+            "team_b": "",
+            "seed_b": 2,
+            "score_b": null
+          }
+        ]
+      }
+    },
+    "14U": {
+      "notes": [],
+      "standings": [
+        {
+          "seed": 1,
+          "team": "The Sandlot 14u",
+          "location": "Granite Falls, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 2,
+          "team": "Union County-Kraken",
+          "location": "Indian trail, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 3,
+          "team": "Bethany Badgers",
+          "location": "Clover, SC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 4,
+          "team": "Venom Stars",
+          "location": "Belwood, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 5,
+          "team": "Banana Peppers Baseball",
+          "location": "Gastonia, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 6,
+          "team": "Foothills Elite",
+          "location": "Hickory, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 7,
+          "team": "Toxic NC",
+          "location": "Startown, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 8,
+          "team": "Red Clay Athletics 14U Kelly",
+          "location": "Huntersville, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 9,
+          "team": "Regulators",
+          "location": "Indian Trail, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 10,
+          "team": "Dirtbags Black",
+          "location": "Newton, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        }
+      ],
+      "sections": {
+        "Pool Play": [
+          {
+            "game": 1,
+            "day": "Sat",
+            "time": "9:00 AM",
+            "field": "BFF:Field 1",
+            "team_a": "Banana Peppers Baseball",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Venom Stars",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 2,
+            "day": "Sat",
+            "time": "9:00 AM",
+            "field": "Moss:Moss Field",
+            "team_a": "Foothills Elite",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Dirtbags Black",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 3,
+            "day": "Sat",
+            "time": "10:45 AM",
+            "field": "BFF:Field 1",
+            "team_a": "Banana Peppers Baseball",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Red Clay Athletics 14U Kelly",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 4,
+            "day": "Sat",
+            "time": "10:45 AM",
+            "field": "Moss:Moss Field",
+            "team_a": "Foothills Elite",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Toxic NC",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 5,
+            "day": "Sat",
+            "time": "12:30 PM",
+            "field": "BFF:Field 1",
+            "team_a": "Venom Stars",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Bethany Badgers",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 6,
+            "day": "Sat",
+            "time": "12:30 PM",
+            "field": "Moss:Moss Field",
+            "team_a": "Dirtbags Black",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "The Sandlot 14u",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 7,
+            "day": "Sat",
+            "time": "2:15 PM",
+            "field": "BFF:Field 1",
+            "team_a": "Red Clay Athletics 14U Kelly",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Union County-Kraken",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 8,
+            "day": "Sat",
+            "time": "2:15 PM",
+            "field": "Moss:Moss Field",
+            "team_a": "Toxic NC",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Regulators",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 9,
+            "day": "Sat",
+            "time": "4:00 PM",
+            "field": "BFF:Field 1",
+            "team_a": "Bethany Badgers",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Union County-Kraken",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 10,
+            "day": "Sat",
+            "time": "4:00 PM",
+            "field": "Moss:Moss Field",
+            "team_a": "The Sandlot 14u",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Regulators",
+            "seed_b": null,
+            "score_b": null
+          }
+        ],
+        "Gold Bracket": [
+          {
+            "game": 1,
+            "day": "Sat",
+            "time": "5:45 PM",
+            "field": "BFF:Field 1",
+            "team_a": "",
+            "seed_a": 1,
+            "score_a": null,
+            "team_b": "",
+            "seed_b": 2,
+            "score_b": null
+          }
+        ],
+        "Silver Bracket": [
+          {
+            "game": 1,
+            "day": "Sat",
+            "time": "5:45 PM",
+            "field": "Moss:Moss Field",
+            "team_a": "",
+            "seed_a": 3,
+            "score_a": null,
+            "team_b": "",
+            "seed_b": 4,
+            "score_b": null
+          }
+        ]
+      }
+    },
+    "15U": {
+      "notes": [],
+      "standings": [
+        {
+          "seed": 1,
+          "team": "USA Scout Carolinas",
+          "location": "Charlotte, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 2,
+          "team": "South Carolina Cyclones",
+          "location": "Chester, SC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 3,
+          "team": "CBC Prospects Blue 15u",
+          "location": "CHERRYVILLE, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 1,
+          "team": "Red Clay Athletics 15U Drury",
+          "location": "Huntersville, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 2,
+          "team": "Couloak Diesel",
+          "location": "Charlotte, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 3,
+          "team": "CBC Knuckleheads Fox",
+          "location": "Charlotte, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        }
+      ],
+      "sections": {
+        "Pool Play": [
+          {
+            "game": 1,
+            "day": "Sat",
+            "time": "8:30 AM",
+            "field": "Core:Hinson Core Field",
+            "team_a": "Red Clay Athletics 15U Drury",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Couloak Diesel",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 2,
+            "day": "Sat",
+            "time": "10:15 AM",
+            "field": "Core:Hinson Core Field",
+            "team_a": "Red Clay Athletics 15U Drury",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "CBC Knuckleheads Fox",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 3,
+            "day": "Sat",
+            "time": "12:00 PM",
+            "field": "Core:Hinson Core Field",
+            "team_a": "Couloak Diesel",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "CBC Knuckleheads Fox",
+            "seed_b": null,
+            "score_b": null
+          }
+        ],
+        "Gold Bracket": [
+          {
+            "game": 1,
+            "day": "Sat",
+            "time": "1:45 PM",
+            "field": "Core:Hinson Core Field",
+            "team_a": "",
+            "seed_a": 1,
+            "score_a": null,
+            "team_b": "",
+            "seed_b": 2,
+            "score_b": null
+          }
+        ]
+      }
+    },
+    "16U": {
+      "notes": [],
+      "standings": [
+        {
+          "seed": 1,
+          "team": "MARA Machine",
+          "location": "Matthews, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 2,
+          "team": "Waxhaw Heat",
+          "location": "Waxhaw, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 3,
+          "team": "Triad Cardinals 16u",
+          "location": "Stokesdale, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 4,
+          "team": "Ruff Ryders baseball 16u",
+          "location": "Union, SC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 5,
+          "team": "Banana Peppers Baseball",
+          "location": "Bessemer City, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        }
+      ],
+      "sections": {
+        "Pool Play": [
+          {
+            "game": 1,
+            "day": "Sat",
+            "time": "9:00 AM",
+            "field": "Tuckasee:Tuckaseegee 1",
+            "team_a": "Waxhaw Heat",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "MARA Machine",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 2,
+            "day": "Sat",
+            "time": "10:45 AM",
+            "field": "Tuckasee:Tuckaseegee 1",
+            "team_a": "Waxhaw Heat",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Triad Cardinals 16u",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 3,
+            "day": "Sat",
+            "time": "12:30 PM",
+            "field": "Tuckasee:Tuckaseegee 1",
+            "team_a": "MARA Machine",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Ruff Ryders baseball 16u",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 4,
+            "day": "Sat",
+            "time": "2:15 PM",
+            "field": "Tuckasee:Tuckaseegee 1",
+            "team_a": "Banana Peppers Baseball",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Triad Cardinals 16u",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 5,
+            "day": "Sat",
+            "time": "4:00 PM",
+            "field": "Tuckasee:Tuckaseegee 1",
+            "team_a": "Banana Peppers Baseball",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Ruff Ryders baseball 16u",
+            "seed_b": null,
+            "score_b": null
+          }
+        ],
+        "Gold Bracket": [
+          {
+            "game": 1,
+            "day": "Sat",
+            "time": "5:45 PM",
+            "field": "Tuckasee:Tuckaseegee 1",
+            "team_a": "",
+            "seed_a": 1,
+            "score_a": null,
+            "team_b": "",
+            "seed_b": 2,
+            "score_b": null
+          }
+        ]
+      }
+    },
+    "17U": {
+      "notes": [],
+      "standings": [
+        {
+          "seed": 1,
+          "team": "P413 Buchanan",
+          "location": "ADVANCE, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 2,
+          "team": "Triad Warriors",
+          "location": "Walkertown, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 3,
+          "team": "Copperheads",
+          "location": "Mooresville, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 4,
+          "team": "WNC Phantom Elite",
+          "location": "Taylorsville, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        }
+      ],
+      "sections": {
+        "Pool Play": [
+          {
+            "game": 1,
+            "day": "Sat",
+            "time": "9:00 AM",
+            "field": "Mazeppa:Field # 4",
+            "team_a": "P413 Buchanan",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Copperheads",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 2,
+            "day": "Sat",
+            "time": "10:45 AM",
+            "field": "Mazeppa:Field # 4",
+            "team_a": "P413 Buchanan",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "WNC Phantom Elite",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 3,
+            "day": "Sat",
+            "time": "12:30 PM",
+            "field": "Mazeppa:Field # 4",
+            "team_a": "Copperheads",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Triad Warriors",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 4,
+            "day": "Sat",
+            "time": "2:15 PM",
+            "field": "Mazeppa:Field # 4",
+            "team_a": "WNC Phantom Elite",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Triad Warriors",
+            "seed_b": null,
+            "score_b": null
+          }
+        ],
+        "Gold Bracket": [
+          {
+            "game": 1,
+            "day": "Sat",
+            "time": "4:00 PM",
+            "field": "Mazeppa:Field # 4",
+            "team_a": "",
+            "seed_a": 1,
+            "score_a": null,
+            "team_b": "",
+            "seed_b": 2,
+            "score_b": null
+          }
+        ]
+      }
+    }
+  },
+  "site_last_updated": "10/08/2026 12:37 PM",
   "tournament_id": 12520,
-  "fetched_at": "2026-10-08T07:10"
+  "fetched_at": "2026-10-08T13:45"
 }
