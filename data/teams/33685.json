@@ -1,10 +1,10 @@
 {
  "team": "KnuckleheadsCBC",
  "label": "9U, AA",
- "season": "08/01/2026 - 10/09/2026",
- "games": 8,
- "won": 3,
- "lost": 5,
+ "season": "08/01/2026 - 10/10/2026",
+ "games": 11,
+ "won": 5,
+ "lost": 6,
  "tournaments": [
   {
    "date": "2026-08-29",
@@ -29,6 +29,16 @@
   {
    "date": "2026-10-09",
    "name": "FRIDAY NIGHT G.O.A.T. SERIES 9U&11U",
+   "won": 2,
+   "lost": 1,
+   "rs": 31,
+   "ra": 13,
+   "standing": "",
+   "points": 0
+  },
+  {
+   "date": "2026-10-10",
+   "name": "CANCELLED------SPORTS SOUTHERN WINTER WORLD SERIES",
    "won": 0,
    "lost": 0,
    "rs": 0,
@@ -38,5 +48,5 @@
   }
  ],
  "team_page_id": 33685,
- "fetched_at": "2026-10-09T13:23"
+ "fetched_at": "2026-10-10T12:08"
 }
