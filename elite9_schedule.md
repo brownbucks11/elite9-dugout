@@ -1,5 +1,5 @@
 # Elite 9 - Top Gun schedule
-_Updated Mon Oct 12, 2026 04:09 PM_
+_Updated Mon Oct 12, 2026 05:23 PM_
 
 ## SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND
 September 26 - 27 in Greater Charlotte Area, NC  
@@ -108,6 +108,30 @@ Tournament 12524 - [schedule page](https://playtopgunsports.com/GameTimesResults
 
 _Elite 9 not listed yet. Divisions posted: none posted yet_
 
+## NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS
+October 17 - 18 in Tega Cay, SC  
+Tournament 13127 - [schedule page](https://playtopgunsports.com/GameTimesResults.aspx?trnid=13127)
+
+_Elite 9 not listed yet. Divisions posted: none posted yet_
+
+## NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS
+October 16 in Mocksville/Winston Salem/Clemm, NC  
+Tournament 13572 - [schedule page](https://playtopgunsports.com/GameTimesResults.aspx?trnid=13572)
+
+_Elite 9 not listed yet. Divisions posted: none posted yet_
+
+## NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS
+October 17 - 18 in Mocksville/Winston Salem/Clemm, NC  
+Tournament 13573 - [schedule page](https://playtopgunsports.com/GameTimesResults.aspx?trnid=13573)
+
+_Elite 9 not listed yet. Divisions posted: none posted yet_
+
+## NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS
+October 16 in Monroe, NC  
+Tournament 13605 - [schedule page](https://playtopgunsports.com/GameTimesResults.aspx?trnid=13605)
+
+_Elite 9 not listed yet. Divisions posted: none posted yet_
+
 ## Field addresses
 
-- **Charlotte** - Greater Charlotte Area, TBA Greater Charlotte Area, NC 28262
+- **NWP** - Noel Williams Park, 3504 Zebulon Williams Road Monroe, NC 28110

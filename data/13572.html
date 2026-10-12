@@ -1,0 +1,329 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head id="ctl00_Head1"><title>
+	Game Times &amp; Scores | Top Gun
+</title><meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7">
+
+    <style type="text/css">
+        .areaInUseStyle
+        {
+            width: 100%;
+        }
+        .contentStyle
+        {
+            width: 100%;
+        }
+        .headerStyle
+        {
+            width: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        /* Maintenance Banner CSS */
+        #maintenance-banner {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: red;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            font-size: 16px;
+            z-index: 9999;
+            display: none; /* Hidden by default */
+        }
+        #maintenance-banner button {
+            margin-left: 20px;
+            background: white;
+            color: black;
+            border: none;
+            padding: 5px 10px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+
+        .tgMenu > ul { display: flex; }
+        .tgMenu > ul > li { position: relative; }
+
+        .tgMenu > ul > li > ul.tgSub {
+          position: absolute; top: 100%; left: 0;
+          width: auto !important;        /* shrink to content */
+          min-width: 100% !important;    /* but never smaller than parent */
+          white-space: nowrap;           /* keep items on one line */
+          box-sizing: border-box;
+        }
+
+        /* TABLE rendering (fallback if List mode isn’t used by the control) */
+        .tgMenu td { position: relative; }
+        .tgMenu .dynamic {
+          left: 0 !important;
+          width: auto !important;        /* shrink to content */
+          min-width: 100% !important;    /* but never smaller than parent */
+          white-space: nowrap;
+          box-sizing: border-box;
+        }
+        .tgMenu .dynamic table { width: auto !important; }
+    </style>
+    <link href="StyleSheet.css" rel="stylesheet" type="text/css"><style type="text/css">
+	/* <![CDATA[ */
+	#mainMenu { background-color:#333333; }
+	#mainMenu img.icon { border-style:none;vertical-align:middle; }
+	#mainMenu img.separator { border-style:none;display:block; }
+	#mainMenu img.horizontal-separator { border-style:none;vertical-align:middle; }
+	#mainMenu ul { list-style:none;margin:0;padding:0;width:auto; }
+	#mainMenu ul.dynamic { z-index:1; }
+	#mainMenu a { color:White;font-size:10pt;text-decoration:none;white-space:nowrap;display:block; }
+	#mainMenu a.static { padding:5px 7px 5px 7px;text-decoration:none; }
+	#mainMenu a.popout-dynamic { background:url("/WebResource.axd?d=It-_TksvHQSIhoLnnhxgfyPrucPmFNtJsusBPUzshrcTg0xq5eN6xLCouFPcyjRa9phGxI4nYVoObe1-wxDQpjJ-U9WKtYMtpYGtq6Rbsac1&t=638403408857838717") no-repeat right center;padding-right:14px; }
+	#mainMenu a.dynamic { background-color:#333333;padding:2px 20px 2px 20px;color:White;text-decoration:none; }
+	#mainMenu a.static.highlighted { background-color:#99CCFF; }
+	#mainMenu a.dynamic.highlighted { background-color:#99CCFF; }
+	/* ]]> */
+</style></head>
+<body style="padding: 0px; margin: 0px;">
+    <form name="aspnetForm" method="post" action="./GameTimesResults.aspx?trnid=13572" id="aspnetForm">
+<div>
+<input type="hidden" name="ctl00_ToolScriptManager_HiddenField" id="ctl00_ToolScriptManager_HiddenField" value="">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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">
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=C6jgljrpRzUpQSmjwNgc8XlCgAGmKzz4I0dvfL2J9r1A7kKKFpi4G9rg_Se3BhjU_JsXbfsCpv_fyBl0anpTWu_XV0htKU56hdGCZRLJ0OY1&amp;t=638403408857838717" type="text/javascript"></script>
+
+
+<script src="/ScriptResource.axd?d=uDwmVeY19pbDyoWVaHW0Pdle5Jo_UWo7KpFLUSBWoTOcok83aujeTma_msLOksrDIlqL5IswyD-VX-FcgbF4D9nEbunv2UZwQqaDvZsunQrOvBGc6XYjwFItQ3Py3u7pq5Geu9faTYHmDioxl4WnoA2&amp;t=7b65c770" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=LjVUDFaJkzLUgmCm8rFDzaHgGRFf33Xqe8t0IbJTilBF7uuJxm2AtQBU7B2F99tlNvKmHLcBSOLbQJlWOa_Pvd9mTgaobjZ_TLDdng4sGKLurtAkOzWzDJ7zmY7RbWGh0&amp;t=fffffffffb83206a" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=N1c_tGMU0CJ5qhz31TZV33iSEdKtIbhA4u9uFdO6zCshqRkgVCY67HPQ8IyY3qumCk7ku7fdzJ-vzYyLjV7Hz3GUDQbzGN7a9wzE7Ax9ElLtpiRnL9v-a7zDnIOzNZL8XnbveStd4ytF4m7xPuwtLQ2&amp;t=fffffffffb83206a" type="text/javascript"></script>
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="5DA1C36E">
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="">
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="1tacuE20XJ6O1UCuPNgj08xmK8IS0q68tbO6Ngt2dD35vL4bcrFKDFkbfnDuEQF7qvct4W5ZgZBHkVB/iq/nVIZzx0AVqm39rBP/4PsIbcP7XTBhQReTxvqc0jUixXV7x9aNazH9+8JDnR+BilDocVY3vLaYmjSXEnDIDalzLAJr3b0jAw4gHI/cGux8Klka2urNZ2fnZyffP+3ysG0ut2GpQDebj/H5QfhG0v+j9IX8Zv3uGJxzlplRF2icPNJ/">
+</div>
+    <div>
+        <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$ToolScriptManager', 'aspnetForm', ['tctl00$headerUpdatePanel','','tctl00$siteContentPlaceHolder$tableUpdatePanel','','tctl00$siteContentPlaceHolder$gameTimeResultsInteractiveUpdatePanel','','tctl00$siteContentPlaceHolder$gameTimesAndScoresUpdatePanel',''], [], [], 3600, 'ctl00');
+//]]>
+</script>
+
+        <div id="ctl00_headerUpdatePanel">
+	
+                <table id="ctl00_headerTable" class="headerStyle" cellpadding="0" cellspacing="0" style="background-color:#B7B4A8;background-image:url(/CustomPageInfo/HeaderBackgroundAllPages.png);">
+		<tbody><tr>
+			<td colspan="3" style="text-align: center">
+                            
+                        </td>
+		</tr>
+		<tr>
+			<td style="width: 33%; vertical-align: top; padding-bottom: 25px; padding-left: 100px;">
+                            <input type="image" name="ctl00$baseballImageButton" id="ctl00_baseballImageButton" src="CustomPageInfo/TopGunBaseballAllPages.png" style="border-width:0px;"> 
+                        </td>
+			<td style="width: 33%; vertical-align: middle; text-align: center; ">
+                            <img src="../Images/Top Gun Sports USA Best.png" alt="Top Gun Sports USA Best Logo" style="height:125px; border-color: black; border-style:solid; border-width:1px; image-rendering:-webkit-optimize-contrast">
+                            
+                        </td>
+			<td style="width: 34%; padding-bottom: 10px; vertical-align: top;">
+                            <div style="padding-right: 100px; text-align: right;">
+                                 <input type="image" name="ctl00$softballImageButton" id="ctl00_softballImageButton" src="CustomPageInfo/TopGunSoftballAllPages.png" style="border-width:0px;"> 
+                            </div>
+                            <div id="ctl00_hgTransitionLoginPanel">
+				
+                                <div style="font-size: small; vertical-align: bottom; text-align: right; padding-top: 10px;">
+                                    
+                                    <a id="ctl00_userLoginStatus" href="javascript:__doPostBack('ctl00$userLoginStatus$ctl02','')">Login</a>
+                                    &nbsp;<br>
+                                    <span id="ctl00_notSignedUpLabel">Coach/Team Administrator and not yet registered?&nbsp;&nbsp;</span>
+                                    <a id="ctl00_signupHereHyperLink" href="Register.aspx" style="font-size:Small;">Register</a>
+                                    
+                                    &nbsp;
+                                </div>
+                            
+			</div>
+                        </td>
+		</tr>
+	</tbody></table>
+	
+            
+</div>
+        <table id="table2" class="areaInUseStyle" cellpadding="0" cellspacing="0">
+            <tbody><tr>
+                <td>
+                    <table id="mainMenuTable" class="stdTableStyle" cellpadding="0" cellspacing="0" style="background-color: #333333;">
+                        <tbody><tr>
+                            <td>
+                                <div style="margin:0 auto 0 auto; padding-left: 150px;">
+                                <a href="#mainMenu_SkipLink"><img alt="Skip Navigation Links" src="/WebResource.axd?d=bEAkWbWuOekWwQaVC3UoXCT5Dh7PMXLjqIGkenW_q3SBDotR1mA8uy3DNw-eRazRMxg67jAcw5OGmbVW2zJL4S-9KHzIE4aCD7S0eFMi75M1&amp;t=638403408857838717" width="0" height="0" style="border-width:0px;"></a><div class="tgMenu" id="mainMenu" style="float: left;">
+	<ul class="level1 static" tabindex="0" role="menubar" style="position: relative; width: auto; float: left;">
+		<li role="menuitem" class="static" style="position: relative; float: left;"><a class="level1 static" href="Home.aspx" tabindex="-1">Home</a></li><li class="has-popup static" aria-haspopup="mainMenu:submenu:3" role="menuitem" style="position: relative; float: left;"><a class="level1 static" tabindex="-1">All-Star All-American Games</a><ul class="level2 dynamic" id="mainMenu:submenu:3" style="display: none; position: absolute; top: 100%; left: 0px;">
+			<li role="menuitem" class="dynamic" style="position: relative;"><a title="Baseball Players for All-Star Games" class="level2 dynamic" href="https://topgunstats.com/allstate-grinchgames-whosinvited?sportID=1&amp;event=all-star" tabindex="-1">Baseball All-Star Players Invited This Week</a></li><li role="menuitem" class="dynamic" style="position: relative;"><a title="Baseball All-Star Games Who's Playing" class="level2 dynamic" href="https://topgunstats.com/special-events/whosplaying?sportID=1&amp;event=all-star" tabindex="-1">Baseball All-Star Who's Playing</a></li><li role="menuitem" class="dynamic" style="position: relative;"><a title="Baseball Players for All-American Games" class="level2 dynamic" href="https://topgunstats.com/allstate-grinchgames-whosinvited?sportID=1&amp;event=all-american" tabindex="-1">Baseball All-American Players Invited</a></li><li role="menuitem" class="dynamic" style="position: relative;"><a title="Baseball All-American Games Who's Playing" class="level2 dynamic" href="https://topgunstats.com/special-events/whosplaying?sportID=1&amp;event=all-american" tabindex="-1">Baseball All-American Who's Playing</a></li><li role="menuitem" class="dynamic" style="position: relative;"><a title="Softball Players for All-Star Games" class="level2 dynamic" href="https://topgunstats.com/allstate-grinchgames-whosinvited?sportID=2&amp;event=all-american" tabindex="-1">Softball Players Invited This Week</a></li><li role="menuitem" class="dynamic" style="position: relative;"><a title="Softball All-Star Games Who's Playing" class="level2 dynamic" href="https://topgunstats.com/special-events/whosplaying?sportID=2&amp;event=all-american" tabindex="-1">Softball Who's Playing</a></li><li role="menuitem" class="dynamic" style="position: relative;"><a title="Baseball / Softball Skills Competitions" class="level2 dynamic" href="https://www.topgunsportsmerchandise.com/s/shop?p1=2" tabindex="-1">Baseball / Softball Skills Competitions</a></li><li role="menuitem" class="dynamic" style="position: relative;"><a title="All-American Top 100 Combine Info" class="level2 dynamic" href="CustomPageInfo/2026%20Combine%20Information%20for%20website.pdf" tabindex="-1">All-American Top 100 Combine Info</a></li>
+		</ul></li><li class="has-popup static" aria-haspopup="mainMenu:submenu:13" role="menuitem" style="position: relative; float: left;"><a class="level1 static" tabindex="-1">All-State Games</a><ul class="level2 dynamic" id="mainMenu:submenu:13" style="display: none; position: absolute; top: 100%; left: 0px;">
+			<li role="menuitem" class="dynamic" style="position: relative;"><a title="Baseball All-State Finals - Whos Invited" class="level2 dynamic" href="https://topgunstats.com/allstate-grinchgames-whosinvited?event=all-state-championship&amp;sportID=1" tabindex="-1">Baseball All-State Finals - Whos Invited</a></li><li role="menuitem" class="dynamic" style="position: relative;"><a title="Baseball All-State Finals - Whos Playing" class="level2 dynamic" href="https://topgunstats.com/special-events/whosplaying?event=all-state-championship&amp;sportID=1" tabindex="-1">Baseball All-State Finals - Whos Playing</a></li><li role="menuitem" class="dynamic" style="position: relative;"><a title="Softball All-State Regionals - Whos Invited" class="level2 dynamic" href="https://topgunstats.com/allstate-holidaygames-whosinvited?event=softball-all-state-championship&amp;sportID=2" tabindex="-1">Softball All-State Regionals - Whos Invited</a></li><li role="menuitem" class="dynamic" style="position: relative;"><a title="Softball All-State Regionals - Whos Playing" class="level2 dynamic" href="https://topgunstats.com/special-events/whosplaying?sportID=2&amp;event=grinch-games" tabindex="-1">Softball All-State Regionals - Whos Playing</a></li>
+		</ul></li><li class="has-popup static" aria-haspopup="mainMenu:submenu:19" role="menuitem" style="position: relative; float: left;"><a class="level1 static" tabindex="-1">Holiday Games</a><ul class="level2 dynamic" id="mainMenu:submenu:19" style="display: none; position: absolute; top: 100%; left: 0px;">
+			<li role="menuitem" class="dynamic" style="position: relative;"><a title="Baseball Holiday Games - Whos Invited" class="level2 dynamic" href="https://topgunstats.com/allstate-grinchgames-whosinvited?sportID=1&amp;event=grinch-games" tabindex="-1">Baseball Holiday Games - Whos Invited</a></li><li role="menuitem" class="dynamic" style="position: relative;"><a title="Baseball Holiday Games - Whos Playing" class="level2 dynamic" href="https://topgunstats.com/special-events/whosplaying?sportID=1&amp;event=grinch-games" tabindex="-1">Baseball Holiday Games - Whos Playing</a></li><li role="menuitem" class="dynamic" style="position: relative;"><a title="Softball Holiday Games - Whos Invited" class="level2 dynamic" href="https://topgunstats.com/allstate-grinchgames-whosinvited?sportID=2&amp;event=softball-grinch-games" tabindex="-1">Softball Holiday Games - Whos Invited</a></li><li role="menuitem" class="dynamic" style="position: relative;"><a title="Softball Holiday Games - Whos Playing" class="level2 dynamic" href="https://topgunstats.com/special-events/whosplaying?sportID=2&amp;event=grinch-games" tabindex="-1">Softball Holiday Games - Whos Playing</a></li>
+		</ul></li><li class="has-popup static" aria-haspopup="mainMenu:submenu:25" role="menuitem" style="position: relative; float: left;"><a class="level1 static" tabindex="-1">Combine</a><ul class="level2 dynamic" id="mainMenu:submenu:25" style="display: none; position: absolute; top: 100%; left: 0px;">
+			<li role="menuitem" class="dynamic" style="position: relative;"><a title="Baseball - Who's Invited to the Combine" class="level2 dynamic" href="https://topgunstats.com/whosinvited?sportID=1" tabindex="-1">Baseball - Who's Invited</a></li><li role="menuitem" class="dynamic" style="position: relative;"><a title="Baseball - Who's Playing in the Combine" class="level2 dynamic" href="https://topgunstats.com/whosplaying?sportID=1" tabindex="-1">Baseball - Who's Playing</a></li><li role="menuitem" class="dynamic" style="position: relative;"><a title="Softball - Who's Invited to the Combine" class="level2 dynamic" href="https://topgunstats.com/whosinvited?sportID=2" tabindex="-1">Softball - Who's Invited</a></li><li role="menuitem" class="dynamic" style="position: relative;"><a title="Softball - Who's Playing in the Combine" class="level2 dynamic" href="https://topgunstats.com/whosplaying?sportID=2" tabindex="-1">Softball - Who's Playing</a></li><li role="menuitem" class="dynamic" style="position: relative;"><a title="Register for the Combine" class="level2 dynamic" href="https://topgunstats.com/combine" tabindex="-1">Register for Combine</a></li>
+		</ul></li><li role="menuitem" class="static" style="position: relative; float: left;"><a class="level1 static" href="UpcomingTournaments.aspx" tabindex="-1">Upcoming Tournaments</a></li><li class="has-popup static" aria-haspopup="mainMenu:submenu:33" role="menuitem" style="position: relative; float: left;"><a class="level1 static" href="BaseballMain.aspx" tabindex="-1">Baseball</a><ul class="level2 dynamic" id="mainMenu:submenu:33" style="display: none; position: absolute; top: 100%; left: 0px;">
+			<li role="menuitem" class="dynamic" style="position: relative;"><a class="level2 dynamic" href="BaseballMain.aspx" tabindex="-1">Tournaments</a></li><li role="menuitem" class="dynamic" style="position: relative;"><a class="level2 dynamic" href="TeamPage/EntryPoint.aspx?p1=1" tabindex="-1">Team Pages</a></li>
+		</ul></li><li class="has-popup static" aria-haspopup="mainMenu:submenu:37" role="menuitem" style="position: relative; float: left;"><a class="level1 static" href="SoftballMain.aspx" tabindex="-1">Softball</a><ul class="level2 dynamic" id="mainMenu:submenu:37" style="display: none; position: absolute; top: 100%; left: 0px;">
+			<li role="menuitem" class="dynamic" style="position: relative;"><a class="level2 dynamic" href="SoftballMain.aspx" tabindex="-1">Tournaments</a></li><li role="menuitem" class="dynamic" style="position: relative;"><a class="level2 dynamic" href="TeamPage/EntryPoint.aspx?p1=2" tabindex="-1">Team Pages</a></li>
+		</ul></li><li role="menuitem" class="static" style="position: relative; float: left;"><a class="level1 static" href="Umpire/Main.aspx" tabindex="-1">Umpire Registration</a></li><li class="has-popup static" aria-haspopup="mainMenu:submenu:42" role="menuitem" style="position: relative; float: left;"><a class="level1 static" href="#" onclick="__doPostBack('ctl00$mainMenu','2')" tabindex="-1">501 ( c ) (3)</a><ul class="level2 dynamic" id="mainMenu:submenu:42" style="display: none; position: absolute; top: 100%; left: 0px;">
+			<li role="menuitem" class="dynamic" style="position: relative;"><a class="level2 dynamic" href="Info.aspx?p1=2" tabindex="-1">501 ( C ) 3 FAQ</a></li><li role="menuitem" class="dynamic" style="position: relative;"><a class="level2 dynamic" href="Info.aspx?p1=1" tabindex="-1">501 C 3 What To Do Next</a></li>
+		</ul></li><li class="has-popup static" aria-haspopup="mainMenu:submenu:46" role="menuitem" style="position: relative; float: left;"><a class="level1 static" href="#" onclick="__doPostBack('ctl00$mainMenu','3')" tabindex="-1">Insurance</a><ul class="level2 dynamic" id="mainMenu:submenu:46" style="display: none; position: absolute; top: 100%; left: 0px;">
+			<li role="menuitem" class="dynamic" style="position: relative;"><a class="level2 dynamic" href="Info.aspx?p1=5" tabindex="-1">Team Insurance </a></li><li role="menuitem" class="dynamic" style="position: relative;"><a class="level2 dynamic" href="Info.aspx?p1=34" tabindex="-1">Purchase Insurance</a></li><li role="menuitem" class="dynamic" style="position: relative;"><a class="level2 dynamic" href="Info.aspx?p1=35" tabindex="-1">Insurance NOT Accepted</a></li>
+		</ul></li><li role="menuitem" class="static" style="position: relative; float: left;"><a class="level1 static" href="Info.aspx?p1=255" tabindex="-1">Sponsors</a></li><li class="has-popup static" aria-haspopup="mainMenu:submenu:52" role="menuitem" style="position: relative; float: left;"><a class="level1 static" href="#" onclick="__doPostBack('ctl00$mainMenu','27')" tabindex="-1">About Us</a><ul class="level2 dynamic" id="mainMenu:submenu:52" style="display: none; position: absolute; top: 100%; left: 0px;">
+			<li role="menuitem" class="dynamic" style="position: relative;"><a title="Privacy, security, and refund policies" class="level2 dynamic" href="Policies.aspx" tabindex="-1">Policies</a></li><li role="menuitem" class="dynamic" style="position: relative;"><a class="level2 dynamic" href="Info.aspx?p1=259" tabindex="-1">About Us</a></li><li role="menuitem" class="dynamic" style="position: relative;"><a class="level2 dynamic" href="Info.aspx?p1=260" tabindex="-1">Meet the Staff</a></li>
+		</ul></li><li class="has-popup static" aria-haspopup="mainMenu:submenu:57" role="menuitem" style="position: relative; float: left;"><a class="level1 static" href="https://www.tgallstarallamerican.com/shop" target="_blank" tabindex="-1">Store Front</a><ul class="level2 dynamic" id="mainMenu:submenu:57" style="display: none; position: absolute; top: 100%; left: 0px;">
+			<li role="menuitem" class="dynamic" style="position: relative;"><a title="Purchase All-Star All-American apparel" class="level2 dynamic" href="https://www.tgallstarallamerican.com/shop" target="_blank" tabindex="-1">Purchase All-Star All-American Apparel</a></li><li role="menuitem" class="dynamic" style="position: relative;"><a title="Top Gun Merchandise" class="level2 dynamic" href="https://www.topgunsportsmerchandise.com/s/shop" target="_blank" tabindex="-1">Top Gun Merchandise</a></li>
+		</ul></li>
+	</ul>
+</div><div style="clear: left;"></div><a id="mainMenu_SkipLink"></a>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody></table>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    <table id="siteContentPlaceholderTable" class="stdTableStyle" cellpadding="0" cellspacing="0" style="color: #C0C0C0; background-color: #333333;">
+                        <tbody><tr>
+                            <td class="colorsSiteContent" style="padding-top: 10px; padding-bottom: 10px;">
+                                
+    <div id="ctl00_siteContentPlaceHolder_tableUpdatePanel">
+	
+            <div class="sectionTitle">
+                <span id="ctl00_siteContentPlaceHolder_sectionTitleLabel">NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS</span>
+            </div>
+            <div style="text-align: center; padding-bottom: 15px;">
+                <span id="ctl00_siteContentPlaceHolder_sectionSubTitleLabel">October 16 in Mocksville/Winston Salem/Clemm, NC</span>
+                
+                <div id="ctl00_siteContentPlaceHolder_generalMessagePanel">
+		
+                    <div style="padding-top: 10px">
+                        <div>
+                            <span id="ctl00_siteContentPlaceHolder_generalMessageTitleLabel" style="color:Red;font-weight:bold;">General Alert</span>
+                            <br>
+                            <span id="ctl00_siteContentPlaceHolder_generalMessageDateTimeLabel" style="font-size:Smaller;font-weight:bold;">Last Updated 06/30/2026 4:46 PM</span>
+                        </div>
+                        <div style="width: 70%; padding-top: 5px; margin-right: auto; margin-left: auto;">
+                            <span id="ctl00_siteContentPlaceHolder_generalMessageLabel"><div align="center"><p><b style="background-color: #ffff00;"><font size="4"><span style="font-family: &quot;Helvetica&quot;, sans-serif; color: black;">Pre-payment
+confirms your team’s entry and guarantees a spot in the field; however,
+pre-payment is not required to participate. Teams that have prepaid will be
+listed as confirmed on the registration list.</span></font></b></p><b style="background-color: #ffff00;"><font size="4"><span style="font-family: &quot;Helvetica&quot;, sans-serif; color: black;">We accept a minimum of six (6)
+teams and a maximum of eight (8) teams for our Friday Night Lights tournaments.
+Teams that submit pre-payment will be confirmed and placed into the field
+first. Any remaining spots will be filled on a first-come, first-served basis
+from the who is play list on the website</span></font></b></div></span>
+                        </div>
+                    </div>
+                
+	</div>
+                
+                <div style="padding-top: 10px">
+                    <div style="width: 70%; text-align: left; padding-bottom: 10px; margin-right: auto; margin-left: auto;">
+                        <span id="ctl00_siteContentPlaceHolder_tournamentRosterNotesLabel">All teams need to make sure that you have an updated roster online prior to this weekend's tournament.&nbsp;&nbsp;If you need assistance, please email or call the Tournament Director and they will be happy to help you complete this process.&nbsp;&nbsp;All teams must have a current insurance policy naming Top Gun Sports as additionally insured on file with the Top Gun Office prior to the start of the event.</span>
+                    </div>
+                    <span id="ctl00_siteContentPlaceHolder_tournamentNotesLabel">All teams should be at the facility at least 1 hour before the scheduled game time.<br>Coaches  - Please have your teams prepared to start their games earlier than the scheduled game time.</span>
+                </div>
+            </div>
+
+            <div id="ctl00_siteContentPlaceHolder_gameTimeResultsInteractiveUpdatePanel">
+		
+                    
+                
+	</div>
+
+            <div style="padding-top: 15px; text-align: center;">
+                <span id="ctl00_siteContentPlaceHolder_complexTitleLabel" style="font-size:Small;font-weight:bold;">Complex Address and Directions</span>
+                
+                <div>
+		<table cellspacing="0" cellpadding="4" align="Center" border="0" id="ctl00_siteContentPlaceHolder_complexesGridView" style="color:#333333;border-color:Black;border-width:3px;border-style:solid;border-collapse:collapse;">
+			<tbody><tr class="colorsTableRow" valign="top" style="background-color:#EFEFEF;font-size:Small;">
+				<td align="left">DYC</td><td align="left">Davie Youth Complex</td><td align="left">
+                                <a id="ctl00_siteContentPlaceHolder_complexesGridView_ctl02_directionsHyperLink" href="http://maps.google.com/?daddr=599 Farmington Rd  Mocksville, NC 27028" target="0">599 Farmington Rd  Mocksville, NC 27028</a>
+                            </td>
+			</tr>
+		</tbody></table>
+	</div>
+            </div>
+
+            <div id="ctl00_siteContentPlaceHolder_gameTimesAndScoresUpdatePanel">
+		
+                    <div style="text-align: center; padding-top: 10px;">
+                        <span id="ctl00_siteContentPlaceHolder_gameTimesAndScoresLabel" style="font-size:X-Small;"></span>
+                    </div>
+                
+	</div>
+
+        
+</div>
+
+                            </td>
+                        </tr>
+                    </tbody></table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table id="mainFooterTable" class="stdTableStyle" cellpadding="0" cellspacing="0" style="border-width: thin; border-color: black; border-style: solid none none none;
+                        font-size: 8pt; background-color: #333333; color: white;">
+                        <tbody><tr>
+                            <td align="center">
+                                <br>
+                                <a id="ctl00_homeHyperLink" href="Home.aspx" style="color:White;">Home</a>
+                                &nbsp;|
+                                <a id="ctl00_upcomingTournamentsHyperLink" href="UpcomingTournaments.aspx" style="color:White;">Upcoming Tournaments</a>
+                                &nbsp;|
+                                <a id="ctl00_baseballHyperLink" href="BaseballMain.aspx" style="color:White;">Baseball</a>
+                                &nbsp;|
+                                <a id="ctl00_softballHyperLink" href="SoftballMain.aspx" style="color:White;">Softball</a>
+                                &nbsp;|
+                                <a id="ctl00_browserInfoHyperLink" href="BrowserInfo.aspx" style="color:White;">Browser Info</a>
+                                <div style="padding-bottom: 15px;">
+                                    © Copyright <script type="text/javascript"> document.write(new Date().getFullYear());</script>2026, Top Gun. All Rights Reserved.
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody></table>
+                </td>
+            </tr>
+        </tbody></table>
+        <div>
+            
+        </div>
+
+        <!-- Maintenance Banner Notification -->
+        
+
+
+    </div>
+    
+
+<script type="text/javascript">
+//<![CDATA[
+(function() {var fn = function() {$get("ctl00_ToolScriptManager_HiddenField").value = '';Sys.Application.remove_init(fn);};Sys.Application.add_init(fn);})();//]]>
+</script>
+<script type="text/javascript">new Sys.WebForms.Menu({ element: 'mainMenu', disappearAfter: 500, orientation: 'horizontal', tabIndex: 0, disabled: false });</script></form>
+
+
+</body></html>
