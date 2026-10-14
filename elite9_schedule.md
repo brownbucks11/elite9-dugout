@@ -1,5 +1,5 @@
 # Elite 9 - Top Gun schedule
-_Updated Tue Oct 13, 2026 09:28 PM_
+_Updated Wed Oct 14, 2026 11:43 AM_
 
 ## SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND
 September 26 - 27 in Greater Charlotte Area, NC  
@@ -84,12 +84,6 @@ Tournament 12518 - [schedule page](https://playtopgunsports.com/GameTimesResults
 | 2 | Sun 11:00 AM | SP:Field #3 | (#17) Carolina Forge 9U 10 | (#19) Legacy Baseball 9U - WHITE 15 |
 | 3 | Sun 1:00 PM | SP:Field #3 | (#17) Carolina Forge 9U 7 | (#18) SC Tide - Lucariello 9 |
 
-## DOUBLE POINTS PINK ZONE QUALIFIER---ACTIVATE WINTER FREE PAID BERTHS
-October 10 in Greater Charlotte Area, NC  
-Tournament 12520 - [schedule page](https://playtopgunsports.com/GameTimesResults.aspx?trnid=12520)
-
-_Elite 9 not listed yet. Divisions posted: 8U CP, 9U, 10U, 11U, 12U, 13U 90, 14U, 15U, 16U, 17U_
-
 ## NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS
 October 17 - 18 in Greater Charlotte Area, NC  
 Tournament 12521 - [schedule page](https://playtopgunsports.com/GameTimesResults.aspx?trnid=12521)
@@ -113,12 +107,6 @@ October 17 - 18 in Tega Cay, SC
 Tournament 13127 - [schedule page](https://playtopgunsports.com/GameTimesResults.aspx?trnid=13127)
 
 _Elite 9 not listed yet. Divisions posted: none posted yet_
-
-## NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS
-October 16 in Mocksville/Winston Salem/Clemm, NC  
-Tournament 13572 - [schedule page](https://playtopgunsports.com/GameTimesResults.aspx?trnid=13572)
-
-_Elite 9 not listed yet. Divisions posted: 11U_
 
 ## NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS
 October 17 - 18 in Mocksville/Winston Salem/Clemm, NC  
