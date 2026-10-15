@@ -1880,6 +1880,16 @@
           "team_page_id": null
         },
         {
+          "seed": 6,
+          "team": "Dirtbags Haney Black",
+          "location": "Dallas, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
           "seed": 1,
           "team": "Carolina Locos-Black",
           "location": "Waxhaw, NC",
@@ -2057,18 +2067,6 @@
           {
             "game": 7,
             "day": "Sat",
-            "time": "2:15 PM",
-            "field": "SP:Field #3",
-            "team_a": "Carolina Cutters Baseball",
-            "seed_a": null,
-            "score_a": null,
-            "team_b": "Banana Peppers Baseball",
-            "seed_b": null,
-            "score_b": null
-          },
-          {
-            "game": 8,
-            "day": "Sat",
             "time": "4:00 PM",
             "field": "M. Rivers:Martha Rivers 1",
             "team_a": "Athletes Lab Navy 11u",
@@ -2079,7 +2077,7 @@
             "score_b": null
           },
           {
-            "game": 9,
+            "game": 8,
             "day": "Sat",
             "time": "4:00 PM",
             "field": "SP:Field #1",
@@ -2091,7 +2089,7 @@
             "score_b": null
           },
           {
-            "game": 10,
+            "game": 9,
             "day": "Sat",
             "time": "4:00 PM",
             "field": "SP:Field #3",
@@ -2099,6 +2097,18 @@
             "seed_a": null,
             "score_a": null,
             "team_b": "LKN Kingdom",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 10,
+            "day": "Sat",
+            "time": "5:45 PM",
+            "field": "SP:Field #3",
+            "team_a": "Carolina Cutters Baseball",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Banana Peppers Baseball",
             "seed_b": null,
             "score_b": null
           }
@@ -2489,16 +2499,6 @@
       "standings": [
         {
           "seed": 1,
-          "team": "SC Tide Abbott",
-          "location": "Clover, SC",
-          "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
-          "team_page_id": null
-        },
-        {
-          "seed": 2,
           "team": "North Lincoln Destroyers",
           "location": "Denver, NC",
           "won": 0,
@@ -2508,7 +2508,7 @@
           "team_page_id": null
         },
         {
-          "seed": 3,
+          "seed": 2,
           "team": "NWNC Elite Gold",
           "location": "North Wilkesboro, NC",
           "won": 0,
@@ -2518,7 +2518,7 @@
           "team_page_id": null
         },
         {
-          "seed": 4,
+          "seed": 3,
           "team": "Bethany Badgers",
           "location": "Clover, SC",
           "won": 0,
@@ -2528,7 +2528,7 @@
           "team_page_id": null
         },
         {
-          "seed": 5,
+          "seed": 4,
           "team": "FS Bulldogs 14u (Dane)",
           "location": "Mount Ulla, NC",
           "won": 0,
@@ -2538,7 +2538,7 @@
           "team_page_id": null
         },
         {
-          "seed": 6,
+          "seed": 5,
           "team": "FS Bulldogs 14u (Helton)",
           "location": "MT. ULLA, NC",
           "won": 0,
@@ -2548,7 +2548,7 @@
           "team_page_id": null
         },
         {
-          "seed": 7,
+          "seed": 6,
           "team": "Crowns Baseball",
           "location": "Indian Trail, NC",
           "won": 0,
@@ -2558,7 +2558,7 @@
           "team_page_id": null
         },
         {
-          "seed": 8,
+          "seed": 7,
           "team": "Union County-Kraken",
           "location": "Indian trail, NC",
           "won": 0,
@@ -2568,7 +2568,7 @@
           "team_page_id": null
         },
         {
-          "seed": 9,
+          "seed": 8,
           "team": "McDowell Militia Baseball 14U",
           "location": "Marion, NC",
           "won": 0,
@@ -2578,7 +2578,7 @@
           "team_page_id": null
         },
         {
-          "seed": 10,
+          "seed": 9,
           "team": "GBC Wyrick",
           "location": "Greensboro, NC",
           "won": 0,
@@ -2588,7 +2588,7 @@
           "team_page_id": null
         },
         {
-          "seed": 11,
+          "seed": 10,
           "team": "Banana Peppers Baseball",
           "location": "Gastonia, NC",
           "won": 0,
@@ -2598,7 +2598,7 @@
           "team_page_id": null
         },
         {
-          "seed": 12,
+          "seed": 11,
           "team": "Red Clay Athletics 14U Kelly",
           "location": "Huntersville, NC",
           "won": 0,
@@ -2608,7 +2608,7 @@
           "team_page_id": null
         },
         {
-          "seed": 13,
+          "seed": 12,
           "team": "Forest Acres Falcons",
           "location": "Columbia, SC",
           "won": 0,
@@ -2618,7 +2618,7 @@
           "team_page_id": null
         },
         {
-          "seed": 14,
+          "seed": 13,
           "team": "Toxic NC",
           "location": "Startown, NC",
           "won": 0,
@@ -2628,7 +2628,7 @@
           "team_page_id": null
         },
         {
-          "seed": 15,
+          "seed": 14,
           "team": "KLSC Tomahawks",
           "location": "Belmont, NC",
           "won": 0,
@@ -2638,7 +2638,7 @@
           "team_page_id": null
         },
         {
-          "seed": 16,
+          "seed": 15,
           "team": "14U Team Steele Creek Select",
           "location": "Charlotte, NC",
           "won": 0,
@@ -2648,7 +2648,7 @@
           "team_page_id": null
         },
         {
-          "seed": 17,
+          "seed": 16,
           "team": "Waxhaw Militia 14U",
           "location": "Waxhaw, NC",
           "won": 0,
@@ -2658,7 +2658,7 @@
           "team_page_id": null
         },
         {
-          "seed": 18,
+          "seed": 17,
           "team": "GBC Davis 14U",
           "location": "Greensboro, NC",
           "won": 0,
@@ -2668,7 +2668,7 @@
           "team_page_id": null
         },
         {
-          "seed": 19,
+          "seed": 18,
           "team": "Regulators",
           "location": "Indian Trail, NC",
           "won": 0,
@@ -2678,7 +2678,7 @@
           "team_page_id": null
         },
         {
-          "seed": 20,
+          "seed": 19,
           "team": "Wow Factor Carolinas Select 14U",
           "location": "Murrells Inlet, SC",
           "won": 0,
@@ -2779,7 +2779,7 @@
             "day": "Sat",
             "time": "12:00 PM",
             "field": "TOB:Field 1",
-            "team_a": "Regulators",
+            "team_a": "FS Bulldogs 14u (Dane)",
             "seed_a": null,
             "score_a": null,
             "team_b": "Red Clay Athletics 14U Kelly",
@@ -2849,21 +2849,9 @@
           {
             "game": 14,
             "day": "Sat",
-            "time": "3:30 PM",
-            "field": "TOB:Field 1",
-            "team_a": "FS Bulldogs 14u (Dane)",
-            "seed_a": null,
-            "score_a": null,
-            "team_b": "Regulators",
-            "seed_b": null,
-            "score_b": null
-          },
-          {
-            "game": 15,
-            "day": "Sat",
             "time": "4:00 PM",
             "field": "FDP:Field #1",
-            "team_a": "SC Tide Abbott",
+            "team_a": "Regulators",
             "seed_a": null,
             "score_a": null,
             "team_b": "Toxic NC",
@@ -2871,7 +2859,7 @@
             "score_b": null
           },
           {
-            "game": 16,
+            "game": 15,
             "day": "Sat",
             "time": "4:00 PM",
             "field": "FDP:Field #2",
@@ -2883,7 +2871,7 @@
             "score_b": null
           },
           {
-            "game": 17,
+            "game": 16,
             "day": "Sat",
             "time": "4:00 PM",
             "field": "Tega Cay:Field 4",
@@ -2895,7 +2883,7 @@
             "score_b": null
           },
           {
-            "game": 18,
+            "game": 17,
             "day": "Sat",
             "time": "5:45 PM",
             "field": "FDP:Field #1",
@@ -2907,11 +2895,11 @@
             "score_b": null
           },
           {
-            "game": 19,
+            "game": 18,
             "day": "Sat",
             "time": "5:45 PM",
             "field": "FDP:Field #2",
-            "team_a": "SC Tide Abbott",
+            "team_a": "Regulators",
             "seed_a": null,
             "score_a": null,
             "team_b": "Banana Peppers Baseball",
@@ -2919,7 +2907,7 @@
             "score_b": null
           },
           {
-            "game": 20,
+            "game": 19,
             "day": "Sat",
             "time": "5:45 PM",
             "field": "Tega Cay:Field 4",
@@ -2936,7 +2924,7 @@
             "game": 1,
             "day": "Sun",
             "time": "9:00 AM",
-            "field": "FDP:Field #1",
+            "field": "FDP:Field #3",
             "team_a": "",
             "seed_a": 4,
             "score_a": null,
@@ -2948,19 +2936,19 @@
             "game": 2,
             "day": "Sun",
             "time": "11:00 AM",
-            "field": "FDP:Field #1",
+            "field": "FDP:Field #3",
             "team_a": "",
-            "seed_a": 3,
+            "seed_a": 2,
             "score_a": null,
             "team_b": "",
-            "seed_b": 6,
+            "seed_b": 3,
             "score_b": null
           },
           {
             "game": 3,
             "day": "Sun",
             "time": "1:00 PM",
-            "field": "FDP:Field #1",
+            "field": "FDP:Field #3",
             "team_a": "Winner Game #1",
             "seed_a": null,
             "score_a": null,
@@ -2972,23 +2960,11 @@
             "game": 4,
             "day": "Sun",
             "time": "3:00 PM",
-            "field": "FDP:Field #1",
+            "field": "FDP:Field #3",
             "team_a": "Winner Game #2",
             "seed_a": null,
             "score_a": null,
-            "team_b": "",
-            "seed_b": 2,
-            "score_b": null
-          },
-          {
-            "game": 5,
-            "day": "Sun",
-            "time": "5:00 PM",
-            "field": "FDP:Field #1",
-            "team_a": "Winner Game #3",
-            "seed_a": null,
-            "score_a": null,
-            "team_b": "Winner Game #4",
+            "team_b": "Winner Game #3",
             "seed_b": null,
             "score_b": null
           }
@@ -2997,60 +2973,48 @@
           {
             "game": 1,
             "day": "Sun",
-            "time": "9:00 AM",
-            "field": "FDP:Field #3",
+            "time": "11:00 AM",
+            "field": "FDP:Field #1",
             "team_a": "",
-            "seed_a": 10,
+            "seed_a": 9,
             "score_a": null,
             "team_b": "",
-            "seed_b": 11,
+            "seed_b": 10,
             "score_b": null
           },
           {
             "game": 2,
             "day": "Sun",
-            "time": "11:00 AM",
-            "field": "FDP:Field #3",
-            "team_a": "",
-            "seed_a": 9,
-            "score_a": null,
-            "team_b": "",
-            "seed_b": 12,
-            "score_b": null
-          },
-          {
-            "game": 3,
-            "day": "Sun",
             "time": "1:00 PM",
-            "field": "FDP:Field #3",
-            "team_a": "Winner Game #1",
-            "seed_a": null,
-            "score_a": null,
-            "team_b": "",
-            "seed_b": 7,
-            "score_b": null
-          },
-          {
-            "game": 4,
-            "day": "Sun",
-            "time": "3:00 PM",
-            "field": "FDP:Field #3",
-            "team_a": "Winner Game #2",
-            "seed_a": null,
+            "field": "FDP:Field #1",
+            "team_a": "",
+            "seed_a": 7,
             "score_a": null,
             "team_b": "",
             "seed_b": 8,
             "score_b": null
           },
           {
-            "game": 5,
+            "game": 3,
             "day": "Sun",
-            "time": "5:00 PM",
-            "field": "FDP:Field #3",
-            "team_a": "Winner Game #3",
+            "time": "3:00 PM",
+            "field": "FDP:Field #1",
+            "team_a": "Winner Game #1",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Winner Game #4",
+            "team_b": "",
+            "seed_b": 6,
+            "score_b": null
+          },
+          {
+            "game": 4,
+            "day": "Sun",
+            "time": "5:00 PM",
+            "field": "FDP:Field #1",
+            "team_a": "Winner Game #2",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Winner Game #3",
             "seed_b": null,
             "score_b": null
           }
@@ -3062,10 +3026,10 @@
             "time": "9:00 AM",
             "field": "Tega Cay:Field 4",
             "team_a": "",
-            "seed_a": 16,
+            "seed_a": 14,
             "score_a": null,
             "team_b": "",
-            "seed_b": 17,
+            "seed_b": 15,
             "score_b": null
           },
           {
@@ -3074,10 +3038,10 @@
             "time": "11:00 AM",
             "field": "Tega Cay:Field 4",
             "team_a": "",
-            "seed_a": 14,
+            "seed_a": 12,
             "score_a": null,
             "team_b": "",
-            "seed_b": 15,
+            "seed_b": 13,
             "score_b": null
           },
           {
@@ -3089,7 +3053,7 @@
             "seed_a": null,
             "score_a": null,
             "team_b": "",
-            "seed_b": 13,
+            "seed_b": 11,
             "score_b": null
           },
           {
@@ -3112,22 +3076,34 @@
             "time": "9:00 AM",
             "field": "FDP:Field #2",
             "team_a": "",
-            "seed_a": 19,
+            "seed_a": 16,
             "score_a": null,
             "team_b": "",
-            "seed_b": 20,
+            "seed_b": 19,
             "score_b": null
           },
           {
             "game": 2,
+            "day": "Sun",
+            "time": "9:00 AM",
+            "field": "FDP:Field #1",
+            "team_a": "",
+            "seed_a": 17,
+            "score_a": null,
+            "team_b": "",
+            "seed_b": 18,
+            "score_b": null
+          },
+          {
+            "game": 3,
             "day": "Sun",
             "time": "11:00 AM",
             "field": "FDP:Field #2",
             "team_a": "Winner Game #1",
             "seed_a": null,
             "score_a": null,
-            "team_b": "",
-            "seed_b": 18,
+            "team_b": "Winner Game #2",
+            "seed_b": null,
             "score_b": null
           }
         ]
@@ -3833,5 +3809,5 @@
   },
   "site_last_updated": "10/15/2026 12:00 PM",
   "tournament_id": 12521,
-  "fetched_at": "2026-10-15T14:12"
+  "fetched_at": "2026-10-15T16:05"
 }
