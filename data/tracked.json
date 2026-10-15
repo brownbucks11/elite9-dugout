@@ -167,8 +167,12 @@
   "city": "Mocksville/Winston Salem/Clemm, NC"
  },
  "13573": {
-  "divisions": [],
-  "skip": false,
+  "divisions": [
+   "7U CP",
+   "12U",
+   "13U 90"
+  ],
+  "skip": true,
   "name": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
   "start": "2026-10-17",
   "city": "Mocksville/Winston Salem/Clemm, NC"

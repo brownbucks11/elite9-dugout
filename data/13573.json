@@ -9,8 +9,942 @@
       "address": "599 Farmington Rd Mocksville, NC 27028"
     }
   },
-  "divisions": {},
+  "divisions": {
+    "7U CP": {
+      "notes": [],
+      "standings": [
+        {
+          "seed": 1,
+          "team": "Flying Pigs 7u",
+          "location": "Lexington, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 2,
+          "team": "NC Made 7U",
+          "location": "Mocksville, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 3,
+          "team": "Carolina Rapid Fire 7u '38",
+          "location": "Denver, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 4,
+          "team": "Carolina Chaos",
+          "location": "Asheboro, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        }
+      ],
+      "sections": {
+        "Pool Play": [
+          {
+            "game": 1,
+            "day": "Sat",
+            "time": "5:30 PM",
+            "field": "DYC:Bird Co Field",
+            "team_a": "Flying Pigs 7u",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "NC Made 7U",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 2,
+            "day": "Sat",
+            "time": "5:30 PM",
+            "field": "DYC:Farm Bureau",
+            "team_a": "Carolina Rapid Fire 7u '38",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Carolina Chaos",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 3,
+            "day": "Sat",
+            "time": "6:45 PM",
+            "field": "DYC:Bird Co Field",
+            "team_a": "Flying Pigs 7u",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Carolina Rapid Fire 7u '38",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 4,
+            "day": "Sat",
+            "time": "6:45 PM",
+            "field": "DYC:Farm Bureau",
+            "team_a": "NC Made 7U",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Carolina Chaos",
+            "seed_b": null,
+            "score_b": null
+          }
+        ],
+        "Gold Bracket": [
+          {
+            "game": 1,
+            "day": "Sat",
+            "time": "8:00 PM",
+            "field": "DYC:Bird Co Field",
+            "team_a": "",
+            "seed_a": 1,
+            "score_a": null,
+            "team_b": "",
+            "seed_b": 2,
+            "score_b": null
+          }
+        ],
+        "Silver Bracket": [
+          {
+            "game": 1,
+            "day": "Sat",
+            "time": "8:00 PM",
+            "field": "DYC:Farm Bureau",
+            "team_a": "",
+            "seed_a": 3,
+            "score_a": null,
+            "team_b": "",
+            "seed_b": 4,
+            "score_b": null
+          }
+        ]
+      }
+    },
+    "12U": {
+      "notes": [],
+      "standings": [
+        {
+          "seed": 1,
+          "team": "Carolina Chaos",
+          "location": "Stokesdale, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 2,
+          "team": "NC Made 12U Green",
+          "location": "Mocksville, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 3,
+          "team": "YC Sluggers",
+          "location": "Boonville, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 4,
+          "team": "Dirtbags Baseball 12U-Southern",
+          "location": "Lexington, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 5,
+          "team": "NWNC Elite Gold",
+          "location": "Wilkesboro, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 6,
+          "team": "Pfafftown Raiders 12U",
+          "location": "Winston-Salem, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 7,
+          "team": "Dirtbags Youth Camo 12u",
+          "location": "Hickory, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 8,
+          "team": "Canes Triad 11u Scout",
+          "location": "Clemmons, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 9,
+          "team": "Patriots Baseball",
+          "location": "Burlington, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 10,
+          "team": "GF Sandlot Braswell",
+          "location": "GRANITE FALLS, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 11,
+          "team": "King Kryptonite",
+          "location": "King, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 12,
+          "team": "YC Mudcats",
+          "location": "East Bend, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 13,
+          "team": "Equip 11U",
+          "location": "Boone, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 14,
+          "team": "Diamond Legacy - Red",
+          "location": "Snow Camp, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 15,
+          "team": "Performance Baseball X2 Elite",
+          "location": "Winston-Salem, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 16,
+          "team": "Eagles Elite Baseball",
+          "location": "Mebane, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 17,
+          "team": "Randolph County Warriors",
+          "location": "Trinity, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 18,
+          "team": "Extreme Performance 2033",
+          "location": "Salisbury, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        }
+      ],
+      "sections": {
+        "Pool Play": [
+          {
+            "game": 1,
+            "day": "Sat",
+            "time": "8:30 AM",
+            "field": "DYC:K&W Service",
+            "team_a": "Performance Baseball X2 Elite",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Carolina Chaos",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 2,
+            "day": "Sat",
+            "time": "9:00 AM",
+            "field": "DYC:Bird Co Field",
+            "team_a": "GF Sandlot Braswell",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "King Kryptonite",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 3,
+            "day": "Sat",
+            "time": "9:00 AM",
+            "field": "DYC:Farm Bureau",
+            "team_a": "Dirtbags Baseball 12U-Southern",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "YC Mudcats",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 4,
+            "day": "Sat",
+            "time": "9:30 AM",
+            "field": "DYC:North Davie",
+            "team_a": "NWNC Elite Gold",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "YC Sluggers",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 5,
+            "day": "Sat",
+            "time": "10:30 AM",
+            "field": "DYC:K&W Service",
+            "team_a": "Performance Baseball X2 Elite",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Diamond Legacy - Red",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 6,
+            "day": "Sat",
+            "time": "11:00 AM",
+            "field": "DYC:Bird Co Field",
+            "team_a": "GF Sandlot Braswell",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Dirtbags Baseball 12U-Southern",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 7,
+            "day": "Sat",
+            "time": "11:00 AM",
+            "field": "DYC:Farm Bureau",
+            "team_a": "King Kryptonite",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "YC Mudcats",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 8,
+            "day": "Sat",
+            "time": "11:30 AM",
+            "field": "DYC:North Davie",
+            "team_a": "NWNC Elite Gold",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Extreme Performance 2033",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 9,
+            "day": "Sat",
+            "time": "12:30 PM",
+            "field": "DYC:K&W Service",
+            "team_a": "Carolina Chaos",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Diamond Legacy - Red",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 10,
+            "day": "Sat",
+            "time": "1:00 PM",
+            "field": "DYC:Bird Co Field",
+            "team_a": "Equip 11U",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Eagles Elite Baseball",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 11,
+            "day": "Sat",
+            "time": "1:00 PM",
+            "field": "DYC:Farm Bureau",
+            "team_a": "Randolph County Warriors",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Patriots Baseball",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 12,
+            "day": "Sat",
+            "time": "1:30 PM",
+            "field": "DYC:North Davie",
+            "team_a": "Pfafftown Raiders 12U",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "YC Sluggers",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 13,
+            "day": "Sat",
+            "time": "2:30 PM",
+            "field": "DYC:K&W Service",
+            "team_a": "Dirtbags Youth Camo 12u",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "NC Made 12U Green",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 14,
+            "day": "Sat",
+            "time": "3:00 PM",
+            "field": "DYC:Bird Co Field",
+            "team_a": "Equip 11U",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Patriots Baseball",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 15,
+            "day": "Sat",
+            "time": "3:00 PM",
+            "field": "DYC:Farm Bureau",
+            "team_a": "Randolph County Warriors",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Eagles Elite Baseball",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 16,
+            "day": "Sat",
+            "time": "3:30 PM",
+            "field": "DYC:North Davie",
+            "team_a": "Extreme Performance 2033",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Pfafftown Raiders 12U",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 17,
+            "day": "Sat",
+            "time": "4:30 PM",
+            "field": "DYC:K&W Service",
+            "team_a": "NC Made 12U Green",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Canes Triad 11u Scout",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 18,
+            "day": "Sat",
+            "time": "6:30 PM",
+            "field": "DYC:K&W Service",
+            "team_a": "Dirtbags Youth Camo 12u",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Canes Triad 11u Scout",
+            "seed_b": null,
+            "score_b": null
+          }
+        ],
+        "Gold Bracket": [
+          {
+            "game": 1,
+            "day": "Sun",
+            "time": "10:00 AM",
+            "field": "DYC:K&W Service",
+            "team_a": "",
+            "seed_a": 4,
+            "score_a": null,
+            "team_b": "",
+            "seed_b": 5,
+            "score_b": null
+          },
+          {
+            "game": 2,
+            "day": "Sun",
+            "time": "12:00 PM",
+            "field": "DYC:K&W Service",
+            "team_a": "",
+            "seed_a": 2,
+            "score_a": null,
+            "team_b": "",
+            "seed_b": 3,
+            "score_b": null
+          },
+          {
+            "game": 3,
+            "day": "Sun",
+            "time": "2:00 PM",
+            "field": "DYC:K&W Service",
+            "team_a": "Winner Game #1",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "",
+            "seed_b": 1,
+            "score_b": null
+          },
+          {
+            "game": 4,
+            "day": "Sun",
+            "time": "4:00 PM",
+            "field": "DYC:K&W Service",
+            "team_a": "Winner Game #2",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Winner Game #3",
+            "seed_b": null,
+            "score_b": null
+          }
+        ],
+        "Silver Bracket": [
+          {
+            "game": 1,
+            "day": "Sun",
+            "time": "12:00 PM",
+            "field": "DYC:Bird Co Field",
+            "team_a": "",
+            "seed_a": 9,
+            "score_a": null,
+            "team_b": "",
+            "seed_b": 10,
+            "score_b": null
+          },
+          {
+            "game": 2,
+            "day": "Sun",
+            "time": "2:00 PM",
+            "field": "DYC:Bird Co Field",
+            "team_a": "",
+            "seed_a": 7,
+            "score_a": null,
+            "team_b": "",
+            "seed_b": 8,
+            "score_b": null
+          },
+          {
+            "game": 3,
+            "day": "Sun",
+            "time": "4:00 PM",
+            "field": "DYC:Bird Co Field",
+            "team_a": "Winner Game #1",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "",
+            "seed_b": 6,
+            "score_b": null
+          },
+          {
+            "game": 4,
+            "day": "Sun",
+            "time": "6:00 PM",
+            "field": "DYC:Bird Co Field",
+            "team_a": "Winner Game #2",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Winner Game #3",
+            "seed_b": null,
+            "score_b": null
+          }
+        ],
+        "Bronze Bracket": [
+          {
+            "game": 1,
+            "day": "Sun",
+            "time": "2:00 PM",
+            "field": "DYC:Farm Bureau",
+            "team_a": "",
+            "seed_a": 11,
+            "score_a": null,
+            "team_b": "",
+            "seed_b": 14,
+            "score_b": null
+          },
+          {
+            "game": 2,
+            "day": "Sun",
+            "time": "4:00 PM",
+            "field": "DYC:Farm Bureau",
+            "team_a": "",
+            "seed_a": 12,
+            "score_a": null,
+            "team_b": "",
+            "seed_b": 13,
+            "score_b": null
+          },
+          {
+            "game": 3,
+            "day": "Sun",
+            "time": "6:00 PM",
+            "field": "DYC:Farm Bureau",
+            "team_a": "Winner Game #1",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Winner Game #2",
+            "seed_b": null,
+            "score_b": null
+          }
+        ],
+        "Copper Bracket": [
+          {
+            "game": 1,
+            "day": "Sun",
+            "time": "10:00 AM",
+            "field": "DYC:Bird Co Field",
+            "team_a": "",
+            "seed_a": 15,
+            "score_a": null,
+            "team_b": "",
+            "seed_b": 18,
+            "score_b": null
+          },
+          {
+            "game": 2,
+            "day": "Sun",
+            "time": "10:00 AM",
+            "field": "DYC:Farm Bureau",
+            "team_a": "",
+            "seed_a": 16,
+            "score_a": null,
+            "team_b": "",
+            "seed_b": 17,
+            "score_b": null
+          },
+          {
+            "game": 3,
+            "day": "Sun",
+            "time": "12:00 PM",
+            "field": "DYC:Farm Bureau",
+            "team_a": "Winner Game #1",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Winner Game #2",
+            "seed_b": null,
+            "score_b": null
+          }
+        ]
+      }
+    },
+    "13U 90": {
+      "notes": [],
+      "standings": [
+        {
+          "seed": 1,
+          "team": "NC Made 13U",
+          "location": "Mocksville, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 2,
+          "team": "Extreme Performance",
+          "location": "Salisbury, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 3,
+          "team": "EP Select 13u",
+          "location": "Salisbury, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 4,
+          "team": "Equip Sports",
+          "location": "Boone, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 5,
+          "team": "Dirtbags Gold 13u",
+          "location": "Taylorsville, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 6,
+          "team": "Carolina Ghost 13u Purple",
+          "location": "High Point, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 7,
+          "team": "Canes Atlantic 12u Browning",
+          "location": "Mooresville, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        }
+      ],
+      "sections": {
+        "Pool Play": [
+          {
+            "game": 1,
+            "day": "Sat",
+            "time": "8:30 AM",
+            "field": "DYC:Zach Wright",
+            "team_a": "Extreme Performance",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Carolina Ghost 13u Purple",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 2,
+            "day": "Sat",
+            "time": "10:15 AM",
+            "field": "DYC:Zach Wright",
+            "team_a": "Extreme Performance",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "NC Made 13U",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 3,
+            "day": "Sat",
+            "time": "12:00 PM",
+            "field": "DYC:Zach Wright",
+            "team_a": "Carolina Ghost 13u Purple",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Equip Sports",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 4,
+            "day": "Sat",
+            "time": "2:00 PM",
+            "field": "DYC:Zach Wright",
+            "team_a": "NC Made 13U",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Canes Atlantic 12u Browning",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 5,
+            "day": "Sat",
+            "time": "3:45 PM",
+            "field": "DYC:Zach Wright",
+            "team_a": "Dirtbags Gold 13u",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Equip Sports",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 6,
+            "day": "Sat",
+            "time": "5:45 PM",
+            "field": "DYC:Zach Wright",
+            "team_a": "EP Select 13u",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Canes Atlantic 12u Browning",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 7,
+            "day": "Sat",
+            "time": "7:30 PM",
+            "field": "DYC:Zach Wright",
+            "team_a": "EP Select 13u",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Dirtbags Gold 13u",
+            "seed_b": null,
+            "score_b": null
+          }
+        ],
+        "Gold Bracket": [
+          {
+            "game": 1,
+            "day": "Sun",
+            "time": "2:00 PM",
+            "field": "DYC:Zach Wright",
+            "team_a": "",
+            "seed_a": 1,
+            "score_a": null,
+            "team_b": "",
+            "seed_b": 4,
+            "score_b": null
+          },
+          {
+            "game": 2,
+            "day": "Sun",
+            "time": "4:00 PM",
+            "field": "DYC:Zach Wright",
+            "team_a": "",
+            "seed_a": 2,
+            "score_a": null,
+            "team_b": "",
+            "seed_b": 3,
+            "score_b": null
+          },
+          {
+            "game": 3,
+            "day": "Sun",
+            "time": "6:00 PM",
+            "field": "DYC:Zach Wright",
+            "team_a": "Winner Game #1",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Winner Game #2",
+            "seed_b": null,
+            "score_b": null
+          }
+        ],
+        "Silver Bracket": [
+          {
+            "game": 1,
+            "day": "Sun",
+            "time": "10:00 AM",
+            "field": "DYC:Zach Wright",
+            "team_a": "",
+            "seed_a": 6,
+            "score_a": null,
+            "team_b": "",
+            "seed_b": 7,
+            "score_b": null
+          },
+          {
+            "game": 2,
+            "day": "Sun",
+            "time": "12:00 PM",
+            "field": "DYC:Zach Wright",
+            "team_a": "Winner Game #1",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "",
+            "seed_b": 5,
+            "score_b": null
+          }
+        ]
+      }
+    }
+  },
   "site_last_updated": "06/30/2026 3:57 PM",
   "tournament_id": 13573,
-  "fetched_at": "2026-10-14T16:22"
+  "fetched_at": "2026-10-14T21:00"
 }
