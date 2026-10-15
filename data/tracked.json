@@ -69,7 +69,18 @@
   "city": "Greater Charlotte Area, NC"
  },
  "12521": {
-  "divisions": [],
+  "divisions": [
+   "8U CP",
+   "9U",
+   "10U",
+   "11U",
+   "12U",
+   "13U 90",
+   "14U",
+   "15U",
+   "16U",
+   "17U"
+  ],
   "skip": false,
   "name": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
   "start": "2026-10-17",
@@ -85,8 +96,11 @@
   "city": "Tega Cay, SC"
  },
  "13127": {
-  "divisions": [],
-  "skip": false,
+  "divisions": [
+   "11U",
+   "12U"
+  ],
+  "skip": true,
   "name": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
   "start": "2026-10-17",
   "city": "Tega Cay, SC"

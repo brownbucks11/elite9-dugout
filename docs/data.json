@@ -3,7 +3,7 @@
  "location": "Rock Hill, SC",
  "page_id": 31407,
  "team_url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=31407",
- "built": "Thu Oct 15, 2026 11:35 AM",
+ "built": "Thu Oct 15, 2026 01:17 PM",
  "record": {
   "w": 2,
   "l": 7,
@@ -146,6 +146,36 @@
    "ra": 14,
    "result": "L",
    "gc_id": "9e88256d-20c1-4228-b766-809cd4b6904e"
+  },
+  {
+   "event_id": 12521,
+   "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+   "date": "2026-10-17",
+   "day": "Sat",
+   "time": "9:00 AM",
+   "field": "Westmoreld:Field 1",
+   "section": "Pool Play",
+   "game": 1,
+   "opponent": "LKN Bolts",
+   "rs": null,
+   "ra": null,
+   "result": null,
+   "gc_id": null
+  },
+  {
+   "event_id": 12521,
+   "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+   "date": "2026-10-17",
+   "day": "Sat",
+   "time": "10:45 AM",
+   "field": "Westmoreld:Field 2",
+   "section": "Pool Play",
+   "game": 5,
+   "opponent": "Weddington Wreckers",
+   "rs": null,
+   "ra": null,
+   "result": null,
+   "gc_id": null
   }
  ],
  "my_events": [
@@ -4241,7 +4271,7 @@
   },
   {
    "id": 12521,
-   "state": "announced",
+   "state": "scheduled",
    "official": false,
    "confirmed": false,
    "summary": null,
@@ -4249,7 +4279,7 @@
     "count": 19,
     "confirmed": 0,
     "waitlist": 0,
-    "total": 111,
+    "total": 113,
     "team": {
      "entered": true,
      "division": "9U",
@@ -4258,12 +4288,15 @@
      "entered_at": "2026-10-08T16:26:44.913Z",
      "level": "AA"
     },
-    "fetched_at": "2026-10-15T11:31"
+    "fetched_at": "2026-10-15T13:17"
    },
    "tgs": {
     "weather": null,
-    "general": null,
-    "teams_registered": 111,
+    "general": {
+     "text": "No Seeds, No Gum, Steel Cleats @ Catawba,Tuskaseegee Dream Fields, Buck Fraley, Field Day, Combine Academy,\u00a0 Hinson-Core Field, & all Turf mounds \n Greater Charlotte Gate Fees Kindergarten & Under $0.00 \n 1st - 8th grades $10.00 \n 9th Grade Up\u00a0 $12.00 \n We accept Cash, Debit, Credit Cards & Apple Pay at the gates. You will be charged a convenience fee when using these methods of payment with the exception of cash.",
+     "when": "2026-10-15T12:00:00.000Z"
+    },
+    "teams_registered": 113,
     "games_scheduled": false,
     "complexes": [
      {
@@ -4380,23 +4413,925 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-15T11:31",
+    "fetched_at": "2026-10-15T13:17",
     "url": "https://topgunstats.com/whos-playing/12521"
    },
-   "name": "Triple points Super Regional",
+   "name": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
    "dates": "October 17 - 18 in Greater Charlotte Area, NC",
    "date": "2026-10-17",
    "url": "https://playtopgunsports.com/GameTimesResults.aspx?trnid=12521",
-   "posted": false,
-   "games": [],
-   "standings": [],
-   "mine": [],
-   "next_game": null,
-   "schedule_versions": 0,
-   "schedule_first": null,
-   "schedule_updated": null,
+   "posted": true,
+   "games": [
+    {
+     "section": "Pool Play",
+     "game": 1,
+     "day": "Sat",
+     "time": "9:00 AM",
+     "date": "2026-10-17",
+     "field": "Westmoreld:Field 1",
+     "team_a": "LKN Bolts",
+     "seed_a": null,
+     "score_a": null,
+     "from_a": null,
+     "team_b": "Elite 9",
+     "seed_b": null,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Pool Play",
+     "game": 2,
+     "day": "Sat",
+     "time": "9:00 AM",
+     "date": "2026-10-17",
+     "field": "Westmoreld:Field 2",
+     "team_a": "Weddington Wreckers",
+     "seed_a": null,
+     "score_a": null,
+     "from_a": null,
+     "team_b": "Legacy Baseball 9U - WHITE",
+     "seed_b": null,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Pool Play",
+     "game": 3,
+     "day": "Sat",
+     "time": "9:00 AM",
+     "date": "2026-10-17",
+     "field": "Westmoreld:Field 3",
+     "team_a": "LumberJacks",
+     "seed_a": null,
+     "score_a": null,
+     "from_a": null,
+     "team_b": "Union County Aces 9u",
+     "seed_b": null,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Pool Play",
+     "game": 4,
+     "day": "Sat",
+     "time": "10:45 AM",
+     "date": "2026-10-17",
+     "field": "Westmoreld:Field 1",
+     "team_a": "LKN Bolts",
+     "seed_a": null,
+     "score_a": null,
+     "from_a": null,
+     "team_b": "Legacy Baseball 9U - WHITE",
+     "seed_b": null,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Pool Play",
+     "game": 5,
+     "day": "Sat",
+     "time": "10:45 AM",
+     "date": "2026-10-17",
+     "field": "Westmoreld:Field 2",
+     "team_a": "Weddington Wreckers",
+     "seed_a": null,
+     "score_a": null,
+     "from_a": null,
+     "team_b": "Elite 9",
+     "seed_b": null,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Pool Play",
+     "game": 6,
+     "day": "Sat",
+     "time": "10:45 AM",
+     "date": "2026-10-17",
+     "field": "Westmoreld:Field 3",
+     "team_a": "LumberJacks",
+     "seed_a": null,
+     "score_a": null,
+     "from_a": null,
+     "team_b": "ELITE BASEBALL EBC 9U",
+     "seed_b": null,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Pool Play",
+     "game": 7,
+     "day": "Sat",
+     "time": "10:45 AM",
+     "date": "2026-10-17",
+     "field": "Westmoreld:Field 4",
+     "team_a": "Union County Aces 9u",
+     "seed_a": null,
+     "score_a": null,
+     "from_a": null,
+     "team_b": "LKN Kingdom",
+     "seed_b": null,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Pool Play",
+     "game": 8,
+     "day": "Sat",
+     "time": "12:30 PM",
+     "date": "2026-10-17",
+     "field": "Westmoreld:Field 1",
+     "team_a": "SC Tide - Lucariello",
+     "seed_a": null,
+     "score_a": null,
+     "from_a": null,
+     "team_b": "NL Destroyers 2036",
+     "seed_b": null,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Pool Play",
+     "game": 9,
+     "day": "Sat",
+     "time": "12:30 PM",
+     "date": "2026-10-17",
+     "field": "Westmoreld:Field 2",
+     "team_a": "Carolina Royals 9Uw",
+     "seed_a": null,
+     "score_a": null,
+     "from_a": null,
+     "team_b": "Union County Legends",
+     "seed_b": null,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Pool Play",
+     "game": 10,
+     "day": "Sat",
+     "time": "12:30 PM",
+     "date": "2026-10-17",
+     "field": "Westmoreld:Field 3",
+     "team_a": "Red Clay Athletics 9U Darcangelo",
+     "seed_a": null,
+     "score_a": null,
+     "from_a": null,
+     "team_b": "ELITE BASEBALL EBC 9U",
+     "seed_b": null,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Pool Play",
+     "game": 11,
+     "day": "Sat",
+     "time": "12:30 PM",
+     "date": "2026-10-17",
+     "field": "Westmoreld:Field 4",
+     "team_a": "Diamond Crushers",
+     "seed_a": null,
+     "score_a": null,
+     "from_a": null,
+     "team_b": "LKN Kingdom",
+     "seed_b": null,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Pool Play",
+     "game": 12,
+     "day": "Sat",
+     "time": "2:15 PM",
+     "date": "2026-10-17",
+     "field": "Westmoreld:Field 1",
+     "team_a": "SC Tide - Lucariello",
+     "seed_a": null,
+     "score_a": null,
+     "from_a": null,
+     "team_b": "ROCO Dirtbagz",
+     "seed_b": null,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Pool Play",
+     "game": 13,
+     "day": "Sat",
+     "time": "2:15 PM",
+     "date": "2026-10-17",
+     "field": "Westmoreld:Field 2",
+     "team_a": "Carolina Royals 9Uw",
+     "seed_a": null,
+     "score_a": null,
+     "from_a": null,
+     "team_b": "Team 24",
+     "seed_b": null,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Pool Play",
+     "game": 14,
+     "day": "Sat",
+     "time": "2:15 PM",
+     "date": "2026-10-17",
+     "field": "Westmoreld:Field 3",
+     "team_a": "Mountain Rage",
+     "seed_a": null,
+     "score_a": null,
+     "from_a": null,
+     "team_b": "Carolina Forge 9U",
+     "seed_b": null,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Pool Play",
+     "game": 15,
+     "day": "Sat",
+     "time": "2:15 PM",
+     "date": "2026-10-17",
+     "field": "Westmoreld:Field 4",
+     "team_a": "Diamond Crushers",
+     "seed_a": null,
+     "score_a": null,
+     "from_a": null,
+     "team_b": "Carolina Icons",
+     "seed_b": null,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Pool Play",
+     "game": 16,
+     "day": "Sat",
+     "time": "4:00 PM",
+     "date": "2026-10-17",
+     "field": "Westmoreld:Field 1",
+     "team_a": "NL Destroyers 2036",
+     "seed_a": null,
+     "score_a": null,
+     "from_a": null,
+     "team_b": "ROCO Dirtbagz",
+     "seed_b": null,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Pool Play",
+     "game": 17,
+     "day": "Sat",
+     "time": "4:00 PM",
+     "date": "2026-10-17",
+     "field": "Westmoreld:Field 2",
+     "team_a": "Union County Legends",
+     "seed_a": null,
+     "score_a": null,
+     "from_a": null,
+     "team_b": "Team 24",
+     "seed_b": null,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Pool Play",
+     "game": 18,
+     "day": "Sat",
+     "time": "4:00 PM",
+     "date": "2026-10-17",
+     "field": "Westmoreld:Field 3",
+     "team_a": "Mountain Rage",
+     "seed_a": null,
+     "score_a": null,
+     "from_a": null,
+     "team_b": "Red Clay Athletics 9U Darcangelo",
+     "seed_b": null,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Pool Play",
+     "game": 19,
+     "day": "Sat",
+     "time": "4:00 PM",
+     "date": "2026-10-17",
+     "field": "Westmoreld:Field 4",
+     "team_a": "Carolina Forge 9U",
+     "seed_a": null,
+     "score_a": null,
+     "from_a": null,
+     "team_b": "Carolina Icons",
+     "seed_b": null,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Gold Bracket",
+     "game": 1,
+     "day": "Sun",
+     "time": "9:00 AM",
+     "date": "2026-10-18",
+     "field": "Bradford:Field # 1",
+     "team_a": "",
+     "seed_a": 4,
+     "score_a": null,
+     "from_a": null,
+     "team_b": "",
+     "seed_b": 5,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Gold Bracket",
+     "game": 2,
+     "day": "Sun",
+     "time": "11:00 AM",
+     "date": "2026-10-18",
+     "field": "Bradford:Field # 1",
+     "team_a": "",
+     "seed_a": 2,
+     "score_a": null,
+     "from_a": null,
+     "team_b": "",
+     "seed_b": 3,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Gold Bracket",
+     "game": 3,
+     "day": "Sun",
+     "time": "1:00 PM",
+     "date": "2026-10-18",
+     "field": "Bradford:Field # 1",
+     "team_a": "Winner Game #1",
+     "seed_a": null,
+     "score_a": null,
+     "from_a": {
+      "type": "winner",
+      "game": 1
+     },
+     "team_b": "",
+     "seed_b": 1,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Gold Bracket",
+     "game": 4,
+     "day": "Sun",
+     "time": "11:00 AM",
+     "date": "2026-10-18",
+     "field": "Bradford:Field # 4",
+     "team_a": "Loser Game #1",
+     "seed_a": null,
+     "score_a": null,
+     "from_a": {
+      "type": "loser",
+      "game": 1
+     },
+     "team_b": "Loser Game #2",
+     "seed_b": null,
+     "score_b": null,
+     "from_b": {
+      "type": "loser",
+      "game": 2
+     }
+    },
+    {
+     "section": "Gold Bracket",
+     "game": 5,
+     "day": "Sun",
+     "time": "3:00 PM",
+     "date": "2026-10-18",
+     "field": "Bradford:Field # 1",
+     "team_a": "Winner Game #3",
+     "seed_a": null,
+     "score_a": null,
+     "from_a": {
+      "type": "winner",
+      "game": 3
+     },
+     "team_b": "Winner Game #2",
+     "seed_b": null,
+     "score_b": null,
+     "from_b": {
+      "type": "winner",
+      "game": 2
+     }
+    },
+    {
+     "section": "Silver Bracket",
+     "game": 1,
+     "day": "Sun",
+     "time": "9:00 AM",
+     "date": "2026-10-18",
+     "field": "Bradford:Field # 2",
+     "team_a": "",
+     "seed_a": 9,
+     "score_a": null,
+     "from_a": null,
+     "team_b": "",
+     "seed_b": 10,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Silver Bracket",
+     "game": 2,
+     "day": "Sun",
+     "time": "11:00 AM",
+     "date": "2026-10-18",
+     "field": "Bradford:Field # 2",
+     "team_a": "",
+     "seed_a": 7,
+     "score_a": null,
+     "from_a": null,
+     "team_b": "",
+     "seed_b": 8,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Silver Bracket",
+     "game": 3,
+     "day": "Sun",
+     "time": "1:00 PM",
+     "date": "2026-10-18",
+     "field": "Bradford:Field # 2",
+     "team_a": "Winner Game #7",
+     "seed_a": null,
+     "score_a": null,
+     "from_a": {
+      "type": "winner",
+      "game": 7
+     },
+     "team_b": "",
+     "seed_b": 6,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Silver Bracket",
+     "game": 4,
+     "day": "Sun",
+     "time": "1:00 PM",
+     "date": "2026-10-18",
+     "field": "Bradford:Field # 4",
+     "team_a": "Loser Game #7",
+     "seed_a": null,
+     "score_a": null,
+     "from_a": {
+      "type": "loser",
+      "game": 7
+     },
+     "team_b": "Loser Game #8",
+     "seed_b": null,
+     "score_b": null,
+     "from_b": {
+      "type": "loser",
+      "game": 8
+     }
+    },
+    {
+     "section": "Silver Bracket",
+     "game": 5,
+     "day": "Sun",
+     "time": "3:00 PM",
+     "date": "2026-10-18",
+     "field": "Bradford:Field # 2",
+     "team_a": "Winner Game #9",
+     "seed_a": null,
+     "score_a": null,
+     "from_a": {
+      "type": "winner",
+      "game": 9
+     },
+     "team_b": "Winner Game #8",
+     "seed_b": null,
+     "score_b": null,
+     "from_b": {
+      "type": "winner",
+      "game": 8
+     }
+    },
+    {
+     "section": "Bronze Bracket",
+     "game": 1,
+     "day": "Sun",
+     "time": "9:00 AM",
+     "date": "2026-10-18",
+     "field": "Bradford:Field # 3",
+     "team_a": "",
+     "seed_a": 14,
+     "score_a": null,
+     "from_a": null,
+     "team_b": "",
+     "seed_b": 15,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Bronze Bracket",
+     "game": 2,
+     "day": "Sun",
+     "time": "11:00 AM",
+     "date": "2026-10-18",
+     "field": "Bradford:Field # 3",
+     "team_a": "",
+     "seed_a": 12,
+     "score_a": null,
+     "from_a": null,
+     "team_b": "",
+     "seed_b": 13,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Bronze Bracket",
+     "game": 3,
+     "day": "Sun",
+     "time": "1:00 PM",
+     "date": "2026-10-18",
+     "field": "Bradford:Field # 3",
+     "team_a": "Winner Game #13",
+     "seed_a": null,
+     "score_a": null,
+     "from_a": {
+      "type": "winner",
+      "game": 13
+     },
+     "team_b": "",
+     "seed_b": 11,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Bronze Bracket",
+     "game": 4,
+     "day": "Sun",
+     "time": "3:00 PM",
+     "date": "2026-10-18",
+     "field": "Bradford:Field # 4",
+     "team_a": "Loser Game #13",
+     "seed_a": null,
+     "score_a": null,
+     "from_a": {
+      "type": "loser",
+      "game": 13
+     },
+     "team_b": "Loser Game #14",
+     "seed_b": null,
+     "score_b": null,
+     "from_b": {
+      "type": "loser",
+      "game": 14
+     }
+    },
+    {
+     "section": "Bronze Bracket",
+     "game": 5,
+     "day": "Sun",
+     "time": "3:00 PM",
+     "date": "2026-10-18",
+     "field": "Bradford:Field # 3",
+     "team_a": "Winner Game #15",
+     "seed_a": null,
+     "score_a": null,
+     "from_a": {
+      "type": "winner",
+      "game": 15
+     },
+     "team_b": "Winner Game #14",
+     "seed_b": null,
+     "score_b": null,
+     "from_b": {
+      "type": "winner",
+      "game": 14
+     }
+    },
+    {
+     "section": "Copper Bracket",
+     "game": 1,
+     "day": "Sun",
+     "time": "9:00 AM",
+     "date": "2026-10-18",
+     "field": "Westmoreld:Field 2",
+     "team_a": "",
+     "seed_a": 17,
+     "score_a": null,
+     "from_a": null,
+     "team_b": "",
+     "seed_b": 18,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Copper Bracket",
+     "game": 2,
+     "day": "Sun",
+     "time": "9:00 AM",
+     "date": "2026-10-18",
+     "field": "Westmoreld:Field 3",
+     "team_a": "",
+     "seed_a": 16,
+     "score_a": null,
+     "from_a": null,
+     "team_b": "",
+     "seed_b": 19,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Copper Bracket",
+     "game": 3,
+     "day": "Sun",
+     "time": "11:00 AM",
+     "date": "2026-10-18",
+     "field": "Westmoreld:Field 2",
+     "team_a": "Loser Game #19",
+     "seed_a": null,
+     "score_a": null,
+     "from_a": {
+      "type": "loser",
+      "game": 19
+     },
+     "team_b": "Loser Game #20",
+     "seed_b": null,
+     "score_b": null,
+     "from_b": {
+      "type": "loser",
+      "game": 20
+     }
+    },
+    {
+     "section": "Copper Bracket",
+     "game": 4,
+     "day": "Sun",
+     "time": "11:00 AM",
+     "date": "2026-10-18",
+     "field": "Westmoreld:Field 3",
+     "team_a": "Winner Game #19",
+     "seed_a": null,
+     "score_a": null,
+     "from_a": {
+      "type": "winner",
+      "game": 19
+     },
+     "team_b": "Winner Game #20",
+     "seed_b": null,
+     "score_b": null,
+     "from_b": {
+      "type": "winner",
+      "game": 20
+     }
+    }
+   ],
+   "standings": [
+    {
+     "seed": 1,
+     "team": "LKN Bolts",
+     "location": "Huntersville, NC",
+     "won": 0,
+     "lost": 0,
+     "runs_allowed": 0,
+     "runs_scored": 0,
+     "team_page_id": null
+    },
+    {
+     "seed": 2,
+     "team": "ROCO Dirtbagz",
+     "location": "Forest City, NC",
+     "won": 0,
+     "lost": 0,
+     "runs_allowed": 0,
+     "runs_scored": 0,
+     "team_page_id": null
+    },
+    {
+     "seed": 3,
+     "team": "Elite 9",
+     "location": "Rock Hill, SC",
+     "won": 0,
+     "lost": 0,
+     "runs_allowed": 0,
+     "runs_scored": 0,
+     "team_page_id": null
+    },
+    {
+     "seed": 4,
+     "team": "Union County Aces 9u",
+     "location": "Monroe, NC",
+     "won": 0,
+     "lost": 0,
+     "runs_allowed": 0,
+     "runs_scored": 0,
+     "team_page_id": null
+    },
+    {
+     "seed": 5,
+     "team": "Team 24",
+     "location": "York, SC",
+     "won": 0,
+     "lost": 0,
+     "runs_allowed": 0,
+     "runs_scored": 0,
+     "team_page_id": null
+    },
+    {
+     "seed": 6,
+     "team": "Union County Legends",
+     "location": "Waxhaw, NC",
+     "won": 0,
+     "lost": 0,
+     "runs_allowed": 0,
+     "runs_scored": 0,
+     "team_page_id": null
+    },
+    {
+     "seed": 7,
+     "team": "SC Tide - Lucariello",
+     "location": "Clover, SC",
+     "won": 0,
+     "lost": 0,
+     "runs_allowed": 0,
+     "runs_scored": 0,
+     "team_page_id": null
+    },
+    {
+     "seed": 8,
+     "team": "Diamond Crushers",
+     "location": "Concord, NC",
+     "won": 0,
+     "lost": 0,
+     "runs_allowed": 0,
+     "runs_scored": 0,
+     "team_page_id": null
+    },
+    {
+     "seed": 9,
+     "team": "NL Destroyers 2036",
+     "location": "Denver, NC",
+     "won": 0,
+     "lost": 0,
+     "runs_allowed": 0,
+     "runs_scored": 0,
+     "team_page_id": null
+    },
+    {
+     "seed": 10,
+     "team": "LumberJacks",
+     "location": "Gaston County, NC",
+     "won": 0,
+     "lost": 0,
+     "runs_allowed": 0,
+     "runs_scored": 0,
+     "team_page_id": null
+    },
+    {
+     "seed": 11,
+     "team": "Weddington Wreckers",
+     "location": "Weddington, NC",
+     "won": 0,
+     "lost": 0,
+     "runs_allowed": 0,
+     "runs_scored": 0,
+     "team_page_id": null
+    },
+    {
+     "seed": 12,
+     "team": "Mountain Rage",
+     "location": "Mars Hill, NC",
+     "won": 0,
+     "lost": 0,
+     "runs_allowed": 0,
+     "runs_scored": 0,
+     "team_page_id": null
+    },
+    {
+     "seed": 13,
+     "team": "LKN Kingdom",
+     "location": "Charlotte, NC",
+     "won": 0,
+     "lost": 0,
+     "runs_allowed": 0,
+     "runs_scored": 0,
+     "team_page_id": null
+    },
+    {
+     "seed": 14,
+     "team": "Carolina Icons",
+     "location": "Stanfield, NC",
+     "won": 0,
+     "lost": 0,
+     "runs_allowed": 0,
+     "runs_scored": 0,
+     "team_page_id": null
+    },
+    {
+     "seed": 15,
+     "team": "Legacy Baseball 9U - WHITE",
+     "location": "Fort Mill, SC",
+     "won": 0,
+     "lost": 0,
+     "runs_allowed": 0,
+     "runs_scored": 0,
+     "team_page_id": null
+    },
+    {
+     "seed": 16,
+     "team": "Carolina Royals 9Uw",
+     "location": "Gastonia, NC",
+     "won": 0,
+     "lost": 0,
+     "runs_allowed": 0,
+     "runs_scored": 0,
+     "team_page_id": null
+    },
+    {
+     "seed": 17,
+     "team": "Red Clay Athletics 9U Darcangelo",
+     "location": "Charlotte, NC",
+     "won": 0,
+     "lost": 0,
+     "runs_allowed": 0,
+     "runs_scored": 0,
+     "team_page_id": null
+    },
+    {
+     "seed": 18,
+     "team": "ELITE BASEBALL EBC 9U",
+     "location": "FOREST CITY, NC",
+     "won": 0,
+     "lost": 0,
+     "runs_allowed": 0,
+     "runs_scored": 0,
+     "team_page_id": null
+    },
+    {
+     "seed": 19,
+     "team": "Carolina Forge 9U",
+     "location": "Gastonia, NC",
+     "won": 0,
+     "lost": 0,
+     "runs_allowed": 0,
+     "runs_scored": 0,
+     "team_page_id": null
+    }
+   ],
+   "mine": [
+    {
+     "event_id": 12521,
+     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "date": "2026-10-17",
+     "day": "Sat",
+     "time": "9:00 AM",
+     "field": "Westmoreld:Field 1",
+     "section": "Pool Play",
+     "game": 1,
+     "opponent": "LKN Bolts",
+     "rs": null,
+     "ra": null,
+     "result": null,
+     "gc_id": null
+    },
+    {
+     "event_id": 12521,
+     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "date": "2026-10-17",
+     "day": "Sat",
+     "time": "10:45 AM",
+     "field": "Westmoreld:Field 2",
+     "section": "Pool Play",
+     "game": 5,
+     "opponent": "Weddington Wreckers",
+     "rs": null,
+     "ra": null,
+     "result": null,
+     "gc_id": null
+    }
+   ],
+   "next_game": {
+    "event_id": 12521,
+    "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+    "date": "2026-10-17",
+    "day": "Sat",
+    "time": "9:00 AM",
+    "field": "Westmoreld:Field 1",
+    "section": "Pool Play",
+    "game": 1,
+    "opponent": "LKN Bolts",
+    "rs": null,
+    "ra": null,
+    "result": null,
+    "gc_id": null
+   },
+   "schedule_versions": 1,
+   "schedule_first": "2026-10-15T13:17",
+   "schedule_updated": "2026-10-15T13:17",
    "changes": [],
-   "ics": null
+   "ics": "ics/12521.ics"
   },
   {
    "id": 12522,
@@ -4408,7 +5343,7 @@
     "count": 55,
     "confirmed": 11,
     "waitlist": 0,
-    "total": 587,
+    "total": 585,
     "team": {
      "entered": true,
      "division": "10U",
@@ -4417,7 +5352,7 @@
      "entered_at": "2026-06-08T12:01:08.307Z",
      "level": "AA"
     },
-    "fetched_at": "2026-10-15T11:31"
+    "fetched_at": "2026-10-15T13:17"
    },
    "tgs": {
     "weather": {
@@ -4428,7 +5363,7 @@
      "text": "\"WINTER WORLD SERIES\" \n \"PLAYERS WILL HAVE THE OPPORUNTIY TO QUALIFY FOR THE ALL-AMERICAN TOP (100) SKILLS PROSPECT COMBINE\" \n \"WORLD SERIES GAME CHANGER STATS WILL QUALIFY PLAYERS OUT OF THIS EVENT TO BE ELIGIBLE FOR THE TOP (100) PLAYERS TAKEN EACH YEAR TO THE BASEBALL COMBINE\" \n \"STATS FOR THE ANALYTICS WILL BE POSTED ON OUR PLAYER PROFILE PAGES FOR COLLEGE COACHES TO VIEW AT THE COMBINE\" \n \"TOP GUN-USA WILL ALSO HAVE AND ALL-STAR GAME ON SUNDAY AFTERNOON RECOGNIZING OUR TOP (24) PLAYERS PER AGE DIVISION\"",
      "when": "2026-10-12T15:07:00.000Z"
     },
-    "teams_registered": 587,
+    "teams_registered": 585,
     "games_scheduled": false,
     "complexes": [
      {
@@ -4505,7 +5440,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-15T11:31",
+    "fetched_at": "2026-10-15T13:17",
     "url": "https://topgunstats.com/whos-playing/12522"
    },
    "name": "Southeastern Winter World Series",
@@ -4537,7 +5472,7 @@
     "team": {
      "entered": false
     },
-    "fetched_at": "2026-10-15T11:31"
+    "fetched_at": "2026-10-15T13:17"
    },
    "tgs": {
     "weather": null,
@@ -4590,7 +5525,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-15T11:31",
+    "fetched_at": "2026-10-15T13:17",
     "url": "https://topgunstats.com/whos-playing/12524"
    },
    "name": "Road Runner vs Coyote ring weekend",
@@ -10317,7 +11252,7 @@
    }
   ],
   "season": "08/01/2026 - 10/15/2026",
-  "fetched_at": "2026-10-15T11:35",
+  "fetched_at": "2026-10-15T13:17",
   "inactive": 22,
   "not_on_topgun": [],
   "duplicate_numbers": {}

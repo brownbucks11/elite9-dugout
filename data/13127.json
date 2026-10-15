@@ -9,7 +9,545 @@
       "address": "2351 New Grey Rock Rd Tega Cay, SC 29708"
     }
   },
-  "divisions": {},
+  "divisions": {
+    "11U": {
+      "notes": [],
+      "standings": [
+        {
+          "seed": 1,
+          "team": "MP Bombers 11U",
+          "location": "Mount Pleasant, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 2,
+          "team": "Tega Cay Titans",
+          "location": "Tega Cay, SC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 3,
+          "team": "Odell Chargers",
+          "location": "Concord, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 4,
+          "team": "Weddington Warriors",
+          "location": "Weddington, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 5,
+          "team": "Mill Town 10u Trosky",
+          "location": "Fort Mill, SC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 6,
+          "team": "Legacy Baseball 11U - White",
+          "location": "Fort Mill, SC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 7,
+          "team": "Dirtbags 11u Hagen",
+          "location": "Pineville, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 8,
+          "team": "South Charlotte Revolution 11U",
+          "location": "Charlotte, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        }
+      ],
+      "sections": {
+        "Pool Play": [
+          {
+            "game": 1,
+            "day": "Sat",
+            "time": "9:00 AM",
+            "field": "Tega Cay:Field 2",
+            "team_a": "Legacy Baseball 11U - White",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "South Charlotte Revolution 11U",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 2,
+            "day": "Sat",
+            "time": "10:45 AM",
+            "field": "Tega Cay:Field 2",
+            "team_a": "Legacy Baseball 11U - White",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Mill Town 10u Trosky",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 3,
+            "day": "Sat",
+            "time": "12:30 PM",
+            "field": "Tega Cay:Field 2",
+            "team_a": "Tega Cay Titans",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "South Charlotte Revolution 11U",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 4,
+            "day": "Sat",
+            "time": "2:15 PM",
+            "field": "Tega Cay:Field 2",
+            "team_a": "Tega Cay Titans",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Mill Town 10u Trosky",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 5,
+            "day": "Sat",
+            "time": "4:00 PM",
+            "field": "Tega Cay:Field 1",
+            "team_a": "Weddington Warriors",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Odell Chargers",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 6,
+            "day": "Sat",
+            "time": "4:00 PM",
+            "field": "Tega Cay:Field 2",
+            "team_a": "Dirtbags 11u Hagen",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "MP Bombers 11U",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 7,
+            "day": "Sat",
+            "time": "5:45 PM",
+            "field": "Tega Cay:Field 1",
+            "team_a": "Weddington Warriors",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "MP Bombers 11U",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 8,
+            "day": "Sat",
+            "time": "5:45 PM",
+            "field": "Tega Cay:Field 2",
+            "team_a": "Dirtbags 11u Hagen",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Odell Chargers",
+            "seed_b": null,
+            "score_b": null
+          }
+        ],
+        "Gold Bracket": [
+          {
+            "game": 1,
+            "day": "Sun",
+            "time": "9:00 AM",
+            "field": "Tega Cay:Field 1",
+            "team_a": "",
+            "seed_a": 2,
+            "score_a": null,
+            "team_b": "",
+            "seed_b": 3,
+            "score_b": null
+          },
+          {
+            "game": 2,
+            "day": "Sun",
+            "time": "9:00 AM",
+            "field": "Tega Cay:Field 2",
+            "team_a": "",
+            "seed_a": 1,
+            "score_a": null,
+            "team_b": "",
+            "seed_b": 4,
+            "score_b": null
+          },
+          {
+            "game": 3,
+            "day": "Sun",
+            "time": "11:00 AM",
+            "field": "Tega Cay:Field 1",
+            "team_a": "Loser Game #1",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Loser Game #2",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 4,
+            "day": "Sun",
+            "time": "11:00 AM",
+            "field": "Tega Cay:Field 2",
+            "team_a": "Winner Game #1",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Winner Game #2",
+            "seed_b": null,
+            "score_b": null
+          }
+        ],
+        "Silver Bracket": [
+          {
+            "game": 1,
+            "day": "Sun",
+            "time": "1:00 PM",
+            "field": "Tega Cay:Field 1",
+            "team_a": "",
+            "seed_a": 6,
+            "score_a": null,
+            "team_b": "",
+            "seed_b": 7,
+            "score_b": null
+          },
+          {
+            "game": 2,
+            "day": "Sun",
+            "time": "3:00 PM",
+            "field": "Tega Cay:Field 1",
+            "team_a": "",
+            "seed_a": 5,
+            "score_a": null,
+            "team_b": "",
+            "seed_b": 8,
+            "score_b": null
+          },
+          {
+            "game": 3,
+            "day": "Sun",
+            "time": "5:00 PM",
+            "field": "Tega Cay:Field 3",
+            "team_a": "Loser Game #1",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Loser Game #2",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 4,
+            "day": "Sun",
+            "time": "5:00 PM",
+            "field": "Tega Cay:Field 1",
+            "team_a": "Winner Game #1",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Winner Game #2",
+            "seed_b": null,
+            "score_b": null
+          }
+        ]
+      }
+    },
+    "12U": {
+      "notes": [],
+      "standings": [
+        {
+          "seed": 1,
+          "team": "Newport Bombers 12U King",
+          "location": "Rock Hill, SC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 2,
+          "team": "Tega Cay Titans",
+          "location": "Tega Cay, SC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 3,
+          "team": "Copperheads Red",
+          "location": "Mooresville, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 4,
+          "team": "Carolina Nova",
+          "location": "Aberdeen, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 5,
+          "team": "Foundry Baseball",
+          "location": "Pineville, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 6,
+          "team": "CBB Baseball White",
+          "location": "Waxhaw, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 7,
+          "team": "Dirtbags Haney Black",
+          "location": "Dallas, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        }
+      ],
+      "sections": {
+        "Pool Play": [
+          {
+            "game": 1,
+            "day": "Sat",
+            "time": "9:00 AM",
+            "field": "Tega Cay:Field 3",
+            "team_a": "Newport Bombers 12U King",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Foundry Baseball",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 2,
+            "day": "Sat",
+            "time": "10:45 AM",
+            "field": "Tega Cay:Field 3",
+            "team_a": "Foundry Baseball",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Tega Cay Titans",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 3,
+            "day": "Sat",
+            "time": "12:30 PM",
+            "field": "Tega Cay:Field 3",
+            "team_a": "Tega Cay Titans",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Newport Bombers 12U King",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 4,
+            "day": "Sat",
+            "time": "2:15 PM",
+            "field": "Tega Cay:Field 1",
+            "team_a": "Carolina Nova",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Dirtbags Haney Black",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 5,
+            "day": "Sat",
+            "time": "2:15 PM",
+            "field": "Tega Cay:Field 3",
+            "team_a": "Dirtbags Haney Black",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Copperheads Red",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 6,
+            "day": "Sat",
+            "time": "4:00 PM",
+            "field": "Tega Cay:Field 3",
+            "team_a": "CBB Baseball White",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Copperheads Red",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 7,
+            "day": "Sat",
+            "time": "5:45 PM",
+            "field": "Tega Cay:Field 3",
+            "team_a": "Carolina Nova",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "CBB Baseball White",
+            "seed_b": null,
+            "score_b": null
+          }
+        ],
+        "Gold Bracket": [
+          {
+            "game": 1,
+            "day": "Sun",
+            "time": "9:00 AM",
+            "field": "Tega Cay:Field 3",
+            "team_a": "",
+            "seed_a": 2,
+            "score_a": null,
+            "team_b": "",
+            "seed_b": 3,
+            "score_b": null
+          },
+          {
+            "game": 2,
+            "day": "Sun",
+            "time": "11:00 AM",
+            "field": "Tega Cay:Field 3",
+            "team_a": "",
+            "seed_a": 1,
+            "score_a": null,
+            "team_b": "",
+            "seed_b": 4,
+            "score_b": null
+          },
+          {
+            "game": 3,
+            "day": "Sun",
+            "time": "3:00 PM",
+            "field": "Tega Cay:Field 3",
+            "team_a": "Loser Game #1",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Loser Game #2",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 4,
+            "day": "Sun",
+            "time": "1:00 PM",
+            "field": "Tega Cay:Field 3",
+            "team_a": "Winner Game #1",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Winner Game #2",
+            "seed_b": null,
+            "score_b": null
+          }
+        ],
+        "Silver Bracket": [
+          {
+            "game": 1,
+            "day": "Sun",
+            "time": "1:00 PM",
+            "field": "Tega Cay:Field 2",
+            "team_a": "",
+            "seed_a": 6,
+            "score_a": null,
+            "team_b": "",
+            "seed_b": 7,
+            "score_b": null
+          },
+          {
+            "game": 2,
+            "day": "Sun",
+            "time": "3:00 PM",
+            "field": "Tega Cay:Field 2",
+            "team_a": "",
+            "seed_a": 5,
+            "score_a": null,
+            "team_b": "",
+            "seed_b": 7,
+            "score_b": null
+          },
+          {
+            "game": 3,
+            "day": "Sun",
+            "time": "5:00 PM",
+            "field": "Tega Cay:Field 2",
+            "team_a": "",
+            "seed_a": 5,
+            "score_a": null,
+            "team_b": "",
+            "seed_b": 6,
+            "score_b": null
+          }
+        ]
+      }
+    }
+  },
+  "site_last_updated": "10/15/2026 12:01 PM",
   "tournament_id": 13127,
-  "fetched_at": "2026-10-15T11:31"
+  "fetched_at": "2026-10-15T13:17"
 }
