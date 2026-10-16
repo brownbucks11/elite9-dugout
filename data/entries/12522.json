@@ -4,73 +4,68 @@
  "hidden": true,
  "divisions": {
   "8U CP": {
-   "count": 15,
-   "confirmed": 7,
+   "count": 8,
+   "confirmed": 8,
    "waitlist": 0
   },
   "9U": {
-   "count": 55,
+   "count": 11,
    "confirmed": 11,
    "waitlist": 0
   },
   "10U": {
-   "count": 77,
+   "count": 25,
    "confirmed": 25,
    "waitlist": 0
   },
   "11U": {
-   "count": 103,
-   "confirmed": 24,
+   "count": 25,
+   "confirmed": 25,
    "waitlist": 0
   },
   "12U": {
-   "count": 106,
-   "confirmed": 21,
+   "count": 23,
+   "confirmed": 23,
    "waitlist": 0
   },
   "13U 80": {
-   "count": 91,
+   "count": 5,
    "confirmed": 5,
    "waitlist": 0
   },
   "13U 90": {
-   "count": 6,
+   "count": 4,
    "confirmed": 4,
    "waitlist": 0
   },
   "14U": {
-   "count": 62,
+   "count": 9,
    "confirmed": 9,
    "waitlist": 0
   },
   "15U": {
-   "count": 40,
-   "confirmed": 7,
+   "count": 8,
+   "confirmed": 8,
    "waitlist": 0
   },
   "16U": {
-   "count": 9,
+   "count": 4,
    "confirmed": 4,
    "waitlist": 0
   },
   "17U": {
-   "count": 10,
-   "confirmed": 2,
+   "count": 3,
+   "confirmed": 3,
    "waitlist": 0
   },
   "HSU": {
-   "count": 7,
+   "count": 4,
    "confirmed": 4,
    "waitlist": 0
   }
  },
  "team": {
-  "entered": true,
-  "division": "10U",
-  "confirmed": false,
-  "waitlist": false,
-  "entered_at": "2026-06-08T12:01:08.307Z",
-  "level": "AA"
+  "entered": false
  },
- "fetched_at": "2026-10-16T16:35"
+ "fetched_at": "2026-10-16T19:17"
 }
