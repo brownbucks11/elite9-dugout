@@ -982,19 +982,19 @@
           "team": "Union County Aces",
           "location": "Monroe, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 15,
+          "runs_scored": 3,
           "team_page_id": null
         },
         {
           "seed": 6,
           "team": "Canes Atlantic 10u Wagner",
           "location": "Mooresville, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 3,
+          "runs_scored": 15,
           "team_page_id": null
         },
         {
@@ -1067,10 +1067,10 @@
             "field": "Tuckasee:Tuckaseegee 2",
             "team_a": "Canes Atlantic 10u Wagner",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 15,
             "team_b": "Union County Aces",
             "seed_b": null,
-            "score_b": null
+            "score_b": 3
           },
           {
             "game": 2,
@@ -2511,10 +2511,10 @@
           "seed": 2,
           "team": "NWNC Elite Gold",
           "location": "North Wilkesboro, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
           "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_scored": 14,
           "team_page_id": null
         },
         {
@@ -2541,10 +2541,10 @@
           "seed": 5,
           "team": "FS Bulldogs 14u (Helton)",
           "location": "MT. ULLA, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 4,
+          "runs_scored": 12,
           "team_page_id": null
         },
         {
@@ -2602,8 +2602,8 @@
           "team": "Red Clay Athletics 14U Kelly",
           "location": "Huntersville, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
+          "lost": 1,
+          "runs_allowed": 14,
           "runs_scored": 0,
           "team_page_id": null
         },
@@ -2642,9 +2642,9 @@
           "team": "14U Team Steele Creek Select",
           "location": "Charlotte, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 12,
+          "runs_scored": 4,
           "team_page_id": null
         },
         {
@@ -2697,10 +2697,10 @@
             "field": "Core:Hinson Core Field",
             "team_a": "14U Team Steele Creek Select",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 4,
             "team_b": "FS Bulldogs 14u (Helton)",
             "seed_b": null,
-            "score_b": null
+            "score_b": 12
           },
           {
             "game": 2,
@@ -2709,10 +2709,10 @@
             "field": "TOB:Field 1",
             "team_a": "NWNC Elite Gold",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 14,
             "team_b": "Red Clay Athletics 14U Kelly",
             "seed_b": null,
-            "score_b": null
+            "score_b": 0
           },
           {
             "game": 3,
@@ -3809,5 +3809,5 @@
   },
   "site_last_updated": "10/15/2026 12:00 PM",
   "tournament_id": 12521,
-  "fetched_at": "2026-10-17T10:07"
+  "fetched_at": "2026-10-17T10:18"
 }
