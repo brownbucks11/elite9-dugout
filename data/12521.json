@@ -102,19 +102,19 @@
           "team": "Fury Baseball 8u",
           "location": "Forest City, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 21,
+          "runs_scored": 11,
           "team_page_id": null
         },
         {
           "seed": 6,
           "team": "Dirtbags - Clark 8U",
           "location": "Hickory, NC",
-          "won": 0,
+          "won": 1,
           "lost": 1,
-          "runs_allowed": 18,
-          "runs_scored": 7,
+          "runs_allowed": 29,
+          "runs_scored": 28,
           "team_page_id": null
         }
       ],
@@ -139,10 +139,10 @@
             "field": "M. Rivers:Martha Rivers 4",
             "team_a": "Dirtbags - Clark 8U",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 21,
             "team_b": "Fury Baseball 8u",
             "seed_b": null,
-            "score_b": null
+            "score_b": 11
           },
           {
             "game": 3,
@@ -311,7 +311,7 @@
           "won": 2,
           "lost": 0,
           "runs_allowed": 9,
-          "runs_scored": 37,
+          "runs_scored": 36,
           "team_page_id": null
         },
         {
@@ -400,7 +400,7 @@
           "location": "Charlotte, NC",
           "won": 0,
           "lost": 2,
-          "runs_allowed": 30,
+          "runs_allowed": 29,
           "runs_scored": 12,
           "team_page_id": null
         },
@@ -438,10 +438,10 @@
           "seed": 17,
           "team": "Red Clay Athletics 9U Darcangelo",
           "location": "Charlotte, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 1,
+          "runs_scored": 10,
           "team_page_id": null
         },
         {
@@ -449,9 +449,9 @@
           "team": "ELITE BASEBALL EBC 9U",
           "location": "FOREST CITY, NC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 16,
-          "runs_scored": 4,
+          "lost": 2,
+          "runs_allowed": 26,
+          "runs_scored": 5,
           "team_page_id": null
         },
         {
@@ -546,7 +546,7 @@
             "field": "Westmoreld:Field 4",
             "team_a": "Union County Aces 9u",
             "seed_a": null,
-            "score_a": 14,
+            "score_a": 13,
             "team_b": "LKN Kingdom",
             "seed_b": null,
             "score_b": 1
@@ -582,10 +582,10 @@
             "field": "Westmoreld:Field 3",
             "team_a": "Red Clay Athletics 9U Darcangelo",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 10,
             "team_b": "ELITE BASEBALL EBC 9U",
             "seed_b": null,
-            "score_b": null
+            "score_b": 1
           },
           {
             "game": 11,
@@ -1894,9 +1894,9 @@
           "team": "Carolina Locos-Black",
           "location": "Waxhaw, NC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 10,
-          "runs_scored": 5,
+          "lost": 2,
+          "runs_allowed": 17,
+          "runs_scored": 9,
           "team_page_id": null
         },
         {
@@ -1963,10 +1963,10 @@
           "seed": 8,
           "team": "BOILING SPRINGS BULLDOGS BASEBALL RED 12U",
           "location": "BOILING SPRINGS, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 4,
+          "runs_scored": 7,
           "team_page_id": null
         },
         {
@@ -2023,10 +2023,10 @@
             "field": "M. Rivers:Martha Rivers 1",
             "team_a": "Carolina Locos-Black",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 4,
             "team_b": "BOILING SPRINGS BULLDOGS BASEBALL RED 12U",
             "seed_b": null,
-            "score_b": null
+            "score_b": 7
           },
           {
             "game": 4,
@@ -2501,10 +2501,10 @@
           "seed": 1,
           "team": "North Lincoln Destroyers",
           "location": "Denver, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 5,
+          "runs_scored": 6,
           "team_page_id": null
         },
         {
@@ -2542,9 +2542,9 @@
           "team": "FS Bulldogs 14u (Helton)",
           "location": "MT. ULLA, NC",
           "won": 1,
-          "lost": 0,
-          "runs_allowed": 4,
-          "runs_scored": 12,
+          "lost": 1,
+          "runs_allowed": 10,
+          "runs_scored": 17,
           "team_page_id": null
         },
         {
@@ -2552,8 +2552,8 @@
           "team": "Crowns Baseball",
           "location": "Indian Trail, NC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 8,
+          "lost": 2,
+          "runs_allowed": 16,
           "runs_scored": 3,
           "team_page_id": null
         },
@@ -2561,10 +2561,10 @@
           "seed": 7,
           "team": "Union County-Kraken",
           "location": "Indian trail, NC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
           "runs_allowed": 4,
-          "runs_scored": 5,
+          "runs_scored": 13,
           "team_page_id": null
         },
         {
@@ -2769,10 +2769,10 @@
             "field": "Core:Hinson Core Field",
             "team_a": "North Lincoln Destroyers",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 6,
             "team_b": "FS Bulldogs 14u (Helton)",
             "seed_b": null,
-            "score_b": null
+            "score_b": 5
           },
           {
             "game": 8,
@@ -2793,10 +2793,10 @@
             "field": "Tega Cay:Field 4",
             "team_a": "Crowns Baseball",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 0,
             "team_b": "Union County-Kraken",
             "seed_b": null,
-            "score_b": null
+            "score_b": 8
           },
           {
             "game": 10,
@@ -3809,5 +3809,5 @@
   },
   "site_last_updated": "10/15/2026 12:00 PM",
   "tournament_id": 12521,
-  "fetched_at": "2026-10-17T14:07"
+  "fetched_at": "2026-10-17T14:18"
 }
