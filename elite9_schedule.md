@@ -1,5 +1,5 @@
 # Elite 9 - Top Gun schedule
-_Updated Sat Oct 17, 2026 12:02 PM_
+_Updated Sat Oct 17, 2026 12:13 PM_
 
 ## SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND
 September 26 - 27 in Greater Charlotte Area, NC  
@@ -105,7 +105,7 @@ Tournament 12521 - [schedule page](https://playtopgunsports.com/GameTimesResults
 | 1 | LKN Bolts | Huntersville, NC | 1-0 | 14 | 6 |
 | 2 | ROCO Dirtbagz | Forest City, NC | 0-0 | 0 | 0 |
 | 3 | Elite 9 **<--** | Rock Hill, SC | 0-1 | 6 | 14 |
-| 4 | Union County Aces 9u | Monroe, NC | 1-0 | 23 | 8 |
+| 4 | Union County Aces 9u | Monroe, NC | 2-0 | 37 | 9 |
 | 5 | Team 24 | York, SC | 0-0 | 0 | 0 |
 | 6 | Union County Legends | Waxhaw, NC | 0-0 | 0 | 0 |
 | 7 | SC Tide - Lucariello | Clover, SC | 0-0 | 0 | 0 |
@@ -114,7 +114,7 @@ Tournament 12521 - [schedule page](https://playtopgunsports.com/GameTimesResults
 | 10 | LumberJacks | Gaston County, NC | 0-1 | 8 | 23 |
 | 11 | Weddington Wreckers | Weddington, NC | 0-1 | 11 | 13 |
 | 12 | Mountain Rage | Mars Hill, NC | 0-0 | 0 | 0 |
-| 13 | LKN Kingdom | Charlotte, NC | 0-0 | 0 | 0 |
+| 13 | LKN Kingdom | Charlotte, NC | 0-1 | 1 | 14 |
 | 14 | Carolina Icons | Stanfield, NC | 0-0 | 0 | 0 |
 | 15 | Legacy Baseball 9U - WHITE | Fort Mill, SC | 1-0 | 13 | 11 |
 | 16 | Carolina Royals 9Uw | Gastonia, NC | 0-0 | 0 | 0 |

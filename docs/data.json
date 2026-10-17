@@ -3,7 +3,7 @@
  "location": "Rock Hill, SC",
  "page_id": 31407,
  "team_url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=31407",
- "built": "Sat Oct 17, 2026 12:02 PM",
+ "built": "Sat Oct 17, 2026 12:13 PM",
  "record": {
   "w": 2,
   "l": 8,
@@ -2575,7 +2575,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-17T12:02",
+    "fetched_at": "2026-10-17T12:12",
     "url": "https://topgunstats.com/whos-playing/12521"
    },
    "next_game": {
@@ -2598,7 +2598,7 @@
     "team": "Elite 9",
     "location": "Rock Hill, SC",
     "rank": 5,
-    "tiebreak": "runs allowed",
+    "tiebreak": "runs scored",
     "h2h": {
      "LKN Bolts": "L"
     },
@@ -2652,24 +2652,25 @@
      "rank": 2,
      "tiebreak": "runs allowed",
      "h2h": {
-      "LumberJacks": "W"
+      "LumberJacks": "W",
+      "LKN Kingdom": "W"
      },
      "last": {
-      "opponent": "LumberJacks",
-      "rs": 23,
-      "ra": 8
+      "opponent": "LKN Kingdom",
+      "rs": 14,
+      "ra": 1
      },
-     "pool_w": 1,
+     "pool_w": 2,
      "pool_l": 0,
      "pool_t": 0,
-     "pool_rs": 23,
-     "pool_ra": 8,
+     "pool_rs": 37,
+     "pool_ra": 9,
      "seed": null,
      "bracket": null,
-     "won": 1,
+     "won": 2,
      "lost": 0,
-     "rs": 23,
-     "ra": 8
+     "rs": 37,
+     "ra": 9
     },
     {
      "team": "Legacy Baseball 9U - WHITE",
@@ -2725,7 +2726,7 @@
      "team": "Elite 9",
      "location": "Rock Hill, SC",
      "rank": 5,
-     "tiebreak": "runs allowed",
+     "tiebreak": "runs scored",
      "h2h": {
       "LKN Bolts": "L"
      },
@@ -2747,9 +2748,34 @@
      "ra": 14
     },
     {
+     "team": "LKN Kingdom",
+     "location": "Charlotte, NC",
+     "rank": 6,
+     "tiebreak": "runs scored",
+     "h2h": {
+      "Union County Aces 9u": "L"
+     },
+     "last": {
+      "opponent": "Union County Aces 9u",
+      "rs": 1,
+      "ra": 14
+     },
+     "pool_w": 0,
+     "pool_l": 1,
+     "pool_t": 0,
+     "pool_rs": 1,
+     "pool_ra": 14,
+     "seed": null,
+     "bracket": null,
+     "won": 0,
+     "lost": 1,
+     "rs": 1,
+     "ra": 14
+    },
+    {
      "team": "LumberJacks",
      "location": "Gaston County, NC",
-     "rank": 6,
+     "rank": 7,
      "tiebreak": "runs allowed",
      "h2h": {
       "Union County Aces 9u": "L"
@@ -2774,7 +2800,7 @@
     {
      "team": "Carolina Forge 9U",
      "location": "Gastonia, NC",
-     "rank": 8,
+     "rank": 9,
      "tiebreak": "coin flip (unresolved)",
      "h2h": {},
      "last": null,
@@ -2793,7 +2819,7 @@
     {
      "team": "Carolina Icons",
      "location": "Stanfield, NC",
-     "rank": 9,
+     "rank": 10,
      "tiebreak": "coin flip (unresolved)",
      "h2h": {},
      "last": null,
@@ -2812,7 +2838,7 @@
     {
      "team": "Carolina Royals 9Uw",
      "location": "Gastonia, NC",
-     "rank": 10,
+     "rank": 11,
      "tiebreak": "coin flip (unresolved)",
      "h2h": {},
      "last": null,
@@ -2831,7 +2857,7 @@
     {
      "team": "Diamond Crushers",
      "location": "Concord, NC",
-     "rank": 11,
+     "rank": 12,
      "tiebreak": "coin flip (unresolved)",
      "h2h": {},
      "last": null,
@@ -2850,25 +2876,6 @@
     {
      "team": "ELITE BASEBALL EBC 9U",
      "location": "FOREST CITY, NC",
-     "rank": 12,
-     "tiebreak": "coin flip (unresolved)",
-     "h2h": {},
-     "last": null,
-     "pool_w": 0,
-     "pool_l": 0,
-     "pool_t": 0,
-     "pool_rs": 0,
-     "pool_ra": 0,
-     "seed": null,
-     "bracket": null,
-     "won": 0,
-     "lost": 0,
-     "rs": 0,
-     "ra": 0
-    },
-    {
-     "team": "LKN Kingdom",
-     "location": "Charlotte, NC",
      "rank": 13,
      "tiebreak": "coin flip (unresolved)",
      "h2h": {},
@@ -3125,11 +3132,11 @@
      "field": "Westmoreld:Field 4",
      "team_a": "Union County Aces 9u",
      "seed_a": null,
-     "score_a": null,
+     "score_a": 14,
      "from_a": null,
      "team_b": "LKN Kingdom",
      "seed_b": null,
-     "score_b": null,
+     "score_b": 1,
      "from_b": null
     },
     {
@@ -5541,7 +5548,7 @@
      "entered_at": "2026-10-08T16:26:44.913Z",
      "level": "AA"
     },
-    "fetched_at": "2026-10-17T12:02"
+    "fetched_at": "2026-10-17T12:12"
    },
    "tgs": {
     "weather": null,
@@ -5666,7 +5673,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-17T12:02",
+    "fetched_at": "2026-10-17T12:12",
     "url": "https://topgunstats.com/whos-playing/12521"
    },
    "name": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
@@ -5780,11 +5787,11 @@
      "field": "Westmoreld:Field 4",
      "team_a": "Union County Aces 9u",
      "seed_a": null,
-     "score_a": null,
+     "score_a": 14,
      "from_a": null,
      "team_b": "LKN Kingdom",
      "seed_b": null,
-     "score_b": null,
+     "score_b": 1,
      "from_b": null
     },
     {
@@ -6376,10 +6383,10 @@
      "seed": 4,
      "team": "Union County Aces 9u",
      "location": "Monroe, NC",
-     "won": 1,
+     "won": 2,
      "lost": 0,
-     "runs_allowed": 8,
-     "runs_scored": 23,
+     "runs_allowed": 9,
+     "runs_scored": 37,
      "team_page_id": null
     },
     {
@@ -6467,9 +6474,9 @@
      "team": "LKN Kingdom",
      "location": "Charlotte, NC",
      "won": 0,
-     "lost": 0,
-     "runs_allowed": 0,
-     "runs_scored": 0,
+     "lost": 1,
+     "runs_allowed": 14,
+     "runs_scored": 1,
      "team_page_id": null
     },
     {
@@ -6600,7 +6607,7 @@
     "team": {
      "entered": false
     },
-    "fetched_at": "2026-10-17T12:02"
+    "fetched_at": "2026-10-17T12:12"
    },
    "tgs": {
     "weather": {
@@ -6688,7 +6695,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-17T12:02",
+    "fetched_at": "2026-10-17T12:12",
     "url": "https://topgunstats.com/whos-playing/12522"
    },
    "name": "Southeastern Winter World Series",
@@ -6720,7 +6727,7 @@
     "team": {
      "entered": false
     },
-    "fetched_at": "2026-10-17T12:02"
+    "fetched_at": "2026-10-17T12:12"
    },
    "tgs": {
     "weather": null,
@@ -6773,7 +6780,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-17T12:02",
+    "fetched_at": "2026-10-17T12:12",
     "url": "https://topgunstats.com/whos-playing/12524"
    },
    "name": "Road Runner vs Coyote ring weekend",
@@ -7029,6 +7036,47 @@
    "stats_fetched": "2026-10-16T11:18"
   },
   {
+   "team": "Union County Aces 9u",
+   "location": "Monroe, NC",
+   "page_id": null,
+   "url": null,
+   "w": 2,
+   "l": 0,
+   "t": 0,
+   "rs": 37,
+   "ra": 9,
+   "diff": 28,
+   "pct": 1.0,
+   "events": 1,
+   "log": [
+    {
+     "date": "2026-10-17",
+     "event_id": 12521,
+     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "section": "Pool Play",
+     "opponent": "LumberJacks",
+     "rs": 23,
+     "ra": 8,
+     "result": "W"
+    },
+    {
+     "date": "2026-10-17",
+     "event_id": 12521,
+     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "section": "Pool Play",
+     "opponent": "LKN Kingdom",
+     "rs": 14,
+     "ra": 1,
+     "result": "W"
+    }
+   ],
+   "points": 0,
+   "titles": 0,
+   "finishes": [],
+   "season": "",
+   "stats_fetched": null
+  },
+  {
    "team": "Carolina Rapid Fire - Ford",
    "location": "Lincolnton, NC",
    "page_id": null,
@@ -7096,37 +7144,6 @@
      "derived": true
     }
    ],
-   "season": "",
-   "stats_fetched": null
-  },
-  {
-   "team": "Union County Aces 9u",
-   "location": "Monroe, NC",
-   "page_id": null,
-   "url": null,
-   "w": 1,
-   "l": 0,
-   "t": 0,
-   "rs": 23,
-   "ra": 8,
-   "diff": 15,
-   "pct": 1.0,
-   "events": 1,
-   "log": [
-    {
-     "date": "2026-10-17",
-     "event_id": 12521,
-     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
-     "section": "Pool Play",
-     "opponent": "LumberJacks",
-     "rs": 23,
-     "ra": 8,
-     "result": "W"
-    }
-   ],
-   "points": 0,
-   "titles": 0,
-   "finishes": [],
    "season": "",
    "stats_fetched": null
   },
@@ -11874,13 +11891,13 @@
    "page_id": 37240,
    "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=37240",
    "w": 0,
-   "l": 9,
+   "l": 10,
    "t": 1,
-   "rs": 45,
-   "ra": 118,
-   "diff": -73,
-   "pct": 0.05,
-   "events": 4,
+   "rs": 46,
+   "ra": 132,
+   "diff": -86,
+   "pct": 0.045,
+   "events": 5,
    "log": [
     {
      "date": "2026-08-28",
@@ -11979,6 +11996,16 @@
      "section": "Gold Bracket",
      "opponent": "Dirtbags Baseball ESB",
      "rs": 2,
+     "ra": 14,
+     "result": "L"
+    },
+    {
+     "date": "2026-10-17",
+     "event_id": 12521,
+     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "section": "Pool Play",
+     "opponent": "Union County Aces 9u",
+     "rs": 1,
      "ra": 14,
      "result": "L"
     }
