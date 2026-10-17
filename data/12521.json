@@ -962,9 +962,9 @@
           "team": "North Lincoln Futures 35",
           "location": "Denver, NC",
           "won": 1,
-          "lost": 0,
-          "runs_allowed": 11,
-          "runs_scored": 12,
+          "lost": 1,
+          "runs_allowed": 25,
+          "runs_scored": 21,
           "team_page_id": null
         },
         {
@@ -1051,10 +1051,10 @@
           "seed": 12,
           "team": "Copperheads Black",
           "location": "Mooresville, NC",
-          "won": 0,
+          "won": 1,
           "lost": 1,
-          "runs_allowed": 8,
-          "runs_scored": 4,
+          "runs_allowed": 17,
+          "runs_scored": 18,
           "team_page_id": null
         }
       ],
@@ -1199,10 +1199,10 @@
             "field": "Tuckasee:Tuckaseegee 3",
             "team_a": "Copperheads Black",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 14,
             "team_b": "North Lincoln Futures 35",
             "seed_b": null,
-            "score_b": null
+            "score_b": 9
           }
         ],
         "Gold Bracket": [
@@ -1211,10 +1211,10 @@
             "day": "Sun",
             "time": "1:00 PM",
             "field": "Tuckasee:Tuckaseegee 3",
-            "team_a": "",
+            "team_a": "Legacy Baseball 10U - RED",
             "seed_a": 2,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Hooligans 10U",
             "seed_b": 3,
             "score_b": null
           },
@@ -1223,10 +1223,10 @@
             "day": "Sun",
             "time": "1:00 PM",
             "field": "Tuckasee:Tuckaseegee 2",
-            "team_a": "",
+            "team_a": "Canes Atlantic 10u Wagner",
             "seed_a": 1,
             "score_a": null,
-            "team_b": "",
+            "team_b": "LKN Kingdom",
             "seed_b": 4,
             "score_b": null
           },
@@ -1261,10 +1261,10 @@
             "day": "Sun",
             "time": "9:00 AM",
             "field": "Tuckasee:Tuckaseegee 3",
-            "team_a": "",
+            "team_a": "Copperheads Red",
             "seed_a": 6,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Carolina Locos- 10U Blue",
             "seed_b": 7,
             "score_b": null
           },
@@ -1273,10 +1273,10 @@
             "day": "Sun",
             "time": "9:00 AM",
             "field": "Tuckasee:Tuckaseegee 2",
-            "team_a": "",
+            "team_a": "Copperheads Black",
             "seed_a": 5,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Union County Aces",
             "seed_b": 8,
             "score_b": null
           },
@@ -1311,10 +1311,10 @@
             "day": "Sun",
             "time": "9:00 AM",
             "field": "Bradford:Field # 5",
-            "team_a": "",
+            "team_a": "Carolina Locos- 10U White",
             "seed_a": 10,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Newport Bombers 10U Yerdon",
             "seed_b": 11,
             "score_b": null
           },
@@ -1323,10 +1323,10 @@
             "day": "Sun",
             "time": "11:00 AM",
             "field": "Bradford:Field # 5",
-            "team_a": "",
+            "team_a": "North Lincoln Futures 35",
             "seed_a": 9,
             "score_a": null,
-            "team_b": "",
+            "team_b": "SBA Lake Norman Thunder - Blue",
             "seed_b": 12,
             "score_b": null
           },
@@ -1455,19 +1455,19 @@
           "team": "Yellow Jackets",
           "location": "Bessemer City, NC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 12,
-          "runs_scored": 8,
+          "lost": 2,
+          "runs_allowed": 26,
+          "runs_scored": 10,
           "team_page_id": null
         },
         {
           "seed": 11,
           "team": "Dry Pond 2034",
           "location": "Denver, NC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
-          "runs_allowed": 3,
-          "runs_scored": 15,
+          "runs_allowed": 5,
+          "runs_scored": 29,
           "team_page_id": null
         },
         {
@@ -1620,10 +1620,10 @@
             "field": "M. Rivers:Martha Rivers 1",
             "team_a": "Dry Pond 2034",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 14,
             "team_b": "Yellow Jackets",
             "seed_b": null,
-            "score_b": null
+            "score_b": 2
           },
           {
             "game": 12,
@@ -1903,10 +1903,10 @@
           "seed": 2,
           "team": "Banana Peppers Baseball",
           "location": "Gastonia, NC",
-          "won": 0,
+          "won": 1,
           "lost": 1,
-          "runs_allowed": 16,
-          "runs_scored": 0,
+          "runs_allowed": 24,
+          "runs_scored": 12,
           "team_page_id": null
         },
         {
@@ -1944,9 +1944,9 @@
           "team": "Carolina Cutters Baseball",
           "location": "Concord, NC",
           "won": 1,
-          "lost": 0,
-          "runs_allowed": 1,
-          "runs_scored": 14,
+          "lost": 1,
+          "runs_allowed": 13,
+          "runs_scored": 22,
           "team_page_id": null
         },
         {
@@ -2107,10 +2107,10 @@
             "field": "SP:Field #3",
             "team_a": "Carolina Cutters Baseball",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 8,
             "team_b": "Banana Peppers Baseball",
             "seed_b": null,
-            "score_b": null
+            "score_b": 12
           }
         ],
         "Gold Bracket": [
@@ -3809,5 +3809,5 @@
   },
   "site_last_updated": "10/15/2026 12:00 PM",
   "tournament_id": 12521,
-  "fetched_at": "2026-10-17T19:26"
+  "fetched_at": "2026-10-17T19:36"
 }
