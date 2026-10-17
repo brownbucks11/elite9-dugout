@@ -2592,9 +2592,9 @@
           "team": "Banana Peppers Baseball",
           "location": "Gastonia, NC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 11,
-          "runs_scored": 2,
+          "lost": 2,
+          "runs_allowed": 18,
+          "runs_scored": 4,
           "team_page_id": null
         },
         {
@@ -2671,10 +2671,10 @@
           "seed": 18,
           "team": "Regulators",
           "location": "Indian Trail, NC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
-          "runs_allowed": 6,
-          "runs_scored": 8,
+          "runs_allowed": 8,
+          "runs_scored": 15,
           "team_page_id": null
         },
         {
@@ -2901,10 +2901,10 @@
             "field": "FDP:Field #2",
             "team_a": "Regulators",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 7,
             "team_b": "Banana Peppers Baseball",
             "seed_b": null,
-            "score_b": null
+            "score_b": 2
           },
           {
             "game": 19,
@@ -2925,10 +2925,10 @@
             "day": "Sun",
             "time": "9:00 AM",
             "field": "FDP:Field #3",
-            "team_a": "",
+            "team_a": "FS Bulldogs 14u (Dane)",
             "seed_a": 4,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Union County-Kraken",
             "seed_b": 5,
             "score_b": null
           },
@@ -2937,10 +2937,10 @@
             "day": "Sun",
             "time": "11:00 AM",
             "field": "FDP:Field #3",
-            "team_a": "",
+            "team_a": "NWNC Elite Gold",
             "seed_a": 2,
             "score_a": null,
-            "team_b": "",
+            "team_b": "GBC Wyrick",
             "seed_b": 3,
             "score_b": null
           },
@@ -2952,7 +2952,7 @@
             "team_a": "Winner Game #1",
             "seed_a": null,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Wow Factor Carolinas Select 14U",
             "seed_b": 1,
             "score_b": null
           },
@@ -2975,10 +2975,10 @@
             "day": "Sun",
             "time": "11:00 AM",
             "field": "FDP:Field #1",
-            "team_a": "",
+            "team_a": "Forest Acres Falcons",
             "seed_a": 9,
             "score_a": null,
-            "team_b": "",
+            "team_b": "North Lincoln Destroyers",
             "seed_b": 10,
             "score_b": null
           },
@@ -2987,10 +2987,10 @@
             "day": "Sun",
             "time": "1:00 PM",
             "field": "FDP:Field #1",
-            "team_a": "",
+            "team_a": "Bethany Badgers",
             "seed_a": 7,
             "score_a": null,
-            "team_b": "",
+            "team_b": "McDowell Militia Baseball 14U",
             "seed_b": 8,
             "score_b": null
           },
@@ -3002,7 +3002,7 @@
             "team_a": "Winner Game #1",
             "seed_a": null,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Regulators",
             "seed_b": 6,
             "score_b": null
           },
@@ -3025,10 +3025,10 @@
             "day": "Sun",
             "time": "9:00 AM",
             "field": "Tega Cay:Field 4",
-            "team_a": "",
+            "team_a": "Crowns Baseball",
             "seed_a": 14,
             "score_a": null,
-            "team_b": "",
+            "team_b": "14U Team Steele Creek Select",
             "seed_b": 15,
             "score_b": null
           },
@@ -3037,10 +3037,10 @@
             "day": "Sun",
             "time": "11:00 AM",
             "field": "Tega Cay:Field 4",
-            "team_a": "",
+            "team_a": "KLSC Tomahawks",
             "seed_a": 12,
             "score_a": null,
-            "team_b": "",
+            "team_b": "GBC Davis 14U",
             "seed_b": 13,
             "score_b": null
           },
@@ -3052,7 +3052,7 @@
             "team_a": "Winner Game #1",
             "seed_a": null,
             "score_a": null,
-            "team_b": "",
+            "team_b": "FS Bulldogs 14u (Helton)",
             "seed_b": 11,
             "score_b": null
           },
@@ -3075,10 +3075,10 @@
             "day": "Sun",
             "time": "9:00 AM",
             "field": "FDP:Field #2",
-            "team_a": "",
+            "team_a": "Banana Peppers Baseball",
             "seed_a": 16,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Red Clay Athletics 14U Kelly",
             "seed_b": 19,
             "score_b": null
           },
@@ -3087,10 +3087,10 @@
             "day": "Sun",
             "time": "9:00 AM",
             "field": "FDP:Field #1",
-            "team_a": "",
+            "team_a": "Waxhaw Militia 14U",
             "seed_a": 17,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Toxic NC",
             "seed_b": 18,
             "score_b": null
           },
@@ -3809,5 +3809,5 @@
   },
   "site_last_updated": "10/15/2026 12:00 PM",
   "tournament_id": 12521,
-  "fetched_at": "2026-10-17T19:47"
+  "fetched_at": "2026-10-17T19:57"
 }
