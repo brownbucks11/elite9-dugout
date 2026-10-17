@@ -91,10 +91,10 @@
           "seed": 4,
           "team": "Waxhaw Militia",
           "location": "Waxhaw, NC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
-          "runs_allowed": 7,
-          "runs_scored": 18,
+          "runs_allowed": 14,
+          "runs_scored": 37,
           "team_page_id": null
         },
         {
@@ -102,9 +102,9 @@
           "team": "Fury Baseball 8u",
           "location": "Forest City, NC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 21,
-          "runs_scored": 11,
+          "lost": 2,
+          "runs_allowed": 40,
+          "runs_scored": 18,
           "team_page_id": null
         },
         {
@@ -151,10 +151,10 @@
             "field": "M. Rivers:Martha Rivers 4",
             "team_a": "Waxhaw Militia",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 19,
             "team_b": "Fury Baseball 8u",
             "seed_b": null,
-            "score_b": null
+            "score_b": 7
           },
           {
             "game": 4,
@@ -1001,10 +1001,10 @@
           "seed": 7,
           "team": "Hooligans 10U",
           "location": "Belmont, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 4,
+          "runs_scored": 8,
           "team_page_id": null
         },
         {
@@ -1052,9 +1052,9 @@
           "team": "Copperheads Black",
           "location": "Mooresville, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 8,
+          "runs_scored": 4,
           "team_page_id": null
         }
       ],
@@ -1151,10 +1151,10 @@
             "field": "Tuckasee:Tuckaseegee 3",
             "team_a": "Hooligans 10U",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 8,
             "team_b": "Copperheads Black",
             "seed_b": null,
-            "score_b": null
+            "score_b": 4
           },
           {
             "game": 9,
@@ -3809,5 +3809,5 @@
   },
   "site_last_updated": "10/15/2026 12:00 PM",
   "tournament_id": 12521,
-  "fetched_at": "2026-10-17T15:26"
+  "fetched_at": "2026-10-17T15:36"
 }
