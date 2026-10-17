@@ -1395,9 +1395,9 @@
           "team": "Newport Bombers 11U Janson",
           "location": "Rock Hill, SC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 6,
-          "runs_scored": 5,
+          "lost": 2,
+          "runs_allowed": 22,
+          "runs_scored": 8,
           "team_page_id": null
         },
         {
@@ -1424,10 +1424,10 @@
           "seed": 7,
           "team": "11u Mission Baseball",
           "location": "Waxhaw, NC",
-          "won": 0,
+          "won": 1,
           "lost": 1,
-          "runs_allowed": 9,
-          "runs_scored": 8,
+          "runs_allowed": 12,
+          "runs_scored": 24,
           "team_page_id": null
         },
         {
@@ -1644,10 +1644,10 @@
             "field": "M. Rivers:Martha Rivers 3",
             "team_a": "Newport Bombers 11U Janson",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 3,
             "team_b": "11u Mission Baseball",
             "seed_b": null,
-            "score_b": null
+            "score_b": 16
           }
         ],
         "Gold Bracket": [
@@ -2119,10 +2119,10 @@
             "day": "Sun",
             "time": "1:00 PM",
             "field": "Westmoreld:Field 3",
-            "team_a": "",
+            "team_a": "Carolina Cutters Baseball",
             "seed_a": 4,
             "score_a": null,
-            "team_b": "",
+            "team_b": "BOILING SPRINGS BULLDOGS BASEBALL RED 12U",
             "seed_b": 5,
             "score_b": null
           },
@@ -2131,10 +2131,10 @@
             "day": "Sun",
             "time": "1:00 PM",
             "field": "Westmoreld:Field 2",
-            "team_a": "",
+            "team_a": "BS BULLDOGS BlACK 12u",
             "seed_a": 3,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Alexander Outlaws",
             "seed_b": 6,
             "score_b": null
           },
@@ -2146,7 +2146,7 @@
             "team_a": "Winner Game #1",
             "seed_a": null,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Athletes Lab Navy 11u",
             "seed_b": 1,
             "score_b": null
           },
@@ -2158,7 +2158,7 @@
             "team_a": "Winner Game #2",
             "seed_a": null,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Lincoln County Warriors",
             "seed_b": 2,
             "score_b": null
           },
@@ -2193,10 +2193,10 @@
             "day": "Sun",
             "time": "9:00 AM",
             "field": "SP:Field #1",
-            "team_a": "",
+            "team_a": "Carolina Locos-Black",
             "seed_a": 8,
             "score_a": null,
-            "team_b": "",
+            "team_b": "LKN Kingdom",
             "seed_b": 9,
             "score_b": null
           },
@@ -2205,10 +2205,10 @@
             "day": "Sun",
             "time": "9:00 AM",
             "field": "SP:Field #3",
-            "team_a": "",
+            "team_a": "Banana Peppers Baseball",
             "seed_a": 7,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Waxhaw Militia",
             "seed_b": 10,
             "score_b": null
           },
@@ -3809,5 +3809,5 @@
   },
   "site_last_updated": "10/15/2026 12:00 PM",
   "tournament_id": 12521,
-  "fetched_at": "2026-10-17T19:36"
+  "fetched_at": "2026-10-17T19:47"
 }
