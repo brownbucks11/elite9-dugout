@@ -368,10 +368,10 @@
           "seed": 10,
           "team": "LumberJacks",
           "location": "Gaston County, NC",
-          "won": 0,
+          "won": 1,
           "lost": 1,
-          "runs_allowed": 23,
-          "runs_scored": 8,
+          "runs_allowed": 27,
+          "runs_scored": 24,
           "team_page_id": null
         },
         {
@@ -449,9 +449,9 @@
           "team": "ELITE BASEBALL EBC 9U",
           "location": "FOREST CITY, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 16,
+          "runs_scored": 4,
           "team_page_id": null
         },
         {
@@ -534,10 +534,10 @@
             "field": "Westmoreld:Field 3",
             "team_a": "LumberJacks",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 16,
             "team_b": "ELITE BASEBALL EBC 9U",
             "seed_b": null,
-            "score_b": null
+            "score_b": 4
           },
           {
             "game": 7,
@@ -1415,9 +1415,9 @@
           "team": "ELITE BASEBALL 11U EBC",
           "location": "Forest City, NC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 22,
-          "runs_scored": 0,
+          "lost": 2,
+          "runs_allowed": 40,
+          "runs_scored": 3,
           "team_page_id": null
         },
         {
@@ -1434,10 +1434,10 @@
           "seed": 8,
           "team": "Orange County Crushers - Orange",
           "location": "Chapel Hill, NC",
-          "won": 0,
+          "won": 1,
           "lost": 1,
-          "runs_allowed": 9,
-          "runs_scored": 5,
+          "runs_allowed": 12,
+          "runs_scored": 23,
           "team_page_id": null
         },
         {
@@ -1524,10 +1524,10 @@
             "field": "M. Rivers:Martha Rivers 2",
             "team_a": "Orange County Crushers - Orange",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 18,
             "team_b": "ELITE BASEBALL 11U EBC",
             "seed_b": null,
-            "score_b": null
+            "score_b": 3
           },
           {
             "game": 4,
@@ -1973,10 +1973,10 @@
           "seed": 9,
           "team": "BS BULLDOGS BlACK 12u",
           "location": "BOILING SPRINGS, NC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
-          "runs_allowed": 5,
-          "runs_scored": 10,
+          "runs_allowed": 10,
+          "runs_scored": 30,
           "team_page_id": null
         },
         {
@@ -1984,9 +1984,9 @@
           "team": "Waxhaw Militia",
           "location": "Waxhaw, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 20,
+          "runs_scored": 5,
           "team_page_id": null
         }
       ],
@@ -2011,10 +2011,10 @@
             "field": "M. Rivers:Martha Rivers 1",
             "team_a": "BS BULLDOGS BlACK 12u",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 20,
             "team_b": "Waxhaw Militia",
             "seed_b": null,
-            "score_b": null
+            "score_b": 5
           },
           {
             "game": 3,
@@ -3129,9 +3129,9 @@
           "team": "Carolina Blue Bloods",
           "location": "Indian Trail, NC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 10,
-          "runs_scored": 2,
+          "lost": 2,
+          "runs_allowed": 18,
+          "runs_scored": 6,
           "team_page_id": null
         },
         {
@@ -3178,10 +3178,10 @@
           "seed": 7,
           "team": "Union County Badboys",
           "location": "Union, SC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 4,
+          "runs_scored": 8,
           "team_page_id": null
         }
       ],
@@ -3218,10 +3218,10 @@
             "field": "FDP:Field #2",
             "team_a": "Carolina Blue Bloods",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 4,
             "team_b": "Union County Badboys",
             "seed_b": null,
-            "score_b": null
+            "score_b": 8
           },
           {
             "game": 4,
@@ -3809,5 +3809,5 @@
   },
   "site_last_updated": "10/15/2026 12:00 PM",
   "tournament_id": 12521,
-  "fetched_at": "2026-10-17T12:13"
+  "fetched_at": "2026-10-17T12:23"
 }
