@@ -3,7 +3,7 @@
  "location": "Rock Hill, SC",
  "page_id": 31407,
  "team_url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=31407",
- "built": "Sat Oct 17, 2026 04:08 PM",
+ "built": "Sat Oct 17, 2026 04:18 PM",
  "record": {
   "w": 2,
   "l": 9,
@@ -2575,7 +2575,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-17T16:08",
+    "fetched_at": "2026-10-17T16:18",
     "url": "https://topgunstats.com/whos-playing/12521"
    },
    "next_game": null,
@@ -2583,7 +2583,7 @@
    "standing": {
     "team": "Elite 9",
     "location": "Rock Hill, SC",
-    "rank": 14,
+    "rank": 15,
     "tiebreak": "runs allowed",
     "h2h": {
      "LKN Bolts": "L",
@@ -2741,24 +2741,25 @@
      "rank": 6,
      "tiebreak": "runs allowed",
      "h2h": {
-      "LKN Kingdom": "W"
+      "LKN Kingdom": "W",
+      "Carolina Icons": "W"
      },
      "last": {
-      "opponent": "LKN Kingdom",
-      "rs": 16,
-      "ra": 11
+      "opponent": "Carolina Icons",
+      "rs": 9,
+      "ra": 3
      },
-     "pool_w": 1,
+     "pool_w": 2,
      "pool_l": 0,
      "pool_t": 0,
-     "pool_rs": 16,
-     "pool_ra": 11,
+     "pool_rs": 25,
+     "pool_ra": 14,
      "seed": null,
      "bracket": null,
-     "won": 1,
+     "won": 2,
      "lost": 0,
-     "rs": 16,
-     "ra": 11
+     "rs": 25,
+     "ra": 14
     },
     {
      "team": "Weddington Wreckers",
@@ -2864,9 +2865,34 @@
      "ra": 7
     },
     {
+     "team": "Carolina Icons",
+     "location": "Stanfield, NC",
+     "rank": 11,
+     "tiebreak": "runs allowed",
+     "h2h": {
+      "Diamond Crushers": "L"
+     },
+     "last": {
+      "opponent": "Diamond Crushers",
+      "rs": 3,
+      "ra": 9
+     },
+     "pool_w": 0,
+     "pool_l": 1,
+     "pool_t": 0,
+     "pool_rs": 3,
+     "pool_ra": 9,
+     "seed": null,
+     "bracket": null,
+     "won": 0,
+     "lost": 1,
+     "rs": 3,
+     "ra": 9
+    },
+    {
      "team": "Carolina Royals 9Uw",
      "location": "Gastonia, NC",
-     "rank": 11,
+     "rank": 12,
      "tiebreak": "runs allowed",
      "h2h": {
       "Union County Legends": "L"
@@ -2891,7 +2917,7 @@
     {
      "team": "ELITE BASEBALL EBC 9U",
      "location": "FOREST CITY, NC",
-     "rank": 12,
+     "rank": 13,
      "tiebreak": "runs allowed",
      "h2h": {
       "LumberJacks": "L",
@@ -2917,7 +2943,7 @@
     {
      "team": "LKN Kingdom",
      "location": "Charlotte, NC",
-     "rank": 13,
+     "rank": 14,
      "tiebreak": "runs allowed",
      "h2h": {
       "Union County Aces 9u": "L",
@@ -2943,7 +2969,7 @@
     {
      "team": "Elite 9",
      "location": "Rock Hill, SC",
-     "rank": 14,
+     "rank": 15,
      "tiebreak": "runs allowed",
      "h2h": {
       "LKN Bolts": "L",
@@ -2969,25 +2995,6 @@
     {
      "team": "Carolina Forge 9U",
      "location": "Gastonia, NC",
-     "rank": 16,
-     "tiebreak": "coin flip (unresolved)",
-     "h2h": {},
-     "last": null,
-     "pool_w": 0,
-     "pool_l": 0,
-     "pool_t": 0,
-     "pool_rs": 0,
-     "pool_ra": 0,
-     "seed": null,
-     "bracket": null,
-     "won": 0,
-     "lost": 0,
-     "rs": 0,
-     "ra": 0
-    },
-    {
-     "team": "Carolina Icons",
-     "location": "Stanfield, NC",
      "rank": 17,
      "tiebreak": "coin flip (unresolved)",
      "h2h": {},
@@ -3296,11 +3303,11 @@
      "field": "Westmoreld:Field 4",
      "team_a": "Diamond Crushers",
      "seed_a": null,
-     "score_a": null,
+     "score_a": 9,
      "from_a": null,
      "team_b": "Carolina Icons",
      "seed_b": null,
-     "score_b": null,
+     "score_b": 3,
      "from_b": null
     },
     {
@@ -5562,7 +5569,7 @@
    "official": false,
    "confirmed": false,
    "summary": {
-    "rank": 14,
+    "rank": 15,
     "teams": 19,
     "pool": "0-2",
     "bracket": null,
@@ -5584,7 +5591,7 @@
      "entered_at": "2026-10-08T16:26:44.913Z",
      "level": "AA"
     },
-    "fetched_at": "2026-10-17T16:08"
+    "fetched_at": "2026-10-17T16:18"
    },
    "tgs": {
     "weather": null,
@@ -5709,7 +5716,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-17T16:08",
+    "fetched_at": "2026-10-17T16:18",
     "url": "https://topgunstats.com/whos-playing/12521"
    },
    "name": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
@@ -5951,11 +5958,11 @@
      "field": "Westmoreld:Field 4",
      "team_a": "Diamond Crushers",
      "seed_a": null,
-     "score_a": null,
+     "score_a": 9,
      "from_a": null,
      "team_b": "Carolina Icons",
      "seed_b": null,
-     "score_b": null,
+     "score_b": 3,
      "from_b": null
     },
     {
@@ -6459,10 +6466,10 @@
      "seed": 8,
      "team": "Diamond Crushers",
      "location": "Concord, NC",
-     "won": 1,
+     "won": 2,
      "lost": 0,
-     "runs_allowed": 11,
-     "runs_scored": 16,
+     "runs_allowed": 14,
+     "runs_scored": 25,
      "team_page_id": null
     },
     {
@@ -6520,9 +6527,9 @@
      "team": "Carolina Icons",
      "location": "Stanfield, NC",
      "won": 0,
-     "lost": 0,
-     "runs_allowed": 0,
-     "runs_scored": 0,
+     "lost": 1,
+     "runs_allowed": 9,
+     "runs_scored": 3,
      "team_page_id": null
     },
     {
@@ -6629,7 +6636,7 @@
     "team": {
      "entered": false
     },
-    "fetched_at": "2026-10-17T16:08"
+    "fetched_at": "2026-10-17T16:18"
    },
    "tgs": {
     "weather": {
@@ -6717,7 +6724,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-17T16:08",
+    "fetched_at": "2026-10-17T16:18",
     "url": "https://topgunstats.com/whos-playing/12522"
    },
    "name": "Southeastern Winter World Series",
@@ -6749,7 +6756,7 @@
     "team": {
      "entered": false
     },
-    "fetched_at": "2026-10-17T16:08"
+    "fetched_at": "2026-10-17T16:18"
    },
    "tgs": {
     "weather": null,
@@ -6802,7 +6809,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-17T16:08",
+    "fetched_at": "2026-10-17T16:18",
     "url": "https://topgunstats.com/whos-playing/12524"
    },
    "name": "Road Runner vs Coyote ring weekend",
@@ -7170,6 +7177,64 @@
    "stats_fetched": null
   },
   {
+   "team": "Diamond Crushers",
+   "location": "Concord, NC",
+   "page_id": 37381,
+   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=37381",
+   "w": 2,
+   "l": 0,
+   "t": 0,
+   "rs": 25,
+   "ra": 14,
+   "diff": 11,
+   "pct": 1.0,
+   "events": 1,
+   "log": [
+    {
+     "date": "2026-10-17",
+     "event_id": 12521,
+     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "section": "Pool Play",
+     "opponent": "LKN Kingdom",
+     "rs": 16,
+     "ra": 11,
+     "result": "W"
+    },
+    {
+     "date": "2026-10-17",
+     "event_id": 12521,
+     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "section": "Pool Play",
+     "opponent": "Carolina Icons",
+     "rs": 9,
+     "ra": 3,
+     "result": "W"
+    }
+   ],
+   "points": 300,
+   "titles": 0,
+   "finishes": [
+    {
+     "date": "2026-09-05",
+     "name": "TOP GUN-USA SPORTS---SATURDAY ONLY",
+     "won": 0,
+     "lost": 0,
+     "standing": "",
+     "points": 0
+    },
+    {
+     "date": "2026-10-03",
+     "name": "DOUBLE POINTS PINK ZONE QUALIFIER---ACTIVATE WINTER FREE PAID BERTHS",
+     "won": 0,
+     "lost": 2,
+     "standing": "6th (Gold)",
+     "points": 300
+    }
+   ],
+   "season": "08/01/2026 - 10/16/2026",
+   "stats_fetched": "2026-10-16T11:17"
+  },
+  {
    "team": "M&M Baseball 9u",
    "location": "Browns Summit, NC",
    "page_id": null,
@@ -7209,54 +7274,6 @@
    "finishes": [],
    "season": "",
    "stats_fetched": null
-  },
-  {
-   "team": "Diamond Crushers",
-   "location": "Concord, NC",
-   "page_id": 37381,
-   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=37381",
-   "w": 1,
-   "l": 0,
-   "t": 0,
-   "rs": 16,
-   "ra": 11,
-   "diff": 5,
-   "pct": 1.0,
-   "events": 1,
-   "log": [
-    {
-     "date": "2026-10-17",
-     "event_id": 12521,
-     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
-     "section": "Pool Play",
-     "opponent": "LKN Kingdom",
-     "rs": 16,
-     "ra": 11,
-     "result": "W"
-    }
-   ],
-   "points": 300,
-   "titles": 0,
-   "finishes": [
-    {
-     "date": "2026-09-05",
-     "name": "TOP GUN-USA SPORTS---SATURDAY ONLY",
-     "won": 0,
-     "lost": 0,
-     "standing": "",
-     "points": 0
-    },
-    {
-     "date": "2026-10-03",
-     "name": "DOUBLE POINTS PINK ZONE QUALIFIER---ACTIVATE WINTER FREE PAID BERTHS",
-     "won": 0,
-     "lost": 2,
-     "standing": "6th (Gold)",
-     "points": 300
-    }
-   ],
-   "season": "08/01/2026 - 10/16/2026",
-   "stats_fetched": "2026-10-16T11:17"
   },
   {
    "team": "DYBA Force 9U",
@@ -11169,66 +11186,6 @@
    "stats_fetched": "2026-10-16T11:17"
   },
   {
-   "team": "Carolina Icons",
-   "location": "Stanfield, NC",
-   "page_id": 35143,
-   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=35143",
-   "w": 1,
-   "l": 2,
-   "t": 0,
-   "rs": 30,
-   "ra": 31,
-   "diff": -1,
-   "pct": 0.333,
-   "events": 1,
-   "log": [
-    {
-     "date": "2026-09-11",
-     "event_id": 13600,
-     "event": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
-     "section": "Pool Play",
-     "opponent": "Carolina Trash Pandas",
-     "rs": 2,
-     "ra": 12,
-     "result": "L"
-    },
-    {
-     "date": "2026-09-11",
-     "event_id": 13600,
-     "event": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
-     "section": "Pool Play",
-     "opponent": "LKN Kingdom",
-     "rs": 17,
-     "ra": 5,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-11",
-     "event_id": 13600,
-     "event": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
-     "section": "Silver Bracket",
-     "opponent": "Mara Bulls",
-     "rs": 11,
-     "ra": 14,
-     "result": "L"
-    }
-   ],
-   "points": 275,
-   "titles": 0,
-   "finishes": [
-    {
-     "date": "2026-09-11",
-     "name": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
-     "won": 1,
-     "lost": 2,
-     "standing": "2nd (Silver)",
-     "points": 275
-    }
-   ],
-   "season": "08/01/2026 - 10/16/2026",
-   "stats_fetched": "2026-10-16T11:17"
-  },
-  {
    "team": "Carolina Crushers 9U-Franklin",
    "location": "Reidsville, NC",
    "page_id": 35506,
@@ -11606,6 +11563,76 @@
      "lost": 2,
      "standing": "8th (Gold)",
      "points": 300
+    }
+   ],
+   "season": "08/01/2026 - 10/16/2026",
+   "stats_fetched": "2026-10-16T11:17"
+  },
+  {
+   "team": "Carolina Icons",
+   "location": "Stanfield, NC",
+   "page_id": 35143,
+   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=35143",
+   "w": 1,
+   "l": 3,
+   "t": 0,
+   "rs": 33,
+   "ra": 40,
+   "diff": -7,
+   "pct": 0.25,
+   "events": 2,
+   "log": [
+    {
+     "date": "2026-09-11",
+     "event_id": 13600,
+     "event": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
+     "section": "Pool Play",
+     "opponent": "Carolina Trash Pandas",
+     "rs": 2,
+     "ra": 12,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-11",
+     "event_id": 13600,
+     "event": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
+     "section": "Pool Play",
+     "opponent": "LKN Kingdom",
+     "rs": 17,
+     "ra": 5,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-11",
+     "event_id": 13600,
+     "event": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
+     "section": "Silver Bracket",
+     "opponent": "Mara Bulls",
+     "rs": 11,
+     "ra": 14,
+     "result": "L"
+    },
+    {
+     "date": "2026-10-17",
+     "event_id": 12521,
+     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "section": "Pool Play",
+     "opponent": "Diamond Crushers",
+     "rs": 3,
+     "ra": 9,
+     "result": "L"
+    }
+   ],
+   "points": 275,
+   "titles": 0,
+   "finishes": [
+    {
+     "date": "2026-09-11",
+     "name": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
+     "won": 1,
+     "lost": 2,
+     "standing": "2nd (Silver)",
+     "points": 275
     }
    ],
    "season": "08/01/2026 - 10/16/2026",
