@@ -951,10 +951,10 @@
           "seed": 2,
           "team": "Legacy Baseball 10U - RED",
           "location": "Fort Mill, SC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 3,
+          "runs_scored": 16,
           "team_page_id": null
         },
         {
@@ -1012,9 +1012,9 @@
           "team": "SBA Lake Norman Thunder - Blue",
           "location": "Cornelius, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 16,
+          "runs_scored": 3,
           "team_page_id": null
         },
         {
@@ -1079,10 +1079,10 @@
             "field": "Tuckasee:Tuckaseegee 3",
             "team_a": "SBA Lake Norman Thunder - Blue",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 3,
             "team_b": "Legacy Baseball 10U - RED",
             "seed_b": null,
-            "score_b": null
+            "score_b": 16
           },
           {
             "game": 3,
@@ -1415,8 +1415,8 @@
           "team": "ELITE BASEBALL 11U EBC",
           "location": "Forest City, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
+          "lost": 1,
+          "runs_allowed": 22,
           "runs_scored": 0,
           "team_page_id": null
         },
@@ -1484,10 +1484,10 @@
           "seed": 13,
           "team": "Riptide 11u-Blue",
           "location": "Durham, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
           "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_scored": 22,
           "team_page_id": null
         }
       ],
@@ -1512,10 +1512,10 @@
             "field": "M. Rivers:Martha Rivers 3",
             "team_a": "Riptide 11u-Blue",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 22,
             "team_b": "ELITE BASEBALL 11U EBC",
             "seed_b": null,
-            "score_b": null
+            "score_b": 0
           },
           {
             "game": 3,
@@ -1833,10 +1833,10 @@
           "seed": 1,
           "team": "Cleveland County Warriors",
           "location": "Shelby, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 2,
+          "runs_scored": 14,
           "team_page_id": null
         },
         {
@@ -1864,9 +1864,9 @@
           "team": "NL Destroyers - 2033",
           "location": "Denver, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 14,
+          "runs_scored": 2,
           "team_page_id": null
         },
         {
@@ -1894,9 +1894,9 @@
           "team": "Carolina Locos-Black",
           "location": "Waxhaw, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 10,
+          "runs_scored": 5,
           "team_page_id": null
         },
         {
@@ -1973,10 +1973,10 @@
           "seed": 9,
           "team": "BS BULLDOGS BlACK 12u",
           "location": "BOILING SPRINGS, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 5,
+          "runs_scored": 10,
           "team_page_id": null
         },
         {
@@ -1999,10 +1999,10 @@
             "field": "M. Rivers:Martha Rivers 1",
             "team_a": "BS BULLDOGS BlACK 12u",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 10,
             "team_b": "Carolina Locos-Black",
             "seed_b": null,
-            "score_b": null
+            "score_b": 5
           },
           {
             "game": 2,
@@ -3809,5 +3809,5 @@
   },
   "site_last_updated": "10/15/2026 12:00 PM",
   "tournament_id": 12521,
-  "fetched_at": "2026-10-17T10:18"
+  "fetched_at": "2026-10-17T10:28"
 }
