@@ -981,10 +981,10 @@
           "seed": 5,
           "team": "Union County Aces",
           "location": "Monroe, NC",
-          "won": 0,
+          "won": 1,
           "lost": 1,
-          "runs_allowed": 15,
-          "runs_scored": 3,
+          "runs_allowed": 21,
+          "runs_scored": 19,
           "team_page_id": null
         },
         {
@@ -1012,9 +1012,9 @@
           "team": "SBA Lake Norman Thunder - Blue",
           "location": "Cornelius, NC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 16,
-          "runs_scored": 3,
+          "lost": 2,
+          "runs_allowed": 32,
+          "runs_scored": 9,
           "team_page_id": null
         },
         {
@@ -1103,10 +1103,10 @@
             "field": "Tuckasee:Tuckaseegee 3",
             "team_a": "SBA Lake Norman Thunder - Blue",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 6,
             "team_b": "Union County Aces",
             "seed_b": null,
-            "score_b": null
+            "score_b": 16
           },
           {
             "game": 5,
@@ -3809,5 +3809,5 @@
   },
   "site_last_updated": "10/15/2026 12:00 PM",
   "tournament_id": 12521,
-  "fetched_at": "2026-10-17T11:52"
+  "fetched_at": "2026-10-17T12:02"
 }
