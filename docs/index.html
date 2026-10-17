@@ -455,7 +455,11 @@
 
 <footer id="foot"></footer>
 
-<script src="data.js"></script>
+<script>
+  // Load the data with a changing query string so a reload always gets the newest build
+  // (GitHub Pages lets browsers cache files for 10 minutes; phones often hold on longer).
+  document.write('<script src="data.js?v=' + Math.floor(Date.now() / 60000) + '"><\/script>');
+</script>
 <script>
 (function () {
   const D = window.SITE_DATA;
