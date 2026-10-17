@@ -328,10 +328,10 @@
           "seed": 6,
           "team": "Union County Legends",
           "location": "Waxhaw, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 7,
+          "runs_scored": 18,
           "team_page_id": null
         },
         {
@@ -429,9 +429,9 @@
           "team": "Carolina Royals 9Uw",
           "location": "Gastonia, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 18,
+          "runs_scored": 7,
           "team_page_id": null
         },
         {
@@ -570,10 +570,10 @@
             "field": "Westmoreld:Field 2",
             "team_a": "Carolina Royals 9Uw",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 7,
             "team_b": "Union County Legends",
             "seed_b": null,
-            "score_b": null
+            "score_b": 18
           },
           {
             "game": 10,
@@ -2258,10 +2258,10 @@
           "seed": 2,
           "team": "Lone Star Hippos",
           "location": "Gastonia, NC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
-          "runs_allowed": 16,
-          "runs_scored": 20,
+          "runs_allowed": 19,
+          "runs_scored": 34,
           "team_page_id": null
         },
         {
@@ -2289,9 +2289,9 @@
           "team": "GF Sandlot 12U Church",
           "location": "Granite Falls, NC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 12,
-          "runs_scored": 3,
+          "lost": 2,
+          "runs_allowed": 26,
+          "runs_scored": 6,
           "team_page_id": null
         },
         {
@@ -2384,10 +2384,10 @@
             "field": "FDP:Field #3",
             "team_a": "GF Sandlot 12U Church",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 3,
             "team_b": "Lone Star Hippos",
             "seed_b": null,
-            "score_b": null
+            "score_b": 14
           },
           {
             "game": 7,
@@ -3809,5 +3809,5 @@
   },
   "site_last_updated": "10/15/2026 12:00 PM",
   "tournament_id": 12521,
-  "fetched_at": "2026-10-17T14:34"
+  "fetched_at": "2026-10-17T14:44"
 }
