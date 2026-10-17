@@ -1904,8 +1904,8 @@
           "team": "Banana Peppers Baseball",
           "location": "Gastonia, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
+          "lost": 1,
+          "runs_allowed": 16,
           "runs_scored": 0,
           "team_page_id": null
         },
@@ -1953,10 +1953,10 @@
           "seed": 7,
           "team": "Alexander Outlaws",
           "location": "Taylorsville, NC",
-          "won": 0,
+          "won": 1,
           "lost": 1,
           "runs_allowed": 18,
-          "runs_scored": 3,
+          "runs_scored": 19,
           "team_page_id": null
         },
         {
@@ -2083,10 +2083,10 @@
             "field": "SP:Field #1",
             "team_a": "Banana Peppers Baseball",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 0,
             "team_b": "Alexander Outlaws",
             "seed_b": null,
-            "score_b": null
+            "score_b": 16
           },
           {
             "game": 9,
@@ -3593,9 +3593,9 @@
           "team": "P413 Buchanan",
           "location": "ADVANCE, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 6,
+          "runs_scored": 2,
           "team_page_id": null
         },
         {
@@ -3612,10 +3612,10 @@
           "seed": 7,
           "team": "WNC Phantom Elite",
           "location": "Taylorsville, NC",
-          "won": 0,
+          "won": 1,
           "lost": 1,
-          "runs_allowed": 11,
-          "runs_scored": 3,
+          "runs_allowed": 13,
+          "runs_scored": 9,
           "team_page_id": null
         },
         {
@@ -3710,10 +3710,10 @@
             "field": "BFF:Field 1",
             "team_a": "WNC Phantom Elite",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 6,
             "team_b": "P413 Buchanan",
             "seed_b": null,
-            "score_b": null
+            "score_b": 2
           },
           {
             "game": 8,
@@ -3809,5 +3809,5 @@
   },
   "site_last_updated": "10/15/2026 12:00 PM",
   "tournament_id": 12521,
-  "fetched_at": "2026-10-17T16:29"
+  "fetched_at": "2026-10-17T16:39"
 }
