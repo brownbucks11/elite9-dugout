@@ -62,9 +62,9 @@
           "team": "BP3 Ruff Ryderz NC 8U",
           "location": "Waxhaw, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 16,
+          "runs_scored": 14,
           "team_page_id": null
         },
         {
@@ -81,10 +81,10 @@
           "seed": 3,
           "team": "LKN Bolts",
           "location": "Huntersville, NC",
-          "won": 0,
+          "won": 1,
           "lost": 1,
-          "runs_allowed": 19,
-          "runs_scored": 15,
+          "runs_allowed": 33,
+          "runs_scored": 31,
           "team_page_id": null
         },
         {
@@ -175,10 +175,10 @@
             "field": "M. Rivers:Martha Rivers 4",
             "team_a": "BP3 Ruff Ryderz NC 8U",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 14,
             "team_b": "LKN Bolts",
             "seed_b": null,
-            "score_b": null
+            "score_b": 16
           },
           {
             "game": 6,
@@ -2652,8 +2652,8 @@
           "team": "Waxhaw Militia 14U",
           "location": "Waxhaw, NC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 7,
+          "lost": 2,
+          "runs_allowed": 19,
           "runs_scored": 6,
           "team_page_id": null
         },
@@ -2681,10 +2681,10 @@
           "seed": 19,
           "team": "Wow Factor Carolinas Select 14U",
           "location": "Murrells Inlet, SC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
           "runs_allowed": 0,
-          "runs_scored": 13,
+          "runs_scored": 25,
           "team_page_id": null
         }
       ],
@@ -2913,10 +2913,10 @@
             "field": "Tega Cay:Field 4",
             "team_a": "Wow Factor Carolinas Select 14U",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 12,
             "team_b": "Waxhaw Militia 14U",
             "seed_b": null,
-            "score_b": null
+            "score_b": 0
           }
         ],
         "Gold Bracket": [
@@ -3809,5 +3809,5 @@
   },
   "site_last_updated": "10/15/2026 12:00 PM",
   "tournament_id": 12521,
-  "fetched_at": "2026-10-17T18:55"
+  "fetched_at": "2026-10-17T19:05"
 }
