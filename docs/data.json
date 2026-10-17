@@ -3,7 +3,7 @@
  "location": "Rock Hill, SC",
  "page_id": 31407,
  "team_url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=31407",
- "built": "Sat Oct 17, 2026 06:13 PM",
+ "built": "Sat Oct 17, 2026 06:23 PM",
  "record": {
   "w": 2,
   "l": 9,
@@ -2575,7 +2575,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-17T18:13",
+    "fetched_at": "2026-10-17T18:23",
     "url": "https://topgunstats.com/whos-playing/12521"
    },
    "next_game": null,
@@ -2609,34 +2609,9 @@
    },
    "standings": [
     {
-     "team": "Team 24",
-     "location": "York, SC",
-     "rank": 1,
-     "tiebreak": "runs allowed",
-     "h2h": {
-      "Carolina Royals 9Uw": "W"
-     },
-     "last": {
-      "opponent": "Carolina Royals 9Uw",
-      "rs": 25,
-      "ra": 0
-     },
-     "pool_w": 1,
-     "pool_l": 0,
-     "pool_t": 0,
-     "pool_rs": 25,
-     "pool_ra": 0,
-     "seed": null,
-     "bracket": null,
-     "won": 1,
-     "lost": 0,
-     "rs": 25,
-     "ra": 0
-    },
-    {
      "team": "Mountain Rage",
      "location": "Mars Hill, NC",
-     "rank": 2,
+     "rank": 1,
      "tiebreak": "runs allowed",
      "h2h": {
       "Carolina Forge 9U": "W",
@@ -2662,7 +2637,7 @@
     {
      "team": "NL Destroyers 2036",
      "location": "Denver, NC",
-     "rank": 3,
+     "rank": 2,
      "tiebreak": "runs allowed",
      "h2h": {
       "SC Tide - Lucariello": "W"
@@ -2685,35 +2660,10 @@
      "ra": 6
     },
     {
-     "team": "Union County Legends",
-     "location": "Waxhaw, NC",
-     "rank": 4,
-     "tiebreak": "runs scored",
-     "h2h": {
-      "Carolina Royals 9Uw": "W"
-     },
-     "last": {
-      "opponent": "Carolina Royals 9Uw",
-      "rs": 18,
-      "ra": 7
-     },
-     "pool_w": 1,
-     "pool_l": 0,
-     "pool_t": 0,
-     "pool_rs": 18,
-     "pool_ra": 7,
-     "seed": null,
-     "bracket": null,
-     "won": 1,
-     "lost": 0,
-     "rs": 18,
-     "ra": 7
-    },
-    {
      "team": "ROCO Dirtbagz",
      "location": "Forest City, NC",
-     "rank": 5,
-     "tiebreak": "runs scored",
+     "rank": 3,
+     "tiebreak": "runs allowed",
      "h2h": {
       "SC Tide - Lucariello": "W"
      },
@@ -2737,7 +2687,7 @@
     {
      "team": "LKN Bolts",
      "location": "Huntersville, NC",
-     "rank": 6,
+     "rank": 4,
      "tiebreak": "runs allowed",
      "h2h": {
       "Elite 9": "W",
@@ -2763,7 +2713,7 @@
     {
      "team": "Union County Aces 9u",
      "location": "Monroe, NC",
-     "rank": 7,
+     "rank": 5,
      "tiebreak": "runs allowed",
      "h2h": {
       "LumberJacks": "W",
@@ -2789,7 +2739,7 @@
     {
      "team": "Diamond Crushers",
      "location": "Concord, NC",
-     "rank": 8,
+     "rank": 6,
      "tiebreak": "runs allowed",
      "h2h": {
       "LKN Kingdom": "W",
@@ -2811,6 +2761,58 @@
      "lost": 0,
      "rs": 25,
      "ra": 14
+    },
+    {
+     "team": "Team 24",
+     "location": "York, SC",
+     "rank": 7,
+     "tiebreak": "runs allowed",
+     "h2h": {
+      "Carolina Royals 9Uw": "W",
+      "Union County Legends": "T"
+     },
+     "last": {
+      "opponent": "Union County Legends",
+      "rs": 9,
+      "ra": 9
+     },
+     "pool_w": 1,
+     "pool_l": 0,
+     "pool_t": 1,
+     "pool_rs": 34,
+     "pool_ra": 9,
+     "seed": null,
+     "bracket": null,
+     "won": 1,
+     "lost": 0,
+     "rs": 34,
+     "ra": 9
+    },
+    {
+     "team": "Union County Legends",
+     "location": "Waxhaw, NC",
+     "rank": 8,
+     "tiebreak": "runs allowed",
+     "h2h": {
+      "Carolina Royals 9Uw": "W",
+      "Team 24": "T"
+     },
+     "last": {
+      "opponent": "Team 24",
+      "rs": 9,
+      "ra": 9
+     },
+     "pool_w": 1,
+     "pool_l": 0,
+     "pool_t": 1,
+     "pool_rs": 27,
+     "pool_ra": 16,
+     "seed": null,
+     "bracket": null,
+     "won": 1,
+     "lost": 0,
+     "rs": 27,
+     "ra": 16
     },
     {
      "team": "Red Clay Athletics 9U Darcangelo",
@@ -3365,11 +3367,11 @@
      "field": "Westmoreld:Field 2",
      "team_a": "Union County Legends",
      "seed_a": null,
-     "score_a": null,
+     "score_a": 9,
      "from_a": null,
      "team_b": "Team 24",
      "seed_b": null,
-     "score_b": null,
+     "score_b": 9,
      "from_b": null
     },
     {
@@ -5621,7 +5623,7 @@
      "entered_at": "2026-10-08T16:26:44.913Z",
      "level": "AA"
     },
-    "fetched_at": "2026-10-17T18:13"
+    "fetched_at": "2026-10-17T18:23"
    },
    "tgs": {
     "weather": null,
@@ -5746,7 +5748,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-17T18:13",
+    "fetched_at": "2026-10-17T18:23",
     "url": "https://topgunstats.com/whos-playing/12521"
    },
    "name": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
@@ -6020,11 +6022,11 @@
      "field": "Westmoreld:Field 2",
      "team_a": "Union County Legends",
      "seed_a": null,
-     "score_a": null,
+     "score_a": 9,
      "from_a": null,
      "team_b": "Team 24",
      "seed_b": null,
-     "score_b": null,
+     "score_b": 9,
      "from_b": null
     },
     {
@@ -6468,8 +6470,8 @@
      "location": "York, SC",
      "won": 1,
      "lost": 0,
-     "runs_allowed": 0,
-     "runs_scored": 25,
+     "runs_allowed": 9,
+     "runs_scored": 34,
      "team_page_id": null
     },
     {
@@ -6478,8 +6480,8 @@
      "location": "Waxhaw, NC",
      "won": 1,
      "lost": 0,
-     "runs_allowed": 7,
-     "runs_scored": 18,
+     "runs_allowed": 16,
+     "runs_scored": 27,
      "team_page_id": null
     },
     {
@@ -6666,7 +6668,7 @@
     "team": {
      "entered": false
     },
-    "fetched_at": "2026-10-17T18:13"
+    "fetched_at": "2026-10-17T18:23"
    },
    "tgs": {
     "weather": {
@@ -6754,7 +6756,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-17T18:13",
+    "fetched_at": "2026-10-17T18:23",
     "url": "https://topgunstats.com/whos-playing/12522"
    },
    "name": "Southeastern Winter World Series",
@@ -6786,7 +6788,7 @@
     "team": {
      "entered": false
     },
-    "fetched_at": "2026-10-17T18:13"
+    "fetched_at": "2026-10-17T18:23"
    },
    "tgs": {
     "weather": null,
@@ -6839,7 +6841,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-17T18:13",
+    "fetched_at": "2026-10-17T18:23",
     "url": "https://topgunstats.com/whos-playing/12524"
    },
    "name": "Road Runner vs Coyote ring weekend",
@@ -9200,11 +9202,11 @@
    "url": null,
    "w": 5,
    "l": 4,
-   "t": 0,
-   "rs": 109,
-   "ra": 74,
+   "t": 1,
+   "rs": 118,
+   "ra": 83,
    "diff": 35,
-   "pct": 0.556,
+   "pct": 0.55,
    "events": 3,
    "log": [
     {
@@ -9296,6 +9298,16 @@
      "rs": 25,
      "ra": 0,
      "result": "W"
+    },
+    {
+     "date": "2026-10-17",
+     "event_id": 12521,
+     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "section": "Pool Play",
+     "opponent": "Union County Legends",
+     "rs": 9,
+     "ra": 9,
+     "result": "T"
     }
    ],
    "points": 0,
@@ -10424,6 +10436,97 @@
    "stats_fetched": "2026-10-16T11:18"
   },
   {
+   "team": "Union County Legends",
+   "location": "Waxhaw, NC",
+   "page_id": null,
+   "url": null,
+   "w": 2,
+   "l": 3,
+   "t": 1,
+   "rs": 53,
+   "ra": 64,
+   "diff": -11,
+   "pct": 0.417,
+   "events": 2,
+   "log": [
+    {
+     "date": "2026-09-19",
+     "event_id": 12517,
+     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
+     "section": "Pool Play",
+     "opponent": "Carolina Clippers 9U",
+     "rs": 2,
+     "ra": 19,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-19",
+     "event_id": 12517,
+     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
+     "section": "Pool Play",
+     "opponent": "Team 24",
+     "rs": 7,
+     "ra": 10,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-20",
+     "event_id": 12517,
+     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
+     "section": "Silver Bracket",
+     "opponent": "ELITE BASEBALL EBC 9U",
+     "rs": 15,
+     "ra": 8,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-20",
+     "event_id": 12517,
+     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
+     "section": "Silver Bracket",
+     "opponent": "Carolina Clippers 9U",
+     "rs": 2,
+     "ra": 11,
+     "result": "L"
+    },
+    {
+     "date": "2026-10-17",
+     "event_id": 12521,
+     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "section": "Pool Play",
+     "opponent": "Carolina Royals 9Uw",
+     "rs": 18,
+     "ra": 7,
+     "result": "W"
+    },
+    {
+     "date": "2026-10-17",
+     "event_id": 12521,
+     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "section": "Pool Play",
+     "opponent": "Team 24",
+     "rs": 9,
+     "ra": 9,
+     "result": "T"
+    }
+   ],
+   "points": 0,
+   "titles": 0,
+   "finishes": [
+    {
+     "date": "2026-09-19",
+     "name": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
+     "won": 1,
+     "lost": 3,
+     "standing": "2nd (Silver)",
+     "points": 0,
+     "derived": true
+    }
+   ],
+   "season": "",
+   "stats_fetched": null
+  },
+  {
    "team": "Red Clay Athletics 9U Darcangelo",
    "location": "Charlotte, NC",
    "page_id": 37076,
@@ -10810,87 +10913,6 @@
    ],
    "season": "08/01/2026 - 10/16/2026",
    "stats_fetched": "2026-10-16T11:16"
-  },
-  {
-   "team": "Union County Legends",
-   "location": "Waxhaw, NC",
-   "page_id": null,
-   "url": null,
-   "w": 2,
-   "l": 3,
-   "t": 0,
-   "rs": 44,
-   "ra": 55,
-   "diff": -11,
-   "pct": 0.4,
-   "events": 2,
-   "log": [
-    {
-     "date": "2026-09-19",
-     "event_id": 12517,
-     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
-     "section": "Pool Play",
-     "opponent": "Carolina Clippers 9U",
-     "rs": 2,
-     "ra": 19,
-     "result": "L"
-    },
-    {
-     "date": "2026-09-19",
-     "event_id": 12517,
-     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
-     "section": "Pool Play",
-     "opponent": "Team 24",
-     "rs": 7,
-     "ra": 10,
-     "result": "L"
-    },
-    {
-     "date": "2026-09-20",
-     "event_id": 12517,
-     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
-     "section": "Silver Bracket",
-     "opponent": "ELITE BASEBALL EBC 9U",
-     "rs": 15,
-     "ra": 8,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-20",
-     "event_id": 12517,
-     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
-     "section": "Silver Bracket",
-     "opponent": "Carolina Clippers 9U",
-     "rs": 2,
-     "ra": 11,
-     "result": "L"
-    },
-    {
-     "date": "2026-10-17",
-     "event_id": 12521,
-     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
-     "section": "Pool Play",
-     "opponent": "Carolina Royals 9Uw",
-     "rs": 18,
-     "ra": 7,
-     "result": "W"
-    }
-   ],
-   "points": 0,
-   "titles": 0,
-   "finishes": [
-    {
-     "date": "2026-09-19",
-     "name": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
-     "won": 1,
-     "lost": 3,
-     "standing": "2nd (Silver)",
-     "points": 0,
-     "derived": true
-    }
-   ],
-   "season": "",
-   "stats_fetched": null
   },
   {
    "team": "Waxhaw Militia 9U",

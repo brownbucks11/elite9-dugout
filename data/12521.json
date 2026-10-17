@@ -320,8 +320,8 @@
           "location": "York, SC",
           "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 25,
+          "runs_allowed": 9,
+          "runs_scored": 34,
           "team_page_id": null
         },
         {
@@ -330,8 +330,8 @@
           "location": "Waxhaw, NC",
           "won": 1,
           "lost": 0,
-          "runs_allowed": 7,
-          "runs_scored": 18,
+          "runs_allowed": 16,
+          "runs_scored": 27,
           "team_page_id": null
         },
         {
@@ -666,10 +666,10 @@
             "field": "Westmoreld:Field 2",
             "team_a": "Union County Legends",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 9,
             "team_b": "Team 24",
             "seed_b": null,
-            "score_b": null
+            "score_b": 9
           },
           {
             "game": 18,
@@ -3809,5 +3809,5 @@
   },
   "site_last_updated": "10/15/2026 12:00 PM",
   "tournament_id": 12521,
-  "fetched_at": "2026-10-17T18:13"
+  "fetched_at": "2026-10-17T18:23"
 }
