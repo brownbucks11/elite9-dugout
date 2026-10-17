@@ -1873,10 +1873,10 @@
           "seed": 5,
           "team": "SBA Lake Norman Thunder",
           "location": "Cornelius, NC",
-          "won": 0,
+          "won": 1,
           "lost": 1,
-          "runs_allowed": 13,
-          "runs_scored": 1,
+          "runs_allowed": 19,
+          "runs_scored": 9,
           "team_page_id": null
         },
         {
@@ -1884,9 +1884,9 @@
           "team": "Dirtbags Haney Black",
           "location": "Dallas, NC",
           "won": 1,
-          "lost": 0,
-          "runs_allowed": 2,
-          "runs_scored": 13,
+          "lost": 1,
+          "runs_allowed": 10,
+          "runs_scored": 19,
           "team_page_id": null
         },
         {
@@ -2502,8 +2502,8 @@
           "team": "North Lincoln Destroyers",
           "location": "Denver, NC",
           "won": 1,
-          "lost": 0,
-          "runs_allowed": 5,
+          "lost": 1,
+          "runs_allowed": 9,
           "runs_scored": 6,
           "team_page_id": null
         },
@@ -2581,10 +2581,10 @@
           "seed": 9,
           "team": "GBC Wyrick",
           "location": "Greensboro, NC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
           "runs_allowed": 2,
-          "runs_scored": 5,
+          "runs_scored": 9,
           "team_page_id": null
         },
         {
@@ -2805,10 +2805,10 @@
             "field": "Core:Hinson Core Field",
             "team_a": "North Lincoln Destroyers",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 0,
             "team_b": "GBC Wyrick",
             "seed_b": null,
-            "score_b": null
+            "score_b": 4
           },
           {
             "game": 11,
@@ -3809,5 +3809,5 @@
   },
   "site_last_updated": "10/15/2026 12:00 PM",
   "tournament_id": 12521,
-  "fetched_at": "2026-10-17T15:47"
+  "fetched_at": "2026-10-17T15:57"
 }
