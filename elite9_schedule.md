@@ -1,5 +1,5 @@
 # Elite 9 - Top Gun schedule
-_Updated Sat Oct 17, 2026 12:44 PM_
+_Updated Sat Oct 17, 2026 12:55 PM_
 
 ## SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND
 September 26 - 27 in Greater Charlotte Area, NC  
@@ -89,14 +89,14 @@ October 17 - 18 in Greater Charlotte Area, NC
 Tournament 12521 - [schedule page](https://playtopgunsports.com/GameTimesResults.aspx?trnid=12521)
 
 ### 9U  
-**Standing:** #3 of 19  -  0-1, RS 6, RA 14
+**Standing:** #3 of 19  -  0-2, RS 12, RA 35
 
 **Elite 9 games**
 
 | G | When | Field | Team A | Team B |
 |---|---|---|---|---|
 | Pool 1 | Sat 9:00 AM | Westmoreld:Field 1 | LKN Bolts 14 | Elite 9 6 |
-| Pool 5 | Sat 10:45 AM | Westmoreld:Field 2 | Weddington Wreckers | Elite 9 |
+| Pool 5 | Sat 10:45 AM | Westmoreld:Field 2 | Weddington Wreckers 21 | Elite 9 6 |
 
 **9U standings**
 
@@ -104,7 +104,7 @@ Tournament 12521 - [schedule page](https://playtopgunsports.com/GameTimesResults
 |---|---|---|---|---|---|
 | 1 | LKN Bolts | Huntersville, NC | 2-0 | 34 | 8 |
 | 2 | ROCO Dirtbagz | Forest City, NC | 0-0 | 0 | 0 |
-| 3 | Elite 9 **<--** | Rock Hill, SC | 0-1 | 6 | 14 |
+| 3 | Elite 9 **<--** | Rock Hill, SC | 0-2 | 12 | 35 |
 | 4 | Union County Aces 9u | Monroe, NC | 2-0 | 37 | 9 |
 | 5 | Team 24 | York, SC | 0-0 | 0 | 0 |
 | 6 | Union County Legends | Waxhaw, NC | 0-0 | 0 | 0 |
@@ -112,7 +112,7 @@ Tournament 12521 - [schedule page](https://playtopgunsports.com/GameTimesResults
 | 8 | Diamond Crushers | Concord, NC | 0-0 | 0 | 0 |
 | 9 | NL Destroyers 2036 | Denver, NC | 0-0 | 0 | 0 |
 | 10 | LumberJacks | Gaston County, NC | 1-1 | 24 | 27 |
-| 11 | Weddington Wreckers | Weddington, NC | 0-1 | 11 | 13 |
+| 11 | Weddington Wreckers | Weddington, NC | 1-1 | 32 | 19 |
 | 12 | Mountain Rage | Mars Hill, NC | 0-0 | 0 | 0 |
 | 13 | LKN Kingdom | Charlotte, NC | 0-1 | 1 | 14 |
 | 14 | Carolina Icons | Stanfield, NC | 0-0 | 0 | 0 |
