@@ -2250,8 +2250,8 @@
           "location": "Clover, SC",
           "won": 0,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 3,
+          "runs_scored": 3,
           "team_page_id": null
         },
         {
@@ -2310,8 +2310,8 @@
           "location": "Mooresville, NC",
           "won": 0,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 3,
+          "runs_scored": 3,
           "team_page_id": null
         }
       ],
@@ -2324,10 +2324,10 @@
             "field": "FDP:Field #1",
             "team_a": "Copperheads Red",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 3,
             "team_b": "SC Tide - Daly",
             "seed_b": null,
-            "score_b": null
+            "score_b": 3
           },
           {
             "game": 2,
@@ -3573,19 +3573,19 @@
           "team": "MARA SELECT",
           "location": "Matthews, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 4,
+          "runs_scored": 3,
           "team_page_id": null
         },
         {
           "seed": 4,
           "team": "North Lincoln Destroyers",
           "location": "Denver, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 3,
+          "runs_scored": 4,
           "team_page_id": null
         },
         {
@@ -3650,10 +3650,10 @@
             "field": "Tuckasee:Tuckaseegee 1",
             "team_a": "MARA SELECT",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 3,
             "team_b": "North Lincoln Destroyers",
             "seed_b": null,
-            "score_b": null
+            "score_b": 4
           },
           {
             "game": 3,
@@ -3809,5 +3809,5 @@
   },
   "site_last_updated": "10/15/2026 12:00 PM",
   "tournament_id": 12521,
-  "fetched_at": "2026-10-17T10:49"
+  "fetched_at": "2026-10-17T11:00"
 }
