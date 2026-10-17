@@ -1923,10 +1923,10 @@
           "seed": 4,
           "team": "Athletes Lab Navy 11u",
           "location": "Maiden, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
           "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_scored": 12,
           "team_page_id": null
         },
         {
@@ -1984,8 +1984,8 @@
           "team": "Waxhaw Militia",
           "location": "Waxhaw, NC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 20,
+          "lost": 2,
+          "runs_allowed": 32,
           "runs_scored": 5,
           "team_page_id": null
         }
@@ -2047,10 +2047,10 @@
             "field": "M. Rivers:Martha Rivers 1",
             "team_a": "Athletes Lab Navy 11u",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 12,
             "team_b": "Waxhaw Militia",
             "seed_b": null,
-            "score_b": null
+            "score_b": 0
           },
           {
             "game": 6,
@@ -2268,10 +2268,10 @@
           "seed": 3,
           "team": "Carolina Bearcats",
           "location": "Alexis, NC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 9,
+          "runs_allowed": 1,
+          "runs_scored": 24,
           "team_page_id": null
         },
         {
@@ -2299,9 +2299,9 @@
           "team": "Armor Elite",
           "location": "Denver, NC",
           "won": 1,
-          "lost": 0,
-          "runs_allowed": 6,
-          "runs_scored": 7,
+          "lost": 1,
+          "runs_allowed": 21,
+          "runs_scored": 8,
           "team_page_id": null
         },
         {
@@ -2396,10 +2396,10 @@
             "field": "FDP:Field #1",
             "team_a": "Carolina Bearcats",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 15,
             "team_b": "Armor Elite",
             "seed_b": null,
-            "score_b": null
+            "score_b": 1
           }
         ],
         "Gold Bracket": [
@@ -2408,10 +2408,10 @@
             "day": "Sun",
             "time": "8:30 AM",
             "field": "TOB:Field 1",
-            "team_a": "",
+            "team_a": "Lone Star Hippos",
             "seed_a": 2,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Armor Elite",
             "seed_b": 3,
             "score_b": null
           },
@@ -2420,10 +2420,10 @@
             "day": "Sun",
             "time": "10:30 AM",
             "field": "TOB:Field 1",
-            "team_a": "",
+            "team_a": "Carolina Bearcats",
             "seed_a": 1,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Carolina Rapid Fire",
             "seed_b": 4,
             "score_b": null
           },
@@ -2458,10 +2458,10 @@
             "day": "Sun",
             "time": "9:00 AM",
             "field": "Core:Hinson Core Field",
-            "team_a": "",
+            "team_a": "SC Tide - Daly",
             "seed_a": 6,
             "score_a": null,
-            "team_b": "",
+            "team_b": "GF Sandlot 12U Church",
             "seed_b": 7,
             "score_b": null
           },
@@ -2470,10 +2470,10 @@
             "day": "Sun",
             "time": "11:00 AM",
             "field": "Core:Hinson Core Field",
-            "team_a": "",
+            "team_a": "Copperheads Red",
             "seed_a": 5,
             "score_a": null,
-            "team_b": "",
+            "team_b": "GF Sandlot 12U Church",
             "seed_b": 7,
             "score_b": null
           },
@@ -2482,10 +2482,10 @@
             "day": "Sun",
             "time": "1:00 PM",
             "field": "Core:Hinson Core Field",
-            "team_a": "",
+            "team_a": "Copperheads Red",
             "seed_a": 5,
             "score_a": null,
-            "team_b": "",
+            "team_b": "SC Tide - Daly",
             "seed_b": 6,
             "score_b": null
           }
@@ -3809,5 +3809,5 @@
   },
   "site_last_updated": "10/15/2026 12:00 PM",
   "tournament_id": 12521,
-  "fetched_at": "2026-10-17T15:36"
+  "fetched_at": "2026-10-17T15:47"
 }
