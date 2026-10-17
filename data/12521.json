@@ -388,10 +388,10 @@
           "seed": 12,
           "team": "Mountain Rage",
           "location": "Mars Hill, NC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
-          "runs_allowed": 2,
-          "runs_scored": 17,
+          "runs_allowed": 4,
+          "runs_scored": 28,
           "team_page_id": null
         },
         {
@@ -439,9 +439,9 @@
           "team": "Red Clay Athletics 9U Darcangelo",
           "location": "Charlotte, NC",
           "won": 1,
-          "lost": 0,
-          "runs_allowed": 1,
-          "runs_scored": 10,
+          "lost": 1,
+          "runs_allowed": 12,
+          "runs_scored": 12,
           "team_page_id": null
         },
         {
@@ -678,10 +678,10 @@
             "field": "Westmoreld:Field 3",
             "team_a": "Mountain Rage",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 11,
             "team_b": "Red Clay Athletics 9U Darcangelo",
             "seed_b": null,
-            "score_b": null
+            "score_b": 2
           },
           {
             "game": 19,
@@ -1923,10 +1923,10 @@
           "seed": 4,
           "team": "Athletes Lab Navy 11u",
           "location": "Maiden, NC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 12,
+          "runs_allowed": 4,
+          "runs_scored": 21,
           "team_page_id": null
         },
         {
@@ -1964,9 +1964,9 @@
           "team": "BOILING SPRINGS BULLDOGS BASEBALL RED 12U",
           "location": "BOILING SPRINGS, NC",
           "won": 1,
-          "lost": 0,
-          "runs_allowed": 4,
-          "runs_scored": 7,
+          "lost": 1,
+          "runs_allowed": 13,
+          "runs_scored": 11,
           "team_page_id": null
         },
         {
@@ -2071,10 +2071,10 @@
             "field": "M. Rivers:Martha Rivers 1",
             "team_a": "Athletes Lab Navy 11u",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 9,
             "team_b": "BOILING SPRINGS BULLDOGS BASEBALL RED 12U",
             "seed_b": null,
-            "score_b": null
+            "score_b": 4
           },
           {
             "game": 8,
@@ -2632,8 +2632,8 @@
           "team": "KLSC Tomahawks",
           "location": "Belmont, NC",
           "won": 1,
-          "lost": 0,
-          "runs_allowed": 6,
+          "lost": 1,
+          "runs_allowed": 19,
           "runs_scored": 7,
           "team_page_id": null
         },
@@ -2681,10 +2681,10 @@
           "seed": 19,
           "team": "Wow Factor Carolinas Select 14U",
           "location": "Murrells Inlet, SC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
           "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_scored": 13,
           "team_page_id": null
         }
       ],
@@ -2877,10 +2877,10 @@
             "field": "Tega Cay:Field 4",
             "team_a": "Wow Factor Carolinas Select 14U",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 13,
             "team_b": "KLSC Tomahawks",
             "seed_b": null,
-            "score_b": null
+            "score_b": 0
           },
           {
             "game": 17,
@@ -3378,9 +3378,9 @@
           "team": "Triad Cardinals 16u",
           "location": "Stokesdale, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 17,
+          "runs_scored": 12,
           "team_page_id": null
         },
         {
@@ -3397,10 +3397,10 @@
           "seed": 6,
           "team": "CBB Baseball",
           "location": "Waxhaw, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 12,
+          "runs_scored": 17,
           "team_page_id": null
         }
       ],
@@ -3425,10 +3425,10 @@
             "field": "Tuckasee:Tuckaseegee 1",
             "team_a": "Triad Cardinals 16u",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 12,
             "team_b": "CBB Baseball",
             "seed_b": null,
-            "score_b": null
+            "score_b": 17
           },
           {
             "game": 3,
@@ -3809,5 +3809,5 @@
   },
   "site_last_updated": "10/15/2026 12:00 PM",
   "tournament_id": 12521,
-  "fetched_at": "2026-10-17T17:42"
+  "fetched_at": "2026-10-17T17:52"
 }
