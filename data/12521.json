@@ -288,10 +288,10 @@
           "seed": 2,
           "team": "ROCO Dirtbagz",
           "location": "Forest City, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 7,
+          "runs_scored": 8,
           "team_page_id": null
         },
         {
@@ -318,10 +318,10 @@
           "seed": 5,
           "team": "Team 24",
           "location": "York, SC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
           "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_scored": 25,
           "team_page_id": null
         },
         {
@@ -339,9 +339,9 @@
           "team": "SC Tide - Lucariello",
           "location": "Clover, SC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 7,
-          "runs_scored": 6,
+          "lost": 2,
+          "runs_allowed": 15,
+          "runs_scored": 13,
           "team_page_id": null
         },
         {
@@ -388,10 +388,10 @@
           "seed": 12,
           "team": "Mountain Rage",
           "location": "Mars Hill, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 2,
+          "runs_scored": 17,
           "team_page_id": null
         },
         {
@@ -429,8 +429,8 @@
           "team": "Carolina Royals 9Uw",
           "location": "Gastonia, NC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 18,
+          "lost": 2,
+          "runs_allowed": 43,
           "runs_scored": 7,
           "team_page_id": null
         },
@@ -459,9 +459,9 @@
           "team": "Carolina Forge 9U",
           "location": "Gastonia, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 17,
+          "runs_scored": 2,
           "team_page_id": null
         }
       ],
@@ -606,10 +606,10 @@
             "field": "Westmoreld:Field 1",
             "team_a": "SC Tide - Lucariello",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 7,
             "team_b": "ROCO Dirtbagz",
             "seed_b": null,
-            "score_b": null
+            "score_b": 8
           },
           {
             "game": 13,
@@ -618,10 +618,10 @@
             "field": "Westmoreld:Field 2",
             "team_a": "Carolina Royals 9Uw",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 0,
             "team_b": "Team 24",
             "seed_b": null,
-            "score_b": null
+            "score_b": 25
           },
           {
             "game": 14,
@@ -630,10 +630,10 @@
             "field": "Westmoreld:Field 3",
             "team_a": "Mountain Rage",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 17,
             "team_b": "Carolina Forge 9U",
             "seed_b": null,
-            "score_b": null
+            "score_b": 2
           },
           {
             "game": 15,
@@ -3809,5 +3809,5 @@
   },
   "site_last_updated": "10/15/2026 12:00 PM",
   "tournament_id": 12521,
-  "fetched_at": "2026-10-17T16:49"
+  "fetched_at": "2026-10-17T17:00"
 }

@@ -1,5 +1,5 @@
 # Elite 9 - Top Gun schedule
-_Updated Sat Oct 17, 2026 04:50 PM_
+_Updated Sat Oct 17, 2026 05:00 PM_
 
 ## SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND
 September 26 - 27 in Greater Charlotte Area, NC  
@@ -103,24 +103,24 @@ Tournament 12521 - [schedule page](https://playtopgunsports.com/GameTimesResults
 | # | Team | From | W-L | RS | RA |
 |---|---|---|---|---|---|
 | 1 | LKN Bolts | Huntersville, NC | 2-0 | 34 | 8 |
-| 2 | ROCO Dirtbagz | Forest City, NC | 0-0 | 0 | 0 |
+| 2 | ROCO Dirtbagz | Forest City, NC | 1-0 | 8 | 7 |
 | 3 | Elite 9 **<--** | Rock Hill, SC | 0-2 | 12 | 35 |
 | 4 | Union County Aces 9u | Monroe, NC | 2-0 | 36 | 9 |
-| 5 | Team 24 | York, SC | 0-0 | 0 | 0 |
+| 5 | Team 24 | York, SC | 1-0 | 25 | 0 |
 | 6 | Union County Legends | Waxhaw, NC | 1-0 | 18 | 7 |
-| 7 | SC Tide - Lucariello | Clover, SC | 0-1 | 6 | 7 |
+| 7 | SC Tide - Lucariello | Clover, SC | 0-2 | 13 | 15 |
 | 8 | Diamond Crushers | Concord, NC | 2-0 | 25 | 14 |
 | 9 | NL Destroyers 2036 | Denver, NC | 1-0 | 7 | 6 |
 | 10 | LumberJacks | Gaston County, NC | 1-1 | 24 | 27 |
 | 11 | Weddington Wreckers | Weddington, NC | 1-1 | 32 | 19 |
-| 12 | Mountain Rage | Mars Hill, NC | 0-0 | 0 | 0 |
+| 12 | Mountain Rage | Mars Hill, NC | 1-0 | 17 | 2 |
 | 13 | LKN Kingdom | Charlotte, NC | 0-2 | 12 | 29 |
 | 14 | Carolina Icons | Stanfield, NC | 0-1 | 3 | 9 |
 | 15 | Legacy Baseball 9U - WHITE | Fort Mill, SC | 1-1 | 15 | 31 |
-| 16 | Carolina Royals 9Uw | Gastonia, NC | 0-1 | 7 | 18 |
+| 16 | Carolina Royals 9Uw | Gastonia, NC | 0-2 | 7 | 43 |
 | 17 | Red Clay Athletics 9U Darcangelo | Charlotte, NC | 1-0 | 10 | 1 |
 | 18 | ELITE BASEBALL EBC 9U | FOREST CITY, NC | 0-2 | 5 | 26 |
-| 19 | Carolina Forge 9U | Gastonia, NC | 0-0 | 0 | 0 |
+| 19 | Carolina Forge 9U | Gastonia, NC | 0-1 | 2 | 17 |
 
 **Gold Bracket**
 
