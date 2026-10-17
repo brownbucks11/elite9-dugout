@@ -289,9 +289,9 @@
           "team": "ROCO Dirtbagz",
           "location": "Forest City, NC",
           "won": 1,
-          "lost": 0,
-          "runs_allowed": 7,
-          "runs_scored": 8,
+          "lost": 1,
+          "runs_allowed": 16,
+          "runs_scored": 14,
           "team_page_id": null
         },
         {
@@ -358,10 +358,10 @@
           "seed": 9,
           "team": "NL Destroyers 2036",
           "location": "Denver, NC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
-          "runs_allowed": 6,
-          "runs_scored": 7,
+          "runs_allowed": 12,
+          "runs_scored": 16,
           "team_page_id": null
         },
         {
@@ -654,10 +654,10 @@
             "field": "Westmoreld:Field 1",
             "team_a": "NL Destroyers 2036",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 9,
             "team_b": "ROCO Dirtbagz",
             "seed_b": null,
-            "score_b": null
+            "score_b": 6
           },
           {
             "game": 17,
@@ -702,10 +702,10 @@
             "day": "Sun",
             "time": "9:00 AM",
             "field": "Bradford:Field # 1",
-            "team_a": "",
+            "team_a": "NL Destroyers 2036",
             "seed_a": 4,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Diamond Crushers",
             "seed_b": 5,
             "score_b": null
           },
@@ -714,10 +714,10 @@
             "day": "Sun",
             "time": "11:00 AM",
             "field": "Bradford:Field # 1",
-            "team_a": "",
+            "team_a": "LKN Bolts",
             "seed_a": 2,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Union County Aces 9u",
             "seed_b": 3,
             "score_b": null
           },
@@ -729,7 +729,7 @@
             "team_a": "Winner Game #1",
             "seed_a": null,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Mountain Rage",
             "seed_b": 1,
             "score_b": null
           },
@@ -764,10 +764,10 @@
             "day": "Sun",
             "time": "9:00 AM",
             "field": "Bradford:Field # 2",
-            "team_a": "",
+            "team_a": "Carolina Icons",
             "seed_a": 9,
             "score_a": null,
-            "team_b": "",
+            "team_b": "ROCO Dirtbagz",
             "seed_b": 10,
             "score_b": null
           },
@@ -776,10 +776,10 @@
             "day": "Sun",
             "time": "11:00 AM",
             "field": "Bradford:Field # 2",
-            "team_a": "",
+            "team_a": "Union County Legends",
             "seed_a": 7,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Red Clay Athletics 9U Darcangelo",
             "seed_b": 8,
             "score_b": null
           },
@@ -791,7 +791,7 @@
             "team_a": "Winner Game #7",
             "seed_a": null,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Team 24",
             "seed_b": 6,
             "score_b": null
           },
@@ -826,10 +826,10 @@
             "day": "Sun",
             "time": "9:00 AM",
             "field": "Bradford:Field # 3",
-            "team_a": "",
+            "team_a": "SC Tide - Lucariello",
             "seed_a": 14,
             "score_a": null,
-            "team_b": "",
+            "team_b": "ELITE BASEBALL EBC 9U",
             "seed_b": 15,
             "score_b": null
           },
@@ -838,10 +838,10 @@
             "day": "Sun",
             "time": "11:00 AM",
             "field": "Bradford:Field # 3",
-            "team_a": "",
+            "team_a": "LumberJacks",
             "seed_a": 12,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Legacy Baseball 9U - WHITE",
             "seed_b": 13,
             "score_b": null
           },
@@ -853,7 +853,7 @@
             "team_a": "Winner Game #13",
             "seed_a": null,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Weddington Wreckers",
             "seed_b": 11,
             "score_b": null
           },
@@ -888,10 +888,10 @@
             "day": "Sun",
             "time": "9:00 AM",
             "field": "Westmoreld:Field 2",
-            "team_a": "",
+            "team_a": "Carolina Forge 9U",
             "seed_a": 17,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Elite 9",
             "seed_b": 18,
             "score_b": null
           },
@@ -900,10 +900,10 @@
             "day": "Sun",
             "time": "9:00 AM",
             "field": "Westmoreld:Field 3",
-            "team_a": "",
+            "team_a": "LKN Kingdom",
             "seed_a": 16,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Carolina Royals 9Uw",
             "seed_b": 19,
             "score_b": null
           },
@@ -3368,8 +3368,8 @@
           "team": "MARA Machine",
           "location": "Matthews, NC",
           "won": 1,
-          "lost": 0,
-          "runs_allowed": 9,
+          "lost": 1,
+          "runs_allowed": 16,
           "runs_scored": 12,
           "team_page_id": null
         },
@@ -3387,10 +3387,10 @@
           "seed": 5,
           "team": "Carolina Elevate",
           "location": "Lenoir, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
           "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_scored": 7,
           "team_page_id": null
         },
         {
@@ -3437,10 +3437,10 @@
             "field": "FDP:Field #3",
             "team_a": "MARA Machine",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 0,
             "team_b": "Carolina Elevate",
             "seed_b": null,
-            "score_b": null
+            "score_b": 7
           },
           {
             "game": 4,
@@ -3809,5 +3809,5 @@
   },
   "site_last_updated": "10/15/2026 12:00 PM",
   "tournament_id": 12521,
-  "fetched_at": "2026-10-17T18:23"
+  "fetched_at": "2026-10-17T18:34"
 }

@@ -3,7 +3,7 @@
  "location": "Rock Hill, SC",
  "page_id": 31407,
  "team_url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=31407",
- "built": "Sat Oct 17, 2026 06:23 PM",
+ "built": "Sat Oct 17, 2026 06:34 PM",
  "record": {
   "w": 2,
   "l": 9,
@@ -176,6 +176,21 @@
    "ra": 21,
    "result": "L",
    "gc_id": "11894d25-0b42-43ba-a7c6-ff352024a62c"
+  },
+  {
+   "event_id": 12521,
+   "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+   "date": "2026-10-18",
+   "day": "Sun",
+   "time": "9:00 AM",
+   "field": "Westmoreld:Field 2",
+   "section": "Copper Bracket",
+   "game": 1,
+   "opponent": "Carolina Forge 9U",
+   "rs": null,
+   "ra": null,
+   "result": null,
+   "gc_id": null
   }
  ],
  "my_events": [
@@ -2575,10 +2590,24 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-17T18:23",
+    "fetched_at": "2026-10-17T18:34",
     "url": "https://topgunstats.com/whos-playing/12521"
    },
-   "next_game": null,
+   "next_game": {
+    "event_id": 12521,
+    "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+    "date": "2026-10-18",
+    "day": "Sun",
+    "time": "9:00 AM",
+    "field": "Westmoreld:Field 2",
+    "section": "Copper Bracket",
+    "game": 1,
+    "opponent": "Carolina Forge 9U",
+    "rs": null,
+    "ra": null,
+    "result": null,
+    "gc_id": null
+   },
    "ics": "ics/12521.ics",
    "standing": {
     "team": "Elite 9",
@@ -2599,8 +2628,8 @@
     "pool_t": 0,
     "pool_rs": 12,
     "pool_ra": 35,
-    "seed": null,
-    "bracket": null,
+    "seed": 18,
+    "bracket": "Copper Bracket",
     "won": 0,
     "lost": 2,
     "rs": 12,
@@ -2627,67 +2656,17 @@
      "pool_t": 0,
      "pool_rs": 28,
      "pool_ra": 4,
-     "seed": null,
-     "bracket": null,
+     "seed": 1,
+     "bracket": "Gold Bracket",
      "won": 2,
      "lost": 0,
      "rs": 28,
      "ra": 4
     },
     {
-     "team": "NL Destroyers 2036",
-     "location": "Denver, NC",
-     "rank": 2,
-     "tiebreak": "runs allowed",
-     "h2h": {
-      "SC Tide - Lucariello": "W"
-     },
-     "last": {
-      "opponent": "SC Tide - Lucariello",
-      "rs": 7,
-      "ra": 6
-     },
-     "pool_w": 1,
-     "pool_l": 0,
-     "pool_t": 0,
-     "pool_rs": 7,
-     "pool_ra": 6,
-     "seed": null,
-     "bracket": null,
-     "won": 1,
-     "lost": 0,
-     "rs": 7,
-     "ra": 6
-    },
-    {
-     "team": "ROCO Dirtbagz",
-     "location": "Forest City, NC",
-     "rank": 3,
-     "tiebreak": "runs allowed",
-     "h2h": {
-      "SC Tide - Lucariello": "W"
-     },
-     "last": {
-      "opponent": "SC Tide - Lucariello",
-      "rs": 8,
-      "ra": 7
-     },
-     "pool_w": 1,
-     "pool_l": 0,
-     "pool_t": 0,
-     "pool_rs": 8,
-     "pool_ra": 7,
-     "seed": null,
-     "bracket": null,
-     "won": 1,
-     "lost": 0,
-     "rs": 8,
-     "ra": 7
-    },
-    {
      "team": "LKN Bolts",
      "location": "Huntersville, NC",
-     "rank": 4,
+     "rank": 2,
      "tiebreak": "runs allowed",
      "h2h": {
       "Elite 9": "W",
@@ -2703,8 +2682,8 @@
      "pool_t": 0,
      "pool_rs": 34,
      "pool_ra": 8,
-     "seed": null,
-     "bracket": null,
+     "seed": 2,
+     "bracket": "Gold Bracket",
      "won": 2,
      "lost": 0,
      "rs": 34,
@@ -2713,7 +2692,7 @@
     {
      "team": "Union County Aces 9u",
      "location": "Monroe, NC",
-     "rank": 5,
+     "rank": 3,
      "tiebreak": "runs allowed",
      "h2h": {
       "LumberJacks": "W",
@@ -2729,17 +2708,43 @@
      "pool_t": 0,
      "pool_rs": 36,
      "pool_ra": 9,
-     "seed": null,
-     "bracket": null,
+     "seed": 3,
+     "bracket": "Gold Bracket",
      "won": 2,
      "lost": 0,
      "rs": 36,
      "ra": 9
     },
     {
+     "team": "NL Destroyers 2036",
+     "location": "Denver, NC",
+     "rank": 4,
+     "tiebreak": "runs allowed",
+     "h2h": {
+      "SC Tide - Lucariello": "W",
+      "ROCO Dirtbagz": "W"
+     },
+     "last": {
+      "opponent": "ROCO Dirtbagz",
+      "rs": 9,
+      "ra": 6
+     },
+     "pool_w": 2,
+     "pool_l": 0,
+     "pool_t": 0,
+     "pool_rs": 16,
+     "pool_ra": 12,
+     "seed": 4,
+     "bracket": "Gold Bracket",
+     "won": 2,
+     "lost": 0,
+     "rs": 16,
+     "ra": 12
+    },
+    {
      "team": "Diamond Crushers",
      "location": "Concord, NC",
-     "rank": 6,
+     "rank": 5,
      "tiebreak": "runs allowed",
      "h2h": {
       "LKN Kingdom": "W",
@@ -2755,8 +2760,8 @@
      "pool_t": 0,
      "pool_rs": 25,
      "pool_ra": 14,
-     "seed": null,
-     "bracket": null,
+     "seed": 5,
+     "bracket": "Gold Bracket",
      "won": 2,
      "lost": 0,
      "rs": 25,
@@ -2765,7 +2770,7 @@
     {
      "team": "Team 24",
      "location": "York, SC",
-     "rank": 7,
+     "rank": 6,
      "tiebreak": "runs allowed",
      "h2h": {
       "Carolina Royals 9Uw": "W",
@@ -2781,8 +2786,8 @@
      "pool_t": 1,
      "pool_rs": 34,
      "pool_ra": 9,
-     "seed": null,
-     "bracket": null,
+     "seed": 6,
+     "bracket": "Silver Bracket",
      "won": 1,
      "lost": 0,
      "rs": 34,
@@ -2791,7 +2796,7 @@
     {
      "team": "Union County Legends",
      "location": "Waxhaw, NC",
-     "rank": 8,
+     "rank": 7,
      "tiebreak": "runs allowed",
      "h2h": {
       "Carolina Royals 9Uw": "W",
@@ -2807,8 +2812,8 @@
      "pool_t": 1,
      "pool_rs": 27,
      "pool_ra": 16,
-     "seed": null,
-     "bracket": null,
+     "seed": 7,
+     "bracket": "Silver Bracket",
      "won": 1,
      "lost": 0,
      "rs": 27,
@@ -2817,7 +2822,7 @@
     {
      "team": "Red Clay Athletics 9U Darcangelo",
      "location": "Charlotte, NC",
-     "rank": 9,
+     "rank": 8,
      "tiebreak": "runs allowed",
      "h2h": {
       "ELITE BASEBALL EBC 9U": "W",
@@ -2833,8 +2838,8 @@
      "pool_t": 0,
      "pool_rs": 12,
      "pool_ra": 12,
-     "seed": null,
-     "bracket": null,
+     "seed": 8,
+     "bracket": "Silver Bracket",
      "won": 1,
      "lost": 1,
      "rs": 12,
@@ -2843,7 +2848,7 @@
     {
      "team": "Carolina Icons",
      "location": "Stanfield, NC",
-     "rank": 10,
+     "rank": 9,
      "tiebreak": "runs allowed",
      "h2h": {
       "Diamond Crushers": "L",
@@ -2859,12 +2864,38 @@
      "pool_t": 0,
      "pool_rs": 17,
      "pool_ra": 15,
-     "seed": null,
-     "bracket": null,
+     "seed": 9,
+     "bracket": "Silver Bracket",
      "won": 1,
      "lost": 1,
      "rs": 17,
      "ra": 15
+    },
+    {
+     "team": "ROCO Dirtbagz",
+     "location": "Forest City, NC",
+     "rank": 10,
+     "tiebreak": "runs allowed",
+     "h2h": {
+      "SC Tide - Lucariello": "W",
+      "NL Destroyers 2036": "L"
+     },
+     "last": {
+      "opponent": "NL Destroyers 2036",
+      "rs": 6,
+      "ra": 9
+     },
+     "pool_w": 1,
+     "pool_l": 1,
+     "pool_t": 0,
+     "pool_rs": 14,
+     "pool_ra": 16,
+     "seed": 10,
+     "bracket": "Silver Bracket",
+     "won": 1,
+     "lost": 1,
+     "rs": 14,
+     "ra": 16
     },
     {
      "team": "Weddington Wreckers",
@@ -2885,8 +2916,8 @@
      "pool_t": 0,
      "pool_rs": 32,
      "pool_ra": 19,
-     "seed": null,
-     "bracket": null,
+     "seed": 11,
+     "bracket": "Bronze Bracket",
      "won": 1,
      "lost": 1,
      "rs": 32,
@@ -2911,8 +2942,8 @@
      "pool_t": 0,
      "pool_rs": 24,
      "pool_ra": 27,
-     "seed": null,
-     "bracket": null,
+     "seed": 12,
+     "bracket": "Bronze Bracket",
      "won": 1,
      "lost": 1,
      "rs": 24,
@@ -2937,8 +2968,8 @@
      "pool_t": 0,
      "pool_rs": 15,
      "pool_ra": 31,
-     "seed": null,
-     "bracket": null,
+     "seed": 13,
+     "bracket": "Bronze Bracket",
      "won": 1,
      "lost": 1,
      "rs": 15,
@@ -2963,8 +2994,8 @@
      "pool_t": 0,
      "pool_rs": 13,
      "pool_ra": 15,
-     "seed": null,
-     "bracket": null,
+     "seed": 14,
+     "bracket": "Bronze Bracket",
      "won": 0,
      "lost": 2,
      "rs": 13,
@@ -2989,8 +3020,8 @@
      "pool_t": 0,
      "pool_rs": 5,
      "pool_ra": 26,
-     "seed": null,
-     "bracket": null,
+     "seed": 15,
+     "bracket": "Bronze Bracket",
      "won": 0,
      "lost": 2,
      "rs": 5,
@@ -3015,8 +3046,8 @@
      "pool_t": 0,
      "pool_rs": 12,
      "pool_ra": 29,
-     "seed": null,
-     "bracket": null,
+     "seed": 16,
+     "bracket": "Copper Bracket",
      "won": 0,
      "lost": 2,
      "rs": 12,
@@ -3041,8 +3072,8 @@
      "pool_t": 0,
      "pool_rs": 8,
      "pool_ra": 31,
-     "seed": null,
-     "bracket": null,
+     "seed": 17,
+     "bracket": "Copper Bracket",
      "won": 0,
      "lost": 2,
      "rs": 8,
@@ -3067,8 +3098,8 @@
      "pool_t": 0,
      "pool_rs": 12,
      "pool_ra": 35,
-     "seed": null,
-     "bracket": null,
+     "seed": 18,
+     "bracket": "Copper Bracket",
      "won": 0,
      "lost": 2,
      "rs": 12,
@@ -3093,8 +3124,8 @@
      "pool_t": 0,
      "pool_rs": 7,
      "pool_ra": 43,
-     "seed": null,
-     "bracket": null,
+     "seed": 19,
+     "bracket": "Copper Bracket",
      "won": 0,
      "lost": 2,
      "rs": 7,
@@ -3351,11 +3382,11 @@
      "field": "Westmoreld:Field 1",
      "team_a": "NL Destroyers 2036",
      "seed_a": null,
-     "score_a": null,
+     "score_a": 9,
      "from_a": null,
      "team_b": "ROCO Dirtbagz",
      "seed_b": null,
-     "score_b": null,
+     "score_b": 6,
      "from_b": null
     },
     {
@@ -3413,11 +3444,11 @@
      "time": "9:00 AM",
      "date": "2026-10-18",
      "field": "Bradford:Field # 1",
-     "team_a": "",
+     "team_a": "NL Destroyers 2036",
      "seed_a": 4,
      "score_a": null,
      "from_a": null,
-     "team_b": "",
+     "team_b": "Diamond Crushers",
      "seed_b": 5,
      "score_b": null,
      "from_b": null
@@ -3429,11 +3460,11 @@
      "time": "11:00 AM",
      "date": "2026-10-18",
      "field": "Bradford:Field # 1",
-     "team_a": "",
+     "team_a": "LKN Bolts",
      "seed_a": 2,
      "score_a": null,
      "from_a": null,
-     "team_b": "",
+     "team_b": "Union County Aces 9u",
      "seed_b": 3,
      "score_b": null,
      "from_b": null
@@ -3452,7 +3483,7 @@
       "type": "winner",
       "game": 1
      },
-     "team_b": "",
+     "team_b": "Mountain Rage",
      "seed_b": 1,
      "score_b": null,
      "from_b": null
@@ -3508,11 +3539,11 @@
      "time": "9:00 AM",
      "date": "2026-10-18",
      "field": "Bradford:Field # 2",
-     "team_a": "",
+     "team_a": "Carolina Icons",
      "seed_a": 9,
      "score_a": null,
      "from_a": null,
-     "team_b": "",
+     "team_b": "ROCO Dirtbagz",
      "seed_b": 10,
      "score_b": null,
      "from_b": null
@@ -3524,11 +3555,11 @@
      "time": "11:00 AM",
      "date": "2026-10-18",
      "field": "Bradford:Field # 2",
-     "team_a": "",
+     "team_a": "Union County Legends",
      "seed_a": 7,
      "score_a": null,
      "from_a": null,
-     "team_b": "",
+     "team_b": "Red Clay Athletics 9U Darcangelo",
      "seed_b": 8,
      "score_b": null,
      "from_b": null
@@ -3547,7 +3578,7 @@
       "type": "winner",
       "game": 7
      },
-     "team_b": "",
+     "team_b": "Team 24",
      "seed_b": 6,
      "score_b": null,
      "from_b": null
@@ -3603,11 +3634,11 @@
      "time": "9:00 AM",
      "date": "2026-10-18",
      "field": "Bradford:Field # 3",
-     "team_a": "",
+     "team_a": "SC Tide - Lucariello",
      "seed_a": 14,
      "score_a": null,
      "from_a": null,
-     "team_b": "",
+     "team_b": "ELITE BASEBALL EBC 9U",
      "seed_b": 15,
      "score_b": null,
      "from_b": null
@@ -3619,11 +3650,11 @@
      "time": "11:00 AM",
      "date": "2026-10-18",
      "field": "Bradford:Field # 3",
-     "team_a": "",
+     "team_a": "LumberJacks",
      "seed_a": 12,
      "score_a": null,
      "from_a": null,
-     "team_b": "",
+     "team_b": "Legacy Baseball 9U - WHITE",
      "seed_b": 13,
      "score_b": null,
      "from_b": null
@@ -3642,7 +3673,7 @@
       "type": "winner",
       "game": 13
      },
-     "team_b": "",
+     "team_b": "Weddington Wreckers",
      "seed_b": 11,
      "score_b": null,
      "from_b": null
@@ -3698,11 +3729,11 @@
      "time": "9:00 AM",
      "date": "2026-10-18",
      "field": "Westmoreld:Field 2",
-     "team_a": "",
+     "team_a": "Carolina Forge 9U",
      "seed_a": 17,
      "score_a": null,
      "from_a": null,
-     "team_b": "",
+     "team_b": "Elite 9",
      "seed_b": 18,
      "score_b": null,
      "from_b": null
@@ -3714,11 +3745,11 @@
      "time": "9:00 AM",
      "date": "2026-10-18",
      "field": "Westmoreld:Field 3",
-     "team_a": "",
+     "team_a": "LKN Kingdom",
      "seed_a": 16,
      "score_a": null,
      "from_a": null,
-     "team_b": "",
+     "team_b": "Carolina Royals 9Uw",
      "seed_b": 19,
      "score_b": null,
      "from_b": null
@@ -5604,8 +5635,8 @@
     "rank": 18,
     "teams": 19,
     "pool": "0-2",
-    "bracket": null,
-    "seed": null,
+    "bracket": "Copper Bracket",
+    "seed": 18,
     "bracket_games": [],
     "w": 0,
     "l": 2
@@ -5623,7 +5654,7 @@
      "entered_at": "2026-10-08T16:26:44.913Z",
      "level": "AA"
     },
-    "fetched_at": "2026-10-17T18:23"
+    "fetched_at": "2026-10-17T18:34"
    },
    "tgs": {
     "weather": null,
@@ -5748,7 +5779,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-17T18:23",
+    "fetched_at": "2026-10-17T18:34",
     "url": "https://topgunstats.com/whos-playing/12521"
    },
    "name": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
@@ -6006,11 +6037,11 @@
      "field": "Westmoreld:Field 1",
      "team_a": "NL Destroyers 2036",
      "seed_a": null,
-     "score_a": null,
+     "score_a": 9,
      "from_a": null,
      "team_b": "ROCO Dirtbagz",
      "seed_b": null,
-     "score_b": null,
+     "score_b": 6,
      "from_b": null
     },
     {
@@ -6068,11 +6099,11 @@
      "time": "9:00 AM",
      "date": "2026-10-18",
      "field": "Bradford:Field # 1",
-     "team_a": "",
+     "team_a": "NL Destroyers 2036",
      "seed_a": 4,
      "score_a": null,
      "from_a": null,
-     "team_b": "",
+     "team_b": "Diamond Crushers",
      "seed_b": 5,
      "score_b": null,
      "from_b": null
@@ -6084,11 +6115,11 @@
      "time": "11:00 AM",
      "date": "2026-10-18",
      "field": "Bradford:Field # 1",
-     "team_a": "",
+     "team_a": "LKN Bolts",
      "seed_a": 2,
      "score_a": null,
      "from_a": null,
-     "team_b": "",
+     "team_b": "Union County Aces 9u",
      "seed_b": 3,
      "score_b": null,
      "from_b": null
@@ -6107,7 +6138,7 @@
       "type": "winner",
       "game": 1
      },
-     "team_b": "",
+     "team_b": "Mountain Rage",
      "seed_b": 1,
      "score_b": null,
      "from_b": null
@@ -6163,11 +6194,11 @@
      "time": "9:00 AM",
      "date": "2026-10-18",
      "field": "Bradford:Field # 2",
-     "team_a": "",
+     "team_a": "Carolina Icons",
      "seed_a": 9,
      "score_a": null,
      "from_a": null,
-     "team_b": "",
+     "team_b": "ROCO Dirtbagz",
      "seed_b": 10,
      "score_b": null,
      "from_b": null
@@ -6179,11 +6210,11 @@
      "time": "11:00 AM",
      "date": "2026-10-18",
      "field": "Bradford:Field # 2",
-     "team_a": "",
+     "team_a": "Union County Legends",
      "seed_a": 7,
      "score_a": null,
      "from_a": null,
-     "team_b": "",
+     "team_b": "Red Clay Athletics 9U Darcangelo",
      "seed_b": 8,
      "score_b": null,
      "from_b": null
@@ -6202,7 +6233,7 @@
       "type": "winner",
       "game": 7
      },
-     "team_b": "",
+     "team_b": "Team 24",
      "seed_b": 6,
      "score_b": null,
      "from_b": null
@@ -6258,11 +6289,11 @@
      "time": "9:00 AM",
      "date": "2026-10-18",
      "field": "Bradford:Field # 3",
-     "team_a": "",
+     "team_a": "SC Tide - Lucariello",
      "seed_a": 14,
      "score_a": null,
      "from_a": null,
-     "team_b": "",
+     "team_b": "ELITE BASEBALL EBC 9U",
      "seed_b": 15,
      "score_b": null,
      "from_b": null
@@ -6274,11 +6305,11 @@
      "time": "11:00 AM",
      "date": "2026-10-18",
      "field": "Bradford:Field # 3",
-     "team_a": "",
+     "team_a": "LumberJacks",
      "seed_a": 12,
      "score_a": null,
      "from_a": null,
-     "team_b": "",
+     "team_b": "Legacy Baseball 9U - WHITE",
      "seed_b": 13,
      "score_b": null,
      "from_b": null
@@ -6297,7 +6328,7 @@
       "type": "winner",
       "game": 13
      },
-     "team_b": "",
+     "team_b": "Weddington Wreckers",
      "seed_b": 11,
      "score_b": null,
      "from_b": null
@@ -6353,11 +6384,11 @@
      "time": "9:00 AM",
      "date": "2026-10-18",
      "field": "Westmoreld:Field 2",
-     "team_a": "",
+     "team_a": "Carolina Forge 9U",
      "seed_a": 17,
      "score_a": null,
      "from_a": null,
-     "team_b": "",
+     "team_b": "Elite 9",
      "seed_b": 18,
      "score_b": null,
      "from_b": null
@@ -6369,11 +6400,11 @@
      "time": "9:00 AM",
      "date": "2026-10-18",
      "field": "Westmoreld:Field 3",
-     "team_a": "",
+     "team_a": "LKN Kingdom",
      "seed_a": 16,
      "score_a": null,
      "from_a": null,
-     "team_b": "",
+     "team_b": "Carolina Royals 9Uw",
      "seed_b": 19,
      "score_b": null,
      "from_b": null
@@ -6439,9 +6470,9 @@
      "team": "ROCO Dirtbagz",
      "location": "Forest City, NC",
      "won": 1,
-     "lost": 0,
-     "runs_allowed": 7,
-     "runs_scored": 8,
+     "lost": 1,
+     "runs_allowed": 16,
+     "runs_scored": 14,
      "team_page_id": null
     },
     {
@@ -6508,10 +6539,10 @@
      "seed": 9,
      "team": "NL Destroyers 2036",
      "location": "Denver, NC",
-     "won": 1,
+     "won": 2,
      "lost": 0,
-     "runs_allowed": 6,
-     "runs_scored": 7,
+     "runs_allowed": 12,
+     "runs_scored": 16,
      "team_page_id": null
     },
     {
@@ -6645,13 +6676,47 @@
      "ra": 21,
      "result": "L",
      "gc_id": "11894d25-0b42-43ba-a7c6-ff352024a62c"
+    },
+    {
+     "event_id": 12521,
+     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "date": "2026-10-18",
+     "day": "Sun",
+     "time": "9:00 AM",
+     "field": "Westmoreld:Field 2",
+     "section": "Copper Bracket",
+     "game": 1,
+     "opponent": "Carolina Forge 9U",
+     "rs": null,
+     "ra": null,
+     "result": null,
+     "gc_id": null
     }
    ],
-   "next_game": null,
-   "schedule_versions": 1,
+   "next_game": {
+    "event_id": 12521,
+    "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+    "date": "2026-10-18",
+    "day": "Sun",
+    "time": "9:00 AM",
+    "field": "Westmoreld:Field 2",
+    "section": "Copper Bracket",
+    "game": 1,
+    "opponent": "Carolina Forge 9U",
+    "rs": null,
+    "ra": null,
+    "result": null,
+    "gc_id": null
+   },
+   "schedule_versions": 2,
    "schedule_first": "2026-10-15T13:17",
-   "schedule_updated": "2026-10-15T13:17",
-   "changes": [],
+   "schedule_updated": "2026-10-17T18:34",
+   "changes": [
+    {
+     "key": "Copper Bracket#1",
+     "kind": "added"
+    }
+   ],
    "ics": "ics/12521.ics"
   },
   {
@@ -6668,7 +6733,7 @@
     "team": {
      "entered": false
     },
-    "fetched_at": "2026-10-17T18:23"
+    "fetched_at": "2026-10-17T18:34"
    },
    "tgs": {
     "weather": {
@@ -6756,7 +6821,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-17T18:23",
+    "fetched_at": "2026-10-17T18:34",
     "url": "https://topgunstats.com/whos-playing/12522"
    },
    "name": "Southeastern Winter World Series",
@@ -6788,7 +6853,7 @@
     "team": {
      "entered": false
     },
-    "fetched_at": "2026-10-17T18:23"
+    "fetched_at": "2026-10-17T18:34"
    },
    "tgs": {
     "weather": null,
@@ -6841,7 +6906,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-17T18:23",
+    "fetched_at": "2026-10-17T18:34",
     "url": "https://topgunstats.com/whos-playing/12524"
    },
    "name": "Road Runner vs Coyote ring weekend",
@@ -8466,13 +8531,13 @@
    "location": "Denver, NC",
    "page_id": 36883,
    "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=36883",
-   "w": 11,
+   "w": 12,
    "l": 5,
    "t": 0,
-   "rs": 164,
-   "ra": 135,
-   "diff": 29,
-   "pct": 0.688,
+   "rs": 173,
+   "ra": 141,
+   "diff": 32,
+   "pct": 0.706,
    "events": 5,
    "log": [
     {
@@ -8632,6 +8697,16 @@
      "section": "Pool Play",
      "opponent": "SC Tide - Lucariello",
      "rs": 7,
+     "ra": 6,
+     "result": "W"
+    },
+    {
+     "date": "2026-10-17",
+     "event_id": 12521,
+     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "section": "Pool Play",
+     "opponent": "ROCO Dirtbagz",
+     "rs": 9,
      "ra": 6,
      "result": "W"
     }
@@ -9071,122 +9146,6 @@
      "date": "2026-10-10",
      "name": "CANCELLED------SPORTS SOUTHERN WINTER WORLD SERIES",
      "won": 0,
-     "lost": 0,
-     "standing": "",
-     "points": 0
-    }
-   ],
-   "season": "08/01/2026 - 10/16/2026",
-   "stats_fetched": "2026-10-16T11:15"
-  },
-  {
-   "team": "ROCO Dirtbagz",
-   "location": "Forest City, NC",
-   "page_id": 30375,
-   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=30375",
-   "w": 4,
-   "l": 3,
-   "t": 0,
-   "rs": 56,
-   "ra": 60,
-   "diff": -4,
-   "pct": 0.571,
-   "events": 3,
-   "log": [
-    {
-     "date": "2026-09-13",
-     "event_id": 12516,
-     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
-     "section": "Bronze Bracket",
-     "opponent": "Lake Wylie Venom",
-     "rs": 13,
-     "ra": 5,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-13",
-     "event_id": 12516,
-     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
-     "section": "Bronze Bracket",
-     "opponent": "Hooligans",
-     "rs": 2,
-     "ra": 9,
-     "result": "L"
-    },
-    {
-     "date": "2026-09-26",
-     "event_id": 12518,
-     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "section": "Pool Play",
-     "opponent": "Dirtbags Baseball ESB",
-     "rs": 13,
-     "ra": 1,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-26",
-     "event_id": 12518,
-     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "section": "Pool Play",
-     "opponent": "LumberJacks",
-     "rs": 13,
-     "ra": 7,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-27",
-     "event_id": 12518,
-     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "section": "Gold Bracket",
-     "opponent": "South Park Red Raiders",
-     "rs": 2,
-     "ra": 14,
-     "result": "L"
-    },
-    {
-     "date": "2026-09-27",
-     "event_id": 12518,
-     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "section": "Gold Bracket",
-     "opponent": "LKN Bolts",
-     "rs": 5,
-     "ra": 17,
-     "result": "L"
-    },
-    {
-     "date": "2026-10-17",
-     "event_id": 12521,
-     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
-     "section": "Pool Play",
-     "opponent": "SC Tide - Lucariello",
-     "rs": 8,
-     "ra": 7,
-     "result": "W"
-    }
-   ],
-   "points": 1200,
-   "titles": 0,
-   "finishes": [
-    {
-     "date": "2026-09-12",
-     "name": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
-     "won": 1,
-     "lost": 1,
-     "standing": "2nd (Bronze)",
-     "points": 475
-    },
-    {
-     "date": "2026-09-26",
-     "name": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "won": 2,
-     "lost": 2,
-     "standing": "4th (Gold)",
-     "points": 725
-    },
-    {
-     "date": "2026-10-09",
-     "name": "FRIDAY NIGHT G.O.A.T. SERIES 9U&11U",
-     "won": 3,
      "lost": 0,
      "standing": "",
      "points": 0
@@ -9976,6 +9935,132 @@
    ],
    "season": "",
    "stats_fetched": null
+  },
+  {
+   "team": "ROCO Dirtbagz",
+   "location": "Forest City, NC",
+   "page_id": 30375,
+   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=30375",
+   "w": 4,
+   "l": 4,
+   "t": 0,
+   "rs": 62,
+   "ra": 69,
+   "diff": -7,
+   "pct": 0.5,
+   "events": 3,
+   "log": [
+    {
+     "date": "2026-09-13",
+     "event_id": 12516,
+     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
+     "section": "Bronze Bracket",
+     "opponent": "Lake Wylie Venom",
+     "rs": 13,
+     "ra": 5,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-13",
+     "event_id": 12516,
+     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
+     "section": "Bronze Bracket",
+     "opponent": "Hooligans",
+     "rs": 2,
+     "ra": 9,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-26",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Pool Play",
+     "opponent": "Dirtbags Baseball ESB",
+     "rs": 13,
+     "ra": 1,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-26",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Pool Play",
+     "opponent": "LumberJacks",
+     "rs": 13,
+     "ra": 7,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-27",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Gold Bracket",
+     "opponent": "South Park Red Raiders",
+     "rs": 2,
+     "ra": 14,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-27",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Gold Bracket",
+     "opponent": "LKN Bolts",
+     "rs": 5,
+     "ra": 17,
+     "result": "L"
+    },
+    {
+     "date": "2026-10-17",
+     "event_id": 12521,
+     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "section": "Pool Play",
+     "opponent": "SC Tide - Lucariello",
+     "rs": 8,
+     "ra": 7,
+     "result": "W"
+    },
+    {
+     "date": "2026-10-17",
+     "event_id": 12521,
+     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "section": "Pool Play",
+     "opponent": "NL Destroyers 2036",
+     "rs": 6,
+     "ra": 9,
+     "result": "L"
+    }
+   ],
+   "points": 1200,
+   "titles": 0,
+   "finishes": [
+    {
+     "date": "2026-09-12",
+     "name": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
+     "won": 1,
+     "lost": 1,
+     "standing": "2nd (Bronze)",
+     "points": 475
+    },
+    {
+     "date": "2026-09-26",
+     "name": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "won": 2,
+     "lost": 2,
+     "standing": "4th (Gold)",
+     "points": 725
+    },
+    {
+     "date": "2026-10-09",
+     "name": "FRIDAY NIGHT G.O.A.T. SERIES 9U&11U",
+     "won": 3,
+     "lost": 0,
+     "standing": "",
+     "points": 0
+    }
+   ],
+   "season": "08/01/2026 - 10/16/2026",
+   "stats_fetched": "2026-10-16T11:15"
   },
   {
    "team": "Legacy Baseball 9U - WHITE",

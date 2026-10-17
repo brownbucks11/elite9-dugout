@@ -1,5 +1,5 @@
 # Elite 9 - Top Gun schedule
-_Updated Sat Oct 17, 2026 06:23 PM_
+_Updated Sat Oct 17, 2026 06:34 PM_
 
 ## SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND
 September 26 - 27 in Greater Charlotte Area, NC  
@@ -97,20 +97,21 @@ Tournament 12521 - [schedule page](https://playtopgunsports.com/GameTimesResults
 |---|---|---|---|---|
 | Pool 1 | Sat 9:00 AM | Westmoreld:Field 1 | LKN Bolts 14 | Elite 9 6 |
 | Pool 5 | Sat 10:45 AM | Westmoreld:Field 2 | Weddington Wreckers 21 | Elite 9 6 |
+| Copp 1 | Sun 9:00 AM | Westmoreld:Field 2 | (#17) Carolina Forge 9U | (#18) Elite 9 |
 
 **9U standings**
 
 | # | Team | From | W-L | RS | RA |
 |---|---|---|---|---|---|
 | 1 | LKN Bolts | Huntersville, NC | 2-0 | 34 | 8 |
-| 2 | ROCO Dirtbagz | Forest City, NC | 1-0 | 8 | 7 |
+| 2 | ROCO Dirtbagz | Forest City, NC | 1-1 | 14 | 16 |
 | 3 | Elite 9 **<--** | Rock Hill, SC | 0-2 | 12 | 35 |
 | 4 | Union County Aces 9u | Monroe, NC | 2-0 | 36 | 9 |
 | 5 | Team 24 | York, SC | 1-0 | 34 | 9 |
 | 6 | Union County Legends | Waxhaw, NC | 1-0 | 27 | 16 |
 | 7 | SC Tide - Lucariello | Clover, SC | 0-2 | 13 | 15 |
 | 8 | Diamond Crushers | Concord, NC | 2-0 | 25 | 14 |
-| 9 | NL Destroyers 2036 | Denver, NC | 1-0 | 7 | 6 |
+| 9 | NL Destroyers 2036 | Denver, NC | 2-0 | 16 | 12 |
 | 10 | LumberJacks | Gaston County, NC | 1-1 | 24 | 27 |
 | 11 | Weddington Wreckers | Weddington, NC | 1-1 | 32 | 19 |
 | 12 | Mountain Rage | Mars Hill, NC | 2-0 | 28 | 4 |
@@ -126,9 +127,9 @@ Tournament 12521 - [schedule page](https://playtopgunsports.com/GameTimesResults
 
 | G | When | Field | Team A | Team B |
 |---|---|---|---|---|
-| 1 | Sun 9:00 AM | Bradford:Field # 1 | (#4)  | (#5)  |
-| 2 | Sun 11:00 AM | Bradford:Field # 1 | (#2)  | (#3)  |
-| 3 | Sun 1:00 PM | Bradford:Field # 1 | Winner Game #1 | (#1)  |
+| 1 | Sun 9:00 AM | Bradford:Field # 1 | (#4) NL Destroyers 2036 | (#5) Diamond Crushers |
+| 2 | Sun 11:00 AM | Bradford:Field # 1 | (#2) LKN Bolts | (#3) Union County Aces 9u |
+| 3 | Sun 1:00 PM | Bradford:Field # 1 | Winner Game #1 | (#1) Mountain Rage |
 | 4 | Sun 11:00 AM | Bradford:Field # 4 | Loser Game #1 | Loser Game #2 |
 | 5 | Sun 3:00 PM | Bradford:Field # 1 | Winner Game #3 | Winner Game #2 |
 
@@ -136,9 +137,9 @@ Tournament 12521 - [schedule page](https://playtopgunsports.com/GameTimesResults
 
 | G | When | Field | Team A | Team B |
 |---|---|---|---|---|
-| 1 | Sun 9:00 AM | Bradford:Field # 2 | (#9)  | (#10)  |
-| 2 | Sun 11:00 AM | Bradford:Field # 2 | (#7)  | (#8)  |
-| 3 | Sun 1:00 PM | Bradford:Field # 2 | Winner Game #7 | (#6)  |
+| 1 | Sun 9:00 AM | Bradford:Field # 2 | (#9) Carolina Icons | (#10) ROCO Dirtbagz |
+| 2 | Sun 11:00 AM | Bradford:Field # 2 | (#7) Union County Legends | (#8) Red Clay Athletics 9U Darcangelo |
+| 3 | Sun 1:00 PM | Bradford:Field # 2 | Winner Game #7 | (#6) Team 24 |
 | 4 | Sun 1:00 PM | Bradford:Field # 4 | Loser Game #7 | Loser Game #8 |
 | 5 | Sun 3:00 PM | Bradford:Field # 2 | Winner Game #9 | Winner Game #8 |
 
@@ -146,9 +147,9 @@ Tournament 12521 - [schedule page](https://playtopgunsports.com/GameTimesResults
 
 | G | When | Field | Team A | Team B |
 |---|---|---|---|---|
-| 1 | Sun 9:00 AM | Bradford:Field # 3 | (#14)  | (#15)  |
-| 2 | Sun 11:00 AM | Bradford:Field # 3 | (#12)  | (#13)  |
-| 3 | Sun 1:00 PM | Bradford:Field # 3 | Winner Game #13 | (#11)  |
+| 1 | Sun 9:00 AM | Bradford:Field # 3 | (#14) SC Tide - Lucariello | (#15) ELITE BASEBALL EBC 9U |
+| 2 | Sun 11:00 AM | Bradford:Field # 3 | (#12) LumberJacks | (#13) Legacy Baseball 9U - WHITE |
+| 3 | Sun 1:00 PM | Bradford:Field # 3 | Winner Game #13 | (#11) Weddington Wreckers |
 | 4 | Sun 3:00 PM | Bradford:Field # 4 | Loser Game #13 | Loser Game #14 |
 | 5 | Sun 3:00 PM | Bradford:Field # 3 | Winner Game #15 | Winner Game #14 |
 
@@ -156,8 +157,8 @@ Tournament 12521 - [schedule page](https://playtopgunsports.com/GameTimesResults
 
 | G | When | Field | Team A | Team B |
 |---|---|---|---|---|
-| 1 | Sun 9:00 AM | Westmoreld:Field 2 | (#17)  | (#18)  |
-| 2 | Sun 9:00 AM | Westmoreld:Field 3 | (#16)  | (#19)  |
+| 1 | Sun 9:00 AM | Westmoreld:Field 2 | (#17) Carolina Forge 9U | (#18) Elite 9 |
+| 2 | Sun 9:00 AM | Westmoreld:Field 3 | (#16) LKN Kingdom | (#19) Carolina Royals 9Uw |
 | 3 | Sun 11:00 AM | Westmoreld:Field 2 | Loser Game #19 | Loser Game #20 |
 | 4 | Sun 11:00 AM | Westmoreld:Field 3 | Winner Game #19 | Winner Game #20 |
 
