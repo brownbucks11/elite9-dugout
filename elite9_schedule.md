@@ -1,5 +1,5 @@
 # Elite 9 - Top Gun schedule
-_Updated Sat Oct 17, 2026 06:03 PM_
+_Updated Sat Oct 17, 2026 06:13 PM_
 
 ## SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND
 September 26 - 27 in Greater Charlotte Area, NC  
@@ -115,12 +115,12 @@ Tournament 12521 - [schedule page](https://playtopgunsports.com/GameTimesResults
 | 11 | Weddington Wreckers | Weddington, NC | 1-1 | 32 | 19 |
 | 12 | Mountain Rage | Mars Hill, NC | 2-0 | 28 | 4 |
 | 13 | LKN Kingdom | Charlotte, NC | 0-2 | 12 | 29 |
-| 14 | Carolina Icons | Stanfield, NC | 0-1 | 3 | 9 |
+| 14 | Carolina Icons | Stanfield, NC | 1-1 | 17 | 15 |
 | 15 | Legacy Baseball 9U - WHITE | Fort Mill, SC | 1-1 | 15 | 31 |
 | 16 | Carolina Royals 9Uw | Gastonia, NC | 0-2 | 7 | 43 |
 | 17 | Red Clay Athletics 9U Darcangelo | Charlotte, NC | 1-1 | 12 | 12 |
 | 18 | ELITE BASEBALL EBC 9U | FOREST CITY, NC | 0-2 | 5 | 26 |
-| 19 | Carolina Forge 9U | Gastonia, NC | 0-1 | 2 | 17 |
+| 19 | Carolina Forge 9U | Gastonia, NC | 0-2 | 8 | 31 |
 
 **Gold Bracket**
 

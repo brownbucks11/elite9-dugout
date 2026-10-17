@@ -408,10 +408,10 @@
           "seed": 14,
           "team": "Carolina Icons",
           "location": "Stanfield, NC",
-          "won": 0,
+          "won": 1,
           "lost": 1,
-          "runs_allowed": 9,
-          "runs_scored": 3,
+          "runs_allowed": 15,
+          "runs_scored": 17,
           "team_page_id": null
         },
         {
@@ -459,9 +459,9 @@
           "team": "Carolina Forge 9U",
           "location": "Gastonia, NC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 17,
-          "runs_scored": 2,
+          "lost": 2,
+          "runs_allowed": 31,
+          "runs_scored": 8,
           "team_page_id": null
         }
       ],
@@ -690,10 +690,10 @@
             "field": "Westmoreld:Field 4",
             "team_a": "Carolina Forge 9U",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 6,
             "team_b": "Carolina Icons",
             "seed_b": null,
-            "score_b": null
+            "score_b": 14
           }
         ],
         "Gold Bracket": [
@@ -3562,10 +3562,10 @@
           "seed": 2,
           "team": "Carolina Elevate 17U",
           "location": "Hudson, NC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
-          "runs_allowed": 5,
-          "runs_scored": 6,
+          "runs_allowed": 11,
+          "runs_scored": 13,
           "team_page_id": null
         },
         {
@@ -3593,9 +3593,9 @@
           "team": "P413 Buchanan",
           "location": "ADVANCE, NC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 6,
-          "runs_scored": 2,
+          "lost": 2,
+          "runs_allowed": 13,
+          "runs_scored": 8,
           "team_page_id": null
         },
         {
@@ -3722,10 +3722,10 @@
             "field": "BFF:Field 1",
             "team_a": "Carolina Elevate 17U",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 7,
             "team_b": "P413 Buchanan",
             "seed_b": null,
-            "score_b": null
+            "score_b": 6
           }
         ],
         "Gold Bracket": [
@@ -3809,5 +3809,5 @@
   },
   "site_last_updated": "10/15/2026 12:00 PM",
   "tournament_id": 12521,
-  "fetched_at": "2026-10-17T18:02"
+  "fetched_at": "2026-10-17T18:13"
 }
