@@ -83,6 +83,8 @@ jobs:
           if [ "$TEAMS" = "true" ]; then FLAGS="$FLAGS --teams"; fi
           git config user.name "score-bot"
           git config user.email "actions@users.noreply.github.com"
+          git config pull.rebase true
+          set +e   # a bad tick must not end the loop
 
           commit_if_changed() {
             git add data docs elite9_schedule.md
@@ -92,7 +94,13 @@ jobs:
               echo "no changes"; git reset -q
             else
               git commit -q -m "Refresh scores $(date '+%a %b %d %I:%M %p %Z')"
-              git pull --rebase -q || { git rebase --abort; git pull -q; }
+              # Someone may have pushed meanwhile (e.g. update_gc.cmd). Rebase onto it; generated
+              # files that conflict take this run's fresh copy (-X theirs = the commit being replayed).
+              if ! git pull --rebase -q -X theirs; then
+                echo "rebase failed - dropping this tick's commit, next tick regenerates"
+                git rebase --abort 2>/dev/null || true
+                git fetch -q origin && git reset -q --hard origin/main
+              fi
               git push -q && echo "pushed" || echo "push failed (will retry next tick)"
             fi
           }
