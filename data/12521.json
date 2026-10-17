@@ -2531,10 +2531,10 @@
           "seed": 4,
           "team": "FS Bulldogs 14u (Dane)",
           "location": "Mount Ulla, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 1,
+          "runs_scored": 10,
           "team_page_id": null
         },
         {
@@ -2602,9 +2602,9 @@
           "team": "Red Clay Athletics 14U Kelly",
           "location": "Huntersville, NC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 14,
-          "runs_scored": 0,
+          "lost": 2,
+          "runs_allowed": 24,
+          "runs_scored": 1,
           "team_page_id": null
         },
         {
@@ -2781,10 +2781,10 @@
             "field": "TOB:Field 1",
             "team_a": "FS Bulldogs 14u (Dane)",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 10,
             "team_b": "Red Clay Athletics 14U Kelly",
             "seed_b": null,
-            "score_b": null
+            "score_b": 1
           },
           {
             "game": 9,
@@ -3809,5 +3809,5 @@
   },
   "site_last_updated": "10/15/2026 12:00 PM",
   "tournament_id": 12521,
-  "fetched_at": "2026-10-17T13:26"
+  "fetched_at": "2026-10-17T13:36"
 }
