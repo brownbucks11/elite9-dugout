@@ -3,13 +3,13 @@
  "location": "Rock Hill, SC",
  "page_id": 31407,
  "team_url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=31407",
- "built": "Sat Oct 17, 2026 10:29 AM",
+ "built": "Sat Oct 17, 2026 10:39 AM",
  "record": {
   "w": 2,
-  "l": 7,
+  "l": 8,
   "t": 0,
-  "rs": 46,
-  "ra": 90
+  "rs": 52,
+  "ra": 104
  },
  "my_games": [
   {
@@ -157,9 +157,9 @@
    "section": "Pool Play",
    "game": 1,
    "opponent": "LKN Bolts",
-   "rs": null,
-   "ra": null,
-   "result": null,
+   "rs": 6,
+   "ra": 14,
+   "result": "L",
    "gc_id": null
   },
   {
@@ -2575,7 +2575,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-17T10:28",
+    "fetched_at": "2026-10-17T10:39",
     "url": "https://topgunstats.com/whos-playing/12521"
    },
    "next_game": {
@@ -2583,11 +2583,11 @@
     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
     "date": "2026-10-17",
     "day": "Sat",
-    "time": "9:00 AM",
-    "field": "Westmoreld:Field 1",
+    "time": "10:45 AM",
+    "field": "Westmoreld:Field 2",
     "section": "Pool Play",
-    "game": 1,
-    "opponent": "LKN Bolts",
+    "game": 5,
+    "opponent": "Weddington Wreckers",
     "rs": null,
     "ra": null,
     "result": null,
@@ -2597,28 +2597,134 @@
    "standing": {
     "team": "Elite 9",
     "location": "Rock Hill, SC",
-    "rank": 6,
-    "tiebreak": "coin flip (unresolved)",
-    "h2h": {},
-    "last": null,
+    "rank": 3,
+    "tiebreak": "runs allowed",
+    "h2h": {
+     "LKN Bolts": "L"
+    },
+    "last": {
+     "opponent": "LKN Bolts",
+     "rs": 6,
+     "ra": 14
+    },
     "pool_w": 0,
-    "pool_l": 0,
+    "pool_l": 1,
     "pool_t": 0,
-    "pool_rs": 0,
-    "pool_ra": 0,
+    "pool_rs": 6,
+    "pool_ra": 14,
     "seed": null,
     "bracket": null,
     "won": 0,
-    "lost": 0,
-    "rs": 0,
-    "ra": 0,
+    "lost": 1,
+    "rs": 6,
+    "ra": 14,
     "bracket_games": []
    },
    "standings": [
     {
+     "team": "LKN Bolts",
+     "location": "Huntersville, NC",
+     "rank": 1,
+     "tiebreak": "runs allowed",
+     "h2h": {
+      "Elite 9": "W"
+     },
+     "last": {
+      "opponent": "Elite 9",
+      "rs": 14,
+      "ra": 6
+     },
+     "pool_w": 1,
+     "pool_l": 0,
+     "pool_t": 0,
+     "pool_rs": 14,
+     "pool_ra": 6,
+     "seed": null,
+     "bracket": null,
+     "won": 1,
+     "lost": 0,
+     "rs": 14,
+     "ra": 6
+    },
+    {
+     "team": "Union County Aces 9u",
+     "location": "Monroe, NC",
+     "rank": 2,
+     "tiebreak": "runs allowed",
+     "h2h": {
+      "LumberJacks": "W"
+     },
+     "last": {
+      "opponent": "LumberJacks",
+      "rs": 23,
+      "ra": 8
+     },
+     "pool_w": 1,
+     "pool_l": 0,
+     "pool_t": 0,
+     "pool_rs": 23,
+     "pool_ra": 8,
+     "seed": null,
+     "bracket": null,
+     "won": 1,
+     "lost": 0,
+     "rs": 23,
+     "ra": 8
+    },
+    {
+     "team": "Elite 9",
+     "location": "Rock Hill, SC",
+     "rank": 3,
+     "tiebreak": "runs allowed",
+     "h2h": {
+      "LKN Bolts": "L"
+     },
+     "last": {
+      "opponent": "LKN Bolts",
+      "rs": 6,
+      "ra": 14
+     },
+     "pool_w": 0,
+     "pool_l": 1,
+     "pool_t": 0,
+     "pool_rs": 6,
+     "pool_ra": 14,
+     "seed": null,
+     "bracket": null,
+     "won": 0,
+     "lost": 1,
+     "rs": 6,
+     "ra": 14
+    },
+    {
+     "team": "LumberJacks",
+     "location": "Gaston County, NC",
+     "rank": 4,
+     "tiebreak": "runs allowed",
+     "h2h": {
+      "Union County Aces 9u": "L"
+     },
+     "last": {
+      "opponent": "Union County Aces 9u",
+      "rs": 8,
+      "ra": 23
+     },
+     "pool_w": 0,
+     "pool_l": 1,
+     "pool_t": 0,
+     "pool_rs": 8,
+     "pool_ra": 23,
+     "seed": null,
+     "bracket": null,
+     "won": 0,
+     "lost": 1,
+     "rs": 8,
+     "ra": 23
+    },
+    {
      "team": "Carolina Forge 9U",
      "location": "Gastonia, NC",
-     "rank": 2,
+     "rank": 6,
      "tiebreak": "coin flip (unresolved)",
      "h2h": {},
      "last": null,
@@ -2637,7 +2743,7 @@
     {
      "team": "Carolina Icons",
      "location": "Stanfield, NC",
-     "rank": 3,
+     "rank": 7,
      "tiebreak": "coin flip (unresolved)",
      "h2h": {},
      "last": null,
@@ -2656,7 +2762,7 @@
     {
      "team": "Carolina Royals 9Uw",
      "location": "Gastonia, NC",
-     "rank": 4,
+     "rank": 8,
      "tiebreak": "coin flip (unresolved)",
      "h2h": {},
      "last": null,
@@ -2675,26 +2781,7 @@
     {
      "team": "Diamond Crushers",
      "location": "Concord, NC",
-     "rank": 5,
-     "tiebreak": "coin flip (unresolved)",
-     "h2h": {},
-     "last": null,
-     "pool_w": 0,
-     "pool_l": 0,
-     "pool_t": 0,
-     "pool_rs": 0,
-     "pool_ra": 0,
-     "seed": null,
-     "bracket": null,
-     "won": 0,
-     "lost": 0,
-     "rs": 0,
-     "ra": 0
-    },
-    {
-     "team": "Elite 9",
-     "location": "Rock Hill, SC",
-     "rank": 6,
+     "rank": 9,
      "tiebreak": "coin flip (unresolved)",
      "h2h": {},
      "last": null,
@@ -2713,7 +2800,7 @@
     {
      "team": "ELITE BASEBALL EBC 9U",
      "location": "FOREST CITY, NC",
-     "rank": 7,
+     "rank": 10,
      "tiebreak": "coin flip (unresolved)",
      "h2h": {},
      "last": null,
@@ -2732,26 +2819,7 @@
     {
      "team": "Legacy Baseball 9U - WHITE",
      "location": "Fort Mill, SC",
-     "rank": 8,
-     "tiebreak": "coin flip (unresolved)",
-     "h2h": {},
-     "last": null,
-     "pool_w": 0,
-     "pool_l": 0,
-     "pool_t": 0,
-     "pool_rs": 0,
-     "pool_ra": 0,
-     "seed": null,
-     "bracket": null,
-     "won": 0,
-     "lost": 0,
-     "rs": 0,
-     "ra": 0
-    },
-    {
-     "team": "LKN Bolts",
-     "location": "Huntersville, NC",
-     "rank": 9,
+     "rank": 11,
      "tiebreak": "coin flip (unresolved)",
      "h2h": {},
      "last": null,
@@ -2770,26 +2838,7 @@
     {
      "team": "LKN Kingdom",
      "location": "Charlotte, NC",
-     "rank": 10,
-     "tiebreak": "coin flip (unresolved)",
-     "h2h": {},
-     "last": null,
-     "pool_w": 0,
-     "pool_l": 0,
-     "pool_t": 0,
-     "pool_rs": 0,
-     "pool_ra": 0,
-     "seed": null,
-     "bracket": null,
-     "won": 0,
-     "lost": 0,
-     "rs": 0,
-     "ra": 0
-    },
-    {
-     "team": "LumberJacks",
-     "location": "Gaston County, NC",
-     "rank": 11,
+     "rank": 12,
      "tiebreak": "coin flip (unresolved)",
      "h2h": {},
      "last": null,
@@ -2808,7 +2857,7 @@
     {
      "team": "Mountain Rage",
      "location": "Mars Hill, NC",
-     "rank": 12,
+     "rank": 13,
      "tiebreak": "coin flip (unresolved)",
      "h2h": {},
      "last": null,
@@ -2827,7 +2876,7 @@
     {
      "team": "NL Destroyers 2036",
      "location": "Denver, NC",
-     "rank": 13,
+     "rank": 14,
      "tiebreak": "coin flip (unresolved)",
      "h2h": {},
      "last": null,
@@ -2846,7 +2895,7 @@
     {
      "team": "Red Clay Athletics 9U Darcangelo",
      "location": "Charlotte, NC",
-     "rank": 14,
+     "rank": 15,
      "tiebreak": "coin flip (unresolved)",
      "h2h": {},
      "last": null,
@@ -2865,7 +2914,7 @@
     {
      "team": "ROCO Dirtbagz",
      "location": "Forest City, NC",
-     "rank": 15,
+     "rank": 16,
      "tiebreak": "coin flip (unresolved)",
      "h2h": {},
      "last": null,
@@ -2884,7 +2933,7 @@
     {
      "team": "SC Tide - Lucariello",
      "location": "Clover, SC",
-     "rank": 16,
+     "rank": 17,
      "tiebreak": "coin flip (unresolved)",
      "h2h": {},
      "last": null,
@@ -2903,25 +2952,6 @@
     {
      "team": "Team 24",
      "location": "York, SC",
-     "rank": 17,
-     "tiebreak": "coin flip (unresolved)",
-     "h2h": {},
-     "last": null,
-     "pool_w": 0,
-     "pool_l": 0,
-     "pool_t": 0,
-     "pool_rs": 0,
-     "pool_ra": 0,
-     "seed": null,
-     "bracket": null,
-     "won": 0,
-     "lost": 0,
-     "rs": 0,
-     "ra": 0
-    },
-    {
-     "team": "Union County Aces 9u",
-     "location": "Monroe, NC",
      "rank": 18,
      "tiebreak": "coin flip (unresolved)",
      "h2h": {},
@@ -2987,11 +3017,11 @@
      "field": "Westmoreld:Field 1",
      "team_a": "LKN Bolts",
      "seed_a": null,
-     "score_a": null,
+     "score_a": 14,
      "from_a": null,
      "team_b": "Elite 9",
      "seed_b": null,
-     "score_b": null,
+     "score_b": 6,
      "from_b": null
     },
     {
@@ -3019,11 +3049,11 @@
      "field": "Westmoreld:Field 3",
      "team_a": "LumberJacks",
      "seed_a": null,
-     "score_a": null,
+     "score_a": 8,
      "from_a": null,
      "team_b": "Union County Aces 9u",
      "seed_b": null,
-     "score_b": null,
+     "score_b": 23,
      "from_b": null
     },
     {
@@ -5477,14 +5507,14 @@
    "official": false,
    "confirmed": false,
    "summary": {
-    "rank": 6,
+    "rank": 3,
     "teams": 19,
-    "pool": "0-0",
+    "pool": "0-1",
     "bracket": null,
     "seed": null,
     "bracket_games": [],
     "w": 0,
-    "l": 0
+    "l": 1
    },
    "entries": {
     "count": 19,
@@ -5499,7 +5529,7 @@
      "entered_at": "2026-10-08T16:26:44.913Z",
      "level": "AA"
     },
-    "fetched_at": "2026-10-17T10:28"
+    "fetched_at": "2026-10-17T10:39"
    },
    "tgs": {
     "weather": null,
@@ -5624,7 +5654,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-17T10:28",
+    "fetched_at": "2026-10-17T10:39",
     "url": "https://topgunstats.com/whos-playing/12521"
    },
    "name": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
@@ -5642,11 +5672,11 @@
      "field": "Westmoreld:Field 1",
      "team_a": "LKN Bolts",
      "seed_a": null,
-     "score_a": null,
+     "score_a": 14,
      "from_a": null,
      "team_b": "Elite 9",
      "seed_b": null,
-     "score_b": null,
+     "score_b": 6,
      "from_b": null
     },
     {
@@ -5674,11 +5704,11 @@
      "field": "Westmoreld:Field 3",
      "team_a": "LumberJacks",
      "seed_a": null,
-     "score_a": null,
+     "score_a": 8,
      "from_a": null,
      "team_b": "Union County Aces 9u",
      "seed_b": null,
-     "score_b": null,
+     "score_b": 23,
      "from_b": null
     },
     {
@@ -6304,10 +6334,10 @@
      "seed": 1,
      "team": "LKN Bolts",
      "location": "Huntersville, NC",
-     "won": 0,
+     "won": 1,
      "lost": 0,
-     "runs_allowed": 0,
-     "runs_scored": 0,
+     "runs_allowed": 6,
+     "runs_scored": 14,
      "team_page_id": null
     },
     {
@@ -6325,19 +6355,19 @@
      "team": "Elite 9",
      "location": "Rock Hill, SC",
      "won": 0,
-     "lost": 0,
-     "runs_allowed": 0,
-     "runs_scored": 0,
+     "lost": 1,
+     "runs_allowed": 14,
+     "runs_scored": 6,
      "team_page_id": null
     },
     {
      "seed": 4,
      "team": "Union County Aces 9u",
      "location": "Monroe, NC",
-     "won": 0,
+     "won": 1,
      "lost": 0,
-     "runs_allowed": 0,
-     "runs_scored": 0,
+     "runs_allowed": 8,
+     "runs_scored": 23,
      "team_page_id": null
     },
     {
@@ -6395,9 +6425,9 @@
      "team": "LumberJacks",
      "location": "Gaston County, NC",
      "won": 0,
-     "lost": 0,
-     "runs_allowed": 0,
-     "runs_scored": 0,
+     "lost": 1,
+     "runs_allowed": 23,
+     "runs_scored": 8,
      "team_page_id": null
     },
     {
@@ -6502,9 +6532,9 @@
      "section": "Pool Play",
      "game": 1,
      "opponent": "LKN Bolts",
-     "rs": null,
-     "ra": null,
-     "result": null,
+     "rs": 6,
+     "ra": 14,
+     "result": "L",
      "gc_id": null
     },
     {
@@ -6528,11 +6558,11 @@
     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
     "date": "2026-10-17",
     "day": "Sat",
-    "time": "9:00 AM",
-    "field": "Westmoreld:Field 1",
+    "time": "10:45 AM",
+    "field": "Westmoreld:Field 2",
     "section": "Pool Play",
-    "game": 1,
-    "opponent": "LKN Bolts",
+    "game": 5,
+    "opponent": "Weddington Wreckers",
     "rs": null,
     "ra": null,
     "result": null,
@@ -6558,7 +6588,7 @@
     "team": {
      "entered": false
     },
-    "fetched_at": "2026-10-17T10:28"
+    "fetched_at": "2026-10-17T10:39"
    },
    "tgs": {
     "weather": {
@@ -6646,7 +6676,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-17T10:28",
+    "fetched_at": "2026-10-17T10:39",
     "url": "https://topgunstats.com/whos-playing/12522"
    },
    "name": "Southeastern Winter World Series",
@@ -6678,7 +6708,7 @@
     "team": {
      "entered": false
     },
-    "fetched_at": "2026-10-17T10:28"
+    "fetched_at": "2026-10-17T10:39"
    },
    "tgs": {
     "weather": null,
@@ -6731,7 +6761,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-17T10:28",
+    "fetched_at": "2026-10-17T10:39",
     "url": "https://topgunstats.com/whos-playing/12524"
    },
    "name": "Road Runner vs Coyote ring weekend",
@@ -7054,6 +7084,37 @@
      "derived": true
     }
    ],
+   "season": "",
+   "stats_fetched": null
+  },
+  {
+   "team": "Union County Aces 9u",
+   "location": "Monroe, NC",
+   "page_id": null,
+   "url": null,
+   "w": 1,
+   "l": 0,
+   "t": 0,
+   "rs": 23,
+   "ra": 8,
+   "diff": 15,
+   "pct": 1.0,
+   "events": 1,
+   "log": [
+    {
+     "date": "2026-10-17",
+     "event_id": 12521,
+     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "section": "Pool Play",
+     "opponent": "LumberJacks",
+     "rs": 23,
+     "ra": 8,
+     "result": "W"
+    }
+   ],
+   "points": 0,
+   "titles": 0,
+   "finishes": [],
    "season": "",
    "stats_fetched": null
   },
@@ -7630,6 +7691,172 @@
    "stats_fetched": "2026-10-16T11:15"
   },
   {
+   "team": "LKN Bolts",
+   "location": "Huntersville, NC",
+   "page_id": 32916,
+   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=32916",
+   "w": 9,
+   "l": 3,
+   "t": 0,
+   "rs": 131,
+   "ra": 92,
+   "diff": 39,
+   "pct": 0.75,
+   "events": 4,
+   "log": [
+    {
+     "date": "2026-08-29",
+     "event_id": 12514,
+     "event": "FENCE BUDDIES CHAMPIONSHIPS----- TOP GUN-USA SPORTS EVENT",
+     "section": "Pool Play",
+     "opponent": "South Charlotte Revolution 9U",
+     "rs": 5,
+     "ra": 25,
+     "result": "L"
+    },
+    {
+     "date": "2026-08-29",
+     "event_id": 12514,
+     "event": "FENCE BUDDIES CHAMPIONSHIPS----- TOP GUN-USA SPORTS EVENT",
+     "section": "Pool Play",
+     "opponent": "NL Destroyers 2036",
+     "rs": 17,
+     "ra": 10,
+     "result": "W"
+    },
+    {
+     "date": "2026-08-30",
+     "event_id": 12514,
+     "event": "FENCE BUDDIES CHAMPIONSHIPS----- TOP GUN-USA SPORTS EVENT",
+     "section": "Silver Bracket",
+     "opponent": "KnuckleheadsCBC",
+     "rs": 13,
+     "ra": 5,
+     "result": "W"
+    },
+    {
+     "date": "2026-08-30",
+     "event_id": 12514,
+     "event": "FENCE BUDDIES CHAMPIONSHIPS----- TOP GUN-USA SPORTS EVENT",
+     "section": "Silver Bracket",
+     "opponent": "Legacy Baseball 9U RED",
+     "rs": 9,
+     "ra": 5,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-12",
+     "event_id": 12516,
+     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
+     "section": "Pool Play",
+     "opponent": "Concord Athletics -9U",
+     "rs": 15,
+     "ra": 4,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-13",
+     "event_id": 12516,
+     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
+     "section": "Gold Bracket",
+     "opponent": "Copperheads",
+     "rs": 9,
+     "ra": 1,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-13",
+     "event_id": 12516,
+     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
+     "section": "Gold Bracket",
+     "opponent": "Dirtbags Baseball ESB",
+     "rs": 5,
+     "ra": 13,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-26",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Pool Play",
+     "opponent": "Elite 9",
+     "rs": 8,
+     "ra": 3,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-26",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Pool Play",
+     "opponent": "Carolina Royals 9Uw",
+     "rs": 16,
+     "ra": 4,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-27",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Gold Bracket",
+     "opponent": "Carolina Firebirds-Red",
+     "rs": 3,
+     "ra": 11,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-27",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Gold Bracket",
+     "opponent": "ROCO Dirtbagz",
+     "rs": 17,
+     "ra": 5,
+     "result": "W"
+    },
+    {
+     "date": "2026-10-17",
+     "event_id": 12521,
+     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "section": "Pool Play",
+     "opponent": "Elite 9",
+     "rs": 14,
+     "ra": 6,
+     "result": "W"
+    }
+   ],
+   "points": 1725,
+   "titles": 1,
+   "finishes": [
+    {
+     "date": "2026-08-29",
+     "name": "FENCE BUDDIES CHAMPIONSHIPS----- TOP GUN-USA SPORTS EVENT",
+     "won": 3,
+     "lost": 1,
+     "standing": "1st (Silver)",
+     "points": 300
+    },
+    {
+     "date": "2026-09-12",
+     "name": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
+     "won": 2,
+     "lost": 1,
+     "standing": "2nd (Gold)",
+     "points": 675
+    },
+    {
+     "date": "2026-09-26",
+     "name": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "won": 3,
+     "lost": 1,
+     "standing": "3rd (Gold)",
+     "points": 750
+    }
+   ],
+   "season": "08/01/2026 - 10/16/2026",
+   "stats_fetched": "2026-10-16T11:16"
+  },
+  {
    "team": "Carolina Firebirds-Red",
    "location": "Winston Salem, NC",
    "page_id": null,
@@ -7918,162 +8145,6 @@
    ],
    "season": "08/01/2026 - 10/16/2026",
    "stats_fetched": "2026-10-16T11:18"
-  },
-  {
-   "team": "LKN Bolts",
-   "location": "Huntersville, NC",
-   "page_id": 32916,
-   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=32916",
-   "w": 8,
-   "l": 3,
-   "t": 0,
-   "rs": 117,
-   "ra": 86,
-   "diff": 31,
-   "pct": 0.727,
-   "events": 3,
-   "log": [
-    {
-     "date": "2026-08-29",
-     "event_id": 12514,
-     "event": "FENCE BUDDIES CHAMPIONSHIPS----- TOP GUN-USA SPORTS EVENT",
-     "section": "Pool Play",
-     "opponent": "South Charlotte Revolution 9U",
-     "rs": 5,
-     "ra": 25,
-     "result": "L"
-    },
-    {
-     "date": "2026-08-29",
-     "event_id": 12514,
-     "event": "FENCE BUDDIES CHAMPIONSHIPS----- TOP GUN-USA SPORTS EVENT",
-     "section": "Pool Play",
-     "opponent": "NL Destroyers 2036",
-     "rs": 17,
-     "ra": 10,
-     "result": "W"
-    },
-    {
-     "date": "2026-08-30",
-     "event_id": 12514,
-     "event": "FENCE BUDDIES CHAMPIONSHIPS----- TOP GUN-USA SPORTS EVENT",
-     "section": "Silver Bracket",
-     "opponent": "KnuckleheadsCBC",
-     "rs": 13,
-     "ra": 5,
-     "result": "W"
-    },
-    {
-     "date": "2026-08-30",
-     "event_id": 12514,
-     "event": "FENCE BUDDIES CHAMPIONSHIPS----- TOP GUN-USA SPORTS EVENT",
-     "section": "Silver Bracket",
-     "opponent": "Legacy Baseball 9U RED",
-     "rs": 9,
-     "ra": 5,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-12",
-     "event_id": 12516,
-     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
-     "section": "Pool Play",
-     "opponent": "Concord Athletics -9U",
-     "rs": 15,
-     "ra": 4,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-13",
-     "event_id": 12516,
-     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
-     "section": "Gold Bracket",
-     "opponent": "Copperheads",
-     "rs": 9,
-     "ra": 1,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-13",
-     "event_id": 12516,
-     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
-     "section": "Gold Bracket",
-     "opponent": "Dirtbags Baseball ESB",
-     "rs": 5,
-     "ra": 13,
-     "result": "L"
-    },
-    {
-     "date": "2026-09-26",
-     "event_id": 12518,
-     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "section": "Pool Play",
-     "opponent": "Elite 9",
-     "rs": 8,
-     "ra": 3,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-26",
-     "event_id": 12518,
-     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "section": "Pool Play",
-     "opponent": "Carolina Royals 9Uw",
-     "rs": 16,
-     "ra": 4,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-27",
-     "event_id": 12518,
-     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "section": "Gold Bracket",
-     "opponent": "Carolina Firebirds-Red",
-     "rs": 3,
-     "ra": 11,
-     "result": "L"
-    },
-    {
-     "date": "2026-09-27",
-     "event_id": 12518,
-     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "section": "Gold Bracket",
-     "opponent": "ROCO Dirtbagz",
-     "rs": 17,
-     "ra": 5,
-     "result": "W"
-    }
-   ],
-   "points": 1725,
-   "titles": 1,
-   "finishes": [
-    {
-     "date": "2026-08-29",
-     "name": "FENCE BUDDIES CHAMPIONSHIPS----- TOP GUN-USA SPORTS EVENT",
-     "won": 3,
-     "lost": 1,
-     "standing": "1st (Silver)",
-     "points": 300
-    },
-    {
-     "date": "2026-09-12",
-     "name": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
-     "won": 2,
-     "lost": 1,
-     "standing": "2nd (Gold)",
-     "points": 675
-    },
-    {
-     "date": "2026-09-26",
-     "name": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "won": 3,
-     "lost": 1,
-     "standing": "3rd (Gold)",
-     "points": 750
-    }
-   ],
-   "season": "08/01/2026 - 10/16/2026",
-   "stats_fetched": "2026-10-16T11:16"
   },
   {
    "team": "Dirtbags Baseball ESB",
@@ -10936,13 +11007,13 @@
    "page_id": 34401,
    "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=34401",
    "w": 5,
-   "l": 10,
+   "l": 11,
    "t": 0,
-   "rs": 132,
-   "ra": 167,
-   "diff": -35,
-   "pct": 0.333,
-   "events": 4,
+   "rs": 140,
+   "ra": 190,
+   "diff": -50,
+   "pct": 0.312,
+   "events": 5,
    "log": [
     {
      "date": "2026-08-22",
@@ -11092,6 +11163,16 @@
      "opponent": "Carolina Rapid Fire - Ford",
      "rs": 2,
      "ra": 10,
+     "result": "L"
+    },
+    {
+     "date": "2026-10-17",
+     "event_id": 12521,
+     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "section": "Pool Play",
+     "opponent": "Union County Aces 9u",
+     "rs": 8,
+     "ra": 23,
      "result": "L"
     }
    ],
@@ -11398,13 +11479,13 @@
    "page_id": 31407,
    "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=31407",
    "w": 2,
-   "l": 7,
+   "l": 8,
    "t": 0,
-   "rs": 46,
-   "ra": 90,
-   "diff": -44,
-   "pct": 0.222,
-   "events": 3,
+   "rs": 52,
+   "ra": 104,
+   "diff": -52,
+   "pct": 0.2,
+   "events": 4,
    "log": [
     {
      "date": "2026-09-11",
@@ -11493,6 +11574,16 @@
      "section": "Silver Bracket",
      "opponent": "Rock Hill 9U Baseball",
      "rs": 2,
+     "ra": 14,
+     "result": "L"
+    },
+    {
+     "date": "2026-10-17",
+     "event_id": 12521,
+     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "section": "Pool Play",
+     "opponent": "LKN Bolts",
+     "rs": 6,
      "ra": 14,
      "result": "L"
     }
