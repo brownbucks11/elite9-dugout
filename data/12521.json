@@ -379,9 +379,9 @@
           "team": "Weddington Wreckers",
           "location": "Weddington, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 13,
+          "runs_scored": 11,
           "team_page_id": null
         },
         {
@@ -418,10 +418,10 @@
           "seed": 15,
           "team": "Legacy Baseball 9U - WHITE",
           "location": "Fort Mill, SC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 11,
+          "runs_scored": 13,
           "team_page_id": null
         },
         {
@@ -486,10 +486,10 @@
             "field": "Westmoreld:Field 2",
             "team_a": "Weddington Wreckers",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 11,
             "team_b": "Legacy Baseball 9U - WHITE",
             "seed_b": null,
-            "score_b": null
+            "score_b": 13
           },
           {
             "game": 3,
@@ -2258,10 +2258,10 @@
           "seed": 2,
           "team": "Lone Star Hippos",
           "location": "Gastonia, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 16,
+          "runs_scored": 20,
           "team_page_id": null
         },
         {
@@ -2279,9 +2279,9 @@
           "team": "Carolina Rapid Fire",
           "location": "Lincolnton, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 20,
+          "runs_scored": 16,
           "team_page_id": null
         },
         {
@@ -2336,10 +2336,10 @@
             "field": "FDP:Field #3",
             "team_a": "Carolina Rapid Fire",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 16,
             "team_b": "Lone Star Hippos",
             "seed_b": null,
-            "score_b": null
+            "score_b": 20
           },
           {
             "game": 3,
@@ -2552,9 +2552,9 @@
           "team": "Crowns Baseball",
           "location": "Indian Trail, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 8,
+          "runs_scored": 3,
           "team_page_id": null
         },
         {
@@ -2611,10 +2611,10 @@
           "seed": 12,
           "team": "Forest Acres Falcons",
           "location": "Columbia, SC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 3,
+          "runs_scored": 8,
           "team_page_id": null
         },
         {
@@ -2721,10 +2721,10 @@
             "field": "Tega Cay:Field 4",
             "team_a": "Forest Acres Falcons",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 8,
             "team_b": "Crowns Baseball",
             "seed_b": null,
-            "score_b": null
+            "score_b": 3
           },
           {
             "game": 4,
@@ -3809,5 +3809,5 @@
   },
   "site_last_updated": "10/15/2026 12:00 PM",
   "tournament_id": 12521,
-  "fetched_at": "2026-10-17T10:39"
+  "fetched_at": "2026-10-17T10:49"
 }
