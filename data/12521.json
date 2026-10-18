@@ -1843,7 +1843,7 @@
           "seed": 2,
           "team": "North Lincoln 33",
           "location": "Denver, NC",
-          "won": 1,
+          "won": 2,
           "lost": 1,
           "runs_allowed": 12,
           "runs_scored": 15,
@@ -1864,7 +1864,7 @@
           "team": "NL Destroyers - 2033",
           "location": "Denver, NC",
           "won": 0,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 22,
           "runs_scored": 7,
           "team_page_id": null
@@ -2259,7 +2259,7 @@
           "team": "Lone Star Hippos",
           "location": "Gastonia, NC",
           "won": 3,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 19,
           "runs_scored": 34,
           "team_page_id": null
@@ -2268,7 +2268,7 @@
           "seed": 3,
           "team": "Carolina Bearcats",
           "location": "Alexis, NC",
-          "won": 3,
+          "won": 4,
           "lost": 0,
           "runs_allowed": 1,
           "runs_scored": 24,
@@ -2446,10 +2446,10 @@
             "field": "TOB:Field 1",
             "team_a": "Winner Game #1 Lone Star Hippos",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 3,
             "team_b": "Winner Game #2 Carolina Bearcats",
             "seed_b": null,
-            "score_b": null
+            "score_b": 8
           }
         ],
         "Silver Bracket": [
@@ -2532,7 +2532,7 @@
           "team": "FS Bulldogs 14u (Dane)",
           "location": "Mount Ulla, NC",
           "won": 3,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 4,
           "runs_scored": 17,
           "team_page_id": null
@@ -2681,7 +2681,7 @@
           "seed": 19,
           "team": "Wow Factor Carolinas Select 14U",
           "location": "Murrells Inlet, SC",
-          "won": 2,
+          "won": 3,
           "lost": 0,
           "runs_allowed": 0,
           "runs_scored": 25,
@@ -2951,10 +2951,10 @@
             "field": "FDP:Field #3",
             "team_a": "Winner Game #1 FS Bulldogs 14u (Dane)",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 2,
             "team_b": "Wow Factor Carolinas Select 14U",
             "seed_b": 1,
-            "score_b": null
+            "score_b": 6
           },
           {
             "game": 4,
@@ -2964,7 +2964,7 @@
             "team_a": "Winner Game #2 GBC Wyrick",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Winner Game #3",
+            "team_b": "Winner Game #3 Wow Factor Carolinas Select 14U",
             "seed_b": null,
             "score_b": null
           }
@@ -3128,7 +3128,7 @@
           "seed": 2,
           "team": "Carolina Blue Bloods",
           "location": "Indian Trail, NC",
-          "won": 0,
+          "won": 1,
           "lost": 2,
           "runs_allowed": 18,
           "runs_scored": 6,
@@ -3139,7 +3139,7 @@
           "team": "USA Scout Carolinas",
           "location": "Charlotte, NC",
           "won": 0,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 25,
           "runs_scored": 3,
           "team_page_id": null
@@ -3318,17 +3318,17 @@
             "field": "CA:Field #1",
             "team_a": "Carolina Blue Bloods",
             "seed_a": 6,
-            "score_a": null,
+            "score_a": 5,
             "team_b": "USA Scout Carolinas",
             "seed_b": 7,
-            "score_b": null
+            "score_b": 4
           },
           {
             "game": 2,
             "day": "Sun",
             "time": "3:00 PM",
             "field": "CA:Field #1",
-            "team_a": "Winner Game #4",
+            "team_a": "Winner Game #4 Carolina Blue Bloods",
             "seed_a": null,
             "score_a": null,
             "team_b": "Union County Badboys",
@@ -3378,7 +3378,7 @@
           "team": "Triad Cardinals 16u",
           "location": "Stokesdale, NC",
           "won": 1,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 25,
           "runs_scored": 20,
           "team_page_id": null
@@ -3387,7 +3387,7 @@
           "seed": 5,
           "team": "Carolina Elevate",
           "location": "Lenoir, NC",
-          "won": 2,
+          "won": 3,
           "lost": 0,
           "runs_allowed": 3,
           "runs_scored": 22,
@@ -3511,10 +3511,10 @@
             "field": "Tuckasee:Tuckaseegee 1",
             "team_a": "Winner Game #1 Triad Cardinals 16u",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 1,
             "team_b": "Carolina Elevate",
             "seed_b": 1,
-            "score_b": null
+            "score_b": 9
           },
           {
             "game": 4,
@@ -3533,7 +3533,7 @@
             "day": "Sun",
             "time": "5:00 PM",
             "field": "Tuckasee:Tuckaseegee 1",
-            "team_a": "Winner Game #3",
+            "team_a": "Winner Game #3 Carolina Elevate",
             "seed_a": null,
             "score_a": null,
             "team_b": "Winner Game #4",
@@ -3809,5 +3809,5 @@
   },
   "site_last_updated": "10/15/2026 12:00 PM",
   "tournament_id": 12521,
-  "fetched_at": "2026-10-18T14:35"
+  "fetched_at": "2026-10-18T14:46"
 }
