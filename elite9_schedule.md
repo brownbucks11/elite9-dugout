@@ -1,5 +1,5 @@
 # Elite 9 - Top Gun schedule
-_Updated Sun Oct 18, 2026 01:12 PM_
+_Updated Sun Oct 18, 2026 01:22 PM_
 
 ## SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND
 September 26 - 27 in Greater Charlotte Area, NC  
@@ -89,7 +89,7 @@ October 17 - 18 in Greater Charlotte Area, NC
 Tournament 12521 - [schedule page](https://playtopgunsports.com/GameTimesResults.aspx?trnid=12521)
 
 ### 9U  
-**Standing:** #3 of 19  -  1-2, RS 12, RA 35
+**Standing:** #3 of 19  -  2-2, RS 12, RA 35
 
 **Elite 9 games**
 
@@ -105,7 +105,7 @@ Tournament 12521 - [schedule page](https://playtopgunsports.com/GameTimesResults
 |---|---|---|---|---|---|
 | 1 | LKN Bolts | Huntersville, NC | 2-1 | 34 | 8 |
 | 2 | ROCO Dirtbagz | Forest City, NC | 2-1 | 14 | 16 |
-| 3 | Elite 9 **<--** | Rock Hill, SC | 1-2 | 12 | 35 |
+| 3 | Elite 9 **<--** | Rock Hill, SC | 2-2 | 12 | 35 |
 | 4 | Union County Aces 9u | Monroe, NC | 3-0 | 36 | 9 |
 | 5 | Team 24 | York, SC | 1-0 | 34 | 9 |
 | 6 | Union County Legends | Waxhaw, NC | 1-1 | 27 | 16 |
@@ -115,7 +115,7 @@ Tournament 12521 - [schedule page](https://playtopgunsports.com/GameTimesResults
 | 10 | LumberJacks | Gaston County, NC | 1-2 | 24 | 27 |
 | 11 | Weddington Wreckers | Weddington, NC | 1-1 | 32 | 19 |
 | 12 | Mountain Rage | Mars Hill, NC | 2-0 | 28 | 4 |
-| 13 | LKN Kingdom | Charlotte, NC | 1-2 | 12 | 29 |
+| 13 | LKN Kingdom | Charlotte, NC | 1-3 | 12 | 29 |
 | 14 | Carolina Icons | Stanfield, NC | 1-2 | 17 | 15 |
 | 15 | Legacy Baseball 9U - WHITE | Fort Mill, SC | 2-1 | 15 | 31 |
 | 16 | Carolina Royals 9Uw | Gastonia, NC | 0-4 | 7 | 43 |
@@ -160,7 +160,7 @@ Tournament 12521 - [schedule page](https://playtopgunsports.com/GameTimesResults
 | 1 | Sun 9:00 AM | Westmoreld:Field 2 | (#17) Carolina Forge 9U 7 | (#18) Elite 9 15 |
 | 2 | Sun 9:00 AM | Westmoreld:Field 3 | (#16) LKN Kingdom 16 | (#19) Carolina Royals 9Uw 4 |
 | 3 | Sun 11:00 AM | Westmoreld:Field 2 | Loser Game #19 Carolina Forge 9U 18 | Loser Game #20 Carolina Royals 9Uw 6 |
-| 4 | Sun 11:00 AM | Westmoreld:Field 3 | Winner Game #19 Elite 9 | Winner Game #20 LKN Kingdom |
+| 4 | Sun 11:00 AM | Westmoreld:Field 3 | Winner Game #19 Elite 9 17 | Winner Game #20 LKN Kingdom 15 |
 
 ## WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE
 October 24 - 25 in Greater Charlotte Area, NC  

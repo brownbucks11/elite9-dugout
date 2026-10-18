@@ -298,7 +298,7 @@
           "seed": 3,
           "team": "Elite 9",
           "location": "Rock Hill, SC",
-          "won": 1,
+          "won": 2,
           "lost": 2,
           "runs_allowed": 35,
           "runs_scored": 12,
@@ -399,7 +399,7 @@
           "team": "LKN Kingdom",
           "location": "Charlotte, NC",
           "won": 1,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 29,
           "runs_scored": 12,
           "team_page_id": null
@@ -926,10 +926,10 @@
             "field": "Westmoreld:Field 3",
             "team_a": "Winner Game #19 Elite 9",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 17,
             "team_b": "Winner Game #20 LKN Kingdom",
             "seed_b": null,
-            "score_b": null
+            "score_b": 15
           }
         ]
       }
@@ -962,7 +962,7 @@
           "team": "North Lincoln Futures 35",
           "location": "Denver, NC",
           "won": 1,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 25,
           "runs_scored": 21,
           "team_page_id": null
@@ -971,7 +971,7 @@
           "seed": 4,
           "team": "Newport Bombers 10U Yerdon",
           "location": "Rock Hill, SC",
-          "won": 0,
+          "won": 1,
           "lost": 3,
           "runs_allowed": 26,
           "runs_scored": 13,
@@ -1041,7 +1041,7 @@
           "seed": 11,
           "team": "Copperheads Red",
           "location": "Mooresville, NC",
-          "won": 1,
+          "won": 2,
           "lost": 2,
           "runs_allowed": 17,
           "runs_scored": 17,
@@ -1052,7 +1052,7 @@
           "team": "Copperheads Black",
           "location": "Mooresville, NC",
           "won": 1,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 17,
           "runs_scored": 18,
           "team_page_id": null
@@ -1287,10 +1287,10 @@
             "field": "Tuckasee:Tuckaseegee 3",
             "team_a": "Loser Game #1 Copperheads Red",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 19,
             "team_b": "Loser Game #2 Copperheads Black",
             "seed_b": null,
-            "score_b": null
+            "score_b": 12
           },
           {
             "game": 4,
@@ -1337,10 +1337,10 @@
             "field": "Bradford:Field # 5",
             "team_a": "Loser Game #1 Newport Bombers 10U Yerdon",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 22,
             "team_b": "Loser Game #2 North Lincoln Futures 35",
             "seed_b": null,
-            "score_b": null
+            "score_b": 11
           },
           {
             "game": 4,
@@ -1454,8 +1454,8 @@
           "seed": 10,
           "team": "Yellow Jackets",
           "location": "Bessemer City, NC",
-          "won": 1,
-          "lost": 2,
+          "won": 0,
+          "lost": 3,
           "runs_allowed": 26,
           "runs_scored": 10,
           "team_page_id": null
@@ -1474,8 +1474,8 @@
           "seed": 12,
           "team": "McDowell Militia Baseball 11U",
           "location": "Marion, NC",
-          "won": 0,
-          "lost": 3,
+          "won": 1,
+          "lost": 2,
           "runs_allowed": 30,
           "runs_scored": 9,
           "team_page_id": null
@@ -1782,10 +1782,10 @@
             "field": "M. Rivers:Martha Rivers 1",
             "team_a": "Yellow Jackets",
             "seed_a": 11,
-            "score_a": 16,
+            "score_a": 13,
             "team_b": "McDowell Militia Baseball 11U",
             "seed_b": 12,
-            "score_b": 13
+            "score_b": 16
           },
           {
             "game": 2,
@@ -1804,7 +1804,7 @@
             "day": "Sun",
             "time": "3:00 PM",
             "field": "M. Rivers:Martha Rivers 1",
-            "team_a": "Loser Game #11 McDowell Militia Baseball 11U",
+            "team_a": "Loser Game #11 Yellow Jackets",
             "seed_a": null,
             "score_a": null,
             "team_b": "Loser Game #12 ELITE BASEBALL 11U EBC",
@@ -1816,7 +1816,7 @@
             "day": "Sun",
             "time": "1:00 PM",
             "field": "M. Rivers:Martha Rivers 1",
-            "team_a": "Winner Game #11 Yellow Jackets",
+            "team_a": "Winner Game #11 McDowell Militia Baseball 11U",
             "seed_a": null,
             "score_a": null,
             "team_b": "Winner Game #12 Newport Bombers 11U Janson",
@@ -3809,5 +3809,5 @@
   },
   "site_last_updated": "10/15/2026 12:00 PM",
   "tournament_id": 12521,
-  "fetched_at": "2026-10-18T13:12"
+  "fetched_at": "2026-10-18T13:22"
 }
