@@ -235,6 +235,9 @@
   .datebox span { font-size: 10px; letter-spacing: 1.5px; text-transform: uppercase; opacity: .8; }
   .event-head h3 { font-size: 22px; font-weight: 600; }
   .event-meta { font-size: 13px; color: var(--ink-2); margin-top: 2px; }
+  .event-links { margin-top: 6px; display: flex; flex-wrap: wrap; gap: 4px; }
+  .chip.link { color: var(--link); border-color: var(--link); text-decoration: none; background: var(--chalk); }
+  .chip.link:hover { background: var(--me-bg); }
   .event-head .finish { margin-left: auto; text-align: right; flex: 0 0 auto; }
   .finish b { display: block; font-family: var(--display); font-size: 24px; line-height: 1; font-variant-numeric: tabular-nums; }
   .finish span { font-size: 11px; letter-spacing: 1px; text-transform: uppercase; color: var(--ink-2); }
@@ -721,11 +724,12 @@
         return `${label ? `<h3 class="group-label">${label}</h3>` : ""}<article class="event ${e.state}" id="tournament-${e.id}">
           <div class="event-head">${datebox(e.date)}
             <div><h3>${esc(tidy(e.name))}${i === nextIdx ? '<span class="next-badge">Next</span>' : ""} ${tag}${e.state === "final" ? "" : regTag(e)}</h3>
-                 <div class="event-meta">${meta}${e.standings.length ? ` · ${e.standings.length} teams` : ""}${e.state === "final" ? "" : regMeta(e)}</div></div>
+                 <div class="event-meta">${meta}${e.standings.length ? ` · ${e.standings.length} teams` : ""}${e.state === "final" ? "" : regMeta(e)}</div>
+                 <div class="event-links">${e.url ? `<a class="chip link" href="${esc(e.url)}" target="_blank" rel="noopener">Tournament page on Top Gun ↗</a>` : ""}<a class="chip link" href="${esc((e.tgs && e.tgs.url) || ("https://topgunstats.com/whos-playing/" + e.id))}" target="_blank" rel="noopener">Top Gun Stats ↗</a></div></div>
           </div>
           ${e.state === "final" ? "" : noticesHtml(e.tgs)}
           ${body}
-          ${e.state === "final" ? "" : `<div class="event-foot">${e.ics ? `<a href="${esc(e.ics)}" download title="The first game of each day starts 45 minutes early in your calendar (arrival time)">Add our games to your calendar</a>` : ""}<a href="${esc(e.url)}" target="_blank" rel="noopener">Full schedule &amp; brackets on Top Gun ↗</a>${tgsLink(e.tgs, e.id)}</div>`}
+          ${e.state !== "final" && e.ics ? `<div class="event-foot"><a href="${esc(e.ics)}" download title="The first game of each day starts 45 minutes early in your calendar (arrival time)">Add our games to your calendar</a></div>` : ""}
         </article>`;
       }).join("");
   }
