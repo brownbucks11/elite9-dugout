@@ -2501,7 +2501,7 @@
           "seed": 1,
           "team": "North Lincoln Destroyers",
           "location": "Denver, NC",
-          "won": 3,
+          "won": 4,
           "lost": 1,
           "runs_allowed": 10,
           "runs_scored": 6,
@@ -2522,7 +2522,7 @@
           "team": "Bethany Badgers",
           "location": "Clover, SC",
           "won": 2,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 5,
           "runs_scored": 17,
           "team_page_id": null
@@ -3013,10 +3013,10 @@
             "field": "FDP:Field #1",
             "team_a": "Winner Game #2 Bethany Badgers",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 1,
             "team_b": "Winner Game #3 North Lincoln Destroyers",
             "seed_b": null,
-            "score_b": null
+            "score_b": 16
           }
         ],
         "Bronze Bracket": [
@@ -3809,5 +3809,5 @@
   },
   "site_last_updated": "10/15/2026 12:00 PM",
   "tournament_id": 12521,
-  "fetched_at": "2026-10-18T18:15"
+  "fetched_at": "2026-10-18T18:26"
 }
