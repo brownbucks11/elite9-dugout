@@ -972,7 +972,7 @@
           "team": "Newport Bombers 10U Yerdon",
           "location": "Rock Hill, SC",
           "won": 0,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 26,
           "runs_scored": 13,
           "team_page_id": null
@@ -1021,7 +1021,7 @@
           "seed": 9,
           "team": "Carolina Locos- 10U White",
           "location": "Waxhaw, NC",
-          "won": 0,
+          "won": 1,
           "lost": 2,
           "runs_allowed": 20,
           "runs_scored": 8,
@@ -1313,10 +1313,10 @@
             "field": "Bradford:Field # 5",
             "team_a": "Carolina Locos- 10U White",
             "seed_a": 10,
-            "score_a": null,
+            "score_a": 16,
             "team_b": "Newport Bombers 10U Yerdon",
             "seed_b": 11,
-            "score_b": null
+            "score_b": 4
           },
           {
             "game": 2,
@@ -1335,7 +1335,7 @@
             "day": "Sun",
             "time": "11:00 AM",
             "field": "Bradford:Field # 5",
-            "team_a": "Loser Game #1",
+            "team_a": "Loser Game #1 Newport Bombers 10U Yerdon",
             "seed_a": null,
             "score_a": null,
             "team_b": "Loser Game #2",
@@ -1347,7 +1347,7 @@
             "day": "Sun",
             "time": "11:00 AM",
             "field": "Bradford:Field # 4",
-            "team_a": "Winner Game #1",
+            "team_a": "Winner Game #1 Carolina Locos- 10U White",
             "seed_a": null,
             "score_a": null,
             "team_b": "Winner Game #2",
@@ -2531,7 +2531,7 @@
           "seed": 4,
           "team": "FS Bulldogs 14u (Dane)",
           "location": "Mount Ulla, NC",
-          "won": 2,
+          "won": 3,
           "lost": 0,
           "runs_allowed": 4,
           "runs_scored": 17,
@@ -2562,7 +2562,7 @@
           "team": "Union County-Kraken",
           "location": "Indian trail, NC",
           "won": 2,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 4,
           "runs_scored": 13,
           "team_page_id": null
@@ -2927,10 +2927,10 @@
             "field": "FDP:Field #3",
             "team_a": "FS Bulldogs 14u (Dane)",
             "seed_a": 4,
-            "score_a": null,
+            "score_a": 10,
             "team_b": "Union County-Kraken",
             "seed_b": 5,
-            "score_b": null
+            "score_b": 1
           },
           {
             "game": 2,
@@ -2949,7 +2949,7 @@
             "day": "Sun",
             "time": "1:00 PM",
             "field": "FDP:Field #3",
-            "team_a": "Winner Game #1",
+            "team_a": "Winner Game #1 FS Bulldogs 14u (Dane)",
             "seed_a": null,
             "score_a": null,
             "team_b": "Wow Factor Carolinas Select 14U",
@@ -3809,5 +3809,5 @@
   },
   "site_last_updated": "10/15/2026 12:00 PM",
   "tournament_id": 12521,
-  "fetched_at": "2026-10-18T10:04"
+  "fetched_at": "2026-10-18T10:14"
 }
