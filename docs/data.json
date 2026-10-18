@@ -3,7 +3,7 @@
  "location": "Rock Hill, SC",
  "page_id": 31407,
  "team_url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=31407",
- "built": "Sun Oct 18, 2026 04:21 PM",
+ "built": "Sun Oct 18, 2026 04:31 PM",
  "record": {
   "w": 4,
   "l": 9,
@@ -2607,7 +2607,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-18T16:21",
+    "fetched_at": "2026-10-18T16:31",
     "url": "https://topgunstats.com/whos-playing/12521"
    },
    "next_game": null,
@@ -2676,7 +2676,7 @@
      "pool_ra": 4,
      "seed": 1,
      "bracket": "Gold Bracket",
-     "won": 3,
+     "won": 4,
      "lost": 0,
      "rs": 28,
      "ra": 4
@@ -2729,7 +2729,7 @@
      "seed": 3,
      "bracket": "Gold Bracket",
      "won": 3,
-     "lost": 0,
+     "lost": 1,
      "rs": 36,
      "ra": 9
     },
@@ -3537,14 +3537,14 @@
      "field": "Bradford:Field # 1",
      "team_a": "Mountain Rage",
      "seed_a": null,
-     "score_a": null,
+     "score_a": 12,
      "from_a": {
       "type": "winner",
       "game": 3
      },
      "team_b": "Union County Aces 9u",
      "seed_b": null,
-     "score_b": null,
+     "score_b": 4,
      "from_b": {
       "type": "winner",
       "game": 2
@@ -5702,7 +5702,7 @@
      "entered_at": "2026-10-08T16:26:44.913Z",
      "level": "AA"
     },
-    "fetched_at": "2026-10-18T16:21"
+    "fetched_at": "2026-10-18T16:31"
    },
    "tgs": {
     "weather": null,
@@ -5828,7 +5828,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-18T16:21",
+    "fetched_at": "2026-10-18T16:31",
     "url": "https://topgunstats.com/whos-playing/12521"
    },
    "name": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
@@ -6223,14 +6223,14 @@
      "field": "Bradford:Field # 1",
      "team_a": "Mountain Rage",
      "seed_a": null,
-     "score_a": null,
+     "score_a": 12,
      "from_a": {
       "type": "winner",
       "game": 3
      },
      "team_b": "Union County Aces 9u",
      "seed_b": null,
-     "score_b": null,
+     "score_b": 4,
      "from_b": {
       "type": "winner",
       "game": 2
@@ -6553,7 +6553,7 @@
      "team": "Union County Aces 9u",
      "location": "Monroe, NC",
      "won": 3,
-     "lost": 0,
+     "lost": 1,
      "runs_allowed": 9,
      "runs_scored": 36,
      "team_page_id": null
@@ -6632,7 +6632,7 @@
      "seed": 12,
      "team": "Mountain Rage",
      "location": "Mars Hill, NC",
-     "won": 3,
+     "won": 4,
      "lost": 0,
      "runs_allowed": 4,
      "runs_scored": 28,
@@ -6797,7 +6797,7 @@
     "team": {
      "entered": false
     },
-    "fetched_at": "2026-10-18T16:21"
+    "fetched_at": "2026-10-18T16:31"
    },
    "tgs": {
     "weather": {
@@ -6886,7 +6886,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-18T16:21",
+    "fetched_at": "2026-10-18T16:31",
     "url": "https://topgunstats.com/whos-playing/12522"
    },
    "name": "Southeastern Winter World Series",
@@ -6918,7 +6918,7 @@
     "team": {
      "entered": false
     },
-    "fetched_at": "2026-10-18T16:21"
+    "fetched_at": "2026-10-18T16:31"
    },
    "tgs": {
     "weather": null,
@@ -6972,7 +6972,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-18T16:21",
+    "fetched_at": "2026-10-18T16:31",
     "url": "https://topgunstats.com/whos-playing/12524"
    },
    "name": "Road Runner vs Coyote ring weekend",
@@ -7150,16 +7150,16 @@
    "stats_fetched": null
   },
   {
-   "team": "Union County Aces 9u",
-   "location": "Monroe, NC",
+   "team": "Mountain Rage",
+   "location": "Mars Hill, NC",
    "page_id": null,
    "url": null,
-   "w": 3,
+   "w": 4,
    "l": 0,
    "t": 0,
-   "rs": 52,
-   "ra": 15,
-   "diff": 37,
+   "rs": 58,
+   "ra": 14,
+   "diff": 44,
    "pct": 1.0,
    "events": 1,
    "log": [
@@ -7168,9 +7168,9 @@
      "event_id": 12521,
      "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
      "section": "Pool Play",
-     "opponent": "LumberJacks",
-     "rs": 23,
-     "ra": 8,
+     "opponent": "Carolina Forge 9U",
+     "rs": 17,
+     "ra": 2,
      "result": "W"
     },
     {
@@ -7178,9 +7178,9 @@
      "event_id": 12521,
      "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
      "section": "Pool Play",
-     "opponent": "LKN Kingdom",
-     "rs": 13,
-     "ra": 1,
+     "opponent": "Red Clay Athletics 9U Darcangelo",
+     "rs": 11,
+     "ra": 2,
      "result": "W"
     },
     {
@@ -7188,15 +7188,35 @@
      "event_id": 12521,
      "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
      "section": "Gold Bracket",
-     "opponent": "LKN Bolts",
-     "rs": 16,
+     "opponent": "NL Destroyers 2036",
+     "rs": 18,
      "ra": 6,
+     "result": "W"
+    },
+    {
+     "date": "2026-10-18",
+     "event_id": 12521,
+     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "section": "Gold Bracket",
+     "opponent": "Union County Aces 9u",
+     "rs": 12,
+     "ra": 4,
      "result": "W"
     }
    ],
    "points": 0,
    "titles": 0,
-   "finishes": [],
+   "finishes": [
+    {
+     "date": "2026-10-17",
+     "name": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "won": 4,
+     "lost": 0,
+     "standing": "1st (Gold)",
+     "points": 0,
+     "derived": true
+    }
+   ],
    "season": "",
    "stats_fetched": null
   },
@@ -7277,57 +7297,6 @@
    ],
    "season": "08/01/2026 - 10/16/2026",
    "stats_fetched": "2026-10-16T11:18"
-  },
-  {
-   "team": "Mountain Rage",
-   "location": "Mars Hill, NC",
-   "page_id": null,
-   "url": null,
-   "w": 3,
-   "l": 0,
-   "t": 0,
-   "rs": 46,
-   "ra": 10,
-   "diff": 36,
-   "pct": 1.0,
-   "events": 1,
-   "log": [
-    {
-     "date": "2026-10-17",
-     "event_id": 12521,
-     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
-     "section": "Pool Play",
-     "opponent": "Carolina Forge 9U",
-     "rs": 17,
-     "ra": 2,
-     "result": "W"
-    },
-    {
-     "date": "2026-10-17",
-     "event_id": 12521,
-     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
-     "section": "Pool Play",
-     "opponent": "Red Clay Athletics 9U Darcangelo",
-     "rs": 11,
-     "ra": 2,
-     "result": "W"
-    },
-    {
-     "date": "2026-10-18",
-     "event_id": 12521,
-     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
-     "section": "Gold Bracket",
-     "opponent": "NL Destroyers 2036",
-     "rs": 18,
-     "ra": 6,
-     "result": "W"
-    }
-   ],
-   "points": 0,
-   "titles": 0,
-   "finishes": [],
-   "season": "",
-   "stats_fetched": null
   },
   {
    "team": "Carolina Rapid Fire - Ford",
@@ -8033,6 +8002,77 @@
     {
      "date": "2026-09-26",
      "name": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "won": 3,
+     "lost": 1,
+     "standing": "2nd (Gold)",
+     "points": 0,
+     "derived": true
+    }
+   ],
+   "season": "",
+   "stats_fetched": null
+  },
+  {
+   "team": "Union County Aces 9u",
+   "location": "Monroe, NC",
+   "page_id": null,
+   "url": null,
+   "w": 3,
+   "l": 1,
+   "t": 0,
+   "rs": 56,
+   "ra": 27,
+   "diff": 29,
+   "pct": 0.75,
+   "events": 1,
+   "log": [
+    {
+     "date": "2026-10-17",
+     "event_id": 12521,
+     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "section": "Pool Play",
+     "opponent": "LumberJacks",
+     "rs": 23,
+     "ra": 8,
+     "result": "W"
+    },
+    {
+     "date": "2026-10-17",
+     "event_id": 12521,
+     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "section": "Pool Play",
+     "opponent": "LKN Kingdom",
+     "rs": 13,
+     "ra": 1,
+     "result": "W"
+    },
+    {
+     "date": "2026-10-18",
+     "event_id": 12521,
+     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "section": "Gold Bracket",
+     "opponent": "LKN Bolts",
+     "rs": 16,
+     "ra": 6,
+     "result": "W"
+    },
+    {
+     "date": "2026-10-18",
+     "event_id": 12521,
+     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "section": "Gold Bracket",
+     "opponent": "Mountain Rage",
+     "rs": 4,
+     "ra": 12,
+     "result": "L"
+    }
+   ],
+   "points": 0,
+   "titles": 0,
+   "finishes": [
+    {
+     "date": "2026-10-17",
+     "name": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
      "won": 3,
      "lost": 1,
      "standing": "2nd (Gold)",

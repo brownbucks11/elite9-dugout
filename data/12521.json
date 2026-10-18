@@ -309,7 +309,7 @@
           "team": "Union County Aces 9u",
           "location": "Monroe, NC",
           "won": 3,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 9,
           "runs_scored": 36,
           "team_page_id": null
@@ -388,7 +388,7 @@
           "seed": 12,
           "team": "Mountain Rage",
           "location": "Mars Hill, NC",
-          "won": 3,
+          "won": 4,
           "lost": 0,
           "runs_allowed": 4,
           "runs_scored": 28,
@@ -752,10 +752,10 @@
             "field": "Bradford:Field # 1",
             "team_a": "Winner Game #3 Mountain Rage",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 12,
             "team_b": "Winner Game #2 Union County Aces 9u",
             "seed_b": null,
-            "score_b": null
+            "score_b": 4
           }
         ],
         "Silver Bracket": [
@@ -1844,7 +1844,7 @@
           "team": "North Lincoln 33",
           "location": "Denver, NC",
           "won": 2,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 12,
           "runs_scored": 15,
           "team_page_id": null
@@ -1883,7 +1883,7 @@
           "seed": 6,
           "team": "Dirtbags Haney Black",
           "location": "Dallas, NC",
-          "won": 1,
+          "won": 2,
           "lost": 1,
           "runs_allowed": 10,
           "runs_scored": 19,
@@ -1923,7 +1923,7 @@
           "seed": 4,
           "team": "Athletes Lab Navy 11u",
           "location": "Maiden, NC",
-          "won": 2,
+          "won": 3,
           "lost": 0,
           "runs_allowed": 4,
           "runs_scored": 21,
@@ -1944,7 +1944,7 @@
           "team": "Carolina Cutters Baseball",
           "location": "Concord, NC",
           "won": 2,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 13,
           "runs_scored": 22,
           "team_page_id": null
@@ -2145,10 +2145,10 @@
             "field": "Westmoreld:Field 3",
             "team_a": "Winner Game #1 Carolina Cutters Baseball",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 0,
             "team_b": "Athletes Lab Navy 11u",
             "seed_b": 1,
-            "score_b": null
+            "score_b": 12
           },
           {
             "game": 4,
@@ -2179,7 +2179,7 @@
             "day": "Sun",
             "time": "5:00 PM",
             "field": "Westmoreld:Field 3",
-            "team_a": "Winner Game #3",
+            "team_a": "Winner Game #3 Athletes Lab Navy 11u",
             "seed_a": null,
             "score_a": null,
             "team_b": "Winner Game #4",
@@ -2501,7 +2501,7 @@
           "seed": 1,
           "team": "North Lincoln Destroyers",
           "location": "Denver, NC",
-          "won": 2,
+          "won": 3,
           "lost": 1,
           "runs_allowed": 10,
           "runs_scored": 6,
@@ -2672,7 +2672,7 @@
           "team": "Regulators",
           "location": "Indian Trail, NC",
           "won": 2,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 8,
           "runs_scored": 15,
           "team_page_id": null
@@ -3001,10 +3001,10 @@
             "field": "FDP:Field #1",
             "team_a": "Winner Game #1 North Lincoln Destroyers",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 11,
             "team_b": "Regulators",
             "seed_b": 6,
-            "score_b": null
+            "score_b": 3
           },
           {
             "game": 4,
@@ -3014,7 +3014,7 @@
             "team_a": "Winner Game #2 Bethany Badgers",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Winner Game #3",
+            "team_b": "Winner Game #3 North Lincoln Destroyers",
             "seed_b": null,
             "score_b": null
           }
@@ -3129,7 +3129,7 @@
           "team": "Carolina Blue Bloods",
           "location": "Indian Trail, NC",
           "won": 1,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 18,
           "runs_scored": 6,
           "team_page_id": null
@@ -3178,7 +3178,7 @@
           "seed": 7,
           "team": "Union County Badboys",
           "location": "Union, SC",
-          "won": 1,
+          "won": 2,
           "lost": 1,
           "runs_allowed": 15,
           "runs_scored": 11,
@@ -3330,10 +3330,10 @@
             "field": "CA:Field #1",
             "team_a": "Winner Game #4 Carolina Blue Bloods",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 3,
             "team_b": "Union County Badboys",
             "seed_b": 5,
-            "score_b": null
+            "score_b": 15
           }
         ]
       }
@@ -3809,5 +3809,5 @@
   },
   "site_last_updated": "10/15/2026 12:00 PM",
   "tournament_id": 12521,
-  "fetched_at": "2026-10-18T16:21"
+  "fetched_at": "2026-10-18T16:31"
 }
