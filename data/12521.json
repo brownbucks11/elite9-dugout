@@ -81,7 +81,7 @@
           "seed": 3,
           "team": "LKN Bolts",
           "location": "Huntersville, NC",
-          "won": 1,
+          "won": 2,
           "lost": 1,
           "runs_allowed": 33,
           "runs_scored": 31,
@@ -102,7 +102,7 @@
           "team": "Fury Baseball 8u",
           "location": "Forest City, NC",
           "won": 0,
-          "lost": 3,
+          "lost": 4,
           "runs_allowed": 40,
           "runs_scored": 18,
           "team_page_id": null
@@ -251,10 +251,10 @@
             "field": "Westmoreld:Field 4",
             "team_a": "LKN Bolts",
             "seed_a": 4,
-            "score_a": null,
+            "score_a": 19,
             "team_b": "Fury Baseball 8u",
             "seed_b": 6,
-            "score_b": null
+            "score_b": 7
           },
           {
             "game": 3,
@@ -2582,7 +2582,7 @@
           "team": "GBC Wyrick",
           "location": "Greensboro, NC",
           "won": 3,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 2,
           "runs_scored": 10,
           "team_page_id": null
@@ -2681,7 +2681,7 @@
           "seed": 19,
           "team": "Wow Factor Carolinas Select 14U",
           "location": "Murrells Inlet, SC",
-          "won": 3,
+          "won": 4,
           "lost": 0,
           "runs_allowed": 0,
           "runs_scored": 25,
@@ -2963,10 +2963,10 @@
             "field": "FDP:Field #3",
             "team_a": "Winner Game #2 GBC Wyrick",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 0,
             "team_b": "Winner Game #3 Wow Factor Carolinas Select 14U",
             "seed_b": null,
-            "score_b": null
+            "score_b": 12
           }
         ],
         "Silver Bracket": [
@@ -3809,5 +3809,5 @@
   },
   "site_last_updated": "10/15/2026 12:00 PM",
   "tournament_id": 12521,
-  "fetched_at": "2026-10-18T16:00"
+  "fetched_at": "2026-10-18T16:10"
 }
