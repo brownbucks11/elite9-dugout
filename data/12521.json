@@ -3349,8 +3349,8 @@
           "location": "Waxhaw, NC",
           "won": 0,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 8,
+          "runs_scored": 8,
           "team_page_id": null
         },
         {
@@ -3358,9 +3358,9 @@
           "team": "USA Scout Carolinas 16u",
           "location": "Waxhaw, NC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 12,
-          "runs_scored": 9,
+          "lost": 2,
+          "runs_allowed": 27,
+          "runs_scored": 12,
           "team_page_id": null
         },
         {
@@ -3379,18 +3379,18 @@
           "location": "Stokesdale, NC",
           "won": 0,
           "lost": 1,
-          "runs_allowed": 17,
-          "runs_scored": 12,
+          "runs_allowed": 25,
+          "runs_scored": 20,
           "team_page_id": null
         },
         {
           "seed": 5,
           "team": "Carolina Elevate",
           "location": "Lenoir, NC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 7,
+          "runs_allowed": 3,
+          "runs_scored": 22,
           "team_page_id": null
         },
         {
@@ -3449,10 +3449,10 @@
             "field": "Tuckasee:Tuckaseegee 1",
             "team_a": "Triad Cardinals 16u",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 8,
             "team_b": "Waxhaw Heat",
             "seed_b": null,
-            "score_b": null
+            "score_b": 8
           },
           {
             "game": 5,
@@ -3461,10 +3461,10 @@
             "field": "FDP:Field #3",
             "team_a": "USA Scout Carolinas 16u",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 3,
             "team_b": "Carolina Elevate",
             "seed_b": null,
-            "score_b": null
+            "score_b": 15
           },
           {
             "game": 6,
@@ -3809,5 +3809,5 @@
   },
   "site_last_updated": "10/15/2026 12:00 PM",
   "tournament_id": 12521,
-  "fetched_at": "2026-10-17T19:57"
+  "fetched_at": "2026-10-17T20:08"
 }
