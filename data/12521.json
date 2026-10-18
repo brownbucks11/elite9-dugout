@@ -1425,7 +1425,7 @@
           "team": "11u Mission Baseball",
           "location": "Waxhaw, NC",
           "won": 3,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 12,
           "runs_scored": 24,
           "team_page_id": null
@@ -1444,7 +1444,7 @@
           "seed": 9,
           "team": "Carolina Mayhem",
           "location": "Charlotte, NC",
-          "won": 3,
+          "won": 4,
           "lost": 0,
           "runs_allowed": 10,
           "runs_scored": 21,
@@ -1706,10 +1706,10 @@
             "field": "M. Rivers:Martha Rivers 3",
             "team_a": "Winner Game #3 11u Mission Baseball",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 7,
             "team_b": "Winner Game #2 Carolina Mayhem",
             "seed_b": null,
-            "score_b": null
+            "score_b": 10
           },
           {
             "game": 6,
@@ -3387,7 +3387,7 @@
           "seed": 5,
           "team": "Carolina Elevate",
           "location": "Lenoir, NC",
-          "won": 3,
+          "won": 4,
           "lost": 0,
           "runs_allowed": 3,
           "runs_scored": 22,
@@ -3398,7 +3398,7 @@
           "team": "CBB Baseball",
           "location": "Waxhaw, NC",
           "won": 3,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 15,
           "runs_scored": 21,
           "team_page_id": null
@@ -3535,10 +3535,10 @@
             "field": "Tuckasee:Tuckaseegee 1",
             "team_a": "Winner Game #3 Carolina Elevate",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 11,
             "team_b": "Winner Game #4 CBB Baseball",
             "seed_b": null,
-            "score_b": null
+            "score_b": 3
           }
         ]
       }
@@ -3809,5 +3809,5 @@
   },
   "site_last_updated": "10/15/2026 12:00 PM",
   "tournament_id": 12521,
-  "fetched_at": "2026-10-18T19:18"
+  "fetched_at": "2026-10-18T19:28"
 }
