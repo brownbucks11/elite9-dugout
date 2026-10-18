@@ -991,7 +991,7 @@
           "seed": 6,
           "team": "Canes Atlantic 10u Wagner",
           "location": "Mooresville, NC",
-          "won": 2,
+          "won": 3,
           "lost": 0,
           "runs_allowed": 4,
           "runs_scored": 28,
@@ -1032,7 +1032,7 @@
           "team": "LKN Kingdom",
           "location": "Charlotte, NC",
           "won": 1,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 15,
           "runs_scored": 16,
           "team_page_id": null
@@ -1225,10 +1225,10 @@
             "field": "Tuckasee:Tuckaseegee 2",
             "team_a": "Canes Atlantic 10u Wagner",
             "seed_a": 1,
-            "score_a": null,
+            "score_a": 12,
             "team_b": "LKN Kingdom",
             "seed_b": 4,
-            "score_b": null
+            "score_b": 1
           },
           {
             "game": 3,
@@ -1238,7 +1238,7 @@
             "team_a": "Loser Game #1",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Loser Game #2",
+            "team_b": "Loser Game #2 LKN Kingdom",
             "seed_b": null,
             "score_b": null
           },
@@ -1250,7 +1250,7 @@
             "team_a": "Winner Game #1",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Winner Game #2",
+            "team_b": "Winner Game #2 Canes Atlantic 10u Wagner",
             "seed_b": null,
             "score_b": null
           }
@@ -3119,7 +3119,7 @@
           "team": "South Carolina Cyclones",
           "location": "Chester, SC",
           "won": 2,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 5,
           "runs_scored": 21,
           "team_page_id": null
@@ -3168,7 +3168,7 @@
           "seed": 6,
           "team": "Dry Pond 14U",
           "location": "Denver, NC",
-          "won": 1,
+          "won": 2,
           "lost": 1,
           "runs_allowed": 11,
           "runs_scored": 17,
@@ -3280,10 +3280,10 @@
             "field": "FDP:Field #2",
             "team_a": "South Carolina Cyclones",
             "seed_a": 1,
-            "score_a": null,
+            "score_a": 2,
             "team_b": "Dry Pond 14U",
             "seed_b": 4,
-            "score_b": null
+            "score_b": 13
           },
           {
             "game": 2,
@@ -3302,7 +3302,7 @@
             "day": "Sun",
             "time": "5:00 PM",
             "field": "FDP:Field #2",
-            "team_a": "Winner Game #1",
+            "team_a": "Winner Game #1 Dry Pond 14U",
             "seed_a": null,
             "score_a": null,
             "team_b": "Winner Game #2",
@@ -3809,5 +3809,5 @@
   },
   "site_last_updated": "10/15/2026 12:00 PM",
   "tournament_id": 12521,
-  "fetched_at": "2026-10-18T14:25"
+  "fetched_at": "2026-10-18T14:35"
 }
