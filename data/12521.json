@@ -279,7 +279,7 @@
           "team": "LKN Bolts",
           "location": "Huntersville, NC",
           "won": 2,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 8,
           "runs_scored": 34,
           "team_page_id": null
@@ -308,7 +308,7 @@
           "seed": 4,
           "team": "Union County Aces 9u",
           "location": "Monroe, NC",
-          "won": 2,
+          "won": 3,
           "lost": 0,
           "runs_allowed": 9,
           "runs_scored": 36,
@@ -716,10 +716,10 @@
             "field": "Bradford:Field # 1",
             "team_a": "LKN Bolts",
             "seed_a": 2,
-            "score_a": null,
+            "score_a": 6,
             "team_b": "Union County Aces 9u",
             "seed_b": 3,
-            "score_b": null
+            "score_b": 16
           },
           {
             "game": 3,
@@ -741,7 +741,7 @@
             "team_a": "Loser Game #1 Diamond Crushers",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Loser Game #2",
+            "team_b": "Loser Game #2 LKN Bolts",
             "seed_b": null,
             "score_b": null
           },
@@ -753,7 +753,7 @@
             "team_a": "Winner Game #3",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Winner Game #2",
+            "team_b": "Winner Game #2 Union County Aces 9u",
             "seed_b": null,
             "score_b": null
           }
@@ -3809,5 +3809,5 @@
   },
   "site_last_updated": "10/15/2026 12:00 PM",
   "tournament_id": 12521,
-  "fetched_at": "2026-10-18T12:30"
+  "fetched_at": "2026-10-18T12:40"
 }
