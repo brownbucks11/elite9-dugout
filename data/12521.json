@@ -942,7 +942,7 @@
           "team": "Carolina Locos- 10U Blue",
           "location": "Waxhaw, NC",
           "won": 2,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 20,
           "runs_scored": 10,
           "team_page_id": null
@@ -981,7 +981,7 @@
           "seed": 5,
           "team": "Union County Aces",
           "location": "Monroe, NC",
-          "won": 2,
+          "won": 3,
           "lost": 1,
           "runs_allowed": 21,
           "runs_scored": 19,
@@ -1299,10 +1299,10 @@
             "field": "Tuckasee:Tuckaseegee 2",
             "team_a": "Winner Game #1 Carolina Locos- 10U Blue",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 6,
             "team_b": "Winner Game #2 Union County Aces",
             "seed_b": null,
-            "score_b": null
+            "score_b": 16
           }
         ],
         "Bronze Bracket": [
@@ -3809,5 +3809,5 @@
   },
   "site_last_updated": "10/15/2026 12:00 PM",
   "tournament_id": 12521,
-  "fetched_at": "2026-10-18T12:51"
+  "fetched_at": "2026-10-18T13:01"
 }
