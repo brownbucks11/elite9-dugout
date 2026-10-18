@@ -140,6 +140,8 @@
   details.notice-g summary { padding: 6px 12px; font-size: 13px; font-weight: 600; cursor: pointer; }
   details.notice-g .ntext { padding: 0 12px 10px; font-size: 13px; }
   details.notice-g.awards { border-color: var(--amber); background: var(--me-bg); }
+  .awards-list { margin: 0; padding: 0 12px 10px 28px; font-size: 13px; line-height: 1.45; }
+  .awards-list li { margin: 2px 0; }
   .hdr-link a + a { margin-left: 0; }
 
   /* Entries (Who's Playing) */
@@ -494,7 +496,7 @@
     return String(name || "").replace(/-{2,}/g, " – ").replace(/\s+/g, " ").trim().split(" ").map((w, i) => {
       const l = w.toLowerCase();
       if (/^\d+u$/.test(l) || CAPS.has(l.replace(/[^a-z]/g, ""))) return l.toUpperCase();
-      if (/^[a-z]\.?([a-z]\.?)+$/.test(l) && w.includes(".")) return w.toUpperCase();
+      if (/^[a-z]\.?([a-z]\.?)+$/.test(l) && w.slice(0, -1).includes(".")) return w.toUpperCase();  // G.O.A.T., not "banners."
       if (i > 0 && SMALL.has(l)) return l;
       return l.charAt(0).toUpperCase() + l.slice(1);
     }).join(" ");
@@ -595,8 +597,10 @@
     const w = t.weather ? `<div class="notice-w"><b>Weather / field notice</b>${t.weather.when ? `<span class="from"> · posted ${esc(fmtSeen(t.weather.when))}</span>` : ""}<div class="ntext">${esc(t.weather.text)}</div></div>` : "";
     const g = t.general ? `<details class="notice-g"><summary>Director's notes${t.general.when ? `<span class="from"> · ${esc(fmtSeen(t.general.when))}</span>` : ""}</summary><div class="ntext">${esc(t.general.text)}</div></details>` : "";
     // the event listing's notes are where directors describe the prizes ("rings plus banners")
-    const a = t.awards ? `<details class="notice-g awards"><summary>What's on the line</summary><div class="ntext">${esc(tidy(t.awards).replace(/Gun-usa/g, "Gun-USA").replace(/\s*–\s*/g, " · "))}</div></details>` : "";
-    return w || g || a ? `<div class="notices">${w}${a}${g}</div>` : "";
+    // shown open, as a list: the director writes it as one dash-separated line
+    const items = t.awards ? tidy(t.awards).replace(/Gun-usa/g, "Gun-USA").split(/\s*–\s*/).map((x) => x.trim()).filter(Boolean) : [];
+    const a = items.length ? `<details class="notice-g awards" open><summary>What's on the line</summary><ul class="awards-list">${items.map((x) => `<li>${esc(x)}</li>`).join("")}</ul></details>` : "";
+    return w || g || a ? `<div class="notices">${w}${g}${a}</div>` : "";
   }
   const tgsLink = (t, id) => `<a href="${esc((t && t.url) || ("https://topgunstats.com/whos-playing/" + id))}" target="_blank" rel="noopener">Top Gun Stats ↗</a>`;
 
