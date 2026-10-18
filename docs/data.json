@@ -3,7 +3,7 @@
  "location": "Rock Hill, SC",
  "page_id": 31407,
  "team_url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=31407",
- "built": "Sun Oct 18, 2026 02:15 PM",
+ "built": "Sun Oct 18, 2026 02:25 PM",
  "record": {
   "w": 4,
   "l": 9,
@@ -2607,7 +2607,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-18T14:14",
+    "fetched_at": "2026-10-18T14:25",
     "url": "https://topgunstats.com/whos-playing/12521"
    },
    "next_game": null,
@@ -2676,7 +2676,7 @@
      "pool_ra": 4,
      "seed": 1,
      "bracket": "Gold Bracket",
-     "won": 2,
+     "won": 3,
      "lost": 0,
      "rs": 28,
      "ra": 4
@@ -2755,7 +2755,7 @@
      "seed": 4,
      "bracket": "Gold Bracket",
      "won": 3,
-     "lost": 0,
+     "lost": 1,
      "rs": 16,
      "ra": 12
     },
@@ -3496,14 +3496,14 @@
      "field": "Bradford:Field # 1",
      "team_a": "NL Destroyers 2036",
      "seed_a": null,
-     "score_a": null,
+     "score_a": 6,
      "from_a": {
       "type": "winner",
       "game": 1
      },
      "team_b": "Mountain Rage",
      "seed_b": 1,
-     "score_b": null,
+     "score_b": 18,
      "from_b": null
     },
     {
@@ -3535,7 +3535,7 @@
      "time": "3:00 PM",
      "date": "2026-10-18",
      "field": "Bradford:Field # 1",
-     "team_a": "Winner Game #3",
+     "team_a": "Mountain Rage",
      "seed_a": null,
      "score_a": null,
      "from_a": {
@@ -5702,7 +5702,7 @@
      "entered_at": "2026-10-08T16:26:44.913Z",
      "level": "AA"
     },
-    "fetched_at": "2026-10-18T14:14"
+    "fetched_at": "2026-10-18T14:25"
    },
    "tgs": {
     "weather": null,
@@ -5828,7 +5828,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-18T14:14",
+    "fetched_at": "2026-10-18T14:25",
     "url": "https://topgunstats.com/whos-playing/12521"
    },
    "name": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
@@ -6182,14 +6182,14 @@
      "field": "Bradford:Field # 1",
      "team_a": "NL Destroyers 2036",
      "seed_a": null,
-     "score_a": null,
+     "score_a": 6,
      "from_a": {
       "type": "winner",
       "game": 1
      },
      "team_b": "Mountain Rage",
      "seed_b": 1,
-     "score_b": null,
+     "score_b": 18,
      "from_b": null
     },
     {
@@ -6221,7 +6221,7 @@
      "time": "3:00 PM",
      "date": "2026-10-18",
      "field": "Bradford:Field # 1",
-     "team_a": "Winner Game #3",
+     "team_a": "Mountain Rage",
      "seed_a": null,
      "score_a": null,
      "from_a": {
@@ -6603,7 +6603,7 @@
      "team": "NL Destroyers 2036",
      "location": "Denver, NC",
      "won": 3,
-     "lost": 0,
+     "lost": 1,
      "runs_allowed": 12,
      "runs_scored": 16,
      "team_page_id": null
@@ -6632,7 +6632,7 @@
      "seed": 12,
      "team": "Mountain Rage",
      "location": "Mars Hill, NC",
-     "won": 2,
+     "won": 3,
      "lost": 0,
      "runs_allowed": 4,
      "runs_scored": 28,
@@ -6797,7 +6797,7 @@
     "team": {
      "entered": false
     },
-    "fetched_at": "2026-10-18T14:14"
+    "fetched_at": "2026-10-18T14:25"
    },
    "tgs": {
     "weather": {
@@ -6886,7 +6886,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-18T14:14",
+    "fetched_at": "2026-10-18T14:25",
     "url": "https://topgunstats.com/whos-playing/12522"
    },
    "name": "Southeastern Winter World Series",
@@ -6918,7 +6918,7 @@
     "team": {
      "entered": false
     },
-    "fetched_at": "2026-10-18T14:14"
+    "fetched_at": "2026-10-18T14:25"
    },
    "tgs": {
     "weather": null,
@@ -6972,7 +6972,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-18T14:14",
+    "fetched_at": "2026-10-18T14:25",
     "url": "https://topgunstats.com/whos-playing/12524"
    },
    "name": "Road Runner vs Coyote ring weekend",
@@ -7279,6 +7279,57 @@
    "stats_fetched": "2026-10-16T11:18"
   },
   {
+   "team": "Mountain Rage",
+   "location": "Mars Hill, NC",
+   "page_id": null,
+   "url": null,
+   "w": 3,
+   "l": 0,
+   "t": 0,
+   "rs": 46,
+   "ra": 10,
+   "diff": 36,
+   "pct": 1.0,
+   "events": 1,
+   "log": [
+    {
+     "date": "2026-10-17",
+     "event_id": 12521,
+     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "section": "Pool Play",
+     "opponent": "Carolina Forge 9U",
+     "rs": 17,
+     "ra": 2,
+     "result": "W"
+    },
+    {
+     "date": "2026-10-17",
+     "event_id": 12521,
+     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "section": "Pool Play",
+     "opponent": "Red Clay Athletics 9U Darcangelo",
+     "rs": 11,
+     "ra": 2,
+     "result": "W"
+    },
+    {
+     "date": "2026-10-18",
+     "event_id": 12521,
+     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "section": "Gold Bracket",
+     "opponent": "NL Destroyers 2036",
+     "rs": 18,
+     "ra": 6,
+     "result": "W"
+    }
+   ],
+   "points": 0,
+   "titles": 0,
+   "finishes": [],
+   "season": "",
+   "stats_fetched": null
+  },
+  {
    "team": "Carolina Rapid Fire - Ford",
    "location": "Lincolnton, NC",
    "page_id": null,
@@ -7346,47 +7397,6 @@
      "derived": true
     }
    ],
-   "season": "",
-   "stats_fetched": null
-  },
-  {
-   "team": "Mountain Rage",
-   "location": "Mars Hill, NC",
-   "page_id": null,
-   "url": null,
-   "w": 2,
-   "l": 0,
-   "t": 0,
-   "rs": 28,
-   "ra": 4,
-   "diff": 24,
-   "pct": 1.0,
-   "events": 1,
-   "log": [
-    {
-     "date": "2026-10-17",
-     "event_id": 12521,
-     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
-     "section": "Pool Play",
-     "opponent": "Carolina Forge 9U",
-     "rs": 17,
-     "ra": 2,
-     "result": "W"
-    },
-    {
-     "date": "2026-10-17",
-     "event_id": 12521,
-     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
-     "section": "Pool Play",
-     "opponent": "Red Clay Athletics 9U Darcangelo",
-     "rs": 11,
-     "ra": 2,
-     "result": "W"
-    }
-   ],
-   "points": 0,
-   "titles": 0,
-   "finishes": [],
    "season": "",
    "stats_fetched": null
   },
@@ -8175,248 +8185,6 @@
    "stats_fetched": null
   },
   {
-   "team": "NL Destroyers 2036",
-   "location": "Denver, NC",
-   "page_id": 36883,
-   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=36883",
-   "w": 13,
-   "l": 5,
-   "t": 0,
-   "rs": 189,
-   "ra": 147,
-   "diff": 42,
-   "pct": 0.722,
-   "events": 5,
-   "log": [
-    {
-     "date": "2026-08-22",
-     "event_id": 12513,
-     "event": "SUMMER MELT DOWN--TRUCKER HAT CLASSIC--OVER 20,000 HAT HAVE BE AWARDED",
-     "section": "Pool Play",
-     "opponent": "LumberJacks",
-     "rs": 19,
-     "ra": 3,
-     "result": "W"
-    },
-    {
-     "date": "2026-08-22",
-     "event_id": 12513,
-     "event": "SUMMER MELT DOWN--TRUCKER HAT CLASSIC--OVER 20,000 HAT HAVE BE AWARDED",
-     "section": "Pool Play",
-     "opponent": "NC Made 9U Blue",
-     "rs": 6,
-     "ra": 2,
-     "result": "W"
-    },
-    {
-     "date": "2026-08-23",
-     "event_id": 12513,
-     "event": "SUMMER MELT DOWN--TRUCKER HAT CLASSIC--OVER 20,000 HAT HAVE BE AWARDED",
-     "section": "Gold Bracket",
-     "opponent": "Mission 9u Scout",
-     "rs": 0,
-     "ra": 12,
-     "result": "L"
-    },
-    {
-     "date": "2026-08-23",
-     "event_id": 12513,
-     "event": "SUMMER MELT DOWN--TRUCKER HAT CLASSIC--OVER 20,000 HAT HAVE BE AWARDED",
-     "section": "Gold Bracket",
-     "opponent": "Dirtbags Baseball ESB",
-     "rs": 14,
-     "ra": 13,
-     "result": "W"
-    },
-    {
-     "date": "2026-08-29",
-     "event_id": 12514,
-     "event": "FENCE BUDDIES CHAMPIONSHIPS----- TOP GUN-USA SPORTS EVENT",
-     "section": "Pool Play",
-     "opponent": "LKN Bolts",
-     "rs": 10,
-     "ra": 17,
-     "result": "L"
-    },
-    {
-     "date": "2026-08-29",
-     "event_id": 12514,
-     "event": "FENCE BUDDIES CHAMPIONSHIPS----- TOP GUN-USA SPORTS EVENT",
-     "section": "Pool Play",
-     "opponent": "Canes Atlantic 9u Sulovski",
-     "rs": 3,
-     "ra": 13,
-     "result": "L"
-    },
-    {
-     "date": "2026-08-30",
-     "event_id": 12514,
-     "event": "FENCE BUDDIES CHAMPIONSHIPS----- TOP GUN-USA SPORTS EVENT",
-     "section": "Bronze Bracket",
-     "opponent": "Waxhaw Militia 9U",
-     "rs": 17,
-     "ra": 10,
-     "result": "W"
-    },
-    {
-     "date": "2026-08-30",
-     "event_id": 12514,
-     "event": "FENCE BUDDIES CHAMPIONSHIPS----- TOP GUN-USA SPORTS EVENT",
-     "section": "Bronze Bracket",
-     "opponent": "Carolina Forge 9U",
-     "rs": 10,
-     "ra": 9,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-12",
-     "event_id": 12516,
-     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
-     "section": "Pool Play",
-     "opponent": "Dirtbags Baseball ESB",
-     "rs": 8,
-     "ra": 9,
-     "result": "L"
-    },
-    {
-     "date": "2026-09-12",
-     "event_id": 12516,
-     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
-     "section": "Pool Play",
-     "opponent": "Carolina Forge 9U",
-     "rs": 19,
-     "ra": 8,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-13",
-     "event_id": 12516,
-     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
-     "section": "Gold Bracket",
-     "opponent": "KnuckleheadsCBC",
-     "rs": 5,
-     "ra": 6,
-     "result": "L"
-    },
-    {
-     "date": "2026-09-19",
-     "event_id": 12517,
-     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
-     "section": "Pool Play",
-     "opponent": "ELITE BASEBALL EBC 9U",
-     "rs": 15,
-     "ra": 3,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-19",
-     "event_id": 12517,
-     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
-     "section": "Pool Play",
-     "opponent": "Elite 9",
-     "rs": 9,
-     "ra": 4,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-20",
-     "event_id": 12517,
-     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
-     "section": "Gold Bracket",
-     "opponent": "Dirtbags Shook",
-     "rs": 11,
-     "ra": 10,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-20",
-     "event_id": 12517,
-     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
-     "section": "Gold Bracket",
-     "opponent": "Hooligans",
-     "rs": 11,
-     "ra": 10,
-     "result": "W"
-    },
-    {
-     "date": "2026-10-17",
-     "event_id": 12521,
-     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
-     "section": "Pool Play",
-     "opponent": "SC Tide - Lucariello",
-     "rs": 7,
-     "ra": 6,
-     "result": "W"
-    },
-    {
-     "date": "2026-10-17",
-     "event_id": 12521,
-     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
-     "section": "Pool Play",
-     "opponent": "ROCO Dirtbagz",
-     "rs": 9,
-     "ra": 6,
-     "result": "W"
-    },
-    {
-     "date": "2026-10-18",
-     "event_id": 12521,
-     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
-     "section": "Gold Bracket",
-     "opponent": "Diamond Crushers",
-     "rs": 16,
-     "ra": 6,
-     "result": "W"
-    }
-   ],
-   "points": 3400,
-   "titles": 2,
-   "finishes": [
-    {
-     "date": "2026-08-22",
-     "name": "SUMMER MELT DOWN--TRUCKER HAT CLASSIC--OVER 20,000 HAT HAVE BE AWARDED",
-     "won": 3,
-     "lost": 1,
-     "standing": "3rd (Gold)",
-     "points": 350
-    },
-    {
-     "date": "2026-08-29",
-     "name": "FENCE BUDDIES CHAMPIONSHIPS----- TOP GUN-USA SPORTS EVENT",
-     "won": 2,
-     "lost": 2,
-     "standing": "1st (Bronze)",
-     "points": 200
-    },
-    {
-     "date": "2026-09-12",
-     "name": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
-     "won": 1,
-     "lost": 2,
-     "standing": "5th (Gold)",
-     "points": 600
-    },
-    {
-     "date": "2026-09-19",
-     "name": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
-     "won": 4,
-     "lost": 0,
-     "standing": "1st (Gold)",
-     "points": 1600
-    },
-    {
-     "date": "2026-10-03",
-     "name": "DOUBLE POINTS PINK ZONE QUALIFIER---ACTIVATE WINTER FREE PAID BERTHS",
-     "won": 1,
-     "lost": 2,
-     "standing": "3rd (Silver)",
-     "points": 650
-    }
-   ],
-   "season": "08/01/2026 - 10/16/2026",
-   "stats_fetched": "2026-10-16T11:17"
-  },
-  {
    "team": "LKN Bolts",
    "location": "Huntersville, NC",
    "page_id": 32916,
@@ -8795,6 +8563,258 @@
    ],
    "season": "08/01/2026 - 10/16/2026",
    "stats_fetched": "2026-10-16T11:18"
+  },
+  {
+   "team": "NL Destroyers 2036",
+   "location": "Denver, NC",
+   "page_id": 36883,
+   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=36883",
+   "w": 13,
+   "l": 6,
+   "t": 0,
+   "rs": 195,
+   "ra": 165,
+   "diff": 30,
+   "pct": 0.684,
+   "events": 5,
+   "log": [
+    {
+     "date": "2026-08-22",
+     "event_id": 12513,
+     "event": "SUMMER MELT DOWN--TRUCKER HAT CLASSIC--OVER 20,000 HAT HAVE BE AWARDED",
+     "section": "Pool Play",
+     "opponent": "LumberJacks",
+     "rs": 19,
+     "ra": 3,
+     "result": "W"
+    },
+    {
+     "date": "2026-08-22",
+     "event_id": 12513,
+     "event": "SUMMER MELT DOWN--TRUCKER HAT CLASSIC--OVER 20,000 HAT HAVE BE AWARDED",
+     "section": "Pool Play",
+     "opponent": "NC Made 9U Blue",
+     "rs": 6,
+     "ra": 2,
+     "result": "W"
+    },
+    {
+     "date": "2026-08-23",
+     "event_id": 12513,
+     "event": "SUMMER MELT DOWN--TRUCKER HAT CLASSIC--OVER 20,000 HAT HAVE BE AWARDED",
+     "section": "Gold Bracket",
+     "opponent": "Mission 9u Scout",
+     "rs": 0,
+     "ra": 12,
+     "result": "L"
+    },
+    {
+     "date": "2026-08-23",
+     "event_id": 12513,
+     "event": "SUMMER MELT DOWN--TRUCKER HAT CLASSIC--OVER 20,000 HAT HAVE BE AWARDED",
+     "section": "Gold Bracket",
+     "opponent": "Dirtbags Baseball ESB",
+     "rs": 14,
+     "ra": 13,
+     "result": "W"
+    },
+    {
+     "date": "2026-08-29",
+     "event_id": 12514,
+     "event": "FENCE BUDDIES CHAMPIONSHIPS----- TOP GUN-USA SPORTS EVENT",
+     "section": "Pool Play",
+     "opponent": "LKN Bolts",
+     "rs": 10,
+     "ra": 17,
+     "result": "L"
+    },
+    {
+     "date": "2026-08-29",
+     "event_id": 12514,
+     "event": "FENCE BUDDIES CHAMPIONSHIPS----- TOP GUN-USA SPORTS EVENT",
+     "section": "Pool Play",
+     "opponent": "Canes Atlantic 9u Sulovski",
+     "rs": 3,
+     "ra": 13,
+     "result": "L"
+    },
+    {
+     "date": "2026-08-30",
+     "event_id": 12514,
+     "event": "FENCE BUDDIES CHAMPIONSHIPS----- TOP GUN-USA SPORTS EVENT",
+     "section": "Bronze Bracket",
+     "opponent": "Waxhaw Militia 9U",
+     "rs": 17,
+     "ra": 10,
+     "result": "W"
+    },
+    {
+     "date": "2026-08-30",
+     "event_id": 12514,
+     "event": "FENCE BUDDIES CHAMPIONSHIPS----- TOP GUN-USA SPORTS EVENT",
+     "section": "Bronze Bracket",
+     "opponent": "Carolina Forge 9U",
+     "rs": 10,
+     "ra": 9,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-12",
+     "event_id": 12516,
+     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
+     "section": "Pool Play",
+     "opponent": "Dirtbags Baseball ESB",
+     "rs": 8,
+     "ra": 9,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-12",
+     "event_id": 12516,
+     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
+     "section": "Pool Play",
+     "opponent": "Carolina Forge 9U",
+     "rs": 19,
+     "ra": 8,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-13",
+     "event_id": 12516,
+     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
+     "section": "Gold Bracket",
+     "opponent": "KnuckleheadsCBC",
+     "rs": 5,
+     "ra": 6,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-19",
+     "event_id": 12517,
+     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
+     "section": "Pool Play",
+     "opponent": "ELITE BASEBALL EBC 9U",
+     "rs": 15,
+     "ra": 3,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-19",
+     "event_id": 12517,
+     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
+     "section": "Pool Play",
+     "opponent": "Elite 9",
+     "rs": 9,
+     "ra": 4,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-20",
+     "event_id": 12517,
+     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
+     "section": "Gold Bracket",
+     "opponent": "Dirtbags Shook",
+     "rs": 11,
+     "ra": 10,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-20",
+     "event_id": 12517,
+     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
+     "section": "Gold Bracket",
+     "opponent": "Hooligans",
+     "rs": 11,
+     "ra": 10,
+     "result": "W"
+    },
+    {
+     "date": "2026-10-17",
+     "event_id": 12521,
+     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "section": "Pool Play",
+     "opponent": "SC Tide - Lucariello",
+     "rs": 7,
+     "ra": 6,
+     "result": "W"
+    },
+    {
+     "date": "2026-10-17",
+     "event_id": 12521,
+     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "section": "Pool Play",
+     "opponent": "ROCO Dirtbagz",
+     "rs": 9,
+     "ra": 6,
+     "result": "W"
+    },
+    {
+     "date": "2026-10-18",
+     "event_id": 12521,
+     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "section": "Gold Bracket",
+     "opponent": "Diamond Crushers",
+     "rs": 16,
+     "ra": 6,
+     "result": "W"
+    },
+    {
+     "date": "2026-10-18",
+     "event_id": 12521,
+     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "section": "Gold Bracket",
+     "opponent": "Mountain Rage",
+     "rs": 6,
+     "ra": 18,
+     "result": "L"
+    }
+   ],
+   "points": 3400,
+   "titles": 2,
+   "finishes": [
+    {
+     "date": "2026-08-22",
+     "name": "SUMMER MELT DOWN--TRUCKER HAT CLASSIC--OVER 20,000 HAT HAVE BE AWARDED",
+     "won": 3,
+     "lost": 1,
+     "standing": "3rd (Gold)",
+     "points": 350
+    },
+    {
+     "date": "2026-08-29",
+     "name": "FENCE BUDDIES CHAMPIONSHIPS----- TOP GUN-USA SPORTS EVENT",
+     "won": 2,
+     "lost": 2,
+     "standing": "1st (Bronze)",
+     "points": 200
+    },
+    {
+     "date": "2026-09-12",
+     "name": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
+     "won": 1,
+     "lost": 2,
+     "standing": "5th (Gold)",
+     "points": 600
+    },
+    {
+     "date": "2026-09-19",
+     "name": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
+     "won": 4,
+     "lost": 0,
+     "standing": "1st (Gold)",
+     "points": 1600
+    },
+    {
+     "date": "2026-10-03",
+     "name": "DOUBLE POINTS PINK ZONE QUALIFIER---ACTIVATE WINTER FREE PAID BERTHS",
+     "won": 1,
+     "lost": 2,
+     "standing": "3rd (Silver)",
+     "points": 650
+    }
+   ],
+   "season": "08/01/2026 - 10/16/2026",
+   "stats_fetched": "2026-10-16T11:17"
   },
   {
    "team": "Weddington Wreckers",
