@@ -318,7 +318,7 @@
           "seed": 5,
           "team": "Team 24",
           "location": "York, SC",
-          "won": 2,
+          "won": 3,
           "lost": 0,
           "runs_allowed": 9,
           "runs_scored": 34,
@@ -439,7 +439,7 @@
           "team": "Red Clay Athletics 9U Darcangelo",
           "location": "Charlotte, NC",
           "won": 2,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 12,
           "runs_scored": 12,
           "team_page_id": null
@@ -814,10 +814,10 @@
             "field": "Bradford:Field # 2",
             "team_a": "Winner Game #9 Team 24",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 8,
             "team_b": "Winner Game #8 Red Clay Athletics 9U Darcangelo",
             "seed_b": null,
-            "score_b": null
+            "score_b": 6
           }
         ],
         "Bronze Bracket": [
@@ -1424,7 +1424,7 @@
           "seed": 7,
           "team": "11u Mission Baseball",
           "location": "Waxhaw, NC",
-          "won": 2,
+          "won": 3,
           "lost": 1,
           "runs_allowed": 12,
           "runs_scored": 24,
@@ -1465,7 +1465,7 @@
           "team": "Dry Pond 2034",
           "location": "Denver, NC",
           "won": 2,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 5,
           "runs_scored": 29,
           "team_page_id": null
@@ -1682,10 +1682,10 @@
             "field": "M. Rivers:Martha Rivers 3",
             "team_a": "Winner Game #1 11u Mission Baseball",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 10,
             "team_b": "Dry Pond 2034",
             "seed_b": 1,
-            "score_b": null
+            "score_b": 4
           },
           {
             "game": 4,
@@ -1704,7 +1704,7 @@
             "day": "Sun",
             "time": "5:00 PM",
             "field": "M. Rivers:Martha Rivers 3",
-            "team_a": "Winner Game #3",
+            "team_a": "Winner Game #3 11u Mission Baseball",
             "seed_a": null,
             "score_a": null,
             "team_b": "Winner Game #2 Carolina Mayhem",
@@ -1719,7 +1719,7 @@
             "team_a": "Winner Game #4",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Loser Game #3 (If Needed)",
+            "team_b": "Loser Game #3 (If Needed) Dry Pond 2034",
             "seed_b": null,
             "score_b": null
           }
@@ -3809,5 +3809,5 @@
   },
   "site_last_updated": "10/15/2026 12:00 PM",
   "tournament_id": 12521,
-  "fetched_at": "2026-10-18T16:52"
+  "fetched_at": "2026-10-18T17:02"
 }

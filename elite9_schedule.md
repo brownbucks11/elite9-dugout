@@ -1,5 +1,5 @@
 # Elite 9 - Top Gun schedule
-_Updated Sun Oct 18, 2026 04:52 PM_
+_Updated Sun Oct 18, 2026 05:03 PM_
 
 ## SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND
 September 26 - 27 in Greater Charlotte Area, NC  
@@ -107,7 +107,7 @@ Tournament 12521 - [schedule page](https://playtopgunsports.com/GameTimesResults
 | 2 | ROCO Dirtbagz | Forest City, NC | 2-2 | 14 | 16 |
 | 3 | Elite 9 **<--** | Rock Hill, SC | 2-2 | 12 | 35 |
 | 4 | Union County Aces 9u | Monroe, NC | 3-1 | 36 | 9 |
-| 5 | Team 24 | York, SC | 2-0 | 34 | 9 |
+| 5 | Team 24 | York, SC | 3-0 | 34 | 9 |
 | 6 | Union County Legends | Waxhaw, NC | 2-1 | 27 | 16 |
 | 7 | SC Tide - Lucariello | Clover, SC | 0-3 | 13 | 15 |
 | 8 | Diamond Crushers | Concord, NC | 2-2 | 25 | 14 |
@@ -119,7 +119,7 @@ Tournament 12521 - [schedule page](https://playtopgunsports.com/GameTimesResults
 | 14 | Carolina Icons | Stanfield, NC | 1-3 | 17 | 15 |
 | 15 | Legacy Baseball 9U - WHITE | Fort Mill, SC | 2-2 | 15 | 31 |
 | 16 | Carolina Royals 9Uw | Gastonia, NC | 0-4 | 7 | 43 |
-| 17 | Red Clay Athletics 9U Darcangelo | Charlotte, NC | 2-1 | 12 | 12 |
+| 17 | Red Clay Athletics 9U Darcangelo | Charlotte, NC | 2-2 | 12 | 12 |
 | 18 | ELITE BASEBALL EBC 9U | FOREST CITY, NC | 1-3 | 5 | 26 |
 | 19 | Carolina Forge 9U | Gastonia, NC | 1-3 | 8 | 31 |
 
@@ -141,7 +141,7 @@ Tournament 12521 - [schedule page](https://playtopgunsports.com/GameTimesResults
 | 2 | Sun 11:00 AM | Bradford:Field # 2 | (#7) Union County Legends 2 | (#8) Red Clay Athletics 9U Darcangelo 14 |
 | 3 | Sun 1:00 PM | Bradford:Field # 2 | Winner Game #7 ROCO Dirtbagz 5 | (#6) Team 24 12 |
 | 4 | Sun 1:00 PM | Bradford:Field # 4 | Loser Game #7 Carolina Icons 7 | Loser Game #8 Union County Legends 10 |
-| 5 | Sun 3:00 PM | Bradford:Field # 2 | Winner Game #9 Team 24 | Winner Game #8 Red Clay Athletics 9U Darcangelo |
+| 5 | Sun 3:00 PM | Bradford:Field # 2 | Winner Game #9 Team 24 8 | Winner Game #8 Red Clay Athletics 9U Darcangelo 6 |
 
 **Bronze Bracket**
 
