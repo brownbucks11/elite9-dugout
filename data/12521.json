@@ -1904,7 +1904,7 @@
           "team": "Banana Peppers Baseball",
           "location": "Gastonia, NC",
           "won": 1,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 24,
           "runs_scored": 12,
           "team_page_id": null
@@ -1983,7 +1983,7 @@
           "seed": 10,
           "team": "Waxhaw Militia",
           "location": "Waxhaw, NC",
-          "won": 0,
+          "won": 1,
           "lost": 2,
           "runs_allowed": 32,
           "runs_scored": 5,
@@ -2207,10 +2207,10 @@
             "field": "SP:Field #3",
             "team_a": "Banana Peppers Baseball",
             "seed_a": 7,
-            "score_a": null,
+            "score_a": 4,
             "team_b": "Waxhaw Militia",
             "seed_b": 10,
-            "score_b": null
+            "score_b": 8
           },
           {
             "game": 3,
@@ -2220,7 +2220,7 @@
             "team_a": "Loser Game #1 Carolina Locos-Black",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Loser Game #2",
+            "team_b": "Loser Game #2 Banana Peppers Baseball",
             "seed_b": null,
             "score_b": null
           },
@@ -2232,7 +2232,7 @@
             "team_a": "Winner Game #1 LKN Kingdom",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Winner Game #2",
+            "team_b": "Winner Game #2 Waxhaw Militia",
             "seed_b": null,
             "score_b": null
           }
@@ -3602,7 +3602,7 @@
           "seed": 6,
           "team": "Startown Elite",
           "location": "Newton, NC",
-          "won": 0,
+          "won": 1,
           "lost": 2,
           "runs_allowed": 17,
           "runs_scored": 6,
@@ -3623,7 +3623,7 @@
           "team": "Copperheads",
           "location": "Mooresville, NC",
           "won": 0,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 27,
           "runs_scored": 8,
           "team_page_id": null
@@ -3786,17 +3786,17 @@
             "field": "CA:Field #1",
             "team_a": "Startown Elite",
             "seed_a": 7,
-            "score_a": null,
+            "score_a": 8,
             "team_b": "Copperheads",
             "seed_b": 8,
-            "score_b": null
+            "score_b": 4
           },
           {
             "game": 2,
             "day": "Sun",
             "time": "11:00 AM",
             "field": "CA:Field #1",
-            "team_a": "Winner Game #1",
+            "team_a": "Winner Game #1 Startown Elite",
             "seed_a": null,
             "score_a": null,
             "team_b": "P413 Buchanan",
@@ -3809,5 +3809,5 @@
   },
   "site_last_updated": "10/15/2026 12:00 PM",
   "tournament_id": 12521,
-  "fetched_at": "2026-10-18T10:45"
+  "fetched_at": "2026-10-18T10:56"
 }
