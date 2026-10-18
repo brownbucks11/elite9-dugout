@@ -2268,7 +2268,7 @@
           "seed": 3,
           "team": "Carolina Bearcats",
           "location": "Alexis, NC",
-          "won": 2,
+          "won": 3,
           "lost": 0,
           "runs_allowed": 1,
           "runs_scored": 24,
@@ -2279,7 +2279,7 @@
           "team": "Carolina Rapid Fire",
           "location": "Lincolnton, NC",
           "won": 1,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 23,
           "runs_scored": 28,
           "team_page_id": null
@@ -2422,10 +2422,10 @@
             "field": "TOB:Field 1",
             "team_a": "Carolina Bearcats",
             "seed_a": 1,
-            "score_a": null,
+            "score_a": 4,
             "team_b": "Carolina Rapid Fire",
             "seed_b": 4,
-            "score_b": null
+            "score_b": 2
           },
           {
             "game": 3,
@@ -2435,7 +2435,7 @@
             "team_a": "Loser Game #1 Armor Elite",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Loser Game #2",
+            "team_b": "Loser Game #2 Carolina Rapid Fire",
             "seed_b": null,
             "score_b": null
           },
@@ -2447,7 +2447,7 @@
             "team_a": "Winner Game #1 Lone Star Hippos",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Winner Game #2",
+            "team_b": "Winner Game #2 Carolina Bearcats",
             "seed_b": null,
             "score_b": null
           }
@@ -3563,7 +3563,7 @@
           "team": "Carolina Elevate 17U",
           "location": "Hudson, NC",
           "won": 2,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 11,
           "runs_scored": 13,
           "team_page_id": null
@@ -3582,7 +3582,7 @@
           "seed": 4,
           "team": "North Lincoln Destroyers",
           "location": "Denver, NC",
-          "won": 2,
+          "won": 3,
           "lost": 0,
           "runs_allowed": 5,
           "runs_scored": 19,
@@ -3748,10 +3748,10 @@
             "field": "BFF:Field 1",
             "team_a": "North Lincoln Destroyers",
             "seed_a": 2,
-            "score_a": null,
+            "score_a": 9,
             "team_b": "Carolina Elevate 17U",
             "seed_b": 3,
-            "score_b": null
+            "score_b": 1
           },
           {
             "game": 3,
@@ -3770,7 +3770,7 @@
             "day": "Sun",
             "time": "3:00 PM",
             "field": "BFF:Field 1",
-            "team_a": "Winner Game #2",
+            "team_a": "Winner Game #2 North Lincoln Destroyers",
             "seed_a": null,
             "score_a": null,
             "team_b": "Winner Game #3",
@@ -3809,5 +3809,5 @@
   },
   "site_last_updated": "10/15/2026 12:00 PM",
   "tournament_id": 12521,
-  "fetched_at": "2026-10-18T12:09"
+  "fetched_at": "2026-10-18T12:19"
 }
