@@ -736,8 +736,8 @@
           {
             "game": 4,
             "day": "Sun",
-            "time": "11:00 AM",
-            "field": "Bradford:Field # 4",
+            "time": "1:00 PM",
+            "field": "Bradford:Field # 5",
             "team_a": "Loser Game #1",
             "seed_a": null,
             "score_a": null,
@@ -1321,8 +1321,8 @@
           {
             "game": 2,
             "day": "Sun",
-            "time": "11:00 AM",
-            "field": "Bradford:Field # 5",
+            "time": "9:00 AM",
+            "field": "Bradford:Field # 4",
             "team_a": "North Lincoln Futures 35",
             "seed_a": 9,
             "score_a": null,
@@ -1333,7 +1333,7 @@
           {
             "game": 3,
             "day": "Sun",
-            "time": "3:00 PM",
+            "time": "11:00 AM",
             "field": "Bradford:Field # 5",
             "team_a": "Loser Game #1",
             "seed_a": null,
@@ -1345,8 +1345,8 @@
           {
             "game": 4,
             "day": "Sun",
-            "time": "1:00 PM",
-            "field": "Bradford:Field # 5",
+            "time": "11:00 AM",
+            "field": "Bradford:Field # 4",
             "team_a": "Winner Game #1",
             "seed_a": null,
             "score_a": null,
@@ -1374,10 +1374,10 @@
           "seed": 2,
           "team": "Destroyers Baseball",
           "location": "Denver, NC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
-          "runs_allowed": 5,
-          "runs_scored": 6,
+          "runs_allowed": 11,
+          "runs_scored": 21,
           "team_page_id": null
         },
         {
@@ -1475,9 +1475,9 @@
           "team": "McDowell Militia Baseball 11U",
           "location": "Marion, NC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 15,
-          "runs_scored": 3,
+          "lost": 2,
+          "runs_allowed": 30,
+          "runs_scored": 9,
           "team_page_id": null
         },
         {
@@ -1632,10 +1632,10 @@
             "field": "M. Rivers:Martha Rivers 2",
             "team_a": "McDowell Militia Baseball 11U",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 6,
             "team_b": "Destroyers Baseball",
             "seed_b": null,
-            "score_b": null
+            "score_b": 15
           },
           {
             "game": 13,
@@ -3809,5 +3809,5 @@
   },
   "site_last_updated": "10/15/2026 12:00 PM",
   "tournament_id": 12521,
-  "fetched_at": "2026-10-17T20:08"
+  "fetched_at": "2026-10-17T20:18"
 }
