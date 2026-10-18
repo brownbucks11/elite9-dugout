@@ -3,13 +3,13 @@
  "location": "Rock Hill, SC",
  "page_id": 31407,
  "team_url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=31407",
- "built": "Sun Oct 18, 2026 10:56 AM",
+ "built": "Sun Oct 18, 2026 11:07 AM",
  "record": {
-  "w": 2,
+  "w": 3,
   "l": 9,
   "t": 0,
-  "rs": 58,
-  "ra": 125
+  "rs": 73,
+  "ra": 132
  },
  "my_games": [
   {
@@ -187,6 +187,21 @@
    "section": "Copper Bracket",
    "game": 1,
    "opponent": "Carolina Forge 9U",
+   "rs": 15,
+   "ra": 7,
+   "result": "W",
+   "gc_id": null
+  },
+  {
+   "event_id": 12521,
+   "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+   "date": "2026-10-18",
+   "day": "Sun",
+   "time": "11:00 AM",
+   "field": "Westmoreld:Field 3",
+   "section": "Copper Bracket",
+   "game": 4,
+   "opponent": "LKN Kingdom",
    "rs": null,
    "ra": null,
    "result": null,
@@ -2592,7 +2607,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-18T10:56",
+    "fetched_at": "2026-10-18T11:06",
     "url": "https://topgunstats.com/whos-playing/12521"
    },
    "next_game": {
@@ -2600,11 +2615,11 @@
     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
     "date": "2026-10-18",
     "day": "Sun",
-    "time": "9:00 AM",
-    "field": "Westmoreld:Field 2",
+    "time": "11:00 AM",
+    "field": "Westmoreld:Field 3",
     "section": "Copper Bracket",
-    "game": 1,
-    "opponent": "Carolina Forge 9U",
+    "game": 4,
+    "opponent": "LKN Kingdom",
     "rs": null,
     "ra": null,
     "result": null,
@@ -2632,11 +2647,19 @@
     "pool_ra": 35,
     "seed": 18,
     "bracket": "Copper Bracket",
-    "won": 0,
+    "won": 1,
     "lost": 2,
     "rs": 12,
     "ra": 35,
-    "bracket_games": []
+    "bracket_games": [
+     {
+      "section": "Copper Bracket",
+      "opponent": "Carolina Forge 9U",
+      "rs": 15,
+      "ra": 7,
+      "result": "W"
+     }
+    ]
    },
    "standings": [
     {
@@ -3077,7 +3100,7 @@
      "seed": 17,
      "bracket": "Copper Bracket",
      "won": 0,
-     "lost": 2,
+     "lost": 3,
      "rs": 8,
      "ra": 31
     },
@@ -3102,7 +3125,7 @@
      "pool_ra": 35,
      "seed": 18,
      "bracket": "Copper Bracket",
-     "won": 0,
+     "won": 1,
      "lost": 2,
      "rs": 12,
      "ra": 35
@@ -3743,11 +3766,11 @@
      "field": "Westmoreld:Field 2",
      "team_a": "Carolina Forge 9U",
      "seed_a": 17,
-     "score_a": null,
+     "score_a": 7,
      "from_a": null,
      "team_b": "Elite 9",
      "seed_b": 18,
-     "score_b": null,
+     "score_b": 15,
      "from_b": null
     },
     {
@@ -3773,7 +3796,7 @@
      "time": "11:00 AM",
      "date": "2026-10-18",
      "field": "Westmoreld:Field 2",
-     "team_a": "Loser Game #19",
+     "team_a": "Carolina Forge 9U",
      "seed_a": null,
      "score_a": null,
      "from_a": {
@@ -3797,7 +3820,7 @@
      "time": "11:00 AM",
      "date": "2026-10-18",
      "field": "Westmoreld:Field 3",
-     "team_a": "Winner Game #19",
+     "team_a": "Elite 9",
      "seed_a": null,
      "score_a": null,
      "from_a": {
@@ -5654,8 +5677,16 @@
     "pool": "0-2",
     "bracket": "Copper Bracket",
     "seed": 18,
-    "bracket_games": [],
-    "w": 0,
+    "bracket_games": [
+     {
+      "section": "Copper Bracket",
+      "opponent": "Carolina Forge 9U",
+      "rs": 15,
+      "ra": 7,
+      "result": "W"
+     }
+    ],
+    "w": 1,
     "l": 2
    },
    "entries": {
@@ -5671,7 +5702,7 @@
      "entered_at": "2026-10-08T16:26:44.913Z",
      "level": "AA"
     },
-    "fetched_at": "2026-10-18T10:56"
+    "fetched_at": "2026-10-18T11:06"
    },
    "tgs": {
     "weather": null,
@@ -5797,7 +5828,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-18T10:56",
+    "fetched_at": "2026-10-18T11:06",
     "url": "https://topgunstats.com/whos-playing/12521"
    },
    "name": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
@@ -6414,11 +6445,11 @@
      "field": "Westmoreld:Field 2",
      "team_a": "Carolina Forge 9U",
      "seed_a": 17,
-     "score_a": null,
+     "score_a": 7,
      "from_a": null,
      "team_b": "Elite 9",
      "seed_b": 18,
-     "score_b": null,
+     "score_b": 15,
      "from_b": null
     },
     {
@@ -6444,7 +6475,7 @@
      "time": "11:00 AM",
      "date": "2026-10-18",
      "field": "Westmoreld:Field 2",
-     "team_a": "Loser Game #19",
+     "team_a": "Carolina Forge 9U",
      "seed_a": null,
      "score_a": null,
      "from_a": {
@@ -6468,7 +6499,7 @@
      "time": "11:00 AM",
      "date": "2026-10-18",
      "field": "Westmoreld:Field 3",
-     "team_a": "Winner Game #19",
+     "team_a": "Elite 9",
      "seed_a": null,
      "score_a": null,
      "from_a": {
@@ -6511,7 +6542,7 @@
      "seed": 3,
      "team": "Elite 9",
      "location": "Rock Hill, SC",
-     "won": 0,
+     "won": 1,
      "lost": 2,
      "runs_allowed": 35,
      "runs_scored": 12,
@@ -6672,7 +6703,7 @@
      "team": "Carolina Forge 9U",
      "location": "Gastonia, NC",
      "won": 0,
-     "lost": 2,
+     "lost": 3,
      "runs_allowed": 31,
      "runs_scored": 8,
      "team_page_id": null
@@ -6719,6 +6750,21 @@
      "section": "Copper Bracket",
      "game": 1,
      "opponent": "Carolina Forge 9U",
+     "rs": 15,
+     "ra": 7,
+     "result": "W",
+     "gc_id": null
+    },
+    {
+     "event_id": 12521,
+     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "date": "2026-10-18",
+     "day": "Sun",
+     "time": "11:00 AM",
+     "field": "Westmoreld:Field 3",
+     "section": "Copper Bracket",
+     "game": 4,
+     "opponent": "LKN Kingdom",
      "rs": null,
      "ra": null,
      "result": null,
@@ -6730,22 +6776,22 @@
     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
     "date": "2026-10-18",
     "day": "Sun",
-    "time": "9:00 AM",
-    "field": "Westmoreld:Field 2",
+    "time": "11:00 AM",
+    "field": "Westmoreld:Field 3",
     "section": "Copper Bracket",
-    "game": 1,
-    "opponent": "Carolina Forge 9U",
+    "game": 4,
+    "opponent": "LKN Kingdom",
     "rs": null,
     "ra": null,
     "result": null,
     "gc_id": null
    },
-   "schedule_versions": 2,
+   "schedule_versions": 3,
    "schedule_first": "2026-10-15T13:17",
-   "schedule_updated": "2026-10-17T18:34",
+   "schedule_updated": "2026-10-18T11:07",
    "changes": [
     {
-     "key": "Copper Bracket#1",
+     "key": "Copper Bracket#4",
      "kind": "added"
     }
    ],
@@ -6765,7 +6811,7 @@
     "team": {
      "entered": false
     },
-    "fetched_at": "2026-10-18T10:56"
+    "fetched_at": "2026-10-18T11:06"
    },
    "tgs": {
     "weather": {
@@ -6854,7 +6900,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-18T10:56",
+    "fetched_at": "2026-10-18T11:06",
     "url": "https://topgunstats.com/whos-playing/12522"
    },
    "name": "Southeastern Winter World Series",
@@ -6886,7 +6932,7 @@
     "team": {
      "entered": false
     },
-    "fetched_at": "2026-10-18T10:56"
+    "fetched_at": "2026-10-18T11:06"
    },
    "tgs": {
     "weather": null,
@@ -6940,7 +6986,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-18T10:56",
+    "fetched_at": "2026-10-18T11:06",
     "url": "https://topgunstats.com/whos-playing/12524"
    },
    "name": "Road Runner vs Coyote ring weekend",
@@ -11951,6 +11997,172 @@
    "stats_fetched": null
   },
   {
+   "team": "Elite 9",
+   "location": "Rock Hill, SC",
+   "page_id": 31407,
+   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=31407",
+   "w": 3,
+   "l": 9,
+   "t": 0,
+   "rs": 73,
+   "ra": 132,
+   "diff": -59,
+   "pct": 0.25,
+   "events": 4,
+   "log": [
+    {
+     "date": "2026-09-11",
+     "event_id": 13600,
+     "event": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
+     "section": "Pool Play",
+     "opponent": "Carolina Clippers 9U",
+     "rs": 7,
+     "ra": 12,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-11",
+     "event_id": 13600,
+     "event": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
+     "section": "Pool Play",
+     "opponent": "Carolina Trash Pandas",
+     "rs": 2,
+     "ra": 11,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-11",
+     "event_id": 13600,
+     "event": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
+     "section": "Silver Bracket",
+     "opponent": "LKN Kingdom",
+     "rs": 12,
+     "ra": 2,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-19",
+     "event_id": 12517,
+     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
+     "section": "Pool Play",
+     "opponent": "Dirtbags Shook",
+     "rs": 0,
+     "ra": 10,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-19",
+     "event_id": 12517,
+     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
+     "section": "Pool Play",
+     "opponent": "NL Destroyers 2036",
+     "rs": 4,
+     "ra": 9,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-26",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Pool Play",
+     "opponent": "LKN Bolts",
+     "rs": 3,
+     "ra": 8,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-26",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Pool Play",
+     "opponent": "LKN Kingdom",
+     "rs": 12,
+     "ra": 7,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-27",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Silver Bracket",
+     "opponent": "Lake Wylie Venom",
+     "rs": 4,
+     "ra": 17,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-27",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Silver Bracket",
+     "opponent": "Rock Hill 9U Baseball",
+     "rs": 2,
+     "ra": 14,
+     "result": "L"
+    },
+    {
+     "date": "2026-10-17",
+     "event_id": 12521,
+     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "section": "Pool Play",
+     "opponent": "LKN Bolts",
+     "rs": 6,
+     "ra": 14,
+     "result": "L"
+    },
+    {
+     "date": "2026-10-17",
+     "event_id": 12521,
+     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "section": "Pool Play",
+     "opponent": "Weddington Wreckers",
+     "rs": 6,
+     "ra": 21,
+     "result": "L"
+    },
+    {
+     "date": "2026-10-18",
+     "event_id": 12521,
+     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "section": "Copper Bracket",
+     "opponent": "Carolina Forge 9U",
+     "rs": 15,
+     "ra": 7,
+     "result": "W"
+    }
+   ],
+   "points": 875,
+   "titles": 0,
+   "finishes": [
+    {
+     "date": "2026-09-11",
+     "name": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
+     "won": 1,
+     "lost": 2,
+     "standing": "3rd (Silver)",
+     "points": 250
+    },
+    {
+     "date": "2026-09-19",
+     "name": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
+     "won": 0,
+     "lost": 2,
+     "standing": "5th (Silver)",
+     "points": 0
+    },
+    {
+     "date": "2026-09-26",
+     "name": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "won": 1,
+     "lost": 3,
+     "standing": "4th (Silver)",
+     "points": 625
+    }
+   ],
+   "season": "08/01/2026 - 10/16/2026",
+   "stats_fetched": "2026-10-16T11:15"
+  },
+  {
    "team": "Carolina Royals 9Uw",
    "location": "Gastonia, NC",
    "page_id": null,
@@ -12196,162 +12408,6 @@
    ],
    "season": "08/01/2026 - 10/16/2026",
    "stats_fetched": "2026-10-16T11:18"
-  },
-  {
-   "team": "Elite 9",
-   "location": "Rock Hill, SC",
-   "page_id": 31407,
-   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=31407",
-   "w": 2,
-   "l": 9,
-   "t": 0,
-   "rs": 58,
-   "ra": 125,
-   "diff": -67,
-   "pct": 0.182,
-   "events": 4,
-   "log": [
-    {
-     "date": "2026-09-11",
-     "event_id": 13600,
-     "event": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
-     "section": "Pool Play",
-     "opponent": "Carolina Clippers 9U",
-     "rs": 7,
-     "ra": 12,
-     "result": "L"
-    },
-    {
-     "date": "2026-09-11",
-     "event_id": 13600,
-     "event": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
-     "section": "Pool Play",
-     "opponent": "Carolina Trash Pandas",
-     "rs": 2,
-     "ra": 11,
-     "result": "L"
-    },
-    {
-     "date": "2026-09-11",
-     "event_id": 13600,
-     "event": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
-     "section": "Silver Bracket",
-     "opponent": "LKN Kingdom",
-     "rs": 12,
-     "ra": 2,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-19",
-     "event_id": 12517,
-     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
-     "section": "Pool Play",
-     "opponent": "Dirtbags Shook",
-     "rs": 0,
-     "ra": 10,
-     "result": "L"
-    },
-    {
-     "date": "2026-09-19",
-     "event_id": 12517,
-     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
-     "section": "Pool Play",
-     "opponent": "NL Destroyers 2036",
-     "rs": 4,
-     "ra": 9,
-     "result": "L"
-    },
-    {
-     "date": "2026-09-26",
-     "event_id": 12518,
-     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "section": "Pool Play",
-     "opponent": "LKN Bolts",
-     "rs": 3,
-     "ra": 8,
-     "result": "L"
-    },
-    {
-     "date": "2026-09-26",
-     "event_id": 12518,
-     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "section": "Pool Play",
-     "opponent": "LKN Kingdom",
-     "rs": 12,
-     "ra": 7,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-27",
-     "event_id": 12518,
-     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "section": "Silver Bracket",
-     "opponent": "Lake Wylie Venom",
-     "rs": 4,
-     "ra": 17,
-     "result": "L"
-    },
-    {
-     "date": "2026-09-27",
-     "event_id": 12518,
-     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "section": "Silver Bracket",
-     "opponent": "Rock Hill 9U Baseball",
-     "rs": 2,
-     "ra": 14,
-     "result": "L"
-    },
-    {
-     "date": "2026-10-17",
-     "event_id": 12521,
-     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
-     "section": "Pool Play",
-     "opponent": "LKN Bolts",
-     "rs": 6,
-     "ra": 14,
-     "result": "L"
-    },
-    {
-     "date": "2026-10-17",
-     "event_id": 12521,
-     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
-     "section": "Pool Play",
-     "opponent": "Weddington Wreckers",
-     "rs": 6,
-     "ra": 21,
-     "result": "L"
-    }
-   ],
-   "points": 875,
-   "titles": 0,
-   "finishes": [
-    {
-     "date": "2026-09-11",
-     "name": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
-     "won": 1,
-     "lost": 2,
-     "standing": "3rd (Silver)",
-     "points": 250
-    },
-    {
-     "date": "2026-09-19",
-     "name": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
-     "won": 0,
-     "lost": 2,
-     "standing": "5th (Silver)",
-     "points": 0
-    },
-    {
-     "date": "2026-09-26",
-     "name": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "won": 1,
-     "lost": 3,
-     "standing": "4th (Silver)",
-     "points": 625
-    }
-   ],
-   "season": "08/01/2026 - 10/16/2026",
-   "stats_fetched": "2026-10-16T11:15"
   },
   {
    "team": "Carolina Elevate",
@@ -12772,11 +12828,11 @@
    "page_id": 37235,
    "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=37235",
    "w": 0,
-   "l": 13,
+   "l": 14,
    "t": 0,
-   "rs": 61,
-   "ra": 182,
-   "diff": -121,
+   "rs": 68,
+   "ra": 197,
+   "diff": -129,
    "pct": 0.0,
    "events": 4,
    "log": [
@@ -12908,6 +12964,16 @@
      "opponent": "Carolina Icons",
      "rs": 6,
      "ra": 14,
+     "result": "L"
+    },
+    {
+     "date": "2026-10-18",
+     "event_id": 12521,
+     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "section": "Copper Bracket",
+     "opponent": "Elite 9",
+     "rs": 7,
+     "ra": 15,
      "result": "L"
     }
    ],

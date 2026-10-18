@@ -298,7 +298,7 @@
           "seed": 3,
           "team": "Elite 9",
           "location": "Rock Hill, SC",
-          "won": 0,
+          "won": 1,
           "lost": 2,
           "runs_allowed": 35,
           "runs_scored": 12,
@@ -459,7 +459,7 @@
           "team": "Carolina Forge 9U",
           "location": "Gastonia, NC",
           "won": 0,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 31,
           "runs_scored": 8,
           "team_page_id": null
@@ -890,10 +890,10 @@
             "field": "Westmoreld:Field 2",
             "team_a": "Carolina Forge 9U",
             "seed_a": 17,
-            "score_a": null,
+            "score_a": 7,
             "team_b": "Elite 9",
             "seed_b": 18,
-            "score_b": null
+            "score_b": 15
           },
           {
             "game": 2,
@@ -912,7 +912,7 @@
             "day": "Sun",
             "time": "11:00 AM",
             "field": "Westmoreld:Field 2",
-            "team_a": "Loser Game #19",
+            "team_a": "Loser Game #19 Carolina Forge 9U",
             "seed_a": null,
             "score_a": null,
             "team_b": "Loser Game #20 Carolina Royals 9Uw",
@@ -924,7 +924,7 @@
             "day": "Sun",
             "time": "11:00 AM",
             "field": "Westmoreld:Field 3",
-            "team_a": "Winner Game #19",
+            "team_a": "Winner Game #19 Elite 9",
             "seed_a": null,
             "score_a": null,
             "team_b": "Winner Game #20 LKN Kingdom",
@@ -962,7 +962,7 @@
           "team": "North Lincoln Futures 35",
           "location": "Denver, NC",
           "won": 1,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 25,
           "runs_scored": 21,
           "team_page_id": null
@@ -981,7 +981,7 @@
           "seed": 5,
           "team": "Union County Aces",
           "location": "Monroe, NC",
-          "won": 1,
+          "won": 2,
           "lost": 1,
           "runs_allowed": 21,
           "runs_scored": 19,
@@ -1011,7 +1011,7 @@
           "seed": 8,
           "team": "SBA Lake Norman Thunder - Blue",
           "location": "Cornelius, NC",
-          "won": 0,
+          "won": 1,
           "lost": 2,
           "runs_allowed": 32,
           "runs_scored": 9,
@@ -1052,7 +1052,7 @@
           "team": "Copperheads Black",
           "location": "Mooresville, NC",
           "won": 1,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 17,
           "runs_scored": 18,
           "team_page_id": null
@@ -1275,10 +1275,10 @@
             "field": "Tuckasee:Tuckaseegee 2",
             "team_a": "Copperheads Black",
             "seed_a": 5,
-            "score_a": null,
+            "score_a": 6,
             "team_b": "Union County Aces",
             "seed_b": 8,
-            "score_b": null
+            "score_b": 20
           },
           {
             "game": 3,
@@ -1288,7 +1288,7 @@
             "team_a": "Loser Game #1",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Loser Game #2",
+            "team_b": "Loser Game #2 Copperheads Black",
             "seed_b": null,
             "score_b": null
           },
@@ -1300,7 +1300,7 @@
             "team_a": "Winner Game #1",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Winner Game #2",
+            "team_b": "Winner Game #2 Union County Aces",
             "seed_b": null,
             "score_b": null
           }
@@ -1325,10 +1325,10 @@
             "field": "Bradford:Field # 4",
             "team_a": "North Lincoln Futures 35",
             "seed_a": 9,
-            "score_a": null,
+            "score_a": 15,
             "team_b": "SBA Lake Norman Thunder - Blue",
             "seed_b": 12,
-            "score_b": null
+            "score_b": 18
           },
           {
             "game": 3,
@@ -1338,7 +1338,7 @@
             "team_a": "Loser Game #1 Newport Bombers 10U Yerdon",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Loser Game #2",
+            "team_b": "Loser Game #2 North Lincoln Futures 35",
             "seed_b": null,
             "score_b": null
           },
@@ -1350,7 +1350,7 @@
             "team_a": "Winner Game #1 Carolina Locos- 10U White",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Winner Game #2",
+            "team_b": "Winner Game #2 SBA Lake Norman Thunder - Blue",
             "seed_b": null,
             "score_b": null
           }
@@ -3809,5 +3809,5 @@
   },
   "site_last_updated": "10/15/2026 12:00 PM",
   "tournament_id": 12521,
-  "fetched_at": "2026-10-18T10:56"
+  "fetched_at": "2026-10-18T11:06"
 }

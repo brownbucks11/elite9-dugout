@@ -1,5 +1,5 @@
 # Elite 9 - Top Gun schedule
-_Updated Sun Oct 18, 2026 10:56 AM_
+_Updated Sun Oct 18, 2026 11:07 AM_
 
 ## SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND
 September 26 - 27 in Greater Charlotte Area, NC  
@@ -89,7 +89,7 @@ October 17 - 18 in Greater Charlotte Area, NC
 Tournament 12521 - [schedule page](https://playtopgunsports.com/GameTimesResults.aspx?trnid=12521)
 
 ### 9U  
-**Standing:** #3 of 19  -  0-2, RS 12, RA 35
+**Standing:** #3 of 19  -  1-2, RS 12, RA 35
 
 **Elite 9 games**
 
@@ -97,7 +97,7 @@ Tournament 12521 - [schedule page](https://playtopgunsports.com/GameTimesResults
 |---|---|---|---|---|
 | Pool 1 | Sat 9:00 AM | Westmoreld:Field 1 | LKN Bolts 14 | Elite 9 6 |
 | Pool 5 | Sat 10:45 AM | Westmoreld:Field 2 | Weddington Wreckers 21 | Elite 9 6 |
-| Copp 1 | Sun 9:00 AM | Westmoreld:Field 2 | (#17) Carolina Forge 9U | (#18) Elite 9 |
+| Copp 1 | Sun 9:00 AM | Westmoreld:Field 2 | (#17) Carolina Forge 9U 7 | (#18) Elite 9 15 |
 
 **9U standings**
 
@@ -105,7 +105,7 @@ Tournament 12521 - [schedule page](https://playtopgunsports.com/GameTimesResults
 |---|---|---|---|---|---|
 | 1 | LKN Bolts | Huntersville, NC | 2-0 | 34 | 8 |
 | 2 | ROCO Dirtbagz | Forest City, NC | 2-1 | 14 | 16 |
-| 3 | Elite 9 **<--** | Rock Hill, SC | 0-2 | 12 | 35 |
+| 3 | Elite 9 **<--** | Rock Hill, SC | 1-2 | 12 | 35 |
 | 4 | Union County Aces 9u | Monroe, NC | 2-0 | 36 | 9 |
 | 5 | Team 24 | York, SC | 1-0 | 34 | 9 |
 | 6 | Union County Legends | Waxhaw, NC | 1-0 | 27 | 16 |
@@ -121,7 +121,7 @@ Tournament 12521 - [schedule page](https://playtopgunsports.com/GameTimesResults
 | 16 | Carolina Royals 9Uw | Gastonia, NC | 0-3 | 7 | 43 |
 | 17 | Red Clay Athletics 9U Darcangelo | Charlotte, NC | 1-1 | 12 | 12 |
 | 18 | ELITE BASEBALL EBC 9U | FOREST CITY, NC | 1-2 | 5 | 26 |
-| 19 | Carolina Forge 9U | Gastonia, NC | 0-2 | 8 | 31 |
+| 19 | Carolina Forge 9U | Gastonia, NC | 0-3 | 8 | 31 |
 
 **Gold Bracket**
 
@@ -157,10 +157,10 @@ Tournament 12521 - [schedule page](https://playtopgunsports.com/GameTimesResults
 
 | G | When | Field | Team A | Team B |
 |---|---|---|---|---|
-| 1 | Sun 9:00 AM | Westmoreld:Field 2 | (#17) Carolina Forge 9U | (#18) Elite 9 |
+| 1 | Sun 9:00 AM | Westmoreld:Field 2 | (#17) Carolina Forge 9U 7 | (#18) Elite 9 15 |
 | 2 | Sun 9:00 AM | Westmoreld:Field 3 | (#16) LKN Kingdom 16 | (#19) Carolina Royals 9Uw 4 |
-| 3 | Sun 11:00 AM | Westmoreld:Field 2 | Loser Game #19 | Loser Game #20 Carolina Royals 9Uw |
-| 4 | Sun 11:00 AM | Westmoreld:Field 3 | Winner Game #19 | Winner Game #20 LKN Kingdom |
+| 3 | Sun 11:00 AM | Westmoreld:Field 2 | Loser Game #19 Carolina Forge 9U | Loser Game #20 Carolina Royals 9Uw |
+| 4 | Sun 11:00 AM | Westmoreld:Field 3 | Winner Game #19 Elite 9 | Winner Game #20 LKN Kingdom |
 
 ## WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE
 October 24 - 25 in Greater Charlotte Area, NC  
