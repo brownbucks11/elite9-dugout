@@ -1011,7 +1011,7 @@
           "seed": 8,
           "team": "SBA Lake Norman Thunder - Blue",
           "location": "Cornelius, NC",
-          "won": 1,
+          "won": 2,
           "lost": 2,
           "runs_allowed": 32,
           "runs_scored": 9,
@@ -1022,7 +1022,7 @@
           "team": "Carolina Locos- 10U White",
           "location": "Waxhaw, NC",
           "won": 1,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 20,
           "runs_scored": 8,
           "team_page_id": null
@@ -1349,10 +1349,10 @@
             "field": "Bradford:Field # 4",
             "team_a": "Winner Game #1 Carolina Locos- 10U White",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 4,
             "team_b": "Winner Game #2 SBA Lake Norman Thunder - Blue",
             "seed_b": null,
-            "score_b": null
+            "score_b": 13
           }
         ]
       }
@@ -1893,7 +1893,7 @@
           "seed": 1,
           "team": "Carolina Locos-Black",
           "location": "Waxhaw, NC",
-          "won": 0,
+          "won": 1,
           "lost": 3,
           "runs_allowed": 17,
           "runs_scored": 9,
@@ -1904,7 +1904,7 @@
           "team": "Banana Peppers Baseball",
           "location": "Gastonia, NC",
           "won": 1,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 24,
           "runs_scored": 12,
           "team_page_id": null
@@ -2219,10 +2219,10 @@
             "field": "SP:Field #1",
             "team_a": "Loser Game #1 Carolina Locos-Black",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 16,
             "team_b": "Loser Game #2 Banana Peppers Baseball",
             "seed_b": null,
-            "score_b": null
+            "score_b": 8
           },
           {
             "game": 4,
@@ -3809,5 +3809,5 @@
   },
   "site_last_updated": "10/15/2026 12:00 PM",
   "tournament_id": 12521,
-  "fetched_at": "2026-10-18T13:01"
+  "fetched_at": "2026-10-18T13:12"
 }
