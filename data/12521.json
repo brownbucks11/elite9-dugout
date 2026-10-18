@@ -62,19 +62,19 @@
           "team": "BP3 Ruff Ryderz NC 8U",
           "location": "Waxhaw, NC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 16,
-          "runs_scored": 14,
+          "lost": 2,
+          "runs_allowed": 32,
+          "runs_scored": 25,
           "team_page_id": null
         },
         {
           "seed": 2,
           "team": "Red Clay Athletics 8U Beeker",
           "location": "Huntersville, NC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
-          "runs_allowed": 15,
-          "runs_scored": 19,
+          "runs_allowed": 26,
+          "runs_scored": 35,
           "team_page_id": null
         },
         {
@@ -187,10 +187,10 @@
             "field": "M. Rivers:Martha Rivers 4",
             "team_a": "BP3 Ruff Ryderz NC 8U",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 11,
             "team_b": "Red Clay Athletics 8U Beeker",
             "seed_b": null,
-            "score_b": null
+            "score_b": 16
           }
         ],
         "Gold Bracket": [
@@ -199,10 +199,10 @@
             "day": "Sun",
             "time": "9:00 AM",
             "field": "Westmoreld:Field 4",
-            "team_a": "",
+            "team_a": "Red Clay Athletics 8U Beeker",
             "seed_a": 2,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Dirtbags - Clark 8U",
             "seed_b": 3,
             "score_b": null
           },
@@ -211,10 +211,10 @@
             "day": "Sun",
             "time": "10:15 AM",
             "field": "Westmoreld:Field 4",
-            "team_a": "",
+            "team_a": "Waxhaw Militia",
             "seed_a": 1,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Dirtbags - Clark 8U",
             "seed_b": 3,
             "score_b": null
           },
@@ -223,10 +223,10 @@
             "day": "Sun",
             "time": "11:30 AM",
             "field": "Westmoreld:Field 4",
-            "team_a": "",
+            "team_a": "Waxhaw Militia",
             "seed_a": 1,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Red Clay Athletics 8U Beeker",
             "seed_b": 2,
             "score_b": null
           }
@@ -237,10 +237,10 @@
             "day": "Sun",
             "time": "12:45 PM",
             "field": "Westmoreld:Field 4",
-            "team_a": "",
+            "team_a": "BP3 Ruff Ryderz NC 8U",
             "seed_a": 5,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Fury Baseball 8u",
             "seed_b": 6,
             "score_b": null
           },
@@ -249,10 +249,10 @@
             "day": "Sun",
             "time": "2:00 PM",
             "field": "Westmoreld:Field 4",
-            "team_a": "",
+            "team_a": "LKN Bolts",
             "seed_a": 4,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Fury Baseball 8u",
             "seed_b": 6,
             "score_b": null
           },
@@ -261,10 +261,10 @@
             "day": "Sun",
             "time": "3:15 PM",
             "field": "Westmoreld:Field 4",
-            "team_a": "",
+            "team_a": "LKN Bolts",
             "seed_a": 4,
             "score_a": null,
-            "team_b": "",
+            "team_b": "BP3 Ruff Ryderz NC 8U",
             "seed_b": 5,
             "score_b": null
           }
@@ -1656,10 +1656,10 @@
             "day": "Sun",
             "time": "1:00 PM",
             "field": "M. Rivers:Martha Rivers 3",
-            "team_a": "",
+            "team_a": "Pro-Fit Spartans (Benton)",
             "seed_a": 4,
             "score_a": null,
-            "team_b": "",
+            "team_b": "11u Mission Baseball",
             "seed_b": 5,
             "score_b": null
           },
@@ -1668,10 +1668,10 @@
             "day": "Sun",
             "time": "1:00 PM",
             "field": "M. Rivers:Martha Rivers 2",
-            "team_a": "",
+            "team_a": "Carolina Mayhem",
             "seed_a": 2,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Destroyers Baseball",
             "seed_b": 3,
             "score_b": null
           },
@@ -1683,7 +1683,7 @@
             "team_a": "Winner Game #1",
             "seed_a": null,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Dry Pond 2034",
             "seed_b": 1,
             "score_b": null
           },
@@ -1730,10 +1730,10 @@
             "day": "Sun",
             "time": "9:00 AM",
             "field": "M. Rivers:Martha Rivers 2",
-            "team_a": "",
+            "team_a": "Copperheads Red",
             "seed_a": 7,
             "score_a": null,
-            "team_b": "",
+            "team_b": "LKN Bolts",
             "seed_b": 8,
             "score_b": null
           },
@@ -1742,10 +1742,10 @@
             "day": "Sun",
             "time": "9:00 AM",
             "field": "M. Rivers:Martha Rivers 3",
-            "team_a": "",
+            "team_a": "Orange County Crushers - Orange",
             "seed_a": 6,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Riptide 11u-Blue",
             "seed_b": 9,
             "score_b": null
           },
@@ -1780,10 +1780,10 @@
             "day": "Sun",
             "time": "9:00 AM",
             "field": "M. Rivers:Martha Rivers 1",
-            "team_a": "",
+            "team_a": "Yellow Jackets",
             "seed_a": 11,
             "score_a": null,
-            "team_b": "",
+            "team_b": "McDowell Militia Baseball 11U",
             "seed_b": 12,
             "score_b": null
           },
@@ -1792,10 +1792,10 @@
             "day": "Sun",
             "time": "11:00 AM",
             "field": "M. Rivers:Martha Rivers 1",
-            "team_a": "",
+            "team_a": "Newport Bombers 11U Janson",
             "seed_a": 10,
             "score_a": null,
-            "team_b": "",
+            "team_b": "ELITE BASEBALL 11U EBC",
             "seed_b": 13,
             "score_b": null
           },
@@ -3809,5 +3809,5 @@
   },
   "site_last_updated": "10/15/2026 12:00 PM",
   "tournament_id": 12521,
-  "fetched_at": "2026-10-17T20:40"
+  "fetched_at": "2026-10-17T20:50"
 }
