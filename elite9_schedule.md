@@ -1,5 +1,5 @@
 # Elite 9 - Top Gun schedule
-_Updated Sun Oct 18, 2026 12:41 PM_
+_Updated Sun Oct 18, 2026 12:51 PM_
 
 ## SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND
 September 26 - 27 in Greater Charlotte Area, NC  
@@ -108,20 +108,20 @@ Tournament 12521 - [schedule page](https://playtopgunsports.com/GameTimesResults
 | 3 | Elite 9 **<--** | Rock Hill, SC | 1-2 | 12 | 35 |
 | 4 | Union County Aces 9u | Monroe, NC | 3-0 | 36 | 9 |
 | 5 | Team 24 | York, SC | 1-0 | 34 | 9 |
-| 6 | Union County Legends | Waxhaw, NC | 1-0 | 27 | 16 |
+| 6 | Union County Legends | Waxhaw, NC | 1-1 | 27 | 16 |
 | 7 | SC Tide - Lucariello | Clover, SC | 0-3 | 13 | 15 |
 | 8 | Diamond Crushers | Concord, NC | 2-1 | 25 | 14 |
 | 9 | NL Destroyers 2036 | Denver, NC | 3-0 | 16 | 12 |
-| 10 | LumberJacks | Gaston County, NC | 1-1 | 24 | 27 |
+| 10 | LumberJacks | Gaston County, NC | 1-2 | 24 | 27 |
 | 11 | Weddington Wreckers | Weddington, NC | 1-1 | 32 | 19 |
 | 12 | Mountain Rage | Mars Hill, NC | 2-0 | 28 | 4 |
 | 13 | LKN Kingdom | Charlotte, NC | 1-2 | 12 | 29 |
 | 14 | Carolina Icons | Stanfield, NC | 1-2 | 17 | 15 |
-| 15 | Legacy Baseball 9U - WHITE | Fort Mill, SC | 1-1 | 15 | 31 |
-| 16 | Carolina Royals 9Uw | Gastonia, NC | 0-3 | 7 | 43 |
-| 17 | Red Clay Athletics 9U Darcangelo | Charlotte, NC | 1-1 | 12 | 12 |
+| 15 | Legacy Baseball 9U - WHITE | Fort Mill, SC | 2-1 | 15 | 31 |
+| 16 | Carolina Royals 9Uw | Gastonia, NC | 0-4 | 7 | 43 |
+| 17 | Red Clay Athletics 9U Darcangelo | Charlotte, NC | 2-1 | 12 | 12 |
 | 18 | ELITE BASEBALL EBC 9U | FOREST CITY, NC | 1-2 | 5 | 26 |
-| 19 | Carolina Forge 9U | Gastonia, NC | 0-3 | 8 | 31 |
+| 19 | Carolina Forge 9U | Gastonia, NC | 1-3 | 8 | 31 |
 
 **Gold Bracket**
 
@@ -138,20 +138,20 @@ Tournament 12521 - [schedule page](https://playtopgunsports.com/GameTimesResults
 | G | When | Field | Team A | Team B |
 |---|---|---|---|---|
 | 1 | Sun 9:00 AM | Bradford:Field # 2 | (#9) Carolina Icons 10 | (#10) ROCO Dirtbagz 18 |
-| 2 | Sun 11:00 AM | Bradford:Field # 2 | (#7) Union County Legends | (#8) Red Clay Athletics 9U Darcangelo |
+| 2 | Sun 11:00 AM | Bradford:Field # 2 | (#7) Union County Legends 2 | (#8) Red Clay Athletics 9U Darcangelo 14 |
 | 3 | Sun 1:00 PM | Bradford:Field # 2 | Winner Game #7 ROCO Dirtbagz | (#6) Team 24 |
-| 4 | Sun 1:00 PM | Bradford:Field # 4 | Loser Game #7 Carolina Icons | Loser Game #8 |
-| 5 | Sun 3:00 PM | Bradford:Field # 2 | Winner Game #9 | Winner Game #8 |
+| 4 | Sun 1:00 PM | Bradford:Field # 4 | Loser Game #7 Carolina Icons | Loser Game #8 Union County Legends |
+| 5 | Sun 3:00 PM | Bradford:Field # 2 | Winner Game #9 | Winner Game #8 Red Clay Athletics 9U Darcangelo |
 
 **Bronze Bracket**
 
 | G | When | Field | Team A | Team B |
 |---|---|---|---|---|
 | 1 | Sun 9:00 AM | Bradford:Field # 3 | (#14) SC Tide - Lucariello 2 | (#15) ELITE BASEBALL EBC 9U 15 |
-| 2 | Sun 11:00 AM | Bradford:Field # 3 | (#12) LumberJacks | (#13) Legacy Baseball 9U - WHITE |
+| 2 | Sun 11:00 AM | Bradford:Field # 3 | (#12) LumberJacks 5 | (#13) Legacy Baseball 9U - WHITE 12 |
 | 3 | Sun 1:00 PM | Bradford:Field # 3 | Winner Game #13 ELITE BASEBALL EBC 9U | (#11) Weddington Wreckers |
-| 4 | Sun 3:00 PM | Bradford:Field # 4 | Loser Game #13 SC Tide - Lucariello | Loser Game #14 |
-| 5 | Sun 3:00 PM | Bradford:Field # 3 | Winner Game #15 | Winner Game #14 |
+| 4 | Sun 3:00 PM | Bradford:Field # 4 | Loser Game #13 SC Tide - Lucariello | Loser Game #14 LumberJacks |
+| 5 | Sun 3:00 PM | Bradford:Field # 3 | Winner Game #15 | Winner Game #14 Legacy Baseball 9U - WHITE |
 
 **Copper Bracket**
 
@@ -159,7 +159,7 @@ Tournament 12521 - [schedule page](https://playtopgunsports.com/GameTimesResults
 |---|---|---|---|---|
 | 1 | Sun 9:00 AM | Westmoreld:Field 2 | (#17) Carolina Forge 9U 7 | (#18) Elite 9 15 |
 | 2 | Sun 9:00 AM | Westmoreld:Field 3 | (#16) LKN Kingdom 16 | (#19) Carolina Royals 9Uw 4 |
-| 3 | Sun 11:00 AM | Westmoreld:Field 2 | Loser Game #19 Carolina Forge 9U | Loser Game #20 Carolina Royals 9Uw |
+| 3 | Sun 11:00 AM | Westmoreld:Field 2 | Loser Game #19 Carolina Forge 9U 18 | Loser Game #20 Carolina Royals 9Uw 6 |
 | 4 | Sun 11:00 AM | Westmoreld:Field 3 | Winner Game #19 Elite 9 | Winner Game #20 LKN Kingdom |
 
 ## WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE
