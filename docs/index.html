@@ -810,51 +810,53 @@
     const out = [];
     let maxY = 0;
     const drawBracket = (list, top, leafName, endLabel) => {
-      const rounds = new Map();
-      list.forEach((g) => { const r = roundOf(g); if (!rounds.has(r)) rounds.set(r, []); rounds.get(r).push(g); });
-      const rs = [...rounds.keys()].sort((a, b) => a - b);
-      const outY = new Map();
-      let leaf = 0;
-      rs.forEach((r, ri) => {
-        const x = LEFT + ri * (L + GAP);
-        rounds.get(r).sort((a, b) => a.game - b.game).forEach((g) => {
-          const ys = ["a", "b"].map((side) => {
-            const f = g["from_" + side];
-            if (f && outY.has(f.game)) return outY.get(f.game);
-            const y = top + leaf * S + Math.floor(leaf / 2) * GG; leaf++;
-            out.push(`<line x1="${x}" y1="${y}" x2="${x + L}" y2="${y}"/>`);
-            const nm = leafName(g, side);
-            const seed = g["seed_" + side] || seedOf.get(norm(nm));
-            if (side === "b") {   // caption under the game: when and where (our game stands out)
-              const f = fieldParts(g.field), ours = [g.team_a, g.team_b].some((n) => norm(n) === ME);
-              out.push(`<text x="${x + 2}" y="${y + 12}" class="gcap ${ours ? "me" : ""}">${esc(g.day)} ${esc(g.time)}${f.abbr ? " · " + esc(f.name && f.name.length < 22 ? f.name : f.abbr) + (f.sub ? " " + esc(f.sub) : "") : ""}</text>`);
-            }
-            out.push(nameText(x + 2 + (seed ? 22 : 0), y - 5, nm, winnerSide(g) === side ? "win" : played(g) ? "lose" : ""));
-            if (seed) out.push(`<text x="${x + 2}" y="${y - 5}" class="seed">#${seed}</text>`);
-            return y;
-          });
-          ["a", "b"].forEach((side, i) => { if (played(g)) out.push(`<text x="${x + L - 3}" y="${ys[i] - 5}" class="score ${winnerSide(g) === side ? "win" : ""}" text-anchor="end">${g["score_" + side]}</text>`); });
-          const mid = (ys[0] + ys[1]) / 2;
-          if (ri > 0) {   // later-round game: caption under its lower slot line (first-round games got theirs with the leaf)
-            const f = fieldParts(g.field), ours = [g.team_a, g.team_b].some((n) => norm(n) === ME || norm(resolveSlot(g, n === g.team_a ? "a" : "b")) === ME);
-            out.push(`<text x="${x + 2}" y="${ys[1] + 12}" class="gcap ${ours ? "me" : ""}">${esc(g.day)} ${esc(g.time)}${f.abbr ? " · " + esc(f.name && f.name.length < 22 ? f.name : f.abbr) + (f.sub ? " " + esc(f.sub) : "") : ""}</text>`);
-          }
-          out.push(`<line x1="${x + L}" y1="${ys[0]}" x2="${x + L}" y2="${ys[1]}"/>`);
-          const isLast = ri === rs.length - 1;
-          const nx = x + L + GAP, nl = isLast ? L - 20 : L;
-          out.push(`<line x1="${x + L}" y1="${mid}" x2="${nx + nl}" y2="${mid}"/>`);
-          const w = winnerOf(g);
-          if (w) {
-            const sd = seedOf.get(norm(w));
-            out.push(nameText(nx + 2 + (sd ? 22 : 0), mid - 5, w, "win"));
-            if (sd) out.push(`<text x="${nx + 2}" y="${mid - 5}" class="seed">#${sd}</text>`);
-          }
-          if (isLast) out.push(`<text x="${nx + 2}" y="${mid + 14}" class="glabel">${esc(endLabel(g))}</text>`);
-          outY.set(g.game, mid);
-          maxY = Math.max(maxY, ys[1] + 16, mid + 16);   // room for the caption under the lower line
+      // Columns are rounds counted back from the final (a bye seed enters in the column where it
+      // plays); each game is laid out from its final down, leaves allocated top to bottom.
+      const inList = new Map(list.map((g) => [g.game, g]));
+      const childOf = (g, side) => { const f = g["from_" + side]; return f && f.type === "winner" && inList.has(f.game) ? inList.get(f.game) : null; };
+      const fedInto = new Set(list.flatMap((g) => ["a", "b"].map((sd) => { const c = childOf(g, sd); return c ? c.game : null; }).filter((v) => v != null)));
+      const finals = list.filter((g) => !fedInto.has(g.game)).sort((a, b) => a.game - b.game);
+      const depth = (g) => 1 + Math.max(...["a", "b"].map((sd) => { const c = childOf(g, sd); return c ? depth(c) : 0; }));
+      const maxD = Math.max(...finals.map((g) => depth(g) - 1), 0);
+      let cursor = top;
+      const caption = (g, x, y, ours) => {
+        const f = fieldParts(g.field);
+        out.push(`<text x="${x + 2}" y="${y + 12}" class="gcap ${ours ? "me" : ""}">${esc(g.day)} ${esc(g.time)}${f.abbr ? " · " + esc(f.name && f.name.length < 22 ? f.name : f.abbr) + (f.sub ? " " + esc(f.sub) : "") : ""}</text>`);
+      };
+      const place = (g, dist) => {
+        const x = LEFT + (maxD - dist) * (L + GAP);
+        const ys = ["a", "b"].map((side) => {
+          const child = childOf(g, side);
+          if (child) return place(child, dist + 1).mid;
+          const y = cursor; cursor += S;
+          const nm = leafName(g, side);
+          const seed = g["seed_" + side] || seedOf.get(norm(nm));
+          out.push(`<line x1="${x}" y1="${y}" x2="${x + L}" y2="${y}"/>`);
+          out.push(nameText(x + 2 + (seed ? 22 : 0), y - 5, nm, winnerSide(g) === side ? "win" : played(g) ? "lose" : ""));
+          if (seed) out.push(`<text x="${x + 2}" y="${y - 5}" class="seed">#${seed}</text>`);
+          return y;
         });
-      });
-      return { width: LEFT + rs.length * (L + GAP) + L, rounds: rs.length };
+        ["a", "b"].forEach((side, i) => { if (played(g)) out.push(`<text x="${x + L - 3}" y="${ys[i] - 5}" class="score ${winnerSide(g) === side ? "win" : ""}" text-anchor="end">${g["score_" + side]}</text>`); });
+        const mid = (ys[0] + ys[1]) / 2;
+        const ours = ["a", "b"].some((sd) => norm(resolveSlot(g, sd)) === ME);
+        caption(g, x, ys[1], ours);
+        out.push(`<line x1="${x + L}" y1="${ys[0]}" x2="${x + L}" y2="${ys[1]}"/>`);
+        const isFinal = dist === 0;
+        const nx = x + L + GAP, nl = isFinal ? L - 20 : L;
+        out.push(`<line x1="${x + L}" y1="${mid}" x2="${nx + nl}" y2="${mid}"/>`);
+        const w = winnerOf(g);
+        if (w) {
+          const sd = seedOf.get(norm(w));
+          out.push(nameText(nx + 2 + (sd ? 22 : 0), mid - 5, w, "win"));
+          if (sd) out.push(`<text x="${nx + 2}" y="${mid - 5}" class="seed">#${sd}</text>`);
+        }
+        if (isFinal) out.push(`<text x="${nx + 2}" y="${mid + 14}" class="glabel">${esc(endLabel(g))}</text>`);
+        cursor += GG;
+        maxY = Math.max(maxY, ys[1] + 16, mid + 16, cursor - GG);
+        return { mid };
+      };
+      finals.forEach((g) => place(g, 0));
+      return { width: LEFT + (maxD + 1) * (L + GAP) + L, rounds: maxD + 1 };
     };
 
     const winners = games.filter((g) => !consolation(g)), consols = games.filter(consolation);
