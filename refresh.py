@@ -130,7 +130,7 @@ LIST_URL = "https://topgunstats.com/api/queries/tournaments/tournament-data?spor
 TGS_FIELDS = ("TournamentID", "TournamentName", "StartDate", "EndDate", "CityState", "GameGuarantee", "TotalConfirmed",
               "ShowGamesScheduled", "ShowWeatherMessage", "WeatherMessage", "WeatherMessageDateTime",
               "ShowGeneralMessage", "GeneralMessage", "GeneralMessageDateTime", "TComplexArr", "TFeeObj",
-              "FullName", "CellPhone", "Email", "ShowGameTimesResults")
+              "FullName", "CellPhone", "Email", "ShowGameTimesResults", "Notes", "TournamentDescription")
 
 
 def fetch_tgs(ids):

@@ -139,6 +139,7 @@
   details.notice-g { border: 1px solid var(--line); border-radius: 4px; background: var(--chalk); }
   details.notice-g summary { padding: 6px 12px; font-size: 13px; font-weight: 600; cursor: pointer; }
   details.notice-g .ntext { padding: 0 12px 10px; font-size: 13px; }
+  details.notice-g.awards { border-color: var(--amber); background: var(--me-bg); }
   .hdr-link a + a { margin-left: 0; }
 
   /* Entries (Who's Playing) */
@@ -593,7 +594,9 @@
     if (!t) return "";
     const w = t.weather ? `<div class="notice-w"><b>Weather / field notice</b>${t.weather.when ? `<span class="from"> · posted ${esc(fmtSeen(t.weather.when))}</span>` : ""}<div class="ntext">${esc(t.weather.text)}</div></div>` : "";
     const g = t.general ? `<details class="notice-g"><summary>Director's notes${t.general.when ? `<span class="from"> · ${esc(fmtSeen(t.general.when))}</span>` : ""}</summary><div class="ntext">${esc(t.general.text)}</div></details>` : "";
-    return w || g ? `<div class="notices">${w}${g}</div>` : "";
+    // the event listing's notes are where directors describe the prizes ("rings plus banners")
+    const a = t.awards ? `<details class="notice-g awards"><summary>What's on the line</summary><div class="ntext">${esc(tidy(t.awards).replace(/\s*–\s*/g, " · "))}</div></details>` : "";
+    return w || g || a ? `<div class="notices">${w}${a}${g}</div>` : "";
   }
   const tgsLink = (t, id) => `<a href="${esc((t && t.url) || ("https://topgunstats.com/whos-playing/" + id))}" target="_blank" rel="noopener">Top Gun Stats ↗</a>`;
 

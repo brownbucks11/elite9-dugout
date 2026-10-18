@@ -467,6 +467,7 @@ def load_tgs(data_dir, tid):
     return {
         "weather": {"text": weather, "when": d.get("WeatherMessageDateTime")} if weather else None,
         "general": {"text": general, "when": d.get("GeneralMessageDateTime")} if general else None,
+        "awards": html_text(d.get("Notes")) or html_text(d.get("TournamentDescription")) or "",
         "teams_registered": d.get("TotalConfirmed"), "games_scheduled": bool(d.get("ShowGamesScheduled")),
         "complexes": complexes, "fees": fees, "director": d.get("FullName"),
         "fetched_at": d.get("fetched_at"), "url": TGS_EVENT_URL.format(id=tid),
