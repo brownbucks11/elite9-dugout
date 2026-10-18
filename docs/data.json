@@ -3,7 +3,7 @@
  "location": "Rock Hill, SC",
  "page_id": 31407,
  "team_url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=31407",
- "built": "Sat Oct 17, 2026 09:01 PM",
+ "built": "Sat Oct 17, 2026 09:11 PM",
  "record": {
   "w": 2,
   "l": 9,
@@ -2590,7 +2590,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-17T21:01",
+    "fetched_at": "2026-10-17T21:11",
     "url": "https://topgunstats.com/whos-playing/12521"
    },
    "next_game": {
@@ -3576,7 +3576,8 @@
      "score_a": null,
      "from_a": {
       "type": "winner",
-      "game": 7
+      "game": 1,
+      "global": 7
      },
      "team_b": "Team 24",
      "seed_b": 6,
@@ -3595,14 +3596,16 @@
      "score_a": null,
      "from_a": {
       "type": "loser",
-      "game": 7
+      "game": 1,
+      "global": 7
      },
      "team_b": "Loser Game #8",
      "seed_b": null,
      "score_b": null,
      "from_b": {
       "type": "loser",
-      "game": 8
+      "game": 2,
+      "global": 8
      }
     },
     {
@@ -3617,14 +3620,16 @@
      "score_a": null,
      "from_a": {
       "type": "winner",
-      "game": 9
+      "game": 3,
+      "global": 9
      },
      "team_b": "Winner Game #8",
      "seed_b": null,
      "score_b": null,
      "from_b": {
       "type": "winner",
-      "game": 8
+      "game": 2,
+      "global": 8
      }
     },
     {
@@ -3671,7 +3676,8 @@
      "score_a": null,
      "from_a": {
       "type": "winner",
-      "game": 13
+      "game": 1,
+      "global": 13
      },
      "team_b": "Weddington Wreckers",
      "seed_b": 11,
@@ -3690,14 +3696,16 @@
      "score_a": null,
      "from_a": {
       "type": "loser",
-      "game": 13
+      "game": 1,
+      "global": 13
      },
      "team_b": "Loser Game #14",
      "seed_b": null,
      "score_b": null,
      "from_b": {
       "type": "loser",
-      "game": 14
+      "game": 2,
+      "global": 14
      }
     },
     {
@@ -3712,14 +3720,16 @@
      "score_a": null,
      "from_a": {
       "type": "winner",
-      "game": 15
+      "game": 3,
+      "global": 15
      },
      "team_b": "Winner Game #14",
      "seed_b": null,
      "score_b": null,
      "from_b": {
       "type": "winner",
-      "game": 14
+      "game": 2,
+      "global": 14
      }
     },
     {
@@ -3766,14 +3776,16 @@
      "score_a": null,
      "from_a": {
       "type": "loser",
-      "game": 19
+      "game": 1,
+      "global": 19
      },
      "team_b": "Loser Game #20",
      "seed_b": null,
      "score_b": null,
      "from_b": {
       "type": "loser",
-      "game": 20
+      "game": 2,
+      "global": 20
      }
     },
     {
@@ -3788,14 +3800,16 @@
      "score_a": null,
      "from_a": {
       "type": "winner",
-      "game": 19
+      "game": 1,
+      "global": 19
      },
      "team_b": "Winner Game #20",
      "seed_b": null,
      "score_b": null,
      "from_b": {
       "type": "winner",
-      "game": 20
+      "game": 2,
+      "global": 20
      }
     }
    ]
@@ -5654,7 +5668,7 @@
      "entered_at": "2026-10-08T16:26:44.913Z",
      "level": "AA"
     },
-    "fetched_at": "2026-10-17T21:01"
+    "fetched_at": "2026-10-17T21:11"
    },
    "tgs": {
     "weather": null,
@@ -5779,7 +5793,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-17T21:01",
+    "fetched_at": "2026-10-17T21:11",
     "url": "https://topgunstats.com/whos-playing/12521"
    },
    "name": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
@@ -6231,7 +6245,8 @@
      "score_a": null,
      "from_a": {
       "type": "winner",
-      "game": 7
+      "game": 1,
+      "global": 7
      },
      "team_b": "Team 24",
      "seed_b": 6,
@@ -6250,14 +6265,16 @@
      "score_a": null,
      "from_a": {
       "type": "loser",
-      "game": 7
+      "game": 1,
+      "global": 7
      },
      "team_b": "Loser Game #8",
      "seed_b": null,
      "score_b": null,
      "from_b": {
       "type": "loser",
-      "game": 8
+      "game": 2,
+      "global": 8
      }
     },
     {
@@ -6272,14 +6289,16 @@
      "score_a": null,
      "from_a": {
       "type": "winner",
-      "game": 9
+      "game": 3,
+      "global": 9
      },
      "team_b": "Winner Game #8",
      "seed_b": null,
      "score_b": null,
      "from_b": {
       "type": "winner",
-      "game": 8
+      "game": 2,
+      "global": 8
      }
     },
     {
@@ -6326,7 +6345,8 @@
      "score_a": null,
      "from_a": {
       "type": "winner",
-      "game": 13
+      "game": 1,
+      "global": 13
      },
      "team_b": "Weddington Wreckers",
      "seed_b": 11,
@@ -6345,14 +6365,16 @@
      "score_a": null,
      "from_a": {
       "type": "loser",
-      "game": 13
+      "game": 1,
+      "global": 13
      },
      "team_b": "Loser Game #14",
      "seed_b": null,
      "score_b": null,
      "from_b": {
       "type": "loser",
-      "game": 14
+      "game": 2,
+      "global": 14
      }
     },
     {
@@ -6367,14 +6389,16 @@
      "score_a": null,
      "from_a": {
       "type": "winner",
-      "game": 15
+      "game": 3,
+      "global": 15
      },
      "team_b": "Winner Game #14",
      "seed_b": null,
      "score_b": null,
      "from_b": {
       "type": "winner",
-      "game": 14
+      "game": 2,
+      "global": 14
      }
     },
     {
@@ -6421,14 +6445,16 @@
      "score_a": null,
      "from_a": {
       "type": "loser",
-      "game": 19
+      "game": 1,
+      "global": 19
      },
      "team_b": "Loser Game #20",
      "seed_b": null,
      "score_b": null,
      "from_b": {
       "type": "loser",
-      "game": 20
+      "game": 2,
+      "global": 20
      }
     },
     {
@@ -6443,14 +6469,16 @@
      "score_a": null,
      "from_a": {
       "type": "winner",
-      "game": 19
+      "game": 1,
+      "global": 19
      },
      "team_b": "Winner Game #20",
      "seed_b": null,
      "score_b": null,
      "from_b": {
       "type": "winner",
-      "game": 20
+      "game": 2,
+      "global": 20
      }
     }
    ],
@@ -6733,7 +6761,7 @@
     "team": {
      "entered": false
     },
-    "fetched_at": "2026-10-17T21:01"
+    "fetched_at": "2026-10-17T21:11"
    },
    "tgs": {
     "weather": {
@@ -6821,7 +6849,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-17T21:01",
+    "fetched_at": "2026-10-17T21:11",
     "url": "https://topgunstats.com/whos-playing/12522"
    },
    "name": "Southeastern Winter World Series",
@@ -6853,7 +6881,7 @@
     "team": {
      "entered": false
     },
-    "fetched_at": "2026-10-17T21:01"
+    "fetched_at": "2026-10-17T21:11"
    },
    "tgs": {
     "weather": null,
@@ -6906,7 +6934,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-17T21:01",
+    "fetched_at": "2026-10-17T21:11",
     "url": "https://topgunstats.com/whos-playing/12524"
    },
    "name": "Road Runner vs Coyote ring weekend",
