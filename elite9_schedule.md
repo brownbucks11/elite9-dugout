@@ -1,5 +1,5 @@
 # Elite 9 - Top Gun schedule
-_Updated Sun Oct 18, 2026 05:34 PM_
+_Updated Sun Oct 18, 2026 05:44 PM_
 
 ## SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND
 September 26 - 27 in Greater Charlotte Area, NC  
@@ -109,10 +109,10 @@ Tournament 12521 - [schedule page](https://playtopgunsports.com/GameTimesResults
 | 4 | Union County Aces 9u | Monroe, NC | 3-1 | 36 | 9 |
 | 5 | Team 24 | York, SC | 3-0 | 34 | 9 |
 | 6 | Union County Legends | Waxhaw, NC | 2-1 | 27 | 16 |
-| 7 | SC Tide - Lucariello | Clover, SC | 0-3 | 13 | 15 |
+| 7 | SC Tide - Lucariello | Clover, SC | 1-3 | 13 | 15 |
 | 8 | Diamond Crushers | Concord, NC | 2-2 | 25 | 14 |
 | 9 | NL Destroyers 2036 | Denver, NC | 3-1 | 16 | 12 |
-| 10 | LumberJacks | Gaston County, NC | 1-2 | 24 | 27 |
+| 10 | LumberJacks | Gaston County, NC | 1-3 | 24 | 27 |
 | 11 | Weddington Wreckers | Weddington, NC | 3-1 | 32 | 19 |
 | 12 | Mountain Rage | Mars Hill, NC | 4-0 | 28 | 4 |
 | 13 | LKN Kingdom | Charlotte, NC | 1-3 | 12 | 29 |
@@ -150,7 +150,7 @@ Tournament 12521 - [schedule page](https://playtopgunsports.com/GameTimesResults
 | 1 | Sun 9:00 AM | Bradford:Field # 3 | (#14) SC Tide - Lucariello 2 | (#15) ELITE BASEBALL EBC 9U 15 |
 | 2 | Sun 11:00 AM | Bradford:Field # 3 | (#12) LumberJacks 5 | (#13) Legacy Baseball 9U - WHITE 12 |
 | 3 | Sun 1:00 PM | Bradford:Field # 3 | Winner Game #13 ELITE BASEBALL EBC 9U 7 | (#11) Weddington Wreckers 9 |
-| 4 | Sun 3:00 PM | Bradford:Field # 4 | Loser Game #13 SC Tide - Lucariello | Loser Game #14 LumberJacks |
+| 4 | Sun 3:00 PM | Bradford:Field # 4 | Loser Game #13 SC Tide - Lucariello 13 | Loser Game #14 LumberJacks 9 |
 | 5 | Sun 3:00 PM | Bradford:Field # 3 | Winner Game #15 Weddington Wreckers 16 | Winner Game #14 Legacy Baseball 9U - WHITE 6 |
 
 **Copper Bracket**

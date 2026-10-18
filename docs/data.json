@@ -3,7 +3,7 @@
  "location": "Rock Hill, SC",
  "page_id": 31407,
  "team_url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=31407",
- "built": "Sun Oct 18, 2026 05:34 PM",
+ "built": "Sun Oct 18, 2026 05:44 PM",
  "record": {
   "w": 4,
   "l": 9,
@@ -2607,7 +2607,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-18T17:34",
+    "fetched_at": "2026-10-18T17:44",
     "url": "https://topgunstats.com/whos-playing/12521"
    },
    "next_game": null,
@@ -2963,7 +2963,7 @@
      "seed": 12,
      "bracket": "Bronze Bracket",
      "won": 1,
-     "lost": 2,
+     "lost": 3,
      "rs": 24,
      "ra": 27
     },
@@ -3014,7 +3014,7 @@
      "pool_ra": 15,
      "seed": 14,
      "bracket": "Bronze Bracket",
-     "won": 0,
+     "won": 1,
      "lost": 3,
      "rs": 13,
      "ra": 15
@@ -3711,7 +3711,7 @@
      "field": "Bradford:Field # 4",
      "team_a": "SC Tide - Lucariello",
      "seed_a": null,
-     "score_a": null,
+     "score_a": 13,
      "from_a": {
       "type": "loser",
       "game": 1,
@@ -3719,7 +3719,7 @@
      },
      "team_b": "LumberJacks",
      "seed_b": null,
-     "score_b": null,
+     "score_b": 9,
      "from_b": {
       "type": "loser",
       "game": 2,
@@ -5702,7 +5702,7 @@
      "entered_at": "2026-10-08T16:26:44.913Z",
      "level": "AA"
     },
-    "fetched_at": "2026-10-18T17:34"
+    "fetched_at": "2026-10-18T17:44"
    },
    "tgs": {
     "weather": null,
@@ -5828,7 +5828,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-18T17:34",
+    "fetched_at": "2026-10-18T17:44",
     "url": "https://topgunstats.com/whos-playing/12521"
    },
    "name": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
@@ -6397,7 +6397,7 @@
      "field": "Bradford:Field # 4",
      "team_a": "SC Tide - Lucariello",
      "seed_a": null,
-     "score_a": null,
+     "score_a": 13,
      "from_a": {
       "type": "loser",
       "game": 1,
@@ -6405,7 +6405,7 @@
      },
      "team_b": "LumberJacks",
      "seed_b": null,
-     "score_b": null,
+     "score_b": 9,
      "from_b": {
       "type": "loser",
       "game": 2,
@@ -6582,7 +6582,7 @@
      "seed": 7,
      "team": "SC Tide - Lucariello",
      "location": "Clover, SC",
-     "won": 0,
+     "won": 1,
      "lost": 3,
      "runs_allowed": 15,
      "runs_scored": 13,
@@ -6613,7 +6613,7 @@
      "team": "LumberJacks",
      "location": "Gaston County, NC",
      "won": 1,
-     "lost": 2,
+     "lost": 3,
      "runs_allowed": 27,
      "runs_scored": 24,
      "team_page_id": null
@@ -6797,7 +6797,7 @@
     "team": {
      "entered": false
     },
-    "fetched_at": "2026-10-18T17:34"
+    "fetched_at": "2026-10-18T17:44"
    },
    "tgs": {
     "weather": {
@@ -6886,7 +6886,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-18T17:34",
+    "fetched_at": "2026-10-18T17:44",
     "url": "https://topgunstats.com/whos-playing/12522"
    },
    "name": "Southeastern Winter World Series",
@@ -6918,7 +6918,7 @@
     "team": {
      "entered": false
     },
-    "fetched_at": "2026-10-18T17:34"
+    "fetched_at": "2026-10-18T17:44"
    },
    "tgs": {
     "weather": null,
@@ -6972,7 +6972,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-18T17:34",
+    "fetched_at": "2026-10-18T17:44",
     "url": "https://topgunstats.com/whos-playing/12524"
    },
    "name": "Road Runner vs Coyote ring weekend",
@@ -11127,6 +11127,197 @@
    "stats_fetched": "2026-10-16T11:17"
   },
   {
+   "team": "SC Tide - Lucariello",
+   "location": "Clover, SC",
+   "page_id": 33954,
+   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=33954",
+   "w": 5,
+   "l": 7,
+   "t": 0,
+   "rs": 101,
+   "ra": 117,
+   "diff": -16,
+   "pct": 0.417,
+   "events": 3,
+   "log": [
+    {
+     "date": "2026-09-05",
+     "event_id": 12515,
+     "event": "CHAIN THEM UP----2026 TOP GUN-USA (TGS) CHAINS AND BAG TAGS",
+     "section": "Pool Play",
+     "opponent": "Carolina Royals 9Ublu",
+     "rs": 17,
+     "ra": 7,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-05",
+     "event_id": 12515,
+     "event": "CHAIN THEM UP----2026 TOP GUN-USA (TGS) CHAINS AND BAG TAGS",
+     "section": "Pool Play",
+     "opponent": "ELITE BASEBALL EBC 9U",
+     "rs": 15,
+     "ra": 4,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-06",
+     "event_id": 12515,
+     "event": "CHAIN THEM UP----2026 TOP GUN-USA (TGS) CHAINS AND BAG TAGS",
+     "section": "Pool Play",
+     "opponent": "Carolina Royals 9Ublu",
+     "rs": 2,
+     "ra": 8,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-06",
+     "event_id": 12515,
+     "event": "CHAIN THEM UP----2026 TOP GUN-USA (TGS) CHAINS AND BAG TAGS",
+     "section": "Pool Play",
+     "opponent": "ELITE BASEBALL EBC 9U",
+     "rs": 18,
+     "ra": 8,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-26",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Pool Play",
+     "opponent": "PeeDee Mudcats",
+     "rs": 5,
+     "ra": 13,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-26",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Pool Play",
+     "opponent": "South Park Red Raiders",
+     "rs": 0,
+     "ra": 19,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-27",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Select Bracket",
+     "opponent": "Legacy Baseball 9U - WHITE",
+     "rs": 7,
+     "ra": 12,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-27",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Select Bracket",
+     "opponent": "Carolina Forge 9U",
+     "rs": 9,
+     "ra": 7,
+     "result": "W"
+    },
+    {
+     "date": "2026-10-17",
+     "event_id": 12521,
+     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "section": "Pool Play",
+     "opponent": "NL Destroyers 2036",
+     "rs": 6,
+     "ra": 7,
+     "result": "L"
+    },
+    {
+     "date": "2026-10-17",
+     "event_id": 12521,
+     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "section": "Pool Play",
+     "opponent": "ROCO Dirtbagz",
+     "rs": 7,
+     "ra": 8,
+     "result": "L"
+    },
+    {
+     "date": "2026-10-18",
+     "event_id": 12521,
+     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "section": "Bronze Bracket",
+     "opponent": "ELITE BASEBALL EBC 9U",
+     "rs": 2,
+     "ra": 15,
+     "result": "L"
+    },
+    {
+     "date": "2026-10-18",
+     "event_id": 12521,
+     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "section": "Bronze Bracket",
+     "opponent": "LumberJacks",
+     "rs": 13,
+     "ra": 9,
+     "result": "W"
+    }
+   ],
+   "points": 900,
+   "titles": 0,
+   "finishes": [
+    {
+     "date": "2026-08-21",
+     "name": "FRIDAY NIGHT G.O.A.T. SERIES 9U&11U",
+     "won": 0,
+     "lost": 0,
+     "standing": "",
+     "points": 0
+    },
+    {
+     "date": "2026-09-05",
+     "name": "CHAIN THEM UP----2026 TOP GUN-USA (TGS) CHAINS AND BAG TAGS",
+     "won": 3,
+     "lost": 1,
+     "standing": "2nd (Gold)",
+     "points": 575
+    },
+    {
+     "date": "2026-09-18",
+     "name": "FRIDAY NIGHT G.O.A.T. SERIES 9U, 11U, & 13U 60/90",
+     "won": 0,
+     "lost": 3,
+     "standing": "4th (Gold)",
+     "points": 325
+    },
+    {
+     "date": "2026-09-26",
+     "name": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "won": 1,
+     "lost": 3,
+     "standing": "2nd (Select)",
+     "points": 0
+    },
+    {
+     "date": "2026-10-09",
+     "name": "FRIDAY NIGHT G.O.A.T. SERIES 9U&11U",
+     "won": 1,
+     "lost": 2,
+     "standing": "",
+     "points": 0
+    },
+    {
+     "date": "2026-10-17",
+     "name": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "won": 1,
+     "lost": 3,
+     "standing": "3rd (Bronze)",
+     "points": 0,
+     "derived": true
+    }
+   ],
+   "season": "08/01/2026 - 10/16/2026",
+   "stats_fetched": "2026-10-16T11:16"
+  },
+  {
    "team": "Waxhaw Militia 9U",
    "location": "Waxhaw, NC",
    "page_id": 33794,
@@ -11387,178 +11578,6 @@
    "stats_fetched": "2026-10-16T11:16"
   },
   {
-   "team": "SC Tide - Lucariello",
-   "location": "Clover, SC",
-   "page_id": 33954,
-   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=33954",
-   "w": 4,
-   "l": 7,
-   "t": 0,
-   "rs": 88,
-   "ra": 108,
-   "diff": -20,
-   "pct": 0.364,
-   "events": 3,
-   "log": [
-    {
-     "date": "2026-09-05",
-     "event_id": 12515,
-     "event": "CHAIN THEM UP----2026 TOP GUN-USA (TGS) CHAINS AND BAG TAGS",
-     "section": "Pool Play",
-     "opponent": "Carolina Royals 9Ublu",
-     "rs": 17,
-     "ra": 7,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-05",
-     "event_id": 12515,
-     "event": "CHAIN THEM UP----2026 TOP GUN-USA (TGS) CHAINS AND BAG TAGS",
-     "section": "Pool Play",
-     "opponent": "ELITE BASEBALL EBC 9U",
-     "rs": 15,
-     "ra": 4,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-06",
-     "event_id": 12515,
-     "event": "CHAIN THEM UP----2026 TOP GUN-USA (TGS) CHAINS AND BAG TAGS",
-     "section": "Pool Play",
-     "opponent": "Carolina Royals 9Ublu",
-     "rs": 2,
-     "ra": 8,
-     "result": "L"
-    },
-    {
-     "date": "2026-09-06",
-     "event_id": 12515,
-     "event": "CHAIN THEM UP----2026 TOP GUN-USA (TGS) CHAINS AND BAG TAGS",
-     "section": "Pool Play",
-     "opponent": "ELITE BASEBALL EBC 9U",
-     "rs": 18,
-     "ra": 8,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-26",
-     "event_id": 12518,
-     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "section": "Pool Play",
-     "opponent": "PeeDee Mudcats",
-     "rs": 5,
-     "ra": 13,
-     "result": "L"
-    },
-    {
-     "date": "2026-09-26",
-     "event_id": 12518,
-     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "section": "Pool Play",
-     "opponent": "South Park Red Raiders",
-     "rs": 0,
-     "ra": 19,
-     "result": "L"
-    },
-    {
-     "date": "2026-09-27",
-     "event_id": 12518,
-     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "section": "Select Bracket",
-     "opponent": "Legacy Baseball 9U - WHITE",
-     "rs": 7,
-     "ra": 12,
-     "result": "L"
-    },
-    {
-     "date": "2026-09-27",
-     "event_id": 12518,
-     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "section": "Select Bracket",
-     "opponent": "Carolina Forge 9U",
-     "rs": 9,
-     "ra": 7,
-     "result": "W"
-    },
-    {
-     "date": "2026-10-17",
-     "event_id": 12521,
-     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
-     "section": "Pool Play",
-     "opponent": "NL Destroyers 2036",
-     "rs": 6,
-     "ra": 7,
-     "result": "L"
-    },
-    {
-     "date": "2026-10-17",
-     "event_id": 12521,
-     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
-     "section": "Pool Play",
-     "opponent": "ROCO Dirtbagz",
-     "rs": 7,
-     "ra": 8,
-     "result": "L"
-    },
-    {
-     "date": "2026-10-18",
-     "event_id": 12521,
-     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
-     "section": "Bronze Bracket",
-     "opponent": "ELITE BASEBALL EBC 9U",
-     "rs": 2,
-     "ra": 15,
-     "result": "L"
-    }
-   ],
-   "points": 900,
-   "titles": 0,
-   "finishes": [
-    {
-     "date": "2026-08-21",
-     "name": "FRIDAY NIGHT G.O.A.T. SERIES 9U&11U",
-     "won": 0,
-     "lost": 0,
-     "standing": "",
-     "points": 0
-    },
-    {
-     "date": "2026-09-05",
-     "name": "CHAIN THEM UP----2026 TOP GUN-USA (TGS) CHAINS AND BAG TAGS",
-     "won": 3,
-     "lost": 1,
-     "standing": "2nd (Gold)",
-     "points": 575
-    },
-    {
-     "date": "2026-09-18",
-     "name": "FRIDAY NIGHT G.O.A.T. SERIES 9U, 11U, & 13U 60/90",
-     "won": 0,
-     "lost": 3,
-     "standing": "4th (Gold)",
-     "points": 325
-    },
-    {
-     "date": "2026-09-26",
-     "name": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "won": 1,
-     "lost": 3,
-     "standing": "2nd (Select)",
-     "points": 0
-    },
-    {
-     "date": "2026-10-09",
-     "name": "FRIDAY NIGHT G.O.A.T. SERIES 9U&11U",
-     "won": 1,
-     "lost": 2,
-     "standing": "",
-     "points": 0
-    }
-   ],
-   "season": "08/01/2026 - 10/16/2026",
-   "stats_fetched": "2026-10-16T11:16"
-  },
-  {
    "team": "Carolina Crushers 9U-Franklin",
    "location": "Reidsville, NC",
    "page_id": 35506,
@@ -11760,12 +11779,12 @@
    "page_id": 34401,
    "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=34401",
    "w": 6,
-   "l": 12,
+   "l": 13,
    "t": 0,
-   "rs": 161,
-   "ra": 206,
-   "diff": -45,
-   "pct": 0.333,
+   "rs": 170,
+   "ra": 219,
+   "diff": -49,
+   "pct": 0.316,
    "events": 5,
    "log": [
     {
@@ -11947,6 +11966,16 @@
      "rs": 5,
      "ra": 12,
      "result": "L"
+    },
+    {
+     "date": "2026-10-18",
+     "event_id": 12521,
+     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "section": "Bronze Bracket",
+     "opponent": "SC Tide - Lucariello",
+     "rs": 9,
+     "ra": 13,
+     "result": "L"
     }
    ],
    "points": 1875,
@@ -11983,6 +12012,15 @@
      "lost": 3,
      "standing": "4th (Gold)",
      "points": 725
+    },
+    {
+     "date": "2026-10-17",
+     "name": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "won": 1,
+     "lost": 3,
+     "standing": "4th (Bronze)",
+     "points": 0,
+     "derived": true
     }
    ],
    "season": "08/01/2026 - 10/16/2026",

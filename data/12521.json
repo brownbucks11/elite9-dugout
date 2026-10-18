@@ -62,7 +62,7 @@
           "team": "BP3 Ruff Ryderz NC 8U",
           "location": "Waxhaw, NC",
           "won": 1,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 32,
           "runs_scored": 25,
           "team_page_id": null
@@ -81,7 +81,7 @@
           "seed": 3,
           "team": "LKN Bolts",
           "location": "Huntersville, NC",
-          "won": 2,
+          "won": 3,
           "lost": 1,
           "runs_allowed": 33,
           "runs_scored": 31,
@@ -263,10 +263,10 @@
             "field": "Westmoreld:Field 4",
             "team_a": "LKN Bolts",
             "seed_a": 4,
-            "score_a": null,
+            "score_a": 19,
             "team_b": "BP3 Ruff Ryderz NC 8U",
             "seed_b": 5,
-            "score_b": null
+            "score_b": 18
           }
         ]
       }
@@ -338,7 +338,7 @@
           "seed": 7,
           "team": "SC Tide - Lucariello",
           "location": "Clover, SC",
-          "won": 0,
+          "won": 1,
           "lost": 3,
           "runs_allowed": 15,
           "runs_scored": 13,
@@ -369,7 +369,7 @@
           "team": "LumberJacks",
           "location": "Gaston County, NC",
           "won": 1,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 27,
           "runs_scored": 24,
           "team_page_id": null
@@ -864,10 +864,10 @@
             "field": "Bradford:Field # 4",
             "team_a": "Loser Game #13 SC Tide - Lucariello",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 13,
             "team_b": "Loser Game #14 LumberJacks",
             "seed_b": null,
-            "score_b": null
+            "score_b": 9
           },
           {
             "game": 5,
@@ -952,7 +952,7 @@
           "team": "Legacy Baseball 10U - RED",
           "location": "Fort Mill, SC",
           "won": 3,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 5,
           "runs_scored": 27,
           "team_page_id": null
@@ -991,7 +991,7 @@
           "seed": 6,
           "team": "Canes Atlantic 10u Wagner",
           "location": "Mooresville, NC",
-          "won": 3,
+          "won": 4,
           "lost": 0,
           "runs_allowed": 4,
           "runs_scored": 28,
@@ -1002,7 +1002,7 @@
           "team": "Hooligans 10U",
           "location": "Belmont, NC",
           "won": 2,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 7,
           "runs_scored": 23,
           "team_page_id": null
@@ -1031,7 +1031,7 @@
           "seed": 10,
           "team": "LKN Kingdom",
           "location": "Charlotte, NC",
-          "won": 1,
+          "won": 2,
           "lost": 2,
           "runs_allowed": 15,
           "runs_scored": 16,
@@ -1237,10 +1237,10 @@
             "field": "Tuckasee:Tuckaseegee 3",
             "team_a": "Loser Game #1 Hooligans 10U",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 17,
             "team_b": "Loser Game #2 LKN Kingdom",
             "seed_b": null,
-            "score_b": null
+            "score_b": 22
           },
           {
             "game": 4,
@@ -1249,10 +1249,10 @@
             "field": "Tuckasee:Tuckaseegee 2",
             "team_a": "Winner Game #1 Legacy Baseball 10U - RED",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 4,
             "team_b": "Winner Game #2 Canes Atlantic 10u Wagner",
             "seed_b": null,
-            "score_b": null
+            "score_b": 12
           }
         ],
         "Silver Bracket": [
@@ -3809,5 +3809,5 @@
   },
   "site_last_updated": "10/15/2026 12:00 PM",
   "tournament_id": 12521,
-  "fetched_at": "2026-10-18T17:34"
+  "fetched_at": "2026-10-18T17:44"
 }
