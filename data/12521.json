@@ -941,7 +941,7 @@
           "seed": 1,
           "team": "Carolina Locos- 10U Blue",
           "location": "Waxhaw, NC",
-          "won": 1,
+          "won": 2,
           "lost": 1,
           "runs_allowed": 20,
           "runs_scored": 10,
@@ -1042,7 +1042,7 @@
           "team": "Copperheads Red",
           "location": "Mooresville, NC",
           "won": 1,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 17,
           "runs_scored": 17,
           "team_page_id": null
@@ -1263,10 +1263,10 @@
             "field": "Tuckasee:Tuckaseegee 3",
             "team_a": "Copperheads Red",
             "seed_a": 6,
-            "score_a": null,
+            "score_a": 5,
             "team_b": "Carolina Locos- 10U Blue",
             "seed_b": 7,
-            "score_b": null
+            "score_b": 8
           },
           {
             "game": 2,
@@ -1285,7 +1285,7 @@
             "day": "Sun",
             "time": "11:00 AM",
             "field": "Tuckasee:Tuckaseegee 3",
-            "team_a": "Loser Game #1",
+            "team_a": "Loser Game #1 Copperheads Red",
             "seed_a": null,
             "score_a": null,
             "team_b": "Loser Game #2 Copperheads Black",
@@ -1297,7 +1297,7 @@
             "day": "Sun",
             "time": "11:00 AM",
             "field": "Tuckasee:Tuckaseegee 2",
-            "team_a": "Winner Game #1",
+            "team_a": "Winner Game #1 Carolina Locos- 10U Blue",
             "seed_a": null,
             "score_a": null,
             "team_b": "Winner Game #2 Union County Aces",
@@ -2552,7 +2552,7 @@
           "team": "Crowns Baseball",
           "location": "Indian Trail, NC",
           "won": 0,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 16,
           "runs_scored": 3,
           "team_page_id": null
@@ -2641,7 +2641,7 @@
           "seed": 15,
           "team": "14U Team Steele Creek Select",
           "location": "Charlotte, NC",
-          "won": 0,
+          "won": 1,
           "lost": 2,
           "runs_allowed": 17,
           "runs_scored": 6,
@@ -3027,10 +3027,10 @@
             "field": "Tega Cay:Field 4",
             "team_a": "Crowns Baseball",
             "seed_a": 14,
-            "score_a": null,
+            "score_a": 2,
             "team_b": "14U Team Steele Creek Select",
             "seed_b": 15,
-            "score_b": null
+            "score_b": 3
           },
           {
             "game": 2,
@@ -3049,7 +3049,7 @@
             "day": "Sun",
             "time": "1:00 PM",
             "field": "Tega Cay:Field 4",
-            "team_a": "Winner Game #1",
+            "team_a": "Winner Game #1 14U Team Steele Creek Select",
             "seed_a": null,
             "score_a": null,
             "team_b": "FS Bulldogs 14u (Helton)",
@@ -3809,5 +3809,5 @@
   },
   "site_last_updated": "10/15/2026 12:00 PM",
   "tournament_id": 12521,
-  "fetched_at": "2026-10-18T11:06"
+  "fetched_at": "2026-10-18T11:17"
 }
