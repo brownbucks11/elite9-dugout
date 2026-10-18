@@ -189,6 +189,16 @@
   .bracket-svg .score { fill: var(--ink-2); font-family: var(--display); font-size: 15px; font-weight: 600; }
   .bracket-svg .score.win { fill: var(--win); }
   .bracket-svg .gnum { fill: var(--ink-2); font-size: 10px; }
+  .bracket-svg .gcap { fill: var(--ink-2); font-size: 10px; }
+  .bracket-svg .gcap.me { fill: var(--link); font-weight: 700; }
+  .nextgame { display: flex; gap: 14px; align-items: stretch; background: var(--me-bg); border: 1px solid var(--amber); border-radius: 8px; padding: 10px 12px; margin: 10px 0 4px; }
+  .ng-when { flex: 0 0 auto; display: flex; flex-direction: column; justify-content: center; padding-right: 14px; border-right: 1px solid var(--amber); }
+  .ng-when b { font-family: var(--display); font-size: 24px; line-height: 1; }
+  .ng-when span { font-size: 11px; letter-spacing: 1px; text-transform: uppercase; color: var(--ink-2); margin-top: 4px; }
+  .ng-body { min-width: 0; }
+  .ng-opp { font-family: var(--display); font-size: 20px; font-weight: 600; line-height: 1.1; }
+  .ng-opp button { background: none; border: 0; padding: 0; font: inherit; color: var(--link); cursor: pointer; }
+  .ng-where { font-size: 14px; margin-top: 3px; }
   .bracket-svg .glabel { fill: var(--ink-2); font-size: 11px; letter-spacing: 1px; text-transform: uppercase; }
   .placings { list-style: none; margin: 0; padding: 8px 12px; border: 1px solid var(--line); border-radius: 6px; background: var(--chalk); display: grid; gap: 6px; flex: 0 0 auto; min-width: 200px; font-size: 14px; }
   .placings li { display: flex; align-items: center; gap: 10px; }
@@ -604,6 +614,26 @@
 
   // One of our games on a Tournaments card: result or time, opponent scouting, schedule changes,
   // and for a bracket slot that isn't decided yet, the teams it could be.
+  function nextGameHtml(e, g) {
+    if (!g) return "";
+    const f = fieldParts(g.field);
+    const opp = g.opponent, tbd = PH.test(opp);
+    let who = tbd ? esc(opp) : teamBtn(opp);
+    if (tbd) {
+      const div = (e.games || []).find((x) => x.section === g.section && x.game === g.game);
+      const side = div && (norm(div.team_a) === ME ? "b" : norm(div.team_b) === ME ? "a" : (PH.test(div.team_a) ? "a" : "b"));
+      const ref = div && div["from_" + side];
+      const src = ref && (e.games || []).find((x) => x.section === g.section && x.game === ref.game);
+      const cands = src ? [src.team_a, src.team_b].filter((n) => n && !PH.test(n)) : [];
+      if (cands.length) who = `${ref.type === "winner" ? "winner" : "loser"} of ${cands.map((n) => teamBtn(n)).join(" / ")}`;
+    }
+    return `<div class="nextgame">
+      <div class="ng-when"><b>${esc(g.day)} ${esc(g.time)}</b><span>${esc(g.section)} G${g.game}</span></div>
+      <div class="ng-body"><div class="ng-opp">vs ${who}</div>
+        <div class="ng-where">${f.name ? esc(f.name) : esc(g.field || "")}${f.sub ? " · " + esc(f.sub) : ""}${f.address ? ` · <a href="${mapsUrl(f.address)}" target="_blank" rel="noopener">Map ↗</a>` : ""}</div>
+        ${!tbd && oppInfo(opp) ? `<div class="when scout">${esc(oppInfo(opp))}</div>` : ""}</div></div>`;
+  }
+
   function ourGameRow(e, g, changes, nextKey) {
     const c = (changes || []).find((x) => x.key === gameKey(g));
     const was = c && c.kind === "changed" ? Object.entries(c.was).map(([k, v]) => k === "field" ? fieldParts(v).name + (fieldParts(v).sub ? " · " + fieldParts(v).sub : "") : v).join(" · ") : "";
@@ -666,7 +696,7 @@
           tag = stag("live");
           const nextKey = e.next_game ? gameKey(e.next_game) : null;
           const games = sortGames(e.mine || []);
-          body = `<div class="event-body"><p class="pointer">Game day — brackets, standings and box scores are on <button type="button" class="linkish" data-goto="results" data-event="${e.id}">Results</button>. Our games so far:</p>
+          body = `<div class="event-body">${nextGameHtml(e, e.next_game)}<p class="pointer">Game day — brackets, standings and box scores are on <button type="button" class="linkish" data-goto="results" data-event="${e.id}">Results</button>. Our games:</p>
             <ul class="games">${games.map((g) => ourGameRow(e, g, e.changes, nextKey)).join("")}</ul></div>`;
         } else if (!e.posted) {
           body = `<p class="empty">Schedule not posted yet — Top Gun usually posts during the week, then changes it a few times before game day.</p>`;
@@ -755,6 +785,14 @@
     games.forEach((g) => ["a", "b"].forEach((side) => { const n = g["team_" + side], sd = g["seed_" + side]; if (sd && !PH.test(n)) seedOf.set(norm(n), sd); }));
     const gamePos = new Map();
     if (!tree) games.slice().sort((a, b) => a.game - b.game).forEach((g, i) => gamePos.set(g.game, 2 * i + 1));
+    // a slot that reads "Winner Game #1" is known once game 1 is decided
+    const resolveSlot = (g, side) => {
+      const name = g["team_" + side], f = g["from_" + side];
+      if (!PH.test(name || "") || !f || !byNum.has(f.game)) return name;
+      const src = byNum.get(f.game);
+      const w = winnerOf(src), l = loserOf(src);
+      return (f.type === "winner" ? w : l) || `${f.type === "winner" ? "Winner" : "Loser"} of G${f.game}`;
+    };
     const nameText = (x, y, name, cls, anchor = "start") => {
       if (PH.test(name || "")) return `<text x="${x}" y="${y}" class="tname tbd" text-anchor="${anchor}">${esc(name)}</text>`;
       const v = vsInfo(name);
@@ -765,7 +803,7 @@
     const vsTag = (name) => { const v = vsInfo(name); return v ? `<img class="vs-icon" src="logo.png" alt="played ${esc(D.team)}" title="${esc(v.tip)}">` : ""; };
 
     // Classic printed bracket: each team on a line, lines joined game to game, the winner's line runs right.
-    const L = 200, GAP = 30, S = 34, GG = 22, LEFT = 6;
+    const L = 200, GAP = 30, S = 34, GG = 30, LEFT = 6;
     const out = [];
     let maxY = 0;
     const drawBracket = (list, top, leafName, endLabel) => {
@@ -784,12 +822,20 @@
             out.push(`<line x1="${x}" y1="${y}" x2="${x + L}" y2="${y}"/>`);
             const nm = leafName(g, side);
             const seed = g["seed_" + side] || seedOf.get(norm(nm));
+            if (side === "b") {   // caption under the game: when and where (our game stands out)
+              const f = fieldParts(g.field), ours = [g.team_a, g.team_b].some((n) => norm(n) === ME);
+              out.push(`<text x="${x + 2}" y="${y + 12}" class="gcap ${ours ? "me" : ""}">${esc(g.day)} ${esc(g.time)}${f.abbr ? " · " + esc(f.name && f.name.length < 22 ? f.name : f.abbr) + (f.sub ? " " + esc(f.sub) : "") : ""}</text>`);
+            }
             out.push(nameText(x + 2 + (seed ? 22 : 0), y - 5, nm, winnerSide(g) === side ? "win" : played(g) ? "lose" : ""));
             if (seed) out.push(`<text x="${x + 2}" y="${y - 5}" class="seed">#${seed}</text>`);
             return y;
           });
           ["a", "b"].forEach((side, i) => { if (played(g)) out.push(`<text x="${x + L - 3}" y="${ys[i] - 5}" class="score ${winnerSide(g) === side ? "win" : ""}" text-anchor="end">${g["score_" + side]}</text>`); });
           const mid = (ys[0] + ys[1]) / 2;
+          if (ri > 0) {   // later-round game: caption under its lower slot line (first-round games got theirs with the leaf)
+            const f = fieldParts(g.field), ours = [g.team_a, g.team_b].some((n) => norm(n) === ME || norm(resolveSlot(g, n === g.team_a ? "a" : "b")) === ME);
+            out.push(`<text x="${x + 2}" y="${ys[1] + 12}" class="gcap ${ours ? "me" : ""}">${esc(g.day)} ${esc(g.time)}${f.abbr ? " · " + esc(f.name && f.name.length < 22 ? f.name : f.abbr) + (f.sub ? " " + esc(f.sub) : "") : ""}</text>`);
+          }
           out.push(`<line x1="${x + L}" y1="${ys[0]}" x2="${x + L}" y2="${ys[1]}"/>`);
           const isLast = ri === rs.length - 1;
           const nx = x + L + GAP, nl = isLast ? L - 20 : L;
@@ -802,23 +848,19 @@
           }
           if (isLast) out.push(`<text x="${nx + 2}" y="${mid + 14}" class="glabel">${esc(endLabel(g))}</text>`);
           outY.set(g.game, mid);
-          maxY = Math.max(maxY, ys[1], mid + 16);
+          maxY = Math.max(maxY, ys[1] + 16, mid + 16);   // room for the caption under the lower line
         });
       });
       return { width: LEFT + rs.length * (L + GAP) + L, rounds: rs.length };
     };
 
     const winners = games.filter((g) => !consolation(g)), consols = games.filter(consolation);
-    const wb = drawBracket(winners, 26, (g, side) => g["team_" + side], (g) => placeLabel(tree ? 1 : gamePos.get(g.game)));
+    const wb = drawBracket(winners, 26, (g, side) => resolveSlot(g, side), (g) => placeLabel(tree ? 1 : gamePos.get(g.game)));
     let cb = { width: 0 };
     if (consols.length) {
       const top = maxY + 56;
       out.push(`<text x="${LEFT}" y="${top - 26}" class="glabel">Consolation</text>`);
-      cb = drawBracket(consols, top, (g, side) => {
-        const f = g["from_" + side];
-        const src = f && byNum.get(f.game);
-        return (src && loserOf(src)) || g["team_" + side] || `Loser of G${f && f.game}`;
-      }, () => placeLabel(3));
+      cb = drawBracket(consols, top, (g, side) => resolveSlot(g, side), () => placeLabel(3));
     }
     const W = Math.max(wb.width, cb.width) + 40, H = maxY + 8;
 
@@ -946,6 +988,7 @@
             ${finish}
           </summary>
           ${e.state === "live" ? noticesHtml(e.tgs) : ""}
+          ${e.state === "live" && e.next_game ? `<div class="event-body" style="padding-bottom:0">${nextGameHtml(e, e.next_game)}</div>` : ""}
           <div class="event-body"><ul class="games">${games.map((g) => `<li class="game ${g.result === "W" ? "won" : ""} ${nextKey && gameKey(g) === nextKey ? "next" : ""}">
               ${g.result && g.gc_id ? `<button type="button" class="pill ${g.result} pill-link" data-goto="stats" data-box="${esc(g.gc_id)}" title="Box score">${g.result}</button>` : `<div class="pill ${g.result || "time"}">${g.result || esc(g.day)}</div>`}
               <div><div class="opp">${/^(winner|loser|seed)/i.test(g.opponent) ? esc(g.opponent) : teamBtn(g.opponent)}${nextKey && gameKey(g) === nextKey ? '<span class="chg-pill next">next</span>' : ""}</div>

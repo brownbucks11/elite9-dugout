@@ -78,6 +78,7 @@ def load_events(data_dir, division, since, year):
                     "team_a": team_a, "seed_a": g["seed_a"], "score_a": g["score_a"], "from_a": from_a,
                     "team_b": team_b, "seed_b": g["seed_b"], "score_b": g["score_b"], "from_b": from_b,
                 })
+        normalize_refs(games)
         events[tid] = {
             "id": tid, "name": p.get("name", ""), "dates": p.get("dates", ""), "date": start,
             "url": SCHEDULE_URL.format(id=tid), "notes": div.get("notes", []),
@@ -89,6 +90,29 @@ def load_events(data_dir, division, since, year):
 
 def is_placeholder(name):
     return (name or "").lower().startswith(PLACEHOLDER)
+
+
+def normalize_refs(games):
+    """Top Gun's 'Winner Game #19' references use one numbering across all of an event's brackets,
+    while each bracket's Game column restarts at 1. Brackets are self-contained, so inside a
+    section the smallest referenced number is its game 1: shift every reference by that offset."""
+    by_section = defaultdict(list)
+    for g in games:
+        by_section[g["section"]].append(g)
+    for section, gl in by_section.items():
+        local = {g["game"] for g in gl}
+        refs = [r["game"] for g in gl for r in (g["from_a"], g["from_b"]) if r]
+        if not refs:
+            continue
+        offset = min(refs) - 1
+        if offset <= 0 or all(r in local for r in refs):
+            continue
+        for g in gl:
+            for side in ("from_a", "from_b"):
+                r = g[side]
+                if r and r["game"] - offset in local:
+                    r["global"] = r["game"]
+                    r["game"] = r["game"] - offset
 
 
 def split_ref(name):
