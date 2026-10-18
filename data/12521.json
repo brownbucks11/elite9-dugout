@@ -2512,7 +2512,7 @@
           "team": "NWNC Elite Gold",
           "location": "North Wilkesboro, NC",
           "won": 2,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 0,
           "runs_scored": 15,
           "team_page_id": null
@@ -2581,7 +2581,7 @@
           "seed": 9,
           "team": "GBC Wyrick",
           "location": "Greensboro, NC",
-          "won": 2,
+          "won": 3,
           "lost": 0,
           "runs_allowed": 2,
           "runs_scored": 10,
@@ -2939,10 +2939,10 @@
             "field": "FDP:Field #3",
             "team_a": "NWNC Elite Gold",
             "seed_a": 2,
-            "score_a": null,
+            "score_a": 3,
             "team_b": "GBC Wyrick",
             "seed_b": 3,
-            "score_b": null
+            "score_b": 5
           },
           {
             "game": 3,
@@ -2961,7 +2961,7 @@
             "day": "Sun",
             "time": "3:00 PM",
             "field": "FDP:Field #3",
-            "team_a": "Winner Game #2",
+            "team_a": "Winner Game #2 GBC Wyrick",
             "seed_a": null,
             "score_a": null,
             "team_b": "Winner Game #3",
@@ -3592,7 +3592,7 @@
           "seed": 5,
           "team": "P413 Buchanan",
           "location": "ADVANCE, NC",
-          "won": 0,
+          "won": 1,
           "lost": 2,
           "runs_allowed": 13,
           "runs_scored": 8,
@@ -3603,7 +3603,7 @@
           "team": "Startown Elite",
           "location": "Newton, NC",
           "won": 1,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 17,
           "runs_scored": 6,
           "team_page_id": null
@@ -3798,10 +3798,10 @@
             "field": "CA:Field #1",
             "team_a": "Winner Game #1 Startown Elite",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 0,
             "team_b": "P413 Buchanan",
             "seed_b": 6,
-            "score_b": null
+            "score_b": 12
           }
         ]
       }
@@ -3809,5 +3809,5 @@
   },
   "site_last_updated": "10/15/2026 12:00 PM",
   "tournament_id": 12521,
-  "fetched_at": "2026-10-18T12:19"
+  "fetched_at": "2026-10-18T12:30"
 }
