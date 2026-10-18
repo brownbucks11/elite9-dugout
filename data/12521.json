@@ -2248,7 +2248,7 @@
           "seed": 1,
           "team": "SC Tide - Daly",
           "location": "Clover, SC",
-          "won": 0,
+          "won": 1,
           "lost": 1,
           "runs_allowed": 12,
           "runs_scored": 3,
@@ -2258,7 +2258,7 @@
           "seed": 2,
           "team": "Lone Star Hippos",
           "location": "Gastonia, NC",
-          "won": 2,
+          "won": 3,
           "lost": 0,
           "runs_allowed": 19,
           "runs_scored": 34,
@@ -2289,7 +2289,7 @@
           "team": "GF Sandlot 12U Church",
           "location": "Granite Falls, NC",
           "won": 0,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 26,
           "runs_scored": 6,
           "team_page_id": null
@@ -2299,7 +2299,7 @@
           "team": "Armor Elite",
           "location": "Denver, NC",
           "won": 1,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 21,
           "runs_scored": 8,
           "team_page_id": null
@@ -2410,10 +2410,10 @@
             "field": "TOB:Field 1",
             "team_a": "Lone Star Hippos",
             "seed_a": 2,
-            "score_a": null,
+            "score_a": 16,
             "team_b": "Armor Elite",
             "seed_b": 3,
-            "score_b": null
+            "score_b": 0
           },
           {
             "game": 2,
@@ -2432,7 +2432,7 @@
             "day": "Sun",
             "time": "2:30 PM",
             "field": "TOB:Field 1",
-            "team_a": "Loser Game #1",
+            "team_a": "Loser Game #1 Armor Elite",
             "seed_a": null,
             "score_a": null,
             "team_b": "Loser Game #2",
@@ -2444,7 +2444,7 @@
             "day": "Sun",
             "time": "12:30 PM",
             "field": "TOB:Field 1",
-            "team_a": "Winner Game #1",
+            "team_a": "Winner Game #1 Lone Star Hippos",
             "seed_a": null,
             "score_a": null,
             "team_b": "Winner Game #2",
@@ -2460,10 +2460,10 @@
             "field": "Core:Hinson Core Field",
             "team_a": "SC Tide - Daly",
             "seed_a": 6,
-            "score_a": null,
+            "score_a": 9,
             "team_b": "GF Sandlot 12U Church",
             "seed_b": 7,
-            "score_b": null
+            "score_b": 0
           },
           {
             "game": 2,
@@ -3809,5 +3809,5 @@
   },
   "site_last_updated": "10/15/2026 12:00 PM",
   "tournament_id": 12521,
-  "fetched_at": "2026-10-18T09:53"
+  "fetched_at": "2026-10-18T10:04"
 }
