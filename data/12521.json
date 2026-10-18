@@ -288,7 +288,7 @@
           "seed": 2,
           "team": "ROCO Dirtbagz",
           "location": "Forest City, NC",
-          "won": 1,
+          "won": 2,
           "lost": 1,
           "runs_allowed": 16,
           "runs_scored": 14,
@@ -339,7 +339,7 @@
           "team": "SC Tide - Lucariello",
           "location": "Clover, SC",
           "won": 0,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 15,
           "runs_scored": 13,
           "team_page_id": null
@@ -398,7 +398,7 @@
           "seed": 13,
           "team": "LKN Kingdom",
           "location": "Charlotte, NC",
-          "won": 0,
+          "won": 1,
           "lost": 2,
           "runs_allowed": 29,
           "runs_scored": 12,
@@ -409,7 +409,7 @@
           "team": "Carolina Icons",
           "location": "Stanfield, NC",
           "won": 1,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 15,
           "runs_scored": 17,
           "team_page_id": null
@@ -429,7 +429,7 @@
           "team": "Carolina Royals 9Uw",
           "location": "Gastonia, NC",
           "won": 0,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 43,
           "runs_scored": 7,
           "team_page_id": null
@@ -448,7 +448,7 @@
           "seed": 18,
           "team": "ELITE BASEBALL EBC 9U",
           "location": "FOREST CITY, NC",
-          "won": 0,
+          "won": 1,
           "lost": 2,
           "runs_allowed": 26,
           "runs_scored": 5,
@@ -766,10 +766,10 @@
             "field": "Bradford:Field # 2",
             "team_a": "Carolina Icons",
             "seed_a": 9,
-            "score_a": null,
+            "score_a": 10,
             "team_b": "ROCO Dirtbagz",
             "seed_b": 10,
-            "score_b": null
+            "score_b": 18
           },
           {
             "game": 2,
@@ -788,7 +788,7 @@
             "day": "Sun",
             "time": "1:00 PM",
             "field": "Bradford:Field # 2",
-            "team_a": "Winner Game #7",
+            "team_a": "Winner Game #7 ROCO Dirtbagz",
             "seed_a": null,
             "score_a": null,
             "team_b": "Team 24",
@@ -800,7 +800,7 @@
             "day": "Sun",
             "time": "1:00 PM",
             "field": "Bradford:Field # 4",
-            "team_a": "Loser Game #7",
+            "team_a": "Loser Game #7 Carolina Icons",
             "seed_a": null,
             "score_a": null,
             "team_b": "Loser Game #8",
@@ -828,10 +828,10 @@
             "field": "Bradford:Field # 3",
             "team_a": "SC Tide - Lucariello",
             "seed_a": 14,
-            "score_a": null,
+            "score_a": 2,
             "team_b": "ELITE BASEBALL EBC 9U",
             "seed_b": 15,
-            "score_b": null
+            "score_b": 15
           },
           {
             "game": 2,
@@ -850,7 +850,7 @@
             "day": "Sun",
             "time": "1:00 PM",
             "field": "Bradford:Field # 3",
-            "team_a": "Winner Game #13",
+            "team_a": "Winner Game #13 ELITE BASEBALL EBC 9U",
             "seed_a": null,
             "score_a": null,
             "team_b": "Weddington Wreckers",
@@ -862,7 +862,7 @@
             "day": "Sun",
             "time": "3:00 PM",
             "field": "Bradford:Field # 4",
-            "team_a": "Loser Game #13",
+            "team_a": "Loser Game #13 SC Tide - Lucariello",
             "seed_a": null,
             "score_a": null,
             "team_b": "Loser Game #14",
@@ -902,10 +902,10 @@
             "field": "Westmoreld:Field 3",
             "team_a": "LKN Kingdom",
             "seed_a": 16,
-            "score_a": null,
+            "score_a": 16,
             "team_b": "Carolina Royals 9Uw",
             "seed_b": 19,
-            "score_b": null
+            "score_b": 4
           },
           {
             "game": 3,
@@ -915,7 +915,7 @@
             "team_a": "Loser Game #19",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Loser Game #20",
+            "team_b": "Loser Game #20 Carolina Royals 9Uw",
             "seed_b": null,
             "score_b": null
           },
@@ -927,7 +927,7 @@
             "team_a": "Winner Game #19",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Winner Game #20",
+            "team_b": "Winner Game #20 LKN Kingdom",
             "seed_b": null,
             "score_b": null
           }
@@ -2592,7 +2592,7 @@
           "team": "Banana Peppers Baseball",
           "location": "Gastonia, NC",
           "won": 0,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 18,
           "runs_scored": 4,
           "team_page_id": null
@@ -2601,7 +2601,7 @@
           "seed": 11,
           "team": "Red Clay Athletics 14U Kelly",
           "location": "Huntersville, NC",
-          "won": 0,
+          "won": 1,
           "lost": 2,
           "runs_allowed": 24,
           "runs_scored": 1,
@@ -2622,7 +2622,7 @@
           "team": "Toxic NC",
           "location": "Startown, NC",
           "won": 0,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 21,
           "runs_scored": 7,
           "team_page_id": null
@@ -2651,7 +2651,7 @@
           "seed": 16,
           "team": "Waxhaw Militia 14U",
           "location": "Waxhaw, NC",
-          "won": 0,
+          "won": 1,
           "lost": 2,
           "runs_allowed": 19,
           "runs_scored": 6,
@@ -3077,10 +3077,10 @@
             "field": "FDP:Field #2",
             "team_a": "Banana Peppers Baseball",
             "seed_a": 16,
-            "score_a": null,
+            "score_a": 1,
             "team_b": "Red Clay Athletics 14U Kelly",
             "seed_b": 19,
-            "score_b": null
+            "score_b": 11
           },
           {
             "game": 2,
@@ -3089,20 +3089,20 @@
             "field": "FDP:Field #1",
             "team_a": "Waxhaw Militia 14U",
             "seed_a": 17,
-            "score_a": null,
+            "score_a": 9,
             "team_b": "Toxic NC",
             "seed_b": 18,
-            "score_b": null
+            "score_b": 1
           },
           {
             "game": 3,
             "day": "Sun",
             "time": "11:00 AM",
             "field": "FDP:Field #2",
-            "team_a": "Winner Game #1",
+            "team_a": "Winner Game #1 Red Clay Athletics 14U Kelly",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Winner Game #2",
+            "team_b": "Winner Game #2 Waxhaw Militia 14U",
             "seed_b": null,
             "score_b": null
           }
@@ -3348,7 +3348,7 @@
           "team": "Waxhaw Heat",
           "location": "Waxhaw, NC",
           "won": 0,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 12,
           "runs_scored": 11,
           "team_page_id": null
@@ -3377,7 +3377,7 @@
           "seed": 4,
           "team": "Triad Cardinals 16u",
           "location": "Stokesdale, NC",
-          "won": 0,
+          "won": 1,
           "lost": 1,
           "runs_allowed": 25,
           "runs_scored": 20,
@@ -3487,10 +3487,10 @@
             "field": "Tuckasee:Tuckaseegee 1",
             "team_a": "Waxhaw Heat",
             "seed_a": 4,
-            "score_a": null,
+            "score_a": 1,
             "team_b": "Triad Cardinals 16u",
             "seed_b": 5,
-            "score_b": null
+            "score_b": 10
           },
           {
             "game": 2,
@@ -3509,7 +3509,7 @@
             "day": "Sun",
             "time": "1:00 PM",
             "field": "Tuckasee:Tuckaseegee 1",
-            "team_a": "Winner Game #1",
+            "team_a": "Winner Game #1 Triad Cardinals 16u",
             "seed_a": null,
             "score_a": null,
             "team_b": "Carolina Elevate",
@@ -3572,7 +3572,7 @@
           "seed": 3,
           "team": "MARA SELECT",
           "location": "Matthews, NC",
-          "won": 1,
+          "won": 2,
           "lost": 1,
           "runs_allowed": 10,
           "runs_scored": 15,
@@ -3613,7 +3613,7 @@
           "team": "WNC Phantom Elite",
           "location": "Taylorsville, NC",
           "won": 1,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 13,
           "runs_scored": 9,
           "team_page_id": null
@@ -3736,10 +3736,10 @@
             "field": "BFF:Field 1",
             "team_a": "MARA SELECT",
             "seed_a": 4,
-            "score_a": null,
+            "score_a": 6,
             "team_b": "WNC Phantom Elite",
             "seed_b": 5,
-            "score_b": null
+            "score_b": 3
           },
           {
             "game": 2,
@@ -3758,7 +3758,7 @@
             "day": "Sun",
             "time": "1:00 PM",
             "field": "BFF:Field 1",
-            "team_a": "Winner Game #1",
+            "team_a": "Winner Game #1 MARA SELECT",
             "seed_a": null,
             "score_a": null,
             "team_b": "KLSC Prime",
@@ -3809,5 +3809,5 @@
   },
   "site_last_updated": "10/15/2026 12:00 PM",
   "tournament_id": 12521,
-  "fetched_at": "2026-10-18T10:35"
+  "fetched_at": "2026-10-18T10:45"
 }
