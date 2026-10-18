@@ -72,7 +72,7 @@
           "team": "Red Clay Athletics 8U Beeker",
           "location": "Huntersville, NC",
           "won": 2,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 26,
           "runs_scored": 35,
           "team_page_id": null
@@ -111,7 +111,7 @@
           "seed": 6,
           "team": "Dirtbags - Clark 8U",
           "location": "Hickory, NC",
-          "won": 1,
+          "won": 2,
           "lost": 1,
           "runs_allowed": 29,
           "runs_scored": 28,
@@ -201,10 +201,10 @@
             "field": "Westmoreld:Field 4",
             "team_a": "Red Clay Athletics 8U Beeker",
             "seed_a": 2,
-            "score_a": null,
+            "score_a": 11,
             "team_b": "Dirtbags - Clark 8U",
             "seed_b": 3,
-            "score_b": null
+            "score_b": 19
           },
           {
             "game": 2,
@@ -349,7 +349,7 @@
           "team": "Diamond Crushers",
           "location": "Concord, NC",
           "won": 2,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 14,
           "runs_scored": 25,
           "team_page_id": null
@@ -358,7 +358,7 @@
           "seed": 9,
           "team": "NL Destroyers 2036",
           "location": "Denver, NC",
-          "won": 2,
+          "won": 3,
           "lost": 0,
           "runs_allowed": 12,
           "runs_scored": 16,
@@ -704,10 +704,10 @@
             "field": "Bradford:Field # 1",
             "team_a": "NL Destroyers 2036",
             "seed_a": 4,
-            "score_a": null,
+            "score_a": 16,
             "team_b": "Diamond Crushers",
             "seed_b": 5,
-            "score_b": null
+            "score_b": 6
           },
           {
             "game": 2,
@@ -726,7 +726,7 @@
             "day": "Sun",
             "time": "1:00 PM",
             "field": "Bradford:Field # 1",
-            "team_a": "Winner Game #1",
+            "team_a": "Winner Game #1 NL Destroyers 2036",
             "seed_a": null,
             "score_a": null,
             "team_b": "Mountain Rage",
@@ -738,7 +738,7 @@
             "day": "Sun",
             "time": "1:00 PM",
             "field": "Bradford:Field # 5",
-            "team_a": "Loser Game #1",
+            "team_a": "Loser Game #1 Diamond Crushers",
             "seed_a": null,
             "score_a": null,
             "team_b": "Loser Game #2",
@@ -1365,7 +1365,7 @@
           "team": "LKN Bolts",
           "location": "Huntersville, NC",
           "won": 1,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 20,
           "runs_scored": 17,
           "team_page_id": null
@@ -1384,7 +1384,7 @@
           "seed": 3,
           "team": "Copperheads Red",
           "location": "Denver, NC",
-          "won": 1,
+          "won": 2,
           "lost": 1,
           "runs_allowed": 18,
           "runs_scored": 26,
@@ -1435,7 +1435,7 @@
           "team": "Orange County Crushers - Orange",
           "location": "Chapel Hill, NC",
           "won": 1,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 12,
           "runs_scored": 23,
           "team_page_id": null
@@ -1484,7 +1484,7 @@
           "seed": 13,
           "team": "Riptide 11u-Blue",
           "location": "Durham, NC",
-          "won": 1,
+          "won": 2,
           "lost": 1,
           "runs_allowed": 21,
           "runs_scored": 30,
@@ -1732,10 +1732,10 @@
             "field": "M. Rivers:Martha Rivers 2",
             "team_a": "Copperheads Red",
             "seed_a": 7,
-            "score_a": null,
+            "score_a": 10,
             "team_b": "LKN Bolts",
             "seed_b": 8,
-            "score_b": null
+            "score_b": 1
           },
           {
             "game": 2,
@@ -1744,20 +1744,20 @@
             "field": "M. Rivers:Martha Rivers 3",
             "team_a": "Orange County Crushers - Orange",
             "seed_a": 6,
-            "score_a": null,
+            "score_a": 4,
             "team_b": "Riptide 11u-Blue",
             "seed_b": 9,
-            "score_b": null
+            "score_b": 17
           },
           {
             "game": 3,
             "day": "Sun",
             "time": "11:00 AM",
             "field": "M. Rivers:Martha Rivers 2",
-            "team_a": "Loser Game #7",
+            "team_a": "Loser Game #7 LKN Bolts",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Loser Game #8",
+            "team_b": "Loser Game #8 Orange County Crushers - Orange",
             "seed_b": null,
             "score_b": null
           },
@@ -1766,10 +1766,10 @@
             "day": "Sun",
             "time": "11:00 AM",
             "field": "M. Rivers:Martha Rivers 3",
-            "team_a": "Winner Game #7",
+            "team_a": "Winner Game #7 Copperheads Red",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Winner Game #8",
+            "team_b": "Winner Game #8 Riptide 11u-Blue",
             "seed_b": null,
             "score_b": null
           }
@@ -1894,7 +1894,7 @@
           "team": "Carolina Locos-Black",
           "location": "Waxhaw, NC",
           "won": 0,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 17,
           "runs_scored": 9,
           "team_page_id": null
@@ -1933,7 +1933,7 @@
           "seed": 5,
           "team": "LKN Kingdom",
           "location": "Charlotte, NC",
-          "won": 0,
+          "won": 1,
           "lost": 2,
           "runs_allowed": 30,
           "runs_scored": 4,
@@ -2195,10 +2195,10 @@
             "field": "SP:Field #1",
             "team_a": "Carolina Locos-Black",
             "seed_a": 8,
-            "score_a": null,
+            "score_a": 1,
             "team_b": "LKN Kingdom",
             "seed_b": 9,
-            "score_b": null
+            "score_b": 9
           },
           {
             "game": 2,
@@ -2217,7 +2217,7 @@
             "day": "Sun",
             "time": "11:00 AM",
             "field": "SP:Field #1",
-            "team_a": "Loser Game #1",
+            "team_a": "Loser Game #1 Carolina Locos-Black",
             "seed_a": null,
             "score_a": null,
             "team_b": "Loser Game #2",
@@ -2229,7 +2229,7 @@
             "day": "Sun",
             "time": "11:00 AM",
             "field": "SP:Field #3",
-            "team_a": "Winner Game #1",
+            "team_a": "Winner Game #1 LKN Kingdom",
             "seed_a": null,
             "score_a": null,
             "team_b": "Winner Game #2",
@@ -3809,5 +3809,5 @@
   },
   "site_last_updated": "10/15/2026 12:00 PM",
   "tournament_id": 12521,
-  "fetched_at": "2026-10-18T10:25"
+  "fetched_at": "2026-10-18T10:35"
 }

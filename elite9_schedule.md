@@ -1,5 +1,5 @@
 # Elite 9 - Top Gun schedule
-_Updated Sun Oct 18, 2026 10:25 AM_
+_Updated Sun Oct 18, 2026 10:35 AM_
 
 ## SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND
 September 26 - 27 in Greater Charlotte Area, NC  
@@ -110,8 +110,8 @@ Tournament 12521 - [schedule page](https://playtopgunsports.com/GameTimesResults
 | 5 | Team 24 | York, SC | 1-0 | 34 | 9 |
 | 6 | Union County Legends | Waxhaw, NC | 1-0 | 27 | 16 |
 | 7 | SC Tide - Lucariello | Clover, SC | 0-2 | 13 | 15 |
-| 8 | Diamond Crushers | Concord, NC | 2-0 | 25 | 14 |
-| 9 | NL Destroyers 2036 | Denver, NC | 2-0 | 16 | 12 |
+| 8 | Diamond Crushers | Concord, NC | 2-1 | 25 | 14 |
+| 9 | NL Destroyers 2036 | Denver, NC | 3-0 | 16 | 12 |
 | 10 | LumberJacks | Gaston County, NC | 1-1 | 24 | 27 |
 | 11 | Weddington Wreckers | Weddington, NC | 1-1 | 32 | 19 |
 | 12 | Mountain Rage | Mars Hill, NC | 2-0 | 28 | 4 |
@@ -127,10 +127,10 @@ Tournament 12521 - [schedule page](https://playtopgunsports.com/GameTimesResults
 
 | G | When | Field | Team A | Team B |
 |---|---|---|---|---|
-| 1 | Sun 9:00 AM | Bradford:Field # 1 | (#4) NL Destroyers 2036 | (#5) Diamond Crushers |
+| 1 | Sun 9:00 AM | Bradford:Field # 1 | (#4) NL Destroyers 2036 16 | (#5) Diamond Crushers 6 |
 | 2 | Sun 11:00 AM | Bradford:Field # 1 | (#2) LKN Bolts | (#3) Union County Aces 9u |
-| 3 | Sun 1:00 PM | Bradford:Field # 1 | Winner Game #1 | (#1) Mountain Rage |
-| 4 | Sun 1:00 PM | Bradford:Field # 5 | Loser Game #1 | Loser Game #2 |
+| 3 | Sun 1:00 PM | Bradford:Field # 1 | Winner Game #1 NL Destroyers 2036 | (#1) Mountain Rage |
+| 4 | Sun 1:00 PM | Bradford:Field # 5 | Loser Game #1 Diamond Crushers | Loser Game #2 |
 | 5 | Sun 3:00 PM | Bradford:Field # 1 | Winner Game #3 | Winner Game #2 |
 
 **Silver Bracket**
