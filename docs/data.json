@@ -3,7 +3,7 @@
  "location": "Rock Hill, SC",
  "page_id": 31407,
  "team_url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=31407",
- "built": "Sun Oct 18, 2026 03:18 PM",
+ "built": "Sun Oct 18, 2026 03:29 PM",
  "record": {
   "w": 4,
   "l": 9,
@@ -2607,7 +2607,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-18T15:18",
+    "fetched_at": "2026-10-18T15:28",
     "url": "https://topgunstats.com/whos-playing/12521"
    },
    "next_game": null,
@@ -2832,7 +2832,7 @@
      "pool_ra": 16,
      "seed": 7,
      "bracket": "Silver Bracket",
-     "won": 1,
+     "won": 2,
      "lost": 1,
      "rs": 27,
      "ra": 16
@@ -2885,7 +2885,7 @@
      "seed": 9,
      "bracket": "Silver Bracket",
      "won": 1,
-     "lost": 2,
+     "lost": 3,
      "rs": 17,
      "ra": 15
     },
@@ -3611,7 +3611,7 @@
      "field": "Bradford:Field # 4",
      "team_a": "Carolina Icons",
      "seed_a": null,
-     "score_a": null,
+     "score_a": 7,
      "from_a": {
       "type": "loser",
       "game": 1,
@@ -3619,7 +3619,7 @@
      },
      "team_b": "Union County Legends",
      "seed_b": null,
-     "score_b": null,
+     "score_b": 10,
      "from_b": {
       "type": "loser",
       "game": 2,
@@ -5702,7 +5702,7 @@
      "entered_at": "2026-10-08T16:26:44.913Z",
      "level": "AA"
     },
-    "fetched_at": "2026-10-18T15:18"
+    "fetched_at": "2026-10-18T15:28"
    },
    "tgs": {
     "weather": null,
@@ -5828,7 +5828,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-18T15:18",
+    "fetched_at": "2026-10-18T15:28",
     "url": "https://topgunstats.com/whos-playing/12521"
    },
    "name": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
@@ -6297,7 +6297,7 @@
      "field": "Bradford:Field # 4",
      "team_a": "Carolina Icons",
      "seed_a": null,
-     "score_a": null,
+     "score_a": 7,
      "from_a": {
       "type": "loser",
       "game": 1,
@@ -6305,7 +6305,7 @@
      },
      "team_b": "Union County Legends",
      "seed_b": null,
-     "score_b": null,
+     "score_b": 10,
      "from_b": {
       "type": "loser",
       "game": 2,
@@ -6572,7 +6572,7 @@
      "seed": 6,
      "team": "Union County Legends",
      "location": "Waxhaw, NC",
-     "won": 1,
+     "won": 2,
      "lost": 1,
      "runs_allowed": 16,
      "runs_scored": 27,
@@ -6653,7 +6653,7 @@
      "team": "Carolina Icons",
      "location": "Stanfield, NC",
      "won": 1,
-     "lost": 2,
+     "lost": 3,
      "runs_allowed": 15,
      "runs_scored": 17,
      "team_page_id": null
@@ -6797,7 +6797,7 @@
     "team": {
      "entered": false
     },
-    "fetched_at": "2026-10-18T15:18"
+    "fetched_at": "2026-10-18T15:28"
    },
    "tgs": {
     "weather": {
@@ -6886,7 +6886,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-18T15:18",
+    "fetched_at": "2026-10-18T15:28",
     "url": "https://topgunstats.com/whos-playing/12522"
    },
    "name": "Southeastern Winter World Series",
@@ -6918,7 +6918,7 @@
     "team": {
      "entered": false
     },
-    "fetched_at": "2026-10-18T15:18"
+    "fetched_at": "2026-10-18T15:28"
    },
    "tgs": {
     "weather": null,
@@ -6972,7 +6972,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-18T15:18",
+    "fetched_at": "2026-10-18T15:28",
     "url": "https://topgunstats.com/whos-playing/12524"
    },
    "name": "Road Runner vs Coyote ring weekend",
@@ -10775,6 +10775,126 @@
    "stats_fetched": "2026-10-16T11:18"
   },
   {
+   "team": "Union County Legends",
+   "location": "Waxhaw, NC",
+   "page_id": null,
+   "url": null,
+   "w": 3,
+   "l": 4,
+   "t": 1,
+   "rs": 65,
+   "ra": 85,
+   "diff": -20,
+   "pct": 0.438,
+   "events": 2,
+   "log": [
+    {
+     "date": "2026-09-19",
+     "event_id": 12517,
+     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
+     "section": "Pool Play",
+     "opponent": "Carolina Clippers 9U",
+     "rs": 2,
+     "ra": 19,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-19",
+     "event_id": 12517,
+     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
+     "section": "Pool Play",
+     "opponent": "Team 24",
+     "rs": 7,
+     "ra": 10,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-20",
+     "event_id": 12517,
+     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
+     "section": "Silver Bracket",
+     "opponent": "ELITE BASEBALL EBC 9U",
+     "rs": 15,
+     "ra": 8,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-20",
+     "event_id": 12517,
+     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
+     "section": "Silver Bracket",
+     "opponent": "Carolina Clippers 9U",
+     "rs": 2,
+     "ra": 11,
+     "result": "L"
+    },
+    {
+     "date": "2026-10-17",
+     "event_id": 12521,
+     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "section": "Pool Play",
+     "opponent": "Carolina Royals 9Uw",
+     "rs": 18,
+     "ra": 7,
+     "result": "W"
+    },
+    {
+     "date": "2026-10-17",
+     "event_id": 12521,
+     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "section": "Pool Play",
+     "opponent": "Team 24",
+     "rs": 9,
+     "ra": 9,
+     "result": "T"
+    },
+    {
+     "date": "2026-10-18",
+     "event_id": 12521,
+     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "section": "Silver Bracket",
+     "opponent": "Red Clay Athletics 9U Darcangelo",
+     "rs": 2,
+     "ra": 14,
+     "result": "L"
+    },
+    {
+     "date": "2026-10-18",
+     "event_id": 12521,
+     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "section": "Silver Bracket",
+     "opponent": "Carolina Icons",
+     "rs": 10,
+     "ra": 7,
+     "result": "W"
+    }
+   ],
+   "points": 0,
+   "titles": 0,
+   "finishes": [
+    {
+     "date": "2026-09-19",
+     "name": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
+     "won": 1,
+     "lost": 3,
+     "standing": "2nd (Silver)",
+     "points": 0,
+     "derived": true
+    },
+    {
+     "date": "2026-10-17",
+     "name": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "won": 2,
+     "lost": 1,
+     "standing": "3rd (Silver)",
+     "points": 0,
+     "derived": true
+    }
+   ],
+   "season": "",
+   "stats_fetched": null
+  },
+  {
    "team": "Carolina Regulators 9u",
    "location": "Stanley, NC",
    "page_id": 38929,
@@ -11321,197 +11441,6 @@
    ],
    "season": "08/01/2026 - 10/16/2026",
    "stats_fetched": "2026-10-16T11:16"
-  },
-  {
-   "team": "Union County Legends",
-   "location": "Waxhaw, NC",
-   "page_id": null,
-   "url": null,
-   "w": 2,
-   "l": 4,
-   "t": 1,
-   "rs": 55,
-   "ra": 78,
-   "diff": -23,
-   "pct": 0.357,
-   "events": 2,
-   "log": [
-    {
-     "date": "2026-09-19",
-     "event_id": 12517,
-     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
-     "section": "Pool Play",
-     "opponent": "Carolina Clippers 9U",
-     "rs": 2,
-     "ra": 19,
-     "result": "L"
-    },
-    {
-     "date": "2026-09-19",
-     "event_id": 12517,
-     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
-     "section": "Pool Play",
-     "opponent": "Team 24",
-     "rs": 7,
-     "ra": 10,
-     "result": "L"
-    },
-    {
-     "date": "2026-09-20",
-     "event_id": 12517,
-     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
-     "section": "Silver Bracket",
-     "opponent": "ELITE BASEBALL EBC 9U",
-     "rs": 15,
-     "ra": 8,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-20",
-     "event_id": 12517,
-     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
-     "section": "Silver Bracket",
-     "opponent": "Carolina Clippers 9U",
-     "rs": 2,
-     "ra": 11,
-     "result": "L"
-    },
-    {
-     "date": "2026-10-17",
-     "event_id": 12521,
-     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
-     "section": "Pool Play",
-     "opponent": "Carolina Royals 9Uw",
-     "rs": 18,
-     "ra": 7,
-     "result": "W"
-    },
-    {
-     "date": "2026-10-17",
-     "event_id": 12521,
-     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
-     "section": "Pool Play",
-     "opponent": "Team 24",
-     "rs": 9,
-     "ra": 9,
-     "result": "T"
-    },
-    {
-     "date": "2026-10-18",
-     "event_id": 12521,
-     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
-     "section": "Silver Bracket",
-     "opponent": "Red Clay Athletics 9U Darcangelo",
-     "rs": 2,
-     "ra": 14,
-     "result": "L"
-    }
-   ],
-   "points": 0,
-   "titles": 0,
-   "finishes": [
-    {
-     "date": "2026-09-19",
-     "name": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
-     "won": 1,
-     "lost": 3,
-     "standing": "2nd (Silver)",
-     "points": 0,
-     "derived": true
-    }
-   ],
-   "season": "",
-   "stats_fetched": null
-  },
-  {
-   "team": "Carolina Icons",
-   "location": "Stanfield, NC",
-   "page_id": 35143,
-   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=35143",
-   "w": 2,
-   "l": 4,
-   "t": 0,
-   "rs": 57,
-   "ra": 64,
-   "diff": -7,
-   "pct": 0.333,
-   "events": 2,
-   "log": [
-    {
-     "date": "2026-09-11",
-     "event_id": 13600,
-     "event": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
-     "section": "Pool Play",
-     "opponent": "Carolina Trash Pandas",
-     "rs": 2,
-     "ra": 12,
-     "result": "L"
-    },
-    {
-     "date": "2026-09-11",
-     "event_id": 13600,
-     "event": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
-     "section": "Pool Play",
-     "opponent": "LKN Kingdom",
-     "rs": 17,
-     "ra": 5,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-11",
-     "event_id": 13600,
-     "event": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
-     "section": "Silver Bracket",
-     "opponent": "Mara Bulls",
-     "rs": 11,
-     "ra": 14,
-     "result": "L"
-    },
-    {
-     "date": "2026-10-17",
-     "event_id": 12521,
-     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
-     "section": "Pool Play",
-     "opponent": "Diamond Crushers",
-     "rs": 3,
-     "ra": 9,
-     "result": "L"
-    },
-    {
-     "date": "2026-10-17",
-     "event_id": 12521,
-     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
-     "section": "Pool Play",
-     "opponent": "Carolina Forge 9U",
-     "rs": 14,
-     "ra": 6,
-     "result": "W"
-    },
-    {
-     "date": "2026-10-18",
-     "event_id": 12521,
-     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
-     "section": "Silver Bracket",
-     "opponent": "ROCO Dirtbagz",
-     "rs": 10,
-     "ra": 18,
-     "result": "L"
-    }
-   ],
-   "points": 275,
-   "titles": 0,
-   "finishes": [
-    {
-     "date": "2026-09-11",
-     "name": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
-     "won": 1,
-     "lost": 2,
-     "standing": "2nd (Silver)",
-     "points": 275
-    }
-   ],
-   "season": "08/01/2026 - 10/16/2026",
-   "stats_fetched": "2026-10-16T11:17"
   },
   {
    "team": "Carolina Crushers 9U-Franklin",
@@ -12127,6 +12056,115 @@
    ],
    "season": "08/01/2026 - 10/16/2026",
    "stats_fetched": "2026-10-16T11:15"
+  },
+  {
+   "team": "Carolina Icons",
+   "location": "Stanfield, NC",
+   "page_id": 35143,
+   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=35143",
+   "w": 2,
+   "l": 5,
+   "t": 0,
+   "rs": 64,
+   "ra": 74,
+   "diff": -10,
+   "pct": 0.286,
+   "events": 2,
+   "log": [
+    {
+     "date": "2026-09-11",
+     "event_id": 13600,
+     "event": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
+     "section": "Pool Play",
+     "opponent": "Carolina Trash Pandas",
+     "rs": 2,
+     "ra": 12,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-11",
+     "event_id": 13600,
+     "event": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
+     "section": "Pool Play",
+     "opponent": "LKN Kingdom",
+     "rs": 17,
+     "ra": 5,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-11",
+     "event_id": 13600,
+     "event": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
+     "section": "Silver Bracket",
+     "opponent": "Mara Bulls",
+     "rs": 11,
+     "ra": 14,
+     "result": "L"
+    },
+    {
+     "date": "2026-10-17",
+     "event_id": 12521,
+     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "section": "Pool Play",
+     "opponent": "Diamond Crushers",
+     "rs": 3,
+     "ra": 9,
+     "result": "L"
+    },
+    {
+     "date": "2026-10-17",
+     "event_id": 12521,
+     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "section": "Pool Play",
+     "opponent": "Carolina Forge 9U",
+     "rs": 14,
+     "ra": 6,
+     "result": "W"
+    },
+    {
+     "date": "2026-10-18",
+     "event_id": 12521,
+     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "section": "Silver Bracket",
+     "opponent": "ROCO Dirtbagz",
+     "rs": 10,
+     "ra": 18,
+     "result": "L"
+    },
+    {
+     "date": "2026-10-18",
+     "event_id": 12521,
+     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "section": "Silver Bracket",
+     "opponent": "Union County Legends",
+     "rs": 7,
+     "ra": 10,
+     "result": "L"
+    }
+   ],
+   "points": 275,
+   "titles": 0,
+   "finishes": [
+    {
+     "date": "2026-09-11",
+     "name": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
+     "won": 1,
+     "lost": 2,
+     "standing": "2nd (Silver)",
+     "points": 275
+    },
+    {
+     "date": "2026-10-17",
+     "name": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "won": 1,
+     "lost": 3,
+     "standing": "4th (Silver)",
+     "points": 0,
+     "derived": true
+    }
+   ],
+   "season": "08/01/2026 - 10/16/2026",
+   "stats_fetched": "2026-10-16T11:17"
   },
   {
    "team": "SOX Baseball - Snow",
