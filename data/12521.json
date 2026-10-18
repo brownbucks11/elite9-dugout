@@ -1365,7 +1365,7 @@
           "team": "LKN Bolts",
           "location": "Huntersville, NC",
           "won": 1,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 20,
           "runs_scored": 17,
           "team_page_id": null
@@ -1434,7 +1434,7 @@
           "seed": 8,
           "team": "Orange County Crushers - Orange",
           "location": "Chapel Hill, NC",
-          "won": 1,
+          "won": 2,
           "lost": 2,
           "runs_allowed": 12,
           "runs_scored": 23,
@@ -1756,10 +1756,10 @@
             "field": "M. Rivers:Martha Rivers 2",
             "team_a": "Loser Game #7 LKN Bolts",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 6,
             "team_b": "Loser Game #8 Orange County Crushers - Orange",
             "seed_b": null,
-            "score_b": null
+            "score_b": 15
           },
           {
             "game": 4,
@@ -2602,7 +2602,7 @@
           "team": "Red Clay Athletics 14U Kelly",
           "location": "Huntersville, NC",
           "won": 1,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 24,
           "runs_scored": 1,
           "team_page_id": null
@@ -2651,7 +2651,7 @@
           "seed": 16,
           "team": "Waxhaw Militia 14U",
           "location": "Waxhaw, NC",
-          "won": 1,
+          "won": 2,
           "lost": 2,
           "runs_allowed": 19,
           "runs_scored": 6,
@@ -3101,10 +3101,10 @@
             "field": "FDP:Field #2",
             "team_a": "Winner Game #1 Red Clay Athletics 14U Kelly",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 0,
             "team_b": "Winner Game #2 Waxhaw Militia 14U",
             "seed_b": null,
-            "score_b": null
+            "score_b": 12
           }
         ]
       }
@@ -3809,5 +3809,5 @@
   },
   "site_last_updated": "10/15/2026 12:00 PM",
   "tournament_id": 12521,
-  "fetched_at": "2026-10-18T11:59"
+  "fetched_at": "2026-10-18T12:09"
 }
