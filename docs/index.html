@@ -595,7 +595,7 @@
     const w = t.weather ? `<div class="notice-w"><b>Weather / field notice</b>${t.weather.when ? `<span class="from"> · posted ${esc(fmtSeen(t.weather.when))}</span>` : ""}<div class="ntext">${esc(t.weather.text)}</div></div>` : "";
     const g = t.general ? `<details class="notice-g"><summary>Director's notes${t.general.when ? `<span class="from"> · ${esc(fmtSeen(t.general.when))}</span>` : ""}</summary><div class="ntext">${esc(t.general.text)}</div></details>` : "";
     // the event listing's notes are where directors describe the prizes ("rings plus banners")
-    const a = t.awards ? `<details class="notice-g awards"><summary>What's on the line</summary><div class="ntext">${esc(tidy(t.awards).replace(/\s*–\s*/g, " · "))}</div></details>` : "";
+    const a = t.awards ? `<details class="notice-g awards"><summary>What's on the line</summary><div class="ntext">${esc(tidy(t.awards).replace(/Gun-usa/g, "Gun-USA").replace(/\s*–\s*/g, " · "))}</div></details>` : "";
     return w || g || a ? `<div class="notices">${w}${a}${g}</div>` : "";
   }
   const tgsLink = (t, id) => `<a href="${esc((t && t.url) || ("https://topgunstats.com/whos-playing/" + id))}" target="_blank" rel="noopener">Top Gun Stats ↗</a>`;
