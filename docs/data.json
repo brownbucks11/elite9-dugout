@@ -3,7 +3,7 @@
  "location": "Rock Hill, SC",
  "page_id": 31407,
  "team_url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=31407",
- "built": "Sun Oct 18, 2026 11:24 PM",
+ "built": "Mon Oct 19, 2026 04:10 AM",
  "record": {
   "w": 4,
   "l": 9,
@@ -2482,7 +2482,7 @@
    "url": "https://playtopgunsports.com/GameTimesResults.aspx?trnid=12521",
    "notes": [],
    "teams": 19,
-   "state": "live",
+   "state": "final",
    "tgs": {
     "weather": null,
     "general": {
@@ -2611,7 +2611,7 @@
     "url": "https://topgunstats.com/whos-playing/12521"
    },
    "next_game": null,
-   "ics": "ics/12521.ics",
+   "ics": null,
    "standing": {
     "team": "Elite 9",
     "location": "Rock Hill, SC",
@@ -5661,7 +5661,7 @@
   },
   {
    "id": 12521,
-   "state": "live",
+   "state": "final",
    "official": false,
    "confirmed": false,
    "summary": {
@@ -5689,21 +5689,7 @@
     "w": 2,
     "l": 2
    },
-   "entries": {
-    "count": 19,
-    "confirmed": 0,
-    "waitlist": 0,
-    "total": 113,
-    "team": {
-     "entered": true,
-     "division": "9U",
-     "confirmed": false,
-     "waitlist": false,
-     "entered_at": "2026-10-08T16:26:44.913Z",
-     "level": "AA"
-    },
-    "fetched_at": "2026-10-18T23:23"
-   },
+   "entries": null,
    "tgs": {
     "weather": null,
     "general": {
@@ -6772,16 +6758,11 @@
     }
    ],
    "next_game": null,
-   "schedule_versions": 3,
-   "schedule_first": "2026-10-15T13:17",
-   "schedule_updated": "2026-10-18T11:07",
-   "changes": [
-    {
-     "key": "Copper Bracket#4",
-     "kind": "added"
-    }
-   ],
-   "ics": "ics/12521.ics"
+   "schedule_versions": 0,
+   "schedule_first": null,
+   "schedule_updated": null,
+   "changes": [],
+   "ics": null
   },
   {
    "id": 12522,
@@ -6797,7 +6778,7 @@
     "team": {
      "entered": false
     },
-    "fetched_at": "2026-10-18T23:23"
+    "fetched_at": "2026-10-19T04:10"
    },
    "tgs": {
     "weather": {
@@ -6886,7 +6867,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-18T23:23",
+    "fetched_at": "2026-10-19T04:10",
     "url": "https://topgunstats.com/whos-playing/12522"
    },
    "name": "Southeastern Winter World Series",
@@ -6918,7 +6899,7 @@
     "team": {
      "entered": false
     },
-    "fetched_at": "2026-10-18T23:23"
+    "fetched_at": "2026-10-19T04:10"
    },
    "tgs": {
     "weather": null,
@@ -6972,7 +6953,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-18T23:23",
+    "fetched_at": "2026-10-19T04:10",
     "url": "https://topgunstats.com/whos-playing/12524"
    },
    "name": "Road Runner vs Coyote ring weekend",
@@ -20725,6 +20706,6 @@
  "season": "08/01/2026 - 10/16/2026",
  "stats_fetched": "2026-10-16T11:15",
  "division": "9U",
- "today": "2026-10-18",
+ "today": "2026-10-19",
  "season_label": "Fall 2026"
 }
