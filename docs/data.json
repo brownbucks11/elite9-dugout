@@ -3,7 +3,7 @@
  "location": "Rock Hill, SC",
  "page_id": 31407,
  "team_url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=31407",
- "built": "Mon Oct 19, 2026 04:10 AM",
+ "built": "Mon Oct 19, 2026 01:25 PM",
  "record": {
   "w": 4,
   "l": 9,
@@ -6771,14 +6771,19 @@
    "confirmed": false,
    "summary": null,
    "entries": {
-    "count": 11,
-    "confirmed": 11,
+    "count": 14,
+    "confirmed": 14,
     "waitlist": 0,
-    "total": 137,
+    "total": 150,
     "team": {
-     "entered": false
+     "entered": true,
+     "division": "9U",
+     "confirmed": true,
+     "waitlist": false,
+     "entered_at": "2026-10-19T08:25:19.373Z",
+     "level": "AA"
     },
-    "fetched_at": "2026-10-19T04:10"
+    "fetched_at": "2026-10-19T13:21"
    },
    "tgs": {
     "weather": {
@@ -6790,7 +6795,7 @@
      "when": "2026-10-12T15:07:00.000Z"
     },
     "awards": "2026 TOP GUN WINTER WORLD SERIES---------THIS WEEKEND PLAYERS WILL QUALIFY FOR THE TOP (100) COMBINE ------ALL WINNING AND RUNNER UP TEAMS WILL RECEIVE (12) TOP GUN-USA WORLD SERIES CUSTOM MADE JUMBO RINGS--------PLUS THE CHAMPIONS RECEIVES THE WORLD LARGEST 20 INCH PLAQUE AND THE RUNNER UP TEAMS RECEIVE THE 18 INCH PLAQUE, PLUS WORLD SERIES CUSTOM MADE BANNERS----SUPER TOP 40 PINK QUALIFIER---------THIS EVENT WILL QUALIFY ALL 10U, 11U, 12U, TEAMS TO THE 2027 TOP GUN-USA SHIPYARD TOP 40 EVENTS IN 2027.",
-    "teams_registered": 137,
+    "teams_registered": 150,
     "games_scheduled": false,
     "complexes": [
      {
@@ -6867,7 +6872,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-19T04:10",
+    "fetched_at": "2026-10-19T13:21",
     "url": "https://topgunstats.com/whos-playing/12522"
    },
    "name": "Southeastern Winter World Series",
@@ -6899,7 +6904,7 @@
     "team": {
      "entered": false
     },
-    "fetched_at": "2026-10-19T04:10"
+    "fetched_at": "2026-10-19T13:21"
    },
    "tgs": {
     "weather": null,
@@ -6953,7 +6958,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-19T04:10",
+    "fetched_at": "2026-10-19T13:21",
     "url": "https://topgunstats.com/whos-playing/12524"
    },
    "name": "Road Runner vs Coyote ring weekend",
@@ -7056,8 +7061,8 @@
      "points": 325
     }
    ],
-   "season": "08/01/2026 - 10/16/2026",
-   "stats_fetched": "2026-10-16T11:15"
+   "season": "08/01/2026 - 10/19/2026",
+   "stats_fetched": "2026-10-19T13:22"
   },
   {
    "team": "South Park Red Raiders",
@@ -7276,8 +7281,8 @@
      "points": 750
     }
    ],
-   "season": "08/01/2026 - 10/16/2026",
-   "stats_fetched": "2026-10-16T11:18"
+   "season": "08/01/2026 - 10/19/2026",
+   "stats_fetched": "2026-10-19T13:25"
   },
   {
    "team": "Carolina Rapid Fire - Ford",
@@ -7563,8 +7568,8 @@
      "points": 0
     }
    ],
-   "season": "08/01/2026 - 10/16/2026",
-   "stats_fetched": "2026-10-16T11:16"
+   "season": "08/01/2026 - 10/19/2026",
+   "stats_fetched": "2026-10-19T13:22"
   },
   {
    "team": "Lake Wylie Venom",
@@ -7669,8 +7674,8 @@
      "points": 0
     }
    ],
-   "season": "08/01/2026 - 10/16/2026",
-   "stats_fetched": "2026-10-16T11:16"
+   "season": "08/01/2026 - 10/19/2026",
+   "stats_fetched": "2026-10-19T13:23"
   },
   {
    "team": "Hooligans",
@@ -7831,8 +7836,8 @@
      "points": 0
     }
    ],
-   "season": "08/01/2026 - 10/16/2026",
-   "stats_fetched": "2026-10-16T11:16"
+   "season": "08/01/2026 - 10/19/2026",
+   "stats_fetched": "2026-10-19T13:23"
   },
   {
    "team": "Lightning Jacks Riddle",
@@ -7919,8 +7924,8 @@
      "points": 375
     }
    ],
-   "season": "08/01/2026 - 10/16/2026",
-   "stats_fetched": "2026-10-16T11:15"
+   "season": "08/01/2026 - 10/19/2026",
+   "stats_fetched": "2026-10-19T13:21"
   },
   {
    "team": "Weddington Wreckers",
@@ -8046,8 +8051,8 @@
      "derived": true
     }
    ],
-   "season": "08/01/2026 - 10/16/2026",
-   "stats_fetched": "2026-10-16T11:18"
+   "season": "08/01/2026 - 10/19/2026",
+   "stats_fetched": "2026-10-19T13:24"
   },
   {
    "team": "Carolina Firebirds-Red",
@@ -8258,8 +8263,8 @@
      "points": 350
     }
    ],
-   "season": "08/01/2026 - 10/16/2026",
-   "stats_fetched": "2026-10-16T11:18"
+   "season": "08/01/2026 - 10/19/2026",
+   "stats_fetched": "2026-10-19T13:24"
   },
   {
    "team": "Dirtbags Shook",
@@ -8534,8 +8539,8 @@
      "derived": true
     }
    ],
-   "season": "08/01/2026 - 10/16/2026",
-   "stats_fetched": "2026-10-16T11:16"
+   "season": "08/01/2026 - 10/19/2026",
+   "stats_fetched": "2026-10-19T13:22"
   },
   {
    "team": "Dirtbags Baseball ESB",
@@ -8728,8 +8733,8 @@
      "points": 300
     }
    ],
-   "season": "08/01/2026 - 10/16/2026",
-   "stats_fetched": "2026-10-16T11:18"
+   "season": "08/01/2026 - 10/19/2026",
+   "stats_fetched": "2026-10-19T13:24"
   },
   {
    "team": "NL Destroyers 2036",
@@ -8978,10 +8983,18 @@
      "lost": 2,
      "standing": "3rd (Silver)",
      "points": 650
+    },
+    {
+     "date": "2026-10-17",
+     "name": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "won": 3,
+     "lost": 1,
+     "standing": "",
+     "points": 0
     }
    ],
-   "season": "08/01/2026 - 10/16/2026",
-   "stats_fetched": "2026-10-16T11:17"
+   "season": "08/01/2026 - 10/19/2026",
+   "stats_fetched": "2026-10-19T13:23"
   },
   {
    "team": "Mara Bulls",
@@ -9040,8 +9053,8 @@
      "points": 300
     }
    ],
-   "season": "08/01/2026 - 10/16/2026",
-   "stats_fetched": "2026-10-16T11:18"
+   "season": "08/01/2026 - 10/19/2026",
+   "stats_fetched": "2026-10-19T13:25"
   },
   {
    "team": "Team 24",
@@ -9343,8 +9356,8 @@
      "points": 725
     }
    ],
-   "season": "08/01/2026 - 10/16/2026",
-   "stats_fetched": "2026-10-16T11:15"
+   "season": "08/01/2026 - 10/19/2026",
+   "stats_fetched": "2026-10-19T13:22"
   },
   {
    "team": "NC Made 9U Blue",
@@ -9447,8 +9460,8 @@
      "points": 0
     }
    ],
-   "season": "08/01/2026 - 10/16/2026",
-   "stats_fetched": "2026-10-16T11:15"
+   "season": "08/01/2026 - 10/19/2026",
+   "stats_fetched": "2026-10-19T13:21"
   },
   {
    "team": "Copperheads",
@@ -9533,8 +9546,8 @@
      "points": 0
     }
    ],
-   "season": "08/01/2026 - 10/16/2026",
-   "stats_fetched": "2026-10-16T11:16"
+   "season": "08/01/2026 - 10/19/2026",
+   "stats_fetched": "2026-10-19T13:22"
   },
   {
    "team": "Mission 9u Scout",
@@ -9611,8 +9624,8 @@
      "points": 700
     }
    ],
-   "season": "08/01/2026 - 10/16/2026",
-   "stats_fetched": "2026-10-16T11:18"
+   "season": "08/01/2026 - 10/19/2026",
+   "stats_fetched": "2026-10-19T13:24"
   },
   {
    "team": "NC Made 9U Green",
@@ -9705,8 +9718,8 @@
      "points": 0
     }
    ],
-   "season": "08/01/2026 - 10/16/2026",
-   "stats_fetched": "2026-10-16T11:16"
+   "season": "08/01/2026 - 10/19/2026",
+   "stats_fetched": "2026-10-19T13:22"
   },
   {
    "team": "Groundwork Sports",
@@ -9783,8 +9796,8 @@
      "points": 0
     }
    ],
-   "season": "08/01/2026 - 10/16/2026",
-   "stats_fetched": "2026-10-16T11:16"
+   "season": "08/01/2026 - 10/19/2026",
+   "stats_fetched": "2026-10-19T13:23"
   },
   {
    "team": "Rock Hill 9U Baseball",
@@ -9932,8 +9945,8 @@
      "points": 0
     }
    ],
-   "season": "08/01/2026 - 10/16/2026",
-   "stats_fetched": "2026-10-16T11:16"
+   "season": "08/01/2026 - 10/19/2026",
+   "stats_fetched": "2026-10-19T13:22"
   },
   {
    "team": "Flying Pigs 9U",
@@ -10018,8 +10031,8 @@
      "points": 325
     }
    ],
-   "season": "08/01/2026 - 10/16/2026",
-   "stats_fetched": "2026-10-16T11:18"
+   "season": "08/01/2026 - 10/19/2026",
+   "stats_fetched": "2026-10-19T13:24"
   },
   {
    "team": "BOILING SPRINGS BULLDOGS BASEBALL 8u",
@@ -10233,10 +10246,18 @@
      "lost": 0,
      "standing": "",
      "points": 0
+    },
+    {
+     "date": "2026-10-17",
+     "name": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "won": 2,
+     "lost": 2,
+     "standing": "",
+     "points": 0
     }
    ],
-   "season": "08/01/2026 - 10/16/2026",
-   "stats_fetched": "2026-10-16T11:15"
+   "season": "08/01/2026 - 10/19/2026",
+   "stats_fetched": "2026-10-19T13:22"
   },
   {
    "team": "Diamond Crushers",
@@ -10322,8 +10343,8 @@
      "derived": true
     }
    ],
-   "season": "08/01/2026 - 10/16/2026",
-   "stats_fetched": "2026-10-16T11:17"
+   "season": "08/01/2026 - 10/19/2026",
+   "stats_fetched": "2026-10-19T13:24"
   },
   {
    "team": "Legacy Baseball 9U - WHITE",
@@ -10537,8 +10558,8 @@
      "derived": true
     }
    ],
-   "season": "08/01/2026 - 10/16/2026",
-   "stats_fetched": "2026-10-16T11:17"
+   "season": "08/01/2026 - 10/19/2026",
+   "stats_fetched": "2026-10-19T13:23"
   },
   {
    "team": "Carolina Royals 9Ublu",
@@ -10693,8 +10714,8 @@
      "points": 750
     }
    ],
-   "season": "08/01/2026 - 10/16/2026",
-   "stats_fetched": "2026-10-16T11:18"
+   "season": "08/01/2026 - 10/19/2026",
+   "stats_fetched": "2026-10-19T13:24"
   },
   {
    "team": "Union County Legends",
@@ -10929,8 +10950,8 @@
      "points": 775
     }
    ],
-   "season": "08/01/2026 - 10/16/2026",
-   "stats_fetched": "2026-10-16T11:18"
+   "season": "08/01/2026 - 10/19/2026",
+   "stats_fetched": "2026-10-19T13:25"
   },
   {
    "team": "Red Clay Athletics 9U Darcangelo",
@@ -11104,8 +11125,8 @@
      "derived": true
     }
    ],
-   "season": "08/01/2026 - 10/16/2026",
-   "stats_fetched": "2026-10-16T11:17"
+   "season": "08/01/2026 - 10/19/2026",
+   "stats_fetched": "2026-10-19T13:23"
   },
   {
    "team": "SC Tide - Lucariello",
@@ -11295,8 +11316,8 @@
      "derived": true
     }
    ],
-   "season": "08/01/2026 - 10/16/2026",
-   "stats_fetched": "2026-10-16T11:16"
+   "season": "08/01/2026 - 10/19/2026",
+   "stats_fetched": "2026-10-19T13:23"
   },
   {
    "team": "Waxhaw Militia 9U",
@@ -11421,8 +11442,8 @@
      "points": 0
     }
    ],
-   "season": "08/01/2026 - 10/16/2026",
-   "stats_fetched": "2026-10-16T11:16"
+   "season": "08/01/2026 - 10/19/2026",
+   "stats_fetched": "2026-10-19T13:22"
   },
   {
    "team": "KnuckleheadsCBC",
@@ -11555,8 +11576,8 @@
      "points": 0
     }
    ],
-   "season": "08/01/2026 - 10/16/2026",
-   "stats_fetched": "2026-10-16T11:16"
+   "season": "08/01/2026 - 10/19/2026",
+   "stats_fetched": "2026-10-19T13:22"
   },
   {
    "team": "Carolina Crushers 9U-Franklin",
@@ -11615,8 +11636,8 @@
      "points": 325
     }
    ],
-   "season": "08/01/2026 - 10/16/2026",
-   "stats_fetched": "2026-10-16T11:17"
+   "season": "08/01/2026 - 10/19/2026",
+   "stats_fetched": "2026-10-19T13:23"
   },
   {
    "team": "Camel City",
@@ -11683,8 +11704,8 @@
      "points": 375
     }
    ],
-   "season": "08/01/2026 - 10/16/2026",
-   "stats_fetched": "2026-10-16T11:18"
+   "season": "08/01/2026 - 10/19/2026",
+   "stats_fetched": "2026-10-19T13:24"
   },
   {
    "team": "Cage 2 Stage 9u",
@@ -11751,8 +11772,8 @@
      "points": 0
     }
    ],
-   "season": "08/01/2026 - 10/16/2026",
-   "stats_fetched": "2026-10-16T11:19"
+   "season": "08/01/2026 - 10/19/2026",
+   "stats_fetched": "2026-10-19T13:25"
   },
   {
    "team": "LumberJacks",
@@ -12004,8 +12025,8 @@
      "derived": true
     }
    ],
-   "season": "08/01/2026 - 10/16/2026",
-   "stats_fetched": "2026-10-16T11:17"
+   "season": "08/01/2026 - 10/19/2026",
+   "stats_fetched": "2026-10-19T13:23"
   },
   {
    "team": "Elite 9",
@@ -12189,8 +12210,8 @@
      "derived": true
     }
    ],
-   "season": "08/01/2026 - 10/16/2026",
-   "stats_fetched": "2026-10-16T11:15"
+   "season": "08/01/2026 - 10/19/2026",
+   "stats_fetched": "2026-10-19T13:22"
   },
   {
    "team": "Carolina Icons",
@@ -12298,8 +12319,8 @@
      "derived": true
     }
    ],
-   "season": "08/01/2026 - 10/16/2026",
-   "stats_fetched": "2026-10-16T11:17"
+   "season": "08/01/2026 - 10/19/2026",
+   "stats_fetched": "2026-10-19T13:23"
   },
   {
    "team": "SOX Baseball - Snow",
@@ -12414,8 +12435,8 @@
      "points": 300
     }
    ],
-   "season": "08/01/2026 - 10/16/2026",
-   "stats_fetched": "2026-10-16T11:17"
+   "season": "08/01/2026 - 10/19/2026",
+   "stats_fetched": "2026-10-19T13:24"
   },
   {
    "team": "PeeDee Mudcats",
@@ -12851,10 +12872,18 @@
      "lost": 3,
      "standing": "4th (Silver)",
      "points": 625
+    },
+    {
+     "date": "2026-10-17",
+     "name": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "won": 1,
+     "lost": 3,
+     "standing": "",
+     "points": 0
     }
    ],
-   "season": "08/01/2026 - 10/16/2026",
-   "stats_fetched": "2026-10-16T11:18"
+   "season": "08/01/2026 - 10/19/2026",
+   "stats_fetched": "2026-10-19T13:25"
   },
   {
    "team": "LKN Kingdom",
@@ -13056,8 +13085,8 @@
      "derived": true
     }
    ],
-   "season": "08/01/2026 - 10/16/2026",
-   "stats_fetched": "2026-10-16T11:17"
+   "season": "08/01/2026 - 10/19/2026",
+   "stats_fetched": "2026-10-19T13:24"
   },
   {
    "team": "Carolina Forge 9U",
@@ -13269,8 +13298,8 @@
      "derived": true
     }
    ],
-   "season": "08/01/2026 - 10/16/2026",
-   "stats_fetched": "2026-10-16T11:17"
+   "season": "08/01/2026 - 10/19/2026",
+   "stats_fetched": "2026-10-19T13:24"
   },
   {
    "team": "High Point Hurricanes",
@@ -13329,8 +13358,8 @@
      "points": 225
     }
    ],
-   "season": "08/01/2026 - 10/16/2026",
-   "stats_fetched": "2026-10-16T11:19"
+   "season": "08/01/2026 - 10/19/2026",
+   "stats_fetched": "2026-10-19T13:25"
   },
   {
    "team": "Concord Athletics -9U",
@@ -13407,8 +13436,8 @@
      "points": 0
     }
    ],
-   "season": "08/01/2026 - 10/16/2026",
-   "stats_fetched": "2026-10-16T11:17"
+   "season": "08/01/2026 - 10/19/2026",
+   "stats_fetched": "2026-10-19T13:23"
   }
  ],
  "fields": {
@@ -13666,8 +13695,8 @@
     "button_photo": null
    }
   ],
-  "season": "08/01/2026 - 10/16/2026",
-  "fetched_at": "2026-10-16T11:19",
+  "season": "08/01/2026 - 10/19/2026",
+  "fetched_at": "2026-10-19T13:25",
   "inactive": 22,
   "not_on_topgun": [],
   "duplicate_numbers": {}
@@ -20703,8 +20732,8 @@
    "derived": true
   }
  ],
- "season": "08/01/2026 - 10/16/2026",
- "stats_fetched": "2026-10-16T11:15",
+ "season": "08/01/2026 - 10/19/2026",
+ "stats_fetched": "2026-10-19T13:22",
  "division": "9U",
  "today": "2026-10-19",
  "season_label": "Fall 2026"

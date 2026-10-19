@@ -1,10 +1,10 @@
 {
  "team": "ELITE BASEBALL EBC 9U",
  "label": "9U, AA",
- "season": "08/01/2026 - 10/16/2026",
- "games": 11,
- "won": 1,
- "lost": 10,
+ "season": "08/01/2026 - 10/19/2026",
+ "games": 15,
+ "won": 2,
+ "lost": 13,
  "tournaments": [
   {
    "date": "2026-09-05",
@@ -35,8 +35,18 @@
    "ra": 34,
    "standing": "4th (Silver)",
    "points": 625
+  },
+  {
+   "date": "2026-10-17",
+   "name": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+   "won": 1,
+   "lost": 3,
+   "rs": 27,
+   "ra": 37,
+   "standing": "",
+   "points": 0
   }
  ],
  "team_page_id": 38889,
- "fetched_at": "2026-10-16T11:18"
+ "fetched_at": "2026-10-19T13:25"
 }
