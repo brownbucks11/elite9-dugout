@@ -9,7 +9,120 @@
       "address": "3504 Zebulon Williams Road Monroe, NC 28110"
     }
   },
-  "divisions": {},
+  "divisions": {
+    "10U": {
+      "notes": [],
+      "standings": [
+        {
+          "seed": 1,
+          "team": "Union County Aces",
+          "location": "Monroe, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 2,
+          "team": "\u26a1\ufe0fCarolina Lightning\u26a1\ufe0f",
+          "location": "Mount Pleasant, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 3,
+          "team": "Richfield Rampage",
+          "location": "Richfield, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 4,
+          "team": "Rowan Titans",
+          "location": "China Grove, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        }
+      ],
+      "sections": {
+        "Pool Play": [
+          {
+            "game": 1,
+            "day": "Fri",
+            "time": "6:00 PM",
+            "field": "NWP:Field 7",
+            "team_a": "Union County Aces",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "\u26a1\ufe0fCarolina Lightning\u26a1\ufe0f",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 2,
+            "day": "Fri",
+            "time": "6:00 PM",
+            "field": "NWP:Field 8",
+            "team_a": "Rowan Titans",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Richfield Rampage",
+            "seed_b": null,
+            "score_b": null
+          }
+        ],
+        "Gold Bracket": [
+          {
+            "game": 1,
+            "day": "Fri",
+            "time": "7:30 PM",
+            "field": "NWP:Field 7",
+            "team_a": "",
+            "seed_a": 1,
+            "score_a": null,
+            "team_b": "",
+            "seed_b": 4,
+            "score_b": null
+          },
+          {
+            "game": 2,
+            "day": "Fri",
+            "time": "7:30 PM",
+            "field": "NWP:Field 8",
+            "team_a": "",
+            "seed_a": 2,
+            "score_a": null,
+            "team_b": "",
+            "seed_b": 3,
+            "score_b": null
+          },
+          {
+            "game": 3,
+            "day": "Fri",
+            "time": "9:00 PM",
+            "field": "NWP:Field 7",
+            "team_a": "Winner Game #1",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Winner Game #2",
+            "seed_b": null,
+            "score_b": null
+          }
+        ]
+      }
+    }
+  },
+  "site_last_updated": "10/21/2026 4:06 PM",
   "tournament_id": 13606,
-  "fetched_at": "2026-10-21T11:51"
+  "fetched_at": "2026-10-21T16:24"
 }
