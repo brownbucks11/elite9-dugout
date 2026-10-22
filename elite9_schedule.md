@@ -1,5 +1,5 @@
 # Elite 9 - Top Gun schedule
-_Updated Thu Oct 22, 2026 05:12 AM_
+_Updated Thu Oct 22, 2026 10:54 AM_
 
 ## SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND
 September 26 - 27 in Greater Charlotte Area, NC  
@@ -166,7 +166,72 @@ Tournament 12521 - [schedule page](https://playtopgunsports.com/GameTimesResults
 October 24 - 25 in Greater Charlotte Area, NC  
 Tournament 12522 - [schedule page](https://playtopgunsports.com/GameTimesResults.aspx?trnid=12522)
 
-_Elite 9 not listed yet. Divisions posted: none posted yet_
+### 9U  Modified Stealing
+**Standing:** #7 of 18  -  0-0, RS 0, RA 0
+
+**Elite 9 games**
+
+| G | When | Field | Team A | Team B |
+|---|---|---|---|---|
+| Pool 6 | Sat 10:15 AM | SP:Field #1 | BOILING SPRINGS BULLDOGS BASEBALL 8u | Elite 9 |
+| Pool 9 | Sat 12:00 PM | SP:Field #1 | Hooligans | Elite 9 |
+
+**9U standings**
+
+| # | Team | From | W-L | RS | RA |
+|---|---|---|---|---|---|
+| 1 | NL Destroyers 2036 | Denver, NC | 0-0 | 0 | 0 |
+| 2 | Hooligans | Mount Holly, NC | 0-0 | 0 | 0 |
+| 3 | LumberJacks | Gaston County, NC | 0-0 | 0 | 0 |
+| 4 | Carolina Trash Pandas | Locust, NC | 0-0 | 0 | 0 |
+| 5 | Red Clay Athletics 9U Darcangelo | Charlotte, NC | 0-0 | 0 | 0 |
+| 6 | Dirtbags Baseball ESB | Lincolnton, NC | 0-0 | 0 | 0 |
+| 7 | Elite 9 **<--** | Rock Hill, SC | 0-0 | 0 | 0 |
+| 8 | Carolina Regulators 9u | Stanley, NC | 0-0 | 0 | 0 |
+| 9 | Carolina Elevate | Lenoir, NC | 0-0 | 0 | 0 |
+| 10 | Dirtbags Shook | Claremont, NC | 0-0 | 0 | 0 |
+| 11 | Knuckleheads CBC | Clover, SC | 0-0 | 0 | 0 |
+| 12 | Diamond Jaxx | Pinehurst, NC | 0-0 | 0 | 0 |
+| 13 | Concord Athletics -9U | Concord, NC | 0-0 | 0 | 0 |
+| 14 | MARA Stingers | Matthews, NC | 0-0 | 0 | 0 |
+| 15 | Athletes Lab 9U Navy- Stewart | Maiden, NC | 0-0 | 0 | 0 |
+| 16 | LKN Lightning - Ogburn | Huntersville, NC | 0-0 | 0 | 0 |
+| 17 | BOILING SPRINGS BULLDOGS BASEBALL 8u | Boiling Springs, NC | 0-0 | 0 | 0 |
+| 18 | Lake Wylie Venom | Lake Wylie, SC | 0-0 | 0 | 0 |
+
+**Gold Bracket**
+
+| G | When | Field | Team A | Team B |
+|---|---|---|---|---|
+| 1 | Sun 9:00 AM | Bradford:Field # 1 | (#4)  | (#5)  |
+| 2 | Sun 11:00 AM | Bradford:Field # 1 | (#2)  | (#3)  |
+| 3 | Sun 1:00 PM | Bradford:Field # 1 | Winner Game #1 | (#1)  |
+| 4 | Sun 3:00 PM | Bradford:Field # 1 | Winner Game #2 | Winner Game #3 |
+
+**Silver Bracket**
+
+| G | When | Field | Team A | Team B |
+|---|---|---|---|---|
+| 1 | Sun 9:00 AM | Bradford:Field # 2 | (#9)  | (#10)  |
+| 2 | Sun 11:00 AM | Bradford:Field # 2 | (#7)  | (#8)  |
+| 3 | Sun 1:00 PM | Bradford:Field # 2 | Winner Game #1 | (#6)  |
+| 4 | Sun 3:00 PM | Bradford:Field # 2 | Winner Game #2 | Winner Game #3 |
+
+**Bronze Bracket**
+
+| G | When | Field | Team A | Team B |
+|---|---|---|---|---|
+| 1 | Sun 9:00 AM | Bradford:Field # 3 | (#11)  | (#14)  |
+| 2 | Sun 11:00 AM | Bradford:Field # 3 | (#12)  | (#13)  |
+| 3 | Sun 1:00 PM | Bradford:Field # 3 | Winner Game #1 | Winner Game #2 |
+
+**Copper Bracket**
+
+| G | When | Field | Team A | Team B |
+|---|---|---|---|---|
+| 1 | Sun 9:00 AM | Bradford:Field # 4 | (#15)  | (#18)  |
+| 2 | Sun 11:00 AM | Bradford:Field # 4 | (#16)  | (#17)  |
+| 3 | Sun 1:00 PM | Bradford:Field # 4 | Winner Game #1 | Winner Game #2 |
 
 ## ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO
 November 7 - 8 in Greater Charlotte Area, NC  

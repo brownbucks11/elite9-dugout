@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Elite 9 Dugout//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Elite 9 - WINTER WORLD SERIES-CHARLOTTE -QUALIFY F
+X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+UID:e9-12522-poolplay-6@elite9dugout
+DTSTAMP:20261022T145437Z
+DTSTART;TZID=America/New_York:20261024T093000
+DTEND;TZID=America/New_York:20261024T120000
+SUMMARY:Elite 9 vs BOILING SPRINGS BULLDOGS BASEBALL 8u - game 10:15 AM (be there 9:30 AM)
+LOCATION:Stinger Park Field #1\, 1320 North 12th St. Bessemer City\, NC 28016
+DESCRIPTION:Game time 10:15 AM - be at the field by 9:30 AM. WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE. Pool Play game 6. Subject to change until game day - the coach's TeamReach post is official.
+END:VEVENT
+BEGIN:VEVENT
+UID:e9-12522-poolplay-9@elite9dugout
+DTSTAMP:20261022T145437Z
+DTSTART;TZID=America/New_York:20261024T120000
+DTEND;TZID=America/New_York:20261024T134500
+SUMMARY:Elite 9 vs Hooligans - game 12:00 PM
+LOCATION:Stinger Park Field #1\, 1320 North 12th St. Bessemer City\, NC 28016
+DESCRIPTION:Game time 12:00 PM. WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE. Pool Play game 9. Subject to change until game day - the coach's TeamReach post is official.
+END:VEVENT
+END:VCALENDAR

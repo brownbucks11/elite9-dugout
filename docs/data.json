@@ -3,7 +3,7 @@
  "location": "Rock Hill, SC",
  "page_id": 31407,
  "team_url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=31407",
- "built": "Thu Oct 22, 2026 05:12 AM",
+ "built": "Thu Oct 22, 2026 10:54 AM",
  "record": {
   "w": 4,
   "l": 9,
@@ -206,6 +206,36 @@
    "ra": 15,
    "result": "W",
    "gc_id": "c1a68c30-2ade-4d5d-b504-adea44dc34a1"
+  },
+  {
+   "event_id": 12522,
+   "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
+   "date": "2026-10-24",
+   "day": "Sat",
+   "time": "10:15 AM",
+   "field": "SP:Field #1",
+   "section": "Pool Play",
+   "game": 6,
+   "opponent": "BOILING SPRINGS BULLDOGS BASEBALL 8u",
+   "rs": null,
+   "ra": null,
+   "result": null,
+   "gc_id": null
+  },
+  {
+   "event_id": 12522,
+   "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
+   "date": "2026-10-24",
+   "day": "Sat",
+   "time": "12:00 PM",
+   "field": "SP:Field #1",
+   "section": "Pool Play",
+   "game": 9,
+   "opponent": "Hooligans",
+   "rs": null,
+   "ra": null,
+   "result": null,
+   "gc_id": null
   }
  ],
  "my_events": [
@@ -6766,15 +6796,15 @@
   },
   {
    "id": 12522,
-   "state": "announced",
+   "state": "scheduled",
    "official": false,
    "confirmed": false,
    "summary": null,
    "entries": {
-    "count": 19,
-    "confirmed": 19,
+    "count": 18,
+    "confirmed": 18,
     "waitlist": 0,
-    "total": 179,
+    "total": 180,
     "team": {
      "entered": true,
      "division": "9U",
@@ -6783,19 +6813,19 @@
      "entered_at": "2026-10-19T08:25:19.373Z",
      "level": "AA"
     },
-    "fetched_at": "2026-10-22T05:12"
+    "fetched_at": "2026-10-22T10:54"
    },
    "tgs": {
     "weather": {
      "text": "\"WINTER WORLD SERIES\" \n \"PLAYERS WILL HAVE THE OPPORUNTIY TO QUALIFY FOR THE ALL-AMERICAN TOP (100) SKILLS PROSPECT COMBINE\" \n \"WORLD SERIES GAME CHANGER STATS WILL QUALIFY PLAYERS OUT OF THIS EVENT TO BE ELIGIBLE FOR THE TOP (100) PLAYERS TAKEN EACH YEAR TO THE BASEBALL COMBINE\" \n \"STATS FOR THE ANALYTICS WILL BE POSTED ON OUR PLAYER PROFILE PAGES FOR COLLEGE COACHES TO VIEW AT THE COMBINE\" \n \"TOP GUN-USA WILL ALSO HAVE AND ALL-STAR GAME ON SUNDAY AFTERNOON RECOGNIZING OUR TOP (24) PLAYERS PER AGE DIVISION\"",
-     "when": "2026-10-12T15:07:00.000Z"
+     "when": "2026-10-22T07:46:00.000Z"
     },
     "general": {
-     "text": "\"WINTER WORLD SERIES\" \n \"PLAYERS WILL HAVE THE OPPORUNTIY TO QUALIFY FOR THE ALL-AMERICAN TOP (100) SKILLS PROSPECT COMBINE\" \n \"WORLD SERIES GAME CHANGER STATS WILL QUALIFY PLAYERS OUT OF THIS EVENT TO BE ELIGIBLE FOR THE TOP (100) PLAYERS TAKEN EACH YEAR TO THE BASEBALL COMBINE\" \n \"STATS FOR THE ANALYTICS WILL BE POSTED ON OUR PLAYER PROFILE PAGES FOR COLLEGE COACHES TO VIEW AT THE COMBINE\" \n \"TOP GUN-USA WILL ALSO HAVE AND ALL-STAR GAME ON SUNDAY AFTERNOON RECOGNIZING OUR TOP (24) PLAYERS PER AGE DIVISION\"",
-     "when": "2026-10-12T15:07:00.000Z"
+     "text": "\"Marvin Ridge High School is cashless, Card only @ Marvin Ridge HS!\" \n No Seeds, No Gum, Steel Cleats @ CaroMont Health Park, Catawba Park, Combine Academy, Buck Fraley, Hinson-Core, & all Turf mounds \n Greater Charlotte Gate Fees Kindergarten & Under $0.00 \n 1st - 8th grades $10.00 \n 9th Grade Up\u00a0 $12.00 \n We accept Cash, Debit, Credit Cards & Apple Pay at the gates. You will be charged a convenience fee when using these methods of payment with the exception of cash. \n \"WINTER WORLD SERIES\" \n \"PLAYERS WILL HAVE THE OPPORUNTIY TO QUALIFY FOR THE ALL-AMERICAN TOP (100) SKILLS PROSPECT COMBINE\" \n \"WORLD SERIES GAME CHANGER STATS WILL QUALIFY PLAYERS OUT OF THIS EVENT TO BE ELIGIBLE FOR THE TOP (100) PLAYERS TAKEN EACH YEAR TO THE BASEBALL COMBINE\" \n \"STATS FOR THE ANALYTICS WILL BE POSTED ON OUR PLAYER PROFILE PAGES FOR COLLEGE COACHES TO VIEW AT THE COMBINE\" \n \"TOP GUN-USA WILL ALSO HAVE AND ALL-STAR GAME ON SUNDAY AFTERNOON RECOGNIZING OUR TOP (24) PLAYERS PER AGE DIVISION\"",
+     "when": "2026-10-22T07:46:00.000Z"
     },
     "awards": "2026 TOP GUN WINTER WORLD SERIES---------THIS WEEKEND PLAYERS WILL QUALIFY FOR THE TOP (100) COMBINE ------ALL WINNING AND RUNNER UP TEAMS WILL RECEIVE (12) TOP GUN-USA WORLD SERIES CUSTOM MADE JUMBO RINGS--------PLUS THE CHAMPIONS RECEIVES THE WORLD LARGEST 20 INCH PLAQUE AND THE RUNNER UP TEAMS RECEIVE THE 18 INCH PLAQUE, PLUS WORLD SERIES CUSTOM MADE BANNERS----SUPER TOP 40 PINK QUALIFIER---------THIS EVENT WILL QUALIFY ALL 10U, 11U, 12U, TEAMS TO THE 2027 TOP GUN-USA SHIPYARD TOP 40 EVENTS IN 2027.",
-    "teams_registered": 179,
+    "teams_registered": 180,
     "games_scheduled": false,
     "complexes": [
      {
@@ -6813,6 +6843,10 @@
      {
       "name": "Dallas Park",
       "location": "1303 Dallas-Cherryville Highwa Dallas, NC 28034"
+     },
+     {
+      "name": "Ferguson Park",
+      "location": "1401 Golf Course Drive Gastonia, NC 28054"
      },
      {
       "name": "Greater Charlotte Area",
@@ -6924,23 +6958,792 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-22T05:12",
+    "fetched_at": "2026-10-22T10:54",
     "url": "https://topgunstats.com/whos-playing/12522"
    },
-   "name": "Southeastern Winter World Series",
+   "name": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
    "dates": "October 24 - 25 in Greater Charlotte Area, NC",
    "date": "2026-10-24",
    "url": "https://playtopgunsports.com/GameTimesResults.aspx?trnid=12522",
-   "posted": false,
-   "games": [],
-   "standings": [],
-   "mine": [],
-   "next_game": null,
-   "schedule_versions": 0,
-   "schedule_first": null,
-   "schedule_updated": null,
+   "posted": true,
+   "games": [
+    {
+     "section": "Pool Play",
+     "game": 1,
+     "day": "Sat",
+     "time": "8:30 AM",
+     "date": "2026-10-24",
+     "field": "Mazeppa:Field # 2",
+     "team_a": "Dirtbags Baseball ESB",
+     "seed_a": null,
+     "score_a": null,
+     "from_a": null,
+     "team_b": "Carolina Regulators 9u",
+     "seed_b": null,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Pool Play",
+     "game": 2,
+     "day": "Sat",
+     "time": "8:30 AM",
+     "date": "2026-10-24",
+     "field": "Mazeppa:Field # 3",
+     "team_a": "Red Clay Athletics 9U Darcangelo",
+     "seed_a": null,
+     "score_a": null,
+     "from_a": null,
+     "team_b": "LKN Lightning - Ogburn",
+     "seed_b": null,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Pool Play",
+     "game": 3,
+     "day": "Sat",
+     "time": "8:30 AM",
+     "date": "2026-10-24",
+     "field": "SP:Field #1",
+     "team_a": "BOILING SPRINGS BULLDOGS BASEBALL 8u",
+     "seed_a": null,
+     "score_a": null,
+     "from_a": null,
+     "team_b": "Hooligans",
+     "seed_b": null,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Pool Play",
+     "game": 4,
+     "day": "Sat",
+     "time": "10:15 AM",
+     "date": "2026-10-24",
+     "field": "Mazeppa:Field # 2",
+     "team_a": "Dirtbags Baseball ESB",
+     "seed_a": null,
+     "score_a": null,
+     "from_a": null,
+     "team_b": "Red Clay Athletics 9U Darcangelo",
+     "seed_b": null,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Pool Play",
+     "game": 5,
+     "day": "Sat",
+     "time": "10:15 AM",
+     "date": "2026-10-24",
+     "field": "Mazeppa:Field # 3",
+     "team_a": "Carolina Regulators 9u",
+     "seed_a": null,
+     "score_a": null,
+     "from_a": null,
+     "team_b": "LKN Lightning - Ogburn",
+     "seed_b": null,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Pool Play",
+     "game": 6,
+     "day": "Sat",
+     "time": "10:15 AM",
+     "date": "2026-10-24",
+     "field": "SP:Field #1",
+     "team_a": "BOILING SPRINGS BULLDOGS BASEBALL 8u",
+     "seed_a": null,
+     "score_a": null,
+     "from_a": null,
+     "team_b": "Elite 9",
+     "seed_b": null,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Pool Play",
+     "game": 7,
+     "day": "Sat",
+     "time": "12:00 PM",
+     "date": "2026-10-24",
+     "field": "Mazeppa:Field # 2",
+     "team_a": "Carolina Trash Pandas",
+     "seed_a": null,
+     "score_a": null,
+     "from_a": null,
+     "team_b": "Diamond Jaxx",
+     "seed_b": null,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Pool Play",
+     "game": 8,
+     "day": "Sat",
+     "time": "12:00 PM",
+     "date": "2026-10-24",
+     "field": "Mazeppa:Field # 3",
+     "team_a": "Athletes Lab 9U Navy- Stewart",
+     "seed_a": null,
+     "score_a": null,
+     "from_a": null,
+     "team_b": "Dirtbags Shook",
+     "seed_b": null,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Pool Play",
+     "game": 9,
+     "day": "Sat",
+     "time": "12:00 PM",
+     "date": "2026-10-24",
+     "field": "SP:Field #1",
+     "team_a": "Hooligans",
+     "seed_a": null,
+     "score_a": null,
+     "from_a": null,
+     "team_b": "Elite 9",
+     "seed_b": null,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Pool Play",
+     "game": 10,
+     "day": "Sat",
+     "time": "1:45 PM",
+     "date": "2026-10-24",
+     "field": "Mazeppa:Field # 2",
+     "team_a": "Carolina Trash Pandas",
+     "seed_a": null,
+     "score_a": null,
+     "from_a": null,
+     "team_b": "MARA Stingers",
+     "seed_b": null,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Pool Play",
+     "game": 11,
+     "day": "Sat",
+     "time": "1:45 PM",
+     "date": "2026-10-24",
+     "field": "Mazeppa:Field # 3",
+     "team_a": "NL Destroyers 2036",
+     "seed_a": null,
+     "score_a": null,
+     "from_a": null,
+     "team_b": "Dirtbags Shook",
+     "seed_b": null,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Pool Play",
+     "game": 12,
+     "day": "Sat",
+     "time": "1:45 PM",
+     "date": "2026-10-24",
+     "field": "SP:Field #1",
+     "team_a": "Lake Wylie Venom",
+     "seed_a": null,
+     "score_a": null,
+     "from_a": null,
+     "team_b": "LumberJacks",
+     "seed_b": null,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Pool Play",
+     "game": 13,
+     "day": "Sat",
+     "time": "3:30 PM",
+     "date": "2026-10-24",
+     "field": "Mazeppa:Field # 2",
+     "team_a": "Diamond Jaxx",
+     "seed_a": null,
+     "score_a": null,
+     "from_a": null,
+     "team_b": "Knuckleheads CBC",
+     "seed_b": null,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Pool Play",
+     "game": 14,
+     "day": "Sat",
+     "time": "3:30 PM",
+     "date": "2026-10-24",
+     "field": "Mazeppa:Field # 3",
+     "team_a": "Athletes Lab 9U Navy- Stewart",
+     "seed_a": null,
+     "score_a": null,
+     "from_a": null,
+     "team_b": "Concord Athletics -9U",
+     "seed_b": null,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Pool Play",
+     "game": 15,
+     "day": "Sat",
+     "time": "3:30 PM",
+     "date": "2026-10-24",
+     "field": "SP:Field #1",
+     "team_a": "Lake Wylie Venom",
+     "seed_a": null,
+     "score_a": null,
+     "from_a": null,
+     "team_b": "Carolina Elevate",
+     "seed_b": null,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Pool Play",
+     "game": 16,
+     "day": "Sat",
+     "time": "5:15 PM",
+     "date": "2026-10-24",
+     "field": "Mazeppa:Field # 2",
+     "team_a": "MARA Stingers",
+     "seed_a": null,
+     "score_a": null,
+     "from_a": null,
+     "team_b": "Knuckleheads CBC",
+     "seed_b": null,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Pool Play",
+     "game": 17,
+     "day": "Sat",
+     "time": "5:15 PM",
+     "date": "2026-10-24",
+     "field": "Mazeppa:Field # 3",
+     "team_a": "NL Destroyers 2036",
+     "seed_a": null,
+     "score_a": null,
+     "from_a": null,
+     "team_b": "Concord Athletics -9U",
+     "seed_b": null,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Pool Play",
+     "game": 18,
+     "day": "Sat",
+     "time": "5:15 PM",
+     "date": "2026-10-24",
+     "field": "SP:Field #1",
+     "team_a": "LumberJacks",
+     "seed_a": null,
+     "score_a": null,
+     "from_a": null,
+     "team_b": "Carolina Elevate",
+     "seed_b": null,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Gold Bracket",
+     "game": 1,
+     "day": "Sun",
+     "time": "9:00 AM",
+     "date": "2026-10-25",
+     "field": "Bradford:Field # 1",
+     "team_a": "",
+     "seed_a": 4,
+     "score_a": null,
+     "from_a": null,
+     "team_b": "",
+     "seed_b": 5,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Gold Bracket",
+     "game": 2,
+     "day": "Sun",
+     "time": "11:00 AM",
+     "date": "2026-10-25",
+     "field": "Bradford:Field # 1",
+     "team_a": "",
+     "seed_a": 2,
+     "score_a": null,
+     "from_a": null,
+     "team_b": "",
+     "seed_b": 3,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Gold Bracket",
+     "game": 3,
+     "day": "Sun",
+     "time": "1:00 PM",
+     "date": "2026-10-25",
+     "field": "Bradford:Field # 1",
+     "team_a": "Winner Game #1",
+     "seed_a": null,
+     "score_a": null,
+     "from_a": {
+      "type": "winner",
+      "game": 1
+     },
+     "team_b": "",
+     "seed_b": 1,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Gold Bracket",
+     "game": 4,
+     "day": "Sun",
+     "time": "3:00 PM",
+     "date": "2026-10-25",
+     "field": "Bradford:Field # 1",
+     "team_a": "Winner Game #2",
+     "seed_a": null,
+     "score_a": null,
+     "from_a": {
+      "type": "winner",
+      "game": 2
+     },
+     "team_b": "Winner Game #3",
+     "seed_b": null,
+     "score_b": null,
+     "from_b": {
+      "type": "winner",
+      "game": 3
+     }
+    },
+    {
+     "section": "Silver Bracket",
+     "game": 1,
+     "day": "Sun",
+     "time": "9:00 AM",
+     "date": "2026-10-25",
+     "field": "Bradford:Field # 2",
+     "team_a": "",
+     "seed_a": 9,
+     "score_a": null,
+     "from_a": null,
+     "team_b": "",
+     "seed_b": 10,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Silver Bracket",
+     "game": 2,
+     "day": "Sun",
+     "time": "11:00 AM",
+     "date": "2026-10-25",
+     "field": "Bradford:Field # 2",
+     "team_a": "",
+     "seed_a": 7,
+     "score_a": null,
+     "from_a": null,
+     "team_b": "",
+     "seed_b": 8,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Silver Bracket",
+     "game": 3,
+     "day": "Sun",
+     "time": "1:00 PM",
+     "date": "2026-10-25",
+     "field": "Bradford:Field # 2",
+     "team_a": "Winner Game #1",
+     "seed_a": null,
+     "score_a": null,
+     "from_a": {
+      "type": "winner",
+      "game": 1
+     },
+     "team_b": "",
+     "seed_b": 6,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Silver Bracket",
+     "game": 4,
+     "day": "Sun",
+     "time": "3:00 PM",
+     "date": "2026-10-25",
+     "field": "Bradford:Field # 2",
+     "team_a": "Winner Game #2",
+     "seed_a": null,
+     "score_a": null,
+     "from_a": {
+      "type": "winner",
+      "game": 2
+     },
+     "team_b": "Winner Game #3",
+     "seed_b": null,
+     "score_b": null,
+     "from_b": {
+      "type": "winner",
+      "game": 3
+     }
+    },
+    {
+     "section": "Bronze Bracket",
+     "game": 1,
+     "day": "Sun",
+     "time": "9:00 AM",
+     "date": "2026-10-25",
+     "field": "Bradford:Field # 3",
+     "team_a": "",
+     "seed_a": 11,
+     "score_a": null,
+     "from_a": null,
+     "team_b": "",
+     "seed_b": 14,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Bronze Bracket",
+     "game": 2,
+     "day": "Sun",
+     "time": "11:00 AM",
+     "date": "2026-10-25",
+     "field": "Bradford:Field # 3",
+     "team_a": "",
+     "seed_a": 12,
+     "score_a": null,
+     "from_a": null,
+     "team_b": "",
+     "seed_b": 13,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Bronze Bracket",
+     "game": 3,
+     "day": "Sun",
+     "time": "1:00 PM",
+     "date": "2026-10-25",
+     "field": "Bradford:Field # 3",
+     "team_a": "Winner Game #1",
+     "seed_a": null,
+     "score_a": null,
+     "from_a": {
+      "type": "winner",
+      "game": 1
+     },
+     "team_b": "Winner Game #2",
+     "seed_b": null,
+     "score_b": null,
+     "from_b": {
+      "type": "winner",
+      "game": 2
+     }
+    },
+    {
+     "section": "Copper Bracket",
+     "game": 1,
+     "day": "Sun",
+     "time": "9:00 AM",
+     "date": "2026-10-25",
+     "field": "Bradford:Field # 4",
+     "team_a": "",
+     "seed_a": 15,
+     "score_a": null,
+     "from_a": null,
+     "team_b": "",
+     "seed_b": 18,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Copper Bracket",
+     "game": 2,
+     "day": "Sun",
+     "time": "11:00 AM",
+     "date": "2026-10-25",
+     "field": "Bradford:Field # 4",
+     "team_a": "",
+     "seed_a": 16,
+     "score_a": null,
+     "from_a": null,
+     "team_b": "",
+     "seed_b": 17,
+     "score_b": null,
+     "from_b": null
+    },
+    {
+     "section": "Copper Bracket",
+     "game": 3,
+     "day": "Sun",
+     "time": "1:00 PM",
+     "date": "2026-10-25",
+     "field": "Bradford:Field # 4",
+     "team_a": "Winner Game #1",
+     "seed_a": null,
+     "score_a": null,
+     "from_a": {
+      "type": "winner",
+      "game": 1
+     },
+     "team_b": "Winner Game #2",
+     "seed_b": null,
+     "score_b": null,
+     "from_b": {
+      "type": "winner",
+      "game": 2
+     }
+    }
+   ],
+   "standings": [
+    {
+     "seed": 1,
+     "team": "NL Destroyers 2036",
+     "location": "Denver, NC",
+     "won": 0,
+     "lost": 0,
+     "runs_allowed": 0,
+     "runs_scored": 0,
+     "team_page_id": null
+    },
+    {
+     "seed": 2,
+     "team": "Hooligans",
+     "location": "Mount Holly, NC",
+     "won": 0,
+     "lost": 0,
+     "runs_allowed": 0,
+     "runs_scored": 0,
+     "team_page_id": null
+    },
+    {
+     "seed": 3,
+     "team": "LumberJacks",
+     "location": "Gaston County, NC",
+     "won": 0,
+     "lost": 0,
+     "runs_allowed": 0,
+     "runs_scored": 0,
+     "team_page_id": null
+    },
+    {
+     "seed": 4,
+     "team": "Carolina Trash Pandas",
+     "location": "Locust, NC",
+     "won": 0,
+     "lost": 0,
+     "runs_allowed": 0,
+     "runs_scored": 0,
+     "team_page_id": null
+    },
+    {
+     "seed": 5,
+     "team": "Red Clay Athletics 9U Darcangelo",
+     "location": "Charlotte, NC",
+     "won": 0,
+     "lost": 0,
+     "runs_allowed": 0,
+     "runs_scored": 0,
+     "team_page_id": null
+    },
+    {
+     "seed": 6,
+     "team": "Dirtbags Baseball ESB",
+     "location": "Lincolnton, NC",
+     "won": 0,
+     "lost": 0,
+     "runs_allowed": 0,
+     "runs_scored": 0,
+     "team_page_id": null
+    },
+    {
+     "seed": 7,
+     "team": "Elite 9",
+     "location": "Rock Hill, SC",
+     "won": 0,
+     "lost": 0,
+     "runs_allowed": 0,
+     "runs_scored": 0,
+     "team_page_id": null
+    },
+    {
+     "seed": 8,
+     "team": "Carolina Regulators 9u",
+     "location": "Stanley, NC",
+     "won": 0,
+     "lost": 0,
+     "runs_allowed": 0,
+     "runs_scored": 0,
+     "team_page_id": null
+    },
+    {
+     "seed": 9,
+     "team": "Carolina Elevate",
+     "location": "Lenoir, NC",
+     "won": 0,
+     "lost": 0,
+     "runs_allowed": 0,
+     "runs_scored": 0,
+     "team_page_id": null
+    },
+    {
+     "seed": 10,
+     "team": "Dirtbags Shook",
+     "location": "Claremont, NC",
+     "won": 0,
+     "lost": 0,
+     "runs_allowed": 0,
+     "runs_scored": 0,
+     "team_page_id": null
+    },
+    {
+     "seed": 11,
+     "team": "Knuckleheads CBC",
+     "location": "Clover, SC",
+     "won": 0,
+     "lost": 0,
+     "runs_allowed": 0,
+     "runs_scored": 0,
+     "team_page_id": null
+    },
+    {
+     "seed": 12,
+     "team": "Diamond Jaxx",
+     "location": "Pinehurst, NC",
+     "won": 0,
+     "lost": 0,
+     "runs_allowed": 0,
+     "runs_scored": 0,
+     "team_page_id": null
+    },
+    {
+     "seed": 13,
+     "team": "Concord Athletics -9U",
+     "location": "Concord, NC",
+     "won": 0,
+     "lost": 0,
+     "runs_allowed": 0,
+     "runs_scored": 0,
+     "team_page_id": null
+    },
+    {
+     "seed": 14,
+     "team": "MARA Stingers",
+     "location": "Matthews, NC",
+     "won": 0,
+     "lost": 0,
+     "runs_allowed": 0,
+     "runs_scored": 0,
+     "team_page_id": null
+    },
+    {
+     "seed": 15,
+     "team": "Athletes Lab 9U Navy- Stewart",
+     "location": "Maiden, NC",
+     "won": 0,
+     "lost": 0,
+     "runs_allowed": 0,
+     "runs_scored": 0,
+     "team_page_id": null
+    },
+    {
+     "seed": 16,
+     "team": "LKN Lightning - Ogburn",
+     "location": "Huntersville, NC",
+     "won": 0,
+     "lost": 0,
+     "runs_allowed": 0,
+     "runs_scored": 0,
+     "team_page_id": null
+    },
+    {
+     "seed": 17,
+     "team": "BOILING SPRINGS BULLDOGS BASEBALL 8u",
+     "location": "Boiling Springs, NC",
+     "won": 0,
+     "lost": 0,
+     "runs_allowed": 0,
+     "runs_scored": 0,
+     "team_page_id": null
+    },
+    {
+     "seed": 18,
+     "team": "Lake Wylie Venom",
+     "location": "Lake Wylie, SC",
+     "won": 0,
+     "lost": 0,
+     "runs_allowed": 0,
+     "runs_scored": 0,
+     "team_page_id": null
+    }
+   ],
+   "mine": [
+    {
+     "event_id": 12522,
+     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
+     "date": "2026-10-24",
+     "day": "Sat",
+     "time": "10:15 AM",
+     "field": "SP:Field #1",
+     "section": "Pool Play",
+     "game": 6,
+     "opponent": "BOILING SPRINGS BULLDOGS BASEBALL 8u",
+     "rs": null,
+     "ra": null,
+     "result": null,
+     "gc_id": null
+    },
+    {
+     "event_id": 12522,
+     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
+     "date": "2026-10-24",
+     "day": "Sat",
+     "time": "12:00 PM",
+     "field": "SP:Field #1",
+     "section": "Pool Play",
+     "game": 9,
+     "opponent": "Hooligans",
+     "rs": null,
+     "ra": null,
+     "result": null,
+     "gc_id": null
+    }
+   ],
+   "next_game": {
+    "event_id": 12522,
+    "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
+    "date": "2026-10-24",
+    "day": "Sat",
+    "time": "10:15 AM",
+    "field": "SP:Field #1",
+    "section": "Pool Play",
+    "game": 6,
+    "opponent": "BOILING SPRINGS BULLDOGS BASEBALL 8u",
+    "rs": null,
+    "ra": null,
+    "result": null,
+    "gc_id": null
+   },
+   "schedule_versions": 1,
+   "schedule_first": "2026-10-22T10:54",
+   "schedule_updated": "2026-10-22T10:54",
    "changes": [],
-   "ics": null
+   "ics": "ics/12522.ics"
   },
   {
    "id": 12524,
@@ -6956,7 +7759,7 @@
     "team": {
      "entered": false
     },
-    "fetched_at": "2026-10-22T05:12"
+    "fetched_at": "2026-10-22T10:54"
    },
    "tgs": {
     "weather": null,
@@ -7010,7 +7813,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-22T05:12",
+    "fetched_at": "2026-10-22T10:54",
     "url": "https://topgunstats.com/whos-playing/12524"
    },
    "name": "Road Runner vs Coyote ring weekend",
@@ -13498,6 +14301,10 @@
    "name": "Combine Academy",
    "address": "270 Car Farm Rd. Lincolnton, NC 28092"
   },
+  "CMHP": {
+   "name": "CaroMont Health Park",
+   "address": "800 W. Franklin Blvd Gastonia, NC 28052"
+  },
   "Charlotte": {
    "name": "Greater Charlotte Area",
    "address": "TBA Greater Charlotte Area, NC 28262"
@@ -13513,6 +14320,10 @@
   "DYC": {
    "name": "Davie Youth Complex",
    "address": "599 Farmington Rd Mocksville, NC 27028"
+  },
+  "Dallas": {
+   "name": "Dallas Park",
+   "address": "1303 Dallas-Cherryville Highwa Dallas, NC 28034"
   },
   "Doby": {
    "name": "Doby Bridge Park",
