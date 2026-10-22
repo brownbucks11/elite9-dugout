@@ -9,8 +9,164 @@
       "address": "599 Farmington Rd Mocksville, NC 27028"
     }
   },
-  "divisions": {},
+  "divisions": {
+    "12U": {
+      "notes": [],
+      "standings": [
+        {
+          "seed": 1,
+          "team": "East Rowan 12u",
+          "location": "Rowan County, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 2,
+          "team": "Crowns Baseball",
+          "location": "Indian Trail, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 3,
+          "team": "Athletes Lab White 11U",
+          "location": "Maiden, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 4,
+          "team": "Triad Cardinals 12u",
+          "location": "Kernersville, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 5,
+          "team": "Flying Pigs Lexington 12U",
+          "location": "LINWOOD, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 6,
+          "team": "DC Yard Goats 12U",
+          "location": "Winston-Salem, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        }
+      ],
+      "sections": {
+        "Pool Play": [
+          {
+            "game": 1,
+            "day": "Fri",
+            "time": "6:00 PM",
+            "field": "DYC:Bird Co Field",
+            "team_a": "Triad Cardinals 12u",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "DC Yard Goats 12U",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 2,
+            "day": "Fri",
+            "time": "6:00 PM",
+            "field": "DYC:Farm Bureau",
+            "team_a": "Flying Pigs Lexington 12U",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Crowns Baseball",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 3,
+            "day": "Fri",
+            "time": "6:00 PM",
+            "field": "DYC:K&W Service",
+            "team_a": "Athletes Lab White 11U",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "East Rowan 12u",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 4,
+            "day": "Fri",
+            "time": "7:30 PM",
+            "field": "DYC:Bird Co Field",
+            "team_a": "Triad Cardinals 12u",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Flying Pigs Lexington 12U",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 5,
+            "day": "Fri",
+            "time": "7:30 PM",
+            "field": "DYC:Farm Bureau",
+            "team_a": "Athletes Lab White 11U",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "DC Yard Goats 12U",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 6,
+            "day": "Fri",
+            "time": "7:30 PM",
+            "field": "DYC:K&W Service",
+            "team_a": "Crowns Baseball",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "East Rowan 12u",
+            "seed_b": null,
+            "score_b": null
+          }
+        ],
+        "Gold Bracket": [
+          {
+            "game": 1,
+            "day": "Fri",
+            "time": "9:00 PM",
+            "field": "DYC:K&W Service",
+            "team_a": "#1 Seed",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "#2 Seed",
+            "seed_b": null,
+            "score_b": null
+          }
+        ]
+      }
+    }
+  },
   "site_last_updated": "07/22/2026 3:39 PM",
   "tournament_id": 13628,
-  "fetched_at": "2026-10-21T16:24"
+  "fetched_at": "2026-10-21T21:01"
 }
