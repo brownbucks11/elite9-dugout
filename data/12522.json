@@ -228,6 +228,18 @@
             "game": 5,
             "day": "Sat",
             "time": "2:00 PM",
+            "field": "Westmoreld:Field 1",
+            "team_a": "NC Made 8U Blue",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "LKN Bolts",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 6,
+            "day": "Sat",
+            "time": "2:00 PM",
             "field": "Westmoreld:Field 4",
             "team_a": "Tega Cay Titans 8u",
             "seed_a": null,
@@ -237,7 +249,19 @@
             "score_b": null
           },
           {
-            "game": 6,
+            "game": 7,
+            "day": "Sat",
+            "time": "3:15 PM",
+            "field": "Westmoreld:Field 1",
+            "team_a": "NC Made 8U Blue",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Carolina Smoke 8u",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 8,
             "day": "Sat",
             "time": "3:15 PM",
             "field": "Westmoreld:Field 4",
@@ -249,35 +273,11 @@
             "score_b": null
           },
           {
-            "game": 7,
-            "day": "Sat",
-            "time": "3:30 PM",
-            "field": "Westmoreld:Field 1",
-            "team_a": "NC Made 8U Blue",
-            "seed_a": null,
-            "score_a": null,
-            "team_b": "LKN Bolts",
-            "seed_b": null,
-            "score_b": null
-          },
-          {
-            "game": 8,
-            "day": "Sat",
-            "time": "4:30 PM",
-            "field": "Westmoreld:Field 4",
-            "team_a": "Carolina Rapid Fire \ud83d\udd25 8U (BLACK)",
-            "seed_a": null,
-            "score_a": null,
-            "team_b": "BP3 Ruff Ryderz NC 8U",
-            "seed_b": null,
-            "score_b": null
-          },
-          {
             "game": 9,
             "day": "Sat",
-            "time": "4:45 PM",
+            "time": "4:30 PM",
             "field": "Westmoreld:Field 1",
-            "team_a": "NC Made 8U Blue",
+            "team_a": "LKN Bolts",
             "seed_a": null,
             "score_a": null,
             "team_b": "Carolina Smoke 8u",
@@ -287,12 +287,12 @@
           {
             "game": 10,
             "day": "Sat",
-            "time": "6:00 PM",
-            "field": "Westmoreld:Field 1",
-            "team_a": "LKN Bolts",
+            "time": "4:30 PM",
+            "field": "Westmoreld:Field 4",
+            "team_a": "Carolina Rapid Fire \ud83d\udd25 8U (BLACK)",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Carolina Smoke 8u",
+            "team_b": "BP3 Ruff Ryderz NC 8U",
             "seed_b": null,
             "score_b": null
           }
@@ -1435,7 +1435,7 @@
             "day": "Sat",
             "time": "12:00 PM",
             "field": "Westmoreld:Field 1",
-            "team_a": "Tega Cay Titans",
+            "team_a": "LKN Kingdom",
             "seed_a": null,
             "score_a": null,
             "team_b": "SBA Lake Norman Thunder - White",
@@ -1462,7 +1462,7 @@
             "team_a": "Stingers 10",
             "seed_a": null,
             "score_a": null,
-            "team_b": "PeeDee Mudcats",
+            "team_b": "Carolina Hit Stix",
             "seed_b": null,
             "score_b": null
           },
@@ -1482,40 +1482,28 @@
             "game": 13,
             "day": "Sat",
             "time": "1:45 PM",
-            "field": "Westmoreld:Field 1",
-            "team_a": "Tega Cay Titans",
+            "field": "Westmoreld:Field 2",
+            "team_a": "Red Clay Athletics 10U Latimer",
             "seed_a": null,
             "score_a": null,
-            "team_b": "LKN Kingdom",
+            "team_b": "Tega Cay Titans",
             "seed_b": null,
             "score_b": null
           },
           {
             "game": 14,
             "day": "Sat",
-            "time": "1:45 PM",
-            "field": "Westmoreld:Field 2",
-            "team_a": "Red Clay Athletics 10U Latimer",
+            "time": "3:30 PM",
+            "field": "Doby:Doby 3",
+            "team_a": "PeeDee Mudcats",
             "seed_a": null,
             "score_a": null,
-            "team_b": "SBA Lake Norman Thunder - Blue",
+            "team_b": "Elite9 10u",
             "seed_b": null,
             "score_b": null
           },
           {
             "game": 15,
-            "day": "Sat",
-            "time": "3:30 PM",
-            "field": "Doby:Doby 3",
-            "team_a": "Carolina Hit Stix",
-            "seed_a": null,
-            "score_a": null,
-            "team_b": "Sandlot Baseball",
-            "seed_b": null,
-            "score_b": null
-          },
-          {
-            "game": 16,
             "day": "Sat",
             "time": "3:30 PM",
             "field": "SP:Field #3",
@@ -1527,19 +1515,19 @@
             "score_b": null
           },
           {
-            "game": 17,
+            "game": 16,
             "day": "Sat",
             "time": "3:30 PM",
             "field": "Westmoreld:Field 2",
             "team_a": "Carolina Ghost 10u",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Lincoln County Warriors",
+            "team_b": "Tega Cay Titans",
             "seed_b": null,
             "score_b": null
           },
           {
-            "game": 18,
+            "game": 17,
             "day": "Sat",
             "time": "5:15 PM",
             "field": "Doby:Doby 3",
@@ -1551,7 +1539,7 @@
             "score_b": null
           },
           {
-            "game": 19,
+            "game": 18,
             "day": "Sat",
             "time": "5:15 PM",
             "field": "SP:Field #3",
@@ -1563,7 +1551,7 @@
             "score_b": null
           },
           {
-            "game": 20,
+            "game": 19,
             "day": "Sat",
             "time": "5:15 PM",
             "field": "Westmoreld:Field 2",
@@ -1575,19 +1563,19 @@
             "score_b": null
           },
           {
-            "game": 21,
+            "game": 20,
             "day": "Sat",
-            "time": "7:00 PM",
-            "field": "Doby:Doby 3",
-            "team_a": "Sandlot Baseball",
+            "time": "5:15 PM",
+            "field": "Westmoreld:Field 3",
+            "team_a": "Lincoln County Warriors",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Elite9 10u",
+            "team_b": "Sandlot Baseball",
             "seed_b": null,
             "score_b": null
           },
           {
-            "game": 22,
+            "game": 21,
             "day": "Sat",
             "time": "7:00 PM",
             "field": "SP:Field #3",
@@ -1599,7 +1587,7 @@
             "score_b": null
           },
           {
-            "game": 23,
+            "game": 22,
             "day": "Sat",
             "time": "7:00 PM",
             "field": "Westmoreld:Field 2",
@@ -1607,6 +1595,18 @@
             "seed_a": null,
             "score_a": null,
             "team_b": "Copperheads Red",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 23,
+            "day": "Sat",
+            "time": "7:00 PM",
+            "field": "Westmoreld:Field 3",
+            "team_a": "SBA Lake Norman Thunder - Blue",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Sandlot Baseball",
             "seed_b": null,
             "score_b": null
           }
@@ -1804,7 +1804,7 @@
             "game": 1,
             "day": "Sun",
             "time": "9:00 AM",
-            "field": "SP:Field #1",
+            "field": "SP:Field #3",
             "team_a": "",
             "seed_a": 20,
             "score_a": null,
@@ -1816,7 +1816,7 @@
             "game": 2,
             "day": "Sun",
             "time": "9:00 AM",
-            "field": "SP:Field #3",
+            "field": "SP:Field #1",
             "team_a": "",
             "seed_a": 21,
             "score_a": null,
@@ -1828,7 +1828,7 @@
             "game": 3,
             "day": "Sun",
             "time": "11:00 AM",
-            "field": "SP:Field #1",
+            "field": "SP:Field #3",
             "team_a": "Winner Game #1",
             "seed_a": null,
             "score_a": null,
@@ -2303,7 +2303,7 @@
             "team_a": "VA Bombers- Huddleston",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Carolina Locos Black",
+            "team_b": "Camel City",
             "seed_b": null,
             "score_b": null
           },
@@ -2360,10 +2360,10 @@
             "day": "Sat",
             "time": "5:15 PM",
             "field": "Doby:Doby 2",
-            "team_a": "Carolina Diamond Crushers",
+            "team_a": "Carolina Mayhem",
             "seed_a": null,
             "score_a": null,
-            "team_b": "MP Bombers 11U",
+            "team_b": "Carolina Diamond Crushers",
             "seed_b": null,
             "score_b": null
           },
@@ -2375,7 +2375,7 @@
             "team_a": "Tega Cay Titans",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Camel City",
+            "team_b": "MP Bombers 11U",
             "seed_b": null,
             "score_b": null
           },
@@ -2395,11 +2395,11 @@
             "game": 19,
             "day": "Sat",
             "time": "7:00 PM",
-            "field": "Doby:Doby 2",
-            "team_a": "Carolina Mayhem",
+            "field": "Tega Cay:Field 1",
+            "team_a": "Tega Cay Titans",
             "seed_a": null,
             "score_a": null,
-            "team_b": "MP Bombers 11U",
+            "team_b": "Carolina Locos Black",
             "seed_b": null,
             "score_b": null
           },
@@ -2407,8 +2407,8 @@
             "game": 20,
             "day": "Sat",
             "time": "7:00 PM",
-            "field": "Tega Cay:Field 1",
-            "team_a": "Tega Cay Titans",
+            "field": "Tega Cay:Field 2",
+            "team_a": "MP Bombers 11U",
             "seed_a": null,
             "score_a": null,
             "team_b": "Carolina Forge 11U",
@@ -5037,5 +5037,5 @@
   },
   "site_last_updated": "10/22/2026 7:46 AM",
   "tournament_id": 12522,
-  "fetched_at": "2026-10-22T13:30"
+  "fetched_at": "2026-10-22T15:04"
 }
