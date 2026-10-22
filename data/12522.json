@@ -542,7 +542,7 @@
         },
         {
           "seed": 11,
-          "team": "Knuckleheads CBC",
+          "team": "ZT Knuckleheads",
           "location": "Clover, SC",
           "won": 0,
           "lost": 0,
@@ -775,7 +775,7 @@
             "team_a": "Diamond Jaxx",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Knuckleheads CBC",
+            "team_b": "ZT Knuckleheads",
             "seed_b": null,
             "score_b": null
           },
@@ -811,7 +811,7 @@
             "team_a": "MARA Stingers",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Knuckleheads CBC",
+            "team_b": "ZT Knuckleheads",
             "seed_b": null,
             "score_b": null
           },
@@ -1083,7 +1083,7 @@
         },
         {
           "seed": 7,
-          "team": "Knothole Knuckleheads CBC",
+          "team": "ZT Knuckleheads",
           "location": "Clover, SC",
           "won": 0,
           "lost": 0,
@@ -1844,16 +1844,6 @@
       "standings": [
         {
           "seed": 1,
-          "team": "CC Cardinals 11U",
-          "location": "Shelby, NC",
-          "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
-          "team_page_id": null
-        },
-        {
-          "seed": 2,
           "team": "Weddington Warriors",
           "location": "Weddington, NC",
           "won": 0,
@@ -1863,7 +1853,7 @@
           "team_page_id": null
         },
         {
-          "seed": 3,
+          "seed": 2,
           "team": "SC Tide - Scanlin",
           "location": "Clover, SC",
           "won": 0,
@@ -1873,7 +1863,7 @@
           "team_page_id": null
         },
         {
-          "seed": 4,
+          "seed": 3,
           "team": "Carolina Elevate",
           "location": "Lenoir, NC",
           "won": 0,
@@ -1883,7 +1873,7 @@
           "team_page_id": null
         },
         {
-          "seed": 5,
+          "seed": 4,
           "team": "Fury Baseball",
           "location": "Forest City, NC",
           "won": 0,
@@ -1893,7 +1883,7 @@
           "team_page_id": null
         },
         {
-          "seed": 6,
+          "seed": 5,
           "team": "Copperheads Black",
           "location": "Mooresville, NC",
           "won": 0,
@@ -1903,7 +1893,7 @@
           "team_page_id": null
         },
         {
-          "seed": 7,
+          "seed": 6,
           "team": "SBA Lake Norman Thunder - Blue",
           "location": "Cornelius, NC",
           "won": 0,
@@ -1913,7 +1903,7 @@
           "team_page_id": null
         },
         {
-          "seed": 8,
+          "seed": 7,
           "team": "Mara Select",
           "location": "Matthews, NC",
           "won": 0,
@@ -1923,7 +1913,7 @@
           "team_page_id": null
         },
         {
-          "seed": 9,
+          "seed": 8,
           "team": "Equip 11U",
           "location": "Boone, NC",
           "won": 0,
@@ -1933,7 +1923,7 @@
           "team_page_id": null
         },
         {
-          "seed": 10,
+          "seed": 9,
           "team": "Coastal Bombers",
           "location": "Charleston, SC",
           "won": 0,
@@ -1943,7 +1933,7 @@
           "team_page_id": null
         },
         {
-          "seed": 11,
+          "seed": 10,
           "team": "SBA Lake Norman Thunder - Black",
           "location": "Cornelious, NC",
           "won": 0,
@@ -1953,9 +1943,19 @@
           "team_page_id": null
         },
         {
-          "seed": 12,
+          "seed": 11,
           "team": "5 Star Carolina Grit",
           "location": "Summerfield, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 12,
+          "team": "CC Cardinals 11U",
+          "location": "Shelby, NC",
           "won": 0,
           "lost": 0,
           "runs_allowed": 0,
@@ -2922,19 +2922,7 @@
             "game": 1,
             "day": "Sat",
             "time": "8:30 AM",
-            "field": "Dallas:Field # 2",
-            "team_a": "KLSC Tomahawks",
-            "seed_a": null,
-            "score_a": null,
-            "team_b": "Carolina Reign Baseball 12U",
-            "seed_b": null,
-            "score_b": null
-          },
-          {
-            "game": 2,
-            "day": "Sat",
-            "time": "8:30 AM",
-            "field": "Dallas:Field # 3",
+            "field": "Dallas:Field # 1",
             "team_a": "South Charlotte Revolution - Keller",
             "seed_a": null,
             "score_a": null,
@@ -2943,22 +2931,22 @@
             "score_b": null
           },
           {
-            "game": 3,
+            "game": 2,
             "day": "Sat",
-            "time": "10:15 AM",
-            "field": "Dallas:Field # 2",
+            "time": "8:30 AM",
+            "field": "Dallas:Field # 3",
             "team_a": "KLSC Tomahawks",
             "seed_a": null,
             "score_a": null,
-            "team_b": "North Iredell Nitro Baseball Harrelson",
+            "team_b": "Carolina Reign Baseball 12U",
             "seed_b": null,
             "score_b": null
           },
           {
-            "game": 4,
+            "game": 3,
             "day": "Sat",
             "time": "10:15 AM",
-            "field": "Dallas:Field # 3",
+            "field": "Dallas:Field # 1",
             "team_a": "South Charlotte Revolution - Keller",
             "seed_a": null,
             "score_a": null,
@@ -2967,11 +2955,11 @@
             "score_b": null
           },
           {
-            "game": 5,
+            "game": 4,
             "day": "Sat",
-            "time": "12:00 PM",
-            "field": "Dallas:Field # 2",
-            "team_a": "Carolina Reign Baseball 12U",
+            "time": "10:15 AM",
+            "field": "Dallas:Field # 3",
+            "team_a": "KLSC Tomahawks",
             "seed_a": null,
             "score_a": null,
             "team_b": "North Iredell Nitro Baseball Harrelson",
@@ -2979,10 +2967,10 @@
             "score_b": null
           },
           {
-            "game": 6,
+            "game": 5,
             "day": "Sat",
             "time": "12:00 PM",
-            "field": "Dallas:Field # 3",
+            "field": "Dallas:Field # 1",
             "team_a": "LKN Kingdom",
             "seed_a": null,
             "score_a": null,
@@ -2991,11 +2979,11 @@
             "score_b": null
           },
           {
-            "game": 7,
+            "game": 6,
             "day": "Sat",
-            "time": "1:45 PM",
-            "field": "Dallas:Field # 2",
-            "team_a": "Carolina Locos-Black",
+            "time": "12:00 PM",
+            "field": "Dallas:Field # 3",
+            "team_a": "Carolina Reign Baseball 12U",
             "seed_a": null,
             "score_a": null,
             "team_b": "Extreme Performance 2033",
@@ -3003,10 +2991,10 @@
             "score_b": null
           },
           {
-            "game": 8,
+            "game": 7,
             "day": "Sat",
             "time": "1:45 PM",
-            "field": "Dallas:Field # 3",
+            "field": "Dallas:Field # 1",
             "team_a": "Dirtbags-Brookshire 12U",
             "seed_a": null,
             "score_a": null,
@@ -3015,11 +3003,11 @@
             "score_b": null
           },
           {
-            "game": 9,
+            "game": 8,
             "day": "Sat",
-            "time": "3:30 PM",
-            "field": "Dallas:Field # 2",
-            "team_a": "Power Cross 2033",
+            "time": "1:45 PM",
+            "field": "Dallas:Field # 3",
+            "team_a": "North Iredell Nitro Baseball Harrelson",
             "seed_a": null,
             "score_a": null,
             "team_b": "Extreme Performance 2033",
@@ -3027,14 +3015,62 @@
             "score_b": null
           },
           {
+            "game": 9,
+            "day": "Sat",
+            "time": "3:30 PM",
+            "field": "Dallas:Field # 3",
+            "team_a": "PJ Junkies",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Park Sharon Nationals",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
             "game": 10,
             "day": "Sat",
             "time": "5:15 PM",
-            "field": "Dallas:Field # 2",
+            "field": "Dallas:Field # 1",
             "team_a": "Power Cross 2033",
             "seed_a": null,
             "score_a": null,
             "team_b": "Carolina Locos-Black",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 11,
+            "day": "Sat",
+            "time": "5:15 PM",
+            "field": "Dallas:Field # 3",
+            "team_a": "PJ Junkies",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Elite9 White",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 12,
+            "day": "Sat",
+            "time": "7:00 PM",
+            "field": "Dallas:Field # 1",
+            "team_a": "Park Sharon Nationals",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Carolina Locos-Black",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 13,
+            "day": "Sat",
+            "time": "7:00 PM",
+            "field": "Dallas:Field # 3",
+            "team_a": "Power Cross 2033",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Elite9 White",
             "seed_b": null,
             "score_b": null
           }
@@ -5001,5 +5037,5 @@
   },
   "site_last_updated": "10/22/2026 7:46 AM",
   "tournament_id": 12522,
-  "fetched_at": "2026-10-22T11:48"
+  "fetched_at": "2026-10-22T13:30"
 }
