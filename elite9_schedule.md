@@ -1,5 +1,5 @@
 # Elite 9 - Top Gun schedule
-_Updated Wed Oct 21, 2026 09:01 PM_
+_Updated Thu Oct 22, 2026 05:12 AM_
 
 ## SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND
 September 26 - 27 in Greater Charlotte Area, NC  
@@ -174,18 +174,6 @@ Tournament 12524 - [schedule page](https://playtopgunsports.com/GameTimesResults
 
 _Elite 9 not listed yet. Divisions posted: none posted yet_
 
-## SUPER TOP-40 PINK QUALIFIER FOR SHIPYARD FOR 2027--HOLD YOUR SPOT NOW
-October 23 in Mocksville/Winston Salem/Clemm, NC  
-Tournament 13628 - [schedule page](https://playtopgunsports.com/GameTimesResults.aspx?trnid=13628)
-
-_Elite 9 not listed yet. Divisions posted: 12U_
-
-## SUPER TOP-40 PINK QUALIFIER FOR SHIPYARD FOR 2027--HOLD YOUR SPOT NOW
-October 24 - 25 in Mocksville/Winston Salem/Clemm, NC  
-Tournament 13629 - [schedule page](https://playtopgunsports.com/GameTimesResults.aspx?trnid=13629)
-
-_Elite 9 not listed yet. Divisions posted: 11U, 12U_
-
 ## Field addresses
 
-- **DYC** - Davie Youth Complex, 599 Farmington Rd Mocksville, NC 27028
+- **Charlotte** - Greater Charlotte Area, TBA Greater Charlotte Area, NC 28262
