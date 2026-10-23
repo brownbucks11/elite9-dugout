@@ -712,7 +712,7 @@
             "day": "Sat",
             "time": "12:00 PM",
             "field": "Mazeppa:Field # 3",
-            "team_a": "Athletes Lab 9U Navy- Stewart",
+            "team_a": "MARA Stingers",
             "seed_a": null,
             "score_a": null,
             "team_b": "Dirtbags Shook",
@@ -808,7 +808,7 @@
             "day": "Sat",
             "time": "5:15 PM",
             "field": "Mazeppa:Field # 2",
-            "team_a": "MARA Stingers",
+            "team_a": "Athletes Lab 9U Navy- Stewart",
             "seed_a": null,
             "score_a": null,
             "team_b": "ZT Knuckleheads",
@@ -4112,16 +4112,6 @@
         },
         {
           "seed": 7,
-          "team": "South Carolina Aces",
-          "location": "chester, SC",
-          "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
-          "team_page_id": null
-        },
-        {
-          "seed": 8,
           "team": "Dry Pond 14U",
           "location": "Denver, NC",
           "won": 0,
@@ -4131,7 +4121,7 @@
           "team_page_id": null
         },
         {
-          "seed": 9,
+          "seed": 8,
           "team": "High Point Aces",
           "location": "High Point, NC",
           "won": 0,
@@ -4141,7 +4131,7 @@
           "team_page_id": null
         },
         {
-          "seed": 10,
+          "seed": 9,
           "team": "Atomic Baseball 2030",
           "location": "New Bern, NC",
           "won": 0,
@@ -4151,7 +4141,7 @@
           "team_page_id": null
         },
         {
-          "seed": 11,
+          "seed": 10,
           "team": "Roanoke Valley Ballers",
           "location": "Salem, VA",
           "won": 0,
@@ -4161,7 +4151,7 @@
           "team_page_id": null
         },
         {
-          "seed": 12,
+          "seed": 11,
           "team": "Camel City Baseball",
           "location": "Pfafftown, NC",
           "won": 0,
@@ -4171,7 +4161,7 @@
           "team_page_id": null
         },
         {
-          "seed": 13,
+          "seed": 12,
           "team": "Roanoke Valley Ballers ( Orange )",
           "location": "roanoke, VA",
           "won": 0,
@@ -4181,7 +4171,7 @@
           "team_page_id": null
         },
         {
-          "seed": 14,
+          "seed": 13,
           "team": "BP3 Ruff Ryderz 14U",
           "location": "Waxhaw, NC",
           "won": 0,
@@ -4191,7 +4181,7 @@
           "team_page_id": null
         },
         {
-          "seed": 15,
+          "seed": 14,
           "team": "Red Clay Athletics 15U Drury",
           "location": "Huntersville, NC",
           "won": 0,
@@ -4267,6 +4257,18 @@
             "game": 6,
             "day": "Sat",
             "time": "3:30 PM",
+            "field": "BFF:Field 1",
+            "team_a": "Red Clay Athletics 15U Drury",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Union County Badboys",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 7,
+            "day": "Sat",
+            "time": "3:30 PM",
             "field": "MRH:Marvin Ridge HS",
             "team_a": "Roanoke Valley Ballers ( Orange )",
             "seed_a": null,
@@ -4276,7 +4278,7 @@
             "score_b": null
           },
           {
-            "game": 7,
+            "game": 8,
             "day": "Sat",
             "time": "3:30 PM",
             "field": "MRH:Marvin Ridge MS",
@@ -4288,19 +4290,19 @@
             "score_b": null
           },
           {
-            "game": 8,
+            "game": 9,
             "day": "Sat",
-            "time": "4:00 PM",
+            "time": "5:15 PM",
             "field": "BFF:Field 1",
-            "team_a": "Red Clay Athletics 15U Drury",
+            "team_a": "Atomic Baseball 2030",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Union County Badboys",
+            "team_b": "CC CARDINALS 15U",
             "seed_b": null,
             "score_b": null
           },
           {
-            "game": 9,
+            "game": 10,
             "day": "Sat",
             "time": "5:15 PM",
             "field": "Moss:Moss Field",
@@ -4312,11 +4314,11 @@
             "score_b": null
           },
           {
-            "game": 10,
+            "game": 11,
             "day": "Sat",
             "time": "5:15 PM",
             "field": "MRH:Marvin Ridge HS",
-            "team_a": "Roanoke Valley Ballers",
+            "team_a": "Roanoke Valley Ballers ( Orange )",
             "seed_a": null,
             "score_a": null,
             "team_b": "High Point Aces",
@@ -4324,26 +4326,14 @@
             "score_b": null
           },
           {
-            "game": 11,
+            "game": 12,
             "day": "Sat",
             "time": "5:15 PM",
             "field": "MRH:Marvin Ridge MS",
-            "team_a": "BP3 Ruff Ryderz 14U",
+            "team_a": "Roanoke Valley Ballers",
             "seed_a": null,
             "score_a": null,
-            "team_b": "South Carolina Aces",
-            "seed_b": null,
-            "score_b": null
-          },
-          {
-            "game": 12,
-            "day": "Sat",
-            "time": "5:45 PM",
-            "field": "BFF:Field 1",
-            "team_a": "Atomic Baseball 2030",
-            "seed_a": null,
-            "score_a": null,
-            "team_b": "CC CARDINALS 15U",
+            "team_b": "CBC Knuckleheads Fox",
             "seed_b": null,
             "score_b": null
           },
@@ -4364,22 +4354,10 @@
             "day": "Sat",
             "time": "7:00 PM",
             "field": "MRH:Marvin Ridge HS",
-            "team_a": "Roanoke Valley Ballers ( Orange )",
+            "team_a": "BP3 Ruff Ryderz 14U",
             "seed_a": null,
             "score_a": null,
             "team_b": "High Point Aces",
-            "seed_b": null,
-            "score_b": null
-          },
-          {
-            "game": 15,
-            "day": "Sat",
-            "time": "7:00 PM",
-            "field": "MRH:Marvin Ridge MS",
-            "team_a": "CBC Knuckleheads Fox",
-            "seed_a": null,
-            "score_a": null,
-            "team_b": "South Carolina Aces",
             "seed_b": null,
             "score_b": null
           }
@@ -4453,10 +4431,10 @@
             "time": "11:00 AM",
             "field": "MRH:Marvin Ridge HS",
             "team_a": "",
-            "seed_a": 10,
+            "seed_a": 7,
             "score_a": null,
             "team_b": "",
-            "seed_b": 11,
+            "seed_b": 10,
             "score_b": null
           },
           {
@@ -4479,19 +4457,7 @@
             "team_a": "Winner Game #1",
             "seed_a": null,
             "score_a": null,
-            "team_b": "",
-            "seed_b": 7,
-            "score_b": null
-          },
-          {
-            "game": 4,
-            "day": "Sun",
-            "time": "5:00 PM",
-            "field": "MRH:Marvin Ridge HS",
-            "team_a": "Winner Game #2",
-            "seed_a": null,
-            "score_a": null,
-            "team_b": "Winner Game #3",
+            "team_b": "Winner Game #2",
             "seed_b": null,
             "score_b": null
           }
@@ -4503,10 +4469,10 @@
             "time": "1:00 PM",
             "field": "MRH:Marvin Ridge MS",
             "team_a": "",
-            "seed_a": 12,
+            "seed_a": 11,
             "score_a": null,
             "team_b": "",
-            "seed_b": 15,
+            "seed_b": 14,
             "score_b": null
           },
           {
@@ -4515,10 +4481,10 @@
             "time": "3:00 PM",
             "field": "MRH:Marvin Ridge MS",
             "team_a": "",
-            "seed_a": 13,
+            "seed_a": 12,
             "score_a": null,
             "team_b": "",
-            "seed_b": 14,
+            "seed_b": 13,
             "score_b": null
           },
           {
@@ -5027,5 +4993,5 @@
   },
   "site_last_updated": "10/22/2026 7:46 AM",
   "tournament_id": 12522,
-  "fetched_at": "2026-10-22T18:59"
+  "fetched_at": "2026-10-22T21:03"
 }
