@@ -1,5 +1,5 @@
 # Elite 9 - Top Gun schedule
-_Updated Thu Oct 22, 2026 11:41 PM_
+_Updated Fri Oct 23, 2026 05:10 AM_
 
 ## SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND
 September 26 - 27 in Greater Charlotte Area, NC  
@@ -239,6 +239,12 @@ Tournament 12524 - [schedule page](https://playtopgunsports.com/GameTimesResults
 
 _Elite 9 not listed yet. Divisions posted: none posted yet_
 
+## FRIDAY NIGHT G.O.A.T. SERIES 9U
+October 30 in Monroe, NC  
+Tournament 13607 - [schedule page](https://playtopgunsports.com/GameTimesResults.aspx?trnid=13607)
+
+_Elite 9 not listed yet. Divisions posted: none posted yet_
+
 ## Field addresses
 
-- **Charlotte** - Greater Charlotte Area, TBA Greater Charlotte Area, NC 28262
+- **NWP** - Noel Williams Park, 3504 Zebulon Williams Road Monroe, NC 28110
