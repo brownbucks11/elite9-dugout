@@ -3,7 +3,7 @@
  "location": "Rock Hill, SC",
  "page_id": 31407,
  "team_url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=31407",
- "built": "Sat Oct 24, 2026 03:57 PM",
+ "built": "Sat Oct 24, 2026 04:08 PM",
  "record": {
   "w": 6,
   "l": 9,
@@ -4016,7 +4016,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-24T15:57",
+    "fetched_at": "2026-10-24T16:07",
     "url": "https://topgunstats.com/whos-playing/12522"
    },
    "next_game": null,
@@ -4050,60 +4050,10 @@
    },
    "standings": [
     {
-     "team": "MARA Stingers",
-     "location": "Matthews, NC",
-     "rank": 1,
-     "tiebreak": "runs allowed",
-     "h2h": {
-      "Dirtbags Shook": "W"
-     },
-     "last": {
-      "opponent": "Dirtbags Shook",
-      "rs": 12,
-      "ra": 1
-     },
-     "pool_w": 1,
-     "pool_l": 0,
-     "pool_t": 0,
-     "pool_rs": 12,
-     "pool_ra": 1,
-     "seed": null,
-     "bracket": null,
-     "won": 1,
-     "lost": 0,
-     "rs": 12,
-     "ra": 1
-    },
-    {
-     "team": "Carolina Trash Pandas",
-     "location": "Locust, NC",
-     "rank": 2,
-     "tiebreak": "runs scored",
-     "h2h": {
-      "Diamond Jaxx": "W"
-     },
-     "last": {
-      "opponent": "Diamond Jaxx",
-      "rs": 14,
-      "ra": 2
-     },
-     "pool_w": 1,
-     "pool_l": 0,
-     "pool_t": 0,
-     "pool_rs": 14,
-     "pool_ra": 2,
-     "seed": null,
-     "bracket": null,
-     "won": 1,
-     "lost": 0,
-     "rs": 14,
-     "ra": 2
-    },
-    {
      "team": "NL Destroyers 2036",
      "location": "Denver, NC",
-     "rank": 3,
-     "tiebreak": "runs scored",
+     "rank": 1,
+     "tiebreak": "runs allowed",
      "h2h": {
       "Dirtbags Shook": "W"
      },
@@ -4123,6 +4073,57 @@
      "lost": 0,
      "rs": 13,
      "ra": 2
+    },
+    {
+     "team": "Carolina Trash Pandas",
+     "location": "Locust, NC",
+     "rank": 2,
+     "tiebreak": "runs scored",
+     "h2h": {
+      "Diamond Jaxx": "W",
+      "MARA Stingers": "W"
+     },
+     "last": {
+      "opponent": "MARA Stingers",
+      "rs": 12,
+      "ra": 5
+     },
+     "pool_w": 2,
+     "pool_l": 0,
+     "pool_t": 0,
+     "pool_rs": 26,
+     "pool_ra": 7,
+     "seed": null,
+     "bracket": null,
+     "won": 2,
+     "lost": 0,
+     "rs": 26,
+     "ra": 7
+    },
+    {
+     "team": "Lake Wylie Venom",
+     "location": "Lake Wylie, SC",
+     "rank": 3,
+     "tiebreak": "runs scored",
+     "h2h": {
+      "LumberJacks": "W"
+     },
+     "last": {
+      "opponent": "LumberJacks",
+      "rs": 24,
+      "ra": 7
+     },
+     "pool_w": 1,
+     "pool_l": 0,
+     "pool_t": 0,
+     "pool_rs": 24,
+     "pool_ra": 7,
+     "seed": null,
+     "bracket": null,
+     "won": 1,
+     "lost": 0,
+     "rs": 24,
+     "ra": 7
     },
     {
      "team": "Dirtbags Baseball ESB",
@@ -4203,9 +4204,35 @@
      "ra": 9
     },
     {
+     "team": "MARA Stingers",
+     "location": "Matthews, NC",
+     "rank": 7,
+     "tiebreak": "runs allowed",
+     "h2h": {
+      "Dirtbags Shook": "W",
+      "Carolina Trash Pandas": "L"
+     },
+     "last": {
+      "opponent": "Carolina Trash Pandas",
+      "rs": 5,
+      "ra": 12
+     },
+     "pool_w": 1,
+     "pool_l": 1,
+     "pool_t": 0,
+     "pool_rs": 17,
+     "pool_ra": 13,
+     "seed": null,
+     "bracket": null,
+     "won": 1,
+     "lost": 1,
+     "rs": 17,
+     "ra": 13
+    },
+    {
      "team": "Red Clay Athletics 9U Darcangelo",
      "location": "Charlotte, NC",
-     "rank": 7,
+     "rank": 8,
      "tiebreak": "head-to-head",
      "h2h": {
       "LKN Lightning - Ogburn": "W",
@@ -4231,7 +4258,7 @@
     {
      "team": "LKN Lightning - Ogburn",
      "location": "Huntersville, NC",
-     "rank": 8,
+     "rank": 9,
      "tiebreak": "head-to-head",
      "h2h": {
       "Red Clay Athletics 9U Darcangelo": "L",
@@ -4257,7 +4284,7 @@
     {
      "team": "Diamond Jaxx",
      "location": "Pinehurst, NC",
-     "rank": 9,
+     "rank": 10,
      "tiebreak": "runs allowed",
      "h2h": {
       "Carolina Trash Pandas": "L"
@@ -4280,9 +4307,34 @@
      "ra": 14
     },
     {
+     "team": "LumberJacks",
+     "location": "Gaston County, NC",
+     "rank": 11,
+     "tiebreak": "runs allowed",
+     "h2h": {
+      "Lake Wylie Venom": "L"
+     },
+     "last": {
+      "opponent": "Lake Wylie Venom",
+      "rs": 7,
+      "ra": 24
+     },
+     "pool_w": 0,
+     "pool_l": 1,
+     "pool_t": 0,
+     "pool_rs": 7,
+     "pool_ra": 24,
+     "seed": null,
+     "bracket": null,
+     "won": 0,
+     "lost": 1,
+     "rs": 7,
+     "ra": 24
+    },
+    {
      "team": "Dirtbags Shook",
      "location": "Claremont, NC",
-     "rank": 10,
+     "rank": 12,
      "tiebreak": "runs allowed",
      "h2h": {
       "MARA Stingers": "L",
@@ -4308,7 +4360,7 @@
     {
      "team": "Carolina Regulators 9u",
      "location": "Stanley, NC",
-     "rank": 11,
+     "rank": 13,
      "tiebreak": "runs allowed",
      "h2h": {
       "Dirtbags Baseball ESB": "L",
@@ -4334,7 +4386,7 @@
     {
      "team": "BOILING SPRINGS BULLDOGS BASEBALL 8u",
      "location": "Boiling Springs, NC",
-     "rank": 12,
+     "rank": 14,
      "tiebreak": "runs allowed",
      "h2h": {
       "Hooligans": "L",
@@ -4360,7 +4412,7 @@
     {
      "team": "Athletes Lab 9U Navy- Stewart",
      "location": "Maiden, NC",
-     "rank": 14,
+     "rank": 16,
      "tiebreak": "coin flip (unresolved)",
      "h2h": {},
      "last": null,
@@ -4379,7 +4431,7 @@
     {
      "team": "Carolina Elevate",
      "location": "Lenoir, NC",
-     "rank": 15,
+     "rank": 17,
      "tiebreak": "coin flip (unresolved)",
      "h2h": {},
      "last": null,
@@ -4398,44 +4450,6 @@
     {
      "team": "Concord Athletics -9U",
      "location": "Concord, NC",
-     "rank": 16,
-     "tiebreak": "coin flip (unresolved)",
-     "h2h": {},
-     "last": null,
-     "pool_w": 0,
-     "pool_l": 0,
-     "pool_t": 0,
-     "pool_rs": 0,
-     "pool_ra": 0,
-     "seed": null,
-     "bracket": null,
-     "won": 0,
-     "lost": 0,
-     "rs": 0,
-     "ra": 0
-    },
-    {
-     "team": "Lake Wylie Venom",
-     "location": "Lake Wylie, SC",
-     "rank": 17,
-     "tiebreak": "coin flip (unresolved)",
-     "h2h": {},
-     "last": null,
-     "pool_w": 0,
-     "pool_l": 0,
-     "pool_t": 0,
-     "pool_rs": 0,
-     "pool_ra": 0,
-     "seed": null,
-     "bracket": null,
-     "won": 0,
-     "lost": 0,
-     "rs": 0,
-     "ra": 0
-    },
-    {
-     "team": "LumberJacks",
-     "location": "Gaston County, NC",
      "rank": 18,
      "tiebreak": "coin flip (unresolved)",
      "h2h": {},
@@ -4626,11 +4640,11 @@
      "field": "Mazeppa:Field # 2",
      "team_a": "Carolina Trash Pandas",
      "seed_a": null,
-     "score_a": null,
+     "score_a": 12,
      "from_a": null,
      "team_b": "MARA Stingers",
      "seed_b": null,
-     "score_b": null,
+     "score_b": 5,
      "from_b": null
     },
     {
@@ -4658,11 +4672,11 @@
      "field": "SP:Field #1",
      "team_a": "Lake Wylie Venom",
      "seed_a": null,
-     "score_a": null,
+     "score_a": 24,
      "from_a": null,
      "team_b": "LumberJacks",
      "seed_b": null,
-     "score_b": null,
+     "score_b": 7,
      "from_b": null
     },
     {
@@ -7977,7 +7991,7 @@
      "entered_at": "2026-10-19T08:25:19.373Z",
      "level": "AA"
     },
-    "fetched_at": "2026-10-24T15:57"
+    "fetched_at": "2026-10-24T16:07"
    },
    "tgs": {
     "weather": {
@@ -8122,7 +8136,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-24T15:57",
+    "fetched_at": "2026-10-24T16:07",
     "url": "https://topgunstats.com/whos-playing/12522"
    },
    "name": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
@@ -8284,11 +8298,11 @@
      "field": "Mazeppa:Field # 2",
      "team_a": "Carolina Trash Pandas",
      "seed_a": null,
-     "score_a": null,
+     "score_a": 12,
      "from_a": null,
      "team_b": "MARA Stingers",
      "seed_b": null,
-     "score_b": null,
+     "score_b": 5,
      "from_b": null
     },
     {
@@ -8316,11 +8330,11 @@
      "field": "SP:Field #1",
      "team_a": "Lake Wylie Venom",
      "seed_a": null,
-     "score_a": null,
+     "score_a": 24,
      "from_a": null,
      "team_b": "LumberJacks",
      "seed_b": null,
-     "score_b": null,
+     "score_b": 7,
      "from_b": null
     },
     {
@@ -8700,19 +8714,19 @@
      "team": "LumberJacks",
      "location": "Gaston County, NC",
      "won": 0,
-     "lost": 0,
-     "runs_allowed": 0,
-     "runs_scored": 0,
+     "lost": 1,
+     "runs_allowed": 24,
+     "runs_scored": 7,
      "team_page_id": null
     },
     {
      "seed": 4,
      "team": "Carolina Trash Pandas",
      "location": "Locust, NC",
-     "won": 1,
+     "won": 2,
      "lost": 0,
-     "runs_allowed": 2,
-     "runs_scored": 14,
+     "runs_allowed": 7,
+     "runs_scored": 26,
      "team_page_id": null
     },
     {
@@ -8810,9 +8824,9 @@
      "team": "MARA Stingers",
      "location": "Matthews, NC",
      "won": 1,
-     "lost": 0,
-     "runs_allowed": 1,
-     "runs_scored": 12,
+     "lost": 1,
+     "runs_allowed": 13,
+     "runs_scored": 17,
      "team_page_id": null
     },
     {
@@ -8849,10 +8863,10 @@
      "seed": 18,
      "team": "Lake Wylie Venom",
      "location": "Lake Wylie, SC",
-     "won": 0,
+     "won": 1,
      "lost": 0,
-     "runs_allowed": 0,
-     "runs_scored": 0,
+     "runs_allowed": 7,
+     "runs_scored": 24,
      "team_page_id": null
     }
    ],
@@ -8909,7 +8923,7 @@
     "team": {
      "entered": false
     },
-    "fetched_at": "2026-10-24T15:57"
+    "fetched_at": "2026-10-24T16:07"
    },
    "tgs": {
     "weather": null,
@@ -8963,7 +8977,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-24T15:57",
+    "fetched_at": "2026-10-24T16:07",
     "url": "https://topgunstats.com/whos-playing/12524"
    },
    "name": "Road Runner vs Coyote ring weekend",
@@ -9402,37 +9416,6 @@
    "stats_fetched": null
   },
   {
-   "team": "MARA Stingers",
-   "location": "Matthews, NC",
-   "page_id": null,
-   "url": null,
-   "w": 1,
-   "l": 0,
-   "t": 0,
-   "rs": 12,
-   "ra": 1,
-   "diff": 11,
-   "pct": 1.0,
-   "events": 1,
-   "log": [
-    {
-     "date": "2026-10-24",
-     "event_id": 12522,
-     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
-     "section": "Pool Play",
-     "opponent": "Dirtbags Shook",
-     "rs": 12,
-     "ra": 1,
-     "result": "W"
-    }
-   ],
-   "points": 0,
-   "titles": 0,
-   "finishes": [],
-   "season": "",
-   "stats_fetched": null
-  },
-  {
    "team": "DYBA Force 9U",
    "location": "Davidson, NC",
    "page_id": null,
@@ -9620,14 +9603,14 @@
    "location": "Lake Wylie, SC",
    "page_id": 33973,
    "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=33973",
-   "w": 5,
+   "w": 6,
    "l": 1,
    "t": 0,
-   "rs": 79,
-   "ra": 36,
-   "diff": 43,
-   "pct": 0.833,
-   "events": 2,
+   "rs": 103,
+   "ra": 43,
+   "diff": 60,
+   "pct": 0.857,
+   "events": 3,
    "log": [
     {
      "date": "2026-09-13",
@@ -9687,6 +9670,16 @@
      "opponent": "Red Clay Athletics 9U Darcangelo",
      "rs": 17,
      "ra": 5,
+     "result": "W"
+    },
+    {
+     "date": "2026-10-24",
+     "event_id": 12522,
+     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
+     "section": "Pool Play",
+     "opponent": "LumberJacks",
+     "rs": 24,
+     "ra": 7,
      "result": "W"
     }
    ],
@@ -10756,6 +10749,160 @@
    "stats_fetched": "2026-10-23T11:40"
   },
   {
+   "team": "Carolina Trash Pandas",
+   "location": "Locust, NC",
+   "page_id": 32342,
+   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=32342",
+   "w": 7,
+   "l": 3,
+   "t": 0,
+   "rs": 101,
+   "ra": 53,
+   "diff": 48,
+   "pct": 0.7,
+   "events": 4,
+   "log": [
+    {
+     "date": "2026-08-28",
+     "event_id": 13552,
+     "event": "TOP GUN-USA SPORTS--FNL--PRE LABOR DAY SPECIAL",
+     "section": "Pool Play",
+     "opponent": "NC Made 9U Green",
+     "rs": 12,
+     "ra": 4,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-11",
+     "event_id": 13600,
+     "event": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
+     "section": "Pool Play",
+     "opponent": "Carolina Icons",
+     "rs": 12,
+     "ra": 2,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-11",
+     "event_id": 13600,
+     "event": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
+     "section": "Pool Play",
+     "opponent": "Elite 9",
+     "rs": 11,
+     "ra": 2,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-11",
+     "event_id": 13600,
+     "event": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
+     "section": "Gold Bracket",
+     "opponent": "Carolina Clippers 9U",
+     "rs": 2,
+     "ra": 3,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-26",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Pool Play",
+     "opponent": "Carolina Forge 9U",
+     "rs": 8,
+     "ra": 7,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-26",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Pool Play",
+     "opponent": "Lake Wylie Venom",
+     "rs": 3,
+     "ra": 14,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-27",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Bronze Bracket",
+     "opponent": "PeeDee Mudcats",
+     "rs": 20,
+     "ra": 6,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-27",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Bronze Bracket",
+     "opponent": "Dirtbags Baseball ESB",
+     "rs": 7,
+     "ra": 8,
+     "result": "L"
+    },
+    {
+     "date": "2026-10-24",
+     "event_id": 12522,
+     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
+     "section": "Pool Play",
+     "opponent": "Diamond Jaxx",
+     "rs": 14,
+     "ra": 2,
+     "result": "W"
+    },
+    {
+     "date": "2026-10-24",
+     "event_id": 12522,
+     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
+     "section": "Pool Play",
+     "opponent": "MARA Stingers",
+     "rs": 12,
+     "ra": 5,
+     "result": "W"
+    }
+   ],
+   "points": 2075,
+   "titles": 1,
+   "finishes": [
+    {
+     "date": "2026-08-28",
+     "name": "TOP GUN-USA SPORTS--FNL--PRE LABOR DAY SPECIAL",
+     "won": 3,
+     "lost": 0,
+     "standing": "1st (Gold)",
+     "points": 400
+    },
+    {
+     "date": "2026-09-11",
+     "name": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
+     "won": 2,
+     "lost": 1,
+     "standing": "2nd (Gold)",
+     "points": 375
+    },
+    {
+     "date": "2026-09-26",
+     "name": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "won": 2,
+     "lost": 2,
+     "standing": "2nd (Bronze)",
+     "points": 575
+    },
+    {
+     "date": "2026-10-03",
+     "name": "DOUBLE POINTS PINK ZONE QUALIFIER---ACTIVATE WINTER FREE PAID BERTHS",
+     "won": 2,
+     "lost": 1,
+     "standing": "4th (Gold)",
+     "points": 725
+    }
+   ],
+   "season": "08/01/2026 - 10/23/2026",
+   "stats_fetched": "2026-10-23T11:40"
+  },
+  {
    "team": "NL Destroyers 2036",
    "location": "Denver, NC",
    "page_id": 36883,
@@ -11024,150 +11171,6 @@
    ],
    "season": "08/01/2026 - 10/23/2026",
    "stats_fetched": "2026-10-23T11:41"
-  },
-  {
-   "team": "Carolina Trash Pandas",
-   "location": "Locust, NC",
-   "page_id": 32342,
-   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=32342",
-   "w": 6,
-   "l": 3,
-   "t": 0,
-   "rs": 89,
-   "ra": 48,
-   "diff": 41,
-   "pct": 0.667,
-   "events": 4,
-   "log": [
-    {
-     "date": "2026-08-28",
-     "event_id": 13552,
-     "event": "TOP GUN-USA SPORTS--FNL--PRE LABOR DAY SPECIAL",
-     "section": "Pool Play",
-     "opponent": "NC Made 9U Green",
-     "rs": 12,
-     "ra": 4,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-11",
-     "event_id": 13600,
-     "event": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
-     "section": "Pool Play",
-     "opponent": "Carolina Icons",
-     "rs": 12,
-     "ra": 2,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-11",
-     "event_id": 13600,
-     "event": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
-     "section": "Pool Play",
-     "opponent": "Elite 9",
-     "rs": 11,
-     "ra": 2,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-11",
-     "event_id": 13600,
-     "event": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
-     "section": "Gold Bracket",
-     "opponent": "Carolina Clippers 9U",
-     "rs": 2,
-     "ra": 3,
-     "result": "L"
-    },
-    {
-     "date": "2026-09-26",
-     "event_id": 12518,
-     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "section": "Pool Play",
-     "opponent": "Carolina Forge 9U",
-     "rs": 8,
-     "ra": 7,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-26",
-     "event_id": 12518,
-     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "section": "Pool Play",
-     "opponent": "Lake Wylie Venom",
-     "rs": 3,
-     "ra": 14,
-     "result": "L"
-    },
-    {
-     "date": "2026-09-27",
-     "event_id": 12518,
-     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "section": "Bronze Bracket",
-     "opponent": "PeeDee Mudcats",
-     "rs": 20,
-     "ra": 6,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-27",
-     "event_id": 12518,
-     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "section": "Bronze Bracket",
-     "opponent": "Dirtbags Baseball ESB",
-     "rs": 7,
-     "ra": 8,
-     "result": "L"
-    },
-    {
-     "date": "2026-10-24",
-     "event_id": 12522,
-     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
-     "section": "Pool Play",
-     "opponent": "Diamond Jaxx",
-     "rs": 14,
-     "ra": 2,
-     "result": "W"
-    }
-   ],
-   "points": 2075,
-   "titles": 1,
-   "finishes": [
-    {
-     "date": "2026-08-28",
-     "name": "TOP GUN-USA SPORTS--FNL--PRE LABOR DAY SPECIAL",
-     "won": 3,
-     "lost": 0,
-     "standing": "1st (Gold)",
-     "points": 400
-    },
-    {
-     "date": "2026-09-11",
-     "name": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
-     "won": 2,
-     "lost": 1,
-     "standing": "2nd (Gold)",
-     "points": 375
-    },
-    {
-     "date": "2026-09-26",
-     "name": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "won": 2,
-     "lost": 2,
-     "standing": "2nd (Bronze)",
-     "points": 575
-    },
-    {
-     "date": "2026-10-03",
-     "name": "DOUBLE POINTS PINK ZONE QUALIFIER---ACTIVATE WINTER FREE PAID BERTHS",
-     "won": 2,
-     "lost": 1,
-     "standing": "4th (Gold)",
-     "points": 725
-    }
-   ],
-   "season": "08/01/2026 - 10/23/2026",
-   "stats_fetched": "2026-10-23T11:40"
   },
   {
    "team": "Mara Bulls",
@@ -11906,6 +11909,47 @@
      "derived": true
     }
    ],
+   "season": "",
+   "stats_fetched": null
+  },
+  {
+   "team": "MARA Stingers",
+   "location": "Matthews, NC",
+   "page_id": null,
+   "url": null,
+   "w": 1,
+   "l": 1,
+   "t": 0,
+   "rs": 17,
+   "ra": 13,
+   "diff": 4,
+   "pct": 0.5,
+   "events": 1,
+   "log": [
+    {
+     "date": "2026-10-24",
+     "event_id": 12522,
+     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
+     "section": "Pool Play",
+     "opponent": "Dirtbags Shook",
+     "rs": 12,
+     "ra": 1,
+     "result": "W"
+    },
+    {
+     "date": "2026-10-24",
+     "event_id": 12522,
+     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
+     "section": "Pool Play",
+     "opponent": "Carolina Trash Pandas",
+     "rs": 5,
+     "ra": 12,
+     "result": "L"
+    }
+   ],
+   "points": 0,
+   "titles": 0,
+   "finishes": [],
    "season": "",
    "stats_fetched": null
   },
@@ -14236,13 +14280,13 @@
    "page_id": 34401,
    "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=34401",
    "w": 6,
-   "l": 13,
+   "l": 14,
    "t": 0,
-   "rs": 170,
-   "ra": 219,
-   "diff": -49,
-   "pct": 0.316,
-   "events": 5,
+   "rs": 177,
+   "ra": 243,
+   "diff": -66,
+   "pct": 0.3,
+   "events": 6,
    "log": [
     {
      "date": "2026-08-22",
@@ -14432,6 +14476,16 @@
      "opponent": "SC Tide - Lucariello",
      "rs": 9,
      "ra": 13,
+     "result": "L"
+    },
+    {
+     "date": "2026-10-24",
+     "event_id": 12522,
+     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
+     "section": "Pool Play",
+     "opponent": "Lake Wylie Venom",
+     "rs": 7,
+     "ra": 24,
      "result": "L"
     }
    ],

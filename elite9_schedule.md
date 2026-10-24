@@ -1,5 +1,5 @@
 # Elite 9 - Top Gun schedule
-_Updated Sat Oct 24, 2026 03:57 PM_
+_Updated Sat Oct 24, 2026 04:08 PM_
 
 ## SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND
 September 26 - 27 in Greater Charlotte Area, NC  
@@ -182,8 +182,8 @@ Tournament 12522 - [schedule page](https://playtopgunsports.com/GameTimesResults
 |---|---|---|---|---|---|
 | 1 | NL Destroyers 2036 | Denver, NC | 1-0 | 13 | 2 |
 | 2 | Hooligans | Mount Holly, NC | 1-1 | 21 | 9 |
-| 3 | LumberJacks | Gaston County, NC | 0-0 | 0 | 0 |
-| 4 | Carolina Trash Pandas | Locust, NC | 1-0 | 14 | 2 |
+| 3 | LumberJacks | Gaston County, NC | 0-1 | 7 | 24 |
+| 4 | Carolina Trash Pandas | Locust, NC | 2-0 | 26 | 7 |
 | 5 | Red Clay Athletics 9U Darcangelo | Charlotte, NC | 1-1 | 16 | 16 |
 | 6 | Dirtbags Baseball ESB | Lincolnton, NC | 2-0 | 29 | 11 |
 | 7 | Elite 9 **<--** | Rock Hill, SC | 2-0 | 30 | 13 |
@@ -193,11 +193,11 @@ Tournament 12522 - [schedule page](https://playtopgunsports.com/GameTimesResults
 | 11 | ZT Knuckleheads | Clover, SC | 0-0 | 0 | 0 |
 | 12 | Diamond Jaxx | Pinehurst, NC | 0-1 | 2 | 14 |
 | 13 | Concord Athletics -9U | Concord, NC | 0-0 | 0 | 0 |
-| 14 | MARA Stingers | Matthews, NC | 1-0 | 12 | 1 |
+| 14 | MARA Stingers | Matthews, NC | 1-1 | 17 | 13 |
 | 15 | Athletes Lab 9U Navy- Stewart | Maiden, NC | 0-0 | 0 | 0 |
 | 16 | LKN Lightning - Ogburn | Huntersville, NC | 1-1 | 16 | 16 |
 | 17 | BOILING SPRINGS BULLDOGS BASEBALL 8u | Boiling Springs, NC | 0-2 | 10 | 39 |
-| 18 | Lake Wylie Venom | Lake Wylie, SC | 0-0 | 0 | 0 |
+| 18 | Lake Wylie Venom | Lake Wylie, SC | 1-0 | 24 | 7 |
 
 **Gold Bracket**
 
