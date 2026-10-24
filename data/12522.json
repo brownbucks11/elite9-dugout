@@ -1135,10 +1135,10 @@
           "seed": 5,
           "team": "Stingers",
           "location": "Matthews, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 8,
+          "runs_scored": 17,
           "team_page_id": null
         },
         {
@@ -1156,9 +1156,9 @@
           "team": "LKN Kingdom",
           "location": "Charlotte, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 5,
+          "runs_scored": 3,
           "team_page_id": null
         },
         {
@@ -1235,10 +1235,10 @@
           "seed": 15,
           "team": "East Rowan",
           "location": "Rockwell, NC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 8,
+          "runs_allowed": 3,
+          "runs_scored": 13,
           "team_page_id": null
         },
         {
@@ -1316,9 +1316,9 @@
           "team": "MP Bombers 10U",
           "location": "Mount Pleasant, NC",
           "won": 1,
-          "lost": 0,
-          "runs_allowed": 6,
-          "runs_scored": 16,
+          "lost": 1,
+          "runs_allowed": 23,
+          "runs_scored": 24,
           "team_page_id": null
         }
       ],
@@ -1367,10 +1367,10 @@
             "field": "Doby:Doby 3",
             "team_a": "MP Bombers 10U",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 8,
             "team_b": "Stingers",
             "seed_b": null,
-            "score_b": null
+            "score_b": 17
           },
           {
             "game": 5,
@@ -1391,10 +1391,10 @@
             "field": "Westmoreld:Field 1",
             "team_a": "LKN Kingdom",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 3,
             "team_b": "East Rowan",
             "seed_b": null,
-            "score_b": null
+            "score_b": 5
           },
           {
             "game": 7,
@@ -2779,10 +2779,10 @@
           "seed": 1,
           "team": "KLSC Tomahawks",
           "location": "Belmont, NC",
-          "won": 0,
+          "won": 1,
           "lost": 1,
-          "runs_allowed": 10,
-          "runs_scored": 4,
+          "runs_allowed": 16,
+          "runs_scored": 14,
           "team_page_id": null
         },
         {
@@ -2850,19 +2850,19 @@
           "team": "South Charlotte Revolution - Keller",
           "location": "Charlotte, NC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 12,
-          "runs_scored": 11,
+          "lost": 2,
+          "runs_allowed": 30,
+          "runs_scored": 17,
           "team_page_id": null
         },
         {
           "seed": 9,
           "team": "Dirtbags-Brookshire 12U",
           "location": "Taylorsville, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 6,
+          "runs_scored": 18,
           "team_page_id": null
         },
         {
@@ -2870,9 +2870,9 @@
           "team": "North Iredell Nitro Baseball Harrelson",
           "location": "Statesville, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 10,
+          "runs_scored": 6,
           "team_page_id": null
         },
         {
@@ -2939,10 +2939,10 @@
             "field": "Dallas:Field # 1",
             "team_a": "South Charlotte Revolution - Keller",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 6,
             "team_b": "Dirtbags-Brookshire 12U",
             "seed_b": null,
-            "score_b": null
+            "score_b": 18
           },
           {
             "game": 4,
@@ -2951,10 +2951,10 @@
             "field": "Dallas:Field # 3",
             "team_a": "KLSC Tomahawks",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 10,
             "team_b": "North Iredell Nitro Baseball Harrelson",
             "seed_b": null,
-            "score_b": null
+            "score_b": 6
           },
           {
             "game": 5,
@@ -3537,10 +3537,10 @@
           "seed": 4,
           "team": "Carolina Aces",
           "location": "Kings Mountain, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 1,
+          "runs_scored": 9,
           "team_page_id": null
         },
         {
@@ -3618,9 +3618,9 @@
           "team": "ELITE BASEBALL 13/14u EBC",
           "location": "Forest City, NC",
           "won": 1,
-          "lost": 0,
-          "runs_allowed": 5,
-          "runs_scored": 9,
+          "lost": 1,
+          "runs_allowed": 14,
+          "runs_scored": 10,
           "team_page_id": null
         },
         {
@@ -3745,10 +3745,10 @@
             "field": "Moss:Moss Field",
             "team_a": "ELITE BASEBALL 13/14u EBC",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 1,
             "team_b": "Carolina Aces",
             "seed_b": null,
-            "score_b": null
+            "score_b": 9
           },
           {
             "game": 8,
@@ -4971,5 +4971,5 @@
   },
   "site_last_updated": "10/22/2026 7:46 AM",
   "tournament_id": 12522,
-  "fetched_at": "2026-10-24T11:44"
+  "fetched_at": "2026-10-24T11:55"
 }
