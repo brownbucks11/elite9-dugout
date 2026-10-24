@@ -1276,9 +1276,9 @@
           "team": "Tega Cay Titans",
           "location": "Tega Cay, SC",
           "won": 1,
-          "lost": 0,
-          "runs_allowed": 2,
-          "runs_scored": 12,
+          "lost": 1,
+          "runs_allowed": 12,
+          "runs_scored": 21,
           "team_page_id": null
         },
         {
@@ -1295,10 +1295,10 @@
           "seed": 21,
           "team": "Carolina Ghost 10u",
           "location": "High Point, NC",
-          "won": 0,
+          "won": 1,
           "lost": 1,
-          "runs_allowed": 11,
-          "runs_scored": 5,
+          "runs_allowed": 20,
+          "runs_scored": 15,
           "team_page_id": null
         },
         {
@@ -1511,10 +1511,10 @@
             "field": "Westmoreld:Field 2",
             "team_a": "Carolina Ghost 10u",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 10,
             "team_b": "Tega Cay Titans",
             "seed_b": null,
-            "score_b": null
+            "score_b": 9
           },
           {
             "game": 17,
@@ -1945,19 +1945,19 @@
           "team": "Carolina Mayhem",
           "location": "Charlotte, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 9,
+          "runs_scored": 8,
           "team_page_id": null
         },
         {
           "seed": 2,
           "team": "Copperheads Red",
           "location": "Denver, NC",
-          "won": 0,
+          "won": 1,
           "lost": 1,
-          "runs_allowed": 9,
-          "runs_scored": 8,
+          "runs_allowed": 17,
+          "runs_scored": 17,
           "team_page_id": null
         },
         {
@@ -2304,10 +2304,10 @@
             "field": "Doby:Doby 2",
             "team_a": "Carolina Mayhem",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 8,
             "team_b": "Copperheads Red",
             "seed_b": null,
-            "score_b": null
+            "score_b": 9
           },
           {
             "game": 14,
@@ -2717,10 +2717,10 @@
           "seed": 10,
           "team": "Carolina Bearcats",
           "location": "Greenville, SC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 8,
+          "runs_allowed": 2,
+          "runs_scored": 20,
           "team_page_id": null
         },
         {
@@ -2758,9 +2758,9 @@
           "team": "The Battery Training Academy LLC.",
           "location": "Gastonia, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 12,
+          "runs_scored": 2,
           "team_page_id": null
         },
         {
@@ -4039,9 +4039,9 @@
           "team": "CBC Knuckleheads Fox",
           "location": "Charlotte, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 6,
+          "runs_scored": 2,
           "team_page_id": null
         },
         {
@@ -4050,8 +4050,8 @@
           "location": "Union, SC",
           "won": 0,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 2,
+          "runs_scored": 2,
           "team_page_id": null
         },
         {
@@ -4138,10 +4138,10 @@
           "seed": 13,
           "team": "BP3 Ruff Ryderz 14U",
           "location": "Waxhaw, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 2,
+          "runs_scored": 6,
           "team_page_id": null
         },
         {
@@ -4150,8 +4150,8 @@
           "location": "Huntersville, NC",
           "won": 0,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 2,
+          "runs_scored": 2,
           "team_page_id": null
         }
       ],
@@ -4224,10 +4224,10 @@
             "field": "BFF:Field 1",
             "team_a": "Red Clay Athletics 15U Drury",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 2,
             "team_b": "Union County Badboys",
             "seed_b": null,
-            "score_b": null
+            "score_b": 2
           },
           {
             "game": 7,
@@ -4248,10 +4248,10 @@
             "field": "MRH:Marvin Ridge MS",
             "team_a": "BP3 Ruff Ryderz 14U",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 6,
             "team_b": "CBC Knuckleheads Fox",
             "seed_b": null,
-            "score_b": null
+            "score_b": 2
           },
           {
             "game": 9,
@@ -4933,5 +4933,5 @@
   },
   "site_last_updated": "10/22/2026 7:46 AM",
   "tournament_id": 12522,
-  "fetched_at": "2026-10-24T17:52"
+  "fetched_at": "2026-10-24T18:03"
 }
