@@ -3508,9 +3508,9 @@
           "team": "The Sandlot 14u",
           "location": "Granite Falls, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 4,
+          "runs_scored": 1,
           "team_page_id": null
         },
         {
@@ -3548,9 +3548,9 @@
           "team": "SC Tide Abbott",
           "location": "Clover, SC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 7,
-          "runs_scored": 5,
+          "lost": 2,
+          "runs_allowed": 21,
+          "runs_scored": 6,
           "team_page_id": null
         },
         {
@@ -3577,10 +3577,10 @@
           "seed": 8,
           "team": "Carolina Wolfpack - Royal",
           "location": "Clemmons, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 1,
+          "runs_scored": 14,
           "team_page_id": null
         },
         {
@@ -3607,10 +3607,10 @@
           "seed": 11,
           "team": "Dirtbags Camo",
           "location": "Hickory, NC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
-          "runs_allowed": 1,
-          "runs_scored": 10,
+          "runs_allowed": 2,
+          "runs_scored": 14,
           "team_page_id": null
         },
         {
@@ -3721,10 +3721,10 @@
             "field": "CMHP:CaroMont",
             "team_a": "Dirtbags Camo",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 4,
             "team_b": "The Sandlot 14u",
             "seed_b": null,
-            "score_b": null
+            "score_b": 1
           },
           {
             "game": 6,
@@ -3733,10 +3733,10 @@
             "field": "Core:Hinson Core Field",
             "team_a": "SC Tide Abbott",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 1,
             "team_b": "Carolina Wolfpack - Royal",
             "seed_b": null,
-            "score_b": null
+            "score_b": 14
           },
           {
             "game": 7,
@@ -4033,9 +4033,9 @@
           "team": "Mount Holly Hawks",
           "location": "Mount Holly, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 6,
+          "runs_scored": 5,
           "team_page_id": null
         },
         {
@@ -4092,10 +4092,10 @@
           "seed": 7,
           "team": "Dry Pond 14U",
           "location": "Denver, NC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 12,
+          "runs_allowed": 5,
+          "runs_scored": 18,
           "team_page_id": null
         },
         {
@@ -4190,10 +4190,10 @@
             "field": "MRH:Marvin Ridge HS",
             "team_a": "Dry Pond 14U",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 6,
             "team_b": "Mount Holly Hawks",
             "seed_b": null,
-            "score_b": null
+            "score_b": 5
           },
           {
             "game": 3,
@@ -4971,5 +4971,5 @@
   },
   "site_last_updated": "10/22/2026 7:46 AM",
   "tournament_id": 12522,
-  "fetched_at": "2026-10-24T11:55"
+  "fetched_at": "2026-10-24T12:05"
 }
