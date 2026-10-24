@@ -3,7 +3,7 @@
  "location": "Rock Hill, SC",
  "page_id": 31407,
  "team_url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=31407",
- "built": "Sat Oct 24, 2026 03:47 PM",
+ "built": "Sat Oct 24, 2026 03:57 PM",
  "record": {
   "w": 6,
   "l": 9,
@@ -4016,7 +4016,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-24T15:46",
+    "fetched_at": "2026-10-24T15:57",
     "url": "https://topgunstats.com/whos-playing/12522"
    },
    "next_game": null,
@@ -4024,7 +4024,7 @@
    "standing": {
     "team": "Elite 9",
     "location": "Rock Hill, SC",
-    "rank": 4,
+    "rank": 5,
     "tiebreak": "runs allowed",
     "h2h": {
      "BOILING SPRINGS BULLDOGS BASEBALL 8u": "W",
@@ -4078,7 +4078,7 @@
      "team": "Carolina Trash Pandas",
      "location": "Locust, NC",
      "rank": 2,
-     "tiebreak": "runs allowed",
+     "tiebreak": "runs scored",
      "h2h": {
       "Diamond Jaxx": "W"
      },
@@ -4100,9 +4100,34 @@
      "ra": 2
     },
     {
+     "team": "NL Destroyers 2036",
+     "location": "Denver, NC",
+     "rank": 3,
+     "tiebreak": "runs scored",
+     "h2h": {
+      "Dirtbags Shook": "W"
+     },
+     "last": {
+      "opponent": "Dirtbags Shook",
+      "rs": 13,
+      "ra": 2
+     },
+     "pool_w": 1,
+     "pool_l": 0,
+     "pool_t": 0,
+     "pool_rs": 13,
+     "pool_ra": 2,
+     "seed": null,
+     "bracket": null,
+     "won": 1,
+     "lost": 0,
+     "rs": 13,
+     "ra": 2
+    },
+    {
      "team": "Dirtbags Baseball ESB",
      "location": "Lincolnton, NC",
-     "rank": 3,
+     "rank": 4,
      "tiebreak": "runs allowed",
      "h2h": {
       "Carolina Regulators 9u": "W",
@@ -4128,7 +4153,7 @@
     {
      "team": "Elite 9",
      "location": "Rock Hill, SC",
-     "rank": 4,
+     "rank": 5,
      "tiebreak": "runs allowed",
      "h2h": {
       "BOILING SPRINGS BULLDOGS BASEBALL 8u": "W",
@@ -4154,7 +4179,7 @@
     {
      "team": "Hooligans",
      "location": "Mount Holly, NC",
-     "rank": 5,
+     "rank": 6,
      "tiebreak": "runs allowed",
      "h2h": {
       "BOILING SPRINGS BULLDOGS BASEBALL 8u": "W",
@@ -4180,7 +4205,7 @@
     {
      "team": "Red Clay Athletics 9U Darcangelo",
      "location": "Charlotte, NC",
-     "rank": 6,
+     "rank": 7,
      "tiebreak": "head-to-head",
      "h2h": {
       "LKN Lightning - Ogburn": "W",
@@ -4206,7 +4231,7 @@
     {
      "team": "LKN Lightning - Ogburn",
      "location": "Huntersville, NC",
-     "rank": 7,
+     "rank": 8,
      "tiebreak": "head-to-head",
      "h2h": {
       "Red Clay Athletics 9U Darcangelo": "L",
@@ -4228,31 +4253,6 @@
      "lost": 1,
      "rs": 16,
      "ra": 16
-    },
-    {
-     "team": "Dirtbags Shook",
-     "location": "Claremont, NC",
-     "rank": 8,
-     "tiebreak": "runs allowed",
-     "h2h": {
-      "MARA Stingers": "L"
-     },
-     "last": {
-      "opponent": "MARA Stingers",
-      "rs": 1,
-      "ra": 12
-     },
-     "pool_w": 0,
-     "pool_l": 1,
-     "pool_t": 0,
-     "pool_rs": 1,
-     "pool_ra": 12,
-     "seed": null,
-     "bracket": null,
-     "won": 0,
-     "lost": 1,
-     "rs": 1,
-     "ra": 12
     },
     {
      "team": "Diamond Jaxx",
@@ -4280,9 +4280,35 @@
      "ra": 14
     },
     {
+     "team": "Dirtbags Shook",
+     "location": "Claremont, NC",
+     "rank": 10,
+     "tiebreak": "runs allowed",
+     "h2h": {
+      "MARA Stingers": "L",
+      "NL Destroyers 2036": "L"
+     },
+     "last": {
+      "opponent": "NL Destroyers 2036",
+      "rs": 2,
+      "ra": 13
+     },
+     "pool_w": 0,
+     "pool_l": 2,
+     "pool_t": 0,
+     "pool_rs": 3,
+     "pool_ra": 25,
+     "seed": null,
+     "bracket": null,
+     "won": 0,
+     "lost": 2,
+     "rs": 3,
+     "ra": 25
+    },
+    {
      "team": "Carolina Regulators 9u",
      "location": "Stanley, NC",
-     "rank": 10,
+     "rank": 11,
      "tiebreak": "runs allowed",
      "h2h": {
       "Dirtbags Baseball ESB": "L",
@@ -4308,7 +4334,7 @@
     {
      "team": "BOILING SPRINGS BULLDOGS BASEBALL 8u",
      "location": "Boiling Springs, NC",
-     "rank": 11,
+     "rank": 12,
      "tiebreak": "runs allowed",
      "h2h": {
       "Hooligans": "L",
@@ -4334,7 +4360,7 @@
     {
      "team": "Athletes Lab 9U Navy- Stewart",
      "location": "Maiden, NC",
-     "rank": 13,
+     "rank": 14,
      "tiebreak": "coin flip (unresolved)",
      "h2h": {},
      "last": null,
@@ -4353,7 +4379,7 @@
     {
      "team": "Carolina Elevate",
      "location": "Lenoir, NC",
-     "rank": 14,
+     "rank": 15,
      "tiebreak": "coin flip (unresolved)",
      "h2h": {},
      "last": null,
@@ -4372,7 +4398,7 @@
     {
      "team": "Concord Athletics -9U",
      "location": "Concord, NC",
-     "rank": 15,
+     "rank": 16,
      "tiebreak": "coin flip (unresolved)",
      "h2h": {},
      "last": null,
@@ -4391,7 +4417,7 @@
     {
      "team": "Lake Wylie Venom",
      "location": "Lake Wylie, SC",
-     "rank": 16,
+     "rank": 17,
      "tiebreak": "coin flip (unresolved)",
      "h2h": {},
      "last": null,
@@ -4410,25 +4436,6 @@
     {
      "team": "LumberJacks",
      "location": "Gaston County, NC",
-     "rank": 17,
-     "tiebreak": "coin flip (unresolved)",
-     "h2h": {},
-     "last": null,
-     "pool_w": 0,
-     "pool_l": 0,
-     "pool_t": 0,
-     "pool_rs": 0,
-     "pool_ra": 0,
-     "seed": null,
-     "bracket": null,
-     "won": 0,
-     "lost": 0,
-     "rs": 0,
-     "ra": 0
-    },
-    {
-     "team": "NL Destroyers 2036",
-     "location": "Denver, NC",
      "rank": 18,
      "tiebreak": "coin flip (unresolved)",
      "h2h": {},
@@ -4635,11 +4642,11 @@
      "field": "Mazeppa:Field # 3",
      "team_a": "NL Destroyers 2036",
      "seed_a": null,
-     "score_a": null,
+     "score_a": 13,
      "from_a": null,
      "team_b": "Dirtbags Shook",
      "seed_b": null,
-     "score_b": null,
+     "score_b": 2,
      "from_b": null
     },
     {
@@ -7948,7 +7955,7 @@
    "official": false,
    "confirmed": false,
    "summary": {
-    "rank": 4,
+    "rank": 5,
     "teams": 18,
     "pool": "2-0",
     "bracket": null,
@@ -7970,7 +7977,7 @@
      "entered_at": "2026-10-19T08:25:19.373Z",
      "level": "AA"
     },
-    "fetched_at": "2026-10-24T15:46"
+    "fetched_at": "2026-10-24T15:57"
    },
    "tgs": {
     "weather": {
@@ -8115,7 +8122,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-24T15:46",
+    "fetched_at": "2026-10-24T15:57",
     "url": "https://topgunstats.com/whos-playing/12522"
    },
    "name": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
@@ -8293,11 +8300,11 @@
      "field": "Mazeppa:Field # 3",
      "team_a": "NL Destroyers 2036",
      "seed_a": null,
-     "score_a": null,
+     "score_a": 13,
      "from_a": null,
      "team_b": "Dirtbags Shook",
      "seed_b": null,
-     "score_b": null,
+     "score_b": 2,
      "from_b": null
     },
     {
@@ -8672,10 +8679,10 @@
      "seed": 1,
      "team": "NL Destroyers 2036",
      "location": "Denver, NC",
-     "won": 0,
+     "won": 1,
      "lost": 0,
-     "runs_allowed": 0,
-     "runs_scored": 0,
+     "runs_allowed": 2,
+     "runs_scored": 13,
      "team_page_id": null
     },
     {
@@ -8763,9 +8770,9 @@
      "team": "Dirtbags Shook",
      "location": "Claremont, NC",
      "won": 0,
-     "lost": 1,
-     "runs_allowed": 12,
-     "runs_scored": 1,
+     "lost": 2,
+     "runs_allowed": 25,
+     "runs_scored": 3,
      "team_page_id": null
     },
     {
@@ -8902,7 +8909,7 @@
     "team": {
      "entered": false
     },
-    "fetched_at": "2026-10-24T15:46"
+    "fetched_at": "2026-10-24T15:57"
    },
    "tgs": {
     "weather": null,
@@ -8956,7 +8963,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-24T15:46",
+    "fetched_at": "2026-10-24T15:57",
     "url": "https://topgunstats.com/whos-playing/12524"
    },
    "name": "Road Runner vs Coyote ring weekend",
@@ -10753,14 +10760,14 @@
    "location": "Denver, NC",
    "page_id": 36883,
    "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=36883",
-   "w": 13,
+   "w": 14,
    "l": 6,
    "t": 0,
-   "rs": 195,
-   "ra": 165,
-   "diff": 30,
-   "pct": 0.684,
-   "events": 5,
+   "rs": 208,
+   "ra": 167,
+   "diff": 41,
+   "pct": 0.7,
+   "events": 6,
    "log": [
     {
      "date": "2026-08-22",
@@ -10951,6 +10958,16 @@
      "rs": 6,
      "ra": 18,
      "result": "L"
+    },
+    {
+     "date": "2026-10-24",
+     "event_id": 12522,
+     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
+     "section": "Pool Play",
+     "opponent": "Dirtbags Shook",
+     "rs": 13,
+     "ra": 2,
+     "result": "W"
     }
    ],
    "points": 4550,
@@ -11486,87 +11503,6 @@
    "stats_fetched": "2026-10-23T11:39"
   },
   {
-   "team": "Dirtbags Shook",
-   "location": "Claremont, NC",
-   "page_id": null,
-   "url": null,
-   "w": 3,
-   "l": 2,
-   "t": 0,
-   "rs": 48,
-   "ra": 40,
-   "diff": 8,
-   "pct": 0.6,
-   "events": 2,
-   "log": [
-    {
-     "date": "2026-09-19",
-     "event_id": 12517,
-     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
-     "section": "Pool Play",
-     "opponent": "Elite 9",
-     "rs": 10,
-     "ra": 0,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-19",
-     "event_id": 12517,
-     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
-     "section": "Pool Play",
-     "opponent": "ELITE BASEBALL EBC 9U",
-     "rs": 10,
-     "ra": 9,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-20",
-     "event_id": 12517,
-     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
-     "section": "Gold Bracket",
-     "opponent": "NL Destroyers 2036",
-     "rs": 10,
-     "ra": 11,
-     "result": "L"
-    },
-    {
-     "date": "2026-09-20",
-     "event_id": 12517,
-     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
-     "section": "Gold Bracket",
-     "opponent": "Team 24",
-     "rs": 17,
-     "ra": 8,
-     "result": "W"
-    },
-    {
-     "date": "2026-10-24",
-     "event_id": 12522,
-     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
-     "section": "Pool Play",
-     "opponent": "MARA Stingers",
-     "rs": 1,
-     "ra": 12,
-     "result": "L"
-    }
-   ],
-   "points": 0,
-   "titles": 0,
-   "finishes": [
-    {
-     "date": "2026-09-19",
-     "name": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
-     "won": 3,
-     "lost": 1,
-     "standing": "3rd (Gold)",
-     "points": 0,
-     "derived": true
-    }
-   ],
-   "season": "",
-   "stats_fetched": null
-  },
-  {
    "team": "Copperheads",
    "location": "Mooresville, NC",
    "page_id": 33114,
@@ -12091,6 +12027,97 @@
    ],
    "season": "08/01/2026 - 10/23/2026",
    "stats_fetched": "2026-10-23T11:40"
+  },
+  {
+   "team": "Dirtbags Shook",
+   "location": "Claremont, NC",
+   "page_id": null,
+   "url": null,
+   "w": 3,
+   "l": 3,
+   "t": 0,
+   "rs": 50,
+   "ra": 53,
+   "diff": -3,
+   "pct": 0.5,
+   "events": 2,
+   "log": [
+    {
+     "date": "2026-09-19",
+     "event_id": 12517,
+     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
+     "section": "Pool Play",
+     "opponent": "Elite 9",
+     "rs": 10,
+     "ra": 0,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-19",
+     "event_id": 12517,
+     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
+     "section": "Pool Play",
+     "opponent": "ELITE BASEBALL EBC 9U",
+     "rs": 10,
+     "ra": 9,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-20",
+     "event_id": 12517,
+     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
+     "section": "Gold Bracket",
+     "opponent": "NL Destroyers 2036",
+     "rs": 10,
+     "ra": 11,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-20",
+     "event_id": 12517,
+     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
+     "section": "Gold Bracket",
+     "opponent": "Team 24",
+     "rs": 17,
+     "ra": 8,
+     "result": "W"
+    },
+    {
+     "date": "2026-10-24",
+     "event_id": 12522,
+     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
+     "section": "Pool Play",
+     "opponent": "MARA Stingers",
+     "rs": 1,
+     "ra": 12,
+     "result": "L"
+    },
+    {
+     "date": "2026-10-24",
+     "event_id": 12522,
+     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
+     "section": "Pool Play",
+     "opponent": "NL Destroyers 2036",
+     "rs": 2,
+     "ra": 13,
+     "result": "L"
+    }
+   ],
+   "points": 0,
+   "titles": 0,
+   "finishes": [
+    {
+     "date": "2026-09-19",
+     "name": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
+     "won": 3,
+     "lost": 1,
+     "standing": "3rd (Gold)",
+     "points": 0,
+     "derived": true
+    }
+   ],
+   "season": "",
+   "stats_fetched": null
   },
   {
    "team": "Flying Pigs 9U",

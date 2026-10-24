@@ -1,5 +1,5 @@
 # Elite 9 - Top Gun schedule
-_Updated Sat Oct 24, 2026 03:47 PM_
+_Updated Sat Oct 24, 2026 03:57 PM_
 
 ## SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND
 September 26 - 27 in Greater Charlotte Area, NC  
@@ -180,7 +180,7 @@ Tournament 12522 - [schedule page](https://playtopgunsports.com/GameTimesResults
 
 | # | Team | From | W-L | RS | RA |
 |---|---|---|---|---|---|
-| 1 | NL Destroyers 2036 | Denver, NC | 0-0 | 0 | 0 |
+| 1 | NL Destroyers 2036 | Denver, NC | 1-0 | 13 | 2 |
 | 2 | Hooligans | Mount Holly, NC | 1-1 | 21 | 9 |
 | 3 | LumberJacks | Gaston County, NC | 0-0 | 0 | 0 |
 | 4 | Carolina Trash Pandas | Locust, NC | 1-0 | 14 | 2 |
@@ -189,7 +189,7 @@ Tournament 12522 - [schedule page](https://playtopgunsports.com/GameTimesResults
 | 7 | Elite 9 **<--** | Rock Hill, SC | 2-0 | 30 | 13 |
 | 8 | Carolina Regulators 9u | Stanley, NC | 0-2 | 11 | 29 |
 | 9 | Carolina Elevate | Lenoir, NC | 0-0 | 0 | 0 |
-| 10 | Dirtbags Shook | Claremont, NC | 0-1 | 1 | 12 |
+| 10 | Dirtbags Shook | Claremont, NC | 0-2 | 3 | 25 |
 | 11 | ZT Knuckleheads | Clover, SC | 0-0 | 0 | 0 |
 | 12 | Diamond Jaxx | Pinehurst, NC | 0-1 | 2 | 14 |
 | 13 | Concord Athletics -9U | Concord, NC | 0-0 | 0 | 0 |

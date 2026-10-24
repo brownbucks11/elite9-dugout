@@ -444,10 +444,10 @@
           "seed": 1,
           "team": "NL Destroyers 2036",
           "location": "Denver, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 2,
+          "runs_scored": 13,
           "team_page_id": null
         },
         {
@@ -535,9 +535,9 @@
           "team": "Dirtbags Shook",
           "location": "Claremont, NC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 12,
-          "runs_scored": 1,
+          "lost": 2,
+          "runs_allowed": 25,
+          "runs_scored": 3,
           "team_page_id": null
         },
         {
@@ -750,10 +750,10 @@
             "field": "Mazeppa:Field # 3",
             "team_a": "NL Destroyers 2036",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 13,
             "team_b": "Dirtbags Shook",
             "seed_b": null,
-            "score_b": null
+            "score_b": 2
           },
           {
             "game": 12,
@@ -1035,10 +1035,10 @@
           "seed": 2,
           "team": "Triad Cardinals 10U",
           "location": "Kernersville, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 5,
-          "runs_scored": 5,
+          "runs_allowed": 9,
+          "runs_scored": 12,
           "team_page_id": null
         },
         {
@@ -1066,9 +1066,9 @@
           "team": "Pfafftown Raiders",
           "location": "Pfafftown, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 7,
+          "runs_scored": 4,
           "team_page_id": null
         },
         {
@@ -1185,10 +1185,10 @@
           "seed": 10,
           "team": "Rutherford Baseball Academy Team Davis",
           "location": "Rutherfordton, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 3,
+          "runs_scored": 10,
           "team_page_id": null
         },
         {
@@ -1206,9 +1206,9 @@
           "team": "Carolina Forge 10U",
           "location": "Gastonia, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 10,
+          "runs_scored": 3,
           "team_page_id": null
         },
         {
@@ -1463,10 +1463,10 @@
             "field": "SP:Field #3",
             "team_a": "Rutherford Baseball Academy Team Davis",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 10,
             "team_b": "Carolina Forge 10U",
             "seed_b": null,
-            "score_b": null
+            "score_b": 3
           },
           {
             "game": 13,
@@ -2739,10 +2739,10 @@
           "seed": 11,
           "team": "Odell Chargers",
           "location": "Concord, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 10,
+          "runs_scored": 14,
           "team_page_id": null
         },
         {
@@ -2760,9 +2760,9 @@
           "team": "East Rowan 12u",
           "location": "Rowan County, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 14,
+          "runs_scored": 10,
           "team_page_id": null
         },
         {
@@ -3230,10 +3230,10 @@
           "seed": 4,
           "team": "East Rowan 13U Earnhardt",
           "location": "Rockwell, NC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
-          "runs_allowed": 5,
-          "runs_scored": 11,
+          "runs_allowed": 6,
+          "runs_scored": 25,
           "team_page_id": null
         },
         {
@@ -3271,9 +3271,9 @@
           "team": "Mara Tide",
           "location": "Matthews, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 14,
+          "runs_scored": 1,
           "team_page_id": null
         },
         {
@@ -3518,9 +3518,9 @@
           "team": "Concord Athletics 14U - Ratliff",
           "location": "Concord, NC",
           "won": 1,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 8,
+          "lost": 1,
+          "runs_allowed": 15,
+          "runs_scored": 12,
           "team_page_id": null
         },
         {
@@ -3577,10 +3577,10 @@
           "seed": 8,
           "team": "Carolina Wolfpack - Royal",
           "location": "Clemmons, NC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
-          "runs_allowed": 1,
-          "runs_scored": 12,
+          "runs_allowed": 5,
+          "runs_scored": 27,
           "team_page_id": null
         },
         {
@@ -3817,10 +3817,10 @@
             "field": "Core:Hinson Core Field",
             "team_a": "Carolina Wolfpack - Royal",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 15,
             "team_b": "Concord Athletics 14U - Ratliff",
             "seed_b": null,
-            "score_b": null
+            "score_b": 4
           },
           {
             "game": 14,
@@ -4945,5 +4945,5 @@
   },
   "site_last_updated": "10/22/2026 7:46 AM",
   "tournament_id": 12522,
-  "fetched_at": "2026-10-24T15:46"
+  "fetched_at": "2026-10-24T15:57"
 }
