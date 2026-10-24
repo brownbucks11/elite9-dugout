@@ -118,9 +118,9 @@
           "team": "Carolina Smoke 8u",
           "location": "Concord, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 14,
+          "runs_scored": 12,
           "team_page_id": null
         },
         {
@@ -137,10 +137,10 @@
           "seed": 7,
           "team": "NC Made 8U Blue",
           "location": "Mocksville, NC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
-          "runs_allowed": 18,
-          "runs_scored": 22,
+          "runs_allowed": 30,
+          "runs_scored": 36,
           "team_page_id": null
         },
         {
@@ -255,10 +255,10 @@
             "field": "Westmoreld:Field 1",
             "team_a": "NC Made 8U Blue",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 14,
             "team_b": "Carolina Smoke 8u",
             "seed_b": null,
-            "score_b": null
+            "score_b": 12
           },
           {
             "game": 8,
@@ -1856,10 +1856,10 @@
           "seed": 3,
           "team": "Carolina Elevate",
           "location": "Lenoir, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 4,
+          "runs_scored": 6,
           "team_page_id": null
         },
         {
@@ -1896,10 +1896,10 @@
           "seed": 7,
           "team": "Mara Select",
           "location": "Matthews, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 5,
+          "runs_scored": 10,
           "team_page_id": null
         },
         {
@@ -1907,9 +1907,9 @@
           "team": "Equip 11U",
           "location": "Boone, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 10,
+          "runs_scored": 5,
           "team_page_id": null
         },
         {
@@ -1917,9 +1917,9 @@
           "team": "Coastal Bombers",
           "location": "Charleston, SC",
           "won": 1,
-          "lost": 0,
-          "runs_allowed": 2,
-          "runs_scored": 8,
+          "lost": 1,
+          "runs_allowed": 8,
+          "runs_scored": 12,
           "team_page_id": null
         },
         {
@@ -2037,9 +2037,9 @@
           "team": "Banana Peppers Baseball 11u",
           "location": "Gastonia, NC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 13,
-          "runs_scored": 12,
+          "lost": 2,
+          "runs_allowed": 27,
+          "runs_scored": 14,
           "team_page_id": null
         },
         {
@@ -2076,20 +2076,20 @@
           "seed": 13,
           "team": "KM Aces",
           "location": "Kings Mountain, NC",
-          "won": 0,
+          "won": 1,
           "lost": 1,
-          "runs_allowed": 6,
-          "runs_scored": 5,
+          "runs_allowed": 8,
+          "runs_scored": 19,
           "team_page_id": null
         },
         {
           "seed": 14,
           "team": "Camel City",
           "location": "Winston-Salem, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 6,
+          "runs_scored": 7,
           "team_page_id": null
         },
         {
@@ -2157,9 +2157,9 @@
           "team": "VA Bombers- Huddleston",
           "location": "Roanoke, VA",
           "won": 1,
-          "lost": 0,
-          "runs_allowed": 5,
-          "runs_scored": 6,
+          "lost": 1,
+          "runs_allowed": 12,
+          "runs_scored": 12,
           "team_page_id": null
         }
       ],
@@ -2292,10 +2292,10 @@
             "field": "Tega Cay:Field 1",
             "team_a": "VA Bombers- Huddleston",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 6,
             "team_b": "Camel City",
             "seed_b": null,
-            "score_b": null
+            "score_b": 7
           },
           {
             "game": 12,
@@ -2304,10 +2304,10 @@
             "field": "Tega Cay:Field 4",
             "team_a": "Banana Peppers Baseball 11u",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 2,
             "team_b": "KM Aces",
             "seed_b": null,
-            "score_b": null
+            "score_b": 14
           },
           {
             "game": 13,
@@ -4945,5 +4945,5 @@
   },
   "site_last_updated": "10/22/2026 7:46 AM",
   "tournament_id": 12522,
-  "fetched_at": "2026-10-24T16:28"
+  "fetched_at": "2026-10-24T16:39"
 }
