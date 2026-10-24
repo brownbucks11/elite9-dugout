@@ -485,19 +485,19 @@
           "team": "Red Clay Athletics 9U Darcangelo",
           "location": "Charlotte, NC",
           "won": 1,
-          "lost": 0,
-          "runs_allowed": 5,
-          "runs_scored": 10,
+          "lost": 1,
+          "runs_allowed": 16,
+          "runs_scored": 16,
           "team_page_id": null
         },
         {
           "seed": 6,
           "team": "Dirtbags Baseball ESB",
           "location": "Lincolnton, NC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
-          "runs_allowed": 5,
-          "runs_scored": 18,
+          "runs_allowed": 11,
+          "runs_scored": 29,
           "team_page_id": null
         },
         {
@@ -666,10 +666,10 @@
             "field": "Mazeppa:Field # 2",
             "team_a": "Dirtbags Baseball ESB",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 11,
             "team_b": "Red Clay Athletics 9U Darcangelo",
             "seed_b": null,
-            "score_b": null
+            "score_b": 6
           },
           {
             "game": 5,
@@ -4971,5 +4971,5 @@
   },
   "site_last_updated": "10/22/2026 7:46 AM",
   "tournament_id": 12522,
-  "fetched_at": "2026-10-24T12:58"
+  "fetched_at": "2026-10-24T13:08"
 }

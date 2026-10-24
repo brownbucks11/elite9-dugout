@@ -1,5 +1,5 @@
 # Elite 9 - Top Gun schedule
-_Updated Sat Oct 24, 2026 12:58 PM_
+_Updated Sat Oct 24, 2026 01:08 PM_
 
 ## SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND
 September 26 - 27 in Greater Charlotte Area, NC  
@@ -184,8 +184,8 @@ Tournament 12522 - [schedule page](https://playtopgunsports.com/GameTimesResults
 | 2 | Hooligans | Mount Holly, NC | 1-0 | 17 | 1 |
 | 3 | LumberJacks | Gaston County, NC | 0-0 | 0 | 0 |
 | 4 | Carolina Trash Pandas | Locust, NC | 0-0 | 0 | 0 |
-| 5 | Red Clay Athletics 9U Darcangelo | Charlotte, NC | 1-0 | 10 | 5 |
-| 6 | Dirtbags Baseball ESB | Lincolnton, NC | 1-0 | 18 | 5 |
+| 5 | Red Clay Athletics 9U Darcangelo | Charlotte, NC | 1-1 | 16 | 16 |
+| 6 | Dirtbags Baseball ESB | Lincolnton, NC | 2-0 | 29 | 11 |
 | 7 | Elite 9 **<--** | Rock Hill, SC | 1-0 | 22 | 9 |
 | 8 | Carolina Regulators 9u | Stanley, NC | 1-1 | 16 | 24 |
 | 9 | Carolina Elevate | Lenoir, NC | 0-0 | 0 | 0 |
