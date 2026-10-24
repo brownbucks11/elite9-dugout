@@ -3290,10 +3290,10 @@
           "seed": 2,
           "team": "Fury Baseball",
           "location": "Forest City, NC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 22,
+          "runs_allowed": 5,
+          "runs_scored": 34,
           "team_page_id": null
         },
         {
@@ -3311,9 +3311,9 @@
           "team": "Tega Cay Titans",
           "location": "Fort Mill, SC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 12,
+          "runs_scored": 5,
           "team_page_id": null
         },
         {
@@ -3368,10 +3368,10 @@
             "field": "BFF:Field 1",
             "team_a": "Fury Baseball",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 12,
             "team_b": "Tega Cay Titans",
             "seed_b": null,
-            "score_b": null
+            "score_b": 5
           },
           {
             "game": 3,
@@ -4971,5 +4971,5 @@
   },
   "site_last_updated": "10/22/2026 7:46 AM",
   "tournament_id": 12522,
-  "fetched_at": "2026-10-24T11:34"
+  "fetched_at": "2026-10-24T11:44"
 }
