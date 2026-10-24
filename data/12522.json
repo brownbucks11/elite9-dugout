@@ -3557,10 +3557,10 @@
           "seed": 6,
           "team": "Union County-Kraken",
           "location": "Indian trail, NC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
-          "runs_allowed": 3,
-          "runs_scored": 14,
+          "runs_allowed": 6,
+          "runs_scored": 20,
           "team_page_id": null
         },
         {
@@ -3598,9 +3598,9 @@
           "team": "Newport Bombers 14U Ferguson",
           "location": "Rock Hill, SC",
           "won": 1,
-          "lost": 0,
-          "runs_allowed": 4,
-          "runs_scored": 5,
+          "lost": 1,
+          "runs_allowed": 10,
+          "runs_scored": 8,
           "team_page_id": null
         },
         {
@@ -3841,10 +3841,10 @@
             "field": "MRH:Marvin Ridge MS",
             "team_a": "Newport Bombers 14U Ferguson",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 3,
             "team_b": "Union County-Kraken",
             "seed_b": null,
-            "score_b": null
+            "score_b": 6
           },
           {
             "game": 16,
@@ -4131,19 +4131,19 @@
           "team": "Camel City Baseball",
           "location": "Pfafftown, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 3,
+          "runs_scored": 2,
           "team_page_id": null
         },
         {
           "seed": 12,
           "team": "Roanoke Valley Ballers ( Orange )",
           "location": "roanoke, VA",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 2,
+          "runs_scored": 3,
           "team_page_id": null
         },
         {
@@ -4248,10 +4248,10 @@
             "field": "MRH:Marvin Ridge HS",
             "team_a": "Roanoke Valley Ballers ( Orange )",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 3,
             "team_b": "Camel City Baseball",
             "seed_b": null,
-            "score_b": null
+            "score_b": 2
           },
           {
             "game": 8,
@@ -4689,9 +4689,9 @@
           "team": "P413 Buchanan",
           "location": "ADVANCE, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 6,
+          "runs_scored": 1,
           "team_page_id": null
         },
         {
@@ -4738,10 +4738,10 @@
           "seed": 6,
           "team": "Triad Warriors",
           "location": "Walkertown, NC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
-          "runs_allowed": 4,
-          "runs_scored": 8,
+          "runs_allowed": 5,
+          "runs_scored": 14,
           "team_page_id": null
         },
         {
@@ -4822,10 +4822,10 @@
             "field": "Mazeppa:Field # 4",
             "team_a": "P413 Buchanan",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 1,
             "team_b": "Triad Warriors",
             "seed_b": null,
-            "score_b": null
+            "score_b": 6
           },
           {
             "game": 6,
@@ -4945,5 +4945,5 @@
   },
   "site_last_updated": "10/22/2026 7:46 AM",
   "tournament_id": 12522,
-  "fetched_at": "2026-10-24T16:07"
+  "fetched_at": "2026-10-24T16:18"
 }
