@@ -1115,20 +1115,20 @@
           "seed": 3,
           "team": "SBA Lake Norman Thunder - Blue",
           "location": "Cornelius, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
           "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_scored": 6,
           "team_page_id": null
         },
         {
           "seed": 4,
           "team": "Lincoln County Warriors",
           "location": "Lincolnton, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
           "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_scored": 6,
           "team_page_id": null
         },
         {
@@ -1145,10 +1145,10 @@
           "seed": 6,
           "team": "Elite9 10u",
           "location": "Rock hill, SC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 13,
+          "runs_scored": 14,
           "team_page_id": null
         },
         {
@@ -1196,9 +1196,9 @@
           "team": "PeeDee Mudcats",
           "location": "Wadesboro, NC",
           "won": 1,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 12,
+          "lost": 1,
+          "runs_allowed": 14,
+          "runs_scored": 25,
           "team_page_id": null
         },
         {
@@ -1256,8 +1256,8 @@
           "team": "Sandlot Baseball",
           "location": "charlotte, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
+          "lost": 2,
+          "runs_allowed": 12,
           "runs_scored": 0,
           "team_page_id": null
         },
@@ -1487,10 +1487,10 @@
             "field": "Doby:Doby 3",
             "team_a": "PeeDee Mudcats",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 13,
             "team_b": "Elite9 10u",
             "seed_b": null,
-            "score_b": null
+            "score_b": 14
           },
           {
             "game": 15,
@@ -1559,10 +1559,10 @@
             "field": "Westmoreld:Field 3",
             "team_a": "Lincoln County Warriors",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 6,
             "team_b": "Sandlot Baseball",
             "seed_b": null,
-            "score_b": null
+            "score_b": 0
           },
           {
             "game": 21,
@@ -1595,10 +1595,10 @@
             "field": "Westmoreld:Field 3",
             "team_a": "SBA Lake Norman Thunder - Blue",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 6,
             "team_b": "Sandlot Baseball",
             "seed_b": null,
-            "score_b": null
+            "score_b": 0
           }
         ],
         "Gold Bracket": [
@@ -3515,10 +3515,10 @@
           "seed": 3,
           "team": "Toxic NC",
           "location": "Startown, NC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
-          "runs_allowed": 1,
-          "runs_scored": 3,
+          "runs_allowed": 2,
+          "runs_scored": 5,
           "team_page_id": null
         },
         {
@@ -3646,9 +3646,9 @@
           "team": "NWNC elite navy",
           "location": "Wilkesboro, NC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 6,
-          "runs_scored": 1,
+          "lost": 2,
+          "runs_allowed": 8,
+          "runs_scored": 2,
           "team_page_id": null
         }
       ],
@@ -3841,10 +3841,10 @@
             "field": "Moss:Moss Field",
             "team_a": "Toxic NC",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 2,
             "team_b": "NWNC elite navy",
             "seed_b": null,
-            "score_b": null
+            "score_b": 1
           }
         ],
         "Gold Bracket": [
@@ -4933,5 +4933,5 @@
   },
   "site_last_updated": "10/22/2026 7:46 AM",
   "tournament_id": 12522,
-  "fetched_at": "2026-10-24T17:10"
+  "fetched_at": "2026-10-24T17:21"
 }
