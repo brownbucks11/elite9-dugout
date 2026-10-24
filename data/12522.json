@@ -1047,8 +1047,8 @@
           "location": "Huntersville, NC",
           "won": 0,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 9,
+          "runs_scored": 9,
           "team_page_id": null
         },
         {
@@ -1077,8 +1077,8 @@
           "location": "Clover, SC",
           "won": 0,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 9,
+          "runs_scored": 9,
           "team_page_id": null
         },
         {
@@ -1246,9 +1246,9 @@
           "team": "Aces",
           "location": "Kings Mountain, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 25,
+          "runs_scored": 3,
           "team_page_id": null
         },
         {
@@ -1285,10 +1285,10 @@
           "seed": 20,
           "team": "Shelby Storm 10u",
           "location": "Shelby, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 3,
+          "runs_scored": 25,
           "team_page_id": null
         },
         {
@@ -1343,10 +1343,10 @@
             "field": "SP:Field #3",
             "team_a": "Shelby Storm 10u",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 25,
             "team_b": "Aces",
             "seed_b": null,
-            "score_b": null
+            "score_b": 3
           },
           {
             "game": 3,
@@ -2660,9 +2660,9 @@
           "team": "Cleveland County Warriors",
           "location": "Shelby, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 9,
+          "runs_scored": 7,
           "team_page_id": null
         },
         {
@@ -2699,10 +2699,10 @@
           "seed": 7,
           "team": "SAND VIPERS",
           "location": "NEWTON, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 7,
+          "runs_scored": 9,
           "team_page_id": null
         },
         {
@@ -2710,9 +2710,9 @@
           "team": "China Grove Raiders 12u",
           "location": "Kannapolis, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 12,
+          "runs_scored": 1,
           "team_page_id": null
         },
         {
@@ -2749,10 +2749,10 @@
           "seed": 12,
           "team": "LKN Bolts",
           "location": "Huntersville, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 1,
+          "runs_scored": 12,
           "team_page_id": null
         },
         {
@@ -4971,5 +4971,5 @@
   },
   "site_last_updated": "10/22/2026 7:46 AM",
   "tournament_id": 12522,
-  "fetched_at": "2026-10-24T10:10"
+  "fetched_at": "2026-10-24T10:20"
 }
