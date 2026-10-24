@@ -1,5 +1,5 @@
 # Elite 9 - Top Gun schedule
-_Updated Sat Oct 24, 2026 07:27 PM_
+_Updated Sat Oct 24, 2026 07:37 PM_
 
 ## SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND
 September 26 - 27 in Greater Charlotte Area, NC  
@@ -175,6 +175,7 @@ Tournament 12522 - [schedule page](https://playtopgunsports.com/GameTimesResults
 |---|---|---|---|---|
 | Pool 6 | Sat 10:15 AM | SP:Field #1 | BOILING SPRINGS BULLDOGS BASEBALL 8u 9 | Elite 9 22 |
 | Pool 9 | Sat 12:00 PM | SP:Field #1 | Hooligans 4 | Elite 9 8 |
+| Gold 1 | Sun 9:00 AM | Bradford:Field # 1 | (#4) Lake Wylie Venom | (#5) Elite 9 |
 
 **9U standings**
 
@@ -182,19 +183,19 @@ Tournament 12522 - [schedule page](https://playtopgunsports.com/GameTimesResults
 |---|---|---|---|---|---|
 | 1 | NL Destroyers 2036 | Denver, NC | 2-0 | 23 | 3 |
 | 2 | Hooligans | Mount Holly, NC | 1-1 | 21 | 9 |
-| 3 | LumberJacks | Gaston County, NC | 0-1 | 7 | 24 |
+| 3 | LumberJacks | Gaston County, NC | 1-1 | 23 | 26 |
 | 4 | Carolina Trash Pandas | Locust, NC | 2-0 | 26 | 7 |
 | 5 | Red Clay Athletics 9U Darcangelo | Charlotte, NC | 1-1 | 16 | 16 |
 | 6 | Dirtbags Baseball ESB | Lincolnton, NC | 2-0 | 29 | 11 |
 | 7 | Elite 9 **<--** | Rock Hill, SC | 2-0 | 30 | 13 |
 | 8 | Carolina Regulators 9u | Stanley, NC | 0-2 | 11 | 29 |
-| 9 | Carolina Elevate | Lenoir, NC | 0-1 | 5 | 24 |
+| 9 | Carolina Elevate | Lenoir, NC | 0-2 | 7 | 40 |
 | 10 | Dirtbags Shook | Claremont, NC | 0-2 | 3 | 25 |
-| 11 | ZT Knuckleheads | Clover, SC | 1-0 | 17 | 1 |
+| 11 | ZT Knuckleheads | Clover, SC | 1-1 | 21 | 7 |
 | 12 | Diamond Jaxx | Pinehurst, NC | 0-2 | 3 | 31 |
 | 13 | Concord Athletics -9U | Concord, NC | 0-2 | 4 | 22 |
 | 14 | MARA Stingers | Matthews, NC | 1-1 | 17 | 13 |
-| 15 | Athletes Lab 9U Navy- Stewart | Maiden, NC | 1-0 | 12 | 3 |
+| 15 | Athletes Lab 9U Navy- Stewart | Maiden, NC | 2-0 | 18 | 7 |
 | 16 | LKN Lightning - Ogburn | Huntersville, NC | 1-1 | 16 | 16 |
 | 17 | BOILING SPRINGS BULLDOGS BASEBALL 8u | Boiling Springs, NC | 0-2 | 10 | 39 |
 | 18 | Lake Wylie Venom | Lake Wylie, SC | 2-0 | 48 | 12 |
@@ -203,34 +204,34 @@ Tournament 12522 - [schedule page](https://playtopgunsports.com/GameTimesResults
 
 | G | When | Field | Team A | Team B |
 |---|---|---|---|---|
-| 1 | Sun 9:00 AM | Bradford:Field # 1 | (#4)  | (#5)  |
-| 2 | Sun 11:00 AM | Bradford:Field # 1 | (#2)  | (#3)  |
-| 3 | Sun 1:00 PM | Bradford:Field # 1 | Winner Game #1 | (#1)  |
+| 1 | Sun 9:00 AM | Bradford:Field # 1 | (#4) Lake Wylie Venom | (#5) Elite 9 |
+| 2 | Sun 11:00 AM | Bradford:Field # 1 | (#2) Carolina Trash Pandas | (#3) Dirtbags Baseball ESB |
+| 3 | Sun 1:00 PM | Bradford:Field # 1 | Winner Game #1 | (#1) NL Destroyers 2036 |
 | 4 | Sun 3:00 PM | Bradford:Field # 1 | Winner Game #2 | Winner Game #3 |
 
 **Silver Bracket**
 
 | G | When | Field | Team A | Team B |
 |---|---|---|---|---|
-| 1 | Sun 9:00 AM | Bradford:Field # 2 | (#9)  | (#10)  |
-| 2 | Sun 11:00 AM | Bradford:Field # 2 | (#7)  | (#8)  |
-| 3 | Sun 1:00 PM | Bradford:Field # 2 | Winner Game #1 | (#6)  |
+| 1 | Sun 9:00 AM | Bradford:Field # 2 | (#9) MARA Stingers | (#10) Red Clay Athletics 9U Darcangelo |
+| 2 | Sun 11:00 AM | Bradford:Field # 2 | (#7) Athletes Lab 9U Navy- Stewart | (#8) Hooligans |
+| 3 | Sun 1:00 PM | Bradford:Field # 2 | Winner Game #1 | (#6) ZT Knuckleheads |
 | 4 | Sun 3:00 PM | Bradford:Field # 2 | Winner Game #2 | Winner Game #3 |
 
 **Bronze Bracket**
 
 | G | When | Field | Team A | Team B |
 |---|---|---|---|---|
-| 1 | Sun 9:00 AM | Bradford:Field # 3 | (#11)  | (#14)  |
-| 2 | Sun 11:00 AM | Bradford:Field # 3 | (#12)  | (#13)  |
+| 1 | Sun 9:00 AM | Bradford:Field # 3 | (#11) LKN Lightning - Ogburn | (#14) Dirtbags Shook |
+| 2 | Sun 11:00 AM | Bradford:Field # 3 | (#12) LumberJacks | (#13) Concord Athletics -9U |
 | 3 | Sun 1:00 PM | Bradford:Field # 3 | Winner Game #1 | Winner Game #2 |
 
 **Copper Bracket**
 
 | G | When | Field | Team A | Team B |
 |---|---|---|---|---|
-| 1 | Sun 9:00 AM | Bradford:Field # 4 | (#15)  | (#18)  |
-| 2 | Sun 11:00 AM | Bradford:Field # 4 | (#16)  | (#17)  |
+| 1 | Sun 9:00 AM | Bradford:Field # 4 | (#15) Carolina Regulators 9u | (#18) Carolina Elevate |
+| 2 | Sun 11:00 AM | Bradford:Field # 4 | (#16) Diamond Jaxx | (#17) BOILING SPRINGS BULLDOGS BASEBALL 8u |
 | 3 | Sun 1:00 PM | Bradford:Field # 4 | Winner Game #1 | Winner Game #2 |
 
 ## ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO

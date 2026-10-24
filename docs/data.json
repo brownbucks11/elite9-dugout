@@ -3,7 +3,7 @@
  "location": "Rock Hill, SC",
  "page_id": 31407,
  "team_url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=31407",
- "built": "Sat Oct 24, 2026 07:27 PM",
+ "built": "Sat Oct 24, 2026 07:37 PM",
  "record": {
   "w": 6,
   "l": 9,
@@ -236,6 +236,21 @@
    "ra": 4,
    "result": "W",
    "gc_id": "0670f09e-25ac-4403-b45c-dca07faa7593"
+  },
+  {
+   "event_id": 12522,
+   "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
+   "date": "2026-10-25",
+   "day": "Sun",
+   "time": "9:00 AM",
+   "field": "Bradford:Field # 1",
+   "section": "Gold Bracket",
+   "game": 1,
+   "opponent": "Lake Wylie Venom",
+   "rs": null,
+   "ra": null,
+   "result": null,
+   "gc_id": null
   }
  ],
  "my_events": [
@@ -4016,15 +4031,29 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-24T19:26",
+    "fetched_at": "2026-10-24T19:37",
     "url": "https://topgunstats.com/whos-playing/12522"
    },
-   "next_game": null,
+   "next_game": {
+    "event_id": 12522,
+    "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
+    "date": "2026-10-25",
+    "day": "Sun",
+    "time": "9:00 AM",
+    "field": "Bradford:Field # 1",
+    "section": "Gold Bracket",
+    "game": 1,
+    "opponent": "Lake Wylie Venom",
+    "rs": null,
+    "ra": null,
+    "result": null,
+    "gc_id": null
+   },
    "ics": "ics/12522.ics",
    "standing": {
     "team": "Elite 9",
     "location": "Rock Hill, SC",
-    "rank": 7,
+    "rank": 6,
     "tiebreak": "runs allowed",
     "h2h": {
      "BOILING SPRINGS BULLDOGS BASEBALL 8u": "W",
@@ -4040,8 +4069,8 @@
     "pool_t": 0,
     "pool_rs": 30,
     "pool_ra": 13,
-    "seed": null,
-    "bracket": null,
+    "seed": 5,
+    "bracket": "Gold Bracket",
     "won": 2,
     "lost": 0,
     "rs": 30,
@@ -4050,35 +4079,10 @@
    },
    "standings": [
     {
-     "team": "ZT Knuckleheads",
-     "location": "Clover, SC",
-     "rank": 1,
-     "tiebreak": "runs allowed",
-     "h2h": {
-      "Diamond Jaxx": "W"
-     },
-     "last": {
-      "opponent": "Diamond Jaxx",
-      "rs": 17,
-      "ra": 1
-     },
-     "pool_w": 1,
-     "pool_l": 0,
-     "pool_t": 0,
-     "pool_rs": 17,
-     "pool_ra": 1,
-     "seed": null,
-     "bracket": null,
-     "won": 1,
-     "lost": 0,
-     "rs": 17,
-     "ra": 1
-    },
-    {
      "team": "NL Destroyers 2036",
      "location": "Denver, NC",
-     "rank": 2,
-     "tiebreak": "runs scored",
+     "rank": 1,
+     "tiebreak": "runs allowed",
      "h2h": {
       "Dirtbags Shook": "W",
       "Concord Athletics -9U": "W"
@@ -4093,43 +4097,18 @@
      "pool_t": 0,
      "pool_rs": 23,
      "pool_ra": 3,
-     "seed": null,
-     "bracket": null,
+     "seed": 1,
+     "bracket": "Gold Bracket",
      "won": 2,
      "lost": 0,
      "rs": 23,
      "ra": 3
     },
     {
-     "team": "Athletes Lab 9U Navy- Stewart",
-     "location": "Maiden, NC",
-     "rank": 3,
-     "tiebreak": "runs scored",
-     "h2h": {
-      "Concord Athletics -9U": "W"
-     },
-     "last": {
-      "opponent": "Concord Athletics -9U",
-      "rs": 12,
-      "ra": 3
-     },
-     "pool_w": 1,
-     "pool_l": 0,
-     "pool_t": 0,
-     "pool_rs": 12,
-     "pool_ra": 3,
-     "seed": null,
-     "bracket": null,
-     "won": 1,
-     "lost": 0,
-     "rs": 12,
-     "ra": 3
-    },
-    {
      "team": "Carolina Trash Pandas",
      "location": "Locust, NC",
-     "rank": 4,
-     "tiebreak": "runs allowed",
+     "rank": 2,
+     "tiebreak": "runs scored",
      "h2h": {
       "Diamond Jaxx": "W",
       "MARA Stingers": "W"
@@ -4144,17 +4123,43 @@
      "pool_t": 0,
      "pool_rs": 26,
      "pool_ra": 7,
-     "seed": null,
-     "bracket": null,
+     "seed": 2,
+     "bracket": "Gold Bracket",
      "won": 2,
      "lost": 0,
      "rs": 26,
      "ra": 7
     },
     {
+     "team": "Athletes Lab 9U Navy- Stewart",
+     "location": "Maiden, NC",
+     "rank": 3,
+     "tiebreak": "runs scored",
+     "h2h": {
+      "Concord Athletics -9U": "W",
+      "ZT Knuckleheads": "W"
+     },
+     "last": {
+      "opponent": "ZT Knuckleheads",
+      "rs": 6,
+      "ra": 4
+     },
+     "pool_w": 2,
+     "pool_l": 0,
+     "pool_t": 0,
+     "pool_rs": 18,
+     "pool_ra": 7,
+     "seed": 7,
+     "bracket": "Silver Bracket",
+     "won": 2,
+     "lost": 0,
+     "rs": 18,
+     "ra": 7
+    },
+    {
      "team": "Dirtbags Baseball ESB",
      "location": "Lincolnton, NC",
-     "rank": 5,
+     "rank": 4,
      "tiebreak": "runs allowed",
      "h2h": {
       "Carolina Regulators 9u": "W",
@@ -4170,8 +4175,8 @@
      "pool_t": 0,
      "pool_rs": 29,
      "pool_ra": 11,
-     "seed": null,
-     "bracket": null,
+     "seed": 3,
+     "bracket": "Gold Bracket",
      "won": 2,
      "lost": 0,
      "rs": 29,
@@ -4180,7 +4185,7 @@
     {
      "team": "Lake Wylie Venom",
      "location": "Lake Wylie, SC",
-     "rank": 6,
+     "rank": 5,
      "tiebreak": "runs allowed",
      "h2h": {
       "LumberJacks": "W",
@@ -4196,8 +4201,8 @@
      "pool_t": 0,
      "pool_rs": 48,
      "pool_ra": 12,
-     "seed": null,
-     "bracket": null,
+     "seed": 4,
+     "bracket": "Gold Bracket",
      "won": 2,
      "lost": 0,
      "rs": 48,
@@ -4206,7 +4211,7 @@
     {
      "team": "Elite 9",
      "location": "Rock Hill, SC",
-     "rank": 7,
+     "rank": 6,
      "tiebreak": "runs allowed",
      "h2h": {
       "BOILING SPRINGS BULLDOGS BASEBALL 8u": "W",
@@ -4222,12 +4227,38 @@
      "pool_t": 0,
      "pool_rs": 30,
      "pool_ra": 13,
-     "seed": null,
-     "bracket": null,
+     "seed": 5,
+     "bracket": "Gold Bracket",
      "won": 2,
      "lost": 0,
      "rs": 30,
      "ra": 13
+    },
+    {
+     "team": "ZT Knuckleheads",
+     "location": "Clover, SC",
+     "rank": 7,
+     "tiebreak": "runs allowed",
+     "h2h": {
+      "Diamond Jaxx": "W",
+      "Athletes Lab 9U Navy- Stewart": "L"
+     },
+     "last": {
+      "opponent": "Athletes Lab 9U Navy- Stewart",
+      "rs": 4,
+      "ra": 6
+     },
+     "pool_w": 1,
+     "pool_l": 1,
+     "pool_t": 0,
+     "pool_rs": 21,
+     "pool_ra": 7,
+     "seed": 6,
+     "bracket": "Silver Bracket",
+     "won": 1,
+     "lost": 1,
+     "rs": 21,
+     "ra": 7
     },
     {
      "team": "Hooligans",
@@ -4248,8 +4279,8 @@
      "pool_t": 0,
      "pool_rs": 21,
      "pool_ra": 9,
-     "seed": null,
-     "bracket": null,
+     "seed": 8,
+     "bracket": "Silver Bracket",
      "won": 1,
      "lost": 1,
      "rs": 21,
@@ -4274,8 +4305,8 @@
      "pool_t": 0,
      "pool_rs": 17,
      "pool_ra": 13,
-     "seed": null,
-     "bracket": null,
+     "seed": 9,
+     "bracket": "Silver Bracket",
      "won": 1,
      "lost": 1,
      "rs": 17,
@@ -4300,8 +4331,8 @@
      "pool_t": 0,
      "pool_rs": 16,
      "pool_ra": 16,
-     "seed": null,
-     "bracket": null,
+     "seed": 10,
+     "bracket": "Silver Bracket",
      "won": 1,
      "lost": 1,
      "rs": 16,
@@ -4326,17 +4357,43 @@
      "pool_t": 0,
      "pool_rs": 16,
      "pool_ra": 16,
-     "seed": null,
-     "bracket": null,
+     "seed": 11,
+     "bracket": "Bronze Bracket",
      "won": 1,
      "lost": 1,
      "rs": 16,
      "ra": 16
     },
     {
+     "team": "LumberJacks",
+     "location": "Gaston County, NC",
+     "rank": 12,
+     "tiebreak": "runs allowed",
+     "h2h": {
+      "Lake Wylie Venom": "L",
+      "Carolina Elevate": "W"
+     },
+     "last": {
+      "opponent": "Carolina Elevate",
+      "rs": 16,
+      "ra": 2
+     },
+     "pool_w": 1,
+     "pool_l": 1,
+     "pool_t": 0,
+     "pool_rs": 23,
+     "pool_ra": 26,
+     "seed": 12,
+     "bracket": "Bronze Bracket",
+     "won": 1,
+     "lost": 1,
+     "rs": 23,
+     "ra": 26
+    },
+    {
      "team": "Concord Athletics -9U",
      "location": "Concord, NC",
-     "rank": 12,
+     "rank": 13,
      "tiebreak": "runs allowed",
      "h2h": {
       "Athletes Lab 9U Navy- Stewart": "L",
@@ -4352,67 +4409,17 @@
      "pool_t": 0,
      "pool_rs": 4,
      "pool_ra": 22,
-     "seed": null,
-     "bracket": null,
+     "seed": 13,
+     "bracket": "Bronze Bracket",
      "won": 0,
      "lost": 2,
      "rs": 4,
      "ra": 22
     },
     {
-     "team": "LumberJacks",
-     "location": "Gaston County, NC",
-     "rank": 13,
-     "tiebreak": "runs scored",
-     "h2h": {
-      "Lake Wylie Venom": "L"
-     },
-     "last": {
-      "opponent": "Lake Wylie Venom",
-      "rs": 7,
-      "ra": 24
-     },
-     "pool_w": 0,
-     "pool_l": 1,
-     "pool_t": 0,
-     "pool_rs": 7,
-     "pool_ra": 24,
-     "seed": null,
-     "bracket": null,
-     "won": 0,
-     "lost": 1,
-     "rs": 7,
-     "ra": 24
-    },
-    {
-     "team": "Carolina Elevate",
-     "location": "Lenoir, NC",
-     "rank": 14,
-     "tiebreak": "runs scored",
-     "h2h": {
-      "Lake Wylie Venom": "L"
-     },
-     "last": {
-      "opponent": "Lake Wylie Venom",
-      "rs": 5,
-      "ra": 24
-     },
-     "pool_w": 0,
-     "pool_l": 1,
-     "pool_t": 0,
-     "pool_rs": 5,
-     "pool_ra": 24,
-     "seed": null,
-     "bracket": null,
-     "won": 0,
-     "lost": 1,
-     "rs": 5,
-     "ra": 24
-    },
-    {
      "team": "Dirtbags Shook",
      "location": "Claremont, NC",
-     "rank": 15,
+     "rank": 14,
      "tiebreak": "runs allowed",
      "h2h": {
       "MARA Stingers": "L",
@@ -4428,8 +4435,8 @@
      "pool_t": 0,
      "pool_rs": 3,
      "pool_ra": 25,
-     "seed": null,
-     "bracket": null,
+     "seed": 14,
+     "bracket": "Bronze Bracket",
      "won": 0,
      "lost": 2,
      "rs": 3,
@@ -4438,7 +4445,7 @@
     {
      "team": "Carolina Regulators 9u",
      "location": "Stanley, NC",
-     "rank": 16,
+     "rank": 15,
      "tiebreak": "runs allowed",
      "h2h": {
       "Dirtbags Baseball ESB": "L",
@@ -4454,8 +4461,8 @@
      "pool_t": 0,
      "pool_rs": 11,
      "pool_ra": 29,
-     "seed": null,
-     "bracket": null,
+     "seed": 15,
+     "bracket": "Copper Bracket",
      "won": 0,
      "lost": 2,
      "rs": 11,
@@ -4464,7 +4471,7 @@
     {
      "team": "Diamond Jaxx",
      "location": "Pinehurst, NC",
-     "rank": 17,
+     "rank": 16,
      "tiebreak": "runs allowed",
      "h2h": {
       "Carolina Trash Pandas": "L",
@@ -4480,8 +4487,8 @@
      "pool_t": 0,
      "pool_rs": 3,
      "pool_ra": 31,
-     "seed": null,
-     "bracket": null,
+     "seed": 16,
+     "bracket": "Copper Bracket",
      "won": 0,
      "lost": 2,
      "rs": 3,
@@ -4490,7 +4497,7 @@
     {
      "team": "BOILING SPRINGS BULLDOGS BASEBALL 8u",
      "location": "Boiling Springs, NC",
-     "rank": 18,
+     "rank": 17,
      "tiebreak": "runs allowed",
      "h2h": {
       "Hooligans": "L",
@@ -4506,12 +4513,38 @@
      "pool_t": 0,
      "pool_rs": 10,
      "pool_ra": 39,
-     "seed": null,
-     "bracket": null,
+     "seed": 17,
+     "bracket": "Copper Bracket",
      "won": 0,
      "lost": 2,
      "rs": 10,
      "ra": 39
+    },
+    {
+     "team": "Carolina Elevate",
+     "location": "Lenoir, NC",
+     "rank": 18,
+     "tiebreak": "runs allowed",
+     "h2h": {
+      "Lake Wylie Venom": "L",
+      "LumberJacks": "L"
+     },
+     "last": {
+      "opponent": "LumberJacks",
+      "rs": 2,
+      "ra": 16
+     },
+     "pool_w": 0,
+     "pool_l": 2,
+     "pool_t": 0,
+     "pool_rs": 7,
+     "pool_ra": 40,
+     "seed": 18,
+     "bracket": "Copper Bracket",
+     "won": 0,
+     "lost": 2,
+     "rs": 7,
+     "ra": 40
     }
    ],
    "games": [
@@ -4764,11 +4797,11 @@
      "field": "Mazeppa:Field # 2",
      "team_a": "Athletes Lab 9U Navy- Stewart",
      "seed_a": null,
-     "score_a": null,
+     "score_a": 6,
      "from_a": null,
      "team_b": "ZT Knuckleheads",
      "seed_b": null,
-     "score_b": null,
+     "score_b": 4,
      "from_b": null
     },
     {
@@ -4796,11 +4829,11 @@
      "field": "SP:Field #1",
      "team_a": "LumberJacks",
      "seed_a": null,
-     "score_a": null,
+     "score_a": 16,
      "from_a": null,
      "team_b": "Carolina Elevate",
      "seed_b": null,
-     "score_b": null,
+     "score_b": 2,
      "from_b": null
     },
     {
@@ -4810,11 +4843,11 @@
      "time": "9:00 AM",
      "date": "2026-10-25",
      "field": "Bradford:Field # 1",
-     "team_a": "",
+     "team_a": "Lake Wylie Venom",
      "seed_a": 4,
      "score_a": null,
      "from_a": null,
-     "team_b": "",
+     "team_b": "Elite 9",
      "seed_b": 5,
      "score_b": null,
      "from_b": null
@@ -4826,11 +4859,11 @@
      "time": "11:00 AM",
      "date": "2026-10-25",
      "field": "Bradford:Field # 1",
-     "team_a": "",
+     "team_a": "Carolina Trash Pandas",
      "seed_a": 2,
      "score_a": null,
      "from_a": null,
-     "team_b": "",
+     "team_b": "Dirtbags Baseball ESB",
      "seed_b": 3,
      "score_b": null,
      "from_b": null
@@ -4849,7 +4882,7 @@
       "type": "winner",
       "game": 1
      },
-     "team_b": "",
+     "team_b": "NL Destroyers 2036",
      "seed_b": 1,
      "score_b": null,
      "from_b": null
@@ -4883,11 +4916,11 @@
      "time": "9:00 AM",
      "date": "2026-10-25",
      "field": "Bradford:Field # 2",
-     "team_a": "",
+     "team_a": "MARA Stingers",
      "seed_a": 9,
      "score_a": null,
      "from_a": null,
-     "team_b": "",
+     "team_b": "Red Clay Athletics 9U Darcangelo",
      "seed_b": 10,
      "score_b": null,
      "from_b": null
@@ -4899,11 +4932,11 @@
      "time": "11:00 AM",
      "date": "2026-10-25",
      "field": "Bradford:Field # 2",
-     "team_a": "",
+     "team_a": "Athletes Lab 9U Navy- Stewart",
      "seed_a": 7,
      "score_a": null,
      "from_a": null,
-     "team_b": "",
+     "team_b": "Hooligans",
      "seed_b": 8,
      "score_b": null,
      "from_b": null
@@ -4922,7 +4955,7 @@
       "type": "winner",
       "game": 1
      },
-     "team_b": "",
+     "team_b": "ZT Knuckleheads",
      "seed_b": 6,
      "score_b": null,
      "from_b": null
@@ -4956,11 +4989,11 @@
      "time": "9:00 AM",
      "date": "2026-10-25",
      "field": "Bradford:Field # 3",
-     "team_a": "",
+     "team_a": "LKN Lightning - Ogburn",
      "seed_a": 11,
      "score_a": null,
      "from_a": null,
-     "team_b": "",
+     "team_b": "Dirtbags Shook",
      "seed_b": 14,
      "score_b": null,
      "from_b": null
@@ -4972,11 +5005,11 @@
      "time": "11:00 AM",
      "date": "2026-10-25",
      "field": "Bradford:Field # 3",
-     "team_a": "",
+     "team_a": "LumberJacks",
      "seed_a": 12,
      "score_a": null,
      "from_a": null,
-     "team_b": "",
+     "team_b": "Concord Athletics -9U",
      "seed_b": 13,
      "score_b": null,
      "from_b": null
@@ -5010,11 +5043,11 @@
      "time": "9:00 AM",
      "date": "2026-10-25",
      "field": "Bradford:Field # 4",
-     "team_a": "",
+     "team_a": "Carolina Regulators 9u",
      "seed_a": 15,
      "score_a": null,
      "from_a": null,
-     "team_b": "",
+     "team_b": "Carolina Elevate",
      "seed_b": 18,
      "score_b": null,
      "from_b": null
@@ -5026,11 +5059,11 @@
      "time": "11:00 AM",
      "date": "2026-10-25",
      "field": "Bradford:Field # 4",
-     "team_a": "",
+     "team_a": "Diamond Jaxx",
      "seed_a": 16,
      "score_a": null,
      "from_a": null,
-     "team_b": "",
+     "team_b": "BOILING SPRINGS BULLDOGS BASEBALL 8u",
      "seed_b": 17,
      "score_b": null,
      "from_b": null
@@ -7997,11 +8030,11 @@
    "official": false,
    "confirmed": false,
    "summary": {
-    "rank": 7,
+    "rank": 6,
     "teams": 18,
     "pool": "2-0",
-    "bracket": null,
-    "seed": null,
+    "bracket": "Gold Bracket",
+    "seed": 5,
     "bracket_games": [],
     "w": 2,
     "l": 0
@@ -8019,7 +8052,7 @@
      "entered_at": "2026-10-19T08:25:19.373Z",
      "level": "AA"
     },
-    "fetched_at": "2026-10-24T19:26"
+    "fetched_at": "2026-10-24T19:37"
    },
    "tgs": {
     "weather": {
@@ -8164,7 +8197,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-24T19:26",
+    "fetched_at": "2026-10-24T19:37",
     "url": "https://topgunstats.com/whos-playing/12522"
    },
    "name": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
@@ -8422,11 +8455,11 @@
      "field": "Mazeppa:Field # 2",
      "team_a": "Athletes Lab 9U Navy- Stewart",
      "seed_a": null,
-     "score_a": null,
+     "score_a": 6,
      "from_a": null,
      "team_b": "ZT Knuckleheads",
      "seed_b": null,
-     "score_b": null,
+     "score_b": 4,
      "from_b": null
     },
     {
@@ -8454,11 +8487,11 @@
      "field": "SP:Field #1",
      "team_a": "LumberJacks",
      "seed_a": null,
-     "score_a": null,
+     "score_a": 16,
      "from_a": null,
      "team_b": "Carolina Elevate",
      "seed_b": null,
-     "score_b": null,
+     "score_b": 2,
      "from_b": null
     },
     {
@@ -8468,11 +8501,11 @@
      "time": "9:00 AM",
      "date": "2026-10-25",
      "field": "Bradford:Field # 1",
-     "team_a": "",
+     "team_a": "Lake Wylie Venom",
      "seed_a": 4,
      "score_a": null,
      "from_a": null,
-     "team_b": "",
+     "team_b": "Elite 9",
      "seed_b": 5,
      "score_b": null,
      "from_b": null
@@ -8484,11 +8517,11 @@
      "time": "11:00 AM",
      "date": "2026-10-25",
      "field": "Bradford:Field # 1",
-     "team_a": "",
+     "team_a": "Carolina Trash Pandas",
      "seed_a": 2,
      "score_a": null,
      "from_a": null,
-     "team_b": "",
+     "team_b": "Dirtbags Baseball ESB",
      "seed_b": 3,
      "score_b": null,
      "from_b": null
@@ -8507,7 +8540,7 @@
       "type": "winner",
       "game": 1
      },
-     "team_b": "",
+     "team_b": "NL Destroyers 2036",
      "seed_b": 1,
      "score_b": null,
      "from_b": null
@@ -8541,11 +8574,11 @@
      "time": "9:00 AM",
      "date": "2026-10-25",
      "field": "Bradford:Field # 2",
-     "team_a": "",
+     "team_a": "MARA Stingers",
      "seed_a": 9,
      "score_a": null,
      "from_a": null,
-     "team_b": "",
+     "team_b": "Red Clay Athletics 9U Darcangelo",
      "seed_b": 10,
      "score_b": null,
      "from_b": null
@@ -8557,11 +8590,11 @@
      "time": "11:00 AM",
      "date": "2026-10-25",
      "field": "Bradford:Field # 2",
-     "team_a": "",
+     "team_a": "Athletes Lab 9U Navy- Stewart",
      "seed_a": 7,
      "score_a": null,
      "from_a": null,
-     "team_b": "",
+     "team_b": "Hooligans",
      "seed_b": 8,
      "score_b": null,
      "from_b": null
@@ -8580,7 +8613,7 @@
       "type": "winner",
       "game": 1
      },
-     "team_b": "",
+     "team_b": "ZT Knuckleheads",
      "seed_b": 6,
      "score_b": null,
      "from_b": null
@@ -8614,11 +8647,11 @@
      "time": "9:00 AM",
      "date": "2026-10-25",
      "field": "Bradford:Field # 3",
-     "team_a": "",
+     "team_a": "LKN Lightning - Ogburn",
      "seed_a": 11,
      "score_a": null,
      "from_a": null,
-     "team_b": "",
+     "team_b": "Dirtbags Shook",
      "seed_b": 14,
      "score_b": null,
      "from_b": null
@@ -8630,11 +8663,11 @@
      "time": "11:00 AM",
      "date": "2026-10-25",
      "field": "Bradford:Field # 3",
-     "team_a": "",
+     "team_a": "LumberJacks",
      "seed_a": 12,
      "score_a": null,
      "from_a": null,
-     "team_b": "",
+     "team_b": "Concord Athletics -9U",
      "seed_b": 13,
      "score_b": null,
      "from_b": null
@@ -8668,11 +8701,11 @@
      "time": "9:00 AM",
      "date": "2026-10-25",
      "field": "Bradford:Field # 4",
-     "team_a": "",
+     "team_a": "Carolina Regulators 9u",
      "seed_a": 15,
      "score_a": null,
      "from_a": null,
-     "team_b": "",
+     "team_b": "Carolina Elevate",
      "seed_b": 18,
      "score_b": null,
      "from_b": null
@@ -8684,11 +8717,11 @@
      "time": "11:00 AM",
      "date": "2026-10-25",
      "field": "Bradford:Field # 4",
-     "team_a": "",
+     "team_a": "Diamond Jaxx",
      "seed_a": 16,
      "score_a": null,
      "from_a": null,
-     "team_b": "",
+     "team_b": "BOILING SPRINGS BULLDOGS BASEBALL 8u",
      "seed_b": 17,
      "score_b": null,
      "from_b": null
@@ -8741,10 +8774,10 @@
      "seed": 3,
      "team": "LumberJacks",
      "location": "Gaston County, NC",
-     "won": 0,
+     "won": 1,
      "lost": 1,
-     "runs_allowed": 24,
-     "runs_scored": 7,
+     "runs_allowed": 26,
+     "runs_scored": 23,
      "team_page_id": null
     },
     {
@@ -8802,9 +8835,9 @@
      "team": "Carolina Elevate",
      "location": "Lenoir, NC",
      "won": 0,
-     "lost": 1,
-     "runs_allowed": 24,
-     "runs_scored": 5,
+     "lost": 2,
+     "runs_allowed": 40,
+     "runs_scored": 7,
      "team_page_id": null
     },
     {
@@ -8822,9 +8855,9 @@
      "team": "ZT Knuckleheads",
      "location": "Clover, SC",
      "won": 1,
-     "lost": 0,
-     "runs_allowed": 1,
-     "runs_scored": 17,
+     "lost": 1,
+     "runs_allowed": 7,
+     "runs_scored": 21,
      "team_page_id": null
     },
     {
@@ -8861,10 +8894,10 @@
      "seed": 15,
      "team": "Athletes Lab 9U Navy- Stewart",
      "location": "Maiden, NC",
-     "won": 1,
+     "won": 2,
      "lost": 0,
-     "runs_allowed": 3,
-     "runs_scored": 12,
+     "runs_allowed": 7,
+     "runs_scored": 18,
      "team_page_id": null
     },
     {
@@ -8928,13 +8961,47 @@
      "ra": 4,
      "result": "W",
      "gc_id": "0670f09e-25ac-4403-b45c-dca07faa7593"
+    },
+    {
+     "event_id": 12522,
+     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
+     "date": "2026-10-25",
+     "day": "Sun",
+     "time": "9:00 AM",
+     "field": "Bradford:Field # 1",
+     "section": "Gold Bracket",
+     "game": 1,
+     "opponent": "Lake Wylie Venom",
+     "rs": null,
+     "ra": null,
+     "result": null,
+     "gc_id": null
     }
    ],
-   "next_game": null,
-   "schedule_versions": 1,
+   "next_game": {
+    "event_id": 12522,
+    "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
+    "date": "2026-10-25",
+    "day": "Sun",
+    "time": "9:00 AM",
+    "field": "Bradford:Field # 1",
+    "section": "Gold Bracket",
+    "game": 1,
+    "opponent": "Lake Wylie Venom",
+    "rs": null,
+    "ra": null,
+    "result": null,
+    "gc_id": null
+   },
+   "schedule_versions": 2,
    "schedule_first": "2026-10-22T10:54",
-   "schedule_updated": "2026-10-22T10:54",
-   "changes": [],
+   "schedule_updated": "2026-10-24T19:37",
+   "changes": [
+    {
+     "key": "Gold Bracket#1",
+     "kind": "added"
+    }
+   ],
    "ics": "ics/12522.ics"
   },
   {
@@ -8951,7 +9018,7 @@
     "team": {
      "entered": false
     },
-    "fetched_at": "2026-10-24T19:26"
+    "fetched_at": "2026-10-24T19:37"
    },
    "tgs": {
     "weather": null,
@@ -9005,7 +9072,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-24T19:26",
+    "fetched_at": "2026-10-24T19:37",
     "url": "https://topgunstats.com/whos-playing/12524"
    },
    "name": "Road Runner vs Coyote ring weekend",
@@ -9403,16 +9470,16 @@
    "stats_fetched": null
   },
   {
-   "team": "ZT Knuckleheads",
-   "location": "Clover, SC",
+   "team": "Athletes Lab 9U Navy- Stewart",
+   "location": "Maiden, NC",
    "page_id": null,
    "url": null,
-   "w": 1,
+   "w": 2,
    "l": 0,
    "t": 0,
-   "rs": 17,
-   "ra": 1,
-   "diff": 16,
+   "rs": 18,
+   "ra": 7,
+   "diff": 11,
    "pct": 1.0,
    "events": 1,
    "log": [
@@ -9421,9 +9488,19 @@
      "event_id": 12522,
      "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
      "section": "Pool Play",
-     "opponent": "Diamond Jaxx",
-     "rs": 17,
-     "ra": 1,
+     "opponent": "Concord Athletics -9U",
+     "rs": 12,
+     "ra": 3,
+     "result": "W"
+    },
+    {
+     "date": "2026-10-24",
+     "event_id": 12522,
+     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
+     "section": "Pool Play",
+     "opponent": "ZT Knuckleheads",
+     "rs": 6,
+     "ra": 4,
      "result": "W"
     }
    ],
@@ -9465,37 +9542,6 @@
      "opponent": "Carolina Elevate",
      "rs": 12,
      "ra": 6,
-     "result": "W"
-    }
-   ],
-   "points": 0,
-   "titles": 0,
-   "finishes": [],
-   "season": "",
-   "stats_fetched": null
-  },
-  {
-   "team": "Athletes Lab 9U Navy- Stewart",
-   "location": "Maiden, NC",
-   "page_id": null,
-   "url": null,
-   "w": 1,
-   "l": 0,
-   "t": 0,
-   "rs": 12,
-   "ra": 3,
-   "diff": 9,
-   "pct": 1.0,
-   "events": 1,
-   "log": [
-    {
-     "date": "2026-10-24",
-     "event_id": 12522,
-     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
-     "section": "Pool Play",
-     "opponent": "Concord Athletics -9U",
-     "rs": 12,
-     "ra": 3,
      "result": "W"
     }
    ],
@@ -11614,6 +11660,47 @@
    ],
    "season": "08/01/2026 - 10/23/2026",
    "stats_fetched": "2026-10-23T11:39"
+  },
+  {
+   "team": "ZT Knuckleheads",
+   "location": "Clover, SC",
+   "page_id": null,
+   "url": null,
+   "w": 1,
+   "l": 1,
+   "t": 0,
+   "rs": 21,
+   "ra": 7,
+   "diff": 14,
+   "pct": 0.5,
+   "events": 1,
+   "log": [
+    {
+     "date": "2026-10-24",
+     "event_id": 12522,
+     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
+     "section": "Pool Play",
+     "opponent": "Diamond Jaxx",
+     "rs": 17,
+     "ra": 1,
+     "result": "W"
+    },
+    {
+     "date": "2026-10-24",
+     "event_id": 12522,
+     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
+     "section": "Pool Play",
+     "opponent": "Athletes Lab 9U Navy- Stewart",
+     "rs": 4,
+     "ra": 6,
+     "result": "L"
+    }
+   ],
+   "points": 0,
+   "titles": 0,
+   "finishes": [],
+   "season": "",
+   "stats_fetched": null
   },
   {
    "team": "Copperheads",
@@ -14389,13 +14476,13 @@
    "location": "Gaston County, NC",
    "page_id": 34401,
    "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=34401",
-   "w": 6,
+   "w": 7,
    "l": 14,
    "t": 0,
-   "rs": 177,
-   "ra": 243,
-   "diff": -66,
-   "pct": 0.3,
+   "rs": 193,
+   "ra": 245,
+   "diff": -52,
+   "pct": 0.333,
    "events": 6,
    "log": [
     {
@@ -14597,6 +14684,16 @@
      "rs": 7,
      "ra": 24,
      "result": "L"
+    },
+    {
+     "date": "2026-10-24",
+     "event_id": 12522,
+     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
+     "section": "Pool Play",
+     "opponent": "Carolina Elevate",
+     "rs": 16,
+     "ra": 2,
+     "result": "W"
     }
    ],
    "points": 2775,
@@ -15232,12 +15329,12 @@
    "page_id": null,
    "url": null,
    "w": 1,
-   "l": 6,
+   "l": 7,
    "t": 0,
-   "rs": 33,
-   "ra": 105,
-   "diff": -72,
-   "pct": 0.143,
+   "rs": 35,
+   "ra": 121,
+   "diff": -86,
+   "pct": 0.125,
    "events": 3,
    "log": [
     {
@@ -15308,6 +15405,16 @@
      "opponent": "Lake Wylie Venom",
      "rs": 5,
      "ra": 24,
+     "result": "L"
+    },
+    {
+     "date": "2026-10-24",
+     "event_id": 12522,
+     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
+     "section": "Pool Play",
+     "opponent": "LumberJacks",
+     "rs": 2,
+     "ra": 16,
      "result": "L"
     }
    ],

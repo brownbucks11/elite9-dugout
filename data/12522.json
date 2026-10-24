@@ -464,10 +464,10 @@
           "seed": 3,
           "team": "LumberJacks",
           "location": "Gaston County, NC",
-          "won": 0,
+          "won": 1,
           "lost": 1,
-          "runs_allowed": 24,
-          "runs_scored": 7,
+          "runs_allowed": 26,
+          "runs_scored": 23,
           "team_page_id": null
         },
         {
@@ -525,9 +525,9 @@
           "team": "Carolina Elevate",
           "location": "Lenoir, NC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 24,
-          "runs_scored": 5,
+          "lost": 2,
+          "runs_allowed": 40,
+          "runs_scored": 7,
           "team_page_id": null
         },
         {
@@ -545,9 +545,9 @@
           "team": "ZT Knuckleheads",
           "location": "Clover, SC",
           "won": 1,
-          "lost": 0,
-          "runs_allowed": 1,
-          "runs_scored": 17,
+          "lost": 1,
+          "runs_allowed": 7,
+          "runs_scored": 21,
           "team_page_id": null
         },
         {
@@ -584,10 +584,10 @@
           "seed": 15,
           "team": "Athletes Lab 9U Navy- Stewart",
           "location": "Maiden, NC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
-          "runs_allowed": 3,
-          "runs_scored": 12,
+          "runs_allowed": 7,
+          "runs_scored": 18,
           "team_page_id": null
         },
         {
@@ -810,10 +810,10 @@
             "field": "Mazeppa:Field # 2",
             "team_a": "Athletes Lab 9U Navy- Stewart",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 6,
             "team_b": "ZT Knuckleheads",
             "seed_b": null,
-            "score_b": null
+            "score_b": 4
           },
           {
             "game": 17,
@@ -834,10 +834,10 @@
             "field": "SP:Field #1",
             "team_a": "LumberJacks",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 16,
             "team_b": "Carolina Elevate",
             "seed_b": null,
-            "score_b": null
+            "score_b": 2
           }
         ],
         "Gold Bracket": [
@@ -846,10 +846,10 @@
             "day": "Sun",
             "time": "9:00 AM",
             "field": "Bradford:Field # 1",
-            "team_a": "",
+            "team_a": "Lake Wylie Venom",
             "seed_a": 4,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Elite 9",
             "seed_b": 5,
             "score_b": null
           },
@@ -858,10 +858,10 @@
             "day": "Sun",
             "time": "11:00 AM",
             "field": "Bradford:Field # 1",
-            "team_a": "",
+            "team_a": "Carolina Trash Pandas",
             "seed_a": 2,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Dirtbags Baseball ESB",
             "seed_b": 3,
             "score_b": null
           },
@@ -873,7 +873,7 @@
             "team_a": "Winner Game #1",
             "seed_a": null,
             "score_a": null,
-            "team_b": "",
+            "team_b": "NL Destroyers 2036",
             "seed_b": 1,
             "score_b": null
           },
@@ -896,10 +896,10 @@
             "day": "Sun",
             "time": "9:00 AM",
             "field": "Bradford:Field # 2",
-            "team_a": "",
+            "team_a": "MARA Stingers",
             "seed_a": 9,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Red Clay Athletics 9U Darcangelo",
             "seed_b": 10,
             "score_b": null
           },
@@ -908,10 +908,10 @@
             "day": "Sun",
             "time": "11:00 AM",
             "field": "Bradford:Field # 2",
-            "team_a": "",
+            "team_a": "Athletes Lab 9U Navy- Stewart",
             "seed_a": 7,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Hooligans",
             "seed_b": 8,
             "score_b": null
           },
@@ -923,7 +923,7 @@
             "team_a": "Winner Game #1",
             "seed_a": null,
             "score_a": null,
-            "team_b": "",
+            "team_b": "ZT Knuckleheads",
             "seed_b": 6,
             "score_b": null
           },
@@ -946,10 +946,10 @@
             "day": "Sun",
             "time": "9:00 AM",
             "field": "Bradford:Field # 3",
-            "team_a": "",
+            "team_a": "LKN Lightning - Ogburn",
             "seed_a": 11,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Dirtbags Shook",
             "seed_b": 14,
             "score_b": null
           },
@@ -958,10 +958,10 @@
             "day": "Sun",
             "time": "11:00 AM",
             "field": "Bradford:Field # 3",
-            "team_a": "",
+            "team_a": "LumberJacks",
             "seed_a": 12,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Concord Athletics -9U",
             "seed_b": 13,
             "score_b": null
           },
@@ -984,10 +984,10 @@
             "day": "Sun",
             "time": "9:00 AM",
             "field": "Bradford:Field # 4",
-            "team_a": "",
+            "team_a": "Carolina Regulators 9u",
             "seed_a": 15,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Carolina Elevate",
             "seed_b": 18,
             "score_b": null
           },
@@ -996,10 +996,10 @@
             "day": "Sun",
             "time": "11:00 AM",
             "field": "Bradford:Field # 4",
-            "team_a": "",
+            "team_a": "Diamond Jaxx",
             "seed_a": 16,
             "score_a": null,
-            "team_b": "",
+            "team_b": "BOILING SPRINGS BULLDOGS BASEBALL 8u",
             "seed_b": 17,
             "score_b": null
           },
@@ -1106,19 +1106,19 @@
           "team": "Copperheads Red",
           "location": "Mooresville, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 6,
+          "runs_scored": 5,
           "team_page_id": null
         },
         {
           "seed": 3,
           "team": "SBA Lake Norman Thunder - Blue",
           "location": "Cornelius, NC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 6,
+          "runs_allowed": 5,
+          "runs_scored": 12,
           "team_page_id": null
         },
         {
@@ -1547,10 +1547,10 @@
             "field": "Westmoreld:Field 2",
             "team_a": "SBA Lake Norman Thunder - Blue",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 6,
             "team_b": "Copperheads Red",
             "seed_b": null,
-            "score_b": null
+            "score_b": 5
           },
           {
             "game": 20,
@@ -2868,9 +2868,9 @@
           "team": "PJ Junkies",
           "location": "Pageland, SC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 14,
-          "runs_scored": 2,
+          "lost": 2,
+          "runs_allowed": 25,
+          "runs_scored": 11,
           "team_page_id": null
         },
         {
@@ -2887,10 +2887,10 @@
           "seed": 13,
           "team": "Elite9 White",
           "location": "Rock Hill, SC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 9,
+          "runs_scored": 11,
           "team_page_id": null
         }
       ],
@@ -3023,10 +3023,10 @@
             "field": "Dallas:Field # 3",
             "team_a": "PJ Junkies",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 9,
             "team_b": "Elite9 White",
             "seed_b": null,
-            "score_b": null
+            "score_b": 11
           },
           {
             "game": 12,
@@ -4933,5 +4933,5 @@
   },
   "site_last_updated": "10/22/2026 7:46 AM",
   "tournament_id": 12522,
-  "fetched_at": "2026-10-24T19:26"
+  "fetched_at": "2026-10-24T19:37"
 }
