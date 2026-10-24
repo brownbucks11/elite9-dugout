@@ -2659,10 +2659,10 @@
           "seed": 3,
           "team": "Cleveland County Warriors",
           "location": "Shelby, NC",
-          "won": 0,
+          "won": 1,
           "lost": 1,
-          "runs_allowed": 9,
-          "runs_scored": 7,
+          "runs_allowed": 12,
+          "runs_scored": 21,
           "team_page_id": null
         },
         {
@@ -2720,9 +2720,9 @@
           "team": "Carolina Hit Stix",
           "location": "Richburg, SC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 14,
+          "runs_scored": 3,
           "team_page_id": null
         },
         {
@@ -3230,10 +3230,10 @@
           "seed": 4,
           "team": "East Rowan 13U Earnhardt",
           "location": "Rockwell, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 5,
+          "runs_scored": 11,
           "team_page_id": null
         },
         {
@@ -3261,9 +3261,9 @@
           "team": "Athletes Lab 13U Red",
           "location": "Maiden, NC",
           "won": 1,
-          "lost": 0,
-          "runs_allowed": 1,
-          "runs_scored": 5,
+          "lost": 1,
+          "runs_allowed": 12,
+          "runs_scored": 10,
           "team_page_id": null
         },
         {
@@ -4971,5 +4971,5 @@
   },
   "site_last_updated": "10/22/2026 7:46 AM",
   "tournament_id": 12522,
-  "fetched_at": "2026-10-24T12:37"
+  "fetched_at": "2026-10-24T12:47"
 }
