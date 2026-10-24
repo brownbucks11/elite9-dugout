@@ -1155,10 +1155,10 @@
           "seed": 7,
           "team": "LKN Kingdom",
           "location": "Charlotte, NC",
-          "won": 0,
+          "won": 1,
           "lost": 1,
-          "runs_allowed": 5,
-          "runs_scored": 3,
+          "runs_allowed": 9,
+          "runs_scored": 11,
           "team_page_id": null
         },
         {
@@ -1166,9 +1166,9 @@
           "team": "SBA Lake Norman Thunder - White",
           "location": "Cornelius, NC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 8,
-          "runs_scored": 0,
+          "lost": 2,
+          "runs_allowed": 16,
+          "runs_scored": 4,
           "team_page_id": null
         },
         {
@@ -1427,10 +1427,10 @@
             "field": "Westmoreld:Field 1",
             "team_a": "LKN Kingdom",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 8,
             "team_b": "SBA Lake Norman Thunder - White",
             "seed_b": null,
-            "score_b": null
+            "score_b": 4
           },
           {
             "game": 10,
@@ -2679,10 +2679,10 @@
           "seed": 5,
           "team": "NL Destroyers - 2033",
           "location": "Denver, NC",
-          "won": 0,
+          "won": 1,
           "lost": 1,
-          "runs_allowed": 8,
-          "runs_scored": 6,
+          "runs_allowed": 17,
+          "runs_scored": 16,
           "team_page_id": null
         },
         {
@@ -2710,9 +2710,9 @@
           "team": "China Grove Raiders 12u",
           "location": "Kannapolis, NC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 12,
-          "runs_scored": 1,
+          "lost": 2,
+          "runs_allowed": 22,
+          "runs_scored": 10,
           "team_page_id": null
         },
         {
@@ -2829,10 +2829,10 @@
           "seed": 6,
           "team": "Extreme Performance 2033",
           "location": "Salisbury, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 6,
+          "runs_scored": 7,
           "team_page_id": null
         },
         {
@@ -2840,9 +2840,9 @@
           "team": "Carolina Reign Baseball 12U",
           "location": "Lincolnton, NC",
           "won": 1,
-          "lost": 0,
-          "runs_allowed": 4,
-          "runs_scored": 10,
+          "lost": 1,
+          "runs_allowed": 11,
+          "runs_scored": 16,
           "team_page_id": null
         },
         {
@@ -2975,10 +2975,10 @@
             "field": "Dallas:Field # 3",
             "team_a": "Carolina Reign Baseball 12U",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 6,
             "team_b": "Extreme Performance 2033",
             "seed_b": null,
-            "score_b": null
+            "score_b": 7
           },
           {
             "game": 7,
@@ -3507,20 +3507,20 @@
           "seed": 1,
           "team": "The Sandlot 14u",
           "location": "Granite Falls, NC",
-          "won": 0,
+          "won": 1,
           "lost": 1,
-          "runs_allowed": 4,
-          "runs_scored": 1,
+          "runs_allowed": 6,
+          "runs_scored": 11,
           "team_page_id": null
         },
         {
           "seed": 2,
           "team": "Concord Athletics 14U - Ratliff",
           "location": "Concord, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
           "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_scored": 8,
           "team_page_id": null
         },
         {
@@ -3588,9 +3588,9 @@
           "team": "Foothills Elite",
           "location": "Hickory, NC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 10,
-          "runs_scored": 1,
+          "lost": 2,
+          "runs_allowed": 20,
+          "runs_scored": 3,
           "team_page_id": null
         },
         {
@@ -3628,8 +3628,8 @@
           "team": "Mooresville Biscuits",
           "location": "Mooresville, NC",
           "won": 1,
-          "lost": 0,
-          "runs_allowed": 5,
+          "lost": 1,
+          "runs_allowed": 13,
           "runs_scored": 7,
           "team_page_id": null
         },
@@ -3769,10 +3769,10 @@
             "field": "CMHP:CaroMont",
             "team_a": "Foothills Elite",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 2,
             "team_b": "The Sandlot 14u",
             "seed_b": null,
-            "score_b": null
+            "score_b": 10
           },
           {
             "game": 10,
@@ -3781,10 +3781,10 @@
             "field": "Core:Hinson Core Field",
             "team_a": "Mooresville Biscuits",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 0,
             "team_b": "Concord Athletics 14U - Ratliff",
             "seed_b": null,
-            "score_b": null
+            "score_b": 8
           },
           {
             "game": 11,
@@ -4971,5 +4971,5 @@
   },
   "site_last_updated": "10/22/2026 7:46 AM",
   "tournament_id": 12522,
-  "fetched_at": "2026-10-24T13:40"
+  "fetched_at": "2026-10-24T13:50"
 }
