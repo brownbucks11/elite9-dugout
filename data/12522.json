@@ -77,10 +77,10 @@
           "seed": 1,
           "team": "Carolina Rapid Fire \ud83d\udd25 8U (BLACK)",
           "location": "Lincolnton, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 4,
+          "runs_scored": 10,
           "team_page_id": null
         },
         {
@@ -148,9 +148,9 @@
           "team": "Tega Cay Titans 8u",
           "location": "Fort Mill, SC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 10,
+          "runs_scored": 4,
           "team_page_id": null
         },
         {
@@ -243,10 +243,10 @@
             "field": "Westmoreld:Field 4",
             "team_a": "Tega Cay Titans 8u",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 4,
             "team_b": "Carolina Rapid Fire \ud83d\udd25 8U (BLACK)",
             "seed_b": null,
-            "score_b": null
+            "score_b": 10
           },
           {
             "game": 7,
@@ -3537,10 +3537,10 @@
           "seed": 4,
           "team": "Carolina Aces",
           "location": "Kings Mountain, NC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
-          "runs_allowed": 1,
-          "runs_scored": 9,
+          "runs_allowed": 2,
+          "runs_scored": 15,
           "team_page_id": null
         },
         {
@@ -3658,9 +3658,9 @@
           "team": "NWNC elite navy",
           "location": "Wilkesboro, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 6,
+          "runs_scored": 1,
           "team_page_id": null
         }
       ],
@@ -3829,10 +3829,10 @@
             "field": "Moss:Moss Field",
             "team_a": "Carolina Aces",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 6,
             "team_b": "NWNC elite navy",
             "seed_b": null,
-            "score_b": null
+            "score_b": 1
           },
           {
             "game": 15,
@@ -3925,36 +3925,60 @@
           {
             "game": 1,
             "day": "Sun",
-            "time": "12:30 PM",
+            "time": "8:30 AM",
             "field": "TOB:Field 1",
             "team_a": "",
-            "seed_a": 7,
+            "seed_a": 10,
             "score_a": null,
             "team_b": "",
-            "seed_b": 10,
+            "seed_b": 11,
             "score_b": null
           },
           {
             "game": 2,
             "day": "Sun",
-            "time": "2:30 PM",
+            "time": "10:30 AM",
             "field": "TOB:Field 1",
             "team_a": "",
-            "seed_a": 8,
+            "seed_a": 9,
             "score_a": null,
             "team_b": "",
-            "seed_b": 9,
+            "seed_b": 12,
             "score_b": null
           },
           {
             "game": 3,
             "day": "Sun",
-            "time": "4:30 PM",
+            "time": "12:30 PM",
             "field": "TOB:Field 1",
             "team_a": "Winner Game #1",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Winner Game #2",
+            "team_b": "",
+            "seed_b": 7,
+            "score_b": null
+          },
+          {
+            "game": 4,
+            "day": "Sun",
+            "time": "2:30 PM",
+            "field": "TOB:Field 1",
+            "team_a": "Winner Game #2",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "",
+            "seed_b": 8,
+            "score_b": null
+          },
+          {
+            "game": 5,
+            "day": "Sun",
+            "time": "4:30 PM",
+            "field": "TOB:Field 1",
+            "team_a": "Winner Game #3",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Winner Game #4",
             "seed_b": null,
             "score_b": null
           }
@@ -3966,10 +3990,10 @@
             "time": "9:00 AM",
             "field": "MRH:Marvin Ridge MS",
             "team_a": "",
-            "seed_a": 11,
+            "seed_a": 13,
             "score_a": null,
             "team_b": "",
-            "seed_b": 14,
+            "seed_b": 16,
             "score_b": null
           },
           {
@@ -3978,10 +4002,10 @@
             "time": "9:00 AM",
             "field": "MRH:Marvin Ridge HS",
             "team_a": "",
-            "seed_a": 12,
+            "seed_a": 14,
             "score_a": null,
             "team_b": "",
-            "seed_b": 13,
+            "seed_b": 15,
             "score_b": null
           },
           {
@@ -3994,32 +4018,6 @@
             "score_a": null,
             "team_b": "Winner Game #2",
             "seed_b": null,
-            "score_b": null
-          }
-        ],
-        "Copper Bracket": [
-          {
-            "game": 1,
-            "day": "Sun",
-            "time": "8:30 AM",
-            "field": "TOB:Field 1",
-            "team_a": "",
-            "seed_a": 16,
-            "score_a": null,
-            "team_b": "",
-            "seed_b": 17,
-            "score_b": null
-          },
-          {
-            "game": 2,
-            "day": "Sun",
-            "time": "10:30 AM",
-            "field": "TOB:Field 1",
-            "team_a": "Winner Game #1",
-            "seed_a": null,
-            "score_a": null,
-            "team_b": "",
-            "seed_b": 15,
             "score_b": null
           }
         ]
@@ -4626,18 +4624,6 @@
             "time": "1:00 PM",
             "field": "BFF:Field 1",
             "team_a": "",
-            "seed_a": 1,
-            "score_a": null,
-            "team_b": "",
-            "seed_b": 4,
-            "score_b": null
-          },
-          {
-            "game": 2,
-            "day": "Sun",
-            "time": "3:00 PM",
-            "field": "BFF:Field 1",
-            "team_a": "",
             "seed_a": 2,
             "score_a": null,
             "team_b": "",
@@ -4645,15 +4631,15 @@
             "score_b": null
           },
           {
-            "game": 3,
+            "game": 2,
             "day": "Sun",
-            "time": "5:00 PM",
+            "time": "3:00 PM",
             "field": "BFF:Field 1",
             "team_a": "Winner Game #1",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Winner Game #2",
-            "seed_b": null,
+            "team_b": "",
+            "seed_b": 1,
             "score_b": null
           }
         ],
@@ -4664,10 +4650,10 @@
             "time": "9:00 AM",
             "field": "BFF:Field 1",
             "team_a": "",
-            "seed_a": 6,
+            "seed_a": 5,
             "score_a": null,
             "team_b": "",
-            "seed_b": 7,
+            "seed_b": 6,
             "score_b": null
           },
           {
@@ -4679,7 +4665,7 @@
             "seed_a": null,
             "score_a": null,
             "team_b": "",
-            "seed_b": 5,
+            "seed_b": 4,
             "score_b": null
           }
         ]
@@ -4949,5 +4935,5 @@
   },
   "site_last_updated": "10/22/2026 7:46 AM",
   "tournament_id": 12522,
-  "fetched_at": "2026-10-24T15:15"
+  "fetched_at": "2026-10-24T15:26"
 }
