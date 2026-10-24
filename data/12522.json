@@ -127,10 +127,10 @@
           "seed": 6,
           "team": "Canes Atlantic 8u Fareri",
           "location": "Denver, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 7,
+          "runs_scored": 14,
           "team_page_id": null
         },
         {
@@ -168,9 +168,9 @@
           "team": "MARA Thunder",
           "location": "Matthews, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 14,
+          "runs_scored": 7,
           "team_page_id": null
         }
       ],
@@ -183,10 +183,10 @@
             "field": "Westmoreld:Field 4",
             "team_a": "Canes Atlantic 8u Fareri",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 14,
             "team_b": "MARA Thunder",
             "seed_b": null,
-            "score_b": null
+            "score_b": 7
           },
           {
             "game": 2,
@@ -1096,9 +1096,9 @@
           "team": "Newport Bombers 10U Yerdon",
           "location": "Rock Hill, SC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 16,
+          "runs_scored": 6,
           "team_page_id": null
         },
         {
@@ -1315,10 +1315,10 @@
           "seed": 23,
           "team": "MP Bombers 10U",
           "location": "Mount Pleasant, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 6,
+          "runs_scored": 16,
           "team_page_id": null
         }
       ],
@@ -1331,10 +1331,10 @@
             "field": "Doby:Doby 3",
             "team_a": "Newport Bombers 10U Yerdon",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 6,
             "team_b": "MP Bombers 10U",
             "seed_b": null,
-            "score_b": null
+            "score_b": 16
           },
           {
             "game": 2,
@@ -2780,9 +2780,9 @@
           "team": "KLSC Tomahawks",
           "location": "Belmont, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 10,
+          "runs_scored": 4,
           "team_page_id": null
         },
         {
@@ -2839,10 +2839,10 @@
           "seed": 7,
           "team": "Carolina Reign Baseball 12U",
           "location": "Lincolnton, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 4,
+          "runs_scored": 10,
           "team_page_id": null
         },
         {
@@ -2927,10 +2927,10 @@
             "field": "Dallas:Field # 3",
             "team_a": "KLSC Tomahawks",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 4,
             "team_b": "Carolina Reign Baseball 12U",
             "seed_b": null,
-            "score_b": null
+            "score_b": 10
           },
           {
             "game": 3,
@@ -3281,8 +3281,8 @@
           "team": "SC Tide - Daly",
           "location": "Clover, SC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
+          "lost": 1,
+          "runs_allowed": 22,
           "runs_scored": 0,
           "team_page_id": null
         },
@@ -3290,10 +3290,10 @@
           "seed": 2,
           "team": "Fury Baseball",
           "location": "Forest City, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
           "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_scored": 22,
           "team_page_id": null
         },
         {
@@ -3356,10 +3356,10 @@
             "field": "BFF:Field 1",
             "team_a": "Fury Baseball",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 22,
             "team_b": "SC Tide - Daly",
             "seed_b": null,
-            "score_b": null
+            "score_b": 0
           },
           {
             "game": 2,
@@ -4971,5 +4971,5 @@
   },
   "site_last_updated": "10/22/2026 7:46 AM",
   "tournament_id": 12522,
-  "fetched_at": "2026-10-24T09:49"
+  "fetched_at": "2026-10-24T09:59"
 }
