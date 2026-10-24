@@ -108,9 +108,9 @@
           "team": "LKN Bolts",
           "location": "Huntersville, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 22,
+          "runs_scored": 18,
           "team_page_id": null
         },
         {
@@ -137,10 +137,10 @@
           "seed": 7,
           "team": "NC Made 8U Blue",
           "location": "Mocksville, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 18,
+          "runs_scored": 22,
           "team_page_id": null
         },
         {
@@ -231,10 +231,10 @@
             "field": "Westmoreld:Field 1",
             "team_a": "NC Made 8U Blue",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 22,
             "team_b": "LKN Bolts",
             "seed_b": null,
-            "score_b": null
+            "score_b": 18
           },
           {
             "game": 6,
@@ -514,10 +514,10 @@
           "seed": 8,
           "team": "Carolina Regulators 9u",
           "location": "Stanley, NC",
-          "won": 1,
-          "lost": 1,
-          "runs_allowed": 24,
-          "runs_scored": 16,
+          "won": 0,
+          "lost": 2,
+          "runs_allowed": 29,
+          "runs_scored": 11,
           "team_page_id": null
         },
         {
@@ -594,10 +594,10 @@
           "seed": 16,
           "team": "LKN Lightning - Ogburn",
           "location": "Huntersville, NC",
-          "won": 0,
-          "lost": 2,
-          "runs_allowed": 21,
-          "runs_scored": 11,
+          "won": 1,
+          "lost": 1,
+          "runs_allowed": 16,
+          "runs_scored": 16,
           "team_page_id": null
         },
         {
@@ -678,10 +678,10 @@
             "field": "Mazeppa:Field # 3",
             "team_a": "Carolina Regulators 9u",
             "seed_a": null,
-            "score_a": 11,
+            "score_a": 6,
             "team_b": "LKN Lightning - Ogburn",
             "seed_b": null,
-            "score_b": 6
+            "score_b": 11
           },
           {
             "game": 6,
@@ -1846,10 +1846,10 @@
           "seed": 2,
           "team": "SC Tide - Scanlin",
           "location": "Clover, SC",
-          "won": 0,
+          "won": 1,
           "lost": 1,
-          "runs_allowed": 11,
-          "runs_scored": 3,
+          "runs_allowed": 14,
+          "runs_scored": 21,
           "team_page_id": null
         },
         {
@@ -1867,9 +1867,9 @@
           "team": "Fury Baseball",
           "location": "Forest City, NC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 11,
-          "runs_scored": 3,
+          "lost": 2,
+          "runs_allowed": 29,
+          "runs_scored": 6,
           "team_page_id": null
         },
         {
@@ -1916,10 +1916,10 @@
           "seed": 9,
           "team": "Coastal Bombers",
           "location": "Charleston, SC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 2,
+          "runs_scored": 8,
           "team_page_id": null
         },
         {
@@ -1937,9 +1937,9 @@
           "team": "5 Star Carolina Grit",
           "location": "Summerfield, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 8,
+          "runs_scored": 2,
           "team_page_id": null
         },
         {
@@ -2077,9 +2077,9 @@
           "team": "KM Aces",
           "location": "Kings Mountain, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 6,
+          "runs_scored": 5,
           "team_page_id": null
         },
         {
@@ -2156,10 +2156,10 @@
           "seed": 21,
           "team": "VA Bombers- Huddleston",
           "location": "Roanoke, VA",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 5,
+          "runs_scored": 6,
           "team_page_id": null
         }
       ],
@@ -2256,10 +2256,10 @@
             "field": "Tega Cay:Field 1",
             "team_a": "VA Bombers- Huddleston",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 6,
             "team_b": "KM Aces",
             "seed_b": null,
-            "score_b": null
+            "score_b": 5
           },
           {
             "game": 9,
@@ -3549,7 +3549,7 @@
           "location": "Clover, SC",
           "won": 0,
           "lost": 2,
-          "runs_allowed": 21,
+          "runs_allowed": 19,
           "runs_scored": 6,
           "team_page_id": null
         },
@@ -3580,7 +3580,7 @@
           "won": 1,
           "lost": 0,
           "runs_allowed": 1,
-          "runs_scored": 14,
+          "runs_scored": 12,
           "team_page_id": null
         },
         {
@@ -3736,7 +3736,7 @@
             "score_a": 1,
             "team_b": "Carolina Wolfpack - Royal",
             "seed_b": null,
-            "score_b": 14
+            "score_b": 12
           },
           {
             "game": 7,
@@ -4595,21 +4595,9 @@
           {
             "game": 4,
             "day": "Sat",
-            "time": "1:45 PM",
-            "field": "TOB:Field 1",
-            "team_a": "NCP National",
-            "seed_a": null,
-            "score_a": null,
-            "team_b": "Ruff Ryders baseball 16u",
-            "seed_b": null,
-            "score_b": null
-          },
-          {
-            "game": 5,
-            "day": "Sat",
             "time": "3:30 PM",
             "field": "TOB:Field 1",
-            "team_a": "NCP National",
+            "team_a": "Ruff Ryders baseball 16u",
             "seed_a": null,
             "score_a": null,
             "team_b": "MARA Machine",
@@ -4617,7 +4605,7 @@
             "score_b": null
           },
           {
-            "game": 6,
+            "game": 5,
             "day": "Sat",
             "time": "5:15 PM",
             "field": "TOB:Field 1",
@@ -4629,7 +4617,7 @@
             "score_b": null
           },
           {
-            "game": 7,
+            "game": 6,
             "day": "Sat",
             "time": "7:00 PM",
             "field": "TOB:Field 1",
@@ -4971,5 +4959,5 @@
   },
   "site_last_updated": "10/22/2026 7:46 AM",
   "tournament_id": 12522,
-  "fetched_at": "2026-10-24T14:54"
+  "fetched_at": "2026-10-24T15:05"
 }

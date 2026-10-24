@@ -3,7 +3,7 @@
  "location": "Rock Hill, SC",
  "page_id": 31407,
  "team_url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=31407",
- "built": "Sat Oct 24, 2026 02:54 PM",
+ "built": "Sat Oct 24, 2026 03:05 PM",
  "record": {
   "w": 6,
   "l": 9,
@@ -4016,7 +4016,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-24T14:54",
+    "fetched_at": "2026-10-24T15:04",
     "url": "https://topgunstats.com/whos-playing/12522"
    },
    "next_game": null,
@@ -4181,7 +4181,7 @@
      "team": "Red Clay Athletics 9U Darcangelo",
      "location": "Charlotte, NC",
      "rank": 6,
-     "tiebreak": "runs allowed",
+     "tiebreak": "head-to-head",
      "h2h": {
       "LKN Lightning - Ogburn": "W",
       "Dirtbags Baseball ESB": "L"
@@ -4204,16 +4204,16 @@
      "ra": 16
     },
     {
-     "team": "Carolina Regulators 9u",
-     "location": "Stanley, NC",
+     "team": "LKN Lightning - Ogburn",
+     "location": "Huntersville, NC",
      "rank": 7,
-     "tiebreak": "runs allowed",
+     "tiebreak": "head-to-head",
      "h2h": {
-      "Dirtbags Baseball ESB": "L",
-      "LKN Lightning - Ogburn": "W"
+      "Red Clay Athletics 9U Darcangelo": "L",
+      "Carolina Regulators 9u": "W"
      },
      "last": {
-      "opponent": "LKN Lightning - Ogburn",
+      "opponent": "Carolina Regulators 9u",
       "rs": 11,
       "ra": 6
      },
@@ -4221,13 +4221,13 @@
      "pool_l": 1,
      "pool_t": 0,
      "pool_rs": 16,
-     "pool_ra": 24,
+     "pool_ra": 16,
      "seed": null,
      "bracket": null,
      "won": 1,
      "lost": 1,
      "rs": 16,
-     "ra": 24
+     "ra": 16
     },
     {
      "team": "Dirtbags Shook",
@@ -4280,16 +4280,16 @@
      "ra": 14
     },
     {
-     "team": "LKN Lightning - Ogburn",
-     "location": "Huntersville, NC",
+     "team": "Carolina Regulators 9u",
+     "location": "Stanley, NC",
      "rank": 10,
      "tiebreak": "runs allowed",
      "h2h": {
-      "Red Clay Athletics 9U Darcangelo": "L",
-      "Carolina Regulators 9u": "L"
+      "Dirtbags Baseball ESB": "L",
+      "LKN Lightning - Ogburn": "L"
      },
      "last": {
-      "opponent": "Carolina Regulators 9u",
+      "opponent": "LKN Lightning - Ogburn",
       "rs": 6,
       "ra": 11
      },
@@ -4297,13 +4297,13 @@
      "pool_l": 2,
      "pool_t": 0,
      "pool_rs": 11,
-     "pool_ra": 21,
+     "pool_ra": 29,
      "seed": null,
      "bracket": null,
      "won": 0,
      "lost": 2,
      "rs": 11,
-     "ra": 21
+     "ra": 29
     },
     {
      "team": "BOILING SPRINGS BULLDOGS BASEBALL 8u",
@@ -4539,11 +4539,11 @@
      "field": "Mazeppa:Field # 3",
      "team_a": "Carolina Regulators 9u",
      "seed_a": null,
-     "score_a": 11,
+     "score_a": 6,
      "from_a": null,
      "team_b": "LKN Lightning - Ogburn",
      "seed_b": null,
-     "score_b": 6,
+     "score_b": 11,
      "from_b": null
     },
     {
@@ -7970,7 +7970,7 @@
      "entered_at": "2026-10-19T08:25:19.373Z",
      "level": "AA"
     },
-    "fetched_at": "2026-10-24T14:54"
+    "fetched_at": "2026-10-24T15:04"
    },
    "tgs": {
     "weather": {
@@ -8115,7 +8115,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-24T14:54",
+    "fetched_at": "2026-10-24T15:04",
     "url": "https://topgunstats.com/whos-playing/12522"
    },
    "name": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
@@ -8197,11 +8197,11 @@
      "field": "Mazeppa:Field # 3",
      "team_a": "Carolina Regulators 9u",
      "seed_a": null,
-     "score_a": 11,
+     "score_a": 6,
      "from_a": null,
      "team_b": "LKN Lightning - Ogburn",
      "seed_b": null,
-     "score_b": 6,
+     "score_b": 11,
      "from_b": null
     },
     {
@@ -8742,10 +8742,10 @@
      "seed": 8,
      "team": "Carolina Regulators 9u",
      "location": "Stanley, NC",
-     "won": 1,
-     "lost": 1,
-     "runs_allowed": 24,
-     "runs_scored": 16,
+     "won": 0,
+     "lost": 2,
+     "runs_allowed": 29,
+     "runs_scored": 11,
      "team_page_id": null
     },
     {
@@ -8822,10 +8822,10 @@
      "seed": 16,
      "team": "LKN Lightning - Ogburn",
      "location": "Huntersville, NC",
-     "won": 0,
-     "lost": 2,
-     "runs_allowed": 21,
-     "runs_scored": 11,
+     "won": 1,
+     "lost": 1,
+     "runs_allowed": 16,
+     "runs_scored": 16,
      "team_page_id": null
     },
     {
@@ -8902,7 +8902,7 @@
     "team": {
      "entered": false
     },
-    "fetched_at": "2026-10-24T14:54"
+    "fetched_at": "2026-10-24T15:04"
    },
    "tgs": {
     "weather": null,
@@ -8956,7 +8956,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-24T14:54",
+    "fetched_at": "2026-10-24T15:04",
     "url": "https://topgunstats.com/whos-playing/12524"
    },
    "name": "Road Runner vs Coyote ring weekend",
@@ -11974,6 +11974,47 @@
    "stats_fetched": null
   },
   {
+   "team": "LKN Lightning - Ogburn",
+   "location": "Huntersville, NC",
+   "page_id": null,
+   "url": null,
+   "w": 1,
+   "l": 1,
+   "t": 0,
+   "rs": 16,
+   "ra": 16,
+   "diff": 0,
+   "pct": 0.5,
+   "events": 1,
+   "log": [
+    {
+     "date": "2026-10-24",
+     "event_id": 12522,
+     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
+     "section": "Pool Play",
+     "opponent": "Red Clay Athletics 9U Darcangelo",
+     "rs": 5,
+     "ra": 10,
+     "result": "L"
+    },
+    {
+     "date": "2026-10-24",
+     "event_id": 12522,
+     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
+     "section": "Pool Play",
+     "opponent": "Carolina Regulators 9u",
+     "rs": 11,
+     "ra": 6,
+     "result": "W"
+    }
+   ],
+   "points": 0,
+   "titles": 0,
+   "finishes": [],
+   "season": "",
+   "stats_fetched": null
+  },
+  {
    "team": "Legacy Baseball 9U RED",
    "location": "Fort Mill, SC",
    "page_id": 33172,
@@ -12762,142 +12803,6 @@
    ],
    "season": "08/01/2026 - 10/23/2026",
    "stats_fetched": "2026-10-23T11:42"
-  },
-  {
-   "team": "Carolina Regulators 9u",
-   "location": "Stanley, NC",
-   "page_id": 38929,
-   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=38929",
-   "w": 4,
-   "l": 5,
-   "t": 0,
-   "rs": 68,
-   "ra": 86,
-   "diff": -18,
-   "pct": 0.444,
-   "events": 3,
-   "log": [
-    {
-     "date": "2026-09-12",
-     "event_id": 12516,
-     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
-     "section": "Pool Play",
-     "opponent": "Waxhaw Militia 9U",
-     "rs": 7,
-     "ra": 8,
-     "result": "L"
-    },
-    {
-     "date": "2026-09-12",
-     "event_id": 12516,
-     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
-     "section": "Pool Play",
-     "opponent": "Copperheads",
-     "rs": 11,
-     "ra": 10,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-13",
-     "event_id": 12516,
-     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
-     "section": "Gold Bracket",
-     "opponent": "Copperheads",
-     "rs": 2,
-     "ra": 11,
-     "result": "L"
-    },
-    {
-     "date": "2026-10-03",
-     "event_id": 12519,
-     "event": "DOUBLE POINTS PINK ZONE QUALIFIER---ACTIVATE WINTER FREE PAID BERTHS",
-     "section": "Pool Play",
-     "opponent": "Carolina Rapid Fire - Ford",
-     "rs": 3,
-     "ra": 11,
-     "result": "L"
-    },
-    {
-     "date": "2026-10-03",
-     "event_id": 12519,
-     "event": "DOUBLE POINTS PINK ZONE QUALIFIER---ACTIVATE WINTER FREE PAID BERTHS",
-     "section": "Pool Play",
-     "opponent": "Carolina Royals 9Ublu",
-     "rs": 13,
-     "ra": 9,
-     "result": "W"
-    },
-    {
-     "date": "2026-10-04",
-     "event_id": 12519,
-     "event": "DOUBLE POINTS PINK ZONE QUALIFIER---ACTIVATE WINTER FREE PAID BERTHS",
-     "section": "Gold Bracket",
-     "opponent": "Carolina Royals 9Ublu",
-     "rs": 13,
-     "ra": 9,
-     "result": "W"
-    },
-    {
-     "date": "2026-10-04",
-     "event_id": 12519,
-     "event": "DOUBLE POINTS PINK ZONE QUALIFIER---ACTIVATE WINTER FREE PAID BERTHS",
-     "section": "Gold Bracket",
-     "opponent": "Carolina Rapid Fire - Ford",
-     "rs": 3,
-     "ra": 4,
-     "result": "L"
-    },
-    {
-     "date": "2026-10-24",
-     "event_id": 12522,
-     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
-     "section": "Pool Play",
-     "opponent": "Dirtbags Baseball ESB",
-     "rs": 5,
-     "ra": 18,
-     "result": "L"
-    },
-    {
-     "date": "2026-10-24",
-     "event_id": 12522,
-     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
-     "section": "Pool Play",
-     "opponent": "LKN Lightning - Ogburn",
-     "rs": 11,
-     "ra": 6,
-     "result": "W"
-    }
-   ],
-   "points": 1775,
-   "titles": 1,
-   "finishes": [
-    {
-     "date": "2026-09-12",
-     "name": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
-     "won": 1,
-     "lost": 2,
-     "standing": "6th (Gold)",
-     "points": 600
-    },
-    {
-     "date": "2026-09-18",
-     "name": "FRIDAY NIGHT G.O.A.T. SERIES 9U, 11U, & 13U 60/90",
-     "won": 2,
-     "lost": 1,
-     "standing": "1st (Gold)",
-     "points": 400
-    },
-    {
-     "date": "2026-10-03",
-     "name": "DOUBLE POINTS PINK ZONE QUALIFIER---ACTIVATE WINTER FREE PAID BERTHS",
-     "won": 2,
-     "lost": 2,
-     "standing": "2nd (Gold)",
-     "points": 775
-    }
-   ],
-   "season": "08/01/2026 - 10/23/2026",
-   "stats_fetched": "2026-10-23T11:43"
   },
   {
    "team": "Union County Legends",
@@ -14066,6 +13971,142 @@
      "lost": 0,
      "standing": "",
      "points": 0
+    }
+   ],
+   "season": "08/01/2026 - 10/23/2026",
+   "stats_fetched": "2026-10-23T11:43"
+  },
+  {
+   "team": "Carolina Regulators 9u",
+   "location": "Stanley, NC",
+   "page_id": 38929,
+   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=38929",
+   "w": 3,
+   "l": 6,
+   "t": 0,
+   "rs": 63,
+   "ra": 91,
+   "diff": -28,
+   "pct": 0.333,
+   "events": 3,
+   "log": [
+    {
+     "date": "2026-09-12",
+     "event_id": 12516,
+     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
+     "section": "Pool Play",
+     "opponent": "Waxhaw Militia 9U",
+     "rs": 7,
+     "ra": 8,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-12",
+     "event_id": 12516,
+     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
+     "section": "Pool Play",
+     "opponent": "Copperheads",
+     "rs": 11,
+     "ra": 10,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-13",
+     "event_id": 12516,
+     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
+     "section": "Gold Bracket",
+     "opponent": "Copperheads",
+     "rs": 2,
+     "ra": 11,
+     "result": "L"
+    },
+    {
+     "date": "2026-10-03",
+     "event_id": 12519,
+     "event": "DOUBLE POINTS PINK ZONE QUALIFIER---ACTIVATE WINTER FREE PAID BERTHS",
+     "section": "Pool Play",
+     "opponent": "Carolina Rapid Fire - Ford",
+     "rs": 3,
+     "ra": 11,
+     "result": "L"
+    },
+    {
+     "date": "2026-10-03",
+     "event_id": 12519,
+     "event": "DOUBLE POINTS PINK ZONE QUALIFIER---ACTIVATE WINTER FREE PAID BERTHS",
+     "section": "Pool Play",
+     "opponent": "Carolina Royals 9Ublu",
+     "rs": 13,
+     "ra": 9,
+     "result": "W"
+    },
+    {
+     "date": "2026-10-04",
+     "event_id": 12519,
+     "event": "DOUBLE POINTS PINK ZONE QUALIFIER---ACTIVATE WINTER FREE PAID BERTHS",
+     "section": "Gold Bracket",
+     "opponent": "Carolina Royals 9Ublu",
+     "rs": 13,
+     "ra": 9,
+     "result": "W"
+    },
+    {
+     "date": "2026-10-04",
+     "event_id": 12519,
+     "event": "DOUBLE POINTS PINK ZONE QUALIFIER---ACTIVATE WINTER FREE PAID BERTHS",
+     "section": "Gold Bracket",
+     "opponent": "Carolina Rapid Fire - Ford",
+     "rs": 3,
+     "ra": 4,
+     "result": "L"
+    },
+    {
+     "date": "2026-10-24",
+     "event_id": 12522,
+     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
+     "section": "Pool Play",
+     "opponent": "Dirtbags Baseball ESB",
+     "rs": 5,
+     "ra": 18,
+     "result": "L"
+    },
+    {
+     "date": "2026-10-24",
+     "event_id": 12522,
+     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
+     "section": "Pool Play",
+     "opponent": "LKN Lightning - Ogburn",
+     "rs": 6,
+     "ra": 11,
+     "result": "L"
+    }
+   ],
+   "points": 1775,
+   "titles": 1,
+   "finishes": [
+    {
+     "date": "2026-09-12",
+     "name": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
+     "won": 1,
+     "lost": 2,
+     "standing": "6th (Gold)",
+     "points": 600
+    },
+    {
+     "date": "2026-09-18",
+     "name": "FRIDAY NIGHT G.O.A.T. SERIES 9U, 11U, & 13U 60/90",
+     "won": 2,
+     "lost": 1,
+     "standing": "1st (Gold)",
+     "points": 400
+    },
+    {
+     "date": "2026-10-03",
+     "name": "DOUBLE POINTS PINK ZONE QUALIFIER---ACTIVATE WINTER FREE PAID BERTHS",
+     "won": 2,
+     "lost": 2,
+     "standing": "2nd (Gold)",
+     "points": 775
     }
    ],
    "season": "08/01/2026 - 10/23/2026",
@@ -15506,47 +15547,6 @@
    ],
    "season": "08/01/2026 - 10/23/2026",
    "stats_fetched": "2026-10-23T11:41"
-  },
-  {
-   "team": "LKN Lightning - Ogburn",
-   "location": "Huntersville, NC",
-   "page_id": null,
-   "url": null,
-   "w": 0,
-   "l": 2,
-   "t": 0,
-   "rs": 11,
-   "ra": 21,
-   "diff": -10,
-   "pct": 0.0,
-   "events": 1,
-   "log": [
-    {
-     "date": "2026-10-24",
-     "event_id": 12522,
-     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
-     "section": "Pool Play",
-     "opponent": "Red Clay Athletics 9U Darcangelo",
-     "rs": 5,
-     "ra": 10,
-     "result": "L"
-    },
-    {
-     "date": "2026-10-24",
-     "event_id": 12522,
-     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
-     "section": "Pool Play",
-     "opponent": "Carolina Regulators 9u",
-     "rs": 6,
-     "ra": 11,
-     "result": "L"
-    }
-   ],
-   "points": 0,
-   "titles": 0,
-   "finishes": [],
-   "season": "",
-   "stats_fetched": null
   },
   {
    "team": "Diamond Jaxx",
