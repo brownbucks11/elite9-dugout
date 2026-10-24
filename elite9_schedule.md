@@ -1,5 +1,5 @@
 # Elite 9 - Top Gun schedule
-_Updated Sat Oct 24, 2026 05:31 PM_
+_Updated Sat Oct 24, 2026 05:42 PM_
 
 ## SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND
 September 26 - 27 in Greater Charlotte Area, NC  
@@ -190,8 +190,8 @@ Tournament 12522 - [schedule page](https://playtopgunsports.com/GameTimesResults
 | 8 | Carolina Regulators 9u | Stanley, NC | 0-2 | 11 | 29 |
 | 9 | Carolina Elevate | Lenoir, NC | 0-0 | 0 | 0 |
 | 10 | Dirtbags Shook | Claremont, NC | 0-2 | 3 | 25 |
-| 11 | ZT Knuckleheads | Clover, SC | 0-0 | 0 | 0 |
-| 12 | Diamond Jaxx | Pinehurst, NC | 0-1 | 2 | 14 |
+| 11 | ZT Knuckleheads | Clover, SC | 1-0 | 17 | 1 |
+| 12 | Diamond Jaxx | Pinehurst, NC | 0-2 | 3 | 31 |
 | 13 | Concord Athletics -9U | Concord, NC | 0-1 | 3 | 12 |
 | 14 | MARA Stingers | Matthews, NC | 1-1 | 17 | 13 |
 | 15 | Athletes Lab 9U Navy- Stewart | Maiden, NC | 1-0 | 12 | 3 |
