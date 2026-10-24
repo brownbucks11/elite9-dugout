@@ -3288,10 +3288,10 @@
           "seed": 3,
           "team": "Armor Elite",
           "location": "Denver, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 10,
+          "runs_scored": 12,
           "team_page_id": null
         },
         {
@@ -3309,9 +3309,9 @@
           "team": "GF Sandlot 12U Church",
           "location": "Granite Falls, NC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 11,
-          "runs_scored": 5,
+          "lost": 2,
+          "runs_allowed": 23,
+          "runs_scored": 15,
           "team_page_id": null
         },
         {
@@ -3392,10 +3392,10 @@
             "field": "SP:Field #2",
             "team_a": "GF Sandlot 12U Church",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 10,
             "team_b": "Armor Elite",
             "seed_b": null,
-            "score_b": null
+            "score_b": 12
           },
           {
             "game": 6,
@@ -4060,8 +4060,8 @@
           "location": "CHERRYVILLE, NC",
           "won": 0,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 5,
+          "runs_scored": 5,
           "team_page_id": null
         },
         {
@@ -4100,8 +4100,8 @@
           "location": "New Bern, NC",
           "won": 0,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 5,
+          "runs_scored": 5,
           "team_page_id": null
         },
         {
@@ -4200,10 +4200,10 @@
             "field": "BFF:Field 1",
             "team_a": "Atomic Baseball 2030",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 5,
             "team_b": "CBC Prospects Blue 15u",
             "seed_b": null,
-            "score_b": null
+            "score_b": 5
           },
           {
             "game": 5,
@@ -4933,5 +4933,5 @@
   },
   "site_last_updated": "10/22/2026 7:46 AM",
   "tournament_id": 12522,
-  "fetched_at": "2026-10-24T18:03"
+  "fetched_at": "2026-10-24T18:13"
 }
