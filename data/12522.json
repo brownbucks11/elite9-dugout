@@ -2699,10 +2699,10 @@
           "seed": 7,
           "team": "SAND VIPERS",
           "location": "NEWTON, NC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
-          "runs_allowed": 7,
-          "runs_scored": 9,
+          "runs_allowed": 15,
+          "runs_scored": 18,
           "team_page_id": null
         },
         {
@@ -2720,9 +2720,9 @@
           "team": "Carolina Hit Stix",
           "location": "Richburg, SC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 14,
-          "runs_scored": 3,
+          "lost": 2,
+          "runs_allowed": 23,
+          "runs_scored": 11,
           "team_page_id": null
         },
         {
@@ -3527,10 +3527,10 @@
           "seed": 3,
           "team": "Toxic NC",
           "location": "Startown, NC",
-          "won": 0,
-          "lost": 1,
-          "runs_allowed": 3,
-          "runs_scored": 1,
+          "won": 1,
+          "lost": 0,
+          "runs_allowed": 1,
+          "runs_scored": 3,
           "team_page_id": null
         },
         {
@@ -3567,10 +3567,10 @@
           "seed": 7,
           "team": "Venom Stars",
           "location": "Belwood, NC",
-          "won": 1,
-          "lost": 1,
-          "runs_allowed": 10,
-          "runs_scored": 8,
+          "won": 0,
+          "lost": 2,
+          "runs_allowed": 12,
+          "runs_scored": 6,
           "team_page_id": null
         },
         {
@@ -3793,10 +3793,10 @@
             "field": "Moss:Moss Field",
             "team_a": "Venom Stars",
             "seed_a": null,
-            "score_a": 3,
+            "score_a": 1,
             "team_b": "Toxic NC",
             "seed_b": null,
-            "score_b": 1
+            "score_b": 3
           },
           {
             "game": 12,
@@ -4971,5 +4971,5 @@
   },
   "site_last_updated": "10/22/2026 7:46 AM",
   "tournament_id": 12522,
-  "fetched_at": "2026-10-24T14:23"
+  "fetched_at": "2026-10-24T14:33"
 }
