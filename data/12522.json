@@ -98,8 +98,8 @@
           "team": "Fury Baseball 8u",
           "location": "Forest City, NC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 24,
+          "lost": 2,
+          "runs_allowed": 39,
           "runs_scored": 2,
           "team_page_id": null
         },
@@ -157,10 +157,10 @@
           "seed": 9,
           "team": "Carolina Hype 8u",
           "location": "Gaffney, SC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
           "runs_allowed": 13,
-          "runs_scored": 13,
+          "runs_scored": 28,
           "team_page_id": null
         },
         {
@@ -219,10 +219,10 @@
             "field": "Westmoreld:Field 4",
             "team_a": "Carolina Hype 8u",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 15,
             "team_b": "Fury Baseball 8u",
             "seed_b": null,
-            "score_b": null
+            "score_b": 0
           },
           {
             "game": 5,
@@ -1027,8 +1027,8 @@
           "location": "Indian Trail, NC",
           "won": 0,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 5,
+          "runs_scored": 5,
           "team_page_id": null
         },
         {
@@ -1037,8 +1037,8 @@
           "location": "Kernersville, NC",
           "won": 0,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 5,
+          "runs_scored": 5,
           "team_page_id": null
         },
         {
@@ -1225,10 +1225,10 @@
           "seed": 14,
           "team": "ELITE BASEBALL EBC 10U",
           "location": "FOREST CITY, NC",
-          "won": 0,
+          "won": 1,
           "lost": 1,
-          "runs_allowed": 12,
-          "runs_scored": 8,
+          "runs_allowed": 18,
+          "runs_scored": 27,
           "team_page_id": null
         },
         {
@@ -1246,9 +1246,9 @@
           "team": "Aces",
           "location": "Kings Mountain, NC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 25,
-          "runs_scored": 3,
+          "lost": 2,
+          "runs_allowed": 44,
+          "runs_scored": 9,
           "team_page_id": null
         },
         {
@@ -1415,10 +1415,10 @@
             "field": "SP:Field #3",
             "team_a": "Aces",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 6,
             "team_b": "ELITE BASEBALL EBC 10U",
             "seed_b": null,
-            "score_b": null
+            "score_b": 19
           },
           {
             "game": 9,
@@ -4971,5 +4971,5 @@
   },
   "site_last_updated": "10/22/2026 7:46 AM",
   "tournament_id": 12522,
-  "fetched_at": "2026-10-24T13:50"
+  "fetched_at": "2026-10-24T14:01"
 }
