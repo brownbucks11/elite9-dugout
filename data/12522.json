@@ -4043,8 +4043,8 @@
           "team": "Carolina Blue Bloods",
           "location": "Indian Trail, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
+          "lost": 1,
+          "runs_allowed": 12,
           "runs_scored": 0,
           "team_page_id": null
         },
@@ -4092,10 +4092,10 @@
           "seed": 7,
           "team": "Dry Pond 14U",
           "location": "Denver, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
           "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_scored": 12,
           "team_page_id": null
         },
         {
@@ -4178,10 +4178,10 @@
             "field": "MRH:Marvin Ridge HS",
             "team_a": "Dry Pond 14U",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 12,
             "team_b": "Carolina Blue Bloods",
             "seed_b": null,
-            "score_b": null
+            "score_b": 0
           },
           {
             "game": 2,
@@ -4971,5 +4971,5 @@
   },
   "site_last_updated": "10/22/2026 7:46 AM",
   "tournament_id": 12522,
-  "fetched_at": "2026-10-24T10:52"
+  "fetched_at": "2026-10-24T11:02"
 }
