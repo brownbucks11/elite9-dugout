@@ -1176,9 +1176,9 @@
           "team": "Red Clay Athletics 10U Latimer",
           "location": "Huntersville, NC",
           "won": 1,
-          "lost": 0,
-          "runs_allowed": 5,
-          "runs_scored": 11,
+          "lost": 1,
+          "runs_allowed": 17,
+          "runs_scored": 13,
           "team_page_id": null
         },
         {
@@ -1275,10 +1275,10 @@
           "seed": 19,
           "team": "Tega Cay Titans",
           "location": "Tega Cay, SC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 2,
+          "runs_scored": 12,
           "team_page_id": null
         },
         {
@@ -1475,10 +1475,10 @@
             "field": "Westmoreld:Field 2",
             "team_a": "Red Clay Athletics 10U Latimer",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 2,
             "team_b": "Tega Cay Titans",
             "seed_b": null,
-            "score_b": null
+            "score_b": 12
           },
           {
             "game": 14,
@@ -4698,10 +4698,10 @@
           "seed": 2,
           "team": "GATA Baseball",
           "location": "Roanoke, VA",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 1,
+          "runs_scored": 9,
           "team_page_id": null
         },
         {
@@ -4709,9 +4709,9 @@
           "team": "KLSC Prime",
           "location": "Belmont, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 9,
+          "runs_scored": 1,
           "team_page_id": null
         },
         {
@@ -4810,10 +4810,10 @@
             "field": "CMHP:CaroMont",
             "team_a": "KLSC Prime",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 1,
             "team_b": "GATA Baseball",
             "seed_b": null,
-            "score_b": null
+            "score_b": 9
           },
           {
             "game": 5,
@@ -4945,5 +4945,5 @@
   },
   "site_last_updated": "10/22/2026 7:46 AM",
   "tournament_id": 12522,
-  "fetched_at": "2026-10-24T15:36"
+  "fetched_at": "2026-10-24T15:46"
 }
