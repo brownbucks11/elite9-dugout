@@ -1146,9 +1146,9 @@
           "team": "Elite9 10u",
           "location": "Rock hill, SC",
           "won": 1,
-          "lost": 0,
-          "runs_allowed": 13,
-          "runs_scored": 14,
+          "lost": 1,
+          "runs_allowed": 35,
+          "runs_scored": 21,
           "team_page_id": null
         },
         {
@@ -1215,10 +1215,10 @@
           "seed": 13,
           "team": "Carolina Hit Stix",
           "location": "Richburg, SC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
-          "runs_allowed": 12,
-          "runs_scored": 14,
+          "runs_allowed": 19,
+          "runs_scored": 36,
           "team_page_id": null
         },
         {
@@ -1523,10 +1523,10 @@
             "field": "Doby:Doby 3",
             "team_a": "Carolina Hit Stix",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 22,
             "team_b": "Elite9 10u",
             "seed_b": null,
-            "score_b": null
+            "score_b": 7
           },
           {
             "game": 18,
@@ -1944,10 +1944,10 @@
           "seed": 1,
           "team": "Carolina Mayhem",
           "location": "Charlotte, NC",
-          "won": 0,
+          "won": 1,
           "lost": 1,
-          "runs_allowed": 9,
-          "runs_scored": 8,
+          "runs_allowed": 14,
+          "runs_scored": 16,
           "team_page_id": null
         },
         {
@@ -2045,9 +2045,9 @@
           "team": "Carolina Diamond Crushers",
           "location": "Kannapolis, NC",
           "won": 1,
-          "lost": 0,
-          "runs_allowed": 8,
-          "runs_scored": 9,
+          "lost": 1,
+          "runs_allowed": 16,
+          "runs_scored": 14,
           "team_page_id": null
         },
         {
@@ -2340,10 +2340,10 @@
             "field": "Doby:Doby 2",
             "team_a": "Carolina Mayhem",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 8,
             "team_b": "Carolina Diamond Crushers",
             "seed_b": null,
-            "score_b": null
+            "score_b": 5
           },
           {
             "game": 17,
@@ -2637,10 +2637,10 @@
           "seed": 2,
           "team": "Newport Bombers 12U King",
           "location": "Rock Hill, SC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 2,
+          "runs_scored": 4,
           "team_page_id": null
         },
         {
@@ -2758,9 +2758,9 @@
           "team": "The Battery Training Academy LLC.",
           "location": "Gastonia, NC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 12,
-          "runs_scored": 2,
+          "lost": 2,
+          "runs_allowed": 16,
+          "runs_scored": 4,
           "team_page_id": null
         },
         {
@@ -3318,10 +3318,10 @@
           "seed": 6,
           "team": "Red Clay Athletics 13U Mullen",
           "location": "Cornelius, NC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
-          "runs_allowed": 5,
-          "runs_scored": 11,
+          "runs_allowed": 9,
+          "runs_scored": 20,
           "team_page_id": null
         },
         {
@@ -3329,9 +3329,9 @@
           "team": "SBA Lake Norman Thunder",
           "location": "Cornelius, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 9,
+          "runs_scored": 4,
           "team_page_id": null
         }
       ],
@@ -3404,10 +3404,10 @@
             "field": "SP:Field #2",
             "team_a": "Red Clay Athletics 13U Mullen",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 9,
             "team_b": "SBA Lake Norman Thunder",
             "seed_b": null,
-            "score_b": null
+            "score_b": 4
           },
           {
             "game": 7,
@@ -4039,8 +4039,8 @@
           "team": "CBC Knuckleheads Fox",
           "location": "Charlotte, NC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 6,
+          "lost": 2,
+          "runs_allowed": 8,
           "runs_scored": 2,
           "team_page_id": null
         },
@@ -4108,10 +4108,10 @@
           "seed": 10,
           "team": "Roanoke Valley Ballers",
           "location": "Salem, VA",
-          "won": 1,
+          "won": 2,
           "lost": 0,
           "runs_allowed": 2,
-          "runs_scored": 3,
+          "runs_scored": 5,
           "team_page_id": null
         },
         {
@@ -4296,10 +4296,10 @@
             "field": "MRH:Marvin Ridge MS",
             "team_a": "Roanoke Valley Ballers",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 2,
             "team_b": "CBC Knuckleheads Fox",
             "seed_b": null,
-            "score_b": null
+            "score_b": 0
           },
           {
             "game": 13,
@@ -4933,5 +4933,5 @@
   },
   "site_last_updated": "10/22/2026 7:46 AM",
   "tournament_id": 12522,
-  "fetched_at": "2026-10-24T19:47"
+  "fetched_at": "2026-10-24T19:58"
 }
