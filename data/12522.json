@@ -2015,8 +2015,8 @@
           "team": "Carolina Forge 11U",
           "location": "Gastonia, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
+          "lost": 1,
+          "runs_allowed": 20,
           "runs_scored": 0,
           "team_page_id": null
         },
@@ -2074,10 +2074,10 @@
           "seed": 14,
           "team": "Camel City",
           "location": "Winston-Salem, NC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
           "runs_allowed": 6,
-          "runs_scored": 7,
+          "runs_scored": 27,
           "team_page_id": null
         },
         {
@@ -2316,10 +2316,10 @@
             "field": "Tega Cay:Field 1",
             "team_a": "Camel City",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 20,
             "team_b": "Carolina Forge 11U",
             "seed_b": null,
-            "score_b": null
+            "score_b": 0
           },
           {
             "game": 15,
@@ -3228,10 +3228,10 @@
           "seed": 5,
           "team": "Extreme Performance",
           "location": "Salisbury, NC",
-          "won": 0,
+          "won": 1,
           "lost": 1,
-          "runs_allowed": 5,
-          "runs_scored": 3,
+          "runs_allowed": 12,
+          "runs_scored": 23,
           "team_page_id": null
         },
         {
@@ -3259,9 +3259,9 @@
           "team": "Mara Tide",
           "location": "Matthews, NC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 14,
-          "runs_scored": 1,
+          "lost": 2,
+          "runs_allowed": 34,
+          "runs_scored": 8,
           "team_page_id": null
         },
         {
@@ -4933,5 +4933,5 @@
   },
   "site_last_updated": "10/22/2026 7:46 AM",
   "tournament_id": 12522,
-  "fetched_at": "2026-10-24T18:13"
+  "fetched_at": "2026-10-24T18:24"
 }
