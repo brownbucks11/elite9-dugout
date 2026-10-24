@@ -1996,10 +1996,10 @@
           "seed": 5,
           "team": "Newport Bombers 11U Janson",
           "location": "Rock Hill, SC",
-          "won": 0,
+          "won": 1,
           "lost": 1,
-          "runs_allowed": 6,
-          "runs_scored": 2,
+          "runs_allowed": 14,
+          "runs_scored": 15,
           "team_page_id": null
         },
         {
@@ -2137,9 +2137,9 @@
           "team": "Blue Sox",
           "location": "Charlotte, NC",
           "won": 1,
-          "lost": 0,
-          "runs_allowed": 1,
-          "runs_scored": 11,
+          "lost": 1,
+          "runs_allowed": 14,
+          "runs_scored": 19,
           "team_page_id": null
         },
         {
@@ -2244,10 +2244,10 @@
             "field": "Doby:Doby 2",
             "team_a": "Blue Sox",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 8,
             "team_b": "Newport Bombers 11U Janson",
             "seed_b": null,
-            "score_b": null
+            "score_b": 13
           },
           {
             "game": 8,
@@ -4971,5 +4971,5 @@
   },
   "site_last_updated": "10/22/2026 7:46 AM",
   "tournament_id": 12522,
-  "fetched_at": "2026-10-24T14:33"
+  "fetched_at": "2026-10-24T14:44"
 }
