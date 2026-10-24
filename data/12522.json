@@ -1926,10 +1926,10 @@
           "seed": 10,
           "team": "SBA Lake Norman Thunder - Black",
           "location": "Cornelious, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 2,
+          "runs_scored": 8,
           "team_page_id": null
         },
         {
@@ -1947,9 +1947,9 @@
           "team": "CC Cardinals 11U",
           "location": "Shelby, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 8,
+          "runs_scored": 2,
           "team_page_id": null
         },
         {
@@ -3201,9 +3201,9 @@
           "team": "Carolina Rapid Fire",
           "location": "Lincolnton, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 5,
+          "runs_scored": 1,
           "team_page_id": null
         },
         {
@@ -3260,10 +3260,10 @@
           "seed": 7,
           "team": "Athletes Lab 13U Red",
           "location": "Maiden, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 1,
+          "runs_scored": 5,
           "team_page_id": null
         },
         {
@@ -3637,10 +3637,10 @@
           "seed": 14,
           "team": "South Carolina Aces",
           "location": "Chester, SC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 9,
+          "runs_scored": 12,
           "team_page_id": null
         },
         {
@@ -3648,9 +3648,9 @@
           "team": "Regulators",
           "location": "Indian Trail, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 12,
+          "runs_scored": 9,
           "team_page_id": null
         },
         {
@@ -3709,10 +3709,10 @@
             "field": "MRH:Marvin Ridge MS",
             "team_a": "South Carolina Aces",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 12,
             "team_b": "Regulators",
             "seed_b": null,
-            "score_b": null
+            "score_b": 9
           },
           {
             "game": 5,
@@ -4971,5 +4971,5 @@
   },
   "site_last_updated": "10/22/2026 7:46 AM",
   "tournament_id": 12522,
-  "fetched_at": "2026-10-24T10:31"
+  "fetched_at": "2026-10-24T10:41"
 }
