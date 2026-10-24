@@ -77,10 +77,10 @@
           "seed": 1,
           "team": "Carolina Rapid Fire \ud83d\udd25 8U (BLACK)",
           "location": "Lincolnton, NC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
-          "runs_allowed": 4,
-          "runs_scored": 10,
+          "runs_allowed": 13,
+          "runs_scored": 32,
           "team_page_id": null
         },
         {
@@ -88,9 +88,9 @@
           "team": "BP3 Ruff Ryderz NC 8U",
           "location": "Waxhaw, NC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 15,
-          "runs_scored": 14,
+          "lost": 2,
+          "runs_allowed": 37,
+          "runs_scored": 23,
           "team_page_id": null
         },
         {
@@ -291,10 +291,10 @@
             "field": "Westmoreld:Field 4",
             "team_a": "Carolina Rapid Fire \ud83d\udd25 8U (BLACK)",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 22,
             "team_b": "BP3 Ruff Ryderz NC 8U",
             "seed_b": null,
-            "score_b": null
+            "score_b": 9
           }
         ],
         "Gold Bracket": [
@@ -303,10 +303,10 @@
             "day": "Sun",
             "time": "11:30 AM",
             "field": "Westmoreld:Field 4",
-            "team_a": "",
+            "team_a": "Carolina Hype 8u",
             "seed_a": 4,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Tega Cay Titans 8u",
             "seed_b": 5,
             "score_b": null
           },
@@ -315,10 +315,10 @@
             "day": "Sun",
             "time": "11:30 AM",
             "field": "Westmoreld:Field 1",
-            "team_a": "",
+            "team_a": "NC Made 8U Blue",
             "seed_a": 3,
             "score_a": null,
-            "team_b": "",
+            "team_b": "LKN Bolts",
             "seed_b": 6,
             "score_b": null
           },
@@ -330,7 +330,7 @@
             "team_a": "Winner Game #1",
             "seed_a": null,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Canes Atlantic 8u Fareri",
             "seed_b": 1,
             "score_b": null
           },
@@ -342,7 +342,7 @@
             "team_a": "Winner Game #2",
             "seed_a": null,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Carolina Rapid Fire \ud83d\udd25 8U (BLACK)",
             "seed_b": 2,
             "score_b": null
           },
@@ -389,10 +389,10 @@
             "day": "Sun",
             "time": "9:00 AM",
             "field": "Westmoreld:Field 1",
-            "team_a": "",
+            "team_a": "Carolina Smoke 8u",
             "seed_a": 8,
             "score_a": null,
-            "team_b": "",
+            "team_b": "BP3 Ruff Ryderz NC 8U",
             "seed_b": 9,
             "score_b": null
           },
@@ -401,10 +401,10 @@
             "day": "Sun",
             "time": "9:00 AM",
             "field": "Westmoreld:Field 4",
-            "team_a": "",
+            "team_a": "MARA Thunder",
             "seed_a": 7,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Fury Baseball 8u",
             "seed_b": 10,
             "score_b": null
           },
@@ -1964,10 +1964,10 @@
           "seed": 3,
           "team": "Destroyers Baseball",
           "location": "Denver, NC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
-          "runs_allowed": 12,
-          "runs_scored": 13,
+          "runs_allowed": 14,
+          "runs_scored": 31,
           "team_page_id": null
         },
         {
@@ -2095,9 +2095,9 @@
           "team": "CG Elite",
           "location": "China Grove, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 18,
+          "runs_scored": 2,
           "team_page_id": null
         },
         {
@@ -2328,10 +2328,10 @@
             "field": "Tega Cay:Field 4",
             "team_a": "CG Elite",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 2,
             "team_b": "Destroyers Baseball",
             "seed_b": null,
-            "score_b": null
+            "score_b": 18
           },
           {
             "game": 16,
@@ -4676,10 +4676,10 @@
           "seed": 1,
           "team": "P413 Buchanan",
           "location": "ADVANCE, NC",
-          "won": 0,
+          "won": 1,
           "lost": 1,
-          "runs_allowed": 6,
-          "runs_scored": 1,
+          "runs_allowed": 12,
+          "runs_scored": 8,
           "team_page_id": null
         },
         {
@@ -4737,9 +4737,9 @@
           "team": "New River Pirates",
           "location": "Sparta, NC",
           "won": 1,
-          "lost": 0,
-          "runs_allowed": 4,
-          "runs_scored": 5,
+          "lost": 1,
+          "runs_allowed": 11,
+          "runs_scored": 11,
           "team_page_id": null
         },
         {
@@ -4834,10 +4834,10 @@
             "field": "Mazeppa:Field # 4",
             "team_a": "P413 Buchanan",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 7,
             "team_b": "New River Pirates",
             "seed_b": null,
-            "score_b": null
+            "score_b": 6
           },
           {
             "game": 8,
@@ -4933,5 +4933,5 @@
   },
   "site_last_updated": "10/22/2026 7:46 AM",
   "tournament_id": 12522,
-  "fetched_at": "2026-10-24T18:24"
+  "fetched_at": "2026-10-24T18:34"
 }
