@@ -5392,5 +5392,812 @@
    }
   },
   "fetched_at": "2026-10-18T15:35"
+ },
+ "f33344a1-f9ee-4adc-afdb-c32726d9d5a3": {
+  "id": "f33344a1-f9ee-4adc-afdb-c32726d9d5a3",
+  "url": "https://web.gc.com/teams/ewJYbRqmr5t1/2026-fall-elite9-9u/schedule/f33344a1-f9ee-4adc-afdb-c32726d9d5a3/box-score",
+  "source": "gamechanger",
+  "opponent": "BS Bulldogs 8U",
+  "home_away": "away",
+  "status": "completed",
+  "start": "2026-10-24T14:15:00.000Z",
+  "end": "2026-10-24T15:45:00.000Z",
+  "timezone": "America/New_York",
+  "score": {
+   "team": 22,
+   "opponent_team": 9
+  },
+  "line_score": {
+   "team": {
+    "scores": [
+     3,
+     17,
+     2
+    ],
+    "totals": [
+     22,
+     8,
+     2
+    ]
+   },
+   "opponent": {
+    "scores": [
+     1,
+     5,
+     3
+    ],
+    "totals": [
+     9,
+     8,
+     5
+    ]
+   }
+  },
+  "players": {
+   "cebb67e9-eb25-474c-8ca2-d373ae7b4155": {
+    "name": "Wesley S.",
+    "number": 18
+   },
+   "9f412e86-7bf8-4e4b-9bf2-3f1804c7ae0f": {
+    "name": "Beau C.",
+    "number": 7
+   },
+   "95f94681-d705-4c0a-8d31-82bdf0b0225a": {
+    "name": "Keegan H.",
+    "number": 4
+   },
+   "eafa8bd6-abc9-404f-b20d-1da3fcbd4a79": {
+    "name": "Lane S.",
+    "number": 23
+   },
+   "971414c4-c0e6-463b-b56d-02ef24f5e6e5": {
+    "name": "Cayden A.",
+    "number": 8
+   },
+   "7715cbdc-01f2-46f0-be9a-96496eb6ddb1": {
+    "name": "Remi G.",
+    "number": 12
+   },
+   "c8993af3-6d53-4c21-8de9-2e5c6da283f8": {
+    "name": "Khale V.",
+    "number": 3
+   },
+   "fba4a06e-0076-4e62-8d27-36fa246145e1": {
+    "name": "Graham T.",
+    "number": 2
+   },
+   "4968986f-18f8-44da-999c-e1f46848b6ea": {
+    "name": "Austin L.",
+    "number": 22
+   },
+   "758dddcc-65d2-4f42-b3ed-20052ffeab12": {
+    "name": "Evan H.",
+    "number": 10
+   },
+   "d990fcf5-52a8-4496-bbee-621a8465c5b8": {
+    "name": "Tate W.",
+    "number": 5
+   },
+   "0e084e9f-c174-49b2-8d68-76d6fd68f0d4": {
+    "name": "Caiden P.",
+    "number": 11
+   },
+   "eaa10a13-dabd-4647-8aa4-a5a31cce92b5": {
+    "name": "Noah T.",
+    "number": 99
+   },
+   "0e679527-46a5-4bff-b301-015399d36b66": {
+    "name": "Tejay W.",
+    "number": 16
+   }
+  },
+  "box": {
+   "lineup": {
+    "team": {
+     "AB": 16,
+     "R": 22,
+     "H": 8,
+     "RBI": 11,
+     "BB": 16,
+     "SO": 5
+    },
+    "players": [
+     {
+      "player_id": "eafa8bd6-abc9-404f-b20d-1da3fcbd4a79",
+      "name": "Lane S.",
+      "number": 23,
+      "positions": "P, SS",
+      "primary": true,
+      "AB": 3,
+      "R": 2,
+      "H": 2,
+      "RBI": 2,
+      "BB": 1,
+      "SO": 0,
+      "extra": {
+       "TB": 2,
+       "SB": 4,
+       "CS": 1
+      }
+     },
+     {
+      "player_id": "95f94681-d705-4c0a-8d31-82bdf0b0225a",
+      "name": "Keegan H.",
+      "number": 4,
+      "positions": "SS",
+      "primary": true,
+      "AB": 1,
+      "R": 3,
+      "H": 1,
+      "RBI": 1,
+      "BB": 2,
+      "SO": 0,
+      "extra": {
+       "TB": 1,
+       "SB": 3
+      }
+     },
+     {
+      "player_id": "0e084e9f-c174-49b2-8d68-76d6fd68f0d4",
+      "name": "Caiden P.",
+      "number": 11,
+      "positions": "SS, CF",
+      "primary": false,
+      "AB": 1,
+      "R": 0,
+      "H": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 1,
+      "extra": {
+       "SB": 1,
+       "E": 1
+      }
+     },
+     {
+      "player_id": "c8993af3-6d53-4c21-8de9-2e5c6da283f8",
+      "name": "Khale V.",
+      "number": 3,
+      "positions": "RF, 2B",
+      "primary": true,
+      "AB": 0,
+      "R": 3,
+      "H": 0,
+      "RBI": 0,
+      "BB": 4,
+      "SO": 0,
+      "extra": {
+       "SB": 2
+      }
+     },
+     {
+      "player_id": "9f412e86-7bf8-4e4b-9bf2-3f1804c7ae0f",
+      "name": "Beau C.",
+      "number": 7,
+      "positions": "C, 3B",
+      "primary": true,
+      "AB": 1,
+      "R": 1,
+      "H": 1,
+      "RBI": 0,
+      "BB": 2,
+      "SO": 0,
+      "extra": {
+       "TB": 1,
+       "HBP": 1
+      }
+     },
+     {
+      "player_id": "971414c4-c0e6-463b-b56d-02ef24f5e6e5",
+      "name": "Cayden A.",
+      "number": 8,
+      "positions": "3B, C",
+      "primary": true,
+      "AB": 2,
+      "R": 3,
+      "H": 1,
+      "RBI": 2,
+      "BB": 2,
+      "SO": 0,
+      "extra": {
+       "2B": 1,
+       "TB": 2,
+       "E": 1
+      }
+     },
+     {
+      "player_id": "0e679527-46a5-4bff-b301-015399d36b66",
+      "name": "Tejay W.",
+      "number": 16,
+      "positions": "",
+      "primary": true,
+      "AB": 2,
+      "R": 1,
+      "H": 1,
+      "RBI": 1,
+      "BB": 0,
+      "SO": 0,
+      "extra": {
+       "2B": 1,
+       "TB": 2
+      }
+     },
+     {
+      "player_id": "d990fcf5-52a8-4496-bbee-621a8465c5b8",
+      "name": "Tate W.",
+      "number": 5,
+      "positions": "1B",
+      "primary": false,
+      "AB": 1,
+      "R": 0,
+      "H": 1,
+      "RBI": 1,
+      "BB": 0,
+      "SO": 0,
+      "extra": {
+       "TB": 1,
+       "SB": 1
+      }
+     },
+     {
+      "player_id": "4968986f-18f8-44da-999c-e1f46848b6ea",
+      "name": "Austin L.",
+      "number": 22,
+      "positions": "LF",
+      "primary": true,
+      "AB": 1,
+      "R": 0,
+      "H": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 1,
+      "extra": {
+       "HBP": 1
+      }
+     },
+     {
+      "player_id": "fba4a06e-0076-4e62-8d27-36fa246145e1",
+      "name": "Graham T.",
+      "number": 2,
+      "positions": "LF",
+      "primary": false,
+      "AB": 1,
+      "R": 1,
+      "H": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 1,
+      "extra": {}
+     },
+     {
+      "player_id": "7715cbdc-01f2-46f0-be9a-96496eb6ddb1",
+      "name": "Remi G.",
+      "number": 12,
+      "positions": "CF",
+      "primary": true,
+      "AB": 0,
+      "R": 2,
+      "H": 0,
+      "RBI": 1,
+      "BB": 2,
+      "SO": 0,
+      "extra": {
+       "SB": 1
+      }
+     },
+     {
+      "player_id": "cebb67e9-eb25-474c-8ca2-d373ae7b4155",
+      "name": "Wesley S.",
+      "number": 18,
+      "positions": "RF",
+      "primary": false,
+      "AB": 1,
+      "R": 1,
+      "H": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 1,
+      "extra": {
+       "SB": 2
+      }
+     },
+     {
+      "player_id": "eaa10a13-dabd-4647-8aa4-a5a31cce92b5",
+      "name": "Noah T.",
+      "number": 99,
+      "positions": "2B, CF, SS, P",
+      "primary": true,
+      "AB": 0,
+      "R": 3,
+      "H": 0,
+      "RBI": 1,
+      "BB": 2,
+      "SO": 0,
+      "extra": {
+       "HBP": 1,
+       "SB": 1
+      }
+     },
+     {
+      "player_id": "758dddcc-65d2-4f42-b3ed-20052ffeab12",
+      "name": "Evan H.",
+      "number": 10,
+      "positions": "1B, 2B",
+      "primary": true,
+      "AB": 2,
+      "R": 2,
+      "H": 1,
+      "RBI": 2,
+      "BB": 1,
+      "SO": 1,
+      "extra": {
+       "2B": 1,
+       "TB": 2,
+       "SB": 1
+      }
+     }
+    ],
+    "extra_names": [
+     "2B",
+     "TB",
+     "HBP",
+     "SB",
+     "CS",
+     "E"
+    ]
+   },
+   "pitching": {
+    "team": {
+     "IP": 3,
+     "H": 8,
+     "R": 9,
+     "ER": 6,
+     "BB": 3,
+     "SO": 6
+    },
+    "players": [
+     {
+      "player_id": "eafa8bd6-abc9-404f-b20d-1da3fcbd4a79",
+      "name": "Lane S.",
+      "number": 23,
+      "positions": "",
+      "primary": null,
+      "IP": 2,
+      "H": 6,
+      "R": 6,
+      "ER": 3,
+      "BB": 1,
+      "SO": 3,
+      "extra": {
+       "WP": 1,
+       "HBP": 1,
+       "#P": 55,
+       "TS": 28,
+       "BF": 15
+      }
+     },
+     {
+      "player_id": "eaa10a13-dabd-4647-8aa4-a5a31cce92b5",
+      "name": "Noah T.",
+      "number": 99,
+      "positions": "",
+      "primary": null,
+      "IP": 1,
+      "H": 2,
+      "R": 3,
+      "ER": 3,
+      "BB": 2,
+      "SO": 3,
+      "extra": {
+       "WP": 1,
+       "#P": 39,
+       "TS": 20,
+       "BF": 7
+      }
+     }
+    ],
+    "extra_names": [
+     "WP",
+     "HBP",
+     "#P",
+     "TS",
+     "BF"
+    ]
+   }
+  },
+  "opponent_box": {
+   "lineup": {
+    "AB": 18,
+    "R": 9,
+    "H": 8,
+    "RBI": 5,
+    "BB": 3,
+    "SO": 6
+   },
+   "pitching": {
+    "IP": 3,
+    "H": 8,
+    "R": 22,
+    "ER": 20,
+    "BB": 16,
+    "SO": 5
+   }
+  },
+  "fetched_at": "2026-10-24T16:24"
+ },
+ "0670f09e-25ac-4403-b45c-dca07faa7593": {
+  "id": "0670f09e-25ac-4403-b45c-dca07faa7593",
+  "url": "https://web.gc.com/teams/ewJYbRqmr5t1/2026-fall-elite9-9u/schedule/0670f09e-25ac-4403-b45c-dca07faa7593/box-score",
+  "source": "gamechanger",
+  "opponent": "Hooligans 9U",
+  "home_away": "away",
+  "status": "completed",
+  "start": "2026-10-24T16:00:00.000Z",
+  "end": "2026-10-24T17:45:00.000Z",
+  "timezone": "America/New_York",
+  "score": {
+   "team": 8,
+   "opponent_team": 4
+  },
+  "line_score": {
+   "team": {
+    "scores": [
+     3,
+     3,
+     0,
+     2
+    ],
+    "totals": [
+     8,
+     11,
+     1
+    ]
+   },
+   "opponent": {
+    "scores": [
+     1,
+     1,
+     1,
+     1
+    ],
+    "totals": [
+     4,
+     5,
+     0
+    ]
+   }
+  },
+  "players": {
+   "cebb67e9-eb25-474c-8ca2-d373ae7b4155": {
+    "name": "Wesley S.",
+    "number": 18
+   },
+   "9f412e86-7bf8-4e4b-9bf2-3f1804c7ae0f": {
+    "name": "Beau C.",
+    "number": 7
+   },
+   "95f94681-d705-4c0a-8d31-82bdf0b0225a": {
+    "name": "Keegan H.",
+    "number": 4
+   },
+   "eafa8bd6-abc9-404f-b20d-1da3fcbd4a79": {
+    "name": "Lane S.",
+    "number": 23
+   },
+   "971414c4-c0e6-463b-b56d-02ef24f5e6e5": {
+    "name": "Cayden A.",
+    "number": 8
+   },
+   "7715cbdc-01f2-46f0-be9a-96496eb6ddb1": {
+    "name": "Remi G.",
+    "number": 12
+   },
+   "c8993af3-6d53-4c21-8de9-2e5c6da283f8": {
+    "name": "Khale V.",
+    "number": 3
+   },
+   "fba4a06e-0076-4e62-8d27-36fa246145e1": {
+    "name": "Graham T.",
+    "number": 2
+   },
+   "4968986f-18f8-44da-999c-e1f46848b6ea": {
+    "name": "Austin L.",
+    "number": 22
+   },
+   "758dddcc-65d2-4f42-b3ed-20052ffeab12": {
+    "name": "Evan H.",
+    "number": 10
+   },
+   "d990fcf5-52a8-4496-bbee-621a8465c5b8": {
+    "name": "Tate W.",
+    "number": 5
+   },
+   "0e084e9f-c174-49b2-8d68-76d6fd68f0d4": {
+    "name": "Caiden P.",
+    "number": 11
+   },
+   "eaa10a13-dabd-4647-8aa4-a5a31cce92b5": {
+    "name": "Noah T.",
+    "number": 99
+   },
+   "0e679527-46a5-4bff-b301-015399d36b66": {
+    "name": "Tejay W.",
+    "number": 16
+   }
+  },
+  "box": {
+   "lineup": {
+    "team": {
+     "AB": 23,
+     "R": 8,
+     "H": 11,
+     "RBI": 5,
+     "BB": 2,
+     "SO": 5
+    },
+    "players": [
+     {
+      "player_id": "eafa8bd6-abc9-404f-b20d-1da3fcbd4a79",
+      "name": "Lane S.",
+      "number": 23,
+      "positions": "2B, CF",
+      "primary": true,
+      "AB": 3,
+      "R": 0,
+      "H": 0,
+      "RBI": 1,
+      "BB": 0,
+      "SO": 2,
+      "extra": {}
+     },
+     {
+      "player_id": "eaa10a13-dabd-4647-8aa4-a5a31cce92b5",
+      "name": "Noah T.",
+      "number": 99,
+      "positions": "CF",
+      "primary": false,
+      "AB": 0,
+      "R": 1,
+      "H": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 0,
+      "extra": {
+       "SB": 1
+      }
+     },
+     {
+      "player_id": "95f94681-d705-4c0a-8d31-82bdf0b0225a",
+      "name": "Keegan H.",
+      "number": 4,
+      "positions": "SS",
+      "primary": true,
+      "AB": 3,
+      "R": 2,
+      "H": 3,
+      "RBI": 1,
+      "BB": 0,
+      "SO": 0,
+      "extra": {
+       "TB": 3,
+       "SB": 1
+      }
+     },
+     {
+      "player_id": "c8993af3-6d53-4c21-8de9-2e5c6da283f8",
+      "name": "Khale V.",
+      "number": 3,
+      "positions": "P, RF",
+      "primary": true,
+      "AB": 2,
+      "R": 1,
+      "H": 1,
+      "RBI": 0,
+      "BB": 1,
+      "SO": 0,
+      "extra": {
+       "TB": 1
+      }
+     },
+     {
+      "player_id": "0e679527-46a5-4bff-b301-015399d36b66",
+      "name": "Tejay W.",
+      "number": 16,
+      "positions": "RF, P",
+      "primary": true,
+      "AB": 3,
+      "R": 1,
+      "H": 2,
+      "RBI": 2,
+      "BB": 0,
+      "SO": 0,
+      "extra": {
+       "2B": 1,
+       "TB": 3,
+       "SB": 1
+      }
+     },
+     {
+      "player_id": "971414c4-c0e6-463b-b56d-02ef24f5e6e5",
+      "name": "Cayden A.",
+      "number": 8,
+      "positions": "3B",
+      "primary": true,
+      "AB": 2,
+      "R": 0,
+      "H": 0,
+      "RBI": 0,
+      "BB": 1,
+      "SO": 1,
+      "extra": {
+       "SB": 1,
+       "E": 1
+      }
+     },
+     {
+      "player_id": "9f412e86-7bf8-4e4b-9bf2-3f1804c7ae0f",
+      "name": "Beau C.",
+      "number": 7,
+      "positions": "",
+      "primary": true,
+      "AB": 2,
+      "R": 0,
+      "H": 1,
+      "RBI": 1,
+      "BB": 0,
+      "SO": 1,
+      "extra": {
+       "TB": 1,
+       "SB": 1
+      }
+     },
+     {
+      "player_id": "d990fcf5-52a8-4496-bbee-621a8465c5b8",
+      "name": "Tate W.",
+      "number": 5,
+      "positions": "1B",
+      "primary": true,
+      "AB": 2,
+      "R": 0,
+      "H": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 1,
+      "extra": {}
+     },
+     {
+      "player_id": "4968986f-18f8-44da-999c-e1f46848b6ea",
+      "name": "Austin L.",
+      "number": 22,
+      "positions": "LF",
+      "primary": true,
+      "AB": 2,
+      "R": 0,
+      "H": 0,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 0,
+      "extra": {}
+     },
+     {
+      "player_id": "7715cbdc-01f2-46f0-be9a-96496eb6ddb1",
+      "name": "Remi G.",
+      "number": 12,
+      "positions": "CF, 2B",
+      "primary": true,
+      "AB": 2,
+      "R": 2,
+      "H": 2,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 0,
+      "extra": {
+       "TB": 2,
+       "SB": 1
+      }
+     },
+     {
+      "player_id": "758dddcc-65d2-4f42-b3ed-20052ffeab12",
+      "name": "Evan H.",
+      "number": 10,
+      "positions": "C",
+      "primary": true,
+      "AB": 2,
+      "R": 1,
+      "H": 2,
+      "RBI": 0,
+      "BB": 0,
+      "SO": 0,
+      "extra": {
+       "2B": 1,
+       "TB": 3
+      }
+     }
+    ],
+    "extra_names": [
+     "2B",
+     "TB",
+     "SB",
+     "E"
+    ]
+   },
+   "pitching": {
+    "team": {
+     "IP": 4,
+     "H": 5,
+     "R": 4,
+     "ER": 3,
+     "BB": 6,
+     "SO": 5
+    },
+    "players": [
+     {
+      "player_id": "c8993af3-6d53-4c21-8de9-2e5c6da283f8",
+      "name": "Khale V.",
+      "number": 3,
+      "positions": "",
+      "primary": null,
+      "IP": 2.3333333333333335,
+      "H": 3,
+      "R": 3,
+      "ER": 3,
+      "BB": 5,
+      "SO": 3,
+      "extra": {
+       "WP": 1,
+       "HBP": 1,
+       "#P": 56,
+       "TS": 22,
+       "BF": 16
+      }
+     },
+     {
+      "player_id": "0e679527-46a5-4bff-b301-015399d36b66",
+      "name": "Tejay W.",
+      "number": 16,
+      "positions": "",
+      "primary": null,
+      "IP": 1.6666666666666667,
+      "H": 2,
+      "R": 1,
+      "ER": 0,
+      "BB": 1,
+      "SO": 2,
+      "extra": {
+       "HBP": 1,
+       "#P": 28,
+       "TS": 16,
+       "BF": 8
+      }
+     }
+    ],
+    "extra_names": [
+     "WP",
+     "HBP",
+     "#P",
+     "TS",
+     "BF"
+    ]
+   }
+  },
+  "opponent_box": {
+   "lineup": {
+    "AB": 16,
+    "R": 4,
+    "H": 5,
+    "RBI": 1,
+    "BB": 6,
+    "SO": 5
+   },
+   "pitching": {
+    "IP": 4,
+    "H": 11,
+    "R": 8,
+    "ER": 8,
+    "BB": 2,
+    "SO": 5
+   }
+  },
+  "fetched_at": "2026-10-24T16:24"
  }
 }
