@@ -88,9 +88,9 @@
           "team": "BP3 Ruff Ryderz NC 8U",
           "location": "Waxhaw, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 15,
+          "runs_scored": 14,
           "team_page_id": null
         },
         {
@@ -147,10 +147,10 @@
           "seed": 8,
           "team": "Tega Cay Titans 8u",
           "location": "Fort Mill, SC",
-          "won": 0,
+          "won": 1,
           "lost": 1,
-          "runs_allowed": 10,
-          "runs_scored": 4,
+          "runs_allowed": 24,
+          "runs_scored": 19,
           "team_page_id": null
         },
         {
@@ -267,10 +267,10 @@
             "field": "Westmoreld:Field 4",
             "team_a": "Tega Cay Titans 8u",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 15,
             "team_b": "BP3 Ruff Ryderz NC 8U",
             "seed_b": null,
-            "score_b": null
+            "score_b": 14
           },
           {
             "game": 9,
@@ -4945,5 +4945,5 @@
   },
   "site_last_updated": "10/22/2026 7:46 AM",
   "tournament_id": 12522,
-  "fetched_at": "2026-10-24T16:49"
+  "fetched_at": "2026-10-24T17:00"
 }
