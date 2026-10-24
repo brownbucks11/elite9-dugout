@@ -484,10 +484,10 @@
           "seed": 5,
           "team": "Red Clay Athletics 9U Darcangelo",
           "location": "Charlotte, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 5,
+          "runs_scored": 10,
           "team_page_id": null
         },
         {
@@ -595,9 +595,9 @@
           "team": "LKN Lightning - Ogburn",
           "location": "Huntersville, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 10,
+          "runs_scored": 5,
           "team_page_id": null
         },
         {
@@ -642,10 +642,10 @@
             "field": "Mazeppa:Field # 3",
             "team_a": "Red Clay Athletics 9U Darcangelo",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 10,
             "team_b": "LKN Lightning - Ogburn",
             "seed_b": null,
-            "score_b": null
+            "score_b": 5
           },
           {
             "game": 3,
@@ -1055,10 +1055,10 @@
           "seed": 4,
           "team": "FS Bulldogs 10u (Reece)",
           "location": "Mt Ulla, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 6,
+          "runs_scored": 17,
           "team_page_id": null
         },
         {
@@ -1086,9 +1086,9 @@
           "team": "Athletes Lab 10U Grey",
           "location": "Maiden, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 17,
+          "runs_scored": 6,
           "team_page_id": null
         },
         {
@@ -2117,9 +2117,9 @@
           "team": "11u On Deck O's",
           "location": "Charlotte, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 11,
+          "runs_scored": 1,
           "team_page_id": null
         },
         {
@@ -2136,10 +2136,10 @@
           "seed": 19,
           "team": "Blue Sox",
           "location": "Charlotte, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 1,
+          "runs_scored": 11,
           "team_page_id": null
         },
         {
@@ -2172,10 +2172,10 @@
             "field": "Doby:Doby 2",
             "team_a": "11u On Deck O's",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 1,
             "team_b": "Blue Sox",
             "seed_b": null,
-            "score_b": null
+            "score_b": 11
           },
           {
             "game": 2,
@@ -2789,10 +2789,10 @@
           "seed": 2,
           "team": "LKN Kingdom",
           "location": "Charlotte, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 11,
+          "runs_scored": 12,
           "team_page_id": null
         },
         {
@@ -2850,9 +2850,9 @@
           "team": "South Charlotte Revolution - Keller",
           "location": "Charlotte, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 12,
+          "runs_scored": 11,
           "team_page_id": null
         },
         {
@@ -2915,10 +2915,10 @@
             "field": "Dallas:Field # 1",
             "team_a": "South Charlotte Revolution - Keller",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 11,
             "team_b": "LKN Kingdom",
             "seed_b": null,
-            "score_b": null
+            "score_b": 12
           },
           {
             "game": 2,
@@ -4971,5 +4971,5 @@
   },
   "site_last_updated": "10/22/2026 7:46 AM",
   "tournament_id": 12522,
-  "fetched_at": "2026-10-24T10:20"
+  "fetched_at": "2026-10-24T10:31"
 }
