@@ -1136,9 +1136,9 @@
           "team": "Stingers",
           "location": "Matthews, NC",
           "won": 1,
-          "lost": 0,
-          "runs_allowed": 8,
-          "runs_scored": 17,
+          "lost": 1,
+          "runs_allowed": 22,
+          "runs_scored": 29,
           "team_page_id": null
         },
         {
@@ -1215,10 +1215,10 @@
           "seed": 13,
           "team": "Carolina Hit Stix",
           "location": "Richburg, SC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 12,
+          "runs_scored": 14,
           "team_page_id": null
         },
         {
@@ -1451,10 +1451,10 @@
             "field": "Doby:Doby 3",
             "team_a": "Stingers",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 12,
             "team_b": "Carolina Hit Stix",
             "seed_b": null,
-            "score_b": null
+            "score_b": 14
           },
           {
             "game": 12,
@@ -1976,10 +1976,10 @@
           "seed": 3,
           "team": "Destroyers Baseball",
           "location": "Denver, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 12,
+          "runs_scored": 13,
           "team_page_id": null
         },
         {
@@ -2037,9 +2037,9 @@
           "team": "Banana Peppers Baseball 11u",
           "location": "Gastonia, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 13,
+          "runs_scored": 12,
           "team_page_id": null
         },
         {
@@ -2268,10 +2268,10 @@
             "field": "Tega Cay:Field 4",
             "team_a": "Banana Peppers Baseball 11u",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 12,
             "team_b": "Destroyers Baseball",
             "seed_b": null,
-            "score_b": null
+            "score_b": 13
           },
           {
             "game": 10,
@@ -4508,33 +4508,23 @@
           "team": "Banana Peppers Baseball",
           "location": "Bessemer City, NC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 8,
-          "runs_scored": 4,
+          "lost": 2,
+          "runs_allowed": 17,
+          "runs_scored": 7,
           "team_page_id": null
         },
         {
           "seed": 4,
           "team": "Triad Cardinals 16u",
           "location": "Stokesdale, NC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
-          "runs_allowed": 3,
-          "runs_scored": 8,
+          "runs_allowed": 6,
+          "runs_scored": 17,
           "team_page_id": null
         },
         {
           "seed": 5,
-          "team": "NCP National",
-          "location": "Thomasville, NC",
-          "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
-          "team_page_id": null
-        },
-        {
-          "seed": 6,
           "team": "Ruff Ryders baseball 16u",
           "location": "Union, SC",
           "won": 0,
@@ -4544,7 +4534,7 @@
           "team_page_id": null
         },
         {
-          "seed": 7,
+          "seed": 6,
           "team": "Regulators",
           "location": "Indian Trail, NC",
           "won": 0,
@@ -4587,10 +4577,10 @@
             "field": "TOB:Field 1",
             "team_a": "Banana Peppers Baseball",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 3,
             "team_b": "Triad Cardinals 16u",
             "seed_b": null,
-            "score_b": null
+            "score_b": 9
           },
           {
             "game": 4,
@@ -4959,5 +4949,5 @@
   },
   "site_last_updated": "10/22/2026 7:46 AM",
   "tournament_id": 12522,
-  "fetched_at": "2026-10-24T15:05"
+  "fetched_at": "2026-10-24T15:15"
 }
