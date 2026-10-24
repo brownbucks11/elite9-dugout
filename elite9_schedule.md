@@ -1,5 +1,5 @@
 # Elite 9 - Top Gun schedule
-_Updated Sat Oct 24, 2026 02:01 PM_
+_Updated Sat Oct 24, 2026 02:11 PM_
 
 ## SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND
 September 26 - 27 in Greater Charlotte Area, NC  
@@ -167,33 +167,33 @@ October 24 - 25 in Greater Charlotte Area, NC
 Tournament 12522 - [schedule page](https://playtopgunsports.com/GameTimesResults.aspx?trnid=12522)
 
 ### 9U  Modified Stealing
-**Standing:** #7 of 18  -  1-0, RS 22, RA 9
+**Standing:** #7 of 18  -  2-0, RS 30, RA 13
 
 **Elite 9 games**
 
 | G | When | Field | Team A | Team B |
 |---|---|---|---|---|
 | Pool 6 | Sat 10:15 AM | SP:Field #1 | BOILING SPRINGS BULLDOGS BASEBALL 8u 9 | Elite 9 22 |
-| Pool 9 | Sat 12:00 PM | SP:Field #1 | Hooligans | Elite 9 |
+| Pool 9 | Sat 12:00 PM | SP:Field #1 | Hooligans 4 | Elite 9 8 |
 
 **9U standings**
 
 | # | Team | From | W-L | RS | RA |
 |---|---|---|---|---|---|
 | 1 | NL Destroyers 2036 | Denver, NC | 0-0 | 0 | 0 |
-| 2 | Hooligans | Mount Holly, NC | 1-0 | 17 | 1 |
+| 2 | Hooligans | Mount Holly, NC | 1-1 | 21 | 9 |
 | 3 | LumberJacks | Gaston County, NC | 0-0 | 0 | 0 |
-| 4 | Carolina Trash Pandas | Locust, NC | 0-0 | 0 | 0 |
+| 4 | Carolina Trash Pandas | Locust, NC | 1-0 | 14 | 2 |
 | 5 | Red Clay Athletics 9U Darcangelo | Charlotte, NC | 1-1 | 16 | 16 |
 | 6 | Dirtbags Baseball ESB | Lincolnton, NC | 2-0 | 29 | 11 |
-| 7 | Elite 9 **<--** | Rock Hill, SC | 1-0 | 22 | 9 |
+| 7 | Elite 9 **<--** | Rock Hill, SC | 2-0 | 30 | 13 |
 | 8 | Carolina Regulators 9u | Stanley, NC | 1-1 | 16 | 24 |
 | 9 | Carolina Elevate | Lenoir, NC | 0-0 | 0 | 0 |
-| 10 | Dirtbags Shook | Claremont, NC | 0-0 | 0 | 0 |
+| 10 | Dirtbags Shook | Claremont, NC | 0-1 | 1 | 12 |
 | 11 | ZT Knuckleheads | Clover, SC | 0-0 | 0 | 0 |
-| 12 | Diamond Jaxx | Pinehurst, NC | 0-0 | 0 | 0 |
+| 12 | Diamond Jaxx | Pinehurst, NC | 0-1 | 2 | 14 |
 | 13 | Concord Athletics -9U | Concord, NC | 0-0 | 0 | 0 |
-| 14 | MARA Stingers | Matthews, NC | 0-0 | 0 | 0 |
+| 14 | MARA Stingers | Matthews, NC | 1-0 | 12 | 1 |
 | 15 | Athletes Lab 9U Navy- Stewart | Maiden, NC | 0-0 | 0 | 0 |
 | 16 | LKN Lightning - Ogburn | Huntersville, NC | 0-2 | 11 | 21 |
 | 17 | BOILING SPRINGS BULLDOGS BASEBALL 8u | Boiling Springs, NC | 0-2 | 10 | 39 |

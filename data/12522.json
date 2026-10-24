@@ -455,9 +455,9 @@
           "team": "Hooligans",
           "location": "Mount Holly, NC",
           "won": 1,
-          "lost": 0,
-          "runs_allowed": 1,
-          "runs_scored": 17,
+          "lost": 1,
+          "runs_allowed": 9,
+          "runs_scored": 21,
           "team_page_id": null
         },
         {
@@ -474,10 +474,10 @@
           "seed": 4,
           "team": "Carolina Trash Pandas",
           "location": "Locust, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 2,
+          "runs_scored": 14,
           "team_page_id": null
         },
         {
@@ -504,10 +504,10 @@
           "seed": 7,
           "team": "Elite 9",
           "location": "Rock Hill, SC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
-          "runs_allowed": 9,
-          "runs_scored": 22,
+          "runs_allowed": 13,
+          "runs_scored": 30,
           "team_page_id": null
         },
         {
@@ -535,9 +535,9 @@
           "team": "Dirtbags Shook",
           "location": "Claremont, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 12,
+          "runs_scored": 1,
           "team_page_id": null
         },
         {
@@ -555,9 +555,9 @@
           "team": "Diamond Jaxx",
           "location": "Pinehurst, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 14,
+          "runs_scored": 2,
           "team_page_id": null
         },
         {
@@ -574,10 +574,10 @@
           "seed": 14,
           "team": "MARA Stingers",
           "location": "Matthews, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 1,
+          "runs_scored": 12,
           "team_page_id": null
         },
         {
@@ -702,10 +702,10 @@
             "field": "Mazeppa:Field # 2",
             "team_a": "Carolina Trash Pandas",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 14,
             "team_b": "Diamond Jaxx",
             "seed_b": null,
-            "score_b": null
+            "score_b": 2
           },
           {
             "game": 8,
@@ -714,10 +714,10 @@
             "field": "Mazeppa:Field # 3",
             "team_a": "MARA Stingers",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 12,
             "team_b": "Dirtbags Shook",
             "seed_b": null,
-            "score_b": null
+            "score_b": 1
           },
           {
             "game": 9,
@@ -726,10 +726,10 @@
             "field": "SP:Field #1",
             "team_a": "Hooligans",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 4,
             "team_b": "Elite 9",
             "seed_b": null,
-            "score_b": null
+            "score_b": 8
           },
           {
             "game": 10,
@@ -3210,10 +3210,10 @@
           "seed": 2,
           "team": "Lone Star Hippos",
           "location": "Gastonia, NC",
-          "won": 0,
+          "won": 1,
           "lost": 1,
           "runs_allowed": 4,
-          "runs_scored": 2,
+          "runs_scored": 9,
           "team_page_id": null
         },
         {
@@ -3251,8 +3251,8 @@
           "team": "River Rats",
           "location": "Lincolnton, NC",
           "won": 1,
-          "lost": 0,
-          "runs_allowed": 7,
+          "lost": 1,
+          "runs_allowed": 14,
           "runs_scored": 8,
           "team_page_id": null
         },
@@ -3597,10 +3597,10 @@
           "seed": 10,
           "team": "Newport Bombers 14U Ferguson",
           "location": "Rock Hill, SC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 4,
+          "runs_scored": 5,
           "team_page_id": null
         },
         {
@@ -3648,9 +3648,9 @@
           "team": "Regulators",
           "location": "Indian Trail, NC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 12,
-          "runs_scored": 9,
+          "lost": 2,
+          "runs_allowed": 17,
+          "runs_scored": 13,
           "team_page_id": null
         },
         {
@@ -3805,10 +3805,10 @@
             "field": "MRH:Marvin Ridge MS",
             "team_a": "Newport Bombers 14U Ferguson",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 5,
             "team_b": "Regulators",
             "seed_b": null,
-            "score_b": null
+            "score_b": 4
           },
           {
             "game": 13,
@@ -4032,10 +4032,10 @@
           "seed": 1,
           "team": "Mount Holly Hawks",
           "location": "Mount Holly, NC",
-          "won": 0,
+          "won": 1,
           "lost": 1,
-          "runs_allowed": 6,
-          "runs_scored": 5,
+          "runs_allowed": 8,
+          "runs_scored": 10,
           "team_page_id": null
         },
         {
@@ -4043,9 +4043,9 @@
           "team": "Carolina Blue Bloods",
           "location": "Indian Trail, NC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 12,
-          "runs_scored": 0,
+          "lost": 2,
+          "runs_allowed": 17,
+          "runs_scored": 2,
           "team_page_id": null
         },
         {
@@ -4202,10 +4202,10 @@
             "field": "MRH:Marvin Ridge HS",
             "team_a": "Carolina Blue Bloods",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 2,
             "team_b": "Mount Holly Hawks",
             "seed_b": null,
-            "score_b": null
+            "score_b": 5
           },
           {
             "game": 4,
@@ -4971,5 +4971,5 @@
   },
   "site_last_updated": "10/22/2026 7:46 AM",
   "tournament_id": 12522,
-  "fetched_at": "2026-10-24T14:01"
+  "fetched_at": "2026-10-24T14:11"
 }
