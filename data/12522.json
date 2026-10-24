@@ -1175,10 +1175,10 @@
           "seed": 9,
           "team": "Red Clay Athletics 10U Latimer",
           "location": "Huntersville, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 5,
+          "runs_scored": 11,
           "team_page_id": null
         },
         {
@@ -1296,9 +1296,9 @@
           "team": "Carolina Ghost 10u",
           "location": "High Point, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 11,
+          "runs_scored": 5,
           "team_page_id": null
         },
         {
@@ -1439,10 +1439,10 @@
             "field": "Westmoreld:Field 2",
             "team_a": "Red Clay Athletics 10U Latimer",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 11,
             "team_b": "Carolina Ghost 10u",
             "seed_b": null,
-            "score_b": null
+            "score_b": 5
           },
           {
             "game": 11,
@@ -3200,10 +3200,10 @@
           "seed": 1,
           "team": "Carolina Rapid Fire",
           "location": "Lincolnton, NC",
-          "won": 0,
+          "won": 1,
           "lost": 1,
-          "runs_allowed": 5,
-          "runs_scored": 1,
+          "runs_allowed": 8,
+          "runs_scored": 6,
           "team_page_id": null
         },
         {
@@ -3241,9 +3241,9 @@
           "team": "Extreme Performance",
           "location": "Salisbury, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 5,
+          "runs_scored": 3,
           "team_page_id": null
         },
         {
@@ -4745,9 +4745,9 @@
           "team": "WNC Phantom Elite",
           "location": "Taylorsville, NC",
           "won": 1,
-          "lost": 0,
-          "runs_allowed": 4,
-          "runs_scored": 16,
+          "lost": 1,
+          "runs_allowed": 9,
+          "runs_scored": 20,
           "team_page_id": null
         },
         {
@@ -4774,10 +4774,10 @@
           "seed": 7,
           "team": "New River Pirates",
           "location": "Sparta, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 4,
+          "runs_scored": 5,
           "team_page_id": null
         },
         {
@@ -4824,10 +4824,10 @@
             "field": "Mazeppa:Field # 4",
             "team_a": "WNC Phantom Elite",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 4,
             "team_b": "New River Pirates",
             "seed_b": null,
-            "score_b": null
+            "score_b": 5
           },
           {
             "game": 4,
@@ -4971,5 +4971,5 @@
   },
   "site_last_updated": "10/22/2026 7:46 AM",
   "tournament_id": 12522,
-  "fetched_at": "2026-10-24T14:12"
+  "fetched_at": "2026-10-24T14:23"
 }
