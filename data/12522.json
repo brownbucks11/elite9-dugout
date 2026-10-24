@@ -1206,9 +1206,9 @@
           "team": "Carolina Forge 10U",
           "location": "Gastonia, NC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 10,
-          "runs_scored": 3,
+          "lost": 2,
+          "runs_allowed": 18,
+          "runs_scored": 10,
           "team_page_id": null
         },
         {
@@ -1305,10 +1305,10 @@
           "seed": 22,
           "team": "Carolina Elevate Bolick",
           "location": "Lenoir, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 7,
+          "runs_scored": 8,
           "team_page_id": null
         },
         {
@@ -1535,10 +1535,10 @@
             "field": "SP:Field #3",
             "team_a": "Carolina Forge 10U",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 7,
             "team_b": "Carolina Elevate Bolick",
             "seed_b": null,
-            "score_b": null
+            "score_b": 8
           },
           {
             "game": 19,
@@ -4108,20 +4108,20 @@
           "seed": 10,
           "team": "Roanoke Valley Ballers",
           "location": "Salem, VA",
-          "won": 0,
-          "lost": 1,
-          "runs_allowed": 3,
-          "runs_scored": 2,
+          "won": 1,
+          "lost": 0,
+          "runs_allowed": 2,
+          "runs_scored": 3,
           "team_page_id": null
         },
         {
           "seed": 11,
           "team": "Camel City Baseball",
           "location": "Pfafftown, NC",
-          "won": 2,
-          "lost": 0,
-          "runs_allowed": 3,
-          "runs_scored": 15,
+          "won": 1,
+          "lost": 1,
+          "runs_allowed": 4,
+          "runs_scored": 14,
           "team_page_id": null
         },
         {
@@ -4212,10 +4212,10 @@
             "field": "MRH:Marvin Ridge HS",
             "team_a": "Roanoke Valley Ballers",
             "seed_a": null,
-            "score_a": 2,
+            "score_a": 3,
             "team_b": "Camel City Baseball",
             "seed_b": null,
-            "score_b": 3
+            "score_b": 2
           },
           {
             "game": 6,
@@ -4698,8 +4698,8 @@
           "location": "Belmont, NC",
           "won": 0,
           "lost": 1,
-          "runs_allowed": 9,
-          "runs_scored": 1,
+          "runs_allowed": 12,
+          "runs_scored": 4,
           "team_page_id": null
         },
         {
@@ -4748,8 +4748,8 @@
           "location": "Lake Wylie, SC",
           "won": 1,
           "lost": 0,
-          "runs_allowed": 1,
-          "runs_scored": 12,
+          "runs_allowed": 4,
+          "runs_scored": 15,
           "team_page_id": null
         }
       ],
@@ -4846,10 +4846,10 @@
             "field": "CMHP:CaroMont",
             "team_a": "Noice Hawk Natty",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 3,
             "team_b": "KLSC Prime",
             "seed_b": null,
-            "score_b": null
+            "score_b": 3
           }
         ],
         "Gold Bracket": [
@@ -4858,10 +4858,10 @@
             "day": "Sun",
             "time": "9:00 AM",
             "field": "CA:Field #1",
-            "team_a": "",
+            "team_a": "Triad Warriors",
             "seed_a": 1,
             "score_a": null,
-            "team_b": "",
+            "team_b": "New River Pirates",
             "seed_b": 4,
             "score_b": null
           },
@@ -4870,10 +4870,10 @@
             "day": "Sun",
             "time": "11:00 AM",
             "field": "CA:Field #1",
-            "team_a": "",
+            "team_a": "Noice Hawk Natty",
             "seed_a": 2,
             "score_a": null,
-            "team_b": "",
+            "team_b": "WNC Phantom Elite",
             "seed_b": 3,
             "score_b": null
           },
@@ -4896,10 +4896,10 @@
             "day": "Sun",
             "time": "1:00 PM",
             "field": "Mazeppa:Field # 4",
-            "team_a": "",
+            "team_a": "P413 Buchanan",
             "seed_a": 5,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Carolina Shorebirds",
             "seed_b": 8,
             "score_b": null
           },
@@ -4908,10 +4908,10 @@
             "day": "Sun",
             "time": "3:00 PM",
             "field": "Mazeppa:Field # 4",
-            "team_a": "",
+            "team_a": "GATA Baseball",
             "seed_a": 6,
             "score_a": null,
-            "team_b": "",
+            "team_b": "KLSC Prime",
             "seed_b": 7,
             "score_b": null
           },
@@ -4933,5 +4933,5 @@
   },
   "site_last_updated": "10/22/2026 7:46 AM",
   "tournament_id": 12522,
-  "fetched_at": "2026-10-24T19:37"
+  "fetched_at": "2026-10-24T19:47"
 }
