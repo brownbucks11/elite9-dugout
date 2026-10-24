@@ -98,9 +98,9 @@
           "team": "Fury Baseball 8u",
           "location": "Forest City, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 24,
+          "runs_scored": 2,
           "team_page_id": null
         },
         {
@@ -127,10 +127,10 @@
           "seed": 6,
           "team": "Canes Atlantic 8u Fareri",
           "location": "Denver, NC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
-          "runs_allowed": 7,
-          "runs_scored": 14,
+          "runs_allowed": 9,
+          "runs_scored": 38,
           "team_page_id": null
         },
         {
@@ -207,10 +207,10 @@
             "field": "Westmoreld:Field 4",
             "team_a": "Canes Atlantic 8u Fareri",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 24,
             "team_b": "Fury Baseball 8u",
             "seed_b": null,
-            "score_b": null
+            "score_b": 2
           },
           {
             "game": 4,
@@ -4971,5 +4971,5 @@
   },
   "site_last_updated": "10/22/2026 7:46 AM",
   "tournament_id": 12522,
-  "fetched_at": "2026-10-24T12:47"
+  "fetched_at": "2026-10-24T12:58"
 }
