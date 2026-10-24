@@ -565,9 +565,9 @@
           "team": "Concord Athletics -9U",
           "location": "Concord, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 12,
+          "runs_scored": 3,
           "team_page_id": null
         },
         {
@@ -584,10 +584,10 @@
           "seed": 15,
           "team": "Athletes Lab 9U Navy- Stewart",
           "location": "Maiden, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 3,
+          "runs_scored": 12,
           "team_page_id": null
         },
         {
@@ -786,10 +786,10 @@
             "field": "Mazeppa:Field # 3",
             "team_a": "Athletes Lab 9U Navy- Stewart",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 12,
             "team_b": "Concord Athletics -9U",
             "seed_b": null,
-            "score_b": null
+            "score_b": 3
           },
           {
             "game": 15,
@@ -2868,19 +2868,19 @@
           "team": "PJ Junkies",
           "location": "Pageland, SC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 14,
+          "runs_scored": 2,
           "team_page_id": null
         },
         {
           "seed": 12,
           "team": "Park Sharon Nationals",
           "location": "Charlotte, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 2,
+          "runs_scored": 14,
           "team_page_id": null
         },
         {
@@ -2999,10 +2999,10 @@
             "field": "Dallas:Field # 3",
             "team_a": "PJ Junkies",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 2,
             "team_b": "Park Sharon Nationals",
             "seed_b": null,
-            "score_b": null
+            "score_b": 14
           },
           {
             "game": 10,
@@ -4109,29 +4109,29 @@
           "team": "Roanoke Valley Ballers",
           "location": "Salem, VA",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
-          "team_page_id": null
-        },
-        {
-          "seed": 11,
-          "team": "Camel City Baseball",
-          "location": "Pfafftown, NC",
-          "won": 0,
           "lost": 1,
           "runs_allowed": 3,
           "runs_scored": 2,
           "team_page_id": null
         },
         {
+          "seed": 11,
+          "team": "Camel City Baseball",
+          "location": "Pfafftown, NC",
+          "won": 2,
+          "lost": 0,
+          "runs_allowed": 3,
+          "runs_scored": 15,
+          "team_page_id": null
+        },
+        {
           "seed": 12,
           "team": "Roanoke Valley Ballers ( Orange )",
           "location": "roanoke, VA",
-          "won": 1,
-          "lost": 0,
-          "runs_allowed": 2,
-          "runs_scored": 3,
+          "won": 0,
+          "lost": 1,
+          "runs_allowed": 12,
+          "runs_scored": 1,
           "team_page_id": null
         },
         {
@@ -4212,10 +4212,10 @@
             "field": "MRH:Marvin Ridge HS",
             "team_a": "Roanoke Valley Ballers",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 2,
             "team_b": "Camel City Baseball",
             "seed_b": null,
-            "score_b": null
+            "score_b": 3
           },
           {
             "game": 6,
@@ -4236,10 +4236,10 @@
             "field": "MRH:Marvin Ridge HS",
             "team_a": "Roanoke Valley Ballers ( Orange )",
             "seed_a": null,
-            "score_a": 3,
+            "score_a": 1,
             "team_b": "Camel City Baseball",
             "seed_b": null,
-            "score_b": 2
+            "score_b": 12
           },
           {
             "game": 8,
@@ -4933,5 +4933,5 @@
   },
   "site_last_updated": "10/22/2026 7:46 AM",
   "tournament_id": 12522,
-  "fetched_at": "2026-10-24T17:21"
+  "fetched_at": "2026-10-24T17:31"
 }
