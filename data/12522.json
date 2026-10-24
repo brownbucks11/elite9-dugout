@@ -1708,10 +1708,10 @@
             "time": "9:00 AM",
             "field": "Mazeppa:Field # 2",
             "team_a": "",
-            "seed_a": 14,
+            "seed_a": 11,
             "score_a": null,
             "team_b": "",
-            "seed_b": 15,
+            "seed_b": 14,
             "score_b": null
           },
           {
@@ -1734,19 +1734,7 @@
             "team_a": "Winner Game #1",
             "seed_a": null,
             "score_a": null,
-            "team_b": "",
-            "seed_b": 11,
-            "score_b": null
-          },
-          {
-            "game": 4,
-            "day": "Sun",
-            "time": "3:00 PM",
-            "field": "Mazeppa:Field # 2",
-            "team_a": "Winner Game #2",
-            "seed_a": null,
-            "score_a": null,
-            "team_b": "Winner Game #3",
+            "team_b": "Winner Game #2",
             "seed_b": null,
             "score_b": null
           }
@@ -1758,10 +1746,10 @@
             "time": "9:00 AM",
             "field": "Mazeppa:Field # 3",
             "team_a": "",
-            "seed_a": 16,
+            "seed_a": 15,
             "score_a": null,
             "team_b": "",
-            "seed_b": 19,
+            "seed_b": 18,
             "score_b": null
           },
           {
@@ -1770,10 +1758,10 @@
             "time": "11:00 AM",
             "field": "Mazeppa:Field # 3",
             "team_a": "",
-            "seed_a": 17,
+            "seed_a": 16,
             "score_a": null,
             "team_b": "",
-            "seed_b": 18,
+            "seed_b": 17,
             "score_b": null
           },
           {
@@ -1796,10 +1784,10 @@
             "time": "9:00 AM",
             "field": "SP:Field #3",
             "team_a": "",
-            "seed_a": 20,
+            "seed_a": 19,
             "score_a": null,
             "team_b": "",
-            "seed_b": 23,
+            "seed_b": 22,
             "score_b": null
           },
           {
@@ -1808,10 +1796,10 @@
             "time": "9:00 AM",
             "field": "SP:Field #1",
             "team_a": "",
-            "seed_a": 21,
+            "seed_a": 20,
             "score_a": null,
             "team_b": "",
-            "seed_b": 22,
+            "seed_b": 21,
             "score_b": null
           },
           {
@@ -4495,10 +4483,10 @@
           "seed": 2,
           "team": "MARA Machine",
           "location": "Matthews, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 1,
+          "runs_scored": 12,
           "team_page_id": null
         },
         {
@@ -4526,9 +4514,9 @@
           "team": "Ruff Ryders baseball 16u",
           "location": "Union, SC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 12,
+          "runs_scored": 1,
           "team_page_id": null
         },
         {
@@ -4587,10 +4575,10 @@
             "field": "TOB:Field 1",
             "team_a": "Ruff Ryders baseball 16u",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 1,
             "team_b": "MARA Machine",
             "seed_b": null,
-            "score_b": null
+            "score_b": 12
           },
           {
             "game": 5,
@@ -4945,5 +4933,5 @@
   },
   "site_last_updated": "10/22/2026 7:46 AM",
   "tournament_id": 12522,
-  "fetched_at": "2026-10-24T17:00"
+  "fetched_at": "2026-10-24T17:10"
 }
