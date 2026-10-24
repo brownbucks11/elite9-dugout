@@ -514,10 +514,10 @@
           "seed": 8,
           "team": "Carolina Regulators 9u",
           "location": "Stanley, NC",
-          "won": 0,
+          "won": 1,
           "lost": 1,
-          "runs_allowed": 18,
-          "runs_scored": 5,
+          "runs_allowed": 24,
+          "runs_scored": 16,
           "team_page_id": null
         },
         {
@@ -595,9 +595,9 @@
           "team": "LKN Lightning - Ogburn",
           "location": "Huntersville, NC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 10,
-          "runs_scored": 5,
+          "lost": 2,
+          "runs_allowed": 21,
+          "runs_scored": 11,
           "team_page_id": null
         },
         {
@@ -678,10 +678,10 @@
             "field": "Mazeppa:Field # 3",
             "team_a": "Carolina Regulators 9u",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 11,
             "team_b": "LKN Lightning - Ogburn",
             "seed_b": null,
-            "score_b": null
+            "score_b": 6
           },
           {
             "game": 6,
@@ -1057,8 +1057,8 @@
           "location": "Mt Ulla, NC",
           "won": 1,
           "lost": 0,
-          "runs_allowed": 6,
-          "runs_scored": 17,
+          "runs_allowed": 14,
+          "runs_scored": 25,
           "team_page_id": null
         },
         {
@@ -1075,10 +1075,10 @@
           "seed": 6,
           "team": "ZT Knuckleheads",
           "location": "Clover, SC",
-          "won": 0,
-          "lost": 0,
-          "runs_allowed": 9,
-          "runs_scored": 9,
+          "won": 1,
+          "lost": 1,
+          "runs_allowed": 17,
+          "runs_scored": 17,
           "team_page_id": null
         },
         {
@@ -1987,9 +1987,9 @@
           "team": "Dry Pond 2034",
           "location": "Denver, NC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 11,
-          "runs_scored": 6,
+          "lost": 2,
+          "runs_allowed": 16,
+          "runs_scored": 10,
           "team_page_id": null
         },
         {
@@ -2046,10 +2046,10 @@
           "seed": 10,
           "team": "Carolina Hit Stix",
           "location": "EDGEMOOR, SC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
-          "runs_allowed": 6,
-          "runs_scored": 11,
+          "runs_allowed": 10,
+          "runs_scored": 22,
           "team_page_id": null
         },
         {
@@ -2066,10 +2066,10 @@
           "seed": 12,
           "team": "South Charlotte Revolution 11U",
           "location": "Charlotte, NC",
-          "won": 0,
+          "won": 1,
           "lost": 1,
-          "runs_allowed": 10,
-          "runs_scored": 3,
+          "runs_allowed": 14,
+          "runs_scored": 8,
           "team_page_id": null
         },
         {
@@ -2097,9 +2097,9 @@
           "team": "Davidson Force",
           "location": "Davidson, NC",
           "won": 1,
-          "lost": 0,
-          "runs_allowed": 3,
-          "runs_scored": 10,
+          "lost": 1,
+          "runs_allowed": 14,
+          "runs_scored": 14,
           "team_page_id": null
         },
         {
@@ -2220,10 +2220,10 @@
             "field": "Tega Cay:Field 1",
             "team_a": "Dry Pond 2034",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 4,
             "team_b": "South Charlotte Revolution 11U",
             "seed_b": null,
-            "score_b": null
+            "score_b": 5
           },
           {
             "game": 6,
@@ -2232,10 +2232,10 @@
             "field": "Tega Cay:Field 4",
             "team_a": "Davidson Force",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 4,
             "team_b": "Carolina Hit Stix",
             "seed_b": null,
-            "score_b": null
+            "score_b": 11
           },
           {
             "game": 7,
@@ -4755,19 +4755,19 @@
           "team": "Carolina Shorebirds",
           "location": "Lexington, NC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 16,
-          "runs_scored": 4,
+          "lost": 2,
+          "runs_allowed": 24,
+          "runs_scored": 8,
           "team_page_id": null
         },
         {
           "seed": 6,
           "team": "Triad Warriors",
           "location": "Walkertown, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 4,
+          "runs_scored": 8,
           "team_page_id": null
         },
         {
@@ -4812,10 +4812,10 @@
             "field": "Mazeppa:Field # 4",
             "team_a": "Carolina Shorebirds",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 4,
             "team_b": "Triad Warriors",
             "seed_b": null,
-            "score_b": null
+            "score_b": 8
           },
           {
             "game": 3,
@@ -4971,5 +4971,5 @@
   },
   "site_last_updated": "10/22/2026 7:46 AM",
   "tournament_id": 12522,
-  "fetched_at": "2026-10-24T12:26"
+  "fetched_at": "2026-10-24T12:37"
 }
