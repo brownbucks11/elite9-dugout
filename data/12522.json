@@ -1045,10 +1045,10 @@
           "seed": 3,
           "team": "LKN Bolts",
           "location": "Huntersville, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 9,
-          "runs_scored": 9,
+          "runs_allowed": 14,
+          "runs_scored": 20,
           "team_page_id": null
         },
         {
@@ -1086,9 +1086,9 @@
           "team": "Athletes Lab 10U Grey",
           "location": "Maiden, NC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 17,
-          "runs_scored": 6,
+          "lost": 2,
+          "runs_allowed": 28,
+          "runs_scored": 11,
           "team_page_id": null
         },
         {
@@ -1997,9 +1997,9 @@
           "team": "Newport Bombers 11U Janson",
           "location": "Rock Hill, SC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 6,
+          "runs_scored": 2,
           "team_page_id": null
         },
         {
@@ -2116,10 +2116,10 @@
           "seed": 17,
           "team": "11u On Deck O's",
           "location": "Charlotte, NC",
-          "won": 0,
+          "won": 1,
           "lost": 1,
-          "runs_allowed": 11,
-          "runs_scored": 1,
+          "runs_allowed": 13,
+          "runs_scored": 7,
           "team_page_id": null
         },
         {
@@ -2208,10 +2208,10 @@
             "field": "Doby:Doby 2",
             "team_a": "11u On Deck O's",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 6,
             "team_b": "Newport Bombers 11U Janson",
             "seed_b": null,
-            "score_b": null
+            "score_b": 2
           },
           {
             "game": 5,
@@ -2680,9 +2680,9 @@
           "team": "NL Destroyers - 2033",
           "location": "Denver, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 8,
+          "runs_scored": 6,
           "team_page_id": null
         },
         {
@@ -2749,10 +2749,10 @@
           "seed": 12,
           "team": "LKN Bolts",
           "location": "Huntersville, NC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
-          "runs_allowed": 1,
-          "runs_scored": 12,
+          "runs_allowed": 7,
+          "runs_scored": 20,
           "team_page_id": null
         },
         {
@@ -3221,9 +3221,9 @@
           "team": "Athletes lab Reynolds",
           "location": "Hickory, NC",
           "won": 1,
-          "lost": 0,
-          "runs_allowed": 2,
-          "runs_scored": 4,
+          "lost": 1,
+          "runs_allowed": 10,
+          "runs_scored": 11,
           "team_page_id": null
         },
         {
@@ -3250,10 +3250,10 @@
           "seed": 6,
           "team": "River Rats",
           "location": "Lincolnton, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 7,
+          "runs_scored": 8,
           "team_page_id": null
         },
         {
@@ -3557,10 +3557,10 @@
           "seed": 6,
           "team": "Union County-Kraken",
           "location": "Indian trail, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 3,
+          "runs_scored": 14,
           "team_page_id": null
         },
         {
@@ -3638,9 +3638,9 @@
           "team": "South Carolina Aces",
           "location": "Chester, SC",
           "won": 1,
-          "lost": 0,
-          "runs_allowed": 9,
-          "runs_scored": 12,
+          "lost": 1,
+          "runs_allowed": 23,
+          "runs_scored": 15,
           "team_page_id": null
         },
         {
@@ -3757,10 +3757,10 @@
             "field": "MRH:Marvin Ridge MS",
             "team_a": "South Carolina Aces",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 3,
             "team_b": "Union County-Kraken",
             "seed_b": null,
-            "score_b": null
+            "score_b": 14
           },
           {
             "game": 9,
@@ -4971,5 +4971,5 @@
   },
   "site_last_updated": "10/22/2026 7:46 AM",
   "tournament_id": 12522,
-  "fetched_at": "2026-10-24T12:05"
+  "fetched_at": "2026-10-24T12:16"
 }
