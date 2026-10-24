@@ -3,7 +3,7 @@
  "location": "Rock Hill, SC",
  "page_id": 31407,
  "team_url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=31407",
- "built": "Sat Oct 24, 2026 05:42 PM",
+ "built": "Sat Oct 24, 2026 05:52 PM",
  "record": {
   "w": 6,
   "l": 9,
@@ -4016,7 +4016,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-24T17:41",
+    "fetched_at": "2026-10-24T17:52",
     "url": "https://topgunstats.com/whos-playing/12522"
    },
    "next_game": null,
@@ -4128,7 +4128,7 @@
      "team": "Carolina Trash Pandas",
      "location": "Locust, NC",
      "rank": 4,
-     "tiebreak": "runs scored",
+     "tiebreak": "runs allowed",
      "h2h": {
       "Diamond Jaxx": "W",
       "MARA Stingers": "W"
@@ -4151,34 +4151,9 @@
      "ra": 7
     },
     {
-     "team": "Lake Wylie Venom",
-     "location": "Lake Wylie, SC",
-     "rank": 5,
-     "tiebreak": "runs scored",
-     "h2h": {
-      "LumberJacks": "W"
-     },
-     "last": {
-      "opponent": "LumberJacks",
-      "rs": 24,
-      "ra": 7
-     },
-     "pool_w": 1,
-     "pool_l": 0,
-     "pool_t": 0,
-     "pool_rs": 24,
-     "pool_ra": 7,
-     "seed": null,
-     "bracket": null,
-     "won": 1,
-     "lost": 0,
-     "rs": 24,
-     "ra": 7
-    },
-    {
      "team": "Dirtbags Baseball ESB",
      "location": "Lincolnton, NC",
-     "rank": 6,
+     "rank": 5,
      "tiebreak": "runs allowed",
      "h2h": {
       "Carolina Regulators 9u": "W",
@@ -4200,6 +4175,32 @@
      "lost": 0,
      "rs": 29,
      "ra": 11
+    },
+    {
+     "team": "Lake Wylie Venom",
+     "location": "Lake Wylie, SC",
+     "rank": 6,
+     "tiebreak": "runs allowed",
+     "h2h": {
+      "LumberJacks": "W",
+      "Carolina Elevate": "W"
+     },
+     "last": {
+      "opponent": "Carolina Elevate",
+      "rs": 24,
+      "ra": 5
+     },
+     "pool_w": 2,
+     "pool_l": 0,
+     "pool_t": 0,
+     "pool_rs": 48,
+     "pool_ra": 12,
+     "seed": null,
+     "bracket": null,
+     "won": 2,
+     "lost": 0,
+     "rs": 48,
+     "ra": 12
     },
     {
      "team": "Elite 9",
@@ -4360,7 +4361,7 @@
      "team": "LumberJacks",
      "location": "Gaston County, NC",
      "rank": 13,
-     "tiebreak": "runs allowed",
+     "tiebreak": "runs scored",
      "h2h": {
       "Lake Wylie Venom": "L"
      },
@@ -4382,9 +4383,34 @@
      "ra": 24
     },
     {
+     "team": "Carolina Elevate",
+     "location": "Lenoir, NC",
+     "rank": 14,
+     "tiebreak": "runs scored",
+     "h2h": {
+      "Lake Wylie Venom": "L"
+     },
+     "last": {
+      "opponent": "Lake Wylie Venom",
+      "rs": 5,
+      "ra": 24
+     },
+     "pool_w": 0,
+     "pool_l": 1,
+     "pool_t": 0,
+     "pool_rs": 5,
+     "pool_ra": 24,
+     "seed": null,
+     "bracket": null,
+     "won": 0,
+     "lost": 1,
+     "rs": 5,
+     "ra": 24
+    },
+    {
      "team": "Dirtbags Shook",
      "location": "Claremont, NC",
-     "rank": 14,
+     "rank": 15,
      "tiebreak": "runs allowed",
      "h2h": {
       "MARA Stingers": "L",
@@ -4410,7 +4436,7 @@
     {
      "team": "Carolina Regulators 9u",
      "location": "Stanley, NC",
-     "rank": 15,
+     "rank": 16,
      "tiebreak": "runs allowed",
      "h2h": {
       "Dirtbags Baseball ESB": "L",
@@ -4436,7 +4462,7 @@
     {
      "team": "Diamond Jaxx",
      "location": "Pinehurst, NC",
-     "rank": 16,
+     "rank": 17,
      "tiebreak": "runs allowed",
      "h2h": {
       "Carolina Trash Pandas": "L",
@@ -4462,7 +4488,7 @@
     {
      "team": "BOILING SPRINGS BULLDOGS BASEBALL 8u",
      "location": "Boiling Springs, NC",
-     "rank": 17,
+     "rank": 18,
      "tiebreak": "runs allowed",
      "h2h": {
       "Hooligans": "L",
@@ -4484,25 +4510,6 @@
      "lost": 2,
      "rs": 10,
      "ra": 39
-    },
-    {
-     "team": "Carolina Elevate",
-     "location": "Lenoir, NC",
-     "rank": 19,
-     "tiebreak": "coin flip (unresolved)",
-     "h2h": {},
-     "last": null,
-     "pool_w": 0,
-     "pool_l": 0,
-     "pool_t": 0,
-     "pool_rs": 0,
-     "pool_ra": 0,
-     "seed": null,
-     "bracket": null,
-     "won": 0,
-     "lost": 0,
-     "rs": 0,
-     "ra": 0
     }
    ],
    "games": [
@@ -4739,11 +4746,11 @@
      "field": "SP:Field #1",
      "team_a": "Lake Wylie Venom",
      "seed_a": null,
-     "score_a": null,
+     "score_a": 24,
      "from_a": null,
      "team_b": "Carolina Elevate",
      "seed_b": null,
-     "score_b": null,
+     "score_b": 5,
      "from_b": null
     },
     {
@@ -8010,7 +8017,7 @@
      "entered_at": "2026-10-19T08:25:19.373Z",
      "level": "AA"
     },
-    "fetched_at": "2026-10-24T17:41"
+    "fetched_at": "2026-10-24T17:52"
    },
    "tgs": {
     "weather": {
@@ -8155,7 +8162,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-24T17:41",
+    "fetched_at": "2026-10-24T17:52",
     "url": "https://topgunstats.com/whos-playing/12522"
    },
    "name": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
@@ -8397,11 +8404,11 @@
      "field": "SP:Field #1",
      "team_a": "Lake Wylie Venom",
      "seed_a": null,
-     "score_a": null,
+     "score_a": 24,
      "from_a": null,
      "team_b": "Carolina Elevate",
      "seed_b": null,
-     "score_b": null,
+     "score_b": 5,
      "from_b": null
     },
     {
@@ -8793,9 +8800,9 @@
      "team": "Carolina Elevate",
      "location": "Lenoir, NC",
      "won": 0,
-     "lost": 0,
-     "runs_allowed": 0,
-     "runs_scored": 0,
+     "lost": 1,
+     "runs_allowed": 24,
+     "runs_scored": 5,
      "team_page_id": null
     },
     {
@@ -8882,10 +8889,10 @@
      "seed": 18,
      "team": "Lake Wylie Venom",
      "location": "Lake Wylie, SC",
-     "won": 1,
+     "won": 2,
      "lost": 0,
-     "runs_allowed": 7,
-     "runs_scored": 24,
+     "runs_allowed": 12,
+     "runs_scored": 48,
      "team_page_id": null
     }
    ],
@@ -8942,7 +8949,7 @@
     "team": {
      "entered": false
     },
-    "fetched_at": "2026-10-24T17:41"
+    "fetched_at": "2026-10-24T17:52"
    },
    "tgs": {
     "weather": null,
@@ -8996,7 +9003,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-24T17:41",
+    "fetched_at": "2026-10-24T17:52",
     "url": "https://topgunstats.com/whos-playing/12524"
    },
    "name": "Road Runner vs Coyote ring weekend",
@@ -9538,6 +9545,132 @@
    "stats_fetched": null
   },
   {
+   "team": "Lake Wylie Venom",
+   "location": "Lake Wylie, SC",
+   "page_id": 33973,
+   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=33973",
+   "w": 7,
+   "l": 1,
+   "t": 0,
+   "rs": 127,
+   "ra": 48,
+   "diff": 79,
+   "pct": 0.875,
+   "events": 3,
+   "log": [
+    {
+     "date": "2026-09-13",
+     "event_id": 12516,
+     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
+     "section": "Bronze Bracket",
+     "opponent": "ROCO Dirtbagz",
+     "rs": 5,
+     "ra": 13,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-13",
+     "event_id": 12516,
+     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
+     "section": "Bronze Bracket",
+     "opponent": "Concord Athletics -9U",
+     "rs": 14,
+     "ra": 0,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-26",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Pool Play",
+     "opponent": "Red Clay Athletics 9U Darcangelo",
+     "rs": 12,
+     "ra": 11,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-26",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Pool Play",
+     "opponent": "Carolina Trash Pandas",
+     "rs": 14,
+     "ra": 3,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-27",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Silver Bracket",
+     "opponent": "Elite 9",
+     "rs": 17,
+     "ra": 4,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-27",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Silver Bracket",
+     "opponent": "Red Clay Athletics 9U Darcangelo",
+     "rs": 17,
+     "ra": 5,
+     "result": "W"
+    },
+    {
+     "date": "2026-10-24",
+     "event_id": 12522,
+     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
+     "section": "Pool Play",
+     "opponent": "LumberJacks",
+     "rs": 24,
+     "ra": 7,
+     "result": "W"
+    },
+    {
+     "date": "2026-10-24",
+     "event_id": 12522,
+     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
+     "section": "Pool Play",
+     "opponent": "Carolina Elevate",
+     "rs": 24,
+     "ra": 5,
+     "result": "W"
+    }
+   ],
+   "points": 1150,
+   "titles": 1,
+   "finishes": [
+    {
+     "date": "2026-09-12",
+     "name": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
+     "won": 1,
+     "lost": 1,
+     "standing": "3rd (Bronze)",
+     "points": 450
+    },
+    {
+     "date": "2026-09-26",
+     "name": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "won": 4,
+     "lost": 0,
+     "standing": "1st (Silver)",
+     "points": 700
+    },
+    {
+     "date": "2026-10-10",
+     "name": "DOUBLE POINTS PINK ZONE QUALIFIER---ACTIVATE WINTER FREE PAID BERTHS",
+     "won": 0,
+     "lost": 0,
+     "standing": "",
+     "points": 0
+    }
+   ],
+   "season": "08/01/2026 - 10/23/2026",
+   "stats_fetched": "2026-10-23T11:41"
+  },
+  {
    "team": "Carolina Clippers 9U",
    "location": "RICHFIELD, NC",
    "page_id": 33167,
@@ -9678,122 +9811,6 @@
    ],
    "season": "08/01/2026 - 10/23/2026",
    "stats_fetched": "2026-10-23T11:40"
-  },
-  {
-   "team": "Lake Wylie Venom",
-   "location": "Lake Wylie, SC",
-   "page_id": 33973,
-   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=33973",
-   "w": 6,
-   "l": 1,
-   "t": 0,
-   "rs": 103,
-   "ra": 43,
-   "diff": 60,
-   "pct": 0.857,
-   "events": 3,
-   "log": [
-    {
-     "date": "2026-09-13",
-     "event_id": 12516,
-     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
-     "section": "Bronze Bracket",
-     "opponent": "ROCO Dirtbagz",
-     "rs": 5,
-     "ra": 13,
-     "result": "L"
-    },
-    {
-     "date": "2026-09-13",
-     "event_id": 12516,
-     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
-     "section": "Bronze Bracket",
-     "opponent": "Concord Athletics -9U",
-     "rs": 14,
-     "ra": 0,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-26",
-     "event_id": 12518,
-     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "section": "Pool Play",
-     "opponent": "Red Clay Athletics 9U Darcangelo",
-     "rs": 12,
-     "ra": 11,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-26",
-     "event_id": 12518,
-     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "section": "Pool Play",
-     "opponent": "Carolina Trash Pandas",
-     "rs": 14,
-     "ra": 3,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-27",
-     "event_id": 12518,
-     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "section": "Silver Bracket",
-     "opponent": "Elite 9",
-     "rs": 17,
-     "ra": 4,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-27",
-     "event_id": 12518,
-     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "section": "Silver Bracket",
-     "opponent": "Red Clay Athletics 9U Darcangelo",
-     "rs": 17,
-     "ra": 5,
-     "result": "W"
-    },
-    {
-     "date": "2026-10-24",
-     "event_id": 12522,
-     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
-     "section": "Pool Play",
-     "opponent": "LumberJacks",
-     "rs": 24,
-     "ra": 7,
-     "result": "W"
-    }
-   ],
-   "points": 1150,
-   "titles": 1,
-   "finishes": [
-    {
-     "date": "2026-09-12",
-     "name": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
-     "won": 1,
-     "lost": 1,
-     "standing": "3rd (Bronze)",
-     "points": 450
-    },
-    {
-     "date": "2026-09-26",
-     "name": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "won": 4,
-     "lost": 0,
-     "standing": "1st (Silver)",
-     "points": 700
-    },
-    {
-     "date": "2026-10-10",
-     "name": "DOUBLE POINTS PINK ZONE QUALIFIER---ACTIVATE WINTER FREE PAID BERTHS",
-     "won": 0,
-     "lost": 0,
-     "standing": "",
-     "points": 0
-    }
-   ],
-   "season": "08/01/2026 - 10/23/2026",
-   "stats_fetched": "2026-10-23T11:41"
   },
   {
    "team": "Lightning Jacks Riddle",
@@ -15024,97 +15041,6 @@
    "stats_fetched": null
   },
   {
-   "team": "Carolina Elevate",
-   "location": "Lenoir, NC",
-   "page_id": null,
-   "url": null,
-   "w": 1,
-   "l": 5,
-   "t": 0,
-   "rs": 28,
-   "ra": 81,
-   "diff": -53,
-   "pct": 0.167,
-   "events": 2,
-   "log": [
-    {
-     "date": "2026-09-19",
-     "event_id": 12517,
-     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
-     "section": "Pool Play",
-     "opponent": "Hooligans",
-     "rs": 3,
-     "ra": 22,
-     "result": "L"
-    },
-    {
-     "date": "2026-09-19",
-     "event_id": 12517,
-     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
-     "section": "Pool Play",
-     "opponent": "Team 24",
-     "rs": 1,
-     "ra": 18,
-     "result": "L"
-    },
-    {
-     "date": "2026-09-20",
-     "event_id": 12517,
-     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
-     "section": "Silver Bracket",
-     "opponent": "Carolina Clippers 9U",
-     "rs": 2,
-     "ra": 14,
-     "result": "L"
-    },
-    {
-     "date": "2026-09-20",
-     "event_id": 12517,
-     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
-     "section": "Silver Bracket",
-     "opponent": "ELITE BASEBALL EBC 9U",
-     "rs": 4,
-     "ra": 11,
-     "result": "L"
-    },
-    {
-     "date": "2026-10-02",
-     "event_id": 13567,
-     "event": "TOP GUN-USA SPORTS--FRIDAY NIGHT LIGHTS",
-     "section": "Pool Play",
-     "opponent": "LKN Kingdom",
-     "rs": 12,
-     "ra": 4,
-     "result": "W"
-    },
-    {
-     "date": "2026-10-02",
-     "event_id": 13567,
-     "event": "TOP GUN-USA SPORTS--FRIDAY NIGHT LIGHTS",
-     "section": "Gold Bracket",
-     "opponent": "M&M Baseball 9u",
-     "rs": 6,
-     "ra": 12,
-     "result": "L"
-    }
-   ],
-   "points": 0,
-   "titles": 0,
-   "finishes": [
-    {
-     "date": "2026-09-19",
-     "name": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
-     "won": 0,
-     "lost": 4,
-     "standing": "4th (Silver)",
-     "points": 0,
-     "derived": true
-    }
-   ],
-   "season": "",
-   "stats_fetched": null
-  },
-  {
    "team": "ELITE BASEBALL EBC 9U",
    "location": "FOREST CITY, NC",
    "page_id": 38889,
@@ -15287,6 +15213,107 @@
    ],
    "season": "08/01/2026 - 10/23/2026",
    "stats_fetched": "2026-10-23T11:42"
+  },
+  {
+   "team": "Carolina Elevate",
+   "location": "Lenoir, NC",
+   "page_id": null,
+   "url": null,
+   "w": 1,
+   "l": 6,
+   "t": 0,
+   "rs": 33,
+   "ra": 105,
+   "diff": -72,
+   "pct": 0.143,
+   "events": 3,
+   "log": [
+    {
+     "date": "2026-09-19",
+     "event_id": 12517,
+     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
+     "section": "Pool Play",
+     "opponent": "Hooligans",
+     "rs": 3,
+     "ra": 22,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-19",
+     "event_id": 12517,
+     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
+     "section": "Pool Play",
+     "opponent": "Team 24",
+     "rs": 1,
+     "ra": 18,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-20",
+     "event_id": 12517,
+     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
+     "section": "Silver Bracket",
+     "opponent": "Carolina Clippers 9U",
+     "rs": 2,
+     "ra": 14,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-20",
+     "event_id": 12517,
+     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
+     "section": "Silver Bracket",
+     "opponent": "ELITE BASEBALL EBC 9U",
+     "rs": 4,
+     "ra": 11,
+     "result": "L"
+    },
+    {
+     "date": "2026-10-02",
+     "event_id": 13567,
+     "event": "TOP GUN-USA SPORTS--FRIDAY NIGHT LIGHTS",
+     "section": "Pool Play",
+     "opponent": "LKN Kingdom",
+     "rs": 12,
+     "ra": 4,
+     "result": "W"
+    },
+    {
+     "date": "2026-10-02",
+     "event_id": 13567,
+     "event": "TOP GUN-USA SPORTS--FRIDAY NIGHT LIGHTS",
+     "section": "Gold Bracket",
+     "opponent": "M&M Baseball 9u",
+     "rs": 6,
+     "ra": 12,
+     "result": "L"
+    },
+    {
+     "date": "2026-10-24",
+     "event_id": 12522,
+     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
+     "section": "Pool Play",
+     "opponent": "Lake Wylie Venom",
+     "rs": 5,
+     "ra": 24,
+     "result": "L"
+    }
+   ],
+   "points": 0,
+   "titles": 0,
+   "finishes": [
+    {
+     "date": "2026-09-19",
+     "name": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
+     "won": 0,
+     "lost": 4,
+     "standing": "4th (Silver)",
+     "points": 0,
+     "derived": true
+    }
+   ],
+   "season": "",
+   "stats_fetched": null
   },
   {
    "team": "LKN Kingdom",

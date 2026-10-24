@@ -107,10 +107,10 @@
           "seed": 4,
           "team": "LKN Bolts",
           "location": "Huntersville, NC",
-          "won": 0,
+          "won": 1,
           "lost": 1,
-          "runs_allowed": 22,
-          "runs_scored": 18,
+          "runs_allowed": 31,
+          "runs_scored": 28,
           "team_page_id": null
         },
         {
@@ -118,9 +118,9 @@
           "team": "Carolina Smoke 8u",
           "location": "Concord, NC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 14,
-          "runs_scored": 12,
+          "lost": 2,
+          "runs_allowed": 24,
+          "runs_scored": 21,
           "team_page_id": null
         },
         {
@@ -279,10 +279,10 @@
             "field": "Westmoreld:Field 1",
             "team_a": "LKN Bolts",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 10,
             "team_b": "Carolina Smoke 8u",
             "seed_b": null,
-            "score_b": null
+            "score_b": 9
           },
           {
             "game": 10,
@@ -525,9 +525,9 @@
           "team": "Carolina Elevate",
           "location": "Lenoir, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 24,
+          "runs_scored": 5,
           "team_page_id": null
         },
         {
@@ -614,10 +614,10 @@
           "seed": 18,
           "team": "Lake Wylie Venom",
           "location": "Lake Wylie, SC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
-          "runs_allowed": 7,
-          "runs_scored": 24,
+          "runs_allowed": 12,
+          "runs_scored": 48,
           "team_page_id": null
         }
       ],
@@ -798,10 +798,10 @@
             "field": "SP:Field #1",
             "team_a": "Lake Wylie Venom",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 24,
             "team_b": "Carolina Elevate",
             "seed_b": null,
-            "score_b": null
+            "score_b": 5
           },
           {
             "game": 16,
@@ -1025,10 +1025,10 @@
           "seed": 1,
           "team": "Union County Crush",
           "location": "Indian Trail, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 5,
-          "runs_scored": 5,
+          "runs_allowed": 14,
+          "runs_scored": 16,
           "team_page_id": null
         },
         {
@@ -1066,9 +1066,9 @@
           "team": "Pfafftown Raiders",
           "location": "Pfafftown, NC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 7,
-          "runs_scored": 4,
+          "lost": 2,
+          "runs_allowed": 18,
+          "runs_scored": 13,
           "team_page_id": null
         },
         {
@@ -1185,10 +1185,10 @@
           "seed": 10,
           "team": "Rutherford Baseball Academy Team Davis",
           "location": "Rutherfordton, NC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
-          "runs_allowed": 3,
-          "runs_scored": 10,
+          "runs_allowed": 6,
+          "runs_scored": 25,
           "team_page_id": null
         },
         {
@@ -1266,9 +1266,9 @@
           "team": "Yellow Jackets",
           "location": "Bessemer City, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 15,
+          "runs_scored": 3,
           "team_page_id": null
         },
         {
@@ -1499,10 +1499,10 @@
             "field": "SP:Field #3",
             "team_a": "Rutherford Baseball Academy Team Davis",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 15,
             "team_b": "Yellow Jackets",
             "seed_b": null,
-            "score_b": null
+            "score_b": 3
           },
           {
             "game": 16,
@@ -2628,9 +2628,9 @@
           "team": "North Lincoln 33",
           "location": "Denver, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 8,
+          "runs_scored": 4,
           "team_page_id": null
         },
         {
@@ -2747,10 +2747,10 @@
           "seed": 13,
           "team": "East Rowan 12u",
           "location": "Rowan County, NC",
-          "won": 0,
+          "won": 1,
           "lost": 1,
-          "runs_allowed": 14,
-          "runs_scored": 10,
+          "runs_allowed": 18,
+          "runs_scored": 18,
           "team_page_id": null
         },
         {
@@ -3853,10 +3853,10 @@
             "day": "Sun",
             "time": "9:00 AM",
             "field": "SP:Field #2",
-            "team_a": "",
+            "team_a": "Carolina Wolfpack - Royal",
             "seed_a": 4,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Union County-Kraken",
             "seed_b": 5,
             "score_b": null
           },
@@ -3865,10 +3865,10 @@
             "day": "Sun",
             "time": "11:00 AM",
             "field": "SP:Field #2",
-            "team_a": "",
+            "team_a": "Toxic NC",
             "seed_a": 3,
             "score_a": null,
-            "team_b": "",
+            "team_b": "The Sandlot 14u",
             "seed_b": 6,
             "score_b": null
           },
@@ -3880,7 +3880,7 @@
             "team_a": "Winner Game #1",
             "seed_a": null,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Carolina Aces",
             "seed_b": 1,
             "score_b": null
           },
@@ -3892,7 +3892,7 @@
             "team_a": "Winner Game #2",
             "seed_a": null,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Dirtbags Camo",
             "seed_b": 2,
             "score_b": null
           },
@@ -3915,10 +3915,10 @@
             "day": "Sun",
             "time": "8:30 AM",
             "field": "TOB:Field 1",
-            "team_a": "",
+            "team_a": "ELITE BASEBALL 13/14u EBC",
             "seed_a": 10,
             "score_a": null,
-            "team_b": "",
+            "team_b": "South Carolina Aces",
             "seed_b": 11,
             "score_b": null
           },
@@ -3927,10 +3927,10 @@
             "day": "Sun",
             "time": "10:30 AM",
             "field": "TOB:Field 1",
-            "team_a": "",
+            "team_a": "Concord Athletics 14U - Ratliff",
             "seed_a": 9,
             "score_a": null,
-            "team_b": "",
+            "team_b": "NWNC elite navy",
             "seed_b": 12,
             "score_b": null
           },
@@ -3942,7 +3942,7 @@
             "team_a": "Winner Game #1",
             "seed_a": null,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Newport Bombers 14U Ferguson",
             "seed_b": 7,
             "score_b": null
           },
@@ -3954,7 +3954,7 @@
             "team_a": "Winner Game #2",
             "seed_a": null,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Mooresville Biscuits",
             "seed_b": 8,
             "score_b": null
           },
@@ -3977,10 +3977,10 @@
             "day": "Sun",
             "time": "9:00 AM",
             "field": "MRH:Marvin Ridge MS",
-            "team_a": "",
+            "team_a": "Venom Stars",
             "seed_a": 13,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Foothills Elite",
             "seed_b": 16,
             "score_b": null
           },
@@ -3989,10 +3989,10 @@
             "day": "Sun",
             "time": "9:00 AM",
             "field": "MRH:Marvin Ridge HS",
-            "team_a": "",
+            "team_a": "Regulators",
             "seed_a": 14,
             "score_a": null,
-            "team_b": "",
+            "team_b": "SC Tide Abbott",
             "seed_b": 15,
             "score_b": null
           },
@@ -4687,9 +4687,9 @@
           "team": "GATA Baseball",
           "location": "Roanoke, VA",
           "won": 1,
-          "lost": 0,
-          "runs_allowed": 1,
-          "runs_scored": 9,
+          "lost": 1,
+          "runs_allowed": 13,
+          "runs_scored": 10,
           "team_page_id": null
         },
         {
@@ -4746,10 +4746,10 @@
           "seed": 8,
           "team": "Noice Hawk Natty",
           "location": "Lake Wylie, SC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 1,
+          "runs_scored": 12,
           "team_page_id": null
         }
       ],
@@ -4822,10 +4822,10 @@
             "field": "CMHP:CaroMont",
             "team_a": "Noice Hawk Natty",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 12,
             "team_b": "GATA Baseball",
             "seed_b": null,
-            "score_b": null
+            "score_b": 1
           },
           {
             "game": 7,
@@ -4933,5 +4933,5 @@
   },
   "site_last_updated": "10/22/2026 7:46 AM",
   "tournament_id": 12522,
-  "fetched_at": "2026-10-24T17:42"
+  "fetched_at": "2026-10-24T17:52"
 }
