@@ -2799,10 +2799,10 @@
           "seed": 3,
           "team": "Stanly County Crushers 12u",
           "location": "Richfield, NC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
-          "runs_allowed": 1,
-          "runs_scored": 13,
+          "runs_allowed": 4,
+          "runs_scored": 20,
           "team_page_id": null
         },
         {
@@ -2829,10 +2829,10 @@
           "seed": 6,
           "team": "Extreme Performance 2033",
           "location": "Salisbury, NC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
-          "runs_allowed": 6,
-          "runs_scored": 7,
+          "runs_allowed": 12,
+          "runs_scored": 20,
           "team_page_id": null
         },
         {
@@ -2860,9 +2860,9 @@
           "team": "Dirtbags-Brookshire 12U",
           "location": "Taylorsville, NC",
           "won": 1,
-          "lost": 0,
-          "runs_allowed": 6,
-          "runs_scored": 18,
+          "lost": 1,
+          "runs_allowed": 13,
+          "runs_scored": 21,
           "team_page_id": null
         },
         {
@@ -2870,9 +2870,9 @@
           "team": "North Iredell Nitro Baseball Harrelson",
           "location": "Statesville, NC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 10,
-          "runs_scored": 6,
+          "lost": 2,
+          "runs_allowed": 23,
+          "runs_scored": 12,
           "team_page_id": null
         },
         {
@@ -2987,10 +2987,10 @@
             "field": "Dallas:Field # 1",
             "team_a": "Dirtbags-Brookshire 12U",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 3,
             "team_b": "Stanly County Crushers 12u",
             "seed_b": null,
-            "score_b": null
+            "score_b": 7
           },
           {
             "game": 8,
@@ -2999,10 +2999,10 @@
             "field": "Dallas:Field # 3",
             "team_a": "North Iredell Nitro Baseball Harrelson",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 6,
             "team_b": "Extreme Performance 2033",
             "seed_b": null,
-            "score_b": null
+            "score_b": 13
           },
           {
             "game": 9,
@@ -4621,39 +4621,13 @@
           {
             "game": 1,
             "day": "Sun",
-            "time": "1:00 PM",
-            "field": "BFF:Field 1",
-            "team_a": "",
-            "seed_a": 2,
-            "score_a": null,
-            "team_b": "",
-            "seed_b": 3,
-            "score_b": null
-          },
-          {
-            "game": 2,
-            "day": "Sun",
-            "time": "3:00 PM",
-            "field": "BFF:Field 1",
-            "team_a": "Winner Game #1",
-            "seed_a": null,
-            "score_a": null,
-            "team_b": "",
-            "seed_b": 1,
-            "score_b": null
-          }
-        ],
-        "Silver Bracket": [
-          {
-            "game": 1,
-            "day": "Sun",
             "time": "9:00 AM",
             "field": "BFF:Field 1",
             "team_a": "",
-            "seed_a": 5,
+            "seed_a": 4,
             "score_a": null,
             "team_b": "",
-            "seed_b": 6,
+            "seed_b": 5,
             "score_b": null
           },
           {
@@ -4661,11 +4635,47 @@
             "day": "Sun",
             "time": "11:00 AM",
             "field": "BFF:Field 1",
+            "team_a": "",
+            "seed_a": 3,
+            "score_a": null,
+            "team_b": "",
+            "seed_b": 6,
+            "score_b": null
+          },
+          {
+            "game": 3,
+            "day": "Sun",
+            "time": "1:00 PM",
+            "field": "BFF:Field 1",
             "team_a": "Winner Game #1",
             "seed_a": null,
             "score_a": null,
             "team_b": "",
-            "seed_b": 4,
+            "seed_b": 1,
+            "score_b": null
+          },
+          {
+            "game": 4,
+            "day": "Sun",
+            "time": "3:00 PM",
+            "field": "BFF:Field 1",
+            "team_a": "Winner Game #2",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "",
+            "seed_b": 2,
+            "score_b": null
+          },
+          {
+            "game": 5,
+            "day": "Sun",
+            "time": "5:00 PM",
+            "field": "BFF:Field 1",
+            "team_a": "Winner Game #3",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Winner Game #4",
+            "seed_b": null,
             "score_b": null
           }
         ]
@@ -4935,5 +4945,5 @@
   },
   "site_last_updated": "10/22/2026 7:46 AM",
   "tournament_id": 12522,
-  "fetched_at": "2026-10-24T15:26"
+  "fetched_at": "2026-10-24T15:36"
 }
