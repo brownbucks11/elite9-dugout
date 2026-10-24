@@ -1,5 +1,5 @@
 # Elite 9 - Top Gun schedule
-_Updated Sat Oct 24, 2026 09:38 AM_
+_Updated Sat Oct 24, 2026 09:49 AM_
 
 ## SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND
 September 26 - 27 in Greater Charlotte Area, NC  
@@ -181,7 +181,7 @@ Tournament 12522 - [schedule page](https://playtopgunsports.com/GameTimesResults
 | # | Team | From | W-L | RS | RA |
 |---|---|---|---|---|---|
 | 1 | NL Destroyers 2036 | Denver, NC | 0-0 | 0 | 0 |
-| 2 | Hooligans | Mount Holly, NC | 0-0 | 0 | 0 |
+| 2 | Hooligans | Mount Holly, NC | 1-0 | 17 | 1 |
 | 3 | LumberJacks | Gaston County, NC | 0-0 | 0 | 0 |
 | 4 | Carolina Trash Pandas | Locust, NC | 0-0 | 0 | 0 |
 | 5 | Red Clay Athletics 9U Darcangelo | Charlotte, NC | 0-0 | 0 | 0 |
@@ -196,7 +196,7 @@ Tournament 12522 - [schedule page](https://playtopgunsports.com/GameTimesResults
 | 14 | MARA Stingers | Matthews, NC | 0-0 | 0 | 0 |
 | 15 | Athletes Lab 9U Navy- Stewart | Maiden, NC | 0-0 | 0 | 0 |
 | 16 | LKN Lightning - Ogburn | Huntersville, NC | 0-0 | 0 | 0 |
-| 17 | BOILING SPRINGS BULLDOGS BASEBALL 8u | Boiling Springs, NC | 0-0 | 0 | 0 |
+| 17 | BOILING SPRINGS BULLDOGS BASEBALL 8u | Boiling Springs, NC | 0-1 | 1 | 17 |
 | 18 | Lake Wylie Venom | Lake Wylie, SC | 0-0 | 0 | 0 |
 
 **Gold Bracket**

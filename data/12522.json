@@ -454,10 +454,10 @@
           "seed": 2,
           "team": "Hooligans",
           "location": "Mount Holly, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 1,
+          "runs_scored": 17,
           "team_page_id": null
         },
         {
@@ -605,9 +605,9 @@
           "team": "BOILING SPRINGS BULLDOGS BASEBALL 8u",
           "location": "Boiling Springs, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 17,
+          "runs_scored": 1,
           "team_page_id": null
         },
         {
@@ -654,10 +654,10 @@
             "field": "SP:Field #1",
             "team_a": "BOILING SPRINGS BULLDOGS BASEBALL 8u",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 1,
             "team_b": "Hooligans",
             "seed_b": null,
-            "score_b": null
+            "score_b": 17
           },
           {
             "game": 4,
@@ -4971,5 +4971,5 @@
   },
   "site_last_updated": "10/22/2026 7:46 AM",
   "tournament_id": 12522,
-  "fetched_at": "2026-10-24T09:38"
+  "fetched_at": "2026-10-24T09:49"
 }
