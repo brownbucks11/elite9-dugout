@@ -1096,8 +1096,8 @@
           "team": "Newport Bombers 10U Yerdon",
           "location": "Rock Hill, SC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 16,
+          "lost": 2,
+          "runs_allowed": 28,
           "runs_scored": 6,
           "team_page_id": null
         },
@@ -1195,10 +1195,10 @@
           "seed": 11,
           "team": "PeeDee Mudcats",
           "location": "Wadesboro, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
           "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_scored": 12,
           "team_page_id": null
         },
         {
@@ -1403,10 +1403,10 @@
             "field": "Doby:Doby 3",
             "team_a": "Newport Bombers 10U Yerdon",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 0,
             "team_b": "PeeDee Mudcats",
             "seed_b": null,
-            "score_b": null
+            "score_b": 12
           },
           {
             "game": 8,
@@ -4488,9 +4488,9 @@
           "team": "Waxhaw Heat",
           "location": "Waxhaw, NC",
           "won": 1,
-          "lost": 0,
-          "runs_allowed": 4,
-          "runs_scored": 8,
+          "lost": 1,
+          "runs_allowed": 12,
+          "runs_scored": 11,
           "team_page_id": null
         },
         {
@@ -4517,10 +4517,10 @@
           "seed": 4,
           "team": "Triad Cardinals 16u",
           "location": "Stokesdale, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 3,
+          "runs_scored": 8,
           "team_page_id": null
         },
         {
@@ -4575,10 +4575,10 @@
             "field": "TOB:Field 1",
             "team_a": "Waxhaw Heat",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 3,
             "team_b": "Triad Cardinals 16u",
             "seed_b": null,
-            "score_b": null
+            "score_b": 8
           },
           {
             "game": 3,
@@ -4971,5 +4971,5 @@
   },
   "site_last_updated": "10/22/2026 7:46 AM",
   "tournament_id": 12522,
-  "fetched_at": "2026-10-24T13:08"
+  "fetched_at": "2026-10-24T13:19"
 }
