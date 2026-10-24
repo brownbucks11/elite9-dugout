@@ -1,5 +1,5 @@
 # Elite 9 - Top Gun schedule
-_Updated Sat Oct 24, 2026 07:06 PM_
+_Updated Sat Oct 24, 2026 07:16 PM_
 
 ## SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND
 September 26 - 27 in Greater Charlotte Area, NC  
@@ -180,7 +180,7 @@ Tournament 12522 - [schedule page](https://playtopgunsports.com/GameTimesResults
 
 | # | Team | From | W-L | RS | RA |
 |---|---|---|---|---|---|
-| 1 | NL Destroyers 2036 | Denver, NC | 1-0 | 13 | 2 |
+| 1 | NL Destroyers 2036 | Denver, NC | 2-0 | 23 | 3 |
 | 2 | Hooligans | Mount Holly, NC | 1-1 | 21 | 9 |
 | 3 | LumberJacks | Gaston County, NC | 0-1 | 7 | 24 |
 | 4 | Carolina Trash Pandas | Locust, NC | 2-0 | 26 | 7 |
@@ -192,7 +192,7 @@ Tournament 12522 - [schedule page](https://playtopgunsports.com/GameTimesResults
 | 10 | Dirtbags Shook | Claremont, NC | 0-2 | 3 | 25 |
 | 11 | ZT Knuckleheads | Clover, SC | 1-0 | 17 | 1 |
 | 12 | Diamond Jaxx | Pinehurst, NC | 0-2 | 3 | 31 |
-| 13 | Concord Athletics -9U | Concord, NC | 0-1 | 3 | 12 |
+| 13 | Concord Athletics -9U | Concord, NC | 0-2 | 4 | 22 |
 | 14 | MARA Stingers | Matthews, NC | 1-1 | 17 | 13 |
 | 15 | Athletes Lab 9U Navy- Stewart | Maiden, NC | 1-0 | 12 | 3 |
 | 16 | LKN Lightning - Ogburn | Huntersville, NC | 1-1 | 16 | 16 |
