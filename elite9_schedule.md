@@ -1,5 +1,5 @@
 # Elite 9 - Top Gun schedule
-_Updated Sun Oct 25, 2026 12:02 PM_
+_Updated Sun Oct 25, 2026 12:12 PM_
 
 ## SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND
 September 26 - 27 in Greater Charlotte Area, NC  
@@ -184,7 +184,7 @@ Tournament 12522 - [schedule page](https://playtopgunsports.com/GameTimesResults
 | 1 | NL Destroyers 2036 | Denver, NC | 2-0 | 23 | 3 |
 | 2 | Hooligans | Mount Holly, NC | 1-1 | 21 | 9 |
 | 3 | LumberJacks | Gaston County, NC | 1-1 | 23 | 26 |
-| 4 | Carolina Trash Pandas | Locust, NC | 2-0 | 26 | 7 |
+| 4 | Carolina Trash Pandas | Locust, NC | 3-0 | 26 | 7 |
 | 5 | Red Clay Athletics 9U Darcangelo | Charlotte, NC | 2-1 | 16 | 16 |
 | 6 | Dirtbags Baseball ESB | Lincolnton, NC | 3-0 | 29 | 11 |
 | 7 | Elite 9 **<--** | Rock Hill, SC | 2-0 | 30 | 13 |
@@ -195,7 +195,7 @@ Tournament 12522 - [schedule page](https://playtopgunsports.com/GameTimesResults
 | 12 | Diamond Jaxx | Pinehurst, NC | 0-2 | 3 | 31 |
 | 13 | Concord Athletics -9U | Concord, NC | 0-2 | 4 | 22 |
 | 14 | MARA Stingers | Matthews, NC | 1-2 | 17 | 13 |
-| 15 | Athletes Lab 9U Navy- Stewart | Maiden, NC | 2-0 | 18 | 7 |
+| 15 | Athletes Lab 9U Navy- Stewart | Maiden, NC | 2-1 | 18 | 7 |
 | 16 | LKN Lightning - Ogburn | Huntersville, NC | 2-1 | 16 | 16 |
 | 17 | BOILING SPRINGS BULLDOGS BASEBALL 8u | Boiling Springs, NC | 0-2 | 10 | 39 |
 | 18 | Lake Wylie Venom | Lake Wylie, SC | 2-1 | 48 | 12 |
@@ -205,9 +205,9 @@ Tournament 12522 - [schedule page](https://playtopgunsports.com/GameTimesResults
 | G | When | Field | Team A | Team B |
 |---|---|---|---|---|
 | 1 | Sun 9:00 AM | Bradford:Field # 1 | (#4) Dirtbags Baseball ESB 9 | (#5) Lake Wylie Venom 1 |
-| 2 | Sun 11:00 AM | Bradford:Field # 1 | (#2) Carolina Trash Pandas | (#3) Athletes Lab 9U Navy- Stewart |
+| 2 | Sun 11:00 AM | Bradford:Field # 1 | (#2) Carolina Trash Pandas 12 | (#3) Athletes Lab 9U Navy- Stewart 4 |
 | 3 | Sun 1:00 PM | Bradford:Field # 1 | Winner Game #1 Dirtbags Baseball ESB | (#1) NL Destroyers 2036 |
-| 4 | Sun 3:00 PM | Bradford:Field # 1 | Winner Game #2 | Winner Game #3 |
+| 4 | Sun 3:00 PM | Bradford:Field # 1 | Winner Game #2 Carolina Trash Pandas | Winner Game #3 |
 
 **Silver Bracket**
 

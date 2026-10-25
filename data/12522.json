@@ -474,7 +474,7 @@
           "seed": 4,
           "team": "Carolina Trash Pandas",
           "location": "Locust, NC",
-          "won": 2,
+          "won": 3,
           "lost": 0,
           "runs_allowed": 7,
           "runs_scored": 26,
@@ -585,7 +585,7 @@
           "team": "Athletes Lab 9U Navy- Stewart",
           "location": "Maiden, NC",
           "won": 2,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 7,
           "runs_scored": 18,
           "team_page_id": null
@@ -860,10 +860,10 @@
             "field": "Bradford:Field # 1",
             "team_a": "Carolina Trash Pandas",
             "seed_a": 2,
-            "score_a": null,
+            "score_a": 12,
             "team_b": "Athletes Lab 9U Navy- Stewart",
             "seed_b": 3,
-            "score_b": null
+            "score_b": 4
           },
           {
             "game": 3,
@@ -882,7 +882,7 @@
             "day": "Sun",
             "time": "3:00 PM",
             "field": "Bradford:Field # 1",
-            "team_a": "Winner Game #2",
+            "team_a": "Winner Game #2 Carolina Trash Pandas",
             "seed_a": null,
             "score_a": null,
             "team_b": "Winner Game #3",
@@ -4933,5 +4933,5 @@
   },
   "site_last_updated": "10/22/2026 7:46 AM",
   "tournament_id": 12522,
-  "fetched_at": "2026-10-25T12:02"
+  "fetched_at": "2026-10-25T12:12"
 }
