@@ -4707,7 +4707,7 @@
           "team": "WNC Phantom Elite",
           "location": "Taylorsville, NC",
           "won": 1,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 9,
           "runs_scored": 20,
           "team_page_id": null
@@ -4746,7 +4746,7 @@
           "seed": 8,
           "team": "Noice Hawk Natty",
           "location": "Lake Wylie, SC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
           "runs_allowed": 4,
           "runs_scored": 15,
@@ -4872,10 +4872,10 @@
             "field": "CA:Field #1",
             "team_a": "Noice Hawk Natty",
             "seed_a": 2,
-            "score_a": null,
+            "score_a": 6,
             "team_b": "WNC Phantom Elite",
             "seed_b": 3,
-            "score_b": null
+            "score_b": 4
           },
           {
             "game": 3,
@@ -4885,7 +4885,7 @@
             "team_a": "Winner Game #1 Triad Warriors",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Winner Game #2",
+            "team_b": "Winner Game #2 Noice Hawk Natty",
             "seed_b": null,
             "score_b": null
           }
@@ -4933,5 +4933,5 @@
   },
   "site_last_updated": "10/22/2026 7:46 AM",
   "tournament_id": 12522,
-  "fetched_at": "2026-10-25T13:27"
+  "fetched_at": "2026-10-25T13:37"
 }
