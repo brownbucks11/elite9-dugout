@@ -107,7 +107,7 @@
           "seed": 4,
           "team": "LKN Bolts",
           "location": "Huntersville, NC",
-          "won": 1,
+          "won": 2,
           "lost": 2,
           "runs_allowed": 31,
           "runs_scored": 28,
@@ -148,7 +148,7 @@
           "team": "Tega Cay Titans 8u",
           "location": "Fort Mill, SC",
           "won": 1,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 24,
           "runs_scored": 19,
           "team_page_id": null
@@ -353,10 +353,10 @@
             "field": "Westmoreld:Field 1",
             "team_a": "Loser Game #1 Tega Cay Titans 8u",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 17,
             "team_b": "Loser Game #2 LKN Bolts",
             "seed_b": null,
-            "score_b": null
+            "score_b": 19
           },
           {
             "game": 6,
@@ -4483,7 +4483,7 @@
           "seed": 2,
           "team": "MARA Machine",
           "location": "Matthews, NC",
-          "won": 2,
+          "won": 3,
           "lost": 0,
           "runs_allowed": 3,
           "runs_scored": 19,
@@ -4524,7 +4524,7 @@
           "team": "Regulators",
           "location": "Indian Trail, NC",
           "won": 1,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 14,
           "runs_scored": 3,
           "team_page_id": null
@@ -4637,10 +4637,10 @@
             "field": "BFF:Field 1",
             "team_a": "Winner Game #1 Regulators",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 4,
             "team_b": "MARA Machine",
             "seed_b": 1,
-            "score_b": null
+            "score_b": 6
           },
           {
             "game": 4,
@@ -4659,7 +4659,7 @@
             "day": "Sun",
             "time": "5:00 PM",
             "field": "BFF:Field 1",
-            "team_a": "Winner Game #3",
+            "team_a": "Winner Game #3 MARA Machine",
             "seed_a": null,
             "score_a": null,
             "team_b": "Winner Game #4",
@@ -4933,5 +4933,5 @@
   },
   "site_last_updated": "10/22/2026 7:46 AM",
   "tournament_id": 12522,
-  "fetched_at": "2026-10-25T15:22"
+  "fetched_at": "2026-10-25T15:33"
 }
