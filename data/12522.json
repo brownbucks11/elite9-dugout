@@ -2798,9 +2798,9 @@
           "team": "Carolina Locos-Black",
           "location": "Waxhaw, NC",
           "won": 1,
-          "lost": 0,
-          "runs_allowed": 9,
-          "runs_scored": 10,
+          "lost": 1,
+          "runs_allowed": 24,
+          "runs_scored": 13,
           "team_page_id": null
         },
         {
@@ -2877,10 +2877,10 @@
           "seed": 12,
           "team": "Park Sharon Nationals",
           "location": "Charlotte, NC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
-          "runs_allowed": 2,
-          "runs_scored": 14,
+          "runs_allowed": 5,
+          "runs_scored": 29,
           "team_page_id": null
         },
         {
@@ -3035,10 +3035,10 @@
             "field": "Dallas:Field # 1",
             "team_a": "Park Sharon Nationals",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 15,
             "team_b": "Carolina Locos-Black",
             "seed_b": null,
-            "score_b": null
+            "score_b": 3
           },
           {
             "game": 13,
@@ -3290,8 +3290,8 @@
           "location": "Denver, NC",
           "won": 1,
           "lost": 0,
-          "runs_allowed": 10,
-          "runs_scored": 12,
+          "runs_allowed": 14,
+          "runs_scored": 16,
           "team_page_id": null
         },
         {
@@ -3330,8 +3330,8 @@
           "location": "Cornelius, NC",
           "won": 0,
           "lost": 1,
-          "runs_allowed": 9,
-          "runs_scored": 4,
+          "runs_allowed": 13,
+          "runs_scored": 8,
           "team_page_id": null
         }
       ],
@@ -3416,10 +3416,10 @@
             "field": "SP:Field #2",
             "team_a": "Armor Elite",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 4,
             "team_b": "SBA Lake Norman Thunder",
             "seed_b": null,
-            "score_b": null
+            "score_b": 4
           }
         ],
         "Gold Bracket": [
@@ -3428,10 +3428,10 @@
             "day": "Sun",
             "time": "1:00 PM",
             "field": "Moss:Moss Field",
-            "team_a": "",
+            "team_a": "Fury Baseball",
             "seed_a": 1,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Tega Cay Titans",
             "seed_b": 4,
             "score_b": null
           },
@@ -3440,10 +3440,10 @@
             "day": "Sun",
             "time": "3:00 PM",
             "field": "Moss:Moss Field",
-            "team_a": "",
+            "team_a": "Red Clay Athletics 13U Mullen",
             "seed_a": 2,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Armor Elite",
             "seed_b": 3,
             "score_b": null
           },
@@ -3466,10 +3466,10 @@
             "day": "Sun",
             "time": "9:00 AM",
             "field": "Moss:Moss Field",
-            "team_a": "",
+            "team_a": "GF Sandlot 12U Church",
             "seed_a": 6,
             "score_a": null,
-            "team_b": "",
+            "team_b": "SC Tide - Daly",
             "seed_b": 7,
             "score_b": null
           },
@@ -3481,7 +3481,7 @@
             "team_a": "Winner Game #1",
             "seed_a": null,
             "score_a": null,
-            "team_b": "",
+            "team_b": "SBA Lake Norman Thunder",
             "seed_b": 5,
             "score_b": null
           }
@@ -4933,5 +4933,5 @@
   },
   "site_last_updated": "10/22/2026 7:46 AM",
   "tournament_id": 12522,
-  "fetched_at": "2026-10-24T21:44"
+  "fetched_at": "2026-10-24T21:54"
 }
