@@ -1,5 +1,5 @@
 # Elite 9 - Top Gun schedule
-_Updated Sun Oct 25, 2026 04:56 PM_
+_Updated Sun Oct 25, 2026 05:07 PM_
 
 ## SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND
 September 26 - 27 in Greater Charlotte Area, NC  
@@ -182,10 +182,10 @@ Tournament 12522 - [schedule page](https://playtopgunsports.com/GameTimesResults
 | # | Team | From | W-L | RS | RA |
 |---|---|---|---|---|---|
 | 1 | NL Destroyers 2036 | Denver, NC | 2-1 | 23 | 3 |
-| 2 | Hooligans | Mount Holly, NC | 2-1 | 21 | 9 |
+| 2 | Hooligans | Mount Holly, NC | 3-1 | 21 | 9 |
 | 3 | LumberJacks | Gaston County, NC | 1-2 | 23 | 26 |
 | 4 | Carolina Trash Pandas | Locust, NC | 4-0 | 26 | 7 |
-| 5 | Red Clay Athletics 9U Darcangelo | Charlotte, NC | 3-1 | 16 | 16 |
+| 5 | Red Clay Athletics 9U Darcangelo | Charlotte, NC | 3-2 | 16 | 16 |
 | 6 | Dirtbags Baseball ESB | Lincolnton, NC | 4-1 | 29 | 11 |
 | 7 | Elite 9 **<--** | Rock Hill, SC | 2-1 | 30 | 13 |
 | 8 | Carolina Regulators 9u | Stanley, NC | 2-2 | 11 | 29 |
@@ -216,7 +216,7 @@ Tournament 12522 - [schedule page](https://playtopgunsports.com/GameTimesResults
 | 1 | Sun 9:00 AM | Bradford:Field # 2 | (#9) MARA Stingers 11 | (#10) Red Clay Athletics 9U Darcangelo 17 |
 | 2 | Sun 11:00 AM | Bradford:Field # 2 | (#7) ZT Knuckleheads 3 | (#8) Hooligans 9 |
 | 3 | Sun 1:00 PM | Bradford:Field # 2 | Winner Game #1 Red Clay Athletics 9U Darcangelo 19 | (#6) Elite 9 6 |
-| 4 | Sun 3:00 PM | Bradford:Field # 2 | Winner Game #2 Hooligans | Winner Game #3 Red Clay Athletics 9U Darcangelo |
+| 4 | Sun 3:00 PM | Bradford:Field # 2 | Winner Game #2 Hooligans 14 | Winner Game #3 Red Clay Athletics 9U Darcangelo 5 |
 
 **Bronze Bracket**
 
