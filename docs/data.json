@@ -3,7 +3,7 @@
  "location": "Rock Hill, SC",
  "page_id": 31407,
  "team_url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=31407",
- "built": "Sun Oct 25, 2026 03:43 PM",
+ "built": "Sun Oct 25, 2026 03:54 PM",
  "record": {
   "w": 6,
   "l": 10,
@@ -4031,7 +4031,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-25T15:43",
+    "fetched_at": "2026-10-25T15:53",
     "url": "https://topgunstats.com/whos-playing/12522"
    },
    "next_game": null,
@@ -4119,7 +4119,7 @@
      "pool_ra": 7,
      "seed": 2,
      "bracket": "Gold Bracket",
-     "won": 3,
+     "won": 4,
      "lost": 0,
      "rs": 26,
      "ra": 7
@@ -4172,7 +4172,7 @@
      "seed": 4,
      "bracket": "Gold Bracket",
      "won": 4,
-     "lost": 0,
+     "lost": 1,
      "rs": 29,
      "ra": 11
     },
@@ -4890,14 +4890,14 @@
      "field": "Bradford:Field # 1",
      "team_a": "Carolina Trash Pandas",
      "seed_a": null,
-     "score_a": null,
+     "score_a": 11,
      "from_a": {
       "type": "winner",
       "game": 2
      },
      "team_b": "Dirtbags Baseball ESB",
      "seed_b": null,
-     "score_b": null,
+     "score_b": 3,
      "from_b": {
       "type": "winner",
       "game": 3
@@ -8054,7 +8054,7 @@
      "entered_at": "2026-10-19T08:25:19.373Z",
      "level": "AA"
     },
-    "fetched_at": "2026-10-25T15:43"
+    "fetched_at": "2026-10-25T15:53"
    },
    "tgs": {
     "weather": {
@@ -8199,7 +8199,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-25T15:43",
+    "fetched_at": "2026-10-25T15:53",
     "url": "https://topgunstats.com/whos-playing/12522"
    },
    "name": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
@@ -8556,14 +8556,14 @@
      "field": "Bradford:Field # 1",
      "team_a": "Carolina Trash Pandas",
      "seed_a": null,
-     "score_a": null,
+     "score_a": 11,
      "from_a": {
       "type": "winner",
       "game": 2
      },
      "team_b": "Dirtbags Baseball ESB",
      "seed_b": null,
-     "score_b": null,
+     "score_b": 3,
      "from_b": {
       "type": "winner",
       "game": 3
@@ -8786,7 +8786,7 @@
      "seed": 4,
      "team": "Carolina Trash Pandas",
      "location": "Locust, NC",
-     "won": 3,
+     "won": 4,
      "lost": 0,
      "runs_allowed": 7,
      "runs_scored": 26,
@@ -8807,7 +8807,7 @@
      "team": "Dirtbags Baseball ESB",
      "location": "Lincolnton, NC",
      "won": 4,
-     "lost": 0,
+     "lost": 1,
      "runs_allowed": 11,
      "runs_scored": 29,
      "team_page_id": null
@@ -9018,7 +9018,7 @@
     "team": {
      "entered": false
     },
-    "fetched_at": "2026-10-25T15:43"
+    "fetched_at": "2026-10-25T15:53"
    },
    "tgs": {
     "weather": null,
@@ -9072,7 +9072,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-25T15:43",
+    "fetched_at": "2026-10-25T15:53",
     "url": "https://topgunstats.com/whos-playing/12524"
    },
    "name": "Road Runner vs Coyote ring weekend",
@@ -9782,240 +9782,6 @@
    "stats_fetched": "2026-10-23T11:39"
   },
   {
-   "team": "Dirtbags Baseball ESB",
-   "location": "Lincolnton, NC",
-   "page_id": 37877,
-   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=37877",
-   "w": 14,
-   "l": 4,
-   "t": 0,
-   "rs": 184,
-   "ra": 106,
-   "diff": 78,
-   "pct": 0.778,
-   "events": 5,
-   "log": [
-    {
-     "date": "2026-08-22",
-     "event_id": 12513,
-     "event": "SUMMER MELT DOWN--TRUCKER HAT CLASSIC--OVER 20,000 HAT HAVE BE AWARDED",
-     "section": "Pool Play",
-     "opponent": "Carolina Royals 9Ublu",
-     "rs": 8,
-     "ra": 7,
-     "result": "W"
-    },
-    {
-     "date": "2026-08-22",
-     "event_id": 12513,
-     "event": "SUMMER MELT DOWN--TRUCKER HAT CLASSIC--OVER 20,000 HAT HAVE BE AWARDED",
-     "section": "Pool Play",
-     "opponent": "Mission 9u Scout",
-     "rs": 10,
-     "ra": 4,
-     "result": "W"
-    },
-    {
-     "date": "2026-08-23",
-     "event_id": 12513,
-     "event": "SUMMER MELT DOWN--TRUCKER HAT CLASSIC--OVER 20,000 HAT HAVE BE AWARDED",
-     "section": "Gold Bracket",
-     "opponent": "NC Made 9U Blue",
-     "rs": 5,
-     "ra": 17,
-     "result": "L"
-    },
-    {
-     "date": "2026-08-23",
-     "event_id": 12513,
-     "event": "SUMMER MELT DOWN--TRUCKER HAT CLASSIC--OVER 20,000 HAT HAVE BE AWARDED",
-     "section": "Gold Bracket",
-     "opponent": "NL Destroyers 2036",
-     "rs": 13,
-     "ra": 14,
-     "result": "L"
-    },
-    {
-     "date": "2026-09-12",
-     "event_id": 12516,
-     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
-     "section": "Pool Play",
-     "opponent": "NL Destroyers 2036",
-     "rs": 9,
-     "ra": 8,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-12",
-     "event_id": 12516,
-     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
-     "section": "Pool Play",
-     "opponent": "Concord Athletics -9U",
-     "rs": 14,
-     "ra": 0,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-13",
-     "event_id": 12516,
-     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
-     "section": "Gold Bracket",
-     "opponent": "KnuckleheadsCBC",
-     "rs": 9,
-     "ra": 2,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-13",
-     "event_id": 12516,
-     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
-     "section": "Gold Bracket",
-     "opponent": "LKN Bolts",
-     "rs": 13,
-     "ra": 5,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-26",
-     "event_id": 12518,
-     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "section": "Pool Play",
-     "opponent": "ROCO Dirtbagz",
-     "rs": 1,
-     "ra": 13,
-     "result": "L"
-    },
-    {
-     "date": "2026-09-26",
-     "event_id": 12518,
-     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "section": "Pool Play",
-     "opponent": "Rock Hill 9U Baseball",
-     "rs": 13,
-     "ra": 2,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-27",
-     "event_id": 12518,
-     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "section": "Bronze Bracket",
-     "opponent": "Team 24",
-     "rs": 15,
-     "ra": 2,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-27",
-     "event_id": 12518,
-     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "section": "Bronze Bracket",
-     "opponent": "Carolina Trash Pandas",
-     "rs": 8,
-     "ra": 7,
-     "result": "W"
-    },
-    {
-     "date": "2026-10-02",
-     "event_id": 13567,
-     "event": "TOP GUN-USA SPORTS--FRIDAY NIGHT LIGHTS",
-     "section": "Pool Play",
-     "opponent": "M&M Baseball 9u",
-     "rs": 5,
-     "ra": 10,
-     "result": "L"
-    },
-    {
-     "date": "2026-10-02",
-     "event_id": 13567,
-     "event": "TOP GUN-USA SPORTS--FRIDAY NIGHT LIGHTS",
-     "section": "Gold Bracket",
-     "opponent": "LKN Kingdom",
-     "rs": 14,
-     "ra": 2,
-     "result": "W"
-    },
-    {
-     "date": "2026-10-24",
-     "event_id": 12522,
-     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
-     "section": "Pool Play",
-     "opponent": "Carolina Regulators 9u",
-     "rs": 18,
-     "ra": 5,
-     "result": "W"
-    },
-    {
-     "date": "2026-10-24",
-     "event_id": 12522,
-     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
-     "section": "Pool Play",
-     "opponent": "Red Clay Athletics 9U Darcangelo",
-     "rs": 11,
-     "ra": 6,
-     "result": "W"
-    },
-    {
-     "date": "2026-10-25",
-     "event_id": 12522,
-     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
-     "section": "Gold Bracket",
-     "opponent": "Lake Wylie Venom",
-     "rs": 9,
-     "ra": 1,
-     "result": "W"
-    },
-    {
-     "date": "2026-10-25",
-     "event_id": 12522,
-     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
-     "section": "Gold Bracket",
-     "opponent": "NL Destroyers 2036",
-     "rs": 9,
-     "ra": 1,
-     "result": "W"
-    }
-   ],
-   "points": 1925,
-   "titles": 2,
-   "finishes": [
-    {
-     "date": "2026-08-22",
-     "name": "SUMMER MELT DOWN--TRUCKER HAT CLASSIC--OVER 20,000 HAT HAVE BE AWARDED",
-     "won": 2,
-     "lost": 2,
-     "standing": "4th (Gold)",
-     "points": 325
-    },
-    {
-     "date": "2026-09-12",
-     "name": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
-     "won": 4,
-     "lost": 0,
-     "standing": "1st (Gold)",
-     "points": 700
-    },
-    {
-     "date": "2026-09-26",
-     "name": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "won": 3,
-     "lost": 1,
-     "standing": "1st (Bronze)",
-     "points": 600
-    },
-    {
-     "date": "2026-10-02",
-     "name": "TOP GUN-USA SPORTS--FRIDAY NIGHT LIGHTS",
-     "won": 1,
-     "lost": 1,
-     "standing": "6th (Gold)",
-     "points": 300
-    }
-   ],
-   "season": "08/01/2026 - 10/23/2026",
-   "stats_fetched": "2026-10-23T11:42"
-  },
-  {
    "team": "Lake Wylie Venom",
    "location": "Lake Wylie, SC",
    "page_id": 33973,
@@ -10342,6 +10108,189 @@
    ],
    "season": "08/01/2026 - 10/23/2026",
    "stats_fetched": "2026-10-23T11:41"
+  },
+  {
+   "team": "Carolina Trash Pandas",
+   "location": "Locust, NC",
+   "page_id": 32342,
+   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=32342",
+   "w": 9,
+   "l": 3,
+   "t": 0,
+   "rs": 124,
+   "ra": 60,
+   "diff": 64,
+   "pct": 0.75,
+   "events": 4,
+   "log": [
+    {
+     "date": "2026-08-28",
+     "event_id": 13552,
+     "event": "TOP GUN-USA SPORTS--FNL--PRE LABOR DAY SPECIAL",
+     "section": "Pool Play",
+     "opponent": "NC Made 9U Green",
+     "rs": 12,
+     "ra": 4,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-11",
+     "event_id": 13600,
+     "event": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
+     "section": "Pool Play",
+     "opponent": "Carolina Icons",
+     "rs": 12,
+     "ra": 2,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-11",
+     "event_id": 13600,
+     "event": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
+     "section": "Pool Play",
+     "opponent": "Elite 9",
+     "rs": 11,
+     "ra": 2,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-11",
+     "event_id": 13600,
+     "event": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
+     "section": "Gold Bracket",
+     "opponent": "Carolina Clippers 9U",
+     "rs": 2,
+     "ra": 3,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-26",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Pool Play",
+     "opponent": "Carolina Forge 9U",
+     "rs": 8,
+     "ra": 7,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-26",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Pool Play",
+     "opponent": "Lake Wylie Venom",
+     "rs": 3,
+     "ra": 14,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-27",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Bronze Bracket",
+     "opponent": "PeeDee Mudcats",
+     "rs": 20,
+     "ra": 6,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-27",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Bronze Bracket",
+     "opponent": "Dirtbags Baseball ESB",
+     "rs": 7,
+     "ra": 8,
+     "result": "L"
+    },
+    {
+     "date": "2026-10-24",
+     "event_id": 12522,
+     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
+     "section": "Pool Play",
+     "opponent": "Diamond Jaxx",
+     "rs": 14,
+     "ra": 2,
+     "result": "W"
+    },
+    {
+     "date": "2026-10-24",
+     "event_id": 12522,
+     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
+     "section": "Pool Play",
+     "opponent": "MARA Stingers",
+     "rs": 12,
+     "ra": 5,
+     "result": "W"
+    },
+    {
+     "date": "2026-10-25",
+     "event_id": 12522,
+     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
+     "section": "Gold Bracket",
+     "opponent": "Athletes Lab 9U Navy- Stewart",
+     "rs": 12,
+     "ra": 4,
+     "result": "W"
+    },
+    {
+     "date": "2026-10-25",
+     "event_id": 12522,
+     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
+     "section": "Gold Bracket",
+     "opponent": "Dirtbags Baseball ESB",
+     "rs": 11,
+     "ra": 3,
+     "result": "W"
+    }
+   ],
+   "points": 2075,
+   "titles": 1,
+   "finishes": [
+    {
+     "date": "2026-08-28",
+     "name": "TOP GUN-USA SPORTS--FNL--PRE LABOR DAY SPECIAL",
+     "won": 3,
+     "lost": 0,
+     "standing": "1st (Gold)",
+     "points": 400
+    },
+    {
+     "date": "2026-09-11",
+     "name": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
+     "won": 2,
+     "lost": 1,
+     "standing": "2nd (Gold)",
+     "points": 375
+    },
+    {
+     "date": "2026-09-26",
+     "name": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "won": 2,
+     "lost": 2,
+     "standing": "2nd (Bronze)",
+     "points": 575
+    },
+    {
+     "date": "2026-10-03",
+     "name": "DOUBLE POINTS PINK ZONE QUALIFIER---ACTIVATE WINTER FREE PAID BERTHS",
+     "won": 2,
+     "lost": 1,
+     "standing": "4th (Gold)",
+     "points": 725
+    },
+    {
+     "date": "2026-10-24",
+     "name": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
+     "won": 4,
+     "lost": 0,
+     "standing": "1st (Gold)",
+     "points": 0,
+     "derived": true
+    }
+   ],
+   "season": "08/01/2026 - 10/23/2026",
+   "stats_fetched": "2026-10-23T11:40"
   },
   {
    "team": "Weddington Wreckers",
@@ -10753,6 +10702,259 @@
    "stats_fetched": null
   },
   {
+   "team": "Dirtbags Baseball ESB",
+   "location": "Lincolnton, NC",
+   "page_id": 37877,
+   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=37877",
+   "w": 14,
+   "l": 5,
+   "t": 0,
+   "rs": 187,
+   "ra": 117,
+   "diff": 70,
+   "pct": 0.737,
+   "events": 5,
+   "log": [
+    {
+     "date": "2026-08-22",
+     "event_id": 12513,
+     "event": "SUMMER MELT DOWN--TRUCKER HAT CLASSIC--OVER 20,000 HAT HAVE BE AWARDED",
+     "section": "Pool Play",
+     "opponent": "Carolina Royals 9Ublu",
+     "rs": 8,
+     "ra": 7,
+     "result": "W"
+    },
+    {
+     "date": "2026-08-22",
+     "event_id": 12513,
+     "event": "SUMMER MELT DOWN--TRUCKER HAT CLASSIC--OVER 20,000 HAT HAVE BE AWARDED",
+     "section": "Pool Play",
+     "opponent": "Mission 9u Scout",
+     "rs": 10,
+     "ra": 4,
+     "result": "W"
+    },
+    {
+     "date": "2026-08-23",
+     "event_id": 12513,
+     "event": "SUMMER MELT DOWN--TRUCKER HAT CLASSIC--OVER 20,000 HAT HAVE BE AWARDED",
+     "section": "Gold Bracket",
+     "opponent": "NC Made 9U Blue",
+     "rs": 5,
+     "ra": 17,
+     "result": "L"
+    },
+    {
+     "date": "2026-08-23",
+     "event_id": 12513,
+     "event": "SUMMER MELT DOWN--TRUCKER HAT CLASSIC--OVER 20,000 HAT HAVE BE AWARDED",
+     "section": "Gold Bracket",
+     "opponent": "NL Destroyers 2036",
+     "rs": 13,
+     "ra": 14,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-12",
+     "event_id": 12516,
+     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
+     "section": "Pool Play",
+     "opponent": "NL Destroyers 2036",
+     "rs": 9,
+     "ra": 8,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-12",
+     "event_id": 12516,
+     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
+     "section": "Pool Play",
+     "opponent": "Concord Athletics -9U",
+     "rs": 14,
+     "ra": 0,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-13",
+     "event_id": 12516,
+     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
+     "section": "Gold Bracket",
+     "opponent": "KnuckleheadsCBC",
+     "rs": 9,
+     "ra": 2,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-13",
+     "event_id": 12516,
+     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
+     "section": "Gold Bracket",
+     "opponent": "LKN Bolts",
+     "rs": 13,
+     "ra": 5,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-26",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Pool Play",
+     "opponent": "ROCO Dirtbagz",
+     "rs": 1,
+     "ra": 13,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-26",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Pool Play",
+     "opponent": "Rock Hill 9U Baseball",
+     "rs": 13,
+     "ra": 2,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-27",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Bronze Bracket",
+     "opponent": "Team 24",
+     "rs": 15,
+     "ra": 2,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-27",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Bronze Bracket",
+     "opponent": "Carolina Trash Pandas",
+     "rs": 8,
+     "ra": 7,
+     "result": "W"
+    },
+    {
+     "date": "2026-10-02",
+     "event_id": 13567,
+     "event": "TOP GUN-USA SPORTS--FRIDAY NIGHT LIGHTS",
+     "section": "Pool Play",
+     "opponent": "M&M Baseball 9u",
+     "rs": 5,
+     "ra": 10,
+     "result": "L"
+    },
+    {
+     "date": "2026-10-02",
+     "event_id": 13567,
+     "event": "TOP GUN-USA SPORTS--FRIDAY NIGHT LIGHTS",
+     "section": "Gold Bracket",
+     "opponent": "LKN Kingdom",
+     "rs": 14,
+     "ra": 2,
+     "result": "W"
+    },
+    {
+     "date": "2026-10-24",
+     "event_id": 12522,
+     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
+     "section": "Pool Play",
+     "opponent": "Carolina Regulators 9u",
+     "rs": 18,
+     "ra": 5,
+     "result": "W"
+    },
+    {
+     "date": "2026-10-24",
+     "event_id": 12522,
+     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
+     "section": "Pool Play",
+     "opponent": "Red Clay Athletics 9U Darcangelo",
+     "rs": 11,
+     "ra": 6,
+     "result": "W"
+    },
+    {
+     "date": "2026-10-25",
+     "event_id": 12522,
+     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
+     "section": "Gold Bracket",
+     "opponent": "Lake Wylie Venom",
+     "rs": 9,
+     "ra": 1,
+     "result": "W"
+    },
+    {
+     "date": "2026-10-25",
+     "event_id": 12522,
+     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
+     "section": "Gold Bracket",
+     "opponent": "NL Destroyers 2036",
+     "rs": 9,
+     "ra": 1,
+     "result": "W"
+    },
+    {
+     "date": "2026-10-25",
+     "event_id": 12522,
+     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
+     "section": "Gold Bracket",
+     "opponent": "Carolina Trash Pandas",
+     "rs": 3,
+     "ra": 11,
+     "result": "L"
+    }
+   ],
+   "points": 1925,
+   "titles": 2,
+   "finishes": [
+    {
+     "date": "2026-08-22",
+     "name": "SUMMER MELT DOWN--TRUCKER HAT CLASSIC--OVER 20,000 HAT HAVE BE AWARDED",
+     "won": 2,
+     "lost": 2,
+     "standing": "4th (Gold)",
+     "points": 325
+    },
+    {
+     "date": "2026-09-12",
+     "name": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
+     "won": 4,
+     "lost": 0,
+     "standing": "1st (Gold)",
+     "points": 700
+    },
+    {
+     "date": "2026-09-26",
+     "name": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "won": 3,
+     "lost": 1,
+     "standing": "1st (Bronze)",
+     "points": 600
+    },
+    {
+     "date": "2026-10-02",
+     "name": "TOP GUN-USA SPORTS--FRIDAY NIGHT LIGHTS",
+     "won": 1,
+     "lost": 1,
+     "standing": "6th (Gold)",
+     "points": 300
+    },
+    {
+     "date": "2026-10-24",
+     "name": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
+     "won": 4,
+     "lost": 1,
+     "standing": "2nd (Gold)",
+     "points": 0,
+     "derived": true
+    }
+   ],
+   "season": "08/01/2026 - 10/23/2026",
+   "stats_fetched": "2026-10-23T11:42"
+  },
+  {
    "team": "LKN Bolts",
    "location": "Huntersville, NC",
    "page_id": 32916,
@@ -10959,170 +11161,6 @@
      "lost": 0,
      "standing": "",
      "points": 0
-    }
-   ],
-   "season": "08/01/2026 - 10/23/2026",
-   "stats_fetched": "2026-10-23T11:40"
-  },
-  {
-   "team": "Carolina Trash Pandas",
-   "location": "Locust, NC",
-   "page_id": 32342,
-   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=32342",
-   "w": 8,
-   "l": 3,
-   "t": 0,
-   "rs": 113,
-   "ra": 57,
-   "diff": 56,
-   "pct": 0.727,
-   "events": 4,
-   "log": [
-    {
-     "date": "2026-08-28",
-     "event_id": 13552,
-     "event": "TOP GUN-USA SPORTS--FNL--PRE LABOR DAY SPECIAL",
-     "section": "Pool Play",
-     "opponent": "NC Made 9U Green",
-     "rs": 12,
-     "ra": 4,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-11",
-     "event_id": 13600,
-     "event": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
-     "section": "Pool Play",
-     "opponent": "Carolina Icons",
-     "rs": 12,
-     "ra": 2,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-11",
-     "event_id": 13600,
-     "event": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
-     "section": "Pool Play",
-     "opponent": "Elite 9",
-     "rs": 11,
-     "ra": 2,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-11",
-     "event_id": 13600,
-     "event": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
-     "section": "Gold Bracket",
-     "opponent": "Carolina Clippers 9U",
-     "rs": 2,
-     "ra": 3,
-     "result": "L"
-    },
-    {
-     "date": "2026-09-26",
-     "event_id": 12518,
-     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "section": "Pool Play",
-     "opponent": "Carolina Forge 9U",
-     "rs": 8,
-     "ra": 7,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-26",
-     "event_id": 12518,
-     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "section": "Pool Play",
-     "opponent": "Lake Wylie Venom",
-     "rs": 3,
-     "ra": 14,
-     "result": "L"
-    },
-    {
-     "date": "2026-09-27",
-     "event_id": 12518,
-     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "section": "Bronze Bracket",
-     "opponent": "PeeDee Mudcats",
-     "rs": 20,
-     "ra": 6,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-27",
-     "event_id": 12518,
-     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "section": "Bronze Bracket",
-     "opponent": "Dirtbags Baseball ESB",
-     "rs": 7,
-     "ra": 8,
-     "result": "L"
-    },
-    {
-     "date": "2026-10-24",
-     "event_id": 12522,
-     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
-     "section": "Pool Play",
-     "opponent": "Diamond Jaxx",
-     "rs": 14,
-     "ra": 2,
-     "result": "W"
-    },
-    {
-     "date": "2026-10-24",
-     "event_id": 12522,
-     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
-     "section": "Pool Play",
-     "opponent": "MARA Stingers",
-     "rs": 12,
-     "ra": 5,
-     "result": "W"
-    },
-    {
-     "date": "2026-10-25",
-     "event_id": 12522,
-     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
-     "section": "Gold Bracket",
-     "opponent": "Athletes Lab 9U Navy- Stewart",
-     "rs": 12,
-     "ra": 4,
-     "result": "W"
-    }
-   ],
-   "points": 2075,
-   "titles": 1,
-   "finishes": [
-    {
-     "date": "2026-08-28",
-     "name": "TOP GUN-USA SPORTS--FNL--PRE LABOR DAY SPECIAL",
-     "won": 3,
-     "lost": 0,
-     "standing": "1st (Gold)",
-     "points": 400
-    },
-    {
-     "date": "2026-09-11",
-     "name": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
-     "won": 2,
-     "lost": 1,
-     "standing": "2nd (Gold)",
-     "points": 375
-    },
-    {
-     "date": "2026-09-26",
-     "name": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "won": 2,
-     "lost": 2,
-     "standing": "2nd (Bronze)",
-     "points": 575
-    },
-    {
-     "date": "2026-10-03",
-     "name": "DOUBLE POINTS PINK ZONE QUALIFIER---ACTIVATE WINTER FREE PAID BERTHS",
-     "won": 2,
-     "lost": 1,
-     "standing": "4th (Gold)",
-     "points": 725
     }
    ],
    "season": "08/01/2026 - 10/23/2026",

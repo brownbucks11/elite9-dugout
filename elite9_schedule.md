@@ -1,5 +1,5 @@
 # Elite 9 - Top Gun schedule
-_Updated Sun Oct 25, 2026 03:43 PM_
+_Updated Sun Oct 25, 2026 03:54 PM_
 
 ## SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND
 September 26 - 27 in Greater Charlotte Area, NC  
@@ -184,9 +184,9 @@ Tournament 12522 - [schedule page](https://playtopgunsports.com/GameTimesResults
 | 1 | NL Destroyers 2036 | Denver, NC | 2-1 | 23 | 3 |
 | 2 | Hooligans | Mount Holly, NC | 2-1 | 21 | 9 |
 | 3 | LumberJacks | Gaston County, NC | 1-2 | 23 | 26 |
-| 4 | Carolina Trash Pandas | Locust, NC | 3-0 | 26 | 7 |
+| 4 | Carolina Trash Pandas | Locust, NC | 4-0 | 26 | 7 |
 | 5 | Red Clay Athletics 9U Darcangelo | Charlotte, NC | 3-1 | 16 | 16 |
-| 6 | Dirtbags Baseball ESB | Lincolnton, NC | 4-0 | 29 | 11 |
+| 6 | Dirtbags Baseball ESB | Lincolnton, NC | 4-1 | 29 | 11 |
 | 7 | Elite 9 **<--** | Rock Hill, SC | 2-1 | 30 | 13 |
 | 8 | Carolina Regulators 9u | Stanley, NC | 2-2 | 11 | 29 |
 | 9 | Carolina Elevate | Lenoir, NC | 0-3 | 7 | 40 |
@@ -207,7 +207,7 @@ Tournament 12522 - [schedule page](https://playtopgunsports.com/GameTimesResults
 | 1 | Sun 9:00 AM | Bradford:Field # 1 | (#4) Dirtbags Baseball ESB 9 | (#5) Lake Wylie Venom 1 |
 | 2 | Sun 11:00 AM | Bradford:Field # 1 | (#2) Carolina Trash Pandas 12 | (#3) Athletes Lab 9U Navy- Stewart 4 |
 | 3 | Sun 1:00 PM | Bradford:Field # 1 | Winner Game #1 Dirtbags Baseball ESB 9 | (#1) NL Destroyers 2036 1 |
-| 4 | Sun 3:00 PM | Bradford:Field # 1 | Winner Game #2 Carolina Trash Pandas | Winner Game #3 Dirtbags Baseball ESB |
+| 4 | Sun 3:00 PM | Bradford:Field # 1 | Winner Game #2 Carolina Trash Pandas 11 | Winner Game #3 Dirtbags Baseball ESB 3 |
 
 **Silver Bracket**
 
