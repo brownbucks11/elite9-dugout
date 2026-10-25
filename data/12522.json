@@ -128,7 +128,7 @@
           "team": "Canes Atlantic 8u Fareri",
           "location": "Denver, NC",
           "won": 2,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 9,
           "runs_scored": 38,
           "team_page_id": null
@@ -157,7 +157,7 @@
           "seed": 9,
           "team": "Carolina Hype 8u",
           "location": "Gaffney, SC",
-          "won": 2,
+          "won": 3,
           "lost": 0,
           "runs_allowed": 13,
           "runs_scored": 28,
@@ -329,10 +329,10 @@
             "field": "Westmoreld:Field 4",
             "team_a": "Winner Game #1 Carolina Hype 8u",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 20,
             "team_b": "Canes Atlantic 8u Fareri",
             "seed_b": 1,
-            "score_b": null
+            "score_b": 13
           },
           {
             "game": 4,
@@ -363,7 +363,7 @@
             "day": "Sun",
             "time": "2:00 PM",
             "field": "Westmoreld:Field 4",
-            "team_a": "Winner Game #3",
+            "team_a": "Winner Game #3 Carolina Hype 8u",
             "seed_a": null,
             "score_a": null,
             "team_b": "Winner Game #4 Carolina Rapid Fire \ud83d\udd25 8U (BLACK)",
@@ -375,7 +375,7 @@
             "day": "Sun",
             "time": "3:15 PM",
             "field": "Westmoreld:Field 1",
-            "team_a": "Loser Game #3",
+            "team_a": "Loser Game #3 Canes Atlantic 8u Fareri",
             "seed_a": null,
             "score_a": null,
             "team_b": "Loser Game #4 (If Needed) NC Made 8U Blue",
@@ -2787,7 +2787,7 @@
           "seed": 3,
           "team": "Stanly County Crushers 12u",
           "location": "Richfield, NC",
-          "won": 2,
+          "won": 3,
           "lost": 0,
           "runs_allowed": 4,
           "runs_scored": 20,
@@ -2828,7 +2828,7 @@
           "team": "Carolina Reign Baseball 12U",
           "location": "Lincolnton, NC",
           "won": 2,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 11,
           "runs_scored": 16,
           "team_page_id": null
@@ -3085,10 +3085,10 @@
             "field": "Mazeppa:Field # 1",
             "team_a": "Winner Game #1 Carolina Reign Baseball 12U",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 3,
             "team_b": "Stanly County Crushers 12u",
             "seed_b": 1,
-            "score_b": null
+            "score_b": 15
           },
           {
             "game": 4,
@@ -3107,7 +3107,7 @@
             "day": "Sun",
             "time": "5:00 PM",
             "field": "Mazeppa:Field # 1",
-            "team_a": "Winner Game #3",
+            "team_a": "Winner Game #3 Stanly County Crushers 12u",
             "seed_a": null,
             "score_a": null,
             "team_b": "Winner Game #4",
@@ -4933,5 +4933,5 @@
   },
   "site_last_updated": "10/22/2026 7:46 AM",
   "tournament_id": 12522,
-  "fetched_at": "2026-10-25T14:09"
+  "fetched_at": "2026-10-25T14:19"
 }
