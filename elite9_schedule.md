@@ -1,5 +1,5 @@
 # Elite 9 - Top Gun schedule
-_Updated Sun Oct 25, 2026 10:49 AM_
+_Updated Sun Oct 25, 2026 10:59 AM_
 
 ## SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND
 September 26 - 27 in Greater Charlotte Area, NC  
@@ -175,7 +175,7 @@ Tournament 12522 - [schedule page](https://playtopgunsports.com/GameTimesResults
 |---|---|---|---|---|
 | Pool 6 | Sat 10:15 AM | SP:Field #1 | BOILING SPRINGS BULLDOGS BASEBALL 8u 9 | Elite 9 22 |
 | Pool 9 | Sat 12:00 PM | SP:Field #1 | Hooligans 4 | Elite 9 8 |
-| Silv 3 | Sun 1:00 PM | Bradford:Field # 2 | Winner Game #1 | (#6) Elite 9 |
+| Silv 3 | Sun 1:00 PM | Bradford:Field # 2 | Winner Game #1 Red Clay Athletics 9U Darcangelo | (#6) Elite 9 |
 
 **9U standings**
 
@@ -185,16 +185,16 @@ Tournament 12522 - [schedule page](https://playtopgunsports.com/GameTimesResults
 | 2 | Hooligans | Mount Holly, NC | 1-1 | 21 | 9 |
 | 3 | LumberJacks | Gaston County, NC | 1-1 | 23 | 26 |
 | 4 | Carolina Trash Pandas | Locust, NC | 2-0 | 26 | 7 |
-| 5 | Red Clay Athletics 9U Darcangelo | Charlotte, NC | 1-1 | 16 | 16 |
+| 5 | Red Clay Athletics 9U Darcangelo | Charlotte, NC | 2-1 | 16 | 16 |
 | 6 | Dirtbags Baseball ESB | Lincolnton, NC | 3-0 | 29 | 11 |
 | 7 | Elite 9 **<--** | Rock Hill, SC | 2-0 | 30 | 13 |
-| 8 | Carolina Regulators 9u | Stanley, NC | 0-2 | 11 | 29 |
-| 9 | Carolina Elevate | Lenoir, NC | 0-2 | 7 | 40 |
+| 8 | Carolina Regulators 9u | Stanley, NC | 1-2 | 11 | 29 |
+| 9 | Carolina Elevate | Lenoir, NC | 0-3 | 7 | 40 |
 | 10 | Dirtbags Shook | Claremont, NC | 0-3 | 3 | 25 |
 | 11 | ZT Knuckleheads | Clover, SC | 1-1 | 21 | 7 |
 | 12 | Diamond Jaxx | Pinehurst, NC | 0-2 | 3 | 31 |
 | 13 | Concord Athletics -9U | Concord, NC | 0-2 | 4 | 22 |
-| 14 | MARA Stingers | Matthews, NC | 1-1 | 17 | 13 |
+| 14 | MARA Stingers | Matthews, NC | 1-2 | 17 | 13 |
 | 15 | Athletes Lab 9U Navy- Stewart | Maiden, NC | 2-0 | 18 | 7 |
 | 16 | LKN Lightning - Ogburn | Huntersville, NC | 2-1 | 16 | 16 |
 | 17 | BOILING SPRINGS BULLDOGS BASEBALL 8u | Boiling Springs, NC | 0-2 | 10 | 39 |
@@ -213,9 +213,9 @@ Tournament 12522 - [schedule page](https://playtopgunsports.com/GameTimesResults
 
 | G | When | Field | Team A | Team B |
 |---|---|---|---|---|
-| 1 | Sun 9:00 AM | Bradford:Field # 2 | (#9) MARA Stingers | (#10) Red Clay Athletics 9U Darcangelo |
+| 1 | Sun 9:00 AM | Bradford:Field # 2 | (#9) MARA Stingers 11 | (#10) Red Clay Athletics 9U Darcangelo 17 |
 | 2 | Sun 11:00 AM | Bradford:Field # 2 | (#7) ZT Knuckleheads | (#8) Hooligans |
-| 3 | Sun 1:00 PM | Bradford:Field # 2 | Winner Game #1 | (#6) Elite 9 |
+| 3 | Sun 1:00 PM | Bradford:Field # 2 | Winner Game #1 Red Clay Athletics 9U Darcangelo | (#6) Elite 9 |
 | 4 | Sun 3:00 PM | Bradford:Field # 2 | Winner Game #2 | Winner Game #3 |
 
 **Bronze Bracket**
@@ -230,9 +230,9 @@ Tournament 12522 - [schedule page](https://playtopgunsports.com/GameTimesResults
 
 | G | When | Field | Team A | Team B |
 |---|---|---|---|---|
-| 1 | Sun 9:00 AM | Bradford:Field # 4 | (#15) Carolina Regulators 9u | (#18) Carolina Elevate |
+| 1 | Sun 9:00 AM | Bradford:Field # 4 | (#15) Carolina Regulators 9u 9 | (#18) Carolina Elevate 5 |
 | 2 | Sun 11:00 AM | Bradford:Field # 4 | (#16) Diamond Jaxx | (#17) BOILING SPRINGS BULLDOGS BASEBALL 8u |
-| 3 | Sun 1:00 PM | Bradford:Field # 4 | Winner Game #1 | Winner Game #2 |
+| 3 | Sun 1:00 PM | Bradford:Field # 4 | Winner Game #1 Carolina Regulators 9u | Winner Game #2 |
 
 ## ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO
 November 7 - 8 in Greater Charlotte Area, NC  

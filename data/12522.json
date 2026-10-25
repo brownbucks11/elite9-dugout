@@ -118,7 +118,7 @@
           "team": "Carolina Smoke 8u",
           "location": "Concord, NC",
           "won": 1,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 24,
           "runs_scored": 21,
           "team_page_id": null
@@ -167,7 +167,7 @@
           "seed": 10,
           "team": "MARA Thunder",
           "location": "Matthews, NC",
-          "won": 1,
+          "won": 2,
           "lost": 1,
           "runs_allowed": 27,
           "runs_scored": 20,
@@ -427,10 +427,10 @@
             "field": "Westmoreld:Field 4",
             "team_a": "Winner Game #1 Carolina Smoke 8u",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 8,
             "team_b": "Winner Game #2 MARA Thunder",
             "seed_b": null,
-            "score_b": null
+            "score_b": 23
           }
         ]
       }
@@ -484,7 +484,7 @@
           "seed": 5,
           "team": "Red Clay Athletics 9U Darcangelo",
           "location": "Charlotte, NC",
-          "won": 1,
+          "won": 2,
           "lost": 1,
           "runs_allowed": 16,
           "runs_scored": 16,
@@ -514,7 +514,7 @@
           "seed": 8,
           "team": "Carolina Regulators 9u",
           "location": "Stanley, NC",
-          "won": 0,
+          "won": 1,
           "lost": 2,
           "runs_allowed": 29,
           "runs_scored": 11,
@@ -525,7 +525,7 @@
           "team": "Carolina Elevate",
           "location": "Lenoir, NC",
           "won": 0,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 40,
           "runs_scored": 7,
           "team_page_id": null
@@ -575,7 +575,7 @@
           "team": "MARA Stingers",
           "location": "Matthews, NC",
           "won": 1,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 13,
           "runs_scored": 17,
           "team_page_id": null
@@ -898,10 +898,10 @@
             "field": "Bradford:Field # 2",
             "team_a": "MARA Stingers",
             "seed_a": 9,
-            "score_a": null,
+            "score_a": 11,
             "team_b": "Red Clay Athletics 9U Darcangelo",
             "seed_b": 10,
-            "score_b": null
+            "score_b": 17
           },
           {
             "game": 2,
@@ -920,7 +920,7 @@
             "day": "Sun",
             "time": "1:00 PM",
             "field": "Bradford:Field # 2",
-            "team_a": "Winner Game #1",
+            "team_a": "Winner Game #1 Red Clay Athletics 9U Darcangelo",
             "seed_a": null,
             "score_a": null,
             "team_b": "Elite 9",
@@ -986,10 +986,10 @@
             "field": "Bradford:Field # 4",
             "team_a": "Carolina Regulators 9u",
             "seed_a": 15,
-            "score_a": null,
+            "score_a": 9,
             "team_b": "Carolina Elevate",
             "seed_b": 18,
-            "score_b": null
+            "score_b": 5
           },
           {
             "game": 2,
@@ -1008,7 +1008,7 @@
             "day": "Sun",
             "time": "1:00 PM",
             "field": "Bradford:Field # 4",
-            "team_a": "Winner Game #1",
+            "team_a": "Winner Game #1 Carolina Regulators 9u",
             "seed_a": null,
             "score_a": null,
             "team_b": "Winner Game #2",
@@ -1175,7 +1175,7 @@
           "seed": 9,
           "team": "Red Clay Athletics 10U Latimer",
           "location": "Huntersville, NC",
-          "won": 1,
+          "won": 2,
           "lost": 1,
           "runs_allowed": 17,
           "runs_scored": 13,
@@ -1296,7 +1296,7 @@
           "team": "Carolina Ghost 10u",
           "location": "High Point, NC",
           "won": 1,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 20,
           "runs_scored": 15,
           "team_page_id": null
@@ -1709,10 +1709,10 @@
             "field": "Mazeppa:Field # 2",
             "team_a": "Red Clay Athletics 10U Latimer",
             "seed_a": 11,
-            "score_a": null,
+            "score_a": 8,
             "team_b": "Carolina Ghost 10u",
             "seed_b": 14,
-            "score_b": null
+            "score_b": 5
           },
           {
             "game": 2,
@@ -1731,7 +1731,7 @@
             "day": "Sun",
             "time": "1:00 PM",
             "field": "Mazeppa:Field # 2",
-            "team_a": "Winner Game #1",
+            "team_a": "Winner Game #1 Red Clay Athletics 10U Latimer",
             "seed_a": null,
             "score_a": null,
             "team_b": "Winner Game #2",
@@ -2827,7 +2827,7 @@
           "seed": 7,
           "team": "Carolina Reign Baseball 12U",
           "location": "Lincolnton, NC",
-          "won": 1,
+          "won": 2,
           "lost": 1,
           "runs_allowed": 11,
           "runs_scored": 16,
@@ -2848,7 +2848,7 @@
           "team": "Dirtbags-Brookshire 12U",
           "location": "Taylorsville, NC",
           "won": 1,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 13,
           "runs_scored": 21,
           "team_page_id": null
@@ -3061,10 +3061,10 @@
             "field": "Mazeppa:Field # 1",
             "team_a": "Carolina Reign Baseball 12U",
             "seed_a": 4,
-            "score_a": null,
+            "score_a": 2,
             "team_b": "Dirtbags-Brookshire 12U",
             "seed_b": 5,
-            "score_b": null
+            "score_b": 0
           },
           {
             "game": 2,
@@ -3083,7 +3083,7 @@
             "day": "Sun",
             "time": "1:00 PM",
             "field": "Mazeppa:Field # 1",
-            "team_a": "Winner Game #1",
+            "team_a": "Winner Game #1 Carolina Reign Baseball 12U",
             "seed_a": null,
             "score_a": null,
             "team_b": "Stanly County Crushers 12u",
@@ -3238,7 +3238,7 @@
           "seed": 6,
           "team": "River Rats",
           "location": "Lincolnton, NC",
-          "won": 1,
+          "won": 2,
           "lost": 1,
           "runs_allowed": 14,
           "runs_scored": 8,
@@ -3259,7 +3259,7 @@
           "team": "Mara Tide",
           "location": "Matthews, NC",
           "won": 0,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 34,
           "runs_scored": 8,
           "team_page_id": null
@@ -4726,7 +4726,7 @@
           "seed": 6,
           "team": "Triad Warriors",
           "location": "Walkertown, NC",
-          "won": 2,
+          "won": 3,
           "lost": 0,
           "runs_allowed": 5,
           "runs_scored": 14,
@@ -4737,7 +4737,7 @@
           "team": "New River Pirates",
           "location": "Sparta, NC",
           "won": 1,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 11,
           "runs_scored": 11,
           "team_page_id": null
@@ -4860,10 +4860,10 @@
             "field": "CA:Field #1",
             "team_a": "Triad Warriors",
             "seed_a": 1,
-            "score_a": null,
+            "score_a": 7,
             "team_b": "New River Pirates",
             "seed_b": 4,
-            "score_b": null
+            "score_b": 2
           },
           {
             "game": 2,
@@ -4882,7 +4882,7 @@
             "day": "Sun",
             "time": "1:00 PM",
             "field": "CA:Field #1",
-            "team_a": "Winner Game #1",
+            "team_a": "Winner Game #1 Triad Warriors",
             "seed_a": null,
             "score_a": null,
             "team_b": "Winner Game #2",
@@ -4933,5 +4933,5 @@
   },
   "site_last_updated": "10/22/2026 7:46 AM",
   "tournament_id": 12522,
-  "fetched_at": "2026-10-25T10:48"
+  "fetched_at": "2026-10-25T10:59"
 }
