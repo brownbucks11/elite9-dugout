@@ -3,7 +3,7 @@
  "location": "Rock Hill, SC",
  "page_id": 31407,
  "team_url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=31407",
- "built": "Sun Oct 25, 2026 03:01 PM",
+ "built": "Sun Oct 25, 2026 03:12 PM",
  "record": {
   "w": 6,
   "l": 10,
@@ -4031,7 +4031,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-25T15:01",
+    "fetched_at": "2026-10-25T15:11",
     "url": "https://topgunstats.com/whos-playing/12522"
    },
    "next_game": null,
@@ -4353,7 +4353,7 @@
      "pool_ra": 16,
      "seed": 11,
      "bracket": "Bronze Bracket",
-     "won": 2,
+     "won": 3,
      "lost": 1,
      "rs": 16,
      "ra": 16
@@ -4406,7 +4406,7 @@
      "seed": 13,
      "bracket": "Bronze Bracket",
      "won": 1,
-     "lost": 2,
+     "lost": 3,
      "rs": 4,
      "ra": 22
     },
@@ -5001,7 +5001,7 @@
      "field": "Bradford:Field # 3",
      "team_a": "LumberJacks",
      "seed_a": 12,
-     "score_a": 15,
+     "score_a": 12,
      "from_a": null,
      "team_b": "Concord Athletics -9U",
      "seed_b": 13,
@@ -5017,14 +5017,14 @@
      "field": "Bradford:Field # 3",
      "team_a": "LKN Lightning - Ogburn",
      "seed_a": null,
-     "score_a": null,
+     "score_a": 12,
      "from_a": {
       "type": "winner",
       "game": 1
      },
      "team_b": "Concord Athletics -9U",
      "seed_b": null,
-     "score_b": null,
+     "score_b": 11,
      "from_b": {
       "type": "winner",
       "game": 2
@@ -8054,7 +8054,7 @@
      "entered_at": "2026-10-19T08:25:19.373Z",
      "level": "AA"
     },
-    "fetched_at": "2026-10-25T15:01"
+    "fetched_at": "2026-10-25T15:11"
    },
    "tgs": {
     "weather": {
@@ -8199,7 +8199,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-25T15:01",
+    "fetched_at": "2026-10-25T15:11",
     "url": "https://topgunstats.com/whos-playing/12522"
    },
    "name": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
@@ -8667,7 +8667,7 @@
      "field": "Bradford:Field # 3",
      "team_a": "LumberJacks",
      "seed_a": 12,
-     "score_a": 15,
+     "score_a": 12,
      "from_a": null,
      "team_b": "Concord Athletics -9U",
      "seed_b": 13,
@@ -8683,14 +8683,14 @@
      "field": "Bradford:Field # 3",
      "team_a": "LKN Lightning - Ogburn",
      "seed_a": null,
-     "score_a": null,
+     "score_a": 12,
      "from_a": {
       "type": "winner",
       "game": 1
      },
      "team_b": "Concord Athletics -9U",
      "seed_b": null,
-     "score_b": null,
+     "score_b": 11,
      "from_b": {
       "type": "winner",
       "game": 2
@@ -8877,7 +8877,7 @@
      "team": "Concord Athletics -9U",
      "location": "Concord, NC",
      "won": 1,
-     "lost": 2,
+     "lost": 3,
      "runs_allowed": 22,
      "runs_scored": 4,
      "team_page_id": null
@@ -8906,7 +8906,7 @@
      "seed": 16,
      "team": "LKN Lightning - Ogburn",
      "location": "Huntersville, NC",
-     "won": 2,
+     "won": 3,
      "lost": 1,
      "runs_allowed": 16,
      "runs_scored": 16,
@@ -9018,7 +9018,7 @@
     "team": {
      "entered": false
     },
-    "fetched_at": "2026-10-25T15:01"
+    "fetched_at": "2026-10-25T15:11"
    },
    "tgs": {
     "weather": null,
@@ -9072,7 +9072,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-25T15:01",
+    "fetched_at": "2026-10-25T15:11",
     "url": "https://topgunstats.com/whos-playing/12524"
    },
    "name": "Road Runner vs Coyote ring weekend",
@@ -10682,6 +10682,77 @@
    "stats_fetched": "2026-10-23T11:42"
   },
   {
+   "team": "LKN Lightning - Ogburn",
+   "location": "Huntersville, NC",
+   "page_id": null,
+   "url": null,
+   "w": 3,
+   "l": 1,
+   "t": 0,
+   "rs": 41,
+   "ra": 38,
+   "diff": 3,
+   "pct": 0.75,
+   "events": 1,
+   "log": [
+    {
+     "date": "2026-10-24",
+     "event_id": 12522,
+     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
+     "section": "Pool Play",
+     "opponent": "Red Clay Athletics 9U Darcangelo",
+     "rs": 5,
+     "ra": 10,
+     "result": "L"
+    },
+    {
+     "date": "2026-10-24",
+     "event_id": 12522,
+     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
+     "section": "Pool Play",
+     "opponent": "Carolina Regulators 9u",
+     "rs": 11,
+     "ra": 6,
+     "result": "W"
+    },
+    {
+     "date": "2026-10-25",
+     "event_id": 12522,
+     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
+     "section": "Bronze Bracket",
+     "opponent": "Dirtbags Shook",
+     "rs": 13,
+     "ra": 11,
+     "result": "W"
+    },
+    {
+     "date": "2026-10-25",
+     "event_id": 12522,
+     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
+     "section": "Bronze Bracket",
+     "opponent": "Concord Athletics -9U",
+     "rs": 12,
+     "ra": 11,
+     "result": "W"
+    }
+   ],
+   "points": 0,
+   "titles": 0,
+   "finishes": [
+    {
+     "date": "2026-10-24",
+     "name": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
+     "won": 3,
+     "lost": 1,
+     "standing": "1st (Bronze)",
+     "points": 0,
+     "derived": true
+    }
+   ],
+   "season": "",
+   "stats_fetched": null
+  },
+  {
    "team": "LKN Bolts",
    "location": "Huntersville, NC",
    "page_id": 32916,
@@ -11390,57 +11461,6 @@
      "rs": 4,
      "ra": 12,
      "result": "L"
-    }
-   ],
-   "points": 0,
-   "titles": 0,
-   "finishes": [],
-   "season": "",
-   "stats_fetched": null
-  },
-  {
-   "team": "LKN Lightning - Ogburn",
-   "location": "Huntersville, NC",
-   "page_id": null,
-   "url": null,
-   "w": 2,
-   "l": 1,
-   "t": 0,
-   "rs": 29,
-   "ra": 27,
-   "diff": 2,
-   "pct": 0.667,
-   "events": 1,
-   "log": [
-    {
-     "date": "2026-10-24",
-     "event_id": 12522,
-     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
-     "section": "Pool Play",
-     "opponent": "Red Clay Athletics 9U Darcangelo",
-     "rs": 5,
-     "ra": 10,
-     "result": "L"
-    },
-    {
-     "date": "2026-10-24",
-     "event_id": 12522,
-     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
-     "section": "Pool Play",
-     "opponent": "Carolina Regulators 9u",
-     "rs": 11,
-     "ra": 6,
-     "result": "W"
-    },
-    {
-     "date": "2026-10-25",
-     "event_id": 12522,
-     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
-     "section": "Bronze Bracket",
-     "opponent": "Dirtbags Shook",
-     "rs": 13,
-     "ra": 11,
-     "result": "W"
     }
    ],
    "points": 0,
@@ -14677,9 +14697,9 @@
    "w": 7,
    "l": 15,
    "t": 0,
-   "rs": 208,
+   "rs": 205,
    "ra": 263,
-   "diff": -55,
+   "diff": -58,
    "pct": 0.318,
    "events": 6,
    "log": [
@@ -14899,7 +14919,7 @@
      "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
      "section": "Bronze Bracket",
      "opponent": "Concord Athletics -9U",
-     "rs": 15,
+     "rs": 12,
      "ra": 18,
      "result": "L"
     }
@@ -15537,12 +15557,12 @@
    "page_id": 36758,
    "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=36758",
    "w": 1,
-   "l": 6,
+   "l": 7,
    "t": 0,
-   "rs": 29,
-   "ra": 95,
-   "diff": -66,
-   "pct": 0.143,
+   "rs": 40,
+   "ra": 104,
+   "diff": -64,
+   "pct": 0.125,
    "events": 2,
    "log": [
     {
@@ -15612,8 +15632,18 @@
      "section": "Bronze Bracket",
      "opponent": "LumberJacks",
      "rs": 18,
-     "ra": 15,
+     "ra": 12,
      "result": "W"
+    },
+    {
+     "date": "2026-10-25",
+     "event_id": 12522,
+     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
+     "section": "Bronze Bracket",
+     "opponent": "LKN Lightning - Ogburn",
+     "rs": 11,
+     "ra": 12,
+     "result": "L"
     }
    ],
    "points": 425,
@@ -15634,6 +15664,15 @@
      "lost": 0,
      "standing": "",
      "points": 0
+    },
+    {
+     "date": "2026-10-24",
+     "name": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
+     "won": 1,
+     "lost": 3,
+     "standing": "2nd (Bronze)",
+     "points": 0,
+     "derived": true
     }
    ],
    "season": "08/01/2026 - 10/23/2026",

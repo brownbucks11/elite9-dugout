@@ -1,5 +1,5 @@
 # Elite 9 - Top Gun schedule
-_Updated Sun Oct 25, 2026 03:01 PM_
+_Updated Sun Oct 25, 2026 03:12 PM_
 
 ## SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND
 September 26 - 27 in Greater Charlotte Area, NC  
@@ -193,10 +193,10 @@ Tournament 12522 - [schedule page](https://playtopgunsports.com/GameTimesResults
 | 10 | Dirtbags Shook | Claremont, NC | 0-3 | 3 | 25 |
 | 11 | ZT Knuckleheads | Clover, SC | 1-2 | 21 | 7 |
 | 12 | Diamond Jaxx | Pinehurst, NC | 0-3 | 3 | 31 |
-| 13 | Concord Athletics -9U | Concord, NC | 1-2 | 4 | 22 |
+| 13 | Concord Athletics -9U | Concord, NC | 1-3 | 4 | 22 |
 | 14 | MARA Stingers | Matthews, NC | 1-2 | 17 | 13 |
 | 15 | Athletes Lab 9U Navy- Stewart | Maiden, NC | 2-1 | 18 | 7 |
-| 16 | LKN Lightning - Ogburn | Huntersville, NC | 2-1 | 16 | 16 |
+| 16 | LKN Lightning - Ogburn | Huntersville, NC | 3-1 | 16 | 16 |
 | 17 | BOILING SPRINGS BULLDOGS BASEBALL 8u | Boiling Springs, NC | 1-3 | 10 | 39 |
 | 18 | Lake Wylie Venom | Lake Wylie, SC | 2-1 | 48 | 12 |
 
@@ -223,8 +223,8 @@ Tournament 12522 - [schedule page](https://playtopgunsports.com/GameTimesResults
 | G | When | Field | Team A | Team B |
 |---|---|---|---|---|
 | 1 | Sun 9:00 AM | Bradford:Field # 3 | (#11) LKN Lightning - Ogburn 13 | (#14) Dirtbags Shook 11 |
-| 2 | Sun 11:00 AM | Bradford:Field # 3 | (#12) LumberJacks 15 | (#13) Concord Athletics -9U 18 |
-| 3 | Sun 1:00 PM | Bradford:Field # 3 | Winner Game #1 LKN Lightning - Ogburn | Winner Game #2 Concord Athletics -9U |
+| 2 | Sun 11:00 AM | Bradford:Field # 3 | (#12) LumberJacks 12 | (#13) Concord Athletics -9U 18 |
+| 3 | Sun 1:00 PM | Bradford:Field # 3 | Winner Game #1 LKN Lightning - Ogburn 12 | Winner Game #2 Concord Athletics -9U 11 |
 
 **Copper Bracket**
 

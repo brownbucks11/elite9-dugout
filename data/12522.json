@@ -565,7 +565,7 @@
           "team": "Concord Athletics -9U",
           "location": "Concord, NC",
           "won": 1,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 22,
           "runs_scored": 4,
           "team_page_id": null
@@ -594,7 +594,7 @@
           "seed": 16,
           "team": "LKN Lightning - Ogburn",
           "location": "Huntersville, NC",
-          "won": 2,
+          "won": 3,
           "lost": 1,
           "runs_allowed": 16,
           "runs_scored": 16,
@@ -960,7 +960,7 @@
             "field": "Bradford:Field # 3",
             "team_a": "LumberJacks",
             "seed_a": 12,
-            "score_a": 15,
+            "score_a": 12,
             "team_b": "Concord Athletics -9U",
             "seed_b": 13,
             "score_b": 18
@@ -972,10 +972,10 @@
             "field": "Bradford:Field # 3",
             "team_a": "Winner Game #1 LKN Lightning - Ogburn",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 12,
             "team_b": "Winner Game #2 Concord Athletics -9U",
             "seed_b": null,
-            "score_b": null
+            "score_b": 11
           }
         ],
         "Copper Bracket": [
@@ -1165,7 +1165,7 @@
           "seed": 8,
           "team": "SBA Lake Norman Thunder - White",
           "location": "Cornelius, NC",
-          "won": 1,
+          "won": 2,
           "lost": 2,
           "runs_allowed": 16,
           "runs_scored": 4,
@@ -1316,7 +1316,7 @@
           "team": "MP Bombers 10U",
           "location": "Mount Pleasant, NC",
           "won": 2,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 23,
           "runs_scored": 24,
           "team_page_id": null
@@ -1771,10 +1771,10 @@
             "field": "Mazeppa:Field # 3",
             "team_a": "Winner Game #1 SBA Lake Norman Thunder - White",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 12,
             "team_b": "Winner Game #2 MP Bombers 10U",
             "seed_b": null,
-            "score_b": null
+            "score_b": 10
           }
         ],
         "Select Bracket": [
@@ -2798,7 +2798,7 @@
           "team": "Carolina Locos-Black",
           "location": "Waxhaw, NC",
           "won": 1,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 24,
           "runs_scored": 13,
           "team_page_id": null
@@ -2807,7 +2807,7 @@
           "seed": 5,
           "team": "Power Cross 2033",
           "location": "Statesville, NC",
-          "won": 1,
+          "won": 2,
           "lost": 1,
           "runs_allowed": 18,
           "runs_scored": 19,
@@ -3123,10 +3123,10 @@
             "field": "Westmoreld:Field 2",
             "team_a": "Power Cross 2033",
             "seed_a": 7,
-            "score_a": null,
+            "score_a": 13,
             "team_b": "Carolina Locos-Black",
             "seed_b": 10,
-            "score_b": null
+            "score_b": 12
           },
           {
             "game": 2,
@@ -3145,7 +3145,7 @@
             "day": "Sun",
             "time": "5:00 PM",
             "field": "Westmoreld:Field 2",
-            "team_a": "Winner Game #1",
+            "team_a": "Winner Game #1 Power Cross 2033",
             "seed_a": null,
             "score_a": null,
             "team_b": "Winner Game #2",
@@ -3585,7 +3585,7 @@
           "seed": 10,
           "team": "Newport Bombers 14U Ferguson",
           "location": "Rock Hill, SC",
-          "won": 1,
+          "won": 2,
           "lost": 1,
           "runs_allowed": 10,
           "runs_scored": 8,
@@ -3626,7 +3626,7 @@
           "team": "South Carolina Aces",
           "location": "Chester, SC",
           "won": 2,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 23,
           "runs_scored": 15,
           "team_page_id": null
@@ -3941,10 +3941,10 @@
             "field": "TOB:Field 1",
             "team_a": "Winner Game #1 South Carolina Aces",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 4,
             "team_b": "Newport Bombers 14U Ferguson",
             "seed_b": 7,
-            "score_b": null
+            "score_b": 5
           },
           {
             "game": 4,
@@ -3963,7 +3963,7 @@
             "day": "Sun",
             "time": "4:30 PM",
             "field": "TOB:Field 1",
-            "team_a": "Winner Game #3",
+            "team_a": "Winner Game #3 Newport Bombers 14U Ferguson",
             "seed_a": null,
             "score_a": null,
             "team_b": "Winner Game #4",
@@ -4677,7 +4677,7 @@
           "team": "P413 Buchanan",
           "location": "ADVANCE, NC",
           "won": 1,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 12,
           "runs_scored": 8,
           "team_page_id": null
@@ -4716,7 +4716,7 @@
           "seed": 5,
           "team": "Carolina Shorebirds",
           "location": "Lexington, NC",
-          "won": 0,
+          "won": 1,
           "lost": 2,
           "runs_allowed": 24,
           "runs_scored": 8,
@@ -4898,10 +4898,10 @@
             "field": "Mazeppa:Field # 4",
             "team_a": "P413 Buchanan",
             "seed_a": 5,
-            "score_a": null,
+            "score_a": 3,
             "team_b": "Carolina Shorebirds",
             "seed_b": 8,
-            "score_b": null
+            "score_b": 5
           },
           {
             "game": 2,
@@ -4920,7 +4920,7 @@
             "day": "Sun",
             "time": "5:00 PM",
             "field": "Mazeppa:Field # 4",
-            "team_a": "Winner Game #1",
+            "team_a": "Winner Game #1 Carolina Shorebirds",
             "seed_a": null,
             "score_a": null,
             "team_b": "Winner Game #2",
@@ -4933,5 +4933,5 @@
   },
   "site_last_updated": "10/22/2026 7:46 AM",
   "tournament_id": 12522,
-  "fetched_at": "2026-10-25T15:01"
+  "fetched_at": "2026-10-25T15:12"
 }
