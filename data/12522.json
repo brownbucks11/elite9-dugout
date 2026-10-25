@@ -4483,10 +4483,10 @@
           "seed": 2,
           "team": "MARA Machine",
           "location": "Matthews, NC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
-          "runs_allowed": 1,
-          "runs_scored": 12,
+          "runs_allowed": 3,
+          "runs_scored": 19,
           "team_page_id": null
         },
         {
@@ -4524,9 +4524,9 @@
           "team": "Regulators",
           "location": "Indian Trail, NC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 7,
-          "runs_scored": 1,
+          "lost": 2,
+          "runs_allowed": 14,
+          "runs_scored": 3,
           "team_page_id": null
         }
       ],
@@ -4599,10 +4599,10 @@
             "field": "TOB:Field 1",
             "team_a": "MARA Machine",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 7,
             "team_b": "Regulators",
             "seed_b": null,
-            "score_b": null
+            "score_b": 2
           }
         ],
         "Gold Bracket": [
@@ -4933,5 +4933,5 @@
   },
   "site_last_updated": "10/22/2026 7:46 AM",
   "tournament_id": 12522,
-  "fetched_at": "2026-10-24T20:30"
+  "fetched_at": "2026-10-24T20:41"
 }
