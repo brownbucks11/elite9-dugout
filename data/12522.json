@@ -1195,7 +1195,7 @@
           "seed": 11,
           "team": "PeeDee Mudcats",
           "location": "Wadesboro, NC",
-          "won": 2,
+          "won": 3,
           "lost": 1,
           "runs_allowed": 14,
           "runs_scored": 25,
@@ -1216,7 +1216,7 @@
           "team": "Carolina Hit Stix",
           "location": "Richburg, SC",
           "won": 2,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 19,
           "runs_scored": 36,
           "team_page_id": null
@@ -1683,10 +1683,10 @@
             "field": "Ferguson:Field # 2",
             "team_a": "Winner Game #1 PeeDee Mudcats",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 11,
             "team_b": "Carolina Hit Stix",
             "seed_b": 6,
-            "score_b": null
+            "score_b": 3
           },
           {
             "game": 4,
@@ -1696,7 +1696,7 @@
             "team_a": "Winner Game #2 LKN Kingdom",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Winner Game #3",
+            "team_b": "Winner Game #3 PeeDee Mudcats",
             "seed_b": null,
             "score_b": null
           }
@@ -1825,7 +1825,7 @@
           "team": "Weddington Warriors",
           "location": "Weddington, NC",
           "won": 2,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 9,
           "runs_scored": 12,
           "team_page_id": null
@@ -1874,7 +1874,7 @@
           "seed": 6,
           "team": "SBA Lake Norman Thunder - Blue",
           "location": "Cornelius, NC",
-          "won": 2,
+          "won": 3,
           "lost": 0,
           "runs_allowed": 4,
           "runs_scored": 24,
@@ -4933,5 +4933,5 @@
   },
   "site_last_updated": "10/22/2026 7:46 AM",
   "tournament_id": 12522,
-  "fetched_at": "2026-10-25T14:19"
+  "fetched_at": "2026-10-25T14:30"
 }
