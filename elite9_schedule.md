@@ -1,5 +1,5 @@
 # Elite 9 - Top Gun schedule
-_Updated Sun Oct 25, 2026 02:51 PM_
+_Updated Sun Oct 25, 2026 03:01 PM_
 
 ## SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND
 September 26 - 27 in Greater Charlotte Area, NC  
@@ -167,7 +167,7 @@ October 24 - 25 in Greater Charlotte Area, NC
 Tournament 12522 - [schedule page](https://playtopgunsports.com/GameTimesResults.aspx?trnid=12522)
 
 ### 9U  Modified Stealing
-**Standing:** #7 of 18  -  2-0, RS 30, RA 13
+**Standing:** #7 of 18  -  2-1, RS 30, RA 13
 
 **Elite 9 games**
 
@@ -175,7 +175,7 @@ Tournament 12522 - [schedule page](https://playtopgunsports.com/GameTimesResults
 |---|---|---|---|---|
 | Pool 6 | Sat 10:15 AM | SP:Field #1 | BOILING SPRINGS BULLDOGS BASEBALL 8u 9 | Elite 9 22 |
 | Pool 9 | Sat 12:00 PM | SP:Field #1 | Hooligans 4 | Elite 9 8 |
-| Silv 3 | Sun 1:00 PM | Bradford:Field # 2 | Winner Game #1 Red Clay Athletics 9U Darcangelo | (#6) Elite 9 |
+| Silv 3 | Sun 1:00 PM | Bradford:Field # 2 | Winner Game #1 Red Clay Athletics 9U Darcangelo 19 | (#6) Elite 9 6 |
 
 **9U standings**
 
@@ -185,9 +185,9 @@ Tournament 12522 - [schedule page](https://playtopgunsports.com/GameTimesResults
 | 2 | Hooligans | Mount Holly, NC | 2-1 | 21 | 9 |
 | 3 | LumberJacks | Gaston County, NC | 1-2 | 23 | 26 |
 | 4 | Carolina Trash Pandas | Locust, NC | 3-0 | 26 | 7 |
-| 5 | Red Clay Athletics 9U Darcangelo | Charlotte, NC | 2-1 | 16 | 16 |
+| 5 | Red Clay Athletics 9U Darcangelo | Charlotte, NC | 3-1 | 16 | 16 |
 | 6 | Dirtbags Baseball ESB | Lincolnton, NC | 4-0 | 29 | 11 |
-| 7 | Elite 9 **<--** | Rock Hill, SC | 2-0 | 30 | 13 |
+| 7 | Elite 9 **<--** | Rock Hill, SC | 2-1 | 30 | 13 |
 | 8 | Carolina Regulators 9u | Stanley, NC | 2-2 | 11 | 29 |
 | 9 | Carolina Elevate | Lenoir, NC | 0-3 | 7 | 40 |
 | 10 | Dirtbags Shook | Claremont, NC | 0-3 | 3 | 25 |
@@ -215,8 +215,8 @@ Tournament 12522 - [schedule page](https://playtopgunsports.com/GameTimesResults
 |---|---|---|---|---|
 | 1 | Sun 9:00 AM | Bradford:Field # 2 | (#9) MARA Stingers 11 | (#10) Red Clay Athletics 9U Darcangelo 17 |
 | 2 | Sun 11:00 AM | Bradford:Field # 2 | (#7) ZT Knuckleheads 3 | (#8) Hooligans 9 |
-| 3 | Sun 1:00 PM | Bradford:Field # 2 | Winner Game #1 Red Clay Athletics 9U Darcangelo | (#6) Elite 9 |
-| 4 | Sun 3:00 PM | Bradford:Field # 2 | Winner Game #2 Hooligans | Winner Game #3 |
+| 3 | Sun 1:00 PM | Bradford:Field # 2 | Winner Game #1 Red Clay Athletics 9U Darcangelo 19 | (#6) Elite 9 6 |
+| 4 | Sun 3:00 PM | Bradford:Field # 2 | Winner Game #2 Hooligans | Winner Game #3 Red Clay Athletics 9U Darcangelo |
 
 **Bronze Bracket**
 
