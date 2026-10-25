@@ -1105,10 +1105,10 @@
           "seed": 2,
           "team": "Copperheads Red",
           "location": "Mooresville, NC",
-          "won": 0,
+          "won": 1,
           "lost": 1,
-          "runs_allowed": 6,
-          "runs_scored": 5,
+          "runs_allowed": 18,
+          "runs_scored": 18,
           "team_page_id": null
         },
         {
@@ -1126,9 +1126,9 @@
           "team": "Lincoln County Warriors",
           "location": "Lincolnton, NC",
           "won": 1,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 6,
+          "lost": 1,
+          "runs_allowed": 13,
+          "runs_scored": 18,
           "team_page_id": null
         },
         {
@@ -1266,9 +1266,9 @@
           "team": "Yellow Jackets",
           "location": "Bessemer City, NC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 15,
-          "runs_scored": 3,
+          "lost": 2,
+          "runs_allowed": 28,
+          "runs_scored": 4,
           "team_page_id": null
         },
         {
@@ -1305,10 +1305,10 @@
           "seed": 22,
           "team": "Carolina Elevate Bolick",
           "location": "Lenoir, NC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
-          "runs_allowed": 7,
-          "runs_scored": 8,
+          "runs_allowed": 8,
+          "runs_scored": 21,
           "team_page_id": null
         },
         {
@@ -1571,10 +1571,10 @@
             "field": "SP:Field #3",
             "team_a": "Yellow Jackets",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 1,
             "team_b": "Carolina Elevate Bolick",
             "seed_b": null,
-            "score_b": null
+            "score_b": 13
           },
           {
             "game": 22,
@@ -1583,10 +1583,10 @@
             "field": "Westmoreld:Field 2",
             "team_a": "Lincoln County Warriors",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 12,
             "team_b": "Copperheads Red",
             "seed_b": null,
-            "score_b": null
+            "score_b": 13
           },
           {
             "game": 23,
@@ -1607,10 +1607,10 @@
             "day": "Sun",
             "time": "9:00 AM",
             "field": "Ferguson:Field # 1",
-            "team_a": "",
+            "team_a": "Carolina Elevate Bolick",
             "seed_a": 4,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Shelby Storm 10u",
             "seed_b": 5,
             "score_b": null
           },
@@ -1619,10 +1619,10 @@
             "day": "Sun",
             "time": "11:00 AM",
             "field": "Ferguson:Field # 1",
-            "team_a": "",
+            "team_a": "SBA Lake Norman Thunder - Blue",
             "seed_a": 2,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Rutherford Baseball Academy Team Davis",
             "seed_b": 3,
             "score_b": null
           },
@@ -1634,7 +1634,7 @@
             "team_a": "Winner Game #1",
             "seed_a": null,
             "score_a": null,
-            "team_b": "",
+            "team_b": "East Rowan",
             "seed_b": 1,
             "score_b": null
           },
@@ -1657,10 +1657,10 @@
             "day": "Sun",
             "time": "9:00 AM",
             "field": "Ferguson:Field # 2",
-            "team_a": "",
+            "team_a": "Lincoln County Warriors",
             "seed_a": 9,
             "score_a": null,
-            "team_b": "",
+            "team_b": "PeeDee Mudcats",
             "seed_b": 10,
             "score_b": null
           },
@@ -1669,10 +1669,10 @@
             "day": "Sun",
             "time": "11:00 AM",
             "field": "Ferguson:Field # 2",
-            "team_a": "",
+            "team_a": "LKN Kingdom",
             "seed_a": 7,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Tega Cay Titans",
             "seed_b": 8,
             "score_b": null
           },
@@ -1684,7 +1684,7 @@
             "team_a": "Winner Game #1",
             "seed_a": null,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Carolina Hit Stix",
             "seed_b": 6,
             "score_b": null
           },
@@ -1707,10 +1707,10 @@
             "day": "Sun",
             "time": "9:00 AM",
             "field": "Mazeppa:Field # 2",
-            "team_a": "",
+            "team_a": "Red Clay Athletics 10U Latimer",
             "seed_a": 11,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Carolina Ghost 10u",
             "seed_b": 14,
             "score_b": null
           },
@@ -1719,10 +1719,10 @@
             "day": "Sun",
             "time": "11:00 AM",
             "field": "Mazeppa:Field # 2",
-            "team_a": "",
+            "team_a": "ELITE BASEBALL EBC 10U",
             "seed_a": 12,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Copperheads Red",
             "seed_b": 13,
             "score_b": null
           },
@@ -1745,10 +1745,10 @@
             "day": "Sun",
             "time": "9:00 AM",
             "field": "Mazeppa:Field # 3",
-            "team_a": "",
+            "team_a": "Stingers",
             "seed_a": 15,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Sandlot Baseball",
             "seed_b": 18,
             "score_b": null
           },
@@ -1757,10 +1757,10 @@
             "day": "Sun",
             "time": "11:00 AM",
             "field": "Mazeppa:Field # 3",
-            "team_a": "",
+            "team_a": "MP Bombers 10U",
             "seed_a": 16,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Elite9 10u",
             "seed_b": 17,
             "score_b": null
           },
@@ -1783,10 +1783,10 @@
             "day": "Sun",
             "time": "9:00 AM",
             "field": "SP:Field #3",
-            "team_a": "",
+            "team_a": "SBA Lake Norman Thunder - White",
             "seed_a": 19,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Yellow Jackets",
             "seed_b": 22,
             "score_b": null
           },
@@ -1795,10 +1795,10 @@
             "day": "Sun",
             "time": "9:00 AM",
             "field": "SP:Field #1",
-            "team_a": "",
+            "team_a": "Carolina Forge 10U",
             "seed_a": 20,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Newport Bombers 10U Yerdon",
             "seed_b": 21,
             "score_b": null
           },
@@ -4089,9 +4089,9 @@
           "team": "High Point Aces",
           "location": "High Point, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 2,
+          "runs_allowed": 20,
+          "runs_scored": 1,
           "team_page_id": null
         },
         {
@@ -4128,20 +4128,20 @@
           "seed": 12,
           "team": "Roanoke Valley Ballers ( Orange )",
           "location": "roanoke, VA",
-          "won": 0,
+          "won": 1,
           "lost": 1,
           "runs_allowed": 12,
-          "runs_scored": 1,
+          "runs_scored": 5,
           "team_page_id": null
         },
         {
           "seed": 13,
           "team": "BP3 Ruff Ryderz 14U",
           "location": "Waxhaw, NC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
-          "runs_allowed": 2,
-          "runs_scored": 6,
+          "runs_allowed": 3,
+          "runs_scored": 22,
           "team_page_id": null
         },
         {
@@ -4284,10 +4284,10 @@
             "field": "MRH:Marvin Ridge HS",
             "team_a": "Roanoke Valley Ballers ( Orange )",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 4,
             "team_b": "High Point Aces",
             "seed_b": null,
-            "score_b": null
+            "score_b": 0
           },
           {
             "game": 12,
@@ -4320,10 +4320,10 @@
             "field": "MRH:Marvin Ridge HS",
             "team_a": "BP3 Ruff Ryderz 14U",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 16,
             "team_b": "High Point Aces",
             "seed_b": null,
-            "score_b": null
+            "score_b": 1
           }
         ],
         "Gold Bracket": [
@@ -4332,10 +4332,10 @@
             "day": "Sun",
             "time": "9:00 AM",
             "field": "CMHP:CaroMont",
-            "team_a": "",
+            "team_a": "Dry Pond 14U",
             "seed_a": 4,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Red Clay Athletics 15U Drury",
             "seed_b": 5,
             "score_b": null
           },
@@ -4344,10 +4344,10 @@
             "day": "Sun",
             "time": "11:00 AM",
             "field": "CMHP:CaroMont",
-            "team_a": "",
+            "team_a": "BP3 Ruff Ryderz 14U",
             "seed_a": 3,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Camel City Baseball",
             "seed_b": 6,
             "score_b": null
           },
@@ -4359,7 +4359,7 @@
             "team_a": "Winner Game #1",
             "seed_a": null,
             "score_a": null,
-            "team_b": "",
+            "team_b": "CC CARDINALS 15U",
             "seed_b": 1,
             "score_b": null
           },
@@ -4371,7 +4371,7 @@
             "team_a": "Winner Game #2",
             "seed_a": null,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Roanoke Valley Ballers",
             "seed_b": 2,
             "score_b": null
           },
@@ -4394,10 +4394,10 @@
             "day": "Sun",
             "time": "11:00 AM",
             "field": "MRH:Marvin Ridge HS",
-            "team_a": "",
+            "team_a": "Mount Holly Hawks",
             "seed_a": 7,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Union County Badboys",
             "seed_b": 10,
             "score_b": null
           },
@@ -4406,10 +4406,10 @@
             "day": "Sun",
             "time": "1:00 PM",
             "field": "MRH:Marvin Ridge HS",
-            "team_a": "",
+            "team_a": "Roanoke Valley Ballers ( Orange )",
             "seed_a": 8,
             "score_a": null,
-            "team_b": "",
+            "team_b": "CBC Prospects Blue 15u",
             "seed_b": 9,
             "score_b": null
           },
@@ -4432,10 +4432,10 @@
             "day": "Sun",
             "time": "1:00 PM",
             "field": "MRH:Marvin Ridge MS",
-            "team_a": "",
+            "team_a": "Atomic Baseball 2030",
             "seed_a": 11,
             "score_a": null,
-            "team_b": "",
+            "team_b": "High Point Aces",
             "seed_b": 14,
             "score_b": null
           },
@@ -4444,10 +4444,10 @@
             "day": "Sun",
             "time": "3:00 PM",
             "field": "MRH:Marvin Ridge MS",
-            "team_a": "",
+            "team_a": "CBC Knuckleheads Fox",
             "seed_a": 12,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Carolina Blue Bloods",
             "seed_b": 13,
             "score_b": null
           },
@@ -4933,5 +4933,5 @@
   },
   "site_last_updated": "10/22/2026 7:46 AM",
   "tournament_id": 12522,
-  "fetched_at": "2026-10-24T21:12"
+  "fetched_at": "2026-10-24T21:23"
 }
