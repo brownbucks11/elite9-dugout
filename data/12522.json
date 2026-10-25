@@ -1884,7 +1884,7 @@
           "seed": 7,
           "team": "Mara Select",
           "location": "Matthews, NC",
-          "won": 1,
+          "won": 2,
           "lost": 1,
           "runs_allowed": 15,
           "runs_scored": 14,
@@ -1925,7 +1925,7 @@
           "team": "5 Star Carolina Grit",
           "location": "Summerfield, NC",
           "won": 2,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 18,
           "runs_scored": 14,
           "team_page_id": null
@@ -2034,7 +2034,7 @@
           "seed": 10,
           "team": "Carolina Hit Stix",
           "location": "EDGEMOOR, SC",
-          "won": 3,
+          "won": 4,
           "lost": 0,
           "runs_allowed": 10,
           "runs_scored": 22,
@@ -2075,7 +2075,7 @@
           "team": "Camel City",
           "location": "Winston-Salem, NC",
           "won": 2,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 6,
           "runs_scored": 27,
           "team_page_id": null
@@ -2450,10 +2450,10 @@
             "field": "Tega Cay:Field 1",
             "team_a": "Winner Game #2 Carolina Hit Stix",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 13,
             "team_b": "Camel City",
             "seed_b": 2,
-            "score_b": null
+            "score_b": 4
           },
           {
             "game": 5,
@@ -2463,7 +2463,7 @@
             "team_a": "Winner Game #3 MP Bombers 11U",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Winner Game #4",
+            "team_b": "Winner Game #4 Carolina Hit Stix",
             "seed_b": null,
             "score_b": null
           }
@@ -3615,7 +3615,7 @@
           "seed": 13,
           "team": "Mooresville Biscuits",
           "location": "Mooresville, NC",
-          "won": 1,
+          "won": 2,
           "lost": 1,
           "runs_allowed": 13,
           "runs_scored": 7,
@@ -3646,7 +3646,7 @@
           "team": "NWNC elite navy",
           "location": "Wilkesboro, NC",
           "won": 1,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 8,
           "runs_scored": 2,
           "team_page_id": null
@@ -3953,10 +3953,10 @@
             "field": "TOB:Field 1",
             "team_a": "Winner Game #2 NWNC elite navy",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 4,
             "team_b": "Mooresville Biscuits",
             "seed_b": 8,
-            "score_b": null
+            "score_b": 8
           },
           {
             "game": 5,
@@ -3966,7 +3966,7 @@
             "team_a": "Winner Game #3 Newport Bombers 14U Ferguson",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Winner Game #4",
+            "team_b": "Winner Game #4 Mooresville Biscuits",
             "seed_b": null,
             "score_b": null
           }
@@ -4079,7 +4079,7 @@
           "team": "Dry Pond 14U",
           "location": "Denver, NC",
           "won": 3,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 5,
           "runs_scored": 18,
           "team_page_id": null
@@ -4108,7 +4108,7 @@
           "seed": 10,
           "team": "Roanoke Valley Ballers",
           "location": "Salem, VA",
-          "won": 2,
+          "won": 3,
           "lost": 0,
           "runs_allowed": 2,
           "runs_scored": 5,
@@ -4370,10 +4370,10 @@
             "field": "CMHP:CaroMont",
             "team_a": "Winner Game #2 Dry Pond 14U",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 7,
             "team_b": "Roanoke Valley Ballers",
             "seed_b": 2,
-            "score_b": null
+            "score_b": 8
           },
           {
             "game": 5,
@@ -4383,7 +4383,7 @@
             "team_a": "Winner Game #3 CC CARDINALS 15U",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Winner Game #4",
+            "team_b": "Winner Game #4 Roanoke Valley Ballers",
             "seed_b": null,
             "score_b": null
           }
@@ -4933,5 +4933,5 @@
   },
   "site_last_updated": "10/22/2026 7:46 AM",
   "tournament_id": 12522,
-  "fetched_at": "2026-10-25T17:28"
+  "fetched_at": "2026-10-25T17:38"
 }
