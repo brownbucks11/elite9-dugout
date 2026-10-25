@@ -88,7 +88,7 @@
           "team": "BP3 Ruff Ryderz NC 8U",
           "location": "Waxhaw, NC",
           "won": 0,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 37,
           "runs_scored": 23,
           "team_page_id": null
@@ -117,7 +117,7 @@
           "seed": 5,
           "team": "Carolina Smoke 8u",
           "location": "Concord, NC",
-          "won": 0,
+          "won": 1,
           "lost": 2,
           "runs_allowed": 24,
           "runs_scored": 21,
@@ -391,10 +391,10 @@
             "field": "Westmoreld:Field 1",
             "team_a": "Carolina Smoke 8u",
             "seed_a": 8,
-            "score_a": null,
+            "score_a": 9,
             "team_b": "BP3 Ruff Ryderz NC 8U",
             "seed_b": 9,
-            "score_b": null
+            "score_b": 1
           },
           {
             "game": 2,
@@ -413,7 +413,7 @@
             "day": "Sun",
             "time": "10:15 AM",
             "field": "Westmoreld:Field 1",
-            "team_a": "Loser Game #1",
+            "team_a": "Loser Game #1 BP3 Ruff Ryderz NC 8U",
             "seed_a": null,
             "score_a": null,
             "team_b": "Loser Game #2",
@@ -425,7 +425,7 @@
             "day": "Sun",
             "time": "10:15 AM",
             "field": "Westmoreld:Field 4",
-            "team_a": "Winner Game #1",
+            "team_a": "Winner Game #1 Carolina Smoke 8u",
             "seed_a": null,
             "score_a": null,
             "team_b": "Winner Game #2",
@@ -4933,5 +4933,5 @@
   },
   "site_last_updated": "10/22/2026 7:46 AM",
   "tournament_id": 12522,
-  "fetched_at": "2026-10-25T09:35"
+  "fetched_at": "2026-10-25T09:46"
 }
