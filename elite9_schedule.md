@@ -1,5 +1,5 @@
 # Elite 9 - Top Gun schedule
-_Updated Sun Oct 25, 2026 01:48 PM_
+_Updated Sun Oct 25, 2026 01:58 PM_
 
 ## SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND
 September 26 - 27 in Greater Charlotte Area, NC  
@@ -181,14 +181,14 @@ Tournament 12522 - [schedule page](https://playtopgunsports.com/GameTimesResults
 
 | # | Team | From | W-L | RS | RA |
 |---|---|---|---|---|---|
-| 1 | NL Destroyers 2036 | Denver, NC | 2-0 | 23 | 3 |
+| 1 | NL Destroyers 2036 | Denver, NC | 2-1 | 23 | 3 |
 | 2 | Hooligans | Mount Holly, NC | 2-1 | 21 | 9 |
 | 3 | LumberJacks | Gaston County, NC | 1-2 | 23 | 26 |
 | 4 | Carolina Trash Pandas | Locust, NC | 3-0 | 26 | 7 |
 | 5 | Red Clay Athletics 9U Darcangelo | Charlotte, NC | 2-1 | 16 | 16 |
-| 6 | Dirtbags Baseball ESB | Lincolnton, NC | 3-0 | 29 | 11 |
+| 6 | Dirtbags Baseball ESB | Lincolnton, NC | 4-0 | 29 | 11 |
 | 7 | Elite 9 **<--** | Rock Hill, SC | 2-0 | 30 | 13 |
-| 8 | Carolina Regulators 9u | Stanley, NC | 1-2 | 11 | 29 |
+| 8 | Carolina Regulators 9u | Stanley, NC | 2-2 | 11 | 29 |
 | 9 | Carolina Elevate | Lenoir, NC | 0-3 | 7 | 40 |
 | 10 | Dirtbags Shook | Claremont, NC | 0-3 | 3 | 25 |
 | 11 | ZT Knuckleheads | Clover, SC | 1-2 | 21 | 7 |
@@ -197,7 +197,7 @@ Tournament 12522 - [schedule page](https://playtopgunsports.com/GameTimesResults
 | 14 | MARA Stingers | Matthews, NC | 1-2 | 17 | 13 |
 | 15 | Athletes Lab 9U Navy- Stewart | Maiden, NC | 2-1 | 18 | 7 |
 | 16 | LKN Lightning - Ogburn | Huntersville, NC | 2-1 | 16 | 16 |
-| 17 | BOILING SPRINGS BULLDOGS BASEBALL 8u | Boiling Springs, NC | 1-2 | 10 | 39 |
+| 17 | BOILING SPRINGS BULLDOGS BASEBALL 8u | Boiling Springs, NC | 1-3 | 10 | 39 |
 | 18 | Lake Wylie Venom | Lake Wylie, SC | 2-1 | 48 | 12 |
 
 **Gold Bracket**
@@ -206,8 +206,8 @@ Tournament 12522 - [schedule page](https://playtopgunsports.com/GameTimesResults
 |---|---|---|---|---|
 | 1 | Sun 9:00 AM | Bradford:Field # 1 | (#4) Dirtbags Baseball ESB 9 | (#5) Lake Wylie Venom 1 |
 | 2 | Sun 11:00 AM | Bradford:Field # 1 | (#2) Carolina Trash Pandas 12 | (#3) Athletes Lab 9U Navy- Stewart 4 |
-| 3 | Sun 1:00 PM | Bradford:Field # 1 | Winner Game #1 Dirtbags Baseball ESB | (#1) NL Destroyers 2036 |
-| 4 | Sun 3:00 PM | Bradford:Field # 1 | Winner Game #2 Carolina Trash Pandas | Winner Game #3 |
+| 3 | Sun 1:00 PM | Bradford:Field # 1 | Winner Game #1 Dirtbags Baseball ESB 9 | (#1) NL Destroyers 2036 1 |
+| 4 | Sun 3:00 PM | Bradford:Field # 1 | Winner Game #2 Carolina Trash Pandas | Winner Game #3 Dirtbags Baseball ESB |
 
 **Silver Bracket**
 
@@ -232,7 +232,7 @@ Tournament 12522 - [schedule page](https://playtopgunsports.com/GameTimesResults
 |---|---|---|---|---|
 | 1 | Sun 9:00 AM | Bradford:Field # 4 | (#15) Carolina Regulators 9u 9 | (#18) Carolina Elevate 5 |
 | 2 | Sun 11:00 AM | Bradford:Field # 4 | (#16) Diamond Jaxx 0 | (#17) BOILING SPRINGS BULLDOGS BASEBALL 8u 13 |
-| 3 | Sun 1:00 PM | Bradford:Field # 4 | Winner Game #1 Carolina Regulators 9u | Winner Game #2 BOILING SPRINGS BULLDOGS BASEBALL 8u |
+| 3 | Sun 1:00 PM | Bradford:Field # 4 | Winner Game #1 Carolina Regulators 9u 15 | Winner Game #2 BOILING SPRINGS BULLDOGS BASEBALL 8u 2 |
 
 ## ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO
 November 7 - 8 in Greater Charlotte Area, NC  
