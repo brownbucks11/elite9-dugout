@@ -1205,7 +1205,7 @@
           "seed": 12,
           "team": "Carolina Forge 10U",
           "location": "Gastonia, NC",
-          "won": 0,
+          "won": 1,
           "lost": 2,
           "runs_allowed": 18,
           "runs_scored": 10,
@@ -1246,7 +1246,7 @@
           "team": "Aces",
           "location": "Kings Mountain, NC",
           "won": 0,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 44,
           "runs_scored": 9,
           "team_page_id": null
@@ -1785,10 +1785,10 @@
             "field": "SP:Field #3",
             "team_a": "Carolina Forge 10U",
             "seed_a": 19,
-            "score_a": null,
+            "score_a": 14,
             "team_b": "Aces",
             "seed_b": 22,
-            "score_b": null
+            "score_b": 3
           },
           {
             "game": 2,
@@ -1807,7 +1807,7 @@
             "day": "Sun",
             "time": "11:00 AM",
             "field": "SP:Field #3",
-            "team_a": "Winner Game #1",
+            "team_a": "Winner Game #1 Carolina Forge 10U",
             "seed_a": null,
             "score_a": null,
             "team_b": "Winner Game #2",
@@ -3209,7 +3209,7 @@
           "team": "Athletes lab Reynolds",
           "location": "Hickory, NC",
           "won": 1,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 10,
           "runs_scored": 11,
           "team_page_id": null
@@ -3228,7 +3228,7 @@
           "seed": 5,
           "team": "Extreme Performance",
           "location": "Salisbury, NC",
-          "won": 1,
+          "won": 2,
           "lost": 1,
           "runs_allowed": 12,
           "runs_scored": 23,
@@ -3556,7 +3556,7 @@
           "team": "Venom Stars",
           "location": "Belwood, NC",
           "won": 0,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 12,
           "runs_scored": 6,
           "team_page_id": null
@@ -3575,7 +3575,7 @@
           "seed": 9,
           "team": "Foothills Elite",
           "location": "Hickory, NC",
-          "won": 0,
+          "won": 1,
           "lost": 2,
           "runs_allowed": 20,
           "runs_scored": 3,
@@ -3606,7 +3606,7 @@
           "team": "ELITE BASEBALL 13/14u EBC",
           "location": "Forest City, NC",
           "won": 1,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 14,
           "runs_scored": 10,
           "team_page_id": null
@@ -3625,7 +3625,7 @@
           "seed": 14,
           "team": "South Carolina Aces",
           "location": "Chester, SC",
-          "won": 1,
+          "won": 2,
           "lost": 1,
           "runs_allowed": 23,
           "runs_scored": 15,
@@ -3917,10 +3917,10 @@
             "field": "TOB:Field 1",
             "team_a": "ELITE BASEBALL 13/14u EBC",
             "seed_a": 10,
-            "score_a": null,
+            "score_a": 3,
             "team_b": "South Carolina Aces",
             "seed_b": 11,
-            "score_b": null
+            "score_b": 5
           },
           {
             "game": 2,
@@ -3939,7 +3939,7 @@
             "day": "Sun",
             "time": "12:30 PM",
             "field": "TOB:Field 1",
-            "team_a": "Winner Game #1",
+            "team_a": "Winner Game #1 South Carolina Aces",
             "seed_a": null,
             "score_a": null,
             "team_b": "Newport Bombers 14U Ferguson",
@@ -3979,10 +3979,10 @@
             "field": "MRH:Marvin Ridge MS",
             "team_a": "Venom Stars",
             "seed_a": 13,
-            "score_a": null,
+            "score_a": 0,
             "team_b": "Foothills Elite",
             "seed_b": 16,
-            "score_b": null
+            "score_b": 12
           },
           {
             "game": 2,
@@ -4001,7 +4001,7 @@
             "day": "Sun",
             "time": "11:00 AM",
             "field": "MRH:Marvin Ridge MS",
-            "team_a": "Winner Game #1",
+            "team_a": "Winner Game #1 Foothills Elite",
             "seed_a": null,
             "score_a": null,
             "team_b": "Winner Game #2",
@@ -4933,5 +4933,5 @@
   },
   "site_last_updated": "10/22/2026 7:46 AM",
   "tournament_id": 12522,
-  "fetched_at": "2026-10-25T10:17"
+  "fetched_at": "2026-10-25T10:27"
 }
