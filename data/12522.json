@@ -2705,7 +2705,7 @@
           "seed": 10,
           "team": "Carolina Bearcats",
           "location": "Greenville, SC",
-          "won": 3,
+          "won": 4,
           "lost": 0,
           "runs_allowed": 2,
           "runs_scored": 20,
@@ -2716,7 +2716,7 @@
           "team": "Odell Chargers",
           "location": "Concord, NC",
           "won": 4,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 15,
           "runs_scored": 21,
           "team_page_id": null
@@ -4057,7 +4057,7 @@
           "team": "CC CARDINALS 15U",
           "location": "SHELBY, NC",
           "won": 3,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 2,
           "runs_scored": 21,
           "team_page_id": null
@@ -4096,7 +4096,7 @@
           "seed": 10,
           "team": "Roanoke Valley Ballers",
           "location": "Salem, VA",
-          "won": 3,
+          "won": 4,
           "lost": 0,
           "runs_allowed": 2,
           "runs_scored": 5,
@@ -4370,10 +4370,10 @@
             "field": "CMHP:CaroMont",
             "team_a": "Winner Game #3 CC CARDINALS 15U",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 0,
             "team_b": "Winner Game #4 Roanoke Valley Ballers",
             "seed_b": null,
-            "score_b": null
+            "score_b": 8
           }
         ],
         "Silver Bracket": [
@@ -4921,5 +4921,5 @@
   },
   "site_last_updated": "10/22/2026 7:46 AM",
   "tournament_id": 12522,
-  "fetched_at": "2026-10-25T19:45"
+  "fetched_at": "2026-10-25T19:56"
 }
