@@ -1115,7 +1115,7 @@
           "seed": 3,
           "team": "SBA Lake Norman Thunder - Blue",
           "location": "Cornelius, NC",
-          "won": 2,
+          "won": 3,
           "lost": 0,
           "runs_allowed": 5,
           "runs_scored": 12,
@@ -1186,7 +1186,7 @@
           "team": "Rutherford Baseball Academy Team Davis",
           "location": "Rutherfordton, NC",
           "won": 2,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 6,
           "runs_scored": 25,
           "team_page_id": null
@@ -1621,10 +1621,10 @@
             "field": "Ferguson:Field # 1",
             "team_a": "SBA Lake Norman Thunder - Blue",
             "seed_a": 2,
-            "score_a": null,
+            "score_a": 12,
             "team_b": "Rutherford Baseball Academy Team Davis",
             "seed_b": 3,
-            "score_b": null
+            "score_b": 0
           },
           {
             "game": 3,
@@ -1643,7 +1643,7 @@
             "day": "Sun",
             "time": "3:00 PM",
             "field": "Ferguson:Field # 1",
-            "team_a": "Winner Game #2",
+            "team_a": "Winner Game #2 SBA Lake Norman Thunder - Blue",
             "seed_a": null,
             "score_a": null,
             "team_b": "Winner Game #3",
@@ -2678,7 +2678,7 @@
           "team": "Carolina Misfits",
           "location": "Tega Cay, SC",
           "won": 1,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 15,
           "runs_scored": 12,
           "team_page_id": null
@@ -2727,7 +2727,7 @@
           "seed": 11,
           "team": "Odell Chargers",
           "location": "Concord, NC",
-          "won": 2,
+          "won": 3,
           "lost": 0,
           "runs_allowed": 15,
           "runs_scored": 21,
@@ -4933,5 +4933,5 @@
   },
   "site_last_updated": "10/22/2026 7:46 AM",
   "tournament_id": 12522,
-  "fetched_at": "2026-10-25T12:44"
+  "fetched_at": "2026-10-25T12:54"
 }
