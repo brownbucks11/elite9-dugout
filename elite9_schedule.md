@@ -1,5 +1,5 @@
 # Elite 9 - Top Gun schedule
-_Updated Sat Oct 24, 2026 08:10 PM_
+_Updated Sat Oct 24, 2026 08:20 PM_
 
 ## SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND
 September 26 - 27 in Greater Charlotte Area, NC  
@@ -175,7 +175,7 @@ Tournament 12522 - [schedule page](https://playtopgunsports.com/GameTimesResults
 |---|---|---|---|---|
 | Pool 6 | Sat 10:15 AM | SP:Field #1 | BOILING SPRINGS BULLDOGS BASEBALL 8u 9 | Elite 9 22 |
 | Pool 9 | Sat 12:00 PM | SP:Field #1 | Hooligans 4 | Elite 9 8 |
-| Gold 1 | Sun 9:00 AM | Bradford:Field # 1 | (#4) Lake Wylie Venom | (#5) Elite 9 |
+| Silv 3 | Sun 1:00 PM | Bradford:Field # 2 | Winner Game #1 | (#6) Elite 9 |
 
 **9U standings**
 
@@ -204,8 +204,8 @@ Tournament 12522 - [schedule page](https://playtopgunsports.com/GameTimesResults
 
 | G | When | Field | Team A | Team B |
 |---|---|---|---|---|
-| 1 | Sun 9:00 AM | Bradford:Field # 1 | (#4) Lake Wylie Venom | (#5) Elite 9 |
-| 2 | Sun 11:00 AM | Bradford:Field # 1 | (#2) Carolina Trash Pandas | (#3) Dirtbags Baseball ESB |
+| 1 | Sun 9:00 AM | Bradford:Field # 1 | (#4) Dirtbags Baseball ESB | (#5) Lake Wylie Venom |
+| 2 | Sun 11:00 AM | Bradford:Field # 1 | (#2) Carolina Trash Pandas | (#3) Athletes Lab 9U Navy- Stewart |
 | 3 | Sun 1:00 PM | Bradford:Field # 1 | Winner Game #1 | (#1) NL Destroyers 2036 |
 | 4 | Sun 3:00 PM | Bradford:Field # 1 | Winner Game #2 | Winner Game #3 |
 
@@ -214,8 +214,8 @@ Tournament 12522 - [schedule page](https://playtopgunsports.com/GameTimesResults
 | G | When | Field | Team A | Team B |
 |---|---|---|---|---|
 | 1 | Sun 9:00 AM | Bradford:Field # 2 | (#9) MARA Stingers | (#10) Red Clay Athletics 9U Darcangelo |
-| 2 | Sun 11:00 AM | Bradford:Field # 2 | (#7) Athletes Lab 9U Navy- Stewart | (#8) Hooligans |
-| 3 | Sun 1:00 PM | Bradford:Field # 2 | Winner Game #1 | (#6) ZT Knuckleheads |
+| 2 | Sun 11:00 AM | Bradford:Field # 2 | (#7) ZT Knuckleheads | (#8) Hooligans |
+| 3 | Sun 1:00 PM | Bradford:Field # 2 | Winner Game #1 | (#6) Elite 9 |
 | 4 | Sun 3:00 PM | Bradford:Field # 2 | Winner Game #2 | Winner Game #3 |
 
 **Bronze Bracket**

@@ -846,10 +846,10 @@
             "day": "Sun",
             "time": "9:00 AM",
             "field": "Bradford:Field # 1",
-            "team_a": "Lake Wylie Venom",
+            "team_a": "Dirtbags Baseball ESB",
             "seed_a": 4,
             "score_a": null,
-            "team_b": "Elite 9",
+            "team_b": "Lake Wylie Venom",
             "seed_b": 5,
             "score_b": null
           },
@@ -861,7 +861,7 @@
             "team_a": "Carolina Trash Pandas",
             "seed_a": 2,
             "score_a": null,
-            "team_b": "Dirtbags Baseball ESB",
+            "team_b": "Athletes Lab 9U Navy- Stewart",
             "seed_b": 3,
             "score_b": null
           },
@@ -908,7 +908,7 @@
             "day": "Sun",
             "time": "11:00 AM",
             "field": "Bradford:Field # 2",
-            "team_a": "Athletes Lab 9U Navy- Stewart",
+            "team_a": "ZT Knuckleheads",
             "seed_a": 7,
             "score_a": null,
             "team_b": "Hooligans",
@@ -923,7 +923,7 @@
             "team_a": "Winner Game #1",
             "seed_a": null,
             "score_a": null,
-            "team_b": "ZT Knuckleheads",
+            "team_b": "Elite 9",
             "seed_b": 6,
             "score_b": null
           },
@@ -2797,10 +2797,10 @@
           "seed": 4,
           "team": "Carolina Locos-Black",
           "location": "Waxhaw, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 9,
+          "runs_scored": 10,
           "team_page_id": null
         },
         {
@@ -2808,9 +2808,9 @@
           "team": "Power Cross 2033",
           "location": "Statesville, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 10,
+          "runs_scored": 9,
           "team_page_id": null
         },
         {
@@ -3011,10 +3011,10 @@
             "field": "Dallas:Field # 1",
             "team_a": "Power Cross 2033",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 9,
             "team_b": "Carolina Locos-Black",
             "seed_b": null,
-            "score_b": null
+            "score_b": 10
           },
           {
             "game": 11,
@@ -4049,9 +4049,9 @@
           "team": "Union County Badboys",
           "location": "Union, SC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 2,
-          "runs_scored": 2,
+          "lost": 1,
+          "runs_allowed": 9,
+          "runs_scored": 3,
           "team_page_id": null
         },
         {
@@ -4068,10 +4068,10 @@
           "seed": 6,
           "team": "CC CARDINALS 15U",
           "location": "SHELBY, NC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
-          "runs_allowed": 1,
-          "runs_scored": 14,
+          "runs_allowed": 2,
+          "runs_scored": 21,
           "team_page_id": null
         },
         {
@@ -4308,10 +4308,10 @@
             "field": "BFF:Field 1",
             "team_a": "Union County Badboys",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 1,
             "team_b": "CC CARDINALS 15U",
             "seed_b": null,
-            "score_b": null
+            "score_b": 7
           },
           {
             "game": 14,
@@ -4933,5 +4933,5 @@
   },
   "site_last_updated": "10/22/2026 7:46 AM",
   "tournament_id": 12522,
-  "fetched_at": "2026-10-24T20:09"
+  "fetched_at": "2026-10-24T20:20"
 }

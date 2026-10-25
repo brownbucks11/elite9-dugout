@@ -3,7 +3,7 @@
  "location": "Rock Hill, SC",
  "page_id": 31407,
  "team_url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=31407",
- "built": "Sat Oct 24, 2026 08:10 PM",
+ "built": "Sat Oct 24, 2026 08:20 PM",
  "record": {
   "w": 6,
   "l": 9,
@@ -242,11 +242,11 @@
    "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
    "date": "2026-10-25",
    "day": "Sun",
-   "time": "9:00 AM",
-   "field": "Bradford:Field # 1",
-   "section": "Gold Bracket",
-   "game": 1,
-   "opponent": "Lake Wylie Venom",
+   "time": "1:00 PM",
+   "field": "Bradford:Field # 2",
+   "section": "Silver Bracket",
+   "game": 3,
+   "opponent": "Winner Game #1",
    "rs": null,
    "ra": null,
    "result": null,
@@ -4031,7 +4031,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-24T20:09",
+    "fetched_at": "2026-10-24T20:20",
     "url": "https://topgunstats.com/whos-playing/12522"
    },
    "next_game": {
@@ -4039,11 +4039,11 @@
     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
     "date": "2026-10-25",
     "day": "Sun",
-    "time": "9:00 AM",
-    "field": "Bradford:Field # 1",
-    "section": "Gold Bracket",
-    "game": 1,
-    "opponent": "Lake Wylie Venom",
+    "time": "1:00 PM",
+    "field": "Bradford:Field # 2",
+    "section": "Silver Bracket",
+    "game": 3,
+    "opponent": "Winner Game #1",
     "rs": null,
     "ra": null,
     "result": null,
@@ -4069,8 +4069,8 @@
     "pool_t": 0,
     "pool_rs": 30,
     "pool_ra": 13,
-    "seed": 5,
-    "bracket": "Gold Bracket",
+    "seed": 6,
+    "bracket": "Silver Bracket",
     "won": 2,
     "lost": 0,
     "rs": 30,
@@ -4149,8 +4149,8 @@
      "pool_t": 0,
      "pool_rs": 18,
      "pool_ra": 7,
-     "seed": 7,
-     "bracket": "Silver Bracket",
+     "seed": 3,
+     "bracket": "Gold Bracket",
      "won": 2,
      "lost": 0,
      "rs": 18,
@@ -4175,7 +4175,7 @@
      "pool_t": 0,
      "pool_rs": 29,
      "pool_ra": 11,
-     "seed": 3,
+     "seed": 4,
      "bracket": "Gold Bracket",
      "won": 2,
      "lost": 0,
@@ -4201,7 +4201,7 @@
      "pool_t": 0,
      "pool_rs": 48,
      "pool_ra": 12,
-     "seed": 4,
+     "seed": 5,
      "bracket": "Gold Bracket",
      "won": 2,
      "lost": 0,
@@ -4227,8 +4227,8 @@
      "pool_t": 0,
      "pool_rs": 30,
      "pool_ra": 13,
-     "seed": 5,
-     "bracket": "Gold Bracket",
+     "seed": 6,
+     "bracket": "Silver Bracket",
      "won": 2,
      "lost": 0,
      "rs": 30,
@@ -4253,7 +4253,7 @@
      "pool_t": 0,
      "pool_rs": 21,
      "pool_ra": 7,
-     "seed": 6,
+     "seed": 7,
      "bracket": "Silver Bracket",
      "won": 1,
      "lost": 1,
@@ -4843,11 +4843,11 @@
      "time": "9:00 AM",
      "date": "2026-10-25",
      "field": "Bradford:Field # 1",
-     "team_a": "Lake Wylie Venom",
+     "team_a": "Dirtbags Baseball ESB",
      "seed_a": 4,
      "score_a": null,
      "from_a": null,
-     "team_b": "Elite 9",
+     "team_b": "Lake Wylie Venom",
      "seed_b": 5,
      "score_b": null,
      "from_b": null
@@ -4863,7 +4863,7 @@
      "seed_a": 2,
      "score_a": null,
      "from_a": null,
-     "team_b": "Dirtbags Baseball ESB",
+     "team_b": "Athletes Lab 9U Navy- Stewart",
      "seed_b": 3,
      "score_b": null,
      "from_b": null
@@ -4932,7 +4932,7 @@
      "time": "11:00 AM",
      "date": "2026-10-25",
      "field": "Bradford:Field # 2",
-     "team_a": "Athletes Lab 9U Navy- Stewart",
+     "team_a": "ZT Knuckleheads",
      "seed_a": 7,
      "score_a": null,
      "from_a": null,
@@ -4955,7 +4955,7 @@
       "type": "winner",
       "game": 1
      },
-     "team_b": "ZT Knuckleheads",
+     "team_b": "Elite 9",
      "seed_b": 6,
      "score_b": null,
      "from_b": null
@@ -8033,8 +8033,8 @@
     "rank": 6,
     "teams": 18,
     "pool": "2-0",
-    "bracket": "Gold Bracket",
-    "seed": 5,
+    "bracket": "Silver Bracket",
+    "seed": 6,
     "bracket_games": [],
     "w": 2,
     "l": 0
@@ -8052,7 +8052,7 @@
      "entered_at": "2026-10-19T08:25:19.373Z",
      "level": "AA"
     },
-    "fetched_at": "2026-10-24T20:09"
+    "fetched_at": "2026-10-24T20:20"
    },
    "tgs": {
     "weather": {
@@ -8197,7 +8197,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-24T20:09",
+    "fetched_at": "2026-10-24T20:20",
     "url": "https://topgunstats.com/whos-playing/12522"
    },
    "name": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
@@ -8501,11 +8501,11 @@
      "time": "9:00 AM",
      "date": "2026-10-25",
      "field": "Bradford:Field # 1",
-     "team_a": "Lake Wylie Venom",
+     "team_a": "Dirtbags Baseball ESB",
      "seed_a": 4,
      "score_a": null,
      "from_a": null,
-     "team_b": "Elite 9",
+     "team_b": "Lake Wylie Venom",
      "seed_b": 5,
      "score_b": null,
      "from_b": null
@@ -8521,7 +8521,7 @@
      "seed_a": 2,
      "score_a": null,
      "from_a": null,
-     "team_b": "Dirtbags Baseball ESB",
+     "team_b": "Athletes Lab 9U Navy- Stewart",
      "seed_b": 3,
      "score_b": null,
      "from_b": null
@@ -8590,7 +8590,7 @@
      "time": "11:00 AM",
      "date": "2026-10-25",
      "field": "Bradford:Field # 2",
-     "team_a": "Athletes Lab 9U Navy- Stewart",
+     "team_a": "ZT Knuckleheads",
      "seed_a": 7,
      "score_a": null,
      "from_a": null,
@@ -8613,7 +8613,7 @@
       "type": "winner",
       "game": 1
      },
-     "team_b": "ZT Knuckleheads",
+     "team_b": "Elite 9",
      "seed_b": 6,
      "score_b": null,
      "from_b": null
@@ -8967,11 +8967,11 @@
      "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
      "date": "2026-10-25",
      "day": "Sun",
-     "time": "9:00 AM",
-     "field": "Bradford:Field # 1",
-     "section": "Gold Bracket",
-     "game": 1,
-     "opponent": "Lake Wylie Venom",
+     "time": "1:00 PM",
+     "field": "Bradford:Field # 2",
+     "section": "Silver Bracket",
+     "game": 3,
+     "opponent": "Winner Game #1",
      "rs": null,
      "ra": null,
      "result": null,
@@ -8983,23 +8983,35 @@
     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
     "date": "2026-10-25",
     "day": "Sun",
-    "time": "9:00 AM",
-    "field": "Bradford:Field # 1",
-    "section": "Gold Bracket",
-    "game": 1,
-    "opponent": "Lake Wylie Venom",
+    "time": "1:00 PM",
+    "field": "Bradford:Field # 2",
+    "section": "Silver Bracket",
+    "game": 3,
+    "opponent": "Winner Game #1",
     "rs": null,
     "ra": null,
     "result": null,
     "gc_id": null
    },
-   "schedule_versions": 2,
+   "schedule_versions": 3,
    "schedule_first": "2026-10-22T10:54",
-   "schedule_updated": "2026-10-24T19:59",
+   "schedule_updated": "2026-10-24T20:20",
    "changes": [
     {
-     "key": "Gold Bracket#1",
+     "key": "Silver Bracket#3",
      "kind": "added"
+    },
+    {
+     "key": "Gold Bracket#1",
+     "kind": "removed",
+     "was": {
+      "key": "Gold Bracket#1",
+      "date": "2026-10-25",
+      "day": "Sun",
+      "time": "9:00 AM",
+      "field": "Bradford:Field # 1",
+      "opponent": "Lake Wylie Venom"
+     }
     }
    ],
    "ics": "ics/12522.ics"
@@ -9018,7 +9030,7 @@
     "team": {
      "entered": false
     },
-    "fetched_at": "2026-10-24T20:09"
+    "fetched_at": "2026-10-24T20:20"
    },
    "tgs": {
     "weather": null,
@@ -9072,7 +9084,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-24T20:09",
+    "fetched_at": "2026-10-24T20:20",
     "url": "https://topgunstats.com/whos-playing/12524"
    },
    "name": "Road Runner vs Coyote ring weekend",
