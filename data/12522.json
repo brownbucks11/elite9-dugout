@@ -2765,7 +2765,7 @@
           "seed": 2,
           "team": "LKN Kingdom",
           "location": "Charlotte, NC",
-          "won": 2,
+          "won": 3,
           "lost": 1,
           "runs_allowed": 24,
           "runs_scored": 13,
@@ -2775,7 +2775,7 @@
           "seed": 3,
           "team": "Stanly County Crushers 12u",
           "location": "Richfield, NC",
-          "won": 3,
+          "won": 4,
           "lost": 0,
           "runs_allowed": 4,
           "runs_scored": 20,
@@ -2796,7 +2796,7 @@
           "team": "Power Cross 2033",
           "location": "Statesville, NC",
           "won": 2,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 18,
           "runs_scored": 19,
           "team_page_id": null
@@ -2806,7 +2806,7 @@
           "team": "Extreme Performance 2033",
           "location": "Salisbury, NC",
           "won": 4,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 12,
           "runs_scored": 20,
           "team_page_id": null
@@ -3097,10 +3097,10 @@
             "field": "Mazeppa:Field # 1",
             "team_a": "Winner Game #3 Stanly County Crushers 12u",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 9,
             "team_b": "Winner Game #4 Extreme Performance 2033",
             "seed_b": null,
-            "score_b": null
+            "score_b": 7
           }
         ],
         "Silver Bracket": [
@@ -3135,10 +3135,10 @@
             "field": "Westmoreld:Field 2",
             "team_a": "Winner Game #1 Power Cross 2033",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 3,
             "team_b": "Winner Game #2 LKN Kingdom",
             "seed_b": null,
-            "score_b": null
+            "score_b": 10
           }
         ],
         "Bronze Bracket": [
@@ -4675,7 +4675,7 @@
           "team": "GATA Baseball",
           "location": "Roanoke, VA",
           "won": 2,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 13,
           "runs_scored": 10,
           "team_page_id": null
@@ -4704,7 +4704,7 @@
           "seed": 5,
           "team": "Carolina Shorebirds",
           "location": "Lexington, NC",
-          "won": 1,
+          "won": 2,
           "lost": 2,
           "runs_allowed": 24,
           "runs_scored": 8,
@@ -4910,10 +4910,10 @@
             "field": "Mazeppa:Field # 4",
             "team_a": "Winner Game #1 Carolina Shorebirds",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 8,
             "team_b": "Winner Game #2 GATA Baseball",
             "seed_b": null,
-            "score_b": null
+            "score_b": 3
           }
         ]
       }
@@ -4921,5 +4921,5 @@
   },
   "site_last_updated": "10/22/2026 7:46 AM",
   "tournament_id": 12522,
-  "fetched_at": "2026-10-25T19:24"
+  "fetched_at": "2026-10-25T19:35"
 }
