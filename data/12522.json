@@ -1994,10 +1994,10 @@
           "seed": 6,
           "team": "Tega Cay Titans",
           "location": "Tega Cay, SC",
-          "won": 0,
+          "won": 1,
           "lost": 1,
-          "runs_allowed": 9,
-          "runs_scored": 3,
+          "runs_allowed": 15,
+          "runs_scored": 19,
           "team_page_id": null
         },
         {
@@ -2115,9 +2115,9 @@
           "team": "Carolina Locos Black",
           "location": "Waxhaw, NC",
           "won": 1,
-          "lost": 0,
-          "runs_allowed": 4,
-          "runs_scored": 12,
+          "lost": 1,
+          "runs_allowed": 20,
+          "runs_scored": 18,
           "team_page_id": null
         },
         {
@@ -2376,10 +2376,10 @@
             "field": "Tega Cay:Field 1",
             "team_a": "Tega Cay Titans",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 16,
             "team_b": "Carolina Locos Black",
             "seed_b": null,
-            "score_b": null
+            "score_b": 6
           },
           {
             "game": 20,
@@ -2412,10 +2412,10 @@
             "day": "Sun",
             "time": "9:00 AM",
             "field": "Tega Cay:Field 1",
-            "team_a": "",
+            "team_a": "Destroyers Baseball",
             "seed_a": 4,
             "score_a": null,
-            "team_b": "",
+            "team_b": "KM Aces",
             "seed_b": 5,
             "score_b": null
           },
@@ -2424,10 +2424,10 @@
             "day": "Sun",
             "time": "11:00 AM",
             "field": "Tega Cay:Field 1",
-            "team_a": "",
+            "team_a": "Carolina Hit Stix",
             "seed_a": 3,
             "score_a": null,
-            "team_b": "",
+            "team_b": "VA Bombers- Huddleston",
             "seed_b": 6,
             "score_b": null
           },
@@ -2439,7 +2439,7 @@
             "team_a": "Winner Game #1",
             "seed_a": null,
             "score_a": null,
-            "team_b": "",
+            "team_b": "MP Bombers 11U",
             "seed_b": 1,
             "score_b": null
           },
@@ -2451,7 +2451,7 @@
             "team_a": "Winner Game #2",
             "seed_a": null,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Camel City",
             "seed_b": 2,
             "score_b": null
           },
@@ -2474,10 +2474,10 @@
             "day": "Sun",
             "time": "9:00 AM",
             "field": "Tega Cay:Field 4",
-            "team_a": "",
+            "team_a": "Newport Bombers 11U Janson",
             "seed_a": 10,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Davidson Force",
             "seed_b": 11,
             "score_b": null
           },
@@ -2486,10 +2486,10 @@
             "day": "Sun",
             "time": "11:00 AM",
             "field": "Tega Cay:Field 4",
-            "team_a": "",
+            "team_a": "Carolina Mayhem",
             "seed_a": 9,
             "score_a": null,
-            "team_b": "",
+            "team_b": "South Charlotte Revolution 11U",
             "seed_b": 12,
             "score_b": null
           },
@@ -2501,7 +2501,7 @@
             "team_a": "Winner Game #1",
             "seed_a": null,
             "score_a": null,
-            "team_b": "",
+            "team_b": "11u On Deck O's",
             "seed_b": 7,
             "score_b": null
           },
@@ -2513,7 +2513,7 @@
             "team_a": "Winner Game #2",
             "seed_a": null,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Blue Sox",
             "seed_b": 8,
             "score_b": null
           },
@@ -2536,10 +2536,10 @@
             "day": "Sun",
             "time": "9:00 AM",
             "field": "Bradford:Field # 5",
-            "team_a": "",
+            "team_a": "Copperheads Red",
             "seed_a": 16,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Carolina Locos Black",
             "seed_b": 17,
             "score_b": null
           },
@@ -2548,10 +2548,10 @@
             "day": "Sun",
             "time": "11:00 AM",
             "field": "Bradford:Field # 5",
-            "team_a": "",
+            "team_a": "Dirtbags Wagner",
             "seed_a": 14,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Carolina Diamond Crushers",
             "seed_b": 15,
             "score_b": null
           },
@@ -2563,7 +2563,7 @@
             "team_a": "Winner Game #1",
             "seed_a": null,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Tega Cay Titans",
             "seed_b": 13,
             "score_b": null
           },
@@ -2586,10 +2586,10 @@
             "day": "Sun",
             "time": "9:00 AM",
             "field": "Ferguson:Field # 4",
-            "team_a": "",
+            "team_a": "Dry Pond 2034",
             "seed_a": 18,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Carolina Forge 11U",
             "seed_b": 21,
             "score_b": null
           },
@@ -2598,10 +2598,10 @@
             "day": "Sun",
             "time": "9:00 AM",
             "field": "Ferguson:Field # 3",
-            "team_a": "",
+            "team_a": "Banana Peppers Baseball 11u",
             "seed_a": 19,
             "score_a": null,
-            "team_b": "",
+            "team_b": "CG Elite",
             "seed_b": 20,
             "score_b": null
           },
@@ -4933,5 +4933,5 @@
   },
   "site_last_updated": "10/22/2026 7:46 AM",
   "tournament_id": 12522,
-  "fetched_at": "2026-10-24T22:05"
+  "fetched_at": "2026-10-24T22:06"
 }
