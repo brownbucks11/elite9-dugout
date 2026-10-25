@@ -494,7 +494,7 @@
           "seed": 6,
           "team": "Dirtbags Baseball ESB",
           "location": "Lincolnton, NC",
-          "won": 2,
+          "won": 3,
           "lost": 0,
           "runs_allowed": 11,
           "runs_scored": 29,
@@ -615,7 +615,7 @@
           "team": "Lake Wylie Venom",
           "location": "Lake Wylie, SC",
           "won": 2,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 12,
           "runs_scored": 48,
           "team_page_id": null
@@ -848,10 +848,10 @@
             "field": "Bradford:Field # 1",
             "team_a": "Dirtbags Baseball ESB",
             "seed_a": 4,
-            "score_a": null,
+            "score_a": 9,
             "team_b": "Lake Wylie Venom",
             "seed_b": 5,
-            "score_b": null
+            "score_b": 1
           },
           {
             "game": 2,
@@ -870,7 +870,7 @@
             "day": "Sun",
             "time": "1:00 PM",
             "field": "Bradford:Field # 1",
-            "team_a": "Winner Game #1",
+            "team_a": "Winner Game #1 Dirtbags Baseball ESB",
             "seed_a": null,
             "score_a": null,
             "team_b": "NL Destroyers 2036",
@@ -1974,7 +1974,7 @@
           "seed": 4,
           "team": "Dry Pond 2034",
           "location": "Denver, NC",
-          "won": 0,
+          "won": 1,
           "lost": 2,
           "runs_allowed": 16,
           "runs_scored": 10,
@@ -2015,7 +2015,7 @@
           "team": "Carolina Forge 11U",
           "location": "Gastonia, NC",
           "won": 0,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 33,
           "runs_scored": 1,
           "team_page_id": null
@@ -2588,10 +2588,10 @@
             "field": "Ferguson:Field # 4",
             "team_a": "Dry Pond 2034",
             "seed_a": 18,
-            "score_a": null,
+            "score_a": 13,
             "team_b": "Carolina Forge 11U",
             "seed_b": 21,
-            "score_b": null
+            "score_b": 1
           },
           {
             "game": 2,
@@ -2610,7 +2610,7 @@
             "day": "Sun",
             "time": "11:00 AM",
             "field": "Ferguson:Field # 4",
-            "team_a": "Winner Game #1",
+            "team_a": "Winner Game #1 Dry Pond 2034",
             "seed_a": null,
             "score_a": null,
             "team_b": "Winner Game #2",
@@ -4933,5 +4933,5 @@
   },
   "site_last_updated": "10/22/2026 7:46 AM",
   "tournament_id": 12522,
-  "fetched_at": "2026-10-25T09:56"
+  "fetched_at": "2026-10-25T10:06"
 }
