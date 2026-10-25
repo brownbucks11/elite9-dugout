@@ -369,18 +369,6 @@
             "team_b": "Winner Game #4 Carolina Rapid Fire \ud83d\udd25 8U (BLACK)",
             "seed_b": null,
             "score_b": 10
-          },
-          {
-            "game": 7,
-            "day": "Sun",
-            "time": "3:15 PM",
-            "field": "Westmoreld:Field 1",
-            "team_a": "Loser Game #3 Canes Atlantic 8u Fareri",
-            "seed_a": null,
-            "score_a": null,
-            "team_b": "Loser Game #4 (If Needed) NC Made 8U Blue",
-            "seed_b": null,
-            "score_b": null
           }
         ],
         "Silver Bracket": [
@@ -4029,7 +4017,7 @@
           "team": "Carolina Blue Bloods",
           "location": "Indian Trail, NC",
           "won": 1,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 17,
           "runs_scored": 2,
           "team_page_id": null
@@ -4098,7 +4086,7 @@
           "seed": 9,
           "team": "Atomic Baseball 2030",
           "location": "New Bern, NC",
-          "won": 1,
+          "won": 2,
           "lost": 1,
           "runs_allowed": 19,
           "runs_scored": 6,
@@ -4458,10 +4446,10 @@
             "field": "MRH:Marvin Ridge MS",
             "team_a": "Winner Game #1 Atomic Baseball 2030",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 6,
             "team_b": "Winner Game #2 Carolina Blue Bloods",
             "seed_b": null,
-            "score_b": null
+            "score_b": 1
           }
         ]
       }
@@ -4483,7 +4471,7 @@
           "seed": 2,
           "team": "MARA Machine",
           "location": "Matthews, NC",
-          "won": 3,
+          "won": 4,
           "lost": 0,
           "runs_allowed": 3,
           "runs_scored": 19,
@@ -4504,7 +4492,7 @@
           "team": "Triad Cardinals 16u",
           "location": "Stokesdale, NC",
           "won": 3,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 6,
           "runs_scored": 17,
           "team_page_id": null
@@ -4661,10 +4649,10 @@
             "field": "BFF:Field 1",
             "team_a": "Winner Game #3 MARA Machine",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 12,
             "team_b": "Winner Game #4 Triad Cardinals 16u",
             "seed_b": null,
-            "score_b": null
+            "score_b": 0
           }
         ]
       }
@@ -4933,5 +4921,5 @@
   },
   "site_last_updated": "10/22/2026 7:46 AM",
   "tournament_id": 12522,
-  "fetched_at": "2026-10-25T18:52"
+  "fetched_at": "2026-10-25T19:02"
 }
