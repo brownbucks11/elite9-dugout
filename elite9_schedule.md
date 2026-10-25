@@ -1,5 +1,5 @@
 # Elite 9 - Top Gun schedule
-_Updated Sun Oct 25, 2026 12:12 PM_
+_Updated Sun Oct 25, 2026 12:23 PM_
 
 ## SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND
 September 26 - 27 in Greater Charlotte Area, NC  
@@ -192,12 +192,12 @@ Tournament 12522 - [schedule page](https://playtopgunsports.com/GameTimesResults
 | 9 | Carolina Elevate | Lenoir, NC | 0-3 | 7 | 40 |
 | 10 | Dirtbags Shook | Claremont, NC | 0-3 | 3 | 25 |
 | 11 | ZT Knuckleheads | Clover, SC | 1-1 | 21 | 7 |
-| 12 | Diamond Jaxx | Pinehurst, NC | 0-2 | 3 | 31 |
+| 12 | Diamond Jaxx | Pinehurst, NC | 0-3 | 3 | 31 |
 | 13 | Concord Athletics -9U | Concord, NC | 0-2 | 4 | 22 |
 | 14 | MARA Stingers | Matthews, NC | 1-2 | 17 | 13 |
 | 15 | Athletes Lab 9U Navy- Stewart | Maiden, NC | 2-1 | 18 | 7 |
 | 16 | LKN Lightning - Ogburn | Huntersville, NC | 2-1 | 16 | 16 |
-| 17 | BOILING SPRINGS BULLDOGS BASEBALL 8u | Boiling Springs, NC | 0-2 | 10 | 39 |
+| 17 | BOILING SPRINGS BULLDOGS BASEBALL 8u | Boiling Springs, NC | 1-2 | 10 | 39 |
 | 18 | Lake Wylie Venom | Lake Wylie, SC | 2-1 | 48 | 12 |
 
 **Gold Bracket**
@@ -231,8 +231,8 @@ Tournament 12522 - [schedule page](https://playtopgunsports.com/GameTimesResults
 | G | When | Field | Team A | Team B |
 |---|---|---|---|---|
 | 1 | Sun 9:00 AM | Bradford:Field # 4 | (#15) Carolina Regulators 9u 9 | (#18) Carolina Elevate 5 |
-| 2 | Sun 11:00 AM | Bradford:Field # 4 | (#16) Diamond Jaxx | (#17) BOILING SPRINGS BULLDOGS BASEBALL 8u |
-| 3 | Sun 1:00 PM | Bradford:Field # 4 | Winner Game #1 Carolina Regulators 9u | Winner Game #2 |
+| 2 | Sun 11:00 AM | Bradford:Field # 4 | (#16) Diamond Jaxx 0 | (#17) BOILING SPRINGS BULLDOGS BASEBALL 8u 13 |
+| 3 | Sun 1:00 PM | Bradford:Field # 4 | Winner Game #1 Carolina Regulators 9u | Winner Game #2 BOILING SPRINGS BULLDOGS BASEBALL 8u |
 
 ## ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO
 November 7 - 8 in Greater Charlotte Area, NC  

@@ -555,7 +555,7 @@
           "team": "Diamond Jaxx",
           "location": "Pinehurst, NC",
           "won": 0,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 31,
           "runs_scored": 3,
           "team_page_id": null
@@ -604,7 +604,7 @@
           "seed": 17,
           "team": "BOILING SPRINGS BULLDOGS BASEBALL 8u",
           "location": "Boiling Springs, NC",
-          "won": 0,
+          "won": 1,
           "lost": 2,
           "runs_allowed": 39,
           "runs_scored": 10,
@@ -998,10 +998,10 @@
             "field": "Bradford:Field # 4",
             "team_a": "Diamond Jaxx",
             "seed_a": 16,
-            "score_a": null,
+            "score_a": 0,
             "team_b": "BOILING SPRINGS BULLDOGS BASEBALL 8u",
             "seed_b": 17,
-            "score_b": null
+            "score_b": 13
           },
           {
             "game": 3,
@@ -1011,7 +1011,7 @@
             "team_a": "Winner Game #1 Carolina Regulators 9u",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Winner Game #2",
+            "team_b": "Winner Game #2 BOILING SPRINGS BULLDOGS BASEBALL 8u",
             "seed_b": null,
             "score_b": null
           }
@@ -1975,7 +1975,7 @@
           "team": "Dry Pond 2034",
           "location": "Denver, NC",
           "won": 1,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 16,
           "runs_scored": 10,
           "team_page_id": null
@@ -2045,7 +2045,7 @@
           "team": "Carolina Diamond Crushers",
           "location": "Kannapolis, NC",
           "won": 1,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 16,
           "runs_scored": 14,
           "team_page_id": null
@@ -2094,7 +2094,7 @@
           "seed": 16,
           "team": "CG Elite",
           "location": "China Grove, NC",
-          "won": 1,
+          "won": 2,
           "lost": 2,
           "runs_allowed": 29,
           "runs_scored": 6,
@@ -2134,7 +2134,7 @@
           "seed": 20,
           "team": "Dirtbags Wagner",
           "location": "Hickory, NC",
-          "won": 1,
+          "won": 2,
           "lost": 1,
           "runs_allowed": 16,
           "runs_scored": 15,
@@ -2550,10 +2550,10 @@
             "field": "Bradford:Field # 5",
             "team_a": "Dirtbags Wagner",
             "seed_a": 14,
-            "score_a": null,
+            "score_a": 12,
             "team_b": "Carolina Diamond Crushers",
             "seed_b": 15,
-            "score_b": null
+            "score_b": 0
           },
           {
             "game": 3,
@@ -2572,7 +2572,7 @@
             "day": "Sun",
             "time": "3:00 PM",
             "field": "Bradford:Field # 5",
-            "team_a": "Winner Game #2",
+            "team_a": "Winner Game #2 Dirtbags Wagner",
             "seed_a": null,
             "score_a": null,
             "team_b": "Winner Game #3",
@@ -2612,10 +2612,10 @@
             "field": "Ferguson:Field # 4",
             "team_a": "Winner Game #1 Dry Pond 2034",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 2,
             "team_b": "Winner Game #2 CG Elite",
             "seed_b": null,
-            "score_b": null
+            "score_b": 10
           }
         ]
       }
@@ -4933,5 +4933,5 @@
   },
   "site_last_updated": "10/22/2026 7:46 AM",
   "tournament_id": 12522,
-  "fetched_at": "2026-10-25T12:12"
+  "fetched_at": "2026-10-25T12:23"
 }

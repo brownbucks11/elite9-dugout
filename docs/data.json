@@ -3,7 +3,7 @@
  "location": "Rock Hill, SC",
  "page_id": 31407,
  "team_url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=31407",
- "built": "Sun Oct 25, 2026 12:12 PM",
+ "built": "Sun Oct 25, 2026 12:23 PM",
  "record": {
   "w": 6,
   "l": 9,
@@ -4031,7 +4031,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-25T12:12",
+    "fetched_at": "2026-10-25T12:22",
     "url": "https://topgunstats.com/whos-playing/12522"
    },
    "next_game": {
@@ -4490,7 +4490,7 @@
      "seed": 16,
      "bracket": "Copper Bracket",
      "won": 0,
-     "lost": 2,
+     "lost": 3,
      "rs": 3,
      "ra": 31
     },
@@ -4515,7 +4515,7 @@
      "pool_ra": 39,
      "seed": 17,
      "bracket": "Copper Bracket",
-     "won": 0,
+     "won": 1,
      "lost": 2,
      "rs": 10,
      "ra": 39
@@ -5061,11 +5061,11 @@
      "field": "Bradford:Field # 4",
      "team_a": "Diamond Jaxx",
      "seed_a": 16,
-     "score_a": null,
+     "score_a": 0,
      "from_a": null,
      "team_b": "BOILING SPRINGS BULLDOGS BASEBALL 8u",
      "seed_b": 17,
-     "score_b": null,
+     "score_b": 13,
      "from_b": null
     },
     {
@@ -5082,7 +5082,7 @@
       "type": "winner",
       "game": 1
      },
-     "team_b": "Winner Game #2",
+     "team_b": "BOILING SPRINGS BULLDOGS BASEBALL 8u",
      "seed_b": null,
      "score_b": null,
      "from_b": {
@@ -8052,7 +8052,7 @@
      "entered_at": "2026-10-19T08:25:19.373Z",
      "level": "AA"
     },
-    "fetched_at": "2026-10-25T12:12"
+    "fetched_at": "2026-10-25T12:22"
    },
    "tgs": {
     "weather": {
@@ -8197,7 +8197,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-25T12:12",
+    "fetched_at": "2026-10-25T12:22",
     "url": "https://topgunstats.com/whos-playing/12522"
    },
    "name": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
@@ -8719,11 +8719,11 @@
      "field": "Bradford:Field # 4",
      "team_a": "Diamond Jaxx",
      "seed_a": 16,
-     "score_a": null,
+     "score_a": 0,
      "from_a": null,
      "team_b": "BOILING SPRINGS BULLDOGS BASEBALL 8u",
      "seed_b": 17,
-     "score_b": null,
+     "score_b": 13,
      "from_b": null
     },
     {
@@ -8740,7 +8740,7 @@
       "type": "winner",
       "game": 1
      },
-     "team_b": "Winner Game #2",
+     "team_b": "BOILING SPRINGS BULLDOGS BASEBALL 8u",
      "seed_b": null,
      "score_b": null,
      "from_b": {
@@ -8865,7 +8865,7 @@
      "team": "Diamond Jaxx",
      "location": "Pinehurst, NC",
      "won": 0,
-     "lost": 2,
+     "lost": 3,
      "runs_allowed": 31,
      "runs_scored": 3,
      "team_page_id": null
@@ -8914,7 +8914,7 @@
      "seed": 17,
      "team": "BOILING SPRINGS BULLDOGS BASEBALL 8u",
      "location": "Boiling Springs, NC",
-     "won": 0,
+     "won": 1,
      "lost": 2,
      "runs_allowed": 39,
      "runs_scored": 10,
@@ -9030,7 +9030,7 @@
     "team": {
      "entered": false
     },
-    "fetched_at": "2026-10-25T12:12"
+    "fetched_at": "2026-10-25T12:22"
    },
    "tgs": {
     "weather": null,
@@ -9084,7 +9084,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-25T12:12",
+    "fetched_at": "2026-10-25T12:22",
     "url": "https://topgunstats.com/whos-playing/12524"
    },
    "name": "Road Runner vs Coyote ring weekend",
@@ -13428,6 +13428,107 @@
    "stats_fetched": null
   },
   {
+   "team": "BOILING SPRINGS BULLDOGS BASEBALL 8u",
+   "location": "Boiling Springs, NC",
+   "page_id": null,
+   "url": null,
+   "w": 3,
+   "l": 4,
+   "t": 0,
+   "rs": 57,
+   "ra": 79,
+   "diff": -22,
+   "pct": 0.429,
+   "events": 2,
+   "log": [
+    {
+     "date": "2026-09-26",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Pool Play",
+     "opponent": "LumberJacks",
+     "rs": 12,
+     "ra": 7,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-26",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Pool Play",
+     "opponent": "Rock Hill 9U Baseball",
+     "rs": 2,
+     "ra": 16,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-27",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Copper Bracket",
+     "opponent": "LKN Kingdom",
+     "rs": 13,
+     "ra": 6,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-27",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Copper Bracket",
+     "opponent": "LumberJacks",
+     "rs": 7,
+     "ra": 11,
+     "result": "L"
+    },
+    {
+     "date": "2026-10-24",
+     "event_id": 12522,
+     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
+     "section": "Pool Play",
+     "opponent": "Hooligans",
+     "rs": 1,
+     "ra": 17,
+     "result": "L"
+    },
+    {
+     "date": "2026-10-24",
+     "event_id": 12522,
+     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
+     "section": "Pool Play",
+     "opponent": "Elite 9",
+     "rs": 9,
+     "ra": 22,
+     "result": "L"
+    },
+    {
+     "date": "2026-10-25",
+     "event_id": 12522,
+     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
+     "section": "Copper Bracket",
+     "opponent": "Diamond Jaxx",
+     "rs": 13,
+     "ra": 0,
+     "result": "W"
+    }
+   ],
+   "points": 0,
+   "titles": 0,
+   "finishes": [
+    {
+     "date": "2026-09-26",
+     "name": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "won": 2,
+     "lost": 2,
+     "standing": "2nd (Copper)",
+     "points": 0,
+     "derived": true
+    }
+   ],
+   "season": "",
+   "stats_fetched": null
+  },
+  {
    "team": "SC Tide - Lucariello",
    "location": "Clover, SC",
    "page_id": 33954,
@@ -14481,97 +14582,6 @@
    ],
    "season": "08/01/2026 - 10/23/2026",
    "stats_fetched": "2026-10-23T11:43"
-  },
-  {
-   "team": "BOILING SPRINGS BULLDOGS BASEBALL 8u",
-   "location": "Boiling Springs, NC",
-   "page_id": null,
-   "url": null,
-   "w": 2,
-   "l": 4,
-   "t": 0,
-   "rs": 44,
-   "ra": 79,
-   "diff": -35,
-   "pct": 0.333,
-   "events": 2,
-   "log": [
-    {
-     "date": "2026-09-26",
-     "event_id": 12518,
-     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "section": "Pool Play",
-     "opponent": "LumberJacks",
-     "rs": 12,
-     "ra": 7,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-26",
-     "event_id": 12518,
-     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "section": "Pool Play",
-     "opponent": "Rock Hill 9U Baseball",
-     "rs": 2,
-     "ra": 16,
-     "result": "L"
-    },
-    {
-     "date": "2026-09-27",
-     "event_id": 12518,
-     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "section": "Copper Bracket",
-     "opponent": "LKN Kingdom",
-     "rs": 13,
-     "ra": 6,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-27",
-     "event_id": 12518,
-     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "section": "Copper Bracket",
-     "opponent": "LumberJacks",
-     "rs": 7,
-     "ra": 11,
-     "result": "L"
-    },
-    {
-     "date": "2026-10-24",
-     "event_id": 12522,
-     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
-     "section": "Pool Play",
-     "opponent": "Hooligans",
-     "rs": 1,
-     "ra": 17,
-     "result": "L"
-    },
-    {
-     "date": "2026-10-24",
-     "event_id": 12522,
-     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
-     "section": "Pool Play",
-     "opponent": "Elite 9",
-     "rs": 9,
-     "ra": 22,
-     "result": "L"
-    }
-   ],
-   "points": 0,
-   "titles": 0,
-   "finishes": [
-    {
-     "date": "2026-09-26",
-     "name": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "won": 2,
-     "lost": 2,
-     "standing": "2nd (Copper)",
-     "points": 0,
-     "derived": true
-    }
-   ],
-   "season": "",
-   "stats_fetched": null
   },
   {
    "team": "LumberJacks",
@@ -16034,11 +16044,11 @@
    "page_id": null,
    "url": null,
    "w": 0,
-   "l": 2,
+   "l": 3,
    "t": 0,
    "rs": 3,
-   "ra": 31,
-   "diff": -28,
+   "ra": 44,
+   "diff": -41,
    "pct": 0.0,
    "events": 1,
    "log": [
@@ -16060,6 +16070,16 @@
      "opponent": "ZT Knuckleheads",
      "rs": 1,
      "ra": 17,
+     "result": "L"
+    },
+    {
+     "date": "2026-10-25",
+     "event_id": 12522,
+     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
+     "section": "Copper Bracket",
+     "opponent": "BOILING SPRINGS BULLDOGS BASEBALL 8u",
+     "rs": 0,
+     "ra": 13,
      "result": "L"
     }
    ],
