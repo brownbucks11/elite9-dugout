@@ -3298,7 +3298,7 @@
           "seed": 4,
           "team": "Tega Cay Titans",
           "location": "Fort Mill, SC",
-          "won": 2,
+          "won": 3,
           "lost": 1,
           "runs_allowed": 16,
           "runs_scored": 11,
@@ -3319,7 +3319,7 @@
           "team": "Red Clay Athletics 13U Mullen",
           "location": "Cornelius, NC",
           "won": 3,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 9,
           "runs_scored": 20,
           "team_page_id": null
@@ -3454,10 +3454,10 @@
             "field": "Moss:Moss Field",
             "team_a": "Winner Game #1 Tega Cay Titans",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 16,
             "team_b": "Winner Game #2 Red Clay Athletics 13U Mullen",
             "seed_b": null,
-            "score_b": null
+            "score_b": 8
           }
         ],
         "Silver Bracket": [
@@ -4933,5 +4933,5 @@
   },
   "site_last_updated": "10/22/2026 7:46 AM",
   "tournament_id": 12522,
-  "fetched_at": "2026-10-25T17:59"
+  "fetched_at": "2026-10-25T18:10"
 }
