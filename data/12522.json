@@ -4686,7 +4686,7 @@
           "seed": 2,
           "team": "GATA Baseball",
           "location": "Roanoke, VA",
-          "won": 1,
+          "won": 2,
           "lost": 1,
           "runs_allowed": 13,
           "runs_scored": 10,
@@ -4697,7 +4697,7 @@
           "team": "KLSC Prime",
           "location": "Belmont, NC",
           "won": 0,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 12,
           "runs_scored": 4,
           "team_page_id": null
@@ -4910,10 +4910,10 @@
             "field": "Mazeppa:Field # 4",
             "team_a": "GATA Baseball",
             "seed_a": 6,
-            "score_a": null,
+            "score_a": 6,
             "team_b": "KLSC Prime",
             "seed_b": 7,
-            "score_b": null
+            "score_b": 2
           },
           {
             "game": 3,
@@ -4923,7 +4923,7 @@
             "team_a": "Winner Game #1 Carolina Shorebirds",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Winner Game #2",
+            "team_b": "Winner Game #2 GATA Baseball",
             "seed_b": null,
             "score_b": null
           }
@@ -4933,5 +4933,5 @@
   },
   "site_last_updated": "10/22/2026 7:46 AM",
   "tournament_id": 12522,
-  "fetched_at": "2026-10-25T17:07"
+  "fetched_at": "2026-10-25T17:17"
 }
