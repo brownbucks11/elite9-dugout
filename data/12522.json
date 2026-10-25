@@ -87,7 +87,7 @@
           "seed": 2,
           "team": "BP3 Ruff Ryderz NC 8U",
           "location": "Waxhaw, NC",
-          "won": 0,
+          "won": 1,
           "lost": 3,
           "runs_allowed": 37,
           "runs_scored": 23,
@@ -98,7 +98,7 @@
           "team": "Fury Baseball 8u",
           "location": "Forest City, NC",
           "won": 0,
-          "lost": 3,
+          "lost": 4,
           "runs_allowed": 39,
           "runs_scored": 2,
           "team_page_id": null
@@ -415,10 +415,10 @@
             "field": "Westmoreld:Field 1",
             "team_a": "Loser Game #1 BP3 Ruff Ryderz NC 8U",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 15,
             "team_b": "Loser Game #2 Fury Baseball 8u",
             "seed_b": null,
-            "score_b": null
+            "score_b": 0
           },
           {
             "game": 4,
@@ -1136,7 +1136,7 @@
           "team": "Stingers",
           "location": "Matthews, NC",
           "won": 1,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 22,
           "runs_scored": 29,
           "team_page_id": null
@@ -1165,7 +1165,7 @@
           "seed": 8,
           "team": "SBA Lake Norman Thunder - White",
           "location": "Cornelius, NC",
-          "won": 0,
+          "won": 1,
           "lost": 2,
           "runs_allowed": 16,
           "runs_scored": 4,
@@ -1286,7 +1286,7 @@
           "team": "Shelby Storm 10u",
           "location": "Shelby, NC",
           "won": 2,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 11,
           "runs_scored": 37,
           "team_page_id": null
@@ -1305,7 +1305,7 @@
           "seed": 22,
           "team": "Carolina Elevate Bolick",
           "location": "Lenoir, NC",
-          "won": 2,
+          "won": 3,
           "lost": 0,
           "runs_allowed": 8,
           "runs_scored": 21,
@@ -1609,10 +1609,10 @@
             "field": "Ferguson:Field # 1",
             "team_a": "Carolina Elevate Bolick",
             "seed_a": 4,
-            "score_a": null,
+            "score_a": 12,
             "team_b": "Shelby Storm 10u",
             "seed_b": 5,
-            "score_b": null
+            "score_b": 11
           },
           {
             "game": 2,
@@ -1631,7 +1631,7 @@
             "day": "Sun",
             "time": "1:00 PM",
             "field": "Ferguson:Field # 1",
-            "team_a": "Winner Game #1",
+            "team_a": "Winner Game #1 Carolina Elevate Bolick",
             "seed_a": null,
             "score_a": null,
             "team_b": "East Rowan",
@@ -1747,10 +1747,10 @@
             "field": "Mazeppa:Field # 3",
             "team_a": "Stingers",
             "seed_a": 15,
-            "score_a": null,
+            "score_a": 9,
             "team_b": "SBA Lake Norman Thunder - White",
             "seed_b": 18,
-            "score_b": null
+            "score_b": 15
           },
           {
             "game": 2,
@@ -1769,7 +1769,7 @@
             "day": "Sun",
             "time": "1:00 PM",
             "field": "Mazeppa:Field # 3",
-            "team_a": "Winner Game #1",
+            "team_a": "Winner Game #1 SBA Lake Norman Thunder - White",
             "seed_a": null,
             "score_a": null,
             "team_b": "Winner Game #2",
@@ -3269,7 +3269,7 @@
           "team": "SC Tide - Daly",
           "location": "Clover, SC",
           "won": 0,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 28,
           "runs_scored": 4,
           "team_page_id": null
@@ -3308,7 +3308,7 @@
           "seed": 5,
           "team": "GF Sandlot 12U Church",
           "location": "Granite Falls, NC",
-          "won": 0,
+          "won": 1,
           "lost": 2,
           "runs_allowed": 23,
           "runs_scored": 15,
@@ -3468,17 +3468,17 @@
             "field": "Moss:Moss Field",
             "team_a": "GF Sandlot 12U Church",
             "seed_a": 6,
-            "score_a": null,
+            "score_a": 6,
             "team_b": "SC Tide - Daly",
             "seed_b": 7,
-            "score_b": null
+            "score_b": 5
           },
           {
             "game": 2,
             "day": "Sun",
             "time": "11:00 AM",
             "field": "Moss:Moss Field",
-            "team_a": "Winner Game #1",
+            "team_a": "Winner Game #1 GF Sandlot 12U Church",
             "seed_a": null,
             "score_a": null,
             "team_b": "SBA Lake Norman Thunder",
@@ -3535,7 +3535,7 @@
           "seed": 5,
           "team": "SC Tide Abbott",
           "location": "Clover, SC",
-          "won": 0,
+          "won": 1,
           "lost": 2,
           "runs_allowed": 19,
           "runs_scored": 6,
@@ -3636,7 +3636,7 @@
           "team": "Regulators",
           "location": "Indian Trail, NC",
           "won": 0,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 17,
           "runs_scored": 13,
           "team_page_id": null
@@ -3991,10 +3991,10 @@
             "field": "MRH:Marvin Ridge HS",
             "team_a": "Regulators",
             "seed_a": 14,
-            "score_a": null,
+            "score_a": 6,
             "team_b": "SC Tide Abbott",
             "seed_b": 15,
-            "score_b": null
+            "score_b": 12
           },
           {
             "game": 3,
@@ -4004,7 +4004,7 @@
             "team_a": "Winner Game #1 Foothills Elite",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Winner Game #2",
+            "team_b": "Winner Game #2 SC Tide Abbott",
             "seed_b": null,
             "score_b": null
           }
@@ -4514,7 +4514,7 @@
           "team": "Ruff Ryders baseball 16u",
           "location": "Union, SC",
           "won": 1,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 13,
           "runs_scored": 8,
           "team_page_id": null
@@ -4523,7 +4523,7 @@
           "seed": 6,
           "team": "Regulators",
           "location": "Indian Trail, NC",
-          "won": 0,
+          "won": 1,
           "lost": 2,
           "runs_allowed": 14,
           "runs_scored": 3,
@@ -4613,10 +4613,10 @@
             "field": "BFF:Field 1",
             "team_a": "Ruff Ryders baseball 16u",
             "seed_a": 4,
-            "score_a": null,
+            "score_a": 5,
             "team_b": "Regulators",
             "seed_b": 5,
-            "score_b": null
+            "score_b": 9
           },
           {
             "game": 2,
@@ -4635,7 +4635,7 @@
             "day": "Sun",
             "time": "1:00 PM",
             "field": "BFF:Field 1",
-            "team_a": "Winner Game #1",
+            "team_a": "Winner Game #1 Regulators",
             "seed_a": null,
             "score_a": null,
             "team_b": "MARA Machine",
@@ -4933,5 +4933,5 @@
   },
   "site_last_updated": "10/22/2026 7:46 AM",
   "tournament_id": 12522,
-  "fetched_at": "2026-10-25T10:59"
+  "fetched_at": "2026-10-25T11:09"
 }
