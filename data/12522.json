@@ -2114,7 +2114,7 @@
           "seed": 18,
           "team": "Carolina Locos Black",
           "location": "Waxhaw, NC",
-          "won": 3,
+          "won": 4,
           "lost": 1,
           "runs_allowed": 20,
           "runs_scored": 18,
@@ -2135,7 +2135,7 @@
           "team": "Dirtbags Wagner",
           "location": "Hickory, NC",
           "won": 2,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 16,
           "runs_scored": 15,
           "team_page_id": null
@@ -2574,10 +2574,10 @@
             "field": "Bradford:Field # 5",
             "team_a": "Winner Game #2 Dirtbags Wagner",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 9,
             "team_b": "Winner Game #3 Carolina Locos Black",
             "seed_b": null,
-            "score_b": null
+            "score_b": 10
           }
         ],
         "Copper Bracket": [
@@ -4933,5 +4933,5 @@
   },
   "site_last_updated": "10/22/2026 7:46 AM",
   "tournament_id": 12522,
-  "fetched_at": "2026-10-25T16:35"
+  "fetched_at": "2026-10-25T16:46"
 }
