@@ -1,5 +1,5 @@
 # Elite 9 - Top Gun schedule
-_Updated Sun Oct 25, 2026 12:54 PM_
+_Updated Sun Oct 25, 2026 01:05 PM_
 
 ## SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND
 September 26 - 27 in Greater Charlotte Area, NC  
@@ -182,8 +182,8 @@ Tournament 12522 - [schedule page](https://playtopgunsports.com/GameTimesResults
 | # | Team | From | W-L | RS | RA |
 |---|---|---|---|---|---|
 | 1 | NL Destroyers 2036 | Denver, NC | 2-0 | 23 | 3 |
-| 2 | Hooligans | Mount Holly, NC | 1-1 | 21 | 9 |
-| 3 | LumberJacks | Gaston County, NC | 1-1 | 23 | 26 |
+| 2 | Hooligans | Mount Holly, NC | 2-1 | 21 | 9 |
+| 3 | LumberJacks | Gaston County, NC | 1-2 | 23 | 26 |
 | 4 | Carolina Trash Pandas | Locust, NC | 3-0 | 26 | 7 |
 | 5 | Red Clay Athletics 9U Darcangelo | Charlotte, NC | 2-1 | 16 | 16 |
 | 6 | Dirtbags Baseball ESB | Lincolnton, NC | 3-0 | 29 | 11 |
@@ -191,9 +191,9 @@ Tournament 12522 - [schedule page](https://playtopgunsports.com/GameTimesResults
 | 8 | Carolina Regulators 9u | Stanley, NC | 1-2 | 11 | 29 |
 | 9 | Carolina Elevate | Lenoir, NC | 0-3 | 7 | 40 |
 | 10 | Dirtbags Shook | Claremont, NC | 0-3 | 3 | 25 |
-| 11 | ZT Knuckleheads | Clover, SC | 1-1 | 21 | 7 |
+| 11 | ZT Knuckleheads | Clover, SC | 1-2 | 21 | 7 |
 | 12 | Diamond Jaxx | Pinehurst, NC | 0-3 | 3 | 31 |
-| 13 | Concord Athletics -9U | Concord, NC | 0-2 | 4 | 22 |
+| 13 | Concord Athletics -9U | Concord, NC | 1-2 | 4 | 22 |
 | 14 | MARA Stingers | Matthews, NC | 1-2 | 17 | 13 |
 | 15 | Athletes Lab 9U Navy- Stewart | Maiden, NC | 2-1 | 18 | 7 |
 | 16 | LKN Lightning - Ogburn | Huntersville, NC | 2-1 | 16 | 16 |
@@ -214,17 +214,17 @@ Tournament 12522 - [schedule page](https://playtopgunsports.com/GameTimesResults
 | G | When | Field | Team A | Team B |
 |---|---|---|---|---|
 | 1 | Sun 9:00 AM | Bradford:Field # 2 | (#9) MARA Stingers 11 | (#10) Red Clay Athletics 9U Darcangelo 17 |
-| 2 | Sun 11:00 AM | Bradford:Field # 2 | (#7) ZT Knuckleheads | (#8) Hooligans |
+| 2 | Sun 11:00 AM | Bradford:Field # 2 | (#7) ZT Knuckleheads 3 | (#8) Hooligans 9 |
 | 3 | Sun 1:00 PM | Bradford:Field # 2 | Winner Game #1 Red Clay Athletics 9U Darcangelo | (#6) Elite 9 |
-| 4 | Sun 3:00 PM | Bradford:Field # 2 | Winner Game #2 | Winner Game #3 |
+| 4 | Sun 3:00 PM | Bradford:Field # 2 | Winner Game #2 Hooligans | Winner Game #3 |
 
 **Bronze Bracket**
 
 | G | When | Field | Team A | Team B |
 |---|---|---|---|---|
 | 1 | Sun 9:00 AM | Bradford:Field # 3 | (#11) LKN Lightning - Ogburn 13 | (#14) Dirtbags Shook 11 |
-| 2 | Sun 11:00 AM | Bradford:Field # 3 | (#12) LumberJacks | (#13) Concord Athletics -9U |
-| 3 | Sun 1:00 PM | Bradford:Field # 3 | Winner Game #1 LKN Lightning - Ogburn | Winner Game #2 |
+| 2 | Sun 11:00 AM | Bradford:Field # 3 | (#12) LumberJacks 15 | (#13) Concord Athletics -9U 18 |
+| 3 | Sun 1:00 PM | Bradford:Field # 3 | Winner Game #1 LKN Lightning - Ogburn | Winner Game #2 Concord Athletics -9U |
 
 **Copper Bracket**
 
