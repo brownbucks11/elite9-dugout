@@ -1095,7 +1095,7 @@
           "seed": 1,
           "team": "Newport Bombers 10U Yerdon",
           "location": "Rock Hill, SC",
-          "won": 1,
+          "won": 2,
           "lost": 2,
           "runs_allowed": 28,
           "runs_scored": 6,
@@ -1206,7 +1206,7 @@
           "team": "Carolina Forge 10U",
           "location": "Gastonia, NC",
           "won": 1,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 18,
           "runs_scored": 10,
           "team_page_id": null
@@ -1809,10 +1809,10 @@
             "field": "SP:Field #3",
             "team_a": "Winner Game #1 Carolina Forge 10U",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 4,
             "team_b": "Winner Game #2 Newport Bombers 10U Yerdon",
             "seed_b": null,
-            "score_b": null
+            "score_b": 12
           }
         ]
       }
@@ -3188,7 +3188,7 @@
           "seed": 1,
           "team": "Carolina Rapid Fire",
           "location": "Lincolnton, NC",
-          "won": 1,
+          "won": 2,
           "lost": 1,
           "runs_allowed": 8,
           "runs_scored": 6,
@@ -3199,7 +3199,7 @@
           "team": "Lone Star Hippos",
           "location": "Gastonia, NC",
           "won": 1,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 4,
           "runs_scored": 9,
           "team_page_id": null
@@ -3239,7 +3239,7 @@
           "team": "River Rats",
           "location": "Lincolnton, NC",
           "won": 2,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 14,
           "runs_scored": 8,
           "team_page_id": null
@@ -3248,7 +3248,7 @@
           "seed": 7,
           "team": "Athletes Lab 13U Red",
           "location": "Maiden, NC",
-          "won": 1,
+          "won": 2,
           "lost": 1,
           "runs_allowed": 12,
           "runs_scored": 10,
@@ -3495,7 +3495,7 @@
           "seed": 1,
           "team": "The Sandlot 14u",
           "location": "Granite Falls, NC",
-          "won": 1,
+          "won": 2,
           "lost": 1,
           "runs_allowed": 6,
           "runs_scored": 11,
@@ -3506,7 +3506,7 @@
           "team": "Concord Athletics 14U - Ratliff",
           "location": "Concord, NC",
           "won": 1,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 14,
           "runs_scored": 12,
           "team_page_id": null
@@ -3516,7 +3516,7 @@
           "team": "Toxic NC",
           "location": "Startown, NC",
           "won": 2,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 2,
           "runs_scored": 5,
           "team_page_id": null
@@ -3645,7 +3645,7 @@
           "seed": 16,
           "team": "NWNC elite navy",
           "location": "Wilkesboro, NC",
-          "won": 0,
+          "won": 1,
           "lost": 2,
           "runs_allowed": 8,
           "runs_scored": 2,
@@ -3867,10 +3867,10 @@
             "field": "SP:Field #2",
             "team_a": "Toxic NC",
             "seed_a": 3,
-            "score_a": null,
+            "score_a": 0,
             "team_b": "The Sandlot 14u",
             "seed_b": 6,
-            "score_b": null
+            "score_b": 21
           },
           {
             "game": 3,
@@ -3889,7 +3889,7 @@
             "day": "Sun",
             "time": "3:00 PM",
             "field": "SP:Field #2",
-            "team_a": "Winner Game #2",
+            "team_a": "Winner Game #2 The Sandlot 14u",
             "seed_a": null,
             "score_a": null,
             "team_b": "Dirtbags Camo",
@@ -3929,10 +3929,10 @@
             "field": "TOB:Field 1",
             "team_a": "Concord Athletics 14U - Ratliff",
             "seed_a": 9,
-            "score_a": null,
+            "score_a": 4,
             "team_b": "NWNC elite navy",
             "seed_b": 12,
-            "score_b": null
+            "score_b": 6
           },
           {
             "game": 3,
@@ -3951,7 +3951,7 @@
             "day": "Sun",
             "time": "2:30 PM",
             "field": "TOB:Field 1",
-            "team_a": "Winner Game #2",
+            "team_a": "Winner Game #2 NWNC elite navy",
             "seed_a": null,
             "score_a": null,
             "team_b": "Mooresville Biscuits",
@@ -4933,5 +4933,5 @@
   },
   "site_last_updated": "10/22/2026 7:46 AM",
   "tournament_id": 12522,
-  "fetched_at": "2026-10-25T12:23"
+  "fetched_at": "2026-10-25T12:33"
 }
