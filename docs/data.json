@@ -3,7 +3,7 @@
  "location": "Rock Hill, SC",
  "page_id": 31407,
  "team_url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=31407",
- "built": "Sun Oct 25, 2026 10:38 AM",
+ "built": "Sun Oct 25, 2026 10:49 AM",
  "record": {
   "w": 6,
   "l": 9,
@@ -4031,7 +4031,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-25T10:38",
+    "fetched_at": "2026-10-25T10:48",
     "url": "https://topgunstats.com/whos-playing/12522"
    },
    "next_game": {
@@ -4359,7 +4359,7 @@
      "pool_ra": 16,
      "seed": 11,
      "bracket": "Bronze Bracket",
-     "won": 1,
+     "won": 2,
      "lost": 1,
      "rs": 16,
      "ra": 16
@@ -4438,7 +4438,7 @@
      "seed": 14,
      "bracket": "Bronze Bracket",
      "won": 0,
-     "lost": 2,
+     "lost": 3,
      "rs": 3,
      "ra": 25
     },
@@ -4991,11 +4991,11 @@
      "field": "Bradford:Field # 3",
      "team_a": "LKN Lightning - Ogburn",
      "seed_a": 11,
-     "score_a": null,
+     "score_a": 13,
      "from_a": null,
      "team_b": "Dirtbags Shook",
      "seed_b": 14,
-     "score_b": null,
+     "score_b": 11,
      "from_b": null
     },
     {
@@ -5021,7 +5021,7 @@
      "time": "1:00 PM",
      "date": "2026-10-25",
      "field": "Bradford:Field # 3",
-     "team_a": "Winner Game #1",
+     "team_a": "LKN Lightning - Ogburn",
      "seed_a": null,
      "score_a": null,
      "from_a": {
@@ -8052,7 +8052,7 @@
      "entered_at": "2026-10-19T08:25:19.373Z",
      "level": "AA"
     },
-    "fetched_at": "2026-10-25T10:38"
+    "fetched_at": "2026-10-25T10:48"
    },
    "tgs": {
     "weather": {
@@ -8197,7 +8197,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-25T10:38",
+    "fetched_at": "2026-10-25T10:48",
     "url": "https://topgunstats.com/whos-playing/12522"
    },
    "name": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
@@ -8649,11 +8649,11 @@
      "field": "Bradford:Field # 3",
      "team_a": "LKN Lightning - Ogburn",
      "seed_a": 11,
-     "score_a": null,
+     "score_a": 13,
      "from_a": null,
      "team_b": "Dirtbags Shook",
      "seed_b": 14,
-     "score_b": null,
+     "score_b": 11,
      "from_b": null
     },
     {
@@ -8679,7 +8679,7 @@
      "time": "1:00 PM",
      "date": "2026-10-25",
      "field": "Bradford:Field # 3",
-     "team_a": "Winner Game #1",
+     "team_a": "LKN Lightning - Ogburn",
      "seed_a": null,
      "score_a": null,
      "from_a": {
@@ -8845,7 +8845,7 @@
      "team": "Dirtbags Shook",
      "location": "Claremont, NC",
      "won": 0,
-     "lost": 2,
+     "lost": 3,
      "runs_allowed": 25,
      "runs_scored": 3,
      "team_page_id": null
@@ -8904,7 +8904,7 @@
      "seed": 16,
      "team": "LKN Lightning - Ogburn",
      "location": "Huntersville, NC",
-     "won": 1,
+     "won": 2,
      "lost": 1,
      "runs_allowed": 16,
      "runs_scored": 16,
@@ -9030,7 +9030,7 @@
     "team": {
      "entered": false
     },
-    "fetched_at": "2026-10-25T10:38"
+    "fetched_at": "2026-10-25T10:48"
    },
    "tgs": {
     "weather": null,
@@ -9084,7 +9084,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-25T10:38",
+    "fetched_at": "2026-10-25T10:48",
     "url": "https://topgunstats.com/whos-playing/12524"
    },
    "name": "Road Runner vs Coyote ring weekend",
@@ -11361,6 +11361,57 @@
    "stats_fetched": "2026-10-23T11:40"
   },
   {
+   "team": "LKN Lightning - Ogburn",
+   "location": "Huntersville, NC",
+   "page_id": null,
+   "url": null,
+   "w": 2,
+   "l": 1,
+   "t": 0,
+   "rs": 29,
+   "ra": 27,
+   "diff": 2,
+   "pct": 0.667,
+   "events": 1,
+   "log": [
+    {
+     "date": "2026-10-24",
+     "event_id": 12522,
+     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
+     "section": "Pool Play",
+     "opponent": "Red Clay Athletics 9U Darcangelo",
+     "rs": 5,
+     "ra": 10,
+     "result": "L"
+    },
+    {
+     "date": "2026-10-24",
+     "event_id": 12522,
+     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
+     "section": "Pool Play",
+     "opponent": "Carolina Regulators 9u",
+     "rs": 11,
+     "ra": 6,
+     "result": "W"
+    },
+    {
+     "date": "2026-10-25",
+     "event_id": 12522,
+     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
+     "section": "Bronze Bracket",
+     "opponent": "Dirtbags Shook",
+     "rs": 13,
+     "ra": 11,
+     "result": "W"
+    }
+   ],
+   "points": 0,
+   "titles": 0,
+   "finishes": [],
+   "season": "",
+   "stats_fetched": null
+  },
+  {
    "team": "Mara Bulls",
    "location": "matthews, NC",
    "page_id": 38928,
@@ -12183,47 +12234,6 @@
    "stats_fetched": null
   },
   {
-   "team": "LKN Lightning - Ogburn",
-   "location": "Huntersville, NC",
-   "page_id": null,
-   "url": null,
-   "w": 1,
-   "l": 1,
-   "t": 0,
-   "rs": 16,
-   "ra": 16,
-   "diff": 0,
-   "pct": 0.5,
-   "events": 1,
-   "log": [
-    {
-     "date": "2026-10-24",
-     "event_id": 12522,
-     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
-     "section": "Pool Play",
-     "opponent": "Red Clay Athletics 9U Darcangelo",
-     "rs": 5,
-     "ra": 10,
-     "result": "L"
-    },
-    {
-     "date": "2026-10-24",
-     "event_id": 12522,
-     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
-     "section": "Pool Play",
-     "opponent": "Carolina Regulators 9u",
-     "rs": 11,
-     "ra": 6,
-     "result": "W"
-    }
-   ],
-   "points": 0,
-   "titles": 0,
-   "finishes": [],
-   "season": "",
-   "stats_fetched": null
-  },
-  {
    "team": "Legacy Baseball 9U RED",
    "location": "Fort Mill, SC",
    "page_id": 33172,
@@ -12300,97 +12310,6 @@
    ],
    "season": "08/01/2026 - 10/23/2026",
    "stats_fetched": "2026-10-23T11:40"
-  },
-  {
-   "team": "Dirtbags Shook",
-   "location": "Claremont, NC",
-   "page_id": null,
-   "url": null,
-   "w": 3,
-   "l": 3,
-   "t": 0,
-   "rs": 50,
-   "ra": 53,
-   "diff": -3,
-   "pct": 0.5,
-   "events": 2,
-   "log": [
-    {
-     "date": "2026-09-19",
-     "event_id": 12517,
-     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
-     "section": "Pool Play",
-     "opponent": "Elite 9",
-     "rs": 10,
-     "ra": 0,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-19",
-     "event_id": 12517,
-     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
-     "section": "Pool Play",
-     "opponent": "ELITE BASEBALL EBC 9U",
-     "rs": 10,
-     "ra": 9,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-20",
-     "event_id": 12517,
-     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
-     "section": "Gold Bracket",
-     "opponent": "NL Destroyers 2036",
-     "rs": 10,
-     "ra": 11,
-     "result": "L"
-    },
-    {
-     "date": "2026-09-20",
-     "event_id": 12517,
-     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
-     "section": "Gold Bracket",
-     "opponent": "Team 24",
-     "rs": 17,
-     "ra": 8,
-     "result": "W"
-    },
-    {
-     "date": "2026-10-24",
-     "event_id": 12522,
-     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
-     "section": "Pool Play",
-     "opponent": "MARA Stingers",
-     "rs": 1,
-     "ra": 12,
-     "result": "L"
-    },
-    {
-     "date": "2026-10-24",
-     "event_id": 12522,
-     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
-     "section": "Pool Play",
-     "opponent": "NL Destroyers 2036",
-     "rs": 2,
-     "ra": 13,
-     "result": "L"
-    }
-   ],
-   "points": 0,
-   "titles": 0,
-   "finishes": [
-    {
-     "date": "2026-09-19",
-     "name": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
-     "won": 3,
-     "lost": 1,
-     "standing": "3rd (Gold)",
-     "points": 0,
-     "derived": true
-    }
-   ],
-   "season": "",
-   "stats_fetched": null
   },
   {
    "team": "Flying Pigs 9U",
@@ -13417,6 +13336,107 @@
    ],
    "season": "08/01/2026 - 10/23/2026",
    "stats_fetched": "2026-10-23T11:41"
+  },
+  {
+   "team": "Dirtbags Shook",
+   "location": "Claremont, NC",
+   "page_id": null,
+   "url": null,
+   "w": 3,
+   "l": 4,
+   "t": 0,
+   "rs": 61,
+   "ra": 66,
+   "diff": -5,
+   "pct": 0.429,
+   "events": 2,
+   "log": [
+    {
+     "date": "2026-09-19",
+     "event_id": 12517,
+     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
+     "section": "Pool Play",
+     "opponent": "Elite 9",
+     "rs": 10,
+     "ra": 0,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-19",
+     "event_id": 12517,
+     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
+     "section": "Pool Play",
+     "opponent": "ELITE BASEBALL EBC 9U",
+     "rs": 10,
+     "ra": 9,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-20",
+     "event_id": 12517,
+     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
+     "section": "Gold Bracket",
+     "opponent": "NL Destroyers 2036",
+     "rs": 10,
+     "ra": 11,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-20",
+     "event_id": 12517,
+     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
+     "section": "Gold Bracket",
+     "opponent": "Team 24",
+     "rs": 17,
+     "ra": 8,
+     "result": "W"
+    },
+    {
+     "date": "2026-10-24",
+     "event_id": 12522,
+     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
+     "section": "Pool Play",
+     "opponent": "MARA Stingers",
+     "rs": 1,
+     "ra": 12,
+     "result": "L"
+    },
+    {
+     "date": "2026-10-24",
+     "event_id": 12522,
+     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
+     "section": "Pool Play",
+     "opponent": "NL Destroyers 2036",
+     "rs": 2,
+     "ra": 13,
+     "result": "L"
+    },
+    {
+     "date": "2026-10-25",
+     "event_id": 12522,
+     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
+     "section": "Bronze Bracket",
+     "opponent": "LKN Lightning - Ogburn",
+     "rs": 11,
+     "ra": 13,
+     "result": "L"
+    }
+   ],
+   "points": 0,
+   "titles": 0,
+   "finishes": [
+    {
+     "date": "2026-09-19",
+     "name": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
+     "won": 3,
+     "lost": 1,
+     "standing": "3rd (Gold)",
+     "points": 0,
+     "derived": true
+    }
+   ],
+   "season": "",
+   "stats_fetched": null
   },
   {
    "team": "SC Tide - Lucariello",

@@ -535,7 +535,7 @@
           "team": "Dirtbags Shook",
           "location": "Claremont, NC",
           "won": 0,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 25,
           "runs_scored": 3,
           "team_page_id": null
@@ -594,7 +594,7 @@
           "seed": 16,
           "team": "LKN Lightning - Ogburn",
           "location": "Huntersville, NC",
-          "won": 1,
+          "won": 2,
           "lost": 1,
           "runs_allowed": 16,
           "runs_scored": 16,
@@ -948,10 +948,10 @@
             "field": "Bradford:Field # 3",
             "team_a": "LKN Lightning - Ogburn",
             "seed_a": 11,
-            "score_a": null,
+            "score_a": 13,
             "team_b": "Dirtbags Shook",
             "seed_b": 14,
-            "score_b": null
+            "score_b": 11
           },
           {
             "game": 2,
@@ -970,7 +970,7 @@
             "day": "Sun",
             "time": "1:00 PM",
             "field": "Bradford:Field # 3",
-            "team_a": "Winner Game #1",
+            "team_a": "Winner Game #1 LKN Lightning - Ogburn",
             "seed_a": null,
             "score_a": null,
             "team_b": "Winner Game #2",
@@ -2838,7 +2838,7 @@
           "team": "South Charlotte Revolution - Keller",
           "location": "Charlotte, NC",
           "won": 0,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 30,
           "runs_scored": 17,
           "team_page_id": null
@@ -2867,7 +2867,7 @@
           "seed": 11,
           "team": "PJ Junkies",
           "location": "Pageland, SC",
-          "won": 0,
+          "won": 1,
           "lost": 2,
           "runs_allowed": 25,
           "runs_scored": 11,
@@ -3161,17 +3161,17 @@
             "field": "Westmoreld:Field 2",
             "team_a": "PJ Junkies",
             "seed_a": 12,
-            "score_a": null,
+            "score_a": 14,
             "team_b": "South Charlotte Revolution - Keller",
             "seed_b": 13,
-            "score_b": null
+            "score_b": 13
           },
           {
             "game": 2,
             "day": "Sun",
             "time": "11:00 AM",
             "field": "Westmoreld:Field 2",
-            "team_a": "Winner Game #1",
+            "team_a": "Winner Game #1 PJ Junkies",
             "seed_a": null,
             "score_a": null,
             "team_b": "North Iredell Nitro Baseball Harrelson",
@@ -3546,7 +3546,7 @@
           "team": "Union County-Kraken",
           "location": "Indian trail, NC",
           "won": 2,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 6,
           "runs_scored": 20,
           "team_page_id": null
@@ -3565,7 +3565,7 @@
           "seed": 8,
           "team": "Carolina Wolfpack - Royal",
           "location": "Clemmons, NC",
-          "won": 2,
+          "won": 3,
           "lost": 0,
           "runs_allowed": 5,
           "runs_scored": 26,
@@ -3855,10 +3855,10 @@
             "field": "SP:Field #2",
             "team_a": "Carolina Wolfpack - Royal",
             "seed_a": 4,
-            "score_a": null,
+            "score_a": 6,
             "team_b": "Union County-Kraken",
             "seed_b": 5,
-            "score_b": null
+            "score_b": 0
           },
           {
             "game": 2,
@@ -3877,7 +3877,7 @@
             "day": "Sun",
             "time": "1:00 PM",
             "field": "SP:Field #2",
-            "team_a": "Winner Game #1",
+            "team_a": "Winner Game #1 Carolina Wolfpack - Royal",
             "seed_a": null,
             "score_a": null,
             "team_b": "Carolina Aces",
@@ -4139,7 +4139,7 @@
           "team": "BP3 Ruff Ryderz 14U",
           "location": "Waxhaw, NC",
           "won": 2,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 7,
           "runs_scored": 22,
           "team_page_id": null
@@ -4148,7 +4148,7 @@
           "seed": 14,
           "team": "Red Clay Athletics 15U Drury",
           "location": "Huntersville, NC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
           "runs_allowed": 5,
           "runs_scored": 6,
@@ -4334,10 +4334,10 @@
             "field": "CMHP:CaroMont",
             "team_a": "BP3 Ruff Ryderz 14U",
             "seed_a": 4,
-            "score_a": null,
+            "score_a": 7,
             "team_b": "Red Clay Athletics 15U Drury",
             "seed_b": 5,
-            "score_b": null
+            "score_b": 9
           },
           {
             "game": 2,
@@ -4356,7 +4356,7 @@
             "day": "Sun",
             "time": "1:00 PM",
             "field": "CMHP:CaroMont",
-            "team_a": "Winner Game #1",
+            "team_a": "Winner Game #1 Red Clay Athletics 15U Drury",
             "seed_a": null,
             "score_a": null,
             "team_b": "CC CARDINALS 15U",
@@ -4933,5 +4933,5 @@
   },
   "site_last_updated": "10/22/2026 7:46 AM",
   "tournament_id": 12522,
-  "fetched_at": "2026-10-25T10:38"
+  "fetched_at": "2026-10-25T10:48"
 }
