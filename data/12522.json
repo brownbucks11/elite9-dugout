@@ -1026,7 +1026,7 @@
           "team": "Union County Crush",
           "location": "Indian Trail, NC",
           "won": 1,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 14,
           "runs_scored": 16,
           "team_page_id": null
@@ -1035,7 +1035,7 @@
           "seed": 2,
           "team": "Triad Cardinals 10U",
           "location": "Kernersville, NC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
           "runs_allowed": 9,
           "runs_scored": 12,
@@ -2627,7 +2627,7 @@
           "seed": 1,
           "team": "North Lincoln 33",
           "location": "Denver, NC",
-          "won": 0,
+          "won": 1,
           "lost": 2,
           "runs_allowed": 15,
           "runs_scored": 9,
@@ -2708,7 +2708,7 @@
           "team": "Carolina Hit Stix",
           "location": "Richburg, SC",
           "won": 0,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 23,
           "runs_scored": 11,
           "team_page_id": null
@@ -4933,5 +4933,5 @@
   },
   "site_last_updated": "10/22/2026 7:46 AM",
   "tournament_id": 12522,
-  "fetched_at": "2026-10-25T13:58"
+  "fetched_at": "2026-10-25T14:09"
 }
