@@ -1106,7 +1106,7 @@
           "team": "Copperheads Red",
           "location": "Mooresville, NC",
           "won": 2,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 18,
           "runs_scored": 18,
           "team_page_id": null
@@ -1175,7 +1175,7 @@
           "seed": 9,
           "team": "Red Clay Athletics 10U Latimer",
           "location": "Huntersville, NC",
-          "won": 2,
+          "won": 3,
           "lost": 1,
           "runs_allowed": 17,
           "runs_scored": 13,
@@ -1235,7 +1235,7 @@
           "seed": 15,
           "team": "East Rowan",
           "location": "Rockwell, NC",
-          "won": 2,
+          "won": 3,
           "lost": 0,
           "runs_allowed": 3,
           "runs_scored": 13,
@@ -1306,7 +1306,7 @@
           "team": "Carolina Elevate Bolick",
           "location": "Lenoir, NC",
           "won": 3,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 8,
           "runs_scored": 21,
           "team_page_id": null
@@ -1633,10 +1633,10 @@
             "field": "Ferguson:Field # 1",
             "team_a": "Winner Game #1 Carolina Elevate Bolick",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 5,
             "team_b": "East Rowan",
             "seed_b": 1,
-            "score_b": null
+            "score_b": 10
           },
           {
             "game": 4,
@@ -1646,7 +1646,7 @@
             "team_a": "Winner Game #2 SBA Lake Norman Thunder - Blue",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Winner Game #3",
+            "team_b": "Winner Game #3 East Rowan",
             "seed_b": null,
             "score_b": null
           }
@@ -1733,10 +1733,10 @@
             "field": "Mazeppa:Field # 2",
             "team_a": "Winner Game #1 Red Clay Athletics 10U Latimer",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 12,
             "team_b": "Winner Game #2 Copperheads Red",
             "seed_b": null,
-            "score_b": null
+            "score_b": 4
           }
         ],
         "Copper Bracket": [
@@ -1995,7 +1995,7 @@
           "team": "Tega Cay Titans",
           "location": "Tega Cay, SC",
           "won": 1,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 15,
           "runs_scored": 19,
           "team_page_id": null
@@ -2114,7 +2114,7 @@
           "seed": 18,
           "team": "Carolina Locos Black",
           "location": "Waxhaw, NC",
-          "won": 2,
+          "won": 3,
           "lost": 1,
           "runs_allowed": 20,
           "runs_scored": 18,
@@ -2562,10 +2562,10 @@
             "field": "Bradford:Field # 5",
             "team_a": "Winner Game #1 Carolina Locos Black",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 21,
             "team_b": "Tega Cay Titans",
             "seed_b": 13,
-            "score_b": null
+            "score_b": 12
           },
           {
             "game": 4,
@@ -2575,7 +2575,7 @@
             "team_a": "Winner Game #2 Dirtbags Wagner",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Winner Game #3",
+            "team_b": "Winner Game #3 Carolina Locos Black",
             "seed_b": null,
             "score_b": null
           }
@@ -3218,7 +3218,7 @@
           "seed": 4,
           "team": "East Rowan 13U Earnhardt",
           "location": "Rockwell, NC",
-          "won": 2,
+          "won": 3,
           "lost": 0,
           "runs_allowed": 6,
           "runs_scored": 25,
@@ -3229,7 +3229,7 @@
           "team": "Extreme Performance",
           "location": "Salisbury, NC",
           "won": 2,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 12,
           "runs_scored": 23,
           "team_page_id": null
@@ -3279,7 +3279,7 @@
           "team": "Fury Baseball",
           "location": "Forest City, NC",
           "won": 2,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 5,
           "runs_scored": 34,
           "team_page_id": null
@@ -3298,7 +3298,7 @@
           "seed": 4,
           "team": "Tega Cay Titans",
           "location": "Fort Mill, SC",
-          "won": 1,
+          "won": 2,
           "lost": 1,
           "runs_allowed": 16,
           "runs_scored": 11,
@@ -3430,10 +3430,10 @@
             "field": "Moss:Moss Field",
             "team_a": "Fury Baseball",
             "seed_a": 1,
-            "score_a": null,
+            "score_a": 2,
             "team_b": "Tega Cay Titans",
             "seed_b": 4,
-            "score_b": null
+            "score_b": 10
           },
           {
             "game": 2,
@@ -3452,7 +3452,7 @@
             "day": "Sun",
             "time": "5:00 PM",
             "field": "Moss:Moss Field",
-            "team_a": "Winner Game #1",
+            "team_a": "Winner Game #1 Tega Cay Titans",
             "seed_a": null,
             "score_a": null,
             "team_b": "Winner Game #2",
@@ -3525,7 +3525,7 @@
           "seed": 4,
           "team": "Carolina Aces",
           "location": "Kings Mountain, NC",
-          "won": 2,
+          "won": 3,
           "lost": 0,
           "runs_allowed": 2,
           "runs_scored": 15,
@@ -3566,7 +3566,7 @@
           "team": "Carolina Wolfpack - Royal",
           "location": "Clemmons, NC",
           "won": 3,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 5,
           "runs_scored": 26,
           "team_page_id": null
@@ -3879,10 +3879,10 @@
             "field": "SP:Field #2",
             "team_a": "Winner Game #1 Carolina Wolfpack - Royal",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 3,
             "team_b": "Carolina Aces",
             "seed_b": 1,
-            "score_b": null
+            "score_b": 6
           },
           {
             "game": 4,
@@ -3901,7 +3901,7 @@
             "day": "Sun",
             "time": "5:00 PM",
             "field": "SP:Field #2",
-            "team_a": "Winner Game #3",
+            "team_a": "Winner Game #3 Carolina Aces",
             "seed_a": null,
             "score_a": null,
             "team_b": "Winner Game #4",
@@ -4933,5 +4933,5 @@
   },
   "site_last_updated": "10/22/2026 7:46 AM",
   "tournament_id": 12522,
-  "fetched_at": "2026-10-25T14:30"
+  "fetched_at": "2026-10-25T14:40"
 }
