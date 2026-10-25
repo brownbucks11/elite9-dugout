@@ -3495,7 +3495,7 @@
           "seed": 1,
           "team": "The Sandlot 14u",
           "location": "Granite Falls, NC",
-          "won": 2,
+          "won": 3,
           "lost": 1,
           "runs_allowed": 6,
           "runs_scored": 11,
@@ -3596,7 +3596,7 @@
           "team": "Dirtbags Camo",
           "location": "Hickory, NC",
           "won": 2,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 2,
           "runs_scored": 14,
           "team_page_id": null
@@ -3891,10 +3891,10 @@
             "field": "SP:Field #2",
             "team_a": "Winner Game #2 The Sandlot 14u",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 5,
             "team_b": "Dirtbags Camo",
             "seed_b": 2,
-            "score_b": null
+            "score_b": 3
           },
           {
             "game": 5,
@@ -3904,7 +3904,7 @@
             "team_a": "Winner Game #3 Carolina Aces",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Winner Game #4",
+            "team_b": "Winner Game #4 The Sandlot 14u",
             "seed_b": null,
             "score_b": null
           }
@@ -4028,7 +4028,7 @@
           "seed": 2,
           "team": "Carolina Blue Bloods",
           "location": "Indian Trail, NC",
-          "won": 0,
+          "won": 1,
           "lost": 2,
           "runs_allowed": 17,
           "runs_scored": 2,
@@ -4039,7 +4039,7 @@
           "team": "CBC Knuckleheads Fox",
           "location": "Charlotte, NC",
           "won": 0,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 8,
           "runs_scored": 2,
           "team_page_id": null
@@ -4446,10 +4446,10 @@
             "field": "MRH:Marvin Ridge MS",
             "team_a": "CBC Knuckleheads Fox",
             "seed_a": 12,
-            "score_a": null,
+            "score_a": 2,
             "team_b": "Carolina Blue Bloods",
             "seed_b": 13,
-            "score_b": null
+            "score_b": 9
           },
           {
             "game": 3,
@@ -4459,7 +4459,7 @@
             "team_a": "Winner Game #1 Atomic Baseball 2030",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Winner Game #2",
+            "team_b": "Winner Game #2 Carolina Blue Bloods",
             "seed_b": null,
             "score_b": null
           }
@@ -4933,5 +4933,5 @@
   },
   "site_last_updated": "10/22/2026 7:46 AM",
   "tournament_id": 12522,
-  "fetched_at": "2026-10-25T16:46"
+  "fetched_at": "2026-10-25T16:56"
 }
