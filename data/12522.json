@@ -2004,10 +2004,10 @@
           "seed": 7,
           "team": "MP Bombers 11U",
           "location": "Mount Pleasant, NC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
-          "runs_allowed": 3,
-          "runs_scored": 9,
+          "runs_allowed": 4,
+          "runs_scored": 22,
           "team_page_id": null
         },
         {
@@ -2015,9 +2015,9 @@
           "team": "Carolina Forge 11U",
           "location": "Gastonia, NC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 20,
-          "runs_scored": 0,
+          "lost": 2,
+          "runs_allowed": 33,
+          "runs_scored": 1,
           "team_page_id": null
         },
         {
@@ -2095,9 +2095,9 @@
           "team": "CG Elite",
           "location": "China Grove, NC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 18,
-          "runs_scored": 2,
+          "lost": 2,
+          "runs_allowed": 29,
+          "runs_scored": 6,
           "team_page_id": null
         },
         {
@@ -2134,10 +2134,10 @@
           "seed": 20,
           "team": "Dirtbags Wagner",
           "location": "Hickory, NC",
-          "won": 0,
+          "won": 1,
           "lost": 1,
-          "runs_allowed": 12,
-          "runs_scored": 4,
+          "runs_allowed": 16,
+          "runs_scored": 15,
           "team_page_id": null
         },
         {
@@ -2388,10 +2388,10 @@
             "field": "Tega Cay:Field 2",
             "team_a": "MP Bombers 11U",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 13,
             "team_b": "Carolina Forge 11U",
             "seed_b": null,
-            "score_b": null
+            "score_b": 1
           },
           {
             "game": 21,
@@ -2400,10 +2400,10 @@
             "field": "Tega Cay:Field 4",
             "team_a": "CG Elite",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 4,
             "team_b": "Dirtbags Wagner",
             "seed_b": null,
-            "score_b": null
+            "score_b": 11
           }
         ],
         "Gold Bracket": [
@@ -2807,10 +2807,10 @@
           "seed": 5,
           "team": "Power Cross 2033",
           "location": "Statesville, NC",
-          "won": 0,
+          "won": 1,
           "lost": 1,
-          "runs_allowed": 10,
-          "runs_scored": 9,
+          "runs_allowed": 18,
+          "runs_scored": 19,
           "team_page_id": null
         },
         {
@@ -2888,9 +2888,9 @@
           "team": "Elite9 White",
           "location": "Rock Hill, SC",
           "won": 1,
-          "lost": 0,
-          "runs_allowed": 9,
-          "runs_scored": 11,
+          "lost": 1,
+          "runs_allowed": 19,
+          "runs_scored": 19,
           "team_page_id": null
         }
       ],
@@ -3047,10 +3047,10 @@
             "field": "Dallas:Field # 3",
             "team_a": "Power Cross 2033",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 10,
             "team_b": "Elite9 White",
             "seed_b": null,
-            "score_b": null
+            "score_b": 8
           }
         ],
         "Gold Bracket": [
@@ -4933,5 +4933,5 @@
   },
   "site_last_updated": "10/22/2026 7:46 AM",
   "tournament_id": 12522,
-  "fetched_at": "2026-10-24T21:54"
+  "fetched_at": "2026-10-24T22:05"
 }
