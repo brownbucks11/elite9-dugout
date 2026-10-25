@@ -1065,7 +1065,7 @@
           "seed": 5,
           "team": "Pfafftown Raiders",
           "location": "Pfafftown, NC",
-          "won": 1,
+          "won": 2,
           "lost": 2,
           "runs_allowed": 18,
           "runs_scored": 13,
@@ -1076,7 +1076,7 @@
           "team": "ZT Knuckleheads",
           "location": "Clover, SC",
           "won": 1,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 17,
           "runs_scored": 17,
           "team_page_id": null
@@ -2658,7 +2658,7 @@
           "team": "Carolina Bearcats 12U",
           "location": "Alexis, NC",
           "won": 1,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 20,
           "runs_scored": 32,
           "team_page_id": null
@@ -2747,7 +2747,7 @@
           "seed": 13,
           "team": "East Rowan 12u",
           "location": "Rowan County, NC",
-          "won": 1,
+          "won": 2,
           "lost": 1,
           "runs_allowed": 18,
           "runs_scored": 18,
@@ -4059,7 +4059,7 @@
           "team": "CBC Prospects Blue 15u",
           "location": "CHERRYVILLE, NC",
           "won": 0,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 9,
           "runs_scored": 8,
           "team_page_id": null
@@ -4128,7 +4128,7 @@
           "seed": 12,
           "team": "Roanoke Valley Ballers ( Orange )",
           "location": "roanoke, VA",
-          "won": 1,
+          "won": 2,
           "lost": 1,
           "runs_allowed": 12,
           "runs_scored": 5,
@@ -4408,10 +4408,10 @@
             "field": "MRH:Marvin Ridge HS",
             "team_a": "Roanoke Valley Ballers ( Orange )",
             "seed_a": 8,
-            "score_a": null,
+            "score_a": 7,
             "team_b": "CBC Prospects Blue 15u",
             "seed_b": 9,
-            "score_b": null
+            "score_b": 5
           },
           {
             "game": 3,
@@ -4421,7 +4421,7 @@
             "team_a": "Winner Game #1 Mount Holly Hawks",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Winner Game #2",
+            "team_b": "Winner Game #2 Roanoke Valley Ballers ( Orange )",
             "seed_b": null,
             "score_b": null
           }
@@ -4933,5 +4933,5 @@
   },
   "site_last_updated": "10/22/2026 7:46 AM",
   "tournament_id": 12522,
-  "fetched_at": "2026-10-25T15:12"
+  "fetched_at": "2026-10-25T15:22"
 }
