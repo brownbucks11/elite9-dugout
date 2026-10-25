@@ -77,7 +77,7 @@
           "seed": 1,
           "team": "Carolina Rapid Fire \ud83d\udd25 8U (BLACK)",
           "location": "Lincolnton, NC",
-          "won": 3,
+          "won": 4,
           "lost": 0,
           "runs_allowed": 13,
           "runs_scored": 32,
@@ -158,7 +158,7 @@
           "team": "Carolina Hype 8u",
           "location": "Gaffney, SC",
           "won": 3,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 13,
           "runs_scored": 28,
           "team_page_id": null
@@ -365,10 +365,10 @@
             "field": "Westmoreld:Field 4",
             "team_a": "Winner Game #3 Carolina Hype 8u",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 9,
             "team_b": "Winner Game #4 Carolina Rapid Fire \ud83d\udd25 8U (BLACK)",
             "seed_b": null,
-            "score_b": null
+            "score_b": 10
           },
           {
             "game": 7,
@@ -4933,5 +4933,5 @@
   },
   "site_last_updated": "10/22/2026 7:46 AM",
   "tournament_id": 12522,
-  "fetched_at": "2026-10-25T15:53"
+  "fetched_at": "2026-10-25T16:04"
 }
