@@ -2004,7 +2004,7 @@
           "seed": 7,
           "team": "MP Bombers 11U",
           "location": "Mount Pleasant, NC",
-          "won": 2,
+          "won": 3,
           "lost": 0,
           "runs_allowed": 4,
           "runs_scored": 22,
@@ -2065,7 +2065,7 @@
           "team": "KM Aces",
           "location": "Kings Mountain, NC",
           "won": 2,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 8,
           "runs_scored": 19,
           "team_page_id": null
@@ -2438,10 +2438,10 @@
             "field": "Tega Cay:Field 1",
             "team_a": "Winner Game #1 KM Aces",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 3,
             "team_b": "MP Bombers 11U",
             "seed_b": 1,
-            "score_b": null
+            "score_b": 11
           },
           {
             "game": 4,
@@ -2460,7 +2460,7 @@
             "day": "Sun",
             "time": "5:00 PM",
             "field": "Tega Cay:Field 1",
-            "team_a": "Winner Game #3",
+            "team_a": "Winner Game #3 MP Bombers 11U",
             "seed_a": null,
             "score_a": null,
             "team_b": "Winner Game #4",
@@ -4727,7 +4727,7 @@
           "team": "Triad Warriors",
           "location": "Walkertown, NC",
           "won": 3,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 5,
           "runs_scored": 14,
           "team_page_id": null
@@ -4746,7 +4746,7 @@
           "seed": 8,
           "team": "Noice Hawk Natty",
           "location": "Lake Wylie, SC",
-          "won": 2,
+          "won": 3,
           "lost": 0,
           "runs_allowed": 4,
           "runs_scored": 15,
@@ -4884,10 +4884,10 @@
             "field": "CA:Field #1",
             "team_a": "Winner Game #1 Triad Warriors",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 2,
             "team_b": "Winner Game #2 Noice Hawk Natty",
             "seed_b": null,
-            "score_b": null
+            "score_b": 11
           }
         ],
         "Silver Bracket": [
@@ -4933,5 +4933,5 @@
   },
   "site_last_updated": "10/22/2026 7:46 AM",
   "tournament_id": 12522,
-  "fetched_at": "2026-10-25T14:40"
+  "fetched_at": "2026-10-25T14:51"
 }
