@@ -3,7 +3,7 @@
  "location": "Rock Hill, SC",
  "page_id": 31407,
  "team_url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=31407",
- "built": "Sun Oct 25, 2026 11:22 PM",
+ "built": "Mon Oct 26, 2026 03:26 AM",
  "record": {
   "w": 6,
   "l": 10,
@@ -3887,7 +3887,7 @@
     "Modified Stealing"
    ],
    "teams": 18,
-   "state": "live",
+   "state": "final",
    "tgs": {
     "weather": {
      "text": "\"WINTER WORLD SERIES\" \n \"PLAYERS WILL HAVE THE OPPORUNTIY TO QUALIFY FOR THE ALL-AMERICAN TOP (100) SKILLS PROSPECT COMBINE\" \n \"WORLD SERIES GAME CHANGER STATS WILL QUALIFY PLAYERS OUT OF THIS EVENT TO BE ELIGIBLE FOR THE TOP (100) PLAYERS TAKEN EACH YEAR TO THE BASEBALL COMBINE\" \n \"STATS FOR THE ANALYTICS WILL BE POSTED ON OUR PLAYER PROFILE PAGES FOR COLLEGE COACHES TO VIEW AT THE COMBINE\" \n \"TOP GUN-USA WILL ALSO HAVE AND ALL-STAR GAME ON SUNDAY AFTERNOON RECOGNIZING OUR TOP (24) PLAYERS PER AGE DIVISION\"",
@@ -4035,7 +4035,7 @@
     "url": "https://topgunstats.com/whos-playing/12522"
    },
    "next_game": null,
-   "ics": "ics/12522.ics",
+   "ics": null,
    "standing": {
     "team": "Elite 9",
     "location": "Rock Hill, SC",
@@ -8020,7 +8020,7 @@
   },
   {
    "id": 12522,
-   "state": "live",
+   "state": "final",
    "official": false,
    "confirmed": false,
    "summary": {
@@ -8041,21 +8041,7 @@
     "w": 2,
     "l": 1
    },
-   "entries": {
-    "count": 18,
-    "confirmed": 18,
-    "waitlist": 0,
-    "total": 177,
-    "team": {
-     "entered": true,
-     "division": "9U",
-     "confirmed": true,
-     "waitlist": false,
-     "entered_at": "2026-10-19T08:25:19.373Z",
-     "level": "AA"
-    },
-    "fetched_at": "2026-10-25T23:22"
-   },
+   "entries": null,
    "tgs": {
     "weather": {
      "text": "\"WINTER WORLD SERIES\" \n \"PLAYERS WILL HAVE THE OPPORUNTIY TO QUALIFY FOR THE ALL-AMERICAN TOP (100) SKILLS PROSPECT COMBINE\" \n \"WORLD SERIES GAME CHANGER STATS WILL QUALIFY PLAYERS OUT OF THIS EVENT TO BE ELIGIBLE FOR THE TOP (100) PLAYERS TAKEN EACH YEAR TO THE BASEBALL COMBINE\" \n \"STATS FOR THE ANALYTICS WILL BE POSTED ON OUR PLAYER PROFILE PAGES FOR COLLEGE COACHES TO VIEW AT THE COMBINE\" \n \"TOP GUN-USA WILL ALSO HAVE AND ALL-STAR GAME ON SUNDAY AFTERNOON RECOGNIZING OUR TOP (24) PLAYERS PER AGE DIVISION\"",
@@ -8981,28 +8967,11 @@
     }
    ],
    "next_game": null,
-   "schedule_versions": 3,
-   "schedule_first": "2026-10-22T10:54",
-   "schedule_updated": "2026-10-24T20:20",
-   "changes": [
-    {
-     "key": "Silver Bracket#3",
-     "kind": "added"
-    },
-    {
-     "key": "Gold Bracket#1",
-     "kind": "removed",
-     "was": {
-      "key": "Gold Bracket#1",
-      "date": "2026-10-25",
-      "day": "Sun",
-      "time": "9:00 AM",
-      "field": "Bradford:Field # 1",
-      "opponent": "Lake Wylie Venom"
-     }
-    }
-   ],
-   "ics": "ics/12522.ics"
+   "schedule_versions": 0,
+   "schedule_first": null,
+   "schedule_updated": null,
+   "changes": [],
+   "ics": null
   },
   {
    "id": 12524,
@@ -9018,7 +8987,7 @@
     "team": {
      "entered": false
     },
-    "fetched_at": "2026-10-25T23:22"
+    "fetched_at": "2026-10-26T03:25"
    },
    "tgs": {
     "weather": null,
@@ -9072,7 +9041,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-25T23:21",
+    "fetched_at": "2026-10-26T03:25",
     "url": "https://topgunstats.com/whos-playing/12524"
    },
    "name": "Road Runner vs Coyote ring weekend",
@@ -24800,6 +24769,6 @@
  "season": "08/01/2026 - 10/23/2026",
  "stats_fetched": "2026-10-23T11:40",
  "division": "9U",
- "today": "2026-10-25",
+ "today": "2026-10-26",
  "season_label": "Fall 2026"
 }
