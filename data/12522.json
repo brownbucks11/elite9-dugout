@@ -1993,7 +1993,7 @@
           "team": "MP Bombers 11U",
           "location": "Mount Pleasant, NC",
           "won": 3,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 4,
           "runs_scored": 22,
           "team_page_id": null
@@ -2022,7 +2022,7 @@
           "seed": 10,
           "team": "Carolina Hit Stix",
           "location": "EDGEMOOR, SC",
-          "won": 4,
+          "won": 5,
           "lost": 0,
           "runs_allowed": 10,
           "runs_scored": 22,
@@ -2072,7 +2072,7 @@
           "seed": 15,
           "team": "Davidson Force",
           "location": "Davidson, NC",
-          "won": 3,
+          "won": 4,
           "lost": 1,
           "runs_allowed": 14,
           "runs_scored": 14,
@@ -2113,7 +2113,7 @@
           "team": "Blue Sox",
           "location": "Charlotte, NC",
           "won": 2,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 14,
           "runs_scored": 19,
           "team_page_id": null
@@ -2450,10 +2450,10 @@
             "field": "Tega Cay:Field 1",
             "team_a": "Winner Game #3 MP Bombers 11U",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 6,
             "team_b": "Winner Game #4 Carolina Hit Stix",
             "seed_b": null,
-            "score_b": null
+            "score_b": 8
           }
         ],
         "Silver Bracket": [
@@ -2512,10 +2512,10 @@
             "field": "Tega Cay:Field 4",
             "team_a": "Winner Game #3 Davidson Force",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 16,
             "team_b": "Winner Game #4 Blue Sox",
             "seed_b": null,
-            "score_b": null
+            "score_b": 1
           }
         ],
         "Bronze Bracket": [
@@ -4921,5 +4921,5 @@
   },
   "site_last_updated": "10/22/2026 7:46 AM",
   "tournament_id": 12522,
-  "fetched_at": "2026-10-25T20:16"
+  "fetched_at": "2026-10-25T20:27"
 }
