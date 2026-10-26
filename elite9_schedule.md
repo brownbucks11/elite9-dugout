@@ -1,5 +1,5 @@
 # Elite 9 - Top Gun schedule
-_Updated Mon Oct 26, 2026 01:23 PM_
+_Updated Mon Oct 26, 2026 02:50 PM_
 
 ## SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND
 September 26 - 27 in Greater Charlotte Area, NC  
@@ -234,9 +234,27 @@ Tournament 12522 - [schedule page](https://playtopgunsports.com/GameTimesResults
 | 2 | Sun 11:00 AM | Bradford:Field # 4 | (#16) Diamond Jaxx 0 | (#17) BOILING SPRINGS BULLDOGS BASEBALL 8u 13 |
 | 3 | Sun 1:00 PM | Bradford:Field # 4 | Winner Game #1 Carolina Regulators 9u 15 | Winner Game #2 BOILING SPRINGS BULLDOGS BASEBALL 8u 2 |
 
+## HALLOWEEN MONSTER MASH------2026 TOP GUN-USA SPORTS EVENT
+October 31 - 1 in Greater Charlotte Area, NC  
+Tournament 12523 - [schedule page](https://playtopgunsports.com/GameTimesResults.aspx?trnid=12523)
+
+_Elite 9 not listed yet. Divisions posted: none posted yet_
+
 ## ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO
 November 7 - 8 in Greater Charlotte Area, NC  
 Tournament 12524 - [schedule page](https://playtopgunsports.com/GameTimesResults.aspx?trnid=12524)
+
+_Elite 9 not listed yet. Divisions posted: none posted yet_
+
+## FRIDAY NIGHT LIGHTS---MONSTER MASH CHAMPIONSHIPS
+October 30 in Mocksville/Winston Salem/Clemm, NC  
+Tournament 13574 - [schedule page](https://playtopgunsports.com/GameTimesResults.aspx?trnid=13574)
+
+_Elite 9 not listed yet. Divisions posted: none posted yet_
+
+## MONSTER MASH CHAMPIONSHIPS---QUALIFY FOR THE ALL STATE GAMES THIS WEEK
+October 31 - 1 in Statesville, NC  
+Tournament 13575 - [schedule page](https://playtopgunsports.com/GameTimesResults.aspx?trnid=13575)
 
 _Elite 9 not listed yet. Divisions posted: none posted yet_
 
