@@ -1,10 +1,10 @@
 {
  "team": "NL Destroyers 2036",
  "label": "9U, AA",
- "season": "08/01/2026 - 10/23/2026",
- "games": 22,
- "won": 14,
- "lost": 8,
+ "season": "08/01/2026 - 10/26/2026",
+ "games": 25,
+ "won": 16,
+ "lost": 9,
  "tournaments": [
   {
    "date": "2026-08-22",
@@ -65,8 +65,18 @@
    "ra": 36,
    "standing": "3rd (Gold)",
    "points": 1150
+  },
+  {
+   "date": "2026-10-24",
+   "name": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
+   "won": 2,
+   "lost": 1,
+   "rs": 24,
+   "ra": 12,
+   "standing": "",
+   "points": 0
   }
  ],
  "team_page_id": 36883,
- "fetched_at": "2026-10-23T11:41"
+ "fetched_at": "2026-10-26T13:25"
 }

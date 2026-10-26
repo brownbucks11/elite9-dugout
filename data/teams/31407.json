@@ -1,10 +1,10 @@
 {
  "team": "Elite 9",
  "label": "9U, AA",
- "season": "08/01/2026 - 10/23/2026",
- "games": 13,
- "won": 4,
- "lost": 9,
+ "season": "08/01/2026 - 10/26/2026",
+ "games": 16,
+ "won": 6,
+ "lost": 10,
  "tournaments": [
   {
    "date": "2026-09-11",
@@ -45,8 +45,18 @@
    "ra": 57,
    "standing": "1st (Copper)",
    "points": 900
+  },
+  {
+   "date": "2026-10-24",
+   "name": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
+   "won": 2,
+   "lost": 1,
+   "rs": 36,
+   "ra": 32,
+   "standing": "",
+   "points": 0
   }
  ],
  "team_page_id": 31407,
- "fetched_at": "2026-10-23T11:40"
+ "fetched_at": "2026-10-26T13:23"
 }
