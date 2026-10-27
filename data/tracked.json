@@ -217,8 +217,10 @@
   "city": "Mocksville/Winston Salem/Clemm, NC"
  },
  "13574": {
-  "divisions": [],
-  "skip": false,
+  "divisions": [
+   "10U"
+  ],
+  "skip": true,
   "name": "FRIDAY NIGHT LIGHTS---MONSTER MASH CHAMPIONSHIPS",
   "start": "2026-10-30",
   "city": "Mocksville/Winston Salem/Clemm, NC"

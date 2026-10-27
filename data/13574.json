@@ -9,8 +9,208 @@
       "address": "599 Farmington Rd Mocksville, NC 27028"
     }
   },
-  "divisions": {},
+  "divisions": {
+    "10U": {
+      "notes": [],
+      "standings": [
+        {
+          "seed": 1,
+          "team": "LKN Kingdom",
+          "location": "Charlotte, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 2,
+          "team": "Triad Cardinals 10U",
+          "location": "Kernersville, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 3,
+          "team": "Drypond 10U",
+          "location": "Denver, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 4,
+          "team": "Dirtbags National",
+          "location": "Lexington, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 5,
+          "team": "Carolina Ghost 10u",
+          "location": "High Point, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 6,
+          "team": "Carolina Elevate Bolick",
+          "location": "Lenoir, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 7,
+          "team": "NC Prospects 10u",
+          "location": "Thomasville, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 8,
+          "team": "Dirtbags Camo",
+          "location": "Winston Salem, NC, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        }
+      ],
+      "sections": {
+        "Pool Play": [
+          {
+            "game": 1,
+            "day": "Fri",
+            "time": "6:00 PM",
+            "field": "DYC:Bird Co Field",
+            "team_a": "Dirtbags National",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Carolina Elevate Bolick",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 2,
+            "day": "Fri",
+            "time": "6:00 PM",
+            "field": "DYC:Farm Bureau",
+            "team_a": "NC Prospects 10u",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Carolina Ghost 10u",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 3,
+            "day": "Fri",
+            "time": "6:00 PM",
+            "field": "DYC:K&W Service",
+            "team_a": "Drypond 10U",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Triad Cardinals 10U",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 4,
+            "day": "Fri",
+            "time": "6:00 PM",
+            "field": "DYC:Zach Wright",
+            "team_a": "LKN Kingdom",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Dirtbags Camo",
+            "seed_b": null,
+            "score_b": null
+          }
+        ],
+        "Gold Bracket": [
+          {
+            "game": 1,
+            "day": "Fri",
+            "time": "7:30 PM",
+            "field": "DYC:Bird Co Field",
+            "team_a": "Winner of Game 1",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Winner of Game 2",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 2,
+            "day": "Fri",
+            "time": "7:30 PM",
+            "field": "DYC:Farm Bureau",
+            "team_a": "Loser of Game 1",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Loser of Game 2",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 3,
+            "day": "Fri",
+            "time": "7:30 PM",
+            "field": "DYC:K&W Service",
+            "team_a": "Winner of Game 3",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Winner of Game 4",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 4,
+            "day": "Fri",
+            "time": "7:30 PM",
+            "field": "DYC:Zach Wright",
+            "team_a": "Loser of Game 3",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Loser of Game 4",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 5,
+            "day": "Fri",
+            "time": "9:00 PM",
+            "field": "DYC:K&W Service",
+            "team_a": "Winner of Gold Game 1",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Winner of Gold Game 3",
+            "seed_b": null,
+            "score_b": null
+          }
+        ]
+      }
+    }
+  },
   "site_last_updated": "06/30/2026 4:47 PM",
   "tournament_id": 13574,
-  "fetched_at": "2026-10-27T12:14"
+  "fetched_at": "2026-10-27T17:02"
 }
