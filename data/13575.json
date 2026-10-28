@@ -9,7 +9,616 @@
       "address": "141 Deitz Rd Statesville, NC 28625"
     }
   },
-  "divisions": {},
+  "divisions": {
+    "8U CP": {
+      "notes": [],
+      "standings": [
+        {
+          "seed": 1,
+          "team": "FS Bulldogs 8u (Brooks)",
+          "location": "Mount Ulla, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 2,
+          "team": "MP BOMBERS",
+          "location": "MOUNT PLEASANT, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 3,
+          "team": "NWNC Elite 8u",
+          "location": "Wilkesboro, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 4,
+          "team": "NC Made 8U Green",
+          "location": "Mocksville, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        }
+      ],
+      "sections": {
+        "Pool Play": [
+          {
+            "game": 1,
+            "day": "Sat",
+            "time": "9:00 AM",
+            "field": "Jennings:Jennings #3",
+            "team_a": "FS Bulldogs 8u (Brooks)",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "NC Made 8U Green",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 2,
+            "day": "Sat",
+            "time": "10:15 AM",
+            "field": "Jennings:Jennings #3",
+            "team_a": "FS Bulldogs 8u (Brooks)",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "NWNC Elite 8u",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 3,
+            "day": "Sat",
+            "time": "11:30 AM",
+            "field": "Jennings:Jennings #3",
+            "team_a": "NC Made 8U Green",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "MP BOMBERS",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 4,
+            "day": "Sat",
+            "time": "12:45 PM",
+            "field": "Jennings:Jennings #3",
+            "team_a": "NWNC Elite 8u",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "MP BOMBERS",
+            "seed_b": null,
+            "score_b": null
+          }
+        ],
+        "Gold Bracket": [
+          {
+            "game": 1,
+            "day": "Sun",
+            "time": "11:00 AM",
+            "field": "Jennings:Jennings #3",
+            "team_a": "",
+            "seed_a": 1,
+            "score_a": null,
+            "team_b": "",
+            "seed_b": 4,
+            "score_b": null
+          },
+          {
+            "game": 2,
+            "day": "Sun",
+            "time": "12:30 PM",
+            "field": "Jennings:Jennings #3",
+            "team_a": "",
+            "seed_a": 2,
+            "score_a": null,
+            "team_b": "",
+            "seed_b": 3,
+            "score_b": null
+          },
+          {
+            "game": 3,
+            "day": "Sun",
+            "time": "2:00 PM",
+            "field": "Jennings:Jennings #3",
+            "team_a": "Winner Game #1",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Winner Game #2",
+            "seed_b": null,
+            "score_b": null
+          }
+        ]
+      }
+    },
+    "9U": {
+      "notes": [],
+      "standings": [
+        {
+          "seed": 1,
+          "team": "NC Made 9U Blue",
+          "location": "Mocksville, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 2,
+          "team": "M&M Baseball 9u",
+          "location": "Browns Summit, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 3,
+          "team": "DYBA Force 9U",
+          "location": "Davidson, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 4,
+          "team": "FS Bulldogs 9u (Cockrell)",
+          "location": "Mt Ulla, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        }
+      ],
+      "sections": {
+        "Pool Play": [
+          {
+            "game": 1,
+            "day": "Sat",
+            "time": "8:30 AM",
+            "field": "Jennings:Jennings #2",
+            "team_a": "FS Bulldogs 9u (Cockrell)",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "DYBA Force 9U",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 2,
+            "day": "Sat",
+            "time": "10:15 AM",
+            "field": "Jennings:Jennings #2",
+            "team_a": "FS Bulldogs 9u (Cockrell)",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "NC Made 9U Blue",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 3,
+            "day": "Sat",
+            "time": "12:00 PM",
+            "field": "Jennings:Jennings #2",
+            "team_a": "DYBA Force 9U",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "M&M Baseball 9u",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 4,
+            "day": "Sat",
+            "time": "1:45 PM",
+            "field": "Jennings:Jennings #2",
+            "team_a": "NC Made 9U Blue",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "M&M Baseball 9u",
+            "seed_b": null,
+            "score_b": null
+          }
+        ],
+        "Gold Bracket": [
+          {
+            "game": 1,
+            "day": "Sun",
+            "time": "10:00 AM",
+            "field": "Jennings:Jennings #2",
+            "team_a": "",
+            "seed_a": 1,
+            "score_a": null,
+            "team_b": "",
+            "seed_b": 4,
+            "score_b": null
+          },
+          {
+            "game": 2,
+            "day": "Sun",
+            "time": "12:00 PM",
+            "field": "Jennings:Jennings #2",
+            "team_a": "",
+            "seed_a": 2,
+            "score_a": null,
+            "team_b": "",
+            "seed_b": 3,
+            "score_b": null
+          },
+          {
+            "game": 3,
+            "day": "Sun",
+            "time": "2:00 PM",
+            "field": "Jennings:Jennings #2",
+            "team_a": "Winner Game #1",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Winner Game #2",
+            "seed_b": null,
+            "score_b": null
+          }
+        ]
+      }
+    },
+    "10U": {
+      "notes": [],
+      "standings": [
+        {
+          "seed": 1,
+          "team": "Lightning Jacks-Brown",
+          "location": "kernersville, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 2,
+          "team": "M&M Baseball 10u Gold",
+          "location": "Browns Summit, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 3,
+          "team": "FS Bulldogs 10u (Red)",
+          "location": "Mount Ulla, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 4,
+          "team": "NC Made 10U Blue",
+          "location": "Mocksville, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        }
+      ],
+      "sections": {
+        "Pool Play": [
+          {
+            "game": 1,
+            "day": "Sat",
+            "time": "8:30 AM",
+            "field": "Jennings:Jennings #4",
+            "team_a": "Lightning Jacks-Brown",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "NC Made 10U Blue",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 2,
+            "day": "Sat",
+            "time": "10:15 AM",
+            "field": "Jennings:Jennings #4",
+            "team_a": "Lightning Jacks-Brown",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "M&M Baseball 10u Gold",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 3,
+            "day": "Sat",
+            "time": "12:00 PM",
+            "field": "Jennings:Jennings #4",
+            "team_a": "NC Made 10U Blue",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "FS Bulldogs 10u (Red)",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 4,
+            "day": "Sat",
+            "time": "1:45 PM",
+            "field": "Jennings:Jennings #4",
+            "team_a": "M&M Baseball 10u Gold",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "FS Bulldogs 10u (Red)",
+            "seed_b": null,
+            "score_b": null
+          }
+        ],
+        "Gold Bracket": [
+          {
+            "game": 1,
+            "day": "Sun",
+            "time": "10:30 AM",
+            "field": "Jennings:Jennings #4",
+            "team_a": "",
+            "seed_a": 1,
+            "score_a": null,
+            "team_b": "",
+            "seed_b": 4,
+            "score_b": null
+          },
+          {
+            "game": 2,
+            "day": "Sun",
+            "time": "12:30 PM",
+            "field": "Jennings:Jennings #4",
+            "team_a": "",
+            "seed_a": 2,
+            "score_a": null,
+            "team_b": "",
+            "seed_b": 3,
+            "score_b": null
+          },
+          {
+            "game": 3,
+            "day": "Sun",
+            "time": "2:30 PM",
+            "field": "Jennings:Jennings #4",
+            "team_a": "Winner Game #1",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Winner Game #2",
+            "seed_b": null,
+            "score_b": null
+          }
+        ]
+      }
+    },
+    "13U 90": {
+      "notes": [],
+      "standings": [
+        {
+          "seed": 1,
+          "team": "East Rowan 13U Earnhardt",
+          "location": "Rockwell, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 2,
+          "team": "Camel City Baseball",
+          "location": "Pfafftown, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 3,
+          "team": "Equip Sports",
+          "location": "Boone, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 4,
+          "team": "NWNC Elite Navy",
+          "location": "North Wilkesboro, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 5,
+          "team": "Lightning Jacks-Stover",
+          "location": "Kernersville, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 6,
+          "team": "NC Made 13U",
+          "location": "Mocksville, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        }
+      ],
+      "sections": {
+        "Pool Play": [
+          {
+            "game": 1,
+            "day": "Sat",
+            "time": "8:30 AM",
+            "field": "Jennings:Jennings #1",
+            "team_a": "NC Made 13U",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "NWNC Elite Navy",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 2,
+            "day": "Sat",
+            "time": "10:15 AM",
+            "field": "Jennings:Jennings #1",
+            "team_a": "NC Made 13U",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "East Rowan 13U Earnhardt",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 3,
+            "day": "Sat",
+            "time": "12:00 PM",
+            "field": "Jennings:Jennings #1",
+            "team_a": "NWNC Elite Navy",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "East Rowan 13U Earnhardt",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 4,
+            "day": "Sat",
+            "time": "1:45 PM",
+            "field": "Jennings:Jennings #1",
+            "team_a": "Lightning Jacks-Stover",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Equip Sports",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 5,
+            "day": "Sat",
+            "time": "3:30 PM",
+            "field": "Jennings:Jennings #1",
+            "team_a": "Camel City Baseball",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Equip Sports",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 6,
+            "day": "Sat",
+            "time": "5:15 PM",
+            "field": "Jennings:Jennings #1",
+            "team_a": "Camel City Baseball",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Lightning Jacks-Stover",
+            "seed_b": null,
+            "score_b": null
+          }
+        ],
+        "Gold Bracket": [
+          {
+            "game": 1,
+            "day": "Sun",
+            "time": "9:30 AM",
+            "field": "Jennings:Jennings #1",
+            "team_a": "",
+            "seed_a": 4,
+            "score_a": null,
+            "team_b": "",
+            "seed_b": 5,
+            "score_b": null
+          },
+          {
+            "game": 2,
+            "day": "Sun",
+            "time": "11:30 AM",
+            "field": "Jennings:Jennings #1",
+            "team_a": "",
+            "seed_a": 3,
+            "score_a": null,
+            "team_b": "",
+            "seed_b": 6,
+            "score_b": null
+          },
+          {
+            "game": 3,
+            "day": "Sun",
+            "time": "1:30 PM",
+            "field": "Jennings:Jennings #1",
+            "team_a": "Winner Game #1",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "",
+            "seed_b": 1,
+            "score_b": null
+          },
+          {
+            "game": 4,
+            "day": "Sun",
+            "time": "3:30 PM",
+            "field": "Jennings:Jennings #1",
+            "team_a": "Winner Game #2",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "",
+            "seed_b": 2,
+            "score_b": null
+          },
+          {
+            "game": 5,
+            "day": "Sun",
+            "time": "5:30 PM",
+            "field": "Jennings:Jennings #1",
+            "team_a": "Winner Game #3",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Winner Game #4",
+            "seed_b": null,
+            "score_b": null
+          }
+        ]
+      }
+    }
+  },
   "tournament_id": 13575,
-  "fetched_at": "2026-10-28T13:01"
+  "fetched_at": "2026-10-28T17:24"
 }

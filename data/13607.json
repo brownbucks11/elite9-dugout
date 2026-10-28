@@ -9,7 +9,180 @@
       "address": "3504 Zebulon Williams Road Monroe, NC 28110"
     }
   },
-  "divisions": {},
+  "divisions": {
+    "9U": {
+      "notes": [
+        "Modified Stealing \"1 Hour 20 minute time limit\""
+      ],
+      "standings": [
+        {
+          "seed": 1,
+          "team": "Carolina Trash Pandas",
+          "location": "Locust, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 2,
+          "team": "Red Clay Athletics 9U Darcangelo",
+          "location": "Charlotte, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 3,
+          "team": "Legacy Baseball 9U - WHITE",
+          "location": "Fort Mill, SC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 4,
+          "team": "Union County Aces 9u",
+          "location": "Monroe, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 5,
+          "team": "Carolina Icons",
+          "location": "Stanfield, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 6,
+          "team": "Mill Town 9u White Powered By Trosky",
+          "location": "Fort Mill, SC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        }
+      ],
+      "sections": {
+        "Pool Play": [
+          {
+            "game": 1,
+            "day": "Fri",
+            "time": "6:00 PM",
+            "field": "NWP:Field 6",
+            "team_a": "Legacy Baseball 9U - WHITE",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Red Clay Athletics 9U Darcangelo",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 2,
+            "day": "Fri",
+            "time": "6:00 PM",
+            "field": "NWP:Field 7",
+            "team_a": "Union County Aces 9u",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Carolina Icons",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 3,
+            "day": "Fri",
+            "time": "6:00 PM",
+            "field": "NWP:Field 8",
+            "team_a": "Mill Town 9u White Powered By Trosky",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Carolina Trash Pandas",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 4,
+            "day": "Fri",
+            "time": "7:30 PM",
+            "field": "NWP:Field 6",
+            "team_a": "Legacy Baseball 9U - WHITE",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Carolina Icons",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 5,
+            "day": "Fri",
+            "time": "7:30 PM",
+            "field": "NWP:Field 7",
+            "team_a": "Union County Aces 9u",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Carolina Trash Pandas",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 6,
+            "day": "Fri",
+            "time": "7:30 PM",
+            "field": "NWP:Field 8",
+            "team_a": "Mill Town 9u White Powered By Trosky",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Red Clay Athletics 9U Darcangelo",
+            "seed_b": null,
+            "score_b": null
+          }
+        ],
+        "Gold Bracket": [
+          {
+            "game": 1,
+            "day": "Fri",
+            "time": "9:00 PM",
+            "field": "NWP:Field 7",
+            "team_a": "",
+            "seed_a": 1,
+            "score_a": null,
+            "team_b": "",
+            "seed_b": 2,
+            "score_b": null
+          }
+        ],
+        "Silver Bracket": [
+          {
+            "game": 1,
+            "day": "Fri",
+            "time": "9:00 PM",
+            "field": "NWP:Field 8",
+            "team_a": "",
+            "seed_a": 3,
+            "score_a": null,
+            "team_b": "",
+            "seed_b": 4,
+            "score_b": null
+          }
+        ]
+      }
+    }
+  },
+  "site_last_updated": "10/28/2026 3:47 PM",
   "tournament_id": 13607,
-  "fetched_at": "2026-10-28T13:01"
+  "fetched_at": "2026-10-28T17:24"
 }
