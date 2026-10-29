@@ -2217,6 +2217,16 @@
           "runs_allowed": 0,
           "runs_scored": 0,
           "team_page_id": null
+        },
+        {
+          "seed": 5,
+          "team": "CBC Prospects Blue 15u",
+          "location": "CHERRYVILLE, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
         }
       ],
       "sections": {
@@ -2253,7 +2263,7 @@
             "team_a": "CBC Knuckleheads Fox",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Bat Attitude",
+            "team_b": "CBC Prospects Blue 15u",
             "seed_b": null,
             "score_b": null
           },
@@ -2268,13 +2278,37 @@
             "team_b": "Bat Attitude",
             "seed_b": null,
             "score_b": null
+          },
+          {
+            "game": 5,
+            "day": "Sat",
+            "time": "3:30 PM",
+            "field": "CA:Field #1",
+            "team_a": "Bat Attitude",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "CBC Prospects Blue 15u",
+            "seed_b": null,
+            "score_b": null
           }
         ],
         "Gold Bracket": [
           {
             "game": 1,
             "day": "Sun",
-            "time": "9:00 AM",
+            "time": "8:00 AM",
+            "field": "CA:Field #1",
+            "team_a": "",
+            "seed_a": 4,
+            "score_a": null,
+            "team_b": "",
+            "seed_b": 5,
+            "score_b": null
+          },
+          {
+            "game": 2,
+            "day": "Sun",
+            "time": "10:00 AM",
             "field": "CA:Field #1",
             "team_a": "",
             "seed_a": 2,
@@ -2284,21 +2318,21 @@
             "score_b": null
           },
           {
-            "game": 2,
+            "game": 3,
             "day": "Sun",
-            "time": "11:00 AM",
+            "time": "12:00 PM",
             "field": "CA:Field #1",
-            "team_a": "",
-            "seed_a": 1,
+            "team_a": "Winner Game #1",
+            "seed_a": null,
             "score_a": null,
             "team_b": "",
-            "seed_b": 4,
+            "seed_b": 1,
             "score_b": null
           },
           {
-            "game": 3,
+            "game": 4,
             "day": "Sun",
-            "time": "3:00 PM",
+            "time": "4:00 PM",
             "field": "CA:Field #1",
             "team_a": "Loser Game #1",
             "seed_a": null,
@@ -2308,11 +2342,11 @@
             "score_b": null
           },
           {
-            "game": 4,
+            "game": 5,
             "day": "Sun",
-            "time": "1:00 PM",
+            "time": "2:00 PM",
             "field": "CA:Field #1",
-            "team_a": "Winner Game #1",
+            "team_a": "Winner Game #3",
             "seed_a": null,
             "score_a": null,
             "team_b": "Winner Game #2",
@@ -2506,5 +2540,5 @@
   },
   "site_last_updated": "10/29/2026 12:18 PM",
   "tournament_id": 12523,
-  "fetched_at": "2026-10-29T14:37"
+  "fetched_at": "2026-10-29T17:29"
 }
