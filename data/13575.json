@@ -17,10 +17,10 @@
           "seed": 1,
           "team": "FS Bulldogs 8u (Brooks)",
           "location": "Mount Ulla, NC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
-          "runs_allowed": 6,
-          "runs_scored": 17,
+          "runs_allowed": 10,
+          "runs_scored": 37,
           "team_page_id": null
         },
         {
@@ -28,9 +28,9 @@
           "team": "MP BOMBERS",
           "location": "MOUNT PLEASANT, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 20,
+          "runs_scored": 4,
           "team_page_id": null
         },
         {
@@ -65,10 +65,10 @@
             "field": "Jennings:Jennings #3",
             "team_a": "FS Bulldogs 8u (Brooks)",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 20,
             "team_b": "MP BOMBERS",
             "seed_b": null,
-            "score_b": null
+            "score_b": 4
           },
           {
             "game": 3,
@@ -596,5 +596,5 @@
     }
   },
   "tournament_id": 13575,
-  "fetched_at": "2026-10-31T11:08"
+  "fetched_at": "2026-10-31T11:58"
 }

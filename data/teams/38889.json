@@ -1,10 +1,10 @@
 {
  "team": "ELITE BASEBALL EBC 9U",
  "label": "9U, AA",
- "season": "08/01/2026 - 10/30/2026",
- "games": 15,
+ "season": "08/01/2026 - 10/31/2026",
+ "games": 17,
  "won": 2,
- "lost": 13,
+ "lost": 15,
  "tournaments": [
   {
    "date": "2026-09-05",
@@ -45,8 +45,18 @@
    "ra": 37,
    "standing": "3rd (Bronze)",
    "points": 950
+  },
+  {
+   "date": "2026-10-31",
+   "name": "HALLOWEEN MONSTER MASH------2026 TOP GUN-USA SPORTS EVENT",
+   "won": 0,
+   "lost": 2,
+   "rs": 13,
+   "ra": 24,
+   "standing": "",
+   "points": 0
   }
  ],
  "team_page_id": 38889,
- "fetched_at": "2026-10-30T13:00"
+ "fetched_at": "2026-10-31T12:02"
 }
