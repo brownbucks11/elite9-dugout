@@ -3,7 +3,7 @@
  "location": "Rock Hill, SC",
  "page_id": 31407,
  "team_url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=31407",
- "built": "Sat Oct 31, 2026 03:45 PM",
+ "built": "Sat Oct 31, 2026 04:21 PM",
  "record": {
   "w": 6,
   "l": 10,
@@ -8983,17 +8983,17 @@
     "count": 13,
     "confirmed": 0,
     "waitlist": 0,
-    "total": 70,
+    "total": 71,
     "team": {
      "entered": false
     },
-    "fetched_at": "2026-10-31T15:45"
+    "fetched_at": "2026-10-31T16:20"
    },
    "tgs": {
     "weather": null,
     "general": null,
     "awards": "BATTLE FOR THE BOGGS------ALL WINNING AND RUNNER UP TEAMS WILL RECEIVE (12) TOP GUN-USA CUSTOM MADE TOBOGGANS--------ALL WINNING TEAMS WILL RECEIVE (12) TOP GUN-USA CUSTOM MADE JUMBO RINGS-------PLUS PLAQUES AND BANNERS.",
-    "teams_registered": 70,
+    "teams_registered": 71,
     "games_scheduled": false,
     "complexes": [
      {
@@ -9041,7 +9041,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-31T15:45",
+    "fetched_at": "2026-10-31T16:20",
     "url": "https://topgunstats.com/whos-playing/12524"
    },
    "name": "Road Runner vs Coyote ring weekend",
@@ -14088,102 +14088,6 @@
    "stats_fetched": "2026-10-31T11:59"
   },
   {
-   "team": "Legacy Baseball 9U RED",
-   "location": "Fort Mill, SC",
-   "page_id": 33172,
-   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=33172",
-   "w": 2,
-   "l": 3,
-   "t": 0,
-   "rs": 54,
-   "ra": 56,
-   "diff": -2,
-   "pct": 0.4,
-   "events": 2,
-   "log": [
-    {
-     "date": "2026-08-29",
-     "event_id": 12514,
-     "event": "FENCE BUDDIES CHAMPIONSHIPS----- TOP GUN-USA SPORTS EVENT",
-     "section": "Pool Play",
-     "opponent": "South Charlotte Revolution 9U",
-     "rs": 9,
-     "ra": 15,
-     "result": "L"
-    },
-    {
-     "date": "2026-08-29",
-     "event_id": 12514,
-     "event": "FENCE BUDDIES CHAMPIONSHIPS----- TOP GUN-USA SPORTS EVENT",
-     "section": "Pool Play",
-     "opponent": "Red Clay Athletics 9U Darcangelo",
-     "rs": 8,
-     "ra": 7,
-     "result": "W"
-    },
-    {
-     "date": "2026-08-30",
-     "event_id": 12514,
-     "event": "FENCE BUDDIES CHAMPIONSHIPS----- TOP GUN-USA SPORTS EVENT",
-     "section": "Silver Bracket",
-     "opponent": "LumberJacks",
-     "rs": 15,
-     "ra": 7,
-     "result": "W"
-    },
-    {
-     "date": "2026-08-30",
-     "event_id": 12514,
-     "event": "FENCE BUDDIES CHAMPIONSHIPS----- TOP GUN-USA SPORTS EVENT",
-     "section": "Silver Bracket",
-     "opponent": "LKN Bolts",
-     "rs": 5,
-     "ra": 9,
-     "result": "L"
-    },
-    {
-     "date": "2026-10-31",
-     "event_id": 12523,
-     "event": "HALLOWEEN MONSTER MASH------2026 TOP GUN-USA SPORTS EVENT",
-     "section": "Pool Play",
-     "opponent": "Team 24",
-     "rs": 17,
-     "ra": 18,
-     "result": "L"
-    }
-   ],
-   "points": 275,
-   "titles": 0,
-   "finishes": [
-    {
-     "date": "2026-08-29",
-     "name": "FENCE BUDDIES CHAMPIONSHIPS----- TOP GUN-USA SPORTS EVENT",
-     "won": 2,
-     "lost": 2,
-     "standing": "2nd (Silver)",
-     "points": 275
-    },
-    {
-     "date": "2026-10-10",
-     "name": "CANCELLED------SPORTS SOUTHERN WINTER WORLD SERIES",
-     "won": 0,
-     "lost": 0,
-     "standing": "",
-     "points": 0
-    },
-    {
-     "date": "2026-10-31",
-     "name": "HALLOWEEN MONSTER MASH------2026 TOP GUN-USA SPORTS EVENT",
-     "won": 0,
-     "lost": 0,
-     "standing": "",
-     "points": 0
-    }
-   ],
-   "season": "08/01/2026 - 10/31/2026",
-   "stats_fetched": "2026-10-31T11:59"
-  },
-  {
    "team": "Waxhaw Militia 9U",
    "location": "Waxhaw, NC",
    "page_id": 33794,
@@ -14896,6 +14800,112 @@
    "stats_fetched": null
   },
   {
+   "team": "Legacy Baseball 9U RED",
+   "location": "Fort Mill, SC",
+   "page_id": 33172,
+   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=33172",
+   "w": 2,
+   "l": 4,
+   "t": 0,
+   "rs": 65,
+   "ra": 71,
+   "diff": -6,
+   "pct": 0.333,
+   "events": 2,
+   "log": [
+    {
+     "date": "2026-08-29",
+     "event_id": 12514,
+     "event": "FENCE BUDDIES CHAMPIONSHIPS----- TOP GUN-USA SPORTS EVENT",
+     "section": "Pool Play",
+     "opponent": "South Charlotte Revolution 9U",
+     "rs": 9,
+     "ra": 15,
+     "result": "L"
+    },
+    {
+     "date": "2026-08-29",
+     "event_id": 12514,
+     "event": "FENCE BUDDIES CHAMPIONSHIPS----- TOP GUN-USA SPORTS EVENT",
+     "section": "Pool Play",
+     "opponent": "Red Clay Athletics 9U Darcangelo",
+     "rs": 8,
+     "ra": 7,
+     "result": "W"
+    },
+    {
+     "date": "2026-08-30",
+     "event_id": 12514,
+     "event": "FENCE BUDDIES CHAMPIONSHIPS----- TOP GUN-USA SPORTS EVENT",
+     "section": "Silver Bracket",
+     "opponent": "LumberJacks",
+     "rs": 15,
+     "ra": 7,
+     "result": "W"
+    },
+    {
+     "date": "2026-08-30",
+     "event_id": 12514,
+     "event": "FENCE BUDDIES CHAMPIONSHIPS----- TOP GUN-USA SPORTS EVENT",
+     "section": "Silver Bracket",
+     "opponent": "LKN Bolts",
+     "rs": 5,
+     "ra": 9,
+     "result": "L"
+    },
+    {
+     "date": "2026-10-31",
+     "event_id": 12523,
+     "event": "HALLOWEEN MONSTER MASH------2026 TOP GUN-USA SPORTS EVENT",
+     "section": "Pool Play",
+     "opponent": "Team 24",
+     "rs": 17,
+     "ra": 18,
+     "result": "L"
+    },
+    {
+     "date": "2026-10-31",
+     "event_id": 12523,
+     "event": "HALLOWEEN MONSTER MASH------2026 TOP GUN-USA SPORTS EVENT",
+     "section": "Pool Play",
+     "opponent": "Concord Athletics -9U",
+     "rs": 11,
+     "ra": 15,
+     "result": "L"
+    }
+   ],
+   "points": 275,
+   "titles": 0,
+   "finishes": [
+    {
+     "date": "2026-08-29",
+     "name": "FENCE BUDDIES CHAMPIONSHIPS----- TOP GUN-USA SPORTS EVENT",
+     "won": 2,
+     "lost": 2,
+     "standing": "2nd (Silver)",
+     "points": 275
+    },
+    {
+     "date": "2026-10-10",
+     "name": "CANCELLED------SPORTS SOUTHERN WINTER WORLD SERIES",
+     "won": 0,
+     "lost": 0,
+     "standing": "",
+     "points": 0
+    },
+    {
+     "date": "2026-10-31",
+     "name": "HALLOWEEN MONSTER MASH------2026 TOP GUN-USA SPORTS EVENT",
+     "won": 0,
+     "lost": 0,
+     "standing": "",
+     "points": 0
+    }
+   ],
+   "season": "08/01/2026 - 10/31/2026",
+   "stats_fetched": "2026-10-31T11:59"
+  },
+  {
    "team": "Carolina Crushers 9U-Franklin",
    "location": "Reidsville, NC",
    "page_id": 35506,
@@ -15382,6 +15392,160 @@
    "stats_fetched": "2026-10-31T12:00"
   },
   {
+   "team": "Concord Athletics -9U",
+   "location": "Concord, NC",
+   "page_id": 36758,
+   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=36758",
+   "w": 3,
+   "l": 7,
+   "t": 0,
+   "rs": 65,
+   "ra": 119,
+   "diff": -54,
+   "pct": 0.3,
+   "events": 3,
+   "log": [
+    {
+     "date": "2026-09-12",
+     "event_id": 12516,
+     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
+     "section": "Pool Play",
+     "opponent": "Dirtbags Baseball ESB",
+     "rs": 0,
+     "ra": 14,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-12",
+     "event_id": 12516,
+     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
+     "section": "Pool Play",
+     "opponent": "LKN Bolts",
+     "rs": 4,
+     "ra": 15,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-13",
+     "event_id": 12516,
+     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
+     "section": "Bronze Bracket",
+     "opponent": "Hooligans",
+     "rs": 3,
+     "ra": 15,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-13",
+     "event_id": 12516,
+     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
+     "section": "Bronze Bracket",
+     "opponent": "Lake Wylie Venom",
+     "rs": 0,
+     "ra": 14,
+     "result": "L"
+    },
+    {
+     "date": "2026-10-24",
+     "event_id": 12522,
+     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
+     "section": "Pool Play",
+     "opponent": "Athletes Lab 9U Navy- Stewart",
+     "rs": 3,
+     "ra": 12,
+     "result": "L"
+    },
+    {
+     "date": "2026-10-24",
+     "event_id": 12522,
+     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
+     "section": "Pool Play",
+     "opponent": "NL Destroyers 2036",
+     "rs": 1,
+     "ra": 10,
+     "result": "L"
+    },
+    {
+     "date": "2026-10-25",
+     "event_id": 12522,
+     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
+     "section": "Bronze Bracket",
+     "opponent": "LumberJacks",
+     "rs": 18,
+     "ra": 12,
+     "result": "W"
+    },
+    {
+     "date": "2026-10-25",
+     "event_id": 12522,
+     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
+     "section": "Bronze Bracket",
+     "opponent": "LKN Lightning - Ogburn",
+     "rs": 11,
+     "ra": 12,
+     "result": "L"
+    },
+    {
+     "date": "2026-10-31",
+     "event_id": 12523,
+     "event": "HALLOWEEN MONSTER MASH------2026 TOP GUN-USA SPORTS EVENT",
+     "section": "Pool Play",
+     "opponent": "ELITE BASEBALL EBC 9U",
+     "rs": 10,
+     "ra": 4,
+     "result": "W"
+    },
+    {
+     "date": "2026-10-31",
+     "event_id": 12523,
+     "event": "HALLOWEEN MONSTER MASH------2026 TOP GUN-USA SPORTS EVENT",
+     "section": "Pool Play",
+     "opponent": "Legacy Baseball 9U RED",
+     "rs": 15,
+     "ra": 11,
+     "result": "W"
+    }
+   ],
+   "points": 900,
+   "titles": 0,
+   "finishes": [
+    {
+     "date": "2026-09-12",
+     "name": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
+     "won": 0,
+     "lost": 4,
+     "standing": "4th (Bronze)",
+     "points": 425
+    },
+    {
+     "date": "2026-10-10",
+     "name": "DOUBLE POINTS PINK ZONE QUALIFIER---ACTIVATE WINTER FREE PAID BERTHS",
+     "won": 0,
+     "lost": 0,
+     "standing": "",
+     "points": 0
+    },
+    {
+     "date": "2026-10-24",
+     "name": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
+     "won": 1,
+     "lost": 3,
+     "standing": "2nd (Bronze)",
+     "points": 475
+    },
+    {
+     "date": "2026-10-31",
+     "name": "HALLOWEEN MONSTER MASH------2026 TOP GUN-USA SPORTS EVENT",
+     "won": 1,
+     "lost": 0,
+     "standing": "",
+     "points": 0
+    }
+   ],
+   "season": "08/01/2026 - 10/31/2026",
+   "stats_fetched": "2026-10-31T12:00"
+  },
+  {
    "team": "SOX Baseball - Snow",
    "location": "Yadkinville, NC",
    "page_id": 37349,
@@ -15714,150 +15878,6 @@
    ],
    "season": "",
    "stats_fetched": null
-  },
-  {
-   "team": "Concord Athletics -9U",
-   "location": "Concord, NC",
-   "page_id": 36758,
-   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=36758",
-   "w": 2,
-   "l": 7,
-   "t": 0,
-   "rs": 50,
-   "ra": 108,
-   "diff": -58,
-   "pct": 0.222,
-   "events": 3,
-   "log": [
-    {
-     "date": "2026-09-12",
-     "event_id": 12516,
-     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
-     "section": "Pool Play",
-     "opponent": "Dirtbags Baseball ESB",
-     "rs": 0,
-     "ra": 14,
-     "result": "L"
-    },
-    {
-     "date": "2026-09-12",
-     "event_id": 12516,
-     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
-     "section": "Pool Play",
-     "opponent": "LKN Bolts",
-     "rs": 4,
-     "ra": 15,
-     "result": "L"
-    },
-    {
-     "date": "2026-09-13",
-     "event_id": 12516,
-     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
-     "section": "Bronze Bracket",
-     "opponent": "Hooligans",
-     "rs": 3,
-     "ra": 15,
-     "result": "L"
-    },
-    {
-     "date": "2026-09-13",
-     "event_id": 12516,
-     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
-     "section": "Bronze Bracket",
-     "opponent": "Lake Wylie Venom",
-     "rs": 0,
-     "ra": 14,
-     "result": "L"
-    },
-    {
-     "date": "2026-10-24",
-     "event_id": 12522,
-     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
-     "section": "Pool Play",
-     "opponent": "Athletes Lab 9U Navy- Stewart",
-     "rs": 3,
-     "ra": 12,
-     "result": "L"
-    },
-    {
-     "date": "2026-10-24",
-     "event_id": 12522,
-     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
-     "section": "Pool Play",
-     "opponent": "NL Destroyers 2036",
-     "rs": 1,
-     "ra": 10,
-     "result": "L"
-    },
-    {
-     "date": "2026-10-25",
-     "event_id": 12522,
-     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
-     "section": "Bronze Bracket",
-     "opponent": "LumberJacks",
-     "rs": 18,
-     "ra": 12,
-     "result": "W"
-    },
-    {
-     "date": "2026-10-25",
-     "event_id": 12522,
-     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
-     "section": "Bronze Bracket",
-     "opponent": "LKN Lightning - Ogburn",
-     "rs": 11,
-     "ra": 12,
-     "result": "L"
-    },
-    {
-     "date": "2026-10-31",
-     "event_id": 12523,
-     "event": "HALLOWEEN MONSTER MASH------2026 TOP GUN-USA SPORTS EVENT",
-     "section": "Pool Play",
-     "opponent": "ELITE BASEBALL EBC 9U",
-     "rs": 10,
-     "ra": 4,
-     "result": "W"
-    }
-   ],
-   "points": 900,
-   "titles": 0,
-   "finishes": [
-    {
-     "date": "2026-09-12",
-     "name": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
-     "won": 0,
-     "lost": 4,
-     "standing": "4th (Bronze)",
-     "points": 425
-    },
-    {
-     "date": "2026-10-10",
-     "name": "DOUBLE POINTS PINK ZONE QUALIFIER---ACTIVATE WINTER FREE PAID BERTHS",
-     "won": 0,
-     "lost": 0,
-     "standing": "",
-     "points": 0
-    },
-    {
-     "date": "2026-10-24",
-     "name": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
-     "won": 1,
-     "lost": 3,
-     "standing": "2nd (Bronze)",
-     "points": 475
-    },
-    {
-     "date": "2026-10-31",
-     "name": "HALLOWEEN MONSTER MASH------2026 TOP GUN-USA SPORTS EVENT",
-     "won": 1,
-     "lost": 0,
-     "standing": "",
-     "points": 0
-    }
-   ],
-   "season": "08/01/2026 - 10/31/2026",
-   "stats_fetched": "2026-10-31T12:00"
   },
   {
    "team": "Carolina Royals 9Uw",

@@ -284,10 +284,10 @@
           "seed": 3,
           "team": "Concord Athletics -9U",
           "location": "Concord, NC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
-          "runs_allowed": 4,
-          "runs_scored": 10,
+          "runs_allowed": 15,
+          "runs_scored": 25,
           "team_page_id": null
         },
         {
@@ -295,9 +295,9 @@
           "team": "Legacy Baseball 9U RED",
           "location": "Fort Mill, SC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 18,
-          "runs_scored": 17,
+          "lost": 2,
+          "runs_allowed": 33,
+          "runs_scored": 28,
           "team_page_id": null
         }
       ],
@@ -346,10 +346,10 @@
             "field": "SP:Field #3",
             "team_a": "Concord Athletics -9U",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 15,
             "team_b": "Legacy Baseball 9U RED",
             "seed_b": null,
-            "score_b": null
+            "score_b": 11
           }
         ],
         "Gold Bracket": [
@@ -358,10 +358,10 @@
             "day": "Sun",
             "time": "9:00 AM",
             "field": "SP:Field #3",
-            "team_a": "",
+            "team_a": "Team 24",
             "seed_a": 2,
             "score_a": null,
-            "team_b": "",
+            "team_b": "ELITE BASEBALL EBC 9U",
             "seed_b": 3,
             "score_b": null
           },
@@ -370,10 +370,10 @@
             "day": "Sun",
             "time": "11:00 AM",
             "field": "SP:Field #3",
-            "team_a": "",
+            "team_a": "Concord Athletics -9U",
             "seed_a": 1,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Legacy Baseball 9U RED",
             "seed_b": 4,
             "score_b": null
           },
@@ -482,9 +482,9 @@
           "team": "Hooligans 10U",
           "location": "Belmont, NC",
           "won": 1,
-          "lost": 0,
-          "runs_allowed": 7,
-          "runs_scored": 20,
+          "lost": 1,
+          "runs_allowed": 24,
+          "runs_scored": 22,
           "team_page_id": null
         },
         {
@@ -511,10 +511,10 @@
           "seed": 5,
           "team": "Legacy Baseball 10U - White",
           "location": "Fort Mill, SC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
-          "runs_allowed": 3,
-          "runs_scored": 9,
+          "runs_allowed": 5,
+          "runs_scored": 26,
           "team_page_id": null
         },
         {
@@ -695,10 +695,10 @@
             "field": "Westmoreld:Field 1",
             "team_a": "Legacy Baseball 10U - White",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 17,
             "team_b": "Hooligans 10U",
             "seed_b": null,
-            "score_b": null
+            "score_b": 2
           },
           {
             "game": 11,
@@ -861,9 +861,9 @@
           "team": "ELITE BASEBALL 11U EBC",
           "location": "Forest City, NC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 10,
-          "runs_scored": 7,
+          "lost": 2,
+          "runs_allowed": 18,
+          "runs_scored": 14,
           "team_page_id": null
         },
         {
@@ -871,19 +871,19 @@
           "team": "Yellow Jackets",
           "location": "Bessemer City, NC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 13,
-          "runs_scored": 3,
+          "lost": 2,
+          "runs_allowed": 35,
+          "runs_scored": 8,
           "team_page_id": null
         },
         {
           "seed": 3,
           "team": "Dirtbags 11u Hagen",
           "location": "Pineville, NC",
-          "won": 0,
+          "won": 1,
           "lost": 1,
-          "runs_allowed": 13,
-          "runs_scored": 12,
+          "runs_allowed": 18,
+          "runs_scored": 34,
           "team_page_id": null
         },
         {
@@ -910,10 +910,10 @@
           "seed": 6,
           "team": "Banana Peppers Baseball 11u",
           "location": "Gastonia, NC",
-          "won": 0,
+          "won": 1,
           "lost": 1,
-          "runs_allowed": 16,
-          "runs_scored": 13,
+          "runs_allowed": 23,
+          "runs_scored": 21,
           "team_page_id": null
         },
         {
@@ -1094,10 +1094,10 @@
             "field": "M. Rivers:Martha Rivers 2",
             "team_a": "Banana Peppers Baseball 11u",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 8,
             "team_b": "ELITE BASEBALL 11U EBC",
             "seed_b": null,
-            "score_b": null
+            "score_b": 7
           },
           {
             "game": 11,
@@ -1106,10 +1106,10 @@
             "field": "M. Rivers:Martha Rivers 3",
             "team_a": "Dirtbags 11u Hagen",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 22,
             "team_b": "Yellow Jackets",
             "seed_b": null,
-            "score_b": null
+            "score_b": 5
           },
           {
             "game": 12,
@@ -1304,19 +1304,19 @@
           "team": "RBA HEELS",
           "location": "Rutherfordton, NC",
           "won": 1,
-          "lost": 0,
-          "runs_allowed": 7,
-          "runs_scored": 8,
+          "lost": 1,
+          "runs_allowed": 19,
+          "runs_scored": 12,
           "team_page_id": null
         },
         {
           "seed": 4,
           "team": "Red Clay Athletics 12U Hodges",
           "location": "Huntersville, NC",
-          "won": 0,
+          "won": 1,
           "lost": 1,
-          "runs_allowed": 12,
-          "runs_scored": 11,
+          "runs_allowed": 16,
+          "runs_scored": 23,
           "team_page_id": null
         },
         {
@@ -1695,8 +1695,8 @@
           "team": "Canes Atlantic WNC 13u Clark",
           "location": "Morganton, NC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 10,
+          "lost": 2,
+          "runs_allowed": 21,
           "runs_scored": 5,
           "team_page_id": null
         },
@@ -1704,10 +1704,10 @@
           "seed": 2,
           "team": "CC CARDINALS 13U",
           "location": "SHELBY, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
           "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_scored": 11,
           "team_page_id": null
         },
         {
@@ -1786,10 +1786,10 @@
             "field": "Tega Cay:Field 4",
             "team_a": "CC CARDINALS 13U",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 11,
             "team_b": "Canes Atlantic WNC 13u Clark",
             "seed_b": null,
-            "score_b": null
+            "score_b": 0
           },
           {
             "game": 5,
@@ -2484,5 +2484,5 @@
   },
   "site_last_updated": "10/29/2026 12:18 PM",
   "tournament_id": 12523,
-  "fetched_at": "2026-10-31T15:45"
+  "fetched_at": "2026-10-31T16:20"
 }
