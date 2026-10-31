@@ -128,10 +128,10 @@
           "seed": 1,
           "team": "NC Made 9U Blue",
           "location": "Mocksville, NC",
-          "won": 0,
+          "won": 1,
           "lost": 1,
-          "runs_allowed": 10,
-          "runs_scored": 7,
+          "runs_allowed": 15,
+          "runs_scored": 20,
           "team_page_id": null
         },
         {
@@ -139,9 +139,9 @@
           "team": "M&M Baseball 9u",
           "location": "Browns Summit, NC",
           "won": 1,
-          "lost": 0,
-          "runs_allowed": 4,
-          "runs_scored": 16,
+          "lost": 1,
+          "runs_allowed": 17,
+          "runs_scored": 21,
           "team_page_id": null
         },
         {
@@ -210,10 +210,10 @@
             "field": "Jennings:Jennings #2",
             "team_a": "NC Made 9U Blue",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 13,
             "team_b": "M&M Baseball 9u",
             "seed_b": null,
-            "score_b": null
+            "score_b": 5
           }
         ],
         "Gold Bracket": [
@@ -222,10 +222,10 @@
             "day": "Sun",
             "time": "10:00 AM",
             "field": "Jennings:Jennings #2",
-            "team_a": "",
+            "team_a": "FS Bulldogs 9u (Cockrell)",
             "seed_a": 1,
             "score_a": null,
-            "team_b": "",
+            "team_b": "DYBA Force 9U",
             "seed_b": 4,
             "score_b": null
           },
@@ -234,10 +234,10 @@
             "day": "Sun",
             "time": "12:00 PM",
             "field": "Jennings:Jennings #2",
-            "team_a": "",
+            "team_a": "NC Made 9U Blue",
             "seed_a": 2,
             "score_a": null,
-            "team_b": "",
+            "team_b": "M&M Baseball 9u",
             "seed_b": 3,
             "score_b": null
           },
@@ -273,10 +273,10 @@
           "seed": 2,
           "team": "M&M Baseball 10u Gold",
           "location": "Browns Summit, NC",
-          "won": 0,
+          "won": 1,
           "lost": 1,
-          "runs_allowed": 9,
-          "runs_scored": 5,
+          "runs_allowed": 10,
+          "runs_scored": 20,
           "team_page_id": null
         },
         {
@@ -284,9 +284,9 @@
           "team": "FS Bulldogs 10u (Red)",
           "location": "Mount Ulla, NC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 16,
-          "runs_scored": 14,
+          "lost": 2,
+          "runs_allowed": 31,
+          "runs_scored": 15,
           "team_page_id": null
         },
         {
@@ -345,10 +345,10 @@
             "field": "Jennings:Jennings #4",
             "team_a": "M&M Baseball 10u Gold",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 15,
             "team_b": "FS Bulldogs 10u (Red)",
             "seed_b": null,
-            "score_b": null
+            "score_b": 1
           }
         ],
         "Gold Bracket": [
@@ -357,10 +357,10 @@
             "day": "Sun",
             "time": "10:30 AM",
             "field": "Jennings:Jennings #4",
-            "team_a": "",
+            "team_a": "Lightning Jacks-Brown",
             "seed_a": 1,
             "score_a": null,
-            "team_b": "",
+            "team_b": "FS Bulldogs 10u (Red)",
             "seed_b": 4,
             "score_b": null
           },
@@ -369,10 +369,10 @@
             "day": "Sun",
             "time": "12:30 PM",
             "field": "Jennings:Jennings #4",
-            "team_a": "",
+            "team_a": "M&M Baseball 10u Gold",
             "seed_a": 2,
             "score_a": null,
-            "team_b": "",
+            "team_b": "NC Made 10U Blue",
             "seed_b": 3,
             "score_b": null
           },
@@ -409,19 +409,19 @@
           "team": "Camel City Baseball",
           "location": "Pfafftown, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 2,
+          "runs_allowed": 20,
+          "runs_scored": 8,
           "team_page_id": null
         },
         {
           "seed": 3,
           "team": "Equip Sports",
           "location": "Boone, NC",
-          "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "won": 1,
+          "lost": 1,
+          "runs_allowed": 15,
+          "runs_scored": 17,
           "team_page_id": null
         },
         {
@@ -438,10 +438,10 @@
           "seed": 5,
           "team": "Lightning Jacks-Stover",
           "location": "Kernersville, NC",
-          "won": 0,
+          "won": 2,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 5,
+          "runs_scored": 15,
           "team_page_id": null
         },
         {
@@ -500,10 +500,10 @@
             "field": "Jennings:Jennings #1",
             "team_a": "Lightning Jacks-Stover",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 10,
             "team_b": "Equip Sports",
             "seed_b": null,
-            "score_b": null
+            "score_b": 2
           },
           {
             "game": 5,
@@ -512,10 +512,10 @@
             "field": "Jennings:Jennings #1",
             "team_a": "Camel City Baseball",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 5,
             "team_b": "Equip Sports",
             "seed_b": null,
-            "score_b": null
+            "score_b": 15
           },
           {
             "game": 6,
@@ -524,10 +524,10 @@
             "field": "Jennings:Jennings #1",
             "team_a": "Camel City Baseball",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 3,
             "team_b": "Lightning Jacks-Stover",
             "seed_b": null,
-            "score_b": null
+            "score_b": 5
           }
         ],
         "Gold Bracket": [
@@ -596,5 +596,5 @@
     }
   },
   "tournament_id": 13575,
-  "fetched_at": "2026-10-31T16:21"
+  "fetched_at": "2026-10-31T19:08"
 }

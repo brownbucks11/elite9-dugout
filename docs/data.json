@@ -3,7 +3,7 @@
  "location": "Rock Hill, SC",
  "page_id": 31407,
  "team_url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=31407",
- "built": "Sat Oct 31, 2026 04:21 PM",
+ "built": "Sat Oct 31, 2026 07:08 PM",
  "record": {
   "w": 6,
   "l": 10,
@@ -8987,7 +8987,7 @@
     "team": {
      "entered": false
     },
-    "fetched_at": "2026-10-31T16:20"
+    "fetched_at": "2026-10-31T19:08"
    },
    "tgs": {
     "weather": null,
@@ -9041,7 +9041,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-31T16:20",
+    "fetched_at": "2026-10-31T19:08",
     "url": "https://topgunstats.com/whos-playing/12524"
    },
    "name": "Road Runner vs Coyote ring weekend",
@@ -9478,57 +9478,6 @@
      "opponent": "NC Made 9U Blue",
      "rs": 10,
      "ra": 7,
-     "result": "W"
-    }
-   ],
-   "points": 0,
-   "titles": 0,
-   "finishes": [],
-   "season": "",
-   "stats_fetched": null
-  },
-  {
-   "team": "M&M Baseball 9u",
-   "location": "Browns Summit, NC",
-   "page_id": null,
-   "url": null,
-   "w": 3,
-   "l": 0,
-   "t": 0,
-   "rs": 38,
-   "ra": 15,
-   "diff": 23,
-   "pct": 1.0,
-   "events": 2,
-   "log": [
-    {
-     "date": "2026-10-02",
-     "event_id": 13567,
-     "event": "TOP GUN-USA SPORTS--FRIDAY NIGHT LIGHTS",
-     "section": "Pool Play",
-     "opponent": "Dirtbags Baseball ESB",
-     "rs": 10,
-     "ra": 5,
-     "result": "W"
-    },
-    {
-     "date": "2026-10-02",
-     "event_id": 13567,
-     "event": "TOP GUN-USA SPORTS--FRIDAY NIGHT LIGHTS",
-     "section": "Gold Bracket",
-     "opponent": "Carolina Elevate",
-     "rs": 12,
-     "ra": 6,
-     "result": "W"
-    },
-    {
-     "date": "2026-10-31",
-     "event_id": 13575,
-     "event": "MONSTER MASH CHAMPIONSHIPS---QUALIFY FOR THE ALL STATE GAMES THIS WEEK",
-     "section": "Pool Play",
-     "opponent": "DYBA Force 9U",
-     "rs": 16,
-     "ra": 4,
      "result": "W"
     }
    ],
@@ -10498,6 +10447,67 @@
    ],
    "season": "08/01/2026 - 10/31/2026",
    "stats_fetched": "2026-10-31T12:01"
+  },
+  {
+   "team": "M&M Baseball 9u",
+   "location": "Browns Summit, NC",
+   "page_id": null,
+   "url": null,
+   "w": 3,
+   "l": 1,
+   "t": 0,
+   "rs": 43,
+   "ra": 28,
+   "diff": 15,
+   "pct": 0.75,
+   "events": 2,
+   "log": [
+    {
+     "date": "2026-10-02",
+     "event_id": 13567,
+     "event": "TOP GUN-USA SPORTS--FRIDAY NIGHT LIGHTS",
+     "section": "Pool Play",
+     "opponent": "Dirtbags Baseball ESB",
+     "rs": 10,
+     "ra": 5,
+     "result": "W"
+    },
+    {
+     "date": "2026-10-02",
+     "event_id": 13567,
+     "event": "TOP GUN-USA SPORTS--FRIDAY NIGHT LIGHTS",
+     "section": "Gold Bracket",
+     "opponent": "Carolina Elevate",
+     "rs": 12,
+     "ra": 6,
+     "result": "W"
+    },
+    {
+     "date": "2026-10-31",
+     "event_id": 13575,
+     "event": "MONSTER MASH CHAMPIONSHIPS---QUALIFY FOR THE ALL STATE GAMES THIS WEEK",
+     "section": "Pool Play",
+     "opponent": "DYBA Force 9U",
+     "rs": 16,
+     "ra": 4,
+     "result": "W"
+    },
+    {
+     "date": "2026-10-31",
+     "event_id": 13575,
+     "event": "MONSTER MASH CHAMPIONSHIPS---QUALIFY FOR THE ALL STATE GAMES THIS WEEK",
+     "section": "Pool Play",
+     "opponent": "NC Made 9U Blue",
+     "rs": 5,
+     "ra": 13,
+     "result": "L"
+    }
+   ],
+   "points": 0,
+   "titles": 0,
+   "finishes": [],
+   "season": "",
+   "stats_fetched": null
   },
   {
    "team": "LKN Lightning - Ogburn",
@@ -11904,6 +11914,138 @@
    "stats_fetched": "2026-10-31T11:59"
   },
   {
+   "team": "NC Made 9U Blue",
+   "location": "Mocksville, NC",
+   "page_id": 28938,
+   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=28938",
+   "w": 4,
+   "l": 3,
+   "t": 0,
+   "rs": 64,
+   "ra": 38,
+   "diff": 26,
+   "pct": 0.571,
+   "events": 3,
+   "log": [
+    {
+     "date": "2026-08-22",
+     "event_id": 12513,
+     "event": "SUMMER MELT DOWN--TRUCKER HAT CLASSIC--OVER 20,000 HAT HAVE BE AWARDED",
+     "section": "Pool Play",
+     "opponent": "NL Destroyers 2036",
+     "rs": 2,
+     "ra": 6,
+     "result": "L"
+    },
+    {
+     "date": "2026-08-22",
+     "event_id": 12513,
+     "event": "SUMMER MELT DOWN--TRUCKER HAT CLASSIC--OVER 20,000 HAT HAVE BE AWARDED",
+     "section": "Pool Play",
+     "opponent": "Legacy Baseball 9U - WHITE",
+     "rs": 17,
+     "ra": 3,
+     "result": "W"
+    },
+    {
+     "date": "2026-08-23",
+     "event_id": 12513,
+     "event": "SUMMER MELT DOWN--TRUCKER HAT CLASSIC--OVER 20,000 HAT HAVE BE AWARDED",
+     "section": "Gold Bracket",
+     "opponent": "Dirtbags Baseball ESB",
+     "rs": 17,
+     "ra": 5,
+     "result": "W"
+    },
+    {
+     "date": "2026-08-23",
+     "event_id": 12513,
+     "event": "SUMMER MELT DOWN--TRUCKER HAT CLASSIC--OVER 20,000 HAT HAVE BE AWARDED",
+     "section": "Gold Bracket",
+     "opponent": "Mission 9u Scout",
+     "rs": 6,
+     "ra": 3,
+     "result": "W"
+    },
+    {
+     "date": "2026-08-28",
+     "event_id": 13552,
+     "event": "TOP GUN-USA SPORTS--FNL--PRE LABOR DAY SPECIAL",
+     "section": "Pool Play",
+     "opponent": "Carolina Clippers 9U",
+     "rs": 2,
+     "ra": 6,
+     "result": "L"
+    },
+    {
+     "date": "2026-10-31",
+     "event_id": 13575,
+     "event": "MONSTER MASH CHAMPIONSHIPS---QUALIFY FOR THE ALL STATE GAMES THIS WEEK",
+     "section": "Pool Play",
+     "opponent": "FS Bulldogs 9u (Cockrell)",
+     "rs": 7,
+     "ra": 10,
+     "result": "L"
+    },
+    {
+     "date": "2026-10-31",
+     "event_id": 13575,
+     "event": "MONSTER MASH CHAMPIONSHIPS---QUALIFY FOR THE ALL STATE GAMES THIS WEEK",
+     "section": "Pool Play",
+     "opponent": "M&M Baseball 9u",
+     "rs": 13,
+     "ra": 5,
+     "result": "W"
+    }
+   ],
+   "points": 1500,
+   "titles": 2,
+   "finishes": [
+    {
+     "date": "2026-08-22",
+     "name": "SUMMER MELT DOWN--TRUCKER HAT CLASSIC--OVER 20,000 HAT HAVE BE AWARDED",
+     "won": 3,
+     "lost": 1,
+     "standing": "1st (Gold)",
+     "points": 400
+    },
+    {
+     "date": "2026-08-28",
+     "name": "TOP GUN-USA SPORTS--FNL--PRE LABOR DAY SPECIAL",
+     "won": 1,
+     "lost": 1,
+     "standing": "8th (Gold)",
+     "points": 300
+    },
+    {
+     "date": "2026-10-03",
+     "name": "DOUBLE POINTS PINK ZONE QUALIFIER---ACTIVATE WINTER FREE PAID BERTHS",
+     "won": 3,
+     "lost": 1,
+     "standing": "1st (Gold)",
+     "points": 800
+    },
+    {
+     "date": "2026-10-10",
+     "name": "CANCELLED------SPORTS SOUTHERN WINTER WORLD SERIES",
+     "won": 0,
+     "lost": 0,
+     "standing": "",
+     "points": 0
+    },
+    {
+     "date": "2026-10-31",
+     "name": "MONSTER MASH CHAMPIONSHIPS---QUALIFY FOR THE ALL STATE GAMES THIS WEEK",
+     "won": 0,
+     "lost": 0,
+     "standing": "",
+     "points": 0
+    }
+   ],
+   "season": "08/01/2026 - 10/31/2026",
+   "stats_fetched": "2026-10-31T11:58"
+  },
+  {
    "team": "Legacy Baseball 9U - WHITE",
    "location": "Fort Mill, SC",
    "page_id": 35761,
@@ -12155,128 +12297,6 @@
    ],
    "season": "08/01/2026 - 10/31/2026",
    "stats_fetched": "2026-10-31T12:00"
-  },
-  {
-   "team": "NC Made 9U Blue",
-   "location": "Mocksville, NC",
-   "page_id": 28938,
-   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=28938",
-   "w": 3,
-   "l": 3,
-   "t": 0,
-   "rs": 51,
-   "ra": 33,
-   "diff": 18,
-   "pct": 0.5,
-   "events": 3,
-   "log": [
-    {
-     "date": "2026-08-22",
-     "event_id": 12513,
-     "event": "SUMMER MELT DOWN--TRUCKER HAT CLASSIC--OVER 20,000 HAT HAVE BE AWARDED",
-     "section": "Pool Play",
-     "opponent": "NL Destroyers 2036",
-     "rs": 2,
-     "ra": 6,
-     "result": "L"
-    },
-    {
-     "date": "2026-08-22",
-     "event_id": 12513,
-     "event": "SUMMER MELT DOWN--TRUCKER HAT CLASSIC--OVER 20,000 HAT HAVE BE AWARDED",
-     "section": "Pool Play",
-     "opponent": "Legacy Baseball 9U - WHITE",
-     "rs": 17,
-     "ra": 3,
-     "result": "W"
-    },
-    {
-     "date": "2026-08-23",
-     "event_id": 12513,
-     "event": "SUMMER MELT DOWN--TRUCKER HAT CLASSIC--OVER 20,000 HAT HAVE BE AWARDED",
-     "section": "Gold Bracket",
-     "opponent": "Dirtbags Baseball ESB",
-     "rs": 17,
-     "ra": 5,
-     "result": "W"
-    },
-    {
-     "date": "2026-08-23",
-     "event_id": 12513,
-     "event": "SUMMER MELT DOWN--TRUCKER HAT CLASSIC--OVER 20,000 HAT HAVE BE AWARDED",
-     "section": "Gold Bracket",
-     "opponent": "Mission 9u Scout",
-     "rs": 6,
-     "ra": 3,
-     "result": "W"
-    },
-    {
-     "date": "2026-08-28",
-     "event_id": 13552,
-     "event": "TOP GUN-USA SPORTS--FNL--PRE LABOR DAY SPECIAL",
-     "section": "Pool Play",
-     "opponent": "Carolina Clippers 9U",
-     "rs": 2,
-     "ra": 6,
-     "result": "L"
-    },
-    {
-     "date": "2026-10-31",
-     "event_id": 13575,
-     "event": "MONSTER MASH CHAMPIONSHIPS---QUALIFY FOR THE ALL STATE GAMES THIS WEEK",
-     "section": "Pool Play",
-     "opponent": "FS Bulldogs 9u (Cockrell)",
-     "rs": 7,
-     "ra": 10,
-     "result": "L"
-    }
-   ],
-   "points": 1500,
-   "titles": 2,
-   "finishes": [
-    {
-     "date": "2026-08-22",
-     "name": "SUMMER MELT DOWN--TRUCKER HAT CLASSIC--OVER 20,000 HAT HAVE BE AWARDED",
-     "won": 3,
-     "lost": 1,
-     "standing": "1st (Gold)",
-     "points": 400
-    },
-    {
-     "date": "2026-08-28",
-     "name": "TOP GUN-USA SPORTS--FNL--PRE LABOR DAY SPECIAL",
-     "won": 1,
-     "lost": 1,
-     "standing": "8th (Gold)",
-     "points": 300
-    },
-    {
-     "date": "2026-10-03",
-     "name": "DOUBLE POINTS PINK ZONE QUALIFIER---ACTIVATE WINTER FREE PAID BERTHS",
-     "won": 3,
-     "lost": 1,
-     "standing": "1st (Gold)",
-     "points": 800
-    },
-    {
-     "date": "2026-10-10",
-     "name": "CANCELLED------SPORTS SOUTHERN WINTER WORLD SERIES",
-     "won": 0,
-     "lost": 0,
-     "standing": "",
-     "points": 0
-    },
-    {
-     "date": "2026-10-31",
-     "name": "MONSTER MASH CHAMPIONSHIPS---QUALIFY FOR THE ALL STATE GAMES THIS WEEK",
-     "won": 0,
-     "lost": 0,
-     "standing": "",
-     "points": 0
-    }
-   ],
-   "season": "08/01/2026 - 10/31/2026",
-   "stats_fetched": "2026-10-31T11:58"
   },
   {
    "team": "Copperheads",
