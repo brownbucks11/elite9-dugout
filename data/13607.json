@@ -39,7 +39,7 @@
           "seed": 3,
           "team": "Legacy Baseball 9U - WHITE",
           "location": "Fort Mill, SC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
           "runs_allowed": 14,
           "runs_scored": 17,
@@ -49,7 +49,7 @@
           "seed": 4,
           "team": "Union County Aces 9u",
           "location": "Monroe, NC",
-          "won": 2,
+          "won": 3,
           "lost": 0,
           "runs_allowed": 13,
           "runs_scored": 34,
@@ -60,7 +60,7 @@
           "team": "Carolina Icons",
           "location": "Stanfield, NC",
           "won": 0,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 23,
           "runs_scored": 11,
           "team_page_id": null
@@ -70,7 +70,7 @@
           "team": "Mill Town 9u White Powered By Trosky",
           "location": "Fort Mill, SC",
           "won": 2,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 12,
           "runs_scored": 16,
           "team_page_id": null
@@ -159,10 +159,10 @@
             "field": "NWP:Field 7",
             "team_a": "Mill Town 9u White Powered By Trosky",
             "seed_a": 1,
-            "score_a": null,
+            "score_a": 8,
             "team_b": "Union County Aces 9u",
             "seed_b": 2,
-            "score_b": null
+            "score_b": 11
           }
         ],
         "Silver Bracket": [
@@ -173,10 +173,10 @@
             "field": "NWP:Field 8",
             "team_a": "Legacy Baseball 9U - WHITE",
             "seed_a": 3,
-            "score_a": null,
+            "score_a": 13,
             "team_b": "Carolina Icons",
             "seed_b": 4,
-            "score_b": null
+            "score_b": 7
           }
         ]
       }
@@ -184,5 +184,5 @@
   },
   "site_last_updated": "10/28/2026 3:47 PM",
   "tournament_id": 13607,
-  "fetched_at": "2026-10-30T21:54"
+  "fetched_at": "2026-10-31T04:04"
 }

@@ -3,7 +3,7 @@
  "location": "Rock Hill, SC",
  "page_id": 31407,
  "team_url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=31407",
- "built": "Fri Oct 30, 2026 09:55 PM",
+ "built": "Sat Oct 31, 2026 04:04 AM",
  "record": {
   "w": 6,
   "l": 10,
@@ -8987,7 +8987,7 @@
     "team": {
      "entered": false
     },
-    "fetched_at": "2026-10-30T21:54"
+    "fetched_at": "2026-10-31T04:04"
    },
    "tgs": {
     "weather": null,
@@ -9041,7 +9041,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-30T21:54",
+    "fetched_at": "2026-10-31T04:04",
     "url": "https://topgunstats.com/whos-playing/12524"
    },
    "name": "Road Runner vs Coyote ring weekend",
@@ -9521,47 +9521,6 @@
    "stats_fetched": null
   },
   {
-   "team": "Mill Town 9u White Powered By Trosky",
-   "location": "Fort Mill, SC",
-   "page_id": null,
-   "url": null,
-   "w": 2,
-   "l": 0,
-   "t": 0,
-   "rs": 16,
-   "ra": 12,
-   "diff": 4,
-   "pct": 1.0,
-   "events": 1,
-   "log": [
-    {
-     "date": "2026-10-30",
-     "event_id": 13607,
-     "event": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
-     "section": "Pool Play",
-     "opponent": "Carolina Trash Pandas",
-     "rs": 8,
-     "ra": 7,
-     "result": "W"
-    },
-    {
-     "date": "2026-10-30",
-     "event_id": 13607,
-     "event": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
-     "section": "Pool Play",
-     "opponent": "Red Clay Athletics 9U Darcangelo",
-     "rs": 8,
-     "ra": 5,
-     "result": "W"
-    }
-   ],
-   "points": 0,
-   "titles": 0,
-   "finishes": [],
-   "season": "",
-   "stats_fetched": null
-  },
-  {
    "team": "Carolina Clippers 9U",
    "location": "RICHFIELD, NC",
    "page_id": 33167,
@@ -9708,13 +9667,13 @@
    "location": "Monroe, NC",
    "page_id": null,
    "url": null,
-   "w": 5,
+   "w": 6,
    "l": 1,
    "t": 0,
-   "rs": 90,
-   "ra": 40,
-   "diff": 50,
-   "pct": 0.833,
+   "rs": 101,
+   "ra": 48,
+   "diff": 53,
+   "pct": 0.857,
    "events": 2,
    "log": [
     {
@@ -9776,6 +9735,16 @@
      "rs": 21,
      "ra": 12,
      "result": "W"
+    },
+    {
+     "date": "2026-10-30",
+     "event_id": 13607,
+     "event": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
+     "section": "Gold Bracket",
+     "opponent": "Mill Town 9u White Powered By Trosky",
+     "rs": 11,
+     "ra": 8,
+     "result": "W"
     }
    ],
    "points": 0,
@@ -9787,6 +9756,15 @@
      "won": 3,
      "lost": 1,
      "standing": "2nd (Gold)",
+     "points": 0,
+     "derived": true
+    },
+    {
+     "date": "2026-10-30",
+     "name": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
+     "won": 3,
+     "lost": 0,
+     "standing": "1st (Gold)",
      "points": 0,
      "derived": true
     }
@@ -11388,6 +11366,67 @@
    "stats_fetched": null
   },
   {
+   "team": "Mill Town 9u White Powered By Trosky",
+   "location": "Fort Mill, SC",
+   "page_id": null,
+   "url": null,
+   "w": 2,
+   "l": 1,
+   "t": 0,
+   "rs": 24,
+   "ra": 23,
+   "diff": 1,
+   "pct": 0.667,
+   "events": 1,
+   "log": [
+    {
+     "date": "2026-10-30",
+     "event_id": 13607,
+     "event": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
+     "section": "Pool Play",
+     "opponent": "Carolina Trash Pandas",
+     "rs": 8,
+     "ra": 7,
+     "result": "W"
+    },
+    {
+     "date": "2026-10-30",
+     "event_id": 13607,
+     "event": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
+     "section": "Pool Play",
+     "opponent": "Red Clay Athletics 9U Darcangelo",
+     "rs": 8,
+     "ra": 5,
+     "result": "W"
+    },
+    {
+     "date": "2026-10-30",
+     "event_id": 13607,
+     "event": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
+     "section": "Gold Bracket",
+     "opponent": "Union County Aces 9u",
+     "rs": 8,
+     "ra": 11,
+     "result": "L"
+    }
+   ],
+   "points": 0,
+   "titles": 0,
+   "finishes": [
+    {
+     "date": "2026-10-30",
+     "name": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
+     "won": 2,
+     "lost": 1,
+     "standing": "2nd (Gold)",
+     "points": 0,
+     "derived": true
+    }
+   ],
+   "season": "",
+   "stats_fetched": null
+  },
+  {
    "team": "Mara Bulls",
    "location": "matthews, NC",
    "page_id": 38928,
@@ -11935,13 +11974,13 @@
    "location": "Fort Mill, SC",
    "page_id": 35761,
    "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=35761",
-   "w": 9,
+   "w": 10,
    "l": 8,
    "t": 1,
-   "rs": 157,
-   "ra": 194,
-   "diff": -37,
-   "pct": 0.528,
+   "rs": 170,
+   "ra": 201,
+   "diff": -31,
+   "pct": 0.553,
    "events": 5,
    "log": [
     {
@@ -12123,6 +12162,16 @@
      "rs": 10,
      "ra": 10,
      "result": "T"
+    },
+    {
+     "date": "2026-10-30",
+     "event_id": 13607,
+     "event": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
+     "section": "Silver Bracket",
+     "opponent": "Carolina Icons",
+     "rs": 13,
+     "ra": 7,
+     "result": "W"
     }
    ],
    "points": 1825,
@@ -12165,8 +12214,9 @@
      "name": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
      "won": 0,
      "lost": 0,
-     "standing": "",
-     "points": 0
+     "standing": "1st (Silver)",
+     "points": 0,
+     "derived": true
     }
    ],
    "season": "08/01/2026 - 10/30/2026",
@@ -15318,12 +15368,12 @@
    "page_id": 35143,
    "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=35143",
    "w": 2,
-   "l": 6,
+   "l": 7,
    "t": 1,
-   "rs": 75,
-   "ra": 97,
-   "diff": -22,
-   "pct": 0.278,
+   "rs": 82,
+   "ra": 110,
+   "diff": -28,
+   "pct": 0.25,
    "events": 3,
    "log": [
     {
@@ -15415,6 +15465,16 @@
      "rs": 10,
      "ra": 10,
      "result": "T"
+    },
+    {
+     "date": "2026-10-30",
+     "event_id": 13607,
+     "event": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
+     "section": "Silver Bracket",
+     "opponent": "Legacy Baseball 9U - WHITE",
+     "rs": 7,
+     "ra": 13,
+     "result": "L"
     }
    ],
    "points": 1275,
@@ -15441,8 +15501,9 @@
      "name": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
      "won": 0,
      "lost": 0,
-     "standing": "",
-     "points": 0
+     "standing": "2nd (Silver)",
+     "points": 0,
+     "derived": true
     }
    ],
    "season": "08/01/2026 - 10/30/2026",
@@ -24988,6 +25049,6 @@
  "season": "08/01/2026 - 10/30/2026",
  "stats_fetched": "2026-10-30T12:57",
  "division": "9U",
- "today": "2026-10-30",
+ "today": "2026-10-31",
  "season_label": "Fall 2026"
 }
