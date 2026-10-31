@@ -3,7 +3,7 @@
  "location": "Rock Hill, SC",
  "page_id": 31407,
  "team_url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=31407",
- "built": "Sat Oct 31, 2026 04:04 AM",
+ "built": "Sat Oct 31, 2026 11:08 AM",
  "record": {
   "w": 6,
   "l": 10,
@@ -8983,17 +8983,17 @@
     "count": 13,
     "confirmed": 0,
     "waitlist": 0,
-    "total": 70,
+    "total": 71,
     "team": {
      "entered": false
     },
-    "fetched_at": "2026-10-31T04:04"
+    "fetched_at": "2026-10-31T11:07"
    },
    "tgs": {
     "weather": null,
     "general": null,
     "awards": "BATTLE FOR THE BOGGS------ALL WINNING AND RUNNER UP TEAMS WILL RECEIVE (12) TOP GUN-USA CUSTOM MADE TOBOGGANS--------ALL WINNING TEAMS WILL RECEIVE (12) TOP GUN-USA CUSTOM MADE JUMBO RINGS-------PLUS PLAQUES AND BANNERS.",
-    "teams_registered": 70,
+    "teams_registered": 71,
     "games_scheduled": false,
     "complexes": [
      {
@@ -9041,7 +9041,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-31T04:04",
+    "fetched_at": "2026-10-31T11:07",
     "url": "https://topgunstats.com/whos-playing/12524"
    },
    "name": "Road Runner vs Coyote ring weekend",
@@ -9439,6 +9439,37 @@
    "stats_fetched": null
   },
   {
+   "team": "FS Bulldogs 9u (Cockrell)",
+   "location": "Mt Ulla, NC",
+   "page_id": null,
+   "url": null,
+   "w": 1,
+   "l": 0,
+   "t": 0,
+   "rs": 25,
+   "ra": 3,
+   "diff": 22,
+   "pct": 1.0,
+   "events": 1,
+   "log": [
+    {
+     "date": "2026-10-31",
+     "event_id": 13575,
+     "event": "MONSTER MASH CHAMPIONSHIPS---QUALIFY FOR THE ALL STATE GAMES THIS WEEK",
+     "section": "Pool Play",
+     "opponent": "DYBA Force 9U",
+     "rs": 25,
+     "ra": 3,
+     "result": "W"
+    }
+   ],
+   "points": 0,
+   "titles": 0,
+   "finishes": [],
+   "season": "",
+   "stats_fetched": null
+  },
+  {
    "team": "M&M Baseball 9u",
    "location": "Browns Summit, NC",
    "page_id": null,
@@ -9470,47 +9501,6 @@
      "opponent": "Carolina Elevate",
      "rs": 12,
      "ra": 6,
-     "result": "W"
-    }
-   ],
-   "points": 0,
-   "titles": 0,
-   "finishes": [],
-   "season": "",
-   "stats_fetched": null
-  },
-  {
-   "team": "DYBA Force 9U",
-   "location": "Davidson, NC",
-   "page_id": null,
-   "url": null,
-   "w": 2,
-   "l": 0,
-   "t": 0,
-   "rs": 21,
-   "ra": 17,
-   "diff": 4,
-   "pct": 1.0,
-   "events": 1,
-   "log": [
-    {
-     "date": "2026-10-02",
-     "event_id": 13567,
-     "event": "TOP GUN-USA SPORTS--FRIDAY NIGHT LIGHTS",
-     "section": "Pool Play",
-     "opponent": "NC Made 9U Green",
-     "rs": 9,
-     "ra": 8,
-     "result": "W"
-    },
-    {
-     "date": "2026-10-02",
-     "event_id": 13567,
-     "event": "TOP GUN-USA SPORTS--FRIDAY NIGHT LIGHTS",
-     "section": "Gold Bracket",
-     "opponent": "Flying Pigs 9U",
-     "rs": 12,
-     "ra": 9,
      "result": "W"
     }
    ],
@@ -11487,6 +11477,236 @@
    "stats_fetched": "2026-10-30T13:01"
   },
   {
+   "team": "DYBA Force 9U",
+   "location": "Davidson, NC",
+   "page_id": null,
+   "url": null,
+   "w": 2,
+   "l": 1,
+   "t": 0,
+   "rs": 24,
+   "ra": 42,
+   "diff": -18,
+   "pct": 0.667,
+   "events": 2,
+   "log": [
+    {
+     "date": "2026-10-02",
+     "event_id": 13567,
+     "event": "TOP GUN-USA SPORTS--FRIDAY NIGHT LIGHTS",
+     "section": "Pool Play",
+     "opponent": "NC Made 9U Green",
+     "rs": 9,
+     "ra": 8,
+     "result": "W"
+    },
+    {
+     "date": "2026-10-02",
+     "event_id": 13567,
+     "event": "TOP GUN-USA SPORTS--FRIDAY NIGHT LIGHTS",
+     "section": "Gold Bracket",
+     "opponent": "Flying Pigs 9U",
+     "rs": 12,
+     "ra": 9,
+     "result": "W"
+    },
+    {
+     "date": "2026-10-31",
+     "event_id": 13575,
+     "event": "MONSTER MASH CHAMPIONSHIPS---QUALIFY FOR THE ALL STATE GAMES THIS WEEK",
+     "section": "Pool Play",
+     "opponent": "FS Bulldogs 9u (Cockrell)",
+     "rs": 3,
+     "ra": 25,
+     "result": "L"
+    }
+   ],
+   "points": 0,
+   "titles": 0,
+   "finishes": [],
+   "season": "",
+   "stats_fetched": null
+  },
+  {
+   "team": "Team 24",
+   "location": "York, SC",
+   "page_id": null,
+   "url": null,
+   "w": 8,
+   "l": 4,
+   "t": 1,
+   "rs": 152,
+   "ra": 103,
+   "diff": 49,
+   "pct": 0.654,
+   "events": 4,
+   "log": [
+    {
+     "date": "2026-09-19",
+     "event_id": 12517,
+     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
+     "section": "Pool Play",
+     "opponent": "Carolina Elevate",
+     "rs": 18,
+     "ra": 1,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-19",
+     "event_id": 12517,
+     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
+     "section": "Pool Play",
+     "opponent": "Union County Legends",
+     "rs": 10,
+     "ra": 7,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-20",
+     "event_id": 12517,
+     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
+     "section": "Gold Bracket",
+     "opponent": "Hooligans",
+     "rs": 5,
+     "ra": 6,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-20",
+     "event_id": 12517,
+     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
+     "section": "Gold Bracket",
+     "opponent": "Dirtbags Shook",
+     "rs": 8,
+     "ra": 17,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-26",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Pool Play",
+     "opponent": "Legacy Baseball 9U - WHITE",
+     "rs": 18,
+     "ra": 6,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-26",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Pool Play",
+     "opponent": "Carolina Firebirds-Red",
+     "rs": 3,
+     "ra": 17,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-27",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Bronze Bracket",
+     "opponent": "Dirtbags Baseball ESB",
+     "rs": 2,
+     "ra": 15,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-27",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Bronze Bracket",
+     "opponent": "PeeDee Mudcats",
+     "rs": 20,
+     "ra": 5,
+     "result": "W"
+    },
+    {
+     "date": "2026-10-17",
+     "event_id": 12521,
+     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "section": "Pool Play",
+     "opponent": "Carolina Royals 9Uw",
+     "rs": 25,
+     "ra": 0,
+     "result": "W"
+    },
+    {
+     "date": "2026-10-17",
+     "event_id": 12521,
+     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "section": "Pool Play",
+     "opponent": "Union County Legends",
+     "rs": 9,
+     "ra": 9,
+     "result": "T"
+    },
+    {
+     "date": "2026-10-18",
+     "event_id": 12521,
+     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "section": "Silver Bracket",
+     "opponent": "ROCO Dirtbagz",
+     "rs": 12,
+     "ra": 5,
+     "result": "W"
+    },
+    {
+     "date": "2026-10-18",
+     "event_id": 12521,
+     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "section": "Silver Bracket",
+     "opponent": "Red Clay Athletics 9U Darcangelo",
+     "rs": 8,
+     "ra": 6,
+     "result": "W"
+    },
+    {
+     "date": "2026-10-31",
+     "event_id": 12523,
+     "event": "HALLOWEEN MONSTER MASH------2026 TOP GUN-USA SPORTS EVENT",
+     "section": "Pool Play",
+     "opponent": "ELITE BASEBALL EBC 9U",
+     "rs": 14,
+     "ra": 9,
+     "result": "W"
+    }
+   ],
+   "points": 0,
+   "titles": 0,
+   "finishes": [
+    {
+     "date": "2026-09-19",
+     "name": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
+     "won": 2,
+     "lost": 2,
+     "standing": "4th (Gold)",
+     "points": 0,
+     "derived": true
+    },
+    {
+     "date": "2026-09-26",
+     "name": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "won": 2,
+     "lost": 2,
+     "standing": "3rd (Bronze)",
+     "points": 0,
+     "derived": true
+    },
+    {
+     "date": "2026-10-17",
+     "name": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "won": 3,
+     "lost": 0,
+     "standing": "1st (Silver)",
+     "points": 0,
+     "derived": true
+    }
+   ],
+   "season": "",
+   "stats_fetched": null
+  },
+  {
    "team": "Carolina Trash Pandas",
    "location": "Locust, NC",
    "page_id": 32342,
@@ -11695,175 +11915,6 @@
    ],
    "season": "08/01/2026 - 10/30/2026",
    "stats_fetched": "2026-10-30T12:58"
-  },
-  {
-   "team": "Team 24",
-   "location": "York, SC",
-   "page_id": null,
-   "url": null,
-   "w": 7,
-   "l": 4,
-   "t": 1,
-   "rs": 138,
-   "ra": 94,
-   "diff": 44,
-   "pct": 0.625,
-   "events": 3,
-   "log": [
-    {
-     "date": "2026-09-19",
-     "event_id": 12517,
-     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
-     "section": "Pool Play",
-     "opponent": "Carolina Elevate",
-     "rs": 18,
-     "ra": 1,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-19",
-     "event_id": 12517,
-     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
-     "section": "Pool Play",
-     "opponent": "Union County Legends",
-     "rs": 10,
-     "ra": 7,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-20",
-     "event_id": 12517,
-     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
-     "section": "Gold Bracket",
-     "opponent": "Hooligans",
-     "rs": 5,
-     "ra": 6,
-     "result": "L"
-    },
-    {
-     "date": "2026-09-20",
-     "event_id": 12517,
-     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
-     "section": "Gold Bracket",
-     "opponent": "Dirtbags Shook",
-     "rs": 8,
-     "ra": 17,
-     "result": "L"
-    },
-    {
-     "date": "2026-09-26",
-     "event_id": 12518,
-     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "section": "Pool Play",
-     "opponent": "Legacy Baseball 9U - WHITE",
-     "rs": 18,
-     "ra": 6,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-26",
-     "event_id": 12518,
-     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "section": "Pool Play",
-     "opponent": "Carolina Firebirds-Red",
-     "rs": 3,
-     "ra": 17,
-     "result": "L"
-    },
-    {
-     "date": "2026-09-27",
-     "event_id": 12518,
-     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "section": "Bronze Bracket",
-     "opponent": "Dirtbags Baseball ESB",
-     "rs": 2,
-     "ra": 15,
-     "result": "L"
-    },
-    {
-     "date": "2026-09-27",
-     "event_id": 12518,
-     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "section": "Bronze Bracket",
-     "opponent": "PeeDee Mudcats",
-     "rs": 20,
-     "ra": 5,
-     "result": "W"
-    },
-    {
-     "date": "2026-10-17",
-     "event_id": 12521,
-     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
-     "section": "Pool Play",
-     "opponent": "Carolina Royals 9Uw",
-     "rs": 25,
-     "ra": 0,
-     "result": "W"
-    },
-    {
-     "date": "2026-10-17",
-     "event_id": 12521,
-     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
-     "section": "Pool Play",
-     "opponent": "Union County Legends",
-     "rs": 9,
-     "ra": 9,
-     "result": "T"
-    },
-    {
-     "date": "2026-10-18",
-     "event_id": 12521,
-     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
-     "section": "Silver Bracket",
-     "opponent": "ROCO Dirtbagz",
-     "rs": 12,
-     "ra": 5,
-     "result": "W"
-    },
-    {
-     "date": "2026-10-18",
-     "event_id": 12521,
-     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
-     "section": "Silver Bracket",
-     "opponent": "Red Clay Athletics 9U Darcangelo",
-     "rs": 8,
-     "ra": 6,
-     "result": "W"
-    }
-   ],
-   "points": 0,
-   "titles": 0,
-   "finishes": [
-    {
-     "date": "2026-09-19",
-     "name": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
-     "won": 2,
-     "lost": 2,
-     "standing": "4th (Gold)",
-     "points": 0,
-     "derived": true
-    },
-    {
-     "date": "2026-09-26",
-     "name": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "won": 2,
-     "lost": 2,
-     "standing": "3rd (Bronze)",
-     "points": 0,
-     "derived": true
-    },
-    {
-     "date": "2026-10-17",
-     "name": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
-     "won": 3,
-     "lost": 0,
-     "standing": "1st (Silver)",
-     "points": 0,
-     "derived": true
-    }
-   ],
-   "season": "",
-   "stats_fetched": null
   },
   {
    "team": "NC Made 9U Blue",
@@ -15697,13 +15748,13 @@
    "page_id": 38889,
    "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=38889",
    "w": 2,
-   "l": 10,
+   "l": 11,
    "t": 0,
-   "rs": 76,
-   "ra": 143,
-   "diff": -67,
-   "pct": 0.167,
-   "events": 3,
+   "rs": 85,
+   "ra": 157,
+   "diff": -72,
+   "pct": 0.154,
+   "events": 4,
    "log": [
     {
      "date": "2026-09-05",
@@ -15823,6 +15874,16 @@
      "opponent": "Weddington Wreckers",
      "rs": 7,
      "ra": 9,
+     "result": "L"
+    },
+    {
+     "date": "2026-10-31",
+     "event_id": 12523,
+     "event": "HALLOWEEN MONSTER MASH------2026 TOP GUN-USA SPORTS EVENT",
+     "section": "Pool Play",
+     "opponent": "Team 24",
+     "rs": 9,
+     "ra": 14,
      "result": "L"
     }
    ],

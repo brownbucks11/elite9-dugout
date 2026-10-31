@@ -17,10 +17,10 @@
           "seed": 1,
           "team": "FS Bulldogs 8u (Brooks)",
           "location": "Mount Ulla, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 6,
+          "runs_scored": 17,
           "team_page_id": null
         },
         {
@@ -38,9 +38,9 @@
           "team": "NC Made 8U Green",
           "location": "Mocksville, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 17,
+          "runs_scored": 6,
           "team_page_id": null
         }
       ],
@@ -53,10 +53,10 @@
             "field": "Jennings:Jennings #3",
             "team_a": "FS Bulldogs 8u (Brooks)",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 17,
             "team_b": "NC Made 8U Green",
             "seed_b": null,
-            "score_b": null
+            "score_b": 6
           },
           {
             "game": 2,
@@ -149,19 +149,19 @@
           "team": "DYBA Force 9U",
           "location": "Davidson, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 25,
+          "runs_scored": 3,
           "team_page_id": null
         },
         {
           "seed": 4,
           "team": "FS Bulldogs 9u (Cockrell)",
           "location": "Mt Ulla, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 3,
+          "runs_scored": 25,
           "team_page_id": null
         }
       ],
@@ -174,10 +174,10 @@
             "field": "Jennings:Jennings #2",
             "team_a": "FS Bulldogs 9u (Cockrell)",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 25,
             "team_b": "DYBA Force 9U",
             "seed_b": null,
-            "score_b": null
+            "score_b": 3
           },
           {
             "game": 2,
@@ -263,10 +263,10 @@
           "seed": 1,
           "team": "Lightning Jacks-Brown",
           "location": "kernersville, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 9,
+          "runs_scored": 14,
           "team_page_id": null
         },
         {
@@ -294,9 +294,9 @@
           "team": "NC Made 10U Blue",
           "location": "Mocksville, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 14,
+          "runs_scored": 9,
           "team_page_id": null
         }
       ],
@@ -309,10 +309,10 @@
             "field": "Jennings:Jennings #4",
             "team_a": "Lightning Jacks-Brown",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 14,
             "team_b": "NC Made 10U Blue",
             "seed_b": null,
-            "score_b": null
+            "score_b": 9
           },
           {
             "game": 2,
@@ -429,9 +429,9 @@
           "team": "NWNC Elite Navy",
           "location": "North Wilkesboro, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 11,
+          "runs_scored": 4,
           "team_page_id": null
         },
         {
@@ -448,10 +448,10 @@
           "seed": 6,
           "team": "NC Made 13U",
           "location": "Mocksville, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 4,
+          "runs_scored": 11,
           "team_page_id": null
         }
       ],
@@ -464,10 +464,10 @@
             "field": "Jennings:Jennings #1",
             "team_a": "NC Made 13U",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 11,
             "team_b": "NWNC Elite Navy",
             "seed_b": null,
-            "score_b": null
+            "score_b": 4
           },
           {
             "game": 2,
@@ -596,5 +596,5 @@
     }
   },
   "tournament_id": 13575,
-  "fetched_at": "2026-10-31T04:04"
+  "fetched_at": "2026-10-31T11:08"
 }
