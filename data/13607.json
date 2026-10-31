@@ -20,9 +20,9 @@
           "team": "Carolina Trash Pandas",
           "location": "Locust, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 8,
+          "runs_scored": 7,
           "team_page_id": null
         },
         {
@@ -30,29 +30,29 @@
           "team": "Red Clay Athletics 9U Darcangelo",
           "location": "Charlotte, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 2,
+          "runs_allowed": 15,
+          "runs_scored": 9,
           "team_page_id": null
         },
         {
           "seed": 3,
           "team": "Legacy Baseball 9U - WHITE",
           "location": "Fort Mill, SC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 14,
+          "runs_scored": 17,
           "team_page_id": null
         },
         {
           "seed": 4,
           "team": "Union County Aces 9u",
           "location": "Monroe, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 1,
+          "runs_scored": 13,
           "team_page_id": null
         },
         {
@@ -60,19 +60,19 @@
           "team": "Carolina Icons",
           "location": "Stanfield, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 23,
+          "runs_scored": 11,
           "team_page_id": null
         },
         {
           "seed": 6,
           "team": "Mill Town 9u White Powered By Trosky",
           "location": "Fort Mill, SC",
-          "won": 0,
+          "won": 2,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 12,
+          "runs_scored": 16,
           "team_page_id": null
         }
       ],
@@ -85,10 +85,10 @@
             "field": "NWP:Field 6",
             "team_a": "Legacy Baseball 9U - WHITE",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 7,
             "team_b": "Red Clay Athletics 9U Darcangelo",
             "seed_b": null,
-            "score_b": null
+            "score_b": 4
           },
           {
             "game": 2,
@@ -97,10 +97,10 @@
             "field": "NWP:Field 7",
             "team_a": "Union County Aces 9u",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 13,
             "team_b": "Carolina Icons",
             "seed_b": null,
-            "score_b": null
+            "score_b": 1
           },
           {
             "game": 3,
@@ -109,10 +109,10 @@
             "field": "NWP:Field 8",
             "team_a": "Mill Town 9u White Powered By Trosky",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 8,
             "team_b": "Carolina Trash Pandas",
             "seed_b": null,
-            "score_b": null
+            "score_b": 7
           },
           {
             "game": 4,
@@ -121,10 +121,10 @@
             "field": "NWP:Field 6",
             "team_a": "Legacy Baseball 9U - WHITE",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 10,
             "team_b": "Carolina Icons",
             "seed_b": null,
-            "score_b": null
+            "score_b": 10
           },
           {
             "game": 5,
@@ -145,10 +145,10 @@
             "field": "NWP:Field 8",
             "team_a": "Mill Town 9u White Powered By Trosky",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 8,
             "team_b": "Red Clay Athletics 9U Darcangelo",
             "seed_b": null,
-            "score_b": null
+            "score_b": 5
           }
         ],
         "Gold Bracket": [
@@ -184,5 +184,5 @@
   },
   "site_last_updated": "10/28/2026 3:47 PM",
   "tournament_id": 13607,
-  "fetched_at": "2026-10-30T18:00"
+  "fetched_at": "2026-10-30T21:30"
 }
