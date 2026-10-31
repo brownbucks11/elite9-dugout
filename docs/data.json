@@ -3,7 +3,7 @@
  "location": "Rock Hill, SC",
  "page_id": 31407,
  "team_url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=31407",
- "built": "Fri Oct 30, 2026 09:30 PM",
+ "built": "Fri Oct 30, 2026 09:55 PM",
  "record": {
   "w": 6,
   "l": 10,
@@ -8987,7 +8987,7 @@
     "team": {
      "entered": false
     },
-    "fetched_at": "2026-10-30T21:29"
+    "fetched_at": "2026-10-30T21:54"
    },
    "tgs": {
     "weather": null,
@@ -9041,7 +9041,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-10-30T21:29",
+    "fetched_at": "2026-10-30T21:54",
     "url": "https://topgunstats.com/whos-playing/12524"
    },
    "name": "Road Runner vs Coyote ring weekend",
@@ -9708,13 +9708,13 @@
    "location": "Monroe, NC",
    "page_id": null,
    "url": null,
-   "w": 4,
+   "w": 5,
    "l": 1,
    "t": 0,
-   "rs": 69,
-   "ra": 28,
-   "diff": 41,
-   "pct": 0.8,
+   "rs": 90,
+   "ra": 40,
+   "diff": 50,
+   "pct": 0.833,
    "events": 2,
    "log": [
     {
@@ -9765,6 +9765,16 @@
      "opponent": "Carolina Icons",
      "rs": 13,
      "ra": 1,
+     "result": "W"
+    },
+    {
+     "date": "2026-10-30",
+     "event_id": 13607,
+     "event": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
+     "section": "Pool Play",
+     "opponent": "Carolina Trash Pandas",
+     "rs": 21,
+     "ra": 12,
      "result": "W"
     }
    ],
@@ -11029,206 +11039,6 @@
    "stats_fetched": "2026-10-30T12:58"
   },
   {
-   "team": "Carolina Trash Pandas",
-   "location": "Locust, NC",
-   "page_id": 32342,
-   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=32342",
-   "w": 9,
-   "l": 4,
-   "t": 0,
-   "rs": 131,
-   "ra": 68,
-   "diff": 63,
-   "pct": 0.692,
-   "events": 5,
-   "log": [
-    {
-     "date": "2026-08-28",
-     "event_id": 13552,
-     "event": "TOP GUN-USA SPORTS--FNL--PRE LABOR DAY SPECIAL",
-     "section": "Pool Play",
-     "opponent": "NC Made 9U Green",
-     "rs": 12,
-     "ra": 4,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-11",
-     "event_id": 13600,
-     "event": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
-     "section": "Pool Play",
-     "opponent": "Carolina Icons",
-     "rs": 12,
-     "ra": 2,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-11",
-     "event_id": 13600,
-     "event": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
-     "section": "Pool Play",
-     "opponent": "Elite 9",
-     "rs": 11,
-     "ra": 2,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-11",
-     "event_id": 13600,
-     "event": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
-     "section": "Gold Bracket",
-     "opponent": "Carolina Clippers 9U",
-     "rs": 2,
-     "ra": 3,
-     "result": "L"
-    },
-    {
-     "date": "2026-09-26",
-     "event_id": 12518,
-     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "section": "Pool Play",
-     "opponent": "Carolina Forge 9U",
-     "rs": 8,
-     "ra": 7,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-26",
-     "event_id": 12518,
-     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "section": "Pool Play",
-     "opponent": "Lake Wylie Venom",
-     "rs": 3,
-     "ra": 14,
-     "result": "L"
-    },
-    {
-     "date": "2026-09-27",
-     "event_id": 12518,
-     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "section": "Bronze Bracket",
-     "opponent": "PeeDee Mudcats",
-     "rs": 20,
-     "ra": 6,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-27",
-     "event_id": 12518,
-     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "section": "Bronze Bracket",
-     "opponent": "Dirtbags Baseball ESB",
-     "rs": 7,
-     "ra": 8,
-     "result": "L"
-    },
-    {
-     "date": "2026-10-24",
-     "event_id": 12522,
-     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
-     "section": "Pool Play",
-     "opponent": "Diamond Jaxx",
-     "rs": 14,
-     "ra": 2,
-     "result": "W"
-    },
-    {
-     "date": "2026-10-24",
-     "event_id": 12522,
-     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
-     "section": "Pool Play",
-     "opponent": "MARA Stingers",
-     "rs": 12,
-     "ra": 5,
-     "result": "W"
-    },
-    {
-     "date": "2026-10-25",
-     "event_id": 12522,
-     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
-     "section": "Gold Bracket",
-     "opponent": "Athletes Lab 9U Navy- Stewart",
-     "rs": 12,
-     "ra": 4,
-     "result": "W"
-    },
-    {
-     "date": "2026-10-25",
-     "event_id": 12522,
-     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
-     "section": "Gold Bracket",
-     "opponent": "Dirtbags Baseball ESB",
-     "rs": 11,
-     "ra": 3,
-     "result": "W"
-    },
-    {
-     "date": "2026-10-30",
-     "event_id": 13607,
-     "event": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
-     "section": "Pool Play",
-     "opponent": "Mill Town 9u White Powered By Trosky",
-     "rs": 7,
-     "ra": 8,
-     "result": "L"
-    }
-   ],
-   "points": 2775,
-   "titles": 2,
-   "finishes": [
-    {
-     "date": "2026-08-28",
-     "name": "TOP GUN-USA SPORTS--FNL--PRE LABOR DAY SPECIAL",
-     "won": 3,
-     "lost": 0,
-     "standing": "1st (Gold)",
-     "points": 400
-    },
-    {
-     "date": "2026-09-11",
-     "name": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
-     "won": 2,
-     "lost": 1,
-     "standing": "2nd (Gold)",
-     "points": 375
-    },
-    {
-     "date": "2026-09-26",
-     "name": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "won": 2,
-     "lost": 2,
-     "standing": "2nd (Bronze)",
-     "points": 575
-    },
-    {
-     "date": "2026-10-03",
-     "name": "DOUBLE POINTS PINK ZONE QUALIFIER---ACTIVATE WINTER FREE PAID BERTHS",
-     "won": 2,
-     "lost": 1,
-     "standing": "4th (Gold)",
-     "points": 725
-    },
-    {
-     "date": "2026-10-24",
-     "name": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
-     "won": 4,
-     "lost": 0,
-     "standing": "1st (Gold)",
-     "points": 700
-    },
-    {
-     "date": "2026-10-30",
-     "name": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
-     "won": 0,
-     "lost": 0,
-     "standing": "",
-     "points": 0
-    }
-   ],
-   "season": "08/01/2026 - 10/30/2026",
-   "stats_fetched": "2026-10-30T12:58"
-  },
-  {
    "team": "NL Destroyers 2036",
    "location": "Denver, NC",
    "page_id": 36883,
@@ -11636,6 +11446,216 @@
    ],
    "season": "08/01/2026 - 10/30/2026",
    "stats_fetched": "2026-10-30T13:01"
+  },
+  {
+   "team": "Carolina Trash Pandas",
+   "location": "Locust, NC",
+   "page_id": 32342,
+   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=32342",
+   "w": 9,
+   "l": 5,
+   "t": 0,
+   "rs": 143,
+   "ra": 89,
+   "diff": 54,
+   "pct": 0.643,
+   "events": 5,
+   "log": [
+    {
+     "date": "2026-08-28",
+     "event_id": 13552,
+     "event": "TOP GUN-USA SPORTS--FNL--PRE LABOR DAY SPECIAL",
+     "section": "Pool Play",
+     "opponent": "NC Made 9U Green",
+     "rs": 12,
+     "ra": 4,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-11",
+     "event_id": 13600,
+     "event": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
+     "section": "Pool Play",
+     "opponent": "Carolina Icons",
+     "rs": 12,
+     "ra": 2,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-11",
+     "event_id": 13600,
+     "event": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
+     "section": "Pool Play",
+     "opponent": "Elite 9",
+     "rs": 11,
+     "ra": 2,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-11",
+     "event_id": 13600,
+     "event": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
+     "section": "Gold Bracket",
+     "opponent": "Carolina Clippers 9U",
+     "rs": 2,
+     "ra": 3,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-26",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Pool Play",
+     "opponent": "Carolina Forge 9U",
+     "rs": 8,
+     "ra": 7,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-26",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Pool Play",
+     "opponent": "Lake Wylie Venom",
+     "rs": 3,
+     "ra": 14,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-27",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Bronze Bracket",
+     "opponent": "PeeDee Mudcats",
+     "rs": 20,
+     "ra": 6,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-27",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Bronze Bracket",
+     "opponent": "Dirtbags Baseball ESB",
+     "rs": 7,
+     "ra": 8,
+     "result": "L"
+    },
+    {
+     "date": "2026-10-24",
+     "event_id": 12522,
+     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
+     "section": "Pool Play",
+     "opponent": "Diamond Jaxx",
+     "rs": 14,
+     "ra": 2,
+     "result": "W"
+    },
+    {
+     "date": "2026-10-24",
+     "event_id": 12522,
+     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
+     "section": "Pool Play",
+     "opponent": "MARA Stingers",
+     "rs": 12,
+     "ra": 5,
+     "result": "W"
+    },
+    {
+     "date": "2026-10-25",
+     "event_id": 12522,
+     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
+     "section": "Gold Bracket",
+     "opponent": "Athletes Lab 9U Navy- Stewart",
+     "rs": 12,
+     "ra": 4,
+     "result": "W"
+    },
+    {
+     "date": "2026-10-25",
+     "event_id": 12522,
+     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
+     "section": "Gold Bracket",
+     "opponent": "Dirtbags Baseball ESB",
+     "rs": 11,
+     "ra": 3,
+     "result": "W"
+    },
+    {
+     "date": "2026-10-30",
+     "event_id": 13607,
+     "event": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
+     "section": "Pool Play",
+     "opponent": "Mill Town 9u White Powered By Trosky",
+     "rs": 7,
+     "ra": 8,
+     "result": "L"
+    },
+    {
+     "date": "2026-10-30",
+     "event_id": 13607,
+     "event": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
+     "section": "Pool Play",
+     "opponent": "Union County Aces 9u",
+     "rs": 12,
+     "ra": 21,
+     "result": "L"
+    }
+   ],
+   "points": 2775,
+   "titles": 2,
+   "finishes": [
+    {
+     "date": "2026-08-28",
+     "name": "TOP GUN-USA SPORTS--FNL--PRE LABOR DAY SPECIAL",
+     "won": 3,
+     "lost": 0,
+     "standing": "1st (Gold)",
+     "points": 400
+    },
+    {
+     "date": "2026-09-11",
+     "name": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
+     "won": 2,
+     "lost": 1,
+     "standing": "2nd (Gold)",
+     "points": 375
+    },
+    {
+     "date": "2026-09-26",
+     "name": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "won": 2,
+     "lost": 2,
+     "standing": "2nd (Bronze)",
+     "points": 575
+    },
+    {
+     "date": "2026-10-03",
+     "name": "DOUBLE POINTS PINK ZONE QUALIFIER---ACTIVATE WINTER FREE PAID BERTHS",
+     "won": 2,
+     "lost": 1,
+     "standing": "4th (Gold)",
+     "points": 725
+    },
+    {
+     "date": "2026-10-24",
+     "name": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
+     "won": 4,
+     "lost": 0,
+     "standing": "1st (Gold)",
+     "points": 700
+    },
+    {
+     "date": "2026-10-30",
+     "name": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
+     "won": 0,
+     "lost": 0,
+     "standing": "",
+     "points": 0
+    }
+   ],
+   "season": "08/01/2026 - 10/30/2026",
+   "stats_fetched": "2026-10-30T12:58"
   },
   {
    "team": "Team 24",
