@@ -481,7 +481,7 @@
           "seed": 2,
           "team": "Hooligans 10U",
           "location": "Belmont, NC",
-          "won": 1,
+          "won": 2,
           "lost": 1,
           "runs_allowed": 24,
           "runs_scored": 22,
@@ -492,7 +492,7 @@
           "team": "Carolina River Rats 10U",
           "location": "Lincolnton, NC",
           "won": 1,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 14,
           "runs_scored": 19,
           "team_page_id": null
@@ -783,10 +783,10 @@
             "field": "Westmoreld:Field 1",
             "team_a": "Carolina River Rats 10U",
             "seed_a": 5,
-            "score_a": null,
+            "score_a": 0,
             "team_b": "Hooligans 10U",
             "seed_b": 8,
-            "score_b": null
+            "score_b": 12
           },
           {
             "game": 3,
@@ -796,7 +796,7 @@
             "team_a": "Loser Game #1 Mara Cobras",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Loser Game #2",
+            "team_b": "Loser Game #2 Carolina River Rats 10U",
             "seed_b": null,
             "score_b": null
           },
@@ -808,7 +808,7 @@
             "team_a": "Winner Game #1 Davidson Force 10u",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Winner Game #2",
+            "team_b": "Winner Game #2 Hooligans 10U",
             "seed_b": null,
             "score_b": null
           }
@@ -870,7 +870,7 @@
           "seed": 2,
           "team": "Yellow Jackets",
           "location": "Bessemer City, NC",
-          "won": 0,
+          "won": 1,
           "lost": 2,
           "runs_allowed": 35,
           "runs_scored": 8,
@@ -881,7 +881,7 @@
           "team": "Dirtbags 11u Hagen",
           "location": "Pineville, NC",
           "won": 2,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 18,
           "runs_scored": 34,
           "team_page_id": null
@@ -901,7 +901,7 @@
           "team": "Carolina Forge 11U",
           "location": "Gastonia, NC",
           "won": 1,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 12,
           "runs_scored": 10,
           "team_page_id": null
@@ -911,7 +911,7 @@
           "team": "Banana Peppers Baseball 11u",
           "location": "Gastonia, NC",
           "won": 1,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 23,
           "runs_scored": 21,
           "team_page_id": null
@@ -920,7 +920,7 @@
           "seed": 7,
           "team": "Athletes Lab 11u Red",
           "location": "Lincolnton, NC",
-          "won": 1,
+          "won": 2,
           "lost": 2,
           "runs_allowed": 8,
           "runs_scored": 11,
@@ -930,7 +930,7 @@
           "seed": 8,
           "team": "Copperheads White",
           "location": "Mooresville, NC",
-          "won": 1,
+          "won": 2,
           "lost": 2,
           "runs_allowed": 15,
           "runs_scored": 11,
@@ -940,7 +940,7 @@
           "seed": 9,
           "team": "The Battery Training Academy LLC.",
           "location": "Gastonia, NC",
-          "won": 2,
+          "won": 3,
           "lost": 1,
           "runs_allowed": 19,
           "runs_scored": 18,
@@ -950,7 +950,7 @@
           "seed": 10,
           "team": "South Charlotte Revolution Gause",
           "location": "Charlotte, NC",
-          "won": 3,
+          "won": 4,
           "lost": 0,
           "runs_allowed": 8,
           "runs_scored": 20,
@@ -961,7 +961,7 @@
           "team": "Carolina Reds 11u",
           "location": "Rock Hill, SC",
           "won": 2,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 13,
           "runs_scored": 21,
           "team_page_id": null
@@ -971,7 +971,7 @@
           "team": "11u Mission Baseball",
           "location": "Waxhaw, NC",
           "won": 3,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 7,
           "runs_scored": 17,
           "team_page_id": null
@@ -1156,10 +1156,10 @@
             "field": "M. Rivers:Martha Rivers 3",
             "team_a": "Loser Game #1 Carolina Reds 11u",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 12,
             "team_b": "Loser Game #2 Athletes Lab 11u Red",
             "seed_b": null,
-            "score_b": null
+            "score_b": 14
           },
           {
             "game": 4,
@@ -1168,10 +1168,10 @@
             "field": "M. Rivers:Martha Rivers 2",
             "team_a": "Winner Game #1 South Charlotte Revolution Gause",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 9,
             "team_b": "Winner Game #2 11u Mission Baseball",
             "seed_b": null,
-            "score_b": null
+            "score_b": 7
           }
         ],
         "Silver Bracket": [
@@ -1206,10 +1206,10 @@
             "field": "Westmoreld:Field 2",
             "team_a": "Loser Game #1 Copperheads White",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 16,
             "team_b": "Loser Game #2 Carolina Forge 11U",
             "seed_b": null,
-            "score_b": null
+            "score_b": 3
           },
           {
             "game": 4,
@@ -1218,10 +1218,10 @@
             "field": "Westmoreld:Field 3",
             "team_a": "Winner Game #1 Dirtbags 11u Hagen",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 0,
             "team_b": "Winner Game #2 The Battery Training Academy LLC.",
             "seed_b": null,
-            "score_b": null
+            "score_b": 13
           }
         ],
         "Bronze Bracket": [
@@ -1244,10 +1244,10 @@
             "field": "SP:Field #1",
             "team_a": "Banana Peppers Baseball 11u",
             "seed_a": 9,
-            "score_a": null,
+            "score_a": 0,
             "team_b": "Yellow Jackets",
             "seed_b": 12,
-            "score_b": null
+            "score_b": 5
           },
           {
             "game": 3,
@@ -1257,7 +1257,7 @@
             "team_a": "Loser Game #1 ELITE BASEBALL 11U EBC",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Loser Game #2",
+            "team_b": "Loser Game #2 Banana Peppers Baseball 11u",
             "seed_b": null,
             "score_b": null
           },
@@ -1269,7 +1269,7 @@
             "team_a": "Winner Game #1 LKN Bolts",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Winner Game #2",
+            "team_b": "Winner Game #2 Yellow Jackets",
             "seed_b": null,
             "score_b": null
           }
@@ -1885,7 +1885,7 @@
           "seed": 2,
           "team": "Carolina Bearcats",
           "location": "Alexis, NC",
-          "won": 2,
+          "won": 3,
           "lost": 0,
           "runs_allowed": 3,
           "runs_scored": 22,
@@ -1916,7 +1916,7 @@
           "team": "SC Tide Abbott",
           "location": "Clover, SC",
           "won": 1,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 8,
           "runs_scored": 16,
           "team_page_id": null
@@ -2071,10 +2071,10 @@
             "field": "Mazeppa:Field # 4",
             "team_a": "Carolina Bearcats",
             "seed_a": 1,
-            "score_a": null,
+            "score_a": 9,
             "team_b": "SC Tide Abbott",
             "seed_b": 4,
-            "score_b": null
+            "score_b": 1
           },
           {
             "game": 3,
@@ -2084,7 +2084,7 @@
             "team_a": "Loser Game #1 Concord Athletics 14U - Ratliff",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Loser Game #2",
+            "team_b": "Loser Game #2 SC Tide Abbott",
             "seed_b": null,
             "score_b": null
           },
@@ -2096,7 +2096,7 @@
             "team_a": "Winner Game #1 P413 2031",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Winner Game #2",
+            "team_b": "Winner Game #2 Carolina Bearcats",
             "seed_b": null,
             "score_b": null
           }
@@ -2181,7 +2181,7 @@
           "team": "Couloak Diesel",
           "location": "Charlotte, NC",
           "won": 1,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 16,
           "runs_scored": 7,
           "team_page_id": null
@@ -2190,7 +2190,7 @@
           "seed": 4,
           "team": "Bat Attitude",
           "location": "Cherokee, NC",
-          "won": 1,
+          "won": 2,
           "lost": 1,
           "runs_allowed": 9,
           "runs_scored": 15,
@@ -2290,10 +2290,10 @@
             "field": "CA:Field #1",
             "team_a": "Couloak Diesel",
             "seed_a": 2,
-            "score_a": null,
+            "score_a": 1,
             "team_b": "Bat Attitude",
             "seed_b": 3,
-            "score_b": null
+            "score_b": 18
           },
           {
             "game": 3,
@@ -2315,7 +2315,7 @@
             "team_a": "Loser Game #1 CBC Knuckleheads Fox",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Loser Game #2",
+            "team_b": "Loser Game #2 Couloak Diesel",
             "seed_b": null,
             "score_b": null
           },
@@ -2327,7 +2327,7 @@
             "team_a": "Winner Game #3",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Winner Game #2",
+            "team_b": "Winner Game #2 Bat Attitude",
             "seed_b": null,
             "score_b": null
           }
@@ -2484,5 +2484,5 @@
   },
   "site_last_updated": "10/29/2026 12:18 PM",
   "tournament_id": 12523,
-  "fetched_at": "2026-11-01T12:00"
+  "fetched_at": "2026-11-01T12:43"
 }

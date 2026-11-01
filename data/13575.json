@@ -17,10 +17,10 @@
           "seed": 1,
           "team": "FS Bulldogs 8u (Brooks)",
           "location": "Mount Ulla, NC",
-          "won": 2,
+          "won": 3,
           "lost": 0,
-          "runs_allowed": 10,
-          "runs_scored": 37,
+          "runs_allowed": 13,
+          "runs_scored": 62,
           "team_page_id": null
         },
         {
@@ -28,9 +28,9 @@
           "team": "MP BOMBERS",
           "location": "MOUNT PLEASANT, NC",
           "won": 0,
-          "lost": 2,
-          "runs_allowed": 29,
-          "runs_scored": 7,
+          "lost": 3,
+          "runs_allowed": 54,
+          "runs_scored": 10,
           "team_page_id": null
         },
         {
@@ -89,10 +89,10 @@
             "field": "Jennings:Jennings #3",
             "team_a": "MP BOMBERS",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 3,
             "team_b": "FS Bulldogs 8u (Brooks)",
             "seed_b": null,
-            "score_b": null
+            "score_b": 25
           },
           {
             "game": 5,
@@ -263,7 +263,7 @@
           "seed": 1,
           "team": "Lightning Jacks-Brown",
           "location": "kernersville, NC",
-          "won": 2,
+          "won": 3,
           "lost": 0,
           "runs_allowed": 14,
           "runs_scored": 23,
@@ -284,7 +284,7 @@
           "team": "FS Bulldogs 10u (Red)",
           "location": "Mount Ulla, NC",
           "won": 0,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 31,
           "runs_scored": 15,
           "team_page_id": null
@@ -359,10 +359,10 @@
             "field": "Jennings:Jennings #4",
             "team_a": "Lightning Jacks-Brown",
             "seed_a": 1,
-            "score_a": null,
+            "score_a": 17,
             "team_b": "FS Bulldogs 10u (Red)",
             "seed_b": 4,
-            "score_b": null
+            "score_b": 6
           },
           {
             "game": 2,
@@ -381,7 +381,7 @@
             "day": "Sun",
             "time": "2:30 PM",
             "field": "Jennings:Jennings #4",
-            "team_a": "Winner Game #1",
+            "team_a": "Winner Game #1 Lightning Jacks-Brown",
             "seed_a": null,
             "score_a": null,
             "team_b": "Winner Game #2",
@@ -409,7 +409,7 @@
           "team": "Camel City Baseball",
           "location": "Pfafftown, NC",
           "won": 0,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 20,
           "runs_scored": 8,
           "team_page_id": null
@@ -448,7 +448,7 @@
           "seed": 6,
           "team": "NC Made 13U",
           "location": "Mocksville, NC",
-          "won": 1,
+          "won": 2,
           "lost": 1,
           "runs_allowed": 18,
           "runs_scored": 11,
@@ -538,10 +538,10 @@
             "field": "Jennings:Jennings #1",
             "team_a": "NC Made 13U",
             "seed_a": 4,
-            "score_a": null,
+            "score_a": 6,
             "team_b": "Camel City Baseball",
             "seed_b": 5,
-            "score_b": null
+            "score_b": 1
           },
           {
             "game": 2,
@@ -560,7 +560,7 @@
             "day": "Sun",
             "time": "1:30 PM",
             "field": "Jennings:Jennings #1",
-            "team_a": "Winner Game #1",
+            "team_a": "Winner Game #1 NC Made 13U",
             "seed_a": null,
             "score_a": null,
             "team_b": "East Rowan 13U Earnhardt",
@@ -596,5 +596,5 @@
     }
   },
   "tournament_id": 13575,
-  "fetched_at": "2026-11-01T12:01"
+  "fetched_at": "2026-11-01T12:43"
 }
