@@ -380,18 +380,6 @@
           {
             "game": 3,
             "day": "Sun",
-            "time": "3:00 PM",
-            "field": "SP:Field #3",
-            "team_a": "Loser Game #1 Team 24",
-            "seed_a": null,
-            "score_a": null,
-            "team_b": "Loser Game #2 Concord Athletics -9U",
-            "seed_b": null,
-            "score_b": null
-          },
-          {
-            "game": 4,
-            "day": "Sun",
             "time": "1:00 PM",
             "field": "SP:Field #3",
             "team_a": "Winner Game #1 ELITE BASEBALL EBC 9U",
@@ -421,7 +409,7 @@
           "seed": 2,
           "team": "Athletes Lab 10u Navy",
           "location": "Maiden, NC",
-          "won": 3,
+          "won": 4,
           "lost": 0,
           "runs_allowed": 6,
           "runs_scored": 34,
@@ -451,8 +439,8 @@
           "seed": 5,
           "team": "FS Bulldogs 10u (Reece)",
           "location": "Mt Ulla, NC",
-          "won": 2,
-          "lost": 1,
+          "won": 3,
+          "lost": 2,
           "runs_allowed": 14,
           "runs_scored": 21,
           "team_page_id": null
@@ -462,7 +450,7 @@
           "team": "South Charlotte Revolution 10U",
           "location": "Charlotte, NC",
           "won": 1,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 15,
           "runs_scored": 31,
           "team_page_id": null
@@ -790,18 +778,6 @@
           },
           {
             "game": 3,
-            "day": "Sun",
-            "time": "3:00 PM",
-            "field": "Westmoreld:Field 1",
-            "team_a": "Loser Game #1 Mara Cobras",
-            "seed_a": null,
-            "score_a": null,
-            "team_b": "Loser Game #2 Carolina River Rats 10U",
-            "seed_b": null,
-            "score_b": null
-          },
-          {
-            "game": 4,
             "day": "Sun",
             "time": "1:00 PM",
             "field": "Westmoreld:Field 1",
@@ -1252,18 +1228,6 @@
           {
             "game": 3,
             "day": "Sun",
-            "time": "3:00 PM",
-            "field": "SP:Field #1",
-            "team_a": "Loser Game #1 ELITE BASEBALL 11U EBC",
-            "seed_a": null,
-            "score_a": null,
-            "team_b": "Loser Game #2 Banana Peppers Baseball 11u",
-            "seed_b": null,
-            "score_b": null
-          },
-          {
-            "game": 4,
-            "day": "Sun",
             "time": "1:00 PM",
             "field": "SP:Field #1",
             "team_a": "Winner Game #1 LKN Bolts",
@@ -1284,7 +1248,7 @@
           "team": "Newport Bombers 12U King",
           "location": "Rock Hill, SC",
           "won": 1,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 15,
           "runs_scored": 4,
           "team_page_id": null
@@ -1294,7 +1258,7 @@
           "team": "Carolina Bearcats 12U",
           "location": "Alexis, NC",
           "won": 3,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 15,
           "runs_scored": 17,
           "team_page_id": null
@@ -1313,7 +1277,7 @@
           "seed": 4,
           "team": "Red Clay Athletics 12U Hodges",
           "location": "Huntersville, NC",
-          "won": 1,
+          "won": 2,
           "lost": 2,
           "runs_allowed": 16,
           "runs_scored": 23,
@@ -1353,7 +1317,7 @@
           "seed": 8,
           "team": "Weddington Wild",
           "location": "Waxhaw, NC",
-          "won": 3,
+          "won": 4,
           "lost": 0,
           "runs_allowed": 4,
           "runs_scored": 30,
@@ -1364,7 +1328,7 @@
           "team": "BS BULLDOGS BlACK 12u",
           "location": "BOILING SPRINGS, NC",
           "won": 2,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 12,
           "runs_scored": 18,
           "team_page_id": null
@@ -1393,7 +1357,7 @@
           "seed": 4,
           "team": "NC Made 12U Green",
           "location": "Mocksville, NC",
-          "won": 3,
+          "won": 4,
           "lost": 0,
           "runs_allowed": 11,
           "runs_scored": 28,
@@ -1433,8 +1397,8 @@
           "seed": 8,
           "team": "Elite9 Navy",
           "location": "Rock Hill, SC",
-          "won": 2,
-          "lost": 0,
+          "won": 3,
+          "lost": 1,
           "runs_allowed": 2,
           "runs_scored": 31,
           "team_page_id": null
@@ -1593,10 +1557,10 @@
             "field": "M. Rivers:Martha Rivers 3",
             "team_a": "Winner Game #1 BS BULLDOGS BlACK 12u",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 11,
             "team_b": "Elite9 Navy",
             "seed_b": 1,
-            "score_b": null
+            "score_b": 14
           },
           {
             "game": 4,
@@ -1615,24 +1579,12 @@
             "day": "Sun",
             "time": "5:00 PM",
             "field": "M. Rivers:Martha Rivers 3",
-            "team_a": "Winner Game #3",
+            "team_a": "Winner Game #3 Elite9 Navy",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 3,
             "team_b": "Winner Game #2 NC Made 12U Green",
             "seed_b": null,
-            "score_b": null
-          },
-          {
-            "game": 6,
-            "day": "Sun",
-            "time": "5:00 PM",
-            "field": "M. Rivers:Martha Rivers 2",
-            "team_a": "Winner Game #4 Extreme Performance 2033",
-            "seed_a": null,
-            "score_a": null,
-            "team_b": "Loser Game #3 (If Needed)",
-            "seed_b": null,
-            "score_b": null
+            "score_b": 14
           }
         ],
         "Silver Bracket": [
@@ -1714,7 +1666,7 @@
           "seed": 3,
           "team": "Carolina Smoke",
           "location": "CONCORD, NC",
-          "won": 3,
+          "won": 4,
           "lost": 0,
           "runs_allowed": 5,
           "runs_scored": 7,
@@ -1735,7 +1687,7 @@
           "team": "Diamond Dawgs",
           "location": "Charlotte, NC",
           "won": 3,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 8,
           "runs_scored": 17,
           "team_page_id": null
@@ -1844,26 +1796,14 @@
           {
             "game": 4,
             "day": "Sun",
-            "time": "5:00 PM",
-            "field": "Tega Cay:Field 4",
-            "team_a": "Loser Game #1 Sandlot Bandits",
-            "seed_a": null,
-            "score_a": null,
-            "team_b": "Loser Game #2 CC CARDINALS 13U",
-            "seed_b": null,
-            "score_b": null
-          },
-          {
-            "game": 5,
-            "day": "Sun",
             "time": "3:00 PM",
             "field": "Tega Cay:Field 4",
             "team_a": "Winner Game #3 Carolina Smoke",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 8,
             "team_b": "Winner Game #2 Diamond Dawgs",
             "seed_b": null,
-            "score_b": null
+            "score_b": 7
           }
         ]
       }
@@ -2079,18 +2019,6 @@
           {
             "game": 3,
             "day": "Sun",
-            "time": "3:00 PM",
-            "field": "Mazeppa:Field # 4",
-            "team_a": "Loser Game #1 Concord Athletics 14U - Ratliff",
-            "seed_a": null,
-            "score_a": null,
-            "team_b": "Loser Game #2 SC Tide Abbott",
-            "seed_b": null,
-            "score_b": null
-          },
-          {
-            "game": 4,
-            "day": "Sun",
             "time": "1:00 PM",
             "field": "Mazeppa:Field # 4",
             "team_a": "Winner Game #1 P413 2031",
@@ -2128,18 +2056,6 @@
           },
           {
             "game": 3,
-            "day": "Sun",
-            "time": "3:00 PM",
-            "field": "TOB:Field 1",
-            "team_a": "Loser Game #1 Wolfpack Baseball 13u",
-            "seed_a": null,
-            "score_a": null,
-            "team_b": "Loser Game #2 Banana Peppers Baseball",
-            "seed_b": null,
-            "score_b": null
-          },
-          {
-            "game": 4,
             "day": "Sun",
             "time": "1:00 PM",
             "field": "TOB:Field 1",
@@ -2190,7 +2106,7 @@
           "seed": 4,
           "team": "Bat Attitude",
           "location": "Cherokee, NC",
-          "won": 2,
+          "won": 3,
           "lost": 1,
           "runs_allowed": 9,
           "runs_scored": 15,
@@ -2201,7 +2117,7 @@
           "team": "CBC Prospects Blue 15u",
           "location": "CHERRYVILLE, NC",
           "won": 2,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 16,
           "runs_scored": 7,
           "team_page_id": null
@@ -2310,26 +2226,14 @@
           {
             "game": 4,
             "day": "Sun",
-            "time": "4:00 PM",
-            "field": "CA:Field #1",
-            "team_a": "Loser Game #1 CBC Knuckleheads Fox",
-            "seed_a": null,
-            "score_a": null,
-            "team_b": "Loser Game #2 Couloak Diesel",
-            "seed_b": null,
-            "score_b": null
-          },
-          {
-            "game": 5,
-            "day": "Sun",
             "time": "2:00 PM",
             "field": "CA:Field #1",
             "team_a": "Winner Game #3 CBC Prospects Blue 15u",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 0,
             "team_b": "Winner Game #2 Bat Attitude",
             "seed_b": null,
-            "score_b": null
+            "score_b": 8
           }
         ]
       }
@@ -2457,18 +2361,6 @@
           {
             "game": 3,
             "day": "Sun",
-            "time": "3:00 PM",
-            "field": "SP:Field #2",
-            "team_a": "Loser Game #1 TBD Baseball",
-            "seed_a": null,
-            "score_a": null,
-            "team_b": "Loser Game #2 Lonestar",
-            "seed_b": null,
-            "score_b": null
-          },
-          {
-            "game": 4,
-            "day": "Sun",
             "time": "1:00 PM",
             "field": "SP:Field #2",
             "team_a": "Winner Game #1 UBA Richardson",
@@ -2484,5 +2376,5 @@
   },
   "site_last_updated": "10/29/2026 12:18 PM",
   "tournament_id": 12523,
-  "fetched_at": "2026-11-01T16:46"
+  "fetched_at": "2026-11-01T20:19"
 }

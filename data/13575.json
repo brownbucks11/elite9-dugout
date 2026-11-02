@@ -264,7 +264,7 @@
           "team": "Lightning Jacks-Brown",
           "location": "kernersville, NC",
           "won": 3,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 14,
           "runs_scored": 23,
           "team_page_id": null
@@ -273,7 +273,7 @@
           "seed": 2,
           "team": "M&M Baseball 10u Gold",
           "location": "Browns Summit, NC",
-          "won": 2,
+          "won": 3,
           "lost": 1,
           "runs_allowed": 10,
           "runs_scored": 20,
@@ -383,10 +383,10 @@
             "field": "Jennings:Jennings #4",
             "team_a": "Winner Game #1 Lightning Jacks-Brown",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 6,
             "team_b": "Winner Game #2 M&M Baseball 10u Gold",
             "seed_b": null,
-            "score_b": null
+            "score_b": 10
           }
         ]
       }
@@ -399,7 +399,7 @@
           "team": "East Rowan 13U Earnhardt",
           "location": "Rockwell, NC",
           "won": 3,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 3,
           "runs_scored": 24,
           "team_page_id": null
@@ -419,7 +419,7 @@
           "team": "Equip Sports",
           "location": "Boone, NC",
           "won": 2,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 15,
           "runs_scored": 17,
           "team_page_id": null
@@ -438,7 +438,7 @@
           "seed": 5,
           "team": "Lightning Jacks-Stover",
           "location": "Kernersville, NC",
-          "won": 2,
+          "won": 4,
           "lost": 0,
           "runs_allowed": 5,
           "runs_scored": 15,
@@ -574,10 +574,10 @@
             "field": "Jennings:Jennings #1",
             "team_a": "Winner Game #2 Equip Sports",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 4,
             "team_b": "Lightning Jacks-Stover",
             "seed_b": 2,
-            "score_b": null
+            "score_b": 5
           },
           {
             "game": 5,
@@ -586,15 +586,15 @@
             "field": "Jennings:Jennings #1",
             "team_a": "Winner Game #3 East Rowan 13U Earnhardt",
             "seed_a": null,
-            "score_a": null,
-            "team_b": "Winner Game #4",
+            "score_a": 1,
+            "team_b": "Winner Game #4 Lightning Jacks-Stover",
             "seed_b": null,
-            "score_b": null
+            "score_b": 6
           }
         ]
       }
     }
   },
   "tournament_id": 13575,
-  "fetched_at": "2026-11-01T16:46"
+  "fetched_at": "2026-11-01T20:19"
 }
