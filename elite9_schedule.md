@@ -1,5 +1,5 @@
 # Elite 9 - Top Gun schedule
-_Updated Mon Nov 02, 2026 03:39 PM_
+_Updated Mon Nov 02, 2026 04:53 PM_
 
 ## SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND
 September 26 - 27 in Greater Charlotte Area, NC  
@@ -246,11 +246,29 @@ Tournament 12524 - [schedule page](https://playtopgunsports.com/GameTimesResults
 
 _Elite 9 not listed yet. Divisions posted: none posted yet_
 
+## ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO
+November 7 - 8 in Tega Cay, SC  
+Tournament 13129 - [schedule page](https://playtopgunsports.com/GameTimesResults.aspx?trnid=13129)
+
+_Elite 9 not listed yet. Divisions posted: none posted yet_
+
 ## MONSTER MASH CHAMPIONSHIPS---QUALIFY FOR THE ALL STATE GAMES THIS WEEK
 October 31 - 1 in Statesville, NC  
 Tournament 13575 - [schedule page](https://playtopgunsports.com/GameTimesResults.aspx?trnid=13575)
 
 _Elite 9 not listed yet. Divisions posted: 8U CP, 9U, 10U, 13U 90_
+
+## ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND
+November 7 - 8 in Mocksville/Winston Salem/Clemm, NC  
+Tournament 13577 - [schedule page](https://playtopgunsports.com/GameTimesResults.aspx?trnid=13577)
+
+_Elite 9 not listed yet. Divisions posted: none posted yet_
+
+## ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND
+November 7 - 8 in Statesville, NC  
+Tournament 13578 - [schedule page](https://playtopgunsports.com/GameTimesResults.aspx?trnid=13578)
+
+_Elite 9 not listed yet. Divisions posted: none posted yet_
 
 ## FRIDAY NIGHT G.O.A.T. SERIES 9U
 October 30 in Monroe, NC  
