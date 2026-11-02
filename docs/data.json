@@ -3,7 +3,7 @@
  "location": "Rock Hill, SC",
  "page_id": 31407,
  "team_url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=31407",
- "built": "Mon Nov 02, 2026 05:25 AM",
+ "built": "Mon Nov 02, 2026 03:43 PM",
  "record": {
   "w": 6,
   "l": 10,
@@ -8980,20 +8980,25 @@
    "confirmed": false,
    "summary": null,
    "entries": {
-    "count": 13,
+    "count": 15,
     "confirmed": 0,
     "waitlist": 0,
-    "total": 75,
+    "total": 86,
     "team": {
-     "entered": false
+     "entered": true,
+     "division": "9U",
+     "confirmed": false,
+     "waitlist": false,
+     "entered_at": "2026-11-02T08:06:34.820Z",
+     "level": "AA"
     },
-    "fetched_at": "2026-11-02T05:24"
+    "fetched_at": "2026-11-02T15:38"
    },
    "tgs": {
     "weather": null,
     "general": null,
     "awards": "BATTLE FOR THE BOGGS------ALL WINNING AND RUNNER UP TEAMS WILL RECEIVE (12) TOP GUN-USA CUSTOM MADE TOBOGGANS--------ALL WINNING TEAMS WILL RECEIVE (12) TOP GUN-USA CUSTOM MADE JUMBO RINGS-------PLUS PLAQUES AND BANNERS.",
-    "teams_registered": 75,
+    "teams_registered": 86,
     "games_scheduled": false,
     "complexes": [
      {
@@ -9041,7 +9046,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-11-02T05:24",
+    "fetched_at": "2026-11-02T15:38",
     "url": "https://topgunstats.com/whos-playing/12524"
    },
    "name": "Road Runner vs Coyote ring weekend",
@@ -9144,8 +9149,8 @@
      "points": 325
     }
    ],
-   "season": "08/01/2026 - 11/01/2026",
-   "stats_fetched": "2026-11-01T12:01"
+   "season": "08/01/2026 - 11/02/2026",
+   "stats_fetched": "2026-11-02T15:39"
   },
   {
    "team": "South Park Red Raiders",
@@ -9437,14 +9442,14 @@
     {
      "date": "2026-10-31",
      "name": "HALLOWEEN MONSTER MASH------2026 TOP GUN-USA SPORTS EVENT",
-     "won": 3,
+     "won": 4,
      "lost": 0,
      "standing": "",
      "points": 0
     }
    ],
-   "season": "08/01/2026 - 11/01/2026",
-   "stats_fetched": "2026-11-01T12:04"
+   "season": "08/01/2026 - 11/02/2026",
+   "stats_fetched": "2026-11-02T15:42"
   },
   {
    "team": "Carolina Rapid Fire - Ford",
@@ -9656,8 +9661,8 @@
      "points": 400
     }
    ],
-   "season": "08/01/2026 - 11/01/2026",
-   "stats_fetched": "2026-11-01T12:02"
+   "season": "08/01/2026 - 11/02/2026",
+   "stats_fetched": "2026-11-02T15:40"
   },
   {
    "team": "Union County Aces 9u",
@@ -9854,8 +9859,8 @@
      "points": 375
     }
    ],
-   "season": "08/01/2026 - 11/01/2026",
-   "stats_fetched": "2026-11-01T12:01"
+   "season": "08/01/2026 - 11/02/2026",
+   "stats_fetched": "2026-11-02T15:39"
   },
   {
    "team": "Hooligans",
@@ -10064,8 +10069,8 @@
      "points": 600
     }
    ],
-   "season": "08/01/2026 - 11/01/2026",
-   "stats_fetched": "2026-11-01T12:02"
+   "season": "08/01/2026 - 11/02/2026",
+   "stats_fetched": "2026-11-02T15:40"
   },
   {
    "team": "Lake Wylie Venom",
@@ -10208,8 +10213,8 @@
      "points": 600
     }
    ],
-   "season": "08/01/2026 - 11/01/2026",
-   "stats_fetched": "2026-11-01T12:02"
+   "season": "08/01/2026 - 11/02/2026",
+   "stats_fetched": "2026-11-02T15:40"
   },
   {
    "team": "Weddington Wreckers",
@@ -10334,8 +10339,8 @@
      "points": 1000
     }
    ],
-   "season": "08/01/2026 - 11/01/2026",
-   "stats_fetched": "2026-11-01T12:04"
+   "season": "08/01/2026 - 11/02/2026",
+   "stats_fetched": "2026-11-02T15:42"
   },
   {
    "team": "Carolina Firebirds-Red",
@@ -10475,8 +10480,8 @@
      "points": 350
     }
    ],
-   "season": "08/01/2026 - 11/01/2026",
-   "stats_fetched": "2026-11-01T12:04"
+   "season": "08/01/2026 - 11/02/2026",
+   "stats_fetched": "2026-11-02T15:42"
   },
   {
    "team": "LKN Lightning - Ogburn",
@@ -10798,8 +10803,8 @@
      "points": 675
     }
    ],
-   "season": "08/01/2026 - 11/01/2026",
-   "stats_fetched": "2026-11-01T12:04"
+   "season": "08/01/2026 - 11/02/2026",
+   "stats_fetched": "2026-11-02T15:42"
   },
   {
    "team": "LKN Bolts",
@@ -11010,8 +11015,8 @@
      "points": 375
     }
    ],
-   "season": "08/01/2026 - 11/01/2026",
-   "stats_fetched": "2026-11-01T12:01"
+   "season": "08/01/2026 - 11/02/2026",
+   "stats_fetched": "2026-11-02T15:40"
   },
   {
    "team": "NL Destroyers 2036",
@@ -11308,8 +11313,8 @@
      "points": 650
     }
    ],
-   "season": "08/01/2026 - 11/01/2026",
-   "stats_fetched": "2026-11-01T12:03"
+   "season": "08/01/2026 - 11/02/2026",
+   "stats_fetched": "2026-11-02T15:41"
   },
   {
    "team": "Athletes Lab 9U Navy- Stewart",
@@ -11480,8 +11485,8 @@
      "points": 300
     }
    ],
-   "season": "08/01/2026 - 11/01/2026",
-   "stats_fetched": "2026-11-01T12:04"
+   "season": "08/01/2026 - 11/02/2026",
+   "stats_fetched": "2026-11-02T15:42"
   },
   {
    "team": "Carolina Trash Pandas",
@@ -11690,8 +11695,8 @@
      "points": 0
     }
    ],
-   "season": "08/01/2026 - 11/01/2026",
-   "stats_fetched": "2026-11-01T12:01"
+   "season": "08/01/2026 - 11/02/2026",
+   "stats_fetched": "2026-11-02T15:39"
   },
   {
    "team": "Team 24",
@@ -12106,15 +12111,15 @@
     {
      "date": "2026-10-31",
      "name": "MONSTER MASH CHAMPIONSHIPS---QUALIFY FOR THE ALL STATE GAMES THIS WEEK",
-     "won": 1,
-     "lost": 1,
+     "won": 2,
+     "lost": 2,
      "standing": "2nd (Gold)",
      "points": 0,
      "derived": true
     }
    ],
-   "season": "08/01/2026 - 11/01/2026",
-   "stats_fetched": "2026-11-01T12:01"
+   "season": "08/01/2026 - 11/02/2026",
+   "stats_fetched": "2026-11-02T15:39"
   },
   {
    "team": "Legacy Baseball 9U - WHITE",
@@ -12366,8 +12371,8 @@
      "derived": true
     }
    ],
-   "season": "08/01/2026 - 11/01/2026",
-   "stats_fetched": "2026-11-01T12:03"
+   "season": "08/01/2026 - 11/02/2026",
+   "stats_fetched": "2026-11-02T15:41"
   },
   {
    "team": "Copperheads",
@@ -12452,8 +12457,8 @@
      "points": 0
     }
    ],
-   "season": "08/01/2026 - 11/01/2026",
-   "stats_fetched": "2026-11-01T12:02"
+   "season": "08/01/2026 - 11/02/2026",
+   "stats_fetched": "2026-11-02T15:40"
   },
   {
    "team": "Legacy Baseball 9U RED",
@@ -12572,15 +12577,15 @@
     {
      "date": "2026-10-31",
      "name": "HALLOWEEN MONSTER MASH------2026 TOP GUN-USA SPORTS EVENT",
-     "won": 0,
+     "won": 2,
      "lost": 2,
      "standing": "1st (Gold)",
      "points": 0,
      "derived": true
     }
    ],
-   "season": "08/01/2026 - 11/01/2026",
-   "stats_fetched": "2026-11-01T12:02"
+   "season": "08/01/2026 - 11/02/2026",
+   "stats_fetched": "2026-11-02T15:40"
   },
   {
    "team": "Mission 9u Scout",
@@ -12657,8 +12662,8 @@
      "points": 700
     }
    ],
-   "season": "08/01/2026 - 11/01/2026",
-   "stats_fetched": "2026-11-01T12:04"
+   "season": "08/01/2026 - 11/02/2026",
+   "stats_fetched": "2026-11-02T15:42"
   },
   {
    "team": "NC Made 9U Green",
@@ -12751,8 +12756,8 @@
      "points": 0
     }
    ],
-   "season": "08/01/2026 - 11/01/2026",
-   "stats_fetched": "2026-11-01T12:01"
+   "season": "08/01/2026 - 11/02/2026",
+   "stats_fetched": "2026-11-02T15:39"
   },
   {
    "team": "Groundwork Sports",
@@ -12829,8 +12834,8 @@
      "points": 0
     }
    ],
-   "season": "08/01/2026 - 11/01/2026",
-   "stats_fetched": "2026-11-01T12:02"
+   "season": "08/01/2026 - 11/02/2026",
+   "stats_fetched": "2026-11-02T15:40"
   },
   {
    "team": "Rock Hill 9U Baseball",
@@ -12986,8 +12991,8 @@
      "points": 325
     }
    ],
-   "season": "08/01/2026 - 11/01/2026",
-   "stats_fetched": "2026-11-01T12:03"
+   "season": "08/01/2026 - 11/02/2026",
+   "stats_fetched": "2026-11-02T15:42"
   },
   {
    "team": "ROCO Dirtbagz",
@@ -13148,8 +13153,8 @@
      "points": 300
     }
    ],
-   "season": "08/01/2026 - 11/01/2026",
-   "stats_fetched": "2026-11-01T12:01"
+   "season": "08/01/2026 - 11/02/2026",
+   "stats_fetched": "2026-11-02T15:39"
   },
   {
    "team": "Diamond Crushers",
@@ -13234,8 +13239,8 @@
      "points": 1100
     }
    ],
-   "season": "08/01/2026 - 11/01/2026",
-   "stats_fetched": "2026-11-01T12:03"
+   "season": "08/01/2026 - 11/02/2026",
+   "stats_fetched": "2026-11-02T15:41"
   },
   {
    "team": "Carolina Royals 9Ublu",
@@ -13398,8 +13403,8 @@
      "points": 325
     }
    ],
-   "season": "08/01/2026 - 11/01/2026",
-   "stats_fetched": "2026-11-01T12:04"
+   "season": "08/01/2026 - 11/02/2026",
+   "stats_fetched": "2026-11-02T15:42"
   },
   {
    "team": "Carolina Regulators 9u",
@@ -13562,8 +13567,8 @@
      "points": 400
     }
    ],
-   "season": "08/01/2026 - 11/01/2026",
-   "stats_fetched": "2026-11-01T12:04"
+   "season": "08/01/2026 - 11/02/2026",
+   "stats_fetched": "2026-11-02T15:43"
   },
   {
    "team": "Union County Legends",
@@ -14043,8 +14048,8 @@
      "points": 0
     }
    ],
-   "season": "08/01/2026 - 11/01/2026",
-   "stats_fetched": "2026-11-01T12:03"
+   "season": "08/01/2026 - 11/02/2026",
+   "stats_fetched": "2026-11-02T15:41"
   },
   {
    "team": "SC Tide - Lucariello",
@@ -14241,8 +14246,8 @@
      "points": 250
     }
    ],
-   "season": "08/01/2026 - 11/01/2026",
-   "stats_fetched": "2026-11-01T12:02"
+   "season": "08/01/2026 - 11/02/2026",
+   "stats_fetched": "2026-11-02T15:40"
   },
   {
    "team": "DYBA Force 9U",
@@ -14438,8 +14443,8 @@
      "points": 0
     }
    ],
-   "season": "08/01/2026 - 11/01/2026",
-   "stats_fetched": "2026-11-01T12:02"
+   "season": "08/01/2026 - 11/02/2026",
+   "stats_fetched": "2026-11-02T15:40"
   },
   {
    "team": "KnuckleheadsCBC",
@@ -14580,8 +14585,8 @@
      "points": 525
     }
    ],
-   "season": "08/01/2026 - 11/01/2026",
-   "stats_fetched": "2026-11-01T12:02"
+   "season": "08/01/2026 - 11/02/2026",
+   "stats_fetched": "2026-11-02T15:40"
   },
   {
    "team": "BOILING SPRINGS BULLDOGS BASEBALL 8u",
@@ -14922,8 +14927,8 @@
      "points": 550
     }
    ],
-   "season": "08/01/2026 - 11/01/2026",
-   "stats_fetched": "2026-11-01T12:01"
+   "season": "08/01/2026 - 11/02/2026",
+   "stats_fetched": "2026-11-02T15:39"
   },
   {
    "team": "ZT Knuckleheads",
@@ -15084,8 +15089,8 @@
      "points": 325
     }
    ],
-   "season": "08/01/2026 - 11/01/2026",
-   "stats_fetched": "2026-11-01T12:03"
+   "season": "08/01/2026 - 11/02/2026",
+   "stats_fetched": "2026-11-02T15:41"
   },
   {
    "team": "Camel City",
@@ -15152,8 +15157,8 @@
      "points": 375
     }
    ],
-   "season": "08/01/2026 - 11/01/2026",
-   "stats_fetched": "2026-11-01T12:04"
+   "season": "08/01/2026 - 11/02/2026",
+   "stats_fetched": "2026-11-02T15:42"
   },
   {
    "team": "Cage 2 Stage 9u",
@@ -15220,8 +15225,8 @@
      "points": 0
     }
    ],
-   "season": "08/01/2026 - 11/01/2026",
-   "stats_fetched": "2026-11-01T12:05"
+   "season": "08/01/2026 - 11/02/2026",
+   "stats_fetched": "2026-11-02T15:43"
   },
   {
    "team": "LumberJacks",
@@ -15510,8 +15515,8 @@
      "points": 450
     }
    ],
-   "season": "08/01/2026 - 11/01/2026",
-   "stats_fetched": "2026-11-01T12:02"
+   "season": "08/01/2026 - 11/02/2026",
+   "stats_fetched": "2026-11-02T15:41"
   },
   {
    "team": "SOX Baseball - Snow",
@@ -15626,8 +15631,8 @@
      "points": 300
     }
    ],
-   "season": "08/01/2026 - 11/01/2026",
-   "stats_fetched": "2026-11-01T12:03"
+   "season": "08/01/2026 - 11/02/2026",
+   "stats_fetched": "2026-11-02T15:41"
   },
   {
    "team": "Concord Athletics -9U",
@@ -15785,13 +15790,13 @@
      "date": "2026-10-31",
      "name": "HALLOWEEN MONSTER MASH------2026 TOP GUN-USA SPORTS EVENT",
      "won": 2,
-     "lost": 0,
+     "lost": 1,
      "standing": "",
      "points": 0
     }
    ],
-   "season": "08/01/2026 - 11/01/2026",
-   "stats_fetched": "2026-11-01T12:03"
+   "season": "08/01/2026 - 11/02/2026",
+   "stats_fetched": "2026-11-02T15:41"
   },
   {
    "team": "Carolina Icons",
@@ -15937,8 +15942,8 @@
      "derived": true
     }
    ],
-   "season": "08/01/2026 - 11/01/2026",
-   "stats_fetched": "2026-11-01T12:02"
+   "season": "08/01/2026 - 11/02/2026",
+   "stats_fetched": "2026-11-02T15:41"
   },
   {
    "team": "PeeDee Mudcats",
@@ -16225,14 +16230,14 @@
      "date": "2026-10-31",
      "name": "HALLOWEEN MONSTER MASH------2026 TOP GUN-USA SPORTS EVENT",
      "won": 1,
-     "lost": 2,
+     "lost": 3,
      "standing": "2nd (Gold)",
      "points": 0,
      "derived": true
     }
    ],
-   "season": "08/01/2026 - 11/01/2026",
-   "stats_fetched": "2026-11-01T12:04"
+   "season": "08/01/2026 - 11/02/2026",
+   "stats_fetched": "2026-11-02T15:42"
   },
   {
    "team": "Carolina Royals 9Uw",
@@ -16665,8 +16670,8 @@
      "points": 875
     }
    ],
-   "season": "08/01/2026 - 11/01/2026",
-   "stats_fetched": "2026-11-01T12:03"
+   "season": "08/01/2026 - 11/02/2026",
+   "stats_fetched": "2026-11-02T15:41"
   },
   {
    "team": "Carolina Forge 9U",
@@ -16885,8 +16890,8 @@
      "points": 225
     }
    ],
-   "season": "08/01/2026 - 11/01/2026",
-   "stats_fetched": "2026-11-01T12:03"
+   "season": "08/01/2026 - 11/02/2026",
+   "stats_fetched": "2026-11-02T15:41"
   },
   {
    "team": "High Point Hurricanes",
@@ -16945,8 +16950,8 @@
      "points": 225
     }
    ],
-   "season": "08/01/2026 - 11/01/2026",
-   "stats_fetched": "2026-11-01T12:04"
+   "season": "08/01/2026 - 11/02/2026",
+   "stats_fetched": "2026-11-02T15:43"
   },
   {
    "team": "Diamond Jaxx",
@@ -17267,8 +17272,8 @@
     "button_photo": null
    }
   ],
-  "season": "08/01/2026 - 11/01/2026",
-  "fetched_at": "2026-11-01T12:05",
+  "season": "08/01/2026 - 11/02/2026",
+  "fetched_at": "2026-11-02T15:43",
   "inactive": 22,
   "not_on_topgun": [],
   "duplicate_numbers": {}
@@ -25400,8 +25405,8 @@
    "points": 550
   }
  ],
- "season": "08/01/2026 - 11/01/2026",
- "stats_fetched": "2026-11-01T12:01",
+ "season": "08/01/2026 - 11/02/2026",
+ "stats_fetched": "2026-11-02T15:39",
  "division": "9U",
  "today": "2026-11-02",
  "season_label": "Fall 2026"
