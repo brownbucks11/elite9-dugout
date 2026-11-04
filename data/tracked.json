@@ -262,15 +262,21 @@
   "city": "Statesville, NC"
  },
  "13577": {
-  "divisions": [],
-  "skip": false,
+  "divisions": [
+   "11U"
+  ],
+  "skip": true,
   "name": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND",
   "start": "2026-11-07",
   "city": "Mocksville/Winston Salem/Clemm, NC"
  },
  "13578": {
-  "divisions": [],
-  "skip": false,
+  "divisions": [
+   "12U",
+   "13U 90",
+   "14U"
+  ],
+  "skip": true,
   "name": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND",
   "start": "2026-11-07",
   "city": "Statesville, NC"

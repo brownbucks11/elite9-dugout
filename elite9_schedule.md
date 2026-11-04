@@ -1,5 +1,5 @@
 # Elite 9 - Top Gun schedule
-_Updated Tue Nov 03, 2026 09:47 PM_
+_Updated Wed Nov 04, 2026 01:29 PM_
 
 ## SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND
 September 26 - 27 in Greater Charlotte Area, NC  
@@ -234,12 +234,6 @@ Tournament 12522 - [schedule page](https://playtopgunsports.com/GameTimesResults
 | 2 | Sun 11:00 AM | Bradford:Field # 4 | (#16) Diamond Jaxx 0 | (#17) BOILING SPRINGS BULLDOGS BASEBALL 8u 13 |
 | 3 | Sun 1:00 PM | Bradford:Field # 4 | Winner Game #1 Carolina Regulators 9u 15 | Winner Game #2 BOILING SPRINGS BULLDOGS BASEBALL 8u 2 |
 
-## HALLOWEEN MONSTER MASH------2026 TOP GUN-USA SPORTS EVENT
-October 31 - 1 in Greater Charlotte Area, NC  
-Tournament 12523 - [schedule page](https://playtopgunsports.com/GameTimesResults.aspx?trnid=12523)
-
-_Elite 9 not listed yet. Divisions posted: 8U CP, 9U, 10U, 11U, 12U, 13U 90, 14U, 15U, 17U_
-
 ## ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO
 November 7 - 8 in Greater Charlotte Area, NC  
 Tournament 12524 - [schedule page](https://playtopgunsports.com/GameTimesResults.aspx?trnid=12524)
@@ -252,23 +246,17 @@ Tournament 13129 - [schedule page](https://playtopgunsports.com/GameTimesResults
 
 _Elite 9 not listed yet. Divisions posted: none posted yet_
 
-## MONSTER MASH CHAMPIONSHIPS---QUALIFY FOR THE ALL STATE GAMES THIS WEEK
-October 31 - 1 in Statesville, NC  
-Tournament 13575 - [schedule page](https://playtopgunsports.com/GameTimesResults.aspx?trnid=13575)
-
-_Elite 9 not listed yet. Divisions posted: 8U CP, 9U, 10U, 13U 90_
-
 ## ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND
 November 7 - 8 in Mocksville/Winston Salem/Clemm, NC  
 Tournament 13577 - [schedule page](https://playtopgunsports.com/GameTimesResults.aspx?trnid=13577)
 
-_Elite 9 not listed yet. Divisions posted: none posted yet_
+_Elite 9 not listed yet. Divisions posted: 11U_
 
 ## ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND
 November 7 - 8 in Statesville, NC  
 Tournament 13578 - [schedule page](https://playtopgunsports.com/GameTimesResults.aspx?trnid=13578)
 
-_Elite 9 not listed yet. Divisions posted: none posted yet_
+_Elite 9 not listed yet. Divisions posted: 12U, 13U 90, 14U_
 
 ## Field addresses
 
