@@ -1,5 +1,5 @@
 # Elite 9 - Top Gun schedule
-_Updated Wed Nov 04, 2026 01:29 PM_
+_Updated Wed Nov 04, 2026 05:17 PM_
 
 ## SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND
 September 26 - 27 in Greater Charlotte Area, NC  
@@ -246,18 +246,6 @@ Tournament 13129 - [schedule page](https://playtopgunsports.com/GameTimesResults
 
 _Elite 9 not listed yet. Divisions posted: none posted yet_
 
-## ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND
-November 7 - 8 in Mocksville/Winston Salem/Clemm, NC  
-Tournament 13577 - [schedule page](https://playtopgunsports.com/GameTimesResults.aspx?trnid=13577)
-
-_Elite 9 not listed yet. Divisions posted: 11U_
-
-## ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND
-November 7 - 8 in Statesville, NC  
-Tournament 13578 - [schedule page](https://playtopgunsports.com/GameTimesResults.aspx?trnid=13578)
-
-_Elite 9 not listed yet. Divisions posted: 12U, 13U 90, 14U_
-
 ## Field addresses
 
-- **Jennings** - Jennings Park, 141 Deitz Rd Statesville, NC 28625
+- **Tega Cay** - Catawba Park, 2351 New Grey Rock Rd Tega Cay, SC 29708
