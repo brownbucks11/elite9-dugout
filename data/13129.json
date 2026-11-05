@@ -9,7 +9,236 @@
       "address": "2351 New Grey Rock Rd Tega Cay, SC 29708"
     }
   },
-  "divisions": {},
+  "divisions": {
+    "12U": {
+      "notes": [],
+      "standings": [
+        {
+          "seed": 1,
+          "team": "Carolina Bearcats 12U",
+          "location": "Alexis, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 2,
+          "team": "Dirtbags Haney Gold",
+          "location": "Dallas, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 3,
+          "team": "Diamond Jaxx",
+          "location": "Aberdeen, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 4,
+          "team": "Odell Chargers",
+          "location": "Concord, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 5,
+          "team": "Mill Town 11u White Powered By Trosky",
+          "location": "Fort Mill, SC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        },
+        {
+          "seed": 6,
+          "team": "South Charlotte Revolution",
+          "location": "Matthews, NC",
+          "won": 0,
+          "lost": 0,
+          "runs_allowed": 0,
+          "runs_scored": 0,
+          "team_page_id": null
+        }
+      ],
+      "sections": {
+        "Pool Play": [
+          {
+            "game": 1,
+            "day": "Sat",
+            "time": "8:30 AM",
+            "field": "Tega Cay:Field 3",
+            "team_a": "South Charlotte Revolution",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Mill Town 11u White Powered By Trosky",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 2,
+            "day": "Sat",
+            "time": "10:15 AM",
+            "field": "Tega Cay:Field 3",
+            "team_a": "South Charlotte Revolution",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Dirtbags Haney Gold",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 3,
+            "day": "Sat",
+            "time": "12:00 PM",
+            "field": "Tega Cay:Field 3",
+            "team_a": "Dirtbags Haney Gold",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Mill Town 11u White Powered By Trosky",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 4,
+            "day": "Sat",
+            "time": "1:45 PM",
+            "field": "Tega Cay:Field 3",
+            "team_a": "Odell Chargers",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Diamond Jaxx",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 5,
+            "day": "Sat",
+            "time": "3:30 PM",
+            "field": "Tega Cay:Field 3",
+            "team_a": "Diamond Jaxx",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Carolina Bearcats 12U",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 6,
+            "day": "Sat",
+            "time": "5:15 PM",
+            "field": "Tega Cay:Field 3",
+            "team_a": "Odell Chargers",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Carolina Bearcats 12U",
+            "seed_b": null,
+            "score_b": null
+          }
+        ],
+        "Gold Bracket": [
+          {
+            "game": 1,
+            "day": "Sun",
+            "time": "8:30 AM",
+            "field": "Tega Cay:Field 3",
+            "team_a": "",
+            "seed_a": 4,
+            "score_a": null,
+            "team_b": "",
+            "seed_b": 5,
+            "score_b": null
+          },
+          {
+            "game": 2,
+            "day": "Sun",
+            "time": "8:30 AM",
+            "field": "Tega Cay:Field 2",
+            "team_a": "",
+            "seed_a": 3,
+            "score_a": null,
+            "team_b": "",
+            "seed_b": 6,
+            "score_b": null
+          },
+          {
+            "game": 3,
+            "day": "Sun",
+            "time": "10:30 AM",
+            "field": "Tega Cay:Field 3",
+            "team_a": "Winner Game #1",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "",
+            "seed_b": 1,
+            "score_b": null
+          },
+          {
+            "game": 4,
+            "day": "Sun",
+            "time": "12:30 PM",
+            "field": "Tega Cay:Field 3",
+            "team_a": "Winner Game #2",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "",
+            "seed_b": 2,
+            "score_b": null
+          },
+          {
+            "game": 5,
+            "day": "Sun",
+            "time": "10:30 AM",
+            "field": "Tega Cay:Field 2",
+            "team_a": "Loser Game #1",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Loser Game #2",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 6,
+            "day": "Sun",
+            "time": "2:30 PM",
+            "field": "Tega Cay:Field 3",
+            "team_a": "Winner Game #3",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Winner Game #4",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 7,
+            "day": "Sun",
+            "time": "4:30 PM",
+            "field": "Tega Cay:Field 3",
+            "team_a": "Loser Game #3",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Loser Game #4 (If Needed)",
+            "seed_b": null,
+            "score_b": null
+          }
+        ]
+      }
+    }
+  },
+  "site_last_updated": "11/05/2026 12:02 PM",
   "tournament_id": 13129,
-  "fetched_at": "2026-11-05T06:55"
+  "fetched_at": "2026-11-05T13:33"
 }

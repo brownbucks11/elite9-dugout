@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Elite 9 Dugout//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Elite 9 - ROAD RUNNER VS COYOTE---RING IT UP CHARA
+X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+UID:e9-12524-poolplay-4@elite9dugout
+DTSTAMP:20261105T183708Z
+DTSTART;TZID=America/New_York:20261107T074500
+DTEND;TZID=America/New_York:20261107T101500
+SUMMARY:Elite 9 vs Mara Bulls - game 8:30 AM (be there 7:45 AM)
+LOCATION:Doby Bridge Park Doby 3\, 1905 N Dobys Bridge Road Fort Mill\, SC 29715
+DESCRIPTION:Game time 8:30 AM - be at the field by 7:45 AM. ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO. Pool Play game 4. Subject to change until game day - the coach's TeamReach post is official.
+END:VEVENT
+BEGIN:VEVENT
+UID:e9-12524-poolplay-8@elite9dugout
+DTSTAMP:20261105T183708Z
+DTSTART;TZID=America/New_York:20261107T101500
+DTEND;TZID=America/New_York:20261107T120000
+SUMMARY:Elite 9 vs PeeDee Mudcats - game 10:15 AM
+LOCATION:Doby Bridge Park Doby 3\, 1905 N Dobys Bridge Road Fort Mill\, SC 29715
+DESCRIPTION:Game time 10:15 AM. ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO. Pool Play game 8. Subject to change until game day - the coach's TeamReach post is official.
+END:VEVENT
+END:VCALENDAR

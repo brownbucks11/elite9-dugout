@@ -1,5 +1,5 @@
 # Elite 9 - Top Gun schedule
-_Updated Thu Nov 05, 2026 06:55 AM_
+_Updated Thu Nov 05, 2026 01:33 PM_
 
 ## SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND
 September 26 - 27 in Greater Charlotte Area, NC  
@@ -238,13 +238,100 @@ Tournament 12522 - [schedule page](https://playtopgunsports.com/GameTimesResults
 November 7 - 8 in Greater Charlotte Area, NC  
 Tournament 12524 - [schedule page](https://playtopgunsports.com/GameTimesResults.aspx?trnid=12524)
 
-_Elite 9 not listed yet. Divisions posted: none posted yet_
+### 9U  Modified Stealing
+**Standing:** #12 of 24  -  0-0, RS 0, RA 0
+
+**Elite 9 games**
+
+| G | When | Field | Team A | Team B |
+|---|---|---|---|---|
+| Pool 4 | Sat 8:30 AM | Doby:Doby 3 | Mara Bulls | Elite 9 |
+| Pool 8 | Sat 10:15 AM | Doby:Doby 3 | PeeDee Mudcats | Elite 9 |
+
+**9U standings**
+
+| # | Team | From | W-L | RS | RA |
+|---|---|---|---|---|---|
+| 1 | Team 24 | York, SC | 0-0 | 0 | 0 |
+| 2 | Hooligans | Mount Holly, NC | 0-0 | 0 | 0 |
+| 3 | ROCO Dirtbagz | Forest City, NC | 0-0 | 0 | 0 |
+| 4 | LKN Bolts | Huntersville, NC | 0-0 | 0 | 0 |
+| 5 | Waxhaw Militia 9U | Waxhaw, NC | 0-0 | 0 | 0 |
+| 6 | LumberJacks | Gaston County, NC | 0-0 | 0 | 0 |
+| 7 | Mara Cobras | Matthews, NC | 0-0 | 0 | 0 |
+| 8 | Union County Legends | Waxhaw, NC | 0-0 | 0 | 0 |
+| 9 | SC Tide - Lucariello | Clover, SC | 0-0 | 0 | 0 |
+| 10 | Mara Bulls | matthews, NC | 0-0 | 0 | 0 |
+| 11 | Red Clay Athletics 9U Darcangelo | Charlotte, NC | 0-0 | 0 | 0 |
+| 12 | Elite 9 **<--** | Rock Hill, SC | 0-0 | 0 | 0 |
+| 13 | Carolina Regulators 9u | Stanley, NC | 0-0 | 0 | 0 |
+| 14 | Carolina Royals 9Uw | Gastonia, NC | 0-0 | 0 | 0 |
+| 15 | Carolina Elevate | Lenoir, NC | 0-0 | 0 | 0 |
+| 16 | Carolina Forge 9U | Gastonia, NC | 0-0 | 0 | 0 |
+| 17 | Carolina Rapid Fire - Ford | Lincolnton, NC | 0-0 | 0 | 0 |
+| 18 | Diamond Crushers | Concord, NC | 0-0 | 0 | 0 |
+| 19 | Copperheads | Mooresville, NC | 0-0 | 0 | 0 |
+| 20 | BOILING SPRINGS BULLDOGS BASEBALL 9u | Boiling Springs, NC | 0-0 | 0 | 0 |
+| 21 | ZT Knuckleheads | Clover, SC | 0-0 | 0 | 0 |
+| 22 | PeeDee Mudcats | Wadesboro, NC | 0-0 | 0 | 0 |
+| 23 | Athletes Lab 9U Navy- Stewart | Maiden, NC | 0-0 | 0 | 0 |
+| 24 | LKN Lightning - Ogburn | Huntersville, NC | 0-0 | 0 | 0 |
+
+**Gold Bracket**
+
+| G | When | Field | Team A | Team B |
+|---|---|---|---|---|
+| 1 | Sun 12:30 PM | Bradford:Field # 1 | (#4)  | (#5)  |
+| 2 | Sun 12:30 PM | Bradford:Field # 2 | (#3)  | (#6)  |
+| 3 | Sun 2:30 PM | Bradford:Field # 1 | Winner Game #1 | (#1)  |
+| 4 | Sun 2:30 PM | Bradford:Field # 2 | Winner Game #2 | (#2)  |
+| 5 | Sun 4:30 PM | Bradford:Field # 2 | Loser Game #1 | Loser Game #2 |
+| 6 | Sun 4:30 PM | Bradford:Field # 1 | Winner Game #3 | Winner Game #4 |
+
+**Silver Bracket**
+
+| G | When | Field | Team A | Team B |
+|---|---|---|---|---|
+| 1 | Sun 12:30 PM | Bradford:Field # 3 | (#10)  | (#11)  |
+| 2 | Sun 12:30 PM | Bradford:Field # 4 | (#8)  | (#9)  |
+| 3 | Sun 2:30 PM | Bradford:Field # 3 | Winner Game #1 | (#7)  |
+| 4 | Sun 2:30 PM | Bradford:Field # 4 | Loser Game #1 | Loser Game #2 |
+| 5 | Sun 4:30 PM | Bradford:Field # 3 | Winner Game #3 | Winner Game #2 |
+| 6 | Sun 4:30 PM | Bradford:Field # 4 | Winner Game #4 | Loser Game #3 (If Needed) |
+
+**Bronze Bracket**
+
+| G | When | Field | Team A | Team B |
+|---|---|---|---|---|
+| 1 | Sun 8:30 AM | Bradford:Field # 5 | (#15)  | (#16)  |
+| 2 | Sun 10:30 AM | Bradford:Field # 5 | (#13)  | (#14)  |
+| 3 | Sun 12:30 PM | Bradford:Field # 5 | Winner Game #1 | (#12)  |
+| 4 | Sun 4:30 PM | Bradford:Field # 5 | Loser Game #1 | Loser Game #2 |
+| 5 | Sun 2:30 PM | Bradford:Field # 5 | Winner Game #3 | Winner Game #2 |
+
+**Copper Bracket**
+
+| G | When | Field | Team A | Team B |
+|---|---|---|---|---|
+| 1 | Sun 8:30 AM | Bradford:Field # 4 | (#18)  | (#19)  |
+| 2 | Sun 8:30 AM | Bradford:Field # 3 | (#17)  | (#20)  |
+| 3 | Sun 10:30 AM | Bradford:Field # 4 | Loser Game #1 | Loser Game #2 |
+| 4 | Sun 10:30 AM | Bradford:Field # 3 | Winner Game #1 | Winner Game #2 |
+
+**Select Bracket**
+
+| G | When | Field | Team A | Team B |
+|---|---|---|---|---|
+| 1 | Sun 8:30 AM | Bradford:Field # 2 | (#22)  | (#23)  |
+| 2 | Sun 8:30 AM | Bradford:Field # 1 | (#21)  | (#24)  |
+| 3 | Sun 10:30 AM | Bradford:Field # 2 | Loser Game #1 | Loser Game #2 |
+| 4 | Sun 10:30 AM | Bradford:Field # 1 | Winner Game #1 | Winner Game #2 |
 
 ## ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO
 November 7 - 8 in Tega Cay, SC  
 Tournament 13129 - [schedule page](https://playtopgunsports.com/GameTimesResults.aspx?trnid=13129)
 
-_Elite 9 not listed yet. Divisions posted: none posted yet_
+_Elite 9 not listed yet. Divisions posted: 12U_
 
 ## Field addresses
 

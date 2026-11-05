@@ -122,7 +122,17 @@
   "city": "Greater Charlotte Area, NC"
  },
  "12524": {
-  "divisions": [],
+  "divisions": [
+   "8U CP",
+   "9U",
+   "10U",
+   "11U",
+   "12U",
+   "13U 90",
+   "14U",
+   "15U",
+   "17U"
+  ],
   "skip": false,
   "name": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
   "start": "2026-11-07",
@@ -148,8 +158,10 @@
   "city": "Tega Cay, SC"
  },
  "13129": {
-  "divisions": [],
-  "skip": false,
+  "divisions": [
+   "12U"
+  ],
+  "skip": true,
   "name": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
   "start": "2026-11-07",
   "city": "Tega Cay, SC"
