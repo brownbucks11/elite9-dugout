@@ -3143,7 +3143,7 @@
             "team_a": "North Lincoln 33",
             "seed_a": null,
             "score_a": null,
-            "team_b": "River Rats",
+            "team_b": "Red Clay Athletics 13U Mullen",
             "seed_b": null,
             "score_b": null
           },
@@ -3167,7 +3167,7 @@
             "team_a": "Carolina Clippers 13U",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Red Clay Athletics 13U Mullen",
+            "team_b": "FS Bulldogs 13u (Cockrell)",
             "seed_b": null,
             "score_b": null
           },
@@ -3194,6 +3194,18 @@
             "team_b": "River Rats",
             "seed_b": null,
             "score_b": null
+          },
+          {
+            "game": 11,
+            "day": "Sat",
+            "time": "5:45 PM",
+            "field": "SP:Field #1",
+            "team_a": "FS Bulldogs 13u (Cockrell)",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "River Rats",
+            "seed_b": null,
+            "score_b": null
           }
         ],
         "Gold Bracket": [
@@ -3215,10 +3227,10 @@
             "time": "10:30 AM",
             "field": "SP:Field #1",
             "team_a": "",
-            "seed_a": 2,
+            "seed_a": 3,
             "score_a": null,
             "team_b": "",
-            "seed_b": 3,
+            "seed_b": 6,
             "score_b": null
           },
           {
@@ -3241,7 +3253,19 @@
             "team_a": "Winner Game #2",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Winner Game #3",
+            "team_b": "",
+            "seed_b": 2,
+            "score_b": null
+          },
+          {
+            "game": 5,
+            "day": "Sun",
+            "time": "4:30 PM",
+            "field": "SP:Field #1",
+            "team_a": "Winner Game #3",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Winner Game #4",
             "seed_b": null,
             "score_b": null
           }
@@ -3253,10 +3277,10 @@
             "time": "8:30 AM",
             "field": "Tega Cay:Field 4",
             "team_a": "",
-            "seed_a": 9,
+            "seed_a": 10,
             "score_a": null,
             "team_b": "",
-            "seed_b": 10,
+            "seed_b": 11,
             "score_b": null
           },
           {
@@ -3265,10 +3289,10 @@
             "time": "10:30 AM",
             "field": "Tega Cay:Field 4",
             "team_a": "",
-            "seed_a": 7,
+            "seed_a": 8,
             "score_a": null,
             "team_b": "",
-            "seed_b": 8,
+            "seed_b": 9,
             "score_b": null
           },
           {
@@ -3280,7 +3304,7 @@
             "seed_a": null,
             "score_a": null,
             "team_b": "",
-            "seed_b": 6,
+            "seed_b": 7,
             "score_b": null
           },
           {
@@ -3548,18 +3572,6 @@
             "game": 10,
             "day": "Sat",
             "time": "4:00 PM",
-            "field": "SP:Field #2",
-            "team_a": "Banana Peppers Baseball",
-            "seed_a": null,
-            "score_a": null,
-            "team_b": "Carolina Aces",
-            "seed_b": null,
-            "score_b": null
-          },
-          {
-            "game": 11,
-            "day": "Sat",
-            "time": "4:00 PM",
             "field": "SP:Field #3",
             "team_a": "Carolina Aces",
             "seed_a": null,
@@ -3569,7 +3581,7 @@
             "score_b": null
           },
           {
-            "game": 12,
+            "game": 11,
             "day": "Sat",
             "time": "5:15 PM",
             "field": "Doby:Doby 1",
@@ -3577,6 +3589,18 @@
             "seed_a": null,
             "score_a": null,
             "team_b": "Regulators",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
+            "game": 12,
+            "day": "Sat",
+            "time": "5:45 PM",
+            "field": "SP:Field #2",
+            "team_a": "Banana Peppers Baseball",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Carolina Aces",
             "seed_b": null,
             "score_b": null
           },
@@ -4067,7 +4091,7 @@
           {
             "game": 1,
             "day": "Sat",
-            "time": "9:00 AM",
+            "time": "10:45 AM",
             "field": "SP:Field #2",
             "team_a": "Startown Elite",
             "seed_a": null,
@@ -4079,7 +4103,7 @@
           {
             "game": 2,
             "day": "Sat",
-            "time": "10:45 AM",
+            "time": "12:30 PM",
             "field": "SP:Field #2",
             "team_a": "Startown Elite",
             "seed_a": null,
@@ -4091,7 +4115,7 @@
           {
             "game": 3,
             "day": "Sat",
-            "time": "12:30 PM",
+            "time": "2:15 PM",
             "field": "SP:Field #2",
             "team_a": "Carolina Elevate 17U",
             "seed_a": null,
@@ -4103,7 +4127,7 @@
           {
             "game": 4,
             "day": "Sat",
-            "time": "2:15 PM",
+            "time": "4:00 PM",
             "field": "SP:Field #2",
             "team_a": "Triad Warriors",
             "seed_a": null,
@@ -4156,5 +4180,5 @@
   },
   "site_last_updated": "11/05/2026 12:03 PM",
   "tournament_id": 12524,
-  "fetched_at": "2026-11-05T14:35"
+  "fetched_at": "2026-11-05T15:13"
 }
