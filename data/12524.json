@@ -20,10 +20,6 @@
       "name": "Dallas Park",
       "address": "1303 Dallas-Cherryville Highwa Dallas, NC 28034"
     },
-    "Doby": {
-      "name": "Doby Bridge Park",
-      "address": "1905 N Dobys Bridge Road Fort Mill, SC 29715"
-    },
     "Ferguson": {
       "name": "Ferguson Park",
       "address": "1401 Golf Course Drive Gastonia, NC 28054"
@@ -40,9 +36,9 @@
       "name": "Martha Rivers Park",
       "address": "1515 Neal Hawkins Rd Gastonia, NC 28054"
     },
-    "Moss": {
-      "name": "Moss Field",
-      "address": "604 N. Pink Street Cherryville, NC 28021"
+    "Shelby": {
+      "name": "Shelby City Park",
+      "address": "850 W. Sumter St. Shelby, NC 28150"
     },
     "SP": {
       "name": "Stinger Park",
@@ -586,22 +582,22 @@
             "day": "Sat",
             "time": "8:30 AM",
             "field": "Dallas:Field # 3",
-            "team_a": "LumberJacks",
+            "team_a": "Mara Bulls",
             "seed_a": null,
             "score_a": null,
-            "team_b": "ZT Knuckleheads",
+            "team_b": "Elite 9",
             "seed_b": null,
             "score_b": null
           },
           {
             "game": 4,
             "day": "Sat",
-            "time": "8:30 AM",
-            "field": "Doby:Doby 3",
-            "team_a": "Mara Bulls",
+            "time": "9:00 AM",
+            "field": "Shelby:Field # 3",
+            "team_a": "LumberJacks",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Elite 9",
+            "team_b": "ZT Knuckleheads",
             "seed_b": null,
             "score_b": null
           },
@@ -634,22 +630,22 @@
             "day": "Sat",
             "time": "10:15 AM",
             "field": "Dallas:Field # 3",
-            "team_a": "LumberJacks",
+            "team_a": "PeeDee Mudcats",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Carolina Elevate",
+            "team_b": "Elite 9",
             "seed_b": null,
             "score_b": null
           },
           {
             "game": 8,
             "day": "Sat",
-            "time": "10:15 AM",
-            "field": "Doby:Doby 3",
-            "team_a": "PeeDee Mudcats",
+            "time": "10:45 AM",
+            "field": "Shelby:Field # 3",
+            "team_a": "LumberJacks",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Elite 9",
+            "team_b": "Carolina Elevate",
             "seed_b": null,
             "score_b": null
           },
@@ -682,22 +678,22 @@
             "day": "Sat",
             "time": "12:00 PM",
             "field": "Dallas:Field # 3",
-            "team_a": "ZT Knuckleheads",
+            "team_a": "PeeDee Mudcats",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Carolina Elevate",
+            "team_b": "Mara Bulls",
             "seed_b": null,
             "score_b": null
           },
           {
             "game": 12,
             "day": "Sat",
-            "time": "12:00 PM",
-            "field": "Doby:Doby 3",
-            "team_a": "PeeDee Mudcats",
+            "time": "12:30 PM",
+            "field": "Shelby:Field # 3",
+            "team_a": "ZT Knuckleheads",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Mara Bulls",
+            "team_b": "Carolina Elevate",
             "seed_b": null,
             "score_b": null
           },
@@ -730,22 +726,22 @@
             "day": "Sat",
             "time": "1:45 PM",
             "field": "Dallas:Field # 3",
-            "team_a": "SC Tide - Lucariello",
+            "team_a": "Mara Cobras",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Carolina Forge 9U",
+            "team_b": "Waxhaw Militia 9U",
             "seed_b": null,
             "score_b": null
           },
           {
             "game": 16,
             "day": "Sat",
-            "time": "1:45 PM",
-            "field": "Doby:Doby 3",
-            "team_a": "Mara Cobras",
+            "time": "2:15 PM",
+            "field": "Shelby:Field # 3",
+            "team_a": "SC Tide - Lucariello",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Waxhaw Militia 9U",
+            "team_b": "Carolina Forge 9U",
             "seed_b": null,
             "score_b": null
           },
@@ -778,22 +774,22 @@
             "day": "Sat",
             "time": "3:30 PM",
             "field": "Dallas:Field # 3",
-            "team_a": "SC Tide - Lucariello",
+            "team_a": "Mara Cobras",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Union County Legends",
+            "team_b": "Team 24",
             "seed_b": null,
             "score_b": null
           },
           {
             "game": 20,
             "day": "Sat",
-            "time": "3:30 PM",
-            "field": "Doby:Doby 3",
-            "team_a": "Mara Cobras",
+            "time": "4:00 PM",
+            "field": "Shelby:Field # 3",
+            "team_a": "SC Tide - Lucariello",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Team 24",
+            "team_b": "Union County Legends",
             "seed_b": null,
             "score_b": null
           },
@@ -826,22 +822,22 @@
             "day": "Sat",
             "time": "5:15 PM",
             "field": "Dallas:Field # 3",
-            "team_a": "Carolina Forge 9U",
+            "team_a": "Waxhaw Militia 9U",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Union County Legends",
+            "team_b": "Team 24",
             "seed_b": null,
             "score_b": null
           },
           {
             "game": 24,
             "day": "Sat",
-            "time": "5:15 PM",
-            "field": "Doby:Doby 3",
-            "team_a": "Waxhaw Militia 9U",
+            "time": "5:45 PM",
+            "field": "Shelby:Field # 3",
+            "team_a": "Carolina Forge 9U",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Team 24",
+            "team_b": "Union County Legends",
             "seed_b": null,
             "score_b": null
           }
@@ -2592,18 +2588,6 @@
             "game": 1,
             "day": "Sat",
             "time": "8:30 AM",
-            "field": "Doby:Doby 2",
-            "team_a": "Couloak Diesel",
-            "seed_a": null,
-            "score_a": null,
-            "team_b": "Davidson Force",
-            "seed_b": null,
-            "score_b": null
-          },
-          {
-            "game": 2,
-            "day": "Sat",
-            "time": "8:30 AM",
             "field": "M. Rivers:Martha Rivers 2",
             "team_a": "BS BULLDOGS BlACK 12u",
             "seed_a": null,
@@ -2613,7 +2597,7 @@
             "score_b": null
           },
           {
-            "game": 3,
+            "game": 2,
             "day": "Sat",
             "time": "8:30 AM",
             "field": "M. Rivers:Martha Rivers 3",
@@ -2625,7 +2609,7 @@
             "score_b": null
           },
           {
-            "game": 4,
+            "game": 3,
             "day": "Sat",
             "time": "8:30 AM",
             "field": "Tega Cay:Field 1",
@@ -2637,7 +2621,7 @@
             "score_b": null
           },
           {
-            "game": 5,
+            "game": 4,
             "day": "Sat",
             "time": "8:30 AM",
             "field": "Tega Cay:Field 2",
@@ -2649,11 +2633,11 @@
             "score_b": null
           },
           {
-            "game": 6,
+            "game": 5,
             "day": "Sat",
-            "time": "10:15 AM",
-            "field": "Doby:Doby 2",
-            "team_a": "ELOC 12u Challenge",
+            "time": "9:00 AM",
+            "field": "Shelby:Field # 2",
+            "team_a": "Couloak Diesel",
             "seed_a": null,
             "score_a": null,
             "team_b": "Davidson Force",
@@ -2661,7 +2645,7 @@
             "score_b": null
           },
           {
-            "game": 7,
+            "game": 6,
             "day": "Sat",
             "time": "10:15 AM",
             "field": "M. Rivers:Martha Rivers 2",
@@ -2673,7 +2657,7 @@
             "score_b": null
           },
           {
-            "game": 8,
+            "game": 7,
             "day": "Sat",
             "time": "10:15 AM",
             "field": "M. Rivers:Martha Rivers 3",
@@ -2685,7 +2669,7 @@
             "score_b": null
           },
           {
-            "game": 9,
+            "game": 8,
             "day": "Sat",
             "time": "10:15 AM",
             "field": "Tega Cay:Field 1",
@@ -2697,7 +2681,7 @@
             "score_b": null
           },
           {
-            "game": 10,
+            "game": 9,
             "day": "Sat",
             "time": "10:15 AM",
             "field": "Tega Cay:Field 2",
@@ -2709,19 +2693,19 @@
             "score_b": null
           },
           {
-            "game": 11,
+            "game": 10,
             "day": "Sat",
-            "time": "12:00 PM",
-            "field": "Doby:Doby 2",
-            "team_a": "Couloak Diesel",
+            "time": "10:45 AM",
+            "field": "Shelby:Field # 2",
+            "team_a": "ELOC 12u Challenge",
             "seed_a": null,
             "score_a": null,
-            "team_b": "BOILING SPRINGS BULLDOGS BASEBALL RED 12U",
+            "team_b": "Davidson Force",
             "seed_b": null,
             "score_b": null
           },
           {
-            "game": 12,
+            "game": 11,
             "day": "Sat",
             "time": "12:00 PM",
             "field": "Tega Cay:Field 1",
@@ -2733,19 +2717,19 @@
             "score_b": null
           },
           {
-            "game": 13,
+            "game": 12,
             "day": "Sat",
-            "time": "1:45 PM",
-            "field": "Doby:Doby 2",
-            "team_a": "ELOC 12u Challenge",
+            "time": "12:30 PM",
+            "field": "Shelby:Field # 2",
+            "team_a": "Couloak Diesel",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Carolina Reign Baseball 12U",
+            "team_b": "BOILING SPRINGS BULLDOGS BASEBALL RED 12U",
             "seed_b": null,
             "score_b": null
           },
           {
-            "game": 14,
+            "game": 13,
             "day": "Sat",
             "time": "1:45 PM",
             "field": "Tega Cay:Field 1",
@@ -2757,10 +2741,22 @@
             "score_b": null
           },
           {
+            "game": 14,
+            "day": "Sat",
+            "time": "2:15 PM",
+            "field": "Shelby:Field # 2",
+            "team_a": "ELOC 12u Challenge",
+            "seed_a": null,
+            "score_a": null,
+            "team_b": "Carolina Reign Baseball 12U",
+            "seed_b": null,
+            "score_b": null
+          },
+          {
             "game": 15,
             "day": "Sat",
-            "time": "3:30 PM",
-            "field": "Doby:Doby 2",
+            "time": "4:00 PM",
+            "field": "Shelby:Field # 2",
             "team_a": "Carolina Reign Baseball 12U",
             "seed_a": null,
             "score_a": null,
@@ -3463,8 +3459,8 @@
           {
             "game": 1,
             "day": "Sat",
-            "time": "8:30 AM",
-            "field": "Doby:Doby 1",
+            "time": "9:00 AM",
+            "field": "Shelby:Field # 1",
             "team_a": "Mooresville Biscuits",
             "seed_a": null,
             "score_a": null,
@@ -3487,8 +3483,8 @@
           {
             "game": 3,
             "day": "Sat",
-            "time": "10:15 AM",
-            "field": "Doby:Doby 1",
+            "time": "10:45 AM",
+            "field": "Shelby:Field # 1",
             "team_a": "Bethany Badgers",
             "seed_a": null,
             "score_a": null,
@@ -3511,8 +3507,8 @@
           {
             "game": 5,
             "day": "Sat",
-            "time": "12:00 PM",
-            "field": "Doby:Doby 1",
+            "time": "12:30 PM",
+            "field": "Shelby:Field # 1",
             "team_a": "Mooresville Biscuits",
             "seed_a": null,
             "score_a": null,
@@ -3535,8 +3531,8 @@
           {
             "game": 7,
             "day": "Sat",
-            "time": "1:45 PM",
-            "field": "Doby:Doby 1",
+            "time": "2:15 PM",
+            "field": "Shelby:Field # 1",
             "team_a": "Regulators",
             "seed_a": null,
             "score_a": null,
@@ -3559,8 +3555,8 @@
           {
             "game": 9,
             "day": "Sat",
-            "time": "3:30 PM",
-            "field": "Doby:Doby 1",
+            "time": "4:00 PM",
+            "field": "Shelby:Field # 1",
             "team_a": "KLSC Tomahawks",
             "seed_a": null,
             "score_a": null,
@@ -3583,8 +3579,8 @@
           {
             "game": 11,
             "day": "Sat",
-            "time": "5:15 PM",
-            "field": "Doby:Doby 1",
+            "time": "5:45 PM",
+            "field": "Shelby:Field # 1",
             "team_a": "KLSC Tomahawks",
             "seed_a": null,
             "score_a": null,
@@ -4180,5 +4176,5 @@
   },
   "site_last_updated": "11/05/2026 12:03 PM",
   "tournament_id": 12524,
-  "fetched_at": "2026-11-06T08:58"
+  "fetched_at": "2026-11-06T12:50"
 }

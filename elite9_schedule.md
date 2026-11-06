@@ -1,5 +1,5 @@
 # Elite 9 - Top Gun schedule
-_Updated Fri Nov 06, 2026 08:58 AM_
+_Updated Fri Nov 06, 2026 12:50 PM_
 
 ## SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND
 September 26 - 27 in Greater Charlotte Area, NC  
@@ -245,8 +245,8 @@ Tournament 12524 - [schedule page](https://playtopgunsports.com/GameTimesResults
 
 | G | When | Field | Team A | Team B |
 |---|---|---|---|---|
-| Pool 4 | Sat 8:30 AM | Doby:Doby 3 | Mara Bulls | Elite 9 |
-| Pool 8 | Sat 10:15 AM | Doby:Doby 3 | PeeDee Mudcats | Elite 9 |
+| Pool 3 | Sat 8:30 AM | Dallas:Field # 3 | Mara Bulls | Elite 9 |
+| Pool 7 | Sat 10:15 AM | Dallas:Field # 3 | PeeDee Mudcats | Elite 9 |
 
 **9U standings**
 
@@ -333,12 +333,11 @@ Tournament 12524 - [schedule page](https://playtopgunsports.com/GameTimesResults
 - **Tega Cay** - Catawba Park, 2351 New Grey Rock Rd Tega Cay, SC 29708
 - **CA** - Combine Academy, 270 Car Farm Rd. Lincolnton, NC 28092
 - **Dallas** - Dallas Park, 1303 Dallas-Cherryville Highwa Dallas, NC 28034
-- **Doby** - Doby Bridge Park, 1905 N Dobys Bridge Road Fort Mill, SC 29715
 - **Ferguson** - Ferguson Park, 1401 Golf Course Drive Gastonia, NC 28054
 - **Charlotte** - Greater Charlotte Area, TBA Greater Charlotte Area, NC 28262
 - **Core** - Hinson-Core Athletics Field, 2300 Eva Drive Concord, NC 28027
 - **M. Rivers** - Martha Rivers Park, 1515 Neal Hawkins Rd Gastonia, NC 28054
-- **Moss** - Moss Field, 604 N. Pink Street Cherryville, NC 28021
+- **Shelby** - Shelby City Park, 850 W. Sumter St. Shelby, NC 28150
 - **SP** - Stinger Park, 1320 North 12th St. Bessemer City, NC 28016
 - **TOB** - Tommy Oehler Ballfield, 11400 Mallard Creek Rd Charlotte, NC 28262
 - **Westmoreld** - Westmoreland Park, 8430 Westmoreland Rd. Cornelius, NC 28031
