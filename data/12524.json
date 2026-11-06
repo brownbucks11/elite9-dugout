@@ -3385,16 +3385,6 @@
         },
         {
           "seed": 7,
-          "team": "Crowns Baseball",
-          "location": "Indian Trail, NC",
-          "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
-          "team_page_id": null
-        },
-        {
-          "seed": 8,
           "team": "McDowell Militia Baseball 14U",
           "location": "Marion, NC",
           "won": 0,
@@ -3404,7 +3394,7 @@
           "team_page_id": null
         },
         {
-          "seed": 9,
+          "seed": 8,
           "team": "Foothills Elite",
           "location": "Hickory, NC",
           "won": 0,
@@ -3414,7 +3404,7 @@
           "team_page_id": null
         },
         {
-          "seed": 10,
+          "seed": 9,
           "team": "ELITE BASEBALL 13/14u EBC",
           "location": "Forest City, NC",
           "won": 0,
@@ -3424,7 +3414,7 @@
           "team_page_id": null
         },
         {
-          "seed": 11,
+          "seed": 10,
           "team": "Mooresville Biscuits",
           "location": "Mooresville, NC",
           "won": 0,
@@ -3434,7 +3424,7 @@
           "team_page_id": null
         },
         {
-          "seed": 12,
+          "seed": 11,
           "team": "Wolfpack Baseball",
           "location": "Mooresville, NC",
           "won": 0,
@@ -3444,7 +3434,7 @@
           "team_page_id": null
         },
         {
-          "seed": 13,
+          "seed": 12,
           "team": "Regulators",
           "location": "Indian Trail, NC",
           "won": 0,
@@ -3460,18 +3450,6 @@
             "game": 1,
             "day": "Sat",
             "time": "9:00 AM",
-            "field": "Shelby:Field # 1",
-            "team_a": "Mooresville Biscuits",
-            "seed_a": null,
-            "score_a": null,
-            "team_b": "Crowns Baseball",
-            "seed_b": null,
-            "score_b": null
-          },
-          {
-            "game": 2,
-            "day": "Sat",
-            "time": "9:00 AM",
             "field": "SP:Field #3",
             "team_a": "ELITE BASEBALL 13/14u EBC",
             "seed_a": null,
@@ -3481,19 +3459,19 @@
             "score_b": null
           },
           {
-            "game": 3,
+            "game": 2,
             "day": "Sat",
             "time": "10:45 AM",
             "field": "Shelby:Field # 1",
             "team_a": "Bethany Badgers",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Crowns Baseball",
+            "team_b": "Mooresville Biscuits",
             "seed_b": null,
             "score_b": null
           },
           {
-            "game": 4,
+            "game": 3,
             "day": "Sat",
             "time": "10:45 AM",
             "field": "SP:Field #3",
@@ -3505,19 +3483,19 @@
             "score_b": null
           },
           {
-            "game": 5,
+            "game": 4,
             "day": "Sat",
             "time": "12:30 PM",
             "field": "Shelby:Field # 1",
             "team_a": "Mooresville Biscuits",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Bethany Badgers",
+            "team_b": "Wolfpack Baseball",
             "seed_b": null,
             "score_b": null
           },
           {
-            "game": 6,
+            "game": 5,
             "day": "Sat",
             "time": "12:30 PM",
             "field": "SP:Field #3",
@@ -3529,19 +3507,19 @@
             "score_b": null
           },
           {
-            "game": 7,
+            "game": 6,
             "day": "Sat",
             "time": "2:15 PM",
             "field": "Shelby:Field # 1",
             "team_a": "Regulators",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Wolfpack Baseball",
+            "team_b": "Bethany Badgers",
             "seed_b": null,
             "score_b": null
           },
           {
-            "game": 8,
+            "game": 7,
             "day": "Sat",
             "time": "2:15 PM",
             "field": "SP:Field #3",
@@ -3553,7 +3531,7 @@
             "score_b": null
           },
           {
-            "game": 9,
+            "game": 8,
             "day": "Sat",
             "time": "4:00 PM",
             "field": "Shelby:Field # 1",
@@ -3565,7 +3543,7 @@
             "score_b": null
           },
           {
-            "game": 10,
+            "game": 9,
             "day": "Sat",
             "time": "4:00 PM",
             "field": "SP:Field #3",
@@ -3577,7 +3555,7 @@
             "score_b": null
           },
           {
-            "game": 11,
+            "game": 10,
             "day": "Sat",
             "time": "5:45 PM",
             "field": "Shelby:Field # 1",
@@ -3589,7 +3567,7 @@
             "score_b": null
           },
           {
-            "game": 12,
+            "game": 11,
             "day": "Sat",
             "time": "5:45 PM",
             "field": "SP:Field #2",
@@ -3601,7 +3579,7 @@
             "score_b": null
           },
           {
-            "game": 13,
+            "game": 12,
             "day": "Sat",
             "time": "5:45 PM",
             "field": "SP:Field #3",
@@ -3620,10 +3598,10 @@
             "time": "8:30 AM",
             "field": "TOB:Field 1",
             "team_a": "",
-            "seed_a": 4,
+            "seed_a": 1,
             "score_a": null,
             "team_b": "",
-            "seed_b": 5,
+            "seed_b": 4,
             "score_b": null
           },
           {
@@ -3646,19 +3624,7 @@
             "team_a": "Winner Game #1",
             "seed_a": null,
             "score_a": null,
-            "team_b": "",
-            "seed_b": 1,
-            "score_b": null
-          },
-          {
-            "game": 4,
-            "day": "Sun",
-            "time": "2:30 PM",
-            "field": "TOB:Field 1",
-            "team_a": "Winner Game #2",
-            "seed_a": null,
-            "score_a": null,
-            "team_b": "Winner Game #3",
+            "team_b": "Winner Game #2",
             "seed_b": null,
             "score_b": null
           }
@@ -3670,10 +3636,10 @@
             "time": "8:30 AM",
             "field": "SP:Field #3",
             "team_a": "",
-            "seed_a": 6,
+            "seed_a": 5,
             "score_a": null,
             "team_b": "",
-            "seed_b": 9,
+            "seed_b": 8,
             "score_b": null
           },
           {
@@ -3682,10 +3648,10 @@
             "time": "8:30 AM",
             "field": "SP:Field #2",
             "team_a": "",
-            "seed_a": 7,
+            "seed_a": 6,
             "score_a": null,
             "team_b": "",
-            "seed_b": 8,
+            "seed_b": 7,
             "score_b": null
           },
           {
@@ -3708,10 +3674,10 @@
             "time": "12:30 PM",
             "field": "SP:Field #3",
             "team_a": "",
-            "seed_a": 10,
+            "seed_a": 9,
             "score_a": null,
             "team_b": "",
-            "seed_b": 13,
+            "seed_b": 12,
             "score_b": null
           },
           {
@@ -3720,10 +3686,10 @@
             "time": "2:30 PM",
             "field": "SP:Field #3",
             "team_a": "",
-            "seed_a": 11,
+            "seed_a": 10,
             "score_a": null,
             "team_b": "",
-            "seed_b": 12,
+            "seed_b": 11,
             "score_b": null
           },
           {
@@ -4176,5 +4142,5 @@
   },
   "site_last_updated": "11/05/2026 12:03 PM",
   "tournament_id": 12524,
-  "fetched_at": "2026-11-06T12:50"
+  "fetched_at": "2026-11-06T15:19"
 }
