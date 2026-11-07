@@ -394,10 +394,10 @@
           "seed": 9,
           "team": "SC Tide - Lucariello",
           "location": "Clover, SC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 4,
+          "runs_scored": 12,
           "team_page_id": null
         },
         {
@@ -465,9 +465,9 @@
           "team": "Carolina Forge 9U",
           "location": "Gastonia, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 12,
+          "runs_scored": 4,
           "team_page_id": null
         },
         {
@@ -740,10 +740,10 @@
             "field": "Shelby:Field # 3",
             "team_a": "SC Tide - Lucariello",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 12,
             "team_b": "Carolina Forge 9U",
             "seed_b": null,
-            "score_b": null
+            "score_b": 4
           },
           {
             "game": 17,
@@ -3033,9 +3033,9 @@
           "team": "Carolina Clippers 13U",
           "location": "Albemarle, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 10,
+          "runs_scored": 2,
           "team_page_id": null
         },
         {
@@ -3062,10 +3062,10 @@
           "seed": 11,
           "team": "FS Bulldogs 13u (Cockrell)",
           "location": "Mount Ulla, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 2,
+          "runs_scored": 10,
           "team_page_id": null
         }
       ],
@@ -3162,10 +3162,10 @@
             "field": "SP:Field #1",
             "team_a": "Carolina Clippers 13U",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 2,
             "team_b": "FS Bulldogs 13u (Cockrell)",
             "seed_b": null,
-            "score_b": null
+            "score_b": 10
           },
           {
             "game": 9,
@@ -3347,10 +3347,10 @@
           "seed": 3,
           "team": "Bethany Badgers",
           "location": "Clover, SC",
-          "won": 0,
+          "won": 1,
           "lost": 1,
-          "runs_allowed": 9,
-          "runs_scored": 6,
+          "runs_allowed": 11,
+          "runs_scored": 10,
           "team_page_id": null
         },
         {
@@ -3438,9 +3438,9 @@
           "team": "Regulators",
           "location": "Indian Trail, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 4,
+          "runs_scored": 2,
           "team_page_id": null
         }
       ],
@@ -3513,10 +3513,10 @@
             "field": "Shelby:Field # 1",
             "team_a": "Regulators",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 2,
             "team_b": "Bethany Badgers",
             "seed_b": null,
-            "score_b": null
+            "score_b": 4
           },
           {
             "game": 7,
@@ -4142,5 +4142,5 @@
   },
   "site_last_updated": "11/05/2026 12:03 PM",
   "tournament_id": 12524,
-  "fetched_at": "2026-11-07T16:05"
+  "fetched_at": "2026-11-07T16:16"
 }

@@ -1,5 +1,5 @@
 # Elite 9 - Top Gun schedule
-_Updated Sat Nov 07, 2026 04:05 PM_
+_Updated Sat Nov 07, 2026 04:16 PM_
 
 ## SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND
 September 26 - 27 in Greater Charlotte Area, NC  
@@ -260,14 +260,14 @@ Tournament 12524 - [schedule page](https://playtopgunsports.com/GameTimesResults
 | 6 | LumberJacks | Gaston County, NC | 1-1 | 10 | 14 |
 | 7 | Mara Cobras | Matthews, NC | 1-0 | 18 | 1 |
 | 8 | Union County Legends | Waxhaw, NC | 0-0 | 0 | 0 |
-| 9 | SC Tide - Lucariello | Clover, SC | 0-0 | 0 | 0 |
+| 9 | SC Tide - Lucariello | Clover, SC | 1-0 | 12 | 4 |
 | 10 | Mara Bulls | matthews, NC | 2-0 | 27 | 8 |
 | 11 | Red Clay Athletics 9U Darcangelo | Charlotte, NC | 1-1 | 16 | 6 |
 | 12 | Elite 9 **<--** | Rock Hill, SC | 1-1 | 17 | 20 |
 | 13 | Carolina Regulators 9u | Stanley, NC | 1-1 | 11 | 23 |
 | 14 | Carolina 9Uw | Gastonia, NC | 0-2 | 1 | 21 |
 | 15 | Carolina Elevate | Lenoir, NC | 0-2 | 5 | 12 |
-| 16 | Carolina Forge 9U | Gastonia, NC | 0-0 | 0 | 0 |
+| 16 | Carolina Forge 9U | Gastonia, NC | 0-1 | 4 | 12 |
 | 17 | Carolina Rapid Fire - Ford | Lincolnton, NC | 1-0 | 10 | 8 |
 | 18 | Diamond Crushers | Concord, NC | 0-2 | 10 | 33 |
 | 19 | Copperheads | Mooresville, NC | 2-0 | 13 | 3 |
