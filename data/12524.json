@@ -4021,10 +4021,10 @@
           "seed": 2,
           "team": "Startown Elite",
           "location": "Newton, NC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
-          "runs_allowed": 2,
-          "runs_scored": 4,
+          "runs_allowed": 7,
+          "runs_scored": 16,
           "team_page_id": null
         },
         {
@@ -4032,9 +4032,9 @@
           "team": "Triad Warriors",
           "location": "Walkertown, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 12,
+          "runs_scored": 5,
           "team_page_id": null
         },
         {
@@ -4069,10 +4069,10 @@
             "field": "SP:Field #2",
             "team_a": "Startown Elite",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 12,
             "team_b": "Triad Warriors",
             "seed_b": null,
-            "score_b": null
+            "score_b": 5
           },
           {
             "game": 3,
@@ -4142,5 +4142,5 @@
   },
   "site_last_updated": "11/05/2026 12:03 PM",
   "tournament_id": 12524,
-  "fetched_at": "2026-11-07T14:19"
+  "fetched_at": "2026-11-07T14:30"
 }
