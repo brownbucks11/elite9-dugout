@@ -364,10 +364,10 @@
           "seed": 6,
           "team": "LumberJacks",
           "location": "Gaston County, NC",
-          "won": 0,
+          "won": 1,
           "lost": 1,
-          "runs_allowed": 10,
-          "runs_scored": 5,
+          "runs_allowed": 14,
+          "runs_scored": 10,
           "team_page_id": null
         },
         {
@@ -455,9 +455,9 @@
           "team": "Carolina Elevate",
           "location": "Lenoir, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 5,
+          "runs_scored": 4,
           "team_page_id": null
         },
         {
@@ -644,10 +644,10 @@
             "field": "Shelby:Field # 3",
             "team_a": "LumberJacks",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 5,
             "team_b": "Carolina Elevate",
             "seed_b": null,
-            "score_b": null
+            "score_b": 4
           },
           {
             "game": 9,
@@ -2465,10 +2465,10 @@
           "seed": 4,
           "team": "Davidson Force",
           "location": "Davidson, NC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
-          "runs_allowed": 1,
-          "runs_scored": 11,
+          "runs_allowed": 7,
+          "runs_scored": 29,
           "team_page_id": null
         },
         {
@@ -2556,9 +2556,9 @@
           "team": "ELOC 12u Challenge",
           "location": "Denver, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 18,
+          "runs_scored": 6,
           "team_page_id": null
         },
         {
@@ -2699,10 +2699,10 @@
             "field": "Shelby:Field # 2",
             "team_a": "ELOC 12u Challenge",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 6,
             "team_b": "Davidson Force",
             "seed_b": null,
-            "score_b": null
+            "score_b": 18
           },
           {
             "game": 11,
@@ -4012,19 +4012,19 @@
           "team": "Carolina Elevate 17U",
           "location": "Hudson, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 4,
+          "runs_scored": 2,
           "team_page_id": null
         },
         {
           "seed": 2,
           "team": "Startown Elite",
           "location": "Newton, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 2,
+          "runs_scored": 4,
           "team_page_id": null
         },
         {
@@ -4057,10 +4057,10 @@
             "field": "SP:Field #2",
             "team_a": "Startown Elite",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 4,
             "team_b": "Carolina Elevate 17U",
             "seed_b": null,
-            "score_b": null
+            "score_b": 2
           },
           {
             "game": 2,
@@ -4142,5 +4142,5 @@
   },
   "site_last_updated": "11/05/2026 12:03 PM",
   "tournament_id": 12524,
-  "fetched_at": "2026-11-07T12:25"
+  "fetched_at": "2026-11-07T12:35"
 }
