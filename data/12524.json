@@ -1191,10 +1191,10 @@
           "seed": 4,
           "team": "Carolina Locos- 10U Black",
           "location": "Waxhaw, NC",
-          "won": 0,
+          "won": 1,
           "lost": 1,
-          "runs_allowed": 7,
-          "runs_scored": 5,
+          "runs_allowed": 11,
+          "runs_scored": 20,
           "team_page_id": null
         },
         {
@@ -1202,9 +1202,9 @@
           "team": "Waxhaw Militia 10U",
           "location": "Waxhaw, NC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 10,
-          "runs_scored": 2,
+          "lost": 2,
+          "runs_allowed": 25,
+          "runs_scored": 6,
           "team_page_id": null
         },
         {
@@ -4032,19 +4032,19 @@
           "team": "Triad Warriors",
           "location": "Walkertown, NC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 12,
-          "runs_scored": 5,
+          "lost": 2,
+          "runs_allowed": 21,
+          "runs_scored": 8,
           "team_page_id": null
         },
         {
           "seed": 4,
           "team": "Stars and Stripes Sports",
           "location": "Irmo, SC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 12,
+          "runs_allowed": 3,
+          "runs_scored": 21,
           "team_page_id": null
         }
       ],
@@ -4093,17 +4093,17 @@
             "field": "SP:Field #2",
             "team_a": "Triad Warriors",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 3,
             "team_b": "Stars and Stripes Sports",
             "seed_b": null,
-            "score_b": null
+            "score_b": 9
           }
         ],
         "Gold Bracket": [
           {
             "game": 1,
             "day": "Sun",
-            "time": "10:30 AM",
+            "time": "12:30 PM",
             "field": "SP:Field #2",
             "team_a": "",
             "seed_a": 1,
@@ -4115,7 +4115,7 @@
           {
             "game": 2,
             "day": "Sun",
-            "time": "12:30 PM",
+            "time": "10:30 AM",
             "field": "SP:Field #2",
             "team_a": "",
             "seed_a": 2,
@@ -4142,5 +4142,5 @@
   },
   "site_last_updated": "11/05/2026 12:03 PM",
   "tournament_id": 12524,
-  "fetched_at": "2026-11-07T17:50"
+  "fetched_at": "2026-11-07T18:00"
 }
