@@ -1212,9 +1212,9 @@
           "team": "Newport Bombers 10U Yerdon",
           "location": "Rock Hill, SC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 7,
+          "runs_scored": 6,
           "team_page_id": null
         },
         {
@@ -1251,10 +1251,10 @@
           "seed": 5,
           "team": "Carolina River Rats 10U",
           "location": "Lincolnton, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 1,
+          "runs_scored": 10,
           "team_page_id": null
         },
         {
@@ -1362,19 +1362,19 @@
           "team": "Davidson Force 10u",
           "location": "Davidson, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 10,
+          "runs_scored": 1,
           "team_page_id": null
         },
         {
           "seed": 17,
           "team": "Rowan Titans",
           "location": "China Grove, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 6,
+          "runs_scored": 7,
           "team_page_id": null
         },
         {
@@ -1515,10 +1515,10 @@
             "field": "Westmoreld:Field 2",
             "team_a": "Rowan Titans",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 7,
             "team_b": "Newport Bombers 10U Yerdon",
             "seed_b": null,
-            "score_b": null
+            "score_b": 6
           },
           {
             "game": 11,
@@ -1527,10 +1527,10 @@
             "field": "Westmoreld:Field 3",
             "team_a": "Davidson Force 10u",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 1,
             "team_b": "Carolina River Rats 10U",
             "seed_b": null,
-            "score_b": null
+            "score_b": 10
           },
           {
             "game": 12,
@@ -1975,9 +1975,9 @@
           "team": "ELITE9 11u",
           "location": "ROCK HILL, SC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 8,
+          "runs_scored": 6,
           "team_page_id": null
         },
         {
@@ -2024,10 +2024,10 @@
           "seed": 16,
           "team": "11u Mission Baseball",
           "location": "Waxhaw, NC",
-          "won": 0,
+          "won": 1,
           "lost": 1,
-          "runs_allowed": 7,
-          "runs_scored": 6,
+          "runs_allowed": 13,
+          "runs_scored": 14,
           "team_page_id": null
         }
       ],
@@ -2136,10 +2136,10 @@
             "field": "Tega Cay:Field 2",
             "team_a": "11u Mission Baseball",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 8,
             "team_b": "ELITE9 11u",
             "seed_b": null,
-            "score_b": null
+            "score_b": 6
           },
           {
             "game": 10,
@@ -4142,5 +4142,5 @@
   },
   "site_last_updated": "11/05/2026 12:03 PM",
   "tournament_id": 12524,
-  "fetched_at": "2026-11-07T15:34"
+  "fetched_at": "2026-11-07T15:44"
 }
