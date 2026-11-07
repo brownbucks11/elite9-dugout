@@ -61,10 +61,10 @@
           "seed": 1,
           "team": "Waxhaw Militia",
           "location": "Waxhaw, NC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
-          "runs_allowed": 9,
-          "runs_scored": 11,
+          "runs_allowed": 17,
+          "runs_scored": 20,
           "team_page_id": null
         },
         {
@@ -112,9 +112,9 @@
           "team": "Canes Atlantic 8u Fareri",
           "location": "Denver, NC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 19,
-          "runs_scored": 18,
+          "lost": 2,
+          "runs_allowed": 28,
+          "runs_scored": 26,
           "team_page_id": null
         },
         {
@@ -209,10 +209,10 @@
             "field": "Westmoreld:Field 4",
             "team_a": "Waxhaw Militia",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 9,
             "team_b": "Canes Atlantic 8u Fareri",
             "seed_b": null,
-            "score_b": null
+            "score_b": 8
           }
         ],
         "Gold Bracket": [
@@ -221,10 +221,10 @@
             "day": "Sun",
             "time": "12:15 PM",
             "field": "Westmoreld:Field 4",
-            "team_a": "",
+            "team_a": "Carolina Smoke 8u",
             "seed_a": 2,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Dirtbags - Clark 8U",
             "seed_b": 3,
             "score_b": null
           },
@@ -233,10 +233,10 @@
             "day": "Sun",
             "time": "1:30 PM",
             "field": "Westmoreld:Field 4",
-            "team_a": "",
+            "team_a": "Waxhaw Militia",
             "seed_a": 1,
             "score_a": null,
-            "team_b": "",
+            "team_b": "LKN Bolts",
             "seed_b": 4,
             "score_b": null
           },
@@ -271,10 +271,10 @@
             "day": "Sun",
             "time": "8:30 AM",
             "field": "Westmoreld:Field 4",
-            "team_a": "",
+            "team_a": "Tribe",
             "seed_a": 6,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Fury Baseball 8u",
             "seed_b": 7,
             "score_b": null
           },
@@ -283,10 +283,10 @@
             "day": "Sun",
             "time": "9:45 AM",
             "field": "Westmoreld:Field 4",
-            "team_a": "",
+            "team_a": "Canes Atlantic 8u Fareri",
             "seed_a": 5,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Fury Baseball 8u",
             "seed_b": 7,
             "score_b": null
           },
@@ -295,10 +295,10 @@
             "day": "Sun",
             "time": "11:00 AM",
             "field": "Westmoreld:Field 4",
-            "team_a": "",
+            "team_a": "Canes Atlantic 8u Fareri",
             "seed_a": 5,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Tribe",
             "seed_b": 6,
             "score_b": null
           }
@@ -3337,10 +3337,10 @@
           "seed": 2,
           "team": "Carolina Aces",
           "location": "Kings Mountain, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 2,
+          "runs_scored": 10,
           "team_page_id": null
         },
         {
@@ -3388,9 +3388,9 @@
           "team": "McDowell Militia Baseball 14U",
           "location": "Marion, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 10,
+          "runs_scored": 2,
           "team_page_id": null
         },
         {
@@ -3549,10 +3549,10 @@
             "field": "SP:Field #3",
             "team_a": "Carolina Aces",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 10,
             "team_b": "McDowell Militia Baseball 14U",
             "seed_b": null,
-            "score_b": null
+            "score_b": 2
           },
           {
             "game": 10,
@@ -4142,5 +4142,5 @@
   },
   "site_last_updated": "11/05/2026 12:03 PM",
   "tournament_id": 12524,
-  "fetched_at": "2026-11-07T18:32"
+  "fetched_at": "2026-11-07T18:42"
 }
