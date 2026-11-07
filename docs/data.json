@@ -3,7 +3,7 @@
  "location": "Rock Hill, SC",
  "page_id": 31407,
  "team_url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=31407",
- "built": "Sat Nov 07, 2026 12:04 PM",
+ "built": "Sat Nov 07, 2026 12:14 PM",
  "record": {
   "w": 7,
   "l": 11,
@@ -5226,7 +5226,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-11-07T12:04",
+    "fetched_at": "2026-11-07T12:14",
     "url": "https://topgunstats.com/whos-playing/12524"
    },
    "next_game": null,
@@ -5263,32 +5263,33 @@
      "team": "LKN Bolts",
      "location": "Huntersville, NC",
      "rank": 1,
-     "tiebreak": "runs allowed",
+     "tiebreak": "runs scored",
      "h2h": {
-      "Carolina Regulators 9u": "W"
+      "Carolina Regulators 9u": "W",
+      "Diamond Crushers": "W"
      },
      "last": {
-      "opponent": "Carolina Regulators 9u",
-      "rs": 16,
-      "ra": 0
+      "opponent": "Diamond Crushers",
+      "rs": 22,
+      "ra": 3
      },
-     "pool_w": 1,
+     "pool_w": 2,
      "pool_l": 0,
      "pool_t": 0,
-     "pool_rs": 16,
-     "pool_ra": 0,
+     "pool_rs": 38,
+     "pool_ra": 3,
      "seed": null,
      "bracket": null,
-     "won": 1,
+     "won": 2,
      "lost": 0,
-     "rs": 16,
-     "ra": 0
+     "rs": 38,
+     "ra": 3
     },
     {
      "team": "Copperheads",
      "location": "Mooresville, NC",
      "rank": 2,
-     "tiebreak": "runs allowed",
+     "tiebreak": "runs scored",
      "h2h": {
       "Carolina 9Uw": "W",
       "Red Clay Athletics 9U Darcangelo": "W"
@@ -5512,9 +5513,34 @@
      "ra": 16
     },
     {
+     "team": "Diamond Crushers",
+     "location": "Concord, NC",
+     "rank": 11,
+     "tiebreak": "runs allowed",
+     "h2h": {
+      "LKN Bolts": "L"
+     },
+     "last": {
+      "opponent": "LKN Bolts",
+      "rs": 3,
+      "ra": 22
+     },
+     "pool_w": 0,
+     "pool_l": 1,
+     "pool_t": 0,
+     "pool_rs": 3,
+     "pool_ra": 22,
+     "seed": null,
+     "bracket": null,
+     "won": 0,
+     "lost": 1,
+     "rs": 3,
+     "ra": 22
+    },
+    {
      "team": "Athletes Lab 9U Navy- Stewart",
      "location": "Maiden, NC",
-     "rank": 12,
+     "rank": 13,
      "tiebreak": "coin flip (unresolved)",
      "h2h": {},
      "last": null,
@@ -5533,7 +5559,7 @@
     {
      "team": "BOILING SPRINGS BULLDOGS BASEBALL 9u",
      "location": "Boiling Springs, NC",
-     "rank": 13,
+     "rank": 14,
      "tiebreak": "coin flip (unresolved)",
      "h2h": {},
      "last": null,
@@ -5552,7 +5578,7 @@
     {
      "team": "Carolina Elevate",
      "location": "Lenoir, NC",
-     "rank": 14,
+     "rank": 15,
      "tiebreak": "coin flip (unresolved)",
      "h2h": {},
      "last": null,
@@ -5571,7 +5597,7 @@
     {
      "team": "Carolina Forge 9U",
      "location": "Gastonia, NC",
-     "rank": 15,
+     "rank": 16,
      "tiebreak": "coin flip (unresolved)",
      "h2h": {},
      "last": null,
@@ -5590,25 +5616,6 @@
     {
      "team": "Carolina Rapid Fire - Ford",
      "location": "Lincolnton, NC",
-     "rank": 16,
-     "tiebreak": "coin flip (unresolved)",
-     "h2h": {},
-     "last": null,
-     "pool_w": 0,
-     "pool_l": 0,
-     "pool_t": 0,
-     "pool_rs": 0,
-     "pool_ra": 0,
-     "seed": null,
-     "bracket": null,
-     "won": 0,
-     "lost": 0,
-     "rs": 0,
-     "ra": 0
-    },
-    {
-     "team": "Diamond Crushers",
-     "location": "Concord, NC",
      "rank": 17,
      "tiebreak": "coin flip (unresolved)",
      "h2h": {},
@@ -5852,11 +5859,11 @@
      "field": "Dallas:Field # 1",
      "team_a": "LKN Bolts",
      "seed_a": null,
-     "score_a": null,
+     "score_a": 22,
      "from_a": null,
      "team_b": "Diamond Crushers",
      "seed_b": null,
-     "score_b": null,
+     "score_b": 3,
      "from_b": null
     },
     {
@@ -10558,7 +10565,7 @@
      "entered_at": "2026-11-02T08:06:34.820Z",
      "level": "AA"
     },
-    "fetched_at": "2026-11-07T12:04"
+    "fetched_at": "2026-11-07T12:14"
    },
    "tgs": {
     "weather": null,
@@ -10659,7 +10666,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-11-07T12:04",
+    "fetched_at": "2026-11-07T12:14",
     "url": "https://topgunstats.com/whos-playing/12524"
    },
    "name": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
@@ -10741,11 +10748,11 @@
      "field": "Dallas:Field # 1",
      "team_a": "LKN Bolts",
      "seed_a": null,
-     "score_a": null,
+     "score_a": 22,
      "from_a": null,
      "team_b": "Diamond Crushers",
      "seed_b": null,
-     "score_b": null,
+     "score_b": 3,
      "from_b": null
     },
     {
@@ -11566,10 +11573,10 @@
      "seed": 4,
      "team": "LKN Bolts",
      "location": "Huntersville, NC",
-     "won": 1,
+     "won": 2,
      "lost": 0,
-     "runs_allowed": 0,
-     "runs_scored": 16,
+     "runs_allowed": 3,
+     "runs_scored": 38,
      "team_page_id": null
     },
     {
@@ -11707,9 +11714,9 @@
      "team": "Diamond Crushers",
      "location": "Concord, NC",
      "won": 0,
-     "lost": 0,
-     "runs_allowed": 0,
-     "runs_scored": 0,
+     "lost": 1,
+     "runs_allowed": 22,
+     "runs_scored": 3,
      "team_page_id": null
     },
     {
@@ -13002,13 +13009,13 @@
    "location": "Huntersville, NC",
    "page_id": 32916,
    "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=32916",
-   "w": 12,
+   "w": 13,
    "l": 4,
    "t": 0,
-   "rs": 188,
-   "ra": 113,
-   "diff": 75,
-   "pct": 0.75,
+   "rs": 210,
+   "ra": 116,
+   "diff": 94,
+   "pct": 0.765,
    "events": 5,
    "log": [
     {
@@ -13169,6 +13176,16 @@
      "opponent": "Carolina Regulators 9u",
      "rs": 16,
      "ra": 0,
+     "result": "W"
+    },
+    {
+     "date": "2026-11-07",
+     "event_id": 12524,
+     "event": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
+     "section": "Pool Play",
+     "opponent": "Diamond Crushers",
+     "rs": 22,
+     "ra": 3,
      "result": "W"
     }
    ],
@@ -16039,92 +16056,6 @@
    "stats_fetched": "2026-11-06T12:50"
   },
   {
-   "team": "Diamond Crushers",
-   "location": "Concord, NC",
-   "page_id": 37381,
-   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=37381",
-   "w": 2,
-   "l": 2,
-   "t": 0,
-   "rs": 34,
-   "ra": 45,
-   "diff": -11,
-   "pct": 0.5,
-   "events": 1,
-   "log": [
-    {
-     "date": "2026-10-17",
-     "event_id": 12521,
-     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
-     "section": "Pool Play",
-     "opponent": "LKN Kingdom",
-     "rs": 16,
-     "ra": 11,
-     "result": "W"
-    },
-    {
-     "date": "2026-10-17",
-     "event_id": 12521,
-     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
-     "section": "Pool Play",
-     "opponent": "Carolina Icons",
-     "rs": 9,
-     "ra": 3,
-     "result": "W"
-    },
-    {
-     "date": "2026-10-18",
-     "event_id": 12521,
-     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
-     "section": "Gold Bracket",
-     "opponent": "NL Destroyers 2036",
-     "rs": 6,
-     "ra": 16,
-     "result": "L"
-    },
-    {
-     "date": "2026-10-18",
-     "event_id": 12521,
-     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
-     "section": "Gold Bracket",
-     "opponent": "LKN Bolts",
-     "rs": 3,
-     "ra": 15,
-     "result": "L"
-    }
-   ],
-   "points": 1400,
-   "titles": 0,
-   "finishes": [
-    {
-     "date": "2026-09-05",
-     "name": "TOP GUN-USA SPORTS---SATURDAY ONLY",
-     "won": 0,
-     "lost": 0,
-     "standing": "",
-     "points": 0
-    },
-    {
-     "date": "2026-10-03",
-     "name": "DOUBLE POINTS PINK ZONE QUALIFIER---ACTIVATE WINTER FREE PAID BERTHS",
-     "won": 0,
-     "lost": 2,
-     "standing": "6th (Gold)",
-     "points": 300
-    },
-    {
-     "date": "2026-10-17",
-     "name": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
-     "won": 2,
-     "lost": 2,
-     "standing": "5th (Gold)",
-     "points": 1100
-    }
-   ],
-   "season": "08/01/2026 - 11/06/2026",
-   "stats_fetched": "2026-11-06T12:53"
-  },
-  {
    "team": "Carolina Royals 9Ublu",
    "location": "Cramerton, NC",
    "page_id": 37581,
@@ -17150,6 +17081,102 @@
    ],
    "season": "08/01/2026 - 11/06/2026",
    "stats_fetched": "2026-11-06T12:52"
+  },
+  {
+   "team": "Diamond Crushers",
+   "location": "Concord, NC",
+   "page_id": 37381,
+   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=37381",
+   "w": 2,
+   "l": 3,
+   "t": 0,
+   "rs": 37,
+   "ra": 67,
+   "diff": -30,
+   "pct": 0.4,
+   "events": 2,
+   "log": [
+    {
+     "date": "2026-10-17",
+     "event_id": 12521,
+     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "section": "Pool Play",
+     "opponent": "LKN Kingdom",
+     "rs": 16,
+     "ra": 11,
+     "result": "W"
+    },
+    {
+     "date": "2026-10-17",
+     "event_id": 12521,
+     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "section": "Pool Play",
+     "opponent": "Carolina Icons",
+     "rs": 9,
+     "ra": 3,
+     "result": "W"
+    },
+    {
+     "date": "2026-10-18",
+     "event_id": 12521,
+     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "section": "Gold Bracket",
+     "opponent": "NL Destroyers 2036",
+     "rs": 6,
+     "ra": 16,
+     "result": "L"
+    },
+    {
+     "date": "2026-10-18",
+     "event_id": 12521,
+     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "section": "Gold Bracket",
+     "opponent": "LKN Bolts",
+     "rs": 3,
+     "ra": 15,
+     "result": "L"
+    },
+    {
+     "date": "2026-11-07",
+     "event_id": 12524,
+     "event": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
+     "section": "Pool Play",
+     "opponent": "LKN Bolts",
+     "rs": 3,
+     "ra": 22,
+     "result": "L"
+    }
+   ],
+   "points": 1400,
+   "titles": 0,
+   "finishes": [
+    {
+     "date": "2026-09-05",
+     "name": "TOP GUN-USA SPORTS---SATURDAY ONLY",
+     "won": 0,
+     "lost": 0,
+     "standing": "",
+     "points": 0
+    },
+    {
+     "date": "2026-10-03",
+     "name": "DOUBLE POINTS PINK ZONE QUALIFIER---ACTIVATE WINTER FREE PAID BERTHS",
+     "won": 0,
+     "lost": 2,
+     "standing": "6th (Gold)",
+     "points": 300
+    },
+    {
+     "date": "2026-10-17",
+     "name": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "won": 2,
+     "lost": 2,
+     "standing": "5th (Gold)",
+     "points": 1100
+    }
+   ],
+   "season": "08/01/2026 - 11/06/2026",
+   "stats_fetched": "2026-11-06T12:53"
   },
   {
    "team": "DYBA Force 9U",
