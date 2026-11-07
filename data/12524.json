@@ -3417,10 +3417,10 @@
           "seed": 10,
           "team": "Mooresville Biscuits",
           "location": "Mooresville, NC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
-          "runs_allowed": 6,
-          "runs_scored": 9,
+          "runs_allowed": 8,
+          "runs_scored": 16,
           "team_page_id": null
         },
         {
@@ -3428,9 +3428,9 @@
           "team": "Wolfpack Baseball",
           "location": "Mooresville, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 7,
+          "runs_scored": 2,
           "team_page_id": null
         },
         {
@@ -3489,10 +3489,10 @@
             "field": "Shelby:Field # 1",
             "team_a": "Mooresville Biscuits",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 7,
             "team_b": "Wolfpack Baseball",
             "seed_b": null,
-            "score_b": null
+            "score_b": 2
           },
           {
             "game": 5,
@@ -4142,5 +4142,5 @@
   },
   "site_last_updated": "11/05/2026 12:03 PM",
   "tournament_id": 12524,
-  "fetched_at": "2026-11-07T13:58"
+  "fetched_at": "2026-11-07T14:09"
 }
