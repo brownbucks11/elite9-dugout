@@ -424,10 +424,10 @@
           "seed": 12,
           "team": "Elite 9",
           "location": "Rock Hill, SC",
-          "won": 0,
+          "won": 1,
           "lost": 1,
-          "runs_allowed": 12,
-          "runs_scored": 4,
+          "runs_allowed": 20,
+          "runs_scored": 17,
           "team_page_id": null
         },
         {
@@ -525,9 +525,9 @@
           "team": "PeeDee Mudcats",
           "location": "Wadesboro, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 13,
+          "runs_scored": 8,
           "team_page_id": null
         },
         {
@@ -632,10 +632,10 @@
             "field": "Dallas:Field # 3",
             "team_a": "PeeDee Mudcats",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 8,
             "team_b": "Elite 9",
             "seed_b": null,
-            "score_b": null
+            "score_b": 13
           },
           {
             "game": 8,
@@ -1221,10 +1221,10 @@
           "seed": 2,
           "team": "Carolina Locos- 10U Blue",
           "location": "Waxhaw, NC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
-          "runs_allowed": 4,
-          "runs_scored": 6,
+          "runs_allowed": 8,
+          "runs_scored": 22,
           "team_page_id": null
         },
         {
@@ -1292,9 +1292,9 @@
           "team": "Union County Aces",
           "location": "Monroe, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 12,
+          "runs_scored": 7,
           "team_page_id": null
         },
         {
@@ -1322,9 +1322,9 @@
           "team": "ELITE BASEBALL EBC 10U",
           "location": "FOREST CITY, NC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 11,
-          "runs_scored": 3,
+          "lost": 2,
+          "runs_allowed": 27,
+          "runs_scored": 7,
           "team_page_id": null
         },
         {
@@ -1341,10 +1341,10 @@
           "seed": 14,
           "team": "Rowan Rangers 10u",
           "location": "Salisbury, NC",
-          "won": 0,
+          "won": 1,
           "lost": 1,
-          "runs_allowed": 20,
-          "runs_scored": 3,
+          "runs_allowed": 27,
+          "runs_scored": 15,
           "team_page_id": null
         },
         {
@@ -1443,10 +1443,10 @@
             "field": "Westmoreld:Field 2",
             "team_a": "Rowan Rangers 10u",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 12,
             "team_b": "Union County Aces",
             "seed_b": null,
-            "score_b": null
+            "score_b": 7
           },
           {
             "game": 5,
@@ -1467,10 +1467,10 @@
             "field": "M. Rivers:Martha Rivers 4",
             "team_a": "ELITE BASEBALL EBC 10U",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 4,
             "team_b": "Carolina Locos- 10U Blue",
             "seed_b": null,
-            "score_b": null
+            "score_b": 16
           },
           {
             "game": 7,
@@ -1896,7 +1896,7 @@
           "location": "Tega Cay, SC",
           "won": 1,
           "lost": 0,
-          "runs_allowed": 4,
+          "runs_allowed": 3,
           "runs_scored": 16,
           "team_page_id": null
         },
@@ -1937,7 +1937,7 @@
           "won": 0,
           "lost": 2,
           "runs_allowed": 19,
-          "runs_scored": 6,
+          "runs_scored": 5,
           "team_page_id": null
         },
         {
@@ -2055,7 +2055,7 @@
             "score_a": 16,
             "team_b": "FS Bulldogs 11u (Houghton)",
             "seed_b": null,
-            "score_b": 4
+            "score_b": 3
           },
           {
             "game": 3,
@@ -2983,9 +2983,9 @@
           "team": "SC Tide - Daly",
           "location": "Clover, SC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 15,
+          "runs_scored": 4,
           "team_page_id": null
         },
         {
@@ -3012,10 +3012,10 @@
           "seed": 6,
           "team": "Copperheads Black",
           "location": "Mooresville, NC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 4,
+          "runs_allowed": 4,
+          "runs_scored": 19,
           "team_page_id": null
         },
         {
@@ -3102,10 +3102,10 @@
             "field": "Tega Cay:Field 4",
             "team_a": "Copperheads Black",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 15,
             "team_b": "SC Tide - Daly",
             "seed_b": null,
-            "score_b": null
+            "score_b": 4
           },
           {
             "game": 4,
@@ -4142,5 +4142,5 @@
   },
   "site_last_updated": "11/05/2026 12:03 PM",
   "tournament_id": 12524,
-  "fetched_at": "2026-11-07T11:54"
+  "fetched_at": "2026-11-07T12:04"
 }
