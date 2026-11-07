@@ -1221,10 +1221,10 @@
           "seed": 2,
           "team": "Carolina Locos- 10U Blue",
           "location": "Waxhaw, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 4,
+          "runs_scored": 6,
           "team_page_id": null
         },
         {
@@ -1262,9 +1262,9 @@
           "team": "Copperheads Black",
           "location": "Mooresville, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 6,
+          "runs_scored": 4,
           "team_page_id": null
         },
         {
@@ -1322,9 +1322,9 @@
           "team": "ELITE BASEBALL EBC 10U",
           "location": "FOREST CITY, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 11,
+          "runs_scored": 3,
           "team_page_id": null
         },
         {
@@ -1351,10 +1351,10 @@
           "seed": 15,
           "team": "Carolina Royals 10U",
           "location": "Cramerton, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 3,
+          "runs_scored": 11,
           "team_page_id": null
         },
         {
@@ -1419,10 +1419,10 @@
             "field": "M. Rivers:Martha Rivers 1",
             "team_a": "Carolina Locos- 10U Blue",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 6,
             "team_b": "Copperheads Black",
             "seed_b": null,
-            "score_b": null
+            "score_b": 4
           },
           {
             "game": 3,
@@ -1431,10 +1431,10 @@
             "field": "M. Rivers:Martha Rivers 4",
             "team_a": "ELITE BASEBALL EBC 10U",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 3,
             "team_b": "Carolina Royals 10U",
             "seed_b": null,
-            "score_b": null
+            "score_b": 11
           },
           {
             "game": 4,
@@ -3717,9 +3717,9 @@
           "team": "Carolina Bearcats",
           "location": "Alexis, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 3,
+          "runs_scored": 1,
           "team_page_id": null
         },
         {
@@ -3746,10 +3746,10 @@
           "seed": 4,
           "team": "CC CARDINALS 15U",
           "location": "SHELBY, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 1,
+          "runs_scored": 3,
           "team_page_id": null
         },
         {
@@ -3786,10 +3786,10 @@
           "seed": 8,
           "team": "MARA Machine",
           "location": "Matthews, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
           "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_scored": 7,
           "team_page_id": null
         },
         {
@@ -3797,8 +3797,8 @@
           "team": "Regulators",
           "location": "Indian Trail, NC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 7,
+          "lost": 2,
+          "runs_allowed": 14,
           "runs_scored": 0,
           "team_page_id": null
         }
@@ -3812,10 +3812,10 @@
             "field": "TOB:Field 1",
             "team_a": "CC CARDINALS 15U",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 3,
             "team_b": "Carolina Bearcats",
             "seed_b": null,
-            "score_b": null
+            "score_b": 1
           },
           {
             "game": 2,
@@ -3848,10 +3848,10 @@
             "field": "Core:Hinson Core Field",
             "team_a": "MARA Machine",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 7,
             "team_b": "Regulators",
             "seed_b": null,
-            "score_b": null
+            "score_b": 0
           },
           {
             "game": 5,
@@ -4142,5 +4142,5 @@
   },
   "site_last_updated": "11/05/2026 12:03 PM",
   "tournament_id": 12524,
-  "fetched_at": "2026-11-07T10:09"
+  "fetched_at": "2026-11-07T10:20"
 }
