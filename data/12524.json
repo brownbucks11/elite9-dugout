@@ -3327,10 +3327,10 @@
           "seed": 1,
           "team": "SBA Dallas",
           "location": "Dallas, NC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 19,
+          "runs_allowed": 3,
+          "runs_scored": 38,
           "team_page_id": null
         },
         {
@@ -3378,9 +3378,9 @@
           "team": "Toxic NC",
           "location": "Startown, NC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 17,
-          "runs_scored": 2,
+          "lost": 2,
+          "runs_allowed": 36,
+          "runs_scored": 5,
           "team_page_id": null
         },
         {
@@ -3501,10 +3501,10 @@
             "field": "SP:Field #3",
             "team_a": "Toxic NC",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 3,
             "team_b": "SBA Dallas",
             "seed_b": null,
-            "score_b": null
+            "score_b": 19
           },
           {
             "game": 6,
@@ -4142,5 +4142,5 @@
   },
   "site_last_updated": "11/05/2026 12:03 PM",
   "tournament_id": 12524,
-  "fetched_at": "2026-11-07T14:30"
+  "fetched_at": "2026-11-07T14:31"
 }
