@@ -3,7 +3,7 @@
  "location": "Rock Hill, SC",
  "page_id": 31407,
  "team_url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=31407",
- "built": "Sat Nov 07, 2026 01:52 AM",
+ "built": "Sat Nov 07, 2026 05:25 AM",
  "record": {
   "w": 6,
   "l": 10,
@@ -5226,7 +5226,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-11-07T01:52",
+    "fetched_at": "2026-11-07T05:25",
     "url": "https://topgunstats.com/whos-playing/12524"
    },
    "next_game": {
@@ -5305,9 +5305,28 @@
      "ra": 0
     },
     {
+     "team": "Carolina 9Uw",
+     "location": "Gastonia, NC",
+     "rank": 4,
+     "tiebreak": "coin flip (unresolved)",
+     "h2h": {},
+     "last": null,
+     "pool_w": 0,
+     "pool_l": 0,
+     "pool_t": 0,
+     "pool_rs": 0,
+     "pool_ra": 0,
+     "seed": null,
+     "bracket": null,
+     "won": 0,
+     "lost": 0,
+     "rs": 0,
+     "ra": 0
+    },
+    {
      "team": "Carolina Elevate",
      "location": "Lenoir, NC",
-     "rank": 4,
+     "rank": 5,
      "tiebreak": "coin flip (unresolved)",
      "h2h": {},
      "last": null,
@@ -5326,7 +5345,7 @@
     {
      "team": "Carolina Forge 9U",
      "location": "Gastonia, NC",
-     "rank": 5,
+     "rank": 6,
      "tiebreak": "coin flip (unresolved)",
      "h2h": {},
      "last": null,
@@ -5345,7 +5364,7 @@
     {
      "team": "Carolina Rapid Fire - Ford",
      "location": "Lincolnton, NC",
-     "rank": 6,
+     "rank": 7,
      "tiebreak": "coin flip (unresolved)",
      "h2h": {},
      "last": null,
@@ -5364,25 +5383,6 @@
     {
      "team": "Carolina Regulators 9u",
      "location": "Stanley, NC",
-     "rank": 7,
-     "tiebreak": "coin flip (unresolved)",
-     "h2h": {},
-     "last": null,
-     "pool_w": 0,
-     "pool_l": 0,
-     "pool_t": 0,
-     "pool_rs": 0,
-     "pool_ra": 0,
-     "seed": null,
-     "bracket": null,
-     "won": 0,
-     "lost": 0,
-     "rs": 0,
-     "ra": 0
-    },
-    {
-     "team": "Carolina Royals 9Uw",
-     "location": "Gastonia, NC",
      "rank": 8,
      "tiebreak": "coin flip (unresolved)",
      "h2h": {},
@@ -5751,7 +5751,7 @@
      "seed_a": null,
      "score_a": null,
      "from_a": null,
-     "team_b": "Carolina Royals 9Uw",
+     "team_b": "Carolina 9Uw",
      "seed_b": null,
      "score_b": null,
      "from_b": null
@@ -5875,7 +5875,7 @@
      "time": "12:00 PM",
      "date": "2026-11-07",
      "field": "Dallas:Field # 2",
-     "team_a": "Carolina Royals 9Uw",
+     "team_a": "Carolina 9Uw",
      "seed_a": null,
      "score_a": null,
      "from_a": null,
@@ -10503,7 +10503,7 @@
      "entered_at": "2026-11-02T08:06:34.820Z",
      "level": "AA"
     },
-    "fetched_at": "2026-11-07T01:52"
+    "fetched_at": "2026-11-07T05:25"
    },
    "tgs": {
     "weather": null,
@@ -10604,7 +10604,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-11-07T01:52",
+    "fetched_at": "2026-11-07T05:25",
     "url": "https://topgunstats.com/whos-playing/12524"
    },
    "name": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
@@ -10640,7 +10640,7 @@
      "seed_a": null,
      "score_a": null,
      "from_a": null,
-     "team_b": "Carolina Royals 9Uw",
+     "team_b": "Carolina 9Uw",
      "seed_b": null,
      "score_b": null,
      "from_b": null
@@ -10764,7 +10764,7 @@
      "time": "12:00 PM",
      "date": "2026-11-07",
      "field": "Dallas:Field # 2",
-     "team_a": "Carolina Royals 9Uw",
+     "team_a": "Carolina 9Uw",
      "seed_a": null,
      "score_a": null,
      "from_a": null,
@@ -11609,7 +11609,7 @@
     },
     {
      "seed": 14,
-     "team": "Carolina Royals 9Uw",
+     "team": "Carolina 9Uw",
      "location": "Gastonia, NC",
      "won": 0,
      "lost": 0,

@@ -1,5 +1,5 @@
 # Elite 9 - Top Gun schedule
-_Updated Sat Nov 07, 2026 01:52 AM_
+_Updated Sat Nov 07, 2026 05:25 AM_
 
 ## SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND
 September 26 - 27 in Greater Charlotte Area, NC  
@@ -265,7 +265,7 @@ Tournament 12524 - [schedule page](https://playtopgunsports.com/GameTimesResults
 | 11 | Red Clay Athletics 9U Darcangelo | Charlotte, NC | 0-0 | 0 | 0 |
 | 12 | Elite 9 **<--** | Rock Hill, SC | 0-0 | 0 | 0 |
 | 13 | Carolina Regulators 9u | Stanley, NC | 0-0 | 0 | 0 |
-| 14 | Carolina Royals 9Uw | Gastonia, NC | 0-0 | 0 | 0 |
+| 14 | Carolina 9Uw | Gastonia, NC | 0-0 | 0 | 0 |
 | 15 | Carolina Elevate | Lenoir, NC | 0-0 | 0 | 0 |
 | 16 | Carolina Forge 9U | Gastonia, NC | 0-0 | 0 | 0 |
 | 17 | Carolina Rapid Fire - Ford | Lincolnton, NC | 0-0 | 0 | 0 |
