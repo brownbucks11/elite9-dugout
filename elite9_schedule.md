@@ -1,5 +1,5 @@
 # Elite 9 - Top Gun schedule
-_Updated Sat Nov 07, 2026 04:16 PM_
+_Updated Sat Nov 07, 2026 04:26 PM_
 
 ## SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND
 September 26 - 27 in Greater Charlotte Area, NC  
@@ -271,10 +271,10 @@ Tournament 12524 - [schedule page](https://playtopgunsports.com/GameTimesResults
 | 17 | Carolina Rapid Fire - Ford | Lincolnton, NC | 1-0 | 10 | 8 |
 | 18 | Diamond Crushers | Concord, NC | 0-2 | 10 | 33 |
 | 19 | Copperheads | Mooresville, NC | 2-0 | 13 | 3 |
-| 20 | BOILING SPRINGS BULLDOGS BASEBALL 9u | Boiling Springs, NC | 0-0 | 0 | 0 |
+| 20 | BOILING SPRINGS BULLDOGS BASEBALL 9u | Boiling Springs, NC | 0-1 | 1 | 14 |
 | 21 | ZT Knuckleheads | Clover, SC | 2-0 | 17 | 6 |
 | 22 | PeeDee Mudcats | Wadesboro, NC | 0-2 | 12 | 28 |
-| 23 | Athletes Lab 9U Navy- Stewart | Maiden, NC | 1-0 | 5 | 4 |
+| 23 | Athletes Lab 9U Navy- Stewart | Maiden, NC | 2-0 | 19 | 5 |
 | 24 | LKN Lightning - Ogburn | Huntersville, NC | 0-1 | 8 | 10 |
 
 **Gold Bracket**

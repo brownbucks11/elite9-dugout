@@ -3,7 +3,7 @@
  "location": "Rock Hill, SC",
  "page_id": 31407,
  "team_url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=31407",
- "built": "Sat Nov 07, 2026 04:16 PM",
+ "built": "Sat Nov 07, 2026 04:26 PM",
  "record": {
   "w": 7,
   "l": 11,
@@ -5226,7 +5226,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-11-07T16:15",
+    "fetched_at": "2026-11-07T16:26",
     "url": "https://topgunstats.com/whos-playing/12524"
    },
    "next_game": null,
@@ -5340,7 +5340,7 @@
      "team": "SC Tide - Lucariello",
      "location": "Clover, SC",
      "rank": 4,
-     "tiebreak": "runs scored",
+     "tiebreak": "runs allowed",
      "h2h": {
       "Carolina Forge 9U": "W"
      },
@@ -5365,26 +5365,27 @@
      "team": "Athletes Lab 9U Navy- Stewart",
      "location": "Maiden, NC",
      "rank": 5,
-     "tiebreak": "runs scored",
+     "tiebreak": "runs allowed",
      "h2h": {
-      "ROCO Dirtbagz": "W"
+      "ROCO Dirtbagz": "W",
+      "BOILING SPRINGS BULLDOGS BASEBALL 9u": "W"
      },
      "last": {
-      "opponent": "ROCO Dirtbagz",
-      "rs": 5,
-      "ra": 4
+      "opponent": "BOILING SPRINGS BULLDOGS BASEBALL 9u",
+      "rs": 14,
+      "ra": 1
      },
-     "pool_w": 1,
+     "pool_w": 2,
      "pool_l": 0,
      "pool_t": 0,
-     "pool_rs": 5,
-     "pool_ra": 4,
+     "pool_rs": 19,
+     "pool_ra": 5,
      "seed": null,
      "bracket": null,
-     "won": 1,
+     "won": 2,
      "lost": 0,
-     "rs": 5,
-     "ra": 4
+     "rs": 19,
+     "ra": 5
     },
     {
      "team": "ZT Knuckleheads",
@@ -5669,9 +5670,34 @@
      "ra": 12
     },
     {
+     "team": "BOILING SPRINGS BULLDOGS BASEBALL 9u",
+     "location": "Boiling Springs, NC",
+     "rank": 17,
+     "tiebreak": "runs allowed",
+     "h2h": {
+      "Athletes Lab 9U Navy- Stewart": "L"
+     },
+     "last": {
+      "opponent": "Athletes Lab 9U Navy- Stewart",
+      "rs": 1,
+      "ra": 14
+     },
+     "pool_w": 0,
+     "pool_l": 1,
+     "pool_t": 0,
+     "pool_rs": 1,
+     "pool_ra": 14,
+     "seed": null,
+     "bracket": null,
+     "won": 0,
+     "lost": 1,
+     "rs": 1,
+     "ra": 14
+    },
+    {
      "team": "Waxhaw Militia 9U",
      "location": "Waxhaw, NC",
-     "rank": 17,
+     "rank": 18,
      "tiebreak": "runs allowed",
      "h2h": {
       "Mara Cobras": "L"
@@ -5696,7 +5722,7 @@
     {
      "team": "Carolina 9Uw",
      "location": "Gastonia, NC",
-     "rank": 18,
+     "rank": 19,
      "tiebreak": "runs allowed",
      "h2h": {
       "Copperheads": "L",
@@ -5722,7 +5748,7 @@
     {
      "team": "PeeDee Mudcats",
      "location": "Wadesboro, NC",
-     "rank": 19,
+     "rank": 20,
      "tiebreak": "runs allowed",
      "h2h": {
       "Elite 9": "L",
@@ -5748,7 +5774,7 @@
     {
      "team": "Diamond Crushers",
      "location": "Concord, NC",
-     "rank": 20,
+     "rank": 21,
      "tiebreak": "runs allowed",
      "h2h": {
       "LKN Bolts": "L",
@@ -5770,25 +5796,6 @@
      "lost": 2,
      "rs": 10,
      "ra": 33
-    },
-    {
-     "team": "BOILING SPRINGS BULLDOGS BASEBALL 9u",
-     "location": "Boiling Springs, NC",
-     "rank": 22,
-     "tiebreak": "coin flip (unresolved)",
-     "h2h": {},
-     "last": null,
-     "pool_w": 0,
-     "pool_l": 0,
-     "pool_t": 0,
-     "pool_rs": 0,
-     "pool_ra": 0,
-     "seed": null,
-     "bracket": null,
-     "won": 0,
-     "lost": 0,
-     "rs": 0,
-     "ra": 0
     },
     {
      "team": "Hooligans",
@@ -6130,11 +6137,11 @@
      "field": "Dallas:Field # 2",
      "team_a": "Athletes Lab 9U Navy- Stewart",
      "seed_a": null,
-     "score_a": null,
+     "score_a": 14,
      "from_a": null,
      "team_b": "BOILING SPRINGS BULLDOGS BASEBALL 9u",
      "seed_b": null,
-     "score_b": null,
+     "score_b": 1,
      "from_b": null
     },
     {
@@ -10628,7 +10635,7 @@
      "entered_at": "2026-11-02T08:06:34.820Z",
      "level": "AA"
     },
-    "fetched_at": "2026-11-07T16:15"
+    "fetched_at": "2026-11-07T16:26"
    },
    "tgs": {
     "weather": null,
@@ -10729,7 +10736,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-11-07T16:15",
+    "fetched_at": "2026-11-07T16:26",
     "url": "https://topgunstats.com/whos-playing/12524"
    },
    "name": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
@@ -11019,11 +11026,11 @@
      "field": "Dallas:Field # 2",
      "team_a": "Athletes Lab 9U Navy- Stewart",
      "seed_a": null,
-     "score_a": null,
+     "score_a": 14,
      "from_a": null,
      "team_b": "BOILING SPRINGS BULLDOGS BASEBALL 9u",
      "seed_b": null,
-     "score_b": null,
+     "score_b": 1,
      "from_b": null
     },
     {
@@ -11797,9 +11804,9 @@
      "team": "BOILING SPRINGS BULLDOGS BASEBALL 9u",
      "location": "Boiling Springs, NC",
      "won": 0,
-     "lost": 0,
-     "runs_allowed": 0,
-     "runs_scored": 0,
+     "lost": 1,
+     "runs_allowed": 14,
+     "runs_scored": 1,
      "team_page_id": null
     },
     {
@@ -11826,10 +11833,10 @@
      "seed": 23,
      "team": "Athletes Lab 9U Navy- Stewart",
      "location": "Maiden, NC",
-     "won": 1,
+     "won": 2,
      "lost": 0,
-     "runs_allowed": 4,
-     "runs_scored": 5,
+     "runs_allowed": 5,
+     "runs_scored": 19,
      "team_page_id": null
     },
     {
@@ -12753,6 +12760,77 @@
    ],
    "season": "08/01/2026 - 11/06/2026",
    "stats_fetched": "2026-11-06T12:50"
+  },
+  {
+   "team": "Athletes Lab 9U Navy- Stewart",
+   "location": "Maiden, NC",
+   "page_id": null,
+   "url": null,
+   "w": 4,
+   "l": 1,
+   "t": 0,
+   "rs": 41,
+   "ra": 24,
+   "diff": 17,
+   "pct": 0.8,
+   "events": 2,
+   "log": [
+    {
+     "date": "2026-10-24",
+     "event_id": 12522,
+     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
+     "section": "Pool Play",
+     "opponent": "Concord Athletics -9U",
+     "rs": 12,
+     "ra": 3,
+     "result": "W"
+    },
+    {
+     "date": "2026-10-24",
+     "event_id": 12522,
+     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
+     "section": "Pool Play",
+     "opponent": "ZT Knuckleheads",
+     "rs": 6,
+     "ra": 4,
+     "result": "W"
+    },
+    {
+     "date": "2026-10-25",
+     "event_id": 12522,
+     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
+     "section": "Gold Bracket",
+     "opponent": "Carolina Trash Pandas",
+     "rs": 4,
+     "ra": 12,
+     "result": "L"
+    },
+    {
+     "date": "2026-11-07",
+     "event_id": 12524,
+     "event": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
+     "section": "Pool Play",
+     "opponent": "ROCO Dirtbagz",
+     "rs": 5,
+     "ra": 4,
+     "result": "W"
+    },
+    {
+     "date": "2026-11-07",
+     "event_id": 12524,
+     "event": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
+     "section": "Pool Play",
+     "opponent": "BOILING SPRINGS BULLDOGS BASEBALL 9u",
+     "rs": 14,
+     "ra": 1,
+     "result": "W"
+    }
+   ],
+   "points": 0,
+   "titles": 0,
+   "finishes": [],
+   "season": "",
+   "stats_fetched": null
   },
   {
    "team": "Mara Bulls",
@@ -13686,67 +13764,6 @@
    ],
    "season": "08/01/2026 - 11/06/2026",
    "stats_fetched": "2026-11-06T12:53"
-  },
-  {
-   "team": "Athletes Lab 9U Navy- Stewart",
-   "location": "Maiden, NC",
-   "page_id": null,
-   "url": null,
-   "w": 3,
-   "l": 1,
-   "t": 0,
-   "rs": 27,
-   "ra": 23,
-   "diff": 4,
-   "pct": 0.75,
-   "events": 2,
-   "log": [
-    {
-     "date": "2026-10-24",
-     "event_id": 12522,
-     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
-     "section": "Pool Play",
-     "opponent": "Concord Athletics -9U",
-     "rs": 12,
-     "ra": 3,
-     "result": "W"
-    },
-    {
-     "date": "2026-10-24",
-     "event_id": 12522,
-     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
-     "section": "Pool Play",
-     "opponent": "ZT Knuckleheads",
-     "rs": 6,
-     "ra": 4,
-     "result": "W"
-    },
-    {
-     "date": "2026-10-25",
-     "event_id": 12522,
-     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
-     "section": "Gold Bracket",
-     "opponent": "Carolina Trash Pandas",
-     "rs": 4,
-     "ra": 12,
-     "result": "L"
-    },
-    {
-     "date": "2026-11-07",
-     "event_id": 12524,
-     "event": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
-     "section": "Pool Play",
-     "opponent": "ROCO Dirtbagz",
-     "rs": 5,
-     "ra": 4,
-     "result": "W"
-    }
-   ],
-   "points": 0,
-   "titles": 0,
-   "finishes": [],
-   "season": "",
-   "stats_fetched": null
   },
   {
    "team": "Dirtbags Baseball ESB",
@@ -20064,6 +20081,37 @@
    ],
    "season": "08/01/2026 - 11/06/2026",
    "stats_fetched": "2026-11-06T12:52"
+  },
+  {
+   "team": "BOILING SPRINGS BULLDOGS BASEBALL 9u",
+   "location": "Boiling Springs, NC",
+   "page_id": null,
+   "url": null,
+   "w": 0,
+   "l": 1,
+   "t": 0,
+   "rs": 1,
+   "ra": 14,
+   "diff": -13,
+   "pct": 0.0,
+   "events": 1,
+   "log": [
+    {
+     "date": "2026-11-07",
+     "event_id": 12524,
+     "event": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
+     "section": "Pool Play",
+     "opponent": "Athletes Lab 9U Navy- Stewart",
+     "rs": 1,
+     "ra": 14,
+     "result": "L"
+    }
+   ],
+   "points": 0,
+   "titles": 0,
+   "finishes": [],
+   "season": "",
+   "stats_fetched": null
   },
   {
    "team": "High Point Hurricanes",
