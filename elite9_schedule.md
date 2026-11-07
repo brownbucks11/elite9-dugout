@@ -1,5 +1,5 @@
 # Elite 9 - Top Gun schedule
-_Updated Sat Nov 07, 2026 10:20 AM_
+_Updated Sat Nov 07, 2026 10:30 AM_
 
 ## SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND
 September 26 - 27 in Greater Charlotte Area, NC  
@@ -239,13 +239,13 @@ November 7 - 8 in Greater Charlotte Area, NC
 Tournament 12524 - [schedule page](https://playtopgunsports.com/GameTimesResults.aspx?trnid=12524)
 
 ### 9U  Modified Stealing
-**Standing:** #12 of 24  -  0-0, RS 0, RA 0
+**Standing:** #12 of 24  -  0-1, RS 4, RA 12
 
 **Elite 9 games**
 
 | G | When | Field | Team A | Team B |
 |---|---|---|---|---|
-| Pool 3 | Sat 8:30 AM | Dallas:Field # 3 | Mara Bulls | Elite 9 |
+| Pool 3 | Sat 8:30 AM | Dallas:Field # 3 | Mara Bulls 12 | Elite 9 4 |
 | Pool 7 | Sat 10:15 AM | Dallas:Field # 3 | PeeDee Mudcats | Elite 9 |
 
 **9U standings**
@@ -261,9 +261,9 @@ Tournament 12524 - [schedule page](https://playtopgunsports.com/GameTimesResults
 | 7 | Mara Cobras | Matthews, NC | 0-0 | 0 | 0 |
 | 8 | Union County Legends | Waxhaw, NC | 0-0 | 0 | 0 |
 | 9 | SC Tide - Lucariello | Clover, SC | 0-0 | 0 | 0 |
-| 10 | Mara Bulls | matthews, NC | 0-0 | 0 | 0 |
+| 10 | Mara Bulls | matthews, NC | 1-0 | 12 | 4 |
 | 11 | Red Clay Athletics 9U Darcangelo | Charlotte, NC | 0-0 | 0 | 0 |
-| 12 | Elite 9 **<--** | Rock Hill, SC | 0-0 | 0 | 0 |
+| 12 | Elite 9 **<--** | Rock Hill, SC | 0-1 | 4 | 12 |
 | 13 | Carolina Regulators 9u | Stanley, NC | 0-1 | 0 | 16 |
 | 14 | Carolina 9Uw | Gastonia, NC | 0-1 | 0 | 8 |
 | 15 | Carolina Elevate | Lenoir, NC | 0-0 | 0 | 0 |
