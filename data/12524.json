@@ -404,10 +404,10 @@
           "seed": 10,
           "team": "Mara Bulls",
           "location": "matthews, NC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
-          "runs_allowed": 4,
-          "runs_scored": 12,
+          "runs_allowed": 8,
+          "runs_scored": 27,
           "team_page_id": null
         },
         {
@@ -525,9 +525,9 @@
           "team": "PeeDee Mudcats",
           "location": "Wadesboro, NC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 13,
-          "runs_scored": 8,
+          "lost": 2,
+          "runs_allowed": 28,
+          "runs_scored": 12,
           "team_page_id": null
         },
         {
@@ -680,10 +680,10 @@
             "field": "Dallas:Field # 3",
             "team_a": "PeeDee Mudcats",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 4,
             "team_b": "Mara Bulls",
             "seed_b": null,
-            "score_b": null
+            "score_b": 15
           },
           {
             "game": 12,
@@ -2014,10 +2014,10 @@
           "seed": 15,
           "team": "MP Bombers 11U",
           "location": "Mount Pleasant, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 6,
+          "runs_scored": 7,
           "team_page_id": null
         },
         {
@@ -2025,9 +2025,9 @@
           "team": "11u Mission Baseball",
           "location": "Waxhaw, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 7,
+          "runs_scored": 6,
           "team_page_id": null
         }
       ],
@@ -2088,10 +2088,10 @@
             "field": "Tega Cay:Field 2",
             "team_a": "11u Mission Baseball",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 6,
             "team_b": "MP Bombers 11U",
             "seed_b": null,
-            "score_b": null
+            "score_b": 7
           },
           {
             "game": 6,
@@ -4142,5 +4142,5 @@
   },
   "site_last_updated": "11/05/2026 12:03 PM",
   "tournament_id": 12524,
-  "fetched_at": "2026-11-07T13:27"
+  "fetched_at": "2026-11-07T13:38"
 }

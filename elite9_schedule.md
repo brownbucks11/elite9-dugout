@@ -1,5 +1,5 @@
 # Elite 9 - Top Gun schedule
-_Updated Sat Nov 07, 2026 01:27 PM_
+_Updated Sat Nov 07, 2026 01:38 PM_
 
 ## SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND
 September 26 - 27 in Greater Charlotte Area, NC  
@@ -261,7 +261,7 @@ Tournament 12524 - [schedule page](https://playtopgunsports.com/GameTimesResults
 | 7 | Mara Cobras | Matthews, NC | 0-0 | 0 | 0 |
 | 8 | Union County Legends | Waxhaw, NC | 0-0 | 0 | 0 |
 | 9 | SC Tide - Lucariello | Clover, SC | 0-0 | 0 | 0 |
-| 10 | Mara Bulls | matthews, NC | 1-0 | 12 | 4 |
+| 10 | Mara Bulls | matthews, NC | 2-0 | 27 | 8 |
 | 11 | Red Clay Athletics 9U Darcangelo | Charlotte, NC | 1-1 | 16 | 6 |
 | 12 | Elite 9 **<--** | Rock Hill, SC | 1-1 | 17 | 20 |
 | 13 | Carolina Regulators 9u | Stanley, NC | 0-1 | 0 | 16 |
@@ -273,7 +273,7 @@ Tournament 12524 - [schedule page](https://playtopgunsports.com/GameTimesResults
 | 19 | Copperheads | Mooresville, NC | 2-0 | 13 | 3 |
 | 20 | BOILING SPRINGS BULLDOGS BASEBALL 9u | Boiling Springs, NC | 0-0 | 0 | 0 |
 | 21 | ZT Knuckleheads | Clover, SC | 1-0 | 10 | 5 |
-| 22 | PeeDee Mudcats | Wadesboro, NC | 0-1 | 8 | 13 |
+| 22 | PeeDee Mudcats | Wadesboro, NC | 0-2 | 12 | 28 |
 | 23 | Athletes Lab 9U Navy- Stewart | Maiden, NC | 0-0 | 0 | 0 |
 | 24 | LKN Lightning - Ogburn | Huntersville, NC | 0-0 | 0 | 0 |
 
