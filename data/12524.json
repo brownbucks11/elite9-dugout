@@ -414,10 +414,10 @@
           "seed": 11,
           "team": "Red Clay Athletics 9U Darcangelo",
           "location": "Charlotte, NC",
-          "won": 0,
+          "won": 1,
           "lost": 1,
-          "runs_allowed": 5,
-          "runs_scored": 3,
+          "runs_allowed": 6,
+          "runs_scored": 16,
           "team_page_id": null
         },
         {
@@ -445,9 +445,9 @@
           "team": "Carolina 9Uw",
           "location": "Gastonia, NC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 8,
-          "runs_scored": 0,
+          "lost": 2,
+          "runs_allowed": 21,
+          "runs_scored": 1,
           "team_page_id": null
         },
         {
@@ -668,10 +668,10 @@
             "field": "Dallas:Field # 2",
             "team_a": "Carolina 9Uw",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 1,
             "team_b": "Red Clay Athletics 9U Darcangelo",
             "seed_b": null,
-            "score_b": null
+            "score_b": 13
           },
           {
             "game": 11,
@@ -4142,5 +4142,5 @@
   },
   "site_last_updated": "11/05/2026 12:03 PM",
   "tournament_id": 12524,
-  "fetched_at": "2026-11-07T12:46"
+  "fetched_at": "2026-11-07T12:56"
 }
