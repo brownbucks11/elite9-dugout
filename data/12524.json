@@ -365,9 +365,9 @@
           "team": "LumberJacks",
           "location": "Gaston County, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 10,
+          "runs_scored": 5,
           "team_page_id": null
         },
         {
@@ -514,10 +514,10 @@
           "seed": 21,
           "team": "ZT Knuckleheads",
           "location": "Clover, SC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 5,
+          "runs_scored": 10,
           "team_page_id": null
         },
         {
@@ -596,10 +596,10 @@
             "field": "Shelby:Field # 3",
             "team_a": "LumberJacks",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 5,
             "team_b": "ZT Knuckleheads",
             "seed_b": null,
-            "score_b": null
+            "score_b": 10
           },
           {
             "game": 5,
@@ -3003,8 +3003,8 @@
           "team": "South Charlotte Revolution",
           "location": "Charlotte, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
+          "lost": 1,
+          "runs_allowed": 4,
           "runs_scored": 0,
           "team_page_id": null
         },
@@ -3012,10 +3012,10 @@
           "seed": 6,
           "team": "Copperheads Black",
           "location": "Mooresville, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
           "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_scored": 4,
           "team_page_id": null
         },
         {
@@ -3078,10 +3078,10 @@
             "field": "Tega Cay:Field 4",
             "team_a": "Copperheads Black",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 4,
             "team_b": "South Charlotte Revolution",
             "seed_b": null,
-            "score_b": null
+            "score_b": 0
           },
           {
             "game": 2,
@@ -3378,9 +3378,9 @@
           "team": "Toxic NC",
           "location": "Startown, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 17,
+          "runs_scored": 2,
           "team_page_id": null
         },
         {
@@ -3407,10 +3407,10 @@
           "seed": 9,
           "team": "ELITE BASEBALL 13/14u EBC",
           "location": "Forest City, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 2,
+          "runs_scored": 17,
           "team_page_id": null
         },
         {
@@ -3453,10 +3453,10 @@
             "field": "SP:Field #3",
             "team_a": "ELITE BASEBALL 13/14u EBC",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 17,
             "team_b": "Toxic NC",
             "seed_b": null,
-            "score_b": null
+            "score_b": 2
           },
           {
             "game": 2,
@@ -4142,5 +4142,5 @@
   },
   "site_last_updated": "11/05/2026 12:03 PM",
   "tournament_id": 12524,
-  "fetched_at": "2026-11-07T10:30"
+  "fetched_at": "2026-11-07T10:41"
 }
