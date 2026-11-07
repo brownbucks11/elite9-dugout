@@ -3,7 +3,7 @@
  "location": "Rock Hill, SC",
  "page_id": 31407,
  "team_url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=31407",
- "built": "Sat Nov 07, 2026 06:00 PM",
+ "built": "Sat Nov 07, 2026 06:11 PM",
  "record": {
   "w": 7,
   "l": 11,
@@ -5226,7 +5226,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-11-07T18:00",
+    "fetched_at": "2026-11-07T18:10",
     "url": "https://topgunstats.com/whos-playing/12524"
    },
    "next_game": null,
@@ -5234,7 +5234,7 @@
    "standing": {
     "team": "Elite 9",
     "location": "Rock Hill, SC",
-    "rank": 11,
+    "rank": 12,
     "tiebreak": "runs allowed",
     "h2h": {
      "Mara Bulls": "L",
@@ -5493,9 +5493,35 @@
      "ra": 6
     },
     {
+     "team": "ROCO Dirtbagz",
+     "location": "Forest City, NC",
+     "rank": 10,
+     "tiebreak": "runs allowed",
+     "h2h": {
+      "Athletes Lab 9U Navy- Stewart": "L",
+      "BOILING SPRINGS BULLDOGS BASEBALL 9u": "W"
+     },
+     "last": {
+      "opponent": "BOILING SPRINGS BULLDOGS BASEBALL 9u",
+      "rs": 10,
+      "ra": 2
+     },
+     "pool_w": 1,
+     "pool_l": 1,
+     "pool_t": 0,
+     "pool_rs": 14,
+     "pool_ra": 7,
+     "seed": null,
+     "bracket": null,
+     "won": 1,
+     "lost": 1,
+     "rs": 14,
+     "ra": 7
+    },
+    {
      "team": "LumberJacks",
      "location": "Gaston County, NC",
-     "rank": 10,
+     "rank": 11,
      "tiebreak": "runs allowed",
      "h2h": {
       "ZT Knuckleheads": "L",
@@ -5521,7 +5547,7 @@
     {
      "team": "Elite 9",
      "location": "Rock Hill, SC",
-     "rank": 11,
+     "rank": 12,
      "tiebreak": "runs allowed",
      "h2h": {
       "Mara Bulls": "L",
@@ -5547,7 +5573,7 @@
     {
      "team": "Carolina Regulators 9u",
      "location": "Stanley, NC",
-     "rank": 12,
+     "rank": 13,
      "tiebreak": "runs allowed",
      "h2h": {
       "LKN Bolts": "L",
@@ -5569,31 +5595,6 @@
      "lost": 1,
      "rs": 11,
      "ra": 23
-    },
-    {
-     "team": "ROCO Dirtbagz",
-     "location": "Forest City, NC",
-     "rank": 13,
-     "tiebreak": "runs allowed",
-     "h2h": {
-      "Athletes Lab 9U Navy- Stewart": "L"
-     },
-     "last": {
-      "opponent": "Athletes Lab 9U Navy- Stewart",
-      "rs": 4,
-      "ra": 5
-     },
-     "pool_w": 0,
-     "pool_l": 1,
-     "pool_t": 0,
-     "pool_rs": 4,
-     "pool_ra": 5,
-     "seed": null,
-     "bracket": null,
-     "won": 0,
-     "lost": 1,
-     "rs": 4,
-     "ra": 5
     },
     {
      "team": "Hooligans",
@@ -5722,34 +5723,9 @@
      "ra": 12
     },
     {
-     "team": "BOILING SPRINGS BULLDOGS BASEBALL 9u",
-     "location": "Boiling Springs, NC",
-     "rank": 19,
-     "tiebreak": "runs allowed",
-     "h2h": {
-      "Athletes Lab 9U Navy- Stewart": "L"
-     },
-     "last": {
-      "opponent": "Athletes Lab 9U Navy- Stewart",
-      "rs": 1,
-      "ra": 14
-     },
-     "pool_w": 0,
-     "pool_l": 1,
-     "pool_t": 0,
-     "pool_rs": 1,
-     "pool_ra": 14,
-     "seed": null,
-     "bracket": null,
-     "won": 0,
-     "lost": 1,
-     "rs": 1,
-     "ra": 14
-    },
-    {
      "team": "Waxhaw Militia 9U",
      "location": "Waxhaw, NC",
-     "rank": 20,
+     "rank": 19,
      "tiebreak": "runs allowed",
      "h2h": {
       "Mara Cobras": "L"
@@ -5774,7 +5750,7 @@
     {
      "team": "Carolina 9Uw",
      "location": "Gastonia, NC",
-     "rank": 21,
+     "rank": 20,
      "tiebreak": "runs allowed",
      "h2h": {
       "Copperheads": "L",
@@ -5796,6 +5772,32 @@
      "lost": 2,
      "rs": 1,
      "ra": 21
+    },
+    {
+     "team": "BOILING SPRINGS BULLDOGS BASEBALL 9u",
+     "location": "Boiling Springs, NC",
+     "rank": 21,
+     "tiebreak": "runs allowed",
+     "h2h": {
+      "Athletes Lab 9U Navy- Stewart": "L",
+      "ROCO Dirtbagz": "L"
+     },
+     "last": {
+      "opponent": "ROCO Dirtbagz",
+      "rs": 2,
+      "ra": 10
+     },
+     "pool_w": 0,
+     "pool_l": 2,
+     "pool_t": 0,
+     "pool_rs": 3,
+     "pool_ra": 24,
+     "seed": null,
+     "bracket": null,
+     "won": 0,
+     "lost": 2,
+     "rs": 3,
+     "ra": 24
     },
     {
      "team": "PeeDee Mudcats",
@@ -6215,11 +6217,11 @@
      "field": "Dallas:Field # 2",
      "team_a": "ROCO Dirtbagz",
      "seed_a": null,
-     "score_a": null,
+     "score_a": 10,
      "from_a": null,
      "team_b": "BOILING SPRINGS BULLDOGS BASEBALL 9u",
      "seed_b": null,
-     "score_b": null,
+     "score_b": 2,
      "from_b": null
     },
     {
@@ -10627,7 +10629,7 @@
    "official": false,
    "confirmed": false,
    "summary": {
-    "rank": 11,
+    "rank": 12,
     "teams": 24,
     "pool": "1-1",
     "bracket": null,
@@ -10649,7 +10651,7 @@
      "entered_at": "2026-11-02T08:06:34.820Z",
      "level": "AA"
     },
-    "fetched_at": "2026-11-07T18:00"
+    "fetched_at": "2026-11-07T18:10"
    },
    "tgs": {
     "weather": null,
@@ -10750,7 +10752,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-11-07T18:00",
+    "fetched_at": "2026-11-07T18:10",
     "url": "https://topgunstats.com/whos-playing/12524"
    },
    "name": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
@@ -11104,11 +11106,11 @@
      "field": "Dallas:Field # 2",
      "team_a": "ROCO Dirtbagz",
      "seed_a": null,
-     "score_a": null,
+     "score_a": 10,
      "from_a": null,
      "team_b": "BOILING SPRINGS BULLDOGS BASEBALL 9u",
      "seed_b": null,
-     "score_b": null,
+     "score_b": 2,
      "from_b": null
     },
     {
@@ -11647,10 +11649,10 @@
      "seed": 3,
      "team": "ROCO Dirtbagz",
      "location": "Forest City, NC",
-     "won": 0,
+     "won": 1,
      "lost": 1,
-     "runs_allowed": 5,
-     "runs_scored": 4,
+     "runs_allowed": 7,
+     "runs_scored": 14,
      "team_page_id": null
     },
     {
@@ -11818,9 +11820,9 @@
      "team": "BOILING SPRINGS BULLDOGS BASEBALL 9u",
      "location": "Boiling Springs, NC",
      "won": 0,
-     "lost": 1,
-     "runs_allowed": 14,
-     "runs_scored": 1,
+     "lost": 2,
+     "runs_allowed": 24,
+     "runs_scored": 3,
      "team_page_id": null
     },
     {
@@ -16023,6 +16025,188 @@
    "stats_fetched": null
   },
   {
+   "team": "ROCO Dirtbagz",
+   "location": "Forest City, NC",
+   "page_id": 30375,
+   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=30375",
+   "w": 6,
+   "l": 6,
+   "t": 0,
+   "rs": 99,
+   "ra": 98,
+   "diff": 1,
+   "pct": 0.5,
+   "events": 4,
+   "log": [
+    {
+     "date": "2026-09-13",
+     "event_id": 12516,
+     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
+     "section": "Bronze Bracket",
+     "opponent": "Lake Wylie Venom",
+     "rs": 13,
+     "ra": 5,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-13",
+     "event_id": 12516,
+     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
+     "section": "Bronze Bracket",
+     "opponent": "Hooligans",
+     "rs": 2,
+     "ra": 9,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-26",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Pool Play",
+     "opponent": "Dirtbags Baseball ESB",
+     "rs": 13,
+     "ra": 1,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-26",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Pool Play",
+     "opponent": "LumberJacks",
+     "rs": 13,
+     "ra": 7,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-27",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Gold Bracket",
+     "opponent": "South Park Red Raiders",
+     "rs": 2,
+     "ra": 14,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-27",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Gold Bracket",
+     "opponent": "LKN Bolts",
+     "rs": 5,
+     "ra": 17,
+     "result": "L"
+    },
+    {
+     "date": "2026-10-17",
+     "event_id": 12521,
+     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "section": "Pool Play",
+     "opponent": "SC Tide - Lucariello",
+     "rs": 8,
+     "ra": 7,
+     "result": "W"
+    },
+    {
+     "date": "2026-10-17",
+     "event_id": 12521,
+     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "section": "Pool Play",
+     "opponent": "NL Destroyers 2036",
+     "rs": 6,
+     "ra": 9,
+     "result": "L"
+    },
+    {
+     "date": "2026-10-18",
+     "event_id": 12521,
+     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "section": "Silver Bracket",
+     "opponent": "Carolina Icons",
+     "rs": 18,
+     "ra": 10,
+     "result": "W"
+    },
+    {
+     "date": "2026-10-18",
+     "event_id": 12521,
+     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "section": "Silver Bracket",
+     "opponent": "Team 24",
+     "rs": 5,
+     "ra": 12,
+     "result": "L"
+    },
+    {
+     "date": "2026-11-07",
+     "event_id": 12524,
+     "event": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
+     "section": "Pool Play",
+     "opponent": "Athletes Lab 9U Navy- Stewart",
+     "rs": 4,
+     "ra": 5,
+     "result": "L"
+    },
+    {
+     "date": "2026-11-07",
+     "event_id": 12524,
+     "event": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
+     "section": "Pool Play",
+     "opponent": "BOILING SPRINGS BULLDOGS BASEBALL 9u",
+     "rs": 10,
+     "ra": 2,
+     "result": "W"
+    }
+   ],
+   "points": 2950,
+   "titles": 2,
+   "finishes": [
+    {
+     "date": "2026-09-12",
+     "name": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
+     "won": 1,
+     "lost": 1,
+     "standing": "2nd (Bronze)",
+     "points": 475
+    },
+    {
+     "date": "2026-09-26",
+     "name": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "won": 2,
+     "lost": 2,
+     "standing": "4th (Gold)",
+     "points": 725
+    },
+    {
+     "date": "2026-10-09",
+     "name": "FRIDAY NIGHT G.O.A.T. SERIES 9U&11U",
+     "won": 3,
+     "lost": 0,
+     "standing": "1st (Gold)",
+     "points": 400
+    },
+    {
+     "date": "2026-10-17",
+     "name": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "won": 2,
+     "lost": 2,
+     "standing": "3rd (Silver)",
+     "points": 1050
+    },
+    {
+     "date": "2026-10-23",
+     "name": "SUPER TOP-40 PINK QUALIFIER FOR SHIPYARD FOR 2027--HOLD YOUR SPOT NOW",
+     "won": 2,
+     "lost": 1,
+     "standing": "1st (Silver)",
+     "points": 300
+    }
+   ],
+   "season": "08/01/2026 - 11/06/2026",
+   "stats_fetched": "2026-11-06T12:50"
+  },
+  {
    "team": "Flying Pigs 9U",
    "location": "Clemmons, NC",
    "page_id": 37431,
@@ -16663,178 +16847,6 @@
    ],
    "season": "08/01/2026 - 11/06/2026",
    "stats_fetched": "2026-11-06T12:53"
-  },
-  {
-   "team": "ROCO Dirtbagz",
-   "location": "Forest City, NC",
-   "page_id": 30375,
-   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=30375",
-   "w": 5,
-   "l": 6,
-   "t": 0,
-   "rs": 89,
-   "ra": 96,
-   "diff": -7,
-   "pct": 0.455,
-   "events": 4,
-   "log": [
-    {
-     "date": "2026-09-13",
-     "event_id": 12516,
-     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
-     "section": "Bronze Bracket",
-     "opponent": "Lake Wylie Venom",
-     "rs": 13,
-     "ra": 5,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-13",
-     "event_id": 12516,
-     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
-     "section": "Bronze Bracket",
-     "opponent": "Hooligans",
-     "rs": 2,
-     "ra": 9,
-     "result": "L"
-    },
-    {
-     "date": "2026-09-26",
-     "event_id": 12518,
-     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "section": "Pool Play",
-     "opponent": "Dirtbags Baseball ESB",
-     "rs": 13,
-     "ra": 1,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-26",
-     "event_id": 12518,
-     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "section": "Pool Play",
-     "opponent": "LumberJacks",
-     "rs": 13,
-     "ra": 7,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-27",
-     "event_id": 12518,
-     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "section": "Gold Bracket",
-     "opponent": "South Park Red Raiders",
-     "rs": 2,
-     "ra": 14,
-     "result": "L"
-    },
-    {
-     "date": "2026-09-27",
-     "event_id": 12518,
-     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "section": "Gold Bracket",
-     "opponent": "LKN Bolts",
-     "rs": 5,
-     "ra": 17,
-     "result": "L"
-    },
-    {
-     "date": "2026-10-17",
-     "event_id": 12521,
-     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
-     "section": "Pool Play",
-     "opponent": "SC Tide - Lucariello",
-     "rs": 8,
-     "ra": 7,
-     "result": "W"
-    },
-    {
-     "date": "2026-10-17",
-     "event_id": 12521,
-     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
-     "section": "Pool Play",
-     "opponent": "NL Destroyers 2036",
-     "rs": 6,
-     "ra": 9,
-     "result": "L"
-    },
-    {
-     "date": "2026-10-18",
-     "event_id": 12521,
-     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
-     "section": "Silver Bracket",
-     "opponent": "Carolina Icons",
-     "rs": 18,
-     "ra": 10,
-     "result": "W"
-    },
-    {
-     "date": "2026-10-18",
-     "event_id": 12521,
-     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
-     "section": "Silver Bracket",
-     "opponent": "Team 24",
-     "rs": 5,
-     "ra": 12,
-     "result": "L"
-    },
-    {
-     "date": "2026-11-07",
-     "event_id": 12524,
-     "event": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
-     "section": "Pool Play",
-     "opponent": "Athletes Lab 9U Navy- Stewart",
-     "rs": 4,
-     "ra": 5,
-     "result": "L"
-    }
-   ],
-   "points": 2950,
-   "titles": 2,
-   "finishes": [
-    {
-     "date": "2026-09-12",
-     "name": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
-     "won": 1,
-     "lost": 1,
-     "standing": "2nd (Bronze)",
-     "points": 475
-    },
-    {
-     "date": "2026-09-26",
-     "name": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "won": 2,
-     "lost": 2,
-     "standing": "4th (Gold)",
-     "points": 725
-    },
-    {
-     "date": "2026-10-09",
-     "name": "FRIDAY NIGHT G.O.A.T. SERIES 9U&11U",
-     "won": 3,
-     "lost": 0,
-     "standing": "1st (Gold)",
-     "points": 400
-    },
-    {
-     "date": "2026-10-17",
-     "name": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
-     "won": 2,
-     "lost": 2,
-     "standing": "3rd (Silver)",
-     "points": 1050
-    },
-    {
-     "date": "2026-10-23",
-     "name": "SUPER TOP-40 PINK QUALIFIER FOR SHIPYARD FOR 2027--HOLD YOUR SPOT NOW",
-     "won": 2,
-     "lost": 1,
-     "standing": "1st (Silver)",
-     "points": 300
-    }
-   ],
-   "season": "08/01/2026 - 11/06/2026",
-   "stats_fetched": "2026-11-06T12:50"
   },
   {
    "team": "Union County Legends",
@@ -20137,37 +20149,6 @@
    "stats_fetched": "2026-11-06T12:52"
   },
   {
-   "team": "BOILING SPRINGS BULLDOGS BASEBALL 9u",
-   "location": "Boiling Springs, NC",
-   "page_id": null,
-   "url": null,
-   "w": 0,
-   "l": 1,
-   "t": 0,
-   "rs": 1,
-   "ra": 14,
-   "diff": -13,
-   "pct": 0.0,
-   "events": 1,
-   "log": [
-    {
-     "date": "2026-11-07",
-     "event_id": 12524,
-     "event": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
-     "section": "Pool Play",
-     "opponent": "Athletes Lab 9U Navy- Stewart",
-     "rs": 1,
-     "ra": 14,
-     "result": "L"
-    }
-   ],
-   "points": 0,
-   "titles": 0,
-   "finishes": [],
-   "season": "",
-   "stats_fetched": null
-  },
-  {
    "team": "High Point Hurricanes",
    "location": "High Point, NC",
    "page_id": 38939,
@@ -20259,6 +20240,47 @@
      "opponent": "Red Clay Athletics 9U Darcangelo",
      "rs": 1,
      "ra": 13,
+     "result": "L"
+    }
+   ],
+   "points": 0,
+   "titles": 0,
+   "finishes": [],
+   "season": "",
+   "stats_fetched": null
+  },
+  {
+   "team": "BOILING SPRINGS BULLDOGS BASEBALL 9u",
+   "location": "Boiling Springs, NC",
+   "page_id": null,
+   "url": null,
+   "w": 0,
+   "l": 2,
+   "t": 0,
+   "rs": 3,
+   "ra": 24,
+   "diff": -21,
+   "pct": 0.0,
+   "events": 1,
+   "log": [
+    {
+     "date": "2026-11-07",
+     "event_id": 12524,
+     "event": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
+     "section": "Pool Play",
+     "opponent": "Athletes Lab 9U Navy- Stewart",
+     "rs": 1,
+     "ra": 14,
+     "result": "L"
+    },
+    {
+     "date": "2026-11-07",
+     "event_id": 12524,
+     "event": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
+     "section": "Pool Play",
+     "opponent": "ROCO Dirtbagz",
+     "rs": 2,
+     "ra": 10,
      "result": "L"
     }
    ],
