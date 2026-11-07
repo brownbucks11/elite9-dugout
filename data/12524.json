@@ -1161,10 +1161,10 @@
           "seed": 1,
           "team": "Carolina Clippers 10U",
           "location": "Richfield, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 8,
+          "runs_scored": 17,
           "team_page_id": null
         },
         {
@@ -1182,9 +1182,9 @@
           "team": "East Rowan",
           "location": "Rockwell, NC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 10,
-          "runs_scored": 2,
+          "lost": 2,
+          "runs_allowed": 27,
+          "runs_scored": 10,
           "team_page_id": null
         },
         {
@@ -3327,10 +3327,10 @@
           "seed": 1,
           "team": "SBA Dallas",
           "location": "Dallas, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
           "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_scored": 19,
           "team_page_id": null
         },
         {
@@ -3408,8 +3408,8 @@
           "team": "ELITE BASEBALL 13/14u EBC",
           "location": "Forest City, NC",
           "won": 1,
-          "lost": 0,
-          "runs_allowed": 2,
+          "lost": 1,
+          "runs_allowed": 21,
           "runs_scored": 17,
           "team_page_id": null
         },
@@ -3477,10 +3477,10 @@
             "field": "SP:Field #3",
             "team_a": "ELITE BASEBALL 13/14u EBC",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 0,
             "team_b": "SBA Dallas",
             "seed_b": null,
-            "score_b": null
+            "score_b": 19
           },
           {
             "game": 4,
@@ -4142,5 +4142,5 @@
   },
   "site_last_updated": "11/05/2026 12:03 PM",
   "tournament_id": 12524,
-  "fetched_at": "2026-11-07T12:35"
+  "fetched_at": "2026-11-07T12:46"
 }
