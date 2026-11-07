@@ -81,10 +81,10 @@
           "seed": 3,
           "team": "Dirtbags - Clark 8U",
           "location": "Hickory, NC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
-          "runs_allowed": 17,
-          "runs_scored": 18,
+          "runs_allowed": 35,
+          "runs_scored": 37,
           "team_page_id": null
         },
         {
@@ -112,9 +112,9 @@
           "team": "Canes Atlantic 8u Fareri",
           "location": "Denver, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 19,
+          "runs_scored": 18,
           "team_page_id": null
         },
         {
@@ -197,10 +197,10 @@
             "field": "Westmoreld:Field 4",
             "team_a": "Dirtbags - Clark 8U",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 19,
             "team_b": "Canes Atlantic 8u Fareri",
             "seed_b": null,
-            "score_b": null
+            "score_b": 18
           },
           {
             "game": 7,
@@ -1905,9 +1905,9 @@
           "team": "Carolina Forge 11U",
           "location": "Gastonia, NC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 12,
-          "runs_scored": 3,
+          "lost": 2,
+          "runs_allowed": 20,
+          "runs_scored": 5,
           "team_page_id": null
         },
         {
@@ -1994,10 +1994,10 @@
           "seed": 13,
           "team": "Dirtbags Wagner",
           "location": "Hickory, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 2,
+          "runs_scored": 8,
           "team_page_id": null
         },
         {
@@ -2148,10 +2148,10 @@
             "field": "M. Rivers:Martha Rivers 2",
             "team_a": "Carolina Forge 11U",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 2,
             "team_b": "Dirtbags Wagner",
             "seed_b": null,
-            "score_b": null
+            "score_b": 8
           },
           {
             "game": 11,
@@ -4142,5 +4142,5 @@
   },
   "site_last_updated": "11/05/2026 12:03 PM",
   "tournament_id": 12524,
-  "fetched_at": "2026-11-07T16:58"
+  "fetched_at": "2026-11-07T17:08"
 }
