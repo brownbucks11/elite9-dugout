@@ -1,5 +1,5 @@
 # Elite 9 - Top Gun schedule
-_Updated Sat Nov 07, 2026 09:49 AM_
+_Updated Sat Nov 07, 2026 09:59 AM_
 
 ## SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND
 September 26 - 27 in Greater Charlotte Area, NC  
@@ -255,7 +255,7 @@ Tournament 12524 - [schedule page](https://playtopgunsports.com/GameTimesResults
 | 1 | Team 24 | York, SC | 0-0 | 0 | 0 |
 | 2 | Hooligans | Mount Holly, NC | 0-0 | 0 | 0 |
 | 3 | ROCO Dirtbagz | Forest City, NC | 0-0 | 0 | 0 |
-| 4 | LKN Bolts | Huntersville, NC | 0-0 | 0 | 0 |
+| 4 | LKN Bolts | Huntersville, NC | 1-0 | 16 | 0 |
 | 5 | Waxhaw Militia 9U | Waxhaw, NC | 0-0 | 0 | 0 |
 | 6 | LumberJacks | Gaston County, NC | 0-0 | 0 | 0 |
 | 7 | Mara Cobras | Matthews, NC | 0-0 | 0 | 0 |
@@ -264,13 +264,13 @@ Tournament 12524 - [schedule page](https://playtopgunsports.com/GameTimesResults
 | 10 | Mara Bulls | matthews, NC | 0-0 | 0 | 0 |
 | 11 | Red Clay Athletics 9U Darcangelo | Charlotte, NC | 0-0 | 0 | 0 |
 | 12 | Elite 9 **<--** | Rock Hill, SC | 0-0 | 0 | 0 |
-| 13 | Carolina Regulators 9u | Stanley, NC | 0-0 | 0 | 0 |
-| 14 | Carolina 9Uw | Gastonia, NC | 0-0 | 0 | 0 |
+| 13 | Carolina Regulators 9u | Stanley, NC | 0-1 | 0 | 16 |
+| 14 | Carolina 9Uw | Gastonia, NC | 0-1 | 0 | 8 |
 | 15 | Carolina Elevate | Lenoir, NC | 0-0 | 0 | 0 |
 | 16 | Carolina Forge 9U | Gastonia, NC | 0-0 | 0 | 0 |
 | 17 | Carolina Rapid Fire - Ford | Lincolnton, NC | 0-0 | 0 | 0 |
 | 18 | Diamond Crushers | Concord, NC | 0-0 | 0 | 0 |
-| 19 | Copperheads | Mooresville, NC | 0-0 | 0 | 0 |
+| 19 | Copperheads | Mooresville, NC | 1-0 | 8 | 0 |
 | 20 | BOILING SPRINGS BULLDOGS BASEBALL 9u | Boiling Springs, NC | 0-0 | 0 | 0 |
 | 21 | ZT Knuckleheads | Clover, SC | 0-0 | 0 | 0 |
 | 22 | PeeDee Mudcats | Wadesboro, NC | 0-0 | 0 | 0 |
