@@ -72,9 +72,9 @@
           "team": "Fury Baseball 8u",
           "location": "Forest City, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 15,
+          "runs_scored": 6,
           "team_page_id": null
         },
         {
@@ -101,10 +101,10 @@
           "seed": 5,
           "team": "Carolina Smoke 8u",
           "location": "Concord, NC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
-          "runs_allowed": 15,
-          "runs_scored": 16,
+          "runs_allowed": 21,
+          "runs_scored": 31,
           "team_page_id": null
         },
         {
@@ -149,10 +149,10 @@
             "field": "Westmoreld:Field 4",
             "team_a": "Fury Baseball 8u",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 6,
             "team_b": "Carolina Smoke 8u",
             "seed_b": null,
-            "score_b": null
+            "score_b": 15
           },
           {
             "game": 3,
@@ -2456,9 +2456,9 @@
           "team": "Athletes Lab Navy",
           "location": "Maiden, NC",
           "won": 1,
-          "lost": 0,
-          "runs_allowed": 5,
-          "runs_scored": 10,
+          "lost": 1,
+          "runs_allowed": 18,
+          "runs_scored": 14,
           "team_page_id": null
         },
         {
@@ -2575,10 +2575,10 @@
           "seed": 15,
           "team": "The Battery Training Academy LLC.",
           "location": "Gastonia, NC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
-          "runs_allowed": 8,
-          "runs_scored": 10,
+          "runs_allowed": 12,
+          "runs_scored": 23,
           "team_page_id": null
         }
       ],
@@ -2663,10 +2663,10 @@
             "field": "M. Rivers:Martha Rivers 3",
             "team_a": "Athletes Lab Navy",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 4,
             "team_b": "The Battery Training Academy LLC.",
             "seed_b": null,
-            "score_b": null
+            "score_b": 13
           },
           {
             "game": 8,
@@ -3727,9 +3727,9 @@
           "team": "Destroyers Baseball",
           "location": "Denver, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 18,
+          "runs_scored": 1,
           "team_page_id": null
         },
         {
@@ -3746,10 +3746,10 @@
           "seed": 4,
           "team": "CC CARDINALS 15U",
           "location": "SHELBY, NC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
-          "runs_allowed": 1,
-          "runs_scored": 3,
+          "runs_allowed": 2,
+          "runs_scored": 21,
           "team_page_id": null
         },
         {
@@ -3836,10 +3836,10 @@
             "field": "TOB:Field 1",
             "team_a": "CC CARDINALS 15U",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 18,
             "team_b": "Destroyers Baseball",
             "seed_b": null,
-            "score_b": null
+            "score_b": 1
           },
           {
             "game": 4,
@@ -4142,5 +4142,5 @@
   },
   "site_last_updated": "11/05/2026 12:03 PM",
   "tournament_id": 12524,
-  "fetched_at": "2026-11-07T11:22"
+  "fetched_at": "2026-11-07T11:33"
 }
