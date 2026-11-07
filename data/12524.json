@@ -61,10 +61,10 @@
           "seed": 1,
           "team": "Waxhaw Militia",
           "location": "Waxhaw, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 9,
+          "runs_scored": 11,
           "team_page_id": null
         },
         {
@@ -122,9 +122,9 @@
           "team": "Tribe",
           "location": "Indian Trail, NC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 18,
-          "runs_scored": 17,
+          "lost": 2,
+          "runs_allowed": 29,
+          "runs_scored": 26,
           "team_page_id": null
         }
       ],
@@ -185,10 +185,10 @@
             "field": "Westmoreld:Field 4",
             "team_a": "Waxhaw Militia",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 11,
             "team_b": "Tribe",
             "seed_b": null,
-            "score_b": null
+            "score_b": 9
           },
           {
             "game": 6,
@@ -1302,9 +1302,9 @@
           "team": "Carolina Forge 10U",
           "location": "Gastonia, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 6,
+          "runs_scored": 2,
           "team_page_id": null
         },
         {
@@ -1381,10 +1381,10 @@
           "seed": 18,
           "team": "Rutherford Baseball Academy Team Davis",
           "location": "Rutherfordton, NC",
-          "won": 0,
+          "won": 1,
           "lost": 1,
-          "runs_allowed": 16,
-          "runs_scored": 1,
+          "runs_allowed": 18,
+          "runs_scored": 7,
           "team_page_id": null
         },
         {
@@ -1539,10 +1539,10 @@
             "field": "M. Rivers:Martha Rivers 1",
             "team_a": "Rutherford Baseball Academy Team Davis",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 6,
             "team_b": "Carolina Forge 10U",
             "seed_b": null,
-            "score_b": null
+            "score_b": 2
           },
           {
             "game": 13,
@@ -2506,9 +2506,9 @@
           "team": "Carolina Cutters Baseball",
           "location": "Concord, NC",
           "won": 1,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 24,
+          "lost": 1,
+          "runs_allowed": 8,
+          "runs_scored": 28,
           "team_page_id": null
         },
         {
@@ -2525,10 +2525,10 @@
           "seed": 10,
           "team": "Park Sharon Nationals",
           "location": "Charlotte, NC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 19,
+          "runs_allowed": 4,
+          "runs_scored": 27,
           "team_page_id": null
         },
         {
@@ -2735,10 +2735,10 @@
             "field": "Tega Cay:Field 1",
             "team_a": "Park Sharon Nationals",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 8,
             "team_b": "Carolina Cutters Baseball",
             "seed_b": null,
-            "score_b": null
+            "score_b": 4
           },
           {
             "game": 14,
@@ -2983,9 +2983,9 @@
           "team": "SC Tide - Daly",
           "location": "Clover, SC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 15,
-          "runs_scored": 4,
+          "lost": 2,
+          "runs_allowed": 19,
+          "runs_scored": 5,
           "team_page_id": null
         },
         {
@@ -3022,10 +3022,10 @@
           "seed": 7,
           "team": "Elite9 Knights",
           "location": "Rock Hill, SC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 1,
+          "runs_scored": 4,
           "team_page_id": null
         },
         {
@@ -3150,10 +3150,10 @@
             "field": "Tega Cay:Field 4",
             "team_a": "SC Tide - Daly",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 1,
             "team_b": "Elite9 Knights",
             "seed_b": null,
-            "score_b": null
+            "score_b": 4
           },
           {
             "game": 8,
@@ -4142,5 +4142,5 @@
   },
   "site_last_updated": "11/05/2026 12:03 PM",
   "tournament_id": 12524,
-  "fetched_at": "2026-11-07T15:44"
+  "fetched_at": "2026-11-07T15:55"
 }
