@@ -3,7 +3,7 @@
  "location": "Rock Hill, SC",
  "page_id": 31407,
  "team_url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=31407",
- "built": "Sat Nov 07, 2026 05:08 PM",
+ "built": "Sat Nov 07, 2026 05:18 PM",
  "record": {
   "w": 7,
   "l": 11,
@@ -5226,7 +5226,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-11-07T17:08",
+    "fetched_at": "2026-11-07T17:18",
     "url": "https://topgunstats.com/whos-playing/12524"
    },
    "next_game": null,
@@ -5417,7 +5417,7 @@
      "team": "Mara Bulls",
      "location": "matthews, NC",
      "rank": 7,
-     "tiebreak": "runs scored",
+     "tiebreak": "runs allowed",
      "h2h": {
       "Elite 9": "W",
       "PeeDee Mudcats": "W"
@@ -5443,26 +5443,27 @@
      "team": "Carolina Rapid Fire - Ford",
      "location": "Lincolnton, NC",
      "rank": 8,
-     "tiebreak": "runs scored",
+     "tiebreak": "runs allowed",
      "h2h": {
-      "LKN Lightning - Ogburn": "W"
+      "LKN Lightning - Ogburn": "W",
+      "Hooligans": "W"
      },
      "last": {
-      "opponent": "LKN Lightning - Ogburn",
+      "opponent": "Hooligans",
       "rs": 10,
       "ra": 8
      },
-     "pool_w": 1,
+     "pool_w": 2,
      "pool_l": 0,
      "pool_t": 0,
-     "pool_rs": 10,
-     "pool_ra": 8,
+     "pool_rs": 20,
+     "pool_ra": 16,
      "seed": null,
      "bracket": null,
-     "won": 1,
+     "won": 2,
      "lost": 0,
-     "rs": 10,
-     "ra": 8
+     "rs": 20,
+     "ra": 16
     },
     {
      "team": "Red Clay Athletics 9U Darcangelo",
@@ -5594,10 +5595,35 @@
      "ra": 5
     },
     {
+     "team": "Hooligans",
+     "location": "Mount Holly, NC",
+     "rank": 14,
+     "tiebreak": "coin flip (unresolved)",
+     "h2h": {
+      "Carolina Rapid Fire - Ford": "L"
+     },
+     "last": {
+      "opponent": "Carolina Rapid Fire - Ford",
+      "rs": 8,
+      "ra": 10
+     },
+     "pool_w": 0,
+     "pool_l": 1,
+     "pool_t": 0,
+     "pool_rs": 8,
+     "pool_ra": 10,
+     "seed": null,
+     "bracket": null,
+     "won": 0,
+     "lost": 1,
+     "rs": 8,
+     "ra": 10
+    },
+    {
      "team": "LKN Lightning - Ogburn",
      "location": "Huntersville, NC",
-     "rank": 14,
-     "tiebreak": "runs allowed",
+     "rank": 15,
+     "tiebreak": "coin flip (unresolved)",
      "h2h": {
       "Carolina Rapid Fire - Ford": "L"
      },
@@ -5621,7 +5647,7 @@
     {
      "team": "Carolina Elevate",
      "location": "Lenoir, NC",
-     "rank": 15,
+     "rank": 16,
      "tiebreak": "runs scored",
      "h2h": {
       "LumberJacks": "L",
@@ -5647,7 +5673,7 @@
     {
      "team": "Carolina Forge 9U",
      "location": "Gastonia, NC",
-     "rank": 16,
+     "rank": 17,
      "tiebreak": "runs scored",
      "h2h": {
       "SC Tide - Lucariello": "L"
@@ -5672,7 +5698,7 @@
     {
      "team": "BOILING SPRINGS BULLDOGS BASEBALL 9u",
      "location": "Boiling Springs, NC",
-     "rank": 17,
+     "rank": 18,
      "tiebreak": "runs allowed",
      "h2h": {
       "Athletes Lab 9U Navy- Stewart": "L"
@@ -5697,7 +5723,7 @@
     {
      "team": "Waxhaw Militia 9U",
      "location": "Waxhaw, NC",
-     "rank": 18,
+     "rank": 19,
      "tiebreak": "runs allowed",
      "h2h": {
       "Mara Cobras": "L"
@@ -5722,7 +5748,7 @@
     {
      "team": "Carolina 9Uw",
      "location": "Gastonia, NC",
-     "rank": 19,
+     "rank": 20,
      "tiebreak": "runs allowed",
      "h2h": {
       "Copperheads": "L",
@@ -5748,7 +5774,7 @@
     {
      "team": "PeeDee Mudcats",
      "location": "Wadesboro, NC",
-     "rank": 20,
+     "rank": 21,
      "tiebreak": "runs allowed",
      "h2h": {
       "Elite 9": "L",
@@ -5774,7 +5800,7 @@
     {
      "team": "Diamond Crushers",
      "location": "Concord, NC",
-     "rank": 21,
+     "rank": 22,
      "tiebreak": "runs allowed",
      "h2h": {
       "LKN Bolts": "L",
@@ -5796,25 +5822,6 @@
      "lost": 2,
      "rs": 10,
      "ra": 33
-    },
-    {
-     "team": "Hooligans",
-     "location": "Mount Holly, NC",
-     "rank": 23,
-     "tiebreak": "coin flip (unresolved)",
-     "h2h": {},
-     "last": null,
-     "pool_w": 0,
-     "pool_l": 0,
-     "pool_t": 0,
-     "pool_rs": 0,
-     "pool_ra": 0,
-     "seed": null,
-     "bracket": null,
-     "won": 0,
-     "lost": 0,
-     "rs": 0,
-     "ra": 0
     },
     {
      "team": "Team 24",
@@ -6121,11 +6128,11 @@
      "field": "Dallas:Field # 1",
      "team_a": "Hooligans",
      "seed_a": null,
-     "score_a": null,
+     "score_a": 8,
      "from_a": null,
      "team_b": "Carolina Rapid Fire - Ford",
      "seed_b": null,
-     "score_b": null,
+     "score_b": 10,
      "from_b": null
     },
     {
@@ -10635,7 +10642,7 @@
      "entered_at": "2026-11-02T08:06:34.820Z",
      "level": "AA"
     },
-    "fetched_at": "2026-11-07T17:08"
+    "fetched_at": "2026-11-07T17:18"
    },
    "tgs": {
     "weather": null,
@@ -10736,7 +10743,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-11-07T17:08",
+    "fetched_at": "2026-11-07T17:18",
     "url": "https://topgunstats.com/whos-playing/12524"
    },
    "name": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
@@ -11010,11 +11017,11 @@
      "field": "Dallas:Field # 1",
      "team_a": "Hooligans",
      "seed_a": null,
-     "score_a": null,
+     "score_a": 8,
      "from_a": null,
      "team_b": "Carolina Rapid Fire - Ford",
      "seed_b": null,
-     "score_b": null,
+     "score_b": 10,
      "from_b": null
     },
     {
@@ -11624,9 +11631,9 @@
      "team": "Hooligans",
      "location": "Mount Holly, NC",
      "won": 0,
-     "lost": 0,
-     "runs_allowed": 0,
-     "runs_scored": 0,
+     "lost": 1,
+     "runs_allowed": 10,
+     "runs_scored": 8,
      "team_page_id": null
     },
     {
@@ -11773,10 +11780,10 @@
      "seed": 17,
      "team": "Carolina Rapid Fire - Ford",
      "location": "Lincolnton, NC",
-     "won": 1,
+     "won": 2,
      "lost": 0,
-     "runs_allowed": 8,
-     "runs_scored": 10,
+     "runs_allowed": 16,
+     "runs_scored": 20,
      "team_page_id": null
     },
     {
@@ -12314,12 +12321,12 @@
    "location": "Lincolnton, NC",
    "page_id": null,
    "url": null,
-   "w": 5,
+   "w": 6,
    "l": 0,
    "t": 0,
-   "rs": 50,
-   "ra": 21,
-   "diff": 29,
+   "rs": 60,
+   "ra": 29,
+   "diff": 31,
    "pct": 1.0,
    "events": 2,
    "log": [
@@ -12369,6 +12376,16 @@
      "event": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
      "section": "Pool Play",
      "opponent": "LKN Lightning - Ogburn",
+     "rs": 10,
+     "ra": 8,
+     "result": "W"
+    },
+    {
+     "date": "2026-11-07",
+     "event_id": 12524,
+     "event": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
+     "section": "Pool Play",
+     "opponent": "Hooligans",
      "rs": 10,
      "ra": 8,
      "result": "W"
@@ -12911,216 +12928,6 @@
    ],
    "season": "08/01/2026 - 11/06/2026",
    "stats_fetched": "2026-11-06T12:54"
-  },
-  {
-   "team": "Hooligans",
-   "location": "Mount Holly, NC",
-   "page_id": 34014,
-   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=34014",
-   "w": 11,
-   "l": 3,
-   "t": 0,
-   "rs": 158,
-   "ra": 63,
-   "diff": 95,
-   "pct": 0.786,
-   "events": 4,
-   "log": [
-    {
-     "date": "2026-08-29",
-     "event_id": 12514,
-     "event": "FENCE BUDDIES CHAMPIONSHIPS----- TOP GUN-USA SPORTS EVENT",
-     "section": "Pool Play",
-     "opponent": "Carolina Forge 9U",
-     "rs": 13,
-     "ra": 2,
-     "result": "W"
-    },
-    {
-     "date": "2026-08-29",
-     "event_id": 12514,
-     "event": "FENCE BUDDIES CHAMPIONSHIPS----- TOP GUN-USA SPORTS EVENT",
-     "section": "Pool Play",
-     "opponent": "LumberJacks",
-     "rs": 16,
-     "ra": 4,
-     "result": "W"
-    },
-    {
-     "date": "2026-08-30",
-     "event_id": 12514,
-     "event": "FENCE BUDDIES CHAMPIONSHIPS----- TOP GUN-USA SPORTS EVENT",
-     "section": "Gold Bracket",
-     "opponent": "Red Clay Athletics 9U Darcangelo",
-     "rs": 9,
-     "ra": 1,
-     "result": "W"
-    },
-    {
-     "date": "2026-08-30",
-     "event_id": 12514,
-     "event": "FENCE BUDDIES CHAMPIONSHIPS----- TOP GUN-USA SPORTS EVENT",
-     "section": "Gold Bracket",
-     "opponent": "Canes Atlantic 9u Sulovski",
-     "rs": 1,
-     "ra": 10,
-     "result": "L"
-    },
-    {
-     "date": "2026-09-13",
-     "event_id": 12516,
-     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
-     "section": "Bronze Bracket",
-     "opponent": "Concord Athletics -9U",
-     "rs": 15,
-     "ra": 3,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-13",
-     "event_id": 12516,
-     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
-     "section": "Bronze Bracket",
-     "opponent": "ROCO Dirtbagz",
-     "rs": 9,
-     "ra": 2,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-19",
-     "event_id": 12517,
-     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
-     "section": "Pool Play",
-     "opponent": "Carolina Elevate",
-     "rs": 22,
-     "ra": 3,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-19",
-     "event_id": 12517,
-     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
-     "section": "Pool Play",
-     "opponent": "Carolina Clippers 9U",
-     "rs": 13,
-     "ra": 5,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-20",
-     "event_id": 12517,
-     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
-     "section": "Gold Bracket",
-     "opponent": "Team 24",
-     "rs": 6,
-     "ra": 5,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-20",
-     "event_id": 12517,
-     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
-     "section": "Gold Bracket",
-     "opponent": "NL Destroyers 2036",
-     "rs": 10,
-     "ra": 11,
-     "result": "L"
-    },
-    {
-     "date": "2026-10-24",
-     "event_id": 12522,
-     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
-     "section": "Pool Play",
-     "opponent": "BOILING SPRINGS BULLDOGS BASEBALL 8u",
-     "rs": 17,
-     "ra": 1,
-     "result": "W"
-    },
-    {
-     "date": "2026-10-24",
-     "event_id": 12522,
-     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
-     "section": "Pool Play",
-     "opponent": "Elite 9",
-     "rs": 4,
-     "ra": 8,
-     "result": "L"
-    },
-    {
-     "date": "2026-10-25",
-     "event_id": 12522,
-     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
-     "section": "Silver Bracket",
-     "opponent": "ZT Knuckleheads",
-     "rs": 9,
-     "ra": 3,
-     "result": "W"
-    },
-    {
-     "date": "2026-10-25",
-     "event_id": 12522,
-     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
-     "section": "Silver Bracket",
-     "opponent": "Red Clay Athletics 9U Darcangelo",
-     "rs": 14,
-     "ra": 5,
-     "result": "W"
-    }
-   ],
-   "points": 4025,
-   "titles": 2,
-   "finishes": [
-    {
-     "date": "2026-08-29",
-     "name": "FENCE BUDDIES CHAMPIONSHIPS----- TOP GUN-USA SPORTS EVENT",
-     "won": 3,
-     "lost": 1,
-     "standing": "2nd (Gold)",
-     "points": 375
-    },
-    {
-     "date": "2026-09-12",
-     "name": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
-     "won": 2,
-     "lost": 0,
-     "standing": "1st (Bronze)",
-     "points": 500
-    },
-    {
-     "date": "2026-09-19",
-     "name": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
-     "won": 3,
-     "lost": 1,
-     "standing": "2nd (Gold)",
-     "points": 1550
-    },
-    {
-     "date": "2026-10-03",
-     "name": "DOUBLE POINTS PINK ZONE QUALIFIER---ACTIVATE WINTER FREE PAID BERTHS",
-     "won": 2,
-     "lost": 2,
-     "standing": "2nd (Gold)",
-     "points": 775
-    },
-    {
-     "date": "2026-10-09",
-     "name": "FRIDAY NIGHT G.O.A.T. SERIES 9U&11U",
-     "won": 0,
-     "lost": 2,
-     "standing": "4th (Silver)",
-     "points": 225
-    },
-    {
-     "date": "2026-10-24",
-     "name": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
-     "won": 3,
-     "lost": 1,
-     "standing": "1st (Silver)",
-     "points": 600
-    }
-   ],
-   "season": "08/01/2026 - 11/06/2026",
-   "stats_fetched": "2026-11-06T12:51"
   },
   {
    "team": "Lake Wylie Venom",
@@ -14016,6 +13823,226 @@
    ],
    "season": "08/01/2026 - 11/06/2026",
    "stats_fetched": "2026-11-06T12:53"
+  },
+  {
+   "team": "Hooligans",
+   "location": "Mount Holly, NC",
+   "page_id": 34014,
+   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=34014",
+   "w": 11,
+   "l": 4,
+   "t": 0,
+   "rs": 166,
+   "ra": 73,
+   "diff": 93,
+   "pct": 0.733,
+   "events": 5,
+   "log": [
+    {
+     "date": "2026-08-29",
+     "event_id": 12514,
+     "event": "FENCE BUDDIES CHAMPIONSHIPS----- TOP GUN-USA SPORTS EVENT",
+     "section": "Pool Play",
+     "opponent": "Carolina Forge 9U",
+     "rs": 13,
+     "ra": 2,
+     "result": "W"
+    },
+    {
+     "date": "2026-08-29",
+     "event_id": 12514,
+     "event": "FENCE BUDDIES CHAMPIONSHIPS----- TOP GUN-USA SPORTS EVENT",
+     "section": "Pool Play",
+     "opponent": "LumberJacks",
+     "rs": 16,
+     "ra": 4,
+     "result": "W"
+    },
+    {
+     "date": "2026-08-30",
+     "event_id": 12514,
+     "event": "FENCE BUDDIES CHAMPIONSHIPS----- TOP GUN-USA SPORTS EVENT",
+     "section": "Gold Bracket",
+     "opponent": "Red Clay Athletics 9U Darcangelo",
+     "rs": 9,
+     "ra": 1,
+     "result": "W"
+    },
+    {
+     "date": "2026-08-30",
+     "event_id": 12514,
+     "event": "FENCE BUDDIES CHAMPIONSHIPS----- TOP GUN-USA SPORTS EVENT",
+     "section": "Gold Bracket",
+     "opponent": "Canes Atlantic 9u Sulovski",
+     "rs": 1,
+     "ra": 10,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-13",
+     "event_id": 12516,
+     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
+     "section": "Bronze Bracket",
+     "opponent": "Concord Athletics -9U",
+     "rs": 15,
+     "ra": 3,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-13",
+     "event_id": 12516,
+     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
+     "section": "Bronze Bracket",
+     "opponent": "ROCO Dirtbagz",
+     "rs": 9,
+     "ra": 2,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-19",
+     "event_id": 12517,
+     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
+     "section": "Pool Play",
+     "opponent": "Carolina Elevate",
+     "rs": 22,
+     "ra": 3,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-19",
+     "event_id": 12517,
+     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
+     "section": "Pool Play",
+     "opponent": "Carolina Clippers 9U",
+     "rs": 13,
+     "ra": 5,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-20",
+     "event_id": 12517,
+     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
+     "section": "Gold Bracket",
+     "opponent": "Team 24",
+     "rs": 6,
+     "ra": 5,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-20",
+     "event_id": 12517,
+     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
+     "section": "Gold Bracket",
+     "opponent": "NL Destroyers 2036",
+     "rs": 10,
+     "ra": 11,
+     "result": "L"
+    },
+    {
+     "date": "2026-10-24",
+     "event_id": 12522,
+     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
+     "section": "Pool Play",
+     "opponent": "BOILING SPRINGS BULLDOGS BASEBALL 8u",
+     "rs": 17,
+     "ra": 1,
+     "result": "W"
+    },
+    {
+     "date": "2026-10-24",
+     "event_id": 12522,
+     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
+     "section": "Pool Play",
+     "opponent": "Elite 9",
+     "rs": 4,
+     "ra": 8,
+     "result": "L"
+    },
+    {
+     "date": "2026-10-25",
+     "event_id": 12522,
+     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
+     "section": "Silver Bracket",
+     "opponent": "ZT Knuckleheads",
+     "rs": 9,
+     "ra": 3,
+     "result": "W"
+    },
+    {
+     "date": "2026-10-25",
+     "event_id": 12522,
+     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
+     "section": "Silver Bracket",
+     "opponent": "Red Clay Athletics 9U Darcangelo",
+     "rs": 14,
+     "ra": 5,
+     "result": "W"
+    },
+    {
+     "date": "2026-11-07",
+     "event_id": 12524,
+     "event": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
+     "section": "Pool Play",
+     "opponent": "Carolina Rapid Fire - Ford",
+     "rs": 8,
+     "ra": 10,
+     "result": "L"
+    }
+   ],
+   "points": 4025,
+   "titles": 2,
+   "finishes": [
+    {
+     "date": "2026-08-29",
+     "name": "FENCE BUDDIES CHAMPIONSHIPS----- TOP GUN-USA SPORTS EVENT",
+     "won": 3,
+     "lost": 1,
+     "standing": "2nd (Gold)",
+     "points": 375
+    },
+    {
+     "date": "2026-09-12",
+     "name": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
+     "won": 2,
+     "lost": 0,
+     "standing": "1st (Bronze)",
+     "points": 500
+    },
+    {
+     "date": "2026-09-19",
+     "name": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
+     "won": 3,
+     "lost": 1,
+     "standing": "2nd (Gold)",
+     "points": 1550
+    },
+    {
+     "date": "2026-10-03",
+     "name": "DOUBLE POINTS PINK ZONE QUALIFIER---ACTIVATE WINTER FREE PAID BERTHS",
+     "won": 2,
+     "lost": 2,
+     "standing": "2nd (Gold)",
+     "points": 775
+    },
+    {
+     "date": "2026-10-09",
+     "name": "FRIDAY NIGHT G.O.A.T. SERIES 9U&11U",
+     "won": 0,
+     "lost": 2,
+     "standing": "4th (Silver)",
+     "points": 225
+    },
+    {
+     "date": "2026-10-24",
+     "name": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
+     "won": 3,
+     "lost": 1,
+     "standing": "1st (Silver)",
+     "points": 600
+    }
+   ],
+   "season": "08/01/2026 - 11/06/2026",
+   "stats_fetched": "2026-11-06T12:51"
   },
   {
    "team": "NL Destroyers 2036",

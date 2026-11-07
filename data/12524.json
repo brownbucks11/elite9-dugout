@@ -325,9 +325,9 @@
           "team": "Hooligans",
           "location": "Mount Holly, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 10,
+          "runs_scored": 8,
           "team_page_id": null
         },
         {
@@ -474,10 +474,10 @@
           "seed": 17,
           "team": "Carolina Rapid Fire - Ford",
           "location": "Lincolnton, NC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
-          "runs_allowed": 8,
-          "runs_scored": 10,
+          "runs_allowed": 16,
+          "runs_scored": 20,
           "team_page_id": null
         },
         {
@@ -752,10 +752,10 @@
             "field": "Dallas:Field # 1",
             "team_a": "Hooligans",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 8,
             "team_b": "Carolina Rapid Fire - Ford",
             "seed_b": null,
-            "score_b": null
+            "score_b": 10
           },
           {
             "game": 18,
@@ -1232,9 +1232,9 @@
           "team": "North Lincoln Futures 35",
           "location": "Denver, NC",
           "won": 1,
-          "lost": 0,
-          "runs_allowed": 4,
-          "runs_scored": 16,
+          "lost": 1,
+          "runs_allowed": 20,
+          "runs_scored": 22,
           "team_page_id": null
         },
         {
@@ -1311,10 +1311,10 @@
           "seed": 11,
           "team": "Carolina Locos- 10U White",
           "location": "Waxhaw, NC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
-          "runs_allowed": 5,
-          "runs_scored": 13,
+          "runs_allowed": 11,
+          "runs_scored": 29,
           "team_page_id": null
         },
         {
@@ -1575,10 +1575,10 @@
             "field": "M. Rivers:Martha Rivers 4",
             "team_a": "Carolina Locos- 10U White",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 16,
             "team_b": "North Lincoln Futures 35",
             "seed_b": null,
-            "score_b": null
+            "score_b": 6
           },
           {
             "game": 16,
@@ -3766,10 +3766,10 @@
           "seed": 6,
           "team": "Carolina Elevate",
           "location": "Lenoir, NC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
           "runs_allowed": 1,
-          "runs_scored": 16,
+          "runs_scored": 29,
           "team_page_id": null
         },
         {
@@ -3777,8 +3777,8 @@
           "team": "USA Scout Carolinas",
           "location": "Charlotte, NC",
           "won": 1,
-          "lost": 0,
-          "runs_allowed": 3,
+          "lost": 1,
+          "runs_allowed": 16,
           "runs_scored": 6,
           "team_page_id": null
         },
@@ -3908,10 +3908,10 @@
             "field": "TOB:Field 1",
             "team_a": "Carolina Elevate",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 13,
             "team_b": "USA Scout Carolinas",
             "seed_b": null,
-            "score_b": null
+            "score_b": 0
           }
         ],
         "Gold Bracket": [
@@ -4142,5 +4142,5 @@
   },
   "site_last_updated": "11/05/2026 12:03 PM",
   "tournament_id": 12524,
-  "fetched_at": "2026-11-07T17:08"
+  "fetched_at": "2026-11-07T17:18"
 }

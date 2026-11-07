@@ -1,5 +1,5 @@
 # Elite 9 - Top Gun schedule
-_Updated Sat Nov 07, 2026 05:08 PM_
+_Updated Sat Nov 07, 2026 05:18 PM_
 
 ## SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND
 September 26 - 27 in Greater Charlotte Area, NC  
@@ -253,7 +253,7 @@ Tournament 12524 - [schedule page](https://playtopgunsports.com/GameTimesResults
 | # | Team | From | W-L | RS | RA |
 |---|---|---|---|---|---|
 | 1 | Team 24 | York, SC | 0-0 | 0 | 0 |
-| 2 | Hooligans | Mount Holly, NC | 0-0 | 0 | 0 |
+| 2 | Hooligans | Mount Holly, NC | 0-1 | 8 | 10 |
 | 3 | ROCO Dirtbagz | Forest City, NC | 0-1 | 4 | 5 |
 | 4 | LKN Bolts | Huntersville, NC | 2-0 | 38 | 3 |
 | 5 | Waxhaw Militia 9U | Waxhaw, NC | 0-1 | 1 | 18 |
@@ -268,7 +268,7 @@ Tournament 12524 - [schedule page](https://playtopgunsports.com/GameTimesResults
 | 14 | Carolina 9Uw | Gastonia, NC | 0-2 | 1 | 21 |
 | 15 | Carolina Elevate | Lenoir, NC | 0-2 | 5 | 12 |
 | 16 | Carolina Forge 9U | Gastonia, NC | 0-1 | 4 | 12 |
-| 17 | Carolina Rapid Fire - Ford | Lincolnton, NC | 1-0 | 10 | 8 |
+| 17 | Carolina Rapid Fire - Ford | Lincolnton, NC | 2-0 | 20 | 16 |
 | 18 | Diamond Crushers | Concord, NC | 0-2 | 10 | 33 |
 | 19 | Copperheads | Mooresville, NC | 2-0 | 13 | 3 |
 | 20 | BOILING SPRINGS BULLDOGS BASEBALL 9u | Boiling Springs, NC | 0-1 | 1 | 14 |
