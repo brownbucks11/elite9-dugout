@@ -2516,9 +2516,9 @@
           "team": "Carolina Reign Baseball 12U",
           "location": "Lincolnton, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 16,
+          "runs_scored": 3,
           "team_page_id": null
         },
         {
@@ -2555,10 +2555,10 @@
           "seed": 13,
           "team": "ELOC 12u Challenge",
           "location": "Denver, NC",
-          "won": 0,
+          "won": 1,
           "lost": 1,
-          "runs_allowed": 18,
-          "runs_scored": 6,
+          "runs_allowed": 21,
+          "runs_scored": 22,
           "team_page_id": null
         },
         {
@@ -2747,10 +2747,10 @@
             "field": "Shelby:Field # 2",
             "team_a": "ELOC 12u Challenge",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 16,
             "team_b": "Carolina Reign Baseball 12U",
             "seed_b": null,
-            "score_b": null
+            "score_b": 3
           },
           {
             "game": 15,
@@ -3368,9 +3368,9 @@
           "team": "Banana Peppers Baseball",
           "location": "Gastonia, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 13,
+          "runs_scored": 1,
           "team_page_id": null
         },
         {
@@ -3397,10 +3397,10 @@
           "seed": 8,
           "team": "Foothills Elite",
           "location": "Hickory, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 1,
+          "runs_scored": 13,
           "team_page_id": null
         },
         {
@@ -3525,10 +3525,10 @@
             "field": "SP:Field #3",
             "team_a": "Foothills Elite",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 13,
             "team_b": "Banana Peppers Baseball",
             "seed_b": null,
-            "score_b": null
+            "score_b": 1
           },
           {
             "game": 8,
@@ -4142,5 +4142,5 @@
   },
   "site_last_updated": "11/05/2026 12:03 PM",
   "tournament_id": 12524,
-  "fetched_at": "2026-11-07T16:26"
+  "fetched_at": "2026-11-07T16:37"
 }
