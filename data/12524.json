@@ -384,10 +384,10 @@
           "seed": 8,
           "team": "Union County Legends",
           "location": "Waxhaw, NC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 7,
+          "runs_scored": 30,
           "team_page_id": null
         },
         {
@@ -395,9 +395,9 @@
           "team": "SC Tide - Lucariello",
           "location": "Clover, SC",
           "won": 1,
-          "lost": 0,
-          "runs_allowed": 4,
-          "runs_scored": 12,
+          "lost": 1,
+          "runs_allowed": 34,
+          "runs_scored": 19,
           "team_page_id": null
         },
         {
@@ -788,10 +788,10 @@
             "field": "Shelby:Field # 3",
             "team_a": "SC Tide - Lucariello",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 7,
             "team_b": "Union County Legends",
             "seed_b": null,
-            "score_b": null
+            "score_b": 30
           },
           {
             "game": 21,
@@ -4105,10 +4105,10 @@
             "day": "Sun",
             "time": "12:30 PM",
             "field": "SP:Field #2",
-            "team_a": "",
+            "team_a": "Stars and Stripes Sports",
             "seed_a": 1,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Triad Warriors",
             "seed_b": 4,
             "score_b": null
           },
@@ -4117,10 +4117,10 @@
             "day": "Sun",
             "time": "10:30 AM",
             "field": "SP:Field #2",
-            "team_a": "",
+            "team_a": "Startown Elite",
             "seed_a": 2,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Carolina Elevate 17U",
             "seed_b": 3,
             "score_b": null
           },
@@ -4142,5 +4142,5 @@
   },
   "site_last_updated": "11/05/2026 12:03 PM",
   "tournament_id": 12524,
-  "fetched_at": "2026-11-07T18:21"
+  "fetched_at": "2026-11-07T18:32"
 }

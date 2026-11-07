@@ -3,7 +3,7 @@
  "location": "Rock Hill, SC",
  "page_id": 31407,
  "team_url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=31407",
- "built": "Sat Nov 07, 2026 06:21 PM",
+ "built": "Sat Nov 07, 2026 06:32 PM",
  "record": {
   "w": 7,
   "l": 11,
@@ -5226,7 +5226,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-11-07T18:21",
+    "fetched_at": "2026-11-07T18:31",
     "url": "https://topgunstats.com/whos-playing/12524"
    },
    "next_game": null,
@@ -5312,34 +5312,9 @@
      "ra": 3
     },
     {
-     "team": "SC Tide - Lucariello",
-     "location": "Clover, SC",
-     "rank": 3,
-     "tiebreak": "runs allowed",
-     "h2h": {
-      "Carolina Forge 9U": "W"
-     },
-     "last": {
-      "opponent": "Carolina Forge 9U",
-      "rs": 12,
-      "ra": 4
-     },
-     "pool_w": 1,
-     "pool_l": 0,
-     "pool_t": 0,
-     "pool_rs": 12,
-     "pool_ra": 4,
-     "seed": null,
-     "bracket": null,
-     "won": 1,
-     "lost": 0,
-     "rs": 12,
-     "ra": 4
-    },
-    {
      "team": "Athletes Lab 9U Navy- Stewart",
      "location": "Maiden, NC",
-     "rank": 4,
+     "rank": 3,
      "tiebreak": "runs allowed",
      "h2h": {
       "ROCO Dirtbagz": "W",
@@ -5365,7 +5340,7 @@
     {
      "team": "ZT Knuckleheads",
      "location": "Clover, SC",
-     "rank": 5,
+     "rank": 4,
      "tiebreak": "runs allowed",
      "h2h": {
       "LumberJacks": "W",
@@ -5389,10 +5364,35 @@
      "ra": 6
     },
     {
+     "team": "Union County Legends",
+     "location": "Waxhaw, NC",
+     "rank": 5,
+     "tiebreak": "runs scored",
+     "h2h": {
+      "SC Tide - Lucariello": "W"
+     },
+     "last": {
+      "opponent": "SC Tide - Lucariello",
+      "rs": 30,
+      "ra": 7
+     },
+     "pool_w": 1,
+     "pool_l": 0,
+     "pool_t": 0,
+     "pool_rs": 30,
+     "pool_ra": 7,
+     "seed": null,
+     "bracket": null,
+     "won": 1,
+     "lost": 0,
+     "rs": 30,
+     "ra": 7
+    },
+    {
      "team": "Mara Cobras",
      "location": "Matthews, NC",
      "rank": 6,
-     "tiebreak": "runs allowed",
+     "tiebreak": "runs scored",
      "h2h": {
       "Waxhaw Militia 9U": "W",
       "Team 24": "W"
@@ -5597,9 +5597,35 @@
      "ra": 23
     },
     {
+     "team": "SC Tide - Lucariello",
+     "location": "Clover, SC",
+     "rank": 14,
+     "tiebreak": "runs allowed",
+     "h2h": {
+      "Carolina Forge 9U": "W",
+      "Union County Legends": "L"
+     },
+     "last": {
+      "opponent": "Union County Legends",
+      "rs": 7,
+      "ra": 30
+     },
+     "pool_w": 1,
+     "pool_l": 1,
+     "pool_t": 0,
+     "pool_rs": 19,
+     "pool_ra": 34,
+     "seed": null,
+     "bracket": null,
+     "won": 1,
+     "lost": 1,
+     "rs": 19,
+     "ra": 34
+    },
+    {
      "team": "Hooligans",
      "location": "Mount Holly, NC",
-     "rank": 14,
+     "rank": 15,
      "tiebreak": "coin flip (unresolved)",
      "h2h": {
       "Carolina Rapid Fire - Ford": "L"
@@ -5624,7 +5650,7 @@
     {
      "team": "LKN Lightning - Ogburn",
      "location": "Huntersville, NC",
-     "rank": 15,
+     "rank": 16,
      "tiebreak": "coin flip (unresolved)",
      "h2h": {
       "Carolina Rapid Fire - Ford": "L"
@@ -5649,7 +5675,7 @@
     {
      "team": "Team 24",
      "location": "York, SC",
-     "rank": 16,
+     "rank": 17,
      "tiebreak": "runs scored",
      "h2h": {
       "Mara Cobras": "L"
@@ -5674,7 +5700,7 @@
     {
      "team": "Carolina Elevate",
      "location": "Lenoir, NC",
-     "rank": 17,
+     "rank": 18,
      "tiebreak": "runs scored",
      "h2h": {
       "LumberJacks": "L",
@@ -5700,7 +5726,7 @@
     {
      "team": "Carolina Forge 9U",
      "location": "Gastonia, NC",
-     "rank": 18,
+     "rank": 19,
      "tiebreak": "runs scored",
      "h2h": {
       "SC Tide - Lucariello": "L"
@@ -5725,7 +5751,7 @@
     {
      "team": "Waxhaw Militia 9U",
      "location": "Waxhaw, NC",
-     "rank": 19,
+     "rank": 20,
      "tiebreak": "runs allowed",
      "h2h": {
       "Mara Cobras": "L"
@@ -5750,7 +5776,7 @@
     {
      "team": "Carolina 9Uw",
      "location": "Gastonia, NC",
-     "rank": 20,
+     "rank": 21,
      "tiebreak": "runs allowed",
      "h2h": {
       "Copperheads": "L",
@@ -5776,7 +5802,7 @@
     {
      "team": "BOILING SPRINGS BULLDOGS BASEBALL 9u",
      "location": "Boiling Springs, NC",
-     "rank": 21,
+     "rank": 22,
      "tiebreak": "runs allowed",
      "h2h": {
       "Athletes Lab 9U Navy- Stewart": "L",
@@ -5802,7 +5828,7 @@
     {
      "team": "PeeDee Mudcats",
      "location": "Wadesboro, NC",
-     "rank": 22,
+     "rank": 23,
      "tiebreak": "runs allowed",
      "h2h": {
       "Elite 9": "L",
@@ -5828,7 +5854,7 @@
     {
      "team": "Diamond Crushers",
      "location": "Concord, NC",
-     "rank": 23,
+     "rank": 24,
      "tiebreak": "runs allowed",
      "h2h": {
       "LKN Bolts": "L",
@@ -5850,25 +5876,6 @@
      "lost": 2,
      "rs": 10,
      "ra": 33
-    },
-    {
-     "team": "Union County Legends",
-     "location": "Waxhaw, NC",
-     "rank": 25,
-     "tiebreak": "coin flip (unresolved)",
-     "h2h": {},
-     "last": null,
-     "pool_w": 0,
-     "pool_l": 0,
-     "pool_t": 0,
-     "pool_rs": 0,
-     "pool_ra": 0,
-     "seed": null,
-     "bracket": null,
-     "won": 0,
-     "lost": 0,
-     "rs": 0,
-     "ra": 0
     }
    ],
    "games": [
@@ -6185,11 +6192,11 @@
      "field": "Shelby:Field # 3",
      "team_a": "SC Tide - Lucariello",
      "seed_a": null,
-     "score_a": null,
+     "score_a": 7,
      "from_a": null,
      "team_b": "Union County Legends",
      "seed_b": null,
-     "score_b": null,
+     "score_b": 30,
      "from_b": null
     },
     {
@@ -10651,7 +10658,7 @@
      "entered_at": "2026-11-02T08:06:34.820Z",
      "level": "AA"
     },
-    "fetched_at": "2026-11-07T18:21"
+    "fetched_at": "2026-11-07T18:31"
    },
    "tgs": {
     "weather": null,
@@ -10752,7 +10759,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-11-07T18:21",
+    "fetched_at": "2026-11-07T18:31",
     "url": "https://topgunstats.com/whos-playing/12524"
    },
    "name": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
@@ -11074,11 +11081,11 @@
      "field": "Shelby:Field # 3",
      "team_a": "SC Tide - Lucariello",
      "seed_a": null,
-     "score_a": null,
+     "score_a": 7,
      "from_a": null,
      "team_b": "Union County Legends",
      "seed_b": null,
-     "score_b": null,
+     "score_b": 30,
      "from_b": null
     },
     {
@@ -11699,10 +11706,10 @@
      "seed": 8,
      "team": "Union County Legends",
      "location": "Waxhaw, NC",
-     "won": 0,
+     "won": 1,
      "lost": 0,
-     "runs_allowed": 0,
-     "runs_scored": 0,
+     "runs_allowed": 7,
+     "runs_scored": 30,
      "team_page_id": null
     },
     {
@@ -11710,9 +11717,9 @@
      "team": "SC Tide - Lucariello",
      "location": "Clover, SC",
      "won": 1,
-     "lost": 0,
-     "runs_allowed": 4,
-     "runs_scored": 12,
+     "lost": 1,
+     "runs_allowed": 34,
+     "runs_scored": 19,
      "team_page_id": null
     },
     {
@@ -16025,6 +16032,136 @@
    "stats_fetched": null
   },
   {
+   "team": "Union County Legends",
+   "location": "Waxhaw, NC",
+   "page_id": null,
+   "url": null,
+   "w": 4,
+   "l": 4,
+   "t": 1,
+   "rs": 95,
+   "ra": 92,
+   "diff": 3,
+   "pct": 0.5,
+   "events": 3,
+   "log": [
+    {
+     "date": "2026-09-19",
+     "event_id": 12517,
+     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
+     "section": "Pool Play",
+     "opponent": "Carolina Clippers 9U",
+     "rs": 2,
+     "ra": 19,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-19",
+     "event_id": 12517,
+     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
+     "section": "Pool Play",
+     "opponent": "Team 24",
+     "rs": 7,
+     "ra": 10,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-20",
+     "event_id": 12517,
+     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
+     "section": "Silver Bracket",
+     "opponent": "ELITE BASEBALL EBC 9U",
+     "rs": 15,
+     "ra": 8,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-20",
+     "event_id": 12517,
+     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
+     "section": "Silver Bracket",
+     "opponent": "Carolina Clippers 9U",
+     "rs": 2,
+     "ra": 11,
+     "result": "L"
+    },
+    {
+     "date": "2026-10-17",
+     "event_id": 12521,
+     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "section": "Pool Play",
+     "opponent": "Carolina Royals 9Uw",
+     "rs": 18,
+     "ra": 7,
+     "result": "W"
+    },
+    {
+     "date": "2026-10-17",
+     "event_id": 12521,
+     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "section": "Pool Play",
+     "opponent": "Team 24",
+     "rs": 9,
+     "ra": 9,
+     "result": "T"
+    },
+    {
+     "date": "2026-10-18",
+     "event_id": 12521,
+     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "section": "Silver Bracket",
+     "opponent": "Red Clay Athletics 9U Darcangelo",
+     "rs": 2,
+     "ra": 14,
+     "result": "L"
+    },
+    {
+     "date": "2026-10-18",
+     "event_id": 12521,
+     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "section": "Silver Bracket",
+     "opponent": "Carolina Icons",
+     "rs": 10,
+     "ra": 7,
+     "result": "W"
+    },
+    {
+     "date": "2026-11-07",
+     "event_id": 12524,
+     "event": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
+     "section": "Pool Play",
+     "opponent": "SC Tide - Lucariello",
+     "rs": 30,
+     "ra": 7,
+     "result": "W"
+    }
+   ],
+   "points": 0,
+   "titles": 0,
+   "finishes": [
+    {
+     "date": "2026-09-19",
+     "name": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
+     "won": 1,
+     "lost": 3,
+     "standing": "2nd (Silver)",
+     "points": 0,
+     "derived": true
+    },
+    {
+     "date": "2026-10-17",
+     "name": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "won": 2,
+     "lost": 1,
+     "standing": "3rd (Silver)",
+     "points": 0,
+     "derived": true
+    }
+   ],
+   "season": "",
+   "stats_fetched": null
+  },
+  {
    "team": "ROCO Dirtbagz",
    "location": "Forest City, NC",
    "page_id": 30375,
@@ -16291,214 +16428,6 @@
    ],
    "season": "08/01/2026 - 11/06/2026",
    "stats_fetched": "2026-11-06T12:53"
-  },
-  {
-   "team": "SC Tide - Lucariello",
-   "location": "Clover, SC",
-   "page_id": 33954,
-   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=33954",
-   "w": 6,
-   "l": 7,
-   "t": 0,
-   "rs": 113,
-   "ra": 121,
-   "diff": -8,
-   "pct": 0.462,
-   "events": 4,
-   "log": [
-    {
-     "date": "2026-09-05",
-     "event_id": 12515,
-     "event": "CHAIN THEM UP----2026 TOP GUN-USA (TGS) CHAINS AND BAG TAGS",
-     "section": "Pool Play",
-     "opponent": "Carolina Royals 9Ublu",
-     "rs": 17,
-     "ra": 7,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-05",
-     "event_id": 12515,
-     "event": "CHAIN THEM UP----2026 TOP GUN-USA (TGS) CHAINS AND BAG TAGS",
-     "section": "Pool Play",
-     "opponent": "ELITE BASEBALL EBC 9U",
-     "rs": 15,
-     "ra": 4,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-06",
-     "event_id": 12515,
-     "event": "CHAIN THEM UP----2026 TOP GUN-USA (TGS) CHAINS AND BAG TAGS",
-     "section": "Pool Play",
-     "opponent": "Carolina Royals 9Ublu",
-     "rs": 2,
-     "ra": 8,
-     "result": "L"
-    },
-    {
-     "date": "2026-09-06",
-     "event_id": 12515,
-     "event": "CHAIN THEM UP----2026 TOP GUN-USA (TGS) CHAINS AND BAG TAGS",
-     "section": "Pool Play",
-     "opponent": "ELITE BASEBALL EBC 9U",
-     "rs": 18,
-     "ra": 8,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-26",
-     "event_id": 12518,
-     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "section": "Pool Play",
-     "opponent": "PeeDee Mudcats",
-     "rs": 5,
-     "ra": 13,
-     "result": "L"
-    },
-    {
-     "date": "2026-09-26",
-     "event_id": 12518,
-     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "section": "Pool Play",
-     "opponent": "South Park Red Raiders",
-     "rs": 0,
-     "ra": 19,
-     "result": "L"
-    },
-    {
-     "date": "2026-09-27",
-     "event_id": 12518,
-     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "section": "Select Bracket",
-     "opponent": "Legacy Baseball 9U - WHITE",
-     "rs": 7,
-     "ra": 12,
-     "result": "L"
-    },
-    {
-     "date": "2026-09-27",
-     "event_id": 12518,
-     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "section": "Select Bracket",
-     "opponent": "Carolina Forge 9U",
-     "rs": 9,
-     "ra": 7,
-     "result": "W"
-    },
-    {
-     "date": "2026-10-17",
-     "event_id": 12521,
-     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
-     "section": "Pool Play",
-     "opponent": "NL Destroyers 2036",
-     "rs": 6,
-     "ra": 7,
-     "result": "L"
-    },
-    {
-     "date": "2026-10-17",
-     "event_id": 12521,
-     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
-     "section": "Pool Play",
-     "opponent": "ROCO Dirtbagz",
-     "rs": 7,
-     "ra": 8,
-     "result": "L"
-    },
-    {
-     "date": "2026-10-18",
-     "event_id": 12521,
-     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
-     "section": "Bronze Bracket",
-     "opponent": "ELITE BASEBALL EBC 9U",
-     "rs": 2,
-     "ra": 15,
-     "result": "L"
-    },
-    {
-     "date": "2026-10-18",
-     "event_id": 12521,
-     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
-     "section": "Bronze Bracket",
-     "opponent": "LumberJacks",
-     "rs": 13,
-     "ra": 9,
-     "result": "W"
-    },
-    {
-     "date": "2026-11-07",
-     "event_id": 12524,
-     "event": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
-     "section": "Pool Play",
-     "opponent": "Carolina Forge 9U",
-     "rs": 12,
-     "ra": 4,
-     "result": "W"
-    }
-   ],
-   "points": 2350,
-   "titles": 0,
-   "finishes": [
-    {
-     "date": "2026-08-21",
-     "name": "FRIDAY NIGHT G.O.A.T. SERIES 9U&11U",
-     "won": 0,
-     "lost": 0,
-     "standing": "",
-     "points": 0
-    },
-    {
-     "date": "2026-09-05",
-     "name": "CHAIN THEM UP----2026 TOP GUN-USA (TGS) CHAINS AND BAG TAGS",
-     "won": 3,
-     "lost": 1,
-     "standing": "2nd (Gold)",
-     "points": 575
-    },
-    {
-     "date": "2026-09-18",
-     "name": "FRIDAY NIGHT G.O.A.T. SERIES 9U, 11U, & 13U 60/90",
-     "won": 0,
-     "lost": 3,
-     "standing": "4th (Gold)",
-     "points": 325
-    },
-    {
-     "date": "2026-09-26",
-     "name": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "won": 1,
-     "lost": 3,
-     "standing": "2nd (Select)",
-     "points": 0
-    },
-    {
-     "date": "2026-10-09",
-     "name": "FRIDAY NIGHT G.O.A.T. SERIES 9U&11U",
-     "won": 1,
-     "lost": 2,
-     "standing": "2nd (Silver)",
-     "points": 275
-    },
-    {
-     "date": "2026-10-17",
-     "name": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
-     "won": 1,
-     "lost": 3,
-     "standing": "4th (Bronze)",
-     "points": 925
-    },
-    {
-     "date": "2026-10-23",
-     "name": "SUPER TOP-40 PINK QUALIFIER FOR SHIPYARD FOR 2027--HOLD YOUR SPOT NOW",
-     "won": 0,
-     "lost": 2,
-     "standing": "3rd (Silver)",
-     "points": 250
-    }
-   ],
-   "season": "08/01/2026 - 11/06/2026",
-   "stats_fetched": "2026-11-06T12:51"
   },
   {
    "team": "Carolina Regulators 9u",
@@ -16847,126 +16776,6 @@
    ],
    "season": "08/01/2026 - 11/06/2026",
    "stats_fetched": "2026-11-06T12:53"
-  },
-  {
-   "team": "Union County Legends",
-   "location": "Waxhaw, NC",
-   "page_id": null,
-   "url": null,
-   "w": 3,
-   "l": 4,
-   "t": 1,
-   "rs": 65,
-   "ra": 85,
-   "diff": -20,
-   "pct": 0.438,
-   "events": 2,
-   "log": [
-    {
-     "date": "2026-09-19",
-     "event_id": 12517,
-     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
-     "section": "Pool Play",
-     "opponent": "Carolina Clippers 9U",
-     "rs": 2,
-     "ra": 19,
-     "result": "L"
-    },
-    {
-     "date": "2026-09-19",
-     "event_id": 12517,
-     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
-     "section": "Pool Play",
-     "opponent": "Team 24",
-     "rs": 7,
-     "ra": 10,
-     "result": "L"
-    },
-    {
-     "date": "2026-09-20",
-     "event_id": 12517,
-     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
-     "section": "Silver Bracket",
-     "opponent": "ELITE BASEBALL EBC 9U",
-     "rs": 15,
-     "ra": 8,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-20",
-     "event_id": 12517,
-     "event": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
-     "section": "Silver Bracket",
-     "opponent": "Carolina Clippers 9U",
-     "rs": 2,
-     "ra": 11,
-     "result": "L"
-    },
-    {
-     "date": "2026-10-17",
-     "event_id": 12521,
-     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
-     "section": "Pool Play",
-     "opponent": "Carolina Royals 9Uw",
-     "rs": 18,
-     "ra": 7,
-     "result": "W"
-    },
-    {
-     "date": "2026-10-17",
-     "event_id": 12521,
-     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
-     "section": "Pool Play",
-     "opponent": "Team 24",
-     "rs": 9,
-     "ra": 9,
-     "result": "T"
-    },
-    {
-     "date": "2026-10-18",
-     "event_id": 12521,
-     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
-     "section": "Silver Bracket",
-     "opponent": "Red Clay Athletics 9U Darcangelo",
-     "rs": 2,
-     "ra": 14,
-     "result": "L"
-    },
-    {
-     "date": "2026-10-18",
-     "event_id": 12521,
-     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
-     "section": "Silver Bracket",
-     "opponent": "Carolina Icons",
-     "rs": 10,
-     "ra": 7,
-     "result": "W"
-    }
-   ],
-   "points": 0,
-   "titles": 0,
-   "finishes": [
-    {
-     "date": "2026-09-19",
-     "name": "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS---SUPER NIT WEEKEND",
-     "won": 1,
-     "lost": 3,
-     "standing": "2nd (Silver)",
-     "points": 0,
-     "derived": true
-    },
-    {
-     "date": "2026-10-17",
-     "name": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
-     "won": 2,
-     "lost": 1,
-     "standing": "3rd (Silver)",
-     "points": 0,
-     "derived": true
-    }
-   ],
-   "season": "",
-   "stats_fetched": null
   },
   {
    "team": "Red Clay Athletics 9U Darcangelo",
@@ -17348,6 +17157,224 @@
    ],
    "season": "",
    "stats_fetched": null
+  },
+  {
+   "team": "SC Tide - Lucariello",
+   "location": "Clover, SC",
+   "page_id": 33954,
+   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=33954",
+   "w": 6,
+   "l": 8,
+   "t": 0,
+   "rs": 120,
+   "ra": 151,
+   "diff": -31,
+   "pct": 0.429,
+   "events": 4,
+   "log": [
+    {
+     "date": "2026-09-05",
+     "event_id": 12515,
+     "event": "CHAIN THEM UP----2026 TOP GUN-USA (TGS) CHAINS AND BAG TAGS",
+     "section": "Pool Play",
+     "opponent": "Carolina Royals 9Ublu",
+     "rs": 17,
+     "ra": 7,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-05",
+     "event_id": 12515,
+     "event": "CHAIN THEM UP----2026 TOP GUN-USA (TGS) CHAINS AND BAG TAGS",
+     "section": "Pool Play",
+     "opponent": "ELITE BASEBALL EBC 9U",
+     "rs": 15,
+     "ra": 4,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-06",
+     "event_id": 12515,
+     "event": "CHAIN THEM UP----2026 TOP GUN-USA (TGS) CHAINS AND BAG TAGS",
+     "section": "Pool Play",
+     "opponent": "Carolina Royals 9Ublu",
+     "rs": 2,
+     "ra": 8,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-06",
+     "event_id": 12515,
+     "event": "CHAIN THEM UP----2026 TOP GUN-USA (TGS) CHAINS AND BAG TAGS",
+     "section": "Pool Play",
+     "opponent": "ELITE BASEBALL EBC 9U",
+     "rs": 18,
+     "ra": 8,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-26",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Pool Play",
+     "opponent": "PeeDee Mudcats",
+     "rs": 5,
+     "ra": 13,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-26",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Pool Play",
+     "opponent": "South Park Red Raiders",
+     "rs": 0,
+     "ra": 19,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-27",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Select Bracket",
+     "opponent": "Legacy Baseball 9U - WHITE",
+     "rs": 7,
+     "ra": 12,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-27",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Select Bracket",
+     "opponent": "Carolina Forge 9U",
+     "rs": 9,
+     "ra": 7,
+     "result": "W"
+    },
+    {
+     "date": "2026-10-17",
+     "event_id": 12521,
+     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "section": "Pool Play",
+     "opponent": "NL Destroyers 2036",
+     "rs": 6,
+     "ra": 7,
+     "result": "L"
+    },
+    {
+     "date": "2026-10-17",
+     "event_id": 12521,
+     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "section": "Pool Play",
+     "opponent": "ROCO Dirtbagz",
+     "rs": 7,
+     "ra": 8,
+     "result": "L"
+    },
+    {
+     "date": "2026-10-18",
+     "event_id": 12521,
+     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "section": "Bronze Bracket",
+     "opponent": "ELITE BASEBALL EBC 9U",
+     "rs": 2,
+     "ra": 15,
+     "result": "L"
+    },
+    {
+     "date": "2026-10-18",
+     "event_id": 12521,
+     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "section": "Bronze Bracket",
+     "opponent": "LumberJacks",
+     "rs": 13,
+     "ra": 9,
+     "result": "W"
+    },
+    {
+     "date": "2026-11-07",
+     "event_id": 12524,
+     "event": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
+     "section": "Pool Play",
+     "opponent": "Carolina Forge 9U",
+     "rs": 12,
+     "ra": 4,
+     "result": "W"
+    },
+    {
+     "date": "2026-11-07",
+     "event_id": 12524,
+     "event": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
+     "section": "Pool Play",
+     "opponent": "Union County Legends",
+     "rs": 7,
+     "ra": 30,
+     "result": "L"
+    }
+   ],
+   "points": 2350,
+   "titles": 0,
+   "finishes": [
+    {
+     "date": "2026-08-21",
+     "name": "FRIDAY NIGHT G.O.A.T. SERIES 9U&11U",
+     "won": 0,
+     "lost": 0,
+     "standing": "",
+     "points": 0
+    },
+    {
+     "date": "2026-09-05",
+     "name": "CHAIN THEM UP----2026 TOP GUN-USA (TGS) CHAINS AND BAG TAGS",
+     "won": 3,
+     "lost": 1,
+     "standing": "2nd (Gold)",
+     "points": 575
+    },
+    {
+     "date": "2026-09-18",
+     "name": "FRIDAY NIGHT G.O.A.T. SERIES 9U, 11U, & 13U 60/90",
+     "won": 0,
+     "lost": 3,
+     "standing": "4th (Gold)",
+     "points": 325
+    },
+    {
+     "date": "2026-09-26",
+     "name": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "won": 1,
+     "lost": 3,
+     "standing": "2nd (Select)",
+     "points": 0
+    },
+    {
+     "date": "2026-10-09",
+     "name": "FRIDAY NIGHT G.O.A.T. SERIES 9U&11U",
+     "won": 1,
+     "lost": 2,
+     "standing": "2nd (Silver)",
+     "points": 275
+    },
+    {
+     "date": "2026-10-17",
+     "name": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "won": 1,
+     "lost": 3,
+     "standing": "4th (Bronze)",
+     "points": 925
+    },
+    {
+     "date": "2026-10-23",
+     "name": "SUPER TOP-40 PINK QUALIFIER FOR SHIPYARD FOR 2027--HOLD YOUR SPOT NOW",
+     "won": 0,
+     "lost": 2,
+     "standing": "3rd (Silver)",
+     "points": 250
+    }
+   ],
+   "season": "08/01/2026 - 11/06/2026",
+   "stats_fetched": "2026-11-06T12:51"
   },
   {
    "team": "DYBA Force 9U",

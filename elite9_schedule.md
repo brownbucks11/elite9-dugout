@@ -1,5 +1,5 @@
 # Elite 9 - Top Gun schedule
-_Updated Sat Nov 07, 2026 06:21 PM_
+_Updated Sat Nov 07, 2026 06:32 PM_
 
 ## SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND
 September 26 - 27 in Greater Charlotte Area, NC  
@@ -259,8 +259,8 @@ Tournament 12524 - [schedule page](https://playtopgunsports.com/GameTimesResults
 | 5 | Waxhaw Militia 9U | Waxhaw, NC | 0-1 | 1 | 18 |
 | 6 | LumberJacks | Gaston County, NC | 1-1 | 10 | 14 |
 | 7 | Mara Cobras | Matthews, NC | 2-0 | 28 | 7 |
-| 8 | Union County Legends | Waxhaw, NC | 0-0 | 0 | 0 |
-| 9 | SC Tide - Lucariello | Clover, SC | 1-0 | 12 | 4 |
+| 8 | Union County Legends | Waxhaw, NC | 1-0 | 30 | 7 |
+| 9 | SC Tide - Lucariello | Clover, SC | 1-1 | 19 | 34 |
 | 10 | Mara Bulls | matthews, NC | 2-0 | 27 | 8 |
 | 11 | Red Clay Athletics 9U Darcangelo | Charlotte, NC | 1-1 | 16 | 6 |
 | 12 | Elite 9 **<--** | Rock Hill, SC | 1-1 | 17 | 20 |
