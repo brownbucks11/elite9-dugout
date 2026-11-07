@@ -3,7 +3,7 @@
  "location": "Rock Hill, SC",
  "page_id": 31407,
  "team_url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=31407",
- "built": "Sat Nov 07, 2026 02:09 PM",
+ "built": "Sat Nov 07, 2026 02:19 PM",
  "record": {
   "w": 7,
   "l": 11,
@@ -5226,7 +5226,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-11-07T14:08",
+    "fetched_at": "2026-11-07T14:19",
     "url": "https://topgunstats.com/whos-playing/12524"
    },
    "next_game": null,
@@ -5317,24 +5317,25 @@
      "rank": 3,
      "tiebreak": "runs allowed",
      "h2h": {
-      "LumberJacks": "W"
+      "LumberJacks": "W",
+      "Carolina Elevate": "W"
      },
      "last": {
-      "opponent": "LumberJacks",
-      "rs": 10,
-      "ra": 5
+      "opponent": "Carolina Elevate",
+      "rs": 7,
+      "ra": 1
      },
-     "pool_w": 1,
+     "pool_w": 2,
      "pool_l": 0,
      "pool_t": 0,
-     "pool_rs": 10,
-     "pool_ra": 5,
+     "pool_rs": 17,
+     "pool_ra": 6,
      "seed": null,
      "bracket": null,
-     "won": 1,
+     "won": 2,
      "lost": 0,
-     "rs": 10,
-     "ra": 5
+     "rs": 17,
+     "ra": 6
     },
     {
      "team": "Mara Bulls",
@@ -5472,24 +5473,25 @@
      "rank": 9,
      "tiebreak": "runs allowed",
      "h2h": {
-      "LumberJacks": "L"
+      "LumberJacks": "L",
+      "ZT Knuckleheads": "L"
      },
      "last": {
-      "opponent": "LumberJacks",
-      "rs": 4,
-      "ra": 5
+      "opponent": "ZT Knuckleheads",
+      "rs": 1,
+      "ra": 7
      },
      "pool_w": 0,
-     "pool_l": 1,
+     "pool_l": 2,
      "pool_t": 0,
-     "pool_rs": 4,
-     "pool_ra": 5,
+     "pool_rs": 5,
+     "pool_ra": 12,
      "seed": null,
      "bracket": null,
      "won": 0,
-     "lost": 1,
-     "rs": 4,
-     "ra": 5
+     "lost": 2,
+     "rs": 5,
+     "ra": 12
     },
     {
      "team": "Carolina 9Uw",
@@ -5984,11 +5986,11 @@
      "field": "Shelby:Field # 3",
      "team_a": "ZT Knuckleheads",
      "seed_a": null,
-     "score_a": null,
+     "score_a": 7,
      "from_a": null,
      "team_b": "Carolina Elevate",
      "seed_b": null,
-     "score_b": null,
+     "score_b": 1,
      "from_b": null
     },
     {
@@ -10578,7 +10580,7 @@
      "entered_at": "2026-11-02T08:06:34.820Z",
      "level": "AA"
     },
-    "fetched_at": "2026-11-07T14:08"
+    "fetched_at": "2026-11-07T14:19"
    },
    "tgs": {
     "weather": null,
@@ -10679,7 +10681,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-11-07T14:08",
+    "fetched_at": "2026-11-07T14:19",
     "url": "https://topgunstats.com/whos-playing/12524"
    },
    "name": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
@@ -10873,11 +10875,11 @@
      "field": "Shelby:Field # 3",
      "team_a": "ZT Knuckleheads",
      "seed_a": null,
-     "score_a": null,
+     "score_a": 7,
      "from_a": null,
      "team_b": "Carolina Elevate",
      "seed_b": null,
-     "score_b": null,
+     "score_b": 1,
      "from_b": null
     },
     {
@@ -11697,9 +11699,9 @@
      "team": "Carolina Elevate",
      "location": "Lenoir, NC",
      "won": 0,
-     "lost": 1,
-     "runs_allowed": 5,
-     "runs_scored": 4,
+     "lost": 2,
+     "runs_allowed": 12,
+     "runs_scored": 5,
      "team_page_id": null
     },
     {
@@ -11756,10 +11758,10 @@
      "seed": 21,
      "team": "ZT Knuckleheads",
      "location": "Clover, SC",
-     "won": 1,
+     "won": 2,
      "lost": 0,
-     "runs_allowed": 5,
-     "runs_scored": 10,
+     "runs_allowed": 6,
+     "runs_scored": 17,
      "team_page_id": null
     },
     {
@@ -14845,6 +14847,77 @@
    "stats_fetched": null
   },
   {
+   "team": "ZT Knuckleheads",
+   "location": "Clover, SC",
+   "page_id": null,
+   "url": null,
+   "w": 3,
+   "l": 2,
+   "t": 0,
+   "rs": 41,
+   "ra": 22,
+   "diff": 19,
+   "pct": 0.6,
+   "events": 2,
+   "log": [
+    {
+     "date": "2026-10-24",
+     "event_id": 12522,
+     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
+     "section": "Pool Play",
+     "opponent": "Diamond Jaxx",
+     "rs": 17,
+     "ra": 1,
+     "result": "W"
+    },
+    {
+     "date": "2026-10-24",
+     "event_id": 12522,
+     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
+     "section": "Pool Play",
+     "opponent": "Athletes Lab 9U Navy- Stewart",
+     "rs": 4,
+     "ra": 6,
+     "result": "L"
+    },
+    {
+     "date": "2026-10-25",
+     "event_id": 12522,
+     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
+     "section": "Silver Bracket",
+     "opponent": "Hooligans",
+     "rs": 3,
+     "ra": 9,
+     "result": "L"
+    },
+    {
+     "date": "2026-11-07",
+     "event_id": 12524,
+     "event": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
+     "section": "Pool Play",
+     "opponent": "LumberJacks",
+     "rs": 10,
+     "ra": 5,
+     "result": "W"
+    },
+    {
+     "date": "2026-11-07",
+     "event_id": 12524,
+     "event": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
+     "section": "Pool Play",
+     "opponent": "Carolina Elevate",
+     "rs": 7,
+     "ra": 1,
+     "result": "W"
+    }
+   ],
+   "points": 0,
+   "titles": 0,
+   "finishes": [],
+   "season": "",
+   "stats_fetched": null
+  },
+  {
    "team": "M&M Baseball 9u",
    "location": "Browns Summit, NC",
    "page_id": null,
@@ -15320,67 +15393,6 @@
    ],
    "season": "08/01/2026 - 11/06/2026",
    "stats_fetched": "2026-11-06T12:52"
-  },
-  {
-   "team": "ZT Knuckleheads",
-   "location": "Clover, SC",
-   "page_id": null,
-   "url": null,
-   "w": 2,
-   "l": 2,
-   "t": 0,
-   "rs": 34,
-   "ra": 21,
-   "diff": 13,
-   "pct": 0.5,
-   "events": 2,
-   "log": [
-    {
-     "date": "2026-10-24",
-     "event_id": 12522,
-     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
-     "section": "Pool Play",
-     "opponent": "Diamond Jaxx",
-     "rs": 17,
-     "ra": 1,
-     "result": "W"
-    },
-    {
-     "date": "2026-10-24",
-     "event_id": 12522,
-     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
-     "section": "Pool Play",
-     "opponent": "Athletes Lab 9U Navy- Stewart",
-     "rs": 4,
-     "ra": 6,
-     "result": "L"
-    },
-    {
-     "date": "2026-10-25",
-     "event_id": 12522,
-     "event": "WINTER WORLD SERIES-CHARLOTTE -QUALIFY FOR THE TOP (100) COMBINE",
-     "section": "Silver Bracket",
-     "opponent": "Hooligans",
-     "rs": 3,
-     "ra": 9,
-     "result": "L"
-    },
-    {
-     "date": "2026-11-07",
-     "event_id": 12524,
-     "event": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
-     "section": "Pool Play",
-     "opponent": "LumberJacks",
-     "rs": 10,
-     "ra": 5,
-     "result": "W"
-    }
-   ],
-   "points": 0,
-   "titles": 0,
-   "finishes": [],
-   "season": "",
-   "stats_fetched": null
   },
   {
    "team": "Legacy Baseball 9U RED",
@@ -19549,12 +19561,12 @@
    "page_id": null,
    "url": null,
    "w": 1,
-   "l": 9,
+   "l": 10,
    "t": 0,
-   "rs": 44,
-   "ra": 135,
-   "diff": -91,
-   "pct": 0.1,
+   "rs": 45,
+   "ra": 142,
+   "diff": -97,
+   "pct": 0.091,
    "events": 4,
    "log": [
     {
@@ -19655,6 +19667,16 @@
      "opponent": "LumberJacks",
      "rs": 4,
      "ra": 5,
+     "result": "L"
+    },
+    {
+     "date": "2026-11-07",
+     "event_id": 12524,
+     "event": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
+     "section": "Pool Play",
+     "opponent": "ZT Knuckleheads",
+     "rs": 1,
+     "ra": 7,
      "result": "L"
     }
    ],

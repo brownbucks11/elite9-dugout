@@ -1,5 +1,5 @@
 # Elite 9 - Top Gun schedule
-_Updated Sat Nov 07, 2026 02:09 PM_
+_Updated Sat Nov 07, 2026 02:19 PM_
 
 ## SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND
 September 26 - 27 in Greater Charlotte Area, NC  
@@ -266,13 +266,13 @@ Tournament 12524 - [schedule page](https://playtopgunsports.com/GameTimesResults
 | 12 | Elite 9 **<--** | Rock Hill, SC | 1-1 | 17 | 20 |
 | 13 | Carolina Regulators 9u | Stanley, NC | 1-1 | 11 | 23 |
 | 14 | Carolina 9Uw | Gastonia, NC | 0-2 | 1 | 21 |
-| 15 | Carolina Elevate | Lenoir, NC | 0-1 | 4 | 5 |
+| 15 | Carolina Elevate | Lenoir, NC | 0-2 | 5 | 12 |
 | 16 | Carolina Forge 9U | Gastonia, NC | 0-0 | 0 | 0 |
 | 17 | Carolina Rapid Fire - Ford | Lincolnton, NC | 0-0 | 0 | 0 |
 | 18 | Diamond Crushers | Concord, NC | 0-2 | 10 | 33 |
 | 19 | Copperheads | Mooresville, NC | 2-0 | 13 | 3 |
 | 20 | BOILING SPRINGS BULLDOGS BASEBALL 9u | Boiling Springs, NC | 0-0 | 0 | 0 |
-| 21 | ZT Knuckleheads | Clover, SC | 1-0 | 10 | 5 |
+| 21 | ZT Knuckleheads | Clover, SC | 2-0 | 17 | 6 |
 | 22 | PeeDee Mudcats | Wadesboro, NC | 0-2 | 12 | 28 |
 | 23 | Athletes Lab 9U Navy- Stewart | Maiden, NC | 0-0 | 0 | 0 |
 | 24 | LKN Lightning - Ogburn | Huntersville, NC | 0-0 | 0 | 0 |
