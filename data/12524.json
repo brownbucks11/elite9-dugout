@@ -1261,10 +1261,10 @@
           "seed": 6,
           "team": "Copperheads Black",
           "location": "Mooresville, NC",
-          "won": 0,
+          "won": 1,
           "lost": 1,
           "runs_allowed": 6,
-          "runs_scored": 4,
+          "runs_scored": 13,
           "team_page_id": null
         },
         {
@@ -1352,8 +1352,8 @@
           "team": "Carolina Royals 10U",
           "location": "Cramerton, NC",
           "won": 1,
-          "lost": 0,
-          "runs_allowed": 3,
+          "lost": 1,
+          "runs_allowed": 12,
           "runs_scored": 11,
           "team_page_id": null
         },
@@ -1455,10 +1455,10 @@
             "field": "M. Rivers:Martha Rivers 1",
             "team_a": "Carolina Royals 10U",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 0,
             "team_b": "Copperheads Black",
             "seed_b": null,
-            "score_b": null
+            "score_b": 9
           },
           {
             "game": 6,
@@ -1894,10 +1894,10 @@
           "seed": 3,
           "team": "Tega Cay Titans",
           "location": "Tega Cay, SC",
-          "won": 0,
+          "won": 1,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "runs_allowed": 4,
+          "runs_scored": 16,
           "team_page_id": null
         },
         {
@@ -1935,9 +1935,9 @@
           "team": "FS Bulldogs 11u (Houghton)",
           "location": "My Ulla, NC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 3,
-          "runs_scored": 2,
+          "lost": 2,
+          "runs_allowed": 19,
+          "runs_scored": 6,
           "team_page_id": null
         },
         {
@@ -2052,10 +2052,10 @@
             "field": "Westmoreld:Field 3",
             "team_a": "Tega Cay Titans",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 16,
             "team_b": "FS Bulldogs 11u (Houghton)",
             "seed_b": null,
-            "score_b": null
+            "score_b": 4
           },
           {
             "game": 3,
@@ -4142,5 +4142,5 @@
   },
   "site_last_updated": "11/05/2026 12:03 PM",
   "tournament_id": 12524,
-  "fetched_at": "2026-11-07T11:33"
+  "fetched_at": "2026-11-07T11:43"
 }
