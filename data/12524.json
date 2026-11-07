@@ -415,9 +415,9 @@
           "team": "Red Clay Athletics 9U Darcangelo",
           "location": "Charlotte, NC",
           "won": 0,
-          "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 0,
+          "lost": 1,
+          "runs_allowed": 5,
+          "runs_scored": 3,
           "team_page_id": null
         },
         {
@@ -494,10 +494,10 @@
           "seed": 19,
           "team": "Copperheads",
           "location": "Mooresville, NC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
-          "runs_allowed": 0,
-          "runs_scored": 8,
+          "runs_allowed": 3,
+          "runs_scored": 13,
           "team_page_id": null
         },
         {
@@ -620,10 +620,10 @@
             "field": "Dallas:Field # 2",
             "team_a": "Copperheads",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 5,
             "team_b": "Red Clay Athletics 9U Darcangelo",
             "seed_b": null,
-            "score_b": null
+            "score_b": 3
           },
           {
             "game": 7,
@@ -2436,19 +2436,19 @@
           "team": "Lincoln County Warriors",
           "location": "Lincolnton, NC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 10,
-          "runs_scored": 8,
+          "lost": 2,
+          "runs_allowed": 18,
+          "runs_scored": 13,
           "team_page_id": null
         },
         {
           "seed": 2,
           "team": "BS BULLDOGS BlACK 12u",
           "location": "BOILING SPRINGS, NC",
-          "won": 0,
+          "won": 1,
           "lost": 1,
-          "runs_allowed": 10,
-          "runs_scored": 5,
+          "runs_allowed": 15,
+          "runs_scored": 13,
           "team_page_id": null
         },
         {
@@ -2651,10 +2651,10 @@
             "field": "M. Rivers:Martha Rivers 2",
             "team_a": "BS BULLDOGS BlACK 12u",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 8,
             "team_b": "Lincoln County Warriors",
             "seed_b": null,
-            "score_b": null
+            "score_b": 5
           },
           {
             "game": 7,
@@ -4142,5 +4142,5 @@
   },
   "site_last_updated": "11/05/2026 12:03 PM",
   "tournament_id": 12524,
-  "fetched_at": "2026-11-07T11:43"
+  "fetched_at": "2026-11-07T11:54"
 }
