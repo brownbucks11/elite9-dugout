@@ -323,7 +323,7 @@
           "team": "ROCO Dirtbagz",
           "location": "Forest City, NC",
           "won": 3,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 7,
           "runs_scored": 14,
           "team_page_id": null
@@ -362,7 +362,7 @@
           "seed": 7,
           "team": "Mara Cobras",
           "location": "Matthews, NC",
-          "won": 4,
+          "won": 5,
           "lost": 0,
           "runs_allowed": 7,
           "runs_scored": 28,
@@ -393,7 +393,7 @@
           "team": "Mara Bulls",
           "location": "matthews, NC",
           "won": 4,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 8,
           "runs_scored": 27,
           "team_page_id": null
@@ -462,7 +462,7 @@
           "seed": 17,
           "team": "Carolina Rapid Fire - Ford",
           "location": "Lincolnton, NC",
-          "won": 3,
+          "won": 4,
           "lost": 0,
           "runs_allowed": 16,
           "runs_scored": 20,
@@ -886,10 +886,10 @@
             "field": "Bradford:Field # 1",
             "team_a": "Winner Game #3 Mara Cobras",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 13,
             "team_b": "Winner Game #4 Mara Bulls",
             "seed_b": null,
-            "score_b": null
+            "score_b": 5
           }
         ],
         "Silver Bracket": [
@@ -948,10 +948,10 @@
             "field": "Bradford:Field # 3",
             "team_a": "Winner Game #3 ROCO Dirtbagz",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 12,
             "team_b": "Winner Game #2 Carolina Rapid Fire - Ford",
             "seed_b": null,
-            "score_b": null
+            "score_b": 13
           }
         ],
         "Bronze Bracket": [
@@ -4022,5 +4022,5 @@
   },
   "site_last_updated": "11/05/2026 12:03 PM",
   "tournament_id": 12524,
-  "fetched_at": "2026-11-08T17:56"
+  "fetched_at": "2026-11-08T18:06"
 }

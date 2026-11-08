@@ -1,5 +1,5 @@
 # Elite 9 - Top Gun schedule
-_Updated Sun Nov 08, 2026 05:56 PM_
+_Updated Sun Nov 08, 2026 06:06 PM_
 
 ## SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND
 September 26 - 27 in Greater Charlotte Area, NC  
@@ -255,21 +255,21 @@ Tournament 12524 - [schedule page](https://playtopgunsports.com/GameTimesResults
 |---|---|---|---|---|---|
 | 1 | Team 24 | York, SC | 3-1 | 19 | 22 |
 | 2 | Hooligans | Mount Holly, NC | 2-2 | 18 | 20 |
-| 3 | ROCO Dirtbagz | Forest City, NC | 3-1 | 14 | 7 |
+| 3 | ROCO Dirtbagz | Forest City, NC | 3-2 | 14 | 7 |
 | 4 | LKN Bolts | Huntersville, NC | 2-1 | 38 | 3 |
 | 5 | Waxhaw Militia 9U | Waxhaw, NC | 2-2 | 13 | 31 |
 | 6 | LumberJacks | Gaston County, NC | 1-3 | 10 | 14 |
-| 7 | Mara Cobras | Matthews, NC | 4-0 | 28 | 7 |
+| 7 | Mara Cobras | Matthews, NC | 5-0 | 28 | 7 |
 | 8 | Union County Legends | Waxhaw, NC | 2-1 | 40 | 13 |
 | 9 | SC Tide - Lucariello | Clover, SC | 1-2 | 19 | 34 |
-| 10 | Mara Bulls | matthews, NC | 4-0 | 27 | 8 |
+| 10 | Mara Bulls | matthews, NC | 4-1 | 27 | 8 |
 | 11 | Red Clay Athletics 9U Darcangelo | Charlotte, NC | 2-2 | 16 | 6 |
 | 12 | Elite 9 **<--** | Rock Hill, SC | 1-2 | 17 | 20 |
 | 13 | Carolina Regulators 9u | Stanley, NC | 1-2 | 11 | 23 |
 | 14 | Carolina 9Uw | Gastonia, NC | 0-4 | 1 | 21 |
 | 15 | Carolina Elevate | Lenoir, NC | 1-3 | 5 | 12 |
 | 16 | Carolina Forge 9U | Gastonia, NC | 1-3 | 10 | 22 |
-| 17 | Carolina Rapid Fire - Ford | Lincolnton, NC | 3-0 | 20 | 16 |
+| 17 | Carolina Rapid Fire - Ford | Lincolnton, NC | 4-0 | 20 | 16 |
 | 18 | Diamond Crushers | Concord, NC | 1-3 | 10 | 33 |
 | 19 | Copperheads | Mooresville, NC | 2-1 | 13 | 3 |
 | 20 | BOILING SPRINGS BULLDOGS BASEBALL 9u | Boiling Springs, NC | 0-4 | 3 | 24 |
@@ -286,7 +286,7 @@ Tournament 12524 - [schedule page](https://playtopgunsports.com/GameTimesResults
 | 2 | Sun 12:30 PM | Bradford:Field # 2 | (#3) Athletes Lab 9U Navy- Stewart 5 | (#6) Mara Bulls 10 |
 | 3 | Sun 2:30 PM | Bradford:Field # 1 | Winner Game #1 Mara Cobras 8 | (#1) LKN Bolts 0 |
 | 4 | Sun 2:30 PM | Bradford:Field # 2 | Winner Game #2 Mara Bulls 14 | (#2) Copperheads 11 |
-| 5 | Sun 4:30 PM | Bradford:Field # 1 | Winner Game #3 Mara Cobras | Winner Game #4 Mara Bulls |
+| 5 | Sun 4:30 PM | Bradford:Field # 1 | Winner Game #3 Mara Cobras 13 | Winner Game #4 Mara Bulls 5 |
 
 **Silver Bracket**
 
@@ -296,7 +296,7 @@ Tournament 12524 - [schedule page](https://playtopgunsports.com/GameTimesResults
 | 2 | Sun 12:30 PM | Bradford:Field # 4 | (#8) Carolina Rapid Fire - Ford 8 | (#9) Red Clay Athletics 9U Darcangelo 6 |
 | 3 | Sun 2:30 PM | Bradford:Field # 3 | Winner Game #1 ROCO Dirtbagz 11 | (#7) Union County Legends 3 |
 | 4 | Sun 2:30 PM | Bradford:Field # 4 | Loser Game #1 LumberJacks 4 | Loser Game #2 Red Clay Athletics 9U Darcangelo 15 |
-| 5 | Sun 4:30 PM | Bradford:Field # 3 | Winner Game #3 ROCO Dirtbagz | Winner Game #2 Carolina Rapid Fire - Ford |
+| 5 | Sun 4:30 PM | Bradford:Field # 3 | Winner Game #3 ROCO Dirtbagz 12 | Winner Game #2 Carolina Rapid Fire - Ford 13 |
 
 **Bronze Bracket**
 

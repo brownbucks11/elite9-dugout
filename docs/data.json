@@ -3,7 +3,7 @@
  "location": "Rock Hill, SC",
  "page_id": 31407,
  "team_url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=31407",
- "built": "Sun Nov 08, 2026 05:56 PM",
+ "built": "Sun Nov 08, 2026 06:06 PM",
  "record": {
   "w": 7,
   "l": 12,
@@ -5241,7 +5241,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-11-08T17:55",
+    "fetched_at": "2026-11-08T18:06",
     "url": "https://topgunstats.com/whos-playing/12524"
    },
    "next_game": null,
@@ -5407,7 +5407,7 @@
      "pool_ra": 7,
      "seed": 5,
      "bracket": "Gold Bracket",
-     "won": 4,
+     "won": 5,
      "lost": 0,
      "rs": 28,
      "ra": 7
@@ -5434,7 +5434,7 @@
      "seed": 6,
      "bracket": "Gold Bracket",
      "won": 4,
-     "lost": 0,
+     "lost": 1,
      "rs": 27,
      "ra": 8
     },
@@ -5485,7 +5485,7 @@
      "pool_ra": 16,
      "seed": 8,
      "bracket": "Silver Bracket",
-     "won": 3,
+     "won": 4,
      "lost": 0,
      "rs": 20,
      "ra": 16
@@ -5538,7 +5538,7 @@
      "seed": 10,
      "bracket": "Silver Bracket",
      "won": 3,
-     "lost": 1,
+     "lost": 2,
      "rs": 14,
      "ra": 7
     },
@@ -6371,14 +6371,14 @@
      "field": "Bradford:Field # 1",
      "team_a": "Mara Cobras",
      "seed_a": null,
-     "score_a": null,
+     "score_a": 13,
      "from_a": {
       "type": "winner",
       "game": 3
      },
      "team_b": "Mara Bulls",
      "seed_b": null,
-     "score_b": null,
+     "score_b": 5,
      "from_b": {
       "type": "winner",
       "game": 4
@@ -6466,14 +6466,14 @@
      "field": "Bradford:Field # 3",
      "team_a": "ROCO Dirtbagz",
      "seed_a": null,
-     "score_a": null,
+     "score_a": 12,
      "from_a": {
       "type": "winner",
       "game": 3
      },
      "team_b": "Carolina Rapid Fire - Ford",
      "seed_b": null,
-     "score_b": null,
+     "score_b": 13,
      "from_b": {
       "type": "winner",
       "game": 2
@@ -10629,7 +10629,7 @@
      "entered_at": "2026-11-02T08:06:34.820Z",
      "level": "AA"
     },
-    "fetched_at": "2026-11-08T17:55"
+    "fetched_at": "2026-11-08T18:06"
    },
    "tgs": {
     "weather": null,
@@ -10730,7 +10730,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-11-08T17:55",
+    "fetched_at": "2026-11-08T18:06",
     "url": "https://topgunstats.com/whos-playing/12524"
    },
    "name": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
@@ -11202,14 +11202,14 @@
      "field": "Bradford:Field # 1",
      "team_a": "Mara Cobras",
      "seed_a": null,
-     "score_a": null,
+     "score_a": 13,
      "from_a": {
       "type": "winner",
       "game": 3
      },
      "team_b": "Mara Bulls",
      "seed_b": null,
-     "score_b": null,
+     "score_b": 5,
      "from_b": {
       "type": "winner",
       "game": 4
@@ -11297,14 +11297,14 @@
      "field": "Bradford:Field # 3",
      "team_a": "ROCO Dirtbagz",
      "seed_a": null,
-     "score_a": null,
+     "score_a": 12,
      "from_a": {
       "type": "winner",
       "game": 3
      },
      "team_b": "Carolina Rapid Fire - Ford",
      "seed_b": null,
-     "score_b": null,
+     "score_b": 13,
      "from_b": {
       "type": "winner",
       "game": 2
@@ -11562,7 +11562,7 @@
      "team": "ROCO Dirtbagz",
      "location": "Forest City, NC",
      "won": 3,
-     "lost": 1,
+     "lost": 2,
      "runs_allowed": 7,
      "runs_scored": 14,
      "team_page_id": null
@@ -11601,7 +11601,7 @@
      "seed": 7,
      "team": "Mara Cobras",
      "location": "Matthews, NC",
-     "won": 4,
+     "won": 5,
      "lost": 0,
      "runs_allowed": 7,
      "runs_scored": 28,
@@ -11632,7 +11632,7 @@
      "team": "Mara Bulls",
      "location": "matthews, NC",
      "won": 4,
-     "lost": 0,
+     "lost": 1,
      "runs_allowed": 8,
      "runs_scored": 27,
      "team_page_id": null
@@ -11701,7 +11701,7 @@
      "seed": 17,
      "team": "Carolina Rapid Fire - Ford",
      "location": "Lincolnton, NC",
-     "won": 3,
+     "won": 4,
      "lost": 0,
      "runs_allowed": 16,
      "runs_scored": 20,
@@ -11926,6 +11926,87 @@
    "stats_fetched": "2026-11-06T12:50"
   },
   {
+   "team": "Mara Cobras",
+   "location": "Matthews, NC",
+   "page_id": null,
+   "url": null,
+   "w": 5,
+   "l": 0,
+   "t": 0,
+   "rs": 60,
+   "ra": 13,
+   "diff": 47,
+   "pct": 1.0,
+   "events": 1,
+   "log": [
+    {
+     "date": "2026-11-07",
+     "event_id": 12524,
+     "event": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
+     "section": "Pool Play",
+     "opponent": "Waxhaw Militia 9U",
+     "rs": 18,
+     "ra": 1,
+     "result": "W"
+    },
+    {
+     "date": "2026-11-07",
+     "event_id": 12524,
+     "event": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
+     "section": "Pool Play",
+     "opponent": "Team 24",
+     "rs": 10,
+     "ra": 6,
+     "result": "W"
+    },
+    {
+     "date": "2026-11-08",
+     "event_id": 12524,
+     "event": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
+     "section": "Gold Bracket",
+     "opponent": "ZT Knuckleheads",
+     "rs": 11,
+     "ra": 1,
+     "result": "W"
+    },
+    {
+     "date": "2026-11-08",
+     "event_id": 12524,
+     "event": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
+     "section": "Gold Bracket",
+     "opponent": "LKN Bolts",
+     "rs": 8,
+     "ra": 0,
+     "result": "W"
+    },
+    {
+     "date": "2026-11-08",
+     "event_id": 12524,
+     "event": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
+     "section": "Gold Bracket",
+     "opponent": "Mara Bulls",
+     "rs": 13,
+     "ra": 5,
+     "result": "W"
+    }
+   ],
+   "points": 0,
+   "titles": 0,
+   "finishes": [
+    {
+     "date": "2026-11-07",
+     "name": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
+     "won": 5,
+     "lost": 0,
+     "standing": "1st (Gold)",
+     "points": 0,
+     "derived": true
+    }
+   ],
+   "season": "",
+   "stats_fetched": null
+  },
+  {
    "team": "South Park Red Raiders",
    "location": "Charlotte, NC",
    "page_id": null,
@@ -12064,67 +12145,6 @@
      "derived": true
     }
    ],
-   "season": "",
-   "stats_fetched": null
-  },
-  {
-   "team": "Mara Cobras",
-   "location": "Matthews, NC",
-   "page_id": null,
-   "url": null,
-   "w": 4,
-   "l": 0,
-   "t": 0,
-   "rs": 47,
-   "ra": 8,
-   "diff": 39,
-   "pct": 1.0,
-   "events": 1,
-   "log": [
-    {
-     "date": "2026-11-07",
-     "event_id": 12524,
-     "event": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
-     "section": "Pool Play",
-     "opponent": "Waxhaw Militia 9U",
-     "rs": 18,
-     "ra": 1,
-     "result": "W"
-    },
-    {
-     "date": "2026-11-07",
-     "event_id": 12524,
-     "event": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
-     "section": "Pool Play",
-     "opponent": "Team 24",
-     "rs": 10,
-     "ra": 6,
-     "result": "W"
-    },
-    {
-     "date": "2026-11-08",
-     "event_id": 12524,
-     "event": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
-     "section": "Gold Bracket",
-     "opponent": "ZT Knuckleheads",
-     "rs": 11,
-     "ra": 1,
-     "result": "W"
-    },
-    {
-     "date": "2026-11-08",
-     "event_id": 12524,
-     "event": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
-     "section": "Gold Bracket",
-     "opponent": "LKN Bolts",
-     "rs": 8,
-     "ra": 0,
-     "result": "W"
-    }
-   ],
-   "points": 0,
-   "titles": 0,
-   "finishes": [],
    "season": "",
    "stats_fetched": null
   },
@@ -12290,12 +12310,12 @@
    "location": "Lincolnton, NC",
    "page_id": null,
    "url": null,
-   "w": 7,
+   "w": 8,
    "l": 0,
    "t": 0,
-   "rs": 68,
-   "ra": 35,
-   "diff": 33,
+   "rs": 81,
+   "ra": 47,
+   "diff": 34,
    "pct": 1.0,
    "events": 2,
    "log": [
@@ -12368,6 +12388,16 @@
      "rs": 8,
      "ra": 6,
      "result": "W"
+    },
+    {
+     "date": "2026-11-08",
+     "event_id": 12524,
+     "event": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
+     "section": "Silver Bracket",
+     "opponent": "ROCO Dirtbagz",
+     "rs": 13,
+     "ra": 12,
+     "result": "W"
     }
    ],
    "points": 0,
@@ -12379,6 +12409,15 @@
      "won": 4,
      "lost": 0,
      "standing": "1st (Gold)",
+     "points": 0,
+     "derived": true
+    },
+    {
+     "date": "2026-11-07",
+     "name": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
+     "won": 4,
+     "lost": 0,
+     "standing": "1st (Silver)",
      "points": 0,
      "derived": true
     }
@@ -12637,106 +12676,6 @@
    ],
    "season": "",
    "stats_fetched": null
-  },
-  {
-   "team": "Mara Bulls",
-   "location": "matthews, NC",
-   "page_id": 38928,
-   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=38928",
-   "w": 6,
-   "l": 1,
-   "t": 0,
-   "rs": 77,
-   "ra": 56,
-   "diff": 21,
-   "pct": 0.857,
-   "events": 2,
-   "log": [
-    {
-     "date": "2026-09-11",
-     "event_id": 13600,
-     "event": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
-     "section": "Pool Play",
-     "opponent": "LKN Kingdom",
-     "rs": 10,
-     "ra": 6,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-11",
-     "event_id": 13600,
-     "event": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
-     "section": "Pool Play",
-     "opponent": "Carolina Clippers 9U",
-     "rs": 2,
-     "ra": 15,
-     "result": "L"
-    },
-    {
-     "date": "2026-09-11",
-     "event_id": 13600,
-     "event": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
-     "section": "Silver Bracket",
-     "opponent": "Carolina Icons",
-     "rs": 14,
-     "ra": 11,
-     "result": "W"
-    },
-    {
-     "date": "2026-11-07",
-     "event_id": 12524,
-     "event": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
-     "section": "Pool Play",
-     "opponent": "Elite 9",
-     "rs": 12,
-     "ra": 4,
-     "result": "W"
-    },
-    {
-     "date": "2026-11-07",
-     "event_id": 12524,
-     "event": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
-     "section": "Pool Play",
-     "opponent": "PeeDee Mudcats",
-     "rs": 15,
-     "ra": 4,
-     "result": "W"
-    },
-    {
-     "date": "2026-11-08",
-     "event_id": 12524,
-     "event": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
-     "section": "Gold Bracket",
-     "opponent": "Athletes Lab 9U Navy- Stewart",
-     "rs": 10,
-     "ra": 5,
-     "result": "W"
-    },
-    {
-     "date": "2026-11-08",
-     "event_id": 12524,
-     "event": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
-     "section": "Gold Bracket",
-     "opponent": "Copperheads",
-     "rs": 14,
-     "ra": 11,
-     "result": "W"
-    }
-   ],
-   "points": 300,
-   "titles": 1,
-   "finishes": [
-    {
-     "date": "2026-09-11",
-     "name": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
-     "won": 2,
-     "lost": 1,
-     "standing": "1st (Silver)",
-     "points": 300
-    }
-   ],
-   "season": "08/01/2026 - 11/06/2026",
-   "stats_fetched": "2026-11-06T12:54"
   },
   {
    "team": "Lightning Jacks Riddle",
@@ -13236,6 +13175,125 @@
    ],
    "season": "08/01/2026 - 11/06/2026",
    "stats_fetched": "2026-11-06T12:53"
+  },
+  {
+   "team": "Mara Bulls",
+   "location": "matthews, NC",
+   "page_id": 38928,
+   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=38928",
+   "w": 6,
+   "l": 2,
+   "t": 0,
+   "rs": 82,
+   "ra": 69,
+   "diff": 13,
+   "pct": 0.75,
+   "events": 2,
+   "log": [
+    {
+     "date": "2026-09-11",
+     "event_id": 13600,
+     "event": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
+     "section": "Pool Play",
+     "opponent": "LKN Kingdom",
+     "rs": 10,
+     "ra": 6,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-11",
+     "event_id": 13600,
+     "event": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
+     "section": "Pool Play",
+     "opponent": "Carolina Clippers 9U",
+     "rs": 2,
+     "ra": 15,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-11",
+     "event_id": 13600,
+     "event": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
+     "section": "Silver Bracket",
+     "opponent": "Carolina Icons",
+     "rs": 14,
+     "ra": 11,
+     "result": "W"
+    },
+    {
+     "date": "2026-11-07",
+     "event_id": 12524,
+     "event": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
+     "section": "Pool Play",
+     "opponent": "Elite 9",
+     "rs": 12,
+     "ra": 4,
+     "result": "W"
+    },
+    {
+     "date": "2026-11-07",
+     "event_id": 12524,
+     "event": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
+     "section": "Pool Play",
+     "opponent": "PeeDee Mudcats",
+     "rs": 15,
+     "ra": 4,
+     "result": "W"
+    },
+    {
+     "date": "2026-11-08",
+     "event_id": 12524,
+     "event": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
+     "section": "Gold Bracket",
+     "opponent": "Athletes Lab 9U Navy- Stewart",
+     "rs": 10,
+     "ra": 5,
+     "result": "W"
+    },
+    {
+     "date": "2026-11-08",
+     "event_id": 12524,
+     "event": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
+     "section": "Gold Bracket",
+     "opponent": "Copperheads",
+     "rs": 14,
+     "ra": 11,
+     "result": "W"
+    },
+    {
+     "date": "2026-11-08",
+     "event_id": 12524,
+     "event": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
+     "section": "Gold Bracket",
+     "opponent": "Mara Cobras",
+     "rs": 5,
+     "ra": 13,
+     "result": "L"
+    }
+   ],
+   "points": 300,
+   "titles": 1,
+   "finishes": [
+    {
+     "date": "2026-09-11",
+     "name": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
+     "won": 2,
+     "lost": 1,
+     "standing": "1st (Silver)",
+     "points": 300
+    },
+    {
+     "date": "2026-11-07",
+     "name": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
+     "won": 4,
+     "lost": 1,
+     "standing": "2nd (Gold)",
+     "points": 0,
+     "derived": true
+    }
+   ],
+   "season": "08/01/2026 - 11/06/2026",
+   "stats_fetched": "2026-11-06T12:54"
   },
   {
    "team": "Dirtbags Baseball ESB",
@@ -15206,208 +15264,6 @@
    "stats_fetched": "2026-11-06T12:51"
   },
   {
-   "team": "ROCO Dirtbagz",
-   "location": "Forest City, NC",
-   "page_id": 30375,
-   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=30375",
-   "w": 8,
-   "l": 6,
-   "t": 0,
-   "rs": 120,
-   "ra": 103,
-   "diff": 17,
-   "pct": 0.571,
-   "events": 4,
-   "log": [
-    {
-     "date": "2026-09-13",
-     "event_id": 12516,
-     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
-     "section": "Bronze Bracket",
-     "opponent": "Lake Wylie Venom",
-     "rs": 13,
-     "ra": 5,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-13",
-     "event_id": 12516,
-     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
-     "section": "Bronze Bracket",
-     "opponent": "Hooligans",
-     "rs": 2,
-     "ra": 9,
-     "result": "L"
-    },
-    {
-     "date": "2026-09-26",
-     "event_id": 12518,
-     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "section": "Pool Play",
-     "opponent": "Dirtbags Baseball ESB",
-     "rs": 13,
-     "ra": 1,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-26",
-     "event_id": 12518,
-     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "section": "Pool Play",
-     "opponent": "LumberJacks",
-     "rs": 13,
-     "ra": 7,
-     "result": "W"
-    },
-    {
-     "date": "2026-09-27",
-     "event_id": 12518,
-     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "section": "Gold Bracket",
-     "opponent": "South Park Red Raiders",
-     "rs": 2,
-     "ra": 14,
-     "result": "L"
-    },
-    {
-     "date": "2026-09-27",
-     "event_id": 12518,
-     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "section": "Gold Bracket",
-     "opponent": "LKN Bolts",
-     "rs": 5,
-     "ra": 17,
-     "result": "L"
-    },
-    {
-     "date": "2026-10-17",
-     "event_id": 12521,
-     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
-     "section": "Pool Play",
-     "opponent": "SC Tide - Lucariello",
-     "rs": 8,
-     "ra": 7,
-     "result": "W"
-    },
-    {
-     "date": "2026-10-17",
-     "event_id": 12521,
-     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
-     "section": "Pool Play",
-     "opponent": "NL Destroyers 2036",
-     "rs": 6,
-     "ra": 9,
-     "result": "L"
-    },
-    {
-     "date": "2026-10-18",
-     "event_id": 12521,
-     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
-     "section": "Silver Bracket",
-     "opponent": "Carolina Icons",
-     "rs": 18,
-     "ra": 10,
-     "result": "W"
-    },
-    {
-     "date": "2026-10-18",
-     "event_id": 12521,
-     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
-     "section": "Silver Bracket",
-     "opponent": "Team 24",
-     "rs": 5,
-     "ra": 12,
-     "result": "L"
-    },
-    {
-     "date": "2026-11-07",
-     "event_id": 12524,
-     "event": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
-     "section": "Pool Play",
-     "opponent": "Athletes Lab 9U Navy- Stewart",
-     "rs": 4,
-     "ra": 5,
-     "result": "L"
-    },
-    {
-     "date": "2026-11-07",
-     "event_id": 12524,
-     "event": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
-     "section": "Pool Play",
-     "opponent": "BOILING SPRINGS BULLDOGS BASEBALL 9u",
-     "rs": 10,
-     "ra": 2,
-     "result": "W"
-    },
-    {
-     "date": "2026-11-08",
-     "event_id": 12524,
-     "event": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
-     "section": "Silver Bracket",
-     "opponent": "LumberJacks",
-     "rs": 10,
-     "ra": 2,
-     "result": "W"
-    },
-    {
-     "date": "2026-11-08",
-     "event_id": 12524,
-     "event": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
-     "section": "Silver Bracket",
-     "opponent": "Union County Legends",
-     "rs": 11,
-     "ra": 3,
-     "result": "W"
-    }
-   ],
-   "points": 2950,
-   "titles": 2,
-   "finishes": [
-    {
-     "date": "2026-09-12",
-     "name": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
-     "won": 1,
-     "lost": 1,
-     "standing": "2nd (Bronze)",
-     "points": 475
-    },
-    {
-     "date": "2026-09-26",
-     "name": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
-     "won": 2,
-     "lost": 2,
-     "standing": "4th (Gold)",
-     "points": 725
-    },
-    {
-     "date": "2026-10-09",
-     "name": "FRIDAY NIGHT G.O.A.T. SERIES 9U&11U",
-     "won": 3,
-     "lost": 0,
-     "standing": "1st (Gold)",
-     "points": 400
-    },
-    {
-     "date": "2026-10-17",
-     "name": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
-     "won": 2,
-     "lost": 2,
-     "standing": "3rd (Silver)",
-     "points": 1050
-    },
-    {
-     "date": "2026-10-23",
-     "name": "SUPER TOP-40 PINK QUALIFIER FOR SHIPYARD FOR 2027--HOLD YOUR SPOT NOW",
-     "won": 2,
-     "lost": 1,
-     "standing": "1st (Silver)",
-     "points": 300
-    }
-   ],
-   "season": "08/01/2026 - 11/06/2026",
-   "stats_fetched": "2026-11-06T12:50"
-  },
-  {
    "team": "NC Made 9U Blue",
    "location": "Mocksville, NC",
    "page_id": 28938,
@@ -15812,6 +15668,227 @@
    ],
    "season": "08/01/2026 - 11/06/2026",
    "stats_fetched": "2026-11-06T12:52"
+  },
+  {
+   "team": "ROCO Dirtbagz",
+   "location": "Forest City, NC",
+   "page_id": 30375,
+   "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=30375",
+   "w": 8,
+   "l": 7,
+   "t": 0,
+   "rs": 132,
+   "ra": 116,
+   "diff": 16,
+   "pct": 0.533,
+   "events": 4,
+   "log": [
+    {
+     "date": "2026-09-13",
+     "event_id": 12516,
+     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
+     "section": "Bronze Bracket",
+     "opponent": "Lake Wylie Venom",
+     "rs": 13,
+     "ra": 5,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-13",
+     "event_id": 12516,
+     "event": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
+     "section": "Bronze Bracket",
+     "opponent": "Hooligans",
+     "rs": 2,
+     "ra": 9,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-26",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Pool Play",
+     "opponent": "Dirtbags Baseball ESB",
+     "rs": 13,
+     "ra": 1,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-26",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Pool Play",
+     "opponent": "LumberJacks",
+     "rs": 13,
+     "ra": 7,
+     "result": "W"
+    },
+    {
+     "date": "2026-09-27",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Gold Bracket",
+     "opponent": "South Park Red Raiders",
+     "rs": 2,
+     "ra": 14,
+     "result": "L"
+    },
+    {
+     "date": "2026-09-27",
+     "event_id": 12518,
+     "event": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "section": "Gold Bracket",
+     "opponent": "LKN Bolts",
+     "rs": 5,
+     "ra": 17,
+     "result": "L"
+    },
+    {
+     "date": "2026-10-17",
+     "event_id": 12521,
+     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "section": "Pool Play",
+     "opponent": "SC Tide - Lucariello",
+     "rs": 8,
+     "ra": 7,
+     "result": "W"
+    },
+    {
+     "date": "2026-10-17",
+     "event_id": 12521,
+     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "section": "Pool Play",
+     "opponent": "NL Destroyers 2036",
+     "rs": 6,
+     "ra": 9,
+     "result": "L"
+    },
+    {
+     "date": "2026-10-18",
+     "event_id": 12521,
+     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "section": "Silver Bracket",
+     "opponent": "Carolina Icons",
+     "rs": 18,
+     "ra": 10,
+     "result": "W"
+    },
+    {
+     "date": "2026-10-18",
+     "event_id": 12521,
+     "event": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "section": "Silver Bracket",
+     "opponent": "Team 24",
+     "rs": 5,
+     "ra": 12,
+     "result": "L"
+    },
+    {
+     "date": "2026-11-07",
+     "event_id": 12524,
+     "event": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
+     "section": "Pool Play",
+     "opponent": "Athletes Lab 9U Navy- Stewart",
+     "rs": 4,
+     "ra": 5,
+     "result": "L"
+    },
+    {
+     "date": "2026-11-07",
+     "event_id": 12524,
+     "event": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
+     "section": "Pool Play",
+     "opponent": "BOILING SPRINGS BULLDOGS BASEBALL 9u",
+     "rs": 10,
+     "ra": 2,
+     "result": "W"
+    },
+    {
+     "date": "2026-11-08",
+     "event_id": 12524,
+     "event": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
+     "section": "Silver Bracket",
+     "opponent": "LumberJacks",
+     "rs": 10,
+     "ra": 2,
+     "result": "W"
+    },
+    {
+     "date": "2026-11-08",
+     "event_id": 12524,
+     "event": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
+     "section": "Silver Bracket",
+     "opponent": "Union County Legends",
+     "rs": 11,
+     "ra": 3,
+     "result": "W"
+    },
+    {
+     "date": "2026-11-08",
+     "event_id": 12524,
+     "event": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
+     "section": "Silver Bracket",
+     "opponent": "Carolina Rapid Fire - Ford",
+     "rs": 12,
+     "ra": 13,
+     "result": "L"
+    }
+   ],
+   "points": 2950,
+   "titles": 2,
+   "finishes": [
+    {
+     "date": "2026-09-12",
+     "name": "MARUCCI BATTLE FOR THE BATS-CHAMPIIONS RECEIVE MARUCCI BAT",
+     "won": 1,
+     "lost": 1,
+     "standing": "2nd (Bronze)",
+     "points": 475
+    },
+    {
+     "date": "2026-09-26",
+     "name": "SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND",
+     "won": 2,
+     "lost": 2,
+     "standing": "4th (Gold)",
+     "points": 725
+    },
+    {
+     "date": "2026-10-09",
+     "name": "FRIDAY NIGHT G.O.A.T. SERIES 9U&11U",
+     "won": 3,
+     "lost": 0,
+     "standing": "1st (Gold)",
+     "points": 400
+    },
+    {
+     "date": "2026-10-17",
+     "name": "NEW SUPER REGIONAL--TRIPLE POINTS--$$$$ IN FREE BERTHS--SLIDING MITTS",
+     "won": 2,
+     "lost": 2,
+     "standing": "3rd (Silver)",
+     "points": 1050
+    },
+    {
+     "date": "2026-10-23",
+     "name": "SUPER TOP-40 PINK QUALIFIER FOR SHIPYARD FOR 2027--HOLD YOUR SPOT NOW",
+     "won": 2,
+     "lost": 1,
+     "standing": "1st (Silver)",
+     "points": 300
+    },
+    {
+     "date": "2026-11-07",
+     "name": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
+     "won": 3,
+     "lost": 2,
+     "standing": "2nd (Silver)",
+     "points": 0,
+     "derived": true
+    }
+   ],
+   "season": "08/01/2026 - 11/06/2026",
+   "stats_fetched": "2026-11-06T12:50"
   },
   {
    "team": "Legacy Baseball 9U RED",
