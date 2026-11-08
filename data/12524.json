@@ -1885,7 +1885,7 @@
           "team": "Newport Bombers 11U Janson",
           "location": "Rock Hill, SC",
           "won": 2,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 10,
           "runs_scored": 17,
           "team_page_id": null
@@ -1914,7 +1914,7 @@
           "seed": 5,
           "team": "Carolina Diamond Crushers",
           "location": "Kannapolis, NC",
-          "won": 1,
+          "won": 2,
           "lost": 2,
           "runs_allowed": 9,
           "runs_scored": 15,
@@ -2282,10 +2282,10 @@
             "field": "Ferguson:Field # 4",
             "team_a": "Loser Game #1 Carolina Diamond Crushers",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 8,
             "team_b": "Loser Game #2 Newport Bombers 11U Janson",
             "seed_b": null,
-            "score_b": null
+            "score_b": 3
           },
           {
             "game": 6,
@@ -4142,5 +4142,5 @@
   },
   "site_last_updated": "11/05/2026 12:03 PM",
   "tournament_id": 12524,
-  "fetched_at": "2026-11-08T12:41"
+  "fetched_at": "2026-11-08T12:51"
 }
