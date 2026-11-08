@@ -1,5 +1,5 @@
 # Elite 9 - Top Gun schedule
-_Updated Sat Nov 07, 2026 08:18 PM_
+_Updated Sat Nov 07, 2026 08:28 PM_
 
 ## SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND
 September 26 - 27 in Greater Charlotte Area, NC  
@@ -247,6 +247,7 @@ Tournament 12524 - [schedule page](https://playtopgunsports.com/GameTimesResults
 |---|---|---|---|---|
 | Pool 3 | Sat 8:30 AM | Dallas:Field # 3 | Mara Bulls 12 | Elite 9 4 |
 | Pool 7 | Sat 10:15 AM | Dallas:Field # 3 | PeeDee Mudcats 8 | Elite 9 13 |
+| Bron 3 | Sun 12:30 PM | Bradford:Field # 5 | Winner Game #1 | (#12) Elite 9 |
 
 **9U standings**
 
@@ -259,7 +260,7 @@ Tournament 12524 - [schedule page](https://playtopgunsports.com/GameTimesResults
 | 5 | Waxhaw Militia 9U | Waxhaw, NC | 0-2 | 13 | 31 |
 | 6 | LumberJacks | Gaston County, NC | 1-1 | 10 | 14 |
 | 7 | Mara Cobras | Matthews, NC | 2-0 | 28 | 7 |
-| 8 | Union County Legends | Waxhaw, NC | 1-0 | 30 | 7 |
+| 8 | Union County Legends | Waxhaw, NC | 2-0 | 40 | 13 |
 | 9 | SC Tide - Lucariello | Clover, SC | 1-1 | 19 | 34 |
 | 10 | Mara Bulls | matthews, NC | 2-0 | 27 | 8 |
 | 11 | Red Clay Athletics 9U Darcangelo | Charlotte, NC | 1-1 | 16 | 6 |
@@ -267,7 +268,7 @@ Tournament 12524 - [schedule page](https://playtopgunsports.com/GameTimesResults
 | 13 | Carolina Regulators 9u | Stanley, NC | 1-1 | 11 | 23 |
 | 14 | Carolina 9Uw | Gastonia, NC | 0-2 | 1 | 21 |
 | 15 | Carolina Elevate | Lenoir, NC | 0-2 | 5 | 12 |
-| 16 | Carolina Forge 9U | Gastonia, NC | 0-1 | 4 | 12 |
+| 16 | Carolina Forge 9U | Gastonia, NC | 0-2 | 10 | 22 |
 | 17 | Carolina Rapid Fire - Ford | Lincolnton, NC | 2-0 | 20 | 16 |
 | 18 | Diamond Crushers | Concord, NC | 0-2 | 10 | 33 |
 | 19 | Copperheads | Mooresville, NC | 2-0 | 13 | 3 |
@@ -281,10 +282,10 @@ Tournament 12524 - [schedule page](https://playtopgunsports.com/GameTimesResults
 
 | G | When | Field | Team A | Team B |
 |---|---|---|---|---|
-| 1 | Sun 12:30 PM | Bradford:Field # 1 | (#4)  | (#5)  |
-| 2 | Sun 12:30 PM | Bradford:Field # 2 | (#3)  | (#6)  |
-| 3 | Sun 2:30 PM | Bradford:Field # 1 | Winner Game #1 | (#1)  |
-| 4 | Sun 2:30 PM | Bradford:Field # 2 | Winner Game #2 | (#2)  |
+| 1 | Sun 12:30 PM | Bradford:Field # 1 | (#4) ZT Knuckleheads | (#5) Mara Cobras |
+| 2 | Sun 12:30 PM | Bradford:Field # 2 | (#3) Athletes Lab 9U Navy- Stewart | (#6) Mara Bulls |
+| 3 | Sun 2:30 PM | Bradford:Field # 1 | Winner Game #1 | (#1) LKN Bolts |
+| 4 | Sun 2:30 PM | Bradford:Field # 2 | Winner Game #2 | (#2) Copperheads |
 | 5 | Sun 4:30 PM | Bradford:Field # 2 | Loser Game #1 | Loser Game #2 |
 | 6 | Sun 4:30 PM | Bradford:Field # 1 | Winner Game #3 | Winner Game #4 |
 
@@ -292,9 +293,9 @@ Tournament 12524 - [schedule page](https://playtopgunsports.com/GameTimesResults
 
 | G | When | Field | Team A | Team B |
 |---|---|---|---|---|
-| 1 | Sun 12:30 PM | Bradford:Field # 3 | (#10)  | (#11)  |
-| 2 | Sun 12:30 PM | Bradford:Field # 4 | (#8)  | (#9)  |
-| 3 | Sun 2:30 PM | Bradford:Field # 3 | Winner Game #1 | (#7)  |
+| 1 | Sun 12:30 PM | Bradford:Field # 3 | (#10) ROCO Dirtbagz | (#11) LumberJacks |
+| 2 | Sun 12:30 PM | Bradford:Field # 4 | (#8) Carolina Rapid Fire - Ford | (#9) Red Clay Athletics 9U Darcangelo |
+| 3 | Sun 2:30 PM | Bradford:Field # 3 | Winner Game #1 | (#7) Union County Legends |
 | 4 | Sun 2:30 PM | Bradford:Field # 4 | Loser Game #1 | Loser Game #2 |
 | 5 | Sun 4:30 PM | Bradford:Field # 3 | Winner Game #3 | Winner Game #2 |
 | 6 | Sun 4:30 PM | Bradford:Field # 4 | Winner Game #4 | Loser Game #3 (If Needed) |
@@ -303,9 +304,9 @@ Tournament 12524 - [schedule page](https://playtopgunsports.com/GameTimesResults
 
 | G | When | Field | Team A | Team B |
 |---|---|---|---|---|
-| 1 | Sun 8:30 AM | Bradford:Field # 5 | (#15)  | (#16)  |
-| 2 | Sun 10:30 AM | Bradford:Field # 5 | (#13)  | (#14)  |
-| 3 | Sun 12:30 PM | Bradford:Field # 5 | Winner Game #1 | (#12)  |
+| 1 | Sun 8:30 AM | Bradford:Field # 5 | (#15) SC Tide - Lucariello | (#16) Hooligans |
+| 2 | Sun 10:30 AM | Bradford:Field # 5 | (#13) Team 24 | (#14) Carolina Regulators 9u |
+| 3 | Sun 12:30 PM | Bradford:Field # 5 | Winner Game #1 | (#12) Elite 9 |
 | 4 | Sun 4:30 PM | Bradford:Field # 5 | Loser Game #1 | Loser Game #2 |
 | 5 | Sun 2:30 PM | Bradford:Field # 5 | Winner Game #3 | Winner Game #2 |
 
@@ -313,8 +314,8 @@ Tournament 12524 - [schedule page](https://playtopgunsports.com/GameTimesResults
 
 | G | When | Field | Team A | Team B |
 |---|---|---|---|---|
-| 1 | Sun 8:30 AM | Bradford:Field # 4 | (#18)  | (#19)  |
-| 2 | Sun 8:30 AM | Bradford:Field # 3 | (#17)  | (#20)  |
+| 1 | Sun 8:30 AM | Bradford:Field # 4 | (#18) Carolina Elevate | (#19) Carolina 9Uw |
+| 2 | Sun 8:30 AM | Bradford:Field # 3 | (#17) LKN Lightning - Ogburn | (#20) Carolina Forge 9U |
 | 3 | Sun 10:30 AM | Bradford:Field # 4 | Loser Game #1 | Loser Game #2 |
 | 4 | Sun 10:30 AM | Bradford:Field # 3 | Winner Game #1 | Winner Game #2 |
 
@@ -322,8 +323,8 @@ Tournament 12524 - [schedule page](https://playtopgunsports.com/GameTimesResults
 
 | G | When | Field | Team A | Team B |
 |---|---|---|---|---|
-| 1 | Sun 8:30 AM | Bradford:Field # 2 | (#22)  | (#23)  |
-| 2 | Sun 8:30 AM | Bradford:Field # 1 | (#21)  | (#24)  |
+| 1 | Sun 8:30 AM | Bradford:Field # 2 | (#22) PeeDee Mudcats | (#23) Waxhaw Militia 9U |
+| 2 | Sun 8:30 AM | Bradford:Field # 1 | (#21) BOILING SPRINGS BULLDOGS BASEBALL 9u | (#24) Diamond Crushers |
 | 3 | Sun 10:30 AM | Bradford:Field # 2 | Loser Game #1 | Loser Game #2 |
 | 4 | Sun 10:30 AM | Bradford:Field # 1 | Winner Game #1 | Winner Game #2 |
 
