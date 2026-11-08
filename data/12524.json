@@ -112,7 +112,7 @@
           "team": "Canes Atlantic 8u Fareri",
           "location": "Denver, NC",
           "won": 1,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 28,
           "runs_scored": 26,
           "team_page_id": null
@@ -121,7 +121,7 @@
           "seed": 7,
           "team": "Tribe",
           "location": "Indian Trail, NC",
-          "won": 1,
+          "won": 2,
           "lost": 2,
           "runs_allowed": 29,
           "runs_scored": 26,
@@ -297,10 +297,10 @@
             "field": "Westmoreld:Field 4",
             "team_a": "Canes Atlantic 8u Fareri",
             "seed_a": 5,
-            "score_a": null,
+            "score_a": 10,
             "team_b": "Tribe",
             "seed_b": 6,
-            "score_b": null
+            "score_b": 11
           }
         ]
       }
@@ -2985,7 +2985,7 @@
           "team": "North Lincoln 33",
           "location": "Denver, NC",
           "won": 1,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 18,
           "runs_scored": 8,
           "team_page_id": null
@@ -3044,7 +3044,7 @@
           "seed": 8,
           "team": "Carolina Clippers 13U",
           "location": "Albemarle, NC",
-          "won": 0,
+          "won": 1,
           "lost": 2,
           "runs_allowed": 17,
           "runs_scored": 6,
@@ -3298,10 +3298,10 @@
             "field": "Tega Cay:Field 4",
             "team_a": "North Lincoln 33",
             "seed_a": 8,
-            "score_a": null,
+            "score_a": 0,
             "team_b": "Carolina Clippers 13U",
             "seed_b": 9,
-            "score_b": null
+            "score_b": 11
           },
           {
             "game": 3,
@@ -3320,7 +3320,7 @@
             "day": "Sun",
             "time": "2:30 PM",
             "field": "Tega Cay:Field 4",
-            "team_a": "Winner Game #2",
+            "team_a": "Winner Game #2 Carolina Clippers 13U",
             "seed_a": null,
             "score_a": null,
             "team_b": "Winner Game #3",
@@ -4119,7 +4119,7 @@
             "field": "SP:Field #2",
             "team_a": "Startown Elite",
             "seed_a": 2,
-            "score_a": 8,
+            "score_a": 10,
             "team_b": "Carolina Elevate 17U",
             "seed_b": 3,
             "score_b": 0
@@ -4142,5 +4142,5 @@
   },
   "site_last_updated": "11/05/2026 12:03 PM",
   "tournament_id": 12524,
-  "fetched_at": "2026-11-08T11:59"
+  "fetched_at": "2026-11-08T12:09"
 }
