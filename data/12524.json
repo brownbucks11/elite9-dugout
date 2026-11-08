@@ -2467,7 +2467,7 @@
           "seed": 3,
           "team": "Athletes Lab Navy",
           "location": "Maiden, NC",
-          "won": 1,
+          "won": 2,
           "lost": 1,
           "runs_allowed": 18,
           "runs_scored": 14,
@@ -2498,7 +2498,7 @@
           "team": "Carolina Locos-Black",
           "location": "Waxhaw, NC",
           "won": 1,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 16,
           "runs_scored": 15,
           "team_page_id": null
@@ -2871,10 +2871,10 @@
             "field": "Ferguson:Field # 3",
             "team_a": "Carolina Locos-Black",
             "seed_a": 8,
-            "score_a": null,
+            "score_a": 4,
             "team_b": "Athletes Lab Navy",
             "seed_b": 9,
-            "score_b": null
+            "score_b": 14
           },
           {
             "game": 3,
@@ -2896,7 +2896,7 @@
             "team_a": "Loser Game #1 ELOC 12u Challenge",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Loser Game #2",
+            "team_b": "Loser Game #2 Carolina Locos-Black",
             "seed_b": null,
             "score_b": null
           },
@@ -2908,7 +2908,7 @@
             "team_a": "Winner Game #3",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Winner Game #2",
+            "team_b": "Winner Game #2 Athletes Lab Navy",
             "seed_b": null,
             "score_b": null
           }
@@ -3778,7 +3778,7 @@
           "seed": 6,
           "team": "Carolina Elevate",
           "location": "Lenoir, NC",
-          "won": 2,
+          "won": 3,
           "lost": 0,
           "runs_allowed": 1,
           "runs_scored": 29,
@@ -3799,7 +3799,7 @@
           "team": "MARA Machine",
           "location": "Matthews, NC",
           "won": 1,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 1,
           "runs_scored": 7,
           "team_page_id": null
@@ -3934,10 +3934,10 @@
             "field": "CA:Field #1",
             "team_a": "Carolina Elevate",
             "seed_a": 1,
-            "score_a": null,
+            "score_a": 7,
             "team_b": "MARA Machine",
             "seed_b": 4,
-            "score_b": null
+            "score_b": 6
           },
           {
             "game": 2,
@@ -3956,7 +3956,7 @@
             "day": "Sun",
             "time": "1:00 PM",
             "field": "CA:Field #1",
-            "team_a": "Winner Game #1",
+            "team_a": "Winner Game #1 Carolina Elevate",
             "seed_a": null,
             "score_a": null,
             "team_b": "Winner Game #2 CC CARDINALS 15U",
@@ -4142,5 +4142,5 @@
   },
   "site_last_updated": "11/05/2026 12:03 PM",
   "tournament_id": 12524,
-  "fetched_at": "2026-11-08T12:51"
+  "fetched_at": "2026-11-08T13:02"
 }
