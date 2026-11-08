@@ -1113,7 +1113,7 @@
           "seed": 1,
           "team": "Carolina Clippers 10U",
           "location": "Richfield, NC",
-          "won": 3,
+          "won": 4,
           "lost": 0,
           "runs_allowed": 13,
           "runs_scored": 24,
@@ -1124,7 +1124,7 @@
           "team": "LKN Bolts",
           "location": "Huntersville, NC",
           "won": 3,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 4,
           "runs_scored": 20,
           "team_page_id": null
@@ -1850,7 +1850,7 @@
           "seed": 7,
           "team": "FS Bulldogs 11u (Houghton)",
           "location": "My Ulla, NC",
-          "won": 1,
+          "won": 2,
           "lost": 2,
           "runs_allowed": 19,
           "runs_scored": 5,
@@ -1871,7 +1871,7 @@
           "team": "Mount Holly Hawks",
           "location": "Mount Holly, NC",
           "won": 0,
-          "lost": 3,
+          "lost": 4,
           "runs_allowed": 18,
           "runs_scored": 3,
           "team_page_id": null
@@ -2336,10 +2336,10 @@
             "field": "Ferguson:Field # 4",
             "team_a": "Mount Holly Hawks",
             "seed_a": 14,
-            "score_a": null,
+            "score_a": 5,
             "team_b": "FS Bulldogs 11u (Houghton)",
             "seed_b": 15,
-            "score_b": null
+            "score_b": 6
           }
         ]
       }
@@ -2382,7 +2382,7 @@
           "team": "Davidson Force",
           "location": "Davidson, NC",
           "won": 4,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 7,
           "runs_scored": 29,
           "team_page_id": null
@@ -2491,7 +2491,7 @@
           "seed": 15,
           "team": "The Battery Training Academy LLC.",
           "location": "Gastonia, NC",
-          "won": 4,
+          "won": 5,
           "lost": 0,
           "runs_allowed": 12,
           "runs_scored": 23,
@@ -2737,10 +2737,10 @@
             "field": "M. Rivers:Martha Rivers 2",
             "team_a": "Winner Game #3 The Battery Training Academy LLC.",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 12,
             "team_b": "Winner Game #4 Davidson Force",
             "seed_b": null,
-            "score_b": null
+            "score_b": 7
           }
         ],
         "Silver Bracket": [
@@ -4022,5 +4022,5 @@
   },
   "site_last_updated": "11/05/2026 12:03 PM",
   "tournament_id": 12524,
-  "fetched_at": "2026-11-08T18:27"
+  "fetched_at": "2026-11-08T18:37"
 }
