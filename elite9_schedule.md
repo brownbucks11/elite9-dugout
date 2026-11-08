@@ -1,5 +1,5 @@
 # Elite 9 - Top Gun schedule
-_Updated Sun Nov 08, 2026 03:18 PM_
+_Updated Sun Nov 08, 2026 03:28 PM_
 
 ## SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND
 September 26 - 27 in Greater Charlotte Area, NC  
@@ -256,10 +256,10 @@ Tournament 12524 - [schedule page](https://playtopgunsports.com/GameTimesResults
 | 1 | Team 24 | York, SC | 2-1 | 19 | 22 |
 | 2 | Hooligans | Mount Holly, NC | 2-1 | 18 | 20 |
 | 3 | ROCO Dirtbagz | Forest City, NC | 2-1 | 14 | 7 |
-| 4 | LKN Bolts | Huntersville, NC | 2-0 | 38 | 3 |
+| 4 | LKN Bolts | Huntersville, NC | 2-1 | 38 | 3 |
 | 5 | Waxhaw Militia 9U | Waxhaw, NC | 2-2 | 13 | 31 |
 | 6 | LumberJacks | Gaston County, NC | 1-2 | 10 | 14 |
-| 7 | Mara Cobras | Matthews, NC | 3-0 | 28 | 7 |
+| 7 | Mara Cobras | Matthews, NC | 4-0 | 28 | 7 |
 | 8 | Union County Legends | Waxhaw, NC | 2-0 | 40 | 13 |
 | 9 | SC Tide - Lucariello | Clover, SC | 1-2 | 19 | 34 |
 | 10 | Mara Bulls | matthews, NC | 3-0 | 27 | 8 |
@@ -284,10 +284,10 @@ Tournament 12524 - [schedule page](https://playtopgunsports.com/GameTimesResults
 |---|---|---|---|---|
 | 1 | Sun 12:30 PM | Bradford:Field # 1 | (#4) ZT Knuckleheads 1 | (#5) Mara Cobras 11 |
 | 2 | Sun 12:30 PM | Bradford:Field # 2 | (#3) Athletes Lab 9U Navy- Stewart 5 | (#6) Mara Bulls 10 |
-| 3 | Sun 2:30 PM | Bradford:Field # 1 | Winner Game #1 Mara Cobras | (#1) LKN Bolts |
+| 3 | Sun 2:30 PM | Bradford:Field # 1 | Winner Game #1 Mara Cobras 8 | (#1) LKN Bolts 0 |
 | 4 | Sun 2:30 PM | Bradford:Field # 2 | Winner Game #2 Mara Bulls | (#2) Copperheads |
 | 5 | Sun 4:30 PM | Bradford:Field # 2 | Loser Game #1 ZT Knuckleheads | Loser Game #2 Athletes Lab 9U Navy- Stewart |
-| 6 | Sun 4:30 PM | Bradford:Field # 1 | Winner Game #3 | Winner Game #4 |
+| 6 | Sun 4:30 PM | Bradford:Field # 1 | Winner Game #3 Mara Cobras | Winner Game #4 |
 
 **Silver Bracket**
 
