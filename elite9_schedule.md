@@ -1,5 +1,5 @@
 # Elite 9 - Top Gun schedule
-_Updated Sun Nov 08, 2026 05:14 PM_
+_Updated Sun Nov 08, 2026 05:24 PM_
 
 ## SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND
 September 26 - 27 in Greater Charlotte Area, NC  
@@ -286,8 +286,7 @@ Tournament 12524 - [schedule page](https://playtopgunsports.com/GameTimesResults
 | 2 | Sun 12:30 PM | Bradford:Field # 2 | (#3) Athletes Lab 9U Navy- Stewart 5 | (#6) Mara Bulls 10 |
 | 3 | Sun 2:30 PM | Bradford:Field # 1 | Winner Game #1 Mara Cobras 8 | (#1) LKN Bolts 0 |
 | 4 | Sun 2:30 PM | Bradford:Field # 2 | Winner Game #2 Mara Bulls 14 | (#2) Copperheads 11 |
-| 5 | Sun 4:30 PM | Bradford:Field # 2 | Loser Game #1 ZT Knuckleheads | Loser Game #2 Athletes Lab 9U Navy- Stewart |
-| 6 | Sun 4:30 PM | Bradford:Field # 1 | Winner Game #3 Mara Cobras | Winner Game #4 Mara Bulls |
+| 5 | Sun 4:30 PM | Bradford:Field # 1 | Winner Game #3 Mara Cobras | Winner Game #4 Mara Bulls |
 
 **Silver Bracket**
 
@@ -298,7 +297,6 @@ Tournament 12524 - [schedule page](https://playtopgunsports.com/GameTimesResults
 | 3 | Sun 2:30 PM | Bradford:Field # 3 | Winner Game #1 ROCO Dirtbagz 11 | (#7) Union County Legends 3 |
 | 4 | Sun 2:30 PM | Bradford:Field # 4 | Loser Game #1 LumberJacks 4 | Loser Game #2 Red Clay Athletics 9U Darcangelo 15 |
 | 5 | Sun 4:30 PM | Bradford:Field # 3 | Winner Game #3 ROCO Dirtbagz | Winner Game #2 Carolina Rapid Fire - Ford |
-| 6 | Sun 4:30 PM | Bradford:Field # 4 | Winner Game #4 Red Clay Athletics 9U Darcangelo | Loser Game #3 (If Needed) Union County Legends |
 
 **Bronze Bracket**
 
@@ -307,8 +305,7 @@ Tournament 12524 - [schedule page](https://playtopgunsports.com/GameTimesResults
 | 1 | Sun 8:30 AM | Bradford:Field # 5 | (#15) SC Tide - Lucariello 3 | (#16) Hooligans 7 |
 | 2 | Sun 10:30 AM | Bradford:Field # 5 | (#13) Team 24 12 | (#14) Carolina Regulators 9u 5 |
 | 3 | Sun 12:30 PM | Bradford:Field # 5 | Winner Game #1 Hooligans 13 | (#12) Elite 9 6 |
-| 4 | Sun 4:30 PM | Bradford:Field # 5 | Loser Game #1 SC Tide - Lucariello | Loser Game #2 Carolina Regulators 9u |
-| 5 | Sun 2:30 PM | Bradford:Field # 5 | Winner Game #3 Hooligans 11 | Winner Game #2 Team 24 12 |
+| 4 | Sun 2:30 PM | Bradford:Field # 5 | Winner Game #3 Hooligans 11 | Winner Game #2 Team 24 12 |
 
 **Copper Bracket**
 

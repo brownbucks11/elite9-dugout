@@ -243,18 +243,6 @@
           {
             "game": 3,
             "day": "Sun",
-            "time": "4:00 PM",
-            "field": "Westmoreld:Field 4",
-            "team_a": "Loser Game #1 Dirtbags - Clark 8U",
-            "seed_a": null,
-            "score_a": null,
-            "team_b": "Loser Game #2 LKN Bolts",
-            "seed_b": null,
-            "score_b": null
-          },
-          {
-            "game": 4,
-            "day": "Sun",
             "time": "2:45 PM",
             "field": "Westmoreld:Field 4",
             "team_a": "Winner Game #1 Carolina Smoke 8u",
@@ -895,18 +883,6 @@
             "game": 5,
             "day": "Sun",
             "time": "4:30 PM",
-            "field": "Bradford:Field # 2",
-            "team_a": "Loser Game #1 ZT Knuckleheads",
-            "seed_a": null,
-            "score_a": null,
-            "team_b": "Loser Game #2 Athletes Lab 9U Navy- Stewart",
-            "seed_b": null,
-            "score_b": null
-          },
-          {
-            "game": 6,
-            "day": "Sun",
-            "time": "4:30 PM",
             "field": "Bradford:Field # 1",
             "team_a": "Winner Game #3 Mara Cobras",
             "seed_a": null,
@@ -976,18 +952,6 @@
             "team_b": "Winner Game #2 Carolina Rapid Fire - Ford",
             "seed_b": null,
             "score_b": null
-          },
-          {
-            "game": 6,
-            "day": "Sun",
-            "time": "4:30 PM",
-            "field": "Bradford:Field # 4",
-            "team_a": "Winner Game #4 Red Clay Athletics 9U Darcangelo",
-            "seed_a": null,
-            "score_a": null,
-            "team_b": "Loser Game #3 (If Needed) Union County Legends",
-            "seed_b": null,
-            "score_b": null
           }
         ],
         "Bronze Bracket": [
@@ -1029,18 +993,6 @@
           },
           {
             "game": 4,
-            "day": "Sun",
-            "time": "4:30 PM",
-            "field": "Bradford:Field # 5",
-            "team_a": "Loser Game #1 SC Tide - Lucariello",
-            "seed_a": null,
-            "score_a": null,
-            "team_b": "Loser Game #2 Carolina Regulators 9u",
-            "seed_b": null,
-            "score_b": null
-          },
-          {
-            "game": 5,
             "day": "Sun",
             "time": "2:30 PM",
             "field": "Bradford:Field # 5",
@@ -1682,18 +1634,6 @@
             "game": 5,
             "day": "Sun",
             "time": "4:30 PM",
-            "field": "Westmoreld:Field 3",
-            "team_a": "Loser Game #1 Copperheads Black",
-            "seed_a": null,
-            "score_a": null,
-            "team_b": "Loser Game #2 Carolina Forge 10U",
-            "seed_b": null,
-            "score_b": null
-          },
-          {
-            "game": 6,
-            "day": "Sun",
-            "time": "4:30 PM",
             "field": "Westmoreld:Field 2",
             "team_a": "Winner Game #3 Carolina River Rats 10U",
             "seed_a": null,
@@ -1742,18 +1682,6 @@
           },
           {
             "game": 4,
-            "day": "Sun",
-            "time": "4:30 PM",
-            "field": "Westmoreld:Field 1",
-            "team_a": "Loser Game #1 Newport Bombers 10U Yerdon",
-            "seed_a": null,
-            "score_a": null,
-            "team_b": "Loser Game #2 Carolina Royals 10U",
-            "seed_b": null,
-            "score_b": null
-          },
-          {
-            "game": 5,
             "day": "Sun",
             "time": "2:30 PM",
             "field": "Westmoreld:Field 1",
@@ -1842,18 +1770,6 @@
           },
           {
             "game": 3,
-            "day": "Sun",
-            "time": "10:30 AM",
-            "field": "Westmoreld:Field 2",
-            "team_a": "Loser Game #1 ELITE BASEBALL EBC 10U",
-            "seed_a": null,
-            "score_a": null,
-            "team_b": "Loser Game #2 Lincoln County Warriors",
-            "seed_b": null,
-            "score_b": null
-          },
-          {
-            "game": 4,
             "day": "Sun",
             "time": "10:30 AM",
             "field": "Westmoreld:Field 3",
@@ -2298,18 +2214,6 @@
             "team_b": "Winner Game #4 Destroyers Baseball",
             "seed_b": null,
             "score_b": 7
-          },
-          {
-            "game": 7,
-            "day": "Sun",
-            "time": "4:30 PM",
-            "field": "Ferguson:Field # 2",
-            "team_a": "Loser Game #3",
-            "seed_a": null,
-            "score_a": null,
-            "team_b": "Loser Game #4 (If Needed)",
-            "seed_b": null,
-            "score_b": null
           }
         ],
         "Silver Bracket": [
@@ -4142,5 +4046,5 @@
   },
   "site_last_updated": "11/05/2026 12:03 PM",
   "tournament_id": 12524,
-  "fetched_at": "2026-11-08T17:14"
+  "fetched_at": "2026-11-08T17:24"
 }
