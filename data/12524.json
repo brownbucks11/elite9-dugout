@@ -1203,7 +1203,7 @@
           "seed": 5,
           "team": "Carolina River Rats 10U",
           "location": "Lincolnton, NC",
-          "won": 3,
+          "won": 4,
           "lost": 0,
           "runs_allowed": 7,
           "runs_scored": 25,
@@ -1264,7 +1264,7 @@
           "team": "Carolina Locos- 10U White",
           "location": "Waxhaw, NC",
           "won": 4,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 11,
           "runs_scored": 29,
           "team_page_id": null
@@ -1637,10 +1637,10 @@
             "field": "Westmoreld:Field 2",
             "team_a": "Winner Game #3 Carolina River Rats 10U",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 12,
             "team_b": "Winner Game #4 Carolina Locos- 10U White",
             "seed_b": null,
-            "score_b": null
+            "score_b": 11
           }
         ],
         "Silver Bracket": [
@@ -4022,5 +4022,5 @@
   },
   "site_last_updated": "11/05/2026 12:03 PM",
   "tournament_id": 12524,
-  "fetched_at": "2026-11-08T18:37"
+  "fetched_at": "2026-11-08T18:48"
 }
