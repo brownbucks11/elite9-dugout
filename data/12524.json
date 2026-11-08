@@ -1242,9 +1242,9 @@
           "team": "Copperheads Red",
           "location": "Mooresville, NC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 15,
-          "runs_scored": 6,
+          "lost": 2,
+          "runs_allowed": 23,
+          "runs_scored": 10,
           "team_page_id": null
         },
         {
@@ -1361,10 +1361,10 @@
           "seed": 16,
           "team": "Davidson Force 10u",
           "location": "Davidson, NC",
-          "won": 0,
+          "won": 1,
           "lost": 1,
-          "runs_allowed": 10,
-          "runs_scored": 1,
+          "runs_allowed": 14,
+          "runs_scored": 9,
           "team_page_id": null
         },
         {
@@ -1623,10 +1623,10 @@
             "field": "Westmoreld:Field 3",
             "team_a": "Copperheads Red",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 4,
             "team_b": "Davidson Force 10u",
             "seed_b": null,
-            "score_b": null
+            "score_b": 8
           }
         ],
         "Gold Bracket": [
@@ -1635,10 +1635,10 @@
             "day": "Sun",
             "time": "12:30 PM",
             "field": "Westmoreld:Field 2",
-            "team_a": "",
+            "team_a": "SBA Lake Norman Thunder - Blue",
             "seed_a": 4,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Copperheads Black",
             "seed_b": 5,
             "score_b": null
           },
@@ -1647,10 +1647,10 @@
             "day": "Sun",
             "time": "12:30 PM",
             "field": "Westmoreld:Field 3",
-            "team_a": "",
+            "team_a": "Carolina Locos- 10U White",
             "seed_a": 3,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Carolina Forge 10U",
             "seed_b": 6,
             "score_b": null
           },
@@ -1662,7 +1662,7 @@
             "team_a": "Winner Game #1",
             "seed_a": null,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Carolina River Rats 10U",
             "seed_b": 1,
             "score_b": null
           },
@@ -1674,7 +1674,7 @@
             "team_a": "Winner Game #2",
             "seed_a": null,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Carolina Locos- 10U Blue",
             "seed_b": 2,
             "score_b": null
           },
@@ -1709,10 +1709,10 @@
             "day": "Sun",
             "time": "8:30 AM",
             "field": "Westmoreld:Field 1",
-            "team_a": "",
+            "team_a": "Newport Bombers 10U Yerdon",
             "seed_a": 10,
             "score_a": null,
-            "team_b": "",
+            "team_b": "MP Bombers 10U",
             "seed_b": 11,
             "score_b": null
           },
@@ -1721,10 +1721,10 @@
             "day": "Sun",
             "time": "10:30 AM",
             "field": "Westmoreld:Field 1",
-            "team_a": "",
+            "team_a": "Carolina Royals 10U",
             "seed_a": 8,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Davidson Force 10u",
             "seed_b": 9,
             "score_b": null
           },
@@ -1736,7 +1736,7 @@
             "team_a": "Winner Game #1",
             "seed_a": null,
             "score_a": null,
-            "team_b": "",
+            "team_b": "FS Bulldogs 10u (Red)",
             "seed_b": 7,
             "score_b": null
           },
@@ -1771,10 +1771,10 @@
             "day": "Sun",
             "time": "8:30 AM",
             "field": "M. Rivers:Martha Rivers 4",
-            "team_a": "",
+            "team_a": "North Lincoln Futures 35",
             "seed_a": 13,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Rowan Rangers 10u",
             "seed_b": 14,
             "score_b": null
           },
@@ -1783,10 +1783,10 @@
             "day": "Sun",
             "time": "8:30 AM",
             "field": "M. Rivers:Martha Rivers 1",
-            "team_a": "",
+            "team_a": "Rutherford Baseball Academy Team Davis",
             "seed_a": 12,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Rowan Titans",
             "seed_b": 15,
             "score_b": null
           },
@@ -1821,10 +1821,10 @@
             "day": "Sun",
             "time": "8:30 AM",
             "field": "Westmoreld:Field 2",
-            "team_a": "",
+            "team_a": "Copperheads Red",
             "seed_a": 17,
             "score_a": null,
-            "team_b": "",
+            "team_b": "ELITE BASEBALL EBC 10U",
             "seed_b": 18,
             "score_b": null
           },
@@ -1833,10 +1833,10 @@
             "day": "Sun",
             "time": "8:30 AM",
             "field": "Westmoreld:Field 3",
-            "team_a": "",
+            "team_a": "Union County Aces",
             "seed_a": 16,
             "score_a": null,
-            "team_b": "",
+            "team_b": "Lincoln County Warriors",
             "seed_b": 19,
             "score_b": null
           },
@@ -4142,5 +4142,5 @@
   },
   "site_last_updated": "11/05/2026 12:03 PM",
   "tournament_id": 12524,
-  "fetched_at": "2026-11-07T19:14"
+  "fetched_at": "2026-11-07T19:24"
 }
