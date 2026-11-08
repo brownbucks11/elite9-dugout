@@ -2477,7 +2477,7 @@
           "seed": 4,
           "team": "Davidson Force",
           "location": "Davidson, NC",
-          "won": 2,
+          "won": 3,
           "lost": 0,
           "runs_allowed": 7,
           "runs_scored": 29,
@@ -2518,7 +2518,7 @@
           "team": "Carolina Cutters Baseball",
           "location": "Concord, NC",
           "won": 1,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 8,
           "runs_scored": 28,
           "team_page_id": null
@@ -2797,10 +2797,10 @@
             "field": "M. Rivers:Martha Rivers 3",
             "team_a": "Davidson Force",
             "seed_a": 3,
-            "score_a": null,
+            "score_a": 10,
             "team_b": "Carolina Cutters Baseball",
             "seed_b": 6,
-            "score_b": null
+            "score_b": 2
           },
           {
             "game": 3,
@@ -2819,7 +2819,7 @@
             "day": "Sun",
             "time": "2:30 PM",
             "field": "M. Rivers:Martha Rivers 3",
-            "team_a": "Winner Game #2",
+            "team_a": "Winner Game #2 Davidson Force",
             "seed_a": null,
             "score_a": null,
             "team_b": "SCRA Cardinals - Piatt",
@@ -2834,7 +2834,7 @@
             "team_a": "Loser Game #1",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Loser Game #2",
+            "team_b": "Loser Game #2 Carolina Cutters Baseball",
             "seed_b": null,
             "score_b": null
           },
@@ -2974,7 +2974,7 @@
           "seed": 1,
           "team": "River Rats",
           "location": "Lincolnton, NC",
-          "won": 1,
+          "won": 2,
           "lost": 1,
           "runs_allowed": 13,
           "runs_scored": 13,
@@ -2995,7 +2995,7 @@
           "team": "SC Tide - Daly",
           "location": "Clover, SC",
           "won": 1,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 19,
           "runs_scored": 5,
           "team_page_id": null
@@ -3310,10 +3310,10 @@
             "field": "Tega Cay:Field 4",
             "team_a": "Winner Game #1 SC Tide - Daly",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 0,
             "team_b": "River Rats",
             "seed_b": 7,
-            "score_b": null
+            "score_b": 8
           },
           {
             "game": 4,
@@ -3323,7 +3323,7 @@
             "team_a": "Winner Game #2 Carolina Clippers 13U",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Winner Game #3",
+            "team_b": "Winner Game #3 River Rats",
             "seed_b": null,
             "score_b": null
           }
@@ -3738,7 +3738,7 @@
           "seed": 2,
           "team": "Destroyers Baseball",
           "location": "Denver, NC",
-          "won": 0,
+          "won": 1,
           "lost": 2,
           "runs_allowed": 34,
           "runs_scored": 2,
@@ -3769,7 +3769,7 @@
           "team": "CBC Knuckleheads Fox",
           "location": "Charlotte, NC",
           "won": 1,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 7,
           "runs_scored": 12,
           "team_page_id": null
@@ -3972,10 +3972,10 @@
             "field": "Core:Hinson Core Field",
             "team_a": "CBC Knuckleheads Fox",
             "seed_a": 5,
-            "score_a": null,
+            "score_a": 3,
             "team_b": "Destroyers Baseball",
             "seed_b": 8,
-            "score_b": null
+            "score_b": 13
           },
           {
             "game": 2,
@@ -3994,7 +3994,7 @@
             "day": "Sun",
             "time": "1:00 PM",
             "field": "Core:Hinson Core Field",
-            "team_a": "Winner Game #1",
+            "team_a": "Winner Game #1 Destroyers Baseball",
             "seed_a": null,
             "score_a": null,
             "team_b": "Winner Game #2 Carolina Bearcats",
@@ -4142,5 +4142,5 @@
   },
   "site_last_updated": "11/05/2026 12:03 PM",
   "tournament_id": 12524,
-  "fetched_at": "2026-11-08T13:33"
+  "fetched_at": "2026-11-08T13:44"
 }
