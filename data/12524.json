@@ -1262,7 +1262,7 @@
           "team": "Copperheads Black",
           "location": "Mooresville, NC",
           "won": 1,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 6,
           "runs_scored": 13,
           "team_page_id": null
@@ -1271,7 +1271,7 @@
           "seed": 7,
           "team": "SBA Lake Norman Thunder - Blue",
           "location": "Cornelius, NC",
-          "won": 2,
+          "won": 3,
           "lost": 0,
           "runs_allowed": 11,
           "runs_scored": 29,
@@ -1637,10 +1637,10 @@
             "field": "Westmoreld:Field 2",
             "team_a": "SBA Lake Norman Thunder - Blue",
             "seed_a": 4,
-            "score_a": null,
+            "score_a": 13,
             "team_b": "Copperheads Black",
             "seed_b": 5,
-            "score_b": null
+            "score_b": 5
           },
           {
             "game": 2,
@@ -1659,7 +1659,7 @@
             "day": "Sun",
             "time": "2:30 PM",
             "field": "Westmoreld:Field 2",
-            "team_a": "Winner Game #1",
+            "team_a": "Winner Game #1 SBA Lake Norman Thunder - Blue",
             "seed_a": null,
             "score_a": null,
             "team_b": "Carolina River Rats 10U",
@@ -1683,7 +1683,7 @@
             "day": "Sun",
             "time": "4:30 PM",
             "field": "Westmoreld:Field 3",
-            "team_a": "Loser Game #1",
+            "team_a": "Loser Game #1 Copperheads Black",
             "seed_a": null,
             "score_a": null,
             "team_b": "Loser Game #2 Carolina Forge 10U",
@@ -1874,7 +1874,7 @@
           "seed": 1,
           "team": "Destroyers Baseball",
           "location": "Denver, NC",
-          "won": 2,
+          "won": 3,
           "lost": 0,
           "runs_allowed": 6,
           "runs_scored": 15,
@@ -1995,7 +1995,7 @@
           "team": "Dirtbags Wagner",
           "location": "Hickory, NC",
           "won": 2,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 12,
           "runs_scored": 9,
           "team_page_id": null
@@ -2270,10 +2270,10 @@
             "field": "Ferguson:Field # 2",
             "team_a": "Winner Game #2 Dirtbags Wagner",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 3,
             "team_b": "Destroyers Baseball",
             "seed_b": 2,
-            "score_b": null
+            "score_b": 4
           },
           {
             "game": 5,
@@ -2295,7 +2295,7 @@
             "team_a": "Winner Game #3 Copperheads Red",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Winner Game #4",
+            "team_b": "Winner Game #4 Destroyers Baseball",
             "seed_b": null,
             "score_b": null
           },
@@ -2304,7 +2304,7 @@
             "day": "Sun",
             "time": "4:30 PM",
             "field": "Ferguson:Field # 2",
-            "team_a": "Loser Game #3 Davidson Force",
+            "team_a": "Loser Game #3",
             "seed_a": null,
             "score_a": null,
             "team_b": "Loser Game #4 (If Needed)",
@@ -2488,7 +2488,7 @@
           "team": "BOILING SPRINGS BULLDOGS BASEBALL RED 12U",
           "location": "BOILING SPRINGS, NC",
           "won": 2,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 10,
           "runs_scored": 20,
           "team_page_id": null
@@ -2587,7 +2587,7 @@
           "seed": 15,
           "team": "The Battery Training Academy LLC.",
           "location": "Gastonia, NC",
-          "won": 2,
+          "won": 3,
           "lost": 0,
           "runs_allowed": 12,
           "runs_scored": 23,
@@ -2785,10 +2785,10 @@
             "field": "M. Rivers:Martha Rivers 2",
             "team_a": "BOILING SPRINGS BULLDOGS BASEBALL RED 12U",
             "seed_a": 4,
-            "score_a": null,
+            "score_a": 5,
             "team_b": "The Battery Training Academy LLC.",
             "seed_b": 5,
-            "score_b": null
+            "score_b": 15
           },
           {
             "game": 2,
@@ -2807,7 +2807,7 @@
             "day": "Sun",
             "time": "2:30 PM",
             "field": "M. Rivers:Martha Rivers 2",
-            "team_a": "Winner Game #1",
+            "team_a": "Winner Game #1 The Battery Training Academy LLC.",
             "seed_a": null,
             "score_a": null,
             "team_b": "Park Sharon Nationals",
@@ -2831,7 +2831,7 @@
             "day": "Sun",
             "time": "4:30 PM",
             "field": "M. Rivers:Martha Rivers 3",
-            "team_a": "Loser Game #1",
+            "team_a": "Loser Game #1 BOILING SPRINGS BULLDOGS BASEBALL RED 12U",
             "seed_a": null,
             "score_a": null,
             "team_b": "Loser Game #2 Carolina Cutters Baseball",
@@ -3014,7 +3014,7 @@
           "seed": 5,
           "team": "South Charlotte Revolution",
           "location": "Charlotte, NC",
-          "won": 2,
+          "won": 3,
           "lost": 1,
           "runs_allowed": 5,
           "runs_scored": 16,
@@ -3035,7 +3035,7 @@
           "team": "Elite9 Knights",
           "location": "Rock Hill, SC",
           "won": 2,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 1,
           "runs_scored": 16,
           "team_page_id": null
@@ -3248,10 +3248,10 @@
             "field": "SP:Field #1",
             "team_a": "Winner Game #1 South Charlotte Revolution",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 18,
             "team_b": "Elite9 Knights",
             "seed_b": 1,
-            "score_b": null
+            "score_b": 2
           },
           {
             "game": 4,
@@ -3270,7 +3270,7 @@
             "day": "Sun",
             "time": "4:30 PM",
             "field": "SP:Field #1",
-            "team_a": "Winner Game #3",
+            "team_a": "Winner Game #3 South Charlotte Revolution",
             "seed_a": null,
             "score_a": null,
             "team_b": "Winner Game #4",
@@ -3339,7 +3339,7 @@
           "seed": 1,
           "team": "SBA Dallas",
           "location": "Dallas, NC",
-          "won": 3,
+          "won": 4,
           "lost": 0,
           "runs_allowed": 3,
           "runs_scored": 38,
@@ -3370,7 +3370,7 @@
           "team": "KLSC Tomahawks",
           "location": "Belmont, NC",
           "won": 3,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 0,
           "runs_scored": 24,
           "team_page_id": null
@@ -3635,10 +3635,10 @@
             "field": "TOB:Field 1",
             "team_a": "Winner Game #1 KLSC Tomahawks",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 1,
             "team_b": "Winner Game #2 SBA Dallas",
             "seed_b": null,
-            "score_b": null
+            "score_b": 15
           }
         ],
         "Silver Bracket": [
@@ -4142,5 +4142,5 @@
   },
   "site_last_updated": "11/05/2026 12:03 PM",
   "tournament_id": 12524,
-  "fetched_at": "2026-11-08T13:54"
+  "fetched_at": "2026-11-08T14:04"
 }
