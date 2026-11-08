@@ -61,7 +61,7 @@
           "seed": 1,
           "team": "Waxhaw Militia",
           "location": "Waxhaw, NC",
-          "won": 3,
+          "won": 4,
           "lost": 0,
           "runs_allowed": 17,
           "runs_scored": 20,
@@ -102,7 +102,7 @@
           "team": "Carolina Smoke 8u",
           "location": "Concord, NC",
           "won": 3,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 21,
           "runs_scored": 31,
           "team_page_id": null
@@ -259,10 +259,10 @@
             "field": "Westmoreld:Field 4",
             "team_a": "Winner Game #1 Carolina Smoke 8u",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 15,
             "team_b": "Winner Game #2 Waxhaw Militia",
             "seed_b": null,
-            "score_b": null
+            "score_b": 16
           }
         ],
         "Silver Bracket": [
@@ -1904,7 +1904,7 @@
           "seed": 4,
           "team": "Carolina Forge 11U",
           "location": "Gastonia, NC",
-          "won": 0,
+          "won": 1,
           "lost": 3,
           "runs_allowed": 20,
           "runs_scored": 5,
@@ -1955,7 +1955,7 @@
           "team": "Mount Holly Hawks",
           "location": "Mount Holly, NC",
           "won": 0,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 18,
           "runs_scored": 3,
           "team_page_id": null
@@ -2420,10 +2420,10 @@
             "field": "Ferguson:Field # 4",
             "team_a": "Mount Holly Hawks",
             "seed_a": 14,
-            "score_a": null,
+            "score_a": 6,
             "team_b": "Carolina Forge 11U",
             "seed_b": 16,
-            "score_b": null
+            "score_b": 14
           },
           {
             "game": 3,
@@ -2458,7 +2458,7 @@
           "team": "BS BULLDOGS BlACK 12u",
           "location": "BOILING SPRINGS, NC",
           "won": 2,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 15,
           "runs_scored": 13,
           "team_page_id": null
@@ -2467,7 +2467,7 @@
           "seed": 3,
           "team": "Athletes Lab Navy",
           "location": "Maiden, NC",
-          "won": 2,
+          "won": 3,
           "lost": 1,
           "runs_allowed": 18,
           "runs_scored": 14,
@@ -2907,10 +2907,10 @@
             "field": "Ferguson:Field # 3",
             "team_a": "Winner Game #3 BS BULLDOGS BlACK 12u",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 3,
             "team_b": "Winner Game #2 Athletes Lab Navy",
             "seed_b": null,
-            "score_b": null
+            "score_b": 12
           }
         ],
         "Bronze Bracket": [
@@ -4142,5 +4142,5 @@
   },
   "site_last_updated": "11/05/2026 12:03 PM",
   "tournament_id": 12524,
-  "fetched_at": "2026-11-08T16:42"
+  "fetched_at": "2026-11-08T16:52"
 }
