@@ -314,7 +314,7 @@
           "seed": 1,
           "team": "Team 24",
           "location": "York, SC",
-          "won": 2,
+          "won": 3,
           "lost": 1,
           "runs_allowed": 22,
           "runs_scored": 19,
@@ -325,7 +325,7 @@
           "team": "Hooligans",
           "location": "Mount Holly, NC",
           "won": 2,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 20,
           "runs_scored": 18,
           "team_page_id": null
@@ -404,7 +404,7 @@
           "seed": 10,
           "team": "Mara Bulls",
           "location": "matthews, NC",
-          "won": 3,
+          "won": 4,
           "lost": 0,
           "runs_allowed": 8,
           "runs_scored": 27,
@@ -495,7 +495,7 @@
           "team": "Copperheads",
           "location": "Mooresville, NC",
           "won": 2,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 3,
           "runs_scored": 13,
           "team_page_id": null
@@ -886,10 +886,10 @@
             "field": "Bradford:Field # 2",
             "team_a": "Winner Game #2 Mara Bulls",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 14,
             "team_b": "Copperheads",
             "seed_b": 2,
-            "score_b": null
+            "score_b": 11
           },
           {
             "game": 5,
@@ -911,7 +911,7 @@
             "team_a": "Winner Game #3 Mara Cobras",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Winner Game #4",
+            "team_b": "Winner Game #4 Mara Bulls",
             "seed_b": null,
             "score_b": null
           }
@@ -1046,10 +1046,10 @@
             "field": "Bradford:Field # 5",
             "team_a": "Winner Game #3 Hooligans",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 11,
             "team_b": "Winner Game #2 Team 24",
             "seed_b": null,
-            "score_b": null
+            "score_b": 12
           }
         ],
         "Copper Bracket": [
@@ -1251,7 +1251,7 @@
           "seed": 5,
           "team": "Carolina River Rats 10U",
           "location": "Lincolnton, NC",
-          "won": 2,
+          "won": 3,
           "lost": 0,
           "runs_allowed": 7,
           "runs_scored": 25,
@@ -1272,7 +1272,7 @@
           "team": "SBA Lake Norman Thunder - Blue",
           "location": "Cornelius, NC",
           "won": 3,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 11,
           "runs_scored": 29,
           "team_page_id": null
@@ -1661,10 +1661,10 @@
             "field": "Westmoreld:Field 2",
             "team_a": "Winner Game #1 SBA Lake Norman Thunder - Blue",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 10,
             "team_b": "Carolina River Rats 10U",
             "seed_b": 1,
-            "score_b": null
+            "score_b": 11
           },
           {
             "game": 4,
@@ -1695,7 +1695,7 @@
             "day": "Sun",
             "time": "4:30 PM",
             "field": "Westmoreld:Field 2",
-            "team_a": "Winner Game #3",
+            "team_a": "Winner Game #3 Carolina River Rats 10U",
             "seed_a": null,
             "score_a": null,
             "team_b": "Winner Game #4 Carolina Locos- 10U White",
@@ -4022,7 +4022,7 @@
           "team": "Startown Elite",
           "location": "Newton, NC",
           "won": 3,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 7,
           "runs_scored": 16,
           "team_page_id": null
@@ -4031,7 +4031,7 @@
           "seed": 3,
           "team": "Triad Warriors",
           "location": "Walkertown, NC",
-          "won": 1,
+          "won": 2,
           "lost": 2,
           "runs_allowed": 21,
           "runs_scored": 8,
@@ -4131,10 +4131,10 @@
             "field": "SP:Field #2",
             "team_a": "Winner Game #1 Triad Warriors",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 7,
             "team_b": "Winner Game #2 Startown Elite",
             "seed_b": null,
-            "score_b": null
+            "score_b": 3
           }
         ]
       }
@@ -4142,5 +4142,5 @@
   },
   "site_last_updated": "11/05/2026 12:03 PM",
   "tournament_id": 12524,
-  "fetched_at": "2026-11-08T16:21"
+  "fetched_at": "2026-11-08T16:31"
 }

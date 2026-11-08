@@ -1,5 +1,5 @@
 # Elite 9 - Top Gun schedule
-_Updated Sun Nov 08, 2026 04:21 PM_
+_Updated Sun Nov 08, 2026 04:31 PM_
 
 ## SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND
 September 26 - 27 in Greater Charlotte Area, NC  
@@ -253,8 +253,8 @@ Tournament 12524 - [schedule page](https://playtopgunsports.com/GameTimesResults
 
 | # | Team | From | W-L | RS | RA |
 |---|---|---|---|---|---|
-| 1 | Team 24 | York, SC | 2-1 | 19 | 22 |
-| 2 | Hooligans | Mount Holly, NC | 2-1 | 18 | 20 |
+| 1 | Team 24 | York, SC | 3-1 | 19 | 22 |
+| 2 | Hooligans | Mount Holly, NC | 2-2 | 18 | 20 |
 | 3 | ROCO Dirtbagz | Forest City, NC | 3-1 | 14 | 7 |
 | 4 | LKN Bolts | Huntersville, NC | 2-1 | 38 | 3 |
 | 5 | Waxhaw Militia 9U | Waxhaw, NC | 2-2 | 13 | 31 |
@@ -262,7 +262,7 @@ Tournament 12524 - [schedule page](https://playtopgunsports.com/GameTimesResults
 | 7 | Mara Cobras | Matthews, NC | 4-0 | 28 | 7 |
 | 8 | Union County Legends | Waxhaw, NC | 2-1 | 40 | 13 |
 | 9 | SC Tide - Lucariello | Clover, SC | 1-2 | 19 | 34 |
-| 10 | Mara Bulls | matthews, NC | 3-0 | 27 | 8 |
+| 10 | Mara Bulls | matthews, NC | 4-0 | 27 | 8 |
 | 11 | Red Clay Athletics 9U Darcangelo | Charlotte, NC | 2-2 | 16 | 6 |
 | 12 | Elite 9 **<--** | Rock Hill, SC | 1-2 | 17 | 20 |
 | 13 | Carolina Regulators 9u | Stanley, NC | 1-2 | 11 | 23 |
@@ -271,7 +271,7 @@ Tournament 12524 - [schedule page](https://playtopgunsports.com/GameTimesResults
 | 16 | Carolina Forge 9U | Gastonia, NC | 1-3 | 10 | 22 |
 | 17 | Carolina Rapid Fire - Ford | Lincolnton, NC | 3-0 | 20 | 16 |
 | 18 | Diamond Crushers | Concord, NC | 1-3 | 10 | 33 |
-| 19 | Copperheads | Mooresville, NC | 2-0 | 13 | 3 |
+| 19 | Copperheads | Mooresville, NC | 2-1 | 13 | 3 |
 | 20 | BOILING SPRINGS BULLDOGS BASEBALL 9u | Boiling Springs, NC | 0-4 | 3 | 24 |
 | 21 | ZT Knuckleheads | Clover, SC | 2-1 | 17 | 6 |
 | 22 | PeeDee Mudcats | Wadesboro, NC | 1-3 | 12 | 28 |
@@ -285,9 +285,9 @@ Tournament 12524 - [schedule page](https://playtopgunsports.com/GameTimesResults
 | 1 | Sun 12:30 PM | Bradford:Field # 1 | (#4) ZT Knuckleheads 1 | (#5) Mara Cobras 11 |
 | 2 | Sun 12:30 PM | Bradford:Field # 2 | (#3) Athletes Lab 9U Navy- Stewart 5 | (#6) Mara Bulls 10 |
 | 3 | Sun 2:30 PM | Bradford:Field # 1 | Winner Game #1 Mara Cobras 8 | (#1) LKN Bolts 0 |
-| 4 | Sun 2:30 PM | Bradford:Field # 2 | Winner Game #2 Mara Bulls | (#2) Copperheads |
+| 4 | Sun 2:30 PM | Bradford:Field # 2 | Winner Game #2 Mara Bulls 14 | (#2) Copperheads 11 |
 | 5 | Sun 4:30 PM | Bradford:Field # 2 | Loser Game #1 ZT Knuckleheads | Loser Game #2 Athletes Lab 9U Navy- Stewart |
-| 6 | Sun 4:30 PM | Bradford:Field # 1 | Winner Game #3 Mara Cobras | Winner Game #4 |
+| 6 | Sun 4:30 PM | Bradford:Field # 1 | Winner Game #3 Mara Cobras | Winner Game #4 Mara Bulls |
 
 **Silver Bracket**
 
@@ -308,7 +308,7 @@ Tournament 12524 - [schedule page](https://playtopgunsports.com/GameTimesResults
 | 2 | Sun 10:30 AM | Bradford:Field # 5 | (#13) Team 24 12 | (#14) Carolina Regulators 9u 5 |
 | 3 | Sun 12:30 PM | Bradford:Field # 5 | Winner Game #1 Hooligans 13 | (#12) Elite 9 6 |
 | 4 | Sun 4:30 PM | Bradford:Field # 5 | Loser Game #1 SC Tide - Lucariello | Loser Game #2 Carolina Regulators 9u |
-| 5 | Sun 2:30 PM | Bradford:Field # 5 | Winner Game #3 Hooligans | Winner Game #2 Team 24 |
+| 5 | Sun 2:30 PM | Bradford:Field # 5 | Winner Game #3 Hooligans 11 | Winner Game #2 Team 24 12 |
 
 **Copper Bracket**
 
