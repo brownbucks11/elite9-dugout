@@ -1,5 +1,5 @@
 # Elite 9 - Top Gun schedule
-_Updated Sun Nov 08, 2026 11:27 AM_
+_Updated Sun Nov 08, 2026 11:38 AM_
 
 ## SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND
 September 26 - 27 in Greater Charlotte Area, NC  
@@ -257,7 +257,7 @@ Tournament 12524 - [schedule page](https://playtopgunsports.com/GameTimesResults
 | 2 | Hooligans | Mount Holly, NC | 1-1 | 18 | 20 |
 | 3 | ROCO Dirtbagz | Forest City, NC | 1-1 | 14 | 7 |
 | 4 | LKN Bolts | Huntersville, NC | 2-0 | 38 | 3 |
-| 5 | Waxhaw Militia 9U | Waxhaw, NC | 1-2 | 13 | 31 |
+| 5 | Waxhaw Militia 9U | Waxhaw, NC | 2-2 | 13 | 31 |
 | 6 | LumberJacks | Gaston County, NC | 1-1 | 10 | 14 |
 | 7 | Mara Cobras | Matthews, NC | 2-0 | 28 | 7 |
 | 8 | Union County Legends | Waxhaw, NC | 2-0 | 40 | 13 |
@@ -270,7 +270,7 @@ Tournament 12524 - [schedule page](https://playtopgunsports.com/GameTimesResults
 | 15 | Carolina Elevate | Lenoir, NC | 1-3 | 5 | 12 |
 | 16 | Carolina Forge 9U | Gastonia, NC | 0-3 | 10 | 22 |
 | 17 | Carolina Rapid Fire - Ford | Lincolnton, NC | 2-0 | 20 | 16 |
-| 18 | Diamond Crushers | Concord, NC | 1-2 | 10 | 33 |
+| 18 | Diamond Crushers | Concord, NC | 1-3 | 10 | 33 |
 | 19 | Copperheads | Mooresville, NC | 2-0 | 13 | 3 |
 | 20 | BOILING SPRINGS BULLDOGS BASEBALL 9u | Boiling Springs, NC | 0-3 | 3 | 24 |
 | 21 | ZT Knuckleheads | Clover, SC | 2-0 | 17 | 6 |
@@ -326,7 +326,7 @@ Tournament 12524 - [schedule page](https://playtopgunsports.com/GameTimesResults
 | 1 | Sun 8:30 AM | Bradford:Field # 2 | (#22) PeeDee Mudcats 9 | (#23) Waxhaw Militia 9U 12 |
 | 2 | Sun 8:30 AM | Bradford:Field # 1 | (#21) BOILING SPRINGS BULLDOGS BASEBALL 9u 1 | (#24) Diamond Crushers 9 |
 | 3 | Sun 10:30 AM | Bradford:Field # 2 | Loser Game #1 PeeDee Mudcats | Loser Game #2 BOILING SPRINGS BULLDOGS BASEBALL 9u |
-| 4 | Sun 10:30 AM | Bradford:Field # 1 | Winner Game #1 Waxhaw Militia 9U | Winner Game #2 Diamond Crushers |
+| 4 | Sun 10:30 AM | Bradford:Field # 1 | Winner Game #1 Waxhaw Militia 9U 13 | Winner Game #2 Diamond Crushers 1 |
 
 ## Field addresses
 

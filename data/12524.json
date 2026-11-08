@@ -354,7 +354,7 @@
           "seed": 5,
           "team": "Waxhaw Militia 9U",
           "location": "Waxhaw, NC",
-          "won": 1,
+          "won": 2,
           "lost": 2,
           "runs_allowed": 31,
           "runs_scored": 13,
@@ -485,7 +485,7 @@
           "team": "Diamond Crushers",
           "location": "Concord, NC",
           "won": 1,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 33,
           "runs_scored": 10,
           "team_page_id": null
@@ -1146,10 +1146,10 @@
             "field": "Bradford:Field # 1",
             "team_a": "Winner Game #1 Waxhaw Militia 9U",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 13,
             "team_b": "Winner Game #2 Diamond Crushers",
             "seed_b": null,
-            "score_b": null
+            "score_b": 1
           }
         ]
       }
@@ -1242,7 +1242,7 @@
           "team": "Copperheads Red",
           "location": "Mooresville, NC",
           "won": 1,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 23,
           "runs_scored": 10,
           "team_page_id": null
@@ -1291,7 +1291,7 @@
           "seed": 9,
           "team": "Union County Aces",
           "location": "Monroe, NC",
-          "won": 1,
+          "won": 2,
           "lost": 2,
           "runs_allowed": 21,
           "runs_scored": 15,
@@ -1859,10 +1859,10 @@
             "field": "Westmoreld:Field 3",
             "team_a": "Winner Game #1 Copperheads Red",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 1,
             "team_b": "Winner Game #2 Union County Aces",
             "seed_b": null,
-            "score_b": null
+            "score_b": 10
           }
         ]
       }
@@ -4142,5 +4142,5 @@
   },
   "site_last_updated": "11/05/2026 12:03 PM",
   "tournament_id": 12524,
-  "fetched_at": "2026-11-08T11:27"
+  "fetched_at": "2026-11-08T11:38"
 }
