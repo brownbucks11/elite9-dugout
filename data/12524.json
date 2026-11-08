@@ -1171,7 +1171,7 @@
           "seed": 2,
           "team": "LKN Bolts",
           "location": "Huntersville, NC",
-          "won": 2,
+          "won": 3,
           "lost": 0,
           "runs_allowed": 4,
           "runs_scored": 20,
@@ -1202,7 +1202,7 @@
           "team": "Waxhaw Militia 10U",
           "location": "Waxhaw, NC",
           "won": 1,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 25,
           "runs_scored": 6,
           "team_page_id": null
@@ -1874,7 +1874,7 @@
           "seed": 1,
           "team": "Destroyers Baseball",
           "location": "Denver, NC",
-          "won": 3,
+          "won": 4,
           "lost": 0,
           "runs_allowed": 6,
           "runs_scored": 15,
@@ -1925,7 +1925,7 @@
           "team": "South Charlotte Revolution 11U",
           "location": "Charlotte, NC",
           "won": 1,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 18,
           "runs_scored": 13,
           "team_page_id": null
@@ -1974,7 +1974,7 @@
           "seed": 11,
           "team": "ELITE9 11u",
           "location": "ROCK HILL, SC",
-          "won": 0,
+          "won": 1,
           "lost": 2,
           "runs_allowed": 17,
           "runs_scored": 14,
@@ -2005,7 +2005,7 @@
           "team": "Copperheads Red",
           "location": "Denver, NC",
           "won": 3,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 5,
           "runs_scored": 24,
           "team_page_id": null
@@ -2294,10 +2294,10 @@
             "field": "Ferguson:Field # 2",
             "team_a": "Winner Game #3 Copperheads Red",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 5,
             "team_b": "Winner Game #4 Destroyers Baseball",
             "seed_b": null,
-            "score_b": null
+            "score_b": 7
           },
           {
             "game": 7,
@@ -2382,10 +2382,10 @@
             "field": "Tega Cay:Field 2",
             "team_a": "South Charlotte Revolution 11U",
             "seed_a": 12,
-            "score_a": null,
+            "score_a": 3,
             "team_b": "ELITE9 11u",
             "seed_b": 13,
-            "score_b": null
+            "score_b": 18
           },
           {
             "game": 3,
@@ -4142,5 +4142,5 @@
   },
   "site_last_updated": "11/05/2026 12:03 PM",
   "tournament_id": 12524,
-  "fetched_at": "2026-11-08T16:00"
+  "fetched_at": "2026-11-08T16:10"
 }
