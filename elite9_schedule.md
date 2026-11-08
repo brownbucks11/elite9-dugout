@@ -1,5 +1,5 @@
 # Elite 9 - Top Gun schedule
-_Updated Sun Nov 08, 2026 03:39 PM_
+_Updated Sun Nov 08, 2026 03:49 PM_
 
 ## SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND
 September 26 - 27 in Greater Charlotte Area, NC  
@@ -255,15 +255,15 @@ Tournament 12524 - [schedule page](https://playtopgunsports.com/GameTimesResults
 |---|---|---|---|---|---|
 | 1 | Team 24 | York, SC | 2-1 | 19 | 22 |
 | 2 | Hooligans | Mount Holly, NC | 2-1 | 18 | 20 |
-| 3 | ROCO Dirtbagz | Forest City, NC | 2-1 | 14 | 7 |
+| 3 | ROCO Dirtbagz | Forest City, NC | 3-1 | 14 | 7 |
 | 4 | LKN Bolts | Huntersville, NC | 2-1 | 38 | 3 |
 | 5 | Waxhaw Militia 9U | Waxhaw, NC | 2-2 | 13 | 31 |
-| 6 | LumberJacks | Gaston County, NC | 1-2 | 10 | 14 |
+| 6 | LumberJacks | Gaston County, NC | 1-3 | 10 | 14 |
 | 7 | Mara Cobras | Matthews, NC | 4-0 | 28 | 7 |
-| 8 | Union County Legends | Waxhaw, NC | 2-0 | 40 | 13 |
+| 8 | Union County Legends | Waxhaw, NC | 2-1 | 40 | 13 |
 | 9 | SC Tide - Lucariello | Clover, SC | 1-2 | 19 | 34 |
 | 10 | Mara Bulls | matthews, NC | 3-0 | 27 | 8 |
-| 11 | Red Clay Athletics 9U Darcangelo | Charlotte, NC | 1-2 | 16 | 6 |
+| 11 | Red Clay Athletics 9U Darcangelo | Charlotte, NC | 2-2 | 16 | 6 |
 | 12 | Elite 9 **<--** | Rock Hill, SC | 1-2 | 17 | 20 |
 | 13 | Carolina Regulators 9u | Stanley, NC | 1-2 | 11 | 23 |
 | 14 | Carolina 9Uw | Gastonia, NC | 0-4 | 1 | 21 |
@@ -295,10 +295,10 @@ Tournament 12524 - [schedule page](https://playtopgunsports.com/GameTimesResults
 |---|---|---|---|---|
 | 1 | Sun 12:30 PM | Bradford:Field # 3 | (#10) ROCO Dirtbagz 10 | (#11) LumberJacks 2 |
 | 2 | Sun 12:30 PM | Bradford:Field # 4 | (#8) Carolina Rapid Fire - Ford 8 | (#9) Red Clay Athletics 9U Darcangelo 6 |
-| 3 | Sun 2:30 PM | Bradford:Field # 3 | Winner Game #1 ROCO Dirtbagz | (#7) Union County Legends |
-| 4 | Sun 2:30 PM | Bradford:Field # 4 | Loser Game #1 LumberJacks | Loser Game #2 Red Clay Athletics 9U Darcangelo |
-| 5 | Sun 4:30 PM | Bradford:Field # 3 | Winner Game #3 | Winner Game #2 Carolina Rapid Fire - Ford |
-| 6 | Sun 4:30 PM | Bradford:Field # 4 | Winner Game #4 | Loser Game #3 (If Needed) |
+| 3 | Sun 2:30 PM | Bradford:Field # 3 | Winner Game #1 ROCO Dirtbagz 11 | (#7) Union County Legends 3 |
+| 4 | Sun 2:30 PM | Bradford:Field # 4 | Loser Game #1 LumberJacks 4 | Loser Game #2 Red Clay Athletics 9U Darcangelo 15 |
+| 5 | Sun 4:30 PM | Bradford:Field # 3 | Winner Game #3 ROCO Dirtbagz | Winner Game #2 Carolina Rapid Fire - Ford |
+| 6 | Sun 4:30 PM | Bradford:Field # 4 | Winner Game #4 Red Clay Athletics 9U Darcangelo | Loser Game #3 (If Needed) Union County Legends |
 
 **Bronze Bracket**
 
