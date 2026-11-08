@@ -1302,7 +1302,7 @@
           "team": "Carolina Forge 10U",
           "location": "Gastonia, NC",
           "won": 1,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 9,
           "runs_scored": 13,
           "team_page_id": null
@@ -1311,7 +1311,7 @@
           "seed": 11,
           "team": "Carolina Locos- 10U White",
           "location": "Waxhaw, NC",
-          "won": 2,
+          "won": 3,
           "lost": 0,
           "runs_allowed": 11,
           "runs_scored": 29,
@@ -1649,10 +1649,10 @@
             "field": "Westmoreld:Field 3",
             "team_a": "Carolina Locos- 10U White",
             "seed_a": 3,
-            "score_a": null,
+            "score_a": 11,
             "team_b": "Carolina Forge 10U",
             "seed_b": 6,
-            "score_b": null
+            "score_b": 3
           },
           {
             "game": 3,
@@ -1671,7 +1671,7 @@
             "day": "Sun",
             "time": "2:30 PM",
             "field": "Westmoreld:Field 3",
-            "team_a": "Winner Game #2",
+            "team_a": "Winner Game #2 Carolina Locos- 10U White",
             "seed_a": null,
             "score_a": null,
             "team_b": "Carolina Locos- 10U Blue",
@@ -1686,7 +1686,7 @@
             "team_a": "Loser Game #1",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Loser Game #2",
+            "team_b": "Loser Game #2 Carolina Forge 10U",
             "seed_b": null,
             "score_b": null
           },
@@ -4031,7 +4031,7 @@
           "seed": 3,
           "team": "Triad Warriors",
           "location": "Walkertown, NC",
-          "won": 0,
+          "won": 1,
           "lost": 2,
           "runs_allowed": 21,
           "runs_scored": 8,
@@ -4042,7 +4042,7 @@
           "team": "Stars and Stripes Sports",
           "location": "Irmo, SC",
           "won": 2,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 3,
           "runs_scored": 21,
           "team_page_id": null
@@ -4107,10 +4107,10 @@
             "field": "SP:Field #2",
             "team_a": "Stars and Stripes Sports",
             "seed_a": 1,
-            "score_a": null,
+            "score_a": 0,
             "team_b": "Triad Warriors",
             "seed_b": 4,
-            "score_b": null
+            "score_b": 12
           },
           {
             "game": 2,
@@ -4129,7 +4129,7 @@
             "day": "Sun",
             "time": "2:30 PM",
             "field": "SP:Field #2",
-            "team_a": "Winner Game #1",
+            "team_a": "Winner Game #1 Triad Warriors",
             "seed_a": null,
             "score_a": null,
             "team_b": "Winner Game #2 Startown Elite",
@@ -4142,5 +4142,5 @@
   },
   "site_last_updated": "11/05/2026 12:03 PM",
   "tournament_id": 12524,
-  "fetched_at": "2026-11-08T13:44"
+  "fetched_at": "2026-11-08T13:54"
 }
