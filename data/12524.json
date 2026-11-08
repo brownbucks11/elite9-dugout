@@ -324,7 +324,7 @@
           "seed": 2,
           "team": "Hooligans",
           "location": "Mount Holly, NC",
-          "won": 1,
+          "won": 2,
           "lost": 1,
           "runs_allowed": 20,
           "runs_scored": 18,
@@ -374,7 +374,7 @@
           "seed": 7,
           "team": "Mara Cobras",
           "location": "Matthews, NC",
-          "won": 2,
+          "won": 3,
           "lost": 0,
           "runs_allowed": 7,
           "runs_scored": 28,
@@ -404,7 +404,7 @@
           "seed": 10,
           "team": "Mara Bulls",
           "location": "matthews, NC",
-          "won": 2,
+          "won": 3,
           "lost": 0,
           "runs_allowed": 8,
           "runs_scored": 27,
@@ -415,7 +415,7 @@
           "team": "Red Clay Athletics 9U Darcangelo",
           "location": "Charlotte, NC",
           "won": 1,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 6,
           "runs_scored": 16,
           "team_page_id": null
@@ -425,7 +425,7 @@
           "team": "Elite 9",
           "location": "Rock Hill, SC",
           "won": 1,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 20,
           "runs_scored": 17,
           "team_page_id": null
@@ -474,7 +474,7 @@
           "seed": 17,
           "team": "Carolina Rapid Fire - Ford",
           "location": "Lincolnton, NC",
-          "won": 2,
+          "won": 3,
           "lost": 0,
           "runs_allowed": 16,
           "runs_scored": 20,
@@ -515,7 +515,7 @@
           "team": "ZT Knuckleheads",
           "location": "Clover, SC",
           "won": 2,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 6,
           "runs_scored": 17,
           "team_page_id": null
@@ -535,7 +535,7 @@
           "team": "Athletes Lab 9U Navy- Stewart",
           "location": "Maiden, NC",
           "won": 2,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 5,
           "runs_scored": 19,
           "team_page_id": null
@@ -850,10 +850,10 @@
             "field": "Bradford:Field # 1",
             "team_a": "ZT Knuckleheads",
             "seed_a": 4,
-            "score_a": null,
+            "score_a": 1,
             "team_b": "Mara Cobras",
             "seed_b": 5,
-            "score_b": null
+            "score_b": 11
           },
           {
             "game": 2,
@@ -862,17 +862,17 @@
             "field": "Bradford:Field # 2",
             "team_a": "Athletes Lab 9U Navy- Stewart",
             "seed_a": 3,
-            "score_a": null,
+            "score_a": 5,
             "team_b": "Mara Bulls",
             "seed_b": 6,
-            "score_b": null
+            "score_b": 10
           },
           {
             "game": 3,
             "day": "Sun",
             "time": "2:30 PM",
             "field": "Bradford:Field # 1",
-            "team_a": "Winner Game #1",
+            "team_a": "Winner Game #1 Mara Cobras",
             "seed_a": null,
             "score_a": null,
             "team_b": "LKN Bolts",
@@ -884,7 +884,7 @@
             "day": "Sun",
             "time": "2:30 PM",
             "field": "Bradford:Field # 2",
-            "team_a": "Winner Game #2",
+            "team_a": "Winner Game #2 Mara Bulls",
             "seed_a": null,
             "score_a": null,
             "team_b": "Copperheads",
@@ -896,10 +896,10 @@
             "day": "Sun",
             "time": "4:30 PM",
             "field": "Bradford:Field # 2",
-            "team_a": "Loser Game #1",
+            "team_a": "Loser Game #1 ZT Knuckleheads",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Loser Game #2",
+            "team_b": "Loser Game #2 Athletes Lab 9U Navy- Stewart",
             "seed_b": null,
             "score_b": null
           },
@@ -936,10 +936,10 @@
             "field": "Bradford:Field # 4",
             "team_a": "Carolina Rapid Fire - Ford",
             "seed_a": 8,
-            "score_a": null,
+            "score_a": 8,
             "team_b": "Red Clay Athletics 9U Darcangelo",
             "seed_b": 9,
-            "score_b": null
+            "score_b": 6
           },
           {
             "game": 3,
@@ -961,7 +961,7 @@
             "team_a": "Loser Game #1 LumberJacks",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Loser Game #2",
+            "team_b": "Loser Game #2 Red Clay Athletics 9U Darcangelo",
             "seed_b": null,
             "score_b": null
           },
@@ -973,7 +973,7 @@
             "team_a": "Winner Game #3",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Winner Game #2",
+            "team_b": "Winner Game #2 Carolina Rapid Fire - Ford",
             "seed_b": null,
             "score_b": null
           },
@@ -1022,10 +1022,10 @@
             "field": "Bradford:Field # 5",
             "team_a": "Winner Game #1 Hooligans",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 13,
             "team_b": "Elite 9",
             "seed_b": 12,
-            "score_b": null
+            "score_b": 6
           },
           {
             "game": 4,
@@ -1044,7 +1044,7 @@
             "day": "Sun",
             "time": "2:30 PM",
             "field": "Bradford:Field # 5",
-            "team_a": "Winner Game #3",
+            "team_a": "Winner Game #3 Hooligans",
             "seed_a": null,
             "score_a": null,
             "team_b": "Winner Game #2 Team 24",
@@ -1161,7 +1161,7 @@
           "seed": 1,
           "team": "Carolina Clippers 10U",
           "location": "Richfield, NC",
-          "won": 2,
+          "won": 3,
           "lost": 0,
           "runs_allowed": 13,
           "runs_scored": 24,
@@ -1192,7 +1192,7 @@
           "team": "Carolina Locos- 10U Black",
           "location": "Waxhaw, NC",
           "won": 1,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 11,
           "runs_scored": 20,
           "team_page_id": null
@@ -1894,7 +1894,7 @@
           "seed": 3,
           "team": "Tega Cay Titans",
           "location": "Tega Cay, SC",
-          "won": 1,
+          "won": 2,
           "lost": 1,
           "runs_allowed": 16,
           "runs_scored": 25,
@@ -1925,7 +1925,7 @@
           "team": "South Charlotte Revolution 11U",
           "location": "Charlotte, NC",
           "won": 1,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 18,
           "runs_scored": 13,
           "team_page_id": null
@@ -2370,10 +2370,10 @@
             "field": "Tega Cay:Field 2",
             "team_a": "Tega Cay Titans",
             "seed_a": 11,
-            "score_a": null,
+            "score_a": 7,
             "team_b": "South Charlotte Revolution 11U",
             "seed_b": 12,
-            "score_b": null
+            "score_b": 4
           },
           {
             "game": 2,
@@ -4142,5 +4142,5 @@
   },
   "site_last_updated": "11/05/2026 12:03 PM",
   "tournament_id": 12524,
-  "fetched_at": "2026-11-08T14:04"
+  "fetched_at": "2026-11-08T14:15"
 }
