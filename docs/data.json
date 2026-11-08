@@ -3,7 +3,7 @@
  "location": "Rock Hill, SC",
  "page_id": 31407,
  "team_url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=31407",
- "built": "Sun Nov 08, 2026 11:38 AM",
+ "built": "Sun Nov 08, 2026 11:48 AM",
  "record": {
   "w": 7,
   "l": 11,
@@ -5241,7 +5241,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-11-08T11:37",
+    "fetched_at": "2026-11-08T11:48",
     "url": "https://topgunstats.com/whos-playing/12524"
    },
    "next_game": {
@@ -5778,7 +5778,7 @@
      "seed": 19,
      "bracket": "Copper Bracket",
      "won": 0,
-     "lost": 3,
+     "lost": 4,
      "rs": 1,
      "ra": 21
     },
@@ -5803,7 +5803,7 @@
      "pool_ra": 22,
      "seed": 20,
      "bracket": "Copper Bracket",
-     "won": 0,
+     "won": 1,
      "lost": 3,
      "rs": 10,
      "ra": 22
@@ -6665,14 +6665,14 @@
      "field": "Bradford:Field # 4",
      "team_a": "Carolina 9Uw",
      "seed_a": null,
-     "score_a": null,
+     "score_a": 0,
      "from_a": {
       "type": "loser",
       "game": 1
      },
      "team_b": "Carolina Forge 9U",
      "seed_b": null,
-     "score_b": null,
+     "score_b": 19,
      "from_b": {
       "type": "loser",
       "game": 2
@@ -10693,7 +10693,7 @@
      "entered_at": "2026-11-02T08:06:34.820Z",
      "level": "AA"
     },
-    "fetched_at": "2026-11-08T11:37"
+    "fetched_at": "2026-11-08T11:48"
    },
    "tgs": {
     "weather": null,
@@ -10794,7 +10794,7 @@
      }
     ],
     "director": "Don Mason",
-    "fetched_at": "2026-11-08T11:37",
+    "fetched_at": "2026-11-08T11:48",
     "url": "https://topgunstats.com/whos-playing/12524"
    },
    "name": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
@@ -11554,14 +11554,14 @@
      "field": "Bradford:Field # 4",
      "team_a": "Carolina 9Uw",
      "seed_a": null,
-     "score_a": null,
+     "score_a": 0,
      "from_a": {
       "type": "loser",
       "game": 1
      },
      "team_b": "Carolina Forge 9U",
      "seed_b": null,
-     "score_b": null,
+     "score_b": 19,
      "from_b": {
       "type": "loser",
       "game": 2
@@ -11802,7 +11802,7 @@
      "team": "Carolina 9Uw",
      "location": "Gastonia, NC",
      "won": 0,
-     "lost": 3,
+     "lost": 4,
      "runs_allowed": 21,
      "runs_scored": 1,
      "team_page_id": null
@@ -11821,7 +11821,7 @@
      "seed": 16,
      "team": "Carolina Forge 9U",
      "location": "Gastonia, NC",
-     "won": 0,
+     "won": 1,
      "lost": 3,
      "runs_allowed": 22,
      "runs_scored": 10,
@@ -20182,13 +20182,13 @@
    "location": "Gastonia, NC",
    "page_id": 37235,
    "url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=37235",
-   "w": 1,
+   "w": 2,
    "l": 17,
    "t": 0,
-   "rs": 96,
+   "rs": 115,
    "ra": 237,
-   "diff": -141,
-   "pct": 0.056,
+   "diff": -122,
+   "pct": 0.105,
    "events": 5,
    "log": [
     {
@@ -20370,6 +20370,16 @@
      "rs": 0,
      "ra": 12,
      "result": "L"
+    },
+    {
+     "date": "2026-11-08",
+     "event_id": 12524,
+     "event": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
+     "section": "Copper Bracket",
+     "opponent": "Carolina 9Uw",
+     "rs": 19,
+     "ra": 0,
+     "result": "W"
     }
    ],
    "points": 1750,
@@ -20422,6 +20432,15 @@
      "lost": 2,
      "standing": "4th (Silver)",
      "points": 225
+    },
+    {
+     "date": "2026-11-07",
+     "name": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
+     "won": 1,
+     "lost": 3,
+     "standing": "3rd (Copper)",
+     "points": 0,
+     "derived": true
     }
    ],
    "season": "08/01/2026 - 11/06/2026",
@@ -20486,57 +20505,6 @@
    ],
    "season": "08/01/2026 - 11/06/2026",
    "stats_fetched": "2026-11-06T12:54"
-  },
-  {
-   "team": "Carolina 9Uw",
-   "location": "Gastonia, NC",
-   "page_id": null,
-   "url": null,
-   "w": 0,
-   "l": 3,
-   "t": 0,
-   "rs": 7,
-   "ra": 35,
-   "diff": -28,
-   "pct": 0.0,
-   "events": 1,
-   "log": [
-    {
-     "date": "2026-11-07",
-     "event_id": 12524,
-     "event": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
-     "section": "Pool Play",
-     "opponent": "Copperheads",
-     "rs": 0,
-     "ra": 8,
-     "result": "L"
-    },
-    {
-     "date": "2026-11-07",
-     "event_id": 12524,
-     "event": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
-     "section": "Pool Play",
-     "opponent": "Red Clay Athletics 9U Darcangelo",
-     "rs": 1,
-     "ra": 13,
-     "result": "L"
-    },
-    {
-     "date": "2026-11-08",
-     "event_id": 12524,
-     "event": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
-     "section": "Copper Bracket",
-     "opponent": "Carolina Elevate",
-     "rs": 6,
-     "ra": 14,
-     "result": "L"
-    }
-   ],
-   "points": 0,
-   "titles": 0,
-   "finishes": [],
-   "season": "",
-   "stats_fetched": null
   },
   {
    "team": "BOILING SPRINGS BULLDOGS BASEBALL 9u",
@@ -20637,6 +20605,77 @@
    "points": 0,
    "titles": 0,
    "finishes": [],
+   "season": "",
+   "stats_fetched": null
+  },
+  {
+   "team": "Carolina 9Uw",
+   "location": "Gastonia, NC",
+   "page_id": null,
+   "url": null,
+   "w": 0,
+   "l": 4,
+   "t": 0,
+   "rs": 7,
+   "ra": 54,
+   "diff": -47,
+   "pct": 0.0,
+   "events": 1,
+   "log": [
+    {
+     "date": "2026-11-07",
+     "event_id": 12524,
+     "event": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
+     "section": "Pool Play",
+     "opponent": "Copperheads",
+     "rs": 0,
+     "ra": 8,
+     "result": "L"
+    },
+    {
+     "date": "2026-11-07",
+     "event_id": 12524,
+     "event": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
+     "section": "Pool Play",
+     "opponent": "Red Clay Athletics 9U Darcangelo",
+     "rs": 1,
+     "ra": 13,
+     "result": "L"
+    },
+    {
+     "date": "2026-11-08",
+     "event_id": 12524,
+     "event": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
+     "section": "Copper Bracket",
+     "opponent": "Carolina Elevate",
+     "rs": 6,
+     "ra": 14,
+     "result": "L"
+    },
+    {
+     "date": "2026-11-08",
+     "event_id": 12524,
+     "event": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
+     "section": "Copper Bracket",
+     "opponent": "Carolina Forge 9U",
+     "rs": 0,
+     "ra": 19,
+     "result": "L"
+    }
+   ],
+   "points": 0,
+   "titles": 0,
+   "finishes": [
+    {
+     "date": "2026-11-07",
+     "name": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
+     "won": 0,
+     "lost": 4,
+     "standing": "4th (Copper)",
+     "points": 0,
+     "derived": true
+    }
+   ],
    "season": "",
    "stats_fetched": null
   }

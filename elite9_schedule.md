@@ -1,5 +1,5 @@
 # Elite 9 - Top Gun schedule
-_Updated Sun Nov 08, 2026 11:38 AM_
+_Updated Sun Nov 08, 2026 11:48 AM_
 
 ## SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND
 September 26 - 27 in Greater Charlotte Area, NC  
@@ -266,9 +266,9 @@ Tournament 12524 - [schedule page](https://playtopgunsports.com/GameTimesResults
 | 11 | Red Clay Athletics 9U Darcangelo | Charlotte, NC | 1-1 | 16 | 6 |
 | 12 | Elite 9 **<--** | Rock Hill, SC | 1-1 | 17 | 20 |
 | 13 | Carolina Regulators 9u | Stanley, NC | 1-1 | 11 | 23 |
-| 14 | Carolina 9Uw | Gastonia, NC | 0-3 | 1 | 21 |
+| 14 | Carolina 9Uw | Gastonia, NC | 0-4 | 1 | 21 |
 | 15 | Carolina Elevate | Lenoir, NC | 1-3 | 5 | 12 |
-| 16 | Carolina Forge 9U | Gastonia, NC | 0-3 | 10 | 22 |
+| 16 | Carolina Forge 9U | Gastonia, NC | 1-3 | 10 | 22 |
 | 17 | Carolina Rapid Fire - Ford | Lincolnton, NC | 2-0 | 20 | 16 |
 | 18 | Diamond Crushers | Concord, NC | 1-3 | 10 | 33 |
 | 19 | Copperheads | Mooresville, NC | 2-0 | 13 | 3 |
@@ -316,7 +316,7 @@ Tournament 12524 - [schedule page](https://playtopgunsports.com/GameTimesResults
 |---|---|---|---|---|
 | 1 | Sun 8:30 AM | Bradford:Field # 4 | (#18) Carolina Elevate 14 | (#19) Carolina 9Uw 6 |
 | 2 | Sun 8:30 AM | Bradford:Field # 3 | (#17) LKN Lightning - Ogburn 12 | (#20) Carolina Forge 9U 0 |
-| 3 | Sun 10:30 AM | Bradford:Field # 4 | Loser Game #1 Carolina 9Uw | Loser Game #2 Carolina Forge 9U |
+| 3 | Sun 10:30 AM | Bradford:Field # 4 | Loser Game #1 Carolina 9Uw 0 | Loser Game #2 Carolina Forge 9U 19 |
 | 4 | Sun 10:30 AM | Bradford:Field # 3 | Winner Game #1 Carolina Elevate 1 | Winner Game #2 LKN Lightning - Ogburn 13 |
 
 **Select Bracket**
