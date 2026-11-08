@@ -1905,7 +1905,7 @@
           "team": "Carolina Forge 11U",
           "location": "Gastonia, NC",
           "won": 0,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 20,
           "runs_scored": 5,
           "team_page_id": null
@@ -1934,7 +1934,7 @@
           "seed": 7,
           "team": "FS Bulldogs 11u (Houghton)",
           "location": "My Ulla, NC",
-          "won": 0,
+          "won": 1,
           "lost": 2,
           "runs_allowed": 19,
           "runs_scored": 5,
@@ -2408,10 +2408,10 @@
             "field": "Ferguson:Field # 4",
             "team_a": "FS Bulldogs 11u (Houghton)",
             "seed_a": 15,
-            "score_a": null,
+            "score_a": 10,
             "team_b": "Carolina Forge 11U",
             "seed_b": 16,
-            "score_b": null
+            "score_b": 1
           },
           {
             "game": 2,
@@ -2448,7 +2448,7 @@
           "team": "Lincoln County Warriors",
           "location": "Lincolnton, NC",
           "won": 1,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 18,
           "runs_scored": 13,
           "team_page_id": null
@@ -2457,7 +2457,7 @@
           "seed": 2,
           "team": "BS BULLDOGS BlACK 12u",
           "location": "BOILING SPRINGS, NC",
-          "won": 1,
+          "won": 2,
           "lost": 1,
           "runs_allowed": 15,
           "runs_scored": 13,
@@ -2883,10 +2883,10 @@
             "field": "Ferguson:Field # 3",
             "team_a": "Winner Game #1 Lincoln County Warriors",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 0,
             "team_b": "BS BULLDOGS BlACK 12u",
             "seed_b": 7,
-            "score_b": null
+            "score_b": 12
           },
           {
             "game": 4,
@@ -2905,7 +2905,7 @@
             "day": "Sun",
             "time": "2:30 PM",
             "field": "Ferguson:Field # 3",
-            "team_a": "Winner Game #3",
+            "team_a": "Winner Game #3 BS BULLDOGS BlACK 12u",
             "seed_a": null,
             "score_a": null,
             "team_b": "Winner Game #2 Athletes Lab Navy",
@@ -4142,5 +4142,5 @@
   },
   "site_last_updated": "11/05/2026 12:03 PM",
   "tournament_id": 12524,
-  "fetched_at": "2026-11-08T14:15"
+  "fetched_at": "2026-11-08T14:25"
 }
