@@ -1,5 +1,5 @@
 # Elite 9 - Top Gun schedule
-_Updated Sat Nov 07, 2026 07:03 PM_
+_Updated Sat Nov 07, 2026 07:14 PM_
 
 ## SPIDERMAN VS HULK-----RING IT UP CHARACTER RING WEEKEND
 September 26 - 27 in Greater Charlotte Area, NC  
@@ -252,11 +252,11 @@ Tournament 12524 - [schedule page](https://playtopgunsports.com/GameTimesResults
 
 | # | Team | From | W-L | RS | RA |
 |---|---|---|---|---|---|
-| 1 | Team 24 | York, SC | 0-1 | 6 | 10 |
-| 2 | Hooligans | Mount Holly, NC | 0-1 | 8 | 10 |
+| 1 | Team 24 | York, SC | 1-1 | 19 | 22 |
+| 2 | Hooligans | Mount Holly, NC | 0-1 | 18 | 20 |
 | 3 | ROCO Dirtbagz | Forest City, NC | 1-1 | 14 | 7 |
 | 4 | LKN Bolts | Huntersville, NC | 2-0 | 38 | 3 |
-| 5 | Waxhaw Militia 9U | Waxhaw, NC | 0-1 | 1 | 18 |
+| 5 | Waxhaw Militia 9U | Waxhaw, NC | 0-2 | 13 | 31 |
 | 6 | LumberJacks | Gaston County, NC | 1-1 | 10 | 14 |
 | 7 | Mara Cobras | Matthews, NC | 2-0 | 28 | 7 |
 | 8 | Union County Legends | Waxhaw, NC | 1-0 | 30 | 7 |
@@ -275,7 +275,7 @@ Tournament 12524 - [schedule page](https://playtopgunsports.com/GameTimesResults
 | 21 | ZT Knuckleheads | Clover, SC | 2-0 | 17 | 6 |
 | 22 | PeeDee Mudcats | Wadesboro, NC | 0-2 | 12 | 28 |
 | 23 | Athletes Lab 9U Navy- Stewart | Maiden, NC | 2-0 | 19 | 5 |
-| 24 | LKN Lightning - Ogburn | Huntersville, NC | 0-1 | 8 | 10 |
+| 24 | LKN Lightning - Ogburn | Huntersville, NC | 0-1 | 18 | 20 |
 
 **Gold Bracket**
 

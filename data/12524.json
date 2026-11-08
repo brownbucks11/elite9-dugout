@@ -314,10 +314,10 @@
           "seed": 1,
           "team": "Team 24",
           "location": "York, SC",
-          "won": 0,
+          "won": 1,
           "lost": 1,
-          "runs_allowed": 10,
-          "runs_scored": 6,
+          "runs_allowed": 22,
+          "runs_scored": 19,
           "team_page_id": null
         },
         {
@@ -326,8 +326,8 @@
           "location": "Mount Holly, NC",
           "won": 0,
           "lost": 1,
-          "runs_allowed": 10,
-          "runs_scored": 8,
+          "runs_allowed": 20,
+          "runs_scored": 18,
           "team_page_id": null
         },
         {
@@ -355,9 +355,9 @@
           "team": "Waxhaw Militia 9U",
           "location": "Waxhaw, NC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 18,
-          "runs_scored": 1,
+          "lost": 2,
+          "runs_allowed": 31,
+          "runs_scored": 13,
           "team_page_id": null
         },
         {
@@ -546,8 +546,8 @@
           "location": "Huntersville, NC",
           "won": 0,
           "lost": 1,
-          "runs_allowed": 10,
-          "runs_scored": 8,
+          "runs_allowed": 20,
+          "runs_scored": 18,
           "team_page_id": null
         }
       ],
@@ -800,10 +800,10 @@
             "field": "Dallas:Field # 1",
             "team_a": "Hooligans",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 10,
             "team_b": "LKN Lightning - Ogburn",
             "seed_b": null,
-            "score_b": null
+            "score_b": 10
           },
           {
             "game": 22,
@@ -824,10 +824,10 @@
             "field": "Dallas:Field # 3",
             "team_a": "Waxhaw Militia 9U",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 12,
             "team_b": "Team 24",
             "seed_b": null,
-            "score_b": null
+            "score_b": 13
           },
           {
             "game": 24,
@@ -1331,10 +1331,10 @@
           "seed": 13,
           "team": "MP Bombers 10U",
           "location": "Mount Pleasant, NC",
-          "won": 0,
+          "won": 1,
           "lost": 1,
-          "runs_allowed": 10,
-          "runs_scored": 9,
+          "runs_allowed": 17,
+          "runs_scored": 31,
           "team_page_id": null
         },
         {
@@ -1372,9 +1372,9 @@
           "team": "Rowan Titans",
           "location": "China Grove, NC",
           "won": 1,
-          "lost": 0,
-          "runs_allowed": 6,
-          "runs_scored": 7,
+          "lost": 1,
+          "runs_allowed": 28,
+          "runs_scored": 14,
           "team_page_id": null
         },
         {
@@ -1611,10 +1611,10 @@
             "field": "Westmoreld:Field 2",
             "team_a": "MP Bombers 10U",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 22,
             "team_b": "Rowan Titans",
             "seed_b": null,
-            "score_b": null
+            "score_b": 7
           },
           {
             "game": 19,
@@ -3357,10 +3357,10 @@
           "seed": 4,
           "team": "KLSC Tomahawks",
           "location": "Belmont, NC",
-          "won": 1,
+          "won": 2,
           "lost": 0,
           "runs_allowed": 0,
-          "runs_scored": 12,
+          "runs_scored": 24,
           "team_page_id": null
         },
         {
@@ -3438,8 +3438,8 @@
           "team": "Regulators",
           "location": "Indian Trail, NC",
           "won": 0,
-          "lost": 1,
-          "runs_allowed": 4,
+          "lost": 2,
+          "runs_allowed": 16,
           "runs_scored": 2,
           "team_page_id": null
         }
@@ -3561,10 +3561,10 @@
             "field": "Shelby:Field # 1",
             "team_a": "KLSC Tomahawks",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 12,
             "team_b": "Regulators",
             "seed_b": null,
-            "score_b": null
+            "score_b": 0
           },
           {
             "game": 11,
@@ -4142,5 +4142,5 @@
   },
   "site_last_updated": "11/05/2026 12:03 PM",
   "tournament_id": 12524,
-  "fetched_at": "2026-11-07T19:03"
+  "fetched_at": "2026-11-07T19:14"
 }
