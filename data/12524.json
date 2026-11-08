@@ -314,7 +314,7 @@
           "seed": 1,
           "team": "Team 24",
           "location": "York, SC",
-          "won": 1,
+          "won": 2,
           "lost": 1,
           "runs_allowed": 22,
           "runs_scored": 19,
@@ -435,7 +435,7 @@
           "team": "Carolina Regulators 9u",
           "location": "Stanley, NC",
           "won": 1,
-          "lost": 1,
+          "lost": 2,
           "runs_allowed": 23,
           "runs_scored": 11,
           "team_page_id": null
@@ -505,7 +505,7 @@
           "team": "BOILING SPRINGS BULLDOGS BASEBALL 9u",
           "location": "Boiling Springs, NC",
           "won": 0,
-          "lost": 3,
+          "lost": 4,
           "runs_allowed": 24,
           "runs_scored": 3,
           "team_page_id": null
@@ -524,7 +524,7 @@
           "seed": 22,
           "team": "PeeDee Mudcats",
           "location": "Wadesboro, NC",
-          "won": 0,
+          "won": 1,
           "lost": 3,
           "runs_allowed": 28,
           "runs_scored": 12,
@@ -1010,10 +1010,10 @@
             "field": "Bradford:Field # 5",
             "team_a": "Team 24",
             "seed_a": 13,
-            "score_a": null,
+            "score_a": 12,
             "team_b": "Carolina Regulators 9u",
             "seed_b": 14,
-            "score_b": null
+            "score_b": 5
           },
           {
             "game": 3,
@@ -1035,7 +1035,7 @@
             "team_a": "Loser Game #1 SC Tide - Lucariello",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Loser Game #2",
+            "team_b": "Loser Game #2 Carolina Regulators 9u",
             "seed_b": null,
             "score_b": null
           },
@@ -1047,7 +1047,7 @@
             "team_a": "Winner Game #3",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Winner Game #2",
+            "team_b": "Winner Game #2 Team 24",
             "seed_b": null,
             "score_b": null
           }
@@ -1134,10 +1134,10 @@
             "field": "Bradford:Field # 2",
             "team_a": "Loser Game #1 PeeDee Mudcats",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 14,
             "team_b": "Loser Game #2 BOILING SPRINGS BULLDOGS BASEBALL 9u",
             "seed_b": null,
-            "score_b": null
+            "score_b": 6
           },
           {
             "game": 4,
@@ -4012,7 +4012,7 @@
           "team": "Carolina Elevate 17U",
           "location": "Hudson, NC",
           "won": 0,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 16,
           "runs_scored": 2,
           "team_page_id": null
@@ -4021,7 +4021,7 @@
           "seed": 2,
           "team": "Startown Elite",
           "location": "Newton, NC",
-          "won": 2,
+          "won": 3,
           "lost": 0,
           "runs_allowed": 7,
           "runs_scored": 16,
@@ -4119,10 +4119,10 @@
             "field": "SP:Field #2",
             "team_a": "Startown Elite",
             "seed_a": 2,
-            "score_a": null,
+            "score_a": 8,
             "team_b": "Carolina Elevate 17U",
             "seed_b": 3,
-            "score_b": null
+            "score_b": 0
           },
           {
             "game": 3,
@@ -4132,7 +4132,7 @@
             "team_a": "Winner Game #1",
             "seed_a": null,
             "score_a": null,
-            "team_b": "Winner Game #2",
+            "team_b": "Winner Game #2 Startown Elite",
             "seed_b": null,
             "score_b": null
           }
@@ -4142,5 +4142,5 @@
   },
   "site_last_updated": "11/05/2026 12:03 PM",
   "tournament_id": 12524,
-  "fetched_at": "2026-11-08T11:48"
+  "fetched_at": "2026-11-08T11:59"
 }
