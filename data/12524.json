@@ -2508,7 +2508,7 @@
           "team": "Couloak Diesel",
           "location": "Charlotte, NC",
           "won": 1,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 25,
           "runs_scored": 8,
           "team_page_id": null
@@ -2527,7 +2527,7 @@
           "seed": 9,
           "team": "Carolina Reign Baseball 12U",
           "location": "Lincolnton, NC",
-          "won": 1,
+          "won": 2,
           "lost": 2,
           "runs_allowed": 22,
           "runs_scored": 6,
@@ -2957,10 +2957,10 @@
             "field": "M. Rivers:Martha Rivers 3",
             "team_a": "Winner Game #1 Couloak Diesel",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 0,
             "team_b": "Winner Game #2 Carolina Reign Baseball 12U",
             "seed_b": null,
-            "score_b": null
+            "score_b": 8
           }
         ]
       }
@@ -4142,5 +4142,5 @@
   },
   "site_last_updated": "11/05/2026 12:03 PM",
   "tournament_id": 12524,
-  "fetched_at": "2026-11-08T11:17"
+  "fetched_at": "2026-11-08T11:27"
 }
