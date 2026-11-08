@@ -3389,7 +3389,7 @@
           "seed": 6,
           "team": "Toxic NC",
           "location": "Startown, NC",
-          "won": 0,
+          "won": 1,
           "lost": 2,
           "runs_allowed": 36,
           "runs_scored": 5,
@@ -3450,7 +3450,7 @@
           "team": "Regulators",
           "location": "Indian Trail, NC",
           "won": 0,
-          "lost": 2,
+          "lost": 3,
           "runs_allowed": 16,
           "runs_scored": 2,
           "team_page_id": null
@@ -3687,10 +3687,10 @@
             "field": "SP:Field #3",
             "team_a": "Regulators",
             "seed_a": 9,
-            "score_a": null,
+            "score_a": 2,
             "team_b": "Toxic NC",
             "seed_b": 12,
-            "score_b": null
+            "score_b": 7
           },
           {
             "game": 2,
@@ -3709,7 +3709,7 @@
             "day": "Sun",
             "time": "4:30 PM",
             "field": "SP:Field #3",
-            "team_a": "Winner Game #1",
+            "team_a": "Winner Game #1 Toxic NC",
             "seed_a": null,
             "score_a": null,
             "team_b": "Winner Game #2",
@@ -4142,5 +4142,5 @@
   },
   "site_last_updated": "11/05/2026 12:03 PM",
   "tournament_id": 12524,
-  "fetched_at": "2026-11-08T14:46"
+  "fetched_at": "2026-11-08T14:57"
 }
