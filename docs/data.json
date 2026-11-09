@@ -3,7 +3,7 @@
  "location": "Rock Hill, SC",
  "page_id": 31407,
  "team_url": "https://playtopgunsports.com/TeamPage/EntryPoint.aspx?p2=31407",
- "built": "Sun Nov 08, 2026 11:47 PM",
+ "built": "Mon Nov 09, 2026 04:23 PM",
  "record": {
   "w": 7,
   "l": 12,
@@ -295,7 +295,7 @@
    "rs": 6,
    "ra": 13,
    "result": "L",
-   "gc_id": null
+   "gc_id": "b61d0f93-53c1-43b3-b9a9-828179c639b0"
   }
  ],
  "my_events": [
@@ -5141,7 +5141,7 @@
     "Modified Stealing"
    ],
    "teams": 24,
-   "state": "live",
+   "state": "final",
    "tgs": {
     "weather": null,
     "general": {
@@ -5245,7 +5245,7 @@
     "url": "https://topgunstats.com/whos-playing/12524"
    },
    "next_game": null,
-   "ics": "ics/12524.ics",
+   "ics": null,
    "standing": {
     "team": "Elite 9",
     "location": "Rock Hill, SC",
@@ -10595,7 +10595,7 @@
   },
   {
    "id": 12524,
-   "state": "live",
+   "state": "final",
    "official": false,
    "confirmed": false,
    "summary": {
@@ -10616,21 +10616,7 @@
     "w": 1,
     "l": 2
    },
-   "entries": {
-    "count": 24,
-    "confirmed": 0,
-    "waitlist": 0,
-    "total": 122,
-    "team": {
-     "entered": true,
-     "division": "9U",
-     "confirmed": false,
-     "waitlist": false,
-     "entered_at": "2026-11-02T08:06:34.820Z",
-     "level": "AA"
-    },
-    "fetched_at": "2026-11-08T23:47"
-   },
+   "entries": null,
    "tgs": {
     "weather": null,
     "general": {
@@ -11822,20 +11808,15 @@
      "rs": 6,
      "ra": 13,
      "result": "L",
-     "gc_id": null
+     "gc_id": "b61d0f93-53c1-43b3-b9a9-828179c639b0"
     }
    ],
    "next_game": null,
-   "schedule_versions": 3,
-   "schedule_first": "2026-11-05T13:37",
-   "schedule_updated": "2026-11-07T20:28",
-   "changes": [
-    {
-     "key": "Bronze Bracket#3",
-     "kind": "added"
-    }
-   ],
-   "ics": "ics/12524.ics"
+   "schedule_versions": 0,
+   "schedule_first": null,
+   "schedule_updated": null,
+   "changes": [],
+   "ics": null
   }
  ],
  "teams": [
@@ -11922,8 +11903,8 @@
      "points": 325
     }
    ],
-   "season": "08/01/2026 - 11/06/2026",
-   "stats_fetched": "2026-11-06T12:50"
+   "season": "08/01/2026 - 11/09/2026",
+   "stats_fetched": "2026-11-09T16:19"
   },
   {
    "team": "Mara Cobras",
@@ -12274,8 +12255,8 @@
      "result": "W"
     }
    ],
-   "points": 1150,
-   "titles": 1,
+   "points": 1750,
+   "titles": 2,
    "finishes": [
     {
      "date": "2026-08-29",
@@ -12298,12 +12279,12 @@
      "name": "HALLOWEEN MONSTER MASH------2026 TOP GUN-USA SPORTS EVENT",
      "won": 4,
      "lost": 0,
-     "standing": "",
-     "points": 0
+     "standing": "1st (Gold)",
+     "points": 600
     }
    ],
-   "season": "08/01/2026 - 11/06/2026",
-   "stats_fetched": "2026-11-06T12:53"
+   "season": "08/01/2026 - 11/09/2026",
+   "stats_fetched": "2026-11-09T16:22"
   },
   {
    "team": "Carolina Rapid Fire - Ford",
@@ -12564,8 +12545,8 @@
      "points": 400
     }
    ],
-   "season": "08/01/2026 - 11/06/2026",
-   "stats_fetched": "2026-11-06T12:51"
+   "season": "08/01/2026 - 11/09/2026",
+   "stats_fetched": "2026-11-09T16:20"
   },
   {
    "team": "Union County Aces 9u",
@@ -12762,8 +12743,8 @@
      "points": 375
     }
    ],
-   "season": "08/01/2026 - 11/06/2026",
-   "stats_fetched": "2026-11-06T12:50"
+   "season": "08/01/2026 - 11/09/2026",
+   "stats_fetched": "2026-11-09T16:19"
   },
   {
    "team": "Lake Wylie Venom",
@@ -12906,8 +12887,8 @@
      "points": 600
     }
    ],
-   "season": "08/01/2026 - 11/06/2026",
-   "stats_fetched": "2026-11-06T12:51"
+   "season": "08/01/2026 - 11/09/2026",
+   "stats_fetched": "2026-11-09T16:20"
   },
   {
    "team": "Weddington Wreckers",
@@ -13032,8 +13013,8 @@
      "points": 1000
     }
    ],
-   "season": "08/01/2026 - 11/06/2026",
-   "stats_fetched": "2026-11-06T12:53"
+   "season": "08/01/2026 - 11/09/2026",
+   "stats_fetched": "2026-11-09T16:22"
   },
   {
    "team": "Carolina Firebirds-Red",
@@ -13173,8 +13154,8 @@
      "points": 350
     }
    ],
-   "season": "08/01/2026 - 11/06/2026",
-   "stats_fetched": "2026-11-06T12:53"
+   "season": "08/01/2026 - 11/09/2026",
+   "stats_fetched": "2026-11-09T16:22"
   },
   {
    "team": "Mara Bulls",
@@ -13271,7 +13252,7 @@
      "result": "L"
     }
    ],
-   "points": 300,
+   "points": 675,
    "titles": 1,
    "finishes": [
     {
@@ -13288,12 +13269,11 @@
      "won": 4,
      "lost": 1,
      "standing": "2nd (Gold)",
-     "points": 0,
-     "derived": true
+     "points": 375
     }
    ],
-   "season": "08/01/2026 - 11/06/2026",
-   "stats_fetched": "2026-11-06T12:54"
+   "season": "08/01/2026 - 11/09/2026",
+   "stats_fetched": "2026-11-09T16:22"
   },
   {
    "team": "Dirtbags Baseball ESB",
@@ -13544,8 +13524,8 @@
      "points": 675
     }
    ],
-   "season": "08/01/2026 - 11/06/2026",
-   "stats_fetched": "2026-11-06T12:53"
+   "season": "08/01/2026 - 11/09/2026",
+   "stats_fetched": "2026-11-09T16:22"
   },
   {
    "team": "LKN Bolts",
@@ -13742,7 +13722,7 @@
      "result": "L"
     }
    ],
-   "points": 3225,
+   "points": 3575,
    "titles": 1,
    "finishes": [
     {
@@ -13784,10 +13764,18 @@
      "lost": 1,
      "standing": "2nd (Gold)",
      "points": 375
+    },
+    {
+     "date": "2026-11-07",
+     "name": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
+     "won": 2,
+     "lost": 1,
+     "standing": "3rd (Gold)",
+     "points": 350
     }
    ],
-   "season": "08/01/2026 - 11/06/2026",
-   "stats_fetched": "2026-11-06T12:51"
+   "season": "08/01/2026 - 11/09/2026",
+   "stats_fetched": "2026-11-09T16:19"
   },
   {
    "team": "Hooligans",
@@ -13994,7 +13982,7 @@
      "result": "L"
     }
    ],
-   "points": 4025,
+   "points": 4200,
    "titles": 2,
    "finishes": [
     {
@@ -14051,12 +14039,11 @@
      "won": 2,
      "lost": 2,
      "standing": "2nd (Bronze)",
-     "points": 0,
-     "derived": true
+     "points": 175
     }
    ],
-   "season": "08/01/2026 - 11/06/2026",
-   "stats_fetched": "2026-11-06T12:51"
+   "season": "08/01/2026 - 11/09/2026",
+   "stats_fetched": "2026-11-09T16:20"
   },
   {
    "team": "LKN Lightning - Ogburn",
@@ -14473,8 +14460,8 @@
      "points": 650
     }
    ],
-   "season": "08/01/2026 - 11/06/2026",
-   "stats_fetched": "2026-11-06T12:52"
+   "season": "08/01/2026 - 11/09/2026",
+   "stats_fetched": "2026-11-09T16:21"
   },
   {
    "team": "Athletes Lab 9U Navy- Stewart",
@@ -15021,7 +15008,7 @@
      "result": "L"
     }
    ],
-   "points": 2775,
+   "points": 2975,
    "titles": 2,
    "finishes": [
     {
@@ -15069,12 +15056,12 @@
      "name": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
      "won": 0,
      "lost": 2,
-     "standing": "",
-     "points": 0
+     "standing": "3rd (Gold)",
+     "points": 200
     }
    ],
-   "season": "08/01/2026 - 11/06/2026",
-   "stats_fetched": "2026-11-06T12:50"
+   "season": "08/01/2026 - 11/09/2026",
+   "stats_fetched": "2026-11-09T16:19"
   },
   {
    "team": "M&M Baseball 9u",
@@ -15232,7 +15219,7 @@
      "result": "L"
     }
    ],
-   "points": 1325,
+   "points": 1650,
    "titles": 0,
    "finishes": [
     {
@@ -15258,10 +15245,18 @@
      "lost": 0,
      "standing": "",
      "points": 0
+    },
+    {
+     "date": "2026-11-07",
+     "name": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
+     "won": 2,
+     "lost": 1,
+     "standing": "4th (Gold)",
+     "points": 325
     }
    ],
-   "season": "08/01/2026 - 11/06/2026",
-   "stats_fetched": "2026-11-06T12:51"
+   "season": "08/01/2026 - 11/09/2026",
+   "stats_fetched": "2026-11-09T16:20"
   },
   {
    "team": "NC Made 9U Blue",
@@ -15368,7 +15363,7 @@
      "result": "L"
     }
    ],
-   "points": 1500,
+   "points": 1875,
    "titles": 2,
    "finishes": [
     {
@@ -15409,12 +15404,11 @@
      "won": 2,
      "lost": 2,
      "standing": "2nd (Gold)",
-     "points": 0,
-     "derived": true
+     "points": 375
     }
    ],
-   "season": "08/01/2026 - 11/06/2026",
-   "stats_fetched": "2026-11-06T12:50"
+   "season": "08/01/2026 - 11/09/2026",
+   "stats_fetched": "2026-11-09T16:19"
   },
   {
    "team": "Legacy Baseball 9U - WHITE",
@@ -15621,8 +15615,8 @@
      "result": "W"
     }
    ],
-   "points": 1825,
-   "titles": 1,
+   "points": 2125,
+   "titles": 2,
    "finishes": [
     {
      "date": "2026-08-22",
@@ -15662,12 +15656,11 @@
      "won": 2,
      "lost": 0,
      "standing": "1st (Silver)",
-     "points": 0,
-     "derived": true
+     "points": 300
     }
    ],
-   "season": "08/01/2026 - 11/06/2026",
-   "stats_fetched": "2026-11-06T12:52"
+   "season": "08/01/2026 - 11/09/2026",
+   "stats_fetched": "2026-11-09T16:21"
   },
   {
    "team": "ROCO Dirtbagz",
@@ -15834,7 +15827,7 @@
      "result": "L"
     }
    ],
-   "points": 2950,
+   "points": 3225,
    "titles": 2,
    "finishes": [
     {
@@ -15883,12 +15876,11 @@
      "won": 3,
      "lost": 2,
      "standing": "2nd (Silver)",
-     "points": 0,
-     "derived": true
+     "points": 275
     }
    ],
-   "season": "08/01/2026 - 11/06/2026",
-   "stats_fetched": "2026-11-06T12:50"
+   "season": "08/01/2026 - 11/09/2026",
+   "stats_fetched": "2026-11-09T16:19"
   },
   {
    "team": "Legacy Baseball 9U RED",
@@ -15985,8 +15977,8 @@
      "result": "W"
     }
    ],
-   "points": 275,
-   "titles": 0,
+   "points": 875,
+   "titles": 1,
    "finishes": [
     {
      "date": "2026-08-29",
@@ -16010,12 +16002,11 @@
      "won": 2,
      "lost": 2,
      "standing": "1st (Gold)",
-     "points": 0,
-     "derived": true
+     "points": 600
     }
    ],
-   "season": "08/01/2026 - 11/06/2026",
-   "stats_fetched": "2026-11-06T12:51"
+   "season": "08/01/2026 - 11/09/2026",
+   "stats_fetched": "2026-11-09T16:20"
   },
   {
    "team": "Mission 9u Scout",
@@ -16092,8 +16083,8 @@
      "points": 700
     }
    ],
-   "season": "08/01/2026 - 11/06/2026",
-   "stats_fetched": "2026-11-06T12:53"
+   "season": "08/01/2026 - 11/09/2026",
+   "stats_fetched": "2026-11-09T16:22"
   },
   {
    "team": "NC Made 9U Green",
@@ -16186,8 +16177,8 @@
      "points": 0
     }
    ],
-   "season": "08/01/2026 - 11/06/2026",
-   "stats_fetched": "2026-11-06T12:51"
+   "season": "08/01/2026 - 11/09/2026",
+   "stats_fetched": "2026-11-09T16:19"
   },
   {
    "team": "ZT Knuckleheads",
@@ -16345,8 +16336,8 @@
      "points": 0
     }
    ],
-   "season": "08/01/2026 - 11/06/2026",
-   "stats_fetched": "2026-11-06T12:51"
+   "season": "08/01/2026 - 11/09/2026",
+   "stats_fetched": "2026-11-09T16:20"
   },
   {
    "team": "Rock Hill 9U Baseball",
@@ -16652,8 +16643,8 @@
      "points": 325
     }
    ],
-   "season": "08/01/2026 - 11/06/2026",
-   "stats_fetched": "2026-11-06T12:53"
+   "season": "08/01/2026 - 11/09/2026",
+   "stats_fetched": "2026-11-09T16:21"
   },
   {
    "team": "Carolina Royals 9Ublu",
@@ -16816,8 +16807,8 @@
      "points": 325
     }
    ],
-   "season": "08/01/2026 - 11/06/2026",
-   "stats_fetched": "2026-11-06T12:53"
+   "season": "08/01/2026 - 11/09/2026",
+   "stats_fetched": "2026-11-09T16:22"
   },
   {
    "team": "Red Clay Athletics 9U Darcangelo",
@@ -17064,7 +17055,7 @@
      "result": "W"
     }
    ],
-   "points": 2650,
+   "points": 3075,
    "titles": 0,
    "finishes": [
     {
@@ -17112,21 +17103,20 @@
      "name": "FRIDAY NIGHT G.O.A.T. SERIES 9U",
      "won": 0,
      "lost": 2,
-     "standing": "",
-     "points": 0
+     "standing": "4th (Gold)",
+     "points": 200
     },
     {
      "date": "2026-11-07",
      "name": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
      "won": 2,
      "lost": 2,
-     "standing": "3rd (Silver)",
-     "points": 0,
-     "derived": true
+     "standing": "4th (Silver)",
+     "points": 225
     }
    ],
-   "season": "08/01/2026 - 11/06/2026",
-   "stats_fetched": "2026-11-06T12:52"
+   "season": "08/01/2026 - 11/09/2026",
+   "stats_fetched": "2026-11-09T16:21"
   },
   {
    "team": "Dirtbags Shook",
@@ -17384,7 +17374,7 @@
      "result": "L"
     }
    ],
-   "points": 2175,
+   "points": 2300,
    "titles": 2,
    "finishes": [
     {
@@ -17418,10 +17408,18 @@
      "lost": 2,
      "standing": "1st (Copper)",
      "points": 400
+    },
+    {
+     "date": "2026-11-07",
+     "name": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
+     "won": 1,
+     "lost": 2,
+     "standing": "4th (Bronze)",
+     "points": 125
     }
    ],
-   "season": "08/01/2026 - 11/06/2026",
-   "stats_fetched": "2026-11-06T12:54"
+   "season": "08/01/2026 - 11/09/2026",
+   "stats_fetched": "2026-11-09T16:22"
   },
   {
    "team": "Waxhaw Militia 9U",
@@ -17559,7 +17557,7 @@
     }
    ],
    "points": 725,
-   "titles": 0,
+   "titles": 1,
    "finishes": [
     {
      "date": "2026-08-29",
@@ -17591,12 +17589,11 @@
      "won": 2,
      "lost": 2,
      "standing": "1st (Select)",
-     "points": 0,
-     "derived": true
+     "points": 0
     }
    ],
-   "season": "08/01/2026 - 11/06/2026",
-   "stats_fetched": "2026-11-06T12:51"
+   "season": "08/01/2026 - 11/09/2026",
+   "stats_fetched": "2026-11-09T16:20"
   },
   {
    "team": "SC Tide - Lucariello",
@@ -17763,7 +17760,7 @@
      "result": "L"
     }
    ],
-   "points": 2350,
+   "points": 2450,
    "titles": 0,
    "finishes": [
     {
@@ -17821,10 +17818,18 @@
      "lost": 2,
      "standing": "3rd (Silver)",
      "points": 250
+    },
+    {
+     "date": "2026-11-07",
+     "name": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
+     "won": 1,
+     "lost": 2,
+     "standing": "5th (Bronze)",
+     "points": 100
     }
    ],
-   "season": "08/01/2026 - 11/06/2026",
-   "stats_fetched": "2026-11-06T12:51"
+   "season": "08/01/2026 - 11/09/2026",
+   "stats_fetched": "2026-11-09T16:20"
   },
   {
    "team": "DYBA Force 9U",
@@ -17992,7 +17997,7 @@
      "result": "L"
     }
    ],
-   "points": 1750,
+   "points": 2050,
    "titles": 0,
    "finishes": [
     {
@@ -18034,10 +18039,18 @@
      "lost": 2,
      "standing": "4th (Silver)",
      "points": 525
+    },
+    {
+     "date": "2026-11-07",
+     "name": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
+     "won": 2,
+     "lost": 1,
+     "standing": "6th (Gold)",
+     "points": 300
     }
    ],
-   "season": "08/01/2026 - 11/06/2026",
-   "stats_fetched": "2026-11-06T12:51"
+   "season": "08/01/2026 - 11/09/2026",
+   "stats_fetched": "2026-11-09T16:20"
   },
   {
    "team": "BOILING SPRINGS BULLDOGS BASEBALL 8u",
@@ -18287,12 +18300,11 @@
      "won": 1,
      "lost": 3,
      "standing": "2nd (Select)",
-     "points": 0,
-     "derived": true
+     "points": 0
     }
    ],
-   "season": "08/01/2026 - 11/06/2026",
-   "stats_fetched": "2026-11-06T12:53"
+   "season": "08/01/2026 - 11/09/2026",
+   "stats_fetched": "2026-11-09T16:21"
   },
   {
    "team": "Elite 9",
@@ -18499,7 +18511,7 @@
      "result": "L"
     }
    ],
-   "points": 2325,
+   "points": 2475,
    "titles": 1,
    "finishes": [
     {
@@ -18541,10 +18553,18 @@
      "lost": 1,
      "standing": "3rd (Silver)",
      "points": 550
+    },
+    {
+     "date": "2026-11-07",
+     "name": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
+     "won": 1,
+     "lost": 2,
+     "standing": "3rd (Bronze)",
+     "points": 150
     }
    ],
-   "season": "08/01/2026 - 11/06/2026",
-   "stats_fetched": "2026-11-06T12:50"
+   "season": "08/01/2026 - 11/09/2026",
+   "stats_fetched": "2026-11-09T16:19"
   },
   {
    "team": "MARA Stingers",
@@ -18654,8 +18674,8 @@
      "points": 325
     }
    ],
-   "season": "08/01/2026 - 11/06/2026",
-   "stats_fetched": "2026-11-06T12:52"
+   "season": "08/01/2026 - 11/09/2026",
+   "stats_fetched": "2026-11-09T16:21"
   },
   {
    "team": "Camel City",
@@ -18722,8 +18742,8 @@
      "points": 375
     }
    ],
-   "season": "08/01/2026 - 11/06/2026",
-   "stats_fetched": "2026-11-06T12:53"
+   "season": "08/01/2026 - 11/09/2026",
+   "stats_fetched": "2026-11-09T16:22"
   },
   {
    "team": "Cage 2 Stage 9u",
@@ -18790,8 +18810,8 @@
      "points": 0
     }
    ],
-   "season": "08/01/2026 - 11/06/2026",
-   "stats_fetched": "2026-11-06T12:54"
+   "season": "08/01/2026 - 11/09/2026",
+   "stats_fetched": "2026-11-09T16:23"
   },
   {
    "team": "LumberJacks",
@@ -19068,7 +19088,7 @@
      "result": "L"
     }
    ],
-   "points": 3225,
+   "points": 3425,
    "titles": 2,
    "finishes": [
     {
@@ -19124,13 +19144,12 @@
      "name": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
      "won": 1,
      "lost": 3,
-     "standing": "4th (Silver)",
-     "points": 0,
-     "derived": true
+     "standing": "5th (Silver)",
+     "points": 200
     }
    ],
-   "season": "08/01/2026 - 11/06/2026",
-   "stats_fetched": "2026-11-06T12:52"
+   "season": "08/01/2026 - 11/09/2026",
+   "stats_fetched": "2026-11-09T16:20"
   },
   {
    "team": "SOX Baseball - Snow",
@@ -19245,8 +19264,8 @@
      "points": 300
     }
    ],
-   "season": "08/01/2026 - 11/06/2026",
-   "stats_fetched": "2026-11-06T12:52"
+   "season": "08/01/2026 - 11/09/2026",
+   "stats_fetched": "2026-11-09T16:21"
   },
   {
    "team": "Concord Athletics -9U",
@@ -19373,7 +19392,7 @@
      "result": "L"
     }
    ],
-   "points": 900,
+   "points": 1450,
    "titles": 0,
    "finishes": [
     {
@@ -19405,12 +19424,12 @@
      "name": "HALLOWEEN MONSTER MASH------2026 TOP GUN-USA SPORTS EVENT",
      "won": 2,
      "lost": 1,
-     "standing": "",
-     "points": 0
+     "standing": "3rd (Gold)",
+     "points": 550
     }
    ],
-   "season": "08/01/2026 - 11/06/2026",
-   "stats_fetched": "2026-11-06T12:52"
+   "season": "08/01/2026 - 11/09/2026",
+   "stats_fetched": "2026-11-09T16:21"
   },
   {
    "team": "Carolina Icons",
@@ -19527,7 +19546,7 @@
      "result": "L"
     }
    ],
-   "points": 1275,
+   "points": 1550,
    "titles": 0,
    "finishes": [
     {
@@ -19552,12 +19571,11 @@
      "won": 0,
      "lost": 2,
      "standing": "2nd (Silver)",
-     "points": 0,
-     "derived": true
+     "points": 275
     }
    ],
-   "season": "08/01/2026 - 11/06/2026",
-   "stats_fetched": "2026-11-06T12:52"
+   "season": "08/01/2026 - 11/09/2026",
+   "stats_fetched": "2026-11-09T16:21"
   },
   {
    "team": "PeeDee Mudcats",
@@ -19854,7 +19872,7 @@
      "result": "L"
     }
    ],
-   "points": 3425,
+   "points": 4000,
    "titles": 0,
    "finishes": [
     {
@@ -19895,12 +19913,11 @@
      "won": 1,
      "lost": 3,
      "standing": "2nd (Gold)",
-     "points": 0,
-     "derived": true
+     "points": 575
     }
    ],
-   "season": "08/01/2026 - 11/06/2026",
-   "stats_fetched": "2026-11-06T12:53"
+   "season": "08/01/2026 - 11/09/2026",
+   "stats_fetched": "2026-11-09T16:22"
   },
   {
    "team": "Carolina Royals 9Uw",
@@ -20382,8 +20399,8 @@
      "points": 875
     }
    ],
-   "season": "08/01/2026 - 11/06/2026",
-   "stats_fetched": "2026-11-06T12:52"
+   "season": "08/01/2026 - 11/09/2026",
+   "stats_fetched": "2026-11-09T16:21"
   },
   {
    "team": "Carolina Forge 9U",
@@ -20590,7 +20607,7 @@
      "result": "W"
     }
    ],
-   "points": 1750,
+   "points": 1900,
    "titles": 0,
    "finishes": [
     {
@@ -20647,12 +20664,11 @@
      "won": 1,
      "lost": 3,
      "standing": "3rd (Copper)",
-     "points": 0,
-     "derived": true
+     "points": 150
     }
    ],
-   "season": "08/01/2026 - 11/06/2026",
-   "stats_fetched": "2026-11-06T12:52"
+   "season": "08/01/2026 - 11/09/2026",
+   "stats_fetched": "2026-11-09T16:21"
   },
   {
    "team": "High Point Hurricanes",
@@ -20711,8 +20727,8 @@
      "points": 225
     }
    ],
-   "season": "08/01/2026 - 11/06/2026",
-   "stats_fetched": "2026-11-06T12:54"
+   "season": "08/01/2026 - 11/09/2026",
+   "stats_fetched": "2026-11-09T16:22"
   },
   {
    "team": "BOILING SPRINGS BULLDOGS BASEBALL 9u",
@@ -21175,8 +21191,8 @@
     "button_photo": null
    }
   ],
-  "season": "08/01/2026 - 11/06/2026",
-  "fetched_at": "2026-11-06T12:54",
+  "season": "08/01/2026 - 11/09/2026",
+  "fetched_at": "2026-11-09T16:23",
   "inactive": 22,
   "not_on_topgun": [],
   "duplicate_numbers": {}
@@ -27637,11 +27653,392 @@
      "section": "Pool Play",
      "game": 7
     }
+   },
+   {
+    "id": "b61d0f93-53c1-43b3-b9a9-828179c639b0",
+    "url": "https://web.gc.com/teams/ewJYbRqmr5t1/2026-fall-elite9-9u/schedule/b61d0f93-53c1-43b3-b9a9-828179c639b0/box-score",
+    "home_away": "home",
+    "status": "completed",
+    "date": "2026-11-08",
+    "time": "12:30 PM",
+    "opponent": "Hooligans 9U",
+    "score": {
+     "team": 6,
+     "opponent_team": 13
+    },
+    "line_score": {
+     "team": {
+      "scores": [
+       1,
+       3,
+       2,
+       0,
+       0
+      ],
+      "totals": [
+       6,
+       7,
+       7
+      ]
+     },
+     "opponent": {
+      "scores": [
+       1,
+       0,
+       2,
+       0,
+       10
+      ],
+      "totals": [
+       13,
+       10,
+       0
+      ]
+     }
+    },
+    "opponent_box": {
+     "lineup": {
+      "AB": 24,
+      "R": 13,
+      "H": 10,
+      "RBI": 7,
+      "BB": 6,
+      "SO": 6
+     },
+     "pitching": {
+      "IP": 5,
+      "H": 7,
+      "R": 6,
+      "ER": 4,
+      "BB": 5,
+      "SO": 8
+     }
+    },
+    "lineup": {
+     "team": {
+      "AB": 21,
+      "R": 6,
+      "H": 7,
+      "RBI": 3,
+      "BB": 5,
+      "SO": 8
+     },
+     "players": [
+      {
+       "player_id": "eafa8bd6-abc9-404f-b20d-1da3fcbd4a79",
+       "name": "Lane S.",
+       "number": 23,
+       "positions": "2B",
+       "primary": true,
+       "AB": 2,
+       "R": 0,
+       "H": 0,
+       "RBI": 0,
+       "BB": 1,
+       "SO": 1,
+       "extra": {}
+      },
+      {
+       "player_id": "95f94681-d705-4c0a-8d31-82bdf0b0225a",
+       "name": "Keegan H.",
+       "number": 4,
+       "positions": "P, SS",
+       "primary": true,
+       "AB": 3,
+       "R": 2,
+       "H": 2,
+       "RBI": 0,
+       "BB": 0,
+       "SO": 0,
+       "extra": {
+        "TB": 2,
+        "SB": 2
+       }
+      },
+      {
+       "player_id": "c8993af3-6d53-4c21-8de9-2e5c6da283f8",
+       "name": "Khale V.",
+       "number": 3,
+       "positions": "SS, 3B",
+       "primary": true,
+       "AB": 2,
+       "R": 0,
+       "H": 0,
+       "RBI": 0,
+       "BB": 0,
+       "SO": 2,
+       "extra": {
+        "E": 2
+       }
+      },
+      {
+       "player_id": "0e084e9f-c174-49b2-8d68-76d6fd68f0d4",
+       "name": "Caiden P.",
+       "number": 11,
+       "positions": "",
+       "primary": false,
+       "AB": 1,
+       "R": 0,
+       "H": 0,
+       "RBI": 0,
+       "BB": 0,
+       "SO": 1,
+       "extra": {
+        "SB": 1
+       }
+      },
+      {
+       "player_id": "0e679527-46a5-4bff-b301-015399d36b66",
+       "name": "Tejay W.",
+       "number": 16,
+       "positions": "3B, P",
+       "primary": true,
+       "AB": 2,
+       "R": 1,
+       "H": 1,
+       "RBI": 1,
+       "BB": 1,
+       "SO": 0,
+       "extra": {
+        "TB": 1,
+        "E": 1
+       }
+      },
+      {
+       "player_id": "7715cbdc-01f2-46f0-be9a-96496eb6ddb1",
+       "name": "Remi G.",
+       "number": 12,
+       "positions": "CF",
+       "primary": true,
+       "AB": 0,
+       "R": 1,
+       "H": 0,
+       "RBI": 0,
+       "BB": 2,
+       "SO": 0,
+       "extra": {
+        "SB": 2
+       }
+      },
+      {
+       "player_id": "cebb67e9-eb25-474c-8ca2-d373ae7b4155",
+       "name": "Wesley S.",
+       "number": 18,
+       "positions": "",
+       "primary": false,
+       "AB": 1,
+       "R": 0,
+       "H": 0,
+       "RBI": 0,
+       "BB": 0,
+       "SO": 1,
+       "extra": {}
+      },
+      {
+       "player_id": "971414c4-c0e6-463b-b56d-02ef24f5e6e5",
+       "name": "Cayden A.",
+       "number": 8,
+       "positions": "1B",
+       "primary": true,
+       "AB": 2,
+       "R": 1,
+       "H": 1,
+       "RBI": 0,
+       "BB": 0,
+       "SO": 0,
+       "extra": {
+        "TB": 1,
+        "SB": 1
+       }
+      },
+      {
+       "player_id": "fba4a06e-0076-4e62-8d27-36fa246145e1",
+       "name": "Graham T.",
+       "number": 2,
+       "positions": "",
+       "primary": false,
+       "AB": 1,
+       "R": 0,
+       "H": 0,
+       "RBI": 0,
+       "BB": 0,
+       "SO": 1,
+       "extra": {}
+      },
+      {
+       "player_id": "eaa10a13-dabd-4647-8aa4-a5a31cce92b5",
+       "name": "Noah T.",
+       "number": 99,
+       "positions": "RF, P",
+       "primary": true,
+       "AB": 2,
+       "R": 1,
+       "H": 2,
+       "RBI": 1,
+       "BB": 0,
+       "SO": 0,
+       "extra": {
+        "TB": 2,
+        "E": 2
+       }
+      },
+      {
+       "player_id": "d990fcf5-52a8-4496-bbee-621a8465c5b8",
+       "name": "Tate W.",
+       "number": 5,
+       "positions": "LF",
+       "primary": true,
+       "AB": 2,
+       "R": 0,
+       "H": 1,
+       "RBI": 1,
+       "BB": 0,
+       "SO": 1,
+       "extra": {
+        "TB": 1,
+        "E": 1
+       }
+      },
+      {
+       "player_id": "758dddcc-65d2-4f42-b3ed-20052ffeab12",
+       "name": "Evan H.",
+       "number": 10,
+       "positions": "C",
+       "primary": true,
+       "AB": 1,
+       "R": 0,
+       "H": 0,
+       "RBI": 0,
+       "BB": 0,
+       "SO": 0,
+       "extra": {
+        "E": 1
+       }
+      },
+      {
+       "player_id": "9f412e86-7bf8-4e4b-9bf2-3f1804c7ae0f",
+       "name": "Beau C.",
+       "number": 7,
+       "positions": "C",
+       "primary": false,
+       "AB": 1,
+       "R": 0,
+       "H": 0,
+       "RBI": 0,
+       "BB": 0,
+       "SO": 1,
+       "extra": {}
+      },
+      {
+       "player_id": "4968986f-18f8-44da-999c-e1f46848b6ea",
+       "name": "Austin L.",
+       "number": 22,
+       "positions": "RF",
+       "primary": true,
+       "AB": 1,
+       "R": 0,
+       "H": 0,
+       "RBI": 0,
+       "BB": 1,
+       "SO": 0,
+       "extra": {
+        "CS": 1
+       }
+      }
+     ],
+     "extra_names": [
+      "TB",
+      "SB",
+      "CS",
+      "E"
+     ]
+    },
+    "pitching": {
+     "team": {
+      "IP": 5,
+      "H": 10,
+      "R": 13,
+      "ER": 9,
+      "BB": 6,
+      "SO": 6
+     },
+     "players": [
+      {
+       "player_id": "95f94681-d705-4c0a-8d31-82bdf0b0225a",
+       "name": "Keegan H.",
+       "number": 4,
+       "positions": "",
+       "primary": null,
+       "IP": 4.333333333333333,
+       "H": 7,
+       "R": 7,
+       "ER": 4,
+       "BB": 2,
+       "SO": 6,
+       "extra": {
+        "WP": 1,
+        "HBP": 2,
+        "#P": 67,
+        "TS": 41,
+        "BF": 24
+       }
+      },
+      {
+       "player_id": "0e679527-46a5-4bff-b301-015399d36b66",
+       "name": "Tejay W.",
+       "number": 16,
+       "positions": "",
+       "primary": null,
+       "IP": 0.3333333333333333,
+       "H": 3,
+       "R": 5,
+       "ER": 5,
+       "BB": 2,
+       "SO": 0,
+       "extra": {
+        "#P": 23,
+        "TS": 12,
+        "BF": 6
+       }
+      },
+      {
+       "player_id": "eaa10a13-dabd-4647-8aa4-a5a31cce92b5",
+       "name": "Noah T.",
+       "number": 99,
+       "positions": "",
+       "primary": null,
+       "IP": 0.3333333333333333,
+       "H": 0,
+       "R": 1,
+       "ER": 0,
+       "BB": 2,
+       "SO": 0,
+       "extra": {
+        "#P": 18,
+        "TS": 8,
+        "BF": 3
+       }
+      }
+     ],
+     "extra_names": [
+      "WP",
+      "HBP",
+      "#P",
+      "TS",
+      "BF"
+     ]
+    },
+    "topgun": {
+     "event": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
+     "event_id": 12524,
+     "section": "Bronze Bracket",
+     "game": 3
+    }
    }
   ],
-  "matched": 17,
+  "matched": 18,
   "season": {
-   "fetched_at": "2026-11-07T13:53",
+   "fetched_at": "2026-11-09T10:00",
    "stats": {
     "batting": {
      "standard": {
@@ -27677,20 +28074,20 @@
        {
         "player": "Keegan H",
         "number": 4,
-        "GP": 18,
-        "PA": 42,
-        "AB": 30,
+        "GP": 19,
+        "PA": 45,
+        "AB": 33,
         "AVG": 0.667,
-        "OBP": 0.756,
-        "OPS": 1.423,
+        "OBP": 0.75,
+        "OPS": 1.417,
         "SLG": 0.667,
-        "H": 20,
-        "1B": 20,
+        "H": 22,
+        "1B": 22,
         "2B": 0,
         "3B": 0,
         "HR": 0,
         "RBI": 12,
-        "R": 25,
+        "R": 27,
         "BB": 11,
         "SO": 3,
         "K-L": 2,
@@ -27699,37 +28096,7 @@
         "SF": 0,
         "ROE": 0,
         "FC": 0,
-        "SB": 26,
-        "SB%": 100.0,
-        "CS": 0,
-        "PIK": 0
-       },
-       {
-        "player": "Khale V",
-        "number": 3,
-        "GP": 18,
-        "PA": 43,
-        "AB": 26,
-        "AVG": 0.462,
-        "OBP": 0.674,
-        "OPS": 1.29,
-        "SLG": 0.615,
-        "H": 12,
-        "1B": 10,
-        "2B": 0,
-        "3B": 2,
-        "HR": 0,
-        "RBI": 10,
-        "R": 17,
-        "BB": 16,
-        "SO": 4,
-        "K-L": 2,
-        "HBP": 1,
-        "SAC": 0,
-        "SF": 0,
-        "ROE": 1,
-        "FC": 0,
-        "SB": 12,
+        "SB": 28,
         "SB%": 100.0,
         "CS": 0,
         "PIK": 0
@@ -27737,21 +28104,21 @@
        {
         "player": "Tejay W",
         "number": 16,
-        "GP": 17,
-        "PA": 30,
-        "AB": 27,
-        "AVG": 0.444,
-        "OBP": 0.5,
-        "OPS": 1.13,
-        "SLG": 0.63,
-        "H": 12,
-        "1B": 8,
+        "GP": 18,
+        "PA": 33,
+        "AB": 29,
+        "AVG": 0.448,
+        "OBP": 0.515,
+        "OPS": 1.136,
+        "SLG": 0.621,
+        "H": 13,
+        "1B": 9,
         "2B": 3,
         "3B": 1,
         "HR": 0,
-        "RBI": 10,
-        "R": 6,
-        "BB": 2,
+        "RBI": 11,
+        "R": 7,
+        "BB": 3,
         "SO": 11,
         "K-L": 1,
         "HBP": 1,
@@ -27765,14 +28132,44 @@
         "PIK": 0
        },
        {
+        "player": "Khale V",
+        "number": 3,
+        "GP": 19,
+        "PA": 45,
+        "AB": 28,
+        "AVG": 0.429,
+        "OBP": 0.644,
+        "OPS": 1.216,
+        "SLG": 0.571,
+        "H": 12,
+        "1B": 10,
+        "2B": 0,
+        "3B": 2,
+        "HR": 0,
+        "RBI": 10,
+        "R": 17,
+        "BB": 16,
+        "SO": 6,
+        "K-L": 2,
+        "HBP": 1,
+        "SAC": 0,
+        "SF": 0,
+        "ROE": 1,
+        "FC": 0,
+        "SB": 12,
+        "SB%": 100.0,
+        "CS": 0,
+        "PIK": 0
+       },
+       {
         "player": "Remi G",
         "number": 12,
-        "GP": 18,
-        "PA": 33,
+        "GP": 19,
+        "PA": 35,
         "AB": 21,
         "AVG": 0.381,
-        "OBP": 0.594,
-        "OPS": 1.07,
+        "OBP": 0.618,
+        "OPS": 1.094,
         "SLG": 0.476,
         "H": 8,
         "1B": 7,
@@ -27780,8 +28177,8 @@
         "3B": 1,
         "HR": 0,
         "RBI": 5,
-        "R": 15,
-        "BB": 7,
+        "R": 16,
+        "BB": 9,
         "SO": 10,
         "K-L": 5,
         "HBP": 4,
@@ -27789,88 +28186,28 @@
         "SF": 0,
         "ROE": 0,
         "FC": 0,
-        "SB": 9,
-        "SB%": 90.0,
-        "CS": 1,
-        "PIK": 0
-       },
-       {
-        "player": "Cayden A",
-        "number": 8,
-        "GP": 18,
-        "PA": 39,
-        "AB": 26,
-        "AVG": 0.346,
-        "OBP": 0.553,
-        "OPS": 0.937,
-        "SLG": 0.385,
-        "H": 9,
-        "1B": 8,
-        "2B": 1,
-        "3B": 0,
-        "HR": 0,
-        "RBI": 7,
-        "R": 13,
-        "BB": 10,
-        "SO": 9,
-        "K-L": 7,
-        "HBP": 2,
-        "SAC": 1,
-        "SF": 0,
-        "ROE": 0,
-        "FC": 1,
-        "SB": 5,
-        "SB%": 100.0,
-        "CS": 0,
-        "PIK": 0
-       },
-       {
-        "player": "Lane S",
-        "number": 23,
-        "GP": 18,
-        "PA": 34,
-        "AB": 24,
-        "AVG": 0.333,
-        "OBP": 0.529,
-        "OPS": 0.863,
-        "SLG": 0.333,
-        "H": 8,
-        "1B": 8,
-        "2B": 0,
-        "3B": 0,
-        "HR": 0,
-        "RBI": 7,
-        "R": 12,
-        "BB": 8,
-        "SO": 12,
-        "K-L": 3,
-        "HBP": 2,
-        "SAC": 0,
-        "SF": 0,
-        "ROE": 0,
-        "FC": 1,
-        "SB": 20,
-        "SB%": 95.24,
+        "SB": 11,
+        "SB%": 91.67,
         "CS": 1,
         "PIK": 0
        },
        {
         "player": "Noah T",
         "number": 99,
-        "GP": 17,
-        "PA": 23,
-        "AB": 14,
-        "AVG": 0.286,
-        "OBP": 0.565,
-        "OPS": 0.994,
-        "SLG": 0.429,
-        "H": 4,
-        "1B": 3,
+        "GP": 18,
+        "PA": 25,
+        "AB": 16,
+        "AVG": 0.375,
+        "OBP": 0.6,
+        "OPS": 1.1,
+        "SLG": 0.5,
+        "H": 6,
+        "1B": 5,
         "2B": 0,
         "3B": 1,
         "HR": 0,
-        "RBI": 3,
-        "R": 15,
+        "RBI": 4,
+        "R": 16,
         "BB": 8,
         "SO": 9,
         "K-L": 5,
@@ -27885,24 +28222,84 @@
         "PIK": 0
        },
        {
-        "player": "Tate W",
-        "number": 5,
-        "GP": 17,
-        "PA": 27,
-        "AB": 21,
-        "AVG": 0.286,
-        "OBP": 0.444,
-        "OPS": 0.73,
-        "SLG": 0.286,
-        "H": 6,
-        "1B": 6,
+        "player": "Cayden A",
+        "number": 8,
+        "GP": 19,
+        "PA": 41,
+        "AB": 28,
+        "AVG": 0.357,
+        "OBP": 0.55,
+        "OPS": 0.943,
+        "SLG": 0.393,
+        "H": 10,
+        "1B": 9,
+        "2B": 1,
+        "3B": 0,
+        "HR": 0,
+        "RBI": 7,
+        "R": 14,
+        "BB": 10,
+        "SO": 9,
+        "K-L": 7,
+        "HBP": 2,
+        "SAC": 1,
+        "SF": 0,
+        "ROE": 0,
+        "FC": 1,
+        "SB": 6,
+        "SB%": 100.0,
+        "CS": 0,
+        "PIK": 0
+       },
+       {
+        "player": "Lane S",
+        "number": 23,
+        "GP": 19,
+        "PA": 37,
+        "AB": 26,
+        "AVG": 0.308,
+        "OBP": 0.514,
+        "OPS": 0.821,
+        "SLG": 0.308,
+        "H": 8,
+        "1B": 8,
         "2B": 0,
         "3B": 0,
         "HR": 0,
-        "RBI": 5,
+        "RBI": 7,
+        "R": 12,
+        "BB": 9,
+        "SO": 13,
+        "K-L": 3,
+        "HBP": 2,
+        "SAC": 0,
+        "SF": 0,
+        "ROE": 0,
+        "FC": 1,
+        "SB": 20,
+        "SB%": 95.24,
+        "CS": 1,
+        "PIK": 0
+       },
+       {
+        "player": "Tate W",
+        "number": 5,
+        "GP": 18,
+        "PA": 29,
+        "AB": 23,
+        "AVG": 0.304,
+        "OBP": 0.448,
+        "OPS": 0.753,
+        "SLG": 0.304,
+        "H": 7,
+        "1B": 7,
+        "2B": 0,
+        "3B": 0,
+        "HR": 0,
+        "RBI": 6,
         "R": 4,
         "BB": 5,
-        "SO": 5,
+        "SO": 6,
         "K-L": 1,
         "HBP": 1,
         "SAC": 0,
@@ -27917,13 +28314,13 @@
        {
         "player": "Evan Hannan",
         "number": 10,
-        "GP": 17,
-        "PA": 27,
-        "AB": 15,
-        "AVG": 0.267,
-        "OBP": 0.593,
-        "OPS": 0.993,
-        "SLG": 0.4,
+        "GP": 18,
+        "PA": 28,
+        "AB": 16,
+        "AVG": 0.25,
+        "OBP": 0.571,
+        "OPS": 0.946,
+        "SLG": 0.375,
         "H": 4,
         "1B": 2,
         "2B": 2,
@@ -27938,7 +28335,7 @@
         "SAC": 0,
         "SF": 0,
         "ROE": 0,
-        "FC": 0,
+        "FC": 1,
         "SB": 8,
         "SB%": 80.0,
         "CS": 2,
@@ -27947,13 +28344,13 @@
        {
         "player": "Austin L",
         "number": 22,
-        "GP": 16,
-        "PA": 28,
-        "AB": 20,
-        "AVG": 0.25,
-        "OBP": 0.464,
-        "OPS": 0.964,
-        "SLG": 0.5,
+        "GP": 17,
+        "PA": 30,
+        "AB": 21,
+        "AVG": 0.238,
+        "OBP": 0.467,
+        "OPS": 0.943,
+        "SLG": 0.476,
         "H": 5,
         "1B": 2,
         "2B": 1,
@@ -27961,7 +28358,7 @@
         "HR": 0,
         "RBI": 5,
         "R": 11,
-        "BB": 7,
+        "BB": 8,
         "SO": 6,
         "K-L": 2,
         "HBP": 1,
@@ -27970,20 +28367,20 @@
         "ROE": 1,
         "FC": 3,
         "SB": 7,
-        "SB%": 100.0,
-        "CS": 0,
+        "SB%": 87.5,
+        "CS": 1,
         "PIK": 0
        },
        {
         "player": "Beau C",
         "number": 7,
-        "GP": 16,
-        "PA": 31,
-        "AB": 18,
-        "AVG": 0.222,
-        "OBP": 0.548,
-        "OPS": 0.771,
-        "SLG": 0.222,
+        "GP": 17,
+        "PA": 32,
+        "AB": 19,
+        "AVG": 0.211,
+        "OBP": 0.531,
+        "OPS": 0.742,
+        "SLG": 0.211,
         "H": 4,
         "1B": 4,
         "2B": 0,
@@ -27992,7 +28389,7 @@
         "RBI": 5,
         "R": 3,
         "BB": 9,
-        "SO": 10,
+        "SO": 11,
         "K-L": 2,
         "HBP": 4,
         "SAC": 0,
@@ -28007,13 +28404,13 @@
        {
         "player": "Wesley S",
         "number": 18,
-        "GP": 12,
-        "PA": 15,
-        "AB": 10,
-        "AVG": 0.2,
-        "OBP": 0.467,
-        "OPS": 0.667,
-        "SLG": 0.2,
+        "GP": 13,
+        "PA": 16,
+        "AB": 11,
+        "AVG": 0.182,
+        "OBP": 0.438,
+        "OPS": 0.619,
+        "SLG": 0.182,
         "H": 2,
         "1B": 2,
         "2B": 0,
@@ -28022,7 +28419,7 @@
         "RBI": 0,
         "R": 4,
         "BB": 3,
-        "SO": 7,
+        "SO": 8,
         "K-L": 3,
         "HBP": 2,
         "SAC": 0,
@@ -28037,13 +28434,13 @@
        {
         "player": "Caiden P",
         "number": 11,
-        "GP": 13,
-        "PA": 14,
-        "AB": 9,
-        "AVG": 0.111,
-        "OBP": 0.357,
-        "OPS": 0.468,
-        "SLG": 0.111,
+        "GP": 14,
+        "PA": 15,
+        "AB": 10,
+        "AVG": 0.1,
+        "OBP": 0.333,
+        "OPS": 0.433,
+        "SLG": 0.1,
         "H": 1,
         "1B": 1,
         "2B": 0,
@@ -28052,14 +28449,14 @@
         "RBI": 4,
         "R": 3,
         "BB": 3,
-        "SO": 6,
-        "K-L": 4,
+        "SO": 7,
+        "K-L": 5,
         "HBP": 1,
         "SAC": 0,
         "SF": 1,
         "ROE": 0,
         "FC": 1,
-        "SB": 4,
+        "SB": 5,
         "SB%": 100.0,
         "CS": 0,
         "PIK": 0
@@ -28067,9 +28464,9 @@
        {
         "player": "Graham T",
         "number": 2,
-        "GP": 14,
-        "PA": 13,
-        "AB": 13,
+        "GP": 15,
+        "PA": 14,
+        "AB": 14,
         "AVG": 0.0,
         "OBP": 0.0,
         "OPS": 0.0,
@@ -28082,8 +28479,8 @@
         "RBI": 0,
         "R": 4,
         "BB": 0,
-        "SO": 13,
-        "K-L": 7,
+        "SO": 14,
+        "K-L": 8,
         "HBP": 0,
         "SAC": 0,
         "SF": 0,
@@ -28161,30 +28558,30 @@
        {
         "player": "Evan Hannan",
         "number": 10,
-        "GP": 17,
-        "PA": 27,
-        "AB": 15,
+        "GP": 18,
+        "PA": 28,
+        "AB": 16,
         "QAB": 20,
-        "QAB%": 74.07,
+        "QAB%": 71.43,
         "PA/BB": 2.3,
         "BB/K": 1.333,
-        "C%": 40.0,
+        "C%": 43.75,
         "HHB": 3,
-        "LD%": 33.33,
-        "FB%": 33.33,
-        "GB%": 33.33,
-        "BABIP": 0.667,
+        "LD%": 28.57,
+        "FB%": 28.57,
+        "GB%": 42.86,
+        "BABIP": 0.571,
         "BA/RISP": 0.25,
-        "LOB": 11,
+        "LOB": 12,
         "2OUTRBI": 0,
         "XBH": 2,
         "TB": 6,
-        "PS": 118,
-        "PS/PA": 4.37,
+        "PS": 119,
+        "PS/PA": 4.25,
         "2S+3": 5,
-        "2S+3%": 18.52,
+        "2S+3%": 17.86,
         "6+": 5,
-        "6+%": 18.52,
+        "6+%": 17.86,
         "AB/HR": null,
         "GIDP": 0,
         "GITP": 0,
@@ -28193,126 +28590,30 @@
        {
         "player": "Noah T",
         "number": 99,
-        "GP": 17,
-        "PA": 23,
-        "AB": 14,
-        "QAB": 12,
-        "QAB%": 52.17,
-        "PA/BB": 2.9,
+        "GP": 18,
+        "PA": 25,
+        "AB": 16,
+        "QAB": 13,
+        "QAB%": 52.0,
+        "PA/BB": 3.1,
         "BB/K": 0.889,
-        "C%": 35.71,
+        "C%": 43.75,
         "HHB": 0,
         "LD%": 0.0,
-        "FB%": 40.0,
-        "GB%": 60.0,
-        "BABIP": 0.8,
-        "BA/RISP": 0.167,
-        "LOB": 9,
-        "2OUTRBI": 0,
-        "XBH": 1,
-        "TB": 6,
-        "PS": 98,
-        "PS/PA": 4.261,
-        "2S+3": 4,
-        "2S+3%": 17.39,
-        "6+": 7,
-        "6+%": 30.43,
-        "AB/HR": null,
-        "GIDP": 0,
-        "GITP": 0,
-        "CI": 0
-       },
-       {
-        "player": "Khale V",
-        "number": 3,
-        "GP": 18,
-        "PA": 43,
-        "AB": 26,
-        "QAB": 22,
-        "QAB%": 51.16,
-        "PA/BB": 2.7,
-        "BB/K": 4.0,
-        "C%": 84.62,
-        "HHB": 4,
-        "LD%": 18.18,
-        "FB%": 22.73,
-        "GB%": 59.09,
-        "BABIP": 0.545,
-        "BA/RISP": 0.421,
-        "LOB": 13,
-        "2OUTRBI": 7,
-        "XBH": 2,
-        "TB": 16,
-        "PS": 160,
-        "PS/PA": 3.721,
-        "2S+3": 3,
-        "2S+3%": 6.98,
-        "6+": 4,
-        "6+%": 9.3,
-        "AB/HR": null,
-        "GIDP": 0,
-        "GITP": 0,
-        "CI": 0
-       },
-       {
-        "player": "Austin L",
-        "number": 22,
-        "GP": 16,
-        "PA": 28,
-        "AB": 20,
-        "QAB": 14,
-        "QAB%": 50.0,
-        "PA/BB": 4.0,
-        "BB/K": 1.167,
-        "C%": 70.0,
-        "HHB": 3,
-        "LD%": 7.14,
-        "FB%": 21.43,
+        "FB%": 28.57,
         "GB%": 71.43,
-        "BABIP": 0.357,
-        "BA/RISP": 0.333,
-        "LOB": 8,
-        "2OUTRBI": 3,
-        "XBH": 3,
-        "TB": 10,
-        "PS": 109,
-        "PS/PA": 3.893,
-        "2S+3": 1,
-        "2S+3%": 3.57,
-        "6+": 6,
-        "6+%": 21.43,
-        "AB/HR": null,
-        "GIDP": 0,
-        "GITP": 0,
-        "CI": 0
-       },
-       {
-        "player": "Cayden A",
-        "number": 8,
-        "GP": 18,
-        "PA": 39,
-        "AB": 26,
-        "QAB": 19,
-        "QAB%": 48.72,
-        "PA/BB": 3.9,
-        "BB/K": 1.111,
-        "C%": 65.38,
-        "HHB": 2,
-        "LD%": 11.11,
-        "FB%": 16.67,
-        "GB%": 66.67,
-        "BABIP": 0.529,
-        "BA/RISP": 0.333,
-        "LOB": 16,
-        "2OUTRBI": 0,
+        "BABIP": 0.857,
+        "BA/RISP": 0.286,
+        "LOB": 9,
+        "2OUTRBI": 1,
         "XBH": 1,
-        "TB": 10,
-        "PS": 141,
-        "PS/PA": 3.615,
-        "2S+3": 3,
-        "2S+3%": 7.69,
+        "TB": 8,
+        "PS": 106,
+        "PS/PA": 4.24,
+        "2S+3": 5,
+        "2S+3%": 20.0,
         "6+": 8,
-        "6+%": 20.51,
+        "6+%": 32.0,
         "AB/HR": null,
         "GIDP": 0,
         "GITP": 0,
@@ -28321,13 +28622,13 @@
        {
         "player": "Remi G",
         "number": 12,
-        "GP": 18,
-        "PA": 33,
+        "GP": 19,
+        "PA": 35,
         "AB": 21,
-        "QAB": 16,
-        "QAB%": 48.48,
-        "PA/BB": 4.7,
-        "BB/K": 0.7,
+        "QAB": 18,
+        "QAB%": 51.43,
+        "PA/BB": 3.9,
+        "BB/K": 0.9,
         "C%": 52.38,
         "HHB": 3,
         "LD%": 25.0,
@@ -28339,12 +28640,108 @@
         "2OUTRBI": 2,
         "XBH": 1,
         "TB": 10,
-        "PS": 141,
-        "PS/PA": 4.273,
-        "2S+3": 4,
-        "2S+3%": 12.12,
-        "6+": 9,
-        "6+%": 27.27,
+        "PS": 153,
+        "PS/PA": 4.371,
+        "2S+3": 5,
+        "2S+3%": 14.29,
+        "6+": 10,
+        "6+%": 28.57,
+        "AB/HR": null,
+        "GIDP": 0,
+        "GITP": 0,
+        "CI": 0
+       },
+       {
+        "player": "Khale V",
+        "number": 3,
+        "GP": 19,
+        "PA": 45,
+        "AB": 28,
+        "QAB": 23,
+        "QAB%": 51.11,
+        "PA/BB": 2.8,
+        "BB/K": 2.667,
+        "C%": 78.57,
+        "HHB": 4,
+        "LD%": 18.18,
+        "FB%": 22.73,
+        "GB%": 59.09,
+        "BABIP": 0.545,
+        "BA/RISP": 0.4,
+        "LOB": 14,
+        "2OUTRBI": 7,
+        "XBH": 2,
+        "TB": 16,
+        "PS": 170,
+        "PS/PA": 3.778,
+        "2S+3": 3,
+        "2S+3%": 6.67,
+        "6+": 5,
+        "6+%": 11.11,
+        "AB/HR": null,
+        "GIDP": 0,
+        "GITP": 0,
+        "CI": 0
+       },
+       {
+        "player": "Austin L",
+        "number": 22,
+        "GP": 17,
+        "PA": 30,
+        "AB": 21,
+        "QAB": 15,
+        "QAB%": 50.0,
+        "PA/BB": 3.8,
+        "BB/K": 1.333,
+        "C%": 71.43,
+        "HHB": 3,
+        "LD%": 6.67,
+        "FB%": 26.67,
+        "GB%": 66.67,
+        "BABIP": 0.333,
+        "BA/RISP": 0.333,
+        "LOB": 9,
+        "2OUTRBI": 3,
+        "XBH": 3,
+        "TB": 10,
+        "PS": 118,
+        "PS/PA": 3.933,
+        "2S+3": 2,
+        "2S+3%": 6.67,
+        "6+": 7,
+        "6+%": 23.33,
+        "AB/HR": null,
+        "GIDP": 0,
+        "GITP": 0,
+        "CI": 0
+       },
+       {
+        "player": "Cayden A",
+        "number": 8,
+        "GP": 19,
+        "PA": 41,
+        "AB": 28,
+        "QAB": 19,
+        "QAB%": 46.34,
+        "PA/BB": 4.1,
+        "BB/K": 1.111,
+        "C%": 67.86,
+        "HHB": 2,
+        "LD%": 10.0,
+        "FB%": 20.0,
+        "GB%": 60.0,
+        "BABIP": 0.526,
+        "BA/RISP": 0.308,
+        "LOB": 18,
+        "2OUTRBI": 0,
+        "XBH": 1,
+        "TB": 11,
+        "PS": 146,
+        "PS/PA": 3.561,
+        "2S+3": 3,
+        "2S+3%": 7.32,
+        "6+": 8,
+        "6+%": 19.51,
         "AB/HR": null,
         "GIDP": 0,
         "GITP": 0,
@@ -28353,62 +28750,30 @@
        {
         "player": "Lane S",
         "number": 23,
-        "GP": 18,
-        "PA": 34,
-        "AB": 24,
-        "QAB": 16,
-        "QAB%": 47.06,
-        "PA/BB": 4.3,
-        "BB/K": 0.667,
+        "GP": 19,
+        "PA": 37,
+        "AB": 26,
+        "QAB": 17,
+        "QAB%": 45.95,
+        "PA/BB": 4.1,
+        "BB/K": 0.692,
         "C%": 50.0,
         "HHB": 5,
-        "LD%": 25.0,
-        "FB%": 8.33,
-        "GB%": 58.33,
-        "BABIP": 0.667,
-        "BA/RISP": 0.417,
-        "LOB": 12,
+        "LD%": 23.08,
+        "FB%": 15.38,
+        "GB%": 53.85,
+        "BABIP": 0.615,
+        "BA/RISP": 0.385,
+        "LOB": 13,
         "2OUTRBI": 1,
         "XBH": 0,
         "TB": 8,
-        "PS": 143,
-        "PS/PA": 4.206,
-        "2S+3": 5,
-        "2S+3%": 14.71,
-        "6+": 9,
-        "6+%": 26.47,
-        "AB/HR": null,
-        "GIDP": 0,
-        "GITP": 0,
-        "CI": 0
-       },
-       {
-        "player": "Caiden P",
-        "number": 11,
-        "GP": 13,
-        "PA": 14,
-        "AB": 9,
-        "QAB": 6,
-        "QAB%": 42.86,
-        "PA/BB": 4.7,
-        "BB/K": 0.5,
-        "C%": 33.33,
-        "HHB": 1,
-        "LD%": 25.0,
-        "FB%": 25.0,
-        "GB%": 50.0,
-        "BABIP": 0.25,
-        "BA/RISP": 0.25,
-        "LOB": 6,
-        "2OUTRBI": 0,
-        "XBH": 0,
-        "TB": 1,
-        "PS": 58,
-        "PS/PA": 4.143,
-        "2S+3": 2,
-        "2S+3%": 14.29,
-        "6+": 4,
-        "6+%": 28.57,
+        "PS": 158,
+        "PS/PA": 4.27,
+        "2S+3": 6,
+        "2S+3%": 16.22,
+        "6+": 10,
+        "6+%": 27.03,
         "AB/HR": null,
         "GIDP": 0,
         "GITP": 0,
@@ -28417,14 +28782,14 @@
        {
         "player": "Beau C",
         "number": 7,
-        "GP": 16,
-        "PA": 31,
-        "AB": 18,
-        "QAB": 13,
-        "QAB%": 41.94,
-        "PA/BB": 3.4,
-        "BB/K": 0.9,
-        "C%": 44.44,
+        "GP": 17,
+        "PA": 32,
+        "AB": 19,
+        "QAB": 14,
+        "QAB%": 43.75,
+        "PA/BB": 3.6,
+        "BB/K": 0.818,
+        "C%": 42.11,
         "HHB": 1,
         "LD%": 0.0,
         "FB%": 25.0,
@@ -28435,44 +28800,44 @@
         "2OUTRBI": 0,
         "XBH": 0,
         "TB": 4,
-        "PS": 120,
-        "PS/PA": 3.871,
+        "PS": 126,
+        "PS/PA": 3.938,
         "2S+3": 2,
-        "2S+3%": 6.45,
-        "6+": 4,
-        "6+%": 12.9,
+        "2S+3%": 6.25,
+        "6+": 5,
+        "6+%": 15.63,
         "AB/HR": null,
         "GIDP": 0,
         "GITP": 0,
         "CI": 0
        },
        {
-        "player": "Keegan H",
-        "number": 4,
-        "GP": 18,
-        "PA": 42,
-        "AB": 30,
-        "QAB": 17,
-        "QAB%": 40.48,
-        "PA/BB": 3.8,
-        "BB/K": 3.667,
-        "C%": 90.0,
-        "HHB": 2,
-        "LD%": 3.57,
-        "FB%": 21.43,
-        "GB%": 71.43,
-        "BABIP": 0.741,
-        "BA/RISP": 0.786,
-        "LOB": 5,
-        "2OUTRBI": 7,
+        "player": "Caiden P",
+        "number": 11,
+        "GP": 14,
+        "PA": 15,
+        "AB": 10,
+        "QAB": 6,
+        "QAB%": 40.0,
+        "PA/BB": 5.0,
+        "BB/K": 0.429,
+        "C%": 30.0,
+        "HHB": 1,
+        "LD%": 25.0,
+        "FB%": 25.0,
+        "GB%": 50.0,
+        "BABIP": 0.25,
+        "BA/RISP": 0.25,
+        "LOB": 6,
+        "2OUTRBI": 0,
         "XBH": 0,
-        "TB": 20,
-        "PS": 136,
-        "PS/PA": 3.238,
+        "TB": 1,
+        "PS": 63,
+        "PS/PA": 4.2,
         "2S+3": 2,
-        "2S+3%": 4.76,
+        "2S+3%": 13.33,
         "6+": 4,
-        "6+%": 9.52,
+        "6+%": 26.67,
         "AB/HR": null,
         "GIDP": 0,
         "GITP": 0,
@@ -28481,30 +28846,62 @@
        {
         "player": "Tejay W",
         "number": 16,
-        "GP": 17,
-        "PA": 30,
-        "AB": 27,
-        "QAB": 12,
-        "QAB%": 40.0,
-        "PA/BB": 15.0,
-        "BB/K": 0.182,
-        "C%": 59.26,
+        "GP": 18,
+        "PA": 33,
+        "AB": 29,
+        "QAB": 13,
+        "QAB%": 39.39,
+        "PA/BB": 11.0,
+        "BB/K": 0.273,
+        "C%": 62.07,
         "HHB": 3,
-        "LD%": 18.75,
-        "FB%": 31.25,
+        "LD%": 16.67,
+        "FB%": 33.33,
         "GB%": 50.0,
-        "BABIP": 0.75,
-        "BA/RISP": 0.474,
+        "BABIP": 0.722,
+        "BA/RISP": 0.5,
         "LOB": 16,
         "2OUTRBI": 3,
         "XBH": 4,
-        "TB": 17,
-        "PS": 110,
-        "PS/PA": 3.667,
-        "2S+3": 4,
-        "2S+3%": 13.33,
-        "6+": 3,
-        "6+%": 10.0,
+        "TB": 18,
+        "PS": 123,
+        "PS/PA": 3.727,
+        "2S+3": 5,
+        "2S+3%": 15.15,
+        "6+": 4,
+        "6+%": 12.12,
+        "AB/HR": null,
+        "GIDP": 0,
+        "GITP": 0,
+        "CI": 0
+       },
+       {
+        "player": "Keegan H",
+        "number": 4,
+        "GP": 19,
+        "PA": 45,
+        "AB": 33,
+        "QAB": 17,
+        "QAB%": 37.78,
+        "PA/BB": 4.1,
+        "BB/K": 3.667,
+        "C%": 90.91,
+        "HHB": 2,
+        "LD%": 3.23,
+        "FB%": 25.81,
+        "GB%": 67.74,
+        "BABIP": 0.733,
+        "BA/RISP": 0.786,
+        "LOB": 6,
+        "2OUTRBI": 7,
+        "XBH": 0,
+        "TB": 22,
+        "PS": 141,
+        "PS/PA": 3.133,
+        "2S+3": 2,
+        "2S+3%": 4.44,
+        "6+": 4,
+        "6+%": 8.89,
         "AB/HR": null,
         "GIDP": 0,
         "GITP": 0,
@@ -28513,30 +28910,30 @@
        {
         "player": "Wesley S",
         "number": 18,
-        "GP": 12,
-        "PA": 15,
-        "AB": 10,
+        "GP": 13,
+        "PA": 16,
+        "AB": 11,
         "QAB": 5,
-        "QAB%": 33.33,
-        "PA/BB": 5.0,
-        "BB/K": 0.429,
-        "C%": 30.0,
+        "QAB%": 31.25,
+        "PA/BB": 5.3,
+        "BB/K": 0.375,
+        "C%": 27.27,
         "HHB": 0,
         "LD%": 0.0,
         "FB%": 0.0,
         "GB%": 100.0,
         "BABIP": 0.667,
-        "BA/RISP": 0.167,
-        "LOB": 7,
+        "BA/RISP": 0.143,
+        "LOB": 8,
         "2OUTRBI": 0,
         "XBH": 0,
         "TB": 2,
-        "PS": 61,
-        "PS/PA": 4.067,
+        "PS": 66,
+        "PS/PA": 4.125,
         "2S+3": 2,
-        "2S+3%": 13.33,
+        "2S+3%": 12.5,
         "6+": 2,
-        "6+%": 13.33,
+        "6+%": 12.5,
         "AB/HR": null,
         "GIDP": 0,
         "GITP": 0,
@@ -28545,30 +28942,30 @@
        {
         "player": "Tate W",
         "number": 5,
-        "GP": 17,
-        "PA": 27,
-        "AB": 21,
-        "QAB": 8,
-        "QAB%": 29.63,
-        "PA/BB": 5.4,
-        "BB/K": 1.0,
-        "C%": 76.19,
-        "HHB": 1,
-        "LD%": 6.25,
-        "FB%": 12.5,
-        "GB%": 81.25,
-        "BABIP": 0.375,
-        "BA/RISP": 0.286,
-        "LOB": 18,
+        "GP": 18,
+        "PA": 29,
+        "AB": 23,
+        "QAB": 9,
+        "QAB%": 31.03,
+        "PA/BB": 5.8,
+        "BB/K": 0.833,
+        "C%": 73.91,
+        "HHB": 2,
+        "LD%": 11.76,
+        "FB%": 11.76,
+        "GB%": 76.47,
+        "BABIP": 0.412,
+        "BA/RISP": 0.313,
+        "LOB": 20,
         "2OUTRBI": 0,
         "XBH": 0,
-        "TB": 6,
-        "PS": 89,
-        "PS/PA": 3.296,
+        "TB": 7,
+        "PS": 98,
+        "PS/PA": 3.379,
         "2S+3": 1,
-        "2S+3%": 3.7,
+        "2S+3%": 3.45,
         "6+": 2,
-        "6+%": 7.41,
+        "6+%": 6.9,
         "AB/HR": null,
         "GIDP": 0,
         "GITP": 0,
@@ -28577,11 +28974,11 @@
        {
         "player": "Graham T",
         "number": 2,
-        "GP": 14,
-        "PA": 13,
-        "AB": 13,
+        "GP": 15,
+        "PA": 14,
+        "AB": 14,
         "QAB": 3,
-        "QAB%": 23.08,
+        "QAB%": 21.43,
         "PA/BB": null,
         "BB/K": 0.0,
         "C%": 0.0,
@@ -28591,16 +28988,16 @@
         "GB%": null,
         "BABIP": null,
         "BA/RISP": 0.0,
-        "LOB": 19,
+        "LOB": 20,
         "2OUTRBI": 0,
         "XBH": 0,
         "TB": 0,
-        "PS": 53,
-        "PS/PA": 4.077,
+        "PS": 58,
+        "PS/PA": 4.143,
         "2S+3": 2,
-        "2S+3%": 15.38,
+        "2S+3%": 14.29,
         "6+": 1,
-        "6+%": 7.69,
+        "6+%": 7.14,
         "AB/HR": null,
         "GIDP": 0,
         "GITP": 0,
@@ -28610,30 +29007,30 @@
       "totals": {
        "player": "Team",
        "number": null,
-       "GP": 18,
-       "PA": 399,
-       "AB": 274,
-       "QAB": 183,
-       "QAB%": 45.86,
+       "GP": 19,
+       "PA": 425,
+       "AB": 295,
+       "QAB": 192,
+       "QAB%": 45.18,
        "PA/BB": 4.0,
-       "BB/K": 0.886,
-       "C%": 58.39,
-       "HHB": 28,
-       "LD%": 12.8,
-       "FB%": 20.73,
-       "GB%": 63.41,
-       "BABIP": 0.59,
-       "BA/RISP": 0.367,
-       "LOB": 63,
-       "2OUTRBI": 23,
+       "BB/K": 0.869,
+       "C%": 58.64,
+       "HHB": 29,
+       "LD%": 12.43,
+       "FB%": 22.6,
+       "GB%": 61.58,
+       "BABIP": 0.586,
+       "BA/RISP": 0.365,
+       "LOB": 68,
+       "2OUTRBI": 24,
        "XBH": 14,
-       "TB": 116,
-       "PS": 1537,
-       "PS/PA": 3.852,
-       "2S+3": 40,
-       "2S+3%": 10.03,
-       "6+": 68,
-       "6+%": 17.04,
+       "TB": 123,
+       "PS": 1645,
+       "PS/PA": 3.871,
+       "2S+3": 45,
+       "2S+3%": 10.59,
+       "6+": 75,
+       "6+%": 17.65,
        "AB/HR": null,
        "GIDP": 0,
        "GITP": 0,
@@ -28681,6 +29078,44 @@
       ],
       "players": [
        {
+        "player": "Keegan H",
+        "number": 4,
+        "IP": 12.2,
+        "GP": 7,
+        "GS": 2,
+        "BF": 75,
+        "#P": 279,
+        "W": 0,
+        "L": 0,
+        "SV": 0,
+        "SVO": 0,
+        "BS": 0,
+        "SV%": null,
+        "H": 16,
+        "R": 22,
+        "ER": 13,
+        "BB": 14,
+        "SO": 24,
+        "K-L": 9,
+        "HBP": 6,
+        "ERA": 6.158,
+        "WHIP": 2.368,
+        "LOB": 15,
+        "BK": 0,
+        "PIK": 1,
+        "CS": 0,
+        "SB": 8,
+        "SB%": 100.0,
+        "WP": 2,
+        "BAA": 0.296,
+        "MPHFB": "N/A",
+        "MPHCT": "N/A",
+        "MPHCB": "N/A",
+        "MPHSL": "N/A",
+        "MPHCH": "N/A",
+        "MPHOS": "N/A"
+       },
+       {
         "player": "Cayden A",
         "number": 8,
         "IP": 11.1,
@@ -28719,13 +29154,13 @@
         "MPHOS": "N/A"
        },
        {
-        "player": "Keegan H",
-        "number": 4,
-        "IP": 8.1,
-        "GP": 6,
-        "GS": 1,
+        "player": "Tejay W",
+        "number": 16,
+        "IP": 8.0,
+        "GP": 9,
+        "GS": 0,
         "BF": 51,
-        "#P": 212,
+        "#P": 207,
         "W": 0,
         "L": 0,
         "SV": 0,
@@ -28733,60 +29168,22 @@
         "BS": 0,
         "SV%": null,
         "H": 9,
-        "R": 15,
-        "ER": 9,
-        "BB": 12,
-        "SO": 18,
-        "K-L": 8,
-        "HBP": 4,
-        "ERA": 6.48,
-        "WHIP": 2.52,
-        "LOB": 11,
-        "BK": 0,
-        "PIK": 1,
-        "CS": 0,
-        "SB": 8,
-        "SB%": 100.0,
-        "WP": 1,
-        "BAA": 0.257,
-        "MPHFB": "N/A",
-        "MPHCT": "N/A",
-        "MPHCB": "N/A",
-        "MPHSL": "N/A",
-        "MPHCH": "N/A",
-        "MPHOS": "N/A"
-       },
-       {
-        "player": "Tejay W",
-        "number": 16,
-        "IP": 7.2,
-        "GP": 8,
-        "GS": 0,
-        "BF": 45,
-        "#P": 184,
-        "W": 0,
-        "L": 0,
-        "SV": 0,
-        "SVO": 0,
-        "BS": 0,
-        "SV%": null,
-        "H": 6,
-        "R": 11,
-        "ER": 6,
-        "BB": 14,
+        "R": 16,
+        "ER": 11,
+        "BB": 16,
         "SO": 13,
         "K-L": 7,
         "HBP": 2,
-        "ERA": 4.696,
-        "WHIP": 2.609,
+        "ERA": 8.25,
+        "WHIP": 3.125,
         "LOB": 13,
         "BK": 0,
         "PIK": 0,
         "CS": 1,
-        "SB": 10,
-        "SB%": 90.91,
+        "SB": 11,
+        "SB%": 91.67,
         "WP": 4,
-        "BAA": 0.207,
+        "BAA": 0.273,
         "MPHFB": "N/A",
         "MPHCT": "N/A",
         "MPHCB": "N/A",
@@ -28947,6 +29344,44 @@
         "MPHOS": "N/A"
        },
        {
+        "player": "Noah T",
+        "number": 99,
+        "IP": 4.1,
+        "GP": 5,
+        "GS": 1,
+        "BF": 30,
+        "#P": 141,
+        "W": 0,
+        "L": 0,
+        "SV": 0,
+        "SVO": 0,
+        "BS": 0,
+        "SV%": null,
+        "H": 5,
+        "R": 11,
+        "ER": 9,
+        "BB": 12,
+        "SO": 11,
+        "K-L": 4,
+        "HBP": 0,
+        "ERA": 12.46,
+        "WHIP": 3.923,
+        "LOB": 8,
+        "BK": 0,
+        "PIK": 0,
+        "CS": 0,
+        "SB": 3,
+        "SB%": 100.0,
+        "WP": 3,
+        "BAA": 0.278,
+        "MPHFB": "N/A",
+        "MPHCT": "N/A",
+        "MPHCB": "N/A",
+        "MPHSL": "N/A",
+        "MPHCH": "N/A",
+        "MPHOS": "N/A"
+       },
+       {
         "player": "Caiden P",
         "number": 11,
         "IP": 4.0,
@@ -28977,44 +29412,6 @@
         "SB%": 90.91,
         "WP": 4,
         "BAA": 0.538,
-        "MPHFB": "N/A",
-        "MPHCT": "N/A",
-        "MPHCB": "N/A",
-        "MPHSL": "N/A",
-        "MPHCH": "N/A",
-        "MPHOS": "N/A"
-       },
-       {
-        "player": "Noah T",
-        "number": 99,
-        "IP": 4.0,
-        "GP": 4,
-        "GS": 1,
-        "BF": 27,
-        "#P": 123,
-        "W": 0,
-        "L": 0,
-        "SV": 0,
-        "SVO": 0,
-        "BS": 0,
-        "SV%": null,
-        "H": 5,
-        "R": 10,
-        "ER": 9,
-        "BB": 10,
-        "SO": 11,
-        "K-L": 4,
-        "HBP": 0,
-        "ERA": 13.5,
-        "WHIP": 3.75,
-        "LOB": 7,
-        "BK": 0,
-        "PIK": 0,
-        "CS": 0,
-        "SB": 1,
-        "SB%": 100.0,
-        "WP": 3,
-        "BAA": 0.294,
         "MPHFB": "N/A",
         "MPHCT": "N/A",
         "MPHCB": "N/A",
@@ -29097,39 +29494,77 @@
         "MPHSL": "N/A",
         "MPHCH": "N/A",
         "MPHOS": "N/A"
+       },
+       {
+        "player": "Beau C",
+        "number": 7,
+        "IP": 0.0,
+        "GP": 1,
+        "GS": 0,
+        "BF": 0,
+        "#P": 0,
+        "W": 0,
+        "L": 0,
+        "SV": 0,
+        "SVO": 0,
+        "BS": 0,
+        "SV%": null,
+        "H": 0,
+        "R": 0,
+        "ER": 0,
+        "BB": 0,
+        "SO": 0,
+        "K-L": 0,
+        "HBP": 0,
+        "ERA": null,
+        "WHIP": null,
+        "LOB": 0,
+        "BK": 0,
+        "PIK": 0,
+        "CS": 0,
+        "SB": 0,
+        "SB%": null,
+        "WP": 0,
+        "BAA": null,
+        "MPHFB": "N/A",
+        "MPHCT": "N/A",
+        "MPHCB": "N/A",
+        "MPHSL": "N/A",
+        "MPHCH": "N/A",
+        "MPHOS": "N/A"
        }
       ],
       "totals": {
        "player": "Team",
        "number": null,
-       "IP": 60.0,
-       "GP": 18,
-       "GS": 18,
-       "BF": 452,
-       "#P": 1752,
+       "IP": 65.0,
+       "GP": 19,
+       "GS": 19,
+       "BF": 485,
+       "#P": 1860,
        "W": 0,
        "L": 0,
        "SV": 0,
        "SVO": 0,
        "BS": 0,
        "SV%": null,
-       "H": 114,
-       "R": 200,
-       "ER": 137,
-       "BB": 124,
-       "SO": 102,
-       "K-L": 45,
-       "HBP": 25,
-       "ERA": 13.7,
-       "WHIP": 3.967,
-       "LOB": 70,
+       "H": 124,
+       "R": 213,
+       "ER": 146,
+       "BB": 130,
+       "SO": 108,
+       "K-L": 46,
+       "HBP": 27,
+       "ERA": 13.48,
+       "WHIP": 3.908,
+       "LOB": 75,
        "BK": 0,
        "PIK": 2,
        "CS": 5,
-       "SB": 76,
-       "SB%": 93.83,
-       "WP": 41,
-       "BAA": 0.377,
+       "SB": 79,
+       "SB%": 94.05,
+       "WP": 42,
+       "BAA": 0.38,
        "MPHFB": "N/A",
        "MPHCT": "N/A",
        "MPHCB": "N/A",
@@ -29175,6 +29610,42 @@
       ],
       "players": [
        {
+        "player": "Keegan H",
+        "number": 4,
+        "IP": 12.2,
+        "BF": 75,
+        "P/IP": 22.0,
+        "P/BF": 3.72,
+        "<3%": null,
+        "LOO": 9,
+        "1ST2OUT": 5,
+        "123INN": 1,
+        "<13": null,
+        "FIP": 3.197,
+        "S%": 57.35,
+        "FPS%": 53.33,
+        "FPSO%": 62.5,
+        "FPSW%": 7.5,
+        "FPSH%": 22.5,
+        "BB/INN": 1.105,
+        "0BBINN": 2,
+        "BBS": 8,
+        "LOBB": 2,
+        "LOBBS": 1,
+        "SM%": 11.47,
+        "K/BF": 0.32,
+        "K/BB": 1.714,
+        "WEAK%": 87.1,
+        "HHB%": 12.9,
+        "GO/AO": 1.75,
+        "HR": 0,
+        "LD%": 12.9,
+        "FB%": 32.26,
+        "GB%": 54.84,
+        "BABIP": 0.516,
+        "BA/RISP": 0.296
+       },
+       {
         "player": "Cayden A",
         "number": 8,
         "IP": 11.1,
@@ -29211,76 +29682,40 @@
         "BA/RISP": 0.367
        },
        {
-        "player": "Keegan H",
-        "number": 4,
-        "IP": 8.1,
-        "BF": 51,
-        "P/IP": 25.4,
-        "P/BF": 4.157,
-        "<3%": null,
-        "LOO": 4,
-        "1ST2OUT": 3,
-        "123INN": 0,
-        "<13": null,
-        "FIP": 3.442,
-        "S%": 56.13,
-        "FPS%": 50.98,
-        "FPSO%": 61.54,
-        "FPSW%": 11.54,
-        "FPSH%": 23.08,
-        "BB/INN": 1.44,
-        "0BBINN": 0,
-        "BBS": 7,
-        "LOBB": 2,
-        "LOBBS": 1,
-        "SM%": 10.85,
-        "K/BF": 0.353,
-        "K/BB": 1.5,
-        "WEAK%": 76.47,
-        "HHB%": 23.53,
-        "GO/AO": 0.667,
-        "HR": 0,
-        "LD%": 23.53,
-        "FB%": 35.29,
-        "GB%": 41.18,
-        "BABIP": 0.529,
-        "BA/RISP": 0.261
-       },
-       {
         "player": "Tejay W",
         "number": 16,
-        "IP": 7.2,
-        "BF": 45,
-        "P/IP": 24.0,
-        "P/BF": 4.089,
+        "IP": 8.0,
+        "BF": 51,
+        "P/IP": 25.9,
+        "P/BF": 4.059,
         "<3%": null,
         "LOO": 3,
         "1ST2OUT": 0,
         "123INN": 0,
         "<13": null,
-        "FIP": 4.846,
-        "S%": 46.2,
-        "FPS%": 46.67,
-        "FPSO%": 66.67,
-        "FPSW%": 9.52,
-        "FPSH%": 19.05,
-        "BB/INN": 1.826,
+        "FIP": 6.5,
+        "S%": 46.86,
+        "FPS%": 49.02,
+        "FPSO%": 60.0,
+        "FPSW%": 12.0,
+        "FPSH%": 24.0,
+        "BB/INN": 2.0,
         "0BBINN": 2,
-        "BBS": 7,
+        "BBS": 9,
         "LOBB": 2,
         "LOBBS": 1,
-        "SM%": 13.59,
-        "K/BF": 0.289,
-        "K/BB": 0.929,
-        "WEAK%": 93.75,
-        "HHB%": 6.25,
-        "GO/AO": 6.0,
-        "HR": 0,
-        "LD%": 6.25,
-        "FB%": 18.75,
-        "GB%": 73.33,
-        "BABIP": 0.375,
-        "BA/RISP": 0.167
+        "SM%": 13.04,
+        "K/BF": 0.255,
+        "K/BB": 0.813,
+        "WEAK%": 90.0,
+        "HHB%": 10.0,
+        "GO/AO": 7.0,
+        "HR": 1,
+        "LD%": 10.0,
+        "FB%": 20.0,
+        "GB%": 68.42,
+        "BABIP": 0.421,
+        "BA/RISP": 0.238
        },
        {
         "player": "Khale V",
@@ -29427,6 +29862,42 @@
         "BA/RISP": 0.45
        },
        {
+        "player": "Noah T",
+        "number": 99,
+        "IP": 4.1,
+        "BF": 30,
+        "P/IP": 32.5,
+        "P/BF": 4.7,
+        "<3%": null,
+        "LOO": 1,
+        "1ST2OUT": 0,
+        "123INN": 0,
+        "<13": null,
+        "FIP": 4.663,
+        "S%": 49.65,
+        "FPS%": 60.0,
+        "FPSO%": 55.56,
+        "FPSW%": 22.22,
+        "FPSH%": 22.22,
+        "BB/INN": 2.769,
+        "0BBINN": 0,
+        "BBS": 8,
+        "LOBB": 2,
+        "LOBBS": 2,
+        "SM%": 19.86,
+        "K/BF": 0.367,
+        "K/BB": 0.917,
+        "WEAK%": 71.43,
+        "HHB%": 28.57,
+        "GO/AO": 1.0,
+        "HR": 0,
+        "LD%": 14.29,
+        "FB%": 14.29,
+        "GB%": 66.67,
+        "BABIP": 0.714,
+        "BA/RISP": 0.231
+       },
+       {
         "player": "Caiden P",
         "number": 11,
         "IP": 4.0,
@@ -29461,42 +29932,6 @@
         "GB%": 69.57,
         "BABIP": 0.591,
         "BA/RISP": 0.563
-       },
-       {
-        "player": "Noah T",
-        "number": 99,
-        "IP": 4.0,
-        "BF": 27,
-        "P/IP": 30.8,
-        "P/BF": 4.556,
-        "<3%": null,
-        "LOO": 1,
-        "1ST2OUT": 0,
-        "123INN": 0,
-        "<13": null,
-        "FIP": 3.56,
-        "S%": 50.41,
-        "FPS%": 59.26,
-        "FPSO%": 56.25,
-        "FPSW%": 18.75,
-        "FPSH%": 25.0,
-        "BB/INN": 2.5,
-        "0BBINN": 0,
-        "BBS": 7,
-        "LOBB": 2,
-        "LOBBS": 2,
-        "SM%": 20.33,
-        "K/BF": 0.407,
-        "K/BB": 1.1,
-        "WEAK%": 66.67,
-        "HHB%": 33.33,
-        "GO/AO": null,
-        "HR": 0,
-        "LD%": 16.67,
-        "FB%": 0.0,
-        "GB%": 80.0,
-        "BABIP": 0.833,
-        "BA/RISP": 0.25
        },
        {
         "player": "Wesley S",
@@ -29569,43 +30004,79 @@
         "GB%": null,
         "BABIP": 0.0,
         "BA/RISP": null
+       },
+       {
+        "player": "Beau C",
+        "number": 7,
+        "IP": 0.0,
+        "BF": 0,
+        "P/IP": null,
+        "P/BF": null,
+        "<3%": null,
+        "LOO": 0,
+        "1ST2OUT": 0,
+        "123INN": 0,
+        "<13": null,
+        "FIP": null,
+        "S%": null,
+        "FPS%": null,
+        "FPSO%": null,
+        "FPSW%": null,
+        "FPSH%": null,
+        "BB/INN": null,
+        "0BBINN": 0,
+        "BBS": 0,
+        "LOBB": 0,
+        "LOBBS": 0,
+        "SM%": null,
+        "K/BF": null,
+        "K/BB": null,
+        "WEAK%": null,
+        "HHB%": null,
+        "GO/AO": null,
+        "HR": 0,
+        "LD%": null,
+        "FB%": null,
+        "GB%": null,
+        "BABIP": null,
+        "BA/RISP": null
        }
       ],
       "totals": {
        "player": "Team",
        "number": null,
-       "IP": 60.0,
-       "BF": 452,
-       "P/IP": 29.2,
-       "P/BF": 3.876,
+       "IP": 65.0,
+       "BF": 485,
+       "P/IP": 28.6,
+       "P/BF": 3.835,
        "<3%": null,
-       "LOO": 27,
-       "1ST2OUT": 9,
-       "123INN": 1,
+       "LOO": 32,
+       "1ST2OUT": 11,
+       "123INN": 2,
        "<13": null,
-       "FIP": 6.084,
-       "S%": 47.26,
-       "FPS%": 47.79,
-       "FPSO%": 56.48,
-       "FPSW%": 12.96,
-       "FPSH%": 27.78,
-       "BB/INN": 2.067,
-       "0BBINN": 13,
-       "BBS": 84,
+       "FIP": 6.118,
+       "S%": 47.8,
+       "FPS%": 48.66,
+       "FPSO%": 56.36,
+       "FPSW%": 12.71,
+       "FPSH%": 27.54,
+       "BB/INN": 2.0,
+       "0BBINN": 15,
+       "BBS": 88,
        "LOBB": 14,
        "LOBBS": 10,
-       "SM%": 12.5,
-       "K/BF": 0.226,
-       "K/BB": 0.823,
-       "WEAK%": 83.08,
-       "HHB%": 16.92,
-       "GO/AO": 3.462,
-       "HR": 2,
-       "LD%": 12.94,
-       "FB%": 25.87,
-       "GB%": 60.41,
-       "BABIP": 0.566,
-       "BA/RISP": 0.363
+       "SM%": 12.53,
+       "K/BF": 0.223,
+       "K/BB": 0.831,
+       "WEAK%": 84.09,
+       "HHB%": 15.91,
+       "GO/AO": 3.4,
+       "HR": 3,
+       "LD%": 12.27,
+       "FB%": 26.36,
+       "GB%": 60.65,
+       "BABIP": 0.56,
+       "BA/RISP": 0.368
       }
      }
     },
@@ -29624,9 +30095,9 @@
        {
         "player": "Beau C",
         "number": 7,
-        "TC": 48,
+        "TC": 49,
         "A": 0,
-        "PO": 48,
+        "PO": 49,
         "FPCT": 1.0,
         "E": 0,
         "DP": 0,
@@ -29646,8 +30117,8 @@
        {
         "player": "Lane S",
         "number": 23,
-        "TC": 12,
-        "A": 8,
+        "TC": 14,
+        "A": 10,
         "PO": 4,
         "FPCT": 1.0,
         "E": 0,
@@ -29657,10 +30128,10 @@
        {
         "player": "Keegan H",
         "number": 4,
-        "TC": 56,
-        "A": 17,
-        "PO": 38,
-        "FPCT": 0.982,
+        "TC": 59,
+        "A": 19,
+        "PO": 39,
+        "FPCT": 0.983,
         "E": 1,
         "DP": 0,
         "TP": 0
@@ -29668,10 +30139,10 @@
        {
         "player": "Cayden A",
         "number": 8,
-        "TC": 29,
+        "TC": 35,
         "A": 3,
-        "PO": 24,
-        "FPCT": 0.931,
+        "PO": 30,
+        "FPCT": 0.943,
         "E": 2,
         "DP": 0,
         "TP": 0
@@ -29679,11 +30150,11 @@
        {
         "player": "Evan Hannan",
         "number": 10,
-        "TC": 40,
+        "TC": 46,
         "A": 0,
-        "PO": 33,
-        "FPCT": 0.825,
-        "E": 7,
+        "PO": 38,
+        "FPCT": 0.826,
+        "E": 8,
         "DP": 0,
         "TP": 0
        },
@@ -29701,33 +30172,22 @@
        {
         "player": "Tate W",
         "number": 5,
-        "TC": 30,
+        "TC": 32,
         "A": 0,
-        "PO": 22,
-        "FPCT": 0.733,
-        "E": 8,
+        "PO": 23,
+        "FPCT": 0.719,
+        "E": 9,
         "DP": 0,
         "TP": 0
        },
        {
         "player": "Tejay W",
         "number": 16,
-        "TC": 7,
-        "A": 5,
-        "PO": 0,
-        "FPCT": 0.714,
-        "E": 2,
-        "DP": 0,
-        "TP": 0
-       },
-       {
-        "player": "Khale V",
-        "number": 3,
         "TC": 10,
-        "A": 4,
-        "PO": 2,
-        "FPCT": 0.6,
-        "E": 4,
+        "A": 6,
+        "PO": 1,
+        "FPCT": 0.7,
+        "E": 3,
         "DP": 0,
         "TP": 0
        },
@@ -29743,13 +30203,24 @@
         "TP": 0
        },
        {
+        "player": "Khale V",
+        "number": 3,
+        "TC": 13,
+        "A": 5,
+        "PO": 2,
+        "FPCT": 0.538,
+        "E": 6,
+        "DP": 0,
+        "TP": 0
+       },
+       {
         "player": "Noah T",
         "number": 99,
-        "TC": 6,
+        "TC": 8,
         "A": 0,
         "PO": 3,
-        "FPCT": 0.5,
-        "E": 3,
+        "FPCT": 0.375,
+        "E": 5,
         "DP": 0,
         "TP": 0
        },
@@ -29779,11 +30250,11 @@
       "totals": {
        "player": "Team",
        "number": null,
-       "TC": 264,
-       "A": 47,
-       "PO": 180,
-       "FPCT": 0.86,
-       "E": 37,
+       "TC": 292,
+       "A": 53,
+       "PO": 195,
+       "FPCT": 0.849,
+       "E": 44,
        "DP": 0,
        "TP": 0
       }
@@ -29802,9 +30273,9 @@
        {
         "player": "Beau C",
         "number": 7,
-        "TC": 48,
+        "TC": 49,
         "A": 0,
-        "PO": 48,
+        "PO": 49,
         "FPCT": 1.0,
         "E": 0,
         "DP": 0,
@@ -29824,8 +30295,8 @@
        {
         "player": "Lane S",
         "number": 23,
-        "TC": 12,
-        "A": 8,
+        "TC": 14,
+        "A": 10,
         "PO": 4,
         "FPCT": 1.0,
         "E": 0,
@@ -29835,10 +30306,10 @@
        {
         "player": "Keegan H",
         "number": 4,
-        "TC": 56,
-        "A": 17,
-        "PO": 38,
-        "FPCT": 0.982,
+        "TC": 59,
+        "A": 19,
+        "PO": 39,
+        "FPCT": 0.983,
         "E": 1,
         "DP": 0,
         "TP": 0
@@ -29846,10 +30317,10 @@
        {
         "player": "Cayden A",
         "number": 8,
-        "TC": 29,
+        "TC": 35,
         "A": 3,
-        "PO": 24,
-        "FPCT": 0.931,
+        "PO": 30,
+        "FPCT": 0.943,
         "E": 2,
         "DP": 0,
         "TP": 0
@@ -29857,11 +30328,11 @@
        {
         "player": "Evan Hannan",
         "number": 10,
-        "TC": 40,
+        "TC": 46,
         "A": 0,
-        "PO": 33,
-        "FPCT": 0.825,
-        "E": 7,
+        "PO": 38,
+        "FPCT": 0.826,
+        "E": 8,
         "DP": 0,
         "TP": 0
        },
@@ -29879,33 +30350,22 @@
        {
         "player": "Tate W",
         "number": 5,
-        "TC": 30,
+        "TC": 32,
         "A": 0,
-        "PO": 22,
-        "FPCT": 0.733,
-        "E": 8,
+        "PO": 23,
+        "FPCT": 0.719,
+        "E": 9,
         "DP": 0,
         "TP": 0
        },
        {
         "player": "Tejay W",
         "number": 16,
-        "TC": 7,
-        "A": 5,
-        "PO": 0,
-        "FPCT": 0.714,
-        "E": 2,
-        "DP": 0,
-        "TP": 0
-       },
-       {
-        "player": "Khale V",
-        "number": 3,
         "TC": 10,
-        "A": 4,
-        "PO": 2,
-        "FPCT": 0.6,
-        "E": 4,
+        "A": 6,
+        "PO": 1,
+        "FPCT": 0.7,
+        "E": 3,
         "DP": 0,
         "TP": 0
        },
@@ -29921,13 +30381,24 @@
         "TP": 0
        },
        {
+        "player": "Khale V",
+        "number": 3,
+        "TC": 13,
+        "A": 5,
+        "PO": 2,
+        "FPCT": 0.538,
+        "E": 6,
+        "DP": 0,
+        "TP": 0
+       },
+       {
         "player": "Noah T",
         "number": 99,
-        "TC": 6,
+        "TC": 8,
         "A": 0,
         "PO": 3,
-        "FPCT": 0.5,
-        "E": 3,
+        "FPCT": 0.375,
+        "E": 5,
         "DP": 0,
         "TP": 0
        },
@@ -29957,11 +30428,11 @@
       "totals": {
        "player": "Team",
        "number": null,
-       "TC": 264,
-       "A": 47,
-       "PO": 180,
-       "FPCT": 0.86,
-       "E": 37,
+       "TC": 292,
+       "A": 53,
+       "PO": 195,
+       "FPCT": 0.849,
+       "E": 44,
        "DP": 0,
        "TP": 0
       }
@@ -29972,7 +30443,7 @@
  },
  "tgs_url": "https://topgunstats.com/tournaments?sport=1",
  "gc_url": "https://web.gc.com/teams/ewJYbRqmr5t1/2026-fall-elite9-9u",
- "points": 2325,
+ "points": 2475,
  "titles": 1,
  "finishes": [
   {
@@ -30014,11 +30485,19 @@
    "lost": 1,
    "standing": "3rd (Silver)",
    "points": 550
+  },
+  {
+   "date": "2026-11-07",
+   "name": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
+   "won": 1,
+   "lost": 2,
+   "standing": "3rd (Bronze)",
+   "points": 150
   }
  ],
- "season": "08/01/2026 - 11/06/2026",
- "stats_fetched": "2026-11-06T12:50",
+ "season": "08/01/2026 - 11/09/2026",
+ "stats_fetched": "2026-11-09T16:19",
  "division": "9U",
- "today": "2026-11-08",
+ "today": "2026-11-09",
  "season_label": "Fall 2026"
 }

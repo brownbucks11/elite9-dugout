@@ -1,10 +1,10 @@
 {
  "team": "Mara Bulls",
  "label": "9U, AAA",
- "season": "08/01/2026 - 11/06/2026",
- "games": 3,
- "won": 2,
- "lost": 1,
+ "season": "08/01/2026 - 11/09/2026",
+ "games": 8,
+ "won": 6,
+ "lost": 2,
  "tournaments": [
   {
    "date": "2026-09-11",
@@ -15,8 +15,18 @@
    "ra": 32,
    "standing": "1st (Silver)",
    "points": 300
+  },
+  {
+   "date": "2026-11-07",
+   "name": "ROAD RUNNER VS COYOTE---RING IT UP CHARACTER RING WEEKEND--BOGGS ALSO",
+   "won": 4,
+   "lost": 1,
+   "rs": 56,
+   "ra": 37,
+   "standing": "2nd (Gold)",
+   "points": 375
   }
  ],
  "team_page_id": 38928,
- "fetched_at": "2026-11-06T12:54"
+ "fetched_at": "2026-11-09T16:22"
 }
