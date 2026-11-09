@@ -2894,7 +2894,7 @@
           "seed": 5,
           "team": "South Charlotte Revolution",
           "location": "Charlotte, NC",
-          "won": 3,
+          "won": 4,
           "lost": 1,
           "runs_allowed": 5,
           "runs_scored": 16,
@@ -2905,7 +2905,7 @@
           "team": "Copperheads Black",
           "location": "Mooresville, NC",
           "won": 3,
-          "lost": 0,
+          "lost": 1,
           "runs_allowed": 4,
           "runs_scored": 19,
           "team_page_id": null
@@ -3152,10 +3152,10 @@
             "field": "SP:Field #1",
             "team_a": "Winner Game #3 South Charlotte Revolution",
             "seed_a": null,
-            "score_a": null,
+            "score_a": 11,
             "team_b": "Winner Game #4 Copperheads Black",
             "seed_b": null,
-            "score_b": null
+            "score_b": 2
           }
         ],
         "Silver Bracket": [
@@ -4022,5 +4022,5 @@
   },
   "site_last_updated": "11/05/2026 12:03 PM",
   "tournament_id": 12524,
-  "fetched_at": "2026-11-08T18:58"
+  "fetched_at": "2026-11-08T19:08"
 }
