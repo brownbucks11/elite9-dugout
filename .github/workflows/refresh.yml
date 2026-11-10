@@ -1,16 +1,19 @@
 name: Refresh scores and rebuild site
 
 on:
-  schedule:
-    # Cron here is UTC. Charlotte is UTC-4 (EDT) until Nov 1, then UTC-5.
-    - cron: "0 11 * * *"         # every day 7 AM Eastern: also refresh team points/finishes
-    - cron: "0 17,23 * * *"      # every day 1 PM, 7 PM Eastern
-    - cron: "0 4-23 * * 4"       # Thursday, hourly (from midnight Eastern)
-    - cron: "0 * * * 5,6,0"      # Friday, Saturday, Sunday, hourly
-    - cron: "0 0-3 * * 1"        # Sunday 8-11 PM Eastern (Monday early UTC)
-    - cron: "30 12 * * 1,4"      # Mon + Thu 8:30 AM Eastern: also discover upcoming area events
-    - cron: "*/10 * * * 5,6,0"   # game day: every 10 min Fri-Sun (UTC) - only fetches when a tournament is live
-    - cron: "*/10 0-4 * * 1"     # ...and Sunday evening Eastern (Monday early UTC)
+  # OFF-SEASON (since Nov 9, 2026): the Fall 2026 page is frozen as a record, so the schedule is
+  # disabled. For the spring season, follow "Season rollover" in README.md and uncomment the
+  # `schedule:` block below (keep the two-space indent under `on:`).
+  # schedule:
+  #   # Cron here is UTC. Charlotte is UTC-4 (EDT) until Nov 1, then UTC-5.
+  #   - cron: "0 11 * * *"         # every day 7 AM Eastern: also refresh team points/finishes
+  #   - cron: "0 17,23 * * *"      # every day 1 PM, 7 PM Eastern
+  #   - cron: "0 4-23 * * 4"       # Thursday, hourly (from midnight Eastern)
+  #   - cron: "0 * * * 5,6,0"      # Friday, Saturday, Sunday, hourly
+  #   - cron: "0 0-3 * * 1"        # Sunday 8-11 PM Eastern (Monday early UTC)
+  #   - cron: "30 12 * * 1,4"      # Mon + Thu 8:30 AM Eastern: also discover upcoming area events
+  #   - cron: "*/10 * * * 5,6,0"   # game day: every 10 min Fri-Sun (UTC) - only fetches when a tournament is live
+  #   - cron: "*/10 0-4 * * 1"     # ...and Sunday evening Eastern (Monday early UTC)
   workflow_dispatch:             # "Run workflow" button in the Actions tab
     inputs:
       discover:
@@ -21,6 +24,10 @@ on:
         description: "Also refresh every team's statistics page (points, finishes)"
         type: boolean
         default: false
+      final:
+        description: "Season over: build the page as a record (season-complete notice). Set the default to false for the new season."
+        type: boolean
+        default: true
 
 permissions:
   contents: write
@@ -73,8 +80,11 @@ jobs:
           SCHED: ${{ github.event.schedule }}
           DISCOVER: ${{ inputs.discover }}
           TEAMS: ${{ inputs.teams }}
+          FINAL: ${{ inputs.final }}
         run: |
           FLAGS=""
+          FINAL_FLAG=""
+          if [ "$FINAL" = "true" ]; then FINAL_FLAG="--final"; fi
           case "$SCHED" in
             "30 12 * * 1,4") FLAGS="--discover --teams" ;;
             "0 11 * * *")    FLAGS="--teams" ;;
@@ -113,7 +123,7 @@ jobs:
           while true; do
             TICK=$((TICK+1))
             echo "=== tick $TICK $(date '+%a %I:%M %p %Z')"
-            python refresh.py $FLAGS || echo "refresh.py returned an error; continuing"
+            python refresh.py $FLAGS $FINAL_FLAG || echo "refresh.py returned an error; continuing"
             commit_if_changed
             FLAGS=""     # discovery / team pages only on the first pass
             GAMEDAY=$(python gameday.py)

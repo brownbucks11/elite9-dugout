@@ -97,6 +97,8 @@
   #panel-teams .chips { min-width: 120px; }
   #panel-teams .chip { font-size: 10px; padding: 1px 5px; }
   .notice { display: flex; gap: 12px; align-items: flex-start; background: var(--me-bg); border: 1px solid var(--amber); border-left-width: 5px; border-radius: 6px; padding: 10px 8px 10px 14px; font-size: 14px; line-height: 1.4; }
+  .notice.final { background: var(--chalk); border-color: var(--ink-2); }
+  .notice.final .final-title { font-family: "Barlow Condensed", sans-serif; font-weight: 700; font-size: 17px; letter-spacing: .02em; text-transform: uppercase; display: block; margin-bottom: 2px; }
   .notice-close { flex: 0 0 auto; background: none; border: 0; color: var(--ink-2); font-size: 22px; line-height: 1; cursor: pointer; padding: 0 6px; margin-top: -2px; }
   .notice-close:hover { color: var(--ink); }
   .notice-wrap + main { padding-top: 16px; }
@@ -572,15 +574,26 @@
     gc: '<svg viewBox="0 0 24 24"><path d="M4 17l5-5 4 4 7-8" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><path d="M15 8h5v5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>' };
   const chipLink = (url, label, icon) => url ? `<a class="hdr-chip" href="${esc(url)}" target="_blank" rel="noopener">${LINK_ICON[icon]}<span>${esc(label)}</span></a>` : "";
   $("#hdr-link").innerHTML = [chipLink(D.team_url, `${D.team} on Top Gun`, "team"), chipLink(D.tgs_url, "Top Gun tournaments", "list"), chipLink(D.gc_url, "GameChanger", "gc")].join("");
-  $("#foot").innerHTML = `Updated ${esc(D.built)}. Scores and schedules from <a href="https://playtopgunsports.com/" target="_blank" rel="noopener">playtopgunsports.com</a>; runs are only counted from games with a posted final.`
+  // D.final (build_site.py --final): the season is over and this page is kept as a record.
+  const FINAL = !!D.final;
+  if (FINAL) {
+    const nEvents = (D.finishes || []).length, nTitles = D.titles || 0;
+    const bits = [`${recordStr(R)} in ${D.my_games.length} games`, nEvents ? `${nEvents} tournaments` : "", nTitles ? `${nTitles} ${nTitles === 1 ? "title" : "titles"}` : "", D.points != null ? `${D.points.toLocaleString()} Top Gun points` : ""].filter(Boolean);
+    $("#notice").classList.add("final");
+    $("#notice").firstElementChild.innerHTML = `<span class="final-title">${esc(D.season_label || "Season")} is in the books</span>`
+      + `Final: ${esc(bits.join(" · "))}. This page is kept as a record of the season and no longer updates — every score, box score and stat line stays right here. See you in the spring!`;
+  }
+  $("#foot").innerHTML = (FINAL ? `Final — last updated ${esc(D.built)}.` : `Updated ${esc(D.built)}.`) + ` Scores and schedules from <a href="https://playtopgunsports.com/" target="_blank" rel="noopener">playtopgunsports.com</a>; runs are only counted from games with a posted final.`
     + (D.team_url ? ` <a href="${esc(D.team_url)}" target="_blank" rel="noopener">${esc(D.team)} on Top Gun</a>.` : "")
-    + ` Not the official schedule — the TeamReach app is. <a href="#" id="notice-show">Show notice</a>`;
+    + (FINAL ? "" : ` Not the official schedule — the TeamReach app is.`) + ` <a href="#" id="notice-show">Show notice</a>`;
 
-  // Schedule notice: hide on X, remembered per browser; the footer link brings it back.
+  // Notice: hide on X, remembered per browser; the footer link brings it back. The season-over
+  // notice has its own key so it shows once even if the schedule notice was hidden before.
+  const NOTICE_KEY = FINAL ? "elite9.final" : "elite9.notice";
   const noticeWrap = $(".notice-wrap");
-  try { if (localStorage.getItem("elite9.notice") === "hidden") noticeWrap.hidden = true; } catch (_) {}
-  $("#notice-close").addEventListener("click", () => { noticeWrap.hidden = true; try { localStorage.setItem("elite9.notice", "hidden"); } catch (_) {} });
-  $("#notice-show").addEventListener("click", (e) => { e.preventDefault(); noticeWrap.hidden = false; try { localStorage.removeItem("elite9.notice"); } catch (_) {} window.scrollTo({ top: 0, behavior: "smooth" }); });
+  try { if (localStorage.getItem(NOTICE_KEY) === "hidden") noticeWrap.hidden = true; } catch (_) {}
+  $("#notice-close").addEventListener("click", () => { noticeWrap.hidden = true; try { localStorage.setItem(NOTICE_KEY, "hidden"); } catch (_) {} });
+  $("#notice-show").addEventListener("click", (e) => { e.preventDefault(); noticeWrap.hidden = false; try { localStorage.removeItem(NOTICE_KEY); } catch (_) {} window.scrollTo({ top: 0, behavior: "smooth" }); });
 
   // ---- Next Up ---------------------------------------------------------------
   const fmtSeen = (iso) => { const d = iso ? new Date(iso) : null; return d && !isNaN(d) ? d.toLocaleDateString(undefined, { weekday: "short", month: "short", day: "numeric" }) + " " + d.toLocaleTimeString(undefined, { hour: "numeric", minute: "2-digit" }) : ""; };
@@ -688,7 +701,7 @@
     const coming = list.filter((e) => e !== featured && e.state !== "final");
     const groups = [["", featured ? [featured] : []], ["Previous", previous], ["Coming up", coming]];
     const ordered = groups.flatMap(([label, items]) => items.map((e, j) => [e, j === 0 ? label : ""]));
-    $("#panel-tournaments").innerHTML = `<h2 class="section-title">Tournaments <span class="sub">${list.length} this season · ${nDone} played · schedules are subject to change until game day — the coach's TeamReach post is final</span></h2>` +
+    $("#panel-tournaments").innerHTML = `<h2 class="section-title">Tournaments <span class="sub">${list.length} this season · ${nDone} played${FINAL ? " · season complete" : " · schedules are subject to change until game day — the coach's TeamReach post is final"}</span></h2>` +
       ordered.map(([e, label]) => {
         const i = list.indexOf(e);
         let body = "", tag = "", meta = esc(e.dates);

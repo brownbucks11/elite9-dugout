@@ -1,0 +1,1372 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Elite 9 Fall 2026</title>
+<meta name="description" content="Elite 9 (9U) Top Gun schedule, results, and standings for parents.">
+<link rel="icon" type="image/png" href="logo.png">
+<link rel="apple-touch-icon" href="logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600&family=Graduate&family=Kaushan+Script&display=swap">
+<style>
+  :root {
+    color-scheme: light dark;
+    --navy: #15223d;
+    --navy-2: #1f3057;
+    --amber: #e0a422;
+    --chalk: #f6f5f0;
+    --paper: #ffffff;
+    --ink: #1a1f2b;
+    --ink-2: #5a6172;
+    --line: #dcdad2;
+    --win: #2e7d4f;
+    --loss: #b8422f;
+    --tie: #6b7280;
+    --win-bg: #e3f1e8;
+    --loss-bg: #f8e4e0;
+    --tie-bg: #ececef;
+    --me-bg: #fbf1d8;
+    --played-bg: #e9f0fa;
+    --red: #c8202e;
+    --link: #1d4f8c;
+    --display: "Barlow Condensed", "Arial Narrow", Impact, sans-serif;
+    --body: "Barlow", "Segoe UI", Helvetica, Arial, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --navy: #0c1426; --navy-2: #172445; --amber: #f0b62f;
+      --chalk: #12182a; --paper: #1b2237; --ink: #ecebe4; --ink-2: #a3a9b8; --line: #2c3650;
+      --win: #5fc98a; --loss: #f08a77; --tie: #a3a9b8;
+      --win-bg: #17311f; --loss-bg: #3d1e18; --tie-bg: #262b3a; --me-bg: #3a2f14; --played-bg: #1a2742; --link: #8fb8f0;
+    }
+  }
+  :root[data-theme="dark"] {
+    --navy: #0c1426; --navy-2: #172445; --amber: #f0b62f;
+    --chalk: #12182a; --paper: #1b2237; --ink: #ecebe4; --ink-2: #a3a9b8; --line: #2c3650;
+    --win: #5fc98a; --loss: #f08a77; --tie: #a3a9b8;
+    --win-bg: #17311f; --loss-bg: #3d1e18; --tie-bg: #262b3a; --me-bg: #3a2f14; --played-bg: #1a2742; --link: #8fb8f0;
+  }
+
+  * { box-sizing: border-box; }
+  html, body { margin: 0; }
+  body {
+    background: var(--chalk); color: var(--ink);
+    font-family: var(--body); font-size: 15px; line-height: 1.45;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: var(--link); }
+  h1, h2, h3 { font-family: var(--display); margin: 0; text-wrap: balance; line-height: 1.05; }
+  [hidden] { display: none !important; }
+  button { font: inherit; }
+  :focus-visible { outline: 3px solid var(--amber); outline-offset: 2px; }
+
+  /* Scoreboard header */
+  .board {
+    background: var(--navy); color: #fff;
+    padding: calc(14px + env(safe-area-inset-top, 0px)) 16px 0;
+  }
+  .board-inner { max-width: 1140px; margin: 0 auto; }
+  .board-top { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 12px 24px; }
+  .team-name { font-size: 44px; font-weight: 700; letter-spacing: .5px; text-transform: uppercase; }
+  .team-name small { display: block; font-family: var(--body); font-size: 13px; font-weight: 500; letter-spacing: 1.5px; text-transform: uppercase; color: var(--amber); margin-bottom: 4px; }
+  .season-tag { font-weight: 500; opacity: .85; white-space: nowrap; }
+  .brand { display: flex; align-items: center; gap: 14px; }
+  .logo { width: 84px; height: auto; object-fit: contain; flex: 0 0 auto; filter: drop-shadow(0 2px 4px rgba(0,0,0,.45)); }
+  .record { display: flex; gap: 20px; align-items: flex-end; }
+  .stat { text-align: right; }
+  .stat b { display: block; font-family: var(--display); font-size: 40px; font-weight: 700; line-height: 1; font-variant-numeric: tabular-nums; }
+  .stat span { font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase; opacity: .75; }
+  .stat.big b { color: var(--amber); font-size: 52px; }
+  .board { padding-bottom: 12px; }
+  .tabs-bar { position: sticky; top: 0; z-index: 5; background: var(--navy); padding: 0 16px; box-shadow: 0 2px 6px rgba(0,0,0,.25); }
+  .tabs { display: flex; gap: 4px; overflow-x: auto; scrollbar-width: none; }
+  .tabs::-webkit-scrollbar { display: none; }
+  .tab {
+    background: none; border: 0; color: #fff; opacity: .7; cursor: pointer;
+    font-family: var(--display); font-size: 19px; font-weight: 600; letter-spacing: .5px; text-transform: uppercase;
+    padding: 10px 14px 12px; border-bottom: 3px solid transparent; white-space: nowrap;
+  }
+  .tab:hover { opacity: 1; }
+  .tab[aria-selected="true"] { opacity: 1; border-bottom-color: var(--amber); }
+
+  main { max-width: 1140px; margin: 0 auto; padding: 20px 16px 48px; }
+  .notice-wrap { max-width: 1140px; margin: 16px auto 0; padding: 0 16px; }
+  #panel-teams th, #panel-teams td { padding: 7px 8px; font-size: 14px; }
+  #panel-teams .chips { min-width: 120px; }
+  #panel-teams .chip { font-size: 10px; padding: 1px 5px; }
+  .notice { display: flex; gap: 12px; align-items: flex-start; background: var(--me-bg); border: 1px solid var(--amber); border-left-width: 5px; border-radius: 6px; padding: 10px 8px 10px 14px; font-size: 14px; line-height: 1.4; }
+  .notice.final { background: var(--chalk); border-color: var(--ink-2); }
+  .notice.final .final-title { font-family: "Barlow Condensed", sans-serif; font-weight: 700; font-size: 17px; letter-spacing: .02em; text-transform: uppercase; display: block; margin-bottom: 2px; }
+  .notice-close { flex: 0 0 auto; background: none; border: 0; color: var(--ink-2); font-size: 22px; line-height: 1; cursor: pointer; padding: 0 6px; margin-top: -2px; }
+  .notice-close:hover { color: var(--ink); }
+  .notice-wrap + main { padding-top: 16px; }
+  section[role="tabpanel"] { display: grid; gap: 18px; }
+  .section-title { font-size: 26px; font-weight: 700; text-transform: uppercase; letter-spacing: .5px; display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+  .section-title .sub { font-family: var(--body); font-size: 13px; font-weight: 500; color: var(--ink-2); text-transform: none; letter-spacing: 0; }
+
+  /* Event cards */
+  .event { background: var(--paper); border: 1px solid var(--line); border-radius: 6px; overflow: hidden; }
+  .event-head { display: flex; gap: 14px; padding: 14px 16px; align-items: center; border-bottom: 1px solid var(--line); }
+  details.event { border-radius: 6px; }
+  details.event > summary { list-style: none; cursor: pointer; border-bottom: 0; position: relative; padding-right: 40px; }
+  details.event > summary::-webkit-details-marker { display: none; }
+  details.event > summary::after { content: ""; position: absolute; right: 18px; top: 50%; width: 9px; height: 9px; border-right: 2px solid var(--ink-2); border-bottom: 2px solid var(--ink-2); transform: translateY(-70%) rotate(45deg); }
+  details.event[open] > summary { border-bottom: 1px solid var(--line); }
+  details.event[open] > summary::after { transform: translateY(-30%) rotate(225deg); }
+  details.inner { border-left: 0; border-right: 0; border-radius: 0; }
+
+  /* GameChanger box scores */
+  .boxwrap { grid-column: 1 / -1; }
+  details.boxscore { border: 0; background: none; border-radius: 0; }
+  details.boxscore > summary { font-size: 12px; font-weight: 600; letter-spacing: .8px; text-transform: uppercase; color: var(--link); padding: 2px 0 0; cursor: pointer; }
+  .boxbody { display: grid; gap: 8px; padding: 8px 0 4px; }
+  .boxbody .table-wrap { border: 1px solid var(--line); border-radius: 6px; }
+  table.line td, table.line th, table.box td, table.box th { padding: 5px 8px; font-size: 13px; }
+  table.line th:first-child, table.line td:first-child { min-width: 120px; }
+  table.line .tot, table.box tr.tot td { font-weight: 600; }
+  table.line th.tot, table.line td.tot { border-left: 1px solid var(--line); }
+  table.box td.pl { white-space: nowrap; }
+  table.box .jersey { display: inline-block; min-width: 22px; margin-right: 6px; font-family: var(--display); font-weight: 700; color: var(--ink-2); text-align: right; }
+  table.box tr.tot td { border-top: 2px solid var(--line); }
+
+  .group-label { font-family: var(--body); font-size: 11px; font-weight: 600; letter-spacing: 1.5px; text-transform: uppercase; color: var(--ink-2); margin: 6px 0 -8px; }
+
+  /* Director notices */
+  .notices { display: grid; gap: 8px; padding: 10px 16px 4px; }
+  .notice-w { background: var(--loss-bg); border-left: 4px solid var(--loss); border-radius: 4px; padding: 8px 12px; font-size: 14px; }
+  .notice-w b { color: var(--loss); }
+  .ntext { white-space: pre-line; margin-top: 4px; line-height: 1.4; }
+  details.notice-g { border: 1px solid var(--line); border-radius: 4px; background: var(--chalk); }
+  details.notice-g summary { padding: 6px 12px; font-size: 13px; font-weight: 600; cursor: pointer; }
+  details.notice-g .ntext { padding: 0 12px 10px; font-size: 13px; }
+  details.notice-g.awards { border-color: var(--amber); background: var(--me-bg); }
+  .awards-list { margin: 0; padding: 0 12px 10px 28px; font-size: 13px; line-height: 1.45; }
+  .awards-list li { margin: 2px 0; }
+  .hdr-link a + a { margin-left: 0; }
+
+  /* Entries (Who's Playing) */
+  .entries-wrap { border-top: 1px solid var(--line); }
+  .entries-head { padding: 10px 0 4px; font-size: 14px; }
+  .entries { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 2px 16px; }
+  .entries li { padding: 4px 0; font-size: 14px; display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+  .entries li button { background: none; border: 0; padding: 0; font: inherit; color: var(--link); cursor: pointer; }
+  .entries .from { font-size: 12px; }
+  .mark-icon.sm { width: 20px; height: 15px; }
+
+  /* Stats page */
+  .statbar { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; padding: 8px 0 10px; }
+  .statbar .gap { flex: 1; }
+  .tab-pill { font: inherit; font-size: 13px; font-weight: 600; padding: 5px 12px; border-radius: 999px; border: 1px solid var(--line); background: var(--paper); color: var(--ink-2); cursor: pointer; }
+  .tab-pill.on { background: var(--navy); color: #fff; border-color: var(--navy); }
+  table.season th:first-child, table.season td:first-child, table.recon th:first-child, table.recon td:first-child { position: sticky; left: 0; background: var(--paper); z-index: 1; }
+  table.recon .vs { color: var(--ink-2); font-weight: 400; }
+  table.recon td.bad { background: var(--loss-bg); font-weight: 600; }
+  table.recon td.soft { color: var(--ink-2); }
+  h4.minor { font-family: var(--display); font-size: 17px; font-weight: 600; margin: 10px 0 6px; text-transform: uppercase; letter-spacing: .5px; }
+
+  /* Brackets */
+  .brackets { display: grid; gap: 14px; padding: 12px 16px 14px; border-top: 1px solid var(--line); }
+  .bracket-title { font-family: var(--display); font-size: 18px; font-weight: 600; text-transform: uppercase; letter-spacing: .5px; display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+  .champ { display: inline-flex; align-items: center; gap: 5px; font-family: var(--body); font-size: 13px; font-weight: 600; text-transform: none; letter-spacing: 0; color: var(--ink); background: var(--me-bg); border: 1px solid var(--amber); border-radius: 999px; padding: 2px 10px 2px 7px; }
+  .champ svg { color: var(--amber); }
+  .champ.plain { background: var(--chalk); border-color: var(--line); color: var(--ink-2); }
+  .champ.plain button { color: var(--ink); }
+  .champ button { background: none; border: 0; padding: 0; font: inherit; font-weight: 600; color: inherit; cursor: pointer; }
+  /* grid/flex items default to min-width:auto and grow to the SVG; pin them so the scroller can scroll */
+  .brackets, .bracket-block, .bracket-wrap, .tb, .tb-group, .table-wrap { min-width: 0; max-width: 100%; }
+  .bracket-wrap { display: flex; gap: 20px; align-items: flex-start; flex-wrap: wrap; }
+  .bracket-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; padding-bottom: 6px; flex: 1 1 520px; min-width: 0; max-width: 100%; }
+  .swipe-hint { display: none; font-size: 11px; letter-spacing: 1px; text-transform: uppercase; color: var(--ink-2); margin: -2px 0 6px; }
+  @media (max-width: 760px) { .swipe-hint { display: block; } }
+  .bracket-svg { display: block; font-family: var(--body); font-size: 13px; }
+  .bracket-svg line { stroke: var(--ink-2); stroke-width: 1.5; }
+  .bracket-svg .tname { fill: var(--ink); }
+  .bracket-svg .tname[data-team] { cursor: pointer; }
+  .bracket-svg .tname.win { font-weight: 600; }
+  .bracket-svg .tname.lose { fill: var(--ink-2); }
+  .bracket-svg .tname.tbd { fill: var(--ink-2); font-style: italic; }
+  .bracket-svg .tname.me { fill: var(--link); font-weight: 600; }
+  .bracket-svg .seed { fill: var(--ink-2); font-size: 11px; }
+  .bracket-svg .vs-mark image { cursor: pointer; }
+  .vs-icon { width: 18px; height: 13.5px; vertical-align: -2px; margin-left: 5px; cursor: pointer; }
+  .bracket-svg .score { fill: var(--ink-2); font-family: var(--display); font-size: 15px; font-weight: 600; }
+  .bracket-svg .score.win { fill: var(--win); }
+  .bracket-svg .gnum { fill: var(--ink-2); font-size: 10px; }
+  .bracket-svg .gcap { fill: var(--ink-2); font-size: 10px; }
+  .bracket-svg .gcap.me { fill: var(--link); font-weight: 700; }
+  .nextgame { display: flex; gap: 14px; align-items: stretch; background: var(--me-bg); border: 1px solid var(--amber); border-radius: 8px; padding: 10px 12px; margin: 10px 0 4px; }
+  .ng-when { flex: 0 0 auto; display: flex; flex-direction: column; justify-content: center; padding-right: 14px; border-right: 1px solid var(--amber); }
+  .ng-when b { font-family: var(--display); font-size: 24px; line-height: 1; }
+  .ng-when span { font-size: 11px; letter-spacing: 1px; text-transform: uppercase; color: var(--ink-2); margin-top: 4px; }
+  .ng-body { min-width: 0; }
+  .ng-opp { font-family: var(--display); font-size: 20px; font-weight: 600; line-height: 1.1; }
+  .ng-opp button { background: none; border: 0; padding: 0; font: inherit; color: var(--link); cursor: pointer; }
+  .ng-where { font-size: 14px; margin-top: 3px; }
+  .bracket-svg .glabel { fill: var(--ink-2); font-size: 11px; letter-spacing: 1px; text-transform: uppercase; }
+  .placings { list-style: none; margin: 0; padding: 8px 12px; border: 1px solid var(--line); border-radius: 6px; background: var(--chalk); display: grid; gap: 6px; flex: 0 0 auto; min-width: 200px; font-size: 14px; }
+  .placings li { display: flex; align-items: center; gap: 10px; }
+  .placings .phead { font-size: 11px; letter-spacing: 1.2px; text-transform: uppercase; color: var(--ink-2); }
+  .placings .place { font-family: var(--display); font-weight: 600; font-size: 15px; min-width: 92px; color: var(--ink-2); white-space: nowrap; }
+  .placings li:first-child .place { color: var(--amber); }
+  .placings button { background: none; border: 0; padding: 0; font: inherit; color: var(--ink); cursor: pointer; }
+  .placings li:first-child button { font-weight: 600; }
+
+  /* Tie-break ladder: one group per shared record */
+  .tb { padding: 12px 16px 4px; border-top: 1px solid var(--line); display: grid; gap: 14px; }
+  .tb h4 { font-family: var(--display); font-size: 18px; font-weight: 600; margin: 0; text-transform: uppercase; letter-spacing: .5px; }
+  .tb-group { display: grid; gap: 8px; }
+  .tb-title { font-size: 13px; color: var(--ink-2); }
+  .tb-title b { color: var(--ink); font-family: var(--display); font-size: 17px; }
+  .tb-steps { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 6px; }
+  .tb-step { display: grid; grid-template-columns: auto 1fr; grid-template-rows: auto auto; column-gap: 7px; align-items: center; padding: 5px 10px 5px 7px; border: 1px solid var(--line); border-radius: 6px; font-size: 12px; line-height: 1.2; color: var(--ink-2); background: var(--paper); position: relative; }
+  .tb-step b { grid-row: 1 / 3; font-family: var(--display); font-size: 18px; width: 22px; height: 22px; border-radius: 50%; display: grid; place-items: center; background: var(--tie-bg); color: var(--ink-2); }
+  .tb-step span { font-weight: 600; color: var(--ink); }
+  .tb-step small { font-size: 11px; }
+  .tb-step.used { border-color: var(--amber); background: var(--me-bg); }
+  .tb-step.used b { background: var(--amber); color: var(--navy); }
+  .tb-step.tied { border-style: dashed; }
+  .tb-step.skipped span { text-decoration: line-through; color: var(--ink-2); }
+  .tb-step.idle { opacity: .45; }
+  .tb-step:not(:last-child)::after { content: "→"; position: absolute; right: -9px; top: 50%; transform: translateY(-50%); color: var(--ink-2); font-size: 11px; z-index: 1; }
+  .tb .table-wrap { border: 1px solid var(--line); border-radius: 6px; }
+  td.decisive { background: var(--me-bg); font-weight: 600; box-shadow: inset 0 -2px 0 var(--amber); }
+  .datebox { flex: 0 0 auto; width: 54px; text-align: center; background: var(--navy); color: #fff; border-radius: 4px; padding: 6px 0 5px; }
+  .datebox b { display: block; font-family: var(--display); font-size: 26px; line-height: 1; }
+  .datebox span { font-size: 10px; letter-spacing: 1.5px; text-transform: uppercase; opacity: .8; }
+  .event-head h3 { font-size: 22px; font-weight: 600; }
+  .event-meta { font-size: 13px; color: var(--ink-2); margin-top: 2px; }
+  .event-links { margin-top: 6px; display: flex; flex-wrap: wrap; gap: 4px; }
+  .chip.link { color: var(--link); border-color: var(--link); text-decoration: none; background: var(--chalk); }
+  .chip.link:hover { background: var(--me-bg); }
+  .event-head .finish { margin-left: auto; text-align: right; flex: 0 0 auto; }
+  .finish b { display: block; font-family: var(--display); font-size: 24px; line-height: 1; font-variant-numeric: tabular-nums; }
+  .finish span { font-size: 11px; letter-spacing: 1px; text-transform: uppercase; color: var(--ink-2); }
+  .event-body { padding: 6px 16px 12px; }
+  .event-foot { padding: 8px 16px 12px; font-size: 13px; display: flex; gap: 16px; flex-wrap: wrap; }
+  .empty { padding: 14px 16px; color: var(--ink-2); font-size: 14px; }
+  .stag { display: inline-block; font-family: var(--body); font-size: 11px; font-weight: 600; letter-spacing: 1.2px; text-transform: uppercase; padding: 2px 8px; border-radius: 3px; margin-left: 6px; vertical-align: middle; }
+  .stag.live { background: var(--loss); color: #fff; }
+  .stag.tentative { border: 1px solid var(--amber); color: var(--ink); background: var(--me-bg); }
+  .stag.official { background: var(--win); color: #fff; }
+  .stag.final { background: var(--tie-bg); color: var(--ink-2); }
+  .stag.reg { background: var(--win-bg); color: var(--win); border: 1px solid var(--win); }
+  .stag.confirmed { background: var(--win); color: #fff; }
+  article.event.final .event-head { border-bottom: 0; }
+  article.event.final .datebox { opacity: .75; }
+  .chg { color: var(--loss); }
+  .chg-pill { display: inline-block; font-size: 10px; font-weight: 700; letter-spacing: .5px; text-transform: uppercase; padding: 1px 6px; border-radius: 999px; background: var(--amber); color: var(--navy); margin-left: 6px; vertical-align: middle; }
+  .chg-pill.next { background: var(--win); color: #fff; }
+  .game.moved { background: linear-gradient(90deg, var(--me-bg), transparent 70%); margin: 0 -16px; padding-left: 12px; padding-right: 16px; border-left: 4px solid var(--amber); }
+  .game.removed { opacity: .6; }
+  .game.removed .opp { text-decoration: line-through; }
+  .game.next { background: linear-gradient(90deg, var(--win-bg), transparent 70%); margin: 0 -16px; padding-left: 12px; padding-right: 16px; border-left: 4px solid var(--win); }
+  .was { font-size: 12px; color: var(--loss); text-decoration: line-through; }
+  .scout { font-style: italic; }
+  .pointer { margin: 0; padding: 12px 0; font-size: 15px; }
+  .linkish { background: none; border: 0; padding: 0; font: inherit; color: var(--link); text-decoration: underline; cursor: pointer; }
+  .box-btn { margin-top: 5px; font: inherit; font-size: 12px; font-weight: 600; letter-spacing: .5px; text-transform: uppercase; padding: 3px 10px; border-radius: 999px; border: 1px solid var(--link); background: var(--paper); color: var(--link); cursor: pointer; }
+  .box-btn:hover { background: var(--played-bg); }
+  .next-badge { display: inline-block; font-size: 11px; font-weight: 600; letter-spacing: 1.5px; text-transform: uppercase; color: var(--navy); background: var(--amber); padding: 2px 8px; border-radius: 3px; margin-left: 8px; vertical-align: middle; }
+
+  /* Game rows */
+  .games { list-style: none; margin: 0; padding: 0; }
+  .game { display: grid; grid-template-columns: 44px 1fr auto; gap: 4px 12px; align-items: center; padding: 10px 0; border-bottom: 1px solid var(--line); }
+  .game.won { background: linear-gradient(90deg, var(--win-bg), transparent 70%); margin: 0 -16px; padding-left: 12px; padding-right: 16px; border-left: 4px solid var(--win); }
+  .game.won .score { color: var(--win); }
+  .game.won .pill.W { background: var(--win); color: #fff; }
+  .game:last-child { border-bottom: 0; }
+  .pill { font-family: var(--display); font-weight: 700; font-size: 18px; text-align: center; border-radius: 4px; padding: 4px 0; line-height: 1; }
+  .pill.W { background: var(--win-bg); color: var(--win); }
+  .pill.L { background: var(--loss-bg); color: var(--loss); }
+  .pill.T { background: var(--tie-bg); color: var(--tie); }
+  .pill.time { background: var(--tie-bg); color: var(--ink); font-size: 15px; font-weight: 600; padding: 5px 2px; }
+  button.pill-link { border: 0; width: 100%; cursor: pointer; font: inherit; font-family: var(--display); font-weight: 700; font-size: 18px; }
+  button.score-link { background: none; border: 0; padding: 0; cursor: pointer; font-family: var(--display); font-size: 26px; font-weight: 700; font-variant-numeric: tabular-nums; color: inherit; text-decoration: underline dotted; text-underline-offset: 4px; }
+  .game.won button.score-link { color: var(--win); }
+  button.pill-link:hover { filter: brightness(.92); }
+  .opp { font-weight: 600; font-size: 16px; }
+  .opp button { background: none; border: 0; padding: 0; color: inherit; font-weight: 600; cursor: pointer; text-align: left; text-decoration: underline dotted; text-underline-offset: 3px; }
+  .opp button:hover { color: var(--link); }
+  .when { font-size: 13px; color: var(--ink-2); }
+  .when a { color: inherit; }
+  .score { font-family: var(--display); font-size: 26px; font-weight: 700; font-variant-numeric: tabular-nums; text-align: right; }
+  .score small { font-family: var(--body); font-size: 12px; font-weight: 500; color: var(--ink-2); display: block; text-align: right; }
+
+  /* Tables */
+  .table-wrap { overflow-x: auto; background: var(--paper); border: 1px solid var(--line); border-radius: 6px; }
+  table { border-collapse: collapse; width: 100%; font-variant-numeric: tabular-nums; }
+  th, td { padding: 8px 10px; text-align: left; white-space: nowrap; border-bottom: 1px solid var(--line); }
+  th { font-size: 11px; letter-spacing: 1.2px; text-transform: uppercase; color: var(--ink-2); font-weight: 600; background: var(--paper); position: sticky; top: 0; }
+  th.num, td.num { text-align: right; }
+  th.sortable { cursor: pointer; user-select: none; }
+  th.sortable:hover { color: var(--ink); }
+  th[aria-sort="descending"]::after { content: " ▾"; }
+  th[aria-sort="ascending"]::after { content: " ▴"; }
+  tr:last-child td { border-bottom: 0; }
+  tr.me td { background: var(--me-bg); font-weight: 600; }
+  td.mark, th.mark { width: 34px; padding-left: 8px; padding-right: 0; text-align: center; }
+  #panel-teams th.mark, #panel-teams td.mark { position: sticky; left: 0; z-index: 2; background: var(--paper); }
+  #panel-teams th:nth-child(2), #panel-teams td.team-cell { position: sticky; left: 42px; z-index: 2; background: var(--paper); box-shadow: 4px 0 6px -4px rgba(0,0,0,.25); }
+  #panel-teams tr.me td.mark, #panel-teams tr.me td.team-cell { background: var(--me-bg); }
+  #panel-teams th.mark, #panel-teams th:nth-child(2) { z-index: 3; }
+  .mark-icon { width: 28px; height: 21px; vertical-align: middle; cursor: pointer; }
+  .tip { position: fixed; z-index: 30; max-width: 300px; background: var(--navy); color: #fff; font-size: 13px; line-height: 1.4; padding: 8px 11px; border-radius: 6px; box-shadow: 0 4px 14px rgba(0,0,0,.3); white-space: pre-line; pointer-events: none; }
+  .tip::before { content: ""; position: absolute; left: 50%; top: -6px; margin-left: -6px; border: 6px solid transparent; border-top: 0; border-bottom-color: var(--navy); }
+  .tip.above::before { top: auto; bottom: -6px; border-bottom: 0; border-top: 6px solid var(--navy); }
+  .legend .mark-icon { width: 20px; height: 15px; }
+  td.wrap { white-space: normal; min-width: 180px; }
+  .chips { white-space: normal; min-width: 150px; }
+  .chip { display: inline-block; font-size: 11px; font-weight: 600; letter-spacing: .3px; padding: 1px 7px; border-radius: 999px; border: 1px solid var(--line); color: var(--ink-2); margin: 1px 3px 1px 0; white-space: nowrap; }
+  .chip.first { border-color: var(--amber); background: var(--me-bg); color: var(--ink); }
+  .chip b { font-weight: 700; }
+  .chip.derived { border-style: dashed; }
+  .legend { font-size: 12px; color: var(--ink-2); display: inline-flex; align-items: center; gap: 6px; }
+  .hdr-link { margin-top: 12px; display: flex; flex-wrap: wrap; gap: 8px; }
+  .hdr-chip { display: inline-flex; align-items: center; gap: 6px; padding: 6px 12px 6px 9px; border: 1px solid rgba(255,255,255,.35); border-radius: 999px; background: rgba(255,255,255,.08); color: #fff; font-size: 13px; font-weight: 600; text-decoration: none; }
+  .hdr-chip svg { width: 15px; height: 15px; color: var(--amber); flex: 0 0 auto; }
+  .hdr-chip:hover { background: rgba(255,255,255,.16); border-color: rgba(255,255,255,.6); }
+  td.team-cell button { background: none; border: 0; padding: 0; font: inherit; color: var(--link); cursor: pointer; text-align: left; }
+  td.team-cell button:hover { text-decoration: underline; }
+  td.from { color: var(--ink-2); font-size: 13px; }
+  .pos { color: var(--win); } .neg { color: var(--loss); }
+  .toolbar { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+  .toolbar input { flex: 1 1 200px; padding: 8px 10px; border: 1px solid var(--line); border-radius: 4px; background: var(--paper); color: var(--ink); font: inherit; }
+  details { background: var(--paper); border: 1px solid var(--line); border-radius: 6px; }
+  details.inner summary { cursor: pointer; padding: 10px 16px; font-weight: 600; }
+  details.inner .table-wrap { border: 0; border-top: 1px solid var(--line); border-radius: 0; }
+
+  /* Fields */
+  .fields { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 12px; }
+  .field { background: var(--paper); border: 1px solid var(--line); border-radius: 6px; padding: 12px 14px; }
+  .field h3 { font-size: 20px; font-weight: 600; }
+  .field .abbr { font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase; color: var(--ink-2); }
+  .field p { margin: 6px 0 8px; font-size: 13px; color: var(--ink-2); }
+  .field a { font-weight: 600; }
+  .field.has-up { border-color: var(--amber); box-shadow: inset 0 3px 0 var(--amber); }
+  .field.has-played { box-shadow: inset 0 3px 0 var(--link); }
+  .fhead { display: flex; justify-content: space-between; align-items: flex-start; gap: 8px; }
+  .ftag { flex: 0 0 auto; font-size: 10px; font-weight: 600; letter-spacing: 1.2px; text-transform: uppercase; padding: 3px 7px; border-radius: 3px; background: var(--played-bg); color: var(--link); }
+  .ftag.up { background: var(--amber); color: var(--navy); }
+  .fgames { list-style: none; margin: 4px 0 0; padding: 0; display: grid; gap: 6px; }
+  .fgames li { display: grid; grid-template-columns: 40px 1fr; gap: 10px; align-items: center; padding-top: 6px; border-top: 1px solid var(--line); font-size: 14px; }
+  .fgames .pill { font-size: 15px; padding: 4px 0; }
+  .fgames b { font-weight: 600; }
+  .fgames b button { background: none; border: 0; padding: 0; font: inherit; font-weight: 600; color: var(--link); cursor: pointer; }
+
+  /* Roster */
+  .roster { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 10px; }
+  .player { display: flex; gap: 14px; align-items: center; background: var(--paper); border: 1px solid var(--line); border-radius: 6px; padding: 10px 12px; }
+  .btn, .btn-img { flex: 0 0 84px; width: 84px; height: 84px; border-radius: 50%; filter: drop-shadow(0 2px 3px rgba(0,0,0,.35)); }
+  .btn-img { object-fit: cover; }
+  .player.dup .btn, .player.dup .btn-img { outline: 2px solid var(--loss); outline-offset: 2px; }
+  .pname { font-family: var(--display); font-size: 22px; font-weight: 600; line-height: 1.1; }
+  .pbody { min-width: 0; flex: 1; }
+  .ach { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 7px; }
+  .ach-item { display: inline-flex; align-items: center; gap: 4px; padding: 3px 8px 3px 5px; border-radius: 999px; border: 1px solid var(--line); font-size: 11px; color: var(--ink-2); opacity: .55; }
+  .ach-item svg { width: 15px; height: 15px; color: var(--ink-2); }
+  .ach-item b { font-family: var(--display); font-size: 15px; font-weight: 700; font-variant-numeric: tabular-nums; }
+  .ach-item i { font-style: normal; }
+  .ach-item.earned { opacity: 1; border-color: var(--amber); background: var(--me-bg); color: var(--ink); }
+  .ach-item.earned svg { color: var(--amber); }
+
+  /* Team sheet */
+  .sheet-back { position: fixed; inset: 0; background: rgba(10, 14, 28, .55); display: flex; justify-content: flex-end; z-index: 10; }
+  .sheet { width: min(560px, 100%); height: 100%; overflow-y: auto; background: var(--chalk); color: var(--ink); padding: 0 0 40px; box-shadow: -8px 0 30px rgba(0,0,0,.3); }
+  .sheet-head { background: var(--navy); color: #fff; padding: calc(16px + env(safe-area-inset-top, 0px)) 16px 16px; position: sticky; top: 0; display: flex; gap: 12px; align-items: flex-start; }
+  .sheet-head h2 { font-size: 30px; font-weight: 700; }
+  .sheet-head .sub { font-size: 13px; opacity: .8; margin-top: 4px; }
+  .sheet-head .close { margin-left: auto; background: none; border: 1px solid rgba(255,255,255,.35); color: #fff; border-radius: 4px; width: 36px; height: 36px; font-size: 20px; cursor: pointer; flex: 0 0 auto; }
+  .sheet-body { padding: 16px; display: grid; gap: 16px; }
+  .sheet .record { justify-content: flex-start; }
+  .sheet .stat { text-align: left; }
+  .sheet .stat b { font-size: 34px; }
+  .sheet .stat.big b { color: var(--amber); }
+  .h2h { background: var(--paper); border: 1px solid var(--line); border-radius: 6px; padding: 10px 16px; }
+  .h2h h3 { font-size: 18px; font-weight: 600; margin-bottom: 4px; }
+
+  footer { max-width: 1140px; margin: 0 auto; padding: 0 16px 32px; font-size: 12px; color: var(--ink-2); }
+
+  @media (max-width: 480px) {
+    .team-name { font-size: 36px; }
+    .stat b { font-size: 32px; } .stat.big b { font-size: 42px; }
+    .record { gap: 14px; }
+    .event-head { flex-wrap: wrap; }
+    .event-head .finish { margin-left: 68px; text-align: left; }
+    details.event > summary::after { top: 30px; }
+    details.inner .from { display: none; }
+    /* event cards: two-line header, finish line under the title, tighter body */
+    .event-head { gap: 10px 12px; padding: 12px 12px; }
+    .event-head h3 { font-size: 19px; }
+    .event-meta { font-size: 12px; }
+    .refreshed { display: block; }
+    .event-head .finish { flex-basis: 100%; margin-left: 0; display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; }
+    .finish b { font-size: 20px; }
+    .finish span { font-size: 10px; }
+    details.event > summary { padding-right: 36px; }
+    .event-body, .brackets, .tb { padding-left: 12px; padding-right: 12px; }
+    .game.won, .game.next, .game.moved { margin: 0 -12px; padding-right: 12px; padding-left: 8px; }
+    .datebox { width: 48px; }
+    .datebox b { font-size: 22px; }
+    .section-title { font-size: 22px; }
+    .board-top { gap: 8px 16px; }
+    .logo { width: 56px; }
+    .team-name { font-size: 32px; }
+    .stat b { font-size: 28px; } .stat.big b { font-size: 36px; }
+    .bracket-title { font-size: 16px; }
+    .placings { min-width: 0; width: 100%; }
+    .field { padding: 10px 12px; }
+    #panel-teams td.team-cell { max-width: 150px; white-space: normal; }
+    .tabs { gap: 0; justify-content: space-between; }
+    .tab { font-size: 14px; letter-spacing: .2px; padding: 10px 4px 12px; }
+    .game { grid-template-columns: 44px 1fr auto; }
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .sheet { animation: slide .18s ease-out; }
+    @keyframes slide { from { transform: translateX(30px); opacity: 0; } to { transform: none; opacity: 1; } }
+  }
+</style>
+</head>
+<body>
+
+<header class="board">
+  <div class="board-inner">
+    <div class="board-top">
+      <div class="brand"><img class="logo" src="logo.png" alt="" width="64" height="64">
+      <h1 class="team-name"><small id="hdr-sub">9U · Top Gun · Rock Hill, SC</small><span id="hdr-team">Elite 9</span> <span class="season-tag" id="hdr-season">Fall 2026</span></h1></div>
+      <div class="record" id="hdr-record"></div>
+    </div>
+    <div class="hdr-link" id="hdr-link"></div>
+  </div>
+</header>
+<div class="tabs-bar">
+  <div class="board-inner">
+    <nav class="tabs" role="tablist" id="tabs">
+      <button class="tab" role="tab" data-tab="tournaments" aria-selected="true">Tournaments</button>
+      <button class="tab" role="tab" data-tab="results">Results</button>
+      <button class="tab" role="tab" data-tab="roster">Roster</button>
+      <button class="tab" role="tab" data-tab="stats">Stats</button>
+      <button class="tab" role="tab" data-tab="teams">Teams</button>
+      <button class="tab" role="tab" data-tab="fields">Fields</button>
+    </nav>
+  </div>
+</div>
+
+<div class="notice-wrap"><div class="notice" id="notice" role="note">
+  <div><b>Not the official schedule.</b> Game times, field changes and rain-outs come from the coach in the <b>TeamReach</b> app — always check there first. This page is pulled from Top Gun's public site and can lag or miss a change.</div>
+  <button type="button" class="notice-close" id="notice-close" aria-label="Hide this notice">×</button>
+</div></div>
+
+<main>
+  <section role="tabpanel" id="panel-tournaments"></section>
+  <section role="tabpanel" id="panel-results" hidden></section>
+  <section role="tabpanel" id="panel-teams" hidden></section>
+  <section role="tabpanel" id="panel-fields" hidden></section>
+  <section role="tabpanel" id="panel-roster" hidden></section>
+  <section role="tabpanel" id="panel-stats" hidden></section>
+  <section role="tabpanel" id="panel-admin" hidden></section>
+</main>
+
+<div id="sheet" hidden></div>
+<div id="tip" class="tip" role="tooltip" hidden></div>
+
+<footer id="foot"></footer>
+
+<script>
+  // Load the data with a changing query string so a reload always gets the newest build
+  // (GitHub Pages lets browsers cache files for 10 minutes; phones often hold on longer).
+  document.write('<script src="data.js?v=' + Math.floor(Date.now() / 60000) + '"><\/script>');
+</script>
+<script>
+(function () {
+  const D = window.SITE_DATA;
+  const $ = (s) => document.querySelector(s);
+  const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const norm = (s) => String(s || "").toLowerCase().replace(/[^a-z0-9]/g, "");
+  const ME = norm(D.team);
+  const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+  const today = new Date(); today.setHours(0, 0, 0, 0);
+  const iso = (d) => d ? new Date(d + "T00:00:00") : null;
+
+  if (!D) {
+    $("main").innerHTML = '<p class="empty">No data yet. Run <code>python build_site.py</code> to create docs/data.js.</p>';
+    return;
+  }
+
+  // Top Gun names are shouty: "WIN THOUSANDS OF DOLLARS---DOUBLE POINTS" -> "Win Thousands of Dollars – Double Points"
+  const SMALL = new Set(["of", "the", "for", "and", "vs", "in", "a", "to", "by"]);
+  const CAPS = new Set(["nit", "toc", "usa", "nc", "sc", "tgs", "goat", "fnl", "lkn"]);
+  function tidy(name) {
+    return String(name || "").replace(/-{2,}/g, " – ").replace(/\s+/g, " ").trim().split(" ").map((w, i) => {
+      const l = w.toLowerCase();
+      if (/^\d+u$/.test(l) || CAPS.has(l.replace(/[^a-z]/g, ""))) return l.toUpperCase();
+      if (/^[a-z]\.?([a-z]\.?)+$/.test(l) && w.slice(0, -1).includes(".")) return w.toUpperCase();  // G.O.A.T., not "banners."
+      if (i > 0 && SMALL.has(l)) return l;
+      return l.charAt(0).toUpperCase() + l.slice(1);
+    }).join(" ");
+  }
+  function fieldParts(f) {
+    const [abbr, ...rest] = String(f || "").split(":");
+    const c = D.fields[abbr.trim()];
+    const sub = rest.join(":").replace(/#\s*/, "").trim();
+    return { abbr: abbr.trim(), name: c ? c.name : abbr.trim(), sub, address: c ? c.address : "" };
+  }
+  const mapsUrl = (addr) => "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(addr);
+  function fieldHtml(f) {
+    const p = fieldParts(f);
+    if (!p.abbr) return "";
+    const label = esc(p.name) + (p.sub ? " · " + esc(p.sub) : "");
+    return p.address ? `<a href="${mapsUrl(p.address)}" target="_blank" rel="noopener" title="${esc(p.address)}">${label}</a>` : label;
+  }
+  const datebox = (d) => {
+    const x = iso(d);
+    return x ? `<div class="datebox"><span>${MONTHS[x.getMonth()]}</span><b>${x.getDate()}</b></div>` : `<div class="datebox"><span>TBA</span><b>–</b></div>`;
+  };
+  const teamBtn = (name) => `<button type="button" data-team="${esc(name)}">${esc(name)}</button>`;
+  // That team's W-L record against Elite 9 ("they went 1-0 against us")
+  function vsUs(t) {
+    const g = t.log.filter((x) => norm(x.opponent) === ME);
+    const w = g.filter((x) => x.result === "W").length, l = g.filter((x) => x.result === "L").length, tt = g.length - w - l;
+    return { n: g.length, text: g.length ? `${w}-${l}${tt ? `-${tt}` : ""}` : "" };
+  }
+  // Hover text for a team we've played: every meeting, from Elite 9's side
+  function vsTip(t) {
+    return t.log.filter((x) => norm(x.opponent) === ME).map((x) => {
+      const d = iso(x.date);
+      return `${D.team} ${x.result === "L" ? "beat" : x.result === "W" ? "lost to" : "tied"} ${t.team} ${x.ra}–${x.rs} · ${d ? MONTHS[d.getMonth()] + " " + d.getDate() : x.date} · ${x.section} · ${tidy(x.event)}`;
+    }).join("\n");
+  }
+  const chip = (standing, count = 1, derived = false) => {
+    const s = String(standing || "").trim();
+    if (!s) return "";
+    const place = s.match(/^(\d+)/);
+    return `<span class="chip ${place && place[1] === "1" ? "first" : ""} ${derived ? "derived" : ""}" ${derived ? 'title="From the bracket results; Top Gun has not posted this finish yet"' : ""}>${esc(s.replace(/[()]/g, ""))}${count > 1 ? ` <b>×${count}</b>` : ""}</span>`;
+  };
+  // 1st and 2nd places only, grouped per bracket: [["1st (Gold)", 2, derived?], ["2nd (Silver)", 1, false]]
+  function topFinishes(t) {
+    const counts = new Map();
+    (t.finishes || []).forEach((f) => {
+      const m = /^(1st|2nd)\b/.exec(f.standing || "");
+      if (!m) return;
+      const cur = counts.get(f.standing) || [0, true];
+      counts.set(f.standing, [cur[0] + 1, cur[1] && !!f.derived]);
+    });
+    const rank = (st) => (/^1st/.test(st) ? 0 : 10) + (/gold/i.test(st) ? 0 : /silver/i.test(st) ? 1 : 2);
+    return [...counts.entries()].sort((a, b) => rank(a[0]) - rank(b[0])).map(([st, [n, d]]) => [st, n, d]);
+  }
+  const finishScore = (t) => topFinishes(t).reduce((acc, [st, n]) => acc + n * (/^1st/.test(st) ? 10 : 3) * (/gold/i.test(st) ? 3 : /silver/i.test(st) ? 2 : 1), 0);
+  const recordStr = (r) => `${r.w}-${r.l}` + (r.t ? `-${r.t}` : "");
+
+  // ---- header --------------------------------------------------------------
+  const R = D.record;
+  $("#hdr-team").textContent = D.team;
+  $("#hdr-season").textContent = D.season_label || "";
+  $("#hdr-sub").textContent = `${D.division} · Top Gun · ${D.location || ""}`.replace(/ · $/, "");
+  document.title = `${D.team} ${D.season_label || ""}`.trim();
+  $("#hdr-record").innerHTML = `
+    <div class="stat big"><b>${recordStr(R)}</b><span>Season</span></div>
+    <div class="stat"><b>${R.rs}</b><span>Runs for</span></div>
+    <div class="stat"><b>${R.ra}</b><span>Against</span></div>
+    ${D.points != null && D.finishes && D.finishes.length ? `<div class="stat"><b>${D.points}</b><span>Points</span></div>` : ""}`;
+  const LINK_ICON = { team: '<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M7 8c3 2 3 6 0 8M17 8c-3 2-3 6 0 8" stroke="currentColor" stroke-width="1.6" fill="none"/></svg>',
+    list: '<svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="17" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M3 9h18M8 2v4M16 2v4" stroke="currentColor" stroke-width="2"/></svg>',
+    gc: '<svg viewBox="0 0 24 24"><path d="M4 17l5-5 4 4 7-8" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><path d="M15 8h5v5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>' };
+  const chipLink = (url, label, icon) => url ? `<a class="hdr-chip" href="${esc(url)}" target="_blank" rel="noopener">${LINK_ICON[icon]}<span>${esc(label)}</span></a>` : "";
+  $("#hdr-link").innerHTML = [chipLink(D.team_url, `${D.team} on Top Gun`, "team"), chipLink(D.tgs_url, "Top Gun tournaments", "list"), chipLink(D.gc_url, "GameChanger", "gc")].join("");
+  // D.final (build_site.py --final): the season is over and this page is kept as a record.
+  const FINAL = !!D.final;
+  if (FINAL) {
+    const nEvents = (D.finishes || []).length, nTitles = D.titles || 0;
+    const bits = [`${recordStr(R)} in ${D.my_games.length} games`, nEvents ? `${nEvents} tournaments` : "", nTitles ? `${nTitles} ${nTitles === 1 ? "title" : "titles"}` : "", D.points != null ? `${D.points.toLocaleString()} Top Gun points` : ""].filter(Boolean);
+    $("#notice").classList.add("final");
+    $("#notice").firstElementChild.innerHTML = `<span class="final-title">${esc(D.season_label || "Season")} is in the books</span>`
+      + `Final: ${esc(bits.join(" · "))}. This page is kept as a record of the season and no longer updates — every score, box score and stat line stays right here. See you in the spring!`;
+  }
+  $("#foot").innerHTML = (FINAL ? `Final — last updated ${esc(D.built)}.` : `Updated ${esc(D.built)}.`) + ` Scores and schedules from <a href="https://playtopgunsports.com/" target="_blank" rel="noopener">playtopgunsports.com</a>; runs are only counted from games with a posted final.`
+    + (D.team_url ? ` <a href="${esc(D.team_url)}" target="_blank" rel="noopener">${esc(D.team)} on Top Gun</a>.` : "")
+    + (FINAL ? "" : ` Not the official schedule — the TeamReach app is.`) + ` <a href="#" id="notice-show">Show notice</a>`;
+
+  // Notice: hide on X, remembered per browser; the footer link brings it back. The season-over
+  // notice has its own key so it shows once even if the schedule notice was hidden before.
+  const NOTICE_KEY = FINAL ? "elite9.final" : "elite9.notice";
+  const noticeWrap = $(".notice-wrap");
+  try { if (localStorage.getItem(NOTICE_KEY) === "hidden") noticeWrap.hidden = true; } catch (_) {}
+  $("#notice-close").addEventListener("click", () => { noticeWrap.hidden = true; try { localStorage.setItem(NOTICE_KEY, "hidden"); } catch (_) {} });
+  $("#notice-show").addEventListener("click", (e) => { e.preventDefault(); noticeWrap.hidden = false; try { localStorage.removeItem(NOTICE_KEY); } catch (_) {} window.scrollTo({ top: 0, behavior: "smooth" }); });
+
+  // ---- Next Up ---------------------------------------------------------------
+  const fmtSeen = (iso) => { const d = iso ? new Date(iso) : null; return d && !isNaN(d) ? d.toLocaleDateString(undefined, { weekday: "short", month: "short", day: "numeric" }) + " " + d.toLocaleTimeString(undefined, { hour: "numeric", minute: "2-digit" }) : ""; };
+  const oppInfo = (name) => {
+    const t = D.teams.find((x) => norm(x.team) === norm(name));
+    if (!t) return "";
+    const v = vsUs(t);
+    return `${recordStr(t)} this season · ${v.n ? `they're ${v.text} vs us` : "first meeting"}`;
+  };
+  const gameKey = (g) => `${g.section}#${g.game}`;
+  const STAG = { live: "In progress", tentative: "Subject to change", official: "Official (per coach)" };
+  const stag = (kind) => `<span class="stag ${kind}">${STAG[kind]}</span>`;
+
+  // Director notices from topgunstats.com: weather (always shown) and general notes (collapsible)
+  function noticesHtml(t) {
+    if (!t) return "";
+    const w = t.weather ? `<div class="notice-w"><b>Weather / field notice</b>${t.weather.when ? `<span class="from"> · posted ${esc(fmtSeen(t.weather.when))}</span>` : ""}<div class="ntext">${esc(t.weather.text)}</div></div>` : "";
+    const g = t.general ? `<details class="notice-g"><summary>Director's notes${t.general.when ? `<span class="from"> · ${esc(fmtSeen(t.general.when))}</span>` : ""}</summary><div class="ntext">${esc(t.general.text)}</div></details>` : "";
+    // the event listing's notes are where directors describe the prizes ("rings plus banners")
+    // shown open, as a list: the director writes it as one dash-separated line
+    const items = t.awards ? tidy(t.awards).replace(/Gun-usa/g, "Gun-USA").split(/\s*–\s*/).map((x) => x.trim()).filter(Boolean) : [];
+    const a = items.length ? `<details class="notice-g awards" open><summary>What's on the line</summary><ul class="awards-list">${items.map((x) => `<li>${esc(x)}</li>`).join("")}</ul></details>` : "";
+    return w || g || a ? `<div class="notices">${w}${g}${a}</div>` : "";
+  }
+  const tgsLink = (t, id) => `<a href="${esc((t && t.url) || ("https://topgunstats.com/whos-playing/" + id))}" target="_blank" rel="noopener">Top Gun Stats ↗</a>`;
+
+  // Who's Playing (topgunstats.com): is Elite 9 on the entry list? (counts only, no other team names)
+  function regTag(e) {
+    const en = e.entries, t = (en && en.team) || {};
+    const onList = t.entered ? `On Top Gun's entry list for ${esc(t.division || D.division)}${t.entered_at ? " since " + esc(fmtSeen(t.entered_at)) : ""}` : "";
+    if (e.confirmed) return `<span class="stag confirmed" title="Coach confirmed we're playing${onList ? " · " + onList : ""}">Confirmed ✓</span>`;
+    if (t.entered) return `<span class="stag reg" title="${onList}">${t.waitlist ? "Waitlisted" : t.confirmed ? "Registered · confirmed ✓" : "Registered ✓"}</span>`;
+    return "";
+  }
+  function regMeta(e) {
+    const en = e.entries;
+    if (!en) return "";
+    const t = en.team || {};
+    return ` · ${en.count} team${en.count === 1 ? "" : "s"} entered in ${esc(D.division)}`;
+  }
+
+  // One of our games on a Tournaments card: result or time, opponent scouting, schedule changes,
+  // and for a bracket slot that isn't decided yet, the teams it could be.
+  function nextGameHtml(e, g) {
+    if (!g) return "";
+    const f = fieldParts(g.field);
+    const opp = g.opponent, tbd = PH.test(opp);
+    let who = tbd ? esc(opp) : teamBtn(opp);
+    if (tbd) {
+      const div = (e.games || []).find((x) => x.section === g.section && x.game === g.game);
+      const side = div && (norm(div.team_a) === ME ? "b" : norm(div.team_b) === ME ? "a" : (PH.test(div.team_a) ? "a" : "b"));
+      const ref = div && div["from_" + side];
+      const src = ref && (e.games || []).find((x) => x.section === g.section && x.game === ref.game);
+      const cands = src ? [src.team_a, src.team_b].filter((n) => n && !PH.test(n)) : [];
+      if (cands.length) who = `${ref.type === "winner" ? "winner" : "loser"} of ${cands.map((n) => teamBtn(n)).join(" / ")}`;
+    }
+    return `<div class="nextgame">
+      <div class="ng-when"><b>${esc(g.day)} ${esc(g.time)}</b><span>${esc(g.section)} G${g.game}</span></div>
+      <div class="ng-body"><div class="ng-opp">vs ${who}</div>
+        <div class="ng-where">${f.name ? esc(f.name) : esc(g.field || "")}${f.sub ? " · " + esc(f.sub) : ""}${f.address ? ` · <a href="${mapsUrl(f.address)}" target="_blank" rel="noopener">Map ↗</a>` : ""}</div>
+        ${!tbd && oppInfo(opp) ? `<div class="when scout">${esc(oppInfo(opp))}</div>` : ""}</div></div>`;
+  }
+
+  function ourGameRow(e, g, changes, nextKey) {
+    const c = (changes || []).find((x) => x.key === gameKey(g));
+    const was = c && c.kind === "changed" ? Object.entries(c.was).map(([k, v]) => k === "field" ? fieldParts(v).name + (fieldParts(v).sub ? " · " + fieldParts(v).sub : "") : v).join(" · ") : "";
+    const opp = g.opponent, tbd = PH.test(opp);
+    let possible = "";
+    if (tbd) {
+      const div = (e.games || []).find((x) => x.section === g.section && x.game === g.game);
+      const side = div && (norm(div.team_a) === ME ? "b" : norm(div.team_b) === ME ? "a" : (PH.test(div.team_a) ? "a" : "b"));
+      const ref = div && div["from_" + side];
+      const src = ref && (e.games || []).find((x) => x.section === g.section && x.game === ref.game);
+      if (src) {
+        const cands = [src.team_a, src.team_b].filter((n) => n && !PH.test(n));
+        if (cands.length) possible = `<div class="when scout">${ref.type === "winner" ? "Winner" : "Loser"} of G${ref.game}: ${cands.map((n) => `${teamBtn(n)}${oppInfo(n) ? ` (${esc(oppInfo(n))})` : ""}`).join(" or ")}</div>`;
+      }
+    }
+    const isNext = nextKey && gameKey(g) === nextKey;
+    const pill = g.result
+      ? `<button type="button" class="pill ${g.result} pill-link" data-goto="results" data-event="${e.id}" title="${g.result === "W" ? "Won" : g.result === "L" ? "Lost" : "Tied"} ${g.rs}–${g.ra} — see Results">${g.result}</button>`
+      : `<div class="pill time">${esc(g.day)}</div>`;
+    return `<li class="game ${isNext ? "next" : ""} ${c ? "moved" : ""}">
+      ${pill}
+      <div><div class="opp">${tbd ? esc(opp) : teamBtn(opp)}${isNext ? '<span class="chg-pill next">next</span>' : ""}${c ? `<span class="chg-pill">${c.kind === "added" ? "new" : "changed"}</span>` : ""}</div>
+           <div class="when">${esc(g.day)} ${esc(g.time)} · ${fieldHtml(g.field)} · ${esc(g.section)} G${g.game}</div>
+           ${was ? `<div class="was">was ${esc(was)}</div>` : ""}
+           ${!tbd && oppInfo(opp) ? `<div class="when scout">${esc(oppInfo(opp))}</div>` : ""}${possible}</div>
+      <div class="score">${g.result ? "" : `<small>${esc(g.time)}</small>`}</div>
+    </li>`;
+  }
+  const sortGames = (list) => list.slice().sort((a, b) => (a.date || "").localeCompare(b.date || "") || clock(a.time) - clock(b.time) || a.game - b.game);
+
+  function renderNext() {
+    const list = (D.tournaments || []).slice().sort((a, b) => (a.date || "9999").localeCompare(b.date || "9999"));
+    if (!list.length) {
+      $("#panel-tournaments").innerHTML = `<h2 class="section-title">Tournaments</h2><div class="event"><p class="empty">No tournaments on the list. Add tournament IDs to upcoming.json and rebuild.</p></div>`;
+      return;
+    }
+    const nextIdx = list.findIndex((e) => e.state !== "live" && e.state !== "final" && (!e.date || iso(e.date) >= today));
+    const nDone = list.filter((e) => e.state === "final").length;
+    // order: the live event (or the next one) on top, then previous events newest first, then the rest coming up
+    const featured = list.find((e) => e.state === "live") || (nextIdx >= 0 ? list[nextIdx] : null);
+    const previous = list.filter((e) => e !== featured && e.state === "final").reverse();
+    const coming = list.filter((e) => e !== featured && e.state !== "final");
+    const groups = [["", featured ? [featured] : []], ["Previous", previous], ["Coming up", coming]];
+    const ordered = groups.flatMap(([label, items]) => items.map((e, j) => [e, j === 0 ? label : ""]));
+    $("#panel-tournaments").innerHTML = `<h2 class="section-title">Tournaments <span class="sub">${list.length} this season · ${nDone} played${FINAL ? " · season complete" : " · schedules are subject to change until game day — the coach's TeamReach post is final"}</span></h2>` +
+      ordered.map(([e, label]) => {
+        const i = list.indexOf(e);
+        let body = "", tag = "", meta = esc(e.dates);
+        if (e.state === "final") {
+          const s = e.summary;
+          tag = '<span class="stag final">Final</span>';
+          if (s) {
+            const bg = s.bracket_games || [];
+            const br = bg.length ? bg.map((b) => `${esc(b.section.replace(/ bracket$/i, ""))} ${b.result} ${b.rs}–${b.ra}`).join(", ") : (s.bracket ? esc(s.bracket) : "no bracket game");
+            body = `<div class="event-body"><p class="pointer"><b>${ordinal(s.rank)} of ${s.teams}</b> · went ${s.w}-${s.l} · pool ${esc(s.pool)} · ${br} &nbsp; <button type="button" class="linkish" data-goto="results" data-event="${e.id}">See results →</button></p></div>`;
+          } else {
+            body = `<div class="event-body"><p class="pointer"><button type="button" class="linkish" data-goto="results" data-event="${e.id}">See results →</button></p></div>`;
+          }
+        } else if (e.state === "live") {
+          tag = stag("live");
+          const nextKey = e.next_game ? gameKey(e.next_game) : null;
+          const games = sortGames(e.mine || []);
+          body = `<div class="event-body">${nextGameHtml(e, e.next_game)}<p class="pointer">Game day — brackets, standings and box scores are on <button type="button" class="linkish" data-goto="results" data-event="${e.id}">Results</button>. Our games:</p>
+            <ul class="games">${games.map((g) => ourGameRow(e, g, e.changes, nextKey)).join("")}</ul></div>`;
+        } else if (!e.posted) {
+          body = `<p class="empty">Schedule not posted yet — Top Gun usually posts during the week, then changes it a few times before game day.</p>`;
+        } else if (!e.mine.length) {
+          body = `<p class="empty">Schedule is up, but ${esc(D.team)} isn't on it yet.</p>`;
+        } else {
+          tag = stag(e.official ? "official" : "tentative");
+          const changes = e.changes || [];
+          const chg = changes.filter((c) => c.kind === "changed").length, add = changes.filter((c) => c.kind === "added").length, rem = changes.filter((c) => c.kind === "removed");
+          meta += ` · schedule v${e.schedule_versions}${e.schedule_updated ? ` · updated ${esc(fmtSeen(e.schedule_updated))}` : ""}` +
+            (chg || add || rem.length ? ` · <b class="chg">${[chg && `${chg} game${chg > 1 ? "s" : ""} moved`, add && `${add} added`, rem.length && `${rem.length} removed`].filter(Boolean).join(", ")}</b>` : "");
+          const games = sortGames(e.mine);
+          body = `<div class="event-body"><ul class="games">` + games.map((g) => ourGameRow(e, g, changes, null)).join("") + rem.map((c) => `<li class="game removed"><div class="pill time">${esc(c.was.day)}</div><div><div class="opp">${esc(c.was.opponent)}<span class="chg-pill">removed</span></div><div class="when">${esc(c.was.day)} ${esc(c.was.time)} · ${fieldHtml(c.was.field)}</div></div><div class="score"></div></li>`).join("") + `</ul></div>`;
+        }
+        return `${label ? `<h3 class="group-label">${label}</h3>` : ""}<article class="event ${e.state}" id="tournament-${e.id}">
+          <div class="event-head">${datebox(e.date)}
+            <div><h3>${esc(tidy(e.name))}${i === nextIdx ? '<span class="next-badge">Next</span>' : ""} ${tag}${e.state === "final" ? "" : regTag(e)}</h3>
+                 <div class="event-meta">${meta}${e.standings.length ? ` · ${e.standings.length} teams` : ""}${e.state === "final" ? "" : regMeta(e)}</div>
+                 <div class="event-links">${e.url ? `<a class="chip link" href="${esc(e.url)}" target="_blank" rel="noopener">Tournament page on Top Gun ↗</a>` : ""}<a class="chip link" href="${esc((e.tgs && e.tgs.url) || ("https://topgunstats.com/whos-playing/" + e.id))}" target="_blank" rel="noopener">Top Gun Stats ↗</a></div></div>
+          </div>
+          ${e.state === "final" ? "" : noticesHtml(e.tgs)}
+          ${body}
+          ${e.state !== "final" && e.ics ? `<div class="event-foot"><a href="${esc(e.ics)}" download title="The first game of each day starts 45 minutes early in your calendar (arrival time)">Add our games to your calendar</a></div>` : ""}
+        </article>`;
+      }).join("");
+  }
+
+  // ---- GameChanger box score for one of our games -------------------------------
+  const ip = (v) => { if (v == null) return ""; const w = Math.floor(v), t = Math.round((v - w) * 3); return t ? `${w}.${t}` : `${w}.0`; };
+  const BAT_EXTRA = ["2B", "3B", "HR", "SB", "HBP", "SF", "E"];
+  const PIT_EXTRA = ["#P", "TS", "BF", "WP", "HBP"];
+  function boxScoreHtml(b) {
+    const g = { opponent: b.opponent || "Opponent" };
+    if (!b || !b.line_score) return "";
+    const ls = b.line_score, us = ls.team || {}, them = ls.opponent || {};
+    const n = Math.max((us.scores || []).length, (them.scores || []).length);
+    const inn = [...Array(n)].map((_, i) => i + 1);
+    const cellRow = (label, side) => `<tr class="${label === D.team ? "me" : ""}"><td>${esc(label)}</td>${inn.map((i) => `<td class="num">${side.scores && side.scores[i - 1] != null ? side.scores[i - 1] : (i - 1 < n && side === them && b.home_away === "away" && i === n ? "X" : "")}</td>`).join("")}${(side.totals || []).map((t) => `<td class="num tot">${t}</td>`).join("")}</tr>`;
+    const order = b.home_away === "away" ? [[D.team, us], [g.opponent, them]] : [[g.opponent, them], [D.team, us]];
+    const line = `<div class="table-wrap"><table class="line"><thead><tr><th></th>${inn.map((i) => `<th class="num">${i}</th>`).join("")}<th class="num tot">R</th><th class="num tot">H</th><th class="num tot">E</th></tr></thead>
+      <tbody>${order.map(([label, side]) => cellRow(label, side)).join("")}</tbody></table></div>`;
+    const lineup = b.lineup, pitching = b.pitching;
+    const bx = lineup ? BAT_EXTRA.filter((k) => lineup.players.some((p) => p.extra && p.extra[k])) : [];
+    const px = pitching ? PIT_EXTRA.filter((k) => pitching.players.some((p) => p.extra && p.extra[k])) : [];
+    const bat = lineup ? `<div class="table-wrap"><table class="box"><thead><tr><th>Batting</th><th></th><th class="num">AB</th><th class="num">R</th><th class="num">H</th><th class="num">RBI</th><th class="num">BB</th><th class="num">SO</th>${bx.map((k) => `<th class="num">${k}</th>`).join("")}</tr></thead>
+      <tbody>${lineup.players.map((p) => `<tr><td class="pl"><span class="jersey">${p.number != null ? p.number : ""}</span>${esc(p.name)}</td><td class="from">${esc(p.positions || "")}</td>${["AB", "R", "H", "RBI", "BB", "SO"].map((k) => `<td class="num ${k === "H" && p.H ? "pos" : ""}">${p[k] != null ? p[k] : ""}</td>`).join("")}${bx.map((k) => `<td class="num ${p.extra && p.extra[k] ? "pos" : ""}">${p.extra && p.extra[k] ? p.extra[k] : ""}</td>`).join("")}</tr>`).join("")}
+      ${lineup.team ? `<tr class="tot"><td>Team</td><td></td>${["AB", "R", "H", "RBI", "BB", "SO"].map((k) => `<td class="num">${lineup.team[k] != null ? lineup.team[k] : ""}</td>`).join("")}${bx.map(() => "<td></td>").join("")}</tr>` : ""}</tbody></table></div>` : "";
+    const pit = pitching ? `<div class="table-wrap"><table class="box"><thead><tr><th>Pitching</th><th class="num">IP</th><th class="num">H</th><th class="num">R</th><th class="num">ER</th><th class="num">BB</th><th class="num">SO</th>${px.map((k) => `<th class="num">${k === "#P" ? "Pitches" : k === "TS" ? "Strikes" : k}</th>`).join("")}</tr></thead>
+      <tbody>${pitching.players.map((p) => `<tr><td class="pl"><span class="jersey">${p.number != null ? p.number : ""}</span>${esc(p.name)}</td><td class="num">${ip(p.IP)}</td>${["H", "R", "ER", "BB", "SO"].map((k) => `<td class="num ${k === "SO" && p.SO ? "pos" : ""}">${p[k] != null ? p[k] : ""}</td>`).join("")}${px.map((k) => `<td class="num">${p.extra && p.extra[k] != null ? p.extra[k] : ""}</td>`).join("")}</tr>`).join("")}</tbody></table></div>` : "";
+    const ob = b.opponent_box || {};
+    const oppLine = ob.lineup ? `<p class="when">${esc(g.opponent)}: ${ob.lineup.H} hits, ${ob.lineup.BB} walks, ${ob.lineup.SO} strikeouts${ob.pitching ? ` · their pitching struck out ${ob.pitching.SO} and walked ${ob.pitching.BB}` : ""}.</p>` : "";
+    return `<details class="boxscore"><summary>Box score${b.time ? ` · ${esc(b.time)}` : ""}</summary><div class="boxbody">${line}${bat}${pit}${oppLine}<p class="when">From GameChanger${b.url ? ` · <a href="${esc(b.url)}" target="_blank" rel="noopener">open ↗</a>` : ""}</p></div></details>`;
+  }
+
+  // ---- Bracket play, drawn as a bracket ----------------------------------------
+  const TROPHY = '<svg viewBox="0 0 24 24" width="16" height="16"><path d="M7 3h10v2h3v3c0 2.5-2 4.5-4.5 4.8A5 5 0 0113 15.9V18h3v2H8v-2h3v-2.1a5 5 0 01-2.5-3.1C6 12.5 4 10.5 4 8V5h3zm-1 4v1c0 1.3.9 2.4 2.1 2.8A7 7 0 018 9V7zm12 0h-2v2c0 .6-.1 1.2-.1 1.8C17.1 10.4 18 9.3 18 8z" fill="currentColor"/></svg>';
+  const PH = /^(winner|loser|seed|tbd)/i;
+  function bracketHtml(section, games, index = 0, mine = new Map()) {
+    // mine: norm(opponent) -> our games vs them this event, for the W/L tags
+    const vsInfo = (name) => {
+      const g = mine.get(norm(name));
+      if (!g || !g.length) return null;
+      const tag = g.map((x) => `${x.result} ${x.rs}–${x.ra}`).join(", ");
+      const tip = g.map((x) => `${D.team} ${x.result === "W" ? "beat" : x.result === "L" ? "lost to" : "tied"} ${name} ${x.rs}–${x.ra} (${x.section} G${x.game})`).join("; ");
+      return { tag, tip, cls: g.every((x) => x.result === "W") ? "W" : g.every((x) => x.result === "L") ? "L" : "T" };
+    };
+    const bracketName = section.replace(/ bracket$/i, "");
+    const isTop = index === 0 || /gold|championship/i.test(section);   // only the top bracket has a Champion
+    const byNum = new Map(games.map((g) => [g.game, g]));
+    const roundOf = (g, depth = 0) => {
+      const refs = [g.from_a, g.from_b].filter((r) => r && byNum.has(r.game));
+      return refs.length && depth < 12 ? 1 + Math.max(...refs.map((r) => roundOf(byNum.get(r.game), depth + 1))) : 1;
+    };
+    const played = (g) => g.score_a != null && g.score_b != null;
+    const consolation = (g) => !!(g.from_a && g.from_a.type === "loser" && g.from_b && g.from_b.type === "loser");
+    const winnerSide = (g) => !played(g) || g.score_a === g.score_b ? null : g.score_a > g.score_b ? "a" : "b";
+    const winnerOf = (g) => winnerSide(g) ? g["team_" + winnerSide(g)] : null;
+    const loserOf = (g) => winnerSide(g) ? g["team_" + (winnerSide(g) === "a" ? "b" : "a")] : null;
+    const short = (n, max = 24) => n.length > max ? n.slice(0, max - 1) + "…" : n;
+    // Shape: a tree (games feed later games) vs standalone placing games (no game feeds another).
+    // Places are within the bracket, as Top Gun scores them: a two-game Silver is 1st/2nd then 3rd/4th (Silver).
+    const referenced = new Set(games.flatMap((g) => [g.from_a, g.from_b].filter(Boolean).map((r) => r.game)));
+    const tree = referenced.size > 0;
+    const placeLabel = (p) => p === 1 && isTop && (tree || games.length === 1) ? "Champion" : `${ordinal(p)} place · ${bracketName}`;
+    // a team keeps its original seed on every line it advances to
+    const seedOf = new Map();
+    games.forEach((g) => ["a", "b"].forEach((side) => { const n = g["team_" + side], sd = g["seed_" + side]; if (sd && !PH.test(n)) seedOf.set(norm(n), sd); }));
+    const gamePos = new Map();
+    if (!tree) games.slice().sort((a, b) => a.game - b.game).forEach((g, i) => gamePos.set(g.game, 2 * i + 1));
+    // a slot that reads "Winner Game #1" is known once game 1 is decided
+    const resolveSlot = (g, side) => {
+      const name = g["team_" + side], f = g["from_" + side];
+      if (!PH.test(name || "") || !f || !byNum.has(f.game)) return name;
+      const src = byNum.get(f.game);
+      const w = winnerOf(src), l = loserOf(src);
+      return (f.type === "winner" ? w : l) || `${f.type === "winner" ? "Winner" : "Loser"} of G${f.game}`;
+    };
+    const nameText = (x, y, name, cls, anchor = "start") => {
+      if (PH.test(name || "")) return `<text x="${x}" y="${y}" class="tname tbd" text-anchor="${anchor}">${esc(name)}</text>`;
+      const v = vsInfo(name);
+      const text = `<text x="${x + (v ? 21 : 0)}" y="${y}" class="tname ${cls} ${norm(name) === ME ? "me" : ""}" text-anchor="${anchor}" data-team="${esc(name)}">${esc(short(name, v ? 21 : 24))}</text>`;
+      // our cap marks a team we played this event; hovering gives the score
+      return v ? `<g class="vs-mark"><title>${esc(v.tip)}</title><image href="logo.png" x="${x}" y="${y - 12}" width="18" height="13.5"/>${text}</g>` : text;
+    };
+    const vsTag = (name) => { const v = vsInfo(name); return v ? `<img class="vs-icon" src="logo.png" alt="played ${esc(D.team)}" title="${esc(v.tip)}">` : ""; };
+
+    // Classic printed bracket: each team on a line, lines joined game to game, the winner's line runs right.
+    const L = 200, GAP = 30, S = 34, GG = 30, LEFT = 6;
+    const out = [];
+    let maxY = 0;
+    const drawBracket = (list, top, leafName, endLabel) => {
+      // Columns are rounds counted back from the final (a bye seed enters in the column where it
+      // plays); each game is laid out from its final down, leaves allocated top to bottom.
+      const inList = new Map(list.map((g) => [g.game, g]));
+      const childOf = (g, side) => { const f = g["from_" + side]; return f && f.type === "winner" && inList.has(f.game) ? inList.get(f.game) : null; };
+      const fedInto = new Set(list.flatMap((g) => ["a", "b"].map((sd) => { const c = childOf(g, sd); return c ? c.game : null; }).filter((v) => v != null)));
+      const finals = list.filter((g) => !fedInto.has(g.game)).sort((a, b) => a.game - b.game);
+      const depth = (g) => 1 + Math.max(...["a", "b"].map((sd) => { const c = childOf(g, sd); return c ? depth(c) : 0; }));
+      const maxD = Math.max(...finals.map((g) => depth(g) - 1), 0);
+      let cursor = top;
+      const caption = (g, x, y, ours) => {
+        const f = fieldParts(g.field);
+        out.push(`<text x="${x + 2}" y="${y + 12}" class="gcap ${ours ? "me" : ""}">${esc(g.day)} ${esc(g.time)}${f.abbr ? " · " + esc(f.name && f.name.length < 22 ? f.name : f.abbr) + (f.sub ? " " + esc(f.sub) : "") : ""}</text>`);
+      };
+      const place = (g, dist) => {
+        const x = LEFT + (maxD - dist) * (L + GAP);
+        const ys = ["a", "b"].map((side) => {
+          const child = childOf(g, side);
+          if (child) return place(child, dist + 1).mid;
+          const y = cursor; cursor += S;
+          const nm = leafName(g, side);
+          const seed = g["seed_" + side] || seedOf.get(norm(nm));
+          out.push(`<line x1="${x}" y1="${y}" x2="${x + L}" y2="${y}"/>`);
+          out.push(nameText(x + 2 + (seed ? 22 : 0), y - 5, nm, winnerSide(g) === side ? "win" : played(g) ? "lose" : ""));
+          if (seed) out.push(`<text x="${x + 2}" y="${y - 5}" class="seed">#${seed}</text>`);
+          return y;
+        });
+        ["a", "b"].forEach((side, i) => { if (played(g)) out.push(`<text x="${x + L - 3}" y="${ys[i] - 5}" class="score ${winnerSide(g) === side ? "win" : ""}" text-anchor="end">${g["score_" + side]}</text>`); });
+        const mid = (ys[0] + ys[1]) / 2;
+        const ours = ["a", "b"].some((sd) => norm(resolveSlot(g, sd)) === ME);
+        caption(g, x, ys[1], ours);
+        out.push(`<line x1="${x + L}" y1="${ys[0]}" x2="${x + L}" y2="${ys[1]}"/>`);
+        const isFinal = dist === 0;
+        const nx = x + L + GAP, nl = isFinal ? L - 20 : L;
+        out.push(`<line x1="${x + L}" y1="${mid}" x2="${nx + nl}" y2="${mid}"/>`);
+        const w = winnerOf(g);
+        if (w) {
+          const sd = seedOf.get(norm(w));
+          out.push(nameText(nx + 2 + (sd ? 22 : 0), mid - 5, w, "win"));
+          if (sd) out.push(`<text x="${nx + 2}" y="${mid - 5}" class="seed">#${sd}</text>`);
+        }
+        if (isFinal) out.push(`<text x="${nx + 2}" y="${mid + 14}" class="glabel">${esc(endLabel(g))}</text>`);
+        cursor += GG;
+        maxY = Math.max(maxY, ys[1] + 16, mid + 16, cursor - GG);
+        return { mid };
+      };
+      finals.forEach((g) => place(g, 0));
+      return { width: LEFT + (maxD + 1) * (L + GAP) + L, rounds: maxD + 1 };
+    };
+
+    const winners = games.filter((g) => !consolation(g)), consols = games.filter(consolation);
+    const wb = drawBracket(winners, 26, (g, side) => resolveSlot(g, side), (g) => placeLabel(tree ? 1 : gamePos.get(g.game)));
+    let cb = { width: 0 };
+    if (consols.length) {
+      const top = maxY + 56;
+      out.push(`<text x="${LEFT}" y="${top - 26}" class="glabel">Consolation</text>`);
+      cb = drawBracket(consols, top, (g, side) => resolveSlot(g, side), () => placeLabel(3));
+    }
+    const W = Math.max(wb.width, cb.width) + 40, H = maxY + 8;
+
+    // Placings, in order, as far as the results allow
+    let places, champ;
+    if (tree) {
+      const finalGame = winners.find((g) => roundOf(g) === Math.max(...winners.map(roundOf)) && !referenced.has(g.game));
+      const conGame = consols[0];
+      places = [[1, finalGame && winnerOf(finalGame)], [2, finalGame && loserOf(finalGame)],
+        [3, conGame && winnerOf(conGame)], [4, conGame && loserOf(conGame)]].filter((p, i) => i < 2 || conGame);
+      champ = finalGame && winnerOf(finalGame);
+    } else {
+      places = [];
+      [...gamePos.entries()].sort((a, b) => a[1] - b[1]).forEach(([num, p]) => { const g = byNum.get(num); places.push([p, winnerOf(g)], [p + 1, loserOf(g)]); });
+      champ = games.length === 1 ? winnerOf(games[0]) : null;   // two standalone games have no bracket champion
+    }
+    return `<div class="bracket-block"><div class="bracket-title">${esc(section)} ${champ ? `<span class="champ ${isTop ? "" : "plain"}">${isTop ? TROPHY : `1st ${esc(bracketName)} ·`} ${teamBtn(champ)}</span>` : ""}</div>
+      <div class="bracket-wrap"><div class="bracket-scroll"><svg class="bracket-svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}">${out.join("")}</svg></div><div class="swipe-hint">Swipe sideways to see the whole bracket →</div>
+      <ol class="placings"><li class="phead">${esc(bracketName)} bracket</li>${places.map(([p, n]) => `<li><span class="place">${p === 1 && isTop && (tree || games.length === 1) ? "Champion" : `${ordinal(p)} ${esc(bracketName)}`}</span>${n ? teamBtn(n) + vsTag(n) : '<span class="from">TBD</span>'}</li>`).join("")}</ol></div></div>`;
+  }
+  function bracketsHtml(games, myGames = []) {
+    const mine = new Map();
+    myGames.filter((g) => g.result).forEach((g) => { const k = norm(g.opponent); if (!mine.has(k)) mine.set(k, []); mine.get(k).push(g); });
+    const secs = [...new Set(games.filter((g) => !/^pool/i.test(g.section)).map((g) => g.section))];
+    return secs.length ? `<div class="brackets">${secs.map((s, i) => bracketHtml(s, games.filter((g) => g.section === s), i, mine)).join("")}</div>` : "";
+  }
+
+  // ---- Results ---------------------------------------------------------------
+  const ordinal = (n) => n + (["th", "st", "nd", "rd"][((n % 100) - 20) % 10] || ["th", "st", "nd", "rd"][n % 100] || "th");
+
+  // Top Gun's Random Pool Play tie-breaker, in order. `key` is the value build_site stores in `tiebreak`.
+  const TB_STEPS = [
+    { key: "record", label: "Record" },
+    { key: "head-to-head", label: "Head-to-head" },
+    { key: "runs allowed", label: "Runs allowed" },
+    { key: "runs scored", label: "Runs scored" },
+    { key: "last-game run diff", label: "Last-game diff" },
+    { key: "coin flip (unresolved)", label: "Coin flip" },
+  ];
+  const signed = (n) => (n > 0 ? "+" : "") + n;
+  function tiebreakPanels(rows) {
+    const groups = new Map();
+    rows.forEach((s) => { const k = poolRecord(s); if (!groups.has(k)) groups.set(k, []); groups.get(k).push(s); });
+    const tied = [...groups.entries()].filter(([, g]) => g.length > 1);
+    if (!tied.length) return "";
+    return `<div class="tb"><h4>Tie-breakers</h4>` + tied.map(([rec, g]) => {
+      g.sort((a, b) => a.rank - b.rank);
+      const used = new Set(g.map((s) => s.tiebreak));
+      const lastUsed = Math.max(...TB_STEPS.map((st, i) => (used.has(st.key) ? i : 0)));
+      const two = g.length === 2;
+      const met = two && (g[0].h2h[g[1].team] !== undefined);
+      const steps = TB_STEPS.map((st, i) => {
+        let state, note = "";
+        if (i === 0) { state = "tied"; note = `all ${rec}`; }
+        else if (i > lastUsed) { state = "idle"; note = "not needed"; }
+        else if (used.has(st.key)) { state = "used"; note = "decided"; }
+        else if (st.key === "head-to-head") { state = "skipped"; note = two ? (met ? "tied game" : "didn't play") : `${g.length} tied`; }
+        else { state = "tied"; note = "still tied"; }
+        return `<li class="tb-step ${state}"><b>${i + 1}</b><span>${st.label}</span><small>${note}</small></li>`;
+      }).join("");
+      const cell = (s, key, html) => `<td class="${key === "head-to-head" ? "from" : "num"} ${s.tiebreak === key ? "decisive" : ""}">${html}</td>`;
+      const h2hText = (s) => {
+        if (!two) return "—";
+        const opp = g[0] === s ? g[1] : g[0];
+        const r = s.h2h[opp.team];
+        return r === undefined ? "didn't play" : r === "W" ? `beat ${esc(opp.team)}` : r === "L" ? `lost to ${esc(opp.team)}` : `tied ${esc(opp.team)}`;
+      };
+      const lastText = (s) => s.last ? `${signed(s.last.rs - s.last.ra)} <span class="from">vs ${esc(s.last.opponent)}</span>` : "—";
+      return `<div class="tb-group">
+        <div class="tb-title">Tied at <b>${rec}</b> · ${g.length} teams</div>
+        <ol class="tb-steps">${steps}</ol>
+        <div class="table-wrap"><table>
+          <thead><tr><th class="num">Pool</th><th>Team</th><th>Head-to-head</th><th class="num">RA</th><th class="num">RS</th><th class="num">Last game</th></tr></thead>
+          <tbody>${g.map((s) => `<tr class="${norm(s.team) === ME ? "me" : ""}">
+            <td class="num">${s.rank}</td><td class="team-cell">${teamBtn(s.team)}</td>
+            ${cell(s, "head-to-head", h2hText(s))}${cell(s, "runs allowed", s.pool_ra)}${cell(s, "runs scored", s.pool_rs)}${cell(s, "last-game run diff", lastText(s))}
+          </tr>`).join("")}</tbody></table></div>
+      </div>`;
+    }).join("") + `</div>`;
+  }
+  function poolRecord(s) { return `${s.pool_w}-${s.pool_l}` + (s.pool_t ? `-${s.pool_t}` : ""); }
+  function standingsTable(rows, note = "") {
+    return `<div class="table-wrap"><table>
+      <thead><tr><th class="num">Pool</th><th>Team</th><th class="from">From</th><th class="num">W-L</th><th class="num">RA</th><th class="num">RS</th><th class="num">Diff</th><th>Bracket</th><th class="num">Overall</th><th>Decided by</th></tr></thead>
+      <tbody>${rows.map((s) => `<tr class="${norm(s.team) === ME ? "me" : ""}">
+        <td class="num">${s.rank}</td><td class="team-cell">${teamBtn(s.team)}</td><td class="from">${esc(s.location || "")}</td>
+        <td class="num">${poolRecord(s)}</td><td class="num">${s.pool_ra}</td><td class="num">${s.pool_rs}</td>
+        <td class="num ${s.pool_rs - s.pool_ra > 0 ? "pos" : s.pool_rs - s.pool_ra < 0 ? "neg" : ""}">${s.pool_rs - s.pool_ra > 0 ? "+" : ""}${s.pool_rs - s.pool_ra}</td>
+        <td class="from">${s.bracket ? esc(s.bracket.replace(/ bracket$/i, "")) + (s.seed ? ` #${s.seed}` : "") : "—"}</td>
+        <td class="num">${s.won}-${s.lost}</td>
+        <td class="from">${s.tiebreak === "record" ? "" : esc(s.tiebreak)}</td></tr>`).join("")}
+      </tbody></table></div>
+      ${tiebreakPanels(rows)}
+      <p class="when" style="padding:8px 16px 10px;margin:0">Pool rank uses Top Gun's tie-breaker: record, then head-to-head (two-way ties), runs allowed, runs scored, last-game run differential, coin flip — pool games only. Overall includes bracket games.${note} <a href="rules/tiebreakers.pdf" target="_blank" rel="noopener">Official rule (PDF)</a></p>`;
+  }
+  function renderResults() {
+    const evs = (D.my_events || []).slice().sort((a, b) => ((b.state === "live") - (a.state === "live")) || (b.date || "").localeCompare(a.date || ""));
+    if (!evs.length) {
+      $("#panel-results").innerHTML = `<h2 class="section-title">Results</h2><div class="event"><p class="empty">No games played yet.</p></div>`;
+      return;
+    }
+    $("#panel-results").innerHTML = `<h2 class="section-title">Results <span class="sub">${recordStr(R)} across ${evs.length} event${evs.length === 1 ? "" : "s"}, newest first</span></h2>` +
+      evs.map((e, i) => {
+        const games = D.my_games.filter((g) => g.event_id === e.id);
+        const s = e.standing;
+        let finish = "";
+        if (s) {
+          const bg = s.bracket_games || [];
+          const hasSeeds = e.standings.some((r) => r.seed);
+          const myDays = new Set(games.map((g) => g.day)), evDays = new Set(e.games.map((g) => g.day));
+          const onlyDay = myDays.size === 1 && evDays.size > 1 ? [...myDays][0] : null;
+          const bracketLine = bg.length
+            ? bg.map((b) => `${esc(b.section.replace(/ bracket$/i, ""))} ${b.result} ${b.rs}–${b.ra}`).join(", ")
+            : s.bracket ? esc(s.bracket) + (s.seed ? ` #${s.seed} seed` : "")
+            : hasSeeds ? `not seeded for brackets${onlyDay ? ` · played ${esc(onlyDay)} only` : ""}`
+            : "no bracket game";
+          finish = `<div class="finish"><b>${ordinal(s.rank)} of ${e.teams}${e.state === "live" ? " so far" : ""}</b><span>Pool ${poolRecord(s)} · ${bracketLine}</span></div>`;
+        }
+        const unseeded = e.standings.some((r) => r.seed) && e.standings.some((r) => !r.seed && !r.bracket);
+        const seedNote = unseeded ? " Teams without a bracket seed weren't in the Sunday brackets (a Saturday-only entry, for example); Pool rank still places them by record, so official seed numbers can differ from Pool rank." : "";
+        const nextKey = e.next_game ? gameKey(e.next_game) : null;
+        return `<details class="event ${e.state}" id="event-${e.id}" ${i === 0 || e.state === "live" ? "open" : ""}>
+          <summary class="event-head">${datebox(e.date)}
+            <div><h3>${esc(tidy(e.name))} ${e.state === "live" ? '<span class="stag live">Live</span>' : ""}</h3><div class="event-meta">${esc(e.dates)}${e.notes.length ? " · " + esc(e.notes.join(", ")) : ""}${e.state === "live" ? ` · <span class="refreshed">refreshed ${esc(D.built)}</span>` : ""}</div></div>
+            ${finish}
+          </summary>
+          ${e.state === "live" ? noticesHtml(e.tgs) : ""}
+          ${e.state === "live" && e.next_game ? `<div class="event-body" style="padding-bottom:0">${nextGameHtml(e, e.next_game)}</div>` : ""}
+          <div class="event-body"><ul class="games">${games.map((g) => `<li class="game ${g.result === "W" ? "won" : ""} ${nextKey && gameKey(g) === nextKey ? "next" : ""}">
+              ${g.result && g.gc_id ? `<button type="button" class="pill ${g.result} pill-link" data-goto="stats" data-box="${esc(g.gc_id)}" title="Box score">${g.result}</button>` : `<div class="pill ${g.result || "time"}">${g.result || esc(g.day)}</div>`}
+              <div><div class="opp">${/^(winner|loser|seed)/i.test(g.opponent) ? esc(g.opponent) : teamBtn(g.opponent)}${nextKey && gameKey(g) === nextKey ? '<span class="chg-pill next">next</span>' : ""}</div>
+                   <div class="when">${esc(g.section)} G${g.game} · ${esc(g.day)} ${esc(g.time)} · ${fieldHtml(g.field)}</div>
+                   ${g.gc_id ? `<div><button type="button" class="box-btn" data-goto="stats" data-box="${esc(g.gc_id)}">Box score →</button></div>` : ""}</div>
+              ${g.result && g.gc_id ? `<button type="button" class="score score-link" data-goto="stats" data-box="${esc(g.gc_id)}" title="Box score">${g.rs}–${g.ra}</button>` : `<div class="score">${g.result ? `${g.rs}–${g.ra}` : `<small>${esc(g.time)}</small>`}</div>`}
+            </li>`).join("")}</ul></div>
+          ${bracketsHtml(e.games, games)}
+          <details class="inner"><summary>Standings (${e.teams} teams)</summary>${standingsTable(e.standings, seedNote)}</details>
+          <div class="event-foot">${e.ics ? `<a href="${esc(e.ics)}" download title="The first game of each day starts 45 minutes early in your calendar (arrival time)">Add our games to your calendar</a>` : ""}<a href="${esc(e.url)}" target="_blank" rel="noopener">Brackets &amp; all games on Top Gun ↗</a>${tgsLink(e.tgs, e.id)}</div>
+        </details>`;
+      }).join("");
+  }
+
+  // ---- Standings (all teams) --------------------------------------------------
+  const COLS = [
+    { key: "team", label: "Team", num: false },
+    { key: "location", label: "From", num: false },
+    { key: "record", label: "W-L", num: true },
+    { key: "pct", label: "Pct", num: true },
+    { key: "rs", label: "RS", num: true },
+    { key: "ra", label: "RA", num: true },
+    { key: "diff", label: "Diff", num: true },
+    { key: "events", label: "Events", num: true },
+    { key: "points", label: "Points", num: true },
+    { key: "finishes", label: "Finishes", num: false },
+  ];
+  let sortKey = "pct", sortDir = -1, filter = "";
+  function sortedTeams() {
+    const q = norm(filter);
+    const rows = D.teams.filter((t) => !q || norm(t.team).includes(q) || norm(t.location).includes(q));
+    const val = (t) => sortKey === "record" ? t.w - t.l : sortKey === "pct" ? t.pct + t.diff / 1000
+      : sortKey === "points" ? (t.points || 0) : sortKey === "finishes" ? finishScore(t) : t[sortKey];
+    return rows.sort((a, b) => {
+      const x = val(a), y = val(b);
+      const c = typeof x === "number" ? x - y : String(x || "").localeCompare(String(y || ""));
+      return c * sortDir || a.team.localeCompare(b.team);
+    });
+  }
+  function renderStandings() {
+    const rows = sortedTeams();
+    const nEvents = new Set(D.teams.flatMap((t) => t.log.map((g) => g.event_id))).size;
+    const havePoints = D.teams.some((t) => t.finishes && t.finishes.length);
+    $("#panel-teams").innerHTML = `
+      <h2 class="section-title">${esc(D.division)} teams <span class="sub">${D.teams.length} teams across ${nEvents} events since Aug 1 · not a ranking — teams have played different events · sort any column, tap a team for its game log</span></h2>
+      <div class="toolbar"><label for="team-filter" class="visually-hidden" hidden>Search</label>
+        <input id="team-filter" type="search" placeholder="Search team or town" value="${esc(filter)}" autocomplete="off">
+        <span class="legend"><img class="mark-icon" src="logo.png" alt=""> played ${esc(D.team)} — hover the cap for the scores</span></div>
+      <div class="table-wrap"><table>
+        <thead><tr><th class="mark"></th>${COLS.map((c) => `<th class="sortable ${c.num ? "num" : ""}" data-key="${c.key}" aria-sort="${sortKey === c.key ? (sortDir < 0 ? "descending" : "ascending") : "none"}">${c.label}</th>`).join("")}</tr></thead>
+        <tbody>${rows.map((t, i) => { const v = vsUs(t); return `<tr class="${norm(t.team) === ME ? "me" : ""}">
+          <td class="mark">${v.n ? `<img class="mark-icon" src="logo.png" alt="played ${esc(D.team)}" title="${esc(vsTip(t))}">` : ""}</td>
+          <td class="team-cell">${teamBtn(t.team)}</td>
+          <td class="from">${esc(t.location || "")}</td>
+          <td class="num">${recordStr(t)}</td>
+          <td class="num">${t.pct.toFixed(3).replace(/^0/, "")}</td>
+          <td class="num">${t.rs}</td><td class="num">${t.ra}</td>
+          <td class="num ${t.diff > 0 ? "pos" : t.diff < 0 ? "neg" : ""}">${t.diff > 0 ? "+" : ""}${t.diff}</td>
+          <td class="num">${t.events}</td>
+          <td class="num">${t.finishes && t.finishes.length ? t.points : `<span class="from">${havePoints ? "—" : ""}</span>`}</td>
+          <td class="chips">${topFinishes(t).map(([standing, n, d]) => chip(standing, n, d)).join("")}</td></tr>`; }).join("")}
+        ${rows.length ? "" : `<tr><td colspan="11" class="empty">No team matches “${esc(filter)}”.</td></tr>`}
+        </tbody></table></div>
+      ${havePoints ? `<p class="when">Points and finishes come from each team's Top Gun statistics page (season from Aug 1). Finishes show 1st and 2nd places by bracket, with a count when it happened more than once; a dashed chip is a finish taken from the bracket results because Top Gun hasn't posted it yet.</p>` : ""}`;
+    const input = $("#team-filter");
+    input.addEventListener("input", () => { filter = input.value; const pos = input.selectionStart; renderStandings(); const el = $("#team-filter"); el.focus(); el.setSelectionRange(pos, pos); });
+    document.querySelectorAll("#panel-teams th.sortable").forEach((th) => th.addEventListener("click", () => {
+      const k = th.dataset.key;
+      if (sortKey === k) sortDir = -sortDir; else { sortKey = k; sortDir = COLS.find((c) => c.key === k).num ? -1 : 1; }
+      renderStandings();
+    }));
+  }
+
+  // ---- Fields ------------------------------------------------------------------
+  function renderFields() {
+    // Every game of ours per complex: played (from results) and upcoming (from posted schedules)
+    const played = {}, upcoming = {};
+    (D.my_games || []).forEach((g) => {
+      const f = fieldParts(g.field);
+      (g.result ? played : upcoming)[f.abbr] = ((g.result ? played : upcoming)[f.abbr] || []).concat([{ ...g, sub: f.sub, event: g.event }]);
+    });
+    (D.tournaments || []).filter((e) => e.state !== "final").forEach((e) => e.games.forEach((g) => {
+      const isA = norm(g.team_a) === ME;
+      if (!isA && norm(g.team_b) !== ME) return;
+      if (g.score_a != null && g.score_b != null) return;
+      const f = fieldParts(g.field);
+      upcoming[f.abbr] = (upcoming[f.abbr] || []).concat([{ date: g.date, day: g.day, time: g.time, opponent: isA ? g.team_b : g.team_a, section: g.section, game: g.game, sub: f.sub, event: e.name }]);
+    }));
+    const fmtDate = (d) => { const x = iso(d); return x ? `${MONTHS[x.getMonth()]} ${x.getDate()}` : ""; };
+    const tier = (abbr) => upcoming[abbr] ? 0 : played[abbr] ? 1 : 2;
+    const entries = Object.entries(D.fields).sort((a, b) => tier(a[0]) - tier(b[0]) || a[1].name.localeCompare(b[1].name));
+    const nUp = Object.keys(upcoming).length, nPl = Object.keys(played).length;
+    $("#panel-fields").innerHTML = `<h2 class="section-title">Fields <span class="sub">every complex Top Gun uses around Charlotte · ${nUp ? `${nUp} with upcoming games, ` : ""}${nPl} we've played at</span></h2>
+      <div class="fields">${entries.map(([abbr, f]) => {
+        const up = (upcoming[abbr] || []).slice().sort((a, b) => (a.date || "").localeCompare(b.date || "") || clock(a.time) - clock(b.time));
+        const pl = (played[abbr] || []).slice().sort((a, b) => (b.date || "").localeCompare(a.date || ""));
+        const tag = up.length ? '<span class="ftag up">Upcoming</span>' : pl.length ? '<span class="ftag">Played here</span>' : "";
+        return `<div class="field ${up.length ? "has-up" : pl.length ? "has-played" : ""}">
+          <div class="fhead"><div><div class="abbr">${esc(abbr)}</div><h3>${esc(f.name)}</h3></div>${tag}</div>
+          <p>${f.address ? `${esc(f.address)} · <a href="${mapsUrl(f.address)}" target="_blank" rel="noopener">Maps ↗</a>` : "Address not listed on Top Gun — add it in fields.json"}</p>
+          ${up.length ? `<ul class="fgames">${up.map((g) => `<li><span class="pill time">${esc(g.day)}</span><div><b>${esc(g.time)} vs ${/^(winner|loser|seed)/i.test(g.opponent) ? esc(g.opponent) : teamBtn(g.opponent)}</b><div class="when">${fmtDate(g.date)} · ${esc(g.sub || "")} · ${esc(tidy(g.event))}</div></div></li>`).join("")}</ul>` : ""}
+          ${pl.length ? `<ul class="fgames">${pl.map((g) => `<li><span class="pill ${g.result}">${g.result}</span><div><b>${g.rs}–${g.ra} vs ${teamBtn(g.opponent)}</b><div class="when">${fmtDate(g.date)} · ${esc(g.sub || "")} · ${esc(tidy(g.event))}</div></div></li>`).join("")}</ul>` : ""}
+          ${!up.length && !pl.length ? `<div class="when">No ${esc(D.team)} games here yet.</div>` : ""}
+        </div>`;
+      }).join("")}</div>`;
+  }
+  const clock = (t) => { const m = /(\d+):(\d+)\s*(AM|PM)/i.exec(t || ""); if (!m) return 0; let h = +m[1] % 12; if (/pm/i.test(m[3])) h += 12; return h * 60 + +m[2]; };
+
+  // ---- Team sheet --------------------------------------------------------------
+  function openTeam(name) {
+    const t = D.teams.find((x) => norm(x.team) === norm(name));
+    if (!t) return;
+    const h2h = t.log.filter((g) => norm(g.opponent) === ME);
+    const sheet = $("#sheet");
+    sheet.innerHTML = `<div class="sheet-back"><div class="sheet" role="dialog" aria-modal="true" aria-label="${esc(t.team)}">
+      <div class="sheet-head"><div><h2>${esc(t.team)}</h2><div class="sub">${esc(t.location || "")}${t.url ? ` · <a style="color:inherit" href="${esc(t.url)}" target="_blank" rel="noopener">Top Gun page ↗</a>` : ""}</div></div>
+        <button type="button" class="close" aria-label="Close">×</button></div>
+      <div class="sheet-body">
+        <div class="record">
+          <div class="stat big"><b>${recordStr(t)}</b><span>${t.events} event${t.events === 1 ? "" : "s"}</span></div>
+          <div class="stat"><b>${t.rs}</b><span>Runs for</span></div>
+          <div class="stat"><b>${t.ra}</b><span>Against</span></div>
+          <div class="stat"><b class="${t.diff > 0 ? "pos" : t.diff < 0 ? "neg" : ""}">${t.diff > 0 ? "+" : ""}${t.diff}</b><span>Diff</span></div>
+          ${t.finishes && t.finishes.length ? `<div class="stat"><b>${t.points}</b><span>Points</span></div>` : ""}
+        </div>
+        ${norm(t.team) === ME ? "" : `<div class="h2h"><h3>vs ${esc(D.team)}</h3>${h2h.length ? `<ul class="games">${h2h.map((g) => {
+          const mine = g.result === "W" ? "L" : g.result === "L" ? "W" : "T";
+          return `<li class="game"><div class="pill ${mine}">${mine}</div><div><div class="opp">${esc(D.team)} ${mine === "W" ? "won" : mine === "L" ? "lost" : "tied"}</div><div class="when">${esc(g.date)} · ${esc(tidy(g.event))} · ${esc(g.section)}</div></div><div class="score">${g.ra}–${g.rs}</div></li>`;
+        }).join("")}</ul>` : `<div class="when">Haven't met yet.</div>`}</div>`}
+        ${t.finishes && t.finishes.length ? `<div class="h2h"><h3>Season on Top Gun <span class="when">${esc(t.season || "")}</span></h3>
+          <div class="table-wrap" style="border:0"><table>
+            <thead><tr><th>Date</th><th>Event</th><th class="num">W-L</th><th>Finish</th><th class="num">Points</th></tr></thead>
+            <tbody>${t.finishes.map((f) => `<tr><td>${esc(f.date)}</td><td class="wrap">${esc(tidy(f.name))}</td><td class="num">${f.won}-${f.lost}</td><td>${chip(f.standing, 1, !!f.derived) || '<span class="from">—</span>'}</td><td class="num">${f.derived ? '<span class="from">not posted</span>' : (f.points || "")}</td></tr>`).join("")}</tbody>
+          </table></div></div>` : ""}
+        <div class="event"><div class="event-body"><ul class="games">${t.log.map((g) => `<li class="game">
+            <div class="pill ${g.result}">${g.result}</div>
+            <div><div class="opp">${teamBtn(g.opponent)}</div><div class="when">${esc(g.date)} · ${esc(g.section)} · ${esc(tidy(g.event))}</div></div>
+            <div class="score">${g.rs}–${g.ra}</div></li>`).join("")}</ul></div></div>
+      </div></div></div>`;
+    sheet.hidden = false;
+    document.body.style.overflow = "hidden";
+    sheet.querySelector(".close").focus();
+    sheet.querySelector(".sheet-back").addEventListener("click", (e) => { if (e.target === e.currentTarget) closeTeam(); });
+    sheet.querySelector(".close").addEventListener("click", closeTeam);
+  }
+  function closeTeam() { $("#sheet").hidden = true; $("#sheet").innerHTML = ""; document.body.style.overflow = ""; }
+  document.addEventListener("keydown", (e) => { if (e.key === "Escape" && !$("#sheet").hidden) closeTeam(); });
+
+  // Tap-to-show details for the cap icons (phones have no hover); tap anywhere else to close.
+  const tip = $("#tip");
+  function showTip(el, text) {
+    tip.textContent = text;
+    tip.hidden = false;
+    const r = el.getBoundingClientRect(), pad = 8;
+    tip.style.left = "0px"; tip.style.top = "0px";
+    const w = Math.min(tip.offsetWidth, window.innerWidth - 2 * pad);
+    let left = Math.min(Math.max(pad, r.left + r.width / 2 - w / 2), window.innerWidth - w - pad);
+    let top = r.bottom + 8;
+    if (top + tip.offsetHeight > window.innerHeight - pad) top = r.top - tip.offsetHeight - 8;
+    tip.style.left = left + "px"; tip.style.top = Math.max(pad, top) + "px";
+    tip.classList.toggle("above", top < r.top);
+  }
+  const hideTip = () => { if (!tip.hidden) { tip.hidden = true; tip.classList.remove("above"); } };
+  document.addEventListener("click", (e) => {
+    const mark = e.target.closest(".mark-icon, .vs-icon, .vs-mark image");
+    if (mark) {
+      const g = mark.closest(".vs-mark");
+      const text = g ? (g.querySelector("title") || {}).textContent : mark.getAttribute("title");
+      if (text) { e.preventDefault(); e.stopPropagation(); showTip(mark, text); return; }
+    }
+    hideTip();
+  }, true);
+  window.addEventListener("scroll", hideTip, { passive: true });
+  document.addEventListener("keydown", (e) => { if (e.key === "Escape") hideTip(); });
+  document.addEventListener("click", (e) => {
+    const go = e.target.closest("[data-goto]");
+    if (go) {
+      showTab(go.dataset.goto, true);
+      const target = go.dataset.event ? document.getElementById("event-" + go.dataset.event) : go.dataset.box ? document.getElementById("box-" + go.dataset.box) : null;
+      if (target) {
+        if (target.tagName === "DETAILS") target.open = true;
+        target.querySelectorAll("details.boxscore").forEach((d) => { d.open = true; });
+        target.scrollIntoView({ behavior: "smooth", block: "start" });
+      } else window.scrollTo({ top: 0, behavior: "smooth" });
+      return;
+    }
+    const b = e.target.closest("[data-team]");
+    if (b) { closeTeam(); openTeam(b.dataset.team); }
+  });
+
+  // ---- Tabs ---------------------------------------------------------------------
+  const TABS = ["tournaments", "results", "roster", "stats", "teams", "fields"];
+  const TAB_ALIAS = { standings: "teams", next: "tournaments" };
+  const HIDDEN_TABS = ["admin"];   // reachable by direct link only, never listed
+  function showTab(name, push) {
+    name = TAB_ALIAS[name] || name;
+    if (!TABS.includes(name) && !HIDDEN_TABS.includes(name)) name = "tournaments";
+    document.querySelectorAll(".tab").forEach((t) => t.setAttribute("aria-selected", String(t.dataset.tab === name)));
+    [...TABS, ...HIDDEN_TABS].forEach((t) => { $("#panel-" + t).hidden = t !== name; });
+    if (push && location.hash !== "#" + name) history.pushState(null, "", "#" + name);
+    if (!HIDDEN_TABS.includes(name)) { try { localStorage.setItem("elite9.tab", name); } catch (_) {} }
+  }
+  $("#tabs").addEventListener("click", (e) => { const b = e.target.closest(".tab"); if (b) showTab(b.dataset.tab, true); });
+  window.addEventListener("hashchange", () => showTab(location.hash.slice(1), false));
+
+  // ---- Roster ------------------------------------------------------------------
+  function renderRoster() {
+    const r = D.roster || { players: [] };
+    if (!r.players.length) {
+      $("#panel-roster").innerHTML = `<h2 class="section-title">Roster</h2><div class="event"><p class="empty">No roster yet — run <code>python topgun_roster.py</code>.</p></div>`;
+      return;
+    }
+    const dups = r.duplicate_numbers || {};
+    // Achievement chips: icon + count, lit when earned. Icons are tiny inline SVGs (24x24 viewBox).
+    const ICON = {
+      hr: '<svg viewBox="0 0 24 24"><circle cx="14" cy="12" r="6.5" fill="currentColor"/><path d="M10.5 7.5c2 1.2 3 3 3 4.5s-1 3.3-3 4.5M17.5 7.5c-2 1.2-3 3-3 4.5s1 3.3 3 4.5" stroke="var(--paper)" stroke-width="1.2" fill="none"/><path d="M2 9h5M1 12h5M2 15h5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>',
+      perfect_games: '<svg viewBox="0 0 24 24"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4 6.1 20.5l1.2-6.5L2.5 9.4l6.6-.9z" fill="currentColor"/></svg>',
+      no_hitters: '<svg viewBox="0 0 24 24"><path d="M12 2l8 3v6c0 5-3.4 9.2-8 11-4.6-1.8-8-6-8-11V5z" fill="currentColor"/><path d="M8.5 12.5l2.5 2.5 4.5-5" stroke="var(--paper)" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+      shutouts: '<svg viewBox="0 0 24 24"><rect x="4" y="10" width="16" height="11" rx="2" fill="currentColor"/><path d="M8 10V7a4 4 0 018 0v3" stroke="currentColor" stroke-width="2.2" fill="none"/><circle cx="12" cy="15.5" r="1.6" fill="var(--paper)"/></svg>',
+    };
+    const ACH = [["hr", "Home run", "Home runs"], ["perfect_games", "Perfect game", "Perfect games"], ["no_hitters", "No-hitter", "No-hitters"], ["shutouts", "Shutout", "Shutouts"]];
+    const achRow = (p) => `<div class="ach">${ACH.map(([k, one, many]) => {
+      const n = p[k] || 0;
+      return `<span class="ach-item ${n ? "earned" : ""}" title="${many}">${ICON[k]}<b>${n}</b><i>${n === 1 ? one : many}</i></span>`;
+    }).join("")}</div>`;
+    // The team's pin-back buttons: navy disc, steel-blue varsity number with a white outline,
+    // first name in script up the left side. A real photo in docs/buttons/<number>.png wins when present.
+    const badge = (p) => {
+      if (p.button_photo) return `<img class="btn-img" src="${esc(p.button_photo)}" alt="#${p.number} button" loading="lazy">`;
+      const num = p.number != null ? String(p.number) : "";
+      const size = num.length > 1 ? 46 : 56;
+      const first = esc((p.name || "").split(" ")[0]);
+      return `<svg class="btn" viewBox="0 0 100 100" role="img" aria-label="#${num} ${first}">
+        <defs><radialGradient id="g${p.number}" cx="35%" cy="28%" r="70%"><stop offset="0" stop-color="#ffffff" stop-opacity=".22"/><stop offset=".55" stop-color="#ffffff" stop-opacity="0"/></radialGradient></defs>
+        <circle cx="50" cy="50" r="48" fill="#1a2440" stroke="#0b1020" stroke-width="1.5"/>
+        <text x="${num.length > 1 ? 58 : 56}" y="${num.length > 1 ? 67 : 70}" text-anchor="middle" font-family="Graduate, 'Arial Black', Impact, sans-serif" font-size="${size}" fill="#5f84bd" stroke="#ffffff" stroke-width="2.2" paint-order="stroke" letter-spacing="-2">${num || "–"}</text>
+        <text transform="translate(24 78) rotate(-90)" font-family="'Kaushan Script', 'Brush Script MT', cursive" font-size="13" fill="#ffffff" stroke="#5f84bd" stroke-width=".35" paint-order="stroke">${first}</text>
+        <circle cx="50" cy="50" r="48" fill="url(#g${p.number})"/>
+      </svg>`;
+    };
+    $("#panel-roster").innerHTML = `
+      <h2 class="section-title">Roster <span class="sub">${r.players.length} active players · Top Gun ${esc(r.season || "current season")}</span></h2>
+      <ul class="roster">${r.players.map((p) => `<li class="player ${p.number != null && dups[p.number] ? "dup" : ""}">
+        ${badge(p)}
+        <div class="pbody"><div class="pname">${esc(p.name)}</div>${achRow(p)}</div>
+      </li>`).join("")}</ul>
+      <p class="when">Home runs, perfect games, no-hitters and shutouts as recorded on Top Gun this season — a chip lights up once it's been earned.</p>
+      ${Object.keys(dups).length ? `<p class="when">Number ${Object.keys(dups).map((n) => `#${n} (${esc(dups[n].join(", "))})`).join(", ")} appears twice on the board — fix in roster.json.</p>` : ""}
+      ${r.not_on_topgun && r.not_on_topgun.length ? `<p class="when">In roster.json but not an active Top Gun player: ${esc(r.not_on_topgun.join(", "))}.</p>` : ""}
+      <p class="when">Players and season stats from ${D.team_url ? `<a href="${esc(D.team_url)}" target="_blank" rel="noopener">${esc(D.team)}'s Top Gun page</a>` : "Top Gun"} (active players only${r.inactive ? `, ${r.inactive} former players not shown` : ""}); jersey numbers from the team's board.</p>`;
+  }
+
+  // ---- Stats (unlisted page: #stats) ---------------------------------------------
+  const nkey = (n) => norm(String(n || "").replace(/\./g, ""));
+  const ipThirds = (v) => { if (v == null || v === "") return 0; const n = +v; if (isNaN(n)) return 0; if (Number.isInteger(n * 3) || Math.abs(n * 3 - Math.round(n * 3)) < 0.01) return Math.round(n * 3); const w = Math.floor(n), d = Math.round((n - w) * 10); return w * 3 + d; };
+  const ipText = (thirds) => `${Math.floor(thirds / 3)}.${thirds % 3}`;
+  function seasonTable(t) {
+    if (!t) return '<p class="empty">Not captured.</p>';
+    return `<div class="table-wrap"><table class="box season"><thead><tr><th>Player</th>${t.columns.map((c) => `<th class="num">${esc(c)}</th>`).join("")}</tr></thead>
+      <tbody>${t.players.map((p) => `<tr><td class="pl"><span class="jersey">${p.number != null ? p.number : ""}</span>${esc(p.player)}</td>${t.columns.map((c) => `<td class="num">${p[c] != null ? esc(String(p[c])) : ""}</td>`).join("")}</tr>`).join("")}
+      ${t.totals && t.columns.some((c) => t.totals[c] != null) ? `<tr class="tot"><td>Team</td>${t.columns.map((c) => `<td class="num">${t.totals[c] != null ? esc(String(t.totals[c])) : ""}</td>`).join("")}</tr>` : ""}</tbody></table></div>`;
+  }
+  function reconcile(games, season) {
+    // sum every box score per player and compare with GameChanger's season totals
+    const bat = {}, pit = {};
+    // players are keyed by jersey number when they have one (GameChanger sometimes shows a full
+    // name in the season table and an initial in the box score); GP counts games with a plate appearance
+    const pkey = (p) => p.number != null ? "#" + p.number : nkey(p.name || p.player);
+    games.forEach((g) => {
+      (g.lineup ? g.lineup.players : []).forEach((p) => { const k = pkey(p); const r = bat[k] = bat[k] || { name: p.name, number: p.number, GP: 0, AB: 0, R: 0, H: 0, RBI: 0, BB: 0, SO: 0 }; const ex = p.extra || {}; if ((p.AB || 0) + (p.BB || 0) + (ex.HBP || 0) + (ex.SF || 0) + (ex.SAC || 0) > 0) r.GP++; ["AB", "R", "H", "RBI", "BB", "SO"].forEach((c) => { r[c] += p[c] || 0; }); });
+      (g.pitching ? g.pitching.players : []).forEach((p) => { const k = pkey(p); const r = pit[k] = pit[k] || { name: p.name, number: p.number, GP: 0, IP3: 0, H: 0, R: 0, ER: 0, BB: 0, SO: 0 }; r.GP++; r.IP3 += ipThirds(p.IP); ["H", "R", "ER", "BB", "SO"].forEach((c) => { r[c] += p[c] || 0; }); });
+    });
+    const sb = (season && season.batting && season.batting.standard) || { players: [] };
+    const sp = (season && season.pitching && season.pitching.standard) || { players: [] };
+    const cmp = (boxRows, seasonRows, cols, fmt) => {
+      const names = new Map();
+      Object.entries(boxRows).forEach(([k, r]) => names.set(k, { box: r }));
+      seasonRows.players.forEach((r) => { const k = pkey(r); (names.get(k) || names.set(k, {}).get(k)).season = r; });
+      let issues = 0;
+      const rows = [...names.values()].sort((a, b) => ((a.box || a.season).number || 99) - ((b.box || b.season).number || 99)).map(({ box, season }) => {
+        const name = box ? box.name : season.player, number = box ? box.number : season.number;
+        const cells = cols.map((c) => {
+          const bv = box ? (c === "IP" ? box.IP3 : box[c]) : null;
+          const sv = season ? (c === "IP" ? ipThirds(season[c]) : season[c]) : null;
+          const ok = bv === sv || (bv == null && !sv) || (sv == null && !bv);
+          const soft = c === "GP";   // GameChanger counts GP its own way (subs, courtesy runners); show, don't flag
+          if (!ok && !soft) issues++;
+          return `<td class="num ${ok ? "" : soft ? "soft" : "neg bad"}">${fmt(c, bv)}<span class="vs">/${fmt(c, sv)}</span></td>`;
+        }).join("");
+        return `<tr><td class="pl"><span class="jersey">${number != null ? number : ""}</span>${esc(name)}</td>${cells}</tr>`;
+      }).join("");
+      return { rows, issues };
+    };
+    const fmtB = (c, v) => v == null ? "–" : v;
+    const fmtP = (c, v) => v == null ? "–" : c === "IP" ? ipText(v) : v;
+    const b = cmp(bat, sb, ["GP", "AB", "R", "H", "RBI", "BB", "SO"], fmtB);
+    const pr = cmp(pit, sp, ["GP", "IP", "H", "R", "ER", "BB", "SO"], fmtP);
+    const table = (cols, rows) => `<div class="table-wrap"><table class="box recon"><thead><tr><th>Player</th>${cols.map((c) => `<th class="num">${c}</th>`).join("")}</tr></thead><tbody>${rows}</tbody></table></div>`;
+    return { batting: table(["GP", "AB", "R", "H", "RBI", "BB", "SO"], b.rows), pitching: table(["GP", "IP", "H", "R", "ER", "BB", "SO"], pr.rows), issues: b.issues + pr.issues };
+  }
+  function renderStats() {
+    const gc = D.gc || {}; const games = gc.games || []; const season = gc.season && gc.season.stats;
+    if (!games.length && !season) { $("#panel-stats").innerHTML = `<h2 class="section-title">Stats</h2><div class="event"><p class="empty">No GameChanger data yet — run gc_stats.py and commit data/gc.</p></div>`; return; }
+    const cats = ["batting", "pitching", "fielding"], views = ["standard", "advanced"];
+    let cat = "batting", view = "standard";
+    const draw = () => {
+      $("#panel-stats").innerHTML = `
+        <h2 class="section-title">Stats <span class="sub">from GameChanger · ${games.length} box scores${gc.season && gc.season.fetched_at ? ` · season tables as of ${esc(fmtSeen(gc.season.fetched_at))}` : ""}</span></h2>
+        ${season ? `<div class="event"><div class="event-body">
+          <div class="statbar">${cats.map((c) => `<button type="button" class="tab-pill ${c === cat ? "on" : ""}" data-cat="${c}">${c[0].toUpperCase() + c.slice(1)}</button>`).join("")}<span class="gap"></span>${views.map((v) => `<button type="button" class="tab-pill ${v === view ? "on" : ""}" data-view="${v}">${v[0].toUpperCase() + v.slice(1)}</button>`).join("")}</div>
+          ${seasonTable(season[cat] && season[cat][view])}</div></div>` : ""}
+        <h2 class="section-title">Box scores <span class="sub">every game, newest first</span></h2>
+        ${games.slice().reverse().map((g) => `<div class="event" id="box-${esc(g.id)}"><div class="event-body">
+          <div class="opp">${g.score ? `<span class="pill ${g.score.team > g.score.opponent_team ? "W" : g.score.team < g.score.opponent_team ? "L" : "T"}" style="display:inline-block;width:36px;margin-right:8px">${g.score.team > g.score.opponent_team ? "W" : g.score.team < g.score.opponent_team ? "L" : "T"}</span>` : ""}${esc(D.team)} ${g.score ? `${g.score.team}–${g.score.opponent_team}` : ""} ${g.home_away === "away" ? "at" : "vs"} ${esc(g.opponent || "")}</div>
+          <div class="when">${esc(fmtDate(g.date))}${g.time ? " · " + esc(g.time) : ""}${g.topgun ? ` · ${esc(g.topgun.section)} G${g.topgun.game} · ${esc(tidy(g.topgun.event))}` : " · not matched to a Top Gun game"}</div>
+          ${boxScoreHtml(g)}</div></div>`).join("")}
+        `;
+      $("#panel-stats").querySelectorAll("[data-cat]").forEach((b) => b.addEventListener("click", () => { cat = b.dataset.cat; draw(); }));
+      $("#panel-stats").querySelectorAll("[data-view]").forEach((b) => b.addEventListener("click", () => { view = b.dataset.view; draw(); }));
+    };
+    draw();
+  }
+  const fmtDate = (d) => { const x = iso(d); return x ? `${["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"][x.getDay()]} ${MONTHS[x.getMonth()]} ${x.getDate()}` : (d || ""); };
+
+  // ---- Admin (unlisted page: #admin) -------------------------------------------
+  function renderAdmin() {
+    const gc = D.gc || {}; const games = gc.games || []; const season = gc.season && gc.season.stats;
+    const rec = (games.length || season) ? reconcile(games, season) : null;
+    const rows = [
+      ["Site built", D.built],
+      ["Today (per the bot)", D.today],
+      ["GameChanger box scores", `${games.length} games` + (games.length ? `, newest ${esc(fmtDate(games[games.length - 1].date))}` : "")],
+      ["GameChanger season tables", gc.season && gc.season.fetched_at ? fmtSeen(gc.season.fetched_at) : "not captured"],
+      ["Top Gun roster page", D.roster && D.roster.fetched_at ? fmtSeen(D.roster.fetched_at) : "—"],
+      ["Tournaments listed", (D.tournaments || []).map((t) => `${t.id} ${t.state}`).join(", ")],
+      ["Teams in the table", `${(D.teams || []).length}`],
+    ];
+    $("#panel-admin").innerHTML = `
+      <h2 class="section-title">Admin <span class="sub">unlisted page · plumbing checks</span></h2>
+      <div class="event"><div class="event-body"><h4 class="minor">Data status</h4><div class="table-wrap"><table class="box">
+        <tbody>${rows.map(([k, v]) => `<tr><td class="pl">${esc(k)}</td><td>${v}</td></tr>`).join("")}</tbody></table></div></div></div>
+      ${rec ? `<h2 class="section-title">Check <span class="sub">box scores added up / GameChanger season totals${rec.issues ? ` · <b class="neg">${rec.issues} difference${rec.issues > 1 ? "s" : ""}</b>` : " · everything matches"}</span></h2>
+      <div class="event"><div class="event-body"><h4 class="minor">Batting</h4>${rec.batting}<h4 class="minor">Pitching</h4>${rec.pitching}
+        <p class="when">Each cell is the sum of the box scores / the season table. A red cell means GameChanger's season total differs from the games captured here — usually a game missing from one side, or a stat corrected after the box score was saved. Re-run gc_stats.py with --refresh to pick up corrections. GP is shown but not flagged: GameChanger counts games its own way.</p></div></div>` : ""}
+      ${D.roster && (D.roster.not_on_topgun || []).length ? `<div class="event"><p class="empty">In roster.json but not an active Top Gun player: ${esc(D.roster.not_on_topgun.join(", "))}</p></div>` : ""}`;
+  }
+
+  renderNext(); renderResults(); renderStandings(); renderFields(); renderRoster(); renderStats(); renderAdmin();
+  let start = location.hash.slice(1);
+  if (!start) { try { start = localStorage.getItem("elite9.tab") || ""; } catch (_) {} }
+  showTab(start || "tournaments", false);
+})();
+</script>
+</body>
+</html>

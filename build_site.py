@@ -843,6 +843,7 @@ def main():
     ap.add_argument("--upcoming", default="upcoming.json")
     ap.add_argument("--out", default="docs")
     ap.add_argument("--today", default=None, help="YYYY-MM-DD, to preview how the page looks on another day")
+    ap.add_argument("--final", action="store_true", help="the season is over: the page shows a season-complete notice and reads as a record")
     args = ap.parse_args()
 
     global DATA_DIR
@@ -858,6 +859,8 @@ def main():
     site["division"] = args.division
     site["today"] = args.today or date.today().isoformat()
     site["season_label"] = args.season
+    if args.final:
+        site["final"] = True
 
     (out / "data.json").write_text(json.dumps(site, indent=1), encoding="utf-8")
     # data.js lets index.html work from a plain double-click (file://) as well as on GitHub Pages

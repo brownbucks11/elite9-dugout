@@ -205,6 +205,7 @@ def main():
     ap.add_argument("--discover-days", type=int, default=21, help="how far ahead discovery looks")
     ap.add_argument("--city", action="append", default=[], help="discovery city filter (default: Charlotte area)")
     ap.add_argument("--teams", action="store_true", help="also refresh every team's statistics page (points, finishes)")
+    ap.add_argument("--final", action="store_true", help="season over: build the page as a record (season-complete notice)")
     args = ap.parse_args()
 
     sys.stdout.reconfigure(line_buffering=True)
@@ -229,7 +230,7 @@ def main():
         r = subprocess.run([py, str(HERE / "topgun_roster.py")], cwd=HERE)
         if r.returncode:
             print("roster fetch had errors; continuing")
-    r = subprocess.run([py, str(HERE / "build_site.py"), "--team", args.team, "--division", args.division], cwd=HERE)
+    r = subprocess.run([py, str(HERE / "build_site.py"), "--team", args.team, "--division", args.division, *(["--final"] if args.final else [])], cwd=HERE)
     return r.returncode
 
 

@@ -12,6 +12,35 @@ your own PC (see below).
 
 ---
 
+## Off-season (Fall 2026 is over — Nov 9, 2026)
+
+The fall season ended Nov 8, 2026 and the site is **frozen as a record**: the live page shows a
+"Fall 2026 is in the books" notice and nothing updates. Three things hold the snapshot:
+
+- `docs/archive/fall-2026/` — a self-contained copy of the final page (`index.html`, `data.js`,
+  logo, tie-breaker PDF) at https://brownbucks11.github.io/elite9-dugout/archive/fall-2026/.
+  It stays exactly as it is when the live page moves on to the next season.
+- git tag `fall-2026-final` — the whole repo (raw Top Gun pages, GameChanger captures) at that moment.
+- the bot's `schedule:` block in `.github/workflows/refresh.yml` is commented out, so nothing
+  fetches or commits. "Run workflow" still works and defaults to `final: true` (the record view).
+
+### Season rollover (spring)
+1. `upcoming.json` → `[]`, then add the new tournaments with `tournament.py --add`.
+2. `build_site.py`: change the `--since` default to the new season's start (Top Gun's "Current
+   Season" boundary), `--season` to e.g. `"Spring 2027"`, `--year` to 2027. Check `roster.json`.
+3. `.github/workflows/refresh.yml`: uncomment the `schedule:` block and set the `final` input's
+   default to `false`. Cron is UTC: shift the hours when clocks change (EST → EDT in March).
+4. Old `data/*.html|json` from the fall can stay (the `--since` cutoff hides them) or be moved aside.
+5. Add a link to the fall archive somewhere on the page (footer or Tournaments tab) so parents
+   can still find it: `archive/fall-2026/`.
+6. Push, run the workflow once by hand (`teams: true`) and check the page.
+
+To freeze a future season the same way: `python build_site.py --final`, copy `docs/index.html`,
+`data.js`, `data.json`, `logo.*` and `rules/` into `docs/archive/<season>/`, comment out the
+schedule, tag, push.
+
+---
+
 ## Routines
 
 ### Nothing to do most of the time
